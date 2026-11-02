@@ -26,12 +26,21 @@ def _client(config):
                                   config["request_timeout_seconds"], budget)
 
 
-def _profile_payload(profile, components):
+def _profile_payload(profile, components, protocol="separated"):
     enabled = set(components)
     result = {"user_id": profile["user_id"]}
-    mapping = {"history": "interaction_history", "persona": "persona_summary",
-               "social_traits": "social_traits",
-               "demographics": "demographics"}
+    mapping = {"history": "interaction_history", "unique_tastes": "unique_tastes",
+               "social_traits": "social_traits", "demographics": "demographics"}
+    legacy_summary = None
+    if protocol == "legacy_combined":
+        mapping.pop("unique_tastes")
+        mapping.pop("social_traits")
+        if enabled.intersection({"unique_tastes", "social_traits"}):
+            if "legacy_persona_summary" not in profile:
+                raise ValueError("legacy_combined requires an imported legacy persona summary")
+            legacy_summary = profile["legacy_persona_summary"]
+    elif protocol != "separated":
+        raise ValueError(f"Unknown profile protocol: {protocol}")
     for component, field in mapping.items():
         if component in enabled and field in profile:
             if field == "interaction_history":
@@ -41,6 +50,8 @@ def _profile_payload(profile, components):
                                  for movie in profile[field]]
             else:
                 result[field] = profile[field]
+    if legacy_summary is not None:
+        result["persona_summary"] = legacy_summary
     return result
 
 
@@ -63,7 +74,8 @@ def run(config, bundle_path, profiles_path, resume=None, case_limit=None):
 
     def one(model, user):
         candidate = bundle.candidates[(model, user)]
-        profile = _profile_payload(profiles[user], config["profile_components"])
+        profile = _profile_payload(profiles[user], config["profile_components"],
+                                   config["profile_protocol"])
         actions, calls = agent.simulate(profile, candidate, bundle.catalog)
         return {"model": model, "user_id": user, "actions": actions,
                 "profile_hash": stable_hash(profile), "candidate_hash": stable_hash(candidate)}, calls

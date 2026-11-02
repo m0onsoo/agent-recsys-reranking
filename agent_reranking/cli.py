@@ -34,7 +34,7 @@ def _components(args, fallback=None):
 
 def _common_profile_flags(parser, default="all"):
     parser.add_argument("--profile-components", default=default,
-                        help="all or comma-separated history,persona,social_traits,demographics")
+                        help="all or comma-separated history,unique_tastes,social_traits,demographics")
     for component in PROFILE_COMPONENTS:
         parser.add_argument("--no-use-" + component.replace("_", "-"), action="store_true")
 
@@ -99,6 +99,7 @@ def main(argv=None):
     execute.add_argument("--llm-provider", choices=("mock", "openai_compatible"))
     execute.add_argument("--llm-model")
     execute.add_argument("--output-root")
+    execute.add_argument("--profile-protocol", choices=("separated", "legacy_combined"))
     _common_profile_flags(execute, default=None)
 
     merge = commands.add_parser("merge-runs", help="Merge complete disjoint shard runs")
@@ -136,7 +137,7 @@ def main(argv=None):
     overrides = {name: getattr(args, name) for name in (
         "num_users", "candidate_size", "top_k", "concurrency", "requests_per_minute",
         "tokens_per_minute", "max_cost_usd", "num_shards", "shard_index",
-        "llm_provider", "llm_model", "output_root")}
+        "llm_provider", "llm_model", "output_root", "profile_protocol")}
     config = load_config(args.config, overrides)
     config["profile_components"] = _components(args, config["profile_components"])
     _print(run(config, args.bundle, args.profiles, args.resume, args.case_limit))

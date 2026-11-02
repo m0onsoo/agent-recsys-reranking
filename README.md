@@ -77,8 +77,8 @@ Methods:
 
 - `ours` (default): the current controlled pipeline. Taste extraction uses the
   existing Agent4Rec-style rating rule (rating >= 3 is positive), exact v3 prompt,
-  and a deterministic unordered 25-item train sample. The runtime profile can also
-  contain history, social traits, and demographics.
+  and a deterministic unordered 25-item train sample. Runtime inputs use independent
+  `unique_tastes`, `social_traits`, `interaction_history`, and `demographics` keys.
 - `agent4rec`: a separately labeled Agent4Rec-inspired profile adapter.
 - `simuser`: a three-call SimUSER-inspired taste, candidate-persona, and consistency
   adapter. It is an auditable adaptation, not a claim of bit-for-bit reproduction of
@@ -95,16 +95,21 @@ Profile input ablations accept either a component allow-list or `--no-use-*` fla
 agent-reranking generate-profiles --bundle data/derived/ml1m_ro_n1000_seed42 \
   --method ours --no-use-demographics --output-dir artifacts/profiles/ours_no_demo
 
-# persona and history only
+# unique tastes and history only
 agent-reranking generate-profiles --bundle data/derived/ml1m_ro_n1000_seed42 \
-  --profile-components persona,history --output-dir artifacts/profiles/persona_history
+  --profile-components unique_tastes,history --output-dir artifacts/profiles/tastes_history
 ```
 
-Available components are `history`, `persona`, `social_traits`, and `demographics`;
+Available components are `history`, `unique_tastes`, `social_traits`, and `demographics`;
 all are enabled by default. Pickiness is deliberately excluded because it was not
 part of the established profile protocol. To reproduce an earlier experiment
 without regenerating personas, add `--persona-file /path/to/personas.jsonl`. Users
 are matched by raw MovieLens user ID and missing users cause a hard failure.
+
+The default `separated` profile protocol sends those components as distinct JSON keys
+and never repeats social traits inside a combined summary. `--profile-protocol
+legacy_combined` is reserved for historical reproduction: it reconstructs the old
+single `persona_summary` string and must not be used as the new 1,000-user default.
 
 `prepare-bundle --allow-ineligible` exists only for regression-testing a historical
 panel that predates the current registry. Never use it to create the 1,000-user study
@@ -149,7 +154,7 @@ conflicting duplicate actions, and writes a normal combined run directory.
 
 `--no-use-demographics` and the other component flags also work at run time. This
 lets one generated superset profile support controlled input ablations, though a
-persona that was originally generated from different inputs must not be mislabeled.
+taste profile that was originally generated from different inputs must not be mislabeled.
 
 Every successful model-user case is flushed and fsynced immediately. A run directory
 contains `actions.jsonl`, `calls.jsonl`, `failures.jsonl`, `rankings.jsonl`,
@@ -184,3 +189,8 @@ For 50-user reproduction on the original machine, see
 and uses the latest registered checkpoints and current v4 action prompts. On the USC
 cluster, submit `sbatch scripts/reproduce_50user.sbatch` after materialization because
 the login node cannot resolve the API endpoint.
+
+To reproduce the four historical 50-user input conditions as a Slurm array, submit
+`sbatch scripts/reproduce_50user_ablations.sbatch`. Array indices correspond to full,
+w/o demographics, w/o persona (both tastes and embedded social traits removed), and
+w/o interaction history.

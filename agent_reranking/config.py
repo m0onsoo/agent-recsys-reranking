@@ -12,6 +12,8 @@ def load_config(path, overrides=None):
     value.update({key: item for key, item in (overrides or {}).items() if item is not None})
     if value["profile_method"] not in PROFILE_METHODS:
         raise ValueError("Invalid profile_method")
+    if value["profile_protocol"] not in {"separated", "legacy_combined"}:
+        raise ValueError("Invalid profile_protocol")
     if not set(value["profile_components"]) <= set(PROFILE_COMPONENTS):
         raise ValueError("Invalid profile_components")
     if value["concurrency"] < 1 or value["requests_per_minute"] < 1 or value["tokens_per_minute"] < 1:

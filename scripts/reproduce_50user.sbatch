@@ -30,14 +30,15 @@ python -m agent_reranking.cli generate-profiles \
   --method ours \
   --persona-file "$repo_root/../outputs/persona_generation_v3/20261025_010926_561214_RO_seed42_openai_100users/personas.jsonl" \
   --num-users 50 \
-  --profile-components history,persona \
+  --profile-components history,unique_tastes,social_traits,demographics \
   --output-dir artifacts/profiles/repro50_no_demographics
 
 python -m agent_reranking.cli run \
   --bundle data/derived/repro50 \
   --profiles artifacts/profiles/repro50_no_demographics/profiles.jsonl \
   --num-users 50 \
-  --profile-components history,persona \
+  --profile-components history,unique_tastes,social_traits \
+  --profile-protocol legacy_combined \
   --concurrency 20 \
   --output-root results/runs \
   "$@"

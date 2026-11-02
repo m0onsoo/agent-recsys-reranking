@@ -12,7 +12,7 @@ from .io import read_jsonl, stable_hash, write_json, write_jsonl
 
 
 PROFILE_METHODS = ("ours", "agent4rec", "simuser")
-PROFILE_COMPONENTS = ("history", "persona", "social_traits", "demographics")
+PROFILE_COMPONENTS = ("history", "unique_tastes", "social_traits", "demographics")
 
 
 def _sample(rows, user_id, seed, limit, namespace):
@@ -206,17 +206,14 @@ def generate_profiles(bundle, client, method="ours", components=("all",), seed=4
             profile["demographics"] = source["demographics"]
         if "social_traits" in enabled:
             profile["social_traits"] = traits[user]
-        if "persona" in enabled:
+        if "unique_tastes" in enabled:
             legacy = imported.get(str(source["raw_user_id"]))
             if legacy is not None:
-                persona = {key: legacy[key] for key in
-                           ("unique_tastes", "liked_patterns", "disliked_patterns")
-                           if key in legacy}
-                # Legacy `summary` already appends social traits. Use it only
-                # when traits are not separately enabled; otherwise keep the
-                # taste-only summary to prevent duplicated evidence.
-                persona["summary"] = (legacy.get("taste_summary", legacy["summary"])
-                                      if "social_traits" in enabled else legacy["summary"])
+                tastes = {key: legacy[key] for key in
+                          ("unique_tastes", "liked_patterns", "disliked_patterns")
+                          if key in legacy}
+                tastes["summary"] = legacy.get("taste_summary", legacy["summary"])
+                profile["legacy_persona_summary"] = legacy["summary"]
                 persona_manifest = {"method_version": "imported_persona",
                                     "source_persona_hash": stable_hash(legacy), "calls": 0}
                 if "social_traits" in legacy:
@@ -224,9 +221,8 @@ def generate_profiles(bundle, client, method="ours", components=("all",), seed=4
             elif persona_file:
                 raise ValueError(f"Imported persona missing raw user {source['raw_user_id']}")
             else:
-                persona, persona_manifest = generate_persona(method, bundle, user, client, seed, traits)
-            profile["persona"] = persona
-            profile["persona_summary"] = persona["summary"]
+                tastes, persona_manifest = generate_persona(method, bundle, user, client, seed, traits)
+            profile["unique_tastes"] = tastes
             manifest.update(persona_manifest)
         return profile, manifest
 
