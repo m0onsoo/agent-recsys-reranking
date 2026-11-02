@@ -1,6 +1,7 @@
 """Versioned profile generation for ours, Agent4Rec, and SimUSER."""
 
 import json
+import hashlib
 import math
 import random
 from collections import defaultdict
@@ -20,6 +21,15 @@ def _sample(rows, user_id, seed, limit, namespace):
                                     "user_id": int(user_id)}))
     return sorted(rng.sample(ordered, min(limit, len(ordered))),
                   key=lambda row: row["item_id"])
+
+
+def _runtime_history_sample(rows, user_id, seed, limit):
+    """Match the established ProfileBuilder uniform-history protocol exactly."""
+    ordered = sorted(rows, key=lambda row: (row["item_id"], row["timestamp"]))
+    user_seed = int.from_bytes(
+        hashlib.sha256(f"{seed}:{int(user_id)}".encode("utf-8")).digest()[:8], "big")
+    indices = random.Random(user_seed).sample(range(len(ordered)), min(limit, len(ordered)))
+    return [ordered[index] for index in indices]
 
 
 def _percentile(values, p):
@@ -192,9 +202,12 @@ def generate_profiles(bundle, client, method="ours", components=("all",), seed=4
                     "enabled_components": sorted(enabled),
                     "source_hash": stable_hash(rows)}
         if "history" in enabled:
-            sample = _sample(rows, user, seed, history_size, "runtime-history-v1")
-            profile["interaction_history"] = [bundle.movie(row["item_id"], detail=True)
-                                               for row in sample]
+            sample = _runtime_history_sample(rows, user, seed, history_size)
+            profile["interaction_history"] = []
+            for row in sample:
+                movie = bundle.movie(row["item_id"], detail=True)
+                movie.pop("item_id", None)
+                profile["interaction_history"].append(movie)
             manifest["history_item_ids"] = [row["item_id"] for row in sample]
         if "demographics" in enabled:
             profile["demographics"] = source["demographics"]
@@ -208,7 +221,7 @@ def generate_profiles(bundle, client, method="ours", components=("all",), seed=4
                 persona = {key: legacy[key] for key in
                            ("unique_tastes", "liked_patterns", "disliked_patterns")
                            if key in legacy}
-                persona["summary"] = legacy.get("taste_summary", legacy["summary"])
+                persona["summary"] = legacy["summary"]
                 persona_manifest = {"method_version": "imported_persona",
                                     "source_persona_hash": stable_hash(legacy), "calls": 0}
                 if "social_traits" in legacy:

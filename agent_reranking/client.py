@@ -76,6 +76,20 @@ class OpenAICompatibleClient:
     def respond_json(self, system, user, schema, name="structured_response"):
         estimated = max(1, (len(system) + len(user)) // 4 + 256)
         self.budget.acquire(estimated)
+        if name == "conversion_selection":
+            payload = json.loads(user)
+            assessment = {"type": "object", "properties": {
+                "outcome": {"type": "string",
+                            "enum": ["confirmed", "contradicted", "insufficient"]},
+                "decision_note": {"type": "string"}},
+                "required": ["outcome", "decision_note"], "additionalProperties": False}
+            properties = {str(item): assessment for item in payload["clicked_item_ids"]}
+            schema = {"type": "object", "properties": {
+                "converted_item_ids": {"type": "array", "items": {"type": "integer"}},
+                "motive_assessments": {"type": "object", "properties": properties,
+                    "required": list(properties), "additionalProperties": False}},
+                "required": ["converted_item_ids", "motive_assessments"],
+                "additionalProperties": False}
         response_format = ({"type": "json_schema", "json_schema": {
             "name": name, "strict": True, "schema": schema}}
             if schema is not None else {"type": "json_object"})
@@ -108,7 +122,7 @@ class MockClient:
     def respond_json(self, system, user, schema, name="structured_response"):
         if name == "click_selection":
             payload = json.loads(user)
-            ids = [item["item_id"] for item in payload["candidates"][:2]]
+            ids = [item["item_id"] for item in payload.get("items", payload.get("candidates", []))[:2]]
             return {"clicked_item_ids": ids,
                     "click_motives": {str(item): "The supplied genre warrants inspection"
                                       for item in ids}}

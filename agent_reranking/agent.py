@@ -124,7 +124,8 @@ class TwoStageAgent:
                   if key in catalog[item]} for item in ids]
         click_system = self.click_prompt.replace("{history_instruction}", _instruction(profile))
         click, attempts = self._call("click", click_system,
-            {"profile": profile, "candidates": basic},
+            {"stage": "click", "profile": profile, "items": basic,
+             "retry_feedback": None},
             lambda value: self._validate_click(value, set(ids)))
         clicked = click["clicked_item_ids"]
         if not clicked:
@@ -140,7 +141,8 @@ class TwoStageAgent:
             "{history_instruction}", _instruction(profile)).replace(
             "{conversion_context_instruction}", context)
         conversion, more = self._call("conversion", conversion_system,
-            {"profile": profile, "candidate_slate": basic, "clicked_item_ids": clicked,
-             "clicked_items": details, "click_motives": click["click_motives"]},
+            {"stage": "conversion", "profile": profile, "candidate_slate": basic,
+             "clicked_item_ids": clicked, "clicked_items": details,
+             "click_motives": click["click_motives"], "retry_feedback": None},
             lambda value: self._validate_conversion(value, clicked))
         return {**click, **conversion}, attempts + more

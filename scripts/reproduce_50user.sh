@@ -23,11 +23,11 @@ cd "$repo_root"
   --method ours \
   --persona-file "$parent_root/outputs/persona_generation_v3/20261025_010926_561214_RO_seed42_openai_100users/personas.jsonl" \
   --num-users 50 \
-  --no-use-demographics \
+  --profile-components history,persona \
   --output-dir artifacts/profiles/repro50_no_demographics
 
 "$python_bin" -m agent_reranking.cli run \
   --bundle data/derived/repro50 \
   --profiles artifacts/profiles/repro50_no_demographics/profiles.jsonl \
   --num-users 50 \
-  --no-use-demographics
+  --profile-components history,persona

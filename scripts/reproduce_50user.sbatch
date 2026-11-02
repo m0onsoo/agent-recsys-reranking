@@ -25,11 +25,19 @@ source /home1/moonsoo/projects/venv/bin/activate
 export AGENT_RERANKING_ENV="$repo_root/../.env"
 export PYTHONWARNINGS=ignore
 
+python -m agent_reranking.cli generate-profiles \
+  --bundle data/derived/repro50 \
+  --method ours \
+  --persona-file "$repo_root/../outputs/persona_generation_v3/20261025_010926_561214_RO_seed42_openai_100users/personas.jsonl" \
+  --num-users 50 \
+  --profile-components history,persona \
+  --output-dir artifacts/profiles/repro50_no_demographics
+
 python -m agent_reranking.cli run \
   --bundle data/derived/repro50 \
   --profiles artifacts/profiles/repro50_no_demographics/profiles.jsonl \
   --num-users 50 \
-  --no-use-demographics \
+  --profile-components history,persona \
   --concurrency 20 \
   --output-root results/runs \
   "$@"
