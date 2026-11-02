@@ -34,7 +34,13 @@ def _profile_payload(profile, components):
                "demographics": "demographics"}
     for component, field in mapping.items():
         if component in enabled and field in profile:
-            result[field] = profile[field]
+            if field == "interaction_history":
+                fields = ("title", "release_year", "genres", "overview", "director",
+                          "cast", "release_date", "language", "country")
+                result[field] = [{key: movie[key] for key in fields if key in movie}
+                                 for movie in profile[field]]
+            else:
+                result[field] = profile[field]
     return result
 
 
