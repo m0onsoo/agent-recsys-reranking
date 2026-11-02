@@ -1,6 +1,7 @@
 """Current two-stage click and conversion behavior protocol."""
 
 import json
+import re
 from pathlib import Path
 
 
@@ -10,12 +11,24 @@ def _instruction(profile):
     return "No interaction history is supplied; do not invent one."
 
 
+FULL_SLATE_CONTEXT = (
+    "candidate_slate is the complete displayed exposure slate with basic metadata; "
+    "it does not provide recommender scores or ranks. "
+    "clicked_item_ids identifies the movies opened for inspection, and clicked_items contains "
+    "detailed metadata for those movies. Select conversions only from clicked_item_ids."
+)
+
+
 class TwoStageAgent:
     def __init__(self, client, retries=2):
         self.client, self.retries = client, retries
         root = Path(__file__).resolve().parents[1] / "prompts"
-        self.click_prompt = (root / "click_behavior_v4_motive_assessment.txt").read_text(encoding="utf-8")
-        self.conversion_prompt = (root / "conversion_behavior_v4_motive_assessment.txt").read_text(encoding="utf-8")
+        # The legacy renderer strips the template before replacing placeholders.
+        # Preserve that behavior because even whitespace changes alter the API request.
+        self.click_prompt = (root / "click_behavior_v4_motive_assessment.txt").read_text(
+            encoding="utf-8").strip()
+        self.conversion_prompt = (root / "conversion_behavior_v4_motive_assessment.txt").read_text(
+            encoding="utf-8").strip()
 
     @staticmethod
     def _canonicalize_click(value):
@@ -81,6 +94,8 @@ class TwoStageAgent:
             raise ValueError("Invalid clicked_item_ids")
         if set(motives) != {str(item) for item in ids}:
             raise ValueError("click_motives must exactly cover clicked items")
+        for item, motive in motives.items():
+            TwoStageAgent._validate_short_sentence(motive, f"click_motives[{item}]")
 
     @staticmethod
     def _validate_conversion(value, clicked):
@@ -93,6 +108,39 @@ class TwoStageAgent:
         if any(row.get("outcome") not in {"confirmed", "contradicted", "insufficient"}
                for row in assessments.values()):
             raise ValueError("Invalid motive assessment outcome")
+        for item, assessment in assessments.items():
+            TwoStageAgent._validate_short_sentence(
+                assessment.get("decision_note"), f"motive_assessments[{item}].decision_note")
+
+    @staticmethod
+    def _validate_short_sentence(value, field):
+        if not isinstance(value, str) or not value.strip():
+            raise ValueError(f"{field} must be a nonempty string")
+        if len(value.split()) > 20:
+            raise ValueError(f"{field} must contain at most 20 words")
+        boundary_text = re.sub(r"(?:\b[A-Za-z]\.){2,}",
+                               lambda match: match.group(0).replace(".", ""), value.strip())
+        boundary_text = re.sub(
+            r"\b(?:Mr|Mrs|Ms|Dr|Prof|Sr|Jr|St|vs)\.",
+            lambda match: match.group(0).replace(".", ""),
+            boundary_text,
+            flags=re.IGNORECASE,
+        )
+        if "\n" in value or len(re.findall(r"[.!?](?=\s|$)", boundary_text)) > 1:
+            raise ValueError(f"{field} must contain at most one sentence")
+
+    @staticmethod
+    def _retry_system(system, feedback):
+        rendered = (system + "\n\nThe previous response failed validation: "
+                    + str(feedback)
+                    + " Return a corrected complete JSON object. Do not repeat the invalid format or wording.")
+        if "at most one sentence" in str(feedback):
+            rendered += (" Rewrite every motive and note as a single clause with no internal period, "
+                         "question mark, or exclamation mark; use at most one such mark at the very end.")
+        if "at most 20 words" in str(feedback):
+            rendered += (" Rewrite every motive and decision_note using no more than 15 "
+                         "space-separated words. Count the words before returning the complete JSON.")
+        return rendered
 
     def _call(self, stage, system, payload, validator):
         feedback = None
@@ -102,10 +150,9 @@ class TwoStageAgent:
             if feedback:
                 sent["retry_feedback"] = feedback
             try:
-                value = self.client.respond_json(system, json.dumps(sent, ensure_ascii=False),
+                rendered_system = self._retry_system(system, feedback) if feedback else system
+                value = self.client.respond_json(rendered_system, json.dumps(sent, ensure_ascii=False),
                                                  None, f"{stage}_selection")
-                value = (self._canonicalize_click(value) if stage == "click" else
-                         self._canonicalize_conversion(value))
                 validator(value)
                 attempts.append({"stage": stage, "retry": retry, **self.client.last_call,
                                  "status": "valid"})
@@ -134,12 +181,9 @@ class TwoStageAgent:
                          "cast", "release_date", "language", "country")
         details = [{key: catalog[item][key] for key in detail_fields if key in catalog[item]}
                    for item in clicked]
-        context = ("candidate_slate is the complete displayed exposure slate with basic metadata; "
-                   "clicked_item_ids identifies opened movies and clicked_items contains their details. "
-                   "Select conversions only from clicked_item_ids.")
         conversion_system = self.conversion_prompt.replace(
             "{history_instruction}", _instruction(profile)).replace(
-            "{conversion_context_instruction}", context)
+            "{conversion_context_instruction}", FULL_SLATE_CONTEXT)
         conversion, more = self._call("conversion", conversion_system,
             {"stage": "conversion", "profile": profile, "candidate_slate": basic,
              "clicked_item_ids": clicked, "clicked_items": details,

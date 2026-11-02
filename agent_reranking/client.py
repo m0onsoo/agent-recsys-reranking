@@ -73,11 +73,14 @@ class OpenAICompatibleClient:
     def last_call(self):
         return getattr(self._local, "last_call", {})
 
-    def respond_json(self, system, user, schema, name="structured_response"):
-        estimated = max(1, (len(system) + len(user)) // 4 + 256)
-        self.budget.acquire(estimated)
+    @staticmethod
+    def request_body(system, user, schema, name, model, temperature):
+        """Build the legacy-compatible Chat Completions request body."""
         if name == "conversion_selection":
             payload = json.loads(user)
+            item_schema = {"type": "integer"}
+            if payload.get("retry_feedback"):
+                item_schema["enum"] = [item["item_id"] for item in payload["clicked_items"]]
             assessment = {"type": "object", "properties": {
                 "outcome": {"type": "string",
                             "enum": ["confirmed", "contradicted", "insufficient"]},
@@ -85,7 +88,7 @@ class OpenAICompatibleClient:
                 "required": ["outcome", "decision_note"], "additionalProperties": False}
             properties = {str(item): assessment for item in payload["clicked_item_ids"]}
             schema = {"type": "object", "properties": {
-                "converted_item_ids": {"type": "array", "items": {"type": "integer"}},
+                "converted_item_ids": {"type": "array", "items": item_schema},
                 "motive_assessments": {"type": "object", "properties": properties,
                     "required": list(properties), "additionalProperties": False}},
                 "required": ["converted_item_ids", "motive_assessments"],
@@ -93,10 +96,15 @@ class OpenAICompatibleClient:
         response_format = ({"type": "json_schema", "json_schema": {
             "name": name, "strict": True, "schema": schema}}
             if schema is not None else {"type": "json_object"})
-        body = {"model": self.model, "temperature": self.temperature,
+        return {"model": model, "temperature": temperature,
                 "messages": [{"role": "system", "content": system},
                              {"role": "user", "content": user}],
                 "response_format": response_format}
+
+    def respond_json(self, system, user, schema, name="structured_response"):
+        estimated = max(1, (len(system) + len(user)) // 4 + 256)
+        self.budget.acquire(estimated)
+        body = self.request_body(system, user, schema, name, self.model, self.temperature)
         request = Request(self.url, data=json.dumps(body).encode(), headers={
             "Authorization": "Bearer " + self.key, "Content-Type": "application/json"})
         try:
