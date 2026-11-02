@@ -11,6 +11,7 @@ dependencies = ["PyYAML>=6.0"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
+recbole = ["torch>=2.0", "recbole>=1.2.0"]
 
 [project.scripts]
 agent-reranking = "agent_reranking.cli:main"
