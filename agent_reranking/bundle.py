@@ -39,6 +39,10 @@ class DataBundle:
 
     def movie(self, item_id, detail=False):
         row = dict(self.catalog[int(item_id)])
+        if detail:
+            row = {**{"overview": "unknown", "director": "unknown", "cast": [],
+                      "release_date": "unknown", "language": "unknown", "country": []},
+                   **row}
         fields = ("item_id", "title", "release_year", "genres", "overview", "director",
                   "cast", "release_date", "language", "country") if detail else (
                       "item_id", "title", "release_year", "genres")

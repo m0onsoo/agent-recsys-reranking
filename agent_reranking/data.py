@@ -36,9 +36,12 @@ def _extended_movies(path):
     for row in _rows(path, delimiter=","):
         result[str(row["MovieID"])] = {
             "overview": row.get("overview", ""), "director": row.get("director", ""),
-            "cast": row.get("actors", ""), "release_date": row.get("release_date", ""),
+            "cast": [name.strip() for name in row.get("actors", "").split("|")
+                     if name.strip()][:5],
+            "release_date": row.get("release_date", ""),
             "language": row.get("original_language", ""),
-            "country": row.get("production_countries", ""),
+            "country": [name.strip() for name in row.get("production_countries", "").split("|")
+                        if name.strip()],
         }
     return result
 
