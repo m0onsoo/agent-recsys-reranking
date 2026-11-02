@@ -80,18 +80,26 @@ def run(config, bundle_path, profiles_path, resume=None, case_limit=None):
         return {"model": model, "user_id": user, "actions": actions,
                 "profile_hash": stable_hash(profile), "candidate_hash": stable_hash(candidate)}, calls
 
-    with ThreadPoolExecutor(max_workers=config["concurrency"]) as pool:
-        futures = [(key, pool.submit(one, *key)) for key in keys]
-        for (model, user), future in futures:
-            try:
-                row, calls = future.result()
-                for call in calls:
-                    append_jsonl(root / "calls.jsonl", {"model": model, "user_id": user, **call})
-                append_jsonl(root / "actions.jsonl", row)
-                completed[(model, user)] = row
-            except Exception as exc:
-                append_jsonl(root / "failures.jsonl", {"model": model, "user_id": user,
-                    "error_type": type(exc).__name__, "error": str(exc)[:300]})
+    # Match the legacy execution order: one model at a time, in bounded user
+    # batches, with every batch joined before the next batch is submitted.
+    for model in config["models"]:
+        model_keys = [key for key in keys if key[0] == model]
+        for start in range(0, len(model_keys), config["concurrency"]):
+            batch = model_keys[start:start + config["concurrency"]]
+            with ThreadPoolExecutor(max_workers=config["concurrency"]) as pool:
+                futures = [(key, pool.submit(one, *key)) for key in batch]
+                for (case_model, user), future in futures:
+                    try:
+                        row, calls = future.result()
+                        for call in calls:
+                            append_jsonl(root / "calls.jsonl",
+                                         {"model": case_model, "user_id": user, **call})
+                        append_jsonl(root / "actions.jsonl", row)
+                        completed[(case_model, user)] = row
+                    except Exception as exc:
+                        append_jsonl(root / "failures.jsonl", {
+                            "model": case_model, "user_id": user,
+                            "error_type": type(exc).__name__, "error": str(exc)[:300]})
 
     metric_rows, strata_rows, ranking_rows = [], [], []
     for (model, user), row in sorted(completed.items()):

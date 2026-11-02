@@ -1,5 +1,7 @@
 import unittest
 
+from jsonschema import ValidationError
+
 from agent_reranking.metrics import evaluate
 from agent_reranking.rerank import all_rankings
 from agent_reranking.agent import TwoStageAgent
@@ -20,7 +22,7 @@ class RerankMetricTests(unittest.TestCase):
         self.assertEqual(conversion["motive_assessments"]["3"]["outcome"], "confirmed")
 
     def test_runtime_rejects_nonlegacy_object_shaped_selection(self):
-        with self.assertRaises((TypeError, ValueError)):
+        with self.assertRaises((TypeError, ValueError, ValidationError)):
             TwoStageAgent._validate_click({
                 "clicked_item_ids": [{"item_id": 3}],
                 "click_motives": {"3": "Genre match"}}, {3})

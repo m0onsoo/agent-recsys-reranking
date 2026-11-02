@@ -3,6 +3,8 @@ import json
 import unittest
 from pathlib import Path
 
+from jsonschema import ValidationError
+
 from agent_reranking.agent import FULL_SLATE_CONTEXT, TwoStageAgent, _instruction
 from agent_reranking.client import OpenAICompatibleClient
 
@@ -68,6 +70,18 @@ class LegacyRequestParityTests(unittest.TestCase):
             TwoStageAgent._validate_short_sentence(" ".join(["word"] * 21), "note")
         with self.assertRaisesRegex(ValueError, "at most one sentence"):
             TwoStageAgent._validate_short_sentence("First sentence. Second sentence.", "note")
+
+    def test_validation_feedback_matches_legacy_key_diagnostics(self):
+        with self.assertRaisesRegex(
+                ValueError,
+                r"click_motives keys must exactly match clicked_item_ids; "
+                r"missing keys=\['11'\]; extra keys=\[\]"):
+            TwoStageAgent._validate_click(
+                {"clicked_item_ids": [11], "click_motives": {}}, {11, 22})
+        with self.assertRaisesRegex(ValidationError, "non-unique elements"):
+            TwoStageAgent._validate_click(
+                {"clicked_item_ids": [11, 11],
+                 "click_motives": {"11": "Comedy makes this worth inspecting."}}, {11, 22})
 
     def test_missing_detail_metadata_uses_legacy_explicit_defaults(self):
         class RecordingClient:

@@ -7,7 +7,7 @@ name = "agent-reranking-bench"
 version = "0.1.0"
 description = "Reproducible LLM-agent reranking experiments"
 requires-python = ">=3.10"
-dependencies = ["PyYAML>=6.0"]
+dependencies = ["PyYAML>=6.0", "jsonschema>=4.0"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]

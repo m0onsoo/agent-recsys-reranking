@@ -4,6 +4,33 @@ import json
 import re
 from pathlib import Path
 
+from jsonschema import Draft202012Validator, ValidationError
+
+
+MOTIVE_CLICK_SCHEMA = {
+    "type": "object", "properties": {
+        "clicked_item_ids": {"type": "array", "items": {"type": "integer"},
+                             "uniqueItems": True},
+        "click_motives": {"type": "object", "additionalProperties": {"type": "string"}},
+    },
+    "required": ["clicked_item_ids", "click_motives"], "additionalProperties": False,
+}
+MOTIVE_CONVERSION_SCHEMA = {
+    "type": "object", "properties": {
+        "converted_item_ids": {"type": "array", "items": {"type": "integer"},
+                               "uniqueItems": True},
+        "motive_assessments": {"type": "object", "additionalProperties": {
+            "type": "object", "properties": {
+                "outcome": {"enum": ["confirmed", "contradicted", "insufficient"]},
+                "decision_note": {"type": "string"},
+            },
+            "required": ["outcome", "decision_note"], "additionalProperties": False,
+        }},
+    },
+    "required": ["converted_item_ids", "motive_assessments"],
+    "additionalProperties": False,
+}
+
 
 def _instruction(profile):
     if "interaction_history" in profile:
@@ -86,31 +113,43 @@ class TwoStageAgent:
 
     @staticmethod
     def _validate_click(value, allowed):
+        Draft202012Validator(MOTIVE_CLICK_SCHEMA).validate(value)
         ids = value["clicked_item_ids"]
         motives = value["click_motives"]
-        if any(not isinstance(item, int) for item in ids):
-            raise ValueError("clicked_item_ids must contain integers")
-        if len(ids) != len(set(ids)) or not set(ids) <= allowed:
-            raise ValueError("Invalid clicked_item_ids")
+        if not set(ids).issubset(allowed):
+            raise ValueError("click selected an item outside the permitted set")
         if set(motives) != {str(item) for item in ids}:
-            raise ValueError("click_motives must exactly cover clicked items")
+            TwoStageAgent._raise_key_mismatch(
+                "click_motives", motives, {str(item) for item in ids}, "clicked_item_ids")
         for item, motive in motives.items():
             TwoStageAgent._validate_short_sentence(motive, f"click_motives[{item}]")
 
     @staticmethod
     def _validate_conversion(value, clicked):
+        Draft202012Validator(MOTIVE_CONVERSION_SCHEMA).validate(value)
         ids = value["converted_item_ids"]
         assessments = value["motive_assessments"]
-        if len(ids) != len(set(ids)) or not set(ids) <= set(clicked):
-            raise ValueError("Invalid converted_item_ids")
+        if not set(ids).issubset(set(clicked)):
+            raise ValueError("conversion selected an item outside the permitted set")
         if set(assessments) != {str(item) for item in clicked}:
-            raise ValueError("motive_assessments must exactly cover clicked items")
-        if any(row.get("outcome") not in {"confirmed", "contradicted", "insufficient"}
-               for row in assessments.values()):
-            raise ValueError("Invalid motive assessment outcome")
+            TwoStageAgent._raise_key_mismatch(
+                "motive_assessments", assessments, {str(item) for item in clicked},
+                "all clicked_item_ids")
         for item, assessment in assessments.items():
             TwoStageAgent._validate_short_sentence(
                 assessment.get("decision_note"), f"motive_assessments[{item}].decision_note")
+
+    @staticmethod
+    def _raise_key_mismatch(field, values, expected, target):
+        actual = set(values)
+        sort_key = lambda value: (0, int(value)) if value.isdigit() else (1, value)
+        missing = sorted(expected - actual, key=sort_key)
+        extra = sorted(actual - expected, key=sort_key)
+        raise ValueError(
+            f"{field} keys must exactly match {target}; "
+            f"missing keys={missing}; extra keys={extra}. "
+            "Add every missing key and remove every extra key."
+        )
 
     @staticmethod
     def _validate_short_sentence(value, field):
@@ -157,7 +196,7 @@ class TwoStageAgent:
                 attempts.append({"stage": stage, "retry": retry, **self.client.last_call,
                                  "status": "valid"})
                 return value, attempts
-            except (KeyError, TypeError, ValueError) as exc:
+            except (KeyError, TypeError, ValueError, ValidationError) as exc:
                 attempts.append({"stage": stage, "retry": retry, **self.client.last_call,
                                  "status": "invalid", "error": str(exc)[:200]})
                 if retry == self.retries:
