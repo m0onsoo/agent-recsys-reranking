@@ -179,7 +179,11 @@ class TwoStageAgent:
             return {**click, "converted_item_ids": [], "motive_assessments": {}}, attempts
         detail_fields = ("item_id", "title", "release_year", "genres", "overview", "director",
                          "cast", "release_date", "language", "country")
-        details = [{key: catalog[item][key] for key in detail_fields if key in catalog[item]}
+        detail_defaults = {"overview": "unknown", "director": "unknown", "cast": [],
+                           "release_date": "unknown", "language": "unknown", "country": []}
+        details = [{key: catalog[item].get(key, detail_defaults[key])
+                    if key in detail_defaults else catalog[item][key]
+                    for key in detail_fields}
                    for item in clicked]
         conversion_system = self.conversion_prompt.replace(
             "{history_instruction}", _instruction(profile)).replace(

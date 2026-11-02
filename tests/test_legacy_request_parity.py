@@ -69,6 +69,33 @@ class LegacyRequestParityTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "at most one sentence"):
             TwoStageAgent._validate_short_sentence("First sentence. Second sentence.", "note")
 
+    def test_missing_detail_metadata_uses_legacy_explicit_defaults(self):
+        class RecordingClient:
+            def __init__(inner):
+                inner.calls = []
+                inner.last_call = {"usage": {}, "estimated_cost_usd": 0.0}
+
+            def respond_json(inner, system, user, schema, name):
+                payload = json.loads(user)
+                inner.calls.append(payload)
+                if name == "click_selection":
+                    return {"clicked_item_ids": [11],
+                            "click_motives": {"11": "Comedy makes this worth inspecting."}}
+                return {"converted_item_ids": [], "motive_assessments": {
+                    "11": {"outcome": "insufficient",
+                           "decision_note": "The details remain insufficient."}}}
+
+        catalog = {11: {"item_id": 11, "title": "Movie 11", "release_year": "1999",
+                        "genres": ["Comedy"]}}
+        client = RecordingClient()
+        TwoStageAgent(client).simulate(
+            self.profile, {"item_ids": [11], "scores": [1.0]}, catalog)
+        detail = client.calls[1]["clicked_items"][0]
+        self.assertEqual(detail, {"item_id": 11, "title": "Movie 11",
+            "release_year": "1999", "genres": ["Comedy"], "overview": "unknown",
+            "director": "unknown", "cast": [], "release_date": "unknown",
+            "language": "unknown", "country": []})
+
     def test_full_chain_request_bytes_match_frozen_legacy_hashes(self):
         responses = iter([
             {"clicked_item_ids": [11],
