@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/raw/
+data/derived/
+artifacts/
+cache/
+results/runs/*/actions.jsonl
+results/runs/*/calls.jsonl
+results/runs/*/failures.jsonl
+

@@ -1,0 +1,51 @@
+schema_version: 1
+models:
+  - model_id: mf_ml1m_ro_allratings_v1
+    display_name: MF
+    architecture: MF
+    artifact_path: ${MODEL_ARTIFACT_ROOT}/ml1m-all-ratings-ro/MF/MF-Oct-25-2026_21-40-16.pth
+    checkpoint_sha256: 8faf8881e33708d2133b00cd699be618b11fb7d1a0f7246a1cf1f2f2c5727ade
+    checkpoint_epoch: 5
+    split_mode: RO
+    mapping_hash:
+      users: 54edfae070a3e88c6b17cadec382dc4f5cd20a6035560c4ffd52990e6a917295
+      items: 40eb5b57f3dee29d25d6eb13b18fc5c9648126d0b663bd9b8babdbcfb4191703
+    split_hash:
+      train: 133a535f57817c3457042e9beecc3ef544769541bba8ee88614fc71a81283db0
+      valid: b1eabe0a6c3a5b2de84fb44f9124cce912a785fbb4321b5200c06d31afda1bb4
+      test: b108b2694e68d92ab346222d9806ecad2e6a347cc609fd3f7978bd9f53658393
+    full_population_metrics: {}
+    panel_metrics: {}
+  - model_id: lightgcn_ml1m_ro_allratings_v1
+    display_name: LightGCN
+    architecture: LightGCN
+    artifact_path: ${MODEL_ARTIFACT_ROOT}/ml1m-all-ratings-ro/LightGCN/LightGCN-Oct-22-2026_00-19-54.pth
+    checkpoint_sha256: f58de91acf4fc4d7e9cf2df0147f22bada97a3eb2b65e2bcc114e1bf43c37a46
+    checkpoint_epoch: 149
+    split_mode: RO
+    mapping_hash:
+      users: 54edfae070a3e88c6b17cadec382dc4f5cd20a6035560c4ffd52990e6a917295
+      items: 40eb5b57f3dee29d25d6eb13b18fc5c9648126d0b663bd9b8babdbcfb4191703
+    split_hash:
+      train: 133a535f57817c3457042e9beecc3ef544769541bba8ee88614fc71a81283db0
+      valid: b1eabe0a6c3a5b2de84fb44f9124cce912a785fbb4321b5200c06d31afda1bb4
+      test: b108b2694e68d92ab346222d9806ecad2e6a347cc609fd3f7978bd9f53658393
+    full_population_metrics: {}
+    panel_metrics: {}
+  - model_id: multivae_vanilla_ml1m_ro_allratings_v1
+    display_name: MultiVAE
+    architecture: MultiVAE
+    artifact_path: ${MODEL_ARTIFACT_ROOT}/ml1m-all-ratings-ro/MultiVAE-vanilla/MultiVAE-Oct-28-2026_22-45-05.pth
+    checkpoint_sha256: 6e47e11bd6f40d1588e65eede17bff0074868e6f188a4e50eff759b555fade1f
+    checkpoint_epoch: 98
+    split_mode: RO
+    mapping_hash:
+      users: 54edfae070a3e88c6b17cadec382dc4f5cd20a6035560c4ffd52990e6a917295
+      items: 40eb5b57f3dee29d25d6eb13b18fc5c9648126d0b663bd9b8babdbcfb4191703
+    split_hash:
+      train: 133a535f57817c3457042e9beecc3ef544769541bba8ee88614fc71a81283db0
+      valid: b1eabe0a6c3a5b2de84fb44f9124cce912a785fbb4321b5200c06d31afda1bb4
+      test: b108b2694e68d92ab346222d9806ecad2e6a347cc609fd3f7978bd9f53658393
+    full_population_metrics: {}
+    panel_metrics: {}
+

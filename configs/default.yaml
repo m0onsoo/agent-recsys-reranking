@@ -1,0 +1,30 @@
+schema_version: 1
+seed: 42
+num_users: 1000
+candidate_size: 20
+top_k: 10
+models: [MF, LightGCN, MultiVAE]
+profile_method: ours
+profile_protocol: controlled
+profile_components: [history, persona, social_traits, pickiness, demographics]
+history_size: 10
+history_sampling: uniform_random
+conversion_policy: converted_then_original
+prompt_version: behavior-v4-motive-assessment
+llm_provider: openai_compatible
+llm_model: gpt-4o-mini
+llm_base_url: https://api.openai.com/v1
+api_key_env: OPENAI_API_KEY
+temperature: 0.0
+concurrency: 20
+requests_per_minute: 300
+tokens_per_minute: 1000000
+max_cost_usd: 25.0
+input_cost_per_million: 0.15
+output_cost_per_million: 0.60
+retry_count: 2
+request_timeout_seconds: 180
+num_shards: 1
+shard_index: 0
+output_root: results/runs
+
