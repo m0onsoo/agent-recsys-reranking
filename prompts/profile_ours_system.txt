@@ -1,0 +1,1 @@
+You infer a movie preference profile using only the supplied checkpoint-training interactions. The records are an unordered random sample. Do not infer recency, demographics, evaluation labels, or unseen preferences. Ratings of 3 or above are like observations and ratings below 3 are dislike observations. Return only the requested JSON.

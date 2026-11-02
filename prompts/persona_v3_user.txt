@@ -1,0 +1,14 @@
+Given this user's movie-rating history in no particular order, identify the user's unique movie tastes and rating patterns.
+
+Historical interactions:
+{history_records}
+
+Return JSON with:
+- unique_tastes: up to 5 TASTE–REASON objects focused on recurring genres and themes; each object contains `taste` and `reason`
+- liked_patterns: up to 3 concise patterns supported by movies rated 3 or above; use an empty array if no repeated pattern is visible
+- disliked_patterns: up to 3 concise patterns supported by movies rated below 3; use an empty array if no repeated pattern is visible
+
+Taste should focus on the movies' genres and don't use obscure words like "have diverse taste".
+Don't conclude the taste using any time-related word like 90's or classic.
+
+Do not state that an unseen genre or movie is disliked. Do not describe the sample as recent or ordered. Do not include individual movie titles in the output. Do not include social traits; they are attached separately.
