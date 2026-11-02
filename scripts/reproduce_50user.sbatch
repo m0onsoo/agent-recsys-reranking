@@ -31,4 +31,5 @@ python -m agent_reranking.cli run \
   --num-users 50 \
   --no-use-demographics \
   --concurrency 20 \
-  --output-root results/runs
+  --output-root results/runs \
+  "$@"
