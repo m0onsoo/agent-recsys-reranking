@@ -6,7 +6,7 @@ top_k: 10
 models: [MF, LightGCN, MultiVAE]
 profile_method: ours
 profile_protocol: controlled
-profile_components: [history, persona, social_traits, pickiness, demographics]
+profile_components: [history, persona, social_traits, demographics]
 history_size: 10
 history_sampling: uniform_random
 conversion_policy: converted_then_original

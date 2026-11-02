@@ -12,7 +12,7 @@ from .io import read_jsonl, stable_hash, write_json, write_jsonl
 
 
 PROFILE_METHODS = ("ours", "agent4rec", "simuser")
-PROFILE_COMPONENTS = ("history", "persona", "social_traits", "pickiness", "demographics")
+PROFILE_COMPONENTS = ("history", "persona", "social_traits", "demographics")
 
 
 def _sample(rows, user_id, seed, limit, namespace):
@@ -65,13 +65,6 @@ def compute_social_traits(bundle):
     traits = {user: {name: {"value": value, "level": level(value, thresholds[name])}
                      for name, value in values.items()} for user, values in raw.items()}
     return traits, thresholds
-
-
-def _pickiness(rows):
-    average = sum(row["rating"] for row in rows) / len(rows)
-    # Higher historical ratings indicate a less picky observed rating pattern.
-    label = "extremely picky" if average < 3.2 else "moderately picky" if average < 4.0 else "not picky"
-    return {"label": label, "mean_train_rating": average}
 
 
 def _simple_schema():
@@ -213,15 +206,17 @@ def generate_profiles(bundle, client, method="ours", components=("all",), seed=4
             profile["demographics"] = source["demographics"]
         if "social_traits" in enabled:
             profile["social_traits"] = traits[user]
-        if "pickiness" in enabled:
-            profile["pickiness"] = _pickiness(rows)
         if "persona" in enabled:
             legacy = imported.get(str(source["raw_user_id"]))
             if legacy is not None:
                 persona = {key: legacy[key] for key in
                            ("unique_tastes", "liked_patterns", "disliked_patterns")
                            if key in legacy}
-                persona["summary"] = legacy["summary"]
+                # Legacy `summary` already appends social traits. Use it only
+                # when traits are not separately enabled; otherwise keep the
+                # taste-only summary to prevent duplicated evidence.
+                persona["summary"] = (legacy.get("taste_summary", legacy["summary"])
+                                      if "social_traits" in enabled else legacy["summary"])
                 persona_manifest = {"method_version": "imported_persona",
                                     "source_persona_hash": stable_hash(legacy), "calls": 0}
                 if "social_traits" in legacy:

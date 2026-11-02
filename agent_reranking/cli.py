@@ -34,7 +34,7 @@ def _components(args, fallback=None):
 
 def _common_profile_flags(parser, default="all"):
     parser.add_argument("--profile-components", default=default,
-                        help="all or comma-separated history,persona,social_traits,pickiness,demographics")
+                        help="all or comma-separated history,persona,social_traits,demographics")
     for component in PROFILE_COMPONENTS:
         parser.add_argument("--no-use-" + component.replace("_", "-"), action="store_true")
 

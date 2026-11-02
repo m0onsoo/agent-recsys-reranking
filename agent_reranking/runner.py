@@ -30,7 +30,7 @@ def _profile_payload(profile, components):
     enabled = set(components)
     result = {"user_id": profile["user_id"]}
     mapping = {"history": "interaction_history", "persona": "persona_summary",
-               "social_traits": "social_traits", "pickiness": "pickiness",
+               "social_traits": "social_traits",
                "demographics": "demographics"}
     for component, field in mapping.items():
         if component in enabled and field in profile:

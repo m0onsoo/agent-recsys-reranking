@@ -78,7 +78,7 @@ Methods:
 - `ours` (default): the current controlled pipeline. Taste extraction uses the
   existing Agent4Rec-style rating rule (rating >= 3 is positive), exact v3 prompt,
   and a deterministic unordered 25-item train sample. The runtime profile can also
-  contain history, social traits, pickiness, and demographics.
+  contain history, social traits, and demographics.
 - `agent4rec`: a separately labeled Agent4Rec-inspired profile adapter.
 - `simuser`: a three-call SimUSER-inspired taste, candidate-persona, and consistency
   adapter. It is an auditable adaptation, not a claim of bit-for-bit reproduction of
@@ -100,8 +100,9 @@ agent-reranking generate-profiles --bundle data/derived/ml1m_ro_n1000_seed42 \
   --profile-components persona,history --output-dir artifacts/profiles/persona_history
 ```
 
-Available components are `history`, `persona`, `social_traits`, `pickiness`, and
-`demographics`; all are enabled by default. To reproduce an earlier experiment
+Available components are `history`, `persona`, `social_traits`, and `demographics`;
+all are enabled by default. Pickiness is deliberately excluded because it was not
+part of the established profile protocol. To reproduce an earlier experiment
 without regenerating personas, add `--persona-file /path/to/personas.jsonl`. Users
 are matched by raw MovieLens user ID and missing users cause a hard failure.
 
