@@ -14,8 +14,15 @@ models:
       train: 133a535f57817c3457042e9beecc3ef544769541bba8ee88614fc71a81283db0
       valid: b1eabe0a6c3a5b2de84fb44f9124cce912a785fbb4321b5200c06d31afda1bb4
       test: b108b2694e68d92ab346222d9806ecad2e6a347cc609fd3f7978bd9f53658393
-    full_population_metrics: {}
-    panel_metrics: {}
+    full_population_metrics:
+      test_users: 6040
+      recall@10: 0.13624556
+      ndcg@10: 0.21187059
+      candidate_recall@20: 0.21763744
+    historical_panel_50_metrics:
+      recall@10: 0.1408189808
+      ndcg@10: 0.2221889104
+      candidate_recall@20: 0.2138204324
   - model_id: lightgcn_ml1m_ro_allratings_v1
     display_name: LightGCN
     architecture: LightGCN
@@ -30,8 +37,15 @@ models:
       train: 133a535f57817c3457042e9beecc3ef544769541bba8ee88614fc71a81283db0
       valid: b1eabe0a6c3a5b2de84fb44f9124cce912a785fbb4321b5200c06d31afda1bb4
       test: b108b2694e68d92ab346222d9806ecad2e6a347cc609fd3f7978bd9f53658393
-    full_population_metrics: {}
-    panel_metrics: {}
+    full_population_metrics:
+      test_users: 6040
+      recall@10: 0.174463
+      ndcg@10: 0.27039883
+      candidate_recall@20: 0.26916372
+    historical_panel_50_metrics:
+      recall@10: 0.1831443074
+      ndcg@10: 0.2607807182
+      candidate_recall@20: 0.2645000842
   - model_id: multivae_vanilla_ml1m_ro_allratings_v1
     display_name: MultiVAE
     architecture: MultiVAE
@@ -46,6 +60,13 @@ models:
       train: 133a535f57817c3457042e9beecc3ef544769541bba8ee88614fc71a81283db0
       valid: b1eabe0a6c3a5b2de84fb44f9124cce912a785fbb4321b5200c06d31afda1bb4
       test: b108b2694e68d92ab346222d9806ecad2e6a347cc609fd3f7978bd9f53658393
-    full_population_metrics: {}
-    panel_metrics: {}
+    full_population_metrics:
+      test_users: 6040
+      recall@10: 0.17944579
+      ndcg@10: 0.26170492
+      candidate_recall@20: 0.2685739
+    historical_panel_50_metrics:
+      recall@10: 0.185796037
+      ndcg@10: 0.2547711112
+      candidate_recall@20: 0.2855861018
 

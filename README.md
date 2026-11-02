@@ -105,6 +105,10 @@ Available components are `history`, `persona`, `social_traits`, `pickiness`, and
 without regenerating personas, add `--persona-file /path/to/personas.jsonl`. Users
 are matched by raw MovieLens user ID and missing users cause a hard failure.
 
+`prepare-bundle --allow-ineligible` exists only for regression-testing a historical
+panel that predates the current registry. Never use it to create the 1,000-user study
+bundle; the default joint-positive check is part of that study's inclusion criteria.
+
 ## Run the agent
 
 ```bash
@@ -162,4 +166,6 @@ record the resulting commit SHA with any shared result.
 
 For 50-user reproduction on the original machine, see
 `scripts/reproduce_50user.sh`. It imports the existing personas, removes demographics,
-and uses the latest registered checkpoints and current v4 action prompts.
+and uses the latest registered checkpoints and current v4 action prompts. On the USC
+cluster, submit `sbatch scripts/reproduce_50user.sbatch` after materialization because
+the login node cannot resolve the API endpoint.

@@ -51,6 +51,8 @@ def main(argv=None):
     prepare.add_argument("--dataset-root", default="data/recbole")
     prepare.add_argument("--extended-movie-path")
     prepare.add_argument("--candidate-size", type=int, default=20)
+    prepare.add_argument("--allow-ineligible", action="store_true",
+                         help="Diagnostic only: do not require a held-out positive in every Top-K")
     prepare.add_argument("--output-dir", default="data/derived/ml1m_ro_n1000_seed42")
 
     profiles = commands.add_parser("generate-profiles")
@@ -104,12 +106,13 @@ def main(argv=None):
     if args.command == "prepare-bundle":
         _print(prepare_bundle(args.panel, args.registry, args.recbole_root, args.dataset_root,
                               args.output_dir, args.recbole_debias_root,
-                              args.extended_movie_path, args.candidate_size))
+                              args.extended_movie_path, args.candidate_size,
+                              not args.allow_ineligible))
         return
     if args.command == "generate-profiles":
         budget = RateBudget(args.requests_per_minute, args.tokens_per_minute, args.max_cost_usd,
                             args.input_cost_per_million, args.output_cost_per_million)
-        client = (MockClient() if args.client == "mock" else
+        client = (MockClient() if args.client == "mock" or args.persona_file else
                   OpenAICompatibleClient(args.model, args.base_url, args.api_key_env,
                                          budget=budget))
         _print(generate_profiles(DataBundle(args.bundle), client, args.method,

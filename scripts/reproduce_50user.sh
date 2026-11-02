@@ -15,6 +15,7 @@ cd "$repo_root"
   --recbole-debias-root /home1/moonsoo/projects/Recbole-Debias \
   --dataset-root /home1/moonsoo/projects/RecBole/dataset \
   --extended-movie-path /home1/moonsoo/projects/RecBole/dataset/ml-1m/ml1m_extended_movie.csv \
+  --allow-ineligible \
   --output-dir data/derived/repro50
 
 "$python_bin" -m agent_reranking.cli generate-profiles \

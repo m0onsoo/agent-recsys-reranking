@@ -87,7 +87,7 @@ def _population_traits(adapter, rating_by_raw, movie_rows):
 
 def prepare_bundle(panel_path, registry_path, recbole_root, dataset_root, output_dir,
                    recbole_debias_root=None, extended_movie_path=None,
-                   candidate_size=20):
+                   candidate_size=20, require_joint_positive=True):
     panel = _rows(panel_path, delimiter=",")
     if not panel or len({row["user_id"] for row in panel}) != len(panel):
         raise ValueError("Panel must contain unique users")
@@ -162,7 +162,7 @@ def prepare_bundle(panel_path, registry_path, recbole_root, dataset_root, output
         for user in users:
             ids = inferred[user]["item_ids"]
             positive_count = len(set(ids) & adapter.test_items[user])
-            if positive_count < 1:
+            if require_joint_positive and positive_count < 1:
                 raise ValueError(f"{name} user {user} violates joint Top-{candidate_size} eligibility")
             catalog_ids.update(ids)
             candidate_rows.append({"model": name, "user_id": user,
@@ -200,6 +200,7 @@ def prepare_bundle(panel_path, registry_path, recbole_root, dataset_root, output
              "evaluation_labels.jsonl", "item_catalog.jsonl", "social_traits.json"]
     manifest = {"schema_version": 1, "num_users": len(users),
                 "candidate_size": candidate_size, "models": list(adapters),
+                "joint_positive_required": require_joint_positive,
                 "mapping_hash": first.mapping_hash, "split_hash": first.split_hash,
                 "panel_sha256": sha256_file(panel_path),
                 "model_registry_sha256": sha256_file(registry_path),
