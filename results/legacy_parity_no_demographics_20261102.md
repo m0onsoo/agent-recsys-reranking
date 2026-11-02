@@ -9,9 +9,18 @@ LLM: `gpt-4o-mini`, temperature 0
 Condition: history + legacy combined persona, no demographics  
 Policy: converted item first, all other items in original backbone order
 
+> Audit note: this live run includes request, metadata, validation, and policy
+> compatibility through `c66bf34`, but it predates commit `a13b49a`, which
+> restored the original model-by-model, batch-of-20 submission schedule and the
+> complete Draft 2020-12 validation path. This run had zero validation retries,
+> so the validation change would not alter its accepted actions. The scheduling
+> change can alter API timing and therefore requires one more live run if strict
+> operational parity is required.
+
 ## Compatibility fixes
 
-Commits `ed2efa1` and `c66bf34` restore the original implementation's:
+Commits `ed2efa1`, `c66bf34`, and (after this live run) `a13b49a` restore the
+original implementation's:
 
 - stripped prompt-template rendering;
 - exact full-slate conversion-context instruction;
