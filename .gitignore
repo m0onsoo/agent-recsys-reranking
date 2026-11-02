@@ -7,9 +7,9 @@ data/raw/
 data/derived/
 artifacts/
 cache/
-results/runs/*/actions.jsonl
-results/runs/*/calls.jsonl
-results/runs/*/failures.jsonl
+results/runs/
+results/*.out
+results/*.err
 data/panels/*.csv
 !data/panels/users_1000_seed42.csv
 
