@@ -23,6 +23,8 @@ class RateBudget:
         self.lock = threading.Lock()
 
     def acquire(self, estimated_tokens):
+        if estimated_tokens > self.tpm:
+            raise ValueError(f"One request estimate ({estimated_tokens}) exceeds TPM cap ({self.tpm})")
         while True:
             with self.lock:
                 now = time.monotonic()

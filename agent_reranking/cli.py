@@ -17,19 +17,22 @@ def _print(value):
     print(json.dumps(value, ensure_ascii=False, indent=2))
 
 
-def _components(args):
-    if args.profile_components == "all":
+def _components(args, fallback=None):
+    value = args.profile_components
+    if value is None:
+        enabled = set(fallback or PROFILE_COMPONENTS)
+    elif value == "all":
         enabled = set(PROFILE_COMPONENTS)
     else:
-        enabled = {item.strip() for item in args.profile_components.split(",") if item.strip()}
+        enabled = {item.strip() for item in value.split(",") if item.strip()}
     for component in PROFILE_COMPONENTS:
         if getattr(args, "no_use_" + component, False):
             enabled.discard(component)
     return sorted(enabled)
 
 
-def _common_profile_flags(parser):
-    parser.add_argument("--profile-components", default="all",
+def _common_profile_flags(parser, default="all"):
+    parser.add_argument("--profile-components", default=default,
                         help="all or comma-separated history,persona,social_traits,pickiness,demographics")
     for component in PROFILE_COMPONENTS:
         parser.add_argument("--no-use-" + component.replace("_", "-"), action="store_true")
@@ -95,7 +98,7 @@ def main(argv=None):
     execute.add_argument("--llm-provider", choices=("mock", "openai_compatible"))
     execute.add_argument("--llm-model")
     execute.add_argument("--output-root")
-    _common_profile_flags(execute)
+    _common_profile_flags(execute, default=None)
 
     args = parser.parse_args(argv)
     if args.command == "download-data":
@@ -125,7 +128,7 @@ def main(argv=None):
         "tokens_per_minute", "max_cost_usd", "num_shards", "shard_index",
         "llm_provider", "llm_model", "output_root")}
     config = load_config(args.config, overrides)
-    config["profile_components"] = _components(args)
+    config["profile_components"] = _components(args, config["profile_components"])
     _print(run(config, args.bundle, args.profiles, args.resume, args.case_limit))
 
 
