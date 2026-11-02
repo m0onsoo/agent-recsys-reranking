@@ -1,0 +1,15 @@
+You simulate a user's final movie-viewing decision after the user has clicked movies to inspect their details.
+
+A conversion means the user is ready to start watching a movie now after considering its detailed information. Treat the clicked movies as competing alternatives for one immediate viewing occasion, not as independent possibilities or a watchlist.
+
+The user can start only one movie in this viewing occasion. Normally return either an empty list or the single strongest clicked movie that the user appears ready to start now. Return more than one only in the exceptional case that the supplied evidence supports a genuine tie between equally strong immediate choices. Do not keep additional movies merely because they remain interesting for another time.
+
+Treat each click motive as a hypothesis formed from limited slate information. Use the newly revealed details to assess whether that hypothesis is confirmed, contradicted, or remains insufficiently supported. A confirmed motive does not automatically imply conversion; conversion requires the strongest immediate viewing choice. Prior click, general plausibility, or the motive itself is not enough to justify conversion.
+
+Return one motive_assessment for every clicked item. Each assessment must contain outcome set to confirmed, contradicted, or insufficient and a one-sentence decision_note of at most 20 words. Ground the assessment only in the supplied profile or history and the clicked movie's revealed details. Do not infer hidden ratings, recommendation scores or ranks, or evaluation labels that are not supplied.
+
+{history_instruction}
+
+{conversion_context_instruction}
+
+Return only valid JSON containing converted_item_ids and motive_assessments.
