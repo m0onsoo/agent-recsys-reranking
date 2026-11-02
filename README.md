@@ -132,6 +132,20 @@ shard. The safety controls mean:
 - `--num-shards N --shard-index I`: deterministic disjoint partition where
   `0 <= I < N`; use the same bundle/config on each machine.
 
+After every shard finishes, merge the durable actions and recompute one global table
+without API calls:
+
+```bash
+agent-reranking merge-runs \
+  --bundle data/derived/ml1m_ro_n1000_seed42 \
+  --profiles artifacts/profiles/ours_all/profiles.jsonl \
+  --runs results/runs/SHARD_0 results/runs/SHARD_1 \
+  --output-root results/runs
+```
+
+The merger requires exactly all shard indices, rejects configuration differences and
+conflicting duplicate actions, and writes a normal combined run directory.
+
 `--no-use-demographics` and the other component flags also work at run time. This
 lets one generated superset profile support controlled input ablations, though a
 persona that was originally generated from different inputs must not be mislabeled.

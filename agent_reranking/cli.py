@@ -9,6 +9,7 @@ from .client import MockClient, OpenAICompatibleClient, RateBudget
 from .config import load_config
 from .data import prepare_bundle
 from .download import convert_ml1m, download_ml1m
+from .merge import merge_runs
 from .profiles import PROFILE_COMPONENTS, PROFILE_METHODS, generate_profiles
 from .runner import run
 
@@ -100,6 +101,12 @@ def main(argv=None):
     execute.add_argument("--output-root")
     _common_profile_flags(execute, default=None)
 
+    merge = commands.add_parser("merge-runs", help="Merge complete disjoint shard runs")
+    merge.add_argument("--bundle", required=True)
+    merge.add_argument("--profiles", required=True)
+    merge.add_argument("--runs", nargs="+", required=True)
+    merge.add_argument("--output-root")
+
     args = parser.parse_args(argv)
     if args.command == "download-data":
         result = download_ml1m(args.output_root)
@@ -122,6 +129,9 @@ def main(argv=None):
                                  _components(args), args.seed, args.history_size,
                                  args.num_users, args.output_dir, args.concurrency,
                                  args.persona_file))
+        return
+    if args.command == "merge-runs":
+        _print(merge_runs(args.bundle, args.profiles, args.runs, args.output_root))
         return
     overrides = {name: getattr(args, name) for name in (
         "num_users", "candidate_size", "top_k", "concurrency", "requests_per_minute",
