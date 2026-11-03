@@ -79,18 +79,6 @@ The complete `ours` profile is distinct from the Agent4Rec adapter because it us
 our controlled components and current action prompts. Keep `method`, components,
 protocol versions, and prompt hashes in comparisons.
 
-Profile input ablations accept either a component allow-list or `--no-use-*` flags:
-
-```bash
-# w/o demographics
-agent-reranking generate-profiles --bundle data/derived/ml1m_ro_n1000_seed42 \
-  --method ours --no-use-demographics --output-dir artifacts/profiles/ours_no_demo
-
-# unique tastes and history only
-agent-reranking generate-profiles --bundle data/derived/ml1m_ro_n1000_seed42 \
-  --profile-components unique_tastes,history --output-dir artifacts/profiles/tastes_history
-```
-
 Available components are `history`, `unique_tastes`, `social_traits`, and `demographics`;
 all are enabled by default. Pickiness is deliberately excluded because it was not
 part of the established profile protocol. To reproduce an earlier experiment
@@ -109,6 +97,39 @@ agent-reranking run \
   --bundle data/derived/ml1m_ro_n1000_seed42 \
   --profiles artifacts/profiles/ours_all/profiles.jsonl
 ```
+
+Generate the full superset profile once, then use that same file for every input
+ablation. This avoids regenerating personas and changes only what the behavior agent
+receives. Run the three ablations independently:
+
+```bash
+# w/o demographics: history + externally constructed persona
+agent-reranking run \
+  --bundle data/derived/ml1m_ro_n1000_seed42 \
+  --profiles artifacts/profiles/ours_all/profiles.jsonl \
+  --profile-components history,unique_tastes,social_traits \
+  --output-root results/ablations/no_demographics/runs
+
+# w/o persona: remove all externally constructed persona information
+# (unique_tastes and social_traits), retaining history and demographics
+agent-reranking run \
+  --bundle data/derived/ml1m_ro_n1000_seed42 \
+  --profiles artifacts/profiles/ours_all/profiles.jsonl \
+  --profile-components history,demographics \
+  --output-root results/ablations/no_persona/runs
+
+# w/o interaction history: retain persona and demographics, remove raw history
+agent-reranking run \
+  --bundle data/derived/ml1m_ro_n1000_seed42 \
+  --profiles artifacts/profiles/ours_all/profiles.jsonl \
+  --profile-components unique_tastes,social_traits,demographics \
+  --output-root results/ablations/no_interaction_history/runs
+```
+
+Here `persona` means only externally constructed information: `unique_tastes` and
+`social_traits`. Demographics are not included in the persona ablation. In the
+interaction-history ablation, `unique_tastes` remains available even though the raw
+movie-history array is withheld from the behavior agent.
 
 Defaults live in `configs/default.yaml`: `num_users=1000`, `candidate_size=20`,
 `top_k=10`, `concurrency=20`, `requests_per_minute=300`,
@@ -139,9 +160,9 @@ agent-reranking merge-runs \
 The merger requires exactly all shard indices, rejects configuration differences and
 conflicting duplicate actions, and writes a normal combined run directory.
 
-`--no-use-demographics` and the other component flags also work at run time. This
-lets one generated superset profile support controlled input ablations, though a
-taste profile that was originally generated from different inputs must not be mislabeled.
+Equivalent `--no-use-*` flags also work at run time. The explicit component lists
+above are preferred in experiment scripts because they make each condition fully
+visible in the command itself.
 
 Every successful model-user case is flushed and fsynced immediately. A run directory
 contains `actions.jsonl`, `calls.jsonl`, `failures.jsonl`, `rankings.jsonl`,
