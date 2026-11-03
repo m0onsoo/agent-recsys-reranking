@@ -182,6 +182,10 @@ the train-only aggregate movie rating at both click and conversion stages. The
 archived v1 prompt remains available solely for historical byte-level reproduction.
 Select it explicitly with `--prompt-version behavior-motive-assessment-v1`; v1 omits
 candidate `average_rating` while retaining all selected profile components.
+The opt-in `behavior-social-traits` protocol also exposes the train-only aggregate
+rating and explicitly routes activity to decision threshold, diversity to exploration
+breadth, and conformity to the weight of `average_rating`. It remains separately
+selectable from v2 for controlled comparison.
 The safety controls mean:
 
 - `--concurrency`: maximum simultaneous API workers; lower it after 429/timeouts.

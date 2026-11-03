@@ -56,6 +56,10 @@ PROMPT_PROTOCOLS = {
         "click_behavior_motive_assessment.txt",
         "conversion_behavior_motive_assessment.txt",
     ),
+    "behavior-social-traits": (
+        "click_behavior_social_traits.txt",
+        "conversion_behavior_social_traits.txt",
+    ),
 }
 
 
@@ -78,7 +82,7 @@ class TwoStageAgent:
             "conversion": sha256_file(conversion_path),
         }
         self.prompt_version = prompt_version
-        self.exposes_average_rating = prompt_version == "behavior-motive-assessment-v2"
+        self.exposes_average_rating = prompt_version != "behavior-motive-assessment-v1"
 
     @staticmethod
     def _canonicalize_click(value):

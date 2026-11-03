@@ -34,8 +34,20 @@ class RerankMetricTests(unittest.TestCase):
         self.assertEqual(client.calls[0]["items"][0]["average_rating"], 4.27)
         self.assertEqual(client.calls[1]["candidate_slate"][0]["average_rating"], 4.27)
         self.assertEqual(client.calls[1]["clicked_items"][0]["average_rating"], 4.27)
-        self.assertIn("checkpoint-training interactions", client.systems[0])
+        self.assertIn("mean 1–5 rating for that movie", client.systems[0])
+        self.assertNotIn("checkpoint-training", client.systems[0])
         self.assertIn("not this user's rating", client.systems[1])
+
+    def test_social_trait_protocol_exposes_rating_and_routes_each_trait(self):
+        agent = TwoStageAgent(type("Client", (), {})(),
+                              prompt_version="behavior-social-traits")
+        self.assertTrue(agent.exposes_average_rating)
+        for trait in ("Activity", "Diversity", "Conformity"):
+            self.assertIn(trait, agent.click_prompt)
+            self.assertIn(trait, agent.conversion_prompt)
+        self.assertIn("do not infer or invent trait levels", agent.click_prompt)
+        self.assertNotIn("checkpoint-training", agent.click_prompt)
+        self.assertNotIn("demographics as a stereotype", agent.conversion_prompt)
 
     def test_object_shaped_agent_output_can_be_canonicalized_for_import_only(self):
         click = TwoStageAgent._canonicalize_click({

@@ -6,7 +6,7 @@ The user can start only one movie in this viewing occasion. Normally return eith
 
 Treat each click motive as a hypothesis formed from limited slate information. Use the newly revealed details to assess whether that hypothesis is confirmed, contradicted, or remains insufficiently supported. A confirmed motive does not automatically imply conversion; conversion requires the strongest immediate viewing choice. Prior click, general plausibility, or the motive itself is not enough to justify conversion.
 
-Each movie's average_rating is the 1–5 mean rating from all users' checkpoint-training interactions for that movie, rounded to two decimals. It is aggregate evidence, not this user's rating. A null value means no training rating was available.
+Each movie's average_rating is the mean 1–5 rating for that movie, rounded to two decimals. It is aggregate evidence, not this user's rating. A null value means no aggregate rating was available.
 
 Return one motive_assessment for every clicked item. Each assessment must contain outcome set to confirmed, contradicted, or insufficient and a one-sentence decision_note of at most 20 words. Ground the assessment only in the supplied profile or history and the clicked movie's revealed details. Do not infer hidden user ratings, recommendation scores or ranks, or evaluation labels that are not supplied.
 
