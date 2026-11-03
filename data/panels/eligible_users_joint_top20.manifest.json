@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-30T08:19:28.518428+00:00",
+  "history_eligibility_verified_at_utc": "2026-11-03T09:00:06+00:00",
+  "criterion": "Every model's genuine full-sort Top-20 contains at least one checkpoint test interaction for the user.",
+  "relevance_definition": "All checkpoint test interactions, independent of rating",
+  "dataset": "ml-1m",
+  "split_mode": "RO",
+  "candidate_size": 20,
+  "minimum_train_interactions": 10,
+  "minimum_observed_train_interactions": 16,
+  "total_test_users": 6040,
+  "common_reachable_users": 4588,
+  "eligible_after_history_filter": 4588,
+  "common_reachable_fraction": 0.7596026490066226,
+  "users_csv_sha256": "a54a5899730e35099e7744a6e1f53f582dc557a1a430ab646f7c80dcec21a4a4",
+  "source_config_sha256": "513d048c1f0fea9394aa8d66efaac0fe187b3b33498deea0d7e9f039b0fc80b0",
+  "model_registry_sha256": "9cce22d8809f3021a1f9df1f06bb178d73416e43800735fb696b17b30a6ca693",
+  "models": {
+    "MF": {
+      "checkpoint_sha256": "8faf8881e33708d2133b00cd699be618b11fb7d1a0f7246a1cf1f2f2c5727ade",
+      "checkpoint_epoch": 5,
+      "users_with_positive_in_top20": 4849
+    },
+    "LightGCN": {
+      "checkpoint_sha256": "f58de91acf4fc4d7e9cf2df0147f22bada97a3eb2b65e2bcc114e1bf43c37a46",
+      "checkpoint_epoch": 149,
+      "users_with_positive_in_top20": 5212
+    },
+    "MultiVAE": {
+      "checkpoint_sha256": "6e47e11bd6f40d1588e65eede17bff0074868e6f188a4e50eff759b555fade1f",
+      "checkpoint_epoch": 98,
+      "users_with_positive_in_top20": 5226
+    }
+  },
+  "mapping_hash": {
+    "users": "54edfae070a3e88c6b17cadec382dc4f5cd20a6035560c4ffd52990e6a917295",
+    "items": "40eb5b57f3dee29d25d6eb13b18fc5c9648126d0b663bd9b8babdbcfb4191703"
+  },
+  "split_hash": {
+    "train": "133a535f57817c3457042e9beecc3ef544769541bba8ee88614fc71a81283db0",
+    "valid": "b1eabe0a6c3a5b2de84fb44f9124cce912a785fbb4321b5200c06d31afda1bb4",
+    "test": "b108b2694e68d92ab346222d9806ecad2e6a347cc609fd3f7978bd9f53658393"
+  }
+}

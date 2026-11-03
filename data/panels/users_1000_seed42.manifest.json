@@ -1,0 +1,38 @@
+{
+  "checkpoint_sha256": {
+    "LightGCN": "f58de91acf4fc4d7e9cf2df0147f22bada97a3eb2b65e2bcc114e1bf43c37a46",
+    "MF": "8faf8881e33708d2133b00cd699be618b11fb7d1a0f7246a1cf1f2f2c5727ade",
+    "MultiVAE": "6e47e11bd6f40d1588e65eede17bff0074868e6f188a4e50eff759b555fade1f"
+  },
+  "columns": {
+    "*_positive_count_top20": "Held-out interactions in that model's Top-20",
+    "raw_user_id": "Original MovieLens user token",
+    "test_positive_count": "All checkpoint test interactions",
+    "train_interaction_count": "Checkpoint train-split interactions",
+    "user_id": "Checkpoint-internal user ID"
+  },
+  "created_at_utc": "2026-11-03T09:00:24.450102+00:00",
+  "eligible_after_history_filter": 4588,
+  "joint_top20_positive_required": true,
+  "mapping_hash": {
+    "items": "40eb5b57f3dee29d25d6eb13b18fc5c9648126d0b663bd9b8babdbcfb4191703",
+    "users": "54edfae070a3e88c6b17cadec382dc4f5cd20a6035560c4ffd52990e6a917295"
+  },
+  "minimum_train_interactions": 10,
+  "model_registry_sha256": "9cce22d8809f3021a1f9df1f06bb178d73416e43800735fb696b17b30a6ca693",
+  "panel_sha256": "76cdc352836afd33e23330affa5da3408756af08fc16bafbd5879a4d09425d3b",
+  "panel_size": 1000,
+  "panel_user_ids_hash": "0289609e2e7dfbe03d580fecd5a1d0101345aed63feee962eab5c08792a951ee",
+  "relevance_definition": "all checkpoint test interactions, independent of rating",
+  "sampling_design": "simple_random_without_replacement",
+  "sampling_seed": 42,
+  "schema_version": 1,
+  "source_manifest_sha256": "4119b79992eba5903f4fa7e1a808849621f3751edb58a5d72f1b99fc085eddf3",
+  "source_population_size": 4588,
+  "source_users_sha256": "a54a5899730e35099e7744a6e1f53f582dc557a1a430ab646f7c80dcec21a4a4",
+  "split_hash": {
+    "test": "b108b2694e68d92ab346222d9806ecad2e6a347cc609fd3f7978bd9f53658393",
+    "train": "133a535f57817c3457042e9beecc3ef544769541bba8ee88614fc71a81283db0",
+    "valid": "b1eabe0a6c3a5b2de84fb44f9124cce912a785fbb4321b5200c06d31afda1bb4"
+  }
+}

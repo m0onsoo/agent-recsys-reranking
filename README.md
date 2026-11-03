@@ -12,7 +12,10 @@ actions can be evaluated under every reranking policy without paying for another
   every registered model's full-sort Top-20. Eligibility must hold jointly for MF,
   LightGCN, and vanilla MultiVAE.
 - Panel: the already sampled 1,000 users in
-  `data/panels/users_1000_seed42.csv`. This repository never resamples it.
+  `data/panels/users_1000_seed42.csv`. This is a seed-42 simple random sample
+  without replacement from the 4,588 jointly eligible users in
+  `data/panels/eligible_users_joint_top20.csv`. This repository never resamples it
+  during an experiment.
 - Primary relevance: every held-out interaction, independent of rating. Rating
   strata are additionally written for secondary analysis.
 - Candidate order: the registered backbone model's score order.
@@ -23,6 +26,21 @@ The fixed CSV should contain `user_id` and `raw_user_id`. Keep provenance column
 such as seed, train count, and each model's Top-20 positive count when available.
 The distributed bundle is generated only after every panel member passes the joint
 Top-20 eligibility rule.
+
+Maintainers can reproduce the committed sample from the committed eligibility
+population with:
+
+```bash
+python scripts/sample_eligible_panel.py \
+  --registry registry/models.yaml \
+  --artifact-root /path/to/checkpoints \
+  --recbole-root /path/to/RecBole \
+  --recbole-debias-root /path/to/Recbole-Debias \
+  --dataset-root /path/to/RecBole/dataset
+```
+
+This command verifies checkpoint, mapping, and split hashes before sampling. Normal
+collaborator experiments do not run this command and require no RecBole installation.
 
 ## Install and obtain the precomputed bundle
 

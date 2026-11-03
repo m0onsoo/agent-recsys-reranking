@@ -1,9 +1,14 @@
 # Fixed panels
 
-Commit the already sampled 1,000-user CSV here as `users_1000_seed42.csv`.
-The runner never resamples a committed panel. Required columns are `user_id` and
-`raw_user_id`; provenance columns and per-model Top-20 held-out counts are strongly
-recommended.
+`eligible_users_joint_top20.csv` is the audited sampling population. Its 4,588 users
+have at least ten checkpoint-train interactions and at least one checkpoint-test
+interaction in every registered model's genuine full-sort Top-20.
 
-MovieLens interaction rows are not stored in Git. Run `agent-reranking download-data`
-and `agent-reranking prepare-bundle` locally to materialize profile inputs.
+`users_1000_seed42.csv` is a simple random sample without replacement from that
+population, using Python's `random.Random(42)`. It is sorted by internal user ID only
+after selection. The adjacent manifest pins the population, model checkpoints,
+mapping, split, sampling rule, seed, and panel hashes.
+
+The runner never resamples the committed panel. Movie histories, candidate IDs and
+scores, held-out labels, item metadata, and social traits belong in the separately
+shared precomputed bundle, not in this directory.
