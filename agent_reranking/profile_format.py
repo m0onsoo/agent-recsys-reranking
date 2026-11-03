@@ -51,7 +51,8 @@ def labeled_social_traits(traits):
     result = {}
     for name in ("activity", "conformity", "diversity"):
         row = dict(traits[name])
-        level = int(row["level"])
+        level = int(row.get("assigned_level", row["level"]))
+        row["level"] = level
         row["label"] = TRAIT_LABELS[name][level]
         result[name] = row
     return result

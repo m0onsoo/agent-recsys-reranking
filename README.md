@@ -186,6 +186,26 @@ The opt-in `behavior-social-traits` protocol also exposes the train-only aggrega
 rating and explicitly routes activity to decision threshold, diversity to exploration
 breadth, and conformity to the weight of `average_rating`. It remains separately
 selectable from v2 for controlled comparison.
+
+To test whether these instructions causally affect behavior, use the fixed 30-user
+one-trait-at-a-time intervention pilot:
+
+```bash
+sbatch scripts/run_30user_trait_interventions.sbatch
+```
+
+It assigns every user each level 1, 2, and 3 for one trait while holding the other
+traits, profile evidence, and model-specific Top-20 slate fixed. After all nine runs
+finish, create the preregistered behavioral audit with:
+
+```bash
+python scripts/analyze_trait_interventions.py
+```
+
+The primary directions are increasing click count for activity, increasing novel-genre
+fraction for diversity, and decreasing aggregate-rating selection lift as conformity
+moves from dedicated follower to independent critic. Uncertainty is bootstrapped by
+user so the three backbone cases are not treated as independent users.
 The safety controls mean:
 
 - `--concurrency`: maximum simultaneous API workers; lower it after 429/timeouts.

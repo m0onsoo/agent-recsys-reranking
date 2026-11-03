@@ -41,6 +41,17 @@ class ProfilePayloadTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "absent from bundle"):
             select_users([1, 2, 3], None, [4])
 
+    def test_assigned_trait_level_changes_only_that_rendered_trait(self):
+        original = _profile_payload(
+            self.profile, ["social_traits"], "separated")["social_traits"]
+        self.profile["social_traits"]["activity"]["assigned_level"] = 1
+        intervened = _profile_payload(
+            self.profile, ["social_traits"], "separated")["social_traits"]
+        self.assertIn("activity is occasional viewer", original)
+        self.assertIn("activity is infrequent viewer", intervened)
+        self.assertIn("conformity is independent critic", intervened)
+        self.assertIn("diversity is selective viewer", intervened)
+
     def test_legacy_protocol_combines_tastes_and_traits_once(self):
         value = _profile_payload(self.profile,
             ["history", "unique_tastes", "social_traits"], "legacy_combined")
