@@ -35,18 +35,17 @@ MOTIVE_CONVERSION_SCHEMA = {
 
 ALIGN_CLICK_SCHEMA = {
     "type": "object", "properties": {
-        "alignment_assessments": {"type": "object", "additionalProperties": {
+        "candidate_assessments": {"type": "object", "additionalProperties": {
             "type": "object", "properties": {
                 "alignment": {"enum": ["strong", "adjacent", "none"]},
-                "reason": {"type": "string"},
+                "evidence": {"type": "string"},
             },
-            "required": ["alignment", "reason"], "additionalProperties": False,
+            "required": ["alignment", "evidence"], "additionalProperties": False,
         }},
         "clicked_item_ids": {"type": "array", "items": {"type": "integer"},
                              "uniqueItems": True},
-        "click_motives": {"type": "object", "additionalProperties": {"type": "string"}},
     },
-    "required": ["alignment_assessments", "clicked_item_ids", "click_motives"],
+    "required": ["candidate_assessments", "clicked_item_ids"],
     "additionalProperties": False,
 }
 
@@ -59,10 +58,9 @@ RATING_CONVERSION_SCHEMA = {
             "type": "object", "properties": {
                 "outcome": {"enum": ["confirmed", "contradicted", "insufficient"]},
                 "predicted_rating": {"type": "integer", "minimum": 1, "maximum": 5},
-                "rating_reason": {"type": "string"},
-                "decision_note": {"type": "string"},
+                "reason": {"type": "string"},
             },
-            "required": ["outcome", "predicted_rating", "rating_reason", "decision_note"],
+            "required": ["outcome", "predicted_rating", "reason"],
             "additionalProperties": False,
         }},
         "decision_reason": {"type": "string"},
@@ -215,25 +213,19 @@ class TwoStageAgent:
     def _validate_align_click(value, allowed):
         Draft202012Validator(ALIGN_CLICK_SCHEMA).validate(value)
         ids = value["clicked_item_ids"]
-        alignments = value["alignment_assessments"]
-        motives = value["click_motives"]
+        assessments = value["candidate_assessments"]
         expected = {str(item) for item in allowed}
-        if set(alignments) != expected:
+        if set(assessments) != expected:
             TwoStageAgent._raise_key_mismatch(
-                "alignment_assessments", alignments, expected, "all candidate item IDs")
+                "candidate_assessments", assessments, expected, "all candidate item IDs")
         if not set(ids).issubset(allowed):
             raise ValueError("click selected an item outside the permitted set")
-        if set(motives) != {str(item) for item in ids}:
-            TwoStageAgent._raise_key_mismatch(
-                "click_motives", motives, {str(item) for item in ids}, "clicked_item_ids")
-        for item, assessment in alignments.items():
+        for item, assessment in assessments.items():
             TwoStageAgent._validate_short_sentence(
-                assessment["reason"], f"alignment_assessments[{item}].reason")
+                assessment["evidence"], f"candidate_assessments[{item}].evidence")
         for item in ids:
-            if alignments[str(item)]["alignment"] == "none":
+            if assessments[str(item)]["alignment"] == "none":
                 raise ValueError("an item with alignment=none cannot be clicked")
-        for item, motive in motives.items():
-            TwoStageAgent._validate_short_sentence(motive, f"click_motives[{item}]")
 
     @staticmethod
     def _validate_rating_conversion(value, clicked):
@@ -253,9 +245,7 @@ class TwoStageAgent:
             raise ValueError("watch_decision=not_ready requires an empty converted_item_ids")
         for item, assessment in assessments.items():
             TwoStageAgent._validate_short_sentence(
-                assessment["rating_reason"], f"motive_assessments[{item}].rating_reason")
-            TwoStageAgent._validate_short_sentence(
-                assessment["decision_note"], f"motive_assessments[{item}].decision_note")
+                assessment["reason"], f"motive_assessments[{item}].reason")
         TwoStageAgent._validate_short_sentence(value["decision_reason"], "decision_reason")
 
     @staticmethod
@@ -345,6 +335,12 @@ class TwoStageAgent:
         if self.uses_align_rating_protocol:
             # This is a deterministic property of the selection, not an LLM judgment.
             click["click_count"] = len(clicked)
+            # Preserve the common action field for downstream analysis without asking
+            # the model to restate the same pre-click evidence.
+            click["click_motives"] = {
+                str(item): click["candidate_assessments"][str(item)]["evidence"]
+                for item in clicked
+            }
         if not clicked:
             empty_conversion = {"converted_item_ids": [], "motive_assessments": {}}
             if self.uses_align_rating_protocol:
@@ -365,7 +361,7 @@ class TwoStageAgent:
                    for item in clicked]
         if self.uses_align_rating_protocol:
             for detail in details:
-                detail["click_motive"] = click["click_motives"][str(detail["item_id"])]
+                detail["click_hypothesis"] = click["click_motives"][str(detail["item_id"])]
         conversion_system = self.conversion_prompt.replace(
             "{history_instruction}", _instruction(profile)).replace(
             "{conversion_context_instruction}", FULL_SLATE_CONTEXT)

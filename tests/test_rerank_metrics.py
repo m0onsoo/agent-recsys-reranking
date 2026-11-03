@@ -63,7 +63,7 @@ class RerankMetricTests(unittest.TestCase):
         result, attempts = agent.simulate(
             {"user_id": 7}, {"item_ids": [3, 4, 5], "scores": [3.0, 2.0, 1.0]}, catalog)
         self.assertEqual(result["click_count"], 2)
-        self.assertEqual(set(result["alignment_assessments"]), {"3", "4", "5"})
+        self.assertEqual(set(result["candidate_assessments"]), {"3", "4", "5"})
         self.assertEqual(result["watch_decision"], "watch")
         self.assertEqual(len(result["converted_item_ids"]), 1)
         self.assertEqual(result["motive_assessments"]["3"]["predicted_rating"], 4)
@@ -80,17 +80,16 @@ class RerankMetricTests(unittest.TestCase):
                 inner.calls.append(payload)
                 if name == "alignment_click_selection":
                     return {
-                        "alignment_assessments": {
-                            "3": {"alignment": "strong", "reason": "Drama matches established tastes"}},
+                        "candidate_assessments": {
+                            "3": {"alignment": "strong",
+                                  "evidence": "Drama matches established tastes"}},
                         "clicked_item_ids": [3],
-                        "click_motives": {"3": "The drama genre warrants closer inspection"},
                     }
                 return {
                     "watch_decision": "not_ready", "converted_item_ids": [],
                     "motive_assessments": {"3": {
                         "outcome": "insufficient", "predicted_rating": 3,
-                        "rating_reason": "The details provide mixed preference evidence",
-                        "decision_note": "The movie does not clear the immediate threshold"}},
+                        "reason": "The details provide mixed preference evidence"}},
                     "decision_reason": "No movie is sufficiently compelling to start now",
                 }
 
@@ -101,25 +100,24 @@ class RerankMetricTests(unittest.TestCase):
             client, prompt_version="behavior-align-rating-social-traits").simulate(
                 {"user_id": 7}, {"item_ids": [3], "scores": [1.0]}, catalog)
         self.assertEqual(result["click_count"], 1)
-        self.assertEqual(client.calls[1]["clicked_items"][0]["click_motive"],
-                         "The drama genre warrants closer inspection")
+        self.assertEqual(client.calls[1]["clicked_items"][0]["click_hypothesis"],
+                         "Drama matches established tastes")
         self.assertNotIn("click_motives", client.calls[1])
 
     def test_align_rating_protocol_enforces_click_and_conversion_invariants(self):
         alignments = {
-            "3": {"alignment": "strong", "reason": "Established drama preference"},
-            "4": {"alignment": "none", "reason": "No supported preference connection"},
+            "3": {"alignment": "strong", "evidence": "Established drama preference"},
+            "4": {"alignment": "none", "evidence": "No supported preference connection"},
         }
         with self.assertRaisesRegex(ValueError, "alignment=none"):
             TwoStageAgent._validate_align_click({
-                "alignment_assessments": alignments,
-                "clicked_item_ids": [4], "click_motives": {"4": "Possible discovery"}},
+                "candidate_assessments": alignments,
+                "clicked_item_ids": [4]},
                 {3, 4})
 
         assessments = {"3": {
             "outcome": "confirmed", "predicted_rating": 4,
-            "rating_reason": "The details fit established preferences",
-            "decision_note": "The movie remains a credible immediate option",
+            "reason": "The details fit established preferences",
         }}
         with self.assertRaisesRegex(ValueError, "not_ready requires an empty"):
             TwoStageAgent._validate_rating_conversion({
@@ -127,6 +125,22 @@ class RerankMetricTests(unittest.TestCase):
                 "motive_assessments": assessments,
                 "decision_reason": "No option clears the viewing threshold",
             }, [3])
+
+    def test_align_click_request_uses_strict_schema_for_every_candidate(self):
+        from agent_reranking.client import OpenAICompatibleClient
+
+        payload = json.dumps({
+            "items": [{"item_id": 3}, {"item_id": 4}], "retry_feedback": None})
+        body = OpenAICompatibleClient.request_body(
+            "system", payload, None, "alignment_click_selection", "model", 0.0)
+        response_format = body["response_format"]
+        self.assertEqual(response_format["type"], "json_schema")
+        schema = response_format["json_schema"]["schema"]
+        candidate_schema = schema["properties"]["candidate_assessments"]
+        self.assertEqual(set(candidate_schema["required"]), {"3", "4"})
+        self.assertEqual(
+            set(candidate_schema["properties"]["3"]["required"]),
+            {"alignment", "evidence"})
 
     def test_object_shaped_agent_output_can_be_canonicalized_for_import_only(self):
         click = TwoStageAgent._canonicalize_click({

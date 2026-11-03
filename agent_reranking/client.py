@@ -76,7 +76,22 @@ class OpenAICompatibleClient:
     @staticmethod
     def request_body(system, user, schema, name, model, temperature):
         """Build the legacy-compatible Chat Completions request body."""
-        if name in ("conversion_selection", "rating_conversion_selection"):
+        if name == "alignment_click_selection":
+            payload = json.loads(user)
+            ids = [str(item["item_id"]) for item in payload["items"]]
+            assessment = {"type": "object", "properties": {
+                "alignment": {"type": "string", "enum": ["strong", "adjacent", "none"]},
+                "evidence": {"type": "string"}},
+                "required": ["alignment", "evidence"], "additionalProperties": False}
+            schema = {"type": "object", "properties": {
+                "candidate_assessments": {"type": "object",
+                    "properties": {item: assessment for item in ids},
+                    "required": ids, "additionalProperties": False},
+                "clicked_item_ids": {"type": "array", "items": {
+                    "type": "integer", "enum": [int(item) for item in ids]}}},
+                "required": ["candidate_assessments", "clicked_item_ids"],
+                "additionalProperties": False}
+        elif name in ("conversion_selection", "rating_conversion_selection"):
             payload = json.loads(user)
             item_schema = {"type": "integer"}
             if payload.get("retry_feedback"):
@@ -89,10 +104,10 @@ class OpenAICompatibleClient:
             if name == "rating_conversion_selection":
                 assessment_properties.update({
                     "predicted_rating": {"type": "integer", "minimum": 1, "maximum": 5},
-                    "rating_reason": {"type": "string"},
+                    "reason": {"type": "string"},
                 })
-                assessment_required = [
-                    "outcome", "predicted_rating", "rating_reason", "decision_note"]
+                assessment_properties.pop("decision_note")
+                assessment_required = ["outcome", "predicted_rating", "reason"]
             assessment = {"type": "object", "properties": assessment_properties,
                 "required": assessment_required, "additionalProperties": False}
             properties = {str(item): assessment for item in payload["clicked_item_ids"]}
@@ -154,13 +169,14 @@ class MockClient:
                       "click_motives": {str(item): "The supplied genre warrants inspection"
                                         for item in ids}}
             if name == "alignment_click_selection":
-                result.update({
-                    "alignment_assessments": {
+                result = {
+                    "candidate_assessments": {
                         str(item["item_id"]): {
                             "alignment": ("strong" if item["item_id"] in ids else "none"),
-                            "reason": "The supplied genres indicate preference alignment"}
+                            "evidence": "The supplied genres indicate preference alignment"}
                         for item in payload["items"]},
-                })
+                    "clicked_item_ids": ids,
+                }
             return result
         if name in ("conversion_selection", "rating_conversion_selection"):
             payload = json.loads(user)
@@ -171,8 +187,9 @@ class MockClient:
             result = {"converted_item_ids": clicked[:1], "motive_assessments": assessments}
             if name == "rating_conversion_selection":
                 for assessment in assessments.values():
+                    assessment.pop("decision_note")
                     assessment.update({"predicted_rating": 4,
-                                       "rating_reason": "The details indicate a likely positive response"})
+                                       "reason": "The details indicate a likely positive response"})
                 result.update({"watch_decision": "watch" if clicked else "not_ready",
                                "decision_reason": ("The strongest option is ready to watch"
                                                    if clicked else "No option is ready to watch")})

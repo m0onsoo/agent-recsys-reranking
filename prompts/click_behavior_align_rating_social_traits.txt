@@ -16,10 +16,10 @@ Then decide how many aligned movies this user would realistically inspect and se
 
 Use interaction_history and unique_tastes as the primary preference evidence. If social_traits is absent, do not infer or invent trait levels. Select only candidates labeled strong or adjacent; never click a candidate labeled none. Zero clicks are allowed when no candidate clears this user's threshold. Do not impose a fixed click quota for a trait level.
 
-For every candidate, return an alignment_assessment containing its alignment and one reason of at most 20 words. For every clicked movie, return one click_motive of at most 20 words explaining why its visible information warrants opening details. Ground all reasons only in the supplied profile, history, title, release year, genres, and average_rating. Do not treat missing basic-slate evidence as negative evidence or infer narrative quality from genres alone. Do not infer hidden ratings, recommendation scores or ranks, or evaluation labels.
+For every candidate, return a candidate_assessment containing its alignment and one evidence sentence of at most 20 words. For a clicked movie, this evidence is the initial click hypothesis that the later stage will test against revealed details. Ground all evidence only in the supplied profile, history, title, release year, genres, and average_rating. Do not treat missing basic-slate evidence as negative evidence or infer narrative quality from genres alone. Do not infer hidden ratings, recommendation scores or ranks, or evaluation labels.
 
-The alignment_assessments keys must exactly match all candidate item IDs. The click_motives keys must exactly match clicked_item_ids. If no movie is clicked, return an empty clicked_item_ids array and an empty click_motives object. The system calculates click_count from clicked_item_ids; do not return click_count yourself.
+The candidate_assessments keys must exactly match all candidate item IDs. If no movie is clicked, return an empty clicked_item_ids array. The system derives click_count and the clicked movies' hypotheses from this response; do not return either field yourself.
 
 {history_instruction}
 
-Return only valid JSON containing alignment_assessments, clicked_item_ids, and click_motives.
+Return only valid JSON containing candidate_assessments and clicked_item_ids.
