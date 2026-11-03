@@ -187,6 +187,25 @@ rating and explicitly routes activity to decision threshold, diversity to explor
 breadth, and conformity to the weight of `average_rating`. It remains separately
 selectable from v2 for controlled comparison.
 
+The opt-in `behavior-align-rating-social-traits` protocol is a stricter experimental
+variant. It labels every candidate `strong`, `adjacent`, or `none`; uses activity and
+diversity to choose a variable number of aligned clicks; predicts a 1–5 personal
+rating for every clicked movie with conformity-aware use of `average_rating`; and
+ends with either one immediate conversion or an explicit `not_ready` decision with
+zero conversions. Run it with:
+
+```bash
+agent-reranking run \
+  --config configs/default.yaml \
+  --bundle data/derived/ml1m_ro_n1000_seed42 \
+  --profiles artifacts/profiles/ours_all/profiles.jsonl \
+  --prompt-version behavior-align-rating-social-traits
+```
+
+This protocol is not the default until its behavioral checks and reranking metrics
+are reviewed. It makes no extra API call: alignment and clicking share the click
+call, while predicted ratings and the final decision share the conversion call.
+
 To test whether these instructions causally affect behavior, use the fixed 30-user
 one-trait-at-a-time intervention pilot:
 

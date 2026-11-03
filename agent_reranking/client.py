@@ -76,22 +76,41 @@ class OpenAICompatibleClient:
     @staticmethod
     def request_body(system, user, schema, name, model, temperature):
         """Build the legacy-compatible Chat Completions request body."""
-        if name == "conversion_selection":
+        if name in ("conversion_selection", "rating_conversion_selection"):
             payload = json.loads(user)
             item_schema = {"type": "integer"}
             if payload.get("retry_feedback"):
                 item_schema["enum"] = [item["item_id"] for item in payload["clicked_items"]]
-            assessment = {"type": "object", "properties": {
+            assessment_properties = {
                 "outcome": {"type": "string",
                             "enum": ["confirmed", "contradicted", "insufficient"]},
-                "decision_note": {"type": "string"}},
-                "required": ["outcome", "decision_note"], "additionalProperties": False}
+                "decision_note": {"type": "string"}}
+            assessment_required = ["outcome", "decision_note"]
+            if name == "rating_conversion_selection":
+                assessment_properties.update({
+                    "predicted_rating": {"type": "integer", "minimum": 1, "maximum": 5},
+                    "rating_reason": {"type": "string"},
+                })
+                assessment_required = [
+                    "outcome", "predicted_rating", "rating_reason", "decision_note"]
+            assessment = {"type": "object", "properties": assessment_properties,
+                "required": assessment_required, "additionalProperties": False}
             properties = {str(item): assessment for item in payload["clicked_item_ids"]}
-            schema = {"type": "object", "properties": {
+            response_properties = {
                 "converted_item_ids": {"type": "array", "items": item_schema},
                 "motive_assessments": {"type": "object", "properties": properties,
-                    "required": list(properties), "additionalProperties": False}},
-                "required": ["converted_item_ids", "motive_assessments"],
+                    "required": list(properties), "additionalProperties": False}}
+            required = ["converted_item_ids", "motive_assessments"]
+            if name == "rating_conversion_selection":
+                response_properties.update({
+                    "watch_decision": {"type": "string", "enum": ["watch", "not_ready"]},
+                    "decision_reason": {"type": "string"},
+                })
+                response_properties["converted_item_ids"]["maxItems"] = 1
+                required = ["watch_decision", "converted_item_ids",
+                            "motive_assessments", "decision_reason"]
+            schema = {"type": "object", "properties": response_properties,
+                "required": required,
                 "additionalProperties": False}
         response_format = ({"type": "json_schema", "json_schema": {
             "name": name, "strict": True, "schema": schema}}
@@ -128,18 +147,37 @@ class MockClient:
         return getattr(self._local, "last_call", {"usage": {}, "estimated_cost_usd": 0.0})
 
     def respond_json(self, system, user, schema, name="structured_response"):
-        if name == "click_selection":
+        if name in ("click_selection", "alignment_click_selection"):
             payload = json.loads(user)
             ids = [item["item_id"] for item in payload.get("items", payload.get("candidates", []))[:2]]
-            return {"clicked_item_ids": ids,
-                    "click_motives": {str(item): "The supplied genre warrants inspection"
-                                      for item in ids}}
-        if name == "conversion_selection":
+            result = {"clicked_item_ids": ids,
+                      "click_motives": {str(item): "The supplied genre warrants inspection"
+                                        for item in ids}}
+            if name == "alignment_click_selection":
+                result.update({
+                    "alignment_assessments": {
+                        str(item["item_id"]): {
+                            "alignment": ("strong" if item["item_id"] in ids else "none"),
+                            "reason": "The supplied genres indicate preference alignment"}
+                        for item in payload["items"]},
+                    "click_count": len(ids),
+                })
+            return result
+        if name in ("conversion_selection", "rating_conversion_selection"):
             payload = json.loads(user)
             clicked = payload.get("clicked_item_ids", [])
-            return {"converted_item_ids": clicked[:1], "motive_assessments": {
+            assessments = {
                 str(item): {"outcome": "confirmed", "decision_note": "Details support viewing"}
-                for item in clicked}}
+                for item in clicked}
+            result = {"converted_item_ids": clicked[:1], "motive_assessments": assessments}
+            if name == "rating_conversion_selection":
+                for assessment in assessments.values():
+                    assessment.update({"predicted_rating": 4,
+                                       "rating_reason": "The details indicate a likely positive response"})
+                result.update({"watch_decision": "watch" if clicked else "not_ready",
+                               "decision_reason": ("The strongest option is ready to watch"
+                                                   if clicked else "No option is ready to watch")})
+            return result
         properties = (schema or {}).get("properties", {})
         if "candidate_personas" in properties:
             return {"candidate_personas": [{"age": "25-34", "occupation": "other",

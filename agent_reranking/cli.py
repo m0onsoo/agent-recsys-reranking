@@ -104,7 +104,7 @@ def main(argv=None):
     execute.add_argument("--llm-model")
     execute.add_argument("--prompt-version", choices=(
         "behavior-motive-assessment-v1", "behavior-motive-assessment-v2",
-        "behavior-social-traits"))
+        "behavior-social-traits", "behavior-align-rating-social-traits"))
     execute.add_argument("--output-root")
     execute.add_argument("--profile-protocol", choices=("separated", "legacy_combined"))
     _common_profile_flags(execute, default=None)

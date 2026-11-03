@@ -33,6 +33,46 @@ MOTIVE_CONVERSION_SCHEMA = {
     "additionalProperties": False,
 }
 
+ALIGN_CLICK_SCHEMA = {
+    "type": "object", "properties": {
+        "alignment_assessments": {"type": "object", "additionalProperties": {
+            "type": "object", "properties": {
+                "alignment": {"enum": ["strong", "adjacent", "none"]},
+                "reason": {"type": "string"},
+            },
+            "required": ["alignment", "reason"], "additionalProperties": False,
+        }},
+        "click_count": {"type": "integer", "minimum": 0},
+        "clicked_item_ids": {"type": "array", "items": {"type": "integer"},
+                             "uniqueItems": True},
+        "click_motives": {"type": "object", "additionalProperties": {"type": "string"}},
+    },
+    "required": ["alignment_assessments", "click_count", "clicked_item_ids", "click_motives"],
+    "additionalProperties": False,
+}
+
+RATING_CONVERSION_SCHEMA = {
+    "type": "object", "properties": {
+        "watch_decision": {"enum": ["watch", "not_ready"]},
+        "converted_item_ids": {"type": "array", "items": {"type": "integer"},
+                               "uniqueItems": True, "maxItems": 1},
+        "motive_assessments": {"type": "object", "additionalProperties": {
+            "type": "object", "properties": {
+                "outcome": {"enum": ["confirmed", "contradicted", "insufficient"]},
+                "predicted_rating": {"type": "integer", "minimum": 1, "maximum": 5},
+                "rating_reason": {"type": "string"},
+                "decision_note": {"type": "string"},
+            },
+            "required": ["outcome", "predicted_rating", "rating_reason", "decision_note"],
+            "additionalProperties": False,
+        }},
+        "decision_reason": {"type": "string"},
+    },
+    "required": ["watch_decision", "converted_item_ids", "motive_assessments",
+                 "decision_reason"],
+    "additionalProperties": False,
+}
+
 
 def _instruction(profile):
     if "interaction_history" in profile:
@@ -60,6 +100,10 @@ PROMPT_PROTOCOLS = {
         "click_behavior_social_traits.txt",
         "conversion_behavior_social_traits.txt",
     ),
+    "behavior-align-rating-social-traits": (
+        "click_behavior_align_rating_social_traits.txt",
+        "conversion_behavior_align_rating_social_traits.txt",
+    ),
 }
 
 
@@ -83,6 +127,8 @@ class TwoStageAgent:
         }
         self.prompt_version = prompt_version
         self.exposes_average_rating = prompt_version != "behavior-motive-assessment-v1"
+        self.uses_align_rating_protocol = (
+            prompt_version == "behavior-align-rating-social-traits")
 
     @staticmethod
     def _canonicalize_click(value):
@@ -167,6 +213,55 @@ class TwoStageAgent:
                 assessment.get("decision_note"), f"motive_assessments[{item}].decision_note")
 
     @staticmethod
+    def _validate_align_click(value, allowed):
+        Draft202012Validator(ALIGN_CLICK_SCHEMA).validate(value)
+        ids = value["clicked_item_ids"]
+        alignments = value["alignment_assessments"]
+        motives = value["click_motives"]
+        expected = {str(item) for item in allowed}
+        if set(alignments) != expected:
+            TwoStageAgent._raise_key_mismatch(
+                "alignment_assessments", alignments, expected, "all candidate item IDs")
+        if not set(ids).issubset(allowed):
+            raise ValueError("click selected an item outside the permitted set")
+        if value["click_count"] != len(ids):
+            raise ValueError("click_count must equal the number of clicked_item_ids")
+        if set(motives) != {str(item) for item in ids}:
+            TwoStageAgent._raise_key_mismatch(
+                "click_motives", motives, {str(item) for item in ids}, "clicked_item_ids")
+        for item, assessment in alignments.items():
+            TwoStageAgent._validate_short_sentence(
+                assessment["reason"], f"alignment_assessments[{item}].reason")
+        for item in ids:
+            if alignments[str(item)]["alignment"] == "none":
+                raise ValueError("an item with alignment=none cannot be clicked")
+        for item, motive in motives.items():
+            TwoStageAgent._validate_short_sentence(motive, f"click_motives[{item}]")
+
+    @staticmethod
+    def _validate_rating_conversion(value, clicked):
+        Draft202012Validator(RATING_CONVERSION_SCHEMA).validate(value)
+        ids = value["converted_item_ids"]
+        assessments = value["motive_assessments"]
+        if not set(ids).issubset(set(clicked)):
+            raise ValueError("conversion selected an item outside the permitted set")
+        if set(assessments) != {str(item) for item in clicked}:
+            TwoStageAgent._raise_key_mismatch(
+                "motive_assessments", assessments, {str(item) for item in clicked},
+                "all clicked_item_ids")
+        decision = value["watch_decision"]
+        if decision == "watch" and len(ids) != 1:
+            raise ValueError("watch_decision=watch requires exactly one converted item")
+        if decision == "not_ready" and ids:
+            raise ValueError("watch_decision=not_ready requires an empty converted_item_ids")
+        for item, assessment in assessments.items():
+            TwoStageAgent._validate_short_sentence(
+                assessment["rating_reason"], f"motive_assessments[{item}].rating_reason")
+            TwoStageAgent._validate_short_sentence(
+                assessment["decision_note"], f"motive_assessments[{item}].decision_note")
+        TwoStageAgent._validate_short_sentence(value["decision_reason"], "decision_reason")
+
+    @staticmethod
     def _raise_key_mismatch(field, values, expected, target):
         actual = set(values)
         sort_key = lambda value: (0, int(value)) if value.isdigit() else (1, value)
@@ -208,7 +303,7 @@ class TwoStageAgent:
                          "space-separated words. Count the words before returning the complete JSON.")
         return rendered
 
-    def _call(self, stage, system, payload, validator):
+    def _call(self, stage, system, payload, validator, response_name=None):
         feedback = None
         attempts = []
         for retry in range(self.retries + 1):
@@ -217,8 +312,9 @@ class TwoStageAgent:
                 sent["retry_feedback"] = feedback
             try:
                 rendered_system = self._retry_system(system, feedback) if feedback else system
-                value = self.client.respond_json(rendered_system, json.dumps(sent, ensure_ascii=False),
-                                                 None, f"{stage}_selection")
+                value = self.client.respond_json(
+                    rendered_system, json.dumps(sent, ensure_ascii=False), None,
+                    response_name or f"{stage}_selection")
                 validator(value)
                 attempts.append({"stage": stage, "retry": retry, **self.client.last_call,
                                  "status": "valid"})
@@ -240,13 +336,23 @@ class TwoStageAgent:
                   basic_fields
                   if key in catalog[item]} for item in ids]
         click_system = self.click_prompt.replace("{history_instruction}", _instruction(profile))
+        click_validator = (self._validate_align_click if self.uses_align_rating_protocol
+                           else self._validate_click)
+        click_response_name = ("alignment_click_selection" if self.uses_align_rating_protocol
+                               else "click_selection")
         click, attempts = self._call("click", click_system,
             {"stage": "click", "profile": profile, "items": basic,
              "retry_feedback": None},
-            lambda value: self._validate_click(value, set(ids)))
+            lambda value: click_validator(value, set(ids)), click_response_name)
         clicked = click["clicked_item_ids"]
         if not clicked:
-            return {**click, "converted_item_ids": [], "motive_assessments": {}}, attempts
+            empty_conversion = {"converted_item_ids": [], "motive_assessments": {}}
+            if self.uses_align_rating_protocol:
+                empty_conversion.update({
+                    "watch_decision": "not_ready",
+                    "decision_reason": "No candidate warranted opening its details",
+                })
+            return {**click, **empty_conversion}, attempts
         detail_fields = ("item_id", "title", "release_year", "genres")
         if self.exposes_average_rating:
             detail_fields += ("average_rating",)
@@ -260,9 +366,15 @@ class TwoStageAgent:
         conversion_system = self.conversion_prompt.replace(
             "{history_instruction}", _instruction(profile)).replace(
             "{conversion_context_instruction}", FULL_SLATE_CONTEXT)
+        conversion_validator = (self._validate_rating_conversion
+                                if self.uses_align_rating_protocol
+                                else self._validate_conversion)
+        conversion_response_name = ("rating_conversion_selection"
+                                    if self.uses_align_rating_protocol
+                                    else "conversion_selection")
         conversion, more = self._call("conversion", conversion_system,
             {"stage": "conversion", "profile": profile, "candidate_slate": basic,
              "clicked_item_ids": clicked, "clicked_items": details,
              "click_motives": click["click_motives"], "retry_feedback": None},
-            lambda value: self._validate_conversion(value, clicked))
+            lambda value: conversion_validator(value, clicked), conversion_response_name)
         return {**click, **conversion}, attempts + more

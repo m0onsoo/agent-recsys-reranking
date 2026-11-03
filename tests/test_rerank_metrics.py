@@ -49,6 +49,49 @@ class RerankMetricTests(unittest.TestCase):
         self.assertNotIn("checkpoint-training", agent.click_prompt)
         self.assertNotIn("demographics as a stereotype", agent.conversion_prompt)
 
+    def test_align_rating_protocol_runs_and_records_structured_decisions(self):
+        from agent_reranking.client import MockClient
+
+        catalog = {
+            item: {"item_id": item, "title": f"Movie {item}", "release_year": "1999",
+                   "genres": ["Drama"], "average_rating": 4.0,
+                   "overview": "A detailed story"}
+            for item in (3, 4, 5)
+        }
+        agent = TwoStageAgent(
+            MockClient(), prompt_version="behavior-align-rating-social-traits")
+        result, attempts = agent.simulate(
+            {"user_id": 7}, {"item_ids": [3, 4, 5], "scores": [3.0, 2.0, 1.0]}, catalog)
+        self.assertEqual(result["click_count"], 2)
+        self.assertEqual(set(result["alignment_assessments"]), {"3", "4", "5"})
+        self.assertEqual(result["watch_decision"], "watch")
+        self.assertEqual(len(result["converted_item_ids"]), 1)
+        self.assertEqual(result["motive_assessments"]["3"]["predicted_rating"], 4)
+        self.assertEqual([attempt["status"] for attempt in attempts], ["valid", "valid"])
+
+    def test_align_rating_protocol_enforces_click_and_conversion_invariants(self):
+        alignments = {
+            "3": {"alignment": "strong", "reason": "Established drama preference"},
+            "4": {"alignment": "none", "reason": "No supported preference connection"},
+        }
+        with self.assertRaisesRegex(ValueError, "alignment=none"):
+            TwoStageAgent._validate_align_click({
+                "alignment_assessments": alignments, "click_count": 1,
+                "clicked_item_ids": [4], "click_motives": {"4": "Possible discovery"}},
+                {3, 4})
+
+        assessments = {"3": {
+            "outcome": "confirmed", "predicted_rating": 4,
+            "rating_reason": "The details fit established preferences",
+            "decision_note": "The movie remains a credible immediate option",
+        }}
+        with self.assertRaisesRegex(ValueError, "not_ready requires an empty"):
+            TwoStageAgent._validate_rating_conversion({
+                "watch_decision": "not_ready", "converted_item_ids": [3],
+                "motive_assessments": assessments,
+                "decision_reason": "No option clears the viewing threshold",
+            }, [3])
+
     def test_object_shaped_agent_output_can_be_canonicalized_for_import_only(self):
         click = TwoStageAgent._canonicalize_click({
             "clicked_item_ids": [{"item_id": 3, "click_motive": "Genre match"}],
