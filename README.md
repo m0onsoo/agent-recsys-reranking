@@ -53,9 +53,9 @@ source .venv/bin/activate
 pip install -e .
 ```
 
-Obtain the fixed 1,000-user bundle from the project maintainer (GitHub artifact,
-Drive, or another shared store), extract it at
-`data/derived/ml1m_ro_n1000_seed42`, and validate it before making any API calls:
+The fixed 1,000-user bundle is versioned in this private repository at
+`data/derived/ml1m_ro_n1000_seed42`. Validate it immediately after cloning and before
+making any API calls:
 
 ```bash
 agent-reranking validate-bundle \
@@ -218,12 +218,12 @@ agent-reranking run --llm-provider mock --num-users 2 --case-limit 3 \
   --profiles /tmp/mock_profiles/profiles.jsonl --output-root /tmp/mock_runs
 ```
 
-Do not commit `.env`, API keys, or raw API transcripts. Large derived bundles may be
-kept out of Git and shared as a single archive through Drive or a release artifact;
-the receiving researcher must run `validate-bundle`. Do commit the fixed panel,
-registry changes, prompts, code, tests, and small aggregate metric tables. Make one
-commit per logical experiment change and record the commit SHA and bundle ID with
-every shared result.
+Do not commit `.env`, API keys, generated API profiles, caches, raw API transcripts,
+or run directories. The single fixed 1,000-user input bundle is intentionally
+versioned so a private clone is sufficient for experiments; any replacement bundle
+must be validated and reviewed before commit. See `docs/REPOSITORY_DATA_POLICY.md`.
+Commit panel and registry changes, prompts, code, tests, and compact aggregate metric
+tables. Record the commit SHA and bundle ID with every shared result.
 
 For 50-user reproduction on the original maintainer machine, see
 `scripts/reproduce_50user.sh`. It imports the existing personas, removes demographics,

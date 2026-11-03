@@ -1,0 +1,31 @@
+{
+  "bundle_id": "9e91ea1182a873ce8da2ce424e4aa47baba667ee7c7d7fddbf562a674ee0d60b",
+  "candidate_size": 20,
+  "files": {
+    "candidates.jsonl": "abdb5bdb26c8695d1f796258a08180ab73f21a09974dbd5758fca5a3e123e738",
+    "evaluation_labels.jsonl": "663716f9f23ac9cd1524a0a194c94a5c3111a7a138d06fabc3c0b18e58a7dea3",
+    "item_catalog.jsonl": "0f3e4a9fb2d9bf0fe2e733636b94f0d5c37860e37bcc8c4f49cc6adb60b007d5",
+    "social_traits.json": "cc8ca942dd80b9833f42dfb66f6b03177b98c044b7518b056f0841a8a74116b0",
+    "train_interactions.jsonl": "c90f5a45e1b724f54b32abcf3485a951c4cdddbf9da66c87c37e5a109a0ebca3",
+    "users.csv": "76cdc352836afd33e23330affa5da3408756af08fc16bafbd5879a4d09425d3b"
+  },
+  "joint_positive_required": true,
+  "mapping_hash": {
+    "items": "40eb5b57f3dee29d25d6eb13b18fc5c9648126d0b663bd9b8babdbcfb4191703",
+    "users": "54edfae070a3e88c6b17cadec382dc4f5cd20a6035560c4ffd52990e6a917295"
+  },
+  "model_registry_sha256": "864ab5e239d8bb74d3365a0dfd96a485095b1214b6707c7e1badbe88459cd66a",
+  "models": [
+    "MF",
+    "LightGCN",
+    "MultiVAE"
+  ],
+  "num_users": 1000,
+  "panel_sha256": "76cdc352836afd33e23330affa5da3408756af08fc16bafbd5879a4d09425d3b",
+  "schema_version": 1,
+  "split_hash": {
+    "test": "b108b2694e68d92ab346222d9806ecad2e6a347cc609fd3f7978bd9f53658393",
+    "train": "133a535f57817c3457042e9beecc3ef544769541bba8ee88614fc71a81283db0",
+    "valid": "b1eabe0a6c3a5b2de84fb44f9124cce912a785fbb4321b5200c06d31afda1bb4"
+  }
+}
