@@ -10,6 +10,7 @@ from pathlib import Path
 
 from .bundle import select_users
 from .io import read_jsonl, sha256_file, stable_hash, write_json, write_jsonl
+from .profile_format import labeled_social_traits, natural_demographics, taste_summary
 
 
 PROFILE_METHODS = ("ours", "agent4rec", "simuser")
@@ -94,11 +95,7 @@ def _ours_schema():
 
 
 def _taste_summary(result):
-    tastes = "; ".join(f"{row['taste']} ({row['reason']})"
-                       for row in result["unique_tastes"])
-    liked = ", ".join(result["liked_patterns"])
-    disliked = ", ".join(result["disliked_patterns"])
-    return f"Unique tastes: {tastes}. Liked patterns: {liked}. Disliked patterns: {disliked}."
+    return taste_summary(result)
 
 
 def _shown(bundle, rows):
@@ -208,9 +205,9 @@ def generate_profiles(bundle, client, method="ours", components=("all",), seed=4
                 profile["interaction_history"].append(movie)
             manifest["history_item_ids"] = [row["item_id"] for row in sample]
         if "demographics" in enabled:
-            profile["demographics"] = source["demographics"]
+            profile["demographics"] = natural_demographics(source["demographics"])
         if "social_traits" in enabled:
-            profile["social_traits"] = traits[user]
+            profile["social_traits"] = labeled_social_traits(traits[user])
         if "unique_tastes" in enabled:
             legacy = imported.get(str(source["raw_user_id"]))
             if legacy is not None:

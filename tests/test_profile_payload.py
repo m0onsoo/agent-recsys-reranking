@@ -9,9 +9,14 @@ class ProfilePayloadTests(unittest.TestCase):
         self.profile = {
             "user_id": 7,
             "interaction_history": [{"title": "Seen", "genres": ["Drama"]}],
-            "unique_tastes": {"summary": "Likes drama", "liked_patterns": ["Drama"]},
-            "social_traits": {"activity": {"level": 2}},
-            "demographics": {"age": "25-34"},
+            "unique_tastes": {"unique_tastes": [{"taste": "Drama",
+                "reason": "Character-focused stories recur"}],
+                "liked_patterns": ["Drama"], "disliked_patterns": []},
+            "social_traits": {
+                "activity": {"level": 2, "value": 150},
+                "conformity": {"level": 3, "value": 1.5},
+                "diversity": {"level": 1, "value": 8}},
+            "demographics": {"age": "25", "gender": "F", "occupation": "12"},
             "legacy_persona_summary": "Likes drama. Social traits: activity is medium.",
         }
 
@@ -21,6 +26,15 @@ class ProfilePayloadTests(unittest.TestCase):
         self.assertEqual(set(value), {"user_id", "interaction_history", "unique_tastes",
                                       "social_traits", "demographics"})
         self.assertNotIn("persona_summary", value)
+        self.assertEqual(value["demographics"], {
+            "age": "25-34", "gender": "female", "occupation": "programmer"})
+        self.assertEqual(value["unique_tastes"],
+            "Unique tastes: Drama (Character-focused stories recur). "
+            "Liked patterns: Drama. Disliked patterns: no repeated disliked pattern identified.")
+        self.assertEqual(value["social_traits"],
+            "Social traits: activity is occasional viewer (moderate movie-interaction frequency); "
+            "conformity is independent critic (ratings often depart from average item ratings); "
+            "diversity is selective viewer (genre choices are concentrated).")
 
     def test_explicit_user_selection_is_reused_in_declared_order(self):
         self.assertEqual(select_users([1, 2, 3, 4], 2, [4, 2]), [4, 2])

@@ -11,6 +11,7 @@ from .bundle import DataBundle, select_users
 from .client import MockClient, OpenAICompatibleClient, RateBudget
 from .io import read_jsonl, stable_hash, write_csv, write_json
 from .metrics import evaluate, rating_strata
+from .profile_format import natural_demographics, social_trait_summary, taste_summary
 from .rerank import all_rankings
 from .results import append_jsonl, create_run, summarize, upsert_index
 
@@ -48,6 +49,12 @@ def _profile_payload(profile, components, protocol="separated"):
                           "cast", "release_date", "language", "country")
                 result[field] = [{key: movie[key] for key in fields if key in movie}
                                  for movie in profile[field]]
+            elif field == "demographics":
+                result[field] = natural_demographics(profile[field])
+            elif field == "unique_tastes":
+                result[field] = taste_summary(profile[field])
+            elif field == "social_traits":
+                result[field] = social_trait_summary(profile[field])
             else:
                 result[field] = profile[field]
     if legacy_summary is not None:
@@ -65,6 +72,16 @@ def run(config, bundle_path, profiles_path, resume=None, case_limit=None):
     root = create_run(config["output_root"], config, resume)
     completed = {(row["model"], int(row["user_id"])): row for row in
                  read_jsonl(root / "actions.jsonl")}
+    for (model, user), row in completed.items():
+        if user not in users or model not in config["models"]:
+            continue
+        profile = _profile_payload(profiles[user], config["profile_components"],
+                                   config["profile_protocol"])
+        candidate = bundle.candidates[(model, user)]
+        if row.get("profile_hash") != stable_hash(profile):
+            raise ValueError(f"Resume profile payload differs for {(model, user)}")
+        if row.get("candidate_hash") != stable_hash(candidate):
+            raise ValueError(f"Resume candidate slate differs for {(model, user)}")
     keys = [(model, user) for model in config["models"] for user in users]
     keys = [key for key in keys if int(stable_hash(key), 16) % config["num_shards"]
             == config["shard_index"] and key not in completed]

@@ -106,9 +106,10 @@ These must not be confused with the audited legacy no-demographics path:
    (`preference_label`), response validation, retry behavior, and output
    provenance differ. The 50-user reproduction avoids this path by importing
    the original persona file.
-3. **Demographic values differ outside no-demographics mode.** The original
-   runtime maps MovieLens codes to readable labels; the bundle currently stores
-   raw codes. This does not affect the no-demographics condition.
+3. **Stored bundles retain raw demographic codes.** The runtime now applies the
+   original MovieLens age, gender, and occupation label maps before constructing
+   an agent request, while newly generated profile artifacts also store the readable
+   labels. This does not affect the no-demographics condition.
 4. **Bundle metadata preparation is less defensive.** The original
    `MovieMetadata` audits duplicate IDs, title/year consistency, and mapping
    status. The materializer currently joins extended data directly by MovieID.

@@ -109,6 +109,8 @@ Methods:
   explicit rating rule (rating >= 3 is positive), the versioned `ours` prompt,
   and a deterministic unordered 25-item train sample. Runtime inputs use independent
   `unique_tastes`, `social_traits`, `interaction_history`, and `demographics` keys.
+  The first two are rendered with the established pre-migration natural-language
+  summaries, and ML-1M age, gender, and occupation codes are mapped to readable labels.
 - `agent4rec`: a separately labeled Agent4Rec-inspired profile adapter.
 - `simuser`: a three-call SimUSER-inspired taste, candidate-persona, and consistency
   adapter. It is an auditable adaptation, not a claim of bit-for-bit reproduction of
@@ -124,8 +126,10 @@ part of the established profile protocol. To reproduce an earlier experiment
 without regenerating personas, add `--persona-file /path/to/personas.jsonl`. Users
 are matched by raw MovieLens user ID and missing users cause a hard failure.
 
-The default `separated` profile protocol sends those components as distinct JSON keys
-and never repeats social traits inside a combined summary. `--profile-protocol
+The default `separated` profile protocol sends those components as distinct JSON keys.
+It renders TASTE-REASON evidence once as an `Unique tastes: ...` string and trait levels
+once as a `Social traits: ...` string, avoiding duplicated structured and summary forms.
+`--profile-protocol
 legacy_combined` is reserved for historical reproduction: it reconstructs the old
 single `persona_summary` string and must not be used as the new 1,000-user default.
 
