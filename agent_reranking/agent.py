@@ -6,6 +6,8 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator, ValidationError
 
+from .io import sha256_file
+
 
 MOTIVE_CLICK_SCHEMA = {
     "type": "object", "properties": {
@@ -52,10 +54,14 @@ class TwoStageAgent:
         root = Path(__file__).resolve().parents[1] / "prompts"
         # The legacy renderer strips the template before replacing placeholders.
         # Preserve that behavior because even whitespace changes alter the API request.
-        self.click_prompt = (root / "click_behavior_v4_motive_assessment.txt").read_text(
-            encoding="utf-8").strip()
-        self.conversion_prompt = (root / "conversion_behavior_v4_motive_assessment.txt").read_text(
-            encoding="utf-8").strip()
+        click_path = root / "click_behavior_motive_assessment.txt"
+        conversion_path = root / "conversion_behavior_motive_assessment.txt"
+        self.click_prompt = click_path.read_text(encoding="utf-8").strip()
+        self.conversion_prompt = conversion_path.read_text(encoding="utf-8").strip()
+        self.prompt_hashes = {
+            "click": sha256_file(click_path),
+            "conversion": sha256_file(conversion_path),
+        }
 
     @staticmethod
     def _canonicalize_click(value):

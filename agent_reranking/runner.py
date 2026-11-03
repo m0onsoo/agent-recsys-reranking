@@ -141,7 +141,8 @@ def run(config, bundle_path, profiles_path, resume=None, case_limit=None):
                 "created_at_utc": datetime.now(timezone.utc).isoformat(), "status": status,
                 "bundle_id": bundle.manifest["bundle_id"], "num_users": len(users),
                 "completed_cases": len(completed), "failure_count": len(failures),
-                "estimated_cost_usd": cost}
+                "estimated_cost_usd": cost,
+                "behavior_prompt_sha256": agent.prompt_hashes}
     write_json(root / "run_manifest.json", manifest)
     upsert_index(Path(config["output_root"]).parent, {**manifest,
         "num_cases": len(completed), "models": ",".join(config["models"]),

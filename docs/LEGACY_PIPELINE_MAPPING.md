@@ -38,7 +38,7 @@ replacement run.
 | Profile payload | `TwoStageAgent.simulate` filters to `user_id`, history, `persona_summary` | `_profile_payload(..., protocol="legacy_combined")` | 50/50 equal; demographics absent |
 | Click prompt loader | `BehaviorPromptTemplates` | `TwoStageAgent.__init__` | Same file, `.strip()`, and history substitution after `ed2efa1` |
 | Conversion prompt | `BehaviorPromptTemplates.render` | `TwoStageAgent.simulate` | Exact original full-slate substitution restored in `ed2efa1` |
-| Prompt files | parent `prompts/click_behavior_v4_motive_assessment.txt` and conversion counterpart | copied files under repository `prompts/` | SHA-256 equal |
+| Prompt files | parent legacy click/conversion prompt files | repository `prompts/click_behavior_motive_assessment.txt` and conversion counterpart | Content SHA-256 equal; semantic filenames omit the historical filename version |
 | Basic candidate JSON | `MovieMetadata.basic` | bundle catalog projection | 150/150 full click user payloads equal |
 | Clicked detail JSON | `MovieMetadata.detail` | catalog projection with explicit legacy defaults | Missing `unknown`/`[]` fields restored in `c66bf34` |
 | HTTP request | `OpenAICompatibleChatClient.respond` | `OpenAICompatibleClient.respond_json` | model, temperature, messages, and response format byte-equal in frozen normal/retry tests |
@@ -66,7 +66,7 @@ replacement run.
 | click input | user profile + basic metadata for the complete Top-20 |
 | conversion input | same complete basic slate + details for clicked items + click motives |
 | LLM | `gpt-4o-mini`, temperature 0, no seed parameter |
-| prompt | `behavior-v4-motive-assessment` |
+| prompt | `behavior-motive-assessment-v1` (same click/conversion prompt content as the legacy protocol) |
 | local LLM cache | disabled in fresh comparisons; GitHub runner has no response reuse cache |
 | retry count | 2 |
 | concurrency | 20, model-by-model batches |

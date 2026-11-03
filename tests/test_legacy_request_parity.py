@@ -12,10 +12,10 @@ from agent_reranking.client import OpenAICompatibleClient
 class LegacyRequestParityTests(unittest.TestCase):
     def setUp(self):
         root = Path(__file__).resolve().parents[1]
-        self.click_template = (root / "prompts/click_behavior_v4_motive_assessment.txt").read_text(
+        self.click_template = (root / "prompts/click_behavior_motive_assessment.txt").read_text(
             encoding="utf-8").strip()
         self.conversion_template = (
-            root / "prompts/conversion_behavior_v4_motive_assessment.txt").read_text(
+            root / "prompts/conversion_behavior_motive_assessment.txt").read_text(
                 encoding="utf-8").strip()
         self.profile = {"user_id": 153,
                         "interaction_history": [{"title": "Fargo", "release_year": "1996",
@@ -35,6 +35,13 @@ class LegacyRequestParityTests(unittest.TestCase):
         self.assertNotIn("{conversion_context_instruction}", conversion)
         self.assertIn("it does not provide recommender scores or ranks", conversion)
         self.assertIn("detailed metadata for those movies", conversion)
+
+    def test_action_prompt_hashes_are_recorded(self):
+        agent = TwoStageAgent(type("Client", (), {})())
+        self.assertEqual(agent.prompt_hashes, {
+            "click": "7af5392a64f8f7577bcf2f7e1262580f8f3d5039cbd3809c497d236308275b50",
+            "conversion": "c5d9ccd1b029ab7cda342be3b853d8a1ad151b9386cca623caa9c4dcd38e5e1e",
+        })
 
     def test_request_body_matches_frozen_legacy_shape(self):
         system = self.click_template.replace("{history_instruction}", _instruction(self.profile))

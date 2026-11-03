@@ -8,7 +8,7 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from .io import read_jsonl, stable_hash, write_json, write_jsonl
+from .io import read_jsonl, sha256_file, stable_hash, write_json, write_jsonl
 
 
 PROFILE_METHODS = ("ours", "agent4rec", "simuser")
@@ -109,8 +109,10 @@ def generate_persona(method, bundle, user, client, seed, traits):
     prompt_root = Path(__file__).resolve().parents[1] / "prompts"
     if method == "ours":
         sample = _sample(rows, user, seed, 25, "ours-v1")
-        system = (prompt_root / "persona_v3_system.txt").read_text(encoding="utf-8")
-        template = (prompt_root / "persona_v3_user.txt").read_text(encoding="utf-8")
+        system_path = prompt_root / "profile_ours_system.txt"
+        user_path = prompt_root / "profile_ours_user.txt"
+        system = system_path.read_text(encoding="utf-8")
+        template = user_path.read_text(encoding="utf-8")
         shown = [{"title": row["title"], "release_year": row.get("release_year", ""),
                   "genres": row["genres"], "rating": row["rating"]}
                  for row in _shown(bundle, sample)]
@@ -119,7 +121,9 @@ def generate_persona(method, bundle, user, client, seed, traits):
         result = client.respond_json(system, user_prompt, _ours_schema(), "ours_profile")
         result["summary"] = _taste_summary(result)
         return result, {"sampled_item_ids": [row["item_id"] for row in sample],
-                        "calls": 1, "method_version": "ours_agent4rec_train25_v4"}
+                        "calls": 1, "method_version": "ours_profile_v1",
+                        "system_prompt_sha256": sha256_file(system_path),
+                        "user_prompt_sha256": sha256_file(user_path)}
     if method == "agent4rec":
         sample = sorted(rows, key=lambda row: (-row["rating"], row["item_id"]))[:25]
         system = (prompt_root / "profile_agent4rec_system.txt").read_text(encoding="utf-8")

@@ -10,7 +10,7 @@ profile_components: [history, unique_tastes, social_traits, demographics]
 history_size: 10
 history_sampling: uniform_random
 conversion_policy: converted_then_original
-prompt_version: behavior-v4-motive-assessment
+prompt_version: behavior-motive-assessment-v1
 llm_provider: openai_compatible
 llm_model: gpt-4o-mini
 llm_base_url: https://api.openai.com/v1

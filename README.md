@@ -21,45 +21,36 @@ actions can be evaluated under every reranking policy without paying for another
 
 The fixed CSV should contain `user_id` and `raw_user_id`. Keep provenance columns
 such as seed, train count, and each model's Top-20 positive count when available.
-`prepare-bundle` independently rejects a panel member who violates joint Top-20
-eligibility, preventing a stale or incompatible panel from silently running.
+The distributed bundle is generated only after every panel member passes the joint
+Top-20 eligibility rule.
 
-## Data and environment
+## Install and obtain the precomputed bundle
 
-MovieLens 1M's official source is:
-
-`https://files.grouplens.org/datasets/movielens/ml-1m.zip`
-
-GroupLens asks users not to redistribute the dataset without separate permission.
-Raw and derived interaction files are therefore ignored by Git; every collaborator
-downloads the official archive locally.
+The normal profile-generation and reranking environment does **not** load model
+checkpoints and does not depend on PyTorch, RecBole, or RecBole-Debias. Install only:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
-agent-reranking download-data --output-root data/raw --convert-root data/recbole
 ```
 
-Checkpoint loading also needs the environment used to train the RecBole models.
-Set these site-specific paths before materializing a bundle:
+Obtain the fixed 1,000-user bundle from the project maintainer (GitHub artifact,
+Drive, or another shared store), extract it at
+`data/derived/ml1m_ro_n1000_seed42`, and validate it before making any API calls:
 
 ```bash
-export MODEL_ARTIFACT_ROOT=/path/to/checkpoints
-agent-reranking prepare-bundle \
-  --panel data/panels/users_1000_seed42.csv \
-  --registry registry/models.yaml \
-  --recbole-root /path/to/RecBole \
-  --recbole-debias-root /path/to/Recbole-Debias \
-  --dataset-root data/recbole \
-  --extended-movie-path /optional/path/ml1m_extended_movie.csv \
-  --candidate-size 20 \
-  --output-dir data/derived/ml1m_ro_n1000_seed42
+agent-reranking validate-bundle \
+  --bundle data/derived/ml1m_ro_n1000_seed42
 ```
 
-This reconstructs each checkpoint's exact train/test split, verifies checkpoint,
-mapping, and split hashes, and writes local JSONL inputs. Social-trait thresholds
-are calculated over all checkpoint train users—not just the selected panel.
+The portable bundle contains `users.csv`, `train_interactions.jsonl`,
+`candidates.jsonl`, `evaluation_labels.jsonl`, `item_catalog.jsonl`,
+`social_traits.json`, and `manifest.json`. The manifest pins every file hash plus the
+checkpoint registry, mapping, split, model list, candidate size, and bundle ID.
+Consequently all collaborators use the same Top-20 items and backbone scores without
+re-running model inference. `validate-bundle` verifies hashes, user/model coverage,
+candidate lengths, scores, catalog references, and social-trait coverage.
 
 ## Profile generation
 
@@ -76,7 +67,7 @@ agent-reranking generate-profiles \
 Methods:
 
 - `ours` (default): the current controlled pipeline. Taste extraction uses the
-  existing Agent4Rec-style rating rule (rating >= 3 is positive), exact v3 prompt,
+  explicit rating rule (rating >= 3 is positive), the versioned `ours` prompt,
   and a deterministic unordered 25-item train sample. Runtime inputs use independent
   `unique_tastes`, `social_traits`, `interaction_history`, and `demographics` keys.
 - `agent4rec`: a separately labeled Agent4Rec-inspired profile adapter.
@@ -84,9 +75,9 @@ Methods:
   adapter. It is an auditable adaptation, not a claim of bit-for-bit reproduction of
   the authors' private serving environment.
 
-Thus our current taste-summary logic is Agent4Rec-derived, but the complete profile
-is not identical to Agent4Rec because it adds controlled components and uses the
-current action prompts. Keep `method`, components, and prompt versions in comparisons.
+The complete `ours` profile is distinct from the Agent4Rec adapter because it uses
+our controlled components and current action prompts. Keep `method`, components,
+protocol versions, and prompt hashes in comparisons.
 
 Profile input ablations accept either a component allow-list or `--no-use-*` flags:
 
@@ -110,10 +101,6 @@ The default `separated` profile protocol sends those components as distinct JSON
 and never repeats social traits inside a combined summary. `--profile-protocol
 legacy_combined` is reserved for historical reproduction: it reconstructs the old
 single `persona_summary` string and must not be used as the new 1,000-user default.
-
-`prepare-bundle --allow-ineligible` exists only for regression-testing a historical
-panel that predates the current registry. Never use it to create the 1,000-user study
-bundle; the default joint-positive check is part of that study's inclusion criteria.
 
 ## Run the agent
 
@@ -179,18 +166,43 @@ agent-reranking run --llm-provider mock --num-users 2 --case-limit 3 \
   --profiles /tmp/mock_profiles/profiles.jsonl --output-root /tmp/mock_runs
 ```
 
-Do not commit `.env`, API keys, raw MovieLens rows, derived bundles, or raw API
-transcripts. Do commit the fixed panel, registry changes, prompts, code, tests, and
-small aggregate metric tables. Make one commit per logical experiment change and
-record the resulting commit SHA with any shared result.
+Do not commit `.env`, API keys, or raw API transcripts. Large derived bundles may be
+kept out of Git and shared as a single archive through Drive or a release artifact;
+the receiving researcher must run `validate-bundle`. Do commit the fixed panel,
+registry changes, prompts, code, tests, and small aggregate metric tables. Make one
+commit per logical experiment change and record the commit SHA and bundle ID with
+every shared result.
 
-For 50-user reproduction on the original machine, see
+For 50-user reproduction on the original maintainer machine, see
 `scripts/reproduce_50user.sh`. It imports the existing personas, removes demographics,
-and uses the latest registered checkpoints and current v4 action prompts. On the USC
-cluster, submit `sbatch scripts/reproduce_50user.sbatch` after materialization because
-the login node cannot resolve the API endpoint.
+and uses the registered checkpoints and current action prompts. On the USC cluster,
+submit `sbatch scripts/reproduce_50user.sbatch` after materialization because the
+login node cannot resolve the API endpoint.
 
 To reproduce the four historical 50-user input conditions as a Slurm array, submit
 `sbatch scripts/reproduce_50user_ablations.sbatch`. Array indices correspond to full,
 w/o demographics, w/o persona (both tastes and embedded social traits removed), and
 w/o interaction history.
+
+## Maintainer-only bundle regeneration
+
+This section is not part of the collaborator runtime. Only regenerate a bundle when
+the fixed panel, checkpoints, split, candidate size, or metadata changes. It requires
+the original PyTorch/RecBole and RecBole-Debias training environments, registered
+checkpoints, and the locally converted MovieLens data:
+
+```bash
+export MODEL_ARTIFACT_ROOT=/path/to/checkpoints
+python scripts/prepare_bundle_maintainer.py \
+  --panel data/panels/users_1000_seed42.csv \
+  --registry registry/models.yaml \
+  --recbole-root /path/to/RecBole \
+  --recbole-debias-root /path/to/Recbole-Debias \
+  --dataset-root /path/to/RecBole/dataset \
+  --extended-movie-path /optional/path/ml1m_extended_movie.csv \
+  --candidate-size 20 \
+  --output-dir data/derived/ml1m_ro_n1000_seed42
+```
+
+The official MovieLens 1M archive, needed only for regeneration, is available at
+`https://files.grouplens.org/datasets/movielens/ml-1m.zip`.

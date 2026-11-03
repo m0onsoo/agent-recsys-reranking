@@ -8,7 +8,7 @@ python_bin="${PYTHON_BIN:-/home1/moonsoo/projects/venv/bin/python}"
 export MODEL_ARTIFACT_ROOT="${MODEL_ARTIFACT_ROOT:-/home1/moonsoo/projects/ara/checkpoints}"
 
 cd "$repo_root"
-"$python_bin" -m agent_reranking.cli prepare-bundle \
+"$python_bin" scripts/prepare_bundle_maintainer.py \
   --panel "$parent_root/panels/all_ratings_ro_v3_50_seed42/sampled_users_50_seed42.csv" \
   --registry registry/models.yaml \
   --recbole-root /home1/moonsoo/projects/RecBole \

@@ -32,6 +32,48 @@ class DataBundle:
             self.social_traits = None
             self.trait_thresholds = None
             self.trait_population_scope = None
+        self._validate_structure()
+
+    def _validate_structure(self):
+        expected_users = set(self.histories)
+        if not expected_users:
+            raise ValueError("Bundle contains no users")
+        if set(self.labels) != expected_users:
+            raise ValueError("Evaluation-label users do not exactly match history users")
+        models = tuple(self.manifest.get("models", ()))
+        if not models:
+            raise ValueError("Bundle manifest contains no models")
+        expected_cases = {(model, user) for model in models for user in expected_users}
+        if set(self.candidates) != expected_cases:
+            raise ValueError("Candidate model-user cases do not exactly match the manifest")
+        candidate_size = int(self.manifest["candidate_size"])
+        for key, row in self.candidates.items():
+            if len(row["item_ids"]) != candidate_size:
+                raise ValueError(f"Candidate length differs from manifest: {key}")
+            if len(row.get("scores", ())) != candidate_size:
+                raise ValueError(f"Candidate scores are incomplete: {key}")
+            if len(set(row["item_ids"])) != candidate_size:
+                raise ValueError(f"Candidate items are not unique: {key}")
+            missing = set(row["item_ids"]) - set(self.catalog)
+            if missing:
+                raise ValueError(f"Candidate items are absent from catalog: {key}: {missing}")
+        if int(self.manifest["num_users"]) != len(expected_users):
+            raise ValueError("Bundle user count differs from manifest")
+        if self.social_traits is not None and set(self.social_traits) != expected_users:
+            raise ValueError("Social-trait users do not exactly match history users")
+
+    def summary(self):
+        return {
+            "status": "valid",
+            "bundle": str(self.root),
+            "bundle_id": self.manifest.get("bundle_id"),
+            "schema_version": self.manifest.get("schema_version"),
+            "num_users": len(self.histories),
+            "models": list(self.manifest["models"]),
+            "candidate_size": int(self.manifest["candidate_size"]),
+            "num_model_user_cases": len(self.candidates),
+            "has_social_traits": self.social_traits is not None,
+        }
 
     @property
     def users(self):

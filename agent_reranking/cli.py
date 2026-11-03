@@ -7,8 +7,6 @@ from pathlib import Path
 from .bundle import DataBundle
 from .client import MockClient, OpenAICompatibleClient, RateBudget
 from .config import load_config
-from .data import prepare_bundle
-from .download import convert_ml1m, download_ml1m
 from .merge import merge_runs
 from .profiles import PROFILE_COMPONENTS, PROFILE_METHODS, generate_profiles
 from .runner import run
@@ -43,21 +41,9 @@ def main(argv=None):
     parser = argparse.ArgumentParser(prog="agent-reranking")
     commands = parser.add_subparsers(dest="command", required=True)
 
-    download = commands.add_parser("download-data", help="Download official MovieLens-1M")
-    download.add_argument("--output-root", default="data/raw")
-    download.add_argument("--convert-root", default="data/recbole")
-
-    prepare = commands.add_parser("prepare-bundle", help="Reconstruct split and materialize local inputs")
-    prepare.add_argument("--panel", required=True)
-    prepare.add_argument("--registry", default="registry/models.yaml")
-    prepare.add_argument("--recbole-root", required=True)
-    prepare.add_argument("--recbole-debias-root")
-    prepare.add_argument("--dataset-root", default="data/recbole")
-    prepare.add_argument("--extended-movie-path")
-    prepare.add_argument("--candidate-size", type=int, default=20)
-    prepare.add_argument("--allow-ineligible", action="store_true",
-                         help="Diagnostic only: do not require a held-out positive in every Top-K")
-    prepare.add_argument("--output-dir", default="data/derived/ml1m_ro_n1000_seed42")
+    validate = commands.add_parser(
+        "validate-bundle", help="Verify a precomputed bundle without RecBole or checkpoints")
+    validate.add_argument("--bundle", required=True)
 
     profiles = commands.add_parser("generate-profiles")
     profiles.add_argument("--bundle", required=True)
@@ -109,16 +95,8 @@ def main(argv=None):
     merge.add_argument("--output-root")
 
     args = parser.parse_args(argv)
-    if args.command == "download-data":
-        result = download_ml1m(args.output_root)
-        result["recbole_dataset_dir"] = convert_ml1m(result["dataset_dir"], args.convert_root)
-        _print(result)
-        return
-    if args.command == "prepare-bundle":
-        _print(prepare_bundle(args.panel, args.registry, args.recbole_root, args.dataset_root,
-                              args.output_dir, args.recbole_debias_root,
-                              args.extended_movie_path, args.candidate_size,
-                              not args.allow_ineligible))
+    if args.command == "validate-bundle":
+        _print(DataBundle(args.bundle).summary())
         return
     if args.command == "generate-profiles":
         budget = RateBudget(args.requests_per_minute, args.tokens_per_minute, args.max_cost_usd,
