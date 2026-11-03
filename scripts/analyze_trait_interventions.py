@@ -19,11 +19,12 @@ def read_jsonl(path):
 
 def latest_run(root):
     manifests = sorted(Path(root).glob("*/run_manifest.json"))
-    complete = [path for path in manifests
-                if json.loads(path.read_text(encoding="utf-8")).get("status") == "complete"]
-    if not complete:
-        raise ValueError(f"No complete run under {root}")
-    return complete[-1].parent
+    usable = [path for path in manifests
+              if json.loads(path.read_text(encoding="utf-8")).get("status")
+              in {"complete", "partial"} and (path.parent / "actions.jsonl").is_file()]
+    if not usable:
+        raise ValueError(f"No usable run under {root}")
+    return usable[-1].parent
 
 
 def percentile(values, p):
@@ -100,10 +101,12 @@ def main():
     candidates = {(row["model"], int(row["user_id"])): row
                   for row in read_jsonl(bundle / "candidates.jsonl")}
     runs, actions = {}, {}
+    manifests = []
     for trait in TRAITS:
         for level in LEVELS:
             condition = f"{trait}_level{level}"
             run = latest_run(Path(args.runs_root) / condition / "runs")
+            manifests.append(json.loads((run / "run_manifest.json").read_text(encoding="utf-8")))
             rows = read_jsonl(run / "actions.jsonl")
             runs[(trait, level)] = run
             actions[(trait, level)] = {
@@ -114,7 +117,11 @@ def main():
         "diversity": ("novel_genre_fraction", 1),
         "conformity": ("rating_selection_lift", -1),
     }
-    lines = ["# Pilot-30 social-trait counterfactual audit", "", "## Design", "",
+    lines = ["# Pilot-30 social-trait counterfactual audit", "", "## Integrity", "",
+             f"- Completed actions: {sum(row['completed_cases'] for row in manifests)}/810",
+             f"- Failures: {sum(row['failure_count'] for row in manifests)}",
+             f"- Estimated API cost: ${sum(row['estimated_cost_usd'] for row in manifests):.6f}",
+             "", "## Design", "",
              "Same users, profiles, backbone candidates, and action prompt; one social-trait "
              "level is assigned at a time. Confidence intervals use a user-cluster bootstrap.", ""]
     for trait in TRAITS:
