@@ -180,6 +180,8 @@ Defaults live in `configs/default.yaml`: `num_users=1000`, `candidate_size=20`,
 shard. The default behavior protocol is `behavior-motive-assessment-v2`, which shows
 the train-only aggregate movie rating at both click and conversion stages. The
 archived v1 prompt remains available solely for historical byte-level reproduction.
+Select it explicitly with `--prompt-version behavior-motive-assessment-v1`; v1 omits
+candidate `average_rating` while retaining all selected profile components.
 The safety controls mean:
 
 - `--concurrency`: maximum simultaneous API workers; lower it after 429/timeouts.

@@ -102,6 +102,8 @@ def main(argv=None):
     execute.add_argument("--shard-index", type=int)
     execute.add_argument("--llm-provider", choices=("mock", "openai_compatible"))
     execute.add_argument("--llm-model")
+    execute.add_argument("--prompt-version", choices=(
+        "behavior-motive-assessment-v1", "behavior-motive-assessment-v2"))
     execute.add_argument("--output-root")
     execute.add_argument("--profile-protocol", choices=("separated", "legacy_combined"))
     _common_profile_flags(execute, default=None)
@@ -133,7 +135,8 @@ def main(argv=None):
     overrides = {name: getattr(args, name) for name in (
         "num_users", "candidate_size", "top_k", "concurrency", "requests_per_minute",
         "tokens_per_minute", "max_cost_usd", "num_shards", "shard_index",
-        "llm_provider", "llm_model", "output_root", "profile_protocol")}
+        "llm_provider", "llm_model", "prompt_version", "output_root",
+        "profile_protocol")}
     config = load_config(args.config, overrides)
     selected_user_ids = _user_ids(args.users_file)
     if selected_user_ids is not None:
