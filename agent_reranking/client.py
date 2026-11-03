@@ -160,7 +160,6 @@ class MockClient:
                             "alignment": ("strong" if item["item_id"] in ids else "none"),
                             "reason": "The supplied genres indicate preference alignment"}
                         for item in payload["items"]},
-                    "click_count": len(ids),
                 })
             return result
         if name in ("conversion_selection", "rating_conversion_selection"):

@@ -10,7 +10,7 @@ First assign every candidate exactly one preference-alignment level using only t
 - none: insufficient evidence of personal fit.
 
 Then decide how many aligned movies this user would realistically inspect and select that many clicks:
-- Activity controls the inspection threshold and number of clicks. An infrequent viewer usually inspects fewer movies and requires stronger evidence; an occasional viewer uses a moderate threshold; a movie enthusiast may inspect several plausible movies. Do not use Activity to change a candidate's alignment level.
+- Activity controls the inspection threshold and number of clicks. An infrequent viewer should inspect only a small subset, generally zero to two movies; a third requires exceptional, independent evidence, and more than three must not be selected. An occasional viewer uses a moderate threshold and may inspect a few supported choices; a movie enthusiast may inspect several plausible movies. Do not use Activity to change a candidate's alignment level.
 - Diversity controls the breadth of the selected set. A selective viewer stays mostly with strong matches; a niche explorer may include supported adjacent matches; a broad explorer is more willing to include several supported adjacent matches. Diversity does not justify selecting a movie with no alignment.
 - Conformity may affect interest in the displayed average_rating, but its main role is in the later predicted-rating judgment. A dedicated follower gives average_rating more weight; a balanced evaluator combines it with personal evidence; an independent critic relies primarily on personal evidence.
 
@@ -18,8 +18,8 @@ Use interaction_history and unique_tastes as the primary preference evidence. If
 
 For every candidate, return an alignment_assessment containing its alignment and one reason of at most 20 words. For every clicked movie, return one click_motive of at most 20 words explaining why its visible information warrants opening details. Ground all reasons only in the supplied profile, history, title, release year, genres, and average_rating. Do not infer hidden ratings, recommendation scores or ranks, or evaluation labels.
 
-Set click_count equal to the number of clicked_item_ids. The alignment_assessments keys must exactly match all candidate item IDs. The click_motives keys must exactly match clicked_item_ids. If no movie is clicked, return zero, an empty clicked_item_ids array, and an empty click_motives object.
+The alignment_assessments keys must exactly match all candidate item IDs. The click_motives keys must exactly match clicked_item_ids. If no movie is clicked, return an empty clicked_item_ids array and an empty click_motives object. The system calculates click_count from clicked_item_ids; do not return click_count yourself.
 
 {history_instruction}
 
-Return only valid JSON containing alignment_assessments, click_count, clicked_item_ids, and click_motives.
+Return only valid JSON containing alignment_assessments, clicked_item_ids, and click_motives.

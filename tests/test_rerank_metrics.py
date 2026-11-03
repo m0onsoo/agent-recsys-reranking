@@ -69,6 +69,42 @@ class RerankMetricTests(unittest.TestCase):
         self.assertEqual(result["motive_assessments"]["3"]["predicted_rating"], 4)
         self.assertEqual([attempt["status"] for attempt in attempts], ["valid", "valid"])
 
+    def test_align_rating_conversion_nests_each_click_motive_in_its_movie(self):
+        class RecordingClient:
+            def __init__(inner):
+                inner.calls = []
+                inner.last_call = {"usage": {}, "estimated_cost_usd": 0.0}
+
+            def respond_json(inner, system, user, schema, name):
+                payload = json.loads(user)
+                inner.calls.append(payload)
+                if name == "alignment_click_selection":
+                    return {
+                        "alignment_assessments": {
+                            "3": {"alignment": "strong", "reason": "Drama matches established tastes"}},
+                        "clicked_item_ids": [3],
+                        "click_motives": {"3": "The drama genre warrants closer inspection"},
+                    }
+                return {
+                    "watch_decision": "not_ready", "converted_item_ids": [],
+                    "motive_assessments": {"3": {
+                        "outcome": "insufficient", "predicted_rating": 3,
+                        "rating_reason": "The details provide mixed preference evidence",
+                        "decision_note": "The movie does not clear the immediate threshold"}},
+                    "decision_reason": "No movie is sufficiently compelling to start now",
+                }
+
+        catalog = {3: {"item_id": 3, "title": "Movie", "release_year": "1999",
+                       "genres": ["Drama"], "average_rating": 4.0, "overview": "Story"}}
+        client = RecordingClient()
+        result, _ = TwoStageAgent(
+            client, prompt_version="behavior-align-rating-social-traits").simulate(
+                {"user_id": 7}, {"item_ids": [3], "scores": [1.0]}, catalog)
+        self.assertEqual(result["click_count"], 1)
+        self.assertEqual(client.calls[1]["clicked_items"][0]["click_motive"],
+                         "The drama genre warrants closer inspection")
+        self.assertNotIn("click_motives", client.calls[1])
+
     def test_align_rating_protocol_enforces_click_and_conversion_invariants(self):
         alignments = {
             "3": {"alignment": "strong", "reason": "Established drama preference"},
@@ -76,7 +112,7 @@ class RerankMetricTests(unittest.TestCase):
         }
         with self.assertRaisesRegex(ValueError, "alignment=none"):
             TwoStageAgent._validate_align_click({
-                "alignment_assessments": alignments, "click_count": 1,
+                "alignment_assessments": alignments,
                 "clicked_item_ids": [4], "click_motives": {"4": "Possible discovery"}},
                 {3, 4})
 

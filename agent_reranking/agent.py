@@ -42,12 +42,11 @@ ALIGN_CLICK_SCHEMA = {
             },
             "required": ["alignment", "reason"], "additionalProperties": False,
         }},
-        "click_count": {"type": "integer", "minimum": 0},
         "clicked_item_ids": {"type": "array", "items": {"type": "integer"},
                              "uniqueItems": True},
         "click_motives": {"type": "object", "additionalProperties": {"type": "string"}},
     },
-    "required": ["alignment_assessments", "click_count", "clicked_item_ids", "click_motives"],
+    "required": ["alignment_assessments", "clicked_item_ids", "click_motives"],
     "additionalProperties": False,
 }
 
@@ -224,8 +223,6 @@ class TwoStageAgent:
                 "alignment_assessments", alignments, expected, "all candidate item IDs")
         if not set(ids).issubset(allowed):
             raise ValueError("click selected an item outside the permitted set")
-        if value["click_count"] != len(ids):
-            raise ValueError("click_count must equal the number of clicked_item_ids")
         if set(motives) != {str(item) for item in ids}:
             TwoStageAgent._raise_key_mismatch(
                 "click_motives", motives, {str(item) for item in ids}, "clicked_item_ids")
@@ -345,6 +342,9 @@ class TwoStageAgent:
              "retry_feedback": None},
             lambda value: click_validator(value, set(ids)), click_response_name)
         clicked = click["clicked_item_ids"]
+        if self.uses_align_rating_protocol:
+            # This is a deterministic property of the selection, not an LLM judgment.
+            click["click_count"] = len(clicked)
         if not clicked:
             empty_conversion = {"converted_item_ids": [], "motive_assessments": {}}
             if self.uses_align_rating_protocol:
@@ -363,6 +363,9 @@ class TwoStageAgent:
                     if key in detail_defaults else catalog[item][key]
                     for key in detail_fields}
                    for item in clicked]
+        if self.uses_align_rating_protocol:
+            for detail in details:
+                detail["click_motive"] = click["click_motives"][str(detail["item_id"])]
         conversion_system = self.conversion_prompt.replace(
             "{history_instruction}", _instruction(profile)).replace(
             "{conversion_context_instruction}", FULL_SLATE_CONTEXT)
@@ -372,9 +375,14 @@ class TwoStageAgent:
         conversion_response_name = ("rating_conversion_selection"
                                     if self.uses_align_rating_protocol
                                     else "conversion_selection")
+        conversion_payload = {
+            "stage": "conversion", "profile": profile, "candidate_slate": basic,
+            "clicked_item_ids": clicked, "clicked_items": details,
+            "click_motives": click["click_motives"], "retry_feedback": None,
+        }
+        if self.uses_align_rating_protocol:
+            conversion_payload.pop("click_motives")
         conversion, more = self._call("conversion", conversion_system,
-            {"stage": "conversion", "profile": profile, "candidate_slate": basic,
-             "clicked_item_ids": clicked, "clicked_items": details,
-             "click_motives": click["click_motives"], "retry_feedback": None},
+            conversion_payload,
             lambda value: conversion_validator(value, clicked), conversion_response_name)
         return {**click, **conversion}, attempts + more
