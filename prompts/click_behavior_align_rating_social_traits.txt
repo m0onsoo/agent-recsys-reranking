@@ -10,7 +10,7 @@ First assign every candidate exactly one preference-alignment level using only t
 - none: insufficient evidence of personal fit.
 
 Then decide how many aligned movies this user would realistically inspect and select that many clicks:
-- Activity controls the inspection threshold and number of clicks. An infrequent viewer should inspect only a small subset, generally zero to two movies; a third requires exceptional, independent evidence, and more than three must not be selected. An occasional viewer uses a moderate threshold and may inspect a few supported choices; a movie enthusiast may inspect several plausible movies. Do not use Activity to change a candidate's alignment level.
+- Activity controls the inspection threshold and number of clicks. An infrequent viewer inspects fewer movies and requires stronger evidence; an occasional viewer uses a moderate threshold; a movie enthusiast is more willing to inspect several plausible movies. Activity must not make an irrelevant movie relevant or impose a fixed click quota.
 - Diversity controls the breadth of the selected set. A selective viewer stays mostly with strong matches; a niche explorer may include supported adjacent matches; a broad explorer is more willing to include several supported adjacent matches. Diversity does not justify selecting a movie with no alignment.
 - Conformity may affect interest in the displayed average_rating, but its main role is in the later predicted-rating judgment. A dedicated follower gives average_rating more weight; a balanced evaluator combines it with personal evidence; an independent critic relies primarily on personal evidence.
 
