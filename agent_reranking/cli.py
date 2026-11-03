@@ -1,6 +1,7 @@
 """Command-line entry point for data, profile, and agent workflows."""
 
 import argparse
+import csv
 import json
 from pathlib import Path
 
@@ -14,6 +15,19 @@ from .runner import run
 
 def _print(value):
     print(json.dumps(value, ensure_ascii=False, indent=2))
+
+
+def _user_ids(path):
+    if not path:
+        return None
+    with Path(path).open(newline="", encoding="utf-8") as source:
+        rows = list(csv.DictReader(source))
+    if not rows or "user_id" not in rows[0]:
+        raise ValueError("--users-file must be a nonempty CSV with a user_id column")
+    values = [int(row["user_id"]) for row in rows]
+    if len(set(values)) != len(values):
+        raise ValueError("--users-file contains duplicate user IDs")
+    return values
 
 
 def _components(args, fallback=None):
@@ -53,6 +67,8 @@ def main(argv=None):
     profiles.add_argument("--base-url", default="https://api.openai.com/v1")
     profiles.add_argument("--api-key-env", default="OPENAI_API_KEY")
     profiles.add_argument("--num-users", type=int, default=1000)
+    profiles.add_argument("--users-file",
+                          help="Fixed user CSV; when supplied, overrides --num-users")
     profiles.add_argument("--history-size", type=int, default=10)
     profiles.add_argument("--seed", type=int, default=42)
     profiles.add_argument("--concurrency", type=int, default=20,
@@ -72,6 +88,8 @@ def main(argv=None):
     execute.add_argument("--bundle", required=True)
     execute.add_argument("--profiles", required=True)
     execute.add_argument("--num-users", type=int)
+    execute.add_argument("--users-file",
+                         help="Fixed user CSV; when supplied, overrides --num-users")
     execute.add_argument("--candidate-size", type=int)
     execute.add_argument("--top-k", type=int)
     execute.add_argument("--concurrency", type=int)
@@ -107,7 +125,7 @@ def main(argv=None):
         _print(generate_profiles(DataBundle(args.bundle), client, args.method,
                                  _components(args), args.seed, args.history_size,
                                  args.num_users, args.output_dir, args.concurrency,
-                                 args.persona_file))
+                                 args.persona_file, _user_ids(args.users_file)))
         return
     if args.command == "merge-runs":
         _print(merge_runs(args.bundle, args.profiles, args.runs, args.output_root))
@@ -117,6 +135,10 @@ def main(argv=None):
         "tokens_per_minute", "max_cost_usd", "num_shards", "shard_index",
         "llm_provider", "llm_model", "output_root", "profile_protocol")}
     config = load_config(args.config, overrides)
+    selected_user_ids = _user_ids(args.users_file)
+    if selected_user_ids is not None:
+        config["selected_user_ids"] = selected_user_ids
+        config["num_users"] = len(selected_user_ids)
     config["profile_components"] = _components(args, config["profile_components"])
     _print(run(config, args.bundle, args.profiles, args.resume, args.case_limit))
 

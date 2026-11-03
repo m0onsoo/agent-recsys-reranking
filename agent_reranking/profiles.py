@@ -8,6 +8,7 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+from .bundle import select_users
 from .io import read_jsonl, sha256_file, stable_hash, write_json, write_jsonl
 
 
@@ -177,14 +178,14 @@ def generate_persona(method, bundle, user, client, seed, traits):
 
 def generate_profiles(bundle, client, method="ours", components=("all",), seed=42,
                       history_size=10, num_users=None, output_dir="profiles",
-                      concurrency=20, persona_file=None):
+                      concurrency=20, persona_file=None, selected_user_ids=None):
     if method not in PROFILE_METHODS:
         raise ValueError(f"Unknown profile method: {method}")
     enabled = set(PROFILE_COMPONENTS if "all" in components else components)
     unknown = enabled - set(PROFILE_COMPONENTS)
     if unknown:
         raise ValueError(f"Unknown profile components: {sorted(unknown)}")
-    users = bundle.users[:num_users] if num_users is not None else bundle.users
+    users = select_users(bundle.users, num_users, selected_user_ids)
     traits, thresholds = compute_social_traits(bundle)
     imported = {}
     if persona_file:
@@ -240,6 +241,7 @@ def generate_profiles(bundle, client, method="ours", components=("all",), seed=4
     write_jsonl(root / "profile_manifests.jsonl", manifests)
     write_json(root / "run_manifest.json", {"schema_version": 1, "method": method,
                "components": sorted(enabled), "num_users": len(users), "seed": seed,
+               "selected_user_ids_hash": stable_hash(users),
                "concurrency": concurrency, "persona_file": str(persona_file or ""),
                "trait_population_scope": bundle.trait_population_scope or "materialized_panel",
                "trait_thresholds": thresholds})

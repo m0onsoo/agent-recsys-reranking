@@ -1,5 +1,6 @@
 import unittest
 
+from agent_reranking.bundle import select_users
 from agent_reranking.runner import _profile_payload
 
 
@@ -20,6 +21,11 @@ class ProfilePayloadTests(unittest.TestCase):
         self.assertEqual(set(value), {"user_id", "interaction_history", "unique_tastes",
                                       "social_traits", "demographics"})
         self.assertNotIn("persona_summary", value)
+
+    def test_explicit_user_selection_is_reused_in_declared_order(self):
+        self.assertEqual(select_users([1, 2, 3, 4], 2, [4, 2]), [4, 2])
+        with self.assertRaisesRegex(ValueError, "absent from bundle"):
+            select_users([1, 2, 3], None, [4])
 
     def test_legacy_protocol_combines_tastes_and_traits_once(self):
         value = _profile_payload(self.profile,

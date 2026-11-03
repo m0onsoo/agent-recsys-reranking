@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .agent import TwoStageAgent
-from .bundle import DataBundle
+from .bundle import DataBundle, select_users
 from .client import MockClient, OpenAICompatibleClient, RateBudget
 from .io import read_jsonl, stable_hash, write_csv, write_json
 from .metrics import evaluate, rating_strata
@@ -58,7 +58,8 @@ def _profile_payload(profile, components, protocol="separated"):
 def run(config, bundle_path, profiles_path, resume=None, case_limit=None):
     bundle = DataBundle(bundle_path)
     profiles = {int(row["user_id"]): row for row in read_jsonl(profiles_path)}
-    users = bundle.users[:config["num_users"]]
+    users = select_users(bundle.users, config["num_users"],
+                         config.get("selected_user_ids"))
     if any(user not in profiles for user in users):
         raise ValueError("A selected user is missing a generated profile")
     root = create_run(config["output_root"], config, resume)

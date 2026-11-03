@@ -5,6 +5,19 @@ from pathlib import Path
 from .io import read_jsonl, sha256_file
 
 
+def select_users(available_users, num_users=None, selected_user_ids=None):
+    available = list(available_users)
+    if selected_user_ids is None:
+        return available[:num_users] if num_users is not None else available
+    selected = [int(user) for user in selected_user_ids]
+    if not selected or len(set(selected)) != len(selected):
+        raise ValueError("Selected user IDs must be nonempty and unique")
+    missing = set(selected) - set(available)
+    if missing:
+        raise ValueError(f"Selected users are absent from bundle: {sorted(missing)}")
+    return selected
+
+
 class DataBundle:
     def __init__(self, root):
         self.root = Path(root).resolve()

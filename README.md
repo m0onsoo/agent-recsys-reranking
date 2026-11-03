@@ -97,6 +97,12 @@ agent-reranking generate-profiles \
   --output-dir artifacts/profiles/ours_all
 ```
 
+`--num-users N` selects the first N users in bundle order; it does not resample.
+For a reproducible random pilot, create a fixed CSV and pass the same file to both
+`generate-profiles --users-file FILE` and `run --users-file FILE`. An explicit user
+file overrides `--num-users` and prevents the profile and reranking stages from
+silently using different users.
+
 Methods:
 
 - `ours` (default): the current controlled pipeline. Taste extraction uses the
