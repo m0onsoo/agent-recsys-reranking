@@ -38,7 +38,7 @@ replacement run.
 | Profile payload | `TwoStageAgent.simulate` filters to `user_id`, history, `persona_summary` | `_profile_payload(..., protocol="legacy_combined")` | 50/50 equal; demographics absent |
 | Click prompt loader | `BehaviorPromptTemplates` | `TwoStageAgent.__init__` | Same file, `.strip()`, and history substitution after `ed2efa1` |
 | Conversion prompt | `BehaviorPromptTemplates.render` | `TwoStageAgent.simulate` | Exact original full-slate substitution restored in `ed2efa1` |
-| Prompt files | parent legacy click/conversion prompt files | repository `prompts/click_behavior_motive_assessment.txt` and conversion counterpart | Content SHA-256 equal; semantic filenames omit the historical filename version |
+| Prompt files | parent legacy click/conversion prompt files | repository `prompts/legacy/*_v1.txt` | Content SHA-256 equal; the current v2 prompt separately exposes train-only aggregate ratings |
 | Basic candidate JSON | `MovieMetadata.basic` | bundle catalog projection | 150/150 full click user payloads equal |
 | Clicked detail JSON | `MovieMetadata.detail` | catalog projection with explicit legacy defaults | Missing `unknown`/`[]` fields restored in `c66bf34` |
 | HTTP request | `OpenAICompatibleChatClient.respond` | `OpenAICompatibleClient.respond_json` | model, temperature, messages, and response format byte-equal in frozen normal/retry tests |

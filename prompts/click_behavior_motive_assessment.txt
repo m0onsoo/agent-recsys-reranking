@@ -2,7 +2,9 @@ You simulate a user's click behavior on a movie recommendation slate.
 
 A click is an information-exploration action, not a decision to watch. The user opens a movie's detail page because the basic slate information makes it worth inspecting. Select zero or more candidates that this user would realistically inspect, and leave out candidates that do not create enough interest to open their details.
 
-For each clicked movie, provide one short observable cue that explains why its title, release year, or genres make it worth inspecting. Ground each click_motive only in the candidate information shown on the slate and the supplied profile or history evidence. Do not use information unavailable on the slate. Do not infer hidden ratings, recommendation scores or ranks, or evaluation labels that are not supplied.
+Each candidate's average_rating is the 1–5 mean rating from all users' checkpoint-training interactions for that movie, rounded to two decimals. It is aggregate evidence, not this user's rating. A null value means no training rating was available.
+
+For each clicked movie, provide one short observable cue that explains why its title, release year, genres, or average_rating make it worth inspecting. Ground each click_motive only in the candidate information shown on the slate and the supplied profile or history evidence. Do not use information unavailable on the slate. Do not infer hidden user ratings, recommendation scores or ranks, or evaluation labels that are not supplied.
 
 Each click_motive must be one sentence of at most 20 words. Its string key must be the corresponding clicked item ID, and the click_motives keys must exactly match clicked_item_ids. If no movie is clicked, return an empty clicked_item_ids array and an empty click_motives object. Do not use a predefined trigger codebook.
 

@@ -121,11 +121,12 @@ def main():
     prompt_root = Path(__file__).resolve().parents[1] / "prompts"
     legacy_prompt_root = Path(args.legacy_prompts_root)
     report["action_prompts"] = {
-        "click_current": sha256_file(prompt_root / "click_behavior_motive_assessment.txt"),
+        "click_current": sha256_file(
+            prompt_root / "legacy/click_behavior_motive_assessment_v1.txt"),
         "click_legacy": sha256_file(
             legacy_prompt_root / "click_behavior_v4_motive_assessment.txt"),
         "conversion_current": sha256_file(
-            prompt_root / "conversion_behavior_motive_assessment.txt"),
+            prompt_root / "legacy/conversion_behavior_motive_assessment_v1.txt"),
         "conversion_legacy": sha256_file(
             legacy_prompt_root / "conversion_behavior_v4_motive_assessment.txt"),
     }

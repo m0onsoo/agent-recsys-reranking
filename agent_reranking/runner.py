@@ -70,7 +70,7 @@ def run(config, bundle_path, profiles_path, resume=None, case_limit=None):
     if case_limit is not None:
         keys = keys[:case_limit]
     client = _client(config)
-    agent = TwoStageAgent(client, config["retry_count"])
+    agent = TwoStageAgent(client, config["retry_count"], config["prompt_version"])
 
     def one(model, user):
         candidate = bundle.candidates[(model, user)]

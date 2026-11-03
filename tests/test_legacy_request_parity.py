@@ -12,10 +12,11 @@ from agent_reranking.client import OpenAICompatibleClient
 class LegacyRequestParityTests(unittest.TestCase):
     def setUp(self):
         root = Path(__file__).resolve().parents[1]
-        self.click_template = (root / "prompts/click_behavior_motive_assessment.txt").read_text(
+        self.click_template = (root /
+            "prompts/legacy/click_behavior_motive_assessment_v1.txt").read_text(
             encoding="utf-8").strip()
         self.conversion_template = (
-            root / "prompts/conversion_behavior_motive_assessment.txt").read_text(
+            root / "prompts/legacy/conversion_behavior_motive_assessment_v1.txt").read_text(
                 encoding="utf-8").strip()
         self.profile = {"user_id": 153,
                         "interaction_history": [{"title": "Fargo", "release_year": "1996",
@@ -37,7 +38,8 @@ class LegacyRequestParityTests(unittest.TestCase):
         self.assertIn("detailed metadata for those movies", conversion)
 
     def test_action_prompt_hashes_are_recorded(self):
-        agent = TwoStageAgent(type("Client", (), {})())
+        agent = TwoStageAgent(type("Client", (), {})(),
+                              prompt_version="behavior-motive-assessment-v1")
         self.assertEqual(agent.prompt_hashes, {
             "click": "7af5392a64f8f7577bcf2f7e1262580f8f3d5039cbd3809c497d236308275b50",
             "conversion": "c5d9ccd1b029ab7cda342be3b853d8a1ad151b9386cca623caa9c4dcd38e5e1e",
@@ -109,7 +111,7 @@ class LegacyRequestParityTests(unittest.TestCase):
         catalog = {11: {"item_id": 11, "title": "Movie 11", "release_year": "1999",
                         "genres": ["Comedy"]}}
         client = RecordingClient()
-        TwoStageAgent(client).simulate(
+        TwoStageAgent(client, prompt_version="behavior-motive-assessment-v1").simulate(
             self.profile, {"item_ids": [11], "scores": [1.0]}, catalog)
         detail = client.calls[1]["clicked_items"][0]
         self.assertEqual(detail, {"item_id": 11, "title": "Movie 11",
@@ -150,7 +152,7 @@ class LegacyRequestParityTests(unittest.TestCase):
             for item in (11, 22)
         }
         client = RecordingClient()
-        TwoStageAgent(client).simulate(
+        TwoStageAgent(client, prompt_version="behavior-motive-assessment-v1").simulate(
             self.profile, {"item_ids": [11, 22], "scores": [1.0, 0.5]}, catalog)
         self.assertEqual([hashlib.sha256(body).hexdigest() for body in client.bodies], [
             "4181441d0400a4adca6fc4be556f280aedb7447c41244705117ed760b7729389",

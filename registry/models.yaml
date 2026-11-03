@@ -25,7 +25,7 @@ models:
       candidate_recall@20: 0.2138204324
     joint_eligible_panel_1000_seed42_metrics:
       panel_sha256: 76cdc352836afd33e23330affa5da3408756af08fc16bafbd5879a4d09425d3b
-      bundle_id: 9e91ea1182a873ce8da2ce424e4aa47baba667ee7c7d7fddbf562a674ee0d60b
+      bundle_id: d50a678b62a6539147c0a0314ab3fb044a97177c9033fda2e1dbd604e7345ed5
       sampling_design: simple_random_without_replacement
       eligibility: all three models contain at least one held-out interaction in Top-20
       test_users: 1000
@@ -57,7 +57,7 @@ models:
       candidate_recall@20: 0.2645000842
     joint_eligible_panel_1000_seed42_metrics:
       panel_sha256: 76cdc352836afd33e23330affa5da3408756af08fc16bafbd5879a4d09425d3b
-      bundle_id: 9e91ea1182a873ce8da2ce424e4aa47baba667ee7c7d7fddbf562a674ee0d60b
+      bundle_id: d50a678b62a6539147c0a0314ab3fb044a97177c9033fda2e1dbd604e7345ed5
       sampling_design: simple_random_without_replacement
       eligibility: all three models contain at least one held-out interaction in Top-20
       test_users: 1000
@@ -89,7 +89,7 @@ models:
       candidate_recall@20: 0.2855861018
     joint_eligible_panel_1000_seed42_metrics:
       panel_sha256: 76cdc352836afd33e23330affa5da3408756af08fc16bafbd5879a4d09425d3b
-      bundle_id: 9e91ea1182a873ce8da2ce424e4aa47baba667ee7c7d7fddbf562a674ee0d60b
+      bundle_id: d50a678b62a6539147c0a0314ab3fb044a97177c9033fda2e1dbd604e7345ed5
       sampling_design: simple_random_without_replacement
       eligibility: all three models contain at least one held-out interaction in Top-20
       test_users: 1000

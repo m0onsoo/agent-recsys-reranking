@@ -47,21 +47,38 @@ FULL_SLATE_CONTEXT = (
     "detailed metadata for those movies. Select conversions only from clicked_item_ids."
 )
 
+PROMPT_PROTOCOLS = {
+    "behavior-motive-assessment-v1": (
+        "legacy/click_behavior_motive_assessment_v1.txt",
+        "legacy/conversion_behavior_motive_assessment_v1.txt",
+    ),
+    "behavior-motive-assessment-v2": (
+        "click_behavior_motive_assessment.txt",
+        "conversion_behavior_motive_assessment.txt",
+    ),
+}
+
 
 class TwoStageAgent:
-    def __init__(self, client, retries=2):
+    def __init__(self, client, retries=2,
+                 prompt_version="behavior-motive-assessment-v2"):
         self.client, self.retries = client, retries
         root = Path(__file__).resolve().parents[1] / "prompts"
+        if prompt_version not in PROMPT_PROTOCOLS:
+            raise ValueError(f"Unknown behavior prompt version: {prompt_version}")
+        click_name, conversion_name = PROMPT_PROTOCOLS[prompt_version]
         # The legacy renderer strips the template before replacing placeholders.
         # Preserve that behavior because even whitespace changes alter the API request.
-        click_path = root / "click_behavior_motive_assessment.txt"
-        conversion_path = root / "conversion_behavior_motive_assessment.txt"
+        click_path = root / click_name
+        conversion_path = root / conversion_name
         self.click_prompt = click_path.read_text(encoding="utf-8").strip()
         self.conversion_prompt = conversion_path.read_text(encoding="utf-8").strip()
         self.prompt_hashes = {
             "click": sha256_file(click_path),
             "conversion": sha256_file(conversion_path),
         }
+        self.prompt_version = prompt_version
+        self.exposes_average_rating = prompt_version == "behavior-motive-assessment-v2"
 
     @staticmethod
     def _canonicalize_click(value):
@@ -212,7 +229,11 @@ class TwoStageAgent:
 
     def simulate(self, profile, candidate, catalog):
         ids = candidate["item_ids"]
-        basic = [{key: catalog[item][key] for key in ("item_id", "title", "release_year", "genres")
+        basic_fields = ("item_id", "title", "release_year", "genres")
+        if self.exposes_average_rating:
+            basic_fields += ("average_rating",)
+        basic = [{key: catalog[item][key] for key in
+                  basic_fields
                   if key in catalog[item]} for item in ids]
         click_system = self.click_prompt.replace("{history_instruction}", _instruction(profile))
         click, attempts = self._call("click", click_system,
@@ -222,8 +243,10 @@ class TwoStageAgent:
         clicked = click["clicked_item_ids"]
         if not clicked:
             return {**click, "converted_item_ids": [], "motive_assessments": {}}, attempts
-        detail_fields = ("item_id", "title", "release_year", "genres", "overview", "director",
-                         "cast", "release_date", "language", "country")
+        detail_fields = ("item_id", "title", "release_year", "genres")
+        if self.exposes_average_rating:
+            detail_fields += ("average_rating",)
+        detail_fields += ("overview", "director", "cast", "release_date", "language", "country")
         detail_defaults = {"overview": "unknown", "director": "unknown", "cast": [],
                            "release_date": "unknown", "language": "unknown", "country": []}
         details = [{key: catalog[item].get(key, detail_defaults[key])

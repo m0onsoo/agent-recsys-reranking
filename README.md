@@ -19,6 +19,8 @@ actions can be evaluated under every reranking policy without paying for another
 - Primary relevance: every held-out interaction, independent of rating. Rating
   strata are additionally written for secondary analysis.
 - Candidate order: the registered backbone model's score order.
+- Candidate metadata: title, release year, genres, and the movie's average 1–5 rating
+  over checkpoint-training interactions only. Held-out ratings never contribute.
 - Default reranking: converted items first; all remaining items retain backbone
   order. `click_only` and `three_tier` are computed from the same action record.
 
@@ -165,7 +167,10 @@ movie-history array is withheld from the behavior agent.
 Defaults live in `configs/default.yaml`: `num_users=1000`, `candidate_size=20`,
 `top_k=10`, `concurrency=20`, `requests_per_minute=300`,
 `tokens_per_minute=1,000,000`, `max_cost_usd=25`, two validation retries, and one
-shard. The safety controls mean:
+shard. The default behavior protocol is `behavior-motive-assessment-v2`, which shows
+the train-only aggregate movie rating at both click and conversion stages. The
+archived v1 prompt remains available solely for historical byte-level reproduction.
+The safety controls mean:
 
 - `--concurrency`: maximum simultaneous API workers; lower it after 429/timeouts.
 - `--requests-per-minute`: sliding-window request cap shared by workers.

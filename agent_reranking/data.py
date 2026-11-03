@@ -85,7 +85,8 @@ def _population_traits(adapter, rating_by_raw, movie_rows):
     def level(value, bounds):
         return 1 if value < bounds[0] else 2 if value < bounds[1] else 3
     return ({user: {name: {"value": value, "level": level(value, thresholds[name])}
-                    for name, value in values.items()} for user, values in raw.items()}, thresholds)
+                    for name, value in values.items()} for user, values in raw.items()},
+            thresholds, item_means)
 
 
 def prepare_bundle(panel_path, registry_path, recbole_root, dataset_root, output_dir,
@@ -124,7 +125,8 @@ def prepare_bundle(panel_path, registry_path, recbole_root, dataset_root, output
     user_rows = {row["user_id:token"]: row for row in
                  _rows(dataset_dir / f"{first.config['dataset']}.user")}
     extended = _extended_movies(extended_movie_path)
-    population_traits, trait_thresholds = _population_traits(first, rating_by_raw, movie_rows)
+    population_traits, trait_thresholds, item_means = _population_traits(
+        first, rating_by_raw, movie_rows)
     uid_field, iid_field = first.config["USER_ID_FIELD"], first.config["ITEM_ID_FIELD"]
 
     def raw_user(user):
@@ -182,6 +184,8 @@ def prepare_bundle(panel_path, registry_path, recbole_root, dataset_root, output
                         "title": row["movie_title:token_seq"],
                         "release_year": row["release_year:token"],
                         "genres": row["genre:token_seq"].split(),
+                        "average_rating": (round(item_means[item], 2)
+                                           if item in item_means else None),
                         **{key: value for key, value in extended.get(raw_iid, {}).items()
                            if value}})
 
@@ -201,16 +205,26 @@ def prepare_bundle(panel_path, registry_path, recbole_root, dataset_root, output
     panel_copy.write_bytes(Path(panel_path).read_bytes())
     files = ["users.csv", "train_interactions.jsonl", "candidates.jsonl",
              "evaluation_labels.jsonl", "item_catalog.jsonl", "social_traits.json"]
-    manifest = {"schema_version": 1, "num_users": len(users),
+    file_hashes = {name: sha256_file(output / name) for name in files}
+    manifest = {"schema_version": 2, "num_users": len(users),
                 "candidate_size": candidate_size, "models": list(adapters),
                 "joint_positive_required": require_joint_positive,
+                "average_rating": {
+                    "scale": "1-5",
+                    "scope": "checkpoint_train_only_all_users",
+                    "rounding_decimals": 2,
+                    "missing_value": None,
+                },
                 "mapping_hash": first.mapping_hash, "split_hash": first.split_hash,
                 "panel_sha256": sha256_file(panel_path),
                 "model_registry_sha256": sha256_file(registry_path),
-                "files": {name: sha256_file(output / name) for name in files},
-                "bundle_id": stable_hash({"users": users, "split": first.split_hash,
+                "files": file_hashes,
+                "bundle_id": stable_hash({"schema_version": 2,
+                                           "users": users,
+                                           "split": first.split_hash,
                                            "candidate_size": candidate_size,
-                                           "models": list(adapters)})}
+                                           "models": list(adapters),
+                                           "files": file_hashes})}
     write_json(output / "manifest.json", manifest)
     return manifest
 

@@ -35,6 +35,9 @@ class DataBundle:
         self._validate_structure()
 
     def _validate_structure(self):
+        schema_version = int(self.manifest.get("schema_version", 0))
+        if schema_version not in (1, 2):
+            raise ValueError(f"Unsupported bundle schema: {schema_version}")
         expected_users = set(self.histories)
         if not expected_users:
             raise ValueError("Bundle contains no users")
@@ -57,6 +60,13 @@ class DataBundle:
             missing = set(row["item_ids"]) - set(self.catalog)
             if missing:
                 raise ValueError(f"Candidate items are absent from catalog: {key}: {missing}")
+            if schema_version >= 2:
+                for item in row["item_ids"]:
+                    value = self.catalog[item].get("average_rating")
+                    if value is not None and (not isinstance(value, (int, float))
+                                              or not 1 <= value <= 5):
+                        raise ValueError(
+                            f"Invalid train-only average rating: {key}: item {item}")
         if int(self.manifest["num_users"]) != len(expected_users):
             raise ValueError("Bundle user count differs from manifest")
         if self.social_traits is not None and set(self.social_traits) != expected_users:
