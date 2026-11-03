@@ -70,6 +70,19 @@ Consequently all collaborators use the same Top-20 items and backbone scores wit
 re-running model inference. `validate-bundle` verifies hashes, user/model coverage,
 candidate lengths, scores, catalog references, and social-trait coverage.
 
+Backbone performance for a shared bundle can be recomputed without RecBole:
+
+```bash
+python scripts/evaluate_bundle_baselines.py \
+  --bundle data/derived/ml1m_ro_n1000_seed42 \
+  --top-k 10 \
+  --output results/ml1m_ro_n1000_seed42_baselines.json
+```
+
+The registered 1,000-user metrics are explicitly labeled as joint-eligible-panel
+metrics because this panel is conditioned on every model retrieving at least one
+held-out interaction in its Top-20; they are not full-population estimates.
+
 ## Profile generation
 
 ```bash

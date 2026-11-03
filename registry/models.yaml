@@ -23,6 +23,15 @@ models:
       recall@10: 0.1408189808
       ndcg@10: 0.2221889104
       candidate_recall@20: 0.2138204324
+    joint_eligible_panel_1000_seed42_metrics:
+      panel_sha256: 76cdc352836afd33e23330affa5da3408756af08fc16bafbd5879a4d09425d3b
+      bundle_id: 9e91ea1182a873ce8da2ce424e4aa47baba667ee7c7d7fddbf562a674ee0d60b
+      sampling_design: simple_random_without_replacement
+      eligibility: all three models contain at least one held-out interaction in Top-20
+      test_users: 1000
+      recall@10: 0.1739993003
+      ndcg@10: 0.2814530761
+      candidate_recall@20: 0.2696872562
   - model_id: lightgcn_ml1m_ro_allratings_v1
     display_name: LightGCN
     architecture: LightGCN
@@ -46,6 +55,15 @@ models:
       recall@10: 0.1831443074
       ndcg@10: 0.2607807182
       candidate_recall@20: 0.2645000842
+    joint_eligible_panel_1000_seed42_metrics:
+      panel_sha256: 76cdc352836afd33e23330affa5da3408756af08fc16bafbd5879a4d09425d3b
+      bundle_id: 9e91ea1182a873ce8da2ce424e4aa47baba667ee7c7d7fddbf562a674ee0d60b
+      sampling_design: simple_random_without_replacement
+      eligibility: all three models contain at least one held-out interaction in Top-20
+      test_users: 1000
+      recall@10: 0.2052061366
+      ndcg@10: 0.3441975477
+      candidate_recall@20: 0.2996468087
   - model_id: multivae_vanilla_ml1m_ro_allratings_v1
     display_name: MultiVAE
     architecture: MultiVAE
@@ -69,4 +87,13 @@ models:
       recall@10: 0.185796037
       ndcg@10: 0.2547711112
       candidate_recall@20: 0.2855861018
+    joint_eligible_panel_1000_seed42_metrics:
+      panel_sha256: 76cdc352836afd33e23330affa5da3408756af08fc16bafbd5879a4d09425d3b
+      bundle_id: 9e91ea1182a873ce8da2ce424e4aa47baba667ee7c7d7fddbf562a674ee0d60b
+      sampling_design: simple_random_without_replacement
+      eligibility: all three models contain at least one held-out interaction in Top-20
+      test_users: 1000
+      recall@10: 0.2048144378
+      ndcg@10: 0.3300995350
+      candidate_recall@20: 0.3049995155
 
