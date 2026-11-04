@@ -6,6 +6,13 @@ Last updated: 2026-11-04 (PT). Code includes handoff commit `ec7fac9` plus
 `56ba845`, `f217db1`, `0765faf`, and `71186c5` (see Notes). This directory contains
 reports and aggregate numbers only; raw run directories are in the off-repo archive.
 
+Local storage cleanup (2026-11-04): all eight API transcript files, duplicate
+profile checkpoints, and Python caches were removed from the local raw-result
+directory. Reports, metrics, actions, and merged profiles were preserved unchanged.
+The removed files were never included in this branch. Raw API audit or replay now
+requires a separately retained complete copy; historical checksum manifests may
+still list the removed files.
+
 ## Status
 
 | Experiment | Users | LLM | Status | Recorded cost |
