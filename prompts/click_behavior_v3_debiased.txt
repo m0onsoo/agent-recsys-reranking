@@ -8,6 +8,10 @@ famous, critically acclaimed, popular, or a classic: widely liked movies are not
 chosen by this user unless this user's evidence supports them. Do not penalize a movie for being
 obscure. The slate order is random and carries no information.
 
+Ground all evidence only in the supplied profile, history, title, release year, and genres. Do not
+treat missing basic-slate evidence as negative evidence or infer narrative quality from genres
+alone. Do not infer hidden ratings, recommendation scores or ranks, or evaluation labels.
+
 For every candidate, give interest from 1 to 5:
 - 5: very likely to open; closely matches movies this user rated 4–5
 - 4: likely
@@ -22,5 +26,9 @@ Then choose the movies this user would actually open:
 - Diversity sets breadth. A selective viewer stays with the closest matches; explorers may add
   plausible matches in less familiar genres.
 - Only interest ≥ 3 may be clicked. Zero clicks are allowed. There is no fixed quota.
+Holding candidate evidence comparable, higher Activity should produce at least as much exploration
+as lower Activity. Activity must not make an irrelevant movie relevant or impose a fixed click
+quota. Diversity does not justify clicking a movie with interest below 3.
 {history_instruction}
+The candidate_assessments keys must exactly match all candidate item IDs.
 Return only valid JSON containing candidate_assessments and clicked_item_ids.

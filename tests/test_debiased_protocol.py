@@ -20,6 +20,33 @@ from agent_reranking.runner import _profile_payload, match_history_ratings, run
 
 
 class DebiasedProtocolTests(unittest.TestCase):
+    def test_restored_grounding_and_trait_constraints(self):
+        root = Path(__file__).resolve().parents[1] / "prompts"
+        click = " ".join((root / "click_behavior_v3_debiased.txt").read_text().split())
+        conversion = " ".join((root / "conversion_behavior_v3_debiased.txt").read_text().split())
+        for sentence in (
+            "Ground all evidence only in the supplied profile, history, title, release year, and genres.",
+            "Do not treat missing basic-slate evidence as negative evidence or infer narrative quality from genres alone.",
+            "Holding candidate evidence comparable, higher Activity should produce at least as much exploration as lower Activity.",
+            "Activity must not make an irrelevant movie relevant or impose a fixed click quota.",
+            "Diversity does not justify clicking a movie with interest below 3.",
+            "The candidate_assessments keys must exactly match all candidate item IDs.",
+        ):
+            self.assertIn(sentence, click)
+        for sentence in (
+            "(confirmed / contradicted / insufficient, as defined below)",
+            "interaction_history is an unordered sample of movies this user watched, each with the user's own 1–5 rating (4–5 liked, 3 neutral, 1–2 disliked).",
+            "Use Diversity to decide whether a detailed but less familiar choice remains acceptable: a selective viewer requires close personal fit, while niche and broad explorers tolerate increasingly supported novelty.",
+            "Neither Activity nor Diversity can replace movie-specific personal evidence.",
+            "Ground all judgments only in the supplied profile, history, click hypotheses, and revealed movie details.",
+        ):
+            self.assertIn(sentence, conversion)
+        for prompt in (click, conversion):
+            self.assertIn("Do not infer hidden ratings, recommendation scores or ranks, or evaluation labels.", prompt)
+            for forbidden in ("average_rating", "predicted_rating", "conformity", "backbone"):
+                self.assertNotIn(forbidden, prompt.lower())
+        self.assertNotIn("same definitions as the current protocol", conversion)
+
     def test_presentation_is_deterministic_without_mutating_candidates(self):
         items = list(range(20))
         original = list(items)

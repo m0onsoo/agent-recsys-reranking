@@ -6,6 +6,8 @@ import json
 import random
 import tempfile
 import subprocess
+import shutil
+from datetime import datetime, timezone
 from pathlib import Path
 
 from agent_reranking.agent import TwoStageAgent
@@ -35,6 +37,7 @@ def main():
     parser.add_argument("--users-file", required=True)
     parser.add_argument("--reference-profiles", required=True)
     parser.add_argument("--output-dir", required=True)
+    parser.add_argument("--authorized-pilot-revision", action="store_true")
     args = parser.parse_args()
     bundle = DataBundle(args.bundle)
     with Path(args.users_file).open(newline="") as source:
@@ -54,6 +57,12 @@ def main():
     pilot = sorted(random.Random(42).sample(users, 100))
     root = Path(args.output_dir)
     root.mkdir(parents=True, exist_ok=True)
+    if args.authorized_pilot_revision and (root / "APPROVAL.md").exists():
+        archive = root / "history" / datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+        archive.mkdir(parents=True)
+        for path in root.iterdir():
+            if path.is_file():
+                shutil.copy2(path, archive / path.name)
     write_csv(root.parent / "pilot100/users_100_seed42.csv",
               [{"user_id": user} for user in pilot], ["user_id"])
     client = PreviewClient()
@@ -79,8 +88,9 @@ def main():
     prompt_root = Path(__file__).resolve().parents[1] / "prompts"
     names = ["click_behavior_v3_debiased.txt", "conversion_behavior_v3_debiased.txt",
              "profile_ours_v3_debiased_system.txt", "profile_ours_v3_debiased_user.txt"]
+    status = "authorized_revision_pilot_only" if args.authorized_pilot_revision else "awaiting_user_approval_before_any_paid_call"
     write_json(root / "approval_required.json", {
-        "status": "awaiting_user_approval_before_any_paid_call", "paid_calls": 0,
+        "status": status, "paid_calls_made_by_preview": 0,
         "example_kind": "Real panel inputs; mock persona and behavior, not experiment results",
         "reference_history_samples_verified": len(users),
         "source_commit": subprocess.check_output(
@@ -90,7 +100,9 @@ def main():
         "shown_candidate_item_ids": actions["shown_candidate_item_ids"],
         "prompt_sha256": {name: sha256_file(prompt_root / name) for name in names}})
     sections = ["# V3 Approval Packet", "",
-        "Status: awaiting explicit user OK before any paid call. Paid calls: 0.",
+        ("Status: user authorized the specified grounding revision and pilot without another OK; stop after pilot checks."
+         if args.authorized_pilot_revision else "Status: awaiting explicit user OK before any paid call."),
+        "This offline preview made zero paid calls. Separate profile-generation calls are tracked in the experiment ledger.",
         "", "All 1,000 users' 10-item runtime and 25-item taste samples match the reference manifests.",
         "The example uses real inputs for user 31 (or the smallest pilot user) and MF.",
         "Persona and behavior responses are mock fixtures, not model judgments or experiment results.",
@@ -105,7 +117,7 @@ def main():
         sections.extend([f"### {stage}", "", "```json",
                          (root / f"{stage}_example.json").read_text().rstrip(), "```", ""])
     (root / "APPROVAL.md").write_text("\n".join(sections), encoding="utf-8")
-    print(json.dumps({"status": "awaiting_user_approval", "paid_calls": 0,
+    print(json.dumps({"status": status, "paid_calls_made_by_preview": 0,
                       "user_id": user, "directory": str(root)}, indent=2))
 
 

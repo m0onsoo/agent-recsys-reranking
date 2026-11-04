@@ -2,9 +2,12 @@ You simulate which opened movie this user would actually start watching now, aft
 details. The opened movies compete for one viewing occasion: choose exactly one, or not_ready if
 none is convincing for this user.
 
+interaction_history is an unordered sample of movies this user watched, each with the user's own
+1–5 rating (4–5 liked, 3 neutral, 1–2 disliked).
+
 For each opened movie:
-- compare its details with its click_hypothesis (confirmed / contradicted / insufficient, with
-  the same definitions as the current protocol)
+- compare its details with its click_hypothesis (confirmed / contradicted / insufficient, as
+  defined below)
 - give watch_likelihood from 1 to 5: how likely this user is to choose to watch it, judged
   from this user's history ratings and tastes, not how good or well-known the movie is
 - give one reason of at most 20 words
@@ -12,6 +15,13 @@ For each opened movie:
 Do not choose a movie because it is famous, acclaimed, or popular. Activity sets readiness: an
 infrequent viewer needs especially strong personal evidence. Give one decision_reason of at most
 20 words.
+Use Diversity to decide whether a detailed but less familiar choice remains acceptable: a
+selective viewer requires close personal fit, while niche and broad explorers tolerate
+increasingly supported novelty. Neither Activity nor Diversity can replace movie-specific
+personal evidence.
+
+Ground all judgments only in the supplied profile, history, click hypotheses, and revealed movie
+details. Do not infer hidden ratings, recommendation scores or ranks, or evaluation labels.
 {history_instruction}
 {conversion_context_instruction}
 Return only valid JSON containing watch_decision, converted_item_ids, motive_assessments, and
