@@ -18,6 +18,7 @@ from .profile_format import labeled_social_traits, natural_demographics, taste_s
 
 PROFILE_METHODS = ("ours", "agent4rec", "simuser")
 PROFILE_COMPONENTS = ("history", "unique_tastes", "social_traits", "demographics")
+PROFILE_PROMPT_VERSIONS = ("ours_profile_v1", "ours_profile_v3_debiased")
 
 
 class _ProfileCacheMiss(Exception):
@@ -150,13 +151,17 @@ def _shown(bundle, rows):
     return [{**bundle.movie(row["item_id"]), "rating": row["rating"]} for row in rows]
 
 
-def generate_persona(method, bundle, user, client, seed, traits):
+def generate_persona(method, bundle, user, client, seed, traits,
+                     prompt_version="ours_profile_v1"):
     rows = bundle.histories[user]["train_interactions"]
     prompt_root = Path(__file__).resolve().parents[1] / "prompts"
     if method == "ours":
         sample = _sample(rows, user, seed, 25, "ours-v1")
         system_path = prompt_root / "profile_ours_system.txt"
         user_path = prompt_root / "profile_ours_user.txt"
+        if prompt_version == "ours_profile_v3_debiased":
+            system_path = prompt_root / "profile_ours_v3_debiased_system.txt"
+            user_path = prompt_root / "profile_ours_v3_debiased_user.txt"
         system = system_path.read_text(encoding="utf-8")
         template = user_path.read_text(encoding="utf-8")
         shown = [{"title": row["title"], "release_year": row.get("release_year", ""),
@@ -167,7 +172,7 @@ def generate_persona(method, bundle, user, client, seed, traits):
         result = client.respond_json(system, user_prompt, _ours_schema(), "ours_profile")
         result["summary"] = _taste_summary(result)
         return result, {"sampled_item_ids": [row["item_id"] for row in sample],
-                        "calls": 1, "method_version": "ours_profile_v1",
+                        "calls": 1, "method_version": prompt_version,
                         "system_prompt_sha256": sha256_file(system_path),
                         "user_prompt_sha256": sha256_file(user_path)}
     if method == "agent4rec":
@@ -224,22 +229,28 @@ def generate_persona(method, bundle, user, client, seed, traits):
 def generate_profiles(bundle, client, method="ours", components=("all",), seed=42,
                       history_size=10, num_users=None, output_dir="profiles",
                       concurrency=20, persona_file=None, selected_user_ids=None,
-                      resume=False, recover_only=False):
+                      resume=False, recover_only=False, prompt_version="ours_profile_v1"):
     root = Path(output_dir).resolve()
     root.mkdir(parents=True, exist_ok=True)
     with (root / "profile.lock").open("a") as lock:
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         return _generate_profiles(bundle, client, method, components, seed, history_size,
-            num_users, output_dir, concurrency, persona_file, selected_user_ids, resume, recover_only)
+            num_users, output_dir, concurrency, persona_file, selected_user_ids, resume, recover_only,
+            prompt_version)
 
 
 def _generate_profiles(bundle, client, method, components, seed, history_size,
                        num_users, output_dir, concurrency, persona_file,
-                       selected_user_ids, resume, recover_only):
+                       selected_user_ids, resume, recover_only, prompt_version="ours_profile_v1"):
     if recover_only and not resume:
         raise ValueError("recover_only requires resume=True")
     if method not in PROFILE_METHODS:
         raise ValueError(f"Unknown profile method: {method}")
+    if prompt_version not in PROFILE_PROMPT_VERSIONS:
+        raise ValueError(f"Unknown profile prompt version: {prompt_version}")
+    debiased = prompt_version == "ours_profile_v3_debiased"
+    if debiased and (method != "ours" or persona_file):
+        raise ValueError("Debiased profiles require newly generated ours personas")
     enabled = set(PROFILE_COMPONENTS if "all" in components else components)
     unknown = enabled - set(PROFILE_COMPONENTS)
     if unknown:
@@ -265,8 +276,11 @@ def _generate_profiles(bundle, client, method, components, seed, history_size,
         "model": getattr(client, "model", None), "temperature": getattr(client, "temperature", None),
         "endpoint_hash": stable_hash(getattr(client, "url", None)),
         "prompt_hashes": {path.name: sha256_file(path) for path in
-            (Path(__file__).resolve().parents[1] / "prompts").glob("profile_*.txt")},
+            (Path(__file__).resolve().parents[1] / "prompts").glob("profile_*.txt")
+            if debiased or "_v3_debiased_" not in path.name},
     }
+    if debiased:
+        configuration["profile_prompt_version"] = prompt_version
     configuration_hash = stable_hash(configuration)
     manifest_path = root / "run_manifest.json"
     if manifest_path.exists():
@@ -343,12 +357,17 @@ def _generate_profiles(bundle, client, method, components, seed, history_size,
             for row in sample:
                 movie = bundle.movie(row["item_id"], detail=True)
                 movie.pop("item_id", None)
+                if debiased:
+                    movie.pop("average_rating", None)
+                    movie["user_rating"] = row["rating"]
                 profile["interaction_history"].append(movie)
             manifest["history_item_ids"] = [row["item_id"] for row in sample]
         if "demographics" in enabled:
             profile["demographics"] = natural_demographics(source["demographics"])
         if "social_traits" in enabled:
             profile["social_traits"] = labeled_social_traits(traits[user])
+            if debiased:
+                profile["social_traits"].pop("conformity")
         if "unique_tastes" in enabled:
             legacy = imported.get(str(source["raw_user_id"]))
             if legacy is not None:
@@ -365,8 +384,12 @@ def _generate_profiles(bundle, client, method, components, seed, history_size,
                 raise ValueError(f"Imported persona missing raw user {source['raw_user_id']}")
             else:
                 profile_client = _ProfileClient(client, cached[user], allow_requests=not recover_only)
-                tastes, persona_manifest = generate_persona(method, bundle, user,
-                    profile_client, seed, traits)
+                if debiased:
+                    tastes, persona_manifest = generate_persona(method, bundle, user,
+                        profile_client, seed, traits, prompt_version=prompt_version)
+                else:
+                    tastes, persona_manifest = generate_persona(method, bundle, user,
+                        profile_client, seed, traits)
                 if profile_client.replayed_call_ids:
                     persona_manifest["recovered_call_ids"] = profile_client.replayed_call_ids
             profile["unique_tastes"] = tastes

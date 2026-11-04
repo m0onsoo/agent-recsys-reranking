@@ -11,7 +11,8 @@ from .bundle import DataBundle, select_users
 from .client import MockClient, OpenAICompatibleClient, RateBudget
 from .io import read_jsonl, stable_hash, write_csv, write_json
 from .metrics import evaluate, rating_strata
-from .profile_format import natural_demographics, social_trait_summary, taste_summary
+from .profile_format import (debiased_social_trait_summary, natural_demographics,
+                             social_trait_summary, taste_summary)
 from .rerank import all_rankings
 from .results import append_jsonl, create_run, summarize, upsert_index
 
@@ -24,10 +25,33 @@ def _client(config):
                         config["output_cost_per_million"])
     return OpenAICompatibleClient(config["llm_model"], config["llm_base_url"],
                                   config["api_key_env"], config["temperature"],
-                                  config["request_timeout_seconds"], budget)
+                                  config["request_timeout_seconds"], budget,
+                                  stop_on_transport_error=(
+                                      config["prompt_version"] == "behavior-v3-debiased"))
 
 
-def _profile_payload(profile, components, protocol="separated"):
+def match_history_ratings(profile, manifest, train_interactions):
+    result = dict(profile)
+    history = profile.get("interaction_history", [])
+    item_ids = manifest.get("history_item_ids", [])
+    if len(item_ids) != len(history) or len(set(item_ids)) != len(item_ids):
+        raise ValueError("History must match unique manifest history_item_ids")
+    ratings = {row["item_id"]: row["rating"] for row in train_interactions}
+    result["interaction_history"] = []
+    for item, movie in zip(item_ids, history):
+        rating = ratings.get(item)
+        if isinstance(rating, bool) or not isinstance(rating, (int, float)) or not 1 <= rating <= 5:
+            raise ValueError(f"Missing or invalid training user_rating for item {item}")
+        if movie.get("user_rating", rating) != rating:
+            raise ValueError(f"Stored user_rating differs from train interactions for item {item}")
+        result["interaction_history"].append({**movie, "user_rating": rating})
+    return result
+
+
+def _profile_payload(profile, components, protocol="separated", prompt_version=None):
+    debiased = prompt_version == "behavior-v3-debiased"
+    if debiased and protocol != "separated":
+        raise ValueError("Debiased behavior requires separated profile protocol")
     enabled = set(components)
     result = {"user_id": profile["user_id"]}
     mapping = {"history": "interaction_history", "unique_tastes": "unique_tastes",
@@ -47,6 +71,13 @@ def _profile_payload(profile, components, protocol="separated"):
             if field == "interaction_history":
                 fields = ("title", "release_year", "genres", "overview", "director",
                           "cast", "release_date", "language", "country")
+                if debiased:
+                    fields += ("user_rating",)
+                    if any(isinstance(movie.get("user_rating"), bool)
+                           or not isinstance(movie.get("user_rating"), (int, float))
+                           or not 1 <= movie["user_rating"] <= 5
+                           for movie in profile[field]):
+                        raise ValueError("Every debiased history item requires user_rating from 1 to 5")
                 result[field] = [{key: movie[key] for key in fields if key in movie}
                                  for movie in profile[field]]
             elif field == "demographics":
@@ -54,7 +85,8 @@ def _profile_payload(profile, components, protocol="separated"):
             elif field == "unique_tastes":
                 result[field] = taste_summary(profile[field])
             elif field == "social_traits":
-                result[field] = social_trait_summary(profile[field])
+                result[field] = (debiased_social_trait_summary(profile[field]) if debiased
+                                 else social_trait_summary(profile[field]))
             else:
                 result[field] = profile[field]
     if legacy_summary is not None:
@@ -69,6 +101,13 @@ def run(config, bundle_path, profiles_path, resume=None, case_limit=None):
                          config.get("selected_user_ids"))
     if any(user not in profiles for user in users):
         raise ValueError("A selected user is missing a generated profile")
+    debiased = config["prompt_version"] == "behavior-v3-debiased"
+    if debiased:
+        manifests = {int(row["user_id"]): row for row in
+                     read_jsonl(Path(profiles_path).parent / "profile_manifests.jsonl")}
+        for user in users:
+            profiles[user] = match_history_ratings(
+                profiles[user], manifests[user], bundle.histories[user]["train_interactions"])
     root = create_run(config["output_root"], config, resume)
     completed = {(row["model"], int(row["user_id"])): row for row in
                  read_jsonl(root / "actions.jsonl")}
@@ -76,7 +115,7 @@ def run(config, bundle_path, profiles_path, resume=None, case_limit=None):
         if user not in users or model not in config["models"]:
             continue
         profile = _profile_payload(profiles[user], config["profile_components"],
-                                   config["profile_protocol"])
+                                   config["profile_protocol"], config["prompt_version"])
         candidate = bundle.candidates[(model, user)]
         if row.get("profile_hash") != stable_hash(profile):
             raise ValueError(f"Resume profile payload differs for {(model, user)}")
@@ -96,8 +135,12 @@ def run(config, bundle_path, profiles_path, resume=None, case_limit=None):
             client.set_context(reset=True, model=model, user_id=user)
         candidate = bundle.candidates[(model, user)]
         profile = _profile_payload(profiles[user], config["profile_components"],
-                                   config["profile_protocol"])
-        actions, calls = agent.simulate(profile, candidate, bundle.catalog)
+                                   config["profile_protocol"], config["prompt_version"])
+        if debiased:
+            actions, calls = agent.simulate(profile, candidate, bundle.catalog,
+                                            model=model, seed=config["seed"])
+        else:
+            actions, calls = agent.simulate(profile, candidate, bundle.catalog)
         return {"model": model, "user_id": user, "actions": actions,
                 "profile_hash": stable_hash(profile), "candidate_hash": stable_hash(candidate)}, calls
 
@@ -128,8 +171,10 @@ def run(config, bundle_path, profiles_path, resume=None, case_limit=None):
             continue
         candidate = bundle.candidates[(model, user)]
         rankings = all_rankings(candidate, row["actions"], config["top_k"])
-        heldout = bundle.labels[user]["heldout_items"]
         ranking_rows.append({"model": model, "user_id": user, "rankings": rankings})
+        if not config.get("evaluate_metrics", True):
+            continue
+        heldout = bundle.labels[user]["heldout_items"]
         for stage, ranking in rankings.items():
             metric_rows.append({"model": model, "user_id": user, "stage": stage,
                                 **evaluate(ranking, candidate["item_ids"], heldout,

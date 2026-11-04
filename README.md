@@ -44,6 +44,39 @@ python scripts/sample_eligible_panel.py \
 This command verifies checkpoint, mapping, and split hashes before sampling. Normal
 collaborator experiments do not run this command and require no RecBole installation.
 
+## Debiased v3 approval workflow
+
+`behavior-v3-debiased` is an opt-in protocol. Existing versions and their request
+bytes are unchanged. V3 removes aggregate ratings and Conformity, uses integer
+interest and watch_likelihood, includes the user's own training-history ratings,
+and deterministically shuffles presentation by SHA256 of `[42, model, user_id]`.
+Clicked details retain the random slate's relative order. Original backbone IDs
+and scores remain unchanged; actions record both shown orders.
+
+New profiles use `generate-profiles --profile-prompt-version ours_profile_v3_debiased`.
+The legacy default is still `ours_profile_v1`. Both versions use the established
+25-item taste sample and 10-item runtime history sample. V3 histories are checked
+against `profile_manifests.jsonl` and the bundle's training interactions.
+
+Before any paid call, generate and review the prompt files and real-input mock
+examples, then obtain explicit user approval:
+
+```bash
+python scripts/preview_debiased.py \
+  --bundle data/derived/ml1m_ro_n1000_seed42 \
+  --users-file data/panels/users_1000_seed42.csv \
+  --reference-profiles ../jinyi_results/n1000_v2/profiles/ours_all_n1000 \
+  --output-dir ../jinyi_results/n1000_v3/approval
+```
+
+This command makes no API calls. Its approval packet contains all four prompt
+files, both rendered behavior payloads, and a rendered profile request. The
+100-user seed-42 pilot must use `run --no-evaluate-metrics`; this skips metric and
+rating-strata evaluation entirely. Inspect format, failures and bias only before
+freezing the protocol. Do not select or revise prompts based on pilot accuracy.
+The later paid controller must enforce the approved $15 total cap and stop on
+HTTP 429 or transport errors; this preview command does not start that controller.
+
 ## Install and obtain the precomputed bundle
 
 The normal profile-generation and reranking environment does **not** load model

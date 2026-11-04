@@ -9,7 +9,8 @@ from .bundle import DataBundle
 from .client import MockClient, OpenAICompatibleClient, RateBudget
 from .config import load_config
 from .merge import merge_runs
-from .profiles import PROFILE_COMPONENTS, PROFILE_METHODS, generate_profiles
+from .profiles import (PROFILE_COMPONENTS, PROFILE_METHODS, PROFILE_PROMPT_VERSIONS,
+                       generate_profiles)
 from .runner import run
 
 
@@ -62,6 +63,8 @@ def main(argv=None):
     profiles = commands.add_parser("generate-profiles")
     profiles.add_argument("--bundle", required=True)
     profiles.add_argument("--method", choices=PROFILE_METHODS, default="ours")
+    profiles.add_argument("--profile-prompt-version", choices=PROFILE_PROMPT_VERSIONS,
+                          default="ours_profile_v1")
     profiles.add_argument("--client", choices=("mock", "openai_compatible"), default="openai_compatible")
     profiles.add_argument("--model", default="gpt-4o-mini")
     profiles.add_argument("--base-url", default="https://api.openai.com/v1")
@@ -103,6 +106,8 @@ def main(argv=None):
     execute.add_argument("--tokens-per-minute", type=int)
     execute.add_argument("--max-cost-usd", type=float)
     execute.add_argument("--case-limit", type=int)
+    execute.add_argument("--no-evaluate-metrics", action="store_true",
+                         help="Record behavior only, without computing Recall or NDCG")
     execute.add_argument("--resume")
     execute.add_argument("--num-shards", type=int)
     execute.add_argument("--shard-index", type=int)
@@ -110,7 +115,8 @@ def main(argv=None):
     execute.add_argument("--llm-model")
     execute.add_argument("--prompt-version", choices=(
         "behavior-motive-assessment-v1", "behavior-motive-assessment-v2",
-        "behavior-social-traits", "behavior-align-rating-social-traits"))
+        "behavior-social-traits", "behavior-align-rating-social-traits",
+        "behavior-v3-debiased"))
     execute.add_argument("--output-root")
     execute.add_argument("--profile-protocol", choices=("separated", "legacy_combined"))
     _common_profile_flags(execute, default=None)
@@ -130,12 +136,15 @@ def main(argv=None):
                             args.input_cost_per_million, args.output_cost_per_million)
         client = (MockClient() if args.client == "mock" or args.persona_file else
                   OpenAICompatibleClient(args.model, args.base_url, args.api_key_env,
-                                         budget=budget, max_retries=args.max_retries))
+                                         budget=budget, max_retries=args.max_retries,
+                                         stop_on_transport_error=(
+                                             args.profile_prompt_version == "ours_profile_v3_debiased")))
         _print(generate_profiles(DataBundle(args.bundle), client, args.method,
                                  _components(args), args.seed, args.history_size,
                                  args.num_users, args.output_dir, args.concurrency,
                                  args.persona_file, _user_ids(args.users_file), resume=args.resume,
-                                 recover_only=args.recover_only))
+                                 recover_only=args.recover_only,
+                                 prompt_version=args.profile_prompt_version))
         return
     if args.command == "merge-runs":
         _print(merge_runs(args.bundle, args.profiles, args.runs, args.output_root))
@@ -146,6 +155,8 @@ def main(argv=None):
         "llm_provider", "llm_model", "prompt_version", "output_root",
         "profile_protocol")}
     config = load_config(args.config, overrides)
+    if args.no_evaluate_metrics:
+        config["evaluate_metrics"] = False
     selected_user_ids = _user_ids(args.users_file)
     if selected_user_ids is not None:
         config["selected_user_ids"] = selected_user_ids

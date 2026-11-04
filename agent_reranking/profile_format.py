@@ -71,6 +71,18 @@ def social_trait_summary(traits):
             f"({TRAIT_DESCRIPTIONS['diversity'][rendered['diversity']['level']]}).")
 
 
+def debiased_social_trait_summary(traits):
+    if not isinstance(traits, dict):
+        raise ValueError("Debiased social traits require structured Activity and Diversity")
+    parts = []
+    for name in ("activity", "diversity"):
+        row = traits[name]
+        level = int(row.get("assigned_level", row["level"]))
+        parts.append(f"{name} is {TRAIT_LABELS[name][level]} "
+                     f"({TRAIT_DESCRIPTIONS[name][level]})")
+    return "Social traits: " + "; ".join(parts) + "."
+
+
 def taste_summary(value):
     if isinstance(value, str):
         return value

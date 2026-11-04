@@ -2,6 +2,9 @@
 
 import json
 import re
+import hashlib
+import random
+from copy import deepcopy
 from pathlib import Path
 
 from jsonschema import Draft202012Validator, ValidationError
@@ -73,6 +76,28 @@ RATING_CONVERSION_SCHEMA = {
 
 _ARTICLES = ("The", "A", "An", "Les", "La", "Le", "L'", "Il", "Das", "Der", "Die", "El")
 
+DEBIASED_CLICK_SCHEMA = deepcopy(ALIGN_CLICK_SCHEMA)
+_interest_schema = DEBIASED_CLICK_SCHEMA["properties"]["candidate_assessments"]["additionalProperties"]
+_interest_schema["properties"].pop("alignment")
+_interest_schema["properties"]["interest"] = {"type": "integer", "minimum": 1, "maximum": 5}
+_interest_schema["required"] = ["interest", "evidence"]
+DEBIASED_CONVERSION_SCHEMA = deepcopy(RATING_CONVERSION_SCHEMA)
+_watch_schema = DEBIASED_CONVERSION_SCHEMA["properties"]["motive_assessments"]["additionalProperties"]
+_watch_schema["properties"].pop("predicted_rating")
+_watch_schema["properties"]["watch_likelihood"] = {"type": "integer", "minimum": 1, "maximum": 5}
+_watch_schema["required"] = ["outcome", "watch_likelihood", "reason"]
+_watch_schema["properties"]["outcome"]["type"] = "string"
+DEBIASED_CONVERSION_SCHEMA["properties"]["watch_decision"]["type"] = "string"
+
+
+def presentation_order(item_ids, model, user_id, seed=42):
+    if not model:
+        raise ValueError("Debiased presentation requires a backbone model")
+    material = json.dumps([seed, model, int(user_id)], separators=(",", ":"))
+    order = list(item_ids)
+    random.Random(int.from_bytes(hashlib.sha256(material.encode()).digest(), "big")).shuffle(order)
+    return order
+
 
 def _title_variants(title):
     """Surface forms a model may use when quoting a MovieLens title."""
@@ -113,6 +138,10 @@ FULL_SLATE_CONTEXT = (
 )
 
 PROMPT_PROTOCOLS = {
+    "behavior-v3-debiased": (
+        "click_behavior_v3_debiased.txt",
+        "conversion_behavior_v3_debiased.txt",
+    ),
     "behavior-motive-assessment-v1": (
         "legacy/click_behavior_motive_assessment_v1.txt",
         "legacy/conversion_behavior_motive_assessment_v1.txt",
@@ -151,7 +180,8 @@ class TwoStageAgent:
             "conversion": sha256_file(conversion_path),
         }
         self.prompt_version = prompt_version
-        self.exposes_average_rating = prompt_version != "behavior-motive-assessment-v1"
+        self.exposes_average_rating = prompt_version not in (
+            "behavior-motive-assessment-v1", "behavior-v3-debiased")
         self.uses_align_rating_protocol = (
             prompt_version == "behavior-align-rating-social-traits")
 
@@ -331,7 +361,7 @@ class TwoStageAgent:
         if record and call_id:
             record(call_id, status, error)
 
-    def _call(self, stage, system, payload, validator, response_name=None):
+    def _call(self, stage, system, payload, validator, response_name=None, schema=None):
         feedback = None
         attempts = []
         for retry in range(self.retries + 1):
@@ -344,7 +374,7 @@ class TwoStageAgent:
             try:
                 rendered_system = self._retry_system(system, feedback) if feedback else system
                 value = self.client.respond_json(
-                    rendered_system, json.dumps(sent, ensure_ascii=False), None,
+                    rendered_system, json.dumps(sent, ensure_ascii=False), schema,
                     response_name or f"{stage}_selection")
                 validator(value)
                 attempts.append({"stage": stage, "retry": retry, **self.client.last_call,
@@ -360,7 +390,91 @@ class TwoStageAgent:
                 feedback = str(exc)
         raise AssertionError("unreachable")
 
-    def simulate(self, profile, candidate, catalog):
+    @staticmethod
+    def _validate_debiased_click(value, allowed, titles=()):
+        Draft202012Validator(DEBIASED_CLICK_SCHEMA).validate(value)
+        assessments = value["candidate_assessments"]
+        if set(assessments) != {str(item) for item in allowed}:
+            TwoStageAgent._raise_key_mismatch(
+                "candidate_assessments", assessments, {str(item) for item in allowed},
+                "all candidate item IDs")
+        if not set(value["clicked_item_ids"]).issubset(allowed):
+            raise ValueError("click selected an item outside the permitted set")
+        for item, assessment in assessments.items():
+            TwoStageAgent._validate_debiased_sentence(
+                assessment["evidence"], f"candidate_assessments[{item}].evidence", titles)
+        if any(assessments[str(item)]["interest"] < 3 for item in value["clicked_item_ids"]):
+            raise ValueError("Only candidates with interest >= 3 may be clicked")
+
+    @staticmethod
+    def _validate_debiased_sentence(value, field, titles=()):
+        TwoStageAgent._validate_short_sentence(value, field, titles)
+        if len(value.split()) > 20:
+            raise ValueError(f"{field} must contain at most 20 words")
+
+    @staticmethod
+    def _validate_debiased_conversion(value, clicked, titles=()):
+        Draft202012Validator(DEBIASED_CONVERSION_SCHEMA).validate(value)
+        translated = deepcopy(value)
+        for assessment in translated["motive_assessments"].values():
+            assessment["predicted_rating"] = assessment.pop("watch_likelihood")
+        TwoStageAgent._validate_rating_conversion(translated, clicked, titles)
+        for item, assessment in value["motive_assessments"].items():
+            TwoStageAgent._validate_debiased_sentence(
+                assessment["reason"], f"motive_assessments[{item}].reason", titles)
+        TwoStageAgent._validate_debiased_sentence(value["decision_reason"], "decision_reason", titles)
+
+    def _simulate_debiased(self, profile, candidate, catalog, model, seed):
+        if '"average_rating"' in json.dumps(profile):
+            raise ValueError("Debiased profile must not contain average_rating")
+        if "conformity" in json.dumps(profile.get("social_traits", {})).lower():
+            raise ValueError("Debiased profile must not contain Conformity")
+        order = presentation_order(candidate["item_ids"], model, profile["user_id"], seed)
+        titles = [catalog[item]["title"] for item in order]
+        basic_fields = ("item_id", "title", "release_year", "genres")
+        basic = [{key: catalog[item][key] for key in basic_fields if key in catalog[item]}
+                 for item in order]
+        click_system = self.click_prompt.replace("{history_instruction}", _instruction(profile))
+        click, attempts = self._call("click", click_system,
+            {"stage": "click", "profile": profile, "items": basic, "retry_feedback": None},
+            lambda value: self._validate_debiased_click(value, set(order), titles),
+            "debiased_click_selection", DEBIASED_CLICK_SCHEMA)
+        clicked_set = set(click["clicked_item_ids"])
+        clicked = [item for item in order if item in clicked_set]
+        click["clicked_item_ids"] = clicked
+        click["click_count"] = len(clicked)
+        click["click_motives"] = {str(item): click["candidate_assessments"][str(item)]["evidence"]
+                                  for item in clicked}
+        click["shown_candidate_item_ids"] = order
+        click["shown_clicked_item_ids"] = clicked
+        if not clicked:
+            return {**click, "watch_decision": "not_ready", "converted_item_ids": [],
+                    "motive_assessments": {},
+                    "decision_reason": "No candidate warranted opening its details"}, attempts
+        defaults = {"overview": "unknown", "director": "unknown", "cast": [],
+                    "release_date": "unknown", "language": "unknown", "country": []}
+        details = [{**{key: catalog[item][key] for key in basic_fields if key in catalog[item]},
+                    **{key: catalog[item].get(key, default) for key, default in defaults.items()},
+                    "click_hypothesis": click["click_motives"][str(item)]} for item in clicked]
+        context = (FULL_SLATE_CONTEXT + " Both displayed lists are in random order. "
+                   "Use confirmed when details support the click hypothesis; contradicted only "
+                   "when a revealed fact directly conflicts with it; insufficient when details "
+                   "neither confirm nor directly refute it. Missing extra support or a weaker "
+                   "impression is not a contradiction.")
+        conversion_system = self.conversion_prompt.replace(
+            "{history_instruction}", _instruction(profile)).replace(
+            "{conversion_context_instruction}", context)
+        conversion, more = self._call("conversion", conversion_system,
+            {"stage": "conversion", "profile": profile, "candidate_slate": basic,
+             "clicked_item_ids": clicked, "clicked_items": details, "retry_feedback": None},
+            lambda value: self._validate_debiased_conversion(value, clicked, titles),
+            "debiased_conversion_selection", DEBIASED_CONVERSION_SCHEMA)
+        return {**click, **conversion}, attempts + more
+
+    def simulate(self, profile, candidate, catalog, model=None, seed=42):
+        if self.prompt_version == "behavior-v3-debiased":
+            return self._simulate_debiased(
+                profile, candidate, catalog, model or candidate.get("model"), seed)
         ids = candidate["item_ids"]
         titles = [catalog[item]["title"] for item in ids if "title" in catalog[item]]
         basic_fields = ("item_id", "title", "release_year", "genres")

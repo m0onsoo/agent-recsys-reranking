@@ -81,13 +81,15 @@ def api_key(name):
 class OpenAICompatibleClient:
     def __init__(self, model, base_url, key_env="OPENAI_API_KEY", temperature=0.0,
                  timeout=180, budget=None, max_retries=3, retry_base_delay=1.0,
-                 retry_max_delay=60.0):
+                 retry_max_delay=60.0, stop_on_transport_error=False):
         if max_retries < 0 or retry_base_delay < 0 or retry_max_delay < retry_base_delay:
             raise ValueError("Invalid API retry limits")
         self.max_retries = max_retries
         self.retry_base_delay, self.retry_max_delay = retry_base_delay, retry_max_delay
         self._retry_lock = threading.Lock()
         self._retry_until = 0.0
+        self.stop_on_transport_error = stop_on_transport_error
+        self._transport_stopped = threading.Event()
         self.model, self.temperature, self.timeout = model, temperature, timeout
         self.url = base_url.rstrip("/") + "/chat/completions"
         self.key = api_key(key_env)
@@ -141,6 +143,21 @@ class OpenAICompatibleClient:
     @staticmethod
     def request_body(system, user, schema, name, model, temperature):
         """Build the legacy-compatible Chat Completions request body."""
+        if name in ("debiased_click_selection", "debiased_conversion_selection"):
+            from copy import deepcopy
+            schema = deepcopy(schema)
+            payload = json.loads(user)
+            is_click = name == "debiased_click_selection"
+            ids = ([item["item_id"] for item in payload["items"]] if is_click
+                   else payload["clicked_item_ids"])
+            field = "candidate_assessments" if is_click else "motive_assessments"
+            collection = schema["properties"][field]
+            assessment = collection["additionalProperties"]
+            collection.update(properties={str(item): assessment for item in ids},
+                              required=[str(item) for item in ids], additionalProperties=False)
+            selected = schema["properties"]["clicked_item_ids" if is_click else "converted_item_ids"]
+            selected["items"]["enum"] = ids
+            selected.pop("uniqueItems", None)
         if name == "alignment_click_selection":
             payload = json.loads(user)
             ids = [str(item["item_id"]) for item in payload["items"]]
@@ -217,6 +234,8 @@ class OpenAICompatibleClient:
 
     def respond_json(self, system, user, schema, name="structured_response"):
         self._local.last_call = {}
+        if self._transport_stopped.is_set():
+            raise RuntimeError("Transport safety stop is active; user approval required")
         for attempt in range(self.max_retries + 1):
             self.set_context(transport_retry=attempt)
             while True:
@@ -229,6 +248,12 @@ class OpenAICompatibleClient:
                 return self._respond_once(system, user, schema, name)
             except (APITransportError, URLError, TimeoutError, ConnectionError,
                     socket.timeout, json.JSONDecodeError) as exception:
+                if self.stop_on_transport_error and not isinstance(exception, json.JSONDecodeError):
+                    self._transport_stopped.set()
+                    self._write_transcript({"kind": "safety_stop",
+                        "call_id": self.last_call.get("call_id"),
+                        "reason": "HTTP or transport error; user approval required"})
+                    raise
                 retryable = not isinstance(exception, APITransportError) or exception.status_code in (
                     408, 429, 500, 502, 503, 504)
                 call_id = self.last_call.get("call_id")
@@ -250,6 +275,8 @@ class OpenAICompatibleClient:
     def _respond_once(self, system, user, schema, name):
         estimated = max(1, (len(system) + len(user)) // 4 + 256)
         self.budget.acquire(estimated)
+        if self._transport_stopped.is_set():
+            raise RuntimeError("Transport safety stop is active; user approval required")
         body = self.request_body(system, user, schema, name, self.model, self.temperature)
         call_id = uuid.uuid4().hex
         request_params = {key: value for key, value in body.items()
@@ -322,6 +349,20 @@ class MockClient:
         return getattr(self._local, "last_call", {"usage": {}, "estimated_cost_usd": 0.0})
 
     def respond_json(self, system, user, schema, name="structured_response"):
+        if name == "debiased_click_selection":
+            payload = json.loads(user)
+            ids = [item["item_id"] for item in payload["items"][:2]]
+            return {"candidate_assessments": {str(item["item_id"]): {
+                "interest": 4 if item["item_id"] in ids else 2,
+                "evidence": "The supplied history suggests this degree of personal fit"}
+                for item in payload["items"]}, "clicked_item_ids": ids}
+        if name == "debiased_conversion_selection":
+            ids = json.loads(user)["clicked_item_ids"]
+            return {"watch_decision": "watch" if ids else "not_ready",
+                "converted_item_ids": ids[:1], "motive_assessments": {str(item): {
+                    "outcome": "confirmed", "watch_likelihood": 4,
+                    "reason": "The details fit the supplied history"} for item in ids},
+                "decision_reason": "The personal evidence supports this viewing choice"}
         if name in ("click_selection", "alignment_click_selection"):
             payload = json.loads(user)
             ids = [item["item_id"] for item in payload.get("items", payload.get("candidates", []))[:2]]

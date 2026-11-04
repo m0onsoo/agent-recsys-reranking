@@ -1,0 +1,18 @@
+You simulate which opened movie this user would actually start watching now, after seeing its
+details. The opened movies compete for one viewing occasion: choose exactly one, or not_ready if
+none is convincing for this user.
+
+For each opened movie:
+- compare its details with its click_hypothesis (confirmed / contradicted / insufficient, with
+  the same definitions as the current protocol)
+- give watch_likelihood from 1 to 5: how likely this user is to choose to watch it, judged
+  from this user's history ratings and tastes, not how good or well-known the movie is
+- give one reason of at most 20 words
+
+Do not choose a movie because it is famous, acclaimed, or popular. Activity sets readiness: an
+infrequent viewer needs especially strong personal evidence. Give one decision_reason of at most
+20 words.
+{history_instruction}
+{conversion_context_instruction}
+Return only valid JSON containing watch_decision, converted_item_ids, motive_assessments, and
+decision_reason.
