@@ -3,6 +3,9 @@
 import hashlib
 import json
 import os
+import random
+import re
+import socket
 import threading
 import time
 import uuid
@@ -10,11 +13,20 @@ from datetime import datetime, timezone
 from pathlib import Path
 from collections import deque
 from urllib.error import HTTPError
+from urllib.error import URLError
+from email.utils import parsedate_to_datetime
 from urllib.request import Request, urlopen
 
 
 class BudgetExceeded(RuntimeError):
     pass
+
+
+class APITransportError(RuntimeError):
+    def __init__(self, message, status_code, retry_after=0.0):
+        super().__init__(message)
+        self.status_code = status_code
+        self.retry_after = retry_after
 
 
 class RateBudget:
@@ -31,6 +43,8 @@ class RateBudget:
             raise ValueError(f"One request estimate ({estimated_tokens}) exceeds TPM cap ({self.tpm})")
         while True:
             with self.lock:
+                if self.cost >= self.max_cost:
+                    raise BudgetExceeded(f"Cost limit ${self.max_cost:.2f} reached")
                 now = time.monotonic()
                 while self.events and now - self.events[0][0] >= 60:
                     self.events.popleft()
@@ -45,9 +59,9 @@ class RateBudget:
     def charge(self, prompt_tokens, completion_tokens):
         value = (prompt_tokens * self.input_rate + completion_tokens * self.output_rate) / 1_000_000
         with self.lock:
-            if self.cost + value > self.max_cost:
-                raise BudgetExceeded(f"Cost limit ${self.max_cost:.2f} would be exceeded")
             self.cost += value
+            if self.cost > self.max_cost:
+                raise BudgetExceeded(f"Cost limit ${self.max_cost:.2f} would be exceeded")
         return value
 
 
@@ -66,7 +80,14 @@ def api_key(name):
 
 class OpenAICompatibleClient:
     def __init__(self, model, base_url, key_env="OPENAI_API_KEY", temperature=0.0,
-                 timeout=180, budget=None):
+                 timeout=180, budget=None, max_retries=3, retry_base_delay=1.0,
+                 retry_max_delay=60.0):
+        if max_retries < 0 or retry_base_delay < 0 or retry_max_delay < retry_base_delay:
+            raise ValueError("Invalid API retry limits")
+        self.max_retries = max_retries
+        self.retry_base_delay, self.retry_max_delay = retry_base_delay, retry_max_delay
+        self._retry_lock = threading.Lock()
+        self._retry_until = 0.0
         self.model, self.temperature, self.timeout = model, temperature, timeout
         self.url = base_url.rstrip("/") + "/chat/completions"
         self.key = api_key(key_env)
@@ -179,7 +200,54 @@ class OpenAICompatibleClient:
                              {"role": "user", "content": user}],
                 "response_format": response_format}
 
+    def _safe_error(self, value):
+        value = str(value).replace(self.key, "[REDACTED]")
+        return re.sub(r"https?://[^\s\"'<>]+", "[URL REDACTED]", value)
+
+    @staticmethod
+    def _retry_after(headers):
+        value = headers.get("Retry-After", "") if headers else ""
+        try:
+            return max(0.0, float(value))
+        except ValueError:
+            try:
+                return max(0.0, parsedate_to_datetime(value).timestamp() - time.time())
+            except (ValueError, TypeError, OverflowError):
+                return 0.0
+
     def respond_json(self, system, user, schema, name="structured_response"):
+        self._local.last_call = {}
+        for attempt in range(self.max_retries + 1):
+            self.set_context(transport_retry=attempt)
+            while True:
+                with self._retry_lock:
+                    delay = self._retry_until - time.monotonic()
+                if delay <= 0:
+                    break
+                time.sleep(delay)
+            try:
+                return self._respond_once(system, user, schema, name)
+            except (APITransportError, URLError, TimeoutError, ConnectionError,
+                    socket.timeout, json.JSONDecodeError) as exception:
+                retryable = not isinstance(exception, APITransportError) or exception.status_code in (
+                    408, 429, 500, 502, 503, 504)
+                call_id = self.last_call.get("call_id")
+                if isinstance(exception, json.JSONDecodeError) and call_id:
+                    self.record_validation(call_id, "invalid", "Invalid JSON response")
+                if not retryable or attempt == self.max_retries:
+                    self._write_transcript({"kind": "retry_exhausted", "call_id": call_id,
+                        "attempts": attempt + 1, "error_type": type(exception).__name__,
+                        "retryable": retryable})
+                    raise
+                backoff = min(self.retry_max_delay, self.retry_base_delay * 2 ** attempt)
+                delay = max(getattr(exception, "retry_after", 0.0),
+                            min(self.retry_max_delay, backoff + random.uniform(0, backoff * .25)))
+                with self._retry_lock:
+                    self._retry_until = max(self._retry_until, time.monotonic() + delay)
+                self._write_transcript({"kind": "retry", "call_id": call_id,
+                    "delay_seconds": delay, "error_type": type(exception).__name__})
+
+    def _respond_once(self, system, user, schema, name):
         estimated = max(1, (len(system) + len(user)) // 4 + 256)
         self.budget.acquire(estimated)
         body = self.request_body(system, user, schema, name, self.model, self.temperature)
@@ -200,15 +268,20 @@ class OpenAICompatibleClient:
             except Exception:
                 detail = ""
             self._local.last_call = {"usage": {}, "estimated_cost_usd": 0.0, "call_id": call_id}
+            detail = self._safe_error(detail)
             self._write_transcript({**exchange, "error": f"HTTP {exc.code}: {detail}",
+                                    "http_code": exc.code,
                                     "latency_seconds": round(time.monotonic() - started, 3)},
                                    system)
-            raise RuntimeError(f"API returned HTTP {exc.code}: {detail}") from None
+            raise APITransportError(f"API returned HTTP {exc.code}: {detail}", exc.code,
+                                    self._retry_after(exc.headers)) from None
         except Exception as exc:
             self._local.last_call = {"usage": {}, "estimated_cost_usd": 0.0, "call_id": call_id}
-            self._write_transcript({**exchange, "error": f"{type(exc).__name__}: {str(exc)[:300]}",
+            self._write_transcript({**exchange, "error": f"{type(exc).__name__}: {self._safe_error(exc)[:300]}",
                                     "latency_seconds": round(time.monotonic() - started, 3)},
                                    system)
+            if isinstance(exc, URLError):
+                raise URLError(self._safe_error(exc.reason)) from None
             raise
         usage = result.get("usage", {})
         choice = (result.get("choices") or [{}])[0]
@@ -228,6 +301,8 @@ class OpenAICompatibleClient:
         cost = self.budget.charge(usage.get("prompt_tokens", 0),
                                   usage.get("completion_tokens", 0))
         self._local.last_call = {"usage": usage, "estimated_cost_usd": cost, "call_id": call_id}
+        if not isinstance(content, str):
+            raise json.JSONDecodeError("Missing JSON response content", "", 0)
         return json.loads(content)
 
 

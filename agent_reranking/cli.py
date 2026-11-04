@@ -81,6 +81,12 @@ def main(argv=None):
     profiles.add_argument("--input-cost-per-million", type=float, default=0.15)
     profiles.add_argument("--output-cost-per-million", type=float, default=0.60)
     profiles.add_argument("--output-dir", default="artifacts/profiles")
+    profiles.add_argument("--resume", action="store_true",
+                          help="Reuse verified checkpoints and matching successful API transcripts")
+    profiles.add_argument("--recover-only", action="store_true",
+                          help="With --resume: rebuild checkpoints from transcripts without any API calls")
+    profiles.add_argument("--max-retries", type=int, default=3,
+                          help="Additional attempts for temporary API errors or invalid profile responses")
     _common_profile_flags(profiles)
 
     execute = commands.add_parser("run")
@@ -124,11 +130,12 @@ def main(argv=None):
                             args.input_cost_per_million, args.output_cost_per_million)
         client = (MockClient() if args.client == "mock" or args.persona_file else
                   OpenAICompatibleClient(args.model, args.base_url, args.api_key_env,
-                                         budget=budget))
+                                         budget=budget, max_retries=args.max_retries))
         _print(generate_profiles(DataBundle(args.bundle), client, args.method,
                                  _components(args), args.seed, args.history_size,
                                  args.num_users, args.output_dir, args.concurrency,
-                                 args.persona_file, _user_ids(args.users_file)))
+                                 args.persona_file, _user_ids(args.users_file), resume=args.resume,
+                                 recover_only=args.recover_only))
         return
     if args.command == "merge-runs":
         _print(merge_runs(args.bundle, args.profiles, args.runs, args.output_root))

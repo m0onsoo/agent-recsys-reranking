@@ -4,9 +4,12 @@ import json
 import hashlib
 import math
 import random
+import fcntl
 from collections import defaultdict
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+
+from jsonschema import ValidationError, validate
 
 from .bundle import select_users
 from .io import read_jsonl, sha256_file, stable_hash, write_json, write_jsonl
@@ -15,6 +18,51 @@ from .profile_format import labeled_social_traits, natural_demographics, taste_s
 
 PROFILE_METHODS = ("ours", "agent4rec", "simuser")
 PROFILE_COMPONENTS = ("history", "unique_tastes", "social_traits", "demographics")
+
+
+class _ProfileCacheMiss(Exception):
+    pass
+
+
+class _ProfileClient:
+    def __init__(self, client, exchanges, allow_requests=True):
+        self.client, self.exchanges = client, exchanges
+        self.allow_requests = allow_requests
+        self.replayed_call_ids = []
+
+    def respond_json(self, system, user, schema, name):
+        expected = {"model": getattr(self.client, "model", None),
+                    "temperature": getattr(self.client, "temperature", None)}
+        for exchange in reversed(self.exchanges):
+            if (exchange.get("response_name") != name or exchange.get("user_prompt") != user
+                    or exchange.get("system_prompt_sha256") != hashlib.sha256(system.encode()).hexdigest()
+                    or exchange.get("request_params") != expected or exchange.get("error")):
+                continue
+            try:
+                result = json.loads(exchange["raw_response"])
+                validate(result, schema)
+            except (ValueError, TypeError, KeyError, ValidationError):
+                continue
+            self.replayed_call_ids.append(exchange.get("call_id"))
+            return result
+        if not self.allow_requests:
+            raise _ProfileCacheMiss("No matching successful profile response")
+        for attempt in range(getattr(self.client, "max_retries", 0) + 1):
+            if hasattr(self.client, "set_context"):
+                self.client.set_context(profile_retry=attempt)
+            result = self.client.respond_json(system, user, schema, name)
+            call_id = self.client.last_call.get("call_id")
+            try:
+                validate(result, schema)
+            except ValidationError:
+                if call_id:
+                    self.client.record_validation(call_id, "invalid", "Profile schema validation failed")
+                if attempt == getattr(self.client, "max_retries", 0):
+                    raise
+            else:
+                if call_id:
+                    self.client.record_validation(call_id, "valid")
+                return result
 
 
 def _sample(rows, user_id, seed, limit, namespace):
@@ -175,7 +223,21 @@ def generate_persona(method, bundle, user, client, seed, traits):
 
 def generate_profiles(bundle, client, method="ours", components=("all",), seed=42,
                       history_size=10, num_users=None, output_dir="profiles",
-                      concurrency=20, persona_file=None, selected_user_ids=None):
+                      concurrency=20, persona_file=None, selected_user_ids=None,
+                      resume=False, recover_only=False):
+    root = Path(output_dir).resolve()
+    root.mkdir(parents=True, exist_ok=True)
+    with (root / "profile.lock").open("a") as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        return _generate_profiles(bundle, client, method, components, seed, history_size,
+            num_users, output_dir, concurrency, persona_file, selected_user_ids, resume, recover_only)
+
+
+def _generate_profiles(bundle, client, method, components, seed, history_size,
+                       num_users, output_dir, concurrency, persona_file,
+                       selected_user_ids, resume, recover_only):
+    if recover_only and not resume:
+        raise ValueError("recover_only requires resume=True")
     if method not in PROFILE_METHODS:
         raise ValueError(f"Unknown profile method: {method}")
     enabled = set(PROFILE_COMPONENTS if "all" in components else components)
@@ -190,6 +252,79 @@ def generate_profiles(bundle, client, method="ours", components=("all",), seed=4
             imported[str(row.get("raw_user_id", row["user_id"]))] = row
 
     root = Path(output_dir).resolve()
+    root.mkdir(parents=True, exist_ok=True)
+    checkpoints = root / "checkpoints"
+    configuration = {
+        "method": method, "components": sorted(enabled), "seed": seed,
+        "history_size": history_size, "selected_user_ids_hash": stable_hash(users),
+        "source_hash": stable_hash({user: bundle.histories[user] for user in users}),
+        "traits_hash": stable_hash(traits),
+        "movies_hash": stable_hash({item: bundle.movie(item, detail=True) for item in
+            {row["item_id"] for user in users for row in bundle.histories[user]["train_interactions"]}}),
+        "persona_hash": sha256_file(persona_file) if persona_file else None,
+        "model": getattr(client, "model", None), "temperature": getattr(client, "temperature", None),
+        "endpoint_hash": stable_hash(getattr(client, "url", None)),
+        "prompt_hashes": {path.name: sha256_file(path) for path in
+            (Path(__file__).resolve().parents[1] / "prompts").glob("profile_*.txt")},
+    }
+    configuration_hash = stable_hash(configuration)
+    manifest_path = root / "run_manifest.json"
+    if manifest_path.exists():
+        previous = json.loads(manifest_path.read_text(encoding="utf-8"))
+        if not resume:
+            raise ValueError("Profile output already exists; use resume=True")
+        if previous.get("configuration_hash") != configuration_hash:
+            raise ValueError("Profile resume configuration does not match")
+    elif not resume and (checkpoints.exists() or (root / "transcripts.jsonl").exists()):
+        raise ValueError("Partial profile output exists; use resume=True")
+    pairs = {}
+    cached = defaultdict(list)
+    previous_cost = 0.0
+    transcript_path = root / "transcripts.jsonl"
+    if resume and transcript_path.exists():
+        with transcript_path.open("r+b") as source:
+            while True:
+                position = source.tell()
+                line = source.readline()
+                if not line:
+                    break
+                try:
+                    exchange = json.loads(line)
+                except (ValueError, UnicodeDecodeError):
+                    if not line.endswith(b"\n"):
+                        (root / "transcripts.incomplete").write_bytes(line)
+                        source.truncate(position)
+                        break
+                    raise ValueError("Corrupt profile transcript") from None
+                if not line.endswith(b"\n"):
+                    source.write(b"\n")
+                if exchange.get("kind") == "exchange":
+                    cached[exchange.get("user_id")].append(exchange)
+                    budget = getattr(client, "budget", None)
+                    if budget is not None:
+                        usage = exchange.get("usage", {})
+                        previous_cost += (usage.get("prompt_tokens", 0) * budget.input_rate
+                                          + usage.get("completion_tokens", 0) * budget.output_rate) / 1_000_000
+        budget = getattr(client, "budget", None)
+        if budget is not None:
+            budget.cost = max(budget.cost, previous_cost)
+    for path in sorted(checkpoints.glob("*.json")):
+        saved = json.loads(path.read_text(encoding="utf-8"))
+        user = saved["profile"]["user_id"]
+        if (saved.get("configuration_hash") != configuration_hash or user not in users
+            or saved["manifest"]["user_id"] != user or user in pairs
+            or saved.get("checkpoint_hash") != stable_hash([saved["profile"], saved["manifest"]])):
+            raise ValueError(f"Invalid profile checkpoint: {path.name}")
+        pairs[user] = saved["profile"], saved["manifest"]
+    run_manifest = {"schema_version": 1, "method": method,
+        "components": sorted(enabled), "num_users": len(users), "seed": seed,
+        "selected_user_ids_hash": stable_hash(users), "concurrency": concurrency,
+        "persona_file": str(persona_file or ""),
+        "trait_population_scope": bundle.trait_population_scope or "materialized_panel",
+        "trait_thresholds": thresholds, "configuration": configuration,
+        "configuration_hash": configuration_hash, "status": "running",
+        "completed_users": len(pairs)}
+    write_json(manifest_path, run_manifest)
     if hasattr(client, "transcript_dir"):
         client.transcript_dir = root
 
@@ -229,23 +364,40 @@ def generate_profiles(bundle, client, method="ours", components=("all",), seed=4
             elif persona_file:
                 raise ValueError(f"Imported persona missing raw user {source['raw_user_id']}")
             else:
-                tastes, persona_manifest = generate_persona(method, bundle, user, client, seed, traits)
+                profile_client = _ProfileClient(client, cached[user], allow_requests=not recover_only)
+                tastes, persona_manifest = generate_persona(method, bundle, user,
+                    profile_client, seed, traits)
+                if profile_client.replayed_call_ids:
+                    persona_manifest["recovered_call_ids"] = profile_client.replayed_call_ids
             profile["unique_tastes"] = tastes
             manifest.update(persona_manifest)
+        write_json(checkpoints / f"{user}.json", {"configuration_hash": configuration_hash,
+                   "profile": profile, "manifest": manifest,
+                   "checkpoint_hash": stable_hash([profile, manifest])})
         return profile, manifest
 
+    failures = []
     with ThreadPoolExecutor(max_workers=concurrency) as pool:
-        pairs = list(pool.map(one, users))
-    profiles = [pair[0] for pair in pairs]
-    manifests = [pair[1] for pair in pairs]
-    root = Path(output_dir).resolve()
-    root.mkdir(parents=True, exist_ok=True)
+        futures = {pool.submit(one, user): user for user in users if user not in pairs}
+        for future in as_completed(futures):
+            user = futures[future]
+            try:
+                pairs[user] = future.result()
+            except _ProfileCacheMiss:
+                continue
+            except Exception as exception:
+                failures.append({"user_id": user, "error_type": type(exception).__name__,
+                                 "error": (client._safe_error(exception) if hasattr(client, "_safe_error")
+                                           else str(exception))[:500]})
+                write_jsonl(root / "profile_failures.jsonl", failures)
+    profiles = [pairs[user][0] for user in users if user in pairs]
+    manifests = [pairs[user][1] for user in users if user in pairs]
     write_jsonl(root / "profiles.jsonl", profiles)
     write_jsonl(root / "profile_manifests.jsonl", manifests)
-    write_json(root / "run_manifest.json", {"schema_version": 1, "method": method,
-               "components": sorted(enabled), "num_users": len(users), "seed": seed,
-               "selected_user_ids_hash": stable_hash(users),
-               "concurrency": concurrency, "persona_file": str(persona_file or ""),
-               "trait_population_scope": bundle.trait_population_scope or "materialized_panel",
-               "trait_thresholds": thresholds})
-    return {"output_dir": str(root), "num_users": len(users), "method": method}
+    run_manifest.update(status="partial" if len(pairs) < len(users) else "complete", completed_users=len(pairs))
+    write_json(manifest_path, run_manifest)
+    if failures:
+        raise RuntimeError(f"Profile generation incomplete: {len(pairs)}/{len(users)} saved; "
+                           "resume to retry failed users")
+    return {"output_dir": str(root), "num_users": len(users), "completed_users": len(pairs),
+            "method": method, "recover_only": recover_only}

@@ -316,6 +316,10 @@ class TwoStageAgent:
         if "at most one sentence" in str(feedback):
             rendered += (" Rewrite every motive and note as a single clause with no internal period, "
                          "question mark, or exclamation mark; use at most one such mark at the very end.")
+        if "must be a nonempty string" in str(feedback):
+            rendered += (" Every evidence, reason, motive, and note must be a nonempty sentence. "
+                         "This includes candidates labeled none: for those, briefly state why the "
+                         "supplied evidence does not show a personal fit.")
         if "at most 20 words" in str(feedback):
             rendered += (" Rewrite every motive and decision_note using no more than 15 "
                          "space-separated words. Count the words before returning the complete JSON.")

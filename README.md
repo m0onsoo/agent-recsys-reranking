@@ -103,6 +103,25 @@ For a reproducible random pilot, create a fixed CSV and pass the same file to bo
 file overrides `--num-users` and prevents the profile and reranking stages from
 silently using different users.
 
+Each completed user is saved atomically under `checkpoints/`. To continue an
+interrupted profile job, repeat its command with the same output directory and
+add `--resume`. Recovery rejects changed generation inputs, prompts, model, or
+temperature. Worker concurrency may change without regenerating saved users.
+Matching successful transcripts from older jobs can also be recovered; add
+`--resume --recover-only` to rebuild checkpoints without making API calls.
+
+API clients retry temporary HTTP 408/429/500/502/503/504 errors, connection errors,
+timeouts, and invalid JSON up to three additional times. Retries use exponential
+backoff with jitter, honor `Retry-After`, and share a cooldown between workers.
+Profile schema failures also have bounded retries. `generate-profiles --max-retries`
+sets the additional-attempt limit; authentication errors and budget stops are not
+retried. Every attempt remains in the API transcript and paid responses count
+toward the budget. Reranking retains its existing `run --resume RUN_DIR` behavior.
+
+The local 1,000-user experiment controller uses `--concurrency 16` for shared
+profile generation and all four reranking conditions; RPM, TPM, and cost caps are
+unchanged. Historical artifacts retain their original execution settings.
+
 Methods:
 
 - `ours` (default): the current controlled pipeline. Taste extraction uses the
