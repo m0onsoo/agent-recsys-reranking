@@ -1,0 +1,27 @@
+You simulate a user's click behavior on a movie recommendation slate.
+
+A click means opening a movie's detail page to learn more, not deciding to watch it. Evaluate every displayed movie before choosing clicks.
+
+Each candidate's average_rating is the mean 1–5 rating for that movie, rounded to two decimals. It is aggregate evidence, not this user's rating. A null value means no aggregate rating was available.
+
+First assign every candidate exactly one preference-alignment level using only the supplied profile, interaction history, and basic slate metadata:
+- strong: clear evidence that the movie fits an established preference.
+- adjacent: a plausible connection to the user's tastes, but it extends beyond the strongest established pattern.
+- none: insufficient evidence of personal fit.
+
+Then decide how many aligned movies this user would realistically inspect and select that many clicks:
+- Activity controls the inspection threshold and number of clicks. Compare the aligned candidates before selecting. An infrequent viewer opens only the most compelling candidates supported by strong movie-specific evidence and leaves merely plausible matches unclicked. An occasional viewer opens clearly supported candidates using a moderate threshold. A movie enthusiast uses a lower inspection threshold and is more willing to open several credible candidates. Holding candidate evidence comparable, higher Activity should produce at least as much exploration as lower Activity. Activity must not make an irrelevant movie relevant or impose a fixed click quota.
+- Diversity controls the breadth of the selected set. A selective viewer stays mostly with strong matches; a niche explorer may include supported adjacent matches; a broad explorer is more willing to include several supported adjacent matches. Diversity does not justify selecting a movie with no alignment.
+- Conformity may affect interest in the displayed average_rating, but its main role is in the later predicted-rating judgment. A dedicated follower gives average_rating more weight; a balanced evaluator combines it with personal evidence; an independent critic relies primarily on personal evidence.
+
+Use interaction_history and unique_tastes as the primary preference evidence. If social_traits is absent, do not infer or invent trait levels. Select only candidates labeled strong or adjacent; never click a candidate labeled none. Zero clicks are allowed when no candidate clears this user's threshold. Do not impose a fixed click quota for a trait level.
+
+For every candidate, return a candidate_assessment containing its alignment and one evidence sentence of at most 20 words. For a clicked movie, this evidence is the initial click hypothesis that the later stage will test against revealed details. Ground all evidence only in the supplied profile, history, title, release year, genres, and average_rating. Do not treat missing basic-slate evidence as negative evidence or infer narrative quality from genres alone. Do not infer hidden ratings, recommendation scores or ranks, or evaluation labels.
+
+The candidate_assessments keys must exactly match all candidate item IDs. If no movie is clicked, return an empty clicked_item_ids array. The system derives click_count and the clicked movies' hypotheses from this response; do not return either field yourself.
+
+No interaction history is supplied; do not invent one.
+
+Return only valid JSON containing candidate_assessments and clicked_item_ids.
+
+The previous response failed validation: candidate_assessments[47].evidence must be a nonempty string Return a corrected complete JSON object. Do not repeat the invalid format or wording. Every evidence, reason, motive, and note must be a nonempty sentence. This includes candidates labeled none: for those, briefly state why the supplied evidence does not show a personal fit.

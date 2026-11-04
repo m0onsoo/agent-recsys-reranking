@@ -22,6 +22,8 @@ def main():
     for condition in controller.CONDITIONS:
         arguments = controller.run_arguments(condition, Path("synthetic_profiles"))
         assert arguments[arguments.index("--concurrency") + 1] == "16"
+        assert arguments[arguments.index("--requests-per-minute") + 1] == "300"
+        assert arguments[arguments.index("--tokens-per-minute") + 1] == "1000000"
     with tempfile.TemporaryDirectory(prefix="command_selftest_", dir=controller.ROOT) as temporary, \
          patch.object(controller, "ROOT", Path(temporary)), \
          patch.object(controller, "paid_step", return_value=0) as paid, \
@@ -30,6 +32,31 @@ def main():
         arguments = paid.call_args.args[1]
         assert arguments[arguments.index("--concurrency") + 1] == "16"
         assert "--resume" in arguments and arguments[arguments.index("--max-retries") + 1] == "3"
+    for existing in (False, True):
+        with tempfile.TemporaryDirectory(prefix="bounded_resume_test_", dir=controller.ROOT) as temporary:
+            root = Path(temporary)
+            run = root / "synthetic_run"
+            run.mkdir()
+            (run / "config.yaml").write_text("concurrency: 16\nrequests_per_minute: 300\ntokens_per_minute: 1000000\n")
+            (run / "actions.jsonl").write_text("")
+            errors = [{"model": model, "user_id": 1, "error": "empty evidence"} for model in controller.MODELS]
+            (run / "failures.jsonl").write_text("".join(json.dumps(row) + "\n" for row in errors))
+            manifest = {"status": "partial", "completed_cases": 0, "failure_count": 3}
+            if existing:
+                (run / "run_manifest.json").write_text(json.dumps(manifest))
+                (root / "execution_events.jsonl").write_text(json.dumps({"step": "no_demographics", "state": "end", "exit_code": 0}) + "\n")
+            def locate(condition):
+                return run if (run / "run_manifest.json").exists() else None
+            def attempt(*arguments):
+                (run / "run_manifest.json").write_text(json.dumps(manifest))
+                return 0
+            with patch.object(controller, "ROOT", root), patch.object(controller, "latest_run", side_effect=locate), \
+                 patch.object(controller, "paid_step", side_effect=attempt) as paid, \
+                 patch.object(controller, "verify_run", return_value=manifest), patch.object(controller, "event"):
+                assert controller.run_condition("no_demographics", root, [1]) == run
+                assert paid.call_count == (3 if existing else 4)
+                missing = json.loads((root / "unrecovered_cases_no_demographics.json").read_text())
+                assert len(missing) == 3 and all(row["last_error"] == "empty evidence" for row in missing)
     with tempfile.TemporaryDirectory(prefix="selftest_", dir=controller.ROOT) as temporary:
         root = Path(temporary)
         (root / "prompts").mkdir()

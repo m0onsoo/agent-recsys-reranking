@@ -36,6 +36,10 @@ PROFILE_FILES = ("profiles.jsonl", "profile_manifests.jsonl", "run_manifest.json
 LEDGER = ROOT / "request_costs.jsonl"
 STOP_FILE = ROOT / "STOP_REQUEST.json"
 CONCURRENCY = 16
+REQUESTS_PER_MINUTE = 300
+TOKENS_PER_MINUTE = 1_000_000
+MAX_RESUME_PASSES = 3
+REPORT_INTERVAL = 1800
 
 
 def code_version_path():
@@ -216,7 +220,7 @@ def wait_for_proxy():
             started = True
         if time.monotonic() >= next_report:
             event("wait_for_shared_proxy", "waiting", other_jobs=jobs)
-            next_report = time.monotonic() + 900
+            next_report = time.monotonic() + REPORT_INTERVAL
         select.select([], [], [], 5)
 
 
@@ -318,7 +322,7 @@ def paid_step(step, arguments, attempt, condition=None):
                 if time.monotonic() >= next_report:
                     event(step, "progress", **{key: value for key, value in progress.items()
                           if key not in ("utc", "step")})
-                    next_report = time.monotonic() + 900
+                    next_report = time.monotonic() + REPORT_INTERVAL
                 try:
                     child.wait(timeout=1)
                 except subprocess.TimeoutExpired:
@@ -435,8 +439,8 @@ def get_profiles(base_url, users):
         arguments = ["-m", "agent_reranking.cli", "generate-profiles", "--bundle", BUNDLE,
                      "--users-file", PANEL, "--method", "ours", "--model", "gpt-4o-mini",
                      "--base-url", base_url, "--profile-components", "all", "--history-size", "10",
-                     "--seed", "42", "--concurrency", str(CONCURRENCY), "--requests-per-minute", "500",
-                     "--tokens-per-minute", "3000000", "--max-cost-usd", "25", "--max-retries", "3",
+                     "--seed", "42", "--concurrency", str(CONCURRENCY), "--requests-per-minute", str(REQUESTS_PER_MINUTE),
+                     "--tokens-per-minute", str(TOKENS_PER_MINUTE), "--max-cost-usd", "25", "--max-retries", "3",
                      "--output-dir", str(path), "--resume"]
         return_code = paid_step("profiles", arguments, attempt)
         if return_code == 0:
@@ -454,8 +458,18 @@ def run_arguments(condition, profiles):
             "--bundle", BUNDLE, "--users-file", PANEL, "--profiles", str(profiles / "profiles.jsonl"),
             "--llm-model", "gpt-4o-mini", "--prompt-version", "behavior-align-rating-social-traits",
             "--profile-components", CONDITIONS[condition], "--profile-protocol", "separated",
-            "--concurrency", str(CONCURRENCY), "--requests-per-minute", "500", "--tokens-per-minute", "3000000",
+            "--concurrency", str(CONCURRENCY), "--requests-per-minute", str(REQUESTS_PER_MINUTE), "--tokens-per-minute", str(TOKENS_PER_MINUTE),
             "--max-cost-usd", "25", "--output-root", str(ROOT / "n1000_align_rating" / condition / "runs")]
+
+
+def missing_cases(root, users):
+    expected = {(model, user) for model in MODELS for user in users}
+    completed = {(row["model"], int(row["user_id"])) for row in json_rows(root / "actions.jsonl")}
+    errors = {(row["model"], int(row["user_id"])): row.get("error", "")
+              for row in json_rows(root / "failures.jsonl")}
+    return [{"model": model, "user_id": user,
+             "last_error": errors.get((model, user), "No completed action was recorded")}
+            for model, user in sorted(expected - completed)]
 
 
 def verify_run(condition, root, users):
@@ -465,18 +479,24 @@ def verify_run(condition, root, users):
     actions = json_rows(root / "actions.jsonl")
     expected = {(model, user) for model in MODELS for user in users}
     pairs = {(row["model"], int(row["user_id"])) for row in actions}
-    if manifest["status"] != "complete" or manifest["completed_cases"] != 3000 or len(actions) != 3000 or pairs != expected:
-        raise RuntimeError(f"Run is not complete with 3000 unique cases: {condition}")
+    missing = missing_cases(root, users)
+    documented_path = ROOT / f"unrecovered_cases_{condition}.json"
+    documented = json.loads(documented_path.read_text()) if documented_path.exists() else []
+    expected_status = "partial" if missing else "complete"
+    if (manifest["status"] != expected_status or manifest["completed_cases"] != len(pairs)
+            or len(actions) != len(pairs) or not pairs <= expected or missing != documented):
+        raise RuntimeError(f"Run coverage or documented missing cases mismatch: {condition}")
     failures = json_rows(root / "failures.jsonl")
-    if any((row["model"], int(row["user_id"])) not in pairs for row in failures):
+    documented_pairs = {(row["model"], int(row["user_id"])) for row in documented}
+    if any((row["model"], int(row["user_id"])) not in pairs | documented_pairs for row in failures):
         raise RuntimeError(f"Unrecovered historical failure: {condition}")
     rankings = json_rows(root / "rankings.jsonl")
-    if len(rankings) != 3000 or {(row["model"], int(row["user_id"])) for row in rankings} != expected:
+    if len(rankings) != len(pairs) or {(row["model"], int(row["user_id"])) for row in rankings} != pairs:
         raise RuntimeError(f"Ranking coverage mismatch: {condition}")
     config = yaml.safe_load((root / "config.yaml").read_text())
     checks = {"llm_model": "gpt-4o-mini", "temperature": 0.0, "profile_protocol": "separated",
               "prompt_version": "behavior-align-rating-social-traits", "concurrency": CONCURRENCY,
-              "requests_per_minute": 500, "tokens_per_minute": 3000000, "max_cost_usd": 25,
+              "requests_per_minute": REQUESTS_PER_MINUTE, "tokens_per_minute": TOKENS_PER_MINUTE, "max_cost_usd": 25,
               "num_users": 1000, "seed": 42, "history_size": 10, "candidate_size": 20,
               "top_k": 10, "num_shards": 1, "shard_index": 0}
     for field, value in checks.items():
@@ -493,7 +513,8 @@ def verify_run(condition, root, users):
     for model in MODELS:
         for stage in stages:
             selected = [row for row in metric_rows if row["model"] == model and row["stage"] == stage]
-            if len(selected) != 1000 or {int(row["user_id"]) for row in selected} != set(users):
+            completed_users = {user for case_model, user in pairs if case_model == model}
+            if len(selected) != len(completed_users) or {int(row["user_id"]) for row in selected} != completed_users:
                 raise RuntimeError(f"Per-user metrics coverage mismatch: {condition} {model} {stage}")
     if abs(sum(row.get("estimated_cost_usd", 0) for row in json_rows(root / "calls.jsonl")) - manifest["estimated_cost_usd"]) > 1e-9:
         raise RuntimeError(f"Manifest recorded cost mismatch: {condition}")
@@ -502,20 +523,79 @@ def verify_run(condition, root, users):
     return manifest
 
 
+def migrate_rate_limits(condition, root):
+    path = root / "config.yaml"
+    stored = yaml.safe_load(path.read_text())
+    updated = dict(stored, concurrency=CONCURRENCY, requests_per_minute=REQUESTS_PER_MINUTE,
+                   tokens_per_minute=TOKENS_PER_MINUTE)
+    if stored != updated:
+        archive = root / "config_pre_retryfix.yaml"
+        if archive.exists():
+            raise RuntimeError("Refusing to overwrite original rate configuration")
+        archive.write_bytes(path.read_bytes())
+        archive.chmod(0o600)
+        path.write_text(yaml.safe_dump(updated, sort_keys=True))
+        path.chmod(0o600)
+        event(condition, "rate_limits_migrated", concurrency=CONCURRENCY,
+              requests_per_minute=REQUESTS_PER_MINUTE, tokens_per_minute=TOKENS_PER_MINUTE,
+              original_configuration=archive.name)
+
+
 def run_condition(condition, profiles, users):
     arguments = run_arguments(condition, profiles)
     attempt = len(list(ROOT.glob(f"{condition}_attempt*.stdout.log"))) + 1
+    initial_root = latest_run(condition)
+    original_missing = missing_cases(initial_root, users) if initial_root else []
+    transcript_start = 0
+    previous_validation_errors = set()
+    if condition == "full" and initial_root:
+        transcript_path = initial_root / "transcripts.jsonl"
+        transcript_start = transcript_path.stat().st_size
+        previous_validation_errors = {re.sub(r"\[\d+\]", "[item]", row.get("error", ""))
+            for row in json_rows(transcript_path) if row.get("kind") == "validation" and row.get("status") == "invalid"}
+    if initial_root:
+        migrate_rate_limits(condition, initial_root)
+    successful_passes = sum(row.get("step") == condition and row.get("state") == "end"
+                            and row.get("exit_code") == 0 for row in json_rows(ROOT / "execution_events.jsonl"))
+    if initial_root and successful_passes == 0:
+        successful_passes = 1
+    starting_failures = len(json_rows(initial_root / "failures.jsonl")) if initial_root else 0
     while True:
         root = latest_run(condition)
         if root and (root / "run_manifest.json").exists():
             manifest = json.loads((root / "run_manifest.json").read_text())
-            if manifest["status"] == "complete":
+            missing = missing_cases(root, users)
+            documented_path = ROOT / f"unrecovered_cases_{condition}.json"
+            if not missing or successful_passes >= 1 + MAX_RESUME_PASSES:
+                save_json(documented_path, missing)
+                if missing:
+                                        event(condition, "resume_limit_reached", missing_cases=missing,
+                                                    max_resume_passes=MAX_RESUME_PASSES)
                 verified = verify_run(condition, root, users)
-                event(condition, "verified", run_dir=str(root), completed_cases=3000,
+                event(condition, "verified", run_dir=str(root), completed_cases=verified["completed_cases"],
+                                            missing_cases=len(missing),
                       recovered_failure_rows=verified["failure_count"], recorded_cost_usd=step_cost(condition))
+                if condition == "full" and original_missing:
+                    pending = {(row["model"], row["user_id"]) for row in missing}
+                    recovered = sum((row["model"], row["user_id"]) not in pending for row in original_missing)
+                    report = {"original_failed_cases": len(original_missing), "recovered": recovered,
+                              "still_missing": len(missing), "new_failure_rows":
+                              len(json_rows(root / "failures.jsonl")) - starting_failures}
+                    with (root / "transcripts.jsonl").open() as source:
+                        source.seek(transcript_start)
+                        appended = [json.loads(line) for line in source if line.strip()]
+                    invalid = [row for row in appended if row.get("kind") == "validation" and row.get("status") == "invalid"]
+                    errors = sorted({re.sub(r"\[\d+\]", "[item]", row.get("error", "")) for row in invalid})
+                    report.update(new_invalid_validations=len(invalid), validation_error_types=errors,
+                                  novel_validation_error_types=sorted(set(errors) - previous_validation_errors))
+                    save_json(ROOT / "full_recovery_report.json", report)
+                    event("full_recovery", "reported", **report)
                 return root
         current = arguments + (["--resume", str(root.resolve())] if root else [])
-        paid_step(condition, current, attempt, condition)
+        return_code = paid_step(condition, current, attempt, condition)
+        if return_code:
+            raise RuntimeError(f"Unexpected runner exit for {condition}: {return_code}; artifacts retained")
+        successful_passes += 1
         attempt += 1
 
 
@@ -530,7 +610,7 @@ def write_run_info(profile_root=None, runs=None, final_state=None):
              f"Git status after: `{(final_state or {}).get('git_status', 'execution in progress')}`",
              "LLM alias: gpt-4o-mini", f"Base URL host only: {preflight.get('base_url_host', 'not recorded')}",
              "Temperature: 0.0; seed: 42; protocol: separated.",
-             f"Current concurrency: {CONCURRENCY}; requests/minute: 500; tokens/minute: 3000000.",
+             f"Current concurrency: {CONCURRENCY}; requests/minute: {REQUESTS_PER_MINUTE}; tokens/minute: {TOKENS_PER_MINUTE}.",
              "Initial interrupted profile attempt used concurrency 32; user authorized 16 for all subsequent steps.",
              f"Execution first timestamp (UTC): {events[0]['utc'] if events else now()}",
              f"Latest timestamp (UTC): {events[-1]['utc'] if events else now()}",
@@ -550,6 +630,14 @@ def write_run_info(profile_root=None, runs=None, final_state=None):
                   "No shards were created or merged. User-authorized checkpoint/retry changes are uncommitted and fingerprinted in code_version_resume_before.json.",
                   "Unit tests use conda datasets (user-approved); see tests_resume_retry.log. Paid steps use the unchanged project .venv.",
                   "Start/end timestamps for every attempt are recorded in timeline.md."])
+    lines.extend(["", "## Documented Missing Cases", "",
+                  "At most three completed resume passes after the first pass; interrupted passes do not consume the allowance."])
+    for condition in CONDITIONS:
+        path = ROOT / f"unrecovered_cases_{condition}.json"
+        if path.exists():
+            missing = json.loads(path.read_text())
+            lines.append(f"- {condition}: {len(missing)} missing cases; see {path.name}.")
+            lines.extend(f"  - {row['model']} user {row['user_id']}: {row['last_error']}" for row in missing)
     lines.extend(["", "## Transcript verification", "",
                   "| Step | Exchanges | Invalid validations | HTTP/transport errors | At most one sentence errors | Extras keys | Transcript bytes | Response models |",
                   "|---|---:|---:|---:|---:|---|---:|---|"])
@@ -561,7 +649,66 @@ def write_run_info(profile_root=None, runs=None, final_state=None):
     (ROOT / "run_info.md").write_text("\n".join(lines) + "\n")
 
 
-def execute_all(base_url, users):
+def finalize_source_commit():
+    if subprocess.check_output(["git", "branch", "--show-current"], cwd=REPO, text=True).strip() != "jinyi/transcripts-validator-fix":
+        raise RuntimeError("Refusing to commit on an unexpected branch")
+    files = ["agent_reranking/agent.py", "agent_reranking/client.py", "agent_reranking/profiles.py",
+             "agent_reranking/cli.py", "README.md", "tests/test_resume_retry.py"]
+    staged = subprocess.check_output(["git", "diff", "--cached", "--name-only"], cwd=REPO, text=True).splitlines()
+    if set(staged) - set(files):
+        raise RuntimeError("Unrelated staged files exist; source commit postponed")
+    subprocess.run(["git", "add", "--", *files], cwd=REPO, check=True)
+    if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=REPO).returncode:
+        subprocess.run(["git", "-c", "user.name=Jinyi Ye", "-c", "user.email=jinyiy@usc.edu", "commit",
+                        "-m", "Add profile resume and API retries; fix empty-evidence retry prompts"], cwd=REPO, check=True)
+    committed = git_state()
+    save_json(ROOT / "code_version_post_commit.json", committed)
+    event("source_commit", "complete", commit=committed["commit"], pushed=False)
+    recovery = json.loads((ROOT / "full_recovery_report.json").read_text())
+    counts = {condition: len(json.loads((ROOT / f"unrecovered_cases_{condition}.json").read_text()))
+              for condition in CONDITIONS}
+    readme = ROOT.parent / "README.md"
+    text = readme.read_text()
+    heading = "## Notes / things to be aware of"
+    before, marker, remainder = text.partition(heading)
+    if not marker:
+        raise RuntimeError("Result README Notes heading is missing")
+    notes, separator, after_notes = remainder.partition("\n## ")
+    notes = re.sub(r"\n- \*\*21 cases are missing\*\*.*?(?=\n- \*\*|\Z)", "", notes, flags=re.S)
+    notes = re.sub(r"\n- \*\*Code differs from the handoff commit\.\*\*.*?(?=\n- \*\*|\Z)", "", notes, flags=re.S)
+    current_notes = (
+        f"\n\n- **最终恢复结果：**原 full 的 21 个失败案例恢复 {recovery['recovered']} 个；"
+        f"新增失败记录 {recovery['new_failure_rows']} 条。\n"
+        "- **重试提示修复：**仅在验证错误含 must be a nonempty string 时补充非空 evidence 指令，首次请求不变。\n"
+        f"- **最终缺失案例：**{'; '.join(f'{condition}={count}' for condition, count in counts.items())}。"
+        "每个条件最多三次完成的恢复轮次；缺失清单见 n1000_v2/unrecovered_cases_*.json。\n"
+        f"- **源码提交：**{committed['commit']}，分支 jinyi/transcripts-validator-fix；只在本地提交，未 push。\n"
+        "- **指标版本：**本页上方 full 表格保留了首次 2,979 案例分析快照；最终四条件指标见 n1000_v2/summary_table.md 与 analysis.md。\n")
+    from agent_reranking.io import atomic_text
+    atomic_text(readme, before + marker + current_notes + notes + separator + after_notes)
+    with (ROOT / "run_info.md").open("a") as handle:
+        handle.write(f"\nSource changes committed after verification: {committed['commit']} (local only; not pushed).\n")
+    save_json(ROOT / "finalization.json", {"source_commit": committed["commit"], "pushed": False,
+              "full_recovery": recovery, "missing_cases": counts, "completed_at_utc": now()})
+
+
+def write_final_checksums(profiles, runs):
+    hashes = verify_profiles(profiles, json.loads((ROOT / "bundle_verification.json").read_text())["users"])
+    for path in runs.values():
+        hashes.update({str(path / name): digest(path / name) for name in ARTIFACTS})
+        hashes.update({str(file): digest(file) for file in transcript_artifacts(path)})
+    report_files = ["run_info.md", "summary_table.md", "analysis.md", "bootstrap_results.json",
+                    "full_recovery_report.json", "verified_runs.json", "finalization.json",
+                    "code_version_after.json", "code_version_post_commit.json"]
+    report_files.extend(f"unrecovered_cases_{condition}.json" for condition in CONDITIONS)
+    for name in report_files:
+        hashes[str(ROOT / name)] = digest(ROOT / name)
+    hashes[str(ROOT.parent / "README.md")] = digest(ROOT.parent / "README.md")
+    (ROOT / "SHA256SUMS.txt").write_text("".join(
+        f"{checksum}  {os.path.relpath(path, ROOT)}\n" for path, checksum in sorted(hashes.items())))
+
+
+def execute_all(base_url, users, through_full=False):
     if STOP_FILE.exists():
         raise RuntimeError("Safety stop is active; user approval required")
     wait_for_proxy()
@@ -570,11 +717,15 @@ def execute_all(base_url, users):
     for condition in CONDITIONS:
         runs[condition] = run_condition(condition, profiles, users)
         write_run_info(profiles, runs)
+        if through_full:
+            return
     verify_profiles(profiles, users)
     for condition, path in runs.items():
         verify_run(condition, path, users)
     save_json(ROOT / "verified_runs.json", {"profiles": str(profiles), "runs": {key: str(path) for key, path in runs.items()},
-              "verified_at_utc": now(), "total_recorded_cost_usd": total_cost()})
+              "verified_at_utc": now(), "total_recorded_cost_usd": total_cost(),
+              "missing_cases": {condition: json.loads((ROOT / f"unrecovered_cases_{condition}.json").read_text())
+                                for condition in CONDITIONS}})
     event("analysis", "start")
     from build_reports import build_reports
     build_reports(ROOT, profiles, runs, users)
@@ -588,13 +739,19 @@ def execute_all(base_url, users):
     save_json(ROOT / "code_version_after.json", after)
     if after != json.loads(code_version_path().read_text()):
         raise RuntimeError("Repository commit or status changed")
-    event("experiment", "complete", completed_cases=12000, total_recorded_cost_usd=total_cost())
+        completed_count = sum(len(json_rows(path / "actions.jsonl")) for path in runs.values())
+        event("experiment", "complete", completed_cases=completed_count,
+            missing_cases=12000 - completed_count, total_recorded_cost_usd=total_cost())
     write_run_info(profiles, runs, after)
+    finalize_source_commit()
+    write_final_checksums(profiles, runs)
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--prepare-only", action="store_true")
+    parser.add_argument("--through-full", action="store_true",
+                        help="Recover and verify full first, then exit without finalizing the other conditions")
     parser.add_argument("--record-code-update", action="store_true",
                         help="Offline only: fingerprint the user-authorized checkpoint/retry changes")
     args = parser.parse_args()
@@ -618,10 +775,11 @@ def main():
         if args.prepare_only:
             return
         try:
-            execute_all(base_url, users)
+            execute_all(base_url, users, through_full=args.through_full)
         finally:
             after = git_state()
-            save_json(ROOT / "code_version_after.json", after)
+            if not (ROOT / "code_version_post_commit.json").exists():
+                save_json(ROOT / "code_version_after.json", after)
             if not (ROOT / "verified_runs.json").exists():
                 write_run_info(final_state=after)
 

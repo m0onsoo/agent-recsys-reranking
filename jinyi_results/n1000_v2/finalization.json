@@ -1,0 +1,22 @@
+{
+  "completed_at_utc": "2026-11-04T08:40:19.967806+00:00",
+  "full_recovery": {
+    "new_failure_rows": 0,
+    "new_invalid_validations": 4,
+    "novel_validation_error_types": [],
+    "original_failed_cases": 21,
+    "recovered": 21,
+    "still_missing": 0,
+    "validation_error_types": [
+      "candidate_assessments[item].evidence must be a nonempty string"
+    ]
+  },
+  "missing_cases": {
+    "full": 0,
+    "no_demographics": 0,
+    "no_interaction_history": 0,
+    "no_persona": 0
+  },
+  "pushed": false,
+  "source_commit": "f217db11163a04dd9e615d6b7ed2e5da2ed3150e"
+}

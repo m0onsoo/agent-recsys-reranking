@@ -1,0 +1,11 @@
+2026-11-04T05:30:44.772012+00:00 validate_bundle: start {}
+2026-11-04T05:30:45.176179+00:00 validate_bundle: end {"exit_code": 0, "recorded_cost_usd": 0.0}
+2026-11-04T05:30:45.187873+00:00 baselines_check: start {}
+2026-11-04T05:30:45.530049+00:00 baselines_check: end {"exit_code": 0, "recorded_cost_usd": 0.0}
+2026-11-04T05:30:45.814783+00:00 preflight: verified {"line_counts": {"candidates.jsonl": 3000, "evaluation_labels.jsonl": 1000, "train_interactions.jsonl": 1000, "users.csv": 1001}, "other_jobs": []}
+2026-11-04T05:30:46.598996+00:00 full: rate_limits_migrated {"concurrency": 16, "original_configuration": "config_pre_retryfix.yaml", "requests_per_minute": 300, "tokens_per_minute": 1000000}
+2026-11-04T05:30:46.899110+00:00 full: start {"attempt": 3}
+2026-11-04T05:30:47.165356+00:00 full: progress {"completed_cases": 2979, "conditions": {"full": {"completed_cases": 2979, "failure_rows": 21, "recorded_cost_usd": 5.8582583999999995}, "no_demographics": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_interaction_history": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_persona": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}}, "failure_rows": 21, "run_dir": "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/n1000_align_rating/full/runs/20261103_193255_9637d5eded", "step_recorded_cost_usd": 5.8582583999999995, "total_recorded_cost_usd": 6.1865991}
+2026-11-04T05:31:30.958219+00:00 full: end {"attempt": 3, "exit_code": 0, "recorded_cost_usd": 5.9023968, "total_recorded_cost_usd": 6.2307375}
+2026-11-04T05:31:31.970424+00:00 full: verified {"completed_cases": 3000, "missing_cases": 0, "recorded_cost_usd": 5.9023968, "recovered_failure_rows": 21, "run_dir": "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/n1000_align_rating/full/runs/20261103_193255_9637d5eded"}
+2026-11-04T05:31:31.974910+00:00 full_recovery: reported {"new_failure_rows": 0, "new_invalid_validations": 4, "novel_validation_error_types": [], "original_failed_cases": 21, "recovered": 21, "still_missing": 0, "validation_error_types": ["candidate_assessments[item].evidence must be a nonempty string"]}

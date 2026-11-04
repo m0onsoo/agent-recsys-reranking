@@ -60,23 +60,31 @@ def build_reports(root, profile_root, runs, users):
     profiles = {int(row["user_id"]): row for row in rows(profile_root / "profiles.jsonl")}
     bundle = DataBundle(root.parent.parent / "agent-recsys-reranking/data/derived/ml1m_ro_n1000_seed42")
     baseline_check = json.loads((root / "baselines_check.json").read_text())["models"]
-    table = ["# 1,000-User Experiment Summary", "",
-             "All four conditions verified complete: 3,000 unique model-user cases each.",
+    missing_by_condition = {condition: json.loads((root / f"unrecovered_cases_{condition}.json").read_text())
+                            for condition in runs}
+    coverage = ["| Condition | Expected | Completed | Missing |", "|---|---:|---:|---:|"]
+    for condition, missing in missing_by_condition.items():
+        coverage.append(f"| {condition} | 3000 | {3000 - len(missing)} | {len(missing)} |")
+    table = ["# 1,000 用户实验汇总", "",
+             "四个条件均已完成有界恢复与验收；最终缺失案例有单独清单，不以零分填补。",
+             *coverage, "",
              "Changes are absolute differences against the same model's sampled backbone baseline.",
-             "Failures counts historical failure rows; all have subsequently recovered.",
+             "Failures 是历史失败记录数，可能包含已恢复的案例；最终缺失数见上表。",
              "Recorded cost is model-specific calls.jsonl cost, repeated across stages (do not sum stage rows).",
              "See run_info.md for the more complete all-request ledger and profile costs.", "",
              "| Condition | Model | Stage | Cases | Failures | Recorded cost | Recall@10 | NDCG@10 | Recall change | NDCG change |",
              "|---|---|---|---:|---:|---:|---:|---:|---:|---:|"]
-    analysis = ["# Descriptive Analysis", "",
-                "These are descriptive results, not final conclusions. All four conditions were verified complete before analysis.",
+    analysis = ["# 描述性分析", "",
+                "以下为描述性结果；分析在四条件有界恢复和验收结束后进行。",
+                *coverage, "",
                 "The panel is fixed and conditioned on at least one held-out positive in every backbone's Top-20.",
                 "Relevance is every held-out interaction, regardless of rating; findings do not generalize to all MovieLens users.",
                 "Costs are estimates, not verified proxy bills. Check actual billing on the dashboard.", "",
                 "## Paired User-Clustered Bootstrap", "",
-                "95% percentile intervals; 2,000 resamples of the 1,000 user clusters, seed 42.",
+                "95% percentile intervals; 2,000 resamples of completed user clusters, seed 42.",
                 "Each sampled user contributes both baseline and reranked metrics; changes are absolute, not relative.",
-                "The same cluster draws are reused for every stage, metric, model, and condition; no multiplicity adjustment.",
+                "Same cluster draws are reused within each condition/model across stages and metrics; no multiplicity adjustment.",
+                "若存在缺失，各条件/模型的完成用户集合可能不同，跨条件比较不再完全配对；缺失用户不填补。",
                 "The sampled_baseline delta and interval are identically zero.", "",
                 "| Condition | Model | Stage | Metric | Change | 95% CI lower | 95% CI upper |",
                 "|---|---|---|---|---:|---:|---:|"]
@@ -88,6 +96,7 @@ def build_reports(root, profile_root, runs, users):
     diversity = defaultdict(lambda: {"clicked": 0, "adjacent": 0, "fractions": []})
     conformity = defaultdict(list)
     metric_cache = {}
+    case_counts = {}
     for condition, run_root in runs.items():
         metrics = csv_rows(run_root / "per_user_metrics.csv")
         metric_cache[condition] = metrics
@@ -98,28 +107,34 @@ def build_reports(root, profile_root, runs, users):
             model_costs[call["model"]] += call.get("estimated_cost_usd", 0.0)
         for model in MODELS:
             lookup = {(row["stage"], int(row["user_id"])): row for row in metrics if row["model"] == model}
+            completed_users = [user for user in users if ("sampled_baseline", user) in lookup]
+            case_counts[(condition, model)] = len(completed_users)
+            if not completed_users:
+                for stage in STAGES:
+                    table.append(f"| {condition} | {model} | {stage} | 0 | {failed_counts[model]} | ${model_costs[model]:.6f} | N/A | N/A | N/A | N/A |")
+                continue
             columns = {}
             for stage in STAGES:
                 aggregate = summary[(model, stage)]
-                averages = {metric: sum(float(lookup[(stage, user)][metric]) for user in users) / len(users)
+                averages = {metric: sum(float(lookup[(stage, user)][metric]) for user in completed_users) / len(completed_users)
                             for metric in METRICS}
-                baseline_averages = {metric: sum(float(lookup[("sampled_baseline", user)][metric]) for user in users) / len(users)
+                baseline_averages = {metric: sum(float(lookup[("sampled_baseline", user)][metric]) for user in completed_users) / len(completed_users)
                                      for metric in METRICS}
                 for metric in METRICS:
-                    if abs(baseline_averages[metric] - baseline_check[model][metric]) > 1e-10:
+                    if len(completed_users) == 1000 and abs(baseline_averages[metric] - baseline_check[model][metric]) > 1e-10:
                         raise ValueError(f"Sampled backbone baseline mismatch: {condition} {model} {metric}")
                     if abs(averages[metric] - float(aggregate[metric])) > 1e-10:
                         raise ValueError("Summary and per-user metrics mismatch")
                     columns[(stage, metric)] = [float(lookup[(stage, user)][metric]) -
-                                               float(lookup[("sampled_baseline", user)][metric]) for user in users]
-                table.append(f"| {condition} | {model} | {stage} | {len(users)} | {failed_counts[model]} | "
+                                               float(lookup[("sampled_baseline", user)][metric]) for user in completed_users]
+                table.append(f"| {condition} | {model} | {stage} | {len(completed_users)} | {failed_counts[model]} | "
                              f"${model_costs[model]:.6f} | {averages['recall@10']:.7f} | {averages['ndcg@10']:.7f} | "
                              f"{averages['recall@10'] - baseline_averages['recall@10']:+.7f} | "
                              f"{averages['ndcg@10'] - baseline_averages['ndcg@10']:+.7f} |")
-            confidence = bootstrap_changes(columns, len(users), resamples=2000)
+            confidence = bootstrap_changes(columns, len(completed_users), resamples=2000)
             for (stage, metric), result in confidence.items():
                 confidence_rows.append({"condition": condition, "model": model, "stage": stage,
-                                        "metric": metric, **result, "users": len(users), "resamples": 2000})
+                                        "metric": metric, **result, "users": len(completed_users), "resamples": 2000})
                 analysis.append(f"| {condition} | {model} | {stage} | {metric} | {result['change']:+.7f} | "
                                 f"{result['ci_lower']:+.7f} | {result['ci_upper']:+.7f} |")
         for row in rows(run_root / "actions.jsonl"):
@@ -174,12 +189,13 @@ def build_reports(root, profile_root, runs, users):
         counts = outcomes[key]
         total = sum(counts.values())
         watch = watch_counts[key]
-        if sum(watch.values()) != len(users):
+        denominator = case_counts[key]
+        if sum(watch.values()) != denominator:
             raise ValueError("Watch count denominator mismatch")
         percentages = [f"{counts[name]} ({100 * counts[name] / total:.2f}%)" if total else "0 (N/A)"
                        for name in ("confirmed", "contradicted", "insufficient")]
         analysis.append(f"| {key[0]} | {key[1]} | {' | '.join(percentages)} | {total} | {watch['watch']} | "
-                        f"{watch['not_ready']} | {100 * watch['watch'] / len(users):.2f}% |")
+                        f"{watch['not_ready']} | {100 * watch['watch'] / denominator:.2f}% |")
     analysis.extend(["", "## Adjacent Clicks by Diversity", "",
                      "Pooled fraction weights clicked items; mean case fraction excludes zero-click cases.", "",
                      "| Condition | Model | Diversity | Clicked items | Adjacent items | Pooled adjacent fraction | Mean case fraction |",
@@ -200,5 +216,11 @@ def build_reports(root, profile_root, runs, users):
         analysis.append(f"| {key[0]} | {key[1]} | {key[2]} | {count} | {sum(first for first, _ in pairs) / count:.6f} | "
                         f"{sum(second for _, second in pairs) / count:.6f} | "
                         f"{sum(abs(first - second) for first, second in pairs) / count:.6f} | {correlation} |")
+    for document in (table, analysis):
+        document.extend(["", "## 最终缺失案例", ""])
+        for condition, missing in missing_by_condition.items():
+            document.append(f"- {condition}: {len(missing)} 个；清单 unrecovered_cases_{condition}.json。")
+            document.extend(f"  - {row['model']} user {row['user_id']}: {row['last_error']}" for row in missing)
+    (root / "summary_table.md").write_text("\n".join(table) + "\n")
     (root / "analysis.md").write_text("\n".join(analysis) + "\n")
     (root / "bootstrap_results.json").write_text(json.dumps(confidence_rows, indent=2, sort_keys=True) + "\n")
