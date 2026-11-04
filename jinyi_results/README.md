@@ -163,6 +163,11 @@ LLMs. gpt-5-mini used `reasoning_effort=low` and temperature 1 (it rejects 0).
 
 ## Interpretation (short)
 
+See [`BIAS_AUDIT.md`](BIAS_AUDIT.md) for the bias analysis, including Moonsoo's two hypotheses
+(rating exposure, positive definition). With rating ≥ 4 as positives, pooled ΔNDCG@10 for
+click + conversion turns from −0.0035 to +0.0031 (CI includes 0).
+
+
 - **No real gain at 1,000 users.** With click + conversion, MF improves slightly (+0.4% to +1.5%
   NDCG, not significant), LightGCN and MultiVAE drop slightly (−1.5% to −2.5%). The +4–7% NDCG in
   the 50-user proposal slides does not replicate; the 30/50-user runs here swung both ways
@@ -230,11 +235,13 @@ LLMs. gpt-5-mini used `reasoning_effort=low` and temperature 1 (it rejects 0).
 ```
 jinyi_results/
 ├── README.md                     this file
+├── BIAS_AUDIT.md                 audit of the rating/popularity bias and its likely causes
 ├── n1000_v2/                     1,000-user handoff run (complete)
 │   ├── profiles/ours_all_n1000/  1,000 profiles + transcripts + prompts
 │   ├── n1000_align_rating/<condition>/runs/<run_id>/   actions, rankings, metrics, transcripts
 │   ├── summary_table.md, analysis.md   controller-generated tables and bootstrap CIs
 │   ├── analysis_full/            extra diagnostics for `full` (analyze_full.py, report_full.md)
+│   ├── analysis_bias/            bias checks: positives ≥3/≥4, position bias (bias_eval.py)
 │   ├── SHA256SUMS.txt, run_info.md, timeline.md, execution_events.jsonl
 │   └── execute_experiment.py     Codex controller (resume, safety stops, reports)
 ├── n50/                          50-user gpt-4o-mini vs gpt-5-mini comparison (report_zh.md, CSVs)
