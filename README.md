@@ -120,8 +120,9 @@ held-out interaction in its Top-20; they are not full-population estimates.
 
 ## Profile generation
 
+Set `OPENAI_API_KEY` in your local environment before running paid profile generation.
+
 ```bash
-cp .env.example .env                 # then set OPENAI_API_KEY
 agent-reranking generate-profiles \
   --bundle data/derived/ml1m_ro_n1000_seed42 \
   --method ours \
@@ -331,11 +332,13 @@ agent-reranking run --llm-provider mock --num-users 2 --case-limit 3 \
 ```
 
 Do not commit `.env`, API keys, generated API profiles, caches, raw API transcripts,
-or run directories. The single fixed 1,000-user input bundle is intentionally
-versioned so a private clone is sufficient for experiments; any replacement bundle
-must be validated and reviewed before commit. See `docs/REPOSITORY_DATA_POLICY.md`.
+or run directories. On branch `jinyi`, the fixed 1,000-user input bundle is kept
+locally and excluded from the published tree; materialize it before experiments.
+See `docs/REPOSITORY_DATA_POLICY.md` for the upstream data policy.
 Commit panel and registry changes, prompts, code, tests, and compact aggregate metric
 tables. Record the commit SHA and bundle ID with every shared result.
+
+Jinyi's experiment reports and aggregate summaries: [jinyi_results/README.md](jinyi_results/README.md).
 
 For 50-user reproduction on the original maintainer machine, see
 `scripts/reproduce_50user.sh`. It imports the existing personas, removes demographics,

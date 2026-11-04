@@ -1,0 +1,81 @@
+{
+  "accuracy_metrics_computed": false,
+  "behavior": {
+    "click_count_histogram": {
+      "10": 62,
+      "11": 22,
+      "12": 22,
+      "13": 12,
+      "14": 17,
+      "15": 21,
+      "16": 11,
+      "17": 10,
+      "18": 12,
+      "19": 8,
+      "20": 10,
+      "3": 2,
+      "4": 3,
+      "5": 11,
+      "6": 12,
+      "7": 26,
+      "8": 16,
+      "9": 23
+    },
+    "clicks_by_activity": {
+      "1": {
+        "cases": 159,
+        "mean_clicks": 11.062893081761006
+      },
+      "2": {
+        "cases": 114,
+        "mean_clicks": 12.026315789473685
+      },
+      "3": {
+        "cases": 27,
+        "mean_clicks": 10.407407407407407
+      }
+    },
+    "interest_counts": {
+      "1": 362,
+      "2": 631,
+      "3": 967,
+      "4": 2122,
+      "5": 1918
+    },
+    "mean_clicks_per_slate": 11.37,
+    "not_ready_rate": 0.0,
+    "outcomes": {
+      "confirmed": 2261,
+      "contradicted": 39,
+      "insufficient": 1111
+    },
+    "watch_decisions": {
+      "watch": 300
+    }
+  },
+  "bias": {
+    "reference": {
+      "cases": 300,
+      "conversions": 286,
+      "mean_aggregate_rating": 4.259825174825175,
+      "mean_train_popularity": 309.2097902097902,
+      "rated_conversions": 286,
+      "slate_top_rated_share": 0.44405594405594406,
+      "top_rated_ties": "A conversion tied for the maximum counts as top-rated"
+    },
+    "v3": {
+      "cases": 300,
+      "conversions": 300,
+      "mean_aggregate_rating": 3.8414333333333333,
+      "mean_train_popularity": 220.67666666666668,
+      "rated_conversions": 300,
+      "slate_top_rated_share": 0.06666666666666667,
+      "top_rated_ties": "A conversion tied for the maximum counts as top-rated"
+    }
+  },
+  "completed_cases": 300,
+  "created_at_utc": "2026-11-04T18:50:24.039095+00:00",
+  "expected_cases": 300,
+  "failure_rate": 0.0,
+  "missing_cases": []
+}
