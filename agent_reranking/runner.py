@@ -88,9 +88,12 @@ def run(config, bundle_path, profiles_path, resume=None, case_limit=None):
     if case_limit is not None:
         keys = keys[:case_limit]
     client = _client(config)
+    client.transcript_dir = root
     agent = TwoStageAgent(client, config["retry_count"], config["prompt_version"])
 
     def one(model, user):
+        if hasattr(client, "set_context"):
+            client.set_context(reset=True, model=model, user_id=user)
         candidate = bundle.candidates[(model, user)]
         profile = _profile_payload(profiles[user], config["profile_components"],
                                    config["profile_protocol"])

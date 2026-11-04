@@ -189,7 +189,13 @@ def generate_profiles(bundle, client, method="ours", components=("all",), seed=4
         for row in read_jsonl(persona_file):
             imported[str(row.get("raw_user_id", row["user_id"]))] = row
 
+    root = Path(output_dir).resolve()
+    if hasattr(client, "transcript_dir"):
+        client.transcript_dir = root
+
     def one(user):
+        if hasattr(client, "set_context"):
+            client.set_context(reset=True, user_id=user, stage="profile")
         source = bundle.histories[user]
         rows = source["train_interactions"]
         profile = {"user_id": user, "raw_user_id": source["raw_user_id"]}

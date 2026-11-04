@@ -1,9 +1,13 @@
 """OpenAI-compatible JSON client with rate and cost circuit breakers."""
 
+import hashlib
 import json
 import os
 import threading
 import time
+import uuid
+from datetime import datetime, timezone
+from pathlib import Path
 from collections import deque
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
@@ -68,10 +72,50 @@ class OpenAICompatibleClient:
         self.key = api_key(key_env)
         self.budget = budget or RateBudget()
         self._local = threading.local()
+        # Transcript logging: when transcript_dir is set, every API exchange (including
+        # failed validations and HTTP errors) is appended to transcript_dir/transcripts.jsonl
+        # and each distinct system prompt is stored once under transcript_dir/prompts/.
+        self.transcript_dir = None
+        self._transcript_lock = threading.Lock()
+        self._saved_prompts = set()
 
     @property
     def last_call(self):
         return getattr(self._local, "last_call", {})
+
+    def set_context(self, reset=False, **values):
+        context = {} if reset else dict(getattr(self._local, "context", {}))
+        context.update(values)
+        self._local.context = context
+
+    def _write_transcript(self, row, system=None):
+        if self.transcript_dir is None:
+            return
+        root = Path(self.transcript_dir)
+        root.mkdir(parents=True, exist_ok=True)
+        record = {"utc": datetime.now(timezone.utc).isoformat(),
+                  **getattr(self._local, "context", {})}
+        with self._transcript_lock:
+            if system is not None:
+                digest = hashlib.sha256(system.encode("utf-8")).hexdigest()
+                record["system_prompt_sha256"] = digest
+                if digest not in self._saved_prompts:
+                    prompts = root / "prompts"
+                    prompts.mkdir(parents=True, exist_ok=True)
+                    target = prompts / f"{digest}.txt"
+                    if not target.exists():
+                        target.write_text(system, encoding="utf-8")
+                    self._saved_prompts.add(digest)
+            record.update(row)
+            with (root / "transcripts.jsonl").open("a", encoding="utf-8") as handle:
+                handle.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+    def record_validation(self, call_id, status, error=None):
+        """Append the validation verdict for a previously logged exchange."""
+        row = {"kind": "validation", "call_id": call_id, "status": status}
+        if error:
+            row["error"] = error
+        self._write_transcript(row)
 
     @staticmethod
     def request_body(system, user, schema, name, model, temperature):
@@ -139,23 +183,64 @@ class OpenAICompatibleClient:
         estimated = max(1, (len(system) + len(user)) // 4 + 256)
         self.budget.acquire(estimated)
         body = self.request_body(system, user, schema, name, self.model, self.temperature)
+        call_id = uuid.uuid4().hex
+        request_params = {key: value for key, value in body.items()
+                          if key not in ("messages", "response_format")}
+        exchange = {"kind": "exchange", "call_id": call_id, "response_name": name,
+                    "request_params": request_params, "user_prompt": user}
         request = Request(self.url, data=json.dumps(body).encode(), headers={
             "Authorization": "Bearer " + self.key, "Content-Type": "application/json"})
+        started = time.monotonic()
         try:
             with urlopen(request, timeout=self.timeout) as response:
                 result = json.load(response)
         except HTTPError as exc:
-            raise RuntimeError(f"API returned HTTP {exc.code}") from None
+            try:
+                detail = exc.read().decode("utf-8", "replace")[:300]
+            except Exception:
+                detail = ""
+            self._local.last_call = {"usage": {}, "estimated_cost_usd": 0.0, "call_id": call_id}
+            self._write_transcript({**exchange, "error": f"HTTP {exc.code}: {detail}",
+                                    "latency_seconds": round(time.monotonic() - started, 3)},
+                                   system)
+            raise RuntimeError(f"API returned HTTP {exc.code}: {detail}") from None
+        except Exception as exc:
+            self._local.last_call = {"usage": {}, "estimated_cost_usd": 0.0, "call_id": call_id}
+            self._write_transcript({**exchange, "error": f"{type(exc).__name__}: {str(exc)[:300]}",
+                                    "latency_seconds": round(time.monotonic() - started, 3)},
+                                   system)
+            raise
         usage = result.get("usage", {})
+        choice = (result.get("choices") or [{}])[0]
+        message = choice.get("message") or {}
+        content = message.get("content")
+        # Keep any non-content message fields the provider returns (e.g. reasoning_content,
+        # reasoning summaries, refusal) so reasoning traces are retained when available.
+        extras = {key: value for key, value in message.items()
+                  if key not in ("role", "content") and value not in (None, "", [], {})}
+        self._local.last_call = {"usage": usage, "estimated_cost_usd": 0.0, "call_id": call_id}
+        self._write_transcript({
+            **exchange, "response_id": result.get("id"), "response_model": result.get("model"),
+            "system_fingerprint": result.get("system_fingerprint"),
+            "finish_reason": choice.get("finish_reason"), "usage": usage,
+            "raw_response": content, "message_extras": extras,
+            "latency_seconds": round(time.monotonic() - started, 3)}, system)
         cost = self.budget.charge(usage.get("prompt_tokens", 0),
                                   usage.get("completion_tokens", 0))
-        self._local.last_call = {"usage": usage, "estimated_cost_usd": cost}
-        return json.loads(result["choices"][0]["message"]["content"])
+        self._local.last_call = {"usage": usage, "estimated_cost_usd": cost, "call_id": call_id}
+        return json.loads(content)
 
 
 class MockClient:
     def __init__(self):
         self._local = threading.local()
+        self.transcript_dir = None
+
+    def set_context(self, reset=False, **values):
+        return None
+
+    def record_validation(self, call_id, status, error=None):
+        return None
 
     @property
     def last_call(self):

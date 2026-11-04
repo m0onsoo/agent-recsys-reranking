@@ -71,6 +71,34 @@ RATING_CONVERSION_SCHEMA = {
 }
 
 
+_ARTICLES = ("The", "A", "An", "Les", "La", "Le", "L'", "Il", "Das", "Der", "Die", "El")
+
+
+def _title_variants(title):
+    """Surface forms a model may use when quoting a MovieLens title."""
+    variants = {title}
+    base = re.sub(r"\s*\([^)]*\)\s*$", "", title).strip()
+    variants.add(base)
+    for inner in re.findall(r"\(([^)]*)\)", title):
+        variants.add(re.sub(r"^(?:a\.k\.a\.|aka)\s+", "", inner.strip(), flags=re.I))
+    for value in list(variants):
+        match = re.match(r"^(.*), (" + "|".join(re.escape(a) for a in _ARTICLES) + r")$", value)
+        if match:
+            joiner = "" if match.group(2).endswith("'") else " "
+            variants.add(f"{match.group(2)}{joiner}{match.group(1)}")
+    return sorted((value for value in variants if value), key=len, reverse=True)
+
+
+def _mask_titles(text, titles):
+    """Replace quoted movie titles with a placeholder so their punctuation (?, !, ...)
+    and length do not count as sentence boundaries or extra words."""
+    for title in titles:
+        for variant in _title_variants(title):
+            if re.search(r"[.!?]|\s", variant):
+                text = re.sub(re.escape(variant), "TITLE", text, flags=re.IGNORECASE)
+    return text
+
+
 def _instruction(profile):
     if "interaction_history" in profile:
         return "Treat interaction_history as an unordered sample; do not infer recency from array position."
@@ -182,7 +210,7 @@ class TwoStageAgent:
         return {"converted_item_ids": ids, "motive_assessments": assessments}
 
     @staticmethod
-    def _validate_click(value, allowed):
+    def _validate_click(value, allowed, titles=()):
         Draft202012Validator(MOTIVE_CLICK_SCHEMA).validate(value)
         ids = value["clicked_item_ids"]
         motives = value["click_motives"]
@@ -192,10 +220,10 @@ class TwoStageAgent:
             TwoStageAgent._raise_key_mismatch(
                 "click_motives", motives, {str(item) for item in ids}, "clicked_item_ids")
         for item, motive in motives.items():
-            TwoStageAgent._validate_short_sentence(motive, f"click_motives[{item}]")
+            TwoStageAgent._validate_short_sentence(motive, f"click_motives[{item}]", titles)
 
     @staticmethod
-    def _validate_conversion(value, clicked):
+    def _validate_conversion(value, clicked, titles=()):
         Draft202012Validator(MOTIVE_CONVERSION_SCHEMA).validate(value)
         ids = value["converted_item_ids"]
         assessments = value["motive_assessments"]
@@ -207,10 +235,11 @@ class TwoStageAgent:
                 "all clicked_item_ids")
         for item, assessment in assessments.items():
             TwoStageAgent._validate_short_sentence(
-                assessment.get("decision_note"), f"motive_assessments[{item}].decision_note")
+                assessment.get("decision_note"), f"motive_assessments[{item}].decision_note",
+                titles)
 
     @staticmethod
-    def _validate_align_click(value, allowed):
+    def _validate_align_click(value, allowed, titles=()):
         Draft202012Validator(ALIGN_CLICK_SCHEMA).validate(value)
         ids = value["clicked_item_ids"]
         assessments = value["candidate_assessments"]
@@ -222,13 +251,13 @@ class TwoStageAgent:
             raise ValueError("click selected an item outside the permitted set")
         for item, assessment in assessments.items():
             TwoStageAgent._validate_short_sentence(
-                assessment["evidence"], f"candidate_assessments[{item}].evidence")
+                assessment["evidence"], f"candidate_assessments[{item}].evidence", titles)
         for item in ids:
             if assessments[str(item)]["alignment"] == "none":
                 raise ValueError("an item with alignment=none cannot be clicked")
 
     @staticmethod
-    def _validate_rating_conversion(value, clicked):
+    def _validate_rating_conversion(value, clicked, titles=()):
         Draft202012Validator(RATING_CONVERSION_SCHEMA).validate(value)
         ids = value["converted_item_ids"]
         assessments = value["motive_assessments"]
@@ -245,8 +274,9 @@ class TwoStageAgent:
             raise ValueError("watch_decision=not_ready requires an empty converted_item_ids")
         for item, assessment in assessments.items():
             TwoStageAgent._validate_short_sentence(
-                assessment["reason"], f"motive_assessments[{item}].reason")
-        TwoStageAgent._validate_short_sentence(value["decision_reason"], "decision_reason")
+                assessment["reason"], f"motive_assessments[{item}].reason", titles)
+        TwoStageAgent._validate_short_sentence(value["decision_reason"], "decision_reason",
+                                               titles)
 
     @staticmethod
     def _raise_key_mismatch(field, values, expected, target):
@@ -261,13 +291,14 @@ class TwoStageAgent:
         )
 
     @staticmethod
-    def _validate_short_sentence(value, field):
+    def _validate_short_sentence(value, field, titles=()):
         if not isinstance(value, str) or not value.strip():
             raise ValueError(f"{field} must be a nonempty string")
-        if len(value.split()) > 20:
+        masked = _mask_titles(value.strip(), titles)
+        if len(masked.split()) > 20:
             raise ValueError(f"{field} must contain at most 20 words")
         boundary_text = re.sub(r"(?:\b[A-Za-z]\.){2,}",
-                               lambda match: match.group(0).replace(".", ""), value.strip())
+                               lambda match: match.group(0).replace(".", ""), masked)
         boundary_text = re.sub(
             r"\b(?:Mr|Mrs|Ms|Dr|Prof|Sr|Jr|St|vs)\.",
             lambda match: match.group(0).replace(".", ""),
@@ -290,6 +321,12 @@ class TwoStageAgent:
                          "space-separated words. Count the words before returning the complete JSON.")
         return rendered
 
+    def _record_validation(self, status, error=None):
+        record = getattr(self.client, "record_validation", None)
+        call_id = self.client.last_call.get("call_id")
+        if record and call_id:
+            record(call_id, status, error)
+
     def _call(self, stage, system, payload, validator, response_name=None):
         feedback = None
         attempts = []
@@ -297,6 +334,9 @@ class TwoStageAgent:
             sent = dict(payload)
             if feedback:
                 sent["retry_feedback"] = feedback
+            set_context = getattr(self.client, "set_context", None)
+            if set_context:
+                set_context(stage=stage, retry=retry)
             try:
                 rendered_system = self._retry_system(system, feedback) if feedback else system
                 value = self.client.respond_json(
@@ -305,10 +345,12 @@ class TwoStageAgent:
                 validator(value)
                 attempts.append({"stage": stage, "retry": retry, **self.client.last_call,
                                  "status": "valid"})
+                self._record_validation("valid")
                 return value, attempts
             except (KeyError, TypeError, ValueError, ValidationError) as exc:
                 attempts.append({"stage": stage, "retry": retry, **self.client.last_call,
                                  "status": "invalid", "error": str(exc)[:200]})
+                self._record_validation("invalid", str(exc)[:500])
                 if retry == self.retries:
                     raise
                 feedback = str(exc)
@@ -316,6 +358,7 @@ class TwoStageAgent:
 
     def simulate(self, profile, candidate, catalog):
         ids = candidate["item_ids"]
+        titles = [catalog[item]["title"] for item in ids if "title" in catalog[item]]
         basic_fields = ("item_id", "title", "release_year", "genres")
         if self.exposes_average_rating:
             basic_fields += ("average_rating",)
@@ -330,7 +373,7 @@ class TwoStageAgent:
         click, attempts = self._call("click", click_system,
             {"stage": "click", "profile": profile, "items": basic,
              "retry_feedback": None},
-            lambda value: click_validator(value, set(ids)), click_response_name)
+            lambda value: click_validator(value, set(ids), titles), click_response_name)
         clicked = click["clicked_item_ids"]
         if self.uses_align_rating_protocol:
             # This is a deterministic property of the selection, not an LLM judgment.
@@ -380,5 +423,5 @@ class TwoStageAgent:
             conversion_payload.pop("click_motives")
         conversion, more = self._call("conversion", conversion_system,
             conversion_payload,
-            lambda value: conversion_validator(value, clicked), conversion_response_name)
+            lambda value: conversion_validator(value, clicked, titles), conversion_response_name)
         return {**click, **conversion}, attempts + more

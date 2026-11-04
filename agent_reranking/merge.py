@@ -1,5 +1,6 @@
 """Merge disjoint shard action artifacts and recompute global metrics."""
 
+import shutil
 from pathlib import Path
 
 import yaml
@@ -48,6 +49,19 @@ def merge_runs(bundle_path, profiles_path, run_dirs, output_root=None):
         append_jsonl(merged / "calls.jsonl", row)
     for row in failures:
         append_jsonl(merged / "failures.jsonl", row)
+    # Carry over full API transcripts and the stored system prompts from every shard.
+    for root in roots:
+        source = root / "transcripts.jsonl"
+        if source.exists():
+            with source.open(encoding="utf-8") as reader, \
+                    (merged / "transcripts.jsonl").open("a", encoding="utf-8") as writer:
+                shutil.copyfileobj(reader, writer)
+        if (root / "prompts").is_dir():
+            (merged / "prompts").mkdir(exist_ok=True)
+            for prompt in (root / "prompts").glob("*.txt"):
+                target = merged / "prompts" / prompt.name
+                if not target.exists():
+                    shutil.copyfile(prompt, target)
     result = run(config, bundle_path, profiles_path, resume=merged, case_limit=0)
     result.update({"source_runs": [str(root) for root in roots],
                    "merged_action_count": len(actions)})
