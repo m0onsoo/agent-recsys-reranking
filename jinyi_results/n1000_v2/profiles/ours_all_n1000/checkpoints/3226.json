@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "28e7aef4120cf8003c34e740dfc7b0e6bcd09cb4b3f22e402346dc6cbb56b841",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      165,
+      1543,
+      1489,
+      216,
+      133,
+      157,
+      1196,
+      45,
+      1524,
+      662
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8e2ca08388e44aacb9f0c65d1868342d"
+    ],
+    "sampled_item_ids": [
+      85,
+      125,
+      165,
+      185,
+      200,
+      373,
+      374,
+      534,
+      548,
+      624,
+      647,
+      662,
+      666,
+      720,
+      830,
+      1271,
+      1293,
+      1489,
+      1613,
+      1619,
+      1642,
+      1918,
+      2029,
+      2483,
+      2613
+    ],
+    "seed": 42,
+    "source_hash": "b606be21d7439f2e6c2c56569028c2da5a8f1e17776c045175fcb89fafe6d293",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3226,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Helen Hunt",
+          "Greg Kinnear",
+          "Cuba Gooding Jr."
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "New York City. Melvin Udall, a cranky, bigoted, obsessive-compulsive writer, finds his life turned upside down when neighboring gay artist Simon is hospitalized and his dog is entrusted to Melvin. In addition, Carol, the only waitress who will tolerate him, must leave work to care for her sick son, making it impossible for Melvin to eat breakfast.",
+        "release_date": "1997-12-19",
+        "release_year": "1997",
+        "title": "As Good As It Gets"
+      },
+      {
+        "cast": [
+          "David Arkin",
+          "Barbara Baxley",
+          "Ned Beatty",
+          "Karen Black"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Altman",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "This movie tells the intersecting stories of various people connected to the music business in Nashville. Barbara Jean is the reigning queen of Nashville but is near collapse. Linnea and Delbert Reese have a shaky marriage and 2 deaf children. Opal is a British journalist touring the area. These and other stories come together in a dramatic climax.",
+        "release_date": "1975-06-11",
+        "release_year": "1975",
+        "title": "Nashville"
+      },
+      {
+        "cast": [
+          "Timothy Spall",
+          "Brenda Blethyn",
+          "Marianne Jean-Baptiste",
+          "Phyllis Logan"
+        ],
+        "country": [
+          "United Kingdom",
+          "France"
+        ],
+        "director": "Mike Leigh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A middle-aged London factory worker is shocked when the mixed-race daughter she gave up at birth decides to track her down. At first she denies she is her mother. All family members become emotional, as everyone's secrets are exposed.",
+        "release_date": "1996-05-24",
+        "release_year": "1996",
+        "title": "Secrets & Lies"
+      },
+      {
+        "cast": [
+          "Eli Wallach",
+          "Clint Eastwood",
+          "Lee Van Cleef",
+          "Aldo Giuffrè"
+        ],
+        "country": [
+          "United States of America",
+          "Italy",
+          "Spain",
+          "Germany"
+        ],
+        "director": "Sergio Leone",
+        "genres": [
+          "Action",
+          "Western"
+        ],
+        "language": "Italian",
+        "overview": "While the Civil War rages between the Union and the Confederacy, three men – a quiet loner, a ruthless hit man and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
+        "release_date": "1966-12-23",
+        "release_year": "1966",
+        "title": "Good, The Bad and The Ugly, The"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Geena Davis",
+          "Harvey Keitel",
+          "Brad Pitt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Whilst on a short weekend getaway, Louise shoots a man who had tried to rape Thelma. Due to the incriminating circumstances, they make a run for it and thus a cross country chase ensues for the two fugitives. Along the way, both women rediscover the strength of their friendship and surprising aspects of their personalities and self-strengths in the trying times.",
+        "release_date": "1991-05-24",
+        "release_year": "1991",
+        "title": "Thelma & Louise"
+      },
+      {
+        "cast": [
+          "Marilyn Monroe",
+          "Tony Curtis",
+          "Jack Lemmon",
+          "George Raft"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Two musicians witness a mob hit and struggle to find a way out of the city before they are found by the gangsters. Their only opportunity is to join an all-girl band as they leave on a tour. To make their getaway they must first disguise themselves as women, then keep their identities secret and deal with the problems this brings - such as an attractive bandmate and a very determined suitor.",
+        "release_date": "1959-03-18",
+        "release_year": "1959",
+        "title": "Some Like It Hot"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Itzhak Perlman",
+          "Quincy Jones",
+          "Bette Midler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Algar",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Blending lively music and brilliant animation, this sequel to the original 'Fantasia' restores 'The Sorcerer's Apprentice' and adds seven new shorts.",
+        "release_date": "1999-12-17",
+        "release_year": "1999",
+        "title": "Fantasia 2000"
+      },
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      }
+    ],
+    "raw_user_id": "3226",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 100
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7067998027725543
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily Action without strong character or narrative elements."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend Comedy and Drama.",
+        "Frequent enjoyment of films with strong character arcs and emotional depth.",
+        "Preference for films that include elements of Adventure alongside other genres."
+      ],
+      "summary": "Unique tastes: Strong preference for Comedy (Multiple high ratings for comedies across various sub-genres.); Appreciation for Drama (Consistent high ratings for dramatic films, indicating a strong connection to emotional storytelling.); Interest in Action and Adventure (High ratings for action and adventure films suggest enjoyment of thrilling narratives.); Enjoyment of Romantic elements (Several high-rated films incorporate romance, indicating a liking for romantic storylines.); Affinity for Character-driven narratives (High ratings for films that focus on character development and complex relationships.). Liked patterns: High ratings for films that blend Comedy and Drama., Frequent enjoyment of films with strong character arcs and emotional depth., Preference for films that include elements of Adventure alongside other genres.. Disliked patterns: Dislike for films that are primarily Action without strong character or narrative elements..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for comedies across various sub-genres.",
+          "taste": "Strong preference for Comedy"
+        },
+        {
+          "reason": "Consistent high ratings for dramatic films, indicating a strong connection to emotional storytelling.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "High ratings for action and adventure films suggest enjoyment of thrilling narratives.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "Several high-rated films incorporate romance, indicating a liking for romantic storylines.",
+          "taste": "Enjoyment of Romantic elements"
+        },
+        {
+          "reason": "High ratings for films that focus on character development and complex relationships.",
+          "taste": "Affinity for Character-driven narratives"
+        }
+      ]
+    },
+    "user_id": 3226
+  }
+}

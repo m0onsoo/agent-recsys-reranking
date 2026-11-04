@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "0b8c241999ada840ed9bd12ab142cb0a98857b13eb09d5daaea159b607c34731",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      341,
+      1605,
+      522,
+      206,
+      375,
+      863,
+      878,
+      119,
+      1271,
+      1132
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      20,
+      46,
+      66,
+      74,
+      75,
+      199,
+      265,
+      305,
+      372,
+      539,
+      567,
+      584,
+      598,
+      679,
+      693,
+      744,
+      745,
+      1039,
+      1040,
+      1046,
+      1228,
+      1299,
+      1346,
+      1830,
+      1878
+    ],
+    "seed": 42,
+    "source_hash": "6b0b1e4ad347dc844c8e47fa2e0c6be090e5aa932505e6ee3925ea66c9e0206e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5996,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Devon Sawa",
+          "Ali Larter",
+          "Kerr Smith",
+          "Tony Todd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Wong",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After a teenager has a terrifying vision of him and his friends dying in a plane crash, he prevents the accident only to have Death hunt them down, one by one.",
+        "release_date": "2000-03-16",
+        "release_year": "2000",
+        "title": "Final Destination"
+      },
+      {
+        "cast": [
+          "Paul Hogan",
+          "Linda Kozlowski",
+          "John Meillon",
+          "Ernie Dingo"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "John Cornell",
+        "genres": [
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Australian outback expert protects his New York love from gangsters who've followed her down under.",
+        "release_date": "1988-05-19",
+        "release_year": "1988",
+        "title": "Crocodile Dundee II"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Drew Barrymore",
+          "Christine Taylor",
+          "Allen Covert"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Coraci",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Robbie, a local rock star turned wedding singer, is dumped on the day of his wedding. Meanwhile, waitress Julia finally sets a wedding date with her fiancée Glenn. When Julia and Robbie meet and hit it off, they find that things are more complicated than anybody thought.",
+        "release_date": "1998-02-13",
+        "release_year": "1998",
+        "title": "Wedding Singer, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kate Capshaw",
+          "Jonathan Ke Quan",
+          "Amrish Puri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees – and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace.",
+        "release_date": "1984-05-23",
+        "release_year": "1984",
+        "title": "Indiana Jones and the Temple of Doom"
+      },
+      {
+        "cast": [
+          "James Caan",
+          "Kathy Bates",
+          "Richard Farnsworth",
+          "Frances Sternhagen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Novelist Paul Sheldon crashes his car on a snowy Colorado road. He is found by Annie Wilkes, the \"number one fan\" of Paul's heroine Misery Chastaine. Annie is also somewhat unstable, and Paul finds himself crippled, drugged and at her mercy.",
+        "release_date": "1990-11-28",
+        "release_year": "1990",
+        "title": "Misery"
+      },
+      {
+        "cast": [
+          "Heath Ledger",
+          "Julia Stiles",
+          "Joseph Gordon-Levitt",
+          "Larisa Oleynik"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gil Junger",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Bianca, a tenth grader, has never gone on a date, but she isn't allowed to go out with boys until her older sister Kat gets a boyfriend. The problem is, Kat rubs nearly everyone the wrong way. But Bianca and the guy she has her eye on, Joey, are eager, so Joey fixes Kat up with Patrick, a new kid in town just bitter enough for Kat.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "10 Things I Hate About You"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Catherine Zeta-Jones",
+          "Owen Wilson",
+          "Lili Taylor"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dr. David Marrow invites Nell Vance, and Theo and Luke Sanderson to the eerie and isolated Hill House to be subjects for a sleep disorder study. The unfortunate guests discover that Marrow is far more interested in the sinister mansion itself – and they soon see the true nature of its horror.",
+        "release_date": "1999-07-23",
+        "release_year": "1999",
+        "title": "Haunting, The"
+      },
+      {
+        "cast": [
+          "Leonardo DiCaprio",
+          "Jeremy Irons",
+          "Gérard Depardieu",
+          "Gabriel Byrne"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Randall Wallace",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Years have passed since the Three Musketeers, Aramis, Athos and Porthos, have fought together with their friend, D'Artagnan. But with the tyrannical King Louis using his power to wreak havoc in the kingdom while his twin brother, Philippe, remains imprisoned, the Musketeers reunite to abduct Louis and replace him with Philippe.",
+        "release_date": "1998-03-12",
+        "release_year": "1998",
+        "title": "Man in the Iron Mask, The"
+      },
+      {
+        "cast": [
+          "Harry Dean Stanton",
+          "Emilio Estevez",
+          "Tracey Walter",
+          "Olivia Barash"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alex Cox",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A down and out young punk gets a job working with a seasoned repo man, but what awaits him in his new career is a series of outlandish adventures revolving around aliens, the CIA, and a most wanted '64 Chevy.",
+        "release_date": "1984-02-20",
+        "release_year": "1984",
+        "title": "Repo Man"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "John Cassavetes",
+          "Ruth Gordon",
+          "Sidney Blackmer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A young couple moves into an infamous New York apartment building to start a family. Things become frightening as Rosemary begins to suspect her unborn baby isn't safe around their strange neighbors.",
+        "release_date": "1968-06-12",
+        "release_year": "1968",
+        "title": "Rosemary's Baby"
+      }
+    ],
+    "raw_user_id": "5996",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 473
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.852946220213408
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films that lack strong storytelling or character development."
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedies that blend with other genres like drama and romance.",
+        "Positive reception of thrillers, especially those with strong narratives.",
+        "Appreciation for films that incorporate fantasy elements."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Thriller (The user appreciates thrillers, with several rated positively.); Fantasy (The user has a preference for fantasy elements in films.); Drama (The user shows a liking for dramatic narratives, especially when combined with other genres.); Children's (The user enjoys children's films, particularly those with comedic elements.). Liked patterns: Enjoyment of comedies that blend with other genres like drama and romance., Positive reception of thrillers, especially those with strong narratives., Appreciation for films that incorporate fantasy elements.. Disliked patterns: Dislike for action films that lack strong storytelling or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates thrillers, with several rated positively.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user has a preference for fantasy elements in films.",
+          "taste": "Fantasy"
+        },
+        {
+          "reason": "The user shows a liking for dramatic narratives, especially when combined with other genres.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys children's films, particularly those with comedic elements.",
+          "taste": "Children's"
+        }
+      ]
+    },
+    "user_id": 5996
+  }
+}

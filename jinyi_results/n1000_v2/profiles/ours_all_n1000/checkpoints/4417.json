@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "96b2719c6f26509b8eeb95339ebaf9904e9959e084325ed07e1cb54e0538f195",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      320,
+      111,
+      1675,
+      588,
+      896,
+      1214,
+      63,
+      259,
+      665,
+      65
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      111,
+      125,
+      126,
+      152,
+      156,
+      210,
+      211,
+      215,
+      278,
+      288,
+      320,
+      349,
+      353,
+      434,
+      527,
+      542,
+      647,
+      910,
+      1019,
+      1108,
+      1227,
+      1251,
+      1272,
+      2326
+    ],
+    "seed": 42,
+    "source_hash": "ffb36a5f9acb7db44694925aeff264a512c55c8aa726beaf072d08b9f0c890f3",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4417,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "scientist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Jonathan Pryce",
+          "Michelle Yeoh",
+          "Teri Hatcher"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Roger Spottiswoode",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A deranged media mogul is staging international incidents to pit the world's superpowers against each other. Now 007 must take on this evil mastermind in an adrenaline-charged battle to end his reign of terror and prevent global pandemonium.",
+        "release_date": "1997-12-11",
+        "release_year": "1997",
+        "title": "Tomorrow Never Dies"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Madeleine Stowe",
+          "Russell Means",
+          "Eric Schweig"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Action",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As the English and French soldiers battle for control of the American colonies in the 18th century, the settlers and native Americans are forced to take sides. Cora and her sister Alice unwittingly walk into trouble but are reluctantly saved by Hawkeye, an orphaned settler adopted by the last of the Mohicans.",
+        "release_date": "1992-09-25",
+        "release_year": "1992",
+        "title": "Last of the Mohicans, The"
+      },
+      {
+        "cast": [
+          "Kevin Peter Hall",
+          "Danny Glover",
+          "Gary Busey",
+          "Rubén Blades"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Hopkins",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Ten years after a band of mercenaries first battled a vicious alien, the invisible creature from another world has returned to Earth -- and this time, it's drawn to the gang-ruled and ravaged city of Los Angeles. When it starts murdering drug dealers, detective-lieutenant Mike Harrigan and his police force set out to capture the creature, ignoring warnings from a mysterious government agent to stay away.",
+        "release_date": "1990-11-20",
+        "release_year": "1990",
+        "title": "Predator 2"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Michael Keaton",
+          "Kim Basinger",
+          "Michael Gough"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker, who has seized control of Gotham's underworld.",
+        "release_date": "1989-06-23",
+        "release_year": "1989",
+        "title": "Batman"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Gary Oldman",
+          "Glenn Close",
+          "Wendy Crewson"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Russian terrorists conspire to hijack the aircraft with the president and his family on board. The commander in chief finds himself facing an impossible predicament: give in to the terrorists and sacrifice his family, or risk everything to uphold his principles - and the integrity of the nation.",
+        "release_date": "1997-07-25",
+        "release_year": "1997",
+        "title": "Air Force One"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Samuel L. Jackson",
+          "Yvonne Zima",
+          "Craig Bierko"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Samantha Caine, suburban homemaker, is the ideal mom to her 8 year old daughter Caitlin. She lives in Honesdale, PA, has a job teaching school and makes the best Rice Krispie treats in town. But when she receives a bump on her head, she begins to remember small parts of her previous life as a lethal, top-secret agent",
+        "release_date": "1996-10-11",
+        "release_year": "1996",
+        "title": "Long Kiss Goodnight, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Chris Cooper",
+          "Matthew McConaughey",
+          "Elizabeth Peña",
+          "Kris Kristofferson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Sayles",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When the skeleton of his murdered predecessor is found, Sheriff Sam Deeds unearths many other long-buried secrets in his Texas border town.",
+        "release_date": "1996-06-21",
+        "release_year": "1996",
+        "title": "Lone Star"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Bruce Spence",
+          "Michael Preston",
+          "Max Phipps"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape.",
+        "release_date": "1981-12-24",
+        "release_year": "1981",
+        "title": "Mad Max 2 (a.k.a. The Road Warrior)"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      }
+    ],
+    "raw_user_id": "4417",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 88
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7023510062473819
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that mix genres poorly, leading to lower ratings",
+        "Negative response to films with weak plots or character development",
+        "Displeasure with films that fail to deliver on action or excitement"
+      ],
+      "liked_patterns": [
+        "Strong preference for action films with high ratings",
+        "Enjoyment of films that combine action with other genres like romance and comedy",
+        "Appreciation for thrillers that maintain suspense throughout the narrative"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventure elements.); Thriller Elements (The user appreciates films that incorporate suspense and tension, often found in the thriller genre.); Sci-Fi Themes (The user is drawn to science fiction narratives that explore futuristic concepts and technology.); Romantic Subplots (The user enjoys action films that include romantic storylines, adding emotional depth to the narrative.); Comedy in Action (The user likes action films that blend humor, providing a lighter tone amidst the excitement.). Liked patterns: Strong preference for action films with high ratings, Enjoyment of films that combine action with other genres like romance and comedy, Appreciation for thrillers that maintain suspense throughout the narrative. Disliked patterns: Dislike for films that mix genres poorly, leading to lower ratings, Negative response to films with weak plots or character development, Displeasure with films that fail to deliver on action or excitement.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventure elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that incorporate suspense and tension, often found in the thriller genre.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user is drawn to science fiction narratives that explore futuristic concepts and technology.",
+          "taste": "Sci-Fi Themes"
+        },
+        {
+          "reason": "The user enjoys action films that include romantic storylines, adding emotional depth to the narrative.",
+          "taste": "Romantic Subplots"
+        },
+        {
+          "reason": "The user likes action films that blend humor, providing a lighter tone amidst the excitement.",
+          "taste": "Comedy in Action"
+        }
+      ]
+    },
+    "user_id": 4417
+  }
+}

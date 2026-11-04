@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "0f924d93be660cc1b47b26175f7d58f4288def2418ad2c115a8cb8365648b1a6",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      454,
+      259,
+      175,
+      883,
+      184,
+      135,
+      564,
+      1467,
+      48,
+      882
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "78b08138762e4eef86c0c7f40d308908"
+    ],
+    "sampled_item_ids": [
+      8,
+      10,
+      30,
+      48,
+      85,
+      106,
+      129,
+      135,
+      207,
+      211,
+      288,
+      290,
+      399,
+      564,
+      568,
+      789,
+      882,
+      883,
+      1259,
+      1298,
+      1395,
+      1693,
+      2009,
+      2233,
+      2427
+    ],
+    "seed": 42,
+    "source_hash": "99d99e75d3ee43695fd5241eda27fcd5dc72b70222d28ace10eb10d3081c2580",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4082,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Philippe Noiret",
+          "Massimo Troisi",
+          "Maria Grazia Cucinotta",
+          "Renato Scarpa"
+        ],
+        "country": [
+          "Belgium",
+          "France",
+          "Italy"
+        ],
+        "director": "Michael Radford",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "Italian",
+        "overview": "Simple Italian postman learns to love poetry while delivering mail to a famous poet; he uses this to woo local beauty Beatrice.",
+        "release_date": "1994-09-22",
+        "release_year": "1994",
+        "title": "Postino, Il (The Postman)"
+      },
+      {
+        "cast": [
+          "Chris Cooper",
+          "Matthew McConaughey",
+          "Elizabeth Peña",
+          "Kris Kristofferson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Sayles",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When the skeleton of his murdered predecessor is found, Sheriff Sam Deeds unearths many other long-buried secrets in his Texas border town.",
+        "release_date": "1996-06-21",
+        "release_year": "1996",
+        "title": "Lone Star"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Anne Bancroft",
+          "Katharine Ross",
+          "Murray Hamilton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A recent college graduate finds himself in a love triangle with an older woman and her daughter.",
+        "release_date": "1967-12-21",
+        "release_year": "1967",
+        "title": "Graduate, The"
+      },
+      {
+        "cast": [
+          "Woody Harrelson",
+          "Gina Gershon",
+          "Elisabeth Shue",
+          "Michael Rapaport"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Volker Schlöndorff",
+        "genres": [
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A recently released ex-con gets involved in a fake kidnapping scheme that turns very real.",
+        "release_date": "1998-02-20",
+        "release_year": "1998",
+        "title": "Palmetto"
+      },
+      {
+        "cast": [
+          "John Cleese",
+          "Jamie Lee Curtis",
+          "Kevin Kline",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Charles Crichton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A diamond advocate is attempting to steal a collection of diamonds, yet troubles arise when he realizes that he is not the only one after the diamonds.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Fish Called Wanda, A"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "David Ogden Stiers",
+          "Kim Darby",
+          "Demian Slade"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Savage Steve Holland",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Lane Meyer is obsessed with his girlfriend Beth and is crushed when she falls for the new captain of the ski team, Roy. After several failed suicide attempts, narrow escapes from the relentless paper boy, and nearly unbearable dinners at home with his crazy family, Lane finds a new love in French exchange student Monique Junot. Meanwhile, he must beat Roy on the slopes to regain his honor.",
+        "release_date": "1985-10-11",
+        "release_year": "1985",
+        "title": "Better Off Dead..."
+      },
+      {
+        "cast": [
+          "Martin Sheen",
+          "Marlon Brando",
+          "Robert Duvall",
+          "Frederic Forrest"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
+        "release_date": "1979-08-15",
+        "release_year": "1979",
+        "title": "Apocalypse Now"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Brock Peters",
+          "James Anderson",
+          "Mary Badham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mulligan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In a small Alabama town in the 1930s, scrupulously honest and highly respected lawyer, Atticus Finch puts his career on the line when he agrees to represent Tom Robinson, a black man accused of rape. The trial and the events surrounding it are seen through the eyes of Finch's six-year-old daughter, Scout. While Robinson's trial gives the movie its momentum, there are plenty of anecdotal occurrences before and after the court date: Scout's ever-strengthening bond with older brother, Jem, her friendship with precocious young Dill Harris, her father's no-nonsense reactions to such life-and-death crises as a rampaging mad dog, and especially Scout's reactions to, and relationship with, Boo Radley, the reclusive 'village idiot' who turns out to be her salvation when she is attacked by a venomous bigot.",
+        "release_date": "1962-12-25",
+        "release_year": "1962",
+        "title": "To Kill a Mockingbird"
+      },
+      {
+        "cast": [
+          "Drew Barrymore",
+          "David Arquette",
+          "Michael Vartan",
+          "Molly Shannon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Raja Gosnell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Josie Geller, a baby-faced junior copywriter at the Chicago Sun-Times, must pose as a student at her former high school to research contemporary teenage culture. With the help of her brother, Rob, Josie infiltrates the inner circle of the most popular clique on campus. But she hits a major snag in her investigation -- not to mention her own failed love life -- when she falls for her dreamy English teacher, Sam Coulson.",
+        "release_date": "1999-04-09",
+        "release_year": "1999",
+        "title": "Never Been Kissed"
+      }
+    ],
+    "raw_user_id": "4082",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 99
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6545794728530994
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily action-oriented without strong narrative elements."
+      ],
+      "liked_patterns": [
+        "Strong preference for films that blend comedy with drama or romance.",
+        "High ratings for films that feature strong character development and emotional narratives.",
+        "Consistent enjoyment of films that incorporate elements of suspense or thrill."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user consistently rates drama films highly, indicating a strong preference for emotional and narrative depth.); Enjoyment of Comedy (A significant number of comedies received favorable ratings, suggesting a preference for humor and lighthearted storytelling.); Interest in Thrillers (Thriller films are rated positively, showing an attraction to suspenseful and engaging plots.); Fondness for Romantic Elements (Several films with romantic themes are rated well, indicating an appreciation for love stories intertwined with other genres.); Value for Adventure (Adventure films are also well-rated, reflecting a liking for exploration and excitement in storytelling.). Liked patterns: Strong preference for films that blend comedy with drama or romance., High ratings for films that feature strong character development and emotional narratives., Consistent enjoyment of films that incorporate elements of suspense or thrill.. Disliked patterns: Dislike for films that are primarily action-oriented without strong narrative elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for emotional and narrative depth.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "A significant number of comedies received favorable ratings, suggesting a preference for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "Thriller films are rated positively, showing an attraction to suspenseful and engaging plots.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "Several films with romantic themes are rated well, indicating an appreciation for love stories intertwined with other genres.",
+          "taste": "Fondness for Romantic Elements"
+        },
+        {
+          "reason": "Adventure films are also well-rated, reflecting a liking for exploration and excitement in storytelling.",
+          "taste": "Value for Adventure"
+        }
+      ]
+    },
+    "user_id": 4082
+  }
+}

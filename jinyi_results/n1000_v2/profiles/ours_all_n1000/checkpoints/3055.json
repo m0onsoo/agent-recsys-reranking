@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "bcc80434e7492e5fd52edf4aafcdf1c19b86659c7fd93cb6aeb8bcdb7ed42a7f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      763,
+      2137,
+      2494,
+      252,
+      492,
+      1185,
+      134,
+      269,
+      194,
+      2142
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "1489a56528ba439cb104a2e6ef90bd60"
+    ],
+    "sampled_item_ids": [
+      85,
+      106,
+      211,
+      215,
+      252,
+      269,
+      305,
+      483,
+      521,
+      565,
+      716,
+      730,
+      819,
+      896,
+      912,
+      950,
+      1022,
+      1115,
+      1135,
+      1142,
+      1156,
+      1159,
+      1161,
+      1180,
+      1840
+    ],
+    "seed": 42,
+    "source_hash": "d1454c809d9250a5569d4efc28fafc666e9cc0514a8d49f71be4ddc54de9f0c4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3055,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Frakes",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When an alien race and factions within Starfleet attempt to take over a planet that has \"regenerative\" properties, it falls upon Captain Picard and the crew of the Enterprise to defend the planet's people as well as the very ideals upon which the Federation itself was founded.",
+        "release_date": "1998-12-10",
+        "release_year": "1998",
+        "title": "Star Trek: Insurrection"
+      },
+      {
+        "cast": [
+          "Craig Bierko",
+          "Armin Mueller-Stahl",
+          "Gretchen Mol",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Josef Rusnak",
+        "genres": [
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Computer scientist Hannon Fuller has discovered something extremely important. He's about to tell the discovery to his colleague, Douglas Hall, but knowing someone is after him, the old man leaves a letter in his computer generated parallel world that's just like the 30's with seemingly real people with real emotions.",
+        "release_date": "1999-04-16",
+        "release_year": "1999",
+        "title": "Thirteenth Floor, The"
+      },
+      {
+        "cast": [
+          "Donald Sutherland",
+          "Eric Thal",
+          "Julie Warner",
+          "Keith David"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stuart Orme",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The Earth is invaded by alien parasites aka \"slugs\" that ride on people's backs and control their minds. A trio of American government agents attempt to thwart this.",
+        "release_date": "1994-10-21",
+        "release_year": "1994",
+        "title": "Robert A. Heinlein's The Puppet Masters"
+      },
+      {
+        "cast": [
+          "David Duchovny",
+          "Gillian Anderson",
+          "Mitch Pileggi",
+          "William B. Davis"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Rob Bowman",
+        "genres": [
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mulder and Scully, now taken off the FBI's X Files cases, must find a way to fight the shadowy elements of the government to find out the truth about a conspiracy that might mean the alien colonization of Earth.",
+        "release_date": "1998-06-19",
+        "release_year": "1998",
+        "title": "X-Files: Fight the Future, The"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Leonardo DiCaprio",
+          "Juliette Lewis",
+          "Darlene Cates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lasse Hallström",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Gilbert has to care for his brother Arnie and his obese mother, which gets in the way when love walks into his life.",
+        "release_date": "1993-12-17",
+        "release_year": "1993",
+        "title": "What's Eating Gilbert Grape"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Diane Lane",
+          "Armand Assante",
+          "Rob Schneider"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Danny Cannon",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future, Dredd, the most famous judge (a cop with instant field judiciary powers) is convicted for a crime he did not commit while his murderous counterpart escapes.",
+        "release_date": "1995-06-30",
+        "release_year": "1995",
+        "title": "Judge Dredd"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Billy Bob Thornton",
+          "Ben Affleck",
+          "Liv Tyler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When an asteroid threatens to collide with Earth, NASA honcho Dan Truman determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller Harry Stamper, who agrees to helm the dangerous space mission provided he can bring along his own hotshot crew. Among them is the cocksure A.J. who Harry thinks isn't good enough for his daughter, until the mission proves otherwise.",
+        "release_date": "1998-07-01",
+        "release_year": "1998",
+        "title": "Armageddon"
+      },
+      {
+        "cast": [
+          "Jordana Brewster",
+          "Elijah Wood",
+          "Clea DuVall",
+          "Laura Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Rodriguez",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When some very creepy things start happening around school, the kids at Herrington High make a chilling discovery that confirms their worst suspicions: their teachers really are from another planet! As mind-controlling parasites rapidly begin spreading from the faculty to the students' bodies, it's ultimately up to the few who are left – an unlikely collection of loners, leaders, nerds and jocks – to save the world from alien domination.",
+        "release_date": "1998-12-25",
+        "release_year": "1998",
+        "title": "Faculty, The"
+      },
+      {
+        "cast": [
+          "Charlie Sheen",
+          "Kiefer Sutherland",
+          "Chris O'Donnell",
+          "Oliver Platt"
+        ],
+        "country": [
+          "United States of America",
+          "Austria"
+        ],
+        "director": "Stephen Herek",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "D'Artagnan travels to Paris hoping to become a musketeer, one of the French king's elite bodyguards, only to discover that the corps has been disbanded by conniving Cardinal Richelieu, who secretly hopes to usurp the throne. Fortunately, Athos, Porthos and Aramis have refused to lay down their weapons and continue to protect their king. D'Artagnan joins with the rogues to expose Richelieu's plot against the crown.",
+        "release_date": "1993-11-11",
+        "release_year": "1993",
+        "title": "Three Musketeers, The"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Denzel Washington",
+          "Sam Shepard",
+          "William Atherton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alan J. Pakula",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two Supreme Court Justices have been assassinated. One lone law student has stumbled upon the truth. An investigative journalist wants her story. Everybody else wants her dead.",
+        "release_date": "1993-12-16",
+        "release_year": "1993",
+        "title": "Pelican Brief, The"
+      }
+    ],
+    "raw_user_id": "3055",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 231
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6045964975004811
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that lack depth or engaging storylines.",
+        "Negative ratings for films that are primarily horror without additional genre elements."
+      ],
+      "liked_patterns": [
+        "Strong preference for films that blend genres, particularly drama with horror or thriller elements.",
+        "High ratings for films featuring strong character development and emotional depth.",
+        "Positive reception of films with suspenseful plots and engaging action sequences."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for character-driven narratives.); Enjoyment of Horror Elements (The user shows a liking for horror films, particularly those that blend with other genres like thriller and drama.); Interest in Action and Thriller (The user rates action and thriller films positively, suggesting a preference for suspenseful and engaging plots.); Fondness for Comedy (The user enjoys comedies, especially those that incorporate elements of romance or family themes.); Attraction to Sci-Fi Themes (The user rates sci-fi films well, indicating an interest in speculative narratives and futuristic concepts.). Liked patterns: Strong preference for films that blend genres, particularly drama with horror or thriller elements., High ratings for films featuring strong character development and emotional depth., Positive reception of films with suspenseful plots and engaging action sequences.. Disliked patterns: Dislike for horror films that lack depth or engaging storylines., Negative ratings for films that are primarily horror without additional genre elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user shows a liking for horror films, particularly those that blend with other genres like thriller and drama.",
+          "taste": "Enjoyment of Horror Elements"
+        },
+        {
+          "reason": "The user rates action and thriller films positively, suggesting a preference for suspenseful and engaging plots.",
+          "taste": "Interest in Action and Thriller"
+        },
+        {
+          "reason": "The user enjoys comedies, especially those that incorporate elements of romance or family themes.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user rates sci-fi films well, indicating an interest in speculative narratives and futuristic concepts.",
+          "taste": "Attraction to Sci-Fi Themes"
+        }
+      ]
+    },
+    "user_id": 3055
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "cb3b893d9a0a4cc04bdeb387070879426cda49c677300aab0cd7a0057760b4b8",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      85,
+      187,
+      720,
+      196,
+      1634,
+      128,
+      114,
+      201,
+      370,
+      135
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      7,
+      45,
+      63,
+      65,
+      135,
+      151,
+      175,
+      187,
+      201,
+      206,
+      278,
+      370,
+      421,
+      470,
+      587,
+      588,
+      594,
+      644,
+      645,
+      676,
+      1081,
+      1466,
+      1523,
+      1634,
+      2345
+    ],
+    "seed": 42,
+    "source_hash": "8f571d4db25da54d54fa34e7649168ce1a672ae953a28b1e39f9c456e27670b7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5732,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Wil Wheaton",
+          "River Phoenix",
+          "Corey Feldman",
+          "Jerry O'Connell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After the death of a friend, a writer recounts a boyhood journey to find the body of a missing boy.",
+        "release_date": "1986-08-22",
+        "release_year": "1986",
+        "title": "Stand by Me"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Sean Connery",
+          "Denholm Elliott",
+          "Alison Doody"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Henry Jones Sr. suddenly goes missing while pursuing the Holy Grail, eminent archaeologist Indiana must team up with Marcus Brody, Sallah and Elsa Schneider to follow in his father's footsteps and stop the Nazis from recovering the power of eternal life.",
+        "release_date": "1989-05-24",
+        "release_year": "1989",
+        "title": "Indiana Jones and the Last Crusade"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Nicolas Cage",
+          "Ed Harris",
+          "John Spencer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A group of renegade marine commandos seizes a stockpile of chemical weapons and takes over Alcatraz, with 81 tourists as hostages. Their leader demands $100 million to be paid, as restitution to families of Marines who died in covert ops – or he will launch 15 rockets carrying deadly VX gas into the San Francisco Bay area.",
+        "release_date": "1996-06-06",
+        "release_year": "1996",
+        "title": "Rock, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Sigourney Weaver",
+          "Linda Hunt",
+          "Michael Murphy"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Australian journalist Guy Hamilton travels to Indonesia to cover civil strife in 1965. There, on the eve of an attempted coup, he befriends a Chinese Australian photographer with a deep connection to and vast knowledge of the Indonesian people and also falls in love with a British national.",
+        "release_date": "1982-12-17",
+        "release_year": "1982",
+        "title": "Year of Living Dangerously"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Paul Hogan",
+          "Linda Kozlowski",
+          "Mark Blum",
+          "David Gulpilil"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "Peter Faiman",
+        "genres": [
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a New York reporter plucks crocodile hunter Dundee from the Australian Outback for a visit to the Big Apple, it's a clash of cultures and a recipe for good-natured comedy as naïve Dundee negotiates the concrete jungle. Dundee proves that his instincts are quite useful in the city and adeptly handles everything from wily muggers to high-society snoots without breaking a sweat.",
+        "release_date": "1986-09-26",
+        "release_year": "1986",
+        "title": "Crocodile Dundee"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Richard Briers",
+          "Michael Keaton",
+          "Robert Sean Leonard"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this Shakespearean farce, Hero and her groom-to-be, Claudio, team up with Claudio's commanding officer, Don Pedro, the week before their wedding to hatch a matchmaking scheme. Their targets are sharp-witted duo Benedick and Beatrice -- a tough task indeed, considering their corresponding distaste for love and each other. Meanwhile, meddling Don John plots to ruin the wedding.",
+        "release_date": "1993-05-07",
+        "release_year": "1993",
+        "title": "Much Ado About Nothing"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      }
+    ],
+    "raw_user_id": "5732",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 34
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6707838385981113
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily comedic without strong adventure or action elements.",
+        "Negative response to films that focus on romance without additional engaging themes."
+      ],
+      "liked_patterns": [
+        "Strong preference for action-adventure films with high ratings.",
+        "Enjoyment of romantic comedies and dramas that blend humor with emotional storytelling.",
+        "Appreciation for films that combine action with sci-fi elements."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Romantic Elements (The user appreciates films that incorporate romance, often intertwined with other genres.); Dramatic Storytelling (The user is drawn to films that offer strong dramatic narratives, often with emotional depth.); Sci-Fi Themes (The user shows a preference for science fiction elements, particularly when combined with action.); Comedy and Lightheartedness (The user enjoys comedic films that provide humor alongside adventure or romance.). Liked patterns: Strong preference for action-adventure films with high ratings., Enjoyment of romantic comedies and dramas that blend humor with emotional storytelling., Appreciation for films that combine action with sci-fi elements.. Disliked patterns: Dislike for films that are primarily comedic without strong adventure or action elements., Negative response to films that focus on romance without additional engaging themes..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that incorporate romance, often intertwined with other genres.",
+          "taste": "Romantic Elements"
+        },
+        {
+          "reason": "The user is drawn to films that offer strong dramatic narratives, often with emotional depth.",
+          "taste": "Dramatic Storytelling"
+        },
+        {
+          "reason": "The user shows a preference for science fiction elements, particularly when combined with action.",
+          "taste": "Sci-Fi Themes"
+        },
+        {
+          "reason": "The user enjoys comedic films that provide humor alongside adventure or romance.",
+          "taste": "Comedy and Lightheartedness"
+        }
+      ]
+    },
+    "user_id": 5732
+  }
+}

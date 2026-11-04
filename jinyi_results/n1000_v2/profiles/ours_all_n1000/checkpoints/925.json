@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "a830aa503bbf82c87a19db4a688903f1f9909b091c0530a8111ab2466f9f3f9a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      633,
+      1427,
+      1182,
+      710,
+      1016,
+      1825,
+      767,
+      546,
+      160,
+      579
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "6c7509ecf000458b9d8b0ddce67d9edc"
+    ],
+    "sampled_item_ids": [
+      1,
+      16,
+      41,
+      48,
+      59,
+      116,
+      117,
+      160,
+      382,
+      407,
+      415,
+      429,
+      438,
+      520,
+      558,
+      574,
+      633,
+      722,
+      727,
+      767,
+      976,
+      1016,
+      1047,
+      1527,
+      1825
+    ],
+    "seed": 42,
+    "source_hash": "a0f335cbe850520b2ba6ff6a9daa9240427950d1ece0087da85f2acc1e329996",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 925,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mary Costa",
+          "Bill Shirley",
+          "Eleanor Audley",
+          "Verna Felton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A beautiful princess born in a faraway kingdom is destined by a terrible curse to prick her finger on the spindle of a spinning wheel and fall into a deep sleep that can only be awakened by true love's first kiss. Determined to protect her, her parents ask three fairies to raise her in hiding. But the evil Maleficent is just as determined to seal the princess's fate.",
+        "release_date": "1959-01-28",
+        "release_year": "1959",
+        "title": "Sleeping Beauty"
+      },
+      {
+        "cast": [
+          "Brendan Fraser",
+          "Leslie Mann",
+          "Thomas Haden Church",
+          "John Cleese"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Weisman",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Baby George got into a plane crash in a jungle, stayed alive and was adopted by a wise ape. Ursula Stanhope, US noble woman is saved from death on safari by grown-up George, and he takes her to jungle to live with him. He slowly learns a rules of human relationships, while Ursula's lover Lyle is looking for her and the one who took her. After they are found, Ursula takes George to the USA.",
+        "release_date": "1997-07-15",
+        "release_year": "1997",
+        "title": "George of the Jungle"
+      },
+      {
+        "cast": [
+          "Jack Lemmon",
+          "Walter Matthau",
+          "Ann-Margret",
+          "Burgess Meredith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Donald Petrie",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "For decades, next-door neighbors and former friends John and Max have feuded, trading insults and wicked pranks. When an attractive widow moves in nearby, their bad blood erupts into a high-stakes rivalry full of naughty jokes and adolescent hijinks. Will this love triangle destroy the two old grumps? Or will the geriatric odd couple overcome their differences and rediscover their friendship?",
+        "release_date": "1993-12-25",
+        "release_year": "1993",
+        "title": "Grumpy Old Men"
+      },
+      {
+        "cast": [
+          "Warren Beatty",
+          "Julie Christie",
+          "Goldie Hawn",
+          "Lee Grant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hal Ashby",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "George Roundy is a Beverly Hills hairstylist whose uncontrolled libido stands between him and his ambitions. He wants the security of a relationship. He wants to be a hairdressing \"star\" and open his own salon. But the fact that he beds down with the wife, daughter and mistress of a potential backer doesn't help. It also does little for his relationship with his current girlfriend.",
+        "release_date": "1975-03-13",
+        "release_year": "1975",
+        "title": "Shampoo"
+      },
+      {
+        "cast": [
+          "Stephen Boyd",
+          "Raquel Welch",
+          "Edmond O'Brien",
+          "Donald Pleasence"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Fleischer",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The science of miniaturization has been unlocked, and the army has big plans. But when a scientist carrying the secret of the process is injured in a surprise attack, a life-threatening blood clot puts him into a coma. Now, a team of adventurers will have to use the technology to travel inside his body and destroy the clot.",
+        "release_date": "1966-08-24",
+        "release_year": "1966",
+        "title": "Fantastic Voyage"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Phil Hartman",
+          "Sinbad",
+          "Rita Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian Levant",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Meet Howard Langston, a salesman for a mattress company is constantly busy at his job, and he also constantly disappoints his son, after he misses his son's karate exposition, his son tells Howard that he wants for Christmas is an action figure of his son's television hero, he tries hard to to make it up to him. Unfortunately for Howard, it is Christmas Eve, and every store is sold out of Turbo Man, now Howard must travel all over town and compete with everybody else to find a Turbo Man action figure.",
+        "release_date": "1996-11-15",
+        "release_year": "1996",
+        "title": "Jingle All the Way"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Will Patton",
+          "Ryan Hurst",
+          "Wood Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Boaz Yakin",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After leading his football team to 15 winning seasons, coach Bill Yoast is demoted and replaced by Herman Boone – tough, opinionated and as different from the beloved Yoast as he could be. The two men learn to overcome their differences and turn a group of hostile young men into true champions.",
+        "release_date": "2000-09-29",
+        "release_year": "2000",
+        "title": "Remember the Titans"
+      },
+      {
+        "cast": [
+          "Henry Fonda",
+          "Jane Darwell",
+          "John Carradine",
+          "Charley Grapewin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Ford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Tom Joad returns to his home after a jail sentence to find his family kicked out of their farm due to foreclosure. He catches up with them on his Uncles farm, and joins them the next day as they head for California and a new life... Hopefully.",
+        "release_date": "1940-03-15",
+        "release_year": "1940",
+        "title": "Grapes of Wrath, The"
+      },
+      {
+        "cast": [
+          "Rex Harrison",
+          "Samantha Eggar",
+          "Richard Attenborough",
+          "Anthony Newley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Fleischer",
+        "genres": [
+          "Adventure",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Get ready for the wildest adventure of a lifetime in the most ambitious production ever brought to film. Earning a 1967 Academy Award nomination for Best Picture, this dazzling fantasy turns both ordinary and exotic animals into talking, dancing and singing sensations! Rex Harrison is unforgettable in this inspiring adaptation of Hugh Lofting's classic stories.Step into the English country home of the good doctor as he performs remarkable treatments on the wildest variety of patients you could imagine. Discover his secret cures and watch with wide-eyed excitement as he and his four-legged, fine-feathered friends charm their way into your heart!",
+        "release_date": "1967-12-19",
+        "release_year": "1967",
+        "title": "Doctor Dolittle"
+      }
+    ],
+    "raw_user_id": "925",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 56
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4066822101302294
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that do not incorporate romance or strong narratives.",
+        "Negative response to children's films that lack engaging storylines or humor."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and romance in films rated 4 or above.",
+        "Enjoyment of musicals and comedies, particularly those with romantic themes.",
+        "Positive reception of children's films that blend comedy and adventure."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates dramatic narratives, as seen in multiple high-rated films.); Romance (Romantic elements are favored, with several films receiving positive ratings.); Comedy (The user enjoys comedic films, indicated by a mix of liked comedies.); Children's (There is a preference for children's films, with some rated positively.); Musical (Musicals are well-received, as shown by several high ratings in this genre.). Liked patterns: Strong preference for drama and romance in films rated 4 or above., Enjoyment of musicals and comedies, particularly those with romantic themes., Positive reception of children's films that blend comedy and adventure.. Disliked patterns: Dislike for comedies that do not incorporate romance or strong narratives., Negative response to children's films that lack engaging storylines or humor..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates dramatic narratives, as seen in multiple high-rated films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Romantic elements are favored, with several films receiving positive ratings.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user enjoys comedic films, indicated by a mix of liked comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "There is a preference for children's films, with some rated positively.",
+          "taste": "Children's"
+        },
+        {
+          "reason": "Musicals are well-received, as shown by several high ratings in this genre.",
+          "taste": "Musical"
+        }
+      ]
+    },
+    "user_id": 925
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "692cb63f299a819e1aca24c20cc023a2ce534ecbbe15d031db8ab8d9f5deeac2",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      382,
+      8,
+      85,
+      211,
+      168,
+      260,
+      480,
+      1926,
+      52,
+      1273
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      8,
+      23,
+      39,
+      52,
+      61,
+      105,
+      128,
+      153,
+      157,
+      168,
+      184,
+      187,
+      211,
+      257,
+      480,
+      505,
+      548,
+      879,
+      1108,
+      1211,
+      1273,
+      1309,
+      1661,
+      1926,
+      1997
+    ],
+    "seed": 42,
+    "source_hash": "201f751b51bf3b53eeed5a5f78dbb41d62ddff96f44e46e0a621c379a251717f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5377,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      },
+      {
+        "cast": [
+          "Melinda Dillon",
+          "Darren McGavin",
+          "Peter Billingsley",
+          "Jean Shepherd"
+        ],
+        "country": [
+          "United States of America",
+          "Canada"
+        ],
+        "director": "Bob Clark",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The comic mishaps and adventures of a young boy named Ralph, trying to convince his parents, teachers, and Santa that a Red Ryder B.B. gun really is the perfect Christmas gift for the 1940s.",
+        "release_date": "1983-11-18",
+        "release_year": "1983",
+        "title": "Christmas Story, A"
+      },
+      {
+        "cast": [
+          "Wil Wheaton",
+          "River Phoenix",
+          "Corey Feldman",
+          "Jerry O'Connell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After the death of a friend, a writer recounts a boyhood journey to find the body of a missing boy.",
+        "release_date": "1986-08-22",
+        "release_year": "1986",
+        "title": "Stand by Me"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Alan Rickman",
+          "Alexander Godunov",
+          "Bonnie Bedelia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "NYPD cop, John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Die Hard"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Morgan Freeman",
+          "Bob Gunton",
+          "Clancy Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Shawshank Redemption, The"
+      },
+      {
+        "cast": [
+          "Stephen Baldwin",
+          "Gabriel Byrne",
+          "Chazz Palminteri",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Usual Suspects, The"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Angela Bassett",
+          "Albert Hall",
+          "Al Freeman, Jr."
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Lee",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The biopic of the controversial and influential Black Nationalist leader.",
+        "release_date": "1992-11-18",
+        "release_year": "1992",
+        "title": "Malcolm X"
+      },
+      {
+        "cast": [
+          "Emily Watson",
+          "Robert Carlyle",
+          "Joe Breen",
+          "Michael Legge"
+        ],
+        "country": [
+          "Ireland",
+          "United States of America"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Based on the best selling autobiography by Irish expat Frank McCourt, Angela's Ashes follows the experiences of young Frankie and his family as they try against all odds to escape the poverty endemic in the slums of pre-war Limerick. The film opens with the family in Brooklyn, but following the death of one of Frankie's siblings, they return home, only to find the situation there even worse. Prejudice against Frankie's Northern Irish father makes his search for employment in the Republic difficult despite his having fought for the IRA, and when he does find money, he spends the money on drink.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Angela's Ashes"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "William Hurt",
+          "Kathleen Turner",
+          "Richard Crenna",
+          "Ted Danson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the midst of a searing Florida heat wave, a woman convinces her lover, a small-town lawyer, to murder her rich husband.",
+        "release_date": "1981-08-28",
+        "release_year": "1981",
+        "title": "Body Heat"
+      }
+    ],
+    "raw_user_id": "5377",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 35
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8762107578085713
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for romantic comedies",
+        "Negative response to films with weak comedic elements"
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and comedy genres",
+        "High ratings for films that blend drama with other genres",
+        "Consistent enjoyment of thrillers and action films"
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, often rating them highly.); Comedy (The user enjoys comedies, frequently giving them favorable ratings.); Thriller (The user appreciates thrillers, as indicated by several high ratings in this genre.); Action (The user has a notable interest in action films, with several rated positively.); Romance (The user engages with romantic themes, though with mixed ratings.). Liked patterns: Strong preference for drama and comedy genres, High ratings for films that blend drama with other genres, Consistent enjoyment of thrillers and action films. Disliked patterns: Dislike for romantic comedies, Negative response to films with weak comedic elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, often rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, frequently giving them favorable ratings.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates thrillers, as indicated by several high ratings in this genre.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user has a notable interest in action films, with several rated positively.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user engages with romantic themes, though with mixed ratings.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 5377
+  }
+}

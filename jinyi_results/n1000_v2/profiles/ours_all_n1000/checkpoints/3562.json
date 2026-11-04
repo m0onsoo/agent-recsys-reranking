@@ -1,0 +1,327 @@
+{
+  "checkpoint_hash": "e683b89fc3b4d37dfb101d9f02ec4d8680f946f95edfd651a7041478e3b9c213",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      405,
+      3093,
+      926,
+      950,
+      739,
+      82,
+      1258,
+      1775,
+      811,
+      118
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "f23df977b5a943cd96aceb2d109c8346"
+    ],
+    "sampled_item_ids": [
+      129,
+      168,
+      257,
+      291,
+      309,
+      425,
+      433,
+      455,
+      520,
+      525,
+      542,
+      647,
+      793,
+      811,
+      865,
+      881,
+      926,
+      950,
+      1086,
+      1151,
+      1407,
+      1418,
+      1643,
+      2060,
+      3093
+    ],
+    "seed": 42,
+    "source_hash": "d6df384d512113a52e0d736d4779b03fec6a745a4c161ef24f52c4297b9916ad",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3562,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mel Gibson",
+          "Kurt Russell",
+          "J.T. Walsh",
+          "Michelle Pfeiffer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Towne",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In a seaside California town, best friends Mac and Nick are on opposite sides of the law. Mac is a former drug dealer trying to clean up his act, while Nick is a high-profile detective trying to take down a Mexican drug lord named Carlos. Soon Nick's loyalties are put to the test when he begins an affair with restaurateur Jo Ann  -- a love interest of Mac's -- unwittingly leading his friend into a police-orchestrated trap.",
+        "release_date": "1988-12-02",
+        "release_year": "1988",
+        "title": "Tequila Sunrise"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Drama"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1998",
+        "title": "Dangerous Beauty"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sharon Stone",
+          "George Dzundza",
+          "Jeanne Tripplehorn"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A police detective is in charge of the investigation of a brutal murder, in which a beautiful and seductive woman could be involved.",
+        "release_date": "1992-03-20",
+        "release_year": "1992",
+        "title": "Basic Instinct"
+      },
+      {
+        "cast": [
+          "Jennifer Lopez",
+          "Vincent D'Onofrio",
+          "Vince Vaughn",
+          "Marianne Jean-Baptiste"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Tarsem Singh",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychotherapist journeys inside a comatose serial killer in the hopes of saving his latest victim.",
+        "release_date": "2000-08-17",
+        "release_year": "2000",
+        "title": "Cell, The"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Mary Steenburgen",
+          "Thomas F. Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "The final installment of the Back to the Future trilogy finds Marty digging the trusty DeLorean out of a mineshaft and looking up Doc in the Wild West of 1885. But when their time machine breaks down, the travelers are stranded in a land of spurs. More problems arise when Doc falls for pretty schoolteacher Clara Clayton, and Marty tangles with Buford Tannen.",
+        "release_date": "1990-05-25",
+        "release_year": "1990",
+        "title": "Back to the Future Part III"
+      },
+      {
+        "cast": [
+          "Edward James Olmos",
+          "Lou Diamond Phillips",
+          "Rosanna DeSoto",
+          "Andy García"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ramón Menéndez",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jaime Escalante is a mathematics teacher in a school in a hispanic neighbourhood. Convinced that his students have potential, he adopts unconventional teaching methods to try and turn gang members and no-hopers into some of the country's top algebra and calculus students.",
+        "release_date": "1988-03-11",
+        "release_year": "1987",
+        "title": "Stand and Deliver"
+      },
+      {
+        "cast": [
+          "Jacqueline Bisset",
+          "Rob Lowe",
+          "Andrew McCarthy",
+          "Cliff Robertson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lewis John Carlino",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Naive Midwestern prep student Jonathan bonds with his more worldly roommate, Skip, who takes the small-town boy under his wing. At Skip's urging, the inexperienced Jonathan is emboldened to seek out older women in the cocktail lounges of nearby Chicago, where he meets and beds the alluring Ellen, who unfortunately turns out to be Skip's mother. The division between the friends is further deepened when a cheating scandal engulfs the school.",
+        "release_date": "1983-07-22",
+        "release_year": "1983",
+        "title": "Class"
+      },
+      {
+        "cast": [
+          "Laura San Giacomo",
+          "Michael O'Keefe",
+          "Paul Rhys",
+          "Cristi Conaway"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Alan Jacobs",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Laura San Giacomo stars in this sexy comedy about adultery. When Nina's (San Giacomo) husband goes out of town for several weeks on a business trip, Nina hooks up with a photographer. Told from a reporter's point of view, his interviews with Nina and the photographer provide comic insights. Stars Laura San Giacomo, Paul Rhys, Michael O'Keefe, Fisher Stevens and more.",
+        "release_date": "1995-03-03",
+        "release_year": "1994",
+        "title": "Nina Takes a Lover"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Kathy Bates",
+          "Fairuza Balk",
+          "Henry Winkler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Coraci",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Bobby Boucher is a water boy for a struggling college football team. The coach discovers Boucher's hidden rage makes him a tackling machine whose bone-crushing power might vault his team into the playoffs.",
+        "release_date": "1998-11-06",
+        "release_year": "1998",
+        "title": "Waterboy, The"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Bonnie Bedelia",
+          "William Atherton",
+          "Reginald VelJohnson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "John McClane is an off-duty cop gripped with a feeling of déjà vu when on a snowy Christmas Eve in the nation's capital, terrorists seize a major international airport, holding thousands of holiday travelers hostage. Renegade military commandos led by a murderous rogue officer plot to rescue a drug lord from justice and are prepared for every contingency except one: McClane's smart-mouthed heroics.",
+        "release_date": "1990-07-02",
+        "release_year": "1990",
+        "title": "Die Hard 2"
+      }
+    ],
+    "raw_user_id": "3562",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 547
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8944575207339186
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly rated comedies, particularly those that are romantic in nature.",
+        "Negative ratings for action films that do not meet expectations for quality or engagement."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and thriller genres, often rated highly.",
+        "Enjoyment of comedy films, particularly those that blend humor with romance.",
+        "Positive ratings for films that combine multiple genres, such as comedy-drama or action-comedy."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, as indicated by multiple high ratings for drama films.); Comedy (The user enjoys comedies, with several films rated highly, suggesting a fondness for humor and light-hearted storytelling.); Thriller (The user appreciates thrillers, as evidenced by positive ratings for films in this genre, indicating a taste for suspenseful and engaging plots.); Romance (The user rates romantic comedies favorably, suggesting an enjoyment of romantic themes intertwined with humor.); Action (The user has shown some interest in action films, although with mixed ratings, indicating a selective enjoyment of the genre.). Liked patterns: Strong preference for drama and thriller genres, often rated highly., Enjoyment of comedy films, particularly those that blend humor with romance., Positive ratings for films that combine multiple genres, such as comedy-drama or action-comedy.. Disliked patterns: Dislike for poorly rated comedies, particularly those that are romantic in nature., Negative ratings for action films that do not meet expectations for quality or engagement..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, as indicated by multiple high ratings for drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, with several films rated highly, suggesting a fondness for humor and light-hearted storytelling.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates thrillers, as evidenced by positive ratings for films in this genre, indicating a taste for suspenseful and engaging plots.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user rates romantic comedies favorably, suggesting an enjoyment of romantic themes intertwined with humor.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user has shown some interest in action films, although with mixed ratings, indicating a selective enjoyment of the genre.",
+          "taste": "Action"
+        }
+      ]
+    },
+    "user_id": 3562
+  }
+}

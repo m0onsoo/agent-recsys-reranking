@@ -1,0 +1,327 @@
+{
+  "checkpoint_hash": "cf281804d0813795dc2637db01c1dceb67c67fbed6bdda9453e836b9af5190ac",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      106,
+      1811,
+      1493,
+      1178,
+      580,
+      524,
+      183,
+      3315,
+      699,
+      257
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d77f69ca57434607ab10a371e7d19159"
+    ],
+    "sampled_item_ids": [
+      80,
+      114,
+      138,
+      140,
+      168,
+      364,
+      496,
+      524,
+      598,
+      630,
+      723,
+      730,
+      759,
+      830,
+      866,
+      1143,
+      1187,
+      1353,
+      1504,
+      1683,
+      1732,
+      1735,
+      1745,
+      1758,
+      2066
+    ],
+    "seed": 42,
+    "source_hash": "36366e5a9e00dd4fae9634c7c6147c1354ed8377f90d66600e022222ed22353d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3842,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      },
+      {
+        "cast": [
+          "Robert Englund",
+          "Lisa Wilcox",
+          "Erika Anderson",
+          "Valorie Armstrong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Hopkins",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Alice, having survived the previous installment of the Nightmare series, finds the deadly dreams of Freddy Krueger starting once again. This time, the taunting murderer is striking through the sleeping mind of Alice's unborn child. His intention is to be \"born again\" into the real world. The only one who can stop Freddy is his dead mother, but can Alice free her spirit in time to save her own son?",
+        "release_date": "1989-08-11",
+        "release_year": "1989",
+        "title": "Nightmare on Elm Street 5: The Dream Child, A"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "Jeff Daniels",
+          "Danny Aiello",
+          "Irving Metzman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Cecilia is a waitress in New Jersey, living a dreary life during the Great Depression. Her only escape from her mudane reality is the movie theatre. After losing her job, Cecilia goes to see 'The Purple Rose of Cairo' in hopes of raising her spirits, where she watches dashing archaeologist Tom Baxter time and again.",
+        "release_date": "1985-03-01",
+        "release_year": "1985",
+        "title": "Purple Rose of Cairo, The"
+      },
+      {
+        "cast": [
+          "Mike Judge",
+          "Bruce Willis",
+          "Demi Moore",
+          "Robert Stack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Judge",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Mike Judge's slacker duo, Beavis and Butt-Head, wake to discover their TV has been stolen. Their search for a new one takes them on a clueless adventure across America where they manage to accidentally become America's most wanted.",
+        "release_date": "1996-12-15",
+        "release_year": "1996",
+        "title": "Beavis and Butt-head Do America"
+      },
+      {
+        "cast": [
+          "Jerry Lewis",
+          "Stella Stevens",
+          "Henry Gibson",
+          "Richard Kiel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Lewis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Jerry Lewis directed, co-wrote and starred in this riotously funny movie that set a new standard for screen comedy and inspired the hit remake. Lewis plays a timid, nearsighted chemistry teacher who discovers a magical potion that can transform him into a suave and handsome Romeo. The Jekyll and Hyde game works well enough until the concoction starts to wear off at the most embarrassing times.",
+        "release_date": "1963-06-04",
+        "release_year": "1963",
+        "title": "Nutty Professor, The"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Nick Nolte",
+          "Jessica Lange",
+          "Juliette Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Bowden is a small-town corporate attorney. Max Cady is a tattooed, cigar-smoking, bible-quoting, psychotic rapist. What do they have in common? Fourteen years ago, Sam was a public defender assigned to Max Cady's rape trial, and he made a serious error: he hid a document from his illiterate client that could have gotten him acquitted. Now, the cagey, bibliophile Cady has been released, and he intends to teach Sam Bowden and his family a thing or two about loss.",
+        "release_date": "1991-11-15",
+        "release_year": "1991",
+        "title": "Cape Fear"
+      },
+      {
+        "cast": [
+          "Leslie Nielsen",
+          "Priscilla Presley",
+          "Ricardo Montalban",
+          "George Kennedy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Zucker",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the incompetent Officer Frank Drebin seeks the ruthless killer of his partner, he stumbles upon an attempt to assassinate Queen Elizabeth.",
+        "release_date": "1988-12-02",
+        "release_year": "1988",
+        "title": "Naked Gun: From the Files of Police Squad!, The"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "Tony Goldwyn",
+          "Scott Glenn",
+          "Mary-Louise Parker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman René",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On Christmas eve, a relentlessly cheerful woman escapes from the killers hired by her husband, and embarks on a series of strange encounters.",
+        "release_date": "1995-11-17",
+        "release_year": "1995",
+        "title": "Reckless"
+      },
+      {
+        "cast": [
+          "Peter Sellers",
+          "Christopher Plummer",
+          "Herbert Lom",
+          "Catherine Schell"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Blake Edwards",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The famous Pink Panther jewel has once again been stolen and Inspector Clouseau is called in to catch the thief. The Inspector is convinced that 'The Phantom' has returned and utilises all of his resources – himself and his Asian manservant – to reveal the identity of 'The Phantom'.",
+        "release_date": "1975-05-21",
+        "release_year": "1974",
+        "title": "Return of the Pink Panther, The"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Russell Crowe",
+          "Christopher Plummer",
+          "Diane Venora"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Tells the true story of a 60 Minutes television series exposé of the tobacco industry, as seen through the eyes of a real tobacco executive, Jeffrey Wigand",
+        "release_date": "1999-10-28",
+        "release_year": "1999",
+        "title": "Insider, The"
+      }
+    ],
+    "raw_user_id": "3842",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 536
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3918613342086243
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films",
+        "Negative response to comedies lacking depth or strong narratives"
+      ],
+      "liked_patterns": [
+        "Preference for action and thriller genres with high ratings",
+        "Enjoyment of dramas that evoke strong emotions",
+        "Attraction to comedies that include romantic themes"
+      ],
+      "summary": "Unique tastes: Action and Thriller (The user enjoys high-stakes narratives that combine action with suspenseful elements.); Drama with Emotional Depth (The user appreciates dramas that explore complex characters and emotional themes.); Comedy with a Blend of Romance (The user favors comedies that incorporate romantic elements, often leading to lighthearted yet meaningful stories.); Strong Female Characters (The user is drawn to films featuring strong, complex female characters, particularly in dramatic and romantic contexts.); Classic Storytelling (The user enjoys films that are well-crafted with strong narratives, often found in older genres.). Liked patterns: Preference for action and thriller genres with high ratings, Enjoyment of dramas that evoke strong emotions, Attraction to comedies that include romantic themes. Disliked patterns: Dislike for horror films, Negative response to comedies lacking depth or strong narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-stakes narratives that combine action with suspenseful elements.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex characters and emotional themes.",
+          "taste": "Drama with Emotional Depth"
+        },
+        {
+          "reason": "The user favors comedies that incorporate romantic elements, often leading to lighthearted yet meaningful stories.",
+          "taste": "Comedy with a Blend of Romance"
+        },
+        {
+          "reason": "The user is drawn to films featuring strong, complex female characters, particularly in dramatic and romantic contexts.",
+          "taste": "Strong Female Characters"
+        },
+        {
+          "reason": "The user enjoys films that are well-crafted with strong narratives, often found in older genres.",
+          "taste": "Classic Storytelling"
+        }
+      ]
+    },
+    "user_id": 3842
+  }
+}

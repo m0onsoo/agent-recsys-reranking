@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "f466e45542e05d9d9673c66f895bf4a40a3890572ca600591a9475b141b24851",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2686,
+      2903,
+      1500,
+      742,
+      68,
+      316,
+      219,
+      59,
+      1212,
+      837
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8e1be02b0bb84fafad5b51c1caf88f9f"
+    ],
+    "sampled_item_ids": [
+      20,
+      44,
+      117,
+      128,
+      152,
+      199,
+      277,
+      286,
+      316,
+      446,
+      500,
+      516,
+      543,
+      548,
+      619,
+      714,
+      756,
+      1006,
+      1177,
+      1201,
+      1248,
+      1886,
+      2034,
+      2079,
+      2882
+    ],
+    "seed": 42,
+    "source_hash": "6ec4e657a3ab7c0ec510cc56444d579cad09cc8cb434b0b7a8a929e13da83273",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 454,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Vincent D'Onofrio",
+          "Renée Zellweger",
+          "Ann Wedgeworth",
+          "Harve Presnell"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Dan Ireland",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Based on her acclaimed autobiographical book, THE WHOLE WIDE WORLD tells the story of Novalyne Price, an attractive feisty West Texas schoolteacher and her bittersweet, romantic and turbulent relationship with Robert E. Howard, the great pulp fiction writer of the 1930's.",
+        "release_date": "1996-12-20",
+        "release_year": "1996",
+        "title": "Whole Wide World, The"
+      },
+      {
+        "cast": [
+          "Bobcat Goldthwait",
+          "Julie Brown",
+          "Robin Williams",
+          "Kathy Griffin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobcat Goldthwait",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Shakes plods about his duties as party clown, and uses all of his free time getting seriously drunk. Binky, another clown, wins the spot on a local kiddie show, which depresses Shakes even more, and his boss threatens him with unemployment if he can't get his act under control.",
+        "release_date": "1991-03-13",
+        "release_year": "1991",
+        "title": "Shakes the Clown"
+      },
+      {
+        "cast": [
+          "Val Kilmer",
+          "Gabriel Jarret",
+          "Michelle Meyrink",
+          "William Atherton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martha Coolidge",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Chris is the top brain who just wants to party, Mitch is the 15-year-old college wiz kid. Supposedly hard at work on a lab project with a mysterious deadline, they still find time to use their genius to discover new ways to have fun.",
+        "release_date": "1985-08-07",
+        "release_year": "1985",
+        "title": "Real Genius"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Jack Albertson",
+          "Peter Ostrum",
+          "Roy Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Stuart",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Eccentric candy man Willy Wonka prompts a worldwide frenzy when he announces that golden tickets hidden inside five of his delicious candy bars will admit their lucky holders into his top-secret confectionary. But does Wonka have an agenda hidden amid a world of Oompa Loompas and chocolate rivers?",
+        "release_date": "1971-06-29",
+        "release_year": "1971",
+        "title": "Willy Wonka and the Chocolate Factory"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Ray Liotta",
+          "Joe Pesci",
+          "Lorraine Bracco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+        "release_date": "1990-09-12",
+        "release_year": "1990",
+        "title": "GoodFellas"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Reese Witherspoon",
+          "Chris Klein",
+          "Jessica Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alexander Payne",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A high school teacher's personal life becomes complicated as he works with students during the school elections.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Election"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Christopher Lloyd",
+          "Joanna Cassidy",
+          "Charles Fleischer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "'Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+        "release_date": "1988-06-21",
+        "release_year": "1988",
+        "title": "Who Framed Roger Rabbit?"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jon Voight",
+          "Emmanuelle Béart",
+          "Henry Czerny"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the No. 1 suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
+        "release_date": "1996-05-22",
+        "release_year": "1996",
+        "title": "Mission: Impossible"
+      },
+      {
+        "cast": [
+          "Eileen Brennan",
+          "Tim Curry",
+          "Madeline Kahn",
+          "Christopher Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Lynn",
+        "genres": [
+          "Comedy",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Clue finds six colorful dinner guests gathered at the mansion of their host, Mr. Boddy -- who turns up dead after his secret is exposed: He was blackmailing all of them. With the killer among them, the guests and Boddy's chatty butler must suss out the culprit before the body count rises.",
+        "release_date": "1985-12-13",
+        "release_year": "1985",
+        "title": "Clue"
+      },
+      {
+        "cast": [
+          "Warren Beatty",
+          "Al Pacino",
+          "Madonna",
+          "Charlie Korsmo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Warren Beatty",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "The comic strip detective finds his life vastly complicated when Breathless Mahoney makes advances towards him while he is trying to battle Big Boy Caprice's united mob,",
+        "release_date": "1990-06-15",
+        "release_year": "1990",
+        "title": "Dick Tracy"
+      }
+    ],
+    "raw_user_id": "454",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 212
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.3009607712292803
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that do not resonate with the user.",
+        "Dislike for films that mix genres in a way that does not appeal to the user."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend with other genres like drama and romance.",
+        "Strong preference for films that feature unique storytelling or unconventional narratives."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Drama (The user appreciates dramatic narratives, as indicated by several high ratings.); Action (The user shows a preference for action films, with some rated positively.); Documentary (The user has a strong appreciation for documentaries, reflected in a high rating.); Romance (The user enjoys romantic elements in films, as seen in their ratings.). Liked patterns: High ratings for comedies that blend with other genres like drama and romance., Strong preference for films that feature unique storytelling or unconventional narratives.. Disliked patterns: Low ratings for comedies that do not resonate with the user., Dislike for films that mix genres in a way that does not appeal to the user..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, as indicated by several high ratings.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows a preference for action films, with some rated positively.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user has a strong appreciation for documentaries, reflected in a high rating.",
+          "taste": "Documentary"
+        },
+        {
+          "reason": "The user enjoys romantic elements in films, as seen in their ratings.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 454
+  }
+}

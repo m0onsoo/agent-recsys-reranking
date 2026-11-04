@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "249e415d63fd1766bdc46ed4c9c485a48ea2e28a1e8adbe7a3bd1e3525029730",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1379,
+      481,
+      2482,
+      1652,
+      433,
+      383,
+      2914,
+      1026,
+      471,
+      1387
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "623dfba622b94ae5b8c2f60842861dae"
+    ],
+    "sampled_item_ids": [
+      133,
+      154,
+      222,
+      307,
+      316,
+      353,
+      357,
+      380,
+      522,
+      525,
+      536,
+      738,
+      794,
+      804,
+      826,
+      833,
+      874,
+      953,
+      1164,
+      1245,
+      1299,
+      1850,
+      1901,
+      2151,
+      2473
+    ],
+    "seed": 42,
+    "source_hash": "275dbf65551a98d168a0478a24a1eda6137a45394b14c09fa7677fcd500126bb",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3143,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "female",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Lemmon",
+          "James Garner",
+          "Dan Aykroyd",
+          "John Heard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Segal",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "They used to run the country. Now they're running for their lives! Two on-the-lam former Presidents of the United States. Framed in a scandal by the current President and pursued by armed agents, the two squabbling political foes plunge into a desperately frantic search for the evidence that will establish their innocence.",
+        "release_date": "1996-12-20",
+        "release_year": "1996",
+        "title": "My Fellow Americans"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Cameron Diaz",
+          "Dennis Quaid",
+          "James Woods"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A star quarterback gets knocked out of the game and an unknown third stringer is called in to replace him. The unknown gives a stunning performance and forces the aging coach to reevaluate his game plans and life. A new co-owner/president adds to the pressure of winning. The new owner must prove her self in a male dominated world.",
+        "release_date": "1999-12-16",
+        "release_year": "1999",
+        "title": "Any Given Sunday"
+      },
+      {
+        "cast": [
+          "Tsutomu Yamazaki",
+          "Nobuko Miyamoto",
+          "Ken Watanabe",
+          "Koji Yakusho"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Juzo Itami",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "Japanese",
+        "overview": "A pair of truck drivers happen onto a decrepit roadside fast food stop selling ramen noodles. The widowed owner, Tampopo, pleads them to help her turn her establishment into a paragon of the \"art of noodle soup making\".",
+        "release_date": "1985-11-23",
+        "release_year": "1986",
+        "title": "Tampopo"
+      },
+      {
+        "cast": [
+          "Philippe Noiret",
+          "Jacques Perrin",
+          "Marco Leonardi",
+          "Salvatore Cascio"
+        ],
+        "country": [
+          "Italy",
+          "France"
+        ],
+        "director": "Giuseppe Tornatore",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "Italian",
+        "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
+        "release_date": "1988-11-17",
+        "release_year": "1988",
+        "title": "Cinema Paradiso"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Nicolas Cage",
+          "Joan Allen",
+          "Alessandro Nivola"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.",
+        "release_date": "1997-06-27",
+        "release_year": "1997",
+        "title": "Face/Off"
+      },
+      {
+        "cast": [
+          "Hugh Grant",
+          "Andie MacDowell",
+          "James Fleet",
+          "Simon Callow"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Four Weddings And A Funeral is a British comedy about a British Man named Charles and an American Woman named Carrie who go through numerous weddings before they determine if they are right for one another.",
+        "release_date": "1994-03-09",
+        "release_year": "1994",
+        "title": "Four Weddings and a Funeral"
+      },
+      {
+        "cast": [
+          "Freddie Jones",
+          "Barbara Jefford",
+          "Fred Williams",
+          "Peter Cellier"
+        ],
+        "country": [
+          "Italy"
+        ],
+        "director": "Federico Fellini",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "Italian",
+        "overview": "In 1914, a cruise ship sets sail from Naples to spread the ashes of beloved opera singer Edmea Tetua near Erimo, the isle of her birth. During the voyage, the eclectic array of passengers discovers a group of Serbian refugees aboard the vessel. Peace and camaraderie abound until the ship is descended upon by an Austrian flagship. The Serbians are forced to board it, but naturally they resist, igniting a skirmish that ends in destruction.",
+        "release_date": "1983-10-06",
+        "release_year": "1984",
+        "title": "And the Ship Sails On (E la nave va)"
+      },
+      {
+        "cast": [
+          "Christina Ricci",
+          "Bill Pullman",
+          "Cathy Moriarty",
+          "Eric Idle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brad Silberling",
+        "genres": [
+          "Adventure",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "Furious that her late father only willed her his gloomy-looking mansion rather than his millions, Carrigan Crittenden is ready to burn the place to the ground when she discovers a map to a treasure hidden in the house. But when she enters the rickety mansion to seek her claim, she is frightened away by a wicked wave of ghosts. Determined to get her hands on this hidden fortune, she hires afterlife therapist Dr. James Harvey to exorcise the ghosts from the mansion. Harvey and his daughter Kat move in, and soon Kat meets Casper, the ghost of a young boy who's \"the friendliest ghost you know.\" But not so friendly are Casper's uncles--Stretch, Fatso and Stinkie--who are determined to drive all \"fleshies\" away.",
+        "release_date": "1995-05-26",
+        "release_year": "1995",
+        "title": "Casper"
+      },
+      {
+        "cast": [
+          "Ben Affleck",
+          "Joey Lauren Adams",
+          "Jason Lee",
+          "Dwight Ewell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Holden and Banky are comic book artists. Everything is going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's a lesbian.",
+        "release_date": "1997-04-04",
+        "release_year": "1997",
+        "title": "Chasing Amy"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Matthew Broderick",
+          "Kelly Preston",
+          "Tchéky Karyo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Griffin Dunne",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Good-natured astronomer Sam is devastated when the love of his life, Linda, leaves him for a suave Frenchman named Anton. He therefore does what every other normal dumpee would do; go to New York and set up home in the abandoned building opposite his ex-girlfriend's apartment, intent on winning her back and waiting until she decides to leave her current lover.",
+        "release_date": "1997-05-23",
+        "release_year": "1997",
+        "title": "Addicted to Love"
+      }
+    ],
+    "raw_user_id": "3143",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 170
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7201956945470629
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to films with low comedic value",
+        "Dislike for thrillers that lack engaging plots",
+        "Low ratings for films perceived as overly dramatic without resolution"
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies with romantic elements",
+        "High ratings for character-driven dramas",
+        "Consistent enjoyment of films with humor and emotional depth"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for emotional and narrative depth.); Enjoyment of Comedy (A significant number of comedies receive favorable ratings, suggesting a preference for humor and lighthearted storytelling.); Interest in Romance (Romantic elements in various films are well-received, showing an affinity for love stories.); Engagement with Thrillers (Thriller films are rated variably, indicating a mixed but notable interest in suspenseful narratives.); Preference for Character-Driven Stories (Many liked films focus on character development and personal journeys, reflecting a taste for intricate storytelling.). Liked patterns: Strong preference for comedies with romantic elements, High ratings for character-driven dramas, Consistent enjoyment of films with humor and emotional depth. Disliked patterns: Negative response to films with low comedic value, Dislike for thrillers that lack engaging plots, Low ratings for films perceived as overly dramatic without resolution.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for emotional and narrative depth.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "A significant number of comedies receive favorable ratings, suggesting a preference for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "Romantic elements in various films are well-received, showing an affinity for love stories.",
+          "taste": "Interest in Romance"
+        },
+        {
+          "reason": "Thriller films are rated variably, indicating a mixed but notable interest in suspenseful narratives.",
+          "taste": "Engagement with Thrillers"
+        },
+        {
+          "reason": "Many liked films focus on character development and personal journeys, reflecting a taste for intricate storytelling.",
+          "taste": "Preference for Character-Driven Stories"
+        }
+      ]
+    },
+    "user_id": 3143
+  }
+}

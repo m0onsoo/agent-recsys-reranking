@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "c26e109734d56ba9754f4cff1eeb561487768a083ac01cd07d389f3864a0d4b4",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1134,
+      244,
+      218,
+      844,
+      1559,
+      747,
+      793,
+      1603,
+      1213,
+      648
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      15,
+      94,
+      118,
+      135,
+      161,
+      163,
+      288,
+      471,
+      520,
+      530,
+      557,
+      631,
+      726,
+      792,
+      906,
+      910,
+      1074,
+      1146,
+      1243,
+      1393,
+      1434,
+      1571,
+      1671,
+      1929,
+      2163
+    ],
+    "seed": 42,
+    "source_hash": "62479178a2b945a65e3d2d27beb87c43eef9ed526f890d32440c19c2ad858b0d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5824,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Shatner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Capt. Kirk and his crew must deal with Mr. Spock's half brother who kidnaps three diplomats and hijacks the Enterprise in his obsessive search for God.",
+        "release_date": "1989-06-09",
+        "release_year": "1989",
+        "title": "Star Trek V: The Final Frontier"
+      },
+      {
+        "cast": [
+          "Trey Parker",
+          "Matt Stone",
+          "Mary Kay Bergman",
+          "Isaac Hayes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Trey Parker",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the four boys see an R-rated movie featuring Canadians Terrance and Philip, they are pronounced \"corrupted\", and their parents pressure the United States to wage war against Canada.",
+        "release_date": "1999-06-30",
+        "release_year": "1999",
+        "title": "South Park: Bigger, Longer and Uncut"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sean Bean",
+          "Izabella Scorupco",
+          "Famke Janssen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "James Bond must unmask the mysterious head of the Janus Syndicate and prevent the leader from utilizing the GoldenEye weapons system to inflict devastating revenge on Britain.",
+        "release_date": "1995-11-16",
+        "release_year": "1995",
+        "title": "GoldenEye"
+      },
+      {
+        "cast": [
+          "Nicole Kidman",
+          "Sam Neill",
+          "Billy Zane",
+          "George Shevtsov"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An Australian couple take a sailing trip in the Pacific to forget about a terrible accident. While on the open sea, in dead calm, they come across a ship with one survivor who is not at all what he seems.",
+        "release_date": "1989-04-07",
+        "release_year": "1989",
+        "title": "Dead Calm"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Dana Carvey",
+          "Christopher Walken",
+          "Tia Carrere"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Surjik",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A message from Jim Morrison in a dream prompts cable access TV stars Wayne and Garth to put on a rock concert, \"Waynestock,\" with Aerosmith as headliners. But amid the preparations, Wayne frets that a record producer is putting the moves on his girlfriend, Cassandra, while Garth handles the advances of mega-babe Honey Hornee.",
+        "release_date": "1993-12-10",
+        "release_year": "1993",
+        "title": "Wayne's World 2"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Forest Whitaker",
+          "Tung Thanh Tran",
+          "Chintara Sukapatana"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Radio funny man Adrian Cronauer is sent to Vietnam to bring a little comedy back into the lives of the soldiers. After setting up shop, Cronauer delights the G.I.s but shocks his superior officer, Sergeant Major Dickerson, with his irreverent take on the war. While Dickerson attempts to censor Cronauer's broadcasts, Cronauer pursues a relationship with a Vietnamese girl named Trinh, who shows him the horrors of war first-hand.",
+        "release_date": "1987-12-23",
+        "release_year": "1987",
+        "title": "Good Morning, Vietnam"
+      },
+      {
+        "cast": [
+          "Bubba Smith",
+          "David Graf",
+          "Michael Winslow",
+          "Leslie Easterbrook"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alan Myerson",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Police Academy misfits travel to Miami, Florida for their academy's commanding officer, Lassard, to receive a prestigious lifetime award pending his retirement, which takes a turn involving a group of jewel thieves after their stolen loot that Lassard unknowingly has in his possession.",
+        "release_date": "1988-03-17",
+        "release_year": "1988",
+        "title": "Police Academy 5: Assignment: Miami Beach"
+      },
+      {
+        "cast": [
+          "Rodney Dangerfield",
+          "Keith Gordon",
+          "William Zabka",
+          "Burt Young"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alan Metter",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Self-made millionaire Thornton Melon decides to get a better education and enrolls at his son Jason's college. While Jason tries to fit in with his fellow students, Thornton struggles to gain his son's respect, giving way to hilarious antics.",
+        "release_date": "1986-06-13",
+        "release_year": "1986",
+        "title": "Back to School"
+      },
+      {
+        "cast": [
+          "Michael Keaton",
+          "Danny DeVito",
+          "Michelle Pfeiffer",
+          "Christopher Walken"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Having defeated the Joker, Batman now faces the Penguin - a warped and deformed individual who is intent on being accepted into Gotham society. Crooked businessman Max Schreck is coerced into helping him become Mayor of Gotham and they both attempt to expose Batman in a different light. Selina Kyle, Max's secretary, is thrown from the top of a building and is transformed into Catwoman - a mysterious figure who has the same personality disorder as Batman. Batman must attempt to clear his name, all the time deciding just what must be done with the Catwoman.",
+        "release_date": "1992-06-19",
+        "release_year": "1992",
+        "title": "Batman Returns"
+      }
+    ],
+    "raw_user_id": "5824",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 440
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7037954300230703
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received comedies",
+        "Dislike for action films that lack depth or engaging plots"
+      ],
+      "liked_patterns": [
+        "Enjoyment of action-packed films with strong narratives",
+        "Preference for comedies that blend humor with other genres",
+        "Appreciation for dramas that delve into emotional and complex themes"
+      ],
+      "summary": "Unique tastes: Action and Thriller (The user enjoys high-stakes narratives with suspenseful elements, as seen in multiple action and thriller films.); Comedy with a mix of other genres (The user appreciates comedies that incorporate elements from other genres, such as action and romance.); Drama with emotional depth (The user favors dramas that explore complex themes and character development.); Romantic elements in various genres (The user enjoys films that blend romance with other genres, enhancing emotional engagement.); Musicals and light-hearted narratives (The user shows an appreciation for musicals and films that provide a feel-good experience.). Liked patterns: Enjoyment of action-packed films with strong narratives, Preference for comedies that blend humor with other genres, Appreciation for dramas that delve into emotional and complex themes. Disliked patterns: Dislike for poorly received comedies, Dislike for action films that lack depth or engaging plots.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-stakes narratives with suspenseful elements, as seen in multiple action and thriller films.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate elements from other genres, such as action and romance.",
+          "taste": "Comedy with a mix of other genres"
+        },
+        {
+          "reason": "The user favors dramas that explore complex themes and character development.",
+          "taste": "Drama with emotional depth"
+        },
+        {
+          "reason": "The user enjoys films that blend romance with other genres, enhancing emotional engagement.",
+          "taste": "Romantic elements in various genres"
+        },
+        {
+          "reason": "The user shows an appreciation for musicals and films that provide a feel-good experience.",
+          "taste": "Musicals and light-hearted narratives"
+        }
+      ]
+    },
+    "user_id": 5824
+  }
+}

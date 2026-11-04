@@ -1,0 +1,328 @@
+{
+  "checkpoint_hash": "e2c91f0b26e5b088fbd41a0baae392193b48a95e88a41a0c67547e7d34d6dcf9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      518,
+      2697,
+      318,
+      824,
+      2312,
+      39,
+      268,
+      16,
+      322,
+      394
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "c4bef300e9814cddbb3674820533065b"
+    ],
+    "sampled_item_ids": [
+      41,
+      48,
+      127,
+      168,
+      257,
+      316,
+      401,
+      429,
+      438,
+      481,
+      521,
+      955,
+      968,
+      1000,
+      1152,
+      1243,
+      1305,
+      1530,
+      1536,
+      1540,
+      1564,
+      1634,
+      1783,
+      2045,
+      2124
+    ],
+    "seed": 42,
+    "source_hash": "453e62dd5dab132e98c5e8c769b12de33306cc9233317b94b39071a28c3e0395",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 984,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ben Stiller",
+          "Robert De Niro",
+          "Teri Polo",
+          "Blythe Danner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Greg Focker is ready to marry his girlfriend, Pam, but before he pops the question, he must win over her formidable father, humorless former CIA agent Jack Byrnes, at the wedding of Pam's sister. As Greg bends over backward to make a good impression, his visit to the Byrnes home turns into a hilarious series of disasters, and everything that can go wrong does, all under Jack's critical, hawklike gaze.",
+        "release_date": "2000-10-06",
+        "release_year": "2000",
+        "title": "Meet the Parents"
+      },
+      {
+        "cast": [
+          "Chris Cooper",
+          "James Earl Jones",
+          "Mary McDonnell",
+          "Will Oldham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Sayles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Filmed in the coal country of West Virginia, \"Matewan\" celebrates labor organizing in the context of a 1920s work stoppage. Union organizer, Joe Kenehan, a scab named \"Few Clothes\" Johnson and a sympathetic mayor and police chief heroically fight the power represented by a coal company and Matewan's vested interests so that justice and workers' rights need not take a back seat to squalid working conditions, exploitation and the bottom line.",
+        "release_date": "1987-08-28",
+        "release_year": "1987",
+        "title": "Matewan"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Jeff Daniels",
+          "Anna Paquin",
+          "Dana Delany",
+          "Terry Kinney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Carroll Ballard",
+        "genres": [
+          "Adventure",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "Amy is only 13 years old when her mother is killed. She goes to Canada to live with her father, an eccentric inventor whom she barely knows. Amy is miserable in her new life... until she discovers a nest of goose eggs that were abandoned when a local forest is torn down. The eggs hatch and Amy becomes \"Mama Goose\". When Winter comes, Amy, and her dad must find a way to lead the birds South...",
+        "release_date": "1996-09-13",
+        "release_year": "1996",
+        "title": "Fly Away Home"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Ava Gardner",
+          "George Kennedy",
+          "Lorne Greene"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Robson",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Earthquake is a 1974 American disaster film that achieved huge box-office success, continuing the disaster film genre of the 1970s where recognizable all-star casts attempt to survive life or death situations. The plot concerns the struggle for survival after a catastrophic earthquake destroys most of the city of Los Angeles, California.",
+        "release_date": "1974-11-15",
+        "release_year": "1974",
+        "title": "Earthquake"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Samuel L. Jackson",
+          "Guy Pearce",
+          "Ben Kingsley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Friedkin",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Part war movie, part courtroom thriller, this gripping drama finds a war hero put on trial for a rescue mission gone terribly wrong with only his doubtful friend and fellow marine to represent him.",
+        "release_date": "2000-04-07",
+        "release_year": "2000",
+        "title": "Rules of Engagement"
+      },
+      {
+        "cast": [
+          "Robert Hays",
+          "Julie Hagerty",
+          "Kareem Abdul-Jabbar",
+          "Lloyd Bridges"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Abrahams",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Alcoholic pilot, Ted Striker has developed a fear of flying due to wartime trauma, but nevertheless boards a passenger jet in an attempt to woo back his stewardess girlfriend. Food poisoning decimates the passengers and crew, leaving it up to Striker to land the plane with the help of a glue-sniffing air traffic controller and Striker's vengeful former Air Force captain, who must both talk him down.",
+        "release_date": "1980-07-02",
+        "release_year": "1980",
+        "title": "Airplane!"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Robert Redford",
+          "Will Geer",
+          "Delle Bolton",
+          "Josh Albee"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "A mountain man who wishes to live the life of a hermit becomes the unwilling object of a long vendetta by Indians when he proves to be the match of their warriors in one-to-one combat on the early frontier.",
+        "release_date": "1972-09-10",
+        "release_year": "1972",
+        "title": "Jeremiah Johnson"
+      }
+    ],
+    "raw_user_id": "984",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 556
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4659889772632241
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for action films suggest a lack of interest in this genre.",
+        "A dislike for certain sci-fi films indicates that not all speculative narratives resonate with the viewer."
+      ],
+      "liked_patterns": [
+        "High ratings for drama and romance films suggest a preference for emotionally engaging stories.",
+        "A consistent appreciation for comedies indicates a liking for light-hearted and humorous content.",
+        "Positive ratings for films that blend genres, such as drama with romance or comedy, show a preference for multifaceted narratives."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Comedy (Enjoyment of comedic elements is reflected in several ratings, indicating a liking for humor in films.); Romance (A recurring theme of romance appears in many liked films, suggesting an appreciation for romantic storylines.); Thriller (Interest in thrillers is shown through ratings of films that incorporate suspense and tension.); Animation (A positive rating for animated films indicates an enjoyment of this genre, particularly those appealing to a broad audience.). Liked patterns: High ratings for drama and romance films suggest a preference for emotionally engaging stories., A consistent appreciation for comedies indicates a liking for light-hearted and humorous content., Positive ratings for films that blend genres, such as drama with romance or comedy, show a preference for multifaceted narratives.. Disliked patterns: Low ratings for action films suggest a lack of interest in this genre., A dislike for certain sci-fi films indicates that not all speculative narratives resonate with the viewer..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Enjoyment of comedic elements is reflected in several ratings, indicating a liking for humor in films.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "A recurring theme of romance appears in many liked films, suggesting an appreciation for romantic storylines.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "Interest in thrillers is shown through ratings of films that incorporate suspense and tension.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "A positive rating for animated films indicates an enjoyment of this genre, particularly those appealing to a broad audience.",
+          "taste": "Animation"
+        }
+      ]
+    },
+    "user_id": 984
+  }
+}

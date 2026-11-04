@@ -1,0 +1,327 @@
+{
+  "checkpoint_hash": "2b34ce12386f22b321c1fefff5b83140fc9dac9ba5a47bc49ecbfa991af8802c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1237,
+      770,
+      184,
+      643,
+      232,
+      248,
+      2034,
+      3051,
+      553,
+      23
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      16,
+      23,
+      90,
+      105,
+      184,
+      204,
+      397,
+      401,
+      453,
+      490,
+      548,
+      553,
+      586,
+      598,
+      677,
+      700,
+      724,
+      728,
+      770,
+      771,
+      876,
+      1195,
+      1504,
+      2034
+    ],
+    "seed": 42,
+    "source_hash": "41d9d0edbf52c29fdd52934a969c6abdfc43a0d9827c25aa3830daa3be0ce71a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5248,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "female",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Lemmon",
+          "Walter Matthau",
+          "John Fiedler",
+          "Herb Edelman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gene Saks",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Felix Ungar has just broken up with his wife. Despondent, he goes to kill himself but is saved by his friend Oscar Madison. With nowhere else to go, Felix is urged by Oscar to move in with him, at least for a while. The only problem is that Felix is neat, tidy, and neurotic, whereas Oscar is slovenly and casual.",
+        "release_date": "1968-02-07",
+        "release_year": "1968",
+        "title": "Odd Couple, The"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Sarah Jessica Parker",
+          "Victoria Tennant",
+          "Richard E. Grant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mick Jackson",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "With the help of a talking freeway billboard, a \"wacky weatherman\" tries to win the heart of an English newspaper reporter, who is struggling to make sense of the strange world of early-90s Los Angeles.",
+        "release_date": "1991-02-08",
+        "release_year": "1991",
+        "title": "L.A. Story"
+      },
+      {
+        "cast": [
+          "John Cleese",
+          "Jamie Lee Curtis",
+          "Kevin Kline",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Charles Crichton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A diamond advocate is attempting to steal a collection of diamonds, yet troubles arise when he realizes that he is not the only one after the diamonds.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Fish Called Wanda, A"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Alec Baldwin",
+          "Winona Ryder",
+          "Michael Keaton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Thanks to an untimely demise via drowning, a young couple end up as poltergeists in their New England farmhouse, where they fail to meet the challenge of scaring away the insufferable new owners, who want to make drastic changes. In desperation, the undead newlyweds turn to an expert frightmeister, but he's got a diabolical agenda of his own.",
+        "release_date": "1988-02-29",
+        "release_year": "1988",
+        "title": "Beetlejuice"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Eddie Murphy",
+          "Heather Graham",
+          "Christine Baranski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On the verge of bankruptcy and desperate for his big break, aspiring filmmaker Bobby Bowfinger concocts a crazy plan to make his ultimate dream movie. Rallying a ragtag team that includes a starry-eyed ingenue, a has-been diva and a film studio gofer, he sets out to shoot a blockbuster featuring the biggest star in Hollywood, Kit Ramsey -- only without letting Ramsey know he's in the picture.",
+        "release_date": "1999-08-12",
+        "release_year": "1999",
+        "title": "Bowfinger"
+      },
+      {
+        "cast": [
+          "Eileen Atkins",
+          "Kate Beckinsale",
+          "Sheila Burrell",
+          "Stephen Fry"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In this adaptation of the satirical British novel, Flora Poste, a plucky London society girl orphaned at age 19, finds a new home with some rough relatives, the Starkadders of Cold Comfort Farm. With a take-charge attitude and some encouragement from her mischievous friend, Mary, Flora changes the Starkadders' lives forever when she settles into their rustic estate, bringing the backward clan up to date and finding inspiration for her novel in the process.",
+        "release_date": "1995-01-01",
+        "release_year": "1995",
+        "title": "Cold Comfort Farm"
+      },
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Youki Kudoh",
+          "Reeve Carney",
+          "Anne Suzuki"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Scott Hicks",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Japanese-American fisherman may have killed his neighbor Carl at sea. In the 1950s, race figures in the trial. So does reporter Ishmael.",
+        "release_date": "1999-12-22",
+        "release_year": "1999",
+        "title": "Snow Falling on Cedars"
+      },
+      {
+        "cast": [
+          "Sarah Polley",
+          "Stephen Rea",
+          "Jean Smart",
+          "Gina Gershon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Audrey Wells",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A young girl from an affluent family rebels and becomes involved with a much older photographer.",
+        "release_date": "1999-09-04",
+        "release_year": "1999",
+        "title": "Guinevere"
+      },
+      {
+        "cast": [
+          "Albert Brooks",
+          "Meryl Streep",
+          "Rip Torn",
+          "Lee Grant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Albert Brooks",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In an afterlife resembling the present-day US, people must prove their worth by showing in court how they have demonstrated courage.",
+        "release_date": "1991-03-22",
+        "release_year": "1991",
+        "title": "Defending Your Life"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      }
+    ],
+    "raw_user_id": "5248",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 81
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.2687992799301215
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for straightforward comedies without depth.",
+        "Dislike for comedies that lack engaging storylines."
+      ],
+      "liked_patterns": [
+        "High ratings for romantic comedies and feel-good films.",
+        "Preference for comedies that blend humor with drama.",
+        "Consistent enjoyment of films featuring strong character arcs."
+      ],
+      "summary": "Unique tastes: Romantic Comedies (The user enjoys films that blend romance with humor, often rating them highly.); Comedies with Strong Character Development (The user appreciates comedies that feature well-developed characters and emotional depth.); Dramatic Elements in Comedies (The user favors comedies that incorporate dramatic themes, enhancing the overall narrative.); Nostalgic and Classic Comedies (The user shows a preference for comedies that are considered nostalgic or have a classic feel.); Feel-Good Movies (The user tends to rate films that evoke positive emotions and uplifting themes favorably.). Liked patterns: High ratings for romantic comedies and feel-good films., Preference for comedies that blend humor with drama., Consistent enjoyment of films featuring strong character arcs.. Disliked patterns: Low ratings for straightforward comedies without depth., Dislike for comedies that lack engaging storylines..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend romance with humor, often rating them highly.",
+          "taste": "Romantic Comedies"
+        },
+        {
+          "reason": "The user appreciates comedies that feature well-developed characters and emotional depth.",
+          "taste": "Comedies with Strong Character Development"
+        },
+        {
+          "reason": "The user favors comedies that incorporate dramatic themes, enhancing the overall narrative.",
+          "taste": "Dramatic Elements in Comedies"
+        },
+        {
+          "reason": "The user shows a preference for comedies that are considered nostalgic or have a classic feel.",
+          "taste": "Nostalgic and Classic Comedies"
+        },
+        {
+          "reason": "The user tends to rate films that evoke positive emotions and uplifting themes favorably.",
+          "taste": "Feel-Good Movies"
+        }
+      ]
+    },
+    "user_id": 5248
+  }
+}

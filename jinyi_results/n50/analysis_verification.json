@@ -1,0 +1,22 @@
+{
+  "behavior_prompt_hashes_match": true,
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 42,
+  "commit": "ec7fac99713dc7b91ea9c39e1663b3da361c243c",
+  "cross_run_config_differences": [
+    "input_cost_per_million",
+    "llm_model",
+    "max_cost_usd",
+    "output_cost_per_million",
+    "output_root",
+    "reasoning_effort",
+    "request_timeout_seconds",
+    "temperature"
+  ],
+  "git_status": "M agent_reranking/agent.py\n M agent_reranking/client.py\n M agent_reranking/merge.py\n M agent_reranking/profiles.py\n M agent_reranking/runner.py\n?? agent_reranking_bench.egg-info/",
+  "panel_sha256": "eb26776de223ef302470ce2e26350029923b266de76bde38c62ad3e871728116",
+  "profile_and_slate_hashes_match_all_150_pairs": true,
+  "profile_sha256": "83a357a6e7c00d4867cc58e4d0e1f0ac2d341d2c2123e794d66508e78620ed11",
+  "repository_final_gate_passed": false,
+  "wrapper_sha256": "258581d109a5a910c7a94c40070f57e0a6975492c7ade23db587a440376d5397"
+}

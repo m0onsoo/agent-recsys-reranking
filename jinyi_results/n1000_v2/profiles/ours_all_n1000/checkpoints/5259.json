@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "70830d3cc09955eb34bd25d84acc794a61e8032acf23f824d737f8f6f87bac6c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      105,
+      79,
+      662,
+      136,
+      2708,
+      8,
+      102,
+      547,
+      393,
+      1559
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      8,
+      28,
+      48,
+      53,
+      79,
+      102,
+      105,
+      129,
+      136,
+      140,
+      168,
+      257,
+      322,
+      365,
+      384,
+      393,
+      421,
+      435,
+      642,
+      663,
+      717,
+      1559,
+      1731,
+      1860,
+      2708
+    ],
+    "seed": 42,
+    "source_hash": "abcb298cb41fa04ce77b2c9fd1781dd8c1939d64d2a1a402f3bb8e0816996710",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5259,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Alec Baldwin",
+          "Sean Connery",
+          "Scott Glenn",
+          "Sam Neill"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A new Soviet nuclear missile sub (a Boomer) heading out on her maiden voyage that is being tracked by a Los Angeles class American submarine suddenly goes silent and \"disappears\". This focuses the attention of both U.S. Intelligence and the U.S. Navy on the Russian Sub Commander .  When it is determined that the silent Soviet Boomer may be headed for American coastal waters panic ensues. A CIA analyst, Jack Ryan,  convinces the brass that the Boomer's commander may intend something other than a nuclear first strike in mind. A perilous and tense cat-and-mouse game ensues.",
+        "release_date": "1990-03-02",
+        "release_year": "1990",
+        "title": "Hunt for Red October, The"
+      },
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "John Randolph Jones",
+          "Jack Kehoe",
+          "Biff McGuire"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The real-life struggle of an honest New York City cop against a corrupt system.",
+        "release_date": "1973-12-05",
+        "release_year": "1973",
+        "title": "Serpico"
+      },
+      {
+        "cast": [
+          "Hossein Mahjoub",
+          "Mohsen Ramezani",
+          "Salameh Feyzi",
+          "Farahnaz Safari"
+        ],
+        "country": [
+          "Iran"
+        ],
+        "director": "Majid Majidi",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Persian",
+        "overview": "The story revolves around a blind boy named Mohammed who is released from his special school in Tehran for summer vacation. His father, shamed and burdened by Mohammed's blindness, arrives late to pick him up and then tries to convince the headmaster to keep Mohammed over the summer. The headmaster refuses, so Mohammed's father eventually takes him home.",
+        "release_date": "1999-02-08",
+        "release_year": "1999",
+        "title": "Color of Paradise, The (Rang-e Khoda)"
+      },
+      {
+        "cast": [
+          "Melinda Dillon",
+          "Darren McGavin",
+          "Peter Billingsley",
+          "Jean Shepherd"
+        ],
+        "country": [
+          "United States of America",
+          "Canada"
+        ],
+        "director": "Bob Clark",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The comic mishaps and adventures of a young boy named Ralph, trying to convince his parents, teachers, and Santa that a Red Ryder B.B. gun really is the perfect Christmas gift for the 1940s.",
+        "release_date": "1983-11-18",
+        "release_year": "1983",
+        "title": "Christmas Story, A"
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Karl Malden",
+          "Lee J. Cobb",
+          "Rod Steiger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Elia Kazan",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Terry Malloy dreams about being a prize fighter, while tending his pigeons and running errands at the docks for Johnny Friendly, the corrupt boss of the dockers union. Terry witnesses a murder by two of Johnny's thugs, and later meets the dead man's sister and feels responsible for his death. She introduces him to Father Barry, who tries to force him to provide information for the courts that will smash the dock racketeers.",
+        "release_date": "1954-06-22",
+        "release_year": "1954",
+        "title": "On the Waterfront"
+      },
+      {
+        "cast": [
+          "Jürgen Prochnow",
+          "Herbert Grönemeyer",
+          "Klaus Wennemann",
+          "Hubertus Bengsch"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "German",
+        "overview": "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.",
+        "release_date": "1981-09-16",
+        "release_year": "1981",
+        "title": "Boat, The (Das Boot)"
+      },
+      {
+        "cast": [
+          "Cher",
+          "Nicolas Cage",
+          "Vincent Gardenia",
+          "Olympia Dukakis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Jewison",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Cher is devastatingly funny, sinuous and beautiful as Loretta, an unlucky-in-love Italian widow who finds romance through the intervention of the Manhattan moon. With her wedding to a close friend just weeks away, she meets - and falls hopelessly in love with - his younger brother (Cage)!",
+        "release_date": "1987-12-18",
+        "release_year": "1987",
+        "title": "Moonstruck"
+      },
+      {
+        "cast": [
+          "Nicole Kidman",
+          "Sam Neill",
+          "Billy Zane",
+          "George Shevtsov"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An Australian couple take a sailing trip in the Pacific to forget about a terrible accident. While on the open sea, in dead calm, they come across a ship with one survivor who is not at all what he seems.",
+        "release_date": "1989-04-07",
+        "release_year": "1989",
+        "title": "Dead Calm"
+      }
+    ],
+    "raw_user_id": "5259",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 28
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4903345749154045
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 10
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily Action without strong narrative elements",
+        "Negative response to films that lack character development or emotional depth"
+      ],
+      "liked_patterns": [
+        "Strong preference for Drama films with high emotional impact",
+        "Enjoyment of films that combine Comedy with serious themes",
+        "Interest in Crime and Thriller narratives that explore moral complexities"
+      ],
+      "summary": "Unique tastes: Preference for Drama (The majority of highly rated films belong to the Drama genre, indicating a strong affinity for character-driven narratives.); Appreciation for Crime and Thriller elements (Several liked films incorporate Crime and Thriller elements, suggesting an interest in suspenseful and morally complex stories.); Enjoyment of Comedic elements in Drama (Films that blend Comedy with Drama received favorable ratings, showing a preference for humor intertwined with serious themes.); Interest in Romantic narratives (Romantic elements in Drama films are well-received, indicating a liking for emotional and relational depth.); Favoring strong storytelling and character development (High ratings for films with profound storytelling and character arcs reflect a preference for depth in cinematic experiences.). Liked patterns: Strong preference for Drama films with high emotional impact, Enjoyment of films that combine Comedy with serious themes, Interest in Crime and Thriller narratives that explore moral complexities. Disliked patterns: Dislike for films that are primarily Action without strong narrative elements, Negative response to films that lack character development or emotional depth.",
+      "unique_tastes": [
+        {
+          "reason": "The majority of highly rated films belong to the Drama genre, indicating a strong affinity for character-driven narratives.",
+          "taste": "Preference for Drama"
+        },
+        {
+          "reason": "Several liked films incorporate Crime and Thriller elements, suggesting an interest in suspenseful and morally complex stories.",
+          "taste": "Appreciation for Crime and Thriller elements"
+        },
+        {
+          "reason": "Films that blend Comedy with Drama received favorable ratings, showing a preference for humor intertwined with serious themes.",
+          "taste": "Enjoyment of Comedic elements in Drama"
+        },
+        {
+          "reason": "Romantic elements in Drama films are well-received, indicating a liking for emotional and relational depth.",
+          "taste": "Interest in Romantic narratives"
+        },
+        {
+          "reason": "High ratings for films with profound storytelling and character arcs reflect a preference for depth in cinematic experiences.",
+          "taste": "Favoring strong storytelling and character development"
+        }
+      ]
+    },
+    "user_id": 5259
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "b56973baab4c16b4ce8bf1612030d40ecaf640f8d190b95fa750e34883b60ab1",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      20,
+      718,
+      559,
+      2671,
+      613,
+      748,
+      759,
+      515,
+      61,
+      643
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      20,
+      61,
+      409,
+      425,
+      432,
+      559,
+      569,
+      570,
+      574,
+      613,
+      623,
+      629,
+      643,
+      656,
+      674,
+      690,
+      721,
+      740,
+      748,
+      755,
+      759,
+      768,
+      796,
+      1903,
+      2265
+    ],
+    "seed": 42,
+    "source_hash": "b94072763cb3f5cd564ad3f17274fa702c5961a4070912745cc183de26333d3e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5218,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Hanks",
+          "Elizabeth Perkins",
+          "Robert Loggia",
+          "John Heard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young boy, Josh Baskin makes a wish at a carnival machine to be big. He wakes up the following morning to find that it has been granted and his body has grown older overnight. But he is still the same 13-year-old boy inside. Now he must learn how to cope with the unfamiliar world of grown-ups including getting a job and having his first romantic encounter with a woman. What will he find out about this strange world?",
+        "release_date": "1988-06-03",
+        "release_year": "1988",
+        "title": "Big"
+      },
+      {
+        "cast": [
+          "Sean Astin",
+          "Josh Brolin",
+          "Jeff Cohen",
+          "Corey Feldman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young teenager named Mikey Walsh finds an old treasure map in his father's attic. Hoping to save their homes from demolition, Mikey and his friends Data Wang, Chunk Cohen, and Mouth Devereaux run off on a big quest to find the secret stash of Pirate One-Eyed Willie.",
+        "release_date": "1985-06-06",
+        "release_year": "1985",
+        "title": "Goonies, The"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Marcia Strassman",
+          "Matt Frewer",
+          "Kristine Sutherland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Johnston",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The scientist father of a teenage girl and boy accidentally shrinks his and two other neighborhood teens to the size of insects. Now the teens must fight diminutive dangers as the father searches for them.",
+        "release_date": "1989-06-22",
+        "release_year": "1989",
+        "title": "Honey, I Shrunk the Kids"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Hal Holbrook",
+          "Julianne Phillips",
+          "R. Lee Ermey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Ritchie",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Fletch is a fish out of water in small-town Louisiana, where he's checking out a tumbledown mansion he's inherited. When a woman he flirts with turns up dead, Fletch becomes a suspect and must find the killer and clear his name. In the meantime, he's got some serious home-ownership issues, such as termites and weird neighbors.",
+        "release_date": "1989-03-17",
+        "release_year": "1989",
+        "title": "Fletch Lives"
+      },
+      {
+        "cast": [
+          "Bobby Driscoll",
+          "Kathryn Beaumont",
+          "Hans Conried",
+          "Bill Thompson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Fantasy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Leaving the safety of their nursery behind, Wendy, Michael and John follow Peter Pan to a magical world where childhood lasts forever. But while in Neverland, the kids must face Captain Hook and foil his attempts to get rid of Peter for good.",
+        "release_date": "1953-02-05",
+        "release_year": "1953",
+        "title": "Peter Pan"
+      },
+      {
+        "cast": [
+          "Jay Underwood",
+          "Fred Savage",
+          "Bonnie Bedelia",
+          "Colleen Dewhurst"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Nick Castle",
+        "genres": [
+          "Drama",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Milly and Louis, and their recently-widowed mom, Charlene, move to a new neighborhood. Once there, they all deal with a variety of personal problems, but Milly finds a friend in Eric, her autistic next door neighbor. Eric has a fascination with flight, and as the story progresses, he exerts an enthralling force of change on all those around him.",
+        "release_date": "1986-08-15",
+        "release_year": "1986",
+        "title": "Boy Who Could Fly, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "John Cleese",
+          "Shelley Duvall",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Young history buff Kevin can scarcely believe it when six dwarfs emerge from his closet one night. Former employees of the Supreme Being, they've purloined a map charting all of the holes in the fabric of time and are using it to steal treasures from different historical eras. Taking Kevin with them, they variously drop in on Napoleon, Robin Hood and King Agamemnon before the Supreme Being catches up with them.",
+        "release_date": "1981-07-13",
+        "release_year": "1981",
+        "title": "Time Bandits"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Cameron Diaz",
+          "Nancy Fish",
+          "Tim Bagley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chuck Russell",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "When timid bank clerk Stanley Ipkiss discovers a magical mask containing the spirit of the Norse god Loki, his entire life changes. While wearing the mask, Ipkiss becomes a supernatural playboy exuding charm and confidence which allows him to catch the eye of local nightclub singer Tina Carlyle. Unfortunately, under the mask's influence, Ipkiss also robs a bank, which angers junior crime lord Dorian Tyrell, whose goons get blamed for the heist.",
+        "release_date": "1994-07-29",
+        "release_year": "1994",
+        "title": "Mask, The"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Alec Baldwin",
+          "Winona Ryder",
+          "Michael Keaton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Thanks to an untimely demise via drowning, a young couple end up as poltergeists in their New England farmhouse, where they fail to meet the challenge of scaring away the insufferable new owners, who want to make drastic changes. In desperation, the undead newlyweds turn to an expert frightmeister, but he's got a diabolical agenda of his own.",
+        "release_date": "1988-02-29",
+        "release_year": "1988",
+        "title": "Beetlejuice"
+      }
+    ],
+    "raw_user_id": "5218",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 36
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3896353028852149
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that do not effectively combine fantasy or adventure elements, as seen in lower-rated titles."
+      ],
+      "liked_patterns": [
+        "Strong preference for fantasy and adventure genres, often combined with children's themes.",
+        "Enjoyment of films that feature comedic elements alongside fantasy and adventure.",
+        "High ratings for movies that blend multiple genres, particularly fantasy, adventure, and children's content."
+      ],
+      "summary": "Unique tastes: Fantasy (A strong preference for fantasy elements is evident, with many movies featuring magical or imaginative themes.); Children's (A notable inclination towards children's films, indicating enjoyment of family-friendly content.); Adventure (A consistent appreciation for adventure narratives, often intertwined with fantasy and children's themes.); Comedy (A liking for comedic elements, particularly in films that also incorporate fantasy or children's themes.); Action (An interest in action-oriented films, especially those that blend with fantasy and adventure.). Liked patterns: Strong preference for fantasy and adventure genres, often combined with children's themes., Enjoyment of films that feature comedic elements alongside fantasy and adventure., High ratings for movies that blend multiple genres, particularly fantasy, adventure, and children's content.. Disliked patterns: Dislike for films that do not effectively combine fantasy or adventure elements, as seen in lower-rated titles..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for fantasy elements is evident, with many movies featuring magical or imaginative themes.",
+          "taste": "Fantasy"
+        },
+        {
+          "reason": "A notable inclination towards children's films, indicating enjoyment of family-friendly content.",
+          "taste": "Children's"
+        },
+        {
+          "reason": "A consistent appreciation for adventure narratives, often intertwined with fantasy and children's themes.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "A liking for comedic elements, particularly in films that also incorporate fantasy or children's themes.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "An interest in action-oriented films, especially those that blend with fantasy and adventure.",
+          "taste": "Action"
+        }
+      ]
+    },
+    "user_id": 5218
+  }
+}

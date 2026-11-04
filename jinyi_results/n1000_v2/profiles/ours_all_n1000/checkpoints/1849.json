@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "e9bcf10fe1efde615b3a9958c1867ebe00bd263bef4221c477ec14bfed9d3533",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      49,
+      63,
+      6,
+      190,
+      547,
+      98,
+      93,
+      434,
+      1712,
+      241
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "84b83910cb9b427da6dcc0268bcee8d3"
+    ],
+    "sampled_item_ids": [
+      6,
+      49,
+      61,
+      63,
+      91,
+      93,
+      98,
+      114,
+      123,
+      129,
+      133,
+      156,
+      190,
+      241,
+      265,
+      434,
+      547,
+      756,
+      1257,
+      1712
+    ],
+    "seed": 42,
+    "source_hash": "2b2d180e9bb4fb27c4a15f002ae7dc6a1b78cc5621c3d1d3136a1498fae3d936",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1849,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Jürgen Prochnow",
+          "Herbert Grönemeyer",
+          "Klaus Wennemann",
+          "Hubertus Bengsch"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "German",
+        "overview": "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.",
+        "release_date": "1981-09-16",
+        "release_year": "1981",
+        "title": "Boat, The (Das Boot)"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Rene Russo",
+          "John Malkovich",
+          "Dylan McDermott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Veteran Secret Service agent Frank Horrigan is a man haunted by his failure to save President Kennedy while serving protection detail in Dallas. Thirty years later, a man calling himself \"Booth\" threatens the life of the current President, forcing Horrigan to come back to protection detail to confront the ghosts from his past.",
+        "release_date": "1993-07-08",
+        "release_year": "1993",
+        "title": "In the Line of Fire"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "J.T. Walsh",
+          "Kathleen Quinlan",
+          "M.C. Gainey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Mostow",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When his SUV breaks down on a remote Southwestern road, Jeff Taylor lets his wife, Amy, hitch a ride with a trucker to get help. When she doesn't return, Jeff fixes his SUV and tracks down the trucker -- who tells the police he's never seen Amy. Johnathan Mostow's tense thriller then follows Jeff's desperate search for his wife, which eventually uncovers a small town's murderous secret.",
+        "release_date": "1997-05-02",
+        "release_year": "1997",
+        "title": "Breakdown"
+      },
+      {
+        "cast": [
+          "Samuel L. Jackson",
+          "Kevin Spacey",
+          "David Morse",
+          "Ron Rifkin"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "F. Gary Gray",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The police try to arrest expert hostage negotiator Danny Roman, who insists he's being framed for his partner's murder in what he believes is an elaborate conspiracy. Thinking there's evidence in the Internal Affairs offices that might clear him, he takes everyone in the office hostage and demands that another well-known negotiator be brought in to handle the situation and secretly investigate the conspiracy.",
+        "release_date": "1998-07-29",
+        "release_year": "1998",
+        "title": "Negotiator, The"
+      }
+    ],
+    "raw_user_id": "1849",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 20
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4278615861369524
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 10
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that lack engaging plots or character development",
+        "Negative response to films that are overly serious without balance",
+        "Dislike for poorly executed thrillers or action films"
+      ],
+      "liked_patterns": [
+        "Strong preference for action-packed narratives",
+        "Enjoyment of films with dramatic and emotional depth",
+        "Appreciation for films that blend genres, particularly action with sci-fi and comedy"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventurous elements.); Thriller Elements (The user appreciates films that incorporate suspense and tension, particularly in action contexts.); War Themes (The user is drawn to narratives that explore the complexities and emotional weight of war.); Sci-Fi Integration (The user favors films that blend action with science fiction, enhancing the excitement with imaginative concepts.); Comedy in Action (The user enjoys action films that also incorporate comedic elements, providing a lighter tone.). Liked patterns: Strong preference for action-packed narratives, Enjoyment of films with dramatic and emotional depth, Appreciation for films that blend genres, particularly action with sci-fi and comedy. Disliked patterns: Dislike for films that lack engaging plots or character development, Negative response to films that are overly serious without balance, Dislike for poorly executed thrillers or action films.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventurous elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that incorporate suspense and tension, particularly in action contexts.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user is drawn to narratives that explore the complexities and emotional weight of war.",
+          "taste": "War Themes"
+        },
+        {
+          "reason": "The user favors films that blend action with science fiction, enhancing the excitement with imaginative concepts.",
+          "taste": "Sci-Fi Integration"
+        },
+        {
+          "reason": "The user enjoys action films that also incorporate comedic elements, providing a lighter tone.",
+          "taste": "Comedy in Action"
+        }
+      ]
+    },
+    "user_id": 1849
+  }
+}

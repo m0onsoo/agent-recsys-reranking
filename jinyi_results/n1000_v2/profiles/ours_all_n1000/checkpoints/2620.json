@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "dd635cf365f03227e39a0e0fdc6c482728f064d06838d8acb02bd597404ca6e3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      184,
+      129,
+      896,
+      40,
+      1251,
+      490,
+      118,
+      844,
+      994,
+      196
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "c95b0d617dae42c1a6e0fb09d8c64ba2"
+    ],
+    "sampled_item_ids": [
+      23,
+      24,
+      92,
+      108,
+      114,
+      129,
+      138,
+      210,
+      211,
+      218,
+      265,
+      387,
+      490,
+      519,
+      569,
+      587,
+      756,
+      904,
+      949,
+      1102,
+      1229,
+      1272,
+      1679,
+      1724,
+      1835
+    ],
+    "seed": 42,
+    "source_hash": "a30ae380b0f1f2f02603904e6c8d5c8be88a913f9a760e8ae9d82ed2a1182af1",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2620,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Cleese",
+          "Jamie Lee Curtis",
+          "Kevin Kline",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Charles Crichton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A diamond advocate is attempting to steal a collection of diamonds, yet troubles arise when he realizes that he is not the only one after the diamonds.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Fish Called Wanda, A"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Gary Oldman",
+          "Glenn Close",
+          "Wendy Crewson"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Russian terrorists conspire to hijack the aircraft with the president and his family on board. The commander in chief finds himself facing an impossible predicament: give in to the terrorists and sacrifice his family, or risk everything to uphold his principles - and the integrity of the nation.",
+        "release_date": "1997-07-25",
+        "release_year": "1997",
+        "title": "Air Force One"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Bill Paxton",
+          "Kevin Bacon",
+          "Gary Sinise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of technical troubles that scuttle the Apollo 13 lunar mission in 1971, risking the lives of astronaut Jim Lovell and his crew, with the failed journey turning into a thrilling saga of heroism. Drifting more than 200,000 miles from Earth, the astronauts work furiously with the ground crew to avert tragedy.",
+        "release_date": "1995-06-30",
+        "release_year": "1995",
+        "title": "Apollo 13"
+      },
+      {
+        "cast": [
+          "Jean-Claude Van Damme",
+          "Dolph Lundgren",
+          "Ally Walker",
+          "Ed O'Ross"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An American soldier who had been killed during the Vietnam War is revived 25 years later by the military as a semi-android, UniSols, a high-tech soldier of the future. After the failure of the initiative to erase all the soldier's memories, he begins to experience flashbacks that are forcing him to recall his past.",
+        "release_date": "1992-07-10",
+        "release_year": "1992",
+        "title": "Universal Soldier"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Diane Keaton",
+          "Andy García",
+          "Talia Shire"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
+        "release_date": "1990-12-24",
+        "release_year": "1990",
+        "title": "Godfather: Part III, The"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Bonnie Bedelia",
+          "William Atherton",
+          "Reginald VelJohnson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "John McClane is an off-duty cop gripped with a feeling of déjà vu when on a snowy Christmas Eve in the nation's capital, terrorists seize a major international airport, holding thousands of holiday travelers hostage. Renegade military commandos led by a murderous rogue officer plot to rescue a drug lord from justice and are prepared for every contingency except one: McClane's smart-mouthed heroics.",
+        "release_date": "1990-07-02",
+        "release_year": "1990",
+        "title": "Die Hard 2"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sean Bean",
+          "Izabella Scorupco",
+          "Famke Janssen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "James Bond must unmask the mysterious head of the Janus Syndicate and prevent the leader from utilizing the GoldenEye weapons system to inflict devastating revenge on Britain.",
+        "release_date": "1995-11-16",
+        "release_year": "1995",
+        "title": "GoldenEye"
+      },
+      {
+        "cast": [
+          "Vin Diesel",
+          "Radha Mitchell",
+          "Cole Hauser",
+          "Lewis Fitz-Gerald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Twohy",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When their ship crash-lands on a remote planet, the marooned passengers soon learn that escaped convict Riddick isn't the only thing they have to fear. Deadly creatures lurk in the shadows, waiting to attack in the dark, and the planet is rapidly plunging into the utter blackness of a total eclipse. With the body count rising, the doomed survivors are forced to turn to Riddick with his eerie eyes to guide them through the darkness to safety. With time running out, there's only one rule: Stay in the light.",
+        "release_date": "2000-02-18",
+        "release_year": "2000",
+        "title": "Pitch Black"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Nicolas Cage",
+          "Ed Harris",
+          "John Spencer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A group of renegade marine commandos seizes a stockpile of chemical weapons and takes over Alcatraz, with 81 tourists as hostages. Their leader demands $100 million to be paid, as restitution to families of Marines who died in covert ops – or he will launch 15 rockets carrying deadly VX gas into the San Francisco Bay area.",
+        "release_date": "1996-06-06",
+        "release_year": "1996",
+        "title": "Rock, The"
+      }
+    ],
+    "raw_user_id": "2620",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 126
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.869732295669755
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for children's action films that do not resonate with their taste.",
+        "Negative reception of films that fail to combine action with engaging narratives."
+      ],
+      "liked_patterns": [
+        "Preference for action films that blend with other genres like sci-fi and drama.",
+        "Enjoyment of films that feature strong character arcs and emotional depth.",
+        "Tendency to rate thrillers highly when they include elements of suspense and mystery."
+      ],
+      "summary": "Unique tastes: Action and Sci-Fi (The user enjoys a combination of action and science fiction elements, as seen in multiple highly rated films.); Drama with strong themes (The user appreciates dramas that explore deep themes and character development, reflected in their high ratings for such films.); Thrillers with suspense (The user favors thrillers that build suspense and tension, indicated by their positive ratings for several films in this genre.); Romantic elements in action (The user enjoys action films that incorporate romantic subplots, as evidenced by their ratings for films that blend these genres.); Historical and war narratives (The user shows a preference for films that depict historical events or war, as indicated by their high ratings for dramas in this category.). Liked patterns: Preference for action films that blend with other genres like sci-fi and drama., Enjoyment of films that feature strong character arcs and emotional depth., Tendency to rate thrillers highly when they include elements of suspense and mystery.. Disliked patterns: Dislike for children's action films that do not resonate with their taste., Negative reception of films that fail to combine action with engaging narratives..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a combination of action and science fiction elements, as seen in multiple highly rated films.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates dramas that explore deep themes and character development, reflected in their high ratings for such films.",
+          "taste": "Drama with strong themes"
+        },
+        {
+          "reason": "The user favors thrillers that build suspense and tension, indicated by their positive ratings for several films in this genre.",
+          "taste": "Thrillers with suspense"
+        },
+        {
+          "reason": "The user enjoys action films that incorporate romantic subplots, as evidenced by their ratings for films that blend these genres.",
+          "taste": "Romantic elements in action"
+        },
+        {
+          "reason": "The user shows a preference for films that depict historical events or war, as indicated by their high ratings for dramas in this category.",
+          "taste": "Historical and war narratives"
+        }
+      ]
+    },
+    "user_id": 2620
+  }
+}

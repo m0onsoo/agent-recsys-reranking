@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "de0aef8d7f7c53d910382184a7b775a2c30ba4ba6319b36420dc843d29ce8337",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      360,
+      734,
+      924,
+      932,
+      1349,
+      45,
+      318,
+      937,
+      1388,
+      892
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "27f1106c1e2d407690444bd3958cebd0"
+    ],
+    "sampled_item_ids": [
+      24,
+      45,
+      65,
+      269,
+      295,
+      312,
+      318,
+      339,
+      369,
+      426,
+      446,
+      513,
+      518,
+      546,
+      878,
+      898,
+      916,
+      920,
+      930,
+      937,
+      945,
+      1031,
+      1177,
+      1388,
+      2245
+    ],
+    "seed": 42,
+    "source_hash": "f4e4717d3da9d55ac8a27e52b3f04d29b03454a58dc26023c8f2937f65f5d159",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 976,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mary Steenburgen",
+          "Sean Patrick Flanery",
+          "Lance Henriksen",
+          "Jeff Goldblum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Salva",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Harassed by classmates who won't accept his shocking appearance, a shy young man known as \"Powder\" struggles to fit in. But the cruel taunts stop when Powder displays a mysterious power that allows him to do incredible things. This phenomenon changes the lives of all those around him in ways they never could have imagined.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Powder"
+      },
+      {
+        "cast": [
+          "Tim Allen",
+          "Sigourney Weaver",
+          "Alan Rickman",
+          "Tony Shalhoub"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dean Parisot",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.",
+        "release_date": "1999-12-23",
+        "release_year": "1999",
+        "title": "Galaxy Quest"
+      },
+      {
+        "cast": [
+          "Val Kilmer",
+          "Ralph Fiennes",
+          "Patrick Stewart",
+          "Michelle Pfeiffer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brenda Chapman",
+        "genres": [
+          "Animation",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "This is the extraordinary tale of two brothers named Moses and Ramses, one born of royal blood, and one an orphan with a secret past. Growing up the best of friends, they share a strong bond of free-spirited youth and good-natured rivalry. But the truth will ultimately set them at odds, as one becomes the ruler of the most powerful empire on earth, and the other the chosen leader of his people! Their final confrontation will forever change their lives and the world.",
+        "release_date": "1998-12-15",
+        "release_year": "1998",
+        "title": "Prince of Egypt, The"
+      },
+      {
+        "cast": [
+          "Bill Pullman",
+          "Bridget Fonda",
+          "Oliver Platt",
+          "Brendan Gleeson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve Miner",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a man is eaten alive by an unknown creature, the local Game Warden teams up with a paleontologist from New York to find the beast. Add to the mix an eccentric philanthropist with a penchant for \"Crocs\", and here we go! This quiet, remote lake is suddenly the focus of an intense search for a crocodile with a taste for live animals...and people!",
+        "release_date": "1999-07-15",
+        "release_year": "1999",
+        "title": "Lake Placid"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Daniel Stern",
+          "Mickey Rourke",
+          "Kevin Bacon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Set in 1959, Diner shows how five young men resist their adulthood and seek refuge in their beloved Diner. The mundane, childish, and titillating details of their lives are shared. But the golden moments pass, and the men shoulder their responsibilities, leaving the Diner behind.",
+        "release_date": "1982-04-02",
+        "release_year": "1982",
+        "title": "Diner"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Thomas Jane",
+          "Saffron Burrows",
+          "LL Cool J",
+          "Michael Rapaport"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "On a remote former submarine refueling facility called Aquatica, a team of scientists are searching for a cure for Alzheimer's disease. Dr. Susan McAlester genetically engineers three Mako sharks, intending to increase their brain capacity so that they can harvest the tissue as a cure for Alzheimer's. Unfortunately, the increased brain capacity also makes the sharks smarter, faster, and more dangerous. Aquatica's financial backers are skeptical and nervous about the tests, and send a corporate executive to visit the facility.",
+        "release_date": "1999-07-28",
+        "release_year": "1999",
+        "title": "Deep Blue Sea"
+      },
+      {
+        "cast": [
+          "Melanie Griffith",
+          "Matthew Modine",
+          "Michael Keaton",
+          "Mako"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A couple works hard to renovate their dream house and become landlords to pay for it. Unfortunately one of their tenants has plans of his own.",
+        "release_date": "1990-09-28",
+        "release_year": "1990",
+        "title": "Pacific Heights"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Rene Russo",
+          "Denis Leary",
+          "Ben Gazzara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A very rich and successful playboy amuses himself by stealing artwork, but may have met his match in a seductive detective.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Thomas Crown Affair, The"
+      }
+    ],
+    "raw_user_id": "976",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 45
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.574641276647023
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that combine drama with less engaging narratives",
+        "Negative response to films that lack strong character development",
+        "Dislike for poorly executed horror or thriller elements"
+      ],
+      "liked_patterns": [
+        "Enjoyment of drama and character-driven stories",
+        "Preference for action and adventure films with engaging plots",
+        "Appreciation for horror and thriller genres that provide suspense"
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates deep narratives and character development, as seen in multiple high-rated dramas.); Action and Adventure (The user enjoys thrilling and engaging plots, often found in action and adventure genres.); Horror and Thriller (The user is drawn to suspenseful and intense experiences, indicated by their ratings for horror and thriller films.); Comedy (The user enjoys light-hearted and humorous content, as reflected in their ratings for comedies.); Romance (The user shows an interest in romantic elements within dramas, indicating a preference for emotional connections.). Liked patterns: Enjoyment of drama and character-driven stories, Preference for action and adventure films with engaging plots, Appreciation for horror and thriller genres that provide suspense. Disliked patterns: Dislike for films that combine drama with less engaging narratives, Negative response to films that lack strong character development, Dislike for poorly executed horror or thriller elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates deep narratives and character development, as seen in multiple high-rated dramas.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys thrilling and engaging plots, often found in action and adventure genres.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user is drawn to suspenseful and intense experiences, indicated by their ratings for horror and thriller films.",
+          "taste": "Horror and Thriller"
+        },
+        {
+          "reason": "The user enjoys light-hearted and humorous content, as reflected in their ratings for comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows an interest in romantic elements within dramas, indicating a preference for emotional connections.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 976
+  }
+}

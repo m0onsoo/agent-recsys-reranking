@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "ad4f6d89844380c7aac75156eeaac5e95001fe2399019288c677a48953324752",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2633,
+      1577,
+      247,
+      1731,
+      1215,
+      1088,
+      1006,
+      1980,
+      52,
+      1740
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      48,
+      68,
+      247,
+      421,
+      526,
+      717,
+      878,
+      981,
+      1129,
+      1133,
+      1135,
+      1215,
+      1297,
+      1506,
+      1588,
+      1614,
+      1680,
+      1731,
+      1977,
+      2093,
+      2341,
+      2371,
+      2940,
+      2956,
+      2985
+    ],
+    "seed": 42,
+    "source_hash": "628fb2d0fb6fb8dd3999828aaf8d53bfec5c0f65afa912de68734d3fcacbe140",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5597,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Edward Furlong",
+          "Anthony Edwards",
+          "Clancy Brown",
+          "Jared Rushton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mary Lambert",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "The \"sematary\" is up to its old zombie-raising tricks again. This time, the protagonists are Jeff Matthews, whose mother died in a Hollywood stage accident, and Drew Gilbert, a boy coping with an abusive stepfather.",
+        "release_date": "1992-08-28",
+        "release_year": "1992",
+        "title": "Pet Sematary II"
+      },
+      {
+        "cast": [
+          "Patrick Macnee",
+          "Dennis Dugan",
+          "Christopher Stone",
+          "Belinda Balaski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After a bizarre and near fatal encounter with a serial killer, a newswoman is sent to a rehabilitation center whose inhabitants may not be what they seem.",
+        "release_date": "1981-04-03",
+        "release_year": "1980",
+        "title": "Howling, The"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Jon Voight",
+          "Sylvia Miles",
+          "John McGiver"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A naive male prostitute and his sickly friend struggle to survive on the streets of New York City.",
+        "release_date": "1969-05-25",
+        "release_year": "1969",
+        "title": "Midnight Cowboy"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1989",
+        "title": "Puppet Master"
+      },
+      {
+        "cast": [
+          "Kathleen Turner",
+          "Sam Waterston",
+          "Ricki Lake",
+          "Matthew Lillard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Waters",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A picture perfect middle class family is shocked when they find out that one of their neighbors is receiving obscene phone calls. The mom takes slights against her family very personally, and it turns out she is indeed the one harassing the neighbor. As other slights befall her beloved family, the body count begins to increase.",
+        "release_date": "1994-04-13",
+        "release_year": "1994",
+        "title": "Serial Mom"
+      },
+      {
+        "cast": [
+          "Jeff Goldblum",
+          "Geena Davis",
+          "John Getz",
+          "Joy Boushel"
+        ],
+        "country": [
+          "Canada",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When Seth Brundle makes a huge scientific and technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.",
+        "release_date": "1986-08-15",
+        "release_year": "1986",
+        "title": "Fly, The"
+      },
+      {
+        "cast": [
+          "Tom Everett Scott",
+          "Julie Delpy",
+          "Vince Vieluf",
+          "Julie Bowen"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "Luxembourg",
+          "Netherlands",
+          "United States of America"
+        ],
+        "director": "Anthony Waller",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An American man unwittingly gets involved with werewolves who have developed a serum allowing them to transform at will.",
+        "release_date": "1997-12-25",
+        "release_year": "1997",
+        "title": "American Werewolf in Paris, An"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Dennis Hopper",
+          "Caroline Williams",
+          "Jim Siedow",
+          "Bill Moseley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tobe Hooper",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A radio host is victimized by the cannibal family as a former Texas Marshall hunts them.",
+        "release_date": "1986-08-22",
+        "release_year": "1986",
+        "title": "Texas Chainsaw Massacre 2, The"
+      }
+    ],
+    "raw_user_id": "5597",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 168
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 3.1939405547477393
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Consistent dislike for traditional romance films.",
+        "Negative ratings for poorly executed horror films.",
+        "Dislike for drama films that lack depth or engaging storylines."
+      ],
+      "liked_patterns": [
+        "Enjoyment of horror films that incorporate humor or unique storytelling elements.",
+        "Strong appreciation for high-quality drama films with compelling narratives.",
+        "Positive reception of horror films that blend genres, such as horror-comedy."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for character-driven narratives.); Interest in Horror (The user enjoys a variety of horror films, particularly those that blend elements of comedy or thriller.); Preference for Crime and Thriller Elements (The user rates crime dramas highly, suggesting an affinity for suspenseful storytelling.); Dislike for Traditional Romance (The user rates romance films poorly, indicating a lack of interest in conventional romantic narratives.); Negative Response to Low-Quality Horror (The user rates many low-quality horror films poorly, showing a preference for well-crafted horror experiences.). Liked patterns: Enjoyment of horror films that incorporate humor or unique storytelling elements., Strong appreciation for high-quality drama films with compelling narratives., Positive reception of horror films that blend genres, such as horror-comedy.. Disliked patterns: Consistent dislike for traditional romance films., Negative ratings for poorly executed horror films., Dislike for drama films that lack depth or engaging storylines..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user enjoys a variety of horror films, particularly those that blend elements of comedy or thriller.",
+          "taste": "Interest in Horror"
+        },
+        {
+          "reason": "The user rates crime dramas highly, suggesting an affinity for suspenseful storytelling.",
+          "taste": "Preference for Crime and Thriller Elements"
+        },
+        {
+          "reason": "The user rates romance films poorly, indicating a lack of interest in conventional romantic narratives.",
+          "taste": "Dislike for Traditional Romance"
+        },
+        {
+          "reason": "The user rates many low-quality horror films poorly, showing a preference for well-crafted horror experiences.",
+          "taste": "Negative Response to Low-Quality Horror"
+        }
+      ]
+    },
+    "user_id": 5597
+  }
+}

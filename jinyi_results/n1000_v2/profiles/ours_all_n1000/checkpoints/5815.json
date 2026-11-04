@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "82fba402d5b090b030643745fa3bb47d67245c791abdaa5a32f93e0255e869fb",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      125,
+      644,
+      1397,
+      821,
+      69,
+      744,
+      583,
+      727,
+      995,
+      2297
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      23,
+      65,
+      71,
+      175,
+      190,
+      339,
+      365,
+      490,
+      520,
+      560,
+      612,
+      618,
+      663,
+      715,
+      821,
+      861,
+      990,
+      1002,
+      1093,
+      1232,
+      1238,
+      1397,
+      1512,
+      2029,
+      2297
+    ],
+    "seed": 42,
+    "source_hash": "ebbe1bff89457b297a2bd8ddf54fb666bb5fb7de4553c76fd933dac49b182c14",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5815,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Jason Patric",
+          "Willem Dafoe",
+          "Temuera Morrison"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sandra Bullock and Jason Patric star as a young couple whose dream cruise turns to terror when a lunatic computer genius (Willem Dafoe) sets a new course for destruction.",
+        "release_date": "1997-06-13",
+        "release_year": "1997",
+        "title": "Speed 2: Cruise Control"
+      },
+      {
+        "cast": [
+          "Fred A. Leuchter Jr.",
+          "Robert Jan Van Pelt",
+          "David Irving",
+          "Caroline Leuchter"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Errol Morris",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "Mr. Death: The Rise and Fall of Fred A. Leuchter, Jr. is a 1999 documentary film by Errol Morris about execution technician Fred A. Leuchter.",
+        "release_date": "1999-12-29",
+        "release_year": "1999",
+        "title": "Mr. Death: The Rise and Fall of Fred A. Leuchter Jr."
+      },
+      {
+        "cast": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Connie Nielsen",
+          "Oliver Reed"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences. His battle skills serve him well, and he becomes one of the most famous and admired men to fight in the Colosseum. Determined to avenge himself against the man who took away his freedom and laid waste to his family, Maximus believes that he can use his fame and skill in the ring to avenge the loss of his family and former glory. As the gladiator begins to challenge his rule, Commodus decides to put his own fighting mettle to the test by squaring off with Maximus in a battle to the death.",
+        "release_date": "2000-05-01",
+        "release_year": "2000",
+        "title": "Gladiator"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "John Hurt",
+          "Richard Briers",
+          "Michael Graham Cox",
+          "John Bennett"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Martin Rosen",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Drama",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "When the warren belonging to a community of rabbits is threatened, a brave group led by Fiver, Bigwig, Blackberry and Hazel leave their homeland in a search of a safe new haven.",
+        "release_date": "1978-10-14",
+        "release_year": "1978",
+        "title": "Watership Down"
+      },
+      {
+        "cast": [
+          "Gene Kelly",
+          "Donald O'Connor",
+          "Debbie Reynolds",
+          "Jean Hagen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Donen",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In 1927 Hollywood, Don Lockwood and Lina Lamont are a famous on-screen romantic pair in silent movies, but Lina mistakes the on-screen romance for real love. When their latest film is transformed into a musical, Don has the perfect voice for the songs, but strident voice faces the studio to dub her voice. Aspiring actress, Kathy Selden is brought in and, while she is working on the movie, Don falls in love with her.",
+        "release_date": "1952-04-10",
+        "release_year": "1952",
+        "title": "Singin' in the Rain"
+      },
+      {
+        "cast": [
+          "Malcolm McDowell",
+          "Patrick Magee",
+          "Adrienne Corri",
+          "Michael Bates"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.",
+        "release_date": "1971-12-18",
+        "release_year": "1971",
+        "title": "Clockwork Orange, A"
+      },
+      {
+        "cast": [
+          "Priscilla Lane",
+          "Robert Cummings",
+          "Otto Kruger",
+          "Alan Baxter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Aircraft factory worker Barry Kane goes on the run across the United States when he is wrongly accused of starting a fire that killed his best friend.",
+        "release_date": "1942-04-24",
+        "release_year": "1942",
+        "title": "Saboteur"
+      }
+    ],
+    "raw_user_id": "5815",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 64
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6431157054272181
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that are primarily action-oriented without strong narrative elements.",
+        "Dislike for films that are poorly received or considered less impactful in their genres."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as comedy with sci-fi or drama with thriller.",
+        "Strong preference for films with critical acclaim or cult status, particularly in the film-noir and drama genres."
+      ],
+      "summary": "Unique tastes: Appreciation for Sci-Fi (The user enjoys a variety of sci-fi films, often rating them highly.); Fondness for Comedy (The user rates several comedies positively, indicating a preference for humor in films.); Interest in Film-Noir (The user shows a strong liking for film-noir, with multiple high ratings in this genre.); Enjoyment of Drama (The user frequently rates drama films highly, suggesting a preference for emotional storytelling.); Affinity for Thrillers (The user has rated several thrillers positively, indicating a taste for suspenseful narratives.). Liked patterns: High ratings for films that blend genres, such as comedy with sci-fi or drama with thriller., Strong preference for films with critical acclaim or cult status, particularly in the film-noir and drama genres.. Disliked patterns: Low ratings for films that are primarily action-oriented without strong narrative elements., Dislike for films that are poorly received or considered less impactful in their genres..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of sci-fi films, often rating them highly.",
+          "taste": "Appreciation for Sci-Fi"
+        },
+        {
+          "reason": "The user rates several comedies positively, indicating a preference for humor in films.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user shows a strong liking for film-noir, with multiple high ratings in this genre.",
+          "taste": "Interest in Film-Noir"
+        },
+        {
+          "reason": "The user frequently rates drama films highly, suggesting a preference for emotional storytelling.",
+          "taste": "Enjoyment of Drama"
+        },
+        {
+          "reason": "The user has rated several thrillers positively, indicating a taste for suspenseful narratives.",
+          "taste": "Affinity for Thrillers"
+        }
+      ]
+    },
+    "user_id": 5815
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "checkpoint_hash": "bce4c4f00009959839d7e64710d86c05c91fbeff6ddf485e6ea00847e5f9564e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      623,
+      1324,
+      63,
+      190,
+      210,
+      332,
+      27,
+      897,
+      218,
+      1233
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "f195e516b4124b949741a45d9d4009bb"
+    ],
+    "sampled_item_ids": [
+      42,
+      45,
+      65,
+      125,
+      133,
+      190,
+      210,
+      218,
+      238,
+      284,
+      332,
+      385,
+      532,
+      552,
+      592,
+      610,
+      665,
+      749,
+      861,
+      1085,
+      1233,
+      1242,
+      1324,
+      1940,
+      2336
+    ],
+    "seed": 42,
+    "source_hash": "f34b13c2d7b38e4860885f00bf01e0b4deaf54ce3eac99546854d515c4346598",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 532,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Barret Oliver",
+          "Gerald McRaney",
+          "Noah Hathaway",
+          "Drum Garrett"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "While hiding from bullies in his school's attic, a young boy discovers the extraordinary land of Fantasia, through a magical book called The Neverending Story. The book tells the tale of Atreyu, a young warrior who, with the help of a luck dragon named Falkor, must save Fantasia from the destruction of The Nothing.",
+        "release_date": "1984-04-05",
+        "release_year": "1984",
+        "title": "NeverEnding Story, The"
+      },
+      {
+        "cast": [
+          "Jim Cummings",
+          "Nikita Hopkins",
+          "Ken Sansom",
+          "John Fiedler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jun Falkenstein",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "As it happens, everybody - Pooh, Piglet, Eeyore, Roo, Rabbit, Owl - is busy preparing a suitable winter home for Eeyore. When everything they do seems to get undone by Tigger's exuberant bouncing, Rabbit suggest Tigger go outside and find other tiggers to bounce with - a notion Tigger finds ridiculous because, after all, he's \"the onliest one\" Or is he?",
+        "release_date": "2000-02-11",
+        "release_year": "2000",
+        "title": "Tigger Movie, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Danny Elfman",
+          "Chris Sarandon",
+          "Catherine O'Hara",
+          "William Hickey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Henry Selick",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.",
+        "release_date": "1993-10-09",
+        "release_year": "1993",
+        "title": "Nightmare Before Christmas, The"
+      },
+      {
+        "cast": [
+          "Henry Thomas",
+          "Drew Barrymore",
+          "Robert MacNaughton",
+          "Dee Wallace"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Children's",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+        "release_date": "1982-04-03",
+        "release_year": "1982",
+        "title": "E.T. the Extra-Terrestrial"
+      },
+      {
+        "cast": [
+          "Robert Redford",
+          "Sidney Poitier",
+          "Dan Aykroyd",
+          "David Strathairn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phil Alden Robinson",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When shadowy U.S. intelligence agents blackmail a reformed computer hacker and his eccentric team of security experts into stealing a code-breaking 'black box' from a Soviet-funded genius, they uncover a bigger conspiracy. Now, he and his 'sneakers' must save themselves and the world economy by retrieving the box from their blackmailers.",
+        "release_date": "1992-09-09",
+        "release_year": "1992",
+        "title": "Sneakers"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Anne Parillaud",
+          "Marc Duret",
+          "Patrick Fontana",
+          "Alain Lathière"
+        ],
+        "country": [
+          "France",
+          "Italy"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "French",
+        "overview": "A beautiful felon, sentenced to life in prison for the murder of a policeman, is given a second chance - as a secret political assassin controlled by the government.",
+        "release_date": "1990-02-21",
+        "release_year": "1990",
+        "title": "Nikita (La Femme Nikita)"
+      }
+    ],
+    "raw_user_id": "532",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 35
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9445098562058128
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly rated action films",
+        "Dislike for low-rated sci-fi films"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and sci-fi genres",
+        "Enjoyment of fantasy and adventure themes",
+        "Appreciation for comedy and musical elements"
+      ],
+      "summary": "Unique tastes: Action and Sci-Fi (A strong preference for action-packed narratives combined with science fiction elements is evident in multiple high-rated films.); Fantasy and Adventure (Enjoyment of fantastical and adventurous themes is reflected in several well-rated children's and family-oriented films.); Drama and Romance (A liking for emotional depth and romantic elements is shown through ratings of drama and romance films.); Comedy and Musical (Appreciation for humor and musical elements is indicated by positive ratings for comedies and musicals.); Thriller and Suspense (A taste for thrilling and suspenseful narratives is highlighted by high ratings for thriller films.). Liked patterns: Strong preference for action and sci-fi genres, Enjoyment of fantasy and adventure themes, Appreciation for comedy and musical elements. Disliked patterns: Dislike for poorly rated action films, Dislike for low-rated sci-fi films.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for action-packed narratives combined with science fiction elements is evident in multiple high-rated films.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "Enjoyment of fantastical and adventurous themes is reflected in several well-rated children's and family-oriented films.",
+          "taste": "Fantasy and Adventure"
+        },
+        {
+          "reason": "A liking for emotional depth and romantic elements is shown through ratings of drama and romance films.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "Appreciation for humor and musical elements is indicated by positive ratings for comedies and musicals.",
+          "taste": "Comedy and Musical"
+        },
+        {
+          "reason": "A taste for thrilling and suspenseful narratives is highlighted by high ratings for thriller films.",
+          "taste": "Thriller and Suspense"
+        }
+      ]
+    },
+    "user_id": 532
+  }
+}

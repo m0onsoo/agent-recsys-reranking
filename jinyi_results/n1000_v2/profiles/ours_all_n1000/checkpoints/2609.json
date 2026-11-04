@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "7c547f3cadb511de6403f4634d0ae184767ce255ac5eba20fa23885697f894c5",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      195,
+      894,
+      585,
+      268,
+      96,
+      1065,
+      200,
+      1107,
+      3312,
+      205
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "140edb53cab846149407a667d85236d3"
+    ],
+    "sampled_item_ids": [
+      28,
+      90,
+      152,
+      154,
+      178,
+      195,
+      277,
+      281,
+      331,
+      375,
+      475,
+      560,
+      758,
+      883,
+      892,
+      1492,
+      1709,
+      1894,
+      1912,
+      2056,
+      2430,
+      2439,
+      2737,
+      3044,
+      3275
+    ],
+    "seed": 42,
+    "source_hash": "822580fa9cdecc2dbde33352d27e6931c95c2706d8f62cd5e67dd1126b51bf31",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2609,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "female",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Gene Hackman",
+          "Morgan Freeman",
+          "Richard Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "William Munny is a retired, once-ruthless killer turned gentle widower and hog farmer. To help support his two motherless children, he accepts one last bounty-hunter mission to find the men who brutalized a prostitute. Joined by his former partner and a cocky greenhorn, he takes on a corrupt sheriff.",
+        "release_date": "1992-08-07",
+        "release_year": "1992",
+        "title": "Unforgiven"
+      },
+      {
+        "cast": [
+          "Steve McQueen",
+          "Faye Dunaway",
+          "Paul Burke",
+          "Jack Weston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Jewison",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Young businessman, Thomas Crown is bored and decides to plan a robbery and assigns a professional agent with the right information to the job. However, Crown is soon betrayed yet cannot blow his cover because he’s in love.",
+        "release_date": "1968-06-19",
+        "release_year": "1968",
+        "title": "Thomas Crown Affair, The"
+      },
+      {
+        "cast": [
+          "Gary Oldman",
+          "Winona Ryder",
+          "Anthony Hopkins",
+          "Keanu Reeves"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Horror",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When Dracula leaves the captive Jonathan Harker and Transylvania for London in search of Mina Harker -- the spitting image of Dracula's long-dead wife, Elisabeta -- obsessed vampire hunter Dr. Van Helsing sets out to end the madness.",
+        "release_date": "1992-11-13",
+        "release_year": "1992",
+        "title": "Bram Stoker's Dracula"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Samuel L. Jackson",
+          "Guy Pearce",
+          "Ben Kingsley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Friedkin",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Part war movie, part courtroom thriller, this gripping drama finds a war hero put on trial for a rescue mission gone terribly wrong with only his doubtful friend and fellow marine to represent him.",
+        "release_date": "2000-04-07",
+        "release_year": "2000",
+        "title": "Rules of Engagement"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Campbell Scott",
+          "Ben Gazzara",
+          "Rebecca Pidgeon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Mamet",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An employee of a corporation with a lucrative secret process is tempted to betray it. But there's more to it than that.",
+        "release_date": "1997-09-08",
+        "release_year": "1997",
+        "title": "Spanish Prisoner, The"
+      },
+      {
+        "cast": [
+          "Donald Sutherland",
+          "Mary Tyler Moore",
+          "Judd Hirsch",
+          "Timothy Hutton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Redford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Beth, Calvin, and their son Conrad are living in the aftermath of the death of the other son. Conrad is overcome by grief and misplaced guilt to the extent of a suicide attempt. He is in therapy. Beth had always preferred his brother and is having difficulty being supportive to Conrad. Calvin is trapped between the two trying to hold the family together.",
+        "release_date": "1980-09-19",
+        "release_year": "1980",
+        "title": "Ordinary People"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Katharine Ross",
+          "Strother Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot 'Sundance Kid'. As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "release_year": "1969",
+        "title": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+        "cast": [
+          "Stephen Rea",
+          "Jaye Davidson",
+          "Miranda Richardson",
+          "Forest Whitaker"
+        ],
+        "country": [
+          "Japan",
+          "United Kingdom",
+          "Ireland"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Irish Republican Army member Fergus (Stephen Rea) forms an unexpected bond with Jody (Forest Whitaker), a kidnapped British soldier in his custody, despite the warnings of fellow IRA members Jude (Miranda Richardson) and Maguire (Adrian Dunbar). Jody makes Fergus promise he'll visit his girlfriend, Dil (Jaye Davidson), in London, and when Fergus flees to the city, he seeks her out. Hounded by his former IRA colleagues, he finds himself increasingly drawn to the enigmatic, and surprising, Dil.",
+        "release_date": "1992-09-02",
+        "release_year": "1992",
+        "title": "Crying Game, The"
+      },
+      {
+        "cast": [
+          "Leslie Hope",
+          "Peter Outerbridge",
+          "Victor Ertmanis",
+          "Dan Lett"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Jerry Ciccoritti",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A writer has torrid fantasy affairs with young men.",
+        "release_date": "1994-02-04",
+        "release_year": "1993",
+        "title": "Paris, France"
+      },
+      {
+        "cast": [
+          "Jon Voight",
+          "Burt Reynolds",
+          "Ned Beatty",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Boorman",
+        "genres": [
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Intent on seeing the Cahulawassee River before it's turned into one huge lake, outdoor fanatic Lewis Medlock takes his friends on a river-rafting trip they'll never forget into the dangerous American back-country.",
+        "release_date": "1972-07-30",
+        "release_year": "1972",
+        "title": "Deliverance"
+      }
+    ],
+    "raw_user_id": "2609",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 162
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9668088688431785
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that do not effectively blend with other genres.",
+        "Dislike for films that lack engaging narratives or character development."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine drama with other genres like romance and thriller.",
+        "Consistent appreciation for films featuring strong character development and emotional depth.",
+        "Positive reception of films that incorporate elements of suspense and mystery."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for films in this genre.); Thriller (The user enjoys thrillers, indicated by several ratings of 4 or 5 for movies that incorporate suspense and tension.); Comedy (The user appreciates comedic elements, reflected in high ratings for films that blend humor with other genres.); Romance (The user has rated several romantic dramas highly, suggesting a fondness for emotional and relational themes.); Mystery (The user is drawn to mystery elements, as shown by positive ratings for films that involve intrigue and suspense.). Liked patterns: High ratings for films that combine drama with other genres like romance and thriller., Consistent appreciation for films featuring strong character development and emotional depth., Positive reception of films that incorporate elements of suspense and mystery.. Disliked patterns: Low ratings for comedies that do not effectively blend with other genres., Dislike for films that lack engaging narratives or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys thrillers, indicated by several ratings of 4 or 5 for movies that incorporate suspense and tension.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user appreciates comedic elements, reflected in high ratings for films that blend humor with other genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user has rated several romantic dramas highly, suggesting a fondness for emotional and relational themes.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user is drawn to mystery elements, as shown by positive ratings for films that involve intrigue and suspense.",
+          "taste": "Mystery"
+        }
+      ]
+    },
+    "user_id": 2609
+  }
+}

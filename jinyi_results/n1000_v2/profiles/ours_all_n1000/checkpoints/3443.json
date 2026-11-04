@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "d2941fe4eea0a8d53ce38171e17e18dfa92bc44a3d55af4c83fc7d56c6446ffa",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      323,
+      1120,
+      218,
+      210,
+      23,
+      604,
+      995,
+      1242,
+      212,
+      125
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e75516d8008d42cebc4d68d981da23ec"
+    ],
+    "sampled_item_ids": [
+      23,
+      45,
+      65,
+      97,
+      98,
+      125,
+      210,
+      212,
+      218,
+      323,
+      490,
+      604,
+      959,
+      995,
+      1120,
+      1238,
+      1241,
+      1242,
+      1302,
+      1452,
+      3035
+    ],
+    "seed": 42,
+    "source_hash": "6fc02e1dfef31effba13ef31fc164f9adb659d836ece34fd0c27bbc123548abb",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3443,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Jude Law",
+          "Gore Vidal",
+          "Uma Thurman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Niccol",
+        "genres": [
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Science fiction drama about a future society in the era of indefinite eugenics where humans are set on a life course depending on their DNA. The young Vincent Freeman is born with a condition that would prevent him from space travel, yet he is determined to infiltrate the GATTACA space program.",
+        "release_date": "1997-09-07",
+        "release_year": "1997",
+        "title": "Gattaca"
+      },
+      {
+        "cast": [
+          "Steve McQueen",
+          "Aneta Corsaut",
+          "Earl Rowe",
+          "John Benson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin S. Yeaworth Jr.",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A mysterious creature from another planet, resembling a giant blob of jelly, lands on earth. The people of a nearby small town refuse to listen to some teenagers who have witnessed the blob's destructive power. In the meantime, the blob just keeps on getting bigger.",
+        "release_date": "1958-09-12",
+        "release_year": "1958",
+        "title": "Blob, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      },
+      {
+        "cast": [
+          "Tim Curry",
+          "Susan Sarandon",
+          "Barry Bostwick",
+          "Richard O'Brien"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Sharman",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Sweethearts Brad and Janet, stuck with a flat tire during a storm, discover the eerie mansion of Dr. Frank-N-Furter, a transvestite scientist. As their innocence is lost, Brad and Janet meet a houseful of wild characters, including a rocking biker and a creepy butler. Through elaborate dances and rock songs, Frank-N-Furter unveils his latest creation: a muscular man named 'Rocky'.",
+        "release_date": "1975-08-14",
+        "release_year": "1975",
+        "title": "Rocky Horror Picture Show, The"
+      },
+      {
+        "cast": [
+          "Malcolm McDowell",
+          "Patrick Magee",
+          "Adrienne Corri",
+          "Michael Bates"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.",
+        "release_date": "1971-12-18",
+        "release_year": "1971",
+        "title": "Clockwork Orange, A"
+      },
+      {
+        "cast": [
+          "Jonathan Pryce",
+          "Robert De Niro",
+          "Katherine Helmond",
+          "Ian Holm"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
+        "release_date": "1985-02-20",
+        "release_year": "1985",
+        "title": "Brazil"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Joanne Samuel",
+          "Hugh Keays-Byrne",
+          "Steve Bisley"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future Australia, a vicious biker gang murders a cop's family, and makes his fight with them personal.",
+        "release_date": "1979-04-12",
+        "release_year": "1979",
+        "title": "Mad Max"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      }
+    ],
+    "raw_user_id": "3443",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 21
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8854426439025328
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [],
+      "liked_patterns": [
+        "Strong preference for science fiction films",
+        "Enjoyment of action and adventure narratives",
+        "Positive ratings for thrillers and dramas"
+      ],
+      "summary": "Unique tastes: Sci-Fi Enthusiast (The user has a strong preference for science fiction, as evidenced by multiple high ratings for films in this genre.); Action and Adventure Lover (The user enjoys action and adventure films, reflected in several ratings of 3 or above for movies that fall within these genres.); Appreciation for Thrillers (The user rates thrillers positively, indicating a taste for suspenseful and intense narratives.); Fondness for Drama (The user shows a liking for dramatic films, with several ratings of 3 or above in this genre.); Interest in Horror Elements (The user has rated horror films positively, suggesting an appreciation for the genre's themes.). Liked patterns: Strong preference for science fiction films, Enjoyment of action and adventure narratives, Positive ratings for thrillers and dramas. Disliked patterns: no repeated disliked pattern identified.",
+      "unique_tastes": [
+        {
+          "reason": "The user has a strong preference for science fiction, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Sci-Fi Enthusiast"
+        },
+        {
+          "reason": "The user enjoys action and adventure films, reflected in several ratings of 3 or above for movies that fall within these genres.",
+          "taste": "Action and Adventure Lover"
+        },
+        {
+          "reason": "The user rates thrillers positively, indicating a taste for suspenseful and intense narratives.",
+          "taste": "Appreciation for Thrillers"
+        },
+        {
+          "reason": "The user shows a liking for dramatic films, with several ratings of 3 or above in this genre.",
+          "taste": "Fondness for Drama"
+        },
+        {
+          "reason": "The user has rated horror films positively, suggesting an appreciation for the genre's themes.",
+          "taste": "Interest in Horror Elements"
+        }
+      ]
+    },
+    "user_id": 3443
+  }
+}

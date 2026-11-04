@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "401e1a36a0fdfd23f4bd767e4fddff506deb8abdf8cbe9825ccc58d0180cc998",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      868,
+      285,
+      548,
+      1721,
+      844,
+      278,
+      1688,
+      327,
+      1962,
+      1150
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "6649f900f5a44503882974b87a4185cc"
+    ],
+    "sampled_item_ids": [
+      28,
+      73,
+      211,
+      223,
+      288,
+      358,
+      429,
+      513,
+      516,
+      518,
+      682,
+      883,
+      884,
+      892,
+      968,
+      1150,
+      1262,
+      1517,
+      1557,
+      1802,
+      1955,
+      2254,
+      2494,
+      3035,
+      3319
+    ],
+    "seed": 42,
+    "source_hash": "6fb92499bc38ff52607de32d7e219a3770f68306be058a7e94bb0278ee0871dc",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2820,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Arletty",
+          "Jean-Louis Barrault",
+          "Pierre Brasseur",
+          "María Casares"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Marcel Carné",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "French",
+        "overview": "Filmed during the German occupation, this French milestone centers around the theatrical life of a beautiful courtesan and the four men who love her. Voted the \"Best French Film in History\" by the French Film Academy in 1990.",
+        "release_date": "1945-03-15",
+        "release_year": "1945",
+        "title": "Children of Paradise (Les enfants du paradis)"
+      },
+      {
+        "cast": [
+          "Kevin Kline",
+          "Joan Allen",
+          "Sigourney Weaver",
+          "Henry Czerny"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Ang Lee",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the weekend after thanksgiving 1973 the Hoods are skidding out of control. Benjamin Hood reels from drink to drink, trying not to think about his trouble at the office. His wife, Elena, is reading self help books and losing patience with her husband's lies. Their son, Paul, home for the holidays, escapes to the city to pursue an alluring rich girl from his prep school. Young, budding nymphomaniac, Wendy Hood roams the neighborhood, innocently exploring liquor cabinets and lingerie drawers of her friends' parents, looking for something new. Then an ice storm hits, the worst in a century.",
+        "release_date": "1997-09-27",
+        "release_year": "1997",
+        "title": "Ice Storm, The"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Billy Crystal",
+          "Carrie Fisher",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "During their travels from Chicago to New York, Harry and Sally Will debate whether or not sex ruins a perfect relationship between a man and a woman. Eleven years and later, they're still no closer to finding the answer.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "When Harry Met Sally..."
+      },
+      {
+        "cast": [
+          "Christopher Walken",
+          "Lindsay Crouse",
+          "Frances Sternhagen",
+          "Andreas Katsulas"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Philippe Mora",
+        "genres": [
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A novelist's wife and son see him changed by an apparent encounter with aliens in the mountains.",
+        "release_date": "1989-11-10",
+        "release_year": "1989",
+        "title": "Communion"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sean Bean",
+          "Izabella Scorupco",
+          "Famke Janssen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "James Bond must unmask the mysterious head of the Janus Syndicate and prevent the leader from utilizing the GoldenEye weapons system to inflict devastating revenge on Britain.",
+        "release_date": "1995-11-16",
+        "release_year": "1995",
+        "title": "GoldenEye"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "Morgan Freeman",
+          "Ashley Judd",
+          "Cary Elwes",
+          "Alex McArthur"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Fleder",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Forensic psychologist Alex Cross travels to North Carolina and teams with escaped kidnap victim Kate McTiernan to hunt down \"Casanova,\" a serial killer who abducts strong-willed women and forces them to submit to his demands. The trail leads to Los Angeles, where the duo discovers that the psychopath may not be working alone.",
+        "release_date": "1997-10-03",
+        "release_year": "1997",
+        "title": "Kiss the Girls"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Mark Wahlberg",
+          "Ice Cube",
+          "Spike Jonze"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David O. Russell",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A group of American soldiers stationed in Iraq at the end of the Gulf War find a map they believe will take them to a huge cache of stolen Kuwaiti gold hidden near their base, and they embark on a secret mission that's destined to change everything.",
+        "release_date": "1999-09-27",
+        "release_year": "1999",
+        "title": "Three Kings"
+      },
+      {
+        "cast": [
+          "Andy García",
+          "Lance Henriksen",
+          "Uma Thurman",
+          "Graham Beckel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bruce Robinson",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A big city cop from LA moves to a small town police force and immediately finds himself investigating a murder. Using theories rejected by his colleagues, the cop, John Berlin, meets a young blind woman named Helena, who he is attracted to. Meanwhile, a serial killer is on the loose and only John knows it.",
+        "release_date": "1992-11-06",
+        "release_year": "1992",
+        "title": "Jennifer 8"
+      },
+      {
+        "cast": [
+          "Craig T. Nelson",
+          "JoBeth Williams",
+          "Beatrice Straight",
+          "Heather O'Rourke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tobe Hooper",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Steve Freeling lives with his wife, Diane, and their three children, Dana, Robbie, and Carol Anne, in Southern California where he sells houses for the company that built the neighborhood. It starts with just a few odd occurrences, such as broken dishes and furniture moving around by itself. However, when he realizes that something truly evil haunts his home, Steve calls in a team of parapsychologists led by Dr. Lesh to help before it's too late.",
+        "release_date": "1982-06-04",
+        "release_year": "1982",
+        "title": "Poltergeist"
+      }
+    ],
+    "raw_user_id": "2820",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 716
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1040221325465345
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films that lack depth or engaging storylines.",
+        "Displeasure with romantic dramas that do not resonate emotionally."
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedy films with strong humor elements.",
+        "Appreciation for thrillers that maintain suspense and intrigue.",
+        "Interest in dramas that explore complex emotional themes."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys comedic elements, as seen in multiple films rated 3 or above.); Thriller (The user appreciates thrillers, indicated by several films in this genre receiving favorable ratings.); Drama (The user has a preference for dramatic narratives, with several dramas rated positively.); Romance (The user shows an affinity for romantic themes, reflected in the ratings of romantic films.); Mystery (The user is drawn to mystery elements, as evidenced by positive ratings for films in this genre.). Liked patterns: Enjoyment of comedy films with strong humor elements., Appreciation for thrillers that maintain suspense and intrigue., Interest in dramas that explore complex emotional themes.. Disliked patterns: Dislike for action films that lack depth or engaging storylines., Displeasure with romantic dramas that do not resonate emotionally..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys comedic elements, as seen in multiple films rated 3 or above.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates thrillers, indicated by several films in this genre receiving favorable ratings.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user has a preference for dramatic narratives, with several dramas rated positively.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows an affinity for romantic themes, reflected in the ratings of romantic films.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user is drawn to mystery elements, as evidenced by positive ratings for films in this genre.",
+          "taste": "Mystery"
+        }
+      ]
+    },
+    "user_id": 2820
+  }
+}

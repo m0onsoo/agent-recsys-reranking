@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "4817b1fb3929f785d90f07d7657496836e62e78376cb9ac87b1fc567cb344dff",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      912,
+      620,
+      377,
+      679,
+      1122,
+      734,
+      1104,
+      606,
+      1015,
+      1541
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b0c3d8d2aa984b69b10abe7e4a490ea4"
+    ],
+    "sampled_item_ids": [
+      45,
+      61,
+      114,
+      133,
+      264,
+      326,
+      377,
+      515,
+      529,
+      592,
+      601,
+      604,
+      679,
+      739,
+      741,
+      742,
+      800,
+      1015,
+      1054,
+      1112,
+      1119,
+      1191,
+      1254,
+      1541,
+      2947
+    ],
+    "seed": 42,
+    "source_hash": "5932d51c253f2b163104b98a9f9714701317e8d249b0403884dc99676608797d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2101,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Al Pacino",
+          "Charlize Theron",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Taylor Hackford",
+        "genres": [
+          "Crime",
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A hotshot lawyer gets more than he bargained for when he learns his new boss is Lucifer himself.",
+        "release_date": "1997-10-17",
+        "release_year": "1997",
+        "title": "Devil's Advocate, The"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Carson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Captain Jean-Luc Picard and the crew of the Enterprise-D find themselves at odds with the renegade scientist Soran who is destroying entire star systems. Only one man can help Picard stop Soran's scheme...and he's been dead for seventy-eight years.",
+        "release_date": "1994-11-17",
+        "release_year": "1994",
+        "title": "Star Trek: Generations"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Madeleine Stowe",
+          "Brad Pitt",
+          "Christopher Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly, and patient Jeffrey Goines, the son of a famous virus expert, who may hold the key to the mysterious rogue group, the Army of the 12 Monkeys, thought to be responsible for unleashing the killer disease.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Twelve Monkeys"
+      },
+      {
+        "cast": [
+          "Warwick Davis",
+          "Val Kilmer",
+          "Joanne Whalley",
+          "Jean Marsh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Fearful of a prophecy stating that a girl child will be born to bring about her downfall, the evil Queen Bavmorda imprisons all pregnant women within the formidable stronghold of Nockmaar. A child, Elora Danan, is born in the Nockmaar dungeons and identified as the prophesied child by a birthmark on her arm. However, before the black sorceress arrives to claim the child, Elora's mother convinces her reluctant midwife to escape with the baby. Willow, a timid farmer and aspiring sorcerer, is entrusted with delivering the royal infant from evil.",
+        "release_date": "1988-05-01",
+        "release_year": "1988",
+        "title": "Willow"
+      },
+      {
+        "cast": [
+          "Bela Lugosi",
+          "Helen Chandler",
+          "David Manners",
+          "Dwight Frye"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tod Browning",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "The legend of vampire Count Dracula begins here with this original 1931 Dracula film from Bela Lugosi.",
+        "release_date": "1931-02-12",
+        "release_year": "1931",
+        "title": "Dracula"
+      },
+      {
+        "cast": [
+          "Tim Allen",
+          "Sigourney Weaver",
+          "Alan Rickman",
+          "Tony Shalhoub"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dean Parisot",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.",
+        "release_date": "1999-12-23",
+        "release_year": "1999",
+        "title": "Galaxy Quest"
+      },
+      {
+        "cast": [
+          "Michael Jai White",
+          "Martin Sheen",
+          "John Leguizamo",
+          "Theresa Randle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark A.Z. Dippé",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After being murdered by corrupt colleagues in a covert government agency, Al Simmons (Michael Jai White) makes a pact with the devil to be resurrected to see his beloved wife Wanda (Theresa Randle). In exchange for his return to Earth, Simmons agrees to lead Hell's Army in the destruction of mankind.",
+        "release_date": "1997-07-31",
+        "release_year": "1997",
+        "title": "Spawn"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "James Spader",
+          "Jaye Davidson",
+          "Viveca Lindfors"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
+        "release_date": "1994-10-27",
+        "release_year": "1994",
+        "title": "Stargate"
+      },
+      {
+        "cast": [
+          "Rufus Sewell",
+          "William Hurt",
+          "Kiefer Sutherland",
+          "Jennifer Connelly"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "release_date": "1998-02-27",
+        "release_year": "1998",
+        "title": "Dark City"
+      },
+      {
+        "cast": [
+          "Max Schreck",
+          "Gustav von Wangenheim",
+          "Greta Schröder",
+          "Alexander Granach"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "F.W. Murnau",
+        "genres": [
+          "Horror"
+        ],
+        "language": "German",
+        "overview": "Vampire Count Orlok is interested in a new residence and in real estate agent Hutter's young wife. Silent horror classic based on the Bram Stoker novel \"Dracula\".",
+        "release_date": "1922-03-15",
+        "release_year": "1922",
+        "title": "Nosferatu (Nosferatu, eine Symphonie des Grauens)"
+      }
+    ],
+    "raw_user_id": "2101",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 85
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8075913102969637
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for certain horror films",
+        "Negative reception of specific action-adventure films",
+        "Dislike for films with weak narratives or execution"
+      ],
+      "liked_patterns": [
+        "Enjoyment of sci-fi films with action elements",
+        "Positive reception of horror-comedy films",
+        "High ratings for fantasy adventure films"
+      ],
+      "summary": "Unique tastes: Sci-Fi Enthusiast (The user enjoys a variety of sci-fi films, often rating them highly.); Appreciation for Horror-Comedy (The user rates several horror-comedy films positively, indicating a preference for this blend of genres.); Fondness for Fantasy Adventures (The user shows a liking for fantasy adventure films, as evidenced by multiple high ratings in this genre.); Thriller Appreciation (The user rates several thrillers positively, suggesting a strong interest in suspenseful narratives.); Interest in Dark Themes (The user enjoys films with darker themes, including horror and psychological elements, reflected in their ratings.). Liked patterns: Enjoyment of sci-fi films with action elements, Positive reception of horror-comedy films, High ratings for fantasy adventure films. Disliked patterns: Dislike for certain horror films, Negative reception of specific action-adventure films, Dislike for films with weak narratives or execution.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of sci-fi films, often rating them highly.",
+          "taste": "Sci-Fi Enthusiast"
+        },
+        {
+          "reason": "The user rates several horror-comedy films positively, indicating a preference for this blend of genres.",
+          "taste": "Appreciation for Horror-Comedy"
+        },
+        {
+          "reason": "The user shows a liking for fantasy adventure films, as evidenced by multiple high ratings in this genre.",
+          "taste": "Fondness for Fantasy Adventures"
+        },
+        {
+          "reason": "The user rates several thrillers positively, suggesting a strong interest in suspenseful narratives.",
+          "taste": "Thriller Appreciation"
+        },
+        {
+          "reason": "The user enjoys films with darker themes, including horror and psychological elements, reflected in their ratings.",
+          "taste": "Interest in Dark Themes"
+        }
+      ]
+    },
+    "user_id": 2101
+  }
+}

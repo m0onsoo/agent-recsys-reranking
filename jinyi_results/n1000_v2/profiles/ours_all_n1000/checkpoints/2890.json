@@ -1,0 +1,344 @@
+{
+  "checkpoint_hash": "84b20a949512a02aa47367ac8dcf42a360d4659642db3d0c01200ec86fb4bf79",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1451,
+      114,
+      1450,
+      1004,
+      1457,
+      768,
+      459,
+      991,
+      122,
+      1241
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "1b01e376c5f647549a6e62d5d1edffdd"
+    ],
+    "sampled_item_ids": [
+      45,
+      66,
+      73,
+      99,
+      145,
+      156,
+      189,
+      203,
+      215,
+      241,
+      294,
+      298,
+      386,
+      576,
+      591,
+      648,
+      749,
+      971,
+      1004,
+      1103,
+      1232,
+      1238,
+      1673,
+      2061,
+      2445
+    ],
+    "seed": 42,
+    "source_hash": "01b819ead2defa2ba3c5de80c02d482aeb8ae9aada41c1c55c3be5b33d2eef77",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2890,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Farley Granger",
+          "Robert Walker",
+          "Ruth Roman",
+          "Patricia Hitchcock"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychotic socialite confronts a pro tennis star with a theory on how two complete strangers can get away with murder...a theory that he plans to implement.",
+        "release_date": "1951-06-18",
+        "release_year": "1951",
+        "title": "Strangers on a Train"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "William Holden",
+          "Gloria Swanson",
+          "Erich von Stroheim",
+          "Nancy Olson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "A hack screenwriter writes a screenplay for a former silent-film star who has faded into Hollywood obscurity.",
+        "release_date": "1950-08-10",
+        "release_year": "1950",
+        "title": "Sunset Blvd. (a.k.a. Sunset Boulevard)"
+      },
+      {
+        "cast": [
+          "Yul Brynner",
+          "Richard Benjamin",
+          "James Brolin",
+          "Norman Bartold"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Crichton",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In a futuristic resort, wealthy patrons can visit recreations of different time periods and experience their wildest fantasies with life-like robots. But when Richard Benjamin opts for the wild west, he gets more than he bargained for when a gunslinger robot goes berserk.",
+        "release_date": "1973-10-22",
+        "release_year": "1973",
+        "title": "Westworld"
+      },
+      {
+        "cast": [
+          "John Getz",
+          "Frances McDormand",
+          "Dan Hedaya",
+          "M. Emmet Walsh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Drama",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "The owner of a seedy small-town Texas bar discovers that one of his employees is having an affair with his wife. A chaotic chain of misunderstandings, lies and mischief ensues after he devises a plot to have them murdered.",
+        "release_date": "1984-09-07",
+        "release_year": "1984",
+        "title": "Blood Simple"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Bruce Boxleitner",
+          "David Warner",
+          "Cindy Morgan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Lisberger",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "As Kevin Flynn searches for proof that he invented a hit video game, he is \"digitalized\" by a laser and finds himself inside The Grid, where programs suffer under the tyrannical rule of the Master Control Program. With the help of TRON, a security program, Flynn seeks to free The Grid from the MCP.",
+        "release_date": "1982-07-09",
+        "release_year": "1982",
+        "title": "Tron"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Brad Pitt",
+          "Margaret Colin",
+          "Rubén Blades"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alan J. Pakula",
+        "genres": [
+          "Action",
+          "Drama",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Frankie McGuire, one of the IRA's deadliest assassins, draws an American family into the crossfire of terrorism. But when he is sent to the U.S. to buy weapons, Frankie is housed with the family of Tom O'Meara, a New York cop who knows nothing about Frankie's real identity. Their surprising friendship, and Tom's growing suspicions, forces Frankie to choose between the promise of peace or a lifetime of murder.",
+        "release_date": "1997-03-12",
+        "release_year": "1997",
+        "title": "Devil's Own, The"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "Keith David",
+          "Wilford Brimley",
+          "Donald Moffat"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Scientists in the Antarctic are confronted by a shape-shifting alien that assumes the appearance of the people that it kills.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Thing, The"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Edward G. Robinson",
+          "Lauren Bacall",
+          "Lionel Barrymore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A hurricane swells outside, but it's nothing compared to the storm within the hotel at Key Largo. There, sadistic mobster Johnny Rocco holes up - and holds at gunpoint hotel owner James Temple, his widowed daughter-in-law Nora, and ex-GI Frank McCloud.",
+        "release_date": "1948-07-31",
+        "release_year": "1948",
+        "title": "Key Largo"
+      },
+      {
+        "cast": [
+          "Frank Sinatra",
+          "Laurence Harvey",
+          "Angela Lansbury",
+          "Janet Leigh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Frankenheimer",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The Manchurian Candidate is a political thriller from American director John Frankenheimer. An American soldier is brainwashed into being a killer for the communist Russians during the Korean War.",
+        "release_date": "1962-10-24",
+        "release_year": "1962",
+        "title": "Manchurian Candidate, The"
+      }
+    ],
+    "raw_user_id": "2890",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 113
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6870555582412874
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that lack engaging plots",
+        "Negative response to action-comedy films that do not balance humor and action well"
+      ],
+      "liked_patterns": [
+        "Preference for action-packed films with adventure themes",
+        "Enjoyment of films that blend action with sci-fi elements",
+        "Interest in crime and thriller narratives with strong character development"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventurous themes.); Sci-Fi Elements (The user appreciates movies that incorporate science fiction elements, often blending them with action.); Crime and Thriller (The user is drawn to films that explore crime and thriller narratives, often with complex characters.); Romantic Subplots (The user enjoys action films that include romantic subplots, adding depth to the storyline.); Comedy in Action (The user likes action films that incorporate comedic elements, providing a lighter tone.). Liked patterns: Preference for action-packed films with adventure themes, Enjoyment of films that blend action with sci-fi elements, Interest in crime and thriller narratives with strong character development. Disliked patterns: Dislike for horror films that lack engaging plots, Negative response to action-comedy films that do not balance humor and action well.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventurous themes.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates movies that incorporate science fiction elements, often blending them with action.",
+          "taste": "Sci-Fi Elements"
+        },
+        {
+          "reason": "The user is drawn to films that explore crime and thriller narratives, often with complex characters.",
+          "taste": "Crime and Thriller"
+        },
+        {
+          "reason": "The user enjoys action films that include romantic subplots, adding depth to the storyline.",
+          "taste": "Romantic Subplots"
+        },
+        {
+          "reason": "The user likes action films that incorporate comedic elements, providing a lighter tone.",
+          "taste": "Comedy in Action"
+        }
+      ]
+    },
+    "user_id": 2890
+  }
+}

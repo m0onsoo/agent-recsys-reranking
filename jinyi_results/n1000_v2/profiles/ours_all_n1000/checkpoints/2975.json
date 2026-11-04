@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "a5fe7c0f7ec37ec3709380c8e4be42f020cf665396292b5b3b7a19e194c58815",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1233,
+      724,
+      10,
+      222,
+      1345,
+      951,
+      2044,
+      112,
+      561,
+      536
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "4883be1ac6cd404388fd59bb4cb9882e"
+    ],
+    "sampled_item_ids": [
+      10,
+      42,
+      64,
+      128,
+      154,
+      178,
+      185,
+      210,
+      222,
+      247,
+      339,
+      464,
+      554,
+      598,
+      767,
+      835,
+      864,
+      946,
+      1006,
+      1107,
+      1298,
+      1536,
+      1558,
+      2044,
+      2297
+    ],
+    "seed": 42,
+    "source_hash": "073457e03cbab74652d6c48ad3d3b01cb823b3763d33de3a95249bb8e2cf4f48",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2975,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Anne Parillaud",
+          "Marc Duret",
+          "Patrick Fontana",
+          "Alain Lathière"
+        ],
+        "country": [
+          "France",
+          "Italy"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "French",
+        "overview": "A beautiful felon, sentenced to life in prison for the murder of a policeman, is given a second chance - as a secret political assassin controlled by the government.",
+        "release_date": "1990-02-21",
+        "release_year": "1990",
+        "title": "Nikita (La Femme Nikita)"
+      },
+      {
+        "cast": [
+          "Katharine Hepburn",
+          "Cary Grant",
+          "James Stewart",
+          "Ruth Hussey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Cukor",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Philadelphia heiress Tracy Lord throws out her playboy husband C.K. Dexter Haven shortly after their marriage. Two years later, Tracy is about to marry respectable George Kittredge whilst Dexter has been working for \"Spy\" magazine. Dexter arrives at the Lord mansion the day before the wedding with journalist Mike Connor and photographer Liz Imbrie, determined to spoil things.",
+        "release_date": "1940-12-05",
+        "release_year": "1940",
+        "title": "Philadelphia Story, The"
+      },
+      {
+        "cast": [
+          "Judy Garland",
+          "Frank Morgan",
+          "Ray Bolger",
+          "Bert Lahr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+        "release_date": "1939-08-15",
+        "release_year": "1939",
+        "title": "Wizard of Oz, The"
+      },
+      {
+        "cast": [
+          "Alicia Silverstone",
+          "Stacey Dash",
+          "Brittany Murphy",
+          "Paul Rudd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Amy Heckerling",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Shallow, rich and socially successful Cher is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other. Emboldened by her success, she decides to give hopelessly klutzy new student Tai a makeover. When Tai becomes more popular than she is, Cher realizes that her disapproving ex-stepbrother was right about how misguided she was -- and falls for him.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Clueless"
+      },
+      {
+        "cast": [
+          "Winona Ryder",
+          "Christian Slater",
+          "Shannen Doherty",
+          "Lisanne Falk"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Lehmann",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A girl who halfheartedly tries to be part of the \"in crowd\" of her school meets a rebel who teaches her a more devious way to play social politics: by killing the popular kids.",
+        "release_date": "1988-10-01",
+        "release_year": "1989",
+        "title": "Heathers"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Brenda Fricker",
+          "Alison Whelan",
+          "Declan Croghan"
+        ],
+        "country": [
+          "Ireland",
+          "United Kingdom"
+        ],
+        "director": "Jim Sheridan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In this true story told through flashbacks, Christy Brown is born with crippling cerebral palsy into a poor, working-class Irish family. Able only to control movement in his left foot and to speak in guttural sounds, he is mistakenly believed to be retarded for the first ten years of his life.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "My Left Foot"
+      },
+      {
+        "cast": [
+          "Edward Woodward",
+          "Jack Thompson",
+          "John Waters",
+          "Bryan Brown"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "Bruce Beresford",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "During the Boer War, three Australian lieutenants are on trial for shooting Boer prisoners. Though they acted under orders, they are being used as scapegoats by the General Staff, who hopes to distance themselves from the irregular practices of the war. The trial does not progress as smoothly as expected by the General Staff, as the defence puts up a strong fight in the courtroom.",
+        "release_date": "1980-05-15",
+        "release_year": "1980",
+        "title": "Breaker Morant"
+      },
+      {
+        "cast": [
+          "Warren Beatty",
+          "Faye Dunaway",
+          "Michael J. Pollard",
+          "Gene Wilder"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Arthur Penn",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Bonnie and Clyde is based on the true stories of the gangster pair Bonnie Parker and Clyde Barrow who in the 1930s began robbing banks in U.S. cities until they were eventually killed. The film is a major landmark in the aesthetic movement known as the New Hollywood.",
+        "release_date": "1967-07-18",
+        "release_year": "1967",
+        "title": "Bonnie and Clyde"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Walter Huston",
+          "Tim Holt",
+          "Bruce Bennett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Fred C. Dobbs and Bob Curtin, both down on their luck in Tampico, Mexico in 1925, meet up with a grizzled prospector named Howard and decide to join with him in search of gold in the wilds of central Mexico. Through enormous difficulties, they eventually succeed in finding gold, but bandits, the elements, and most especially greed threaten to turn their success into disaster.",
+        "release_date": "1948-01-24",
+        "release_year": "1948",
+        "title": "Treasure of the Sierra Madre, The"
+      },
+      {
+        "cast": [
+          "Peter Sallis"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Gromit finds himself being pushed out of his room and home by a new lodger who is actually a ruthless criminal (and a small penguin). The penguin is planning a robbery and needs to use Wallace and his mechanical remote controlled trousers to pull off the raid. However, Gromit is wise to the penguin and comes to the rescue.",
+        "release_date": "1993-12-17",
+        "release_year": "1993",
+        "title": "Wrong Trousers, The"
+      }
+    ],
+    "raw_user_id": "2975",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 80
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.419038196617327
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "A lower rating for films that may lack strong character arcs or emotional engagement."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like comedy and romance.",
+        "Consistent appreciation for films featuring strong character development and emotional storytelling.",
+        "Positive ratings for films that include elements of suspense or thrill."
+      ],
+      "summary": "Unique tastes: Drama (The user consistently rates drama films highly, indicating a strong appreciation for character-driven narratives and emotional depth.); Comedy (The user enjoys comedies, particularly those that blend humor with other genres, as evidenced by high ratings for comedic films.); Adventure (The user shows a preference for adventure films, suggesting an enjoyment of exploration and excitement in storytelling.); Film-Noir (The user rates film-noir titles positively, indicating an interest in complex narratives and moral ambiguity.); Romance (The user appreciates romantic elements in films, often rating them favorably when combined with other genres.). Liked patterns: High ratings for films that blend drama with other genres like comedy and romance., Consistent appreciation for films featuring strong character development and emotional storytelling., Positive ratings for films that include elements of suspense or thrill.. Disliked patterns: A lower rating for films that may lack strong character arcs or emotional engagement..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong appreciation for character-driven narratives and emotional depth.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, particularly those that blend humor with other genres, as evidenced by high ratings for comedic films.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows a preference for adventure films, suggesting an enjoyment of exploration and excitement in storytelling.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "The user rates film-noir titles positively, indicating an interest in complex narratives and moral ambiguity.",
+          "taste": "Film-Noir"
+        },
+        {
+          "reason": "The user appreciates romantic elements in films, often rating them favorably when combined with other genres.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 2975
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "63e08f6420a4b02884a1e32707bb87eabd04bcd18c045c92ead6bf9040cff120",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      425,
+      1110,
+      424,
+      195,
+      218,
+      2147,
+      663,
+      649,
+      844,
+      163
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "49a8ba608e2d487ba8888ce53bc98042"
+    ],
+    "sampled_item_ids": [
+      39,
+      45,
+      93,
+      117,
+      206,
+      214,
+      230,
+      232,
+      247,
+      265,
+      308,
+      316,
+      327,
+      435,
+      446,
+      506,
+      507,
+      612,
+      719,
+      799,
+      1070,
+      1452,
+      1473,
+      2045,
+      2161
+    ],
+    "seed": 42,
+    "source_hash": "75edd3b97d46d21df8c8756908cfb454cb4cee0e9e2ee4ab46ab3ddafb775006",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1130,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Hanks",
+          "Daryl Hannah",
+          "Eugene Levy",
+          "John Candy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A successful businessman falls in love with the girl of his dreams. There's one big complication though; he's fallen hook, line and sinker for a mermaid.",
+        "release_date": "1984-03-09",
+        "release_year": "1984",
+        "title": "Splash"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Denzel Washington",
+          "Cary Elwes",
+          "Morgan Freeman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Robert Gould Shaw leads the US Civil War's first all-black volunteer company, fighting prejudices of both his own Union army and the Confederates.",
+        "release_date": "1989-12-15",
+        "release_year": "1989",
+        "title": "Glory"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Jim Carrey",
+          "Kathleen Turner",
+          "Helen Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Peggy Sue faints at a Highschool reunion. When she wakes up she finds herself in her own past, just before she finished school.",
+        "release_date": "1986-10-05",
+        "release_year": "1986",
+        "title": "Peggy Sue Got Married"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Gene Hackman",
+          "Morgan Freeman",
+          "Richard Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "William Munny is a retired, once-ruthless killer turned gentle widower and hog farmer. To help support his two motherless children, he accepts one last bounty-hunter mission to find the men who brutalized a prostitute. Joined by his former partner and a cocky greenhorn, he takes on a corrupt sheriff.",
+        "release_date": "1992-08-07",
+        "release_year": "1992",
+        "title": "Unforgiven"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Warren Beatty",
+          "Diane Keaton",
+          "Edward Herrmann",
+          "Jack Nicholson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Warren Beatty",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A radical American journalist becomes involved with the Communist revolution in Russia and hopes to bring its spirit and idealism to the United States.",
+        "release_date": "1981-12-25",
+        "release_year": "1981",
+        "title": "Reds"
+      },
+      {
+        "cast": [
+          "Keir Dullea",
+          "Gary Lockwood",
+          "William Sylvester",
+          "Douglas Rain"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "release_date": "1968-04-10",
+        "release_year": "1968",
+        "title": "2001: A Space Odyssey"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Audrey Hepburn",
+          "Eddie Albert",
+          "Hartley Power"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Overwhelmed by her suffocating schedule, touring European princess Ann takes off for a night while in Rome. When a sedative she took from her doctor kicks in, however, she falls asleep on a park bench and is found by an American reporter, Joe Bradley, who takes her back to his apartment for safety. At work the next morning, Joe finds out Ann's regal identity and bets his editor he can get exclusive interview with her, but romance soon gets in the way.",
+        "release_date": "1953-09-02",
+        "release_year": "1953",
+        "title": "Roman Holiday"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sean Bean",
+          "Izabella Scorupco",
+          "Famke Janssen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "James Bond must unmask the mysterious head of the Janus Syndicate and prevent the leader from utilizing the GoldenEye weapons system to inflict devastating revenge on Britain.",
+        "release_date": "1995-11-16",
+        "release_year": "1995",
+        "title": "GoldenEye"
+      },
+      {
+        "cast": [
+          "Kirk Douglas",
+          "Laurence Olivier",
+          "Jean Simmons",
+          "Charles Laughton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spartacus is a 1960 American historical drama film directed by Stanley Kubrick and based on the novel of the same name by Howard Fast about the historical life of Spartacus and the Third Servile War. The film stars Kirk Douglas as the rebellious slave Spartacus who leads a violent revolt against the decadent Roman empire. The film was awarded four Oscars and stands today as one of the greatest classics of the Sword and Sandal genre.",
+        "release_date": "1960-10-06",
+        "release_year": "1960",
+        "title": "Spartacus"
+      }
+    ],
+    "raw_user_id": "1130",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 225
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0314497336162434
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for certain action-adventure films",
+        "Dislike for specific war-themed films"
+      ],
+      "liked_patterns": [
+        "High ratings for action and adventure films",
+        "Positive reception of dramas with war themes",
+        "Strong appreciation for comedies"
+      ],
+      "summary": "Unique tastes: Appreciation for Action and Adventure (The user rates multiple action and adventure films highly, indicating a strong preference for excitement and dynamic storytelling.); Enjoyment of Drama and War Themes (Several dramas and war-themed films receive high ratings, suggesting a connection to intense narratives and character development.); Fondness for Comedy (The user rates various comedies positively, showing an appreciation for humor and lighthearted storytelling.); Interest in Thrillers and Mysteries (Thriller films are rated well, indicating a taste for suspenseful and engaging plots.); Value for Strong Character Development (High ratings for films with complex characters and moral dilemmas suggest a preference for depth in storytelling.). Liked patterns: High ratings for action and adventure films, Positive reception of dramas with war themes, Strong appreciation for comedies. Disliked patterns: Low ratings for certain action-adventure films, Dislike for specific war-themed films.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple action and adventure films highly, indicating a strong preference for excitement and dynamic storytelling.",
+          "taste": "Appreciation for Action and Adventure"
+        },
+        {
+          "reason": "Several dramas and war-themed films receive high ratings, suggesting a connection to intense narratives and character development.",
+          "taste": "Enjoyment of Drama and War Themes"
+        },
+        {
+          "reason": "The user rates various comedies positively, showing an appreciation for humor and lighthearted storytelling.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "Thriller films are rated well, indicating a taste for suspenseful and engaging plots.",
+          "taste": "Interest in Thrillers and Mysteries"
+        },
+        {
+          "reason": "High ratings for films with complex characters and moral dilemmas suggest a preference for depth in storytelling.",
+          "taste": "Value for Strong Character Development"
+        }
+      ]
+    },
+    "user_id": 1130
+  }
+}

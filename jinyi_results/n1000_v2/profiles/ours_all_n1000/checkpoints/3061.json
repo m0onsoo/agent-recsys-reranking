@@ -1,0 +1,344 @@
+{
+  "checkpoint_hash": "5c90e97de8114721ba192aaddcf2ab4b6beb122f700389af432ff30d2e961b12",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      42,
+      190,
+      278,
+      214,
+      63,
+      415,
+      127,
+      568,
+      128,
+      124
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5627e9cd7bab4a72939a57f097d30d07"
+    ],
+    "sampled_item_ids": [
+      20,
+      24,
+      42,
+      63,
+      114,
+      116,
+      117,
+      124,
+      128,
+      168,
+      172,
+      190,
+      201,
+      204,
+      206,
+      210,
+      214,
+      217,
+      265,
+      278,
+      415,
+      568,
+      643,
+      1155,
+      1323
+    ],
+    "seed": 42,
+    "source_hash": "9cfe995dc0c114c6f66c237e86636722cce6cc139a0d6a57f2aa2d1098993ec7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3061,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Tom Cruise",
+          "Valeria Golino",
+          "Gerald R. Molen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.",
+        "release_date": "1988-12-11",
+        "release_year": "1988",
+        "title": "Rain Man"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Robert Shaw",
+          "Richard Dreyfuss",
+          "Lorraine Gary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
+        "release_date": "1975-06-18",
+        "release_year": "1975",
+        "title": "Jaws"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Natalie Wood",
+          "Richard Beymer",
+          "Russ Tamblyn",
+          "Rita Moreno"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerome Robbins",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the slums of the upper West Side of Manhattan, New York, a gang of Polish-American teenagers called the Jets compete with a rival gang of recently immigrated Puerto Ricans, the Sharks, to \"own\" the neighborhood streets. Tensions are high between the gangs but two kids, one from each rival gang, fall in love leading to tragedy.",
+        "release_date": "1961-10-18",
+        "release_year": "1961",
+        "title": "West Side Story"
+      },
+      {
+        "cast": [
+          "Helen Hunt",
+          "Bill Paxton",
+          "Cary Elwes",
+          "Jami Gertz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "TV weatherman Bill Harding is trying to get his tornado-hunter wife, Jo, to sign divorce papers so he can marry his girlfriend Melissa. But Mother Nature, in the form of a series of intense storms sweeping across Oklahoma, has other plans. Soon the three have joined the team of stormchasers as they attempt to insert a revolutionary measuring device into the very heart of several extremely violent tornados.",
+        "release_date": "1996-05-10",
+        "release_year": "1996",
+        "title": "Twister"
+      },
+      {
+        "cast": [
+          "Patrick Swayze",
+          "Demi Moore",
+          "Whoopi Goldberg",
+          "Tony Goldwyn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Zucker",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Wheat is a banker, Molly Jensen is an artist, and the two are madly in love. However, when Sam is murdered by his friend and corrupt business partner Carl Bruner over a shady business deal, he is left to roam the earth as a powerless spirit. When he learns of Carl's betrayal, Sam must seek the help of psychic Oda Mae Brown to set things right and protect Molly from Carl and his goons.",
+        "release_date": "1990-07-12",
+        "release_year": "1990",
+        "title": "Ghost"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Mary McDonnell",
+          "Graham Greene",
+          "Rodney A. Grant"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kevin Costner",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Wounded Civil War soldier, John Dunbar tries to commit suicide – and becomes a hero instead. As a reward, he's assigned to his dream post, a remote junction on the Western frontier, and soon makes unlikely friends with the local Sioux tribe.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Dances with Wolves"
+      }
+    ],
+    "raw_user_id": "3061",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 26
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.501924064980616
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for comedies that lack depth or strong narrative.",
+        "Dislike for films that do not resonate emotionally or feel overly simplistic."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as action-comedy and drama-romance.",
+        "Consistent appreciation for films with strong character development and emotional depth.",
+        "Preference for films that feature adventure and exploration themes."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (Multiple high ratings for dramatic films, indicating a deep appreciation for emotional storytelling.); Enjoyment of Action and Adventure (Consistent high ratings for action and adventure films suggest a strong affinity for thrilling and engaging narratives.); Appreciation for Comedy (Several comedies rated positively indicate a liking for humor and light-hearted entertainment.); Interest in Romance (High ratings for romantic films show a tendency to enjoy love stories and emotional connections.); Fondness for Fantasy and Sci-Fi (Positive ratings for fantasy and sci-fi genres reflect an interest in imaginative and speculative storytelling.). Liked patterns: High ratings for films that blend genres, such as action-comedy and drama-romance., Consistent appreciation for films with strong character development and emotional depth., Preference for films that feature adventure and exploration themes.. Disliked patterns: Negative ratings for comedies that lack depth or strong narrative., Dislike for films that do not resonate emotionally or feel overly simplistic..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for dramatic films, indicating a deep appreciation for emotional storytelling.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Consistent high ratings for action and adventure films suggest a strong affinity for thrilling and engaging narratives.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "Several comedies rated positively indicate a liking for humor and light-hearted entertainment.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "High ratings for romantic films show a tendency to enjoy love stories and emotional connections.",
+          "taste": "Interest in Romance"
+        },
+        {
+          "reason": "Positive ratings for fantasy and sci-fi genres reflect an interest in imaginative and speculative storytelling.",
+          "taste": "Fondness for Fantasy and Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 3061
+  }
+}

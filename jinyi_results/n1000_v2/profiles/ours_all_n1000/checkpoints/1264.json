@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "e1e5b138ae74e284eee241a4a6c6204520fa478a1b769cac4e2237493bb911a7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      284,
+      565,
+      235,
+      96,
+      969,
+      645,
+      2,
+      398,
+      95,
+      123
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "08922b8e0ac1465698d3919138ebf5db"
+    ],
+    "sampled_item_ids": [
+      2,
+      54,
+      116,
+      123,
+      238,
+      327,
+      436,
+      447,
+      539,
+      664,
+      673,
+      695,
+      739,
+      763,
+      854,
+      1062,
+      1086,
+      1142,
+      1214,
+      1225,
+      1284,
+      1309,
+      1388,
+      1659,
+      2663
+    ],
+    "seed": 42,
+    "source_hash": "cf76087b4ba5a2d5db5efc03813263855c239f2bbaf1692c1a4880a246204e1c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1264,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "Gary Oldman",
+          "William Hurt",
+          "Matt LeBlanc",
+          "Mimi Rogers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Hopkins",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The prospects for continuing life on Earth in the year 2058 are grim. So the Robinsons are launched into space to colonize Alpha Prime, the only other inhabitable planet in the galaxy. But when a stowaway sabotages the mission, the Robinsons find themselves hurtling through uncharted space.",
+        "release_date": "1998-04-03",
+        "release_year": "1998",
+        "title": "Lost in Space"
+      },
+      {
+        "cast": [
+          "David Thewlis",
+          "Lesley Sharp",
+          "Katrin Cartlidge",
+          "Greg Cruttwell"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mike Leigh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Johnny flees Manchester for London, to avoid a beating from the family of a girl he has raped. There he finds an old girlfriend, and spends some time homeless, spending much of his time ranting at strangers, and meeting characters in plights very much like his own.",
+        "release_date": "1993-09-14",
+        "release_year": "1993",
+        "title": "Naked"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Campbell Scott",
+          "Ben Gazzara",
+          "Rebecca Pidgeon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Mamet",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An employee of a corporation with a lucrative secret process is tempted to betray it. But there's more to it than that.",
+        "release_date": "1997-09-08",
+        "release_year": "1997",
+        "title": "Spanish Prisoner, The"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "John Lithgow",
+          "Helen Mirren",
+          "Bob Balaban"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Mystery",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "This is a sequel to 2001 A Space Odyssey. It is now 2010 and both the Americans and the Russians are racing to get to Jupiter to investigate the black monolith (similar to the one found in Lunar Crater Clavius) which was found by the U.S.S. Discovery in orbit around Jupiter's moons. The U.S.S. Discovery's orbit is rapidly decaying and it will crash into IO but the Americans cannot get there in time to save U.S.S. Discovery. The Russians can get to Jupiter in time but only the Americans have the knowledge to access and awaken the U.S.S. Discovery's H.A.L.9000 sentient computer. This forces a joint American-Soviet space expedition against a backdrop of growing global tensions. The combined expedition is seeking answers to several mysteries. What is the significance of the black monolith? Why did H.A.L.9000 act so bizarrely and terminate 4 of 5 of the U.S.S. Discovery's crew? What happened to David Bowman? Along the way, curious data is detected  ...",
+        "release_date": "1984-12-06",
+        "release_year": "1984",
+        "title": "2010"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral Kirk and his bridge crew risk their careers stealing the decommissioned Enterprise to return to the restricted Genesis planet to recover Spock's body.",
+        "release_date": "1984-05-31",
+        "release_year": "1984",
+        "title": "Star Trek III: The Search for Spock"
+      },
+      {
+        "cast": [
+          "Miriam Margolyes",
+          "Joanna Lumley",
+          "Pete Postlethwaite",
+          "Susan Sarandon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Henry Selick",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "When the young orphan boy James spills a magic bag of crocodile tongues, he finds himself in possession of a giant peach that flies him away to strange lands.",
+        "release_date": "1996-04-12",
+        "release_year": "1996",
+        "title": "James and the Giant Peach"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Dennis Quaid",
+          "Gene Hackman",
+          "David Andrews"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Covering the life and times of one of the West's most iconic heroes Wyatt Earp weaves an intricate tale of Earp and his friends and family. With a star studded cast, sweeping cinematography and authentic costumes Wyatt Earp led the way during the Western revival in the 90's.",
+        "release_date": "1994-06-24",
+        "release_year": "1994",
+        "title": "Wyatt Earp"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Kris Kristofferson",
+          "Gregg Henry",
+          "Maria Bello"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian Helgeland",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "With friends like these, who needs enemies? That's the question bad guy Porter is left asking after his wife and partner steal his heist money and leave him for dead -- or so they think. Five months and an endless reservoir of bitterness later, Porter's partners and the crooked cops on his tail learn how bad payback can be.",
+        "release_date": "1999-02-05",
+        "release_year": "1999",
+        "title": "Payback"
+      },
+      {
+        "cast": [
+          "Sean Penn",
+          "Adrien Brody",
+          "Jim Caviezel",
+          "Ben Chaplin"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Terrence Malick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Based on the graphic novel by James Jones, The Thin Red Line tells the story of a group of men, an Army Rifle company called C-for-Charlie, who change, suffer, and ultimately make essential discoveries about themselves during the fierce World War II battle of Guadalcanal. It follows their journey, from the surprise of an unopposed landing, through the bloody and exhausting battles that follow, to the ultimate departure of those who survived. A powerful frontline cast - including Sean Penn, Nick Nolte, Woody Harrelson and George Clooney - explodes into action in this hauntingly realistic view of military and moral chaos in the Pacific during World War II.",
+        "release_date": "1998-12-25",
+        "release_year": "1998",
+        "title": "Thin Red Line, The"
+      }
+    ],
+    "raw_user_id": "1264",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 569
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4884864453455471
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films, as indicated by low ratings for multiple titles in that genre.",
+        "Dislike for certain action films that do not resonate, as shown by low ratings for specific titles."
+      ],
+      "liked_patterns": [
+        "Preference for character-driven dramas with emotional depth.",
+        "Enjoyment of action-packed narratives that include thrilling sequences.",
+        "Attraction to films that blend genres, such as drama with romance or action with sci-fi."
+      ],
+      "summary": "Unique tastes: Drama (A significant number of liked movies fall within the drama genre, indicating a strong preference for character-driven narratives.); Action (Several liked movies feature action elements, suggesting an appreciation for excitement and dynamic storytelling.); Sci-Fi (The presence of multiple liked sci-fi films indicates a taste for speculative and imaginative themes.); Comedy (A number of liked films incorporate comedic elements, reflecting an enjoyment of humor and lightheartedness.); Romance (The inclusion of romance in several liked films suggests an affinity for emotional and relational themes.). Liked patterns: Preference for character-driven dramas with emotional depth., Enjoyment of action-packed narratives that include thrilling sequences., Attraction to films that blend genres, such as drama with romance or action with sci-fi.. Disliked patterns: Dislike for horror films, as indicated by low ratings for multiple titles in that genre., Dislike for certain action films that do not resonate, as shown by low ratings for specific titles..",
+      "unique_tastes": [
+        {
+          "reason": "A significant number of liked movies fall within the drama genre, indicating a strong preference for character-driven narratives.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Several liked movies feature action elements, suggesting an appreciation for excitement and dynamic storytelling.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The presence of multiple liked sci-fi films indicates a taste for speculative and imaginative themes.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "A number of liked films incorporate comedic elements, reflecting an enjoyment of humor and lightheartedness.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The inclusion of romance in several liked films suggests an affinity for emotional and relational themes.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 1264
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "7493312e7c8c0cfae8645332abc539d3f90adf94f46cb459124d8ae40134c509",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1099,
+      719,
+      372,
+      210,
+      1731,
+      146,
+      359,
+      499,
+      279,
+      382
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      27,
+      43,
+      70,
+      75,
+      97,
+      146,
+      148,
+      154,
+      211,
+      232,
+      309,
+      382,
+      417,
+      499,
+      548,
+      566,
+      662,
+      663,
+      682,
+      705,
+      719,
+      888,
+      892,
+      1272,
+      1467
+    ],
+    "seed": 42,
+    "source_hash": "eedc4b43c95e7c55cb8cf961416177a3a7896fddac8dfaa313d99d632f12aacb",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5353,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Glenn Close",
+          "John Malkovich",
+          "Michelle Pfeiffer",
+          "Swoosie Kurtz"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Dangerous Liaisons is the film based on the novel of the same name by Choderlos de Laclos set in 18th century France. Marquise de Merteuil’s asks her ex-lover Vicomte de Valmont to seduce the future wife of another ex-lover of hers in return for one last night with her. Yet things don’t go as planned in this love triangle drama.",
+        "release_date": "1988-12-16",
+        "release_year": "1988",
+        "title": "Dangerous Liaisons"
+      },
+      {
+        "cast": [
+          "Peter O'Toole",
+          "Alec Guinness",
+          "Anthony Quinn",
+          "Jack Hawkins"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "David Lean",
+        "genres": [
+          "Adventure",
+          "War"
+        ],
+        "language": "English",
+        "overview": "An epic about British officer T.E. Lawrence's mission to aid the Arab tribes in their revolt against the Ottoman Empire during the First World War. Lawrence becomes a flamboyant, messianic figure in the cause of Arab unity but his psychological instability threatens to undermine his achievements.",
+        "release_date": "1962-12-10",
+        "release_year": "1962",
+        "title": "Lawrence of Arabia"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Robert De Niro",
+          "Anne Heche",
+          "Woody Harrelson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "During the final weeks of a presidential race, the President is accused of sexual misconduct. To distract the public until the election, the President's adviser hires a Hollywood producer to help him stage a fake war.",
+        "release_date": "1997-12-25",
+        "release_year": "1997",
+        "title": "Wag the Dog"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Jon Voight",
+          "Sylvia Miles",
+          "John McGiver"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A naive male prostitute and his sickly friend struggle to survive on the streets of New York City.",
+        "release_date": "1969-05-25",
+        "release_year": "1969",
+        "title": "Midnight Cowboy"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Gene Hackman",
+          "Rene Russo",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Chili Palmer is a Miami mobster who gets sent by his boss, the psychopathic \"Bones\" Barboni, to collect a bad debt from Harry Zimm, a Hollywood producer who specializes in cheesy horror films. When Chili meets Harry's leading lady, the romantic sparks fly. After pitching his own life story as a movie idea, Chili learns that being a mobster and being a Hollywood producer really aren't all that different.",
+        "release_date": "1995-10-20",
+        "release_year": "1995",
+        "title": "Get Shorty"
+      },
+      {
+        "cast": [
+          "Nigel Hawthorne",
+          "Helen Mirren",
+          "Ian Holm",
+          "Rupert Graves"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nicholas Hytner",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Nicholas Hytner’s much awarded 1994 drama, based on Alan Bennett's West End play. George III's erratic behaviour leads to a plot in Parliament to have him declared insane and removed from the throne.",
+        "release_date": "1994-12-28",
+        "release_year": "1994",
+        "title": "Madness of King George, The"
+      },
+      {
+        "cast": [
+          "Gwyneth Paltrow",
+          "Ethan Hawke",
+          "Chris Cooper",
+          "Anne Bancroft"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfonso Cuarón",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Loosely based on the Charles Dickens' classic novel, \"Great Expectations\" is a sensual tale of a young man's unforgettable passage into manhood, and the three individuals who will undeniably change his life forever. Through the surprising interactions of these vivid characters, \"Great Expectations\" takes a unique and contemporary look at life's great coincidences.",
+        "release_date": "1998-01-19",
+        "release_year": "1998",
+        "title": "Great Expectations"
+      },
+      {
+        "cast": [
+          "Hal Holbrook",
+          "Adrienne Barbeau",
+          "Fritz Weaver",
+          "Leslie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George A. Romero",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Inspired by the E.C. comics of the 1950s, George A.Romero and Stephen King bring five tales of terror to the screen.",
+        "release_date": "1982-11-12",
+        "release_year": "1982",
+        "title": "Creepshow"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      }
+    ],
+    "raw_user_id": "5353",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 96
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4677332928466151
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily drama without engaging elements, as seen in lower ratings.",
+        "Negative reception of films that do not blend genres effectively, leading to lower ratings."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and action films with high ratings.",
+        "Enjoyment of films that combine drama with romance or comedy.",
+        "Consistent appreciation for films that explore complex themes, such as war and personal struggles."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.); Action (Enjoyment of action films is reflected in multiple ratings of 4 or above, indicating a liking for thrilling sequences.); Romance (A consistent appreciation for romantic themes is shown through several high ratings for films that incorporate romance.); Comedy (A liking for comedic elements is present, as indicated by positive ratings for films that blend comedy with other genres.); War (An interest in war-themed narratives is noted, with several films rated highly that explore this genre.). Liked patterns: Strong preference for drama and action films with high ratings., Enjoyment of films that combine drama with romance or comedy., Consistent appreciation for films that explore complex themes, such as war and personal struggles.. Disliked patterns: Dislike for films that are primarily drama without engaging elements, as seen in lower ratings., Negative reception of films that do not blend genres effectively, leading to lower ratings..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Enjoyment of action films is reflected in multiple ratings of 4 or above, indicating a liking for thrilling sequences.",
+          "taste": "Action"
+        },
+        {
+          "reason": "A consistent appreciation for romantic themes is shown through several high ratings for films that incorporate romance.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "A liking for comedic elements is present, as indicated by positive ratings for films that blend comedy with other genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "An interest in war-themed narratives is noted, with several films rated highly that explore this genre.",
+          "taste": "War"
+        }
+      ]
+    },
+    "user_id": 5353
+  }
+}

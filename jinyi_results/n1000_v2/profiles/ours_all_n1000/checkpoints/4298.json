@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "8eef31064a6f5a25b1635a0b5a1cd2c2fb33cf023733f8c68afbd7d0076bfbd0",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      267,
+      1159,
+      563,
+      10,
+      671,
+      133,
+      773,
+      795,
+      14,
+      458
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      16,
+      23,
+      47,
+      65,
+      105,
+      113,
+      176,
+      202,
+      260,
+      605,
+      623,
+      653,
+      671,
+      689,
+      699,
+      718,
+      731,
+      756,
+      961,
+      1039,
+      1047,
+      1284,
+      1353,
+      1464,
+      2475
+    ],
+    "seed": 42,
+    "source_hash": "99c44e4ccb2c2fa20207d0f27092a32fec78e8141845be94d324ac8535720ae2",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4298,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Cecilia Roth",
+          "Marisa Paredes",
+          "Penélope Cruz",
+          "Candela Peña"
+        ],
+        "country": [
+          "Spain",
+          "France"
+        ],
+        "director": "Pedro Almodóvar",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Spanish",
+        "overview": "A single mother in Madrid sees her only son die on his birthday as he runs to seek an actress' autograph. Beside herself with grief, she returns to Barcelona to tell the boy's father about the death of the son he never knew he had.",
+        "release_date": "1999-04-19",
+        "release_year": "1999",
+        "title": "All About My Mother (Todo Sobre Mi Madre)"
+      },
+      {
+        "cast": [
+          "Anthony Perkins",
+          "Vera Miles",
+          "John Gavin",
+          "Janet Leigh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother. The place seems quirky, but fine… until Marion decides to take a shower.",
+        "release_date": "1960-06-16",
+        "release_year": "1960",
+        "title": "Psycho"
+      },
+      {
+        "cast": [
+          "Groucho Marx",
+          "Harpo Marx",
+          "Chico Marx",
+          "Zeppo Marx"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leo McCarey",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Rufus T. Firefly is named president/dictator of bankrupt Freedonia and declares war on neighboring Sylvania over the love of wealthy Mrs. Teasdale.",
+        "release_date": "1933-11-17",
+        "release_year": "1933",
+        "title": "Duck Soup"
+      },
+      {
+        "cast": [
+          "Judy Garland",
+          "Frank Morgan",
+          "Ray Bolger",
+          "Bert Lahr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+        "release_date": "1939-08-15",
+        "release_year": "1939",
+        "title": "Wizard of Oz, The"
+      },
+      {
+        "cast": [
+          "Sterling Holloway",
+          "John Fiedler",
+          "Paul Winchell",
+          "Hal Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Reitherman",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "Winnie the Pooh and his friends experience high winds, heavy rains, and a flood in Hundred Acre Wood.",
+        "release_date": "1968-12-20",
+        "release_year": "1968",
+        "title": "Winnie the Pooh and the Blustery Day"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Andrew McCarthy",
+          "Jonathan Silverman",
+          "Catherine Mary Stewart",
+          "Terry Kiser"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ted Kotcheff",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two friends are invited for a weekend to a luxury island with their boss. The boss gets shot and nobody seems to notice, except for the two friends. In order not to become suspects of murder they treat the body as a puppet and make people believe he's still alive. The killer wants to do his job so when he is informed that the stiff is still alive he's got to shoot him again, and again, and again.",
+        "release_date": "1989-07-05",
+        "release_year": "1989",
+        "title": "Weekend at Bernie's"
+      },
+      {
+        "cast": [
+          "Isabella Rossellini",
+          "Kyle MacLachlan",
+          "Dennis Hopper",
+          "Laura Dern"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of criminals who have kidnapped her child.",
+        "release_date": "1986-08-01",
+        "release_year": "1986",
+        "title": "Blue Velvet"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Alan Ruck",
+          "Mia Sara",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Charismatic teen Ferris Bueller plays hooky in Chicago with his girlfriend and best friend.",
+        "release_date": "1986-06-11",
+        "release_year": "1986",
+        "title": "Ferris Bueller's Day Off"
+      },
+      {
+        "cast": [
+          "Vincent Gallo",
+          "Christina Ricci",
+          "Ben Gazzara",
+          "Mickey Rourke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Vincent Gallo",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Billy is released after five years in prison. In the next moment, he kidnaps teenage student Layla and visits his parents with her, pretending she is his girlfriend and they will soon marry.",
+        "release_date": "1998-01-20",
+        "release_year": "1998",
+        "title": "Buffalo 66"
+      }
+    ],
+    "raw_user_id": "4298",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 229
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8609954284548131
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low rating for comedies that do not resonate with the user's sense of humor."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with other genres like drama and adventure.",
+        "Positive reception of animated films, particularly those with children's themes.",
+        "Strong preference for films that combine adventure with fantasy elements."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Adventure (The user appreciates adventure films, particularly those that incorporate elements of fantasy or children's themes.); Drama (The user has a strong affinity for dramatic narratives, often favoring films that explore deep emotional themes.); Animation (The user rates animated films positively, especially those aimed at children.); Mystery and Thriller (The user enjoys films that involve mystery and suspense, often rating them highly.). Liked patterns: High ratings for comedies that blend humor with other genres like drama and adventure., Positive reception of animated films, particularly those with children's themes., Strong preference for films that combine adventure with fantasy elements.. Disliked patterns: Low rating for comedies that do not resonate with the user's sense of humor..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates adventure films, particularly those that incorporate elements of fantasy or children's themes.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "The user has a strong affinity for dramatic narratives, often favoring films that explore deep emotional themes.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user rates animated films positively, especially those aimed at children.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user enjoys films that involve mystery and suspense, often rating them highly.",
+          "taste": "Mystery and Thriller"
+        }
+      ]
+    },
+    "user_id": 4298
+  }
+}

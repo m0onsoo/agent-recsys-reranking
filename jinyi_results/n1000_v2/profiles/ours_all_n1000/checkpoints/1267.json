@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "1cf4cd85819c0f1a850a91492c7e17cb82daf36f16e8ac4c20a1984d86d89def",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      322,
+      1099,
+      175,
+      832,
+      720,
+      2336,
+      294,
+      212,
+      9,
+      952
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "c481ca0a41eb4d1eb0e1f7c96d2bab8e"
+    ],
+    "sampled_item_ids": [
+      1,
+      3,
+      175,
+      190,
+      284,
+      337,
+      347,
+      487,
+      532,
+      588,
+      644,
+      650,
+      663,
+      719,
+      720,
+      768,
+      910,
+      952,
+      999,
+      1182,
+      1284,
+      1762,
+      2009,
+      2300,
+      2470
+    ],
+    "seed": 42,
+    "source_hash": "4c5514b86fca4ac0bb31b0b69747b5d42bd4709ca4c7bfccaa421c4f456fbff4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1267,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "scientist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Glenn Close",
+          "John Malkovich",
+          "Michelle Pfeiffer",
+          "Swoosie Kurtz"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Dangerous Liaisons is the film based on the novel of the same name by Choderlos de Laclos set in 18th century France. Marquise de Merteuil’s asks her ex-lover Vicomte de Valmont to seduce the future wife of another ex-lover of hers in return for one last night with her. Yet things don’t go as planned in this love triangle drama.",
+        "release_date": "1988-12-16",
+        "release_year": "1988",
+        "title": "Dangerous Liaisons"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Anne Bancroft",
+          "Katharine Ross",
+          "Murray Hamilton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A recent college graduate finds himself in a love triangle with an older woman and her daughter.",
+        "release_date": "1967-12-21",
+        "release_year": "1967",
+        "title": "Graduate, The"
+      },
+      {
+        "cast": [
+          "Kate Hudson",
+          "Billy Crudup",
+          "Frances McDormand",
+          "Jason Lee"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Almost Famous is an autobiographical inspired film about a 15-year-old who is hired by Rolling Stone magazine to follow and interview a rock band during their tour. A film about growing up, first love, disappointment, and the life of a rock star.",
+        "release_date": "2000-09-15",
+        "release_year": "2000",
+        "title": "Almost Famous"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      },
+      {
+        "cast": [
+          "John Lurie",
+          "Eszter Balint",
+          "Richard Edson",
+          "Cecillia Stark"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Jarmusch",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Rootless Hungarian émigré Willie, his pal Eddie, and visiting sixteen-year-old cousin Eva always manage to make the least of any situation, whether aimlessly traversing the drab interiors and environs of New York City, Cleveland, or an anonymous Florida suburb.",
+        "release_date": "1984-10-01",
+        "release_year": "1984",
+        "title": "Stranger Than Paradise"
+      },
+      {
+        "cast": [
+          "Samuel L. Jackson",
+          "Jeffrey Wright",
+          "Christian Bale",
+          "Busta Rhymes"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "John Singleton",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "New York police detective John Shaft arrests Walter Wade Jr. for a racially motivated slaying. But the only eyewitness disappears, and Wade jumps bail for Switzerland. Two years later Wade returns to face trial, confident his money and influence will get him acquitted -- especially since he's paid a drug kingpin to kill the witness.",
+        "release_date": "2000-06-15",
+        "release_year": "2000",
+        "title": "Shaft"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Joanne Samuel",
+          "Hugh Keays-Byrne",
+          "Steve Bisley"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future Australia, a vicious biker gang murders a cop's family, and makes his fight with them personal.",
+        "release_date": "1979-04-12",
+        "release_year": "1979",
+        "title": "Mad Max"
+      },
+      {
+        "cast": [
+          "Adriana Caselotti",
+          "Lucille La Verne",
+          "Harry Stockwell",
+          "Roy Atwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Hand",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A beautiful girl, Snow White, takes refuge in the forest in the house of seven dwarfs to hide from her stepmother, the wicked Queen. The Queen is jealous because she wants to be known as \"the fairest in the land,\" and Snow White's beauty surpasses her own.",
+        "release_date": "1937-12-20",
+        "release_year": "1937",
+        "title": "Snow White and the Seven Dwarfs"
+      },
+      {
+        "cast": [
+          "Donatas Banionis",
+          "Natalya Bondarchuk",
+          "Jüri Järvet",
+          "Анатолій Солоніцин"
+        ],
+        "country": [
+          "Russia"
+        ],
+        "director": "Andrei Tarkovsky",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "Russian",
+        "overview": "Ground control has been receiving strange transmissions from the three remaining residents of the Solaris space station. When cosmonaut and psychologist Kris Kelvin is sent to investigate, he experiences the strange phenomena that afflict the Solaris crew, sending him on a voyage into the darkest recesses of his own consciousness. Based on the novel by the same name from Polish author Stanislaw Lem.",
+        "release_date": "1972-03-20",
+        "release_year": "1972",
+        "title": "Solaris (Solyaris)"
+      }
+    ],
+    "raw_user_id": "1267",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 137
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1722026174208413
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for animated children's films",
+        "Negative ratings for certain action films",
+        "Dislike for specific sci-fi films"
+      ],
+      "liked_patterns": [
+        "High ratings for drama films",
+        "Positive ratings for musicals",
+        "Interest in crime and thriller genres"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for this genre.); Enjoyment of Musicals (The user has rated multiple musicals positively, suggesting a fondness for musical storytelling.); Interest in Crime and Thriller (The user shows a liking for crime and thriller genres, as evidenced by positive ratings in these categories.); Fascination with Sci-Fi (The user has rated several sci-fi films favorably, indicating an interest in speculative and imaginative narratives.); Preference for Romantic Elements (The user enjoys films that incorporate romance, as seen in their ratings of romantic dramas and musicals.). Liked patterns: High ratings for drama films, Positive ratings for musicals, Interest in crime and thriller genres. Disliked patterns: Low ratings for animated children's films, Negative ratings for certain action films, Dislike for specific sci-fi films.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user has rated multiple musicals positively, suggesting a fondness for musical storytelling.",
+          "taste": "Enjoyment of Musicals"
+        },
+        {
+          "reason": "The user shows a liking for crime and thriller genres, as evidenced by positive ratings in these categories.",
+          "taste": "Interest in Crime and Thriller"
+        },
+        {
+          "reason": "The user has rated several sci-fi films favorably, indicating an interest in speculative and imaginative narratives.",
+          "taste": "Fascination with Sci-Fi"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romance, as seen in their ratings of romantic dramas and musicals.",
+          "taste": "Preference for Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 1267
+  }
+}

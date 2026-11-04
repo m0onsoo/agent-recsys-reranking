@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "b2e4b73230613f7f8ad9152f7d8a155330258e50c8f3602125dcea9cd71ccdcf",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      715,
+      100,
+      187,
+      129,
+      350,
+      1009,
+      547,
+      44,
+      97,
+      78
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      1,
+      44,
+      59,
+      73,
+      78,
+      98,
+      100,
+      129,
+      187,
+      200,
+      218,
+      350,
+      547,
+      663,
+      715,
+      744,
+      800,
+      854,
+      999,
+      1093,
+      1434,
+      1476,
+      1478,
+      1613,
+      1998
+    ],
+    "seed": 42,
+    "source_hash": "ede1fc7fec3246ac5482e3b8544beec2d8cf8fd656a338c66a4e76ae2110ec0f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5017,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Michael Biehn",
+          "James Remar",
+          "Paul Reiser"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
+        "release_date": "1986-07-18",
+        "release_year": "1986",
+        "title": "Aliens"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "David Niven",
+          "Anthony Quinn",
+          "Stanley Baker"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "J. Lee Thompson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A team of allied saboteurs are assigned an impossible mission: infiltrate an impregnable Nazi-held island and destroy the two enormous long-range field guns that prevent the rescue of 2,000 trapped British soldiers.",
+        "release_date": "1961-04-27",
+        "release_year": "1961",
+        "title": "Guns of Navarone, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Sean Connery",
+          "Denholm Elliott",
+          "Alison Doody"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Henry Jones Sr. suddenly goes missing while pursuing the Holy Grail, eminent archaeologist Indiana must team up with Marcus Brody, Sallah and Elsa Schneider to follow in his father's footsteps and stop the Nazis from recovering the power of eternal life.",
+        "release_date": "1989-05-24",
+        "release_year": "1989",
+        "title": "Indiana Jones and the Last Crusade"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Owen Wilson",
+          "Lucy Liu",
+          "Xander Berkeley"
+        ],
+        "country": [
+          "Hong Kong",
+          "United States of America"
+        ],
+        "director": "Tom Dey",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Chon Wang, a clumsy imperial guard trails Princess Pei Pei when she is kidnapped from the Forbidden City and transported to America. Wang follows her captors to Nevada, where he teams up with an unlikely partner, outcast outlaw Roy O'Bannon, and tries to spring the princess from her imprisonment.",
+        "release_date": "2000-05-26",
+        "release_year": "2000",
+        "title": "Shanghai Noon"
+      },
+      {
+        "cast": [
+          "Walter Pidgeon",
+          "Anne Francis",
+          "Leslie Nielsen",
+          "Warren Stevens"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Fred M. Wilcox",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Captain Adams and the crew of the Starship C57D fly towards planet Altair 4 in search for the Bellerphon spaceship that has been missing for twenty years. To their surprise they are already being expected. A classic science fiction film from 1957 starring Leslie Nielsen.",
+        "release_date": "1956-03-15",
+        "release_year": "1956",
+        "title": "Forbidden Planet"
+      },
+      {
+        "cast": [
+          "Jürgen Prochnow",
+          "Herbert Grönemeyer",
+          "Klaus Wennemann",
+          "Hubertus Bengsch"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "German",
+        "overview": "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.",
+        "release_date": "1981-09-16",
+        "release_year": "1981",
+        "title": "Boat, The (Das Boot)"
+      },
+      {
+        "cast": [
+          "Franka Potente",
+          "Moritz Bleibtreu",
+          "Herbert Knaup",
+          "Nina Petri"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Tom Tykwer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store to get the money. Three different alternatives may happen depending on some minor event along Lola's run.",
+        "release_date": "1998-08-20",
+        "release_year": "1998",
+        "title": "Run Lola Run (Lola rennt)"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "François Truffaut",
+          "Teri Garr",
+          "Melinda Dillon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After an encounter with UFOs, a line worker feels undeniably drawn to an isolated area in the wilderness where something spectacular is about to happen.",
+        "release_date": "1977-11-16",
+        "release_year": "1977",
+        "title": "Close Encounters of the Third Kind"
+      },
+      {
+        "cast": [
+          "Michael Rennie",
+          "Patricia Neal",
+          "Billy Gray",
+          "Hugh Marlowe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Wise",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An alien and a robot land on earth after World War II and tell mankind to be peaceful or face destruction. A classic science fiction film from Robert Wise with an exceptional message.",
+        "release_date": "1951-09-17",
+        "release_year": "1951",
+        "title": "Day the Earth Stood Still, The"
+      }
+    ],
+    "raw_user_id": "5017",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 33
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.39401603928776174
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for animated sci-fi films that do not resonate with the user's taste.",
+        "No strong preference for light-hearted comedies without deeper themes."
+      ],
+      "liked_patterns": [
+        "Strong preference for action films with a mix of other genres like drama and sci-fi.",
+        "High ratings for films that feature complex characters and intense narratives.",
+        "Appreciation for films that blend genres effectively, such as action with romance or thriller."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventure elements.); Drama and Thriller (The user appreciates films that delve into intense emotional narratives and suspenseful plots.); Sci-Fi and Mystery (The user is drawn to science fiction films that incorporate mystery and thought-provoking themes.); War and Historical Themes (The user favors films that explore war and its impact on human experiences.); Comedy with Depth (The user enjoys comedies that also provide deeper social commentary or character development.). Liked patterns: Strong preference for action films with a mix of other genres like drama and sci-fi., High ratings for films that feature complex characters and intense narratives., Appreciation for films that blend genres effectively, such as action with romance or thriller.. Disliked patterns: Dislike for animated sci-fi films that do not resonate with the user's taste., No strong preference for light-hearted comedies without deeper themes..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventure elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that delve into intense emotional narratives and suspenseful plots.",
+          "taste": "Drama and Thriller"
+        },
+        {
+          "reason": "The user is drawn to science fiction films that incorporate mystery and thought-provoking themes.",
+          "taste": "Sci-Fi and Mystery"
+        },
+        {
+          "reason": "The user favors films that explore war and its impact on human experiences.",
+          "taste": "War and Historical Themes"
+        },
+        {
+          "reason": "The user enjoys comedies that also provide deeper social commentary or character development.",
+          "taste": "Comedy with Depth"
+        }
+      ]
+    },
+    "user_id": 5017
+  }
+}

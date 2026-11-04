@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "f2700e1c6b687e13eab2b7b525a08880bd95adc7c46fba74ea36c11f961a8af2",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      421,
+      160,
+      630,
+      662,
+      245,
+      835,
+      926,
+      670,
+      105,
+      256
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      1,
+      45,
+      105,
+      125,
+      160,
+      163,
+      175,
+      245,
+      247,
+      256,
+      293,
+      337,
+      421,
+      435,
+      563,
+      630,
+      634,
+      662,
+      670,
+      835,
+      926,
+      1159,
+      1795,
+      2009
+    ],
+    "seed": 42,
+    "source_hash": "c59abbd95cfacce44532b942cecf177e5ff0b9dae74dd9bd12535f8efb510ed2",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5934,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      },
+      {
+        "cast": [
+          "Henry Fonda",
+          "Jane Darwell",
+          "John Carradine",
+          "Charley Grapewin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Ford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Tom Joad returns to his home after a jail sentence to find his family kicked out of their farm due to foreclosure. He catches up with them on his Uncles farm, and joins them the next day as they head for California and a new life... Hopefully.",
+        "release_date": "1940-03-15",
+        "release_year": "1940",
+        "title": "Grapes of Wrath, The"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Grace Kelly",
+          "Wendell Corey",
+          "Thelma Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Professional photographer L.B. \"Jeff\" Jeffries breaks his leg while getting an action shot at an auto race. Confined to his New York apartment, he spends his time looking out of the rear window observing the neighbors. He begins to suspect that a man across the courtyard may have murdered his wife. Jeff enlists the help of his high society fashion-consultant girlfriend Lisa Freemont and his visiting nurse Stella to investigate.",
+        "release_date": "1954-08-01",
+        "release_year": "1954",
+        "title": "Rear Window"
+      },
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Michael Caine",
+          "Christopher Plummer",
+          "Saeed Jaffrey"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "A robust adventure about two British adventurers who take over primitive Kafiristan as \"godlike\" rulers, meeting a tragic end through their desire for a native girl. Based on a short story by Rudyard Kipling.",
+        "release_date": "1975-12-03",
+        "release_year": "1975",
+        "title": "Man Who Would Be King, The"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sharon Stone",
+          "George Dzundza",
+          "Jeanne Tripplehorn"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A police detective is in charge of the investigation of a brutal murder, in which a beautiful and seductive woman could be involved.",
+        "release_date": "1992-03-20",
+        "release_year": "1992",
+        "title": "Basic Instinct"
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Al Pacino",
+          "James Caan",
+          "Richard S. Castellano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+        "release_date": "1972-03-14",
+        "release_year": "1972",
+        "title": "Godfather, The"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Robert De Niro",
+          "Val Kilmer",
+          "Jon Voight"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Obsessive master thief, Neil McCauley leads a top-notch crew on various insane heists throughout Los Angeles while a mentally unstable detective, Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
+        "release_date": "1995-12-15",
+        "release_year": "1995",
+        "title": "Heat"
+      }
+    ],
+    "raw_user_id": "5934",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 24
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4322927302063206
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Lower ratings for films that lack depth or complexity in their narratives.",
+        "Dislike for horror films that do not offer substantial plot or character development."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like crime and romance.",
+        "Consistent appreciation for films that feature complex characters and moral dilemmas.",
+        "A tendency to rate films with strong storytelling and character development highly."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Crime and Thriller (There is a notable appreciation for crime and thriller films, as indicated by several high ratings in these categories.); Comedy with Depth (The user enjoys comedies that incorporate deeper themes, as shown by high ratings for films that blend humor with serious undertones.); Romance in Drama (A liking for romantic elements within dramatic contexts is reflected in the ratings for films that combine these genres.); Action with Strong Storylines (The user favors action films that are complemented by strong narratives, as seen in the ratings for action-oriented movies.). Liked patterns: High ratings for films that blend drama with other genres like crime and romance., Consistent appreciation for films that feature complex characters and moral dilemmas., A tendency to rate films with strong storytelling and character development highly.. Disliked patterns: Lower ratings for films that lack depth or complexity in their narratives., Dislike for horror films that do not offer substantial plot or character development..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "There is a notable appreciation for crime and thriller films, as indicated by several high ratings in these categories.",
+          "taste": "Crime and Thriller"
+        },
+        {
+          "reason": "The user enjoys comedies that incorporate deeper themes, as shown by high ratings for films that blend humor with serious undertones.",
+          "taste": "Comedy with Depth"
+        },
+        {
+          "reason": "A liking for romantic elements within dramatic contexts is reflected in the ratings for films that combine these genres.",
+          "taste": "Romance in Drama"
+        },
+        {
+          "reason": "The user favors action films that are complemented by strong narratives, as seen in the ratings for action-oriented movies.",
+          "taste": "Action with Strong Storylines"
+        }
+      ]
+    },
+    "user_id": 5934
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "470acb3757e5f725cd7352c496dec1f9364b445fe465bf0c39054b3218ea0d67",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      87,
+      835,
+      508,
+      520,
+      506,
+      4,
+      1676,
+      135,
+      1797,
+      421
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "09de0ac9cb464c70bccde21f1b230fab"
+    ],
+    "sampled_item_ids": [
+      23,
+      43,
+      69,
+      83,
+      190,
+      237,
+      278,
+      421,
+      603,
+      614,
+      717,
+      722,
+      732,
+      835,
+      840,
+      874,
+      1005,
+      1279,
+      1477,
+      1504,
+      1524,
+      1611,
+      1797,
+      1888,
+      2288
+    ],
+    "seed": 42,
+    "source_hash": "ffa51667739c3b8027d241c93d36383c9b217266ecf606f2accd5368726babc5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 419,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jeff Goldblum",
+          "Julianne Moore",
+          "Pete Postlethwaite",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Four years after Jurassic Park's genetically bred dinosaurs ran amok, multimillionaire John Hammond shocks chaos theorist Ian Malcolm by revealing that Hammond has been breeding more beasties at a secret location. Malcolm, his paleontologist ladylove and a wildlife videographer join an expedition to document the lethal lizards' natural behavior in this action-packed thriller.",
+        "release_date": "1997-05-23",
+        "release_year": "1997",
+        "title": "Lost World: Jurassic Park, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Michael Caine",
+          "Christopher Plummer",
+          "Saeed Jaffrey"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "A robust adventure about two British adventurers who take over primitive Kafiristan as \"godlike\" rulers, meeting a tragic end through their desire for a native girl. Based on a short story by Rudyard Kipling.",
+        "release_date": "1975-12-03",
+        "release_year": "1975",
+        "title": "Man Who Would Be King, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Emma Thompson",
+          "Billy Bob Thornton",
+          "Kathy Bates"
+        ],
+        "country": [
+          "France",
+          "Germany",
+          "Japan",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In this adaptation of the best-selling roman à clef about Bill Clinton's 1992 run for the White House, the young and gifted Henry Burton is tapped to oversee the presidential campaign of Governor Jack Stanton. Burton is pulled into the politician's colorful world and looks on as Stanton -- who has a wandering eye that could be his downfall -- contends with his ambitious wife, Susan, and an outspoken adviser, Richard Jemmons.",
+        "release_date": "1998-03-20",
+        "release_year": "1998",
+        "title": "Primary Colors"
+      },
+      {
+        "cast": [
+          "Dennis Quaid",
+          "Jim Caviezel",
+          "Andre Braugher",
+          "Elizabeth Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Hoblit",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a rare phenomenon gives police officer John Sullivan the chance to speak to his father, 30 years in the past, he takes the opportunity to prevent his dad's tragic death.  After his actions inadvertently give rise to a series of brutal murders he and his father must find a way to fix the consequences of altering time.",
+        "release_date": "2000-04-28",
+        "release_year": "2000",
+        "title": "Frequency"
+      },
+      {
+        "cast": [
+          "Nicoletta Braschi",
+          "Roberto Benigni",
+          "Giorgio Cantarini",
+          "Giustino Durano"
+        ],
+        "country": [
+          "Italy"
+        ],
+        "director": "Roberto Benigni",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Italian",
+        "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
+        "release_date": "1997-12-20",
+        "release_year": "1997",
+        "title": "Life Is Beautiful (La Vita è bella)"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Albert Finney",
+          "Aaron Eckhart",
+          "Marg Helgenberger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "Erin Brockovich"
+      },
+      {
+        "cast": [
+          "William Holden",
+          "Don Taylor",
+          "Otto Preminger",
+          "Robert Strauss"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "It's a dreary Christmas 1944 for the American POWs in Stalag 17. For the men in Barracks 4, all sergeants, have to deal with a grave problem - there seems to be a security leak. The Germans always seem to be forewarned about escapes and in the most recent attempt the two men, Manfredi and Johnson, walked straight into a trap and were killed. For some in Barracks 4, especially the loud-mouthed Duke, the leaker is obvious: J.J. Sefton, a wheeler-dealer who doesn't hesitate to trade with the guards and who has acquired goods and privileges that no other prisoner seems to have. Sefton denies giving the Germans any information and makes it quite clear that he has no intention of ever trying to escape. He plans to ride out the war in what little comfort he can arrange, but it doesn't extend to spying for the Germans.",
+        "release_date": "1953-05-29",
+        "release_year": "1953",
+        "title": "Stalag 17"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Whoopi Goldberg",
+          "Ted Danson",
+          "Nia Long",
+          "Will Smith"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Richard Benjamin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A young black woman discovers that her father was a sperm donor, and if that weren't bad enough, he's white.",
+        "release_date": "1993-05-27",
+        "release_year": "1993",
+        "title": "Made in America"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      }
+    ],
+    "raw_user_id": "419",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 88
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4297654860856305
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that do not resonate with the user.",
+        "Dislike for action films that lack depth or engaging storytelling."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like romance and war.",
+        "Positive reception of films featuring strong character development and emotional depth.",
+        "Enjoyment of films with a mix of action and adventure elements."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates many drama films highly, indicating a strong preference for character-driven narratives.); Enjoyment of War Themes (Several highly rated films feature war as a central theme, suggesting a fascination with stories set against conflict.); Fondness for Romantic Elements (The user enjoys films that incorporate romance, as seen in multiple high-rated titles that blend drama and romance.); Interest in Action and Adventure (The user rates action and adventure films positively, indicating a preference for excitement and dynamic storytelling.); Affinity for Comedy (The user has rated several comedies favorably, showing an appreciation for humor in film.). Liked patterns: High ratings for films that blend drama with other genres like romance and war., Positive reception of films featuring strong character development and emotional depth., Enjoyment of films with a mix of action and adventure elements.. Disliked patterns: Low ratings for comedies that do not resonate with the user., Dislike for action films that lack depth or engaging storytelling..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates many drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several highly rated films feature war as a central theme, suggesting a fascination with stories set against conflict.",
+          "taste": "Enjoyment of War Themes"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romance, as seen in multiple high-rated titles that blend drama and romance.",
+          "taste": "Fondness for Romantic Elements"
+        },
+        {
+          "reason": "The user rates action and adventure films positively, indicating a preference for excitement and dynamic storytelling.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user has rated several comedies favorably, showing an appreciation for humor in film.",
+          "taste": "Affinity for Comedy"
+        }
+      ]
+    },
+    "user_id": 419
+  }
+}

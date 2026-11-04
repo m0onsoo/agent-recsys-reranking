@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "27f257ac5d3611b6c91588b26e8a7ad8f7177bce4275ab0658cb99e441f29ea3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      41,
+      2410,
+      1195,
+      128,
+      135,
+      266,
+      273,
+      317,
+      68,
+      957
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      21,
+      28,
+      34,
+      68,
+      98,
+      114,
+      178,
+      196,
+      211,
+      233,
+      265,
+      273,
+      281,
+      316,
+      317,
+      397,
+      438,
+      539,
+      870,
+      957,
+      1195,
+      1259,
+      1286,
+      2410,
+      2937
+    ],
+    "seed": 42,
+    "source_hash": "fc82ece2bffc795f4254dd6e304b1ea329d0568159dad8fc6d0046d4bbf0ff36",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4914,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Don Rickles",
+          "Jim Varney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+        "release_date": "1995-10-30",
+        "release_year": "1995",
+        "title": "Toy Story"
+      },
+      {
+        "cast": [
+          "Luke Wilson",
+          "Owen Wilson",
+          "Lumi Cavazos",
+          "Andrew Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Anderson",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Upon his release from a mental hospital following a nervous breakdown, the directionless Anthony joins his friend Dignan, who seems far less sane than the former. Dignan has hatched a hair-brained scheme for an as-yet-unspecified crime spree that somehow involves his former boss, the (supposedly) legendary Mr. Henry.",
+        "release_date": "1996-02-21",
+        "release_year": "1996",
+        "title": "Bottle Rocket"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Hugh Grant",
+          "Gina McKee",
+          "Tim McInnerny"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Roger Michell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The British comedy from director Roger Michell tells the love story between a famous actress and a simple book seller from London. A look into the attempt for famous people to have a personal and private life and the ramifications that follow. Nominated for three Golden Globes in 2000.",
+        "release_date": "1999-05-13",
+        "release_year": "1999",
+        "title": "Notting Hill"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Christian Slater",
+          "Samantha Mathis",
+          "Annie Ross",
+          "Scott Paulin"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Allan Moyle",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Mark is an intelligent but shy teenager who has just moved to Arizona from the East Coast. His parents give him a short-wave radio so he can talk to his pals, but instead he sets up shop as pirate deejay Hard Harry, who becomes a hero to his peers while inspiring the wrath of the local high school principal.",
+        "release_date": "1990-08-22",
+        "release_year": "1990",
+        "title": "Pump Up the Volume"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Jennifer Lopez",
+          "Ving Rhames",
+          "Don Cheadle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Meet Jack Foley, a smooth criminal who bends the law and is determined to make one last heist. Karen Sisco is a federal marshal who chooses all the right moves … and all the wrong guys. Now they're willing to risk it all to find out if there's more between them than just the law. Variety hails Out of Sight as \"a sly, sexy, vastly entertaining film.\"",
+        "release_date": "1998-06-26",
+        "release_year": "1998",
+        "title": "Out of Sight"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Minnie Driver",
+          "Dan Aykroyd",
+          "Joan Cusack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Armitage",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Martin Blank is a freelance hitman who starts to develop a conscience, which causes him to muff a couple of routine assignments. On the advice of his secretary and his psychiatrist, he attends his 10th year High School reunion in Grosse Pointe, Michigan.",
+        "release_date": "1997-04-11",
+        "release_year": "1997",
+        "title": "Grosse Pointe Blank"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Ray Liotta",
+          "Joe Pesci",
+          "Lorraine Bracco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+        "release_date": "1990-09-12",
+        "release_year": "1990",
+        "title": "GoodFellas"
+      },
+      {
+        "cast": [
+          "Billy Crudup",
+          "Jennifer Connelly",
+          "Paul Hipp",
+          "Hal Holbrook"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Keith Gordon",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A congressional candidate questions his sanity after seeing the love of his life, presumed dead, suddenly emerge.",
+        "release_date": "2000-03-23",
+        "release_year": "1999",
+        "title": "Waking the Dead"
+      }
+    ],
+    "raw_user_id": "4914",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 42
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.2341908460488038
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for films that are primarily horror or overly dark in theme.",
+        "Dislike for comedies that fail to resonate, as indicated by lower ratings for certain titles."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with other genres like romance and drama.",
+        "Consistent appreciation for films that combine action with elements of romance or crime.",
+        "Strong preference for films that evoke emotional responses, particularly in drama and romance."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys light-hearted narratives and humor, as seen in multiple comedies rated highly.); Interest in Drama and Romance (The user favors emotional and romantic storylines, reflected in several high-rated drama and romance films.); Enjoyment of Action and Thrillers (The user rates action and thriller films positively, indicating a preference for excitement and suspense.); Fondness for Animation and Family Films (The user appreciates animated and family-friendly films, as evidenced by high ratings for such genres.); Preference for Crime Elements (The user shows a liking for crime-related narratives, with several films in this genre receiving favorable ratings.). Liked patterns: High ratings for comedies that blend humor with other genres like romance and drama., Consistent appreciation for films that combine action with elements of romance or crime., Strong preference for films that evoke emotional responses, particularly in drama and romance.. Disliked patterns: Negative ratings for films that are primarily horror or overly dark in theme., Dislike for comedies that fail to resonate, as indicated by lower ratings for certain titles..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted narratives and humor, as seen in multiple comedies rated highly.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user favors emotional and romantic storylines, reflected in several high-rated drama and romance films.",
+          "taste": "Interest in Drama and Romance"
+        },
+        {
+          "reason": "The user rates action and thriller films positively, indicating a preference for excitement and suspense.",
+          "taste": "Enjoyment of Action and Thrillers"
+        },
+        {
+          "reason": "The user appreciates animated and family-friendly films, as evidenced by high ratings for such genres.",
+          "taste": "Fondness for Animation and Family Films"
+        },
+        {
+          "reason": "The user shows a liking for crime-related narratives, with several films in this genre receiving favorable ratings.",
+          "taste": "Preference for Crime Elements"
+        }
+      ]
+    },
+    "user_id": 4914
+  }
+}

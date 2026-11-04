@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "e20ecd9718898359f9c72c7e391cf2ff45ab1a39ba5a9677c013bcf3cf291876",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1132,
+      1538,
+      1630,
+      436,
+      429,
+      1652,
+      55,
+      1043,
+      548,
+      1311
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9ebe7ad3363d4ba4b275ecbbc5c81ee8"
+    ],
+    "sampled_item_ids": [
+      52,
+      55,
+      85,
+      88,
+      125,
+      168,
+      178,
+      184,
+      185,
+      247,
+      260,
+      393,
+      436,
+      536,
+      665,
+      715,
+      1024,
+      1132,
+      1211,
+      1298,
+      1406,
+      1538,
+      1546,
+      1630,
+      1652
+    ],
+    "seed": 42,
+    "source_hash": "7305a82b8ebc95923631bcb110e9465ae77aa02427e482d30d685535142fe230",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 916,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mia Farrow",
+          "John Cassavetes",
+          "Ruth Gordon",
+          "Sidney Blackmer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A young couple moves into an infamous New York apartment building to start a family. Things become frightening as Rosemary begins to suspect her unborn baby isn't safe around their strange neighbors.",
+        "release_date": "1968-06-12",
+        "release_year": "1968",
+        "title": "Rosemary's Baby"
+      },
+      {
+        "cast": [
+          "Matt Dillon",
+          "Kelly Lynch",
+          "James Le Gros",
+          "Heather Graham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Bob and his friends Dianne, Rick and Nadine have been drug addicts for years and live from one high to the next. Gus Van Sant attempts to show an intimate look into the lives of heroin addicts with his film Drugstore Cowboy.",
+        "release_date": "1989-09-09",
+        "release_year": "1989",
+        "title": "Drugstore Cowboy"
+      },
+      {
+        "cast": [
+          "Robert Arkins",
+          "Michael Aherne",
+          "Angeline Ball",
+          "Maria Doyle Kennedy"
+        ],
+        "country": [
+          "Ireland",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jimmy Rabbitte, just a tick out of school, gets a brilliant idea: to put a soul band together in Barrytown, his slum home in north Dublin. First he needs musicians and singers: things slowly start to click when he finds three fine-voiced females virtually in his back yard, a lead singer (Deco) at a wedding, and, responding to his ad, an aging trumpet player, Joey \"The Lips\" Fagan.",
+        "release_date": "1991-08-14",
+        "release_year": "1991",
+        "title": "Commitments, The"
+      },
+      {
+        "cast": [
+          "Cate Blanchett",
+          "Geoffrey Rush",
+          "Christopher Eccleston",
+          "Joseph Fiennes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Shekhar Kapur",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of the ascension to the throne and the early reign of Queen Elizabeth the First, the endless attempts by her council to marry her off, the Catholic hatred of her and her romance with Lord Robert Dudley.",
+        "release_date": "1998-09-13",
+        "release_year": "1998",
+        "title": "Elizabeth"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kelly McGillis",
+          "Josef Sommer",
+          "Lukas Haas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A sheltered Amish child is the sole witness of a brutal murder in a restroom at a Philadelphia train station, and he must be protected.  The assignment falls to a taciturn detective who goes undercover in a Pennsylvania Dutch community. On the farm, he slowly assimilates despite his urban grit and forges a romantic bond with the child's beautiful mother.",
+        "release_date": "1985-02-08",
+        "release_year": "1985",
+        "title": "Witness"
+      },
+      {
+        "cast": [
+          "Philippe Noiret",
+          "Jacques Perrin",
+          "Marco Leonardi",
+          "Salvatore Cascio"
+        ],
+        "country": [
+          "Italy",
+          "France"
+        ],
+        "director": "Giuseppe Tornatore",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "Italian",
+        "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
+        "release_date": "1988-11-17",
+        "release_year": "1988",
+        "title": "Cinema Paradiso"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Charlotte Rampling",
+          "Jack Warden",
+          "James Mason"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Frank Galvin is a down-on-his luck lawyer, reduced to drinking and ambulance chasing. Former associate Mickey Morrissey reminds him of his obligations in a medical malpractice suit that he himself served to Galvin on a silver platter: all parties willing to settle out of court. Blundering his way through the preliminaries, he suddenly realizes that perhaps after all the case should go to court; to punish the guilty, to get a decent settlement for his clients, and to restore his standing as a lawyer.",
+        "release_date": "1982-12-08",
+        "release_year": "1982",
+        "title": "Verdict, The"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Mary Steenburgen",
+          "Dianne Wiest",
+          "Jason Robards"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of the Buckman family and friends, attempting to bring up their children. They suffer/enjoy all the events that occur: estranged relatives, the \"black sheep\" of the family, the eccentrics, the skeletons in the closet, and the rebellious teenagers.",
+        "release_date": "1989-07-31",
+        "release_year": "1989",
+        "title": "Parenthood"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Billy Crystal",
+          "Carrie Fisher",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "During their travels from Chicago to New York, Harry and Sally Will debate whether or not sex ruins a perfect relationship between a man and a woman. Eleven years and later, they're still no closer to finding the answer.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "When Harry Met Sally..."
+      },
+      {
+        "cast": [
+          "Tom Berenger",
+          "Glenn Close",
+          "Jeff Goldblum",
+          "William Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Kevin Kline and Glenn Close star as Harold and Sarah Cooper, a couple whose marital troubles are put on hold while they host an unhappy reunion of former college pals gathered for the funeral of one of their own, a suicide victim named Alex. As the weekend unfolds, the friends catch up with each other, play the music of their youth, reminisce, smoke marijuana, and pair off with each other.",
+        "release_date": "1983-09-09",
+        "release_year": "1983",
+        "title": "Big Chill, The"
+      }
+    ],
+    "raw_user_id": "916",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 45
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.725401350558763
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films that lack depth or strong narratives"
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and character-driven stories",
+        "Enjoyment of comedies that blend humor with deeper themes",
+        "Appreciation for films that combine multiple genres, such as drama with comedy or crime with thriller"
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates complex narratives and character development often found in dramatic films.); Comedy (The user enjoys humor and light-hearted storytelling, as evidenced by high ratings for various comedies.); Crime and Thriller (The user is drawn to suspenseful plots and moral ambiguity present in crime and thriller genres.); Adventure (The user favors films that offer a sense of exploration and excitement, often found in adventure narratives.); Animation (The user enjoys animated films that combine creativity with humor and storytelling.). Liked patterns: Strong preference for drama and character-driven stories, Enjoyment of comedies that blend humor with deeper themes, Appreciation for films that combine multiple genres, such as drama with comedy or crime with thriller. Disliked patterns: Dislike for action films that lack depth or strong narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates complex narratives and character development often found in dramatic films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys humor and light-hearted storytelling, as evidenced by high ratings for various comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to suspenseful plots and moral ambiguity present in crime and thriller genres.",
+          "taste": "Crime and Thriller"
+        },
+        {
+          "reason": "The user favors films that offer a sense of exploration and excitement, often found in adventure narratives.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "The user enjoys animated films that combine creativity with humor and storytelling.",
+          "taste": "Animation"
+        }
+      ]
+    },
+    "user_id": 916
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "434acafe539bdab6e0cf8a156bbf5398d56cbd2ff40fc7b82a7b08fa70894dd1",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      221,
+      114,
+      749,
+      612,
+      1676,
+      195,
+      720,
+      759,
+      160,
+      563
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "368a04728ec54c22a59aeb90e08d38a4"
+    ],
+    "sampled_item_ids": [
+      62,
+      78,
+      83,
+      178,
+      356,
+      365,
+      516,
+      540,
+      744,
+      1024,
+      1111,
+      1129,
+      1254,
+      1279,
+      1299,
+      1311,
+      1543,
+      1565,
+      1611,
+      1731,
+      2029,
+      2100,
+      2259,
+      2344,
+      2704
+    ],
+    "seed": 42,
+    "source_hash": "506a85f5d774eabc40081c61deb03023054bb728f8fd4c12a3c638e6792afb06",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2978,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Dominique Pinon",
+          "Marie-Laure Dougnac",
+          "Jean-Claude Dreyfus",
+          "Karin Viard"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "This bizarre surrealistic black comedy takes place in a small fictitious post-apocalyptic town where food is scarce and butcher Clapet has the macabre business of using human flesh to feed his customers. Yet when his daughter falls in love with his next slaughter victim things turn into chaos.",
+        "release_date": "1991-04-17",
+        "release_year": "1991",
+        "title": "Delicatessen"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Roddy McDowall",
+          "Kim Hunter",
+          "Maurice Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An  U.S. Spaceship lands on a desolate planet, stranding astronaut Taylor in a world dominated by apes, 2000 years into the future, who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
+        "release_date": "1968-02-07",
+        "release_year": "1968",
+        "title": "Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Peter Sellers",
+          "George C. Scott",
+          "Sterling Hayden",
+          "Keenan Wynn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union. As soon as the actions of General \"Buck\" Turgidson are discovered, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike. Near the end is a scene that is probably the most uniquely unforgettable performance of Slim Pickens in his movie career. Peter Sellers plays multiple roles in this film.",
+        "release_date": "1964-01-29",
+        "release_year": "1963",
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      },
+      {
+        "cast": [
+          "William Holden",
+          "Don Taylor",
+          "Otto Preminger",
+          "Robert Strauss"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "It's a dreary Christmas 1944 for the American POWs in Stalag 17. For the men in Barracks 4, all sergeants, have to deal with a grave problem - there seems to be a security leak. The Germans always seem to be forewarned about escapes and in the most recent attempt the two men, Manfredi and Johnson, walked straight into a trap and were killed. For some in Barracks 4, especially the loud-mouthed Duke, the leaker is obvious: J.J. Sefton, a wheeler-dealer who doesn't hesitate to trade with the guards and who has acquired goods and privileges that no other prisoner seems to have. Sefton denies giving the Germans any information and makes it quite clear that he has no intention of ever trying to escape. He plans to ride out the war in what little comfort he can arrange, but it doesn't extend to spying for the Germans.",
+        "release_date": "1953-05-29",
+        "release_year": "1953",
+        "title": "Stalag 17"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Gene Hackman",
+          "Morgan Freeman",
+          "Richard Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "William Munny is a retired, once-ruthless killer turned gentle widower and hog farmer. To help support his two motherless children, he accepts one last bounty-hunter mission to find the men who brutalized a prostitute. Joined by his former partner and a cocky greenhorn, he takes on a corrupt sheriff.",
+        "release_date": "1992-08-07",
+        "release_year": "1992",
+        "title": "Unforgiven"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "John Cleese",
+          "Shelley Duvall",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Young history buff Kevin can scarcely believe it when six dwarfs emerge from his closet one night. Former employees of the Supreme Being, they've purloined a map charting all of the holes in the fabric of time and are using it to steal treasures from different historical eras. Taking Kevin with them, they variously drop in on Napoleon, Robin Hood and King Agamemnon before the Supreme Being catches up with them.",
+        "release_date": "1981-07-13",
+        "release_year": "1981",
+        "title": "Time Bandits"
+      },
+      {
+        "cast": [
+          "Henry Fonda",
+          "Jane Darwell",
+          "John Carradine",
+          "Charley Grapewin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Ford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Tom Joad returns to his home after a jail sentence to find his family kicked out of their farm due to foreclosure. He catches up with them on his Uncles farm, and joins them the next day as they head for California and a new life... Hopefully.",
+        "release_date": "1940-03-15",
+        "release_year": "1940",
+        "title": "Grapes of Wrath, The"
+      },
+      {
+        "cast": [
+          "Groucho Marx",
+          "Harpo Marx",
+          "Chico Marx",
+          "Zeppo Marx"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leo McCarey",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Rufus T. Firefly is named president/dictator of bankrupt Freedonia and declares war on neighboring Sylvania over the love of wealthy Mrs. Teasdale.",
+        "release_date": "1933-11-17",
+        "release_year": "1933",
+        "title": "Duck Soup"
+      }
+    ],
+    "raw_user_id": "2978",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 139
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5233460521293997
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly rated comedies",
+        "Dislike for horror films lacking depth"
+      ],
+      "liked_patterns": [
+        "Preference for character-driven dramas",
+        "Enjoyment of imaginative Sci-Fi narratives",
+        "Attraction to suspenseful thrillers"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (A significant number of movies rated 3 or above belong to the Drama genre, indicating a strong preference for character-driven narratives.); Interest in Sci-Fi and Fantasy (Several movies rated 3 or above incorporate Sci-Fi elements, suggesting an enjoyment of imaginative and speculative storytelling.); Fondness for Comedy (Multiple comedies received ratings of 3 or above, reflecting a taste for humor and lighthearted narratives.); Attraction to Thrillers and Mysteries (Movies in the Thriller and Mystery genres rated 3 or above indicate a liking for suspenseful and engaging plots.); Enjoyment of Horror with Depth (Horror films that received higher ratings suggest an appreciation for those that combine psychological elements with traditional horror.). Liked patterns: Preference for character-driven dramas, Enjoyment of imaginative Sci-Fi narratives, Attraction to suspenseful thrillers. Disliked patterns: Dislike for poorly rated comedies, Dislike for horror films lacking depth.",
+      "unique_tastes": [
+        {
+          "reason": "A significant number of movies rated 3 or above belong to the Drama genre, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several movies rated 3 or above incorporate Sci-Fi elements, suggesting an enjoyment of imaginative and speculative storytelling.",
+          "taste": "Interest in Sci-Fi and Fantasy"
+        },
+        {
+          "reason": "Multiple comedies received ratings of 3 or above, reflecting a taste for humor and lighthearted narratives.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "Movies in the Thriller and Mystery genres rated 3 or above indicate a liking for suspenseful and engaging plots.",
+          "taste": "Attraction to Thrillers and Mysteries"
+        },
+        {
+          "reason": "Horror films that received higher ratings suggest an appreciation for those that combine psychological elements with traditional horror.",
+          "taste": "Enjoyment of Horror with Depth"
+        }
+      ]
+    },
+    "user_id": 2978
+  }
+}

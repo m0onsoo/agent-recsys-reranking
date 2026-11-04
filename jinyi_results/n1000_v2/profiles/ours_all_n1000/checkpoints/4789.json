@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "7657afc3f8d18ac53b4def8d8b74ac4b52b1b91be6f72cd1043179652fca46a9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      971,
+      490,
+      171,
+      265,
+      1291,
+      820,
+      75,
+      1718,
+      2906,
+      161
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      24,
+      57,
+      79,
+      99,
+      130,
+      149,
+      212,
+      230,
+      239,
+      284,
+      307,
+      387,
+      413,
+      436,
+      458,
+      529,
+      539,
+      667,
+      905,
+      906,
+      1076,
+      1270,
+      1673,
+      1856,
+      2596
+    ],
+    "seed": 42,
+    "source_hash": "e32fb50a39810f4f5888259a795dec29daa6e642ae6d4d549c8be8927dda7b1f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4789,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Angela Bassett",
+          "Tom Sizemore",
+          "Juliette Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kathryn Bigelow",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Set in the year 1999 during the last days of the old millennium, the movie tells the story of Lenny Nero, an ex-cop who now deals with data-discs containing recorded memories and emotions. One day he receives a disc which contains the memories of a murderer killing a prostitute. Lenny investigates and is pulled deeper and deeper in a whirl of blackmail, murder and rape. Will he survive and solve the case?",
+        "release_date": "1995-10-13",
+        "release_year": "1995",
+        "title": "Strange Days"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Diane Keaton",
+          "Andy García",
+          "Talia Shire"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
+        "release_date": "1990-12-24",
+        "release_year": "1990",
+        "title": "Godfather: Part III, The"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Michael Murphy",
+          "Mariel Hemingway"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The life of a divorced television writer dating a teenage girl is further complicated when he falls in love with his best friend's mistress.",
+        "release_date": "1979-04-25",
+        "release_year": "1979",
+        "title": "Manhattan"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dennis Hopper",
+          "Sandra Bullock",
+          "Joe Morton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Los Angeles SWAT cop Jack Traven is up against bomb expert Howard Payne, who's after major ransom money. First it's a rigged elevator in a very tall building. Then it's a rigged bus--if it slows, it will blow, bad enough any day, but a nightmare in LA traffic. And that's still not the end.",
+        "release_date": "1994-06-09",
+        "release_year": "1994",
+        "title": "Speed"
+      },
+      {
+        "cast": [
+          "Dennis Quaid",
+          "Max von Sydow",
+          "Christopher Plummer",
+          "Eddie Albert"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joseph Ruben",
+        "genres": [
+          "Adventure",
+          "Crime",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A government funded project looks into using psychics to enter people's dreams, with some mechanical help. When a subject dies in his sleep from a heart attack Alex Gardner becomes suspicious that another of the psychics is killing people in the dreams somehow and that is causing them to die in real life. He must find a way to stop the abuse of the power to enter dreams.",
+        "release_date": "1984-08-15",
+        "release_year": "1984",
+        "title": "Dreamscape"
+      },
+      {
+        "cast": [
+          "Loren Dean",
+          "Hope Davis",
+          "Jason Lee",
+          "Alfre Woodard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In the small town of Mumford, a psychologist of the same name moves in and quickly becomes very popular, despite a questionable past.",
+        "release_date": "1999-09-24",
+        "release_year": "1999",
+        "title": "Mumford"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "William Baldwin",
+          "Robert De Niro",
+          "Donald Sutherland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "They say a blast of flames can take a life ... and hide a secret. But now firemen brothers Brian and Stephen McCaffrey are battling each other over past slights while trying to stop an arsonist with a diabolical agenda from torching Chicago.",
+        "release_date": "1991-05-24",
+        "release_year": "1991",
+        "title": "Backdraft"
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Val Kilmer",
+          "David Thewlis",
+          "Fairuza Balk"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Frankenheimer",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A shipwrecked sailor stumbles upon a mysterious island and is shocked to discover that a brilliant scientist and his lab assistant have found a way to combine human and animal DNA with horrific results.",
+        "release_date": "1996-08-23",
+        "release_year": "1996",
+        "title": "Island of Dr. Moreau, The"
+      },
+      {
+        "cast": [
+          "Bill Paxton",
+          "Julianna Margulies",
+          "James Gammon",
+          "Nikki DeLoach"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jack Green",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A young man, Pat, visits the clan of gypsy-like grifters (Irish Travellers) in rural North Carolina from whom he is descended. He is at first rejected, but cousin Bokky takes him on as an apprentice. Pat learns the game while Bokky falls in love and desires a different life. Written by Jeff Hole",
+        "release_date": "1997-04-18",
+        "release_year": "1997",
+        "title": "Traveller"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Bill Pullman",
+          "Jeff Goldblum",
+          "Mary McDonnell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "On July 2, a giant alien mothership enters orbit around Earth and deploys several dozen saucer-shaped 'destroyer' spacecraft that quickly lay waste to major cities around the planet. On July 3, the United States conducts a coordinated counterattack that fails. On July 4, a plan is devised to gain access to the interior of the alien mothership in space, in order to plant a nuclear missile.",
+        "release_date": "1996-06-25",
+        "release_year": "1996",
+        "title": "Independence Day (ID4)"
+      }
+    ],
+    "raw_user_id": "4789",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 216
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8324439516118596
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for romantic comedies, as indicated by lower ratings for films in this genre.",
+        "Negative reception towards action films that do not meet expectations, as shown by a low rating for one title."
+      ],
+      "liked_patterns": [
+        "Preference for high-rated dramas and emotional narratives.",
+        "Enjoyment of action films with strong ratings, especially those that incorporate other genres.",
+        "Interest in war-themed films that explore complex human experiences."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates deep emotional narratives and character-driven stories, as seen in multiple high-rated dramas.); Action (The user enjoys thrilling and intense experiences, reflected in a strong preference for action films with high ratings.); War (The user shows a consistent interest in war-themed films, indicating a taste for stories that explore conflict and its human impact.); Comedy (The user has a liking for comedic elements, particularly when blended with other genres, as evidenced by several rated comedies.); Sci-Fi (The user is drawn to science fiction, particularly when it intersects with action and drama, suggesting an interest in speculative narratives.). Liked patterns: Preference for high-rated dramas and emotional narratives., Enjoyment of action films with strong ratings, especially those that incorporate other genres., Interest in war-themed films that explore complex human experiences.. Disliked patterns: Dislike for romantic comedies, as indicated by lower ratings for films in this genre., Negative reception towards action films that do not meet expectations, as shown by a low rating for one title..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates deep emotional narratives and character-driven stories, as seen in multiple high-rated dramas.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys thrilling and intense experiences, reflected in a strong preference for action films with high ratings.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user shows a consistent interest in war-themed films, indicating a taste for stories that explore conflict and its human impact.",
+          "taste": "War"
+        },
+        {
+          "reason": "The user has a liking for comedic elements, particularly when blended with other genres, as evidenced by several rated comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to science fiction, particularly when it intersects with action and drama, suggesting an interest in speculative narratives.",
+          "taste": "Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 4789
+  }
+}

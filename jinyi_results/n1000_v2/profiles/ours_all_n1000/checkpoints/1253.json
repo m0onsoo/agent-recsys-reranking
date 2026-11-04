@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "167160f2730eca5c2448269cd2c5f3e8b680c50f59c6641b25e37fc4dceb3414",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2009,
+      299,
+      1353,
+      347,
+      536,
+      1658,
+      372,
+      1065,
+      76,
+      1587
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "90b0f3403d824c67b32f302c05b1d968"
+    ],
+    "sampled_item_ids": [
+      21,
+      51,
+      56,
+      106,
+      139,
+      144,
+      267,
+      316,
+      343,
+      346,
+      372,
+      526,
+      536,
+      540,
+      798,
+      951,
+      1024,
+      1034,
+      1546,
+      1658,
+      1756,
+      2009,
+      2151,
+      2213,
+      2718
+    ],
+    "seed": 42,
+    "source_hash": "44e930c6bec4b4a40ebb4ea27dc3ec50107a705e8fe8557c783df3322822c83b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1253,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Robert De Niro",
+          "Joe Pesci",
+          "Cathy Moriarty",
+          "Frank Vincent"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When Jake LaMotta steps into a boxing ring and obliterates his opponent, he's a prizefighter. But when he treats his family and friends the same way, he's a ticking time bomb, ready to go off at any moment. Though LaMotta wants his family's love, something always seems to come between them. Perhaps it's his violent bouts of paranoia and jealousy. This kind of rage helped make him a champ, but in real life, he winds up in the ring alone.",
+        "release_date": "1980-11-14",
+        "release_year": "1980",
+        "title": "Raging Bull"
+      },
+      {
+        "cast": [
+          "Steve Buscemi",
+          "Catherine Keener",
+          "Dermot Mulroney",
+          "James Le Gros"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom DiCillo",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Film about filmmaking. It takes place during one day on set of non-budget movie. Ultimate tribute to all independent filmmakers.",
+        "release_date": "1995-01-20",
+        "release_year": "1995",
+        "title": "Living in Oblivion"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "John Hurt",
+          "Anne Bancroft",
+          "John Gielgud"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.",
+        "release_date": "1980-10-02",
+        "release_year": "1980",
+        "title": "Elephant Man, The"
+      },
+      {
+        "cast": [
+          "Michèle Laroque",
+          "Jean-Philippe Écoffey",
+          "Hélène Vincent",
+          "Georges Du Fresne"
+        ],
+        "country": [
+          "Belgium",
+          "France"
+        ],
+        "director": "Alain Berliner",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "Ludovic is a small boy who cross-dresses and generally acts like a girl, talks of marrying his neighbor's son and can not understand why everyone is so surprised about it. His actions lead to problems for him and his family.",
+        "release_date": "1997-05-28",
+        "release_year": "1997",
+        "title": "My Life in Pink (Ma vie en rose)"
+      },
+      {
+        "cast": [
+          "Peter Sallis"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Gromit finds himself being pushed out of his room and home by a new lodger who is actually a ruthless criminal (and a small penguin). The penguin is planning a robbery and needs to use Wallace and his mechanical remote controlled trousers to pull off the raid. However, Gromit is wise to the penguin and comes to the rescue.",
+        "release_date": "1993-12-17",
+        "release_year": "1993",
+        "title": "Wrong Trousers, The"
+      },
+      {
+        "cast": [
+          "Natasha Lyonne",
+          "Alan Arkin",
+          "Marisa Tomei",
+          "Eli Marienthal"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tamara Jenkins",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In 1976, a lower-middle-class teenager struggles to cope living with her neurotic family of nomads on the outskirts of Beverly Hills.",
+        "release_date": "1998-08-14",
+        "release_year": "1998",
+        "title": "Slums of Beverly Hills, The"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Robert De Niro",
+          "Anne Heche",
+          "Woody Harrelson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "During the final weeks of a presidential race, the President is accused of sexual misconduct. To distract the public until the election, the President's adviser hires a Hollywood producer to help him stage a fake war.",
+        "release_date": "1997-12-25",
+        "release_year": "1997",
+        "title": "Wag the Dog"
+      },
+      {
+        "cast": [
+          "Donald Sutherland",
+          "Mary Tyler Moore",
+          "Judd Hirsch",
+          "Timothy Hutton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Redford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Beth, Calvin, and their son Conrad are living in the aftermath of the death of the other son. Conrad is overcome by grief and misplaced guilt to the extent of a suicide attempt. He is in therapy. Beth had always preferred his brother and is having difficulty being supportive to Conrad. Calvin is trapped between the two trying to hold the family together.",
+        "release_date": "1980-09-19",
+        "release_year": "1980",
+        "title": "Ordinary People"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Robin Williams",
+          "Mercedes Ruehl",
+          "Amanda Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Two troubled men face their terrible destinies and events of their past as they join together on a mission to find the Holy Grail and thus to save themselves.",
+        "release_date": "1991-09-09",
+        "release_year": "1991",
+        "title": "Fisher King, The"
+      },
+      {
+        "cast": [
+          "Fred Ward",
+          "Dennis Quaid",
+          "Ed Harris",
+          "Scott Glenn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A chronicle of the original Mercury astronauts in the formation of America's space program: Alan Shepherd, the first American in space; Gus Grissom, the benighted astronaut for whom nothing works out as planned; John Glenn, the straight-arrow 'boy scout' of the bunch who was the first American to orbit the earth; and the remaining pilots: Deke Slayton, Scott Carpenter and Wally Schirra.",
+        "release_date": "1983-10-20",
+        "release_year": "1983",
+        "title": "Right Stuff, The"
+      }
+    ],
+    "raw_user_id": "1253",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 60
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4630460493355961
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies rated below 3",
+        "Negative response to films that do not blend genres effectively",
+        "Discontent with specific comedic styles or narratives"
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies with high ratings",
+        "Consistent enjoyment of dramas rated 4 or above",
+        "Positive reception of animated films with comedic elements"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, as indicated by multiple ratings of 4 and 5.); Interest in Drama (The user rates several dramas highly, showing a preference for dramatic storytelling.); Enjoyment of Animation (The user has rated animated films positively, indicating a liking for this genre.); Preference for Blending Genres (The user appreciates films that combine comedy with drama, as seen in several liked titles.); High Regard for Character-Driven Stories (The user favors films that focus on character development and emotional depth.). Liked patterns: Strong preference for comedies with high ratings, Consistent enjoyment of dramas rated 4 or above, Positive reception of animated films with comedic elements. Disliked patterns: Dislike for comedies rated below 3, Negative response to films that do not blend genres effectively, Discontent with specific comedic styles or narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, as indicated by multiple ratings of 4 and 5.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several dramas highly, showing a preference for dramatic storytelling.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated animated films positively, indicating a liking for this genre.",
+          "taste": "Enjoyment of Animation"
+        },
+        {
+          "reason": "The user appreciates films that combine comedy with drama, as seen in several liked titles.",
+          "taste": "Preference for Blending Genres"
+        },
+        {
+          "reason": "The user favors films that focus on character development and emotional depth.",
+          "taste": "High Regard for Character-Driven Stories"
+        }
+      ]
+    },
+    "user_id": 1253
+  }
+}

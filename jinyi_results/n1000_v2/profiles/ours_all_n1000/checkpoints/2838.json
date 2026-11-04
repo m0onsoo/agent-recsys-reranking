@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "3f8ac6095552ca4e229a934b5e8b96dd013fc6a96b34032bf839ac69b3713630",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      45,
+      1711,
+      125,
+      1468,
+      1457,
+      169,
+      1211,
+      382,
+      214,
+      612
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e430f0c86b304c57b45f31237a6da3ea"
+    ],
+    "sampled_item_ids": [
+      45,
+      48,
+      68,
+      105,
+      112,
+      169,
+      185,
+      214,
+      245,
+      322,
+      382,
+      421,
+      487,
+      670,
+      731,
+      767,
+      796,
+      1211,
+      1458,
+      1468,
+      1530,
+      1541,
+      1623,
+      1711,
+      2009
+    ],
+    "seed": 42,
+    "source_hash": "e5cb5f72e38e2a518c1b32a3f53e57aecc4ea71d2cfdb9a83e4feed8c6c9c44f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2838,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Gregory Walcott",
+          "Mona McKinnon",
+          "Duke Moore",
+          "Tom Keene"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward D. Wood Jr.",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In California, an old man (Bela Lugosi) grieves the loss of his wife (Vampira) and on the next day he also dies. However, the space soldier Eros and her mate Tanna use an electric device to resurrect them both and the strong Inspector Clay (Tor Johnson) that was murdered by the couple. Their intention is not to conquest Earth but to stop mankind from developing the powerful bomb \"Solobonite\" that would threaten the universe. When the population of Hollywood and Washington DC sees flying saucers on the sky, a colonel, a police lieutenant, a commercial pilot, his wife and a policeman try to stop the aliens.",
+        "release_date": "1959-07-22",
+        "release_year": "1958",
+        "title": "Plan 9 from Outer Space"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Derek Jacobi",
+          "Brian Blessed",
+          "James Larkin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Gritty adaption of William Shakespeare's play about the English King's bloody conquest of France.",
+        "release_date": "1989-10-05",
+        "release_year": "1989",
+        "title": "Henry V"
+      },
+      {
+        "cast": [
+          "John Getz",
+          "Frances McDormand",
+          "Dan Hedaya",
+          "M. Emmet Walsh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Drama",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "The owner of a seedy small-town Texas bar discovers that one of his employees is having an affair with his wife. A chaotic chain of misunderstandings, lies and mischief ensues after he devises a plot to have them murdered.",
+        "release_date": "1984-09-07",
+        "release_year": "1984",
+        "title": "Blood Simple"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Anthony Michael Hall",
+          "Judd Nelson",
+          "Molly Ringwald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Five high school students, all different stereotypes, meet in detention, where they pour their hearts out to each other, and discover how they have a lot more in common than they thought.",
+        "release_date": "1985-02-15",
+        "release_year": "1985",
+        "title": "Breakfast Club, The"
+      },
+      {
+        "cast": [
+          "Sean Penn",
+          "Jennifer Jason Leigh",
+          "Judge Reinhold",
+          "Phoebe Cates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Amy Heckerling",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Follows a group of high school students growing up in southern California, based on the real-life adventures chronicled by Cameron Crowe. Stacy Hamilton and Mark Ratner are looking for a love interest, and are helped along by their older classmates, Linda Barrett and Mike Damone, respectively. The center of the film is held by Jeff Spicoli, a perpetually stoned surfer dude who faces off with the resolute Mr. Hand, who is convinced that everyone is on dope.",
+        "release_date": "1982-08-13",
+        "release_year": "1982",
+        "title": "Fast Times at Ridgemont High"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Robert Shaw",
+          "Richard Dreyfuss",
+          "Lorraine Gary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
+        "release_date": "1975-06-18",
+        "release_year": "1975",
+        "title": "Jaws"
+      },
+      {
+        "cast": [
+          "Peter Sellers",
+          "George C. Scott",
+          "Sterling Hayden",
+          "Keenan Wynn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union. As soon as the actions of General \"Buck\" Turgidson are discovered, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike. Near the end is a scene that is probably the most uniquely unforgettable performance of Slim Pickens in his movie career. Peter Sellers plays multiple roles in this film.",
+        "release_date": "1964-01-29",
+        "release_year": "1963",
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      }
+    ],
+    "raw_user_id": "2838",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 33
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5746040406435685
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for a film that combines Horror and Sci-Fi, indicating a possible aversion to that blend.",
+        "No significant patterns of dislike observed in other genres."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend Drama with other genres like Crime and Comedy.",
+        "Positive reception of films featuring strong character development and complex narratives.",
+        "Frequent enjoyment of films that are critically acclaimed or considered significant in cinema history."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (The user has rated multiple drama films highly, indicating a strong appreciation for the genre.); Enjoyment of Crime narratives (Several crime films received high ratings, suggesting a particular interest in stories involving crime.); Appreciation for Comedy (The user has rated various comedies positively, indicating a liking for humor in films.); Interest in Thrillers (Thriller films have received favorable ratings, showing an attraction to suspenseful storytelling.); Fondness for Classic Cinema (High ratings for older films across various genres suggest an appreciation for classic storytelling.). Liked patterns: High ratings for films that blend Drama with other genres like Crime and Comedy., Positive reception of films featuring strong character development and complex narratives., Frequent enjoyment of films that are critically acclaimed or considered significant in cinema history.. Disliked patterns: Negative rating for a film that combines Horror and Sci-Fi, indicating a possible aversion to that blend., No significant patterns of dislike observed in other genres..",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple drama films highly, indicating a strong appreciation for the genre.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Several crime films received high ratings, suggesting a particular interest in stories involving crime.",
+          "taste": "Enjoyment of Crime narratives"
+        },
+        {
+          "reason": "The user has rated various comedies positively, indicating a liking for humor in films.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "Thriller films have received favorable ratings, showing an attraction to suspenseful storytelling.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "High ratings for older films across various genres suggest an appreciation for classic storytelling.",
+          "taste": "Fondness for Classic Cinema"
+        }
+      ]
+    },
+    "user_id": 2838
+  }
+}

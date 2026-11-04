@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "a6a0679b60741907d54ff7f7b320cc62b9c663285a5dee471fc6a6e01c6f6d93",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2191,
+      99,
+      1127,
+      2057,
+      242,
+      604,
+      243,
+      740,
+      865,
+      657
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "6ec72e0f8db84f50b8ae39a16a2af794"
+    ],
+    "sampled_item_ids": [
+      39,
+      41,
+      52,
+      69,
+      73,
+      93,
+      117,
+      242,
+      291,
+      316,
+      329,
+      407,
+      556,
+      752,
+      805,
+      865,
+      1257,
+      1272,
+      1324,
+      1358,
+      1525,
+      1878,
+      2057,
+      2361,
+      2971
+    ],
+    "seed": 42,
+    "source_hash": "b92612f7ee3b377acd2cdafa496c085067c741979b9317c862527586aab30890",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1198,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "Under 18",
+      "gender": "male",
+      "occupation": "K-12 student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kevin Zegers",
+          "Wendy Makkena",
+          "Michael Jeter",
+          "Bill Cobbs"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Charles Martin Smith",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A young boy and a talented stray dog with an amazing basketball playing ability become instant friends. Rebounding from his father's accidental death, 12-year-old Josh Framm moves with his family to the small town of Fernfield, Washington. The new kid in town, Josh has no friends and is too shy to try out for the school basketball team. Instead he prefers to practice alone on an abandoned court, he befriends a runaway golden retriever named Buddy. Josh is amazed when he realizes that Buddy loves basketball...that is playing basketball...and he is GOOD! Josh eventually makes the school team and Buddy is named the Team Mascot. Josh and Buddy become the stars of halftime. Buddy's half-time talent draws media attention. Unfortunately, when Buddy's mean former owner, Norm Snively, comes along with a scheme to cash in on the pup's celebrity, it looks like they are going to be separated.",
+        "release_date": "1997-08-01",
+        "release_year": "1997",
+        "title": "Air Bud"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Winona Ryder",
+          "Brad Dourif",
+          "Ron Perlman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two hundred years after Lt. Ripley died, a group of scientists clone her, hoping to breed the ultimate weapon. But the new Ripley is full of surprises … as are the new aliens. Ripley must team with a band of smugglers to keep the creatures from reaching Earth.",
+        "release_date": "1997-11-12",
+        "release_year": "1997",
+        "title": "Alien: Resurrection"
+      },
+      {
+        "cast": [
+          "Colin Clive",
+          "Mae Clarke",
+          "John Boles",
+          "Boris Karloff"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Whale",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Henry Frankenstein is a doctor who is trying to discover a way to make the dead walk. He succeeds and creates a monster that has to deal with living again.",
+        "release_date": "1931-11-21",
+        "release_year": "1931",
+        "title": "Frankenstein"
+      },
+      {
+        "cast": [
+          "James Spader",
+          "Angela Bassett",
+          "Robert Forster",
+          "Lou Diamond Phillips"
+        ],
+        "country": [
+          "Switzerland",
+          "United States of America"
+        ],
+        "director": "Walter Hill",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, when a battered salvage ship sends out a distress signal, the seasoned crew of the rescue hospital ship Nova-17 responds. What they find is a black hole--that threatens to destroy both ships--and a mysterious survivor whose body quickly mutates into a monstrous and deadly form.",
+        "release_date": "2000-01-14",
+        "release_year": "2000",
+        "title": "Supernova"
+      },
+      {
+        "cast": [
+          "Veronica Taylor",
+          "Rachael Lillis",
+          "Ed Paul",
+          "Ikue Ōtani"
+        ],
+        "country": [
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Michael Haigney",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "Japanese",
+        "overview": "Ash Ketchum must put his skill to the test when he attempts to save the world from destruction. The Greedy Pokemon collector Lawrence III throws the universe into chaos after disrupting the balance of nature by capturing one of the Pokemon birds that rule the elements of fire, lightning and ice. Will Ash have what it takes to save the world?",
+        "release_date": "1999-07-17",
+        "release_year": "2000",
+        "title": "Pokémon the Movie 2000"
+      },
+      {
+        "cast": [
+          "Tim Curry",
+          "Susan Sarandon",
+          "Barry Bostwick",
+          "Richard O'Brien"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Sharman",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Sweethearts Brad and Janet, stuck with a flat tire during a storm, discover the eerie mansion of Dr. Frank-N-Furter, a transvestite scientist. As their innocence is lost, Brad and Janet meet a houseful of wild characters, including a rocking biker and a creepy butler. Through elaborate dances and rock songs, Frank-N-Furter unveils his latest creation: a muscular man named 'Rocky'.",
+        "release_date": "1975-08-14",
+        "release_year": "1975",
+        "title": "Rocky Horror Picture Show, The"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Morgan Freeman",
+          "Gwyneth Paltrow",
+          "John C. McGinley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+        "release_date": "1995-09-22",
+        "release_year": "1995",
+        "title": "Seven (Se7en)"
+      },
+      {
+        "cast": [
+          "Fred MacMurray",
+          "Nancy Olson",
+          "Keenan Wynn",
+          "Tommy Kirk"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Stevenson",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Hailed as one of Walt Disney's most hilarious comedies, The Absent-Minded Professor contains two essential elements for laughter - Fred MacMurray and Flubber, his gravity-defying formula for flying rubber!",
+        "release_date": "1961-03-16",
+        "release_year": "1961",
+        "title": "Absent Minded Professor, The"
+      },
+      {
+        "cast": [
+          "Mel Brooks",
+          "Rick Moranis",
+          "Bill Pullman",
+          "Daphne Zuniga"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When the nefarious Dark Helmet hatches a plan to snatch Princess Vespa and steal her planet's air, space-bum-for-hire Lone Starr and his clueless sidekick fly to the rescue. Along the way, they meet Yogurt, who puts Lone Starr wise to the power of \"The Schwartz.\" Can he master it in time to save the day?",
+        "release_date": "1987-06-24",
+        "release_year": "1987",
+        "title": "Spaceballs"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Dustin Hoffman",
+          "Julia Roberts",
+          "Bob Hoskins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "The boy who wasn't supposed to grow up—Peter Pan—did just that, becoming a soulless corporate lawyer whose workaholism could cost him his wife and kids. But a trip to see Granny Wendy in London, where the vengeful Capt. Hook kidnaps Peter's kids and forces Peter to return to Neverland, could lead to a chance at redemption, in this family-oriented fantasy from director Steven Spielberg.",
+        "release_date": "1991-12-11",
+        "release_year": "1991",
+        "title": "Hook"
+      }
+    ],
+    "raw_user_id": "1198",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 82
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.9294087453400532
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for children's films that do not resonate",
+        "Negative response to comedies that lack depth or originality"
+      ],
+      "liked_patterns": [
+        "Enjoyment of thrillers and dramas with strong narratives",
+        "Preference for action-packed films with emotional storylines",
+        "Appreciation for comedies that blend humor with other genres"
+      ],
+      "summary": "Unique tastes: Thrillers (The user enjoys suspenseful narratives that keep them engaged.); Action and Drama (The user appreciates films that combine intense action with emotional depth.); Comedy (The user has a preference for light-hearted films that provide humor and entertainment.); Animation (The user enjoys animated films, particularly those aimed at children.); War Themes (The user is drawn to films that explore themes of conflict and heroism.). Liked patterns: Enjoyment of thrillers and dramas with strong narratives, Preference for action-packed films with emotional storylines, Appreciation for comedies that blend humor with other genres. Disliked patterns: Dislike for children's films that do not resonate, Negative response to comedies that lack depth or originality.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys suspenseful narratives that keep them engaged.",
+          "taste": "Thrillers"
+        },
+        {
+          "reason": "The user appreciates films that combine intense action with emotional depth.",
+          "taste": "Action and Drama"
+        },
+        {
+          "reason": "The user has a preference for light-hearted films that provide humor and entertainment.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user enjoys animated films, particularly those aimed at children.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user is drawn to films that explore themes of conflict and heroism.",
+          "taste": "War Themes"
+        }
+      ]
+    },
+    "user_id": 1198
+  }
+}

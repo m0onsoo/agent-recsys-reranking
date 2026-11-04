@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "3af43534a06baae401040010da71b55cf0ecfde1a57b5e80599ba8ea591e0114",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      509,
+      1751,
+      1691,
+      1365,
+      65,
+      809,
+      86,
+      2250,
+      920,
+      691
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b85f119722034e2c91710de8d2cef1a1"
+    ],
+    "sampled_item_ids": [
+      39,
+      65,
+      86,
+      114,
+      135,
+      172,
+      232,
+      399,
+      415,
+      516,
+      532,
+      534,
+      587,
+      809,
+      813,
+      863,
+      936,
+      938,
+      1031,
+      1125,
+      1195,
+      1365,
+      1751,
+      1930,
+      2662
+    ],
+    "seed": 42,
+    "source_hash": "8c3d2708543e199a5cdf69d9ed65103b4b0201f03da753b31b1114d9a2c66595",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 828,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sarah Michelle Gellar",
+          "Ryan Phillippe",
+          "Reese Witherspoon",
+          "Selma Blair"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Kumble",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Slaking a thirst for dangerous games, Kathryn challenges her stepbrother, Sebastian, to deflower their headmaster's daughter before the summer ends. If he succeeds, the prize is the chance to bed Kathryn. But if he loses, Kathryn will claim his most prized possession.",
+        "release_date": "1999-03-05",
+        "release_year": "1999",
+        "title": "Cruel Intentions"
+      },
+      {
+        "cast": [
+          "Sarah Michelle Gellar",
+          "Sean Patrick Flanery",
+          "Dylan Baker",
+          "Patricia Clarkson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Tarlov",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "After her mother's death, mediocre chef Amanda Shelton is having trouble attracting customers to her family's restaurant. While shopping for ingredients, she is given a magical crab by mysterious Gene O'Reilly. Afterward, Amanda's dishes suddenly become excellent, inducing strong emotional reactions in everyone who eats them. Tom Bartlett, who is preparing to open his own eatery, tries her cooking and falls in love.",
+        "release_date": "1999-02-05",
+        "release_year": "1999",
+        "title": "Simply Irresistible"
+      },
+      {
+        "cast": [
+          "Giuseppe Andrews",
+          "James DeBello",
+          "Edward Furlong",
+          "Sam Huntington"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adam Rifkin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In 1978, a Kiss concert was an epoch-making event. For the three teen fans in Detroit Rock City getting tickets to the sold-out show becomes the focal point of their existence. They'll do anything for tickets -- compete in a strip club's amateur-night contest, take on religious protesters, even rob a convenience store!",
+        "release_date": "1999-08-13",
+        "release_year": "1999",
+        "title": "Detroit Rock City"
+      },
+      {
+        "cast": [
+          "Matthew Perry",
+          "Salma Hayek",
+          "Jon Tenney",
+          "Siobhan Fallon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andy Tennant",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Alex Whitman (Matthew Perry) is a designer from New York City who is sent to Las Vegas to supervise the construction of a nightclub that his firm has been hired to build. Alex is a straight-laced WASP-ish type who, while enjoying a night on the town, meets Isabel Fuentes (Salma Hayek), a free-spirited Mexican-American photographer. Alex and Isabel are overtaken by lust at first sight and end up sp",
+        "release_date": "1997-02-14",
+        "release_year": "1997",
+        "title": "Fools Rush In"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Jada Pinkett Smith",
+          "James Coburn",
+          "Larry Miller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom Shadyac",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eddie Murphy stars as shy Dr. Sherman Klump, a kind, brilliant, 'calorifically challenged' genetic professor. When beautiful Carla Purty joins the university faculty, Sherman grows desperate to whittle his 400-pound frame down to size and win her heart. So, with one swig of his experimental fat-reducing serum, Sherman becomes 'Buddy Love', a fast-talking, pumped-up , plumped down Don Juan.",
+        "release_date": "1996-06-26",
+        "release_year": "1996",
+        "title": "Nutty Professor, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Michael Clarke Duncan",
+          "David Morse",
+          "Bonnie Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cellblock's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Green Mile, The"
+      },
+      {
+        "cast": [
+          "Trey Parker",
+          "Matt Stone",
+          "Yasmine Bleeth",
+          "Jenny McCarthy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Zucker",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two losers from Milwaukee, Coop &amp; Remer, invent a new game playing basketball, using baseball rules. When the game becomes a huge success, they, along with a billionaire's help, form the Professional Baseketball League where everyone gets the same pay and no team can change cities. Theirs is the only team standing in the way of major rule changes that the owner of a rival team wants to institute.",
+        "release_date": "1998-07-28",
+        "release_year": "1998",
+        "title": "BASEketball"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Catherine Zeta-Jones",
+          "Will Patton",
+          "Maury Chaykin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two thieves, who travel in elegant circles, try to outsmart each other and, in the process, end up falling in love.",
+        "release_date": "1999-04-29",
+        "release_year": "1999",
+        "title": "Entrapment"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Meg Ryan",
+          "Katie Sagona",
+          "Greg Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nora Ephron",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Book superstore magnate, Joe Fox and independent book shop owner, Kathleen Kelly fall in love in the anonymity of the Internet – both blissfully unaware that he's putting her out of business.",
+        "release_date": "1998-12-17",
+        "release_year": "1998",
+        "title": "You've Got Mail"
+      }
+    ],
+    "raw_user_id": "828",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 93
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.859406942856896
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for action films lacking depth",
+        "Dislike for comedies that fail to engage or entertain",
+        "Negative response to children's films that do not resonate"
+      ],
+      "liked_patterns": [
+        "High ratings for thrillers and dramas that evoke strong emotions",
+        "Preference for comedies that include romantic themes",
+        "Enjoyment of adventure films with strong narratives"
+      ],
+      "summary": "Unique tastes: Thrillers with emotional depth (The user enjoys thrillers that evoke strong emotions, as seen in high ratings for films that blend suspense with character-driven narratives.); Comedies with romantic elements (The user favors comedies that incorporate romance, indicating a preference for light-hearted stories that explore relationships.); Dramatic narratives with humor (The user appreciates films that combine drama with comedic elements, suggesting a taste for stories that balance serious themes with humor.); Adventure films with strong storytelling (The user rates adventure films highly when they feature compelling narratives, indicating a preference for well-crafted stories in action settings.); Musicals and romantic themes (The user enjoys musicals that focus on romance, reflecting a taste for films that combine music with love stories.). Liked patterns: High ratings for thrillers and dramas that evoke strong emotions, Preference for comedies that include romantic themes, Enjoyment of adventure films with strong narratives. Disliked patterns: Low ratings for action films lacking depth, Dislike for comedies that fail to engage or entertain, Negative response to children's films that do not resonate.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys thrillers that evoke strong emotions, as seen in high ratings for films that blend suspense with character-driven narratives.",
+          "taste": "Thrillers with emotional depth"
+        },
+        {
+          "reason": "The user favors comedies that incorporate romance, indicating a preference for light-hearted stories that explore relationships.",
+          "taste": "Comedies with romantic elements"
+        },
+        {
+          "reason": "The user appreciates films that combine drama with comedic elements, suggesting a taste for stories that balance serious themes with humor.",
+          "taste": "Dramatic narratives with humor"
+        },
+        {
+          "reason": "The user rates adventure films highly when they feature compelling narratives, indicating a preference for well-crafted stories in action settings.",
+          "taste": "Adventure films with strong storytelling"
+        },
+        {
+          "reason": "The user enjoys musicals that focus on romance, reflecting a taste for films that combine music with love stories.",
+          "taste": "Musicals and romantic themes"
+        }
+      ]
+    },
+    "user_id": 828
+  }
+}

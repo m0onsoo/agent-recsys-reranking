@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "801e5537b691bec0ae60006dcc499e00fed25017c654e02da76342a872fa6dad",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      933,
+      501,
+      436,
+      426,
+      49,
+      373,
+      361,
+      309,
+      264,
+      247
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "89025ae92e3b48388017d401d5486c29"
+    ],
+    "sampled_item_ids": [
+      39,
+      49,
+      70,
+      105,
+      185,
+      220,
+      306,
+      308,
+      373,
+      407,
+      426,
+      501,
+      502,
+      517,
+      542,
+      734,
+      738,
+      933,
+      1421,
+      1692,
+      1751,
+      1791,
+      2034,
+      2037,
+      2157
+    ],
+    "seed": 42,
+    "source_hash": "15905dfa76263ac2918500bf2a20e692f9d4e23166bdb5da739f488358c5e260",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1436,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "female",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Ossie Davis",
+          "Oliver Platt",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A successful physician and devoted family man, John Dolittle (Eddie Murphy) seems to have the world by the tail, until a long suppressed talent he possessed as a child, the ability to communicate with animals is suddenly reawakened with a vengeance! Now every creature within squawking distance wants the good doctor's advice, unleashing an outrageous chain of events that turns his world upside down!",
+        "release_date": "1998-06-22",
+        "release_year": "1998",
+        "title": "Doctor Dolittle"
+      },
+      {
+        "cast": [
+          "Carlo Cecchi",
+          "Irene Grazioli",
+          "Anita Laurenzi",
+          "Tommaso Puntelli"
+        ],
+        "country": [
+          "Canada",
+          "Italy",
+          "United Kingdom"
+        ],
+        "director": "François Girard",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Spans 300 years in the life of one famed musical instrument that winds up in present-day Montreal on the auction block. Crafted by the Italian master Bussotti (Cecchi) in 1681, the red violin derives its unusual color from the human blood mixed into the finish. With this legacy, the violin travels to Austria, England, China, and Canada, leaving both beauty and tragedy in its wake.",
+        "release_date": "1998-09-10",
+        "release_year": "1998",
+        "title": "Red Violin, The (Le Violon rouge)"
+      },
+      {
+        "cast": [
+          "Cate Blanchett",
+          "Geoffrey Rush",
+          "Christopher Eccleston",
+          "Joseph Fiennes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Shekhar Kapur",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of the ascension to the throne and the early reign of Queen Elizabeth the First, the endless attempts by her council to marry her off, the Catholic hatred of her and her romance with Lord Robert Dudley.",
+        "release_date": "1998-09-13",
+        "release_year": "1998",
+        "title": "Elizabeth"
+      },
+      {
+        "cast": [
+          "Meryl Streep",
+          "Robert Redford",
+          "Klaus Maria Brandauer",
+          "Michael Kitchen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Out of Africa tells the story of the life of Danish author Karen Blixen, who at the beginning of the 20th century moved to Africa to build a new life for herself. The film is based on the autobiographical novel by Karen Blixen from 1937.",
+        "release_date": "1985-12-20",
+        "release_year": "1985",
+        "title": "Out of Africa"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Hilary Swank",
+          "Chloë Sevigny",
+          "Peter Sarsgaard",
+          "Brendan Sexton III"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kimberly Peirce",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Female born, Teena Brandon adopts his male identity of Brandon Teena and attempts to find himself and love in Nebraska.",
+        "release_date": "1999-09-02",
+        "release_year": "1999",
+        "title": "Boys Don't Cry"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Natalie Portman",
+          "Hart Bochner",
+          "Eileen Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wayne Wang",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In this adaptation of the Mona Simpson novel, single mother Adele August is bad with money, and even worse when it comes to making decisions. Her straight-laced daughter, Ann, is a successful high school student with Ivy League aspirations. When Adele decides to pack up and move the two of them from the Midwest to Beverly Hills, Calif., to pursue her dreams of Hollywood success, Ann grows frustrated with her mother's irresponsible and impulsive ways.",
+        "release_date": "1999-11-12",
+        "release_year": "1999",
+        "title": "Anywhere But Here"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Helen Mirren",
+          "River Phoenix",
+          "Conrad Roberts"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Allie Fox, an American inventor exhausted by the perceived danger and degradation of modern society, decides to escape with his wife and children to Belize. In the jungle, he tries with mad determination to create a utopian community with disastrous results.",
+        "release_date": "1986-11-26",
+        "release_year": "1986",
+        "title": "Mosquito Coast, The"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Ian McDiarmid",
+          "Christina Ricci",
+          "Casper Van Dien"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Horror",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "New York detective Ichabod Crane is sent to Sleepy Hollow to investigate a series of mysterious deaths in which the victims are found beheaded. But the locals believe the culprit to be none other than the ghost of the legendary Headless Horseman.",
+        "release_date": "1999-11-18",
+        "release_year": "1999",
+        "title": "Sleepy Hollow"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      }
+    ],
+    "raw_user_id": "1436",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 54
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7884382014379865
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or originality."
+      ],
+      "liked_patterns": [
+        "Preference for films that combine drama with other genres like thriller and action.",
+        "Enjoyment of comedies that feature unique or unconventional storylines.",
+        "Strong appreciation for films that explore emotional and psychological themes."
+      ],
+      "summary": "Unique tastes: Thrillers with strong narratives (The user appreciates thrillers that offer compelling stories and character development.); Dramatic films with emotional depth (The user enjoys dramas that explore complex emotions and relationships.); Comedies with unique premises (The user favors comedies that present original and quirky concepts.); Action films with dramatic elements (The user likes action movies that incorporate significant dramatic themes.); Romantic dramas (The user is drawn to films that blend romance with dramatic storytelling.). Liked patterns: Preference for films that combine drama with other genres like thriller and action., Enjoyment of comedies that feature unique or unconventional storylines., Strong appreciation for films that explore emotional and psychological themes.. Disliked patterns: Dislike for comedies that lack depth or originality..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates thrillers that offer compelling stories and character development.",
+          "taste": "Thrillers with strong narratives"
+        },
+        {
+          "reason": "The user enjoys dramas that explore complex emotions and relationships.",
+          "taste": "Dramatic films with emotional depth"
+        },
+        {
+          "reason": "The user favors comedies that present original and quirky concepts.",
+          "taste": "Comedies with unique premises"
+        },
+        {
+          "reason": "The user likes action movies that incorporate significant dramatic themes.",
+          "taste": "Action films with dramatic elements"
+        },
+        {
+          "reason": "The user is drawn to films that blend romance with dramatic storytelling.",
+          "taste": "Romantic dramas"
+        }
+      ]
+    },
+    "user_id": 1436
+  }
+}

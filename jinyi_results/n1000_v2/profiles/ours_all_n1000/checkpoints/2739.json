@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "5b40ed3106bc3f491fc585e6d9826c4ffbba66e19ae4d502653b9962fa5f6c1d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      105,
+      801,
+      113,
+      881,
+      274,
+      455,
+      95,
+      309,
+      70,
+      65
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a95370ea265a4187974fe2b5a75f6ab4"
+    ],
+    "sampled_item_ids": [
+      4,
+      5,
+      39,
+      65,
+      70,
+      95,
+      105,
+      113,
+      274,
+      295,
+      309,
+      312,
+      353,
+      364,
+      435,
+      455,
+      513,
+      801,
+      881,
+      898,
+      933,
+      1142,
+      1388,
+      1535,
+      1559
+    ],
+    "seed": 42,
+    "source_hash": "e205f93d6a5fc3b1d34335d13484db2cc89f1161f48ad75667c957c6e14c8be6",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2739,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Billy Bob Thornton",
+          "Cate Blanchett",
+          "Angelina Jolie"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two air traffic controllers (John Cusack, Billy Bob Thornton) who thrive on living dangerously compete to outdo each other on several levels.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Pushing Tin"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Karen Allen",
+          "Charles Martin Smith",
+          "Richard Jaeckel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An alien takes the form of a young widow's husband and asks her to drive him from Wisconsin to Arizona. The government tries to stop them.",
+        "release_date": "1984-12-13",
+        "release_year": "1984",
+        "title": "Starman"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Richard Gere",
+          "Joan Cusack",
+          "Rita Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Garry Marshall",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Ike Graham, New York columnist, writes his text always at the last minute. This time, a drunken man in his favourite bar tells Ike about Maggie Carpenter, a woman who always flees from her grooms in the last possible moment. Ike, who does not have the best opinion about females anyway, writes an offensive column without researching the subject thoroughly.",
+        "release_date": "1999-07-30",
+        "release_year": "1999",
+        "title": "Runaway Bride"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Dan Aykroyd",
+          "Sigourney Weaver",
+          "Harold Ramis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Ghostbusters"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Nicole Kidman",
+          "Madison Eginton",
+          "Jackie Sawiris"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After Dr. Bill Hartford's wife, Alice, admits to having sexual fantasies about a man she met, Bill becomes obsessed with having a sexual encounter. He discovers an underground sexual group and attends one of their meetings -- and quickly discovers that he is in over his head.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Eyes Wide Shut"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Kris Kristofferson",
+          "Gregg Henry",
+          "Maria Bello"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian Helgeland",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "With friends like these, who needs enemies? That's the question bad guy Porter is left asking after his wife and partner steal his heist money and leave him for dead -- or so they think. Five months and an endless reservoir of bitterness later, Porter's partners and the crooked cops on his tail learn how bad payback can be.",
+        "release_date": "1999-02-05",
+        "release_year": "1999",
+        "title": "Payback"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Helen Mirren",
+          "River Phoenix",
+          "Conrad Roberts"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Allie Fox, an American inventor exhausted by the perceived danger and degradation of modern society, decides to escape with his wife and children to Belize. In the jungle, he tries with mad determination to create a utopian community with disastrous results.",
+        "release_date": "1986-11-26",
+        "release_year": "1986",
+        "title": "Mosquito Coast, The"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Ashley Judd",
+          "Bruce Greenwood",
+          "Annabeth Gish"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Bruce Beresford",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A woman framed for her husband's murder suspects he is still alive; as she has already been tried for the crime, she can't be re-prosecuted if she finds and kills him.",
+        "release_date": "1999-09-24",
+        "release_year": "1999",
+        "title": "Double Jeopardy"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      }
+    ],
+    "raw_user_id": "2739",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 26
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.559738341548631
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to poorly rated dramas",
+        "Dislike for certain horror films that did not meet expectations",
+        "Low ratings for specific films that attempted to blend genres unsuccessfully"
+      ],
+      "liked_patterns": [
+        "Enjoyment of thrillers and dramas with strong narratives",
+        "Appreciation for comedic elements across various films",
+        "Interest in action films that blend suspense and excitement"
+      ],
+      "summary": "Unique tastes: Thrillers (The user enjoys suspenseful narratives, as indicated by multiple high ratings for thriller films.); Dramas (A strong preference for dramatic storytelling is evident from several high ratings in this genre.); Comedies (The user appreciates humor, reflected in consistent ratings for comedic films.); Action (There is a notable enjoyment of action-packed films, as shown by positive ratings for several titles in this genre.); Horror (The user shows an interest in horror films, with a mix of ratings indicating a varied appreciation.). Liked patterns: Enjoyment of thrillers and dramas with strong narratives, Appreciation for comedic elements across various films, Interest in action films that blend suspense and excitement. Disliked patterns: Negative response to poorly rated dramas, Dislike for certain horror films that did not meet expectations, Low ratings for specific films that attempted to blend genres unsuccessfully.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys suspenseful narratives, as indicated by multiple high ratings for thriller films.",
+          "taste": "Thrillers"
+        },
+        {
+          "reason": "A strong preference for dramatic storytelling is evident from several high ratings in this genre.",
+          "taste": "Dramas"
+        },
+        {
+          "reason": "The user appreciates humor, reflected in consistent ratings for comedic films.",
+          "taste": "Comedies"
+        },
+        {
+          "reason": "There is a notable enjoyment of action-packed films, as shown by positive ratings for several titles in this genre.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user shows an interest in horror films, with a mix of ratings indicating a varied appreciation.",
+          "taste": "Horror"
+        }
+      ]
+    },
+    "user_id": 2739
+  }
+}

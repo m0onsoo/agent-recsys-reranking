@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "0b621e8eccdeb037931b2cddb3118ca09199d8ba5fd92b2837baaee19fef89d8",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      677,
+      87,
+      2024,
+      602,
+      930,
+      568,
+      2932,
+      1605,
+      1223,
+      629
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "2c1eeb2ee0af4a6ba969e5fc9e0c5dc0"
+    ],
+    "sampled_item_ids": [
+      5,
+      16,
+      53,
+      184,
+      513,
+      552,
+      610,
+      670,
+      735,
+      738,
+      781,
+      849,
+      1060,
+      1177,
+      1223,
+      1270,
+      1418,
+      1532,
+      1601,
+      1604,
+      1798,
+      2014,
+      2024,
+      2956,
+      3155
+    ],
+    "seed": 42,
+    "source_hash": "b887c8bbd47dc93504674692c33466649acc3c73f6c98a4b45b5bb29d1f7ddfb",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 798,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Tahnee Welch",
+          "Brian Dennehy",
+          "Don Ameche"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A group of aliens return to earth to take back some cocoons of their people they left behind from an earlier trip. They kept the recovered cocoons in the swimming pool of a house they rented in a small Florida town. Their mission is hampered by a number of old people from an elderly home nearby, who have been secretly using the pool and discovering the unusual power of these cocoons.",
+        "release_date": "1985-06-21",
+        "release_year": "1985",
+        "title": "Cocoon"
+      },
+      {
+        "cast": [
+          "Jeff Goldblum",
+          "Julianne Moore",
+          "Pete Postlethwaite",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Four years after Jurassic Park's genetically bred dinosaurs ran amok, multimillionaire John Hammond shocks chaos theorist Ian Malcolm by revealing that Hammond has been breeding more beasties at a secret location. Malcolm, his paleontologist ladylove and a wildlife videographer join an expedition to document the lethal lizards' natural behavior in this action-packed thriller.",
+        "release_date": "1997-05-23",
+        "release_year": "1997",
+        "title": "Lost World: Jurassic Park, The"
+      },
+      {
+        "cast": [
+          "Vincent Price",
+          "Brett Halsey",
+          "John Sutton",
+          "David Frankham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Bernds",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "German",
+        "overview": "Fifteen years after his father's experiments with matter transmission fail, Philippe Delambre and his uncle François attempt to create a matter transmission device on their own. However, their experiments have disastrous results, turning Philippe into a horrible half-man, half-fly creature.",
+        "release_date": "1959-07-01",
+        "release_year": "1959",
+        "title": "Return of the Fly"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tawny Kitaen",
+          "Adrian Zmed",
+          "George Grizzard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Neal Israel",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "This outrageously funny look at one man's final moments of bachelorhood stars Tom Hanks as Rick, reluctant recipient of a bachelor bash given by a group of friends who view partying as their full-time religion. Rick's worried fiancée, Debbie (Tawny Kitaen), dresses up in disguise and crashes the party to spy on her future husband.",
+        "release_date": "1984-06-29",
+        "release_year": "1984",
+        "title": "Bachelor Party"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Kevin Kline",
+          "Kenneth Branagh",
+          "Salma Hayek"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Legless Southern inventor Dr. Arliss Loveless plans to rekindle the Civil War by assassinating President U.S. Grant. Only two men can stop him: gunfighter James West and master-of-disguise and inventor Artemus Gordon. The two must team up to thwart Loveless' plans.",
+        "release_date": "1999-06-29",
+        "release_year": "1999",
+        "title": "Wild Wild West"
+      },
+      {
+        "cast": [
+          "Patrick Swayze",
+          "Demi Moore",
+          "Whoopi Goldberg",
+          "Tony Goldwyn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Zucker",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Wheat is a banker, Molly Jensen is an artist, and the two are madly in love. However, when Sam is murdered by his friend and corrupt business partner Carl Bruner over a shady business deal, he is left to roam the earth as a powerless spirit. When he learns of Carl's betrayal, Sam must seek the help of psychic Oda Mae Brown to set things right and protect Molly from Carl and his goons.",
+        "release_date": "1990-07-12",
+        "release_year": "1990",
+        "title": "Ghost"
+      },
+      {
+        "cast": [
+          "Anthony Perkins",
+          "Vera Miles",
+          "Meg Tilly",
+          "Robert Loggia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Franklin",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Years of treatment at a mental institution for the criminally insane, Norman Bates still can't quite elude the demands of \"Mother.\" Vera Miles also returns as the inquisitive woman who is haunted by her sister's brutal murder and the ominous motel where it all occurred.",
+        "release_date": "1983-06-03",
+        "release_year": "1983",
+        "title": "Psycho II"
+      },
+      {
+        "cast": [
+          "Paul Hogan",
+          "Linda Kozlowski",
+          "John Meillon",
+          "Ernie Dingo"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "John Cornell",
+        "genres": [
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Australian outback expert protects his New York love from gangsters who've followed her down under.",
+        "release_date": "1988-05-19",
+        "release_year": "1988",
+        "title": "Crocodile Dundee II"
+      },
+      {
+        "cast": [
+          "Michael Keaton",
+          "Gedde Watanabe",
+          "George Wendt",
+          "Mimi Rogers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When a western Pennsylvania auto plant is acquired by a Japanese company, brokering auto worker Hunt Stevenson faces the tricky challenge of mediating the assimilation of two clashing corporate cultures. At one end is the Japanese plant manager and the sycophant who is angling for his position. At the other, a number of disgruntled long-time union members struggle with the new exigencies of Japanese quality control.",
+        "release_date": "1986-03-13",
+        "release_year": "1986",
+        "title": "Gung Ho"
+      },
+      {
+        "cast": [
+          "Fairuza Balk",
+          "Nicol Williamson",
+          "Jean Marsh",
+          "Piper Laurie"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Walter Murch",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Dorothy, saved from a psychiatric experiment by a mysterious girl, finds herself back in the land of her dreams, and makes delightful new friends, and dangerous new enemies.",
+        "release_date": "1985-06-21",
+        "release_year": "1985",
+        "title": "Return to Oz"
+      }
+    ],
+    "raw_user_id": "798",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 263
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.870205656778154
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for horror films",
+        "Dislike for certain action films",
+        "Low ratings for specific comedies"
+      ],
+      "liked_patterns": [
+        "Strong preference for animated and children's films",
+        "Consistent enjoyment of comedy films",
+        "Positive ratings for drama and musical genres"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Children's Films (The user rated multiple animated and children's films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (The user has rated several comedies positively, suggesting a consistent enjoyment of humor in films.); Interest in Drama (The user has shown a liking for dramatic films, as evidenced by multiple positive ratings in this genre.); Fondness for Horror and Thriller Elements (The user rated some horror and thriller films highly, indicating an appreciation for suspenseful and chilling narratives.); Preference for Musical Elements (The user has rated musicals positively, suggesting an enjoyment of music integrated into film.). Liked patterns: Strong preference for animated and children's films, Consistent enjoyment of comedy films, Positive ratings for drama and musical genres. Disliked patterns: Negative ratings for horror films, Dislike for certain action films, Low ratings for specific comedies.",
+      "unique_tastes": [
+        {
+          "reason": "The user rated multiple animated and children's films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Animation and Children's Films"
+        },
+        {
+          "reason": "The user has rated several comedies positively, suggesting a consistent enjoyment of humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has shown a liking for dramatic films, as evidenced by multiple positive ratings in this genre.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user rated some horror and thriller films highly, indicating an appreciation for suspenseful and chilling narratives.",
+          "taste": "Fondness for Horror and Thriller Elements"
+        },
+        {
+          "reason": "The user has rated musicals positively, suggesting an enjoyment of music integrated into film.",
+          "taste": "Preference for Musical Elements"
+        }
+      ]
+    },
+    "user_id": 798
+  }
+}

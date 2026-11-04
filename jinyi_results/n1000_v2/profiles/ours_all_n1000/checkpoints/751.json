@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "2da5eeb790545b3820e96ccc8efdced67dfebd458b10f243358acfcb4c24a08c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      926,
+      1070,
+      179,
+      98,
+      1132,
+      284,
+      407,
+      65,
+      1230,
+      1271
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ebfc46e2a7804e3080299cd48ae3540e"
+    ],
+    "sampled_item_ids": [
+      65,
+      85,
+      93,
+      98,
+      114,
+      179,
+      284,
+      407,
+      500,
+      510,
+      525,
+      729,
+      893,
+      926,
+      1070,
+      1132,
+      1230,
+      1233,
+      1271,
+      1375,
+      1667
+    ],
+    "seed": 42,
+    "source_hash": "f92341fcd45f404ae71557a97b8da6c0c4c8db1a6bf4a3a352116d5bab79a6e5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 751,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sharon Stone",
+          "George Dzundza",
+          "Jeanne Tripplehorn"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A police detective is in charge of the investigation of a brutal murder, in which a beautiful and seductive woman could be involved.",
+        "release_date": "1992-03-20",
+        "release_year": "1992",
+        "title": "Basic Instinct"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Barbara Bach",
+          "Curd Jürgens",
+          "Richard Kiel"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Lewis Gilbert",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Russian and British submarines with nuclear missiles on board both vanish from sight without a trace. England and Russia both blame each other as James Bond tries to solve the riddle of the disappearing ships. But the KGB also has an agent on the case.",
+        "release_date": "1977-07-07",
+        "release_year": "1977",
+        "title": "Spy Who Loved Me, The"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Viggo Mortensen",
+          "Dominic West",
+          "Elizabeth Perkins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After getting into a car accident while drunk on the day of her sister's wedding, Gwen Cummings is given a choice between prison or a rehab center. She chooses rehab, but is extremely resistant to taking part in any of the treatment programs they have to offer, refusing to admit that she has an alcohol addiction.",
+        "release_date": "2000-04-06",
+        "release_year": "2000",
+        "title": "28 Days"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "John Cassavetes",
+          "Ruth Gordon",
+          "Sidney Blackmer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A young couple moves into an infamous New York apartment building to start a family. Things become frightening as Rosemary begins to suspect her unborn baby isn't safe around their strange neighbors.",
+        "release_date": "1968-06-12",
+        "release_year": "1968",
+        "title": "Rosemary's Baby"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Heath Ledger",
+          "Joely Richardson",
+          "Jason Isaacs"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "After proving himself on the field of battle in the French and Indian War, Benjamin Martin wants nothing more to do with such things, preferring the simple life of a farmer. But when his son Gabriel enlists in the army to defend their new nation, America, against the British, Benjamin reluctantly returns to his old life to protect his son.",
+        "release_date": "2000-06-28",
+        "release_year": "2000",
+        "title": "Patriot, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Andrew Robinson",
+          "Clare Higgins",
+          "Ashley Laurence",
+          "Sean Chapman"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Clive Barker",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Larry and his wife, Julia move into an old house and discover a hideous creature - the man's half-brother, who is also the woman's former lover - hiding upstairs. Having lost his earthly body to a trio of S&amp;M demons, the Cenobites, Frank, is brought back into existence by a drop of blood on the floor. He soon forces his former mistress to bring him his necessary human sacrifices to complete his body... but the Cenobites won't be happy about this.",
+        "release_date": "1987-09-11",
+        "release_year": "1987",
+        "title": "Hellraiser"
+      },
+      {
+        "cast": [
+          "Harry Dean Stanton",
+          "Emilio Estevez",
+          "Tracey Walter",
+          "Olivia Barash"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alex Cox",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A down and out young punk gets a job working with a seasoned repo man, but what awaits him in his new career is a series of outlandish adventures revolving around aliens, the CIA, and a most wanted '64 Chevy.",
+        "release_date": "1984-02-20",
+        "release_year": "1984",
+        "title": "Repo Man"
+      }
+    ],
+    "raw_user_id": "751",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 21
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.773944376475966
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 10
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that fail to engage or resonate",
+        "Negative response to films that do not meet expectations in action or adventure"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure films",
+        "Enjoyment of dramas with emotional narratives",
+        "Appreciation for comedies that blend humor with other genres"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventurous themes.); Drama with Emotional Depth (The user appreciates dramas that explore complex emotions and character development.); Comedy with a Unique Twist (The user favors comedies that offer a distinct perspective or unconventional humor.); Thrillers with Intrigue (The user is drawn to thrillers that provide suspense and engaging plots.); Romantic Elements in Various Genres (The user enjoys films that incorporate romance, even within action or drama.). Liked patterns: Strong preference for action and adventure films, Enjoyment of dramas with emotional narratives, Appreciation for comedies that blend humor with other genres. Disliked patterns: Dislike for comedies that fail to engage or resonate, Negative response to films that do not meet expectations in action or adventure.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventurous themes.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex emotions and character development.",
+          "taste": "Drama with Emotional Depth"
+        },
+        {
+          "reason": "The user favors comedies that offer a distinct perspective or unconventional humor.",
+          "taste": "Comedy with a Unique Twist"
+        },
+        {
+          "reason": "The user is drawn to thrillers that provide suspense and engaging plots.",
+          "taste": "Thrillers with Intrigue"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romance, even within action or drama.",
+          "taste": "Romantic Elements in Various Genres"
+        }
+      ]
+    },
+    "user_id": 751
+  }
+}

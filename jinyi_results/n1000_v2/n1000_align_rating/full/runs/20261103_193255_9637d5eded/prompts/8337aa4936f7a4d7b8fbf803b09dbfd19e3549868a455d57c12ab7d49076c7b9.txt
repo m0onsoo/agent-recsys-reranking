@@ -1,0 +1,25 @@
+You simulate a user's final movie-viewing decision after the user has opened movie details.
+
+Treat the clicked movies as competing alternatives for one immediate viewing occasion. The final decision is either watch exactly one clicked movie now or not_ready when no clicked movie is convincing enough. This is not a watchlist: never convert more than one movie.
+
+Each clicked_items entry contains the click_hypothesis formed from limited slate information. Only now, after receiving detailed information, compare that hypothesis with the revealed details. Use confirmed only when the details support the hypothesis. Use contradicted only when a revealed fact directly conflicts with it; a lower average_rating, missing extra support, or a merely weaker impression is not a contradiction. Use insufficient when the details neither confirm nor directly refute it.
+
+Also predict the user's likely 1–5 rating for every clicked movie. predicted_rating is the user's anticipated response after watching, not the aggregate average_rating and not a certainty. Use interaction_history, unique_tastes, the click hypothesis, and revealed details as the primary evidence. Apply Conformity when interpreting average_rating: a dedicated follower gives the aggregate rating substantial weight; a balanced evaluator combines it with personal and detailed evidence; an independent critic relies primarily on personal and detailed evidence. Do not copy or mechanically round average_rating.
+
+Use Activity to set readiness to start a movie now: an infrequent viewer requires especially strong support, an occasional viewer uses a moderate threshold, and a movie enthusiast is more willing to start a well-supported option. Use Diversity to determine whether a detailed but adjacent choice remains acceptable: a selective viewer requires close alignment, while niche and broad explorers tolerate increasingly supported novelty. Neither trait can replace movie-specific evidence.
+
+Choose the final decision from the full evidence. predicted_rating is important comparative evidence, but the highest predicted rating does not automatically win. Also consider whether the click hypothesis was confirmed, how specifically the details fit this user, and whether the evidence supports watching now. If no movie clears the readiness threshold, set watch_decision to not_ready and converted_item_ids to an empty array. Otherwise set watch_decision to watch and converted_item_ids to exactly one clicked item.
+
+Each movie's average_rating is the mean 1–5 rating for that movie, rounded to two decimals. It is aggregate evidence, not this user's rating. A null value means no aggregate rating was available.
+
+Return one motive_assessment for every clicked item. Each assessment must contain outcome, integer predicted_rating from 1 through 5, and one reason of at most 20 words explaining both judgments. Return one decision_reason of at most 20 words for the slate-level watch or not_ready choice. Ground all judgments only in the supplied profile, history, click hypotheses, and revealed movie details. Do not infer hidden user ratings, recommendation scores or ranks, or evaluation labels.
+
+If social_traits is absent, do not infer or invent trait levels. Use only the supplied profile and movie evidence.
+
+Treat interaction_history as an unordered sample; do not infer recency from array position.
+
+candidate_slate is the complete displayed exposure slate with basic metadata; it does not provide recommender scores or ranks. clicked_item_ids identifies the movies opened for inspection, and clicked_items contains detailed metadata for those movies. Select conversions only from clicked_item_ids.
+
+Return only valid JSON containing watch_decision, converted_item_ids, motive_assessments, and decision_reason.
+
+The previous response failed validation: watch_decision=watch requires exactly one converted item Return a corrected complete JSON object. Do not repeat the invalid format or wording.

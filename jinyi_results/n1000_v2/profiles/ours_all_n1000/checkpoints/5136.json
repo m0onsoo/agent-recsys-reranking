@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "f53538e1951100b79532bf967e7b1618193b729fbcb1d475cc08f9a0bc2fde66",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1310,
+      1062,
+      1244,
+      334,
+      458,
+      1107,
+      119,
+      425,
+      386,
+      1211
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      19,
+      42,
+      138,
+      353,
+      378,
+      401,
+      447,
+      490,
+      539,
+      652,
+      734,
+      766,
+      880,
+      901,
+      905,
+      1019,
+      1042,
+      1214,
+      1299,
+      1369,
+      1406,
+      1430,
+      1440,
+      1468,
+      1578
+    ],
+    "seed": 42,
+    "source_hash": "35c9488fcacb7af4023ab6e02713f6569c0a273cc03a10ed8ca840b117f741da",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5136,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Winona Ryder",
+          "Ben Stiller",
+          "Janeane Garofalo",
+          "Steve Zahn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ben Stiller",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A small circle of friends suffering from post-collegiate blues must confront the hard truth about life, love and the pursuit of gainful employment. As they struggle to map out survival guides for the future, the Gen-X quartet soon begins to realize that reality isn't all it's cracked up to be.",
+        "release_date": "1994-02-18",
+        "release_year": "1994",
+        "title": "Reality Bites"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Ione Skye",
+          "John Mahoney",
+          "Lili Taylor"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A budding romance between noble underachiever Lloyd Dobler and high school valedictorian Diane Court is threatened when Diane's overly possessive, disapproving father interferes with their relationship. With a prized scholarship to study abroad hanging in the balance, Diane must find a way to make both men happy.",
+        "release_date": "1989-04-14",
+        "release_year": "1989",
+        "title": "Say Anything..."
+      },
+      {
+        "cast": [
+          "Bill Pullman",
+          "Ben Stiller",
+          "Ryan O'Neal",
+          "Kim Dickens"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jake Kasdan",
+        "genres": [
+          "Comedy",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Daryl Zero is a private investigator. Along with his assistant, Steve Arlo he solves impossible crimes and puzzles. Though a master investigator, when he is not working, Zero doesn't know what to do with himself. He has no social skills, writes bad music, and drives Arlo crazy. In his latest case, Zero must find out who is blackmailing a rich executive, and when his client won't tell him, why.",
+        "release_date": "1998-01-30",
+        "release_year": "1998",
+        "title": "Zero Effect"
+      },
+      {
+        "cast": [
+          "Laurel Holloman",
+          "Maggie Moore",
+          "Kate Stafford",
+          "Nicole Ari Parker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Maria Maggenti",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "An adventurous love story between two young women of different social and economic backgrounds who find themselves going through all the typical struggles of a new romance.",
+        "release_date": "1995-06-16",
+        "release_year": "1995",
+        "title": "Incredibly True Adventure of Two Girls in Love, The"
+      },
+      {
+        "cast": [
+          "Vincent Gallo",
+          "Christina Ricci",
+          "Ben Gazzara",
+          "Mickey Rourke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Vincent Gallo",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Billy is released after five years in prison. In the next moment, he kidnaps teenage student Layla and visits his parents with her, pretending she is his girlfriend and they will soon marry.",
+        "release_date": "1998-01-20",
+        "release_year": "1998",
+        "title": "Buffalo 66"
+      },
+      {
+        "cast": [
+          "Stephen Rea",
+          "Jaye Davidson",
+          "Miranda Richardson",
+          "Forest Whitaker"
+        ],
+        "country": [
+          "Japan",
+          "United Kingdom",
+          "Ireland"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Irish Republican Army member Fergus (Stephen Rea) forms an unexpected bond with Jody (Forest Whitaker), a kidnapped British soldier in his custody, despite the warnings of fellow IRA members Jude (Miranda Richardson) and Maguire (Adrian Dunbar). Jody makes Fergus promise he'll visit his girlfriend, Dil (Jaye Davidson), in London, and when Fergus flees to the city, he seeks her out. Hounded by his former IRA colleagues, he finds himself increasingly drawn to the enigmatic, and surprising, Dil.",
+        "release_date": "1992-09-02",
+        "release_year": "1992",
+        "title": "Crying Game, The"
+      },
+      {
+        "cast": [
+          "Leonardo DiCaprio",
+          "Jeremy Irons",
+          "Gérard Depardieu",
+          "Gabriel Byrne"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Randall Wallace",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Years have passed since the Three Musketeers, Aramis, Athos and Porthos, have fought together with their friend, D'Artagnan. But with the tyrannical King Louis using his power to wreak havoc in the kingdom while his twin brother, Philippe, remains imprisoned, the Musketeers reunite to abduct Louis and replace him with Philippe.",
+        "release_date": "1998-03-12",
+        "release_year": "1998",
+        "title": "Man in the Iron Mask, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Daryl Hannah",
+          "Eugene Levy",
+          "John Candy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A successful businessman falls in love with the girl of his dreams. There's one big complication though; he's fallen hook, line and sinker for a mermaid.",
+        "release_date": "1984-03-09",
+        "release_year": "1984",
+        "title": "Splash"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Kathleen Turner",
+          "Danny DeVito",
+          "Alfonso Aráu"
+        ],
+        "country": [
+          "Mexico",
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Though she can spin wild tales of passionate romance, novelist Joan Wilder has no life of her own. Then one day adventure comes her way in the form of a mysterious package. It turns out that the parcel is the ransom she'll need to free her abducted sister, so Joan flies to South America to hand it over. But she gets on the wrong bus and winds up hopelessly stranded in the jungle...",
+        "release_date": "1984-03-30",
+        "release_year": "1984",
+        "title": "Romancing the Stone"
+      },
+      {
+        "cast": [
+          "Sean Penn",
+          "Jennifer Jason Leigh",
+          "Judge Reinhold",
+          "Phoebe Cates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Amy Heckerling",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Follows a group of high school students growing up in southern California, based on the real-life adventures chronicled by Cameron Crowe. Stacy Hamilton and Mark Ratner are looking for a love interest, and are helped along by their older classmates, Linda Barrett and Mike Damone, respectively. The center of the film is held by Jeff Spicoli, a perpetually stoned surfer dude who faces off with the resolute Mr. Hand, who is convinced that everyone is on dope.",
+        "release_date": "1982-08-13",
+        "release_year": "1982",
+        "title": "Fast Times at Ridgemont High"
+      }
+    ],
+    "raw_user_id": "5136",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 172
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6477980093305351
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed in the sample."
+      ],
+      "liked_patterns": [
+        "Strong preference for character-driven dramas and emotional narratives.",
+        "Enjoyment of comedies that blend humor with romance.",
+        "Appreciation for action films that incorporate elements of thriller and adventure."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates character-driven narratives and emotional depth, as seen in multiple high-rated dramas.); Comedy (The user enjoys humor and light-hearted storytelling, reflected in several comedies rated positively.); Action (The user favors thrilling and dynamic plots, indicated by a number of action films with favorable ratings.); Romance (The user shows an interest in romantic elements within comedies and dramas, as evidenced by ratings of romantic films.); Sci-Fi (The user is drawn to speculative and imaginative storytelling, as shown by positive ratings for sci-fi films.). Liked patterns: Strong preference for character-driven dramas and emotional narratives., Enjoyment of comedies that blend humor with romance., Appreciation for action films that incorporate elements of thriller and adventure.. Disliked patterns: No significant patterns of dislike observed in the sample..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates character-driven narratives and emotional depth, as seen in multiple high-rated dramas.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys humor and light-hearted storytelling, reflected in several comedies rated positively.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user favors thrilling and dynamic plots, indicated by a number of action films with favorable ratings.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user shows an interest in romantic elements within comedies and dramas, as evidenced by ratings of romantic films.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user is drawn to speculative and imaginative storytelling, as shown by positive ratings for sci-fi films.",
+          "taste": "Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 5136
+  }
+}

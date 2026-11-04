@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "9a77413a2e2665634b7168276df7d37412e29d4d806038086cfd8f4ca8206dbb",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2219,
+      1919,
+      38,
+      2254,
+      1268,
+      26,
+      586,
+      1369,
+      260,
+      1810
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      49,
+      135,
+      220,
+      284,
+      375,
+      498,
+      568,
+      589,
+      598,
+      699,
+      719,
+      794,
+      795,
+      1089,
+      1104,
+      1443,
+      1497,
+      1689,
+      1718,
+      1827,
+      1955,
+      2061,
+      2651,
+      2828,
+      2872
+    ],
+    "seed": 42,
+    "source_hash": "38e64afdc20466d26fb609e063d3a31475de98c694e65e5a049e17e00aa54252",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5605,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sterling Holloway",
+          "Clarence Nash",
+          "Joaquin Garay",
+          "José Oliveira"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Roberts",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "For Donald's birthday he receives a box with three gifts inside. The gifts, a movie projector, a pop-up book, and a pinata, each take Donald on wild adventures through Mexico and South America.",
+        "release_date": "1944-07-21",
+        "release_year": "1945",
+        "title": "Three Caballeros, The"
+      },
+      {
+        "cast": [
+          "James Spader",
+          "Deborah Kara Unger",
+          "Holly Hunter",
+          "Elias Koteas"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After getting into a serious car accident, a TV director discovers an underground sub-culture of scarred, omnisexual car-crash victims who use car accidents and the raw sexual energy they produce to try to rejuvenate his sex life with his wife.",
+        "release_date": "1996-07-17",
+        "release_year": "1996",
+        "title": "Crash"
+      },
+      {
+        "cast": [
+          "Ilene Woods",
+          "Eleanor Audley",
+          "Lucille Bliss",
+          "Verna Felton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Cinderella has faith her dreams of a better life will come true. With help from her loyal mice friends and a wave of her Fairy Godmother's wand, Cinderella's rags are magically turned into a glorious gown and off she goes to the Royal Ball. But when the clock strikes midnight, the spell is broken, leaving a single glass slipper... the only key to the ultimate fairy-tale ending!",
+        "release_date": "1950-03-04",
+        "release_year": "1950",
+        "title": "Cinderella"
+      },
+      {
+        "cast": [
+          "Alicia Witt",
+          "Jared Leto",
+          "Rebecca Gayheart",
+          "Michael Rosenbaum"
+        ],
+        "country": [
+          "Canada",
+          "France",
+          "United States of America"
+        ],
+        "director": "Jamie Blanks",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "There's a campus killer on the loose who's making urban legends, like the one about eating pop rocks and soda at the same time will make your stomach explode and the one about a psycho with an axe stepping into the backseat of your car at the gas station when not looking, into reality.",
+        "release_date": "1998-09-25",
+        "release_year": "1998",
+        "title": "Urban Legend"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Lorraine Gary",
+          "Murray Hamilton",
+          "Joseph Mascolo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeannot Szwarc",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Police chief Brody must protect the citizens of Amity after a second monstrous shark begins terrorizing the waters.",
+        "release_date": "1978-06-16",
+        "release_year": "1978",
+        "title": "Jaws 2"
+      },
+      {
+        "cast": [
+          "Irene Bedard",
+          "Mel Gibson",
+          "David Ogden Stiers",
+          "John Kassir"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Gabriel",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "History comes gloriously to life in Disney's epic animated tale about love and adventure in the New World. Pocahontas is a Native American woman whose father has arranged for her to marry her village's best warrior. But a vision tells her change is coming, and soon she comes face to face with it in the form of Capt. John Smith.",
+        "release_date": "1995-06-14",
+        "release_year": "1995",
+        "title": "Pocahontas"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Priscilla Lane",
+          "Raymond Massey",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Capra",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mortimer Brewster is a newspaperman and author known for his diatribes against marriage. We watch him being married at city hall in the opening scene. Now all that is required is a quick trip home to tell Mortimer's two maiden aunts. While trying to break the news, he finds out his aunts' hobby; killing lonely old men and burying them in the cellar. It gets worse.",
+        "release_date": "1944-09-23",
+        "release_year": "1944",
+        "title": "Arsenic and Old Lace"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Tommy Lee Jones",
+          "Mary-Louise Parker",
+          "Anthony LaPaglia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A street-wise kid, Mark Sway, sees the suicide of Jerome Clifford, a prominent Louisiana lawyer, whose current client is Barry 'The Blade' Muldano, a Mafia hit-man. Before Jerome shoots himself, he tells Mark where the body of a Senator is buried. Clifford shoots himself and Mark is found at the scene, and both the FBI and the Mafia quickly realize that Mark probably knows more than he says.",
+        "release_date": "1994-07-20",
+        "release_year": "1994",
+        "title": "Client, The"
+      },
+      {
+        "cast": [
+          "Stephen Baldwin",
+          "Gabriel Byrne",
+          "Chazz Palminteri",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Usual Suspects, The"
+      },
+      {
+        "cast": [
+          "Robert Englund",
+          "Tuesday Knight",
+          "Ken Sagoes",
+          "Rodney Eastman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Dream demon Freddy Krueger is resurrected from his apparent demise, and rapidly tracks down and kills the remainder of the Elm Street kids. However, Kristen, who can draw others into her dreams, wills her special ability to her friend Alice. Alice soon realizes that Freddy is taking advantage of that unknown power to pull a new group of children into his foul domain.",
+        "release_date": "1988-08-19",
+        "release_year": "1988",
+        "title": "Nightmare on Elm Street 4: The Dream Master, A"
+      }
+    ],
+    "raw_user_id": "5605",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 590
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.7375137758240606
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative reception of Horror films",
+        "Dislike for certain War films",
+        "Low ratings for specific Comedies"
+      ],
+      "liked_patterns": [
+        "Enjoyment of Drama and Romance films",
+        "Positive reception of Comedy films",
+        "Interest in Action-comedy blends"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama and Romance (The user rates several drama and romance films highly, indicating a strong preference for emotional storytelling.); Interest in Comedy (The user enjoys comedies, as evidenced by multiple high ratings in this genre.); Dislike for Horror (The user has rated horror films poorly, suggesting a lack of interest in this genre.); Preference for Action with Humor (The user shows a liking for action-comedy films, indicating enjoyment of light-hearted action.); Mixed Feelings about War Themes (The user has rated war-themed films variably, showing no strong preference either way.). Liked patterns: Enjoyment of Drama and Romance films, Positive reception of Comedy films, Interest in Action-comedy blends. Disliked patterns: Negative reception of Horror films, Dislike for certain War films, Low ratings for specific Comedies.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama and romance films highly, indicating a strong preference for emotional storytelling.",
+          "taste": "Appreciation for Drama and Romance"
+        },
+        {
+          "reason": "The user enjoys comedies, as evidenced by multiple high ratings in this genre.",
+          "taste": "Interest in Comedy"
+        },
+        {
+          "reason": "The user has rated horror films poorly, suggesting a lack of interest in this genre.",
+          "taste": "Dislike for Horror"
+        },
+        {
+          "reason": "The user shows a liking for action-comedy films, indicating enjoyment of light-hearted action.",
+          "taste": "Preference for Action with Humor"
+        },
+        {
+          "reason": "The user has rated war-themed films variably, showing no strong preference either way.",
+          "taste": "Mixed Feelings about War Themes"
+        }
+      ]
+    },
+    "user_id": 5605
+  }
+}

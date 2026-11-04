@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "0bf8d7e6fdd085092d3d2b396a031a8134fc1c199cb6924378e236e0d163a379",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1098,
+      244,
+      316,
+      388,
+      278,
+      51,
+      873,
+      446,
+      269,
+      333
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ffb8e524f2eb4b98bca3a76b815363fa"
+    ],
+    "sampled_item_ids": [
+      53,
+      95,
+      219,
+      238,
+      244,
+      309,
+      316,
+      333,
+      341,
+      388,
+      542,
+      733,
+      791,
+      873,
+      874,
+      877,
+      930,
+      932,
+      1151,
+      1158,
+      1231,
+      1886,
+      2231,
+      2318,
+      2447
+    ],
+    "seed": 42,
+    "source_hash": "bb5b226ac6e8ba9efa79f35ec8cf948f2938c761f6fc52fff15ee8c05b46625d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 582,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Caroline Goodall",
+          "John Savage",
+          "Scott Wolf"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Teenage boys discover discipline and camaraderie on an ill-fated sailing voyage.",
+        "release_date": "1996-02-02",
+        "release_year": "1996",
+        "title": "White Squall"
+      },
+      {
+        "cast": [
+          "Trey Parker",
+          "Matt Stone",
+          "Mary Kay Bergman",
+          "Isaac Hayes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Trey Parker",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the four boys see an R-rated movie featuring Canadians Terrance and Philip, they are pronounced \"corrupted\", and their parents pressure the United States to wage war against Canada.",
+        "release_date": "1999-06-30",
+        "release_year": "1999",
+        "title": "South Park: Bigger, Longer and Uncut"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Reese Witherspoon",
+          "Chris Klein",
+          "Jessica Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alexander Payne",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A high school teacher's personal life becomes complicated as he works with students during the school elections.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Election"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Angelina Jolie",
+          "Giovanni Ribisi",
+          "Delroy Lindo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dominic Sena",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Upon learning that he has to come out of retirement to steal 50 cars in one night to save his brother Kip's life, former car thief Randall \"Memphis\" Raines enlists help from a few \"boost happy\" pals to accomplish a seemingly impossible feat. From countless car chases to relentless cops, the high-octane excitement builds as Randall swerves around more than a few roadblocks to keep Kip alive.",
+        "release_date": "2000-06-09",
+        "release_year": "2000",
+        "title": "Gone in 60 Seconds"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Joan Cusack",
+          "Kelsey Grammer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
+        "release_date": "1999-10-30",
+        "release_year": "1999",
+        "title": "Toy Story 2"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Michelle Pfeiffer",
+          "Diana Scarwid",
+          "James Remar"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When Claire Spencer starts hearing ghostly voices and seeing spooky images, she wonders if an otherworldly spirit is trying to contact her. All the while, her husband tries to reassure her by telling her it's all in her head. But as Claire investigates, she discovers that the man she loves might know more than he's letting on.",
+        "release_date": "2000-07-21",
+        "release_year": "2000",
+        "title": "What Lies Beneath"
+      },
+      {
+        "cast": [
+          "John Leguizamo",
+          "Adrien Brody",
+          "Mira Sorvino",
+          "Jennifer Esposito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Lee",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spike Lee's take on the \"Son of Sam\" murders in New York City during the summer of 1977 centering on the residents of an Italian-American South Bronx neighborhood who live in fear and distrust of one another.",
+        "release_date": "1999-07-02",
+        "release_year": "1999",
+        "title": "Summer of Sam"
+      },
+      {
+        "cast": [
+          "Jordana Brewster",
+          "Elijah Wood",
+          "Clea DuVall",
+          "Laura Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Rodriguez",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When some very creepy things start happening around school, the kids at Herrington High make a chilling discovery that confirms their worst suspicions: their teachers really are from another planet! As mind-controlling parasites rapidly begin spreading from the faculty to the students' bodies, it's ultimately up to the few who are left – an unlikely collection of loners, leaders, nerds and jocks – to save the world from alien domination.",
+        "release_date": "1998-12-25",
+        "release_year": "1998",
+        "title": "Faculty, The"
+      },
+      {
+        "cast": [
+          "Mira Sorvino",
+          "Lisa Kudrow",
+          "Janeane Garofalo",
+          "Alan Cumming"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Mirkin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two not-too-bright party girls reinvent themselves for their high school reunion. Armed with a borrowed Jaguar, new clothes and the story of their success as the inventors of Post-It notes, Romy and Michele descend on their alma mater, but their façade crumbles quickly.",
+        "release_date": "1997-04-25",
+        "release_year": "1997",
+        "title": "Romy and Michele's High School Reunion"
+      }
+    ],
+    "raw_user_id": "582",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 64
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.858360681613883
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Lower ratings for action films that lack depth or strong storytelling.",
+        "Dislike for comedies that do not resonate or feel flat."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as comedy with drama or action with thriller.",
+        "Consistent enjoyment of films featuring strong character development and emotional depth."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for emotional and thought-provoking narratives.); Enjoyment of Comedy (The user consistently rates comedies positively, suggesting a fondness for humor and light-hearted storytelling.); Interest in Thrillers (The user shows a liking for thriller films, often rating them favorably, indicating a taste for suspenseful and engaging plots.); Affinity for Animation (The user rates animated films highly, reflecting an appreciation for creativity and imaginative storytelling.); Preference for Action (The user enjoys action films, as evidenced by several high ratings, indicating a taste for excitement and dynamic sequences.). Liked patterns: High ratings for films that blend genres, such as comedy with drama or action with thriller., Consistent enjoyment of films featuring strong character development and emotional depth.. Disliked patterns: Lower ratings for action films that lack depth or strong storytelling., Dislike for comedies that do not resonate or feel flat..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for emotional and thought-provoking narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user consistently rates comedies positively, suggesting a fondness for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for thriller films, often rating them favorably, indicating a taste for suspenseful and engaging plots.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user rates animated films highly, reflecting an appreciation for creativity and imaginative storytelling.",
+          "taste": "Affinity for Animation"
+        },
+        {
+          "reason": "The user enjoys action films, as evidenced by several high ratings, indicating a taste for excitement and dynamic sequences.",
+          "taste": "Preference for Action"
+        }
+      ]
+    },
+    "user_id": 582
+  }
+}

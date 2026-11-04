@@ -1,0 +1,326 @@
+{
+  "checkpoint_hash": "93f1228d233cad4ff0d640bf395003f84afbed0177fbb58738ada808a29de01e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1151,
+      808,
+      892,
+      902,
+      538,
+      238,
+      335,
+      791,
+      291,
+      58
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      39,
+      44,
+      51,
+      58,
+      232,
+      238,
+      274,
+      288,
+      291,
+      316,
+      333,
+      335,
+      353,
+      438,
+      516,
+      538,
+      767,
+      789,
+      791,
+      808,
+      902,
+      942,
+      1136,
+      1388,
+      1559
+    ],
+    "seed": 42,
+    "source_hash": "f80ff49b1e6ef0d0b756add0eae83d190bb850c134711e20482516351118283c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4263,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ron Livingston",
+          "Jennifer Aniston",
+          "David Herman",
+          "Ajay Naidu"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Judge",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Three office workers strike back at their evil employers by hatching a hapless attempt to embezzle money.",
+        "release_date": "1999-02-19",
+        "release_year": "1999",
+        "title": "Office Space"
+      },
+      {
+        "cast": [
+          "Molly Shannon",
+          "Will Ferrell",
+          "Elaine Hendrix",
+          "Harland Williams"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Bruce McCulloch",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Orphan Mary Katherine Gallagher, an ugly duckling at St. Monica High School, has a dream: to be kissed soulfully. She decides she can realize this dream if she becomes a superstar, so her prayers, her fantasies, and her conversations with her only friend focus on achieving super-stardom.",
+        "release_date": "1999-10-08",
+        "release_year": "1999",
+        "title": "Superstar"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Rene Russo",
+          "Denis Leary",
+          "Ben Gazzara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A very rich and successful playboy amuses himself by stealing artwork, but may have met his match in a seductive detective.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Thomas Crown Affair, The"
+      },
+      {
+        "cast": [
+          "Hank Azaria",
+          "Rubén Blades",
+          "Joan Cusack",
+          "John Cusack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Robbins",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A true story of politics and art in the 1930s USA, centered around a leftist musical drama and attempts to stop its production.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Cradle Will Rock, The"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Dana Carvey",
+          "Rob Lowe",
+          "Tia Carrere"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penelope Spheeris",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a sleazy TV exec offers Wayne and Garth a fat contract to tape their late-night public access show at his network, they can't believe their good fortune. But they soon discover the road from basement to big-time is a gnarly one, fraught with danger, temptation and ragin' party opportunities.",
+        "release_date": "1992-02-14",
+        "release_year": "1992",
+        "title": "Wayne's World"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Hugh Jackman",
+          "Ian McKellen",
+          "Halle Berry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers.",
+        "release_date": "2000-07-13",
+        "release_year": "2000",
+        "title": "X-Men"
+      },
+      {
+        "cast": [
+          "Jane Adams",
+          "Jon Lovitz",
+          "Philip Seymour Hoffman",
+          "Dylan Baker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Todd Solondz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The lives of many individuals connected by the desire for happiness, often from sources usually considered dark or evil.",
+        "release_date": "1998-10-16",
+        "release_year": "1998",
+        "title": "Happiness"
+      },
+      {
+        "cast": [
+          "Michael C. Williams",
+          "Heather Donahue",
+          "Joshua Leonard",
+          "Bob Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Myrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Blair Witch Project, The"
+      },
+      {
+        "cast": [
+          "Cameron Diaz",
+          "Ben Stiller",
+          "Matt Dillon",
+          "Lee Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Having never fully recovered from a prom date that became a total disaster, a man finally gets a chance to reunite with his old prom date, only to run up against other suitors including the sleazy detective he hired to find her.",
+        "release_date": "1998-07-15",
+        "release_year": "1998",
+        "title": "There's Something About Mary"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Sean Connery",
+          "Charles Martin Smith",
+          "Andy García"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Young Treasury Agent Elliot Ness arrives in Chicago and is determined to take down Al Capone, but it's not going to be easy because Capone has the police in his pocket. Ness meets Jimmy Malone, a veteran patrolman and probably the most honorable one on the force. He asks Malone to help him get Capone, but Malone warns him that if he goes after Capone, he is going to war.",
+        "release_date": "1987-06-02",
+        "release_year": "1987",
+        "title": "Untouchables, The"
+      }
+    ],
+    "raw_user_id": "4263",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 32
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8482039031525865
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films, as indicated by low ratings.",
+        "Negative reception of certain dramas, suggesting a lack of interest in that genre."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedy films with multiple high ratings.",
+        "Enjoyment of action films, particularly those that blend with other genres.",
+        "Positive reception of romantic comedies."
+      ],
+      "summary": "Unique tastes: Comedy (The user shows a strong preference for comedy, with multiple high ratings for films in this genre.); Action (The user enjoys action films, as indicated by several ratings of 3 or above.); Thriller (The user appreciates thrillers, with a mix of ratings indicating a moderate enjoyment.); Romance (The user has rated romantic comedies positively, suggesting a liking for this blend of genres.); Drama (The user has shown some interest in drama, though with mixed ratings.). Liked patterns: Strong preference for comedy films with multiple high ratings., Enjoyment of action films, particularly those that blend with other genres., Positive reception of romantic comedies.. Disliked patterns: Dislike for horror films, as indicated by low ratings., Negative reception of certain dramas, suggesting a lack of interest in that genre..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for comedy, with multiple high ratings for films in this genre.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user enjoys action films, as indicated by several ratings of 3 or above.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user appreciates thrillers, with a mix of ratings indicating a moderate enjoyment.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user has rated romantic comedies positively, suggesting a liking for this blend of genres.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user has shown some interest in drama, though with mixed ratings.",
+          "taste": "Drama"
+        }
+      ]
+    },
+    "user_id": 4263
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "4e5f5478f1ccc25d9313d5f20062c424a363a50333c79e6df1f8e6763b4e4a6f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      265,
+      16,
+      844,
+      582,
+      1271,
+      487,
+      767,
+      432,
+      322,
+      2733
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "cfa28fa0ebc34edba5d05c7c661bb78c"
+    ],
+    "sampled_item_ids": [
+      42,
+      140,
+      239,
+      383,
+      444,
+      487,
+      593,
+      599,
+      658,
+      663,
+      689,
+      691,
+      738,
+      739,
+      767,
+      771,
+      866,
+      894,
+      1177,
+      1196,
+      1219,
+      1349,
+      1361,
+      1530,
+      2315
+    ],
+    "seed": 42,
+    "source_hash": "51f1c7eebd89df2bdb0b9f78a4c57e05c6579212975e6da691414d26cdccc465",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 481,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dennis Hopper",
+          "Sandra Bullock",
+          "Joe Morton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Los Angeles SWAT cop Jack Traven is up against bomb expert Howard Payne, who's after major ransom money. First it's a rigged elevator in a very tall building. Then it's a rigged bus--if it slows, it will blow, bad enough any day, but a nightmare in LA traffic. And that's still not the end.",
+        "release_date": "1994-06-09",
+        "release_year": "1994",
+        "title": "Speed"
+      },
+      {
+        "cast": [
+          "Robert Hays",
+          "Julie Hagerty",
+          "Kareem Abdul-Jabbar",
+          "Lloyd Bridges"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Abrahams",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Alcoholic pilot, Ted Striker has developed a fear of flying due to wartime trauma, but nevertheless boards a passenger jet in an attempt to woo back his stewardess girlfriend. Food poisoning decimates the passengers and crew, leaving it up to Striker to land the plane with the help of a glue-sniffing air traffic controller and Striker's vengeful former Air Force captain, who must both talk him down.",
+        "release_date": "1980-07-02",
+        "release_year": "1980",
+        "title": "Airplane!"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sean Bean",
+          "Izabella Scorupco",
+          "Famke Janssen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "James Bond must unmask the mysterious head of the Janus Syndicate and prevent the leader from utilizing the GoldenEye weapons system to inflict devastating revenge on Britain.",
+        "release_date": "1995-11-16",
+        "release_year": "1995",
+        "title": "GoldenEye"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Kyra Sedgwick",
+          "Forest Whitaker",
+          "Robert Duvall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "An ordinary man sees a bright light descend from the sky, and discovers he now has super-intelligence and telekinesis.",
+        "release_date": "1996-07-05",
+        "release_year": "1996",
+        "title": "Phenomenon"
+      },
+      {
+        "cast": [
+          "Harry Dean Stanton",
+          "Emilio Estevez",
+          "Tracey Walter",
+          "Olivia Barash"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alex Cox",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A down and out young punk gets a job working with a seasoned repo man, but what awaits him in his new career is a series of outlandish adventures revolving around aliens, the CIA, and a most wanted '64 Chevy.",
+        "release_date": "1984-02-20",
+        "release_year": "1984",
+        "title": "Repo Man"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Cybill Shepherd",
+          "Harvey Keitel",
+          "Jodie Foster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+        "release_date": "1976-02-07",
+        "release_year": "1976",
+        "title": "Taxi Driver"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Linda Blair",
+          "Max von Sydow",
+          "Ellen Burstyn",
+          "Jason Miller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Friedkin",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "12-year-old Regan MacNeil begins to adapt an explicit new personality as strange events befall the local area of Georgetown. Her mother becomes torn between science and superstition in a desperate bid to save her daughter, and ultimately turns to her last hope: Father Damien Karras, a troubled priest who is struggling with his own faith.",
+        "release_date": "1973-12-26",
+        "release_year": "1973",
+        "title": "Exorcist, The"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Doris Day",
+          "Rod Taylor",
+          "Arthur Godfrey",
+          "John McGiver"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Tashlin",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Bruce (Rod Taylor), the owner of a aerospace company, is infatuated with Jennifer (Doris Day) and hires her to be his biographer so that he can be near her and win her affections. Is she actually a Russian spy trying to obtain aerospace secrets?",
+        "release_date": "1966-06-09",
+        "release_year": "1966",
+        "title": "Glass Bottom Boat, The"
+      }
+    ],
+    "raw_user_id": "481",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 160
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.2704499604518666
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily focused on drama without comedic elements.",
+        "Low ratings for comedies that do not resonate or entertain effectively."
+      ],
+      "liked_patterns": [
+        "Strong preference for films that blend comedy with romance or drama.",
+        "High ratings for films featuring complex characters and emotional depth.",
+        "Enjoyment of films that incorporate elements of crime and thriller."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (A significant number of comedies are rated positively, suggesting a fondness for humor and lighthearted storytelling.); Interest in Romance (Romantic elements are present in many liked films, showing a tendency towards stories that explore relationships.); Affinity for Crime Thrillers (The user enjoys crime and thriller genres, as evidenced by high ratings for films that combine these elements with drama.); Nostalgia for Classic Films (The user rates older films highly, indicating a preference for storytelling styles and themes from earlier cinema.). Liked patterns: Strong preference for films that blend comedy with romance or drama., High ratings for films featuring complex characters and emotional depth., Enjoyment of films that incorporate elements of crime and thriller.. Disliked patterns: Dislike for films that are primarily focused on drama without comedic elements., Low ratings for comedies that do not resonate or entertain effectively..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "A significant number of comedies are rated positively, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "Romantic elements are present in many liked films, showing a tendency towards stories that explore relationships.",
+          "taste": "Interest in Romance"
+        },
+        {
+          "reason": "The user enjoys crime and thriller genres, as evidenced by high ratings for films that combine these elements with drama.",
+          "taste": "Affinity for Crime Thrillers"
+        },
+        {
+          "reason": "The user rates older films highly, indicating a preference for storytelling styles and themes from earlier cinema.",
+          "taste": "Nostalgia for Classic Films"
+        }
+      ]
+    },
+    "user_id": 481
+  }
+}

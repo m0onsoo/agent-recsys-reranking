@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "1097eeed3fb818107522b9a043cf9664f7ddd74012001a4b70eabdfd714aadff",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      383,
+      1614,
+      284,
+      1550,
+      413,
+      1870,
+      1025,
+      1261,
+      691,
+      83
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "929a26ee01d646edbd528102539a8cfa"
+    ],
+    "sampled_item_ids": [
+      3,
+      83,
+      208,
+      284,
+      383,
+      387,
+      397,
+      415,
+      418,
+      429,
+      438,
+      488,
+      640,
+      649,
+      691,
+      727,
+      730,
+      781,
+      1025,
+      1257,
+      1261,
+      1339,
+      1550,
+      1614,
+      1874
+    ],
+    "seed": 42,
+    "source_hash": "4e39a680e6709b7a20af5d2ef89b29cdbf4179f4ee4faed5d861c32fde6e08c1",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2660,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Hugh Grant",
+          "Andie MacDowell",
+          "James Fleet",
+          "Simon Callow"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Four Weddings And A Funeral is a British comedy about a British Man named Charles and an American Woman named Carrie who go through numerous weddings before they determine if they are right for one another.",
+        "release_date": "1994-03-09",
+        "release_year": "1994",
+        "title": "Four Weddings and a Funeral"
+      },
+      {
+        "cast": [
+          "David Duchovny",
+          "Minnie Driver",
+          "Carroll O'Connor",
+          "Robert Loggia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bonnie Hunt",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "It took a lot of cajoling to get Bob (Duchovny), a recently widowed architect, to go on a blind date at a quirky Irish-Italian eatery. Once there, he's smitten instantly not with his date but with the sharp-witted waitress, Grace (Driver). Everything seems to be going great until an unbelievable truth is revealed, one that could easily break both of their hearts for good.",
+        "release_date": "2000-04-07",
+        "release_year": "2000",
+        "title": "Return to Me"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "Ernest Borgnine",
+          "Betsy Blair",
+          "Esther Minciotti",
+          "Augusta Ciolli"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Delbert Mann",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Marty, a butcher who lives in the Bronx with his mother is unmarried at 34. Good-natured but socially awkward he faces constant badgering from family and friends to get married but has reluctantly resigned himself to bachelorhood. Marty meets Clara, an unattractive school teacher, realising their emotional connection, he promises to call but family and friends try to convince him not to.",
+        "release_date": "1955-04-11",
+        "release_year": "1955",
+        "title": "Marty"
+      },
+      {
+        "cast": [
+          "Gwyneth Paltrow",
+          "Toni Collette",
+          "Alan Cumming",
+          "Ewan McGregor"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Douglas McGrath",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Emma Woodhouse is a congenial young lady who delights in meddling in other people’s affairs. She is perpetually trying to unite men and women who are utterly wrong for each other. Despite her interest in romance, Emma is clueless about her own feelings, and her relationship with gentle Mr. Knightly.",
+        "release_date": "1996-08-02",
+        "release_year": "1996",
+        "title": "Emma"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "Debra Winger",
+          "John Wood",
+          "Julian Fellowes"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Richard Attenborough",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "C.S. Lewis, a world-renowned writer and professor, leads a passionless life until he meets spirited poet Joy Gresham",
+        "release_date": "1993-12-25",
+        "release_year": "1993",
+        "title": "Shadowlands"
+      },
+      {
+        "cast": [
+          "Chris O'Donnell",
+          "Minnie Driver",
+          "Geraldine O'Rawe",
+          "Saffron Burrows"
+        ],
+        "country": [
+          "Ireland",
+          "United Kingdom"
+        ],
+        "director": "Pat O'Connor",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "'Circle Of Friends' is set in 1950's Ireland. The movie focuses on Benny Hogan and her best friend, Eve Malone. The story centers around Benny and Eve as they enter student life at University College, Dublin. Here Benny and Eve reunite with their childhood friend, the ice-cool Nan Mahon, the 'college belle'. They also encounter the handsome and charming Jack Foley, whom Benny quickly falls for.",
+        "release_date": "1995-03-16",
+        "release_year": "1995",
+        "title": "Circle of Friends"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Audrey Hepburn",
+          "Walter Matthau",
+          "James Coburn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Donen",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After Regina Lampert falls for the dashing Peter Joshua on a skiing holiday in the French Alps, she discovers upon her return to Paris that her husband has been murdered. Soon, she and Peter are giving chase to three of her late husband's World War II cronies, Tex, Scobie and Gideon, who are after a quarter of a million dollars the quartet stole while behind enemy lines. But why does Peter keep changing his name?",
+        "release_date": "1963-12-05",
+        "release_year": "1963",
+        "title": "Charade"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Meg Ryan",
+          "Katie Sagona",
+          "Greg Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nora Ephron",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Book superstore magnate, Joe Fox and independent book shop owner, Kathleen Kelly fall in love in the anonymity of the Internet – both blissfully unaware that he's putting her out of business.",
+        "release_date": "1998-12-17",
+        "release_year": "1998",
+        "title": "You've Got Mail"
+      },
+      {
+        "cast": [
+          "Audrey Hepburn",
+          "George Peppard",
+          "Patricia Neal",
+          "Buddy Ebsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Blake Edwards",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Fortune hunter Holly Golightly finds herself captivated by aspiring writer Paul Varjak, who's moved into her building on a wealthy woman's dime. As romance blooms between Paul and Holly, Doc Golightly shows up on the scene, revealing Holly's past.",
+        "release_date": "1961-10-05",
+        "release_year": "1961",
+        "title": "Breakfast at Tiffany's"
+      }
+    ],
+    "raw_user_id": "2660",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 39
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.839553157062391
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror elements in comedies.",
+        "Negative response to films with a focus on action over romance."
+      ],
+      "liked_patterns": [
+        "Strong preference for romantic themes across various genres.",
+        "Enjoyment of films that combine comedy with romance.",
+        "Appreciation for musicals and their storytelling."
+      ],
+      "summary": "Unique tastes: Romantic Comedies (The user enjoys light-hearted narratives that blend romance with humor.); Musicals (The user appreciates films that incorporate musical elements and storytelling.); Dramatic Romance (The user is drawn to films that explore deep emotional connections and relationships.); Classic Romance (The user favors timeless romantic stories that have become iconic.); Feel-Good Films (The user enjoys movies that evoke positive emotions and uplifting themes.). Liked patterns: Strong preference for romantic themes across various genres., Enjoyment of films that combine comedy with romance., Appreciation for musicals and their storytelling.. Disliked patterns: Dislike for horror elements in comedies., Negative response to films with a focus on action over romance..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted narratives that blend romance with humor.",
+          "taste": "Romantic Comedies"
+        },
+        {
+          "reason": "The user appreciates films that incorporate musical elements and storytelling.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "The user is drawn to films that explore deep emotional connections and relationships.",
+          "taste": "Dramatic Romance"
+        },
+        {
+          "reason": "The user favors timeless romantic stories that have become iconic.",
+          "taste": "Classic Romance"
+        },
+        {
+          "reason": "The user enjoys movies that evoke positive emotions and uplifting themes.",
+          "taste": "Feel-Good Films"
+        }
+      ]
+    },
+    "user_id": 2660
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "da0ee1dfa6aa4608ca137a92b529a1c7a6b4122832289dbe930ba740cd4a7948",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      652,
+      1552,
+      86,
+      129,
+      190,
+      2236,
+      1166,
+      739,
+      306,
+      531
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      23,
+      24,
+      86,
+      93,
+      125,
+      135,
+      194,
+      222,
+      232,
+      350,
+      401,
+      407,
+      445,
+      453,
+      538,
+      568,
+      577,
+      640,
+      732,
+      873,
+      881,
+      1190,
+      1552,
+      1681,
+      2034
+    ],
+    "seed": 42,
+    "source_hash": "61447b802d868c0f62d9c2f459bcfa3bb12ba6e462c44667af0146e4ff16a07e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5081,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Vladimir Kulich",
+          "Dennis Storhøi",
+          "Daniel Southern"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In AD 922, Arab courtier, Ahmad Ibn Fadlan accompanies a party of Vikings to the barbaric North to combat a terror that slaughters Vikings and devours their flesh.",
+        "release_date": "1999-08-27",
+        "release_year": "1999",
+        "title": "13th Warrior, The"
+      },
+      {
+        "cast": [
+          "Sally Field",
+          "Lindsay Crouse",
+          "John Malkovich",
+          "Danny Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Benton",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In 1930s Southern US, a widow and her family try to run their cotton farm with the help of a disparate group of friends.",
+        "release_date": "1984-09-11",
+        "release_year": "1984",
+        "title": "Places in the Heart"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Michael Clarke Duncan",
+          "David Morse",
+          "Bonnie Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cellblock's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Green Mile, The"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Diane Keaton",
+          "Lisa Kudrow",
+          "Walter Matthau"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Diane Keaton",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A trio of sisters bond over their ambivalence toward the approaching death of their curmudgeonly father, to whom none of them was particularly close.",
+        "release_date": "2000-02-16",
+        "release_year": "2000",
+        "title": "Hanging Up"
+      },
+      {
+        "cast": [
+          "Shelley Long",
+          "Gary Cole",
+          "Christine Taylor",
+          "Christopher Daniel Barnes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The original 70's TV family is now placed in the 1990's, where they're even more square and out of place than ever.",
+        "release_date": "1995-02-16",
+        "release_year": "1995",
+        "title": "Brady Bunch Movie, The"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Mary Steenburgen",
+          "Thomas F. Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "The final installment of the Back to the Future trilogy finds Marty digging the trusty DeLorean out of a mineshaft and looking up Doc in the Wild West of 1885. But when their time machine breaks down, the travelers are stranded in a land of spurs. More problems arise when Doc falls for pretty schoolteacher Clara Clayton, and Marty tangles with Buford Tannen.",
+        "release_date": "1990-05-25",
+        "release_year": "1990",
+        "title": "Back to the Future Part III"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Vicellous Reon Shannon",
+          "Deborah Kara Unger",
+          "Liev Schreiber"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Jewison",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of Rubin \"Hurricane\" Carter, a boxer wrongly imprisoned for murder, and the people who aided in his fight to prove his innocence.",
+        "release_date": "1999-09-17",
+        "release_year": "1999",
+        "title": "Hurricane, The"
+      }
+    ],
+    "raw_user_id": "5081",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 81
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7874086132666861
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for thrillers that may lack character depth or emotional engagement."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as comedy with romance or drama with action.",
+        "Consistent appreciation for films that feature strong character development and emotional depth.",
+        "Positive ratings for films that include elements of adventure and excitement."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user consistently rates dramas highly, indicating a strong preference for emotional and thought-provoking narratives.); Enjoyment of Comedy (A significant number of comedies are rated positively, suggesting a fondness for humor and lighthearted storytelling.); Interest in Action and Adventure (The user rates action and adventure films well, reflecting a taste for excitement and dynamic plots.); Fondness for Romance (Romantic films receive high ratings, indicating a preference for love stories and relationship dynamics.); Engagement with Historical Themes (Films with historical or war themes are rated positively, showing an interest in narratives that explore significant events.). Liked patterns: High ratings for films that blend genres, such as comedy with romance or drama with action., Consistent appreciation for films that feature strong character development and emotional depth., Positive ratings for films that include elements of adventure and excitement.. Disliked patterns: Low ratings for thrillers that may lack character depth or emotional engagement..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates dramas highly, indicating a strong preference for emotional and thought-provoking narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "A significant number of comedies are rated positively, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user rates action and adventure films well, reflecting a taste for excitement and dynamic plots.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "Romantic films receive high ratings, indicating a preference for love stories and relationship dynamics.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "Films with historical or war themes are rated positively, showing an interest in narratives that explore significant events.",
+          "taste": "Engagement with Historical Themes"
+        }
+      ]
+    },
+    "user_id": 5081
+  }
+}

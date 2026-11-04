@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "dc97c6905332832796244f6f1473fdef437cd134491736a199dc2fd968daafe2",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      188,
+      152,
+      128,
+      114,
+      1042,
+      133,
+      85,
+      211,
+      665,
+      61
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "c845f03eb20f461a8d4a89746d2e5c87"
+    ],
+    "sampled_item_ids": [
+      61,
+      69,
+      79,
+      93,
+      98,
+      111,
+      124,
+      133,
+      188,
+      189,
+      190,
+      211,
+      278,
+      386,
+      588,
+      623,
+      643,
+      665,
+      670,
+      768,
+      784,
+      1001,
+      1017,
+      1042,
+      1735
+    ],
+    "seed": 42,
+    "source_hash": "39714bddb3f10a89914573a3368f25b2aba4a6660db575eba19be14b14e08f9f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 803,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Dennis Quaid",
+          "David Thewlis",
+          "Pete Postlethwaite",
+          "Dina Meyer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Cohen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "In an ancient time when majestic fire-breathers soared through the skies, a knight named Bowen comes face to face and heart to heart with the last dragon on Earth, Draco. Taking up arms to suppress a tyrant king, Bowen soon realizes his task will be harder than he'd imagined: If he kills the king, Draco will die as well.",
+        "release_date": "1996-05-31",
+        "release_year": "1996",
+        "title": "Dragonheart"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Christopher Lambert",
+          "Roxanne Hart",
+          "Clancy Brown",
+          "Sean Connery"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Russell Mulcahy",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "He fought his first battle on the Scottish Highlands in 1536. He will fight his greatest battle on the streets of New York City in 1986. His name is Connor MacLeod. He is immortal.",
+        "release_date": "1986-03-07",
+        "release_year": "1986",
+        "title": "Highlander"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Wil Wheaton",
+          "River Phoenix",
+          "Corey Feldman",
+          "Jerry O'Connell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After the death of a friend, a writer recounts a boyhood journey to find the body of a missing boy.",
+        "release_date": "1986-08-22",
+        "release_year": "1986",
+        "title": "Stand by Me"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Alan Rickman",
+          "Alexander Godunov",
+          "Bonnie Bedelia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "NYPD cop, John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Die Hard"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Bruce Spence",
+          "Michael Preston",
+          "Max Phipps"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape.",
+        "release_date": "1981-12-24",
+        "release_year": "1981",
+        "title": "Mad Max 2 (a.k.a. The Road Warrior)"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      }
+    ],
+    "raw_user_id": "803",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 42
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5153753580492948
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films, as indicated by low ratings.",
+        "Negative response to films that lack strong action or adventure components."
+      ],
+      "liked_patterns": [
+        "High ratings for action films that blend with drama and adventure.",
+        "Consistent enjoyment of films featuring strong fantasy elements alongside action.",
+        "Preference for thrillers that incorporate sci-fi elements."
+      ],
+      "summary": "Unique tastes: Action and Adventure (A strong preference for action and adventure genres is evident, with multiple high ratings for films that combine these elements.); Dramatic Themes (The user enjoys films that incorporate dramatic themes, as seen in several highly rated action dramas.); Fantasy Elements (There is an appreciation for fantasy elements, particularly in action and adventure contexts, reflected in the ratings.); Thriller Aspects (The user shows a liking for thrillers, especially those that blend with action and sci-fi genres.); Comedy in Action (The user enjoys action films that incorporate comedic elements, as indicated by the ratings for such films.). Liked patterns: High ratings for action films that blend with drama and adventure., Consistent enjoyment of films featuring strong fantasy elements alongside action., Preference for thrillers that incorporate sci-fi elements.. Disliked patterns: Dislike for horror films, as indicated by low ratings., Negative response to films that lack strong action or adventure components..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for action and adventure genres is evident, with multiple high ratings for films that combine these elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user enjoys films that incorporate dramatic themes, as seen in several highly rated action dramas.",
+          "taste": "Dramatic Themes"
+        },
+        {
+          "reason": "There is an appreciation for fantasy elements, particularly in action and adventure contexts, reflected in the ratings.",
+          "taste": "Fantasy Elements"
+        },
+        {
+          "reason": "The user shows a liking for thrillers, especially those that blend with action and sci-fi genres.",
+          "taste": "Thriller Aspects"
+        },
+        {
+          "reason": "The user enjoys action films that incorporate comedic elements, as indicated by the ratings for such films.",
+          "taste": "Comedy in Action"
+        }
+      ]
+    },
+    "user_id": 803
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "7f7083cef95835c4f95936b78be20f032d39e9f5295e05ff5cf9026cf0d88889",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1840,
+      1541,
+      755,
+      318,
+      1163,
+      854,
+      2647,
+      734,
+      698,
+      1260
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      69,
+      214,
+      306,
+      375,
+      432,
+      520,
+      570,
+      733,
+      734,
+      741,
+      808,
+      1006,
+      1084,
+      1150,
+      1158,
+      1163,
+      1264,
+      1812,
+      1853,
+      1944,
+      2182,
+      2232,
+      2265,
+      2374,
+      3138
+    ],
+    "seed": 42,
+    "source_hash": "a7f8e641f129ed7f1bd50d28a7a98828087ed936f3d350ef971a813a68af8901",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5151,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "unemployed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Treat Williams",
+          "Famke Janssen",
+          "Anthony Heald",
+          "Kevin J. O'Connor"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Stephen Sommers",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A group of heavily armed hijackers board a luxury ocean liner in the South Pacific Ocean to loot it, only to do battle with a series of large-sized, tentacled, man-eating sea creatures who have taken over the ship first.",
+        "release_date": "1998-01-30",
+        "release_year": "1998",
+        "title": "Deep Rising"
+      },
+      {
+        "cast": [
+          "Max Schreck",
+          "Gustav von Wangenheim",
+          "Greta Schröder",
+          "Alexander Granach"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "F.W. Murnau",
+        "genres": [
+          "Horror"
+        ],
+        "language": "German",
+        "overview": "Vampire Count Orlok is interested in a new residence and in real estate agent Hutter's young wife. Silent horror classic based on the Bram Stoker novel \"Dracula\".",
+        "release_date": "1922-03-15",
+        "release_year": "1922",
+        "title": "Nosferatu (Nosferatu, eine Symphonie des Grauens)"
+      },
+      {
+        "cast": [
+          "Kyle MacLachlan",
+          "Francesca Annis",
+          "Leonardo Cimino",
+          "Brad Dourif"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 10,191, the world is at war for control of the desert planet Dune – the only place where the time-travel substance 'Spice' can be found. But when one leader gives up control, it's only so he can stage a coup with some unsavory characters.",
+        "release_date": "1984-12-14",
+        "release_year": "1984",
+        "title": "Dune"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Patrick Dempsey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A murdering spree begins to happen again, this time its targeted toward the original Woodsboro survivors and those associated with the movie inside a movie, 'Stab 3'. Sydney must face the demons of her past to stop the killer.",
+        "release_date": "2000-02-03",
+        "release_year": "2000",
+        "title": "Scream 3"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Bill Pullman",
+          "Drew Barrymore",
+          "John Leguizamo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Goldman",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A young man finds out that he holds the key to restoring hope and ensuring survival for the human race, while an alien species called the Dredge are bent on mankind's destruction.",
+        "release_date": "2000-06-16",
+        "release_year": "2000",
+        "title": "Titan A.E."
+      },
+      {
+        "cast": [
+          "Timothy Hutton",
+          "Amy Madigan",
+          "Michael Rooker",
+          "Julie Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George A. Romero",
+        "genres": [
+          "Horror",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Thad Beaumont is the author of a highly successful series of violent pulp thrillers written under the pseudonym of ‘George Stark’, but when he decides to ‘kill-off’ his alter-ego in a mock ceremony, it precipitates a string of sadistic murders matching those in his pulp novels, which are soon discovered to be the work of Stark himself. Looking like a maniacal version of his counterpart, Stark is not so willing to quit the writing game – even if it means coming after Thad's wife and their baby.",
+        "release_date": "1993-04-23",
+        "release_year": "1993",
+        "title": "Dark Half, The"
+      },
+      {
+        "cast": [
+          "Tim Allen",
+          "Sigourney Weaver",
+          "Alan Rickman",
+          "Tony Shalhoub"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dean Parisot",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.",
+        "release_date": "1999-12-23",
+        "release_year": "1999",
+        "title": "Galaxy Quest"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Barry Pepper",
+          "Forest Whitaker",
+          "Kim Coates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Christian",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 3000, man is no match for the Psychlos, a greedy, manipulative race of aliens on a quest for ultimate profit. Led by the powerful Terl, the Psychlos are stripping Earth clean of its natural resources, using the broken remnants of humanity as slaves. What is left of the human race has descended into a near primitive state. After being captured, it is up to Tyler to save mankind.",
+        "release_date": "2000-05-10",
+        "release_year": "2000",
+        "title": "Battlefield Earth"
+      },
+      {
+        "cast": [
+          "Natasha Henstridge",
+          "Ben Kingsley",
+          "Michael Madsen",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Donaldson",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In 1993, the Search for Extra Terrestrial Intelligence Project receives a transmission detailing an alien DNA structure, along with instructions on how to splice it with human DNA. The result is Sil, a sensual but deadly creature who can change from a beautiful woman to an armour-plated killing machine in the blink of an eye.",
+        "release_date": "1995-07-07",
+        "release_year": "1995",
+        "title": "Species"
+      }
+    ],
+    "raw_user_id": "5151",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 129
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.5009179263463968
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that lack depth or psychological elements",
+        "Dislike for children's films that do not resonate with the user",
+        "Dislike for films that are overly simplistic or lack engaging narratives"
+      ],
+      "liked_patterns": [
+        "Enjoyment of action and adventure genres",
+        "Preference for horror films with psychological themes",
+        "Appreciation for comedies that also explore dramatic elements"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Horror with Psychological Elements (The user appreciates horror films that incorporate psychological themes and suspenseful storytelling.); Comedy with Dramatic Undertones (The user favors comedies that blend humor with deeper emotional or dramatic narratives.); Children's and Family-Friendly Content (The user shows interest in animated and family-oriented films that appeal to a younger audience.); Thrillers with Mystery (The user is drawn to thrillers that include elements of mystery and intrigue.). Liked patterns: Enjoyment of action and adventure genres, Preference for horror films with psychological themes, Appreciation for comedies that also explore dramatic elements. Disliked patterns: Dislike for horror films that lack depth or psychological elements, Dislike for children's films that do not resonate with the user, Dislike for films that are overly simplistic or lack engaging narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates horror films that incorporate psychological themes and suspenseful storytelling.",
+          "taste": "Horror with Psychological Elements"
+        },
+        {
+          "reason": "The user favors comedies that blend humor with deeper emotional or dramatic narratives.",
+          "taste": "Comedy with Dramatic Undertones"
+        },
+        {
+          "reason": "The user shows interest in animated and family-oriented films that appeal to a younger audience.",
+          "taste": "Children's and Family-Friendly Content"
+        },
+        {
+          "reason": "The user is drawn to thrillers that include elements of mystery and intrigue.",
+          "taste": "Thrillers with Mystery"
+        }
+      ]
+    },
+    "user_id": 5151
+  }
+}

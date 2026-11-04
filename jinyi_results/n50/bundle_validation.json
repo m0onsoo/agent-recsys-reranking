@@ -1,0 +1,15 @@
+{
+  "bundle": "/Users/jinyiy/Desktop/RecsysSim/agent-recsys-reranking/data/derived/ml1m_ro_n1000_seed42",
+  "bundle_id": "d50a678b62a6539147c0a0314ab3fb044a97177c9033fda2e1dbd604e7345ed5",
+  "candidate_size": 20,
+  "has_social_traits": true,
+  "models": [
+    "MF",
+    "LightGCN",
+    "MultiVAE"
+  ],
+  "num_model_user_cases": 3000,
+  "num_users": 1000,
+  "schema_version": 2,
+  "status": "valid"
+}

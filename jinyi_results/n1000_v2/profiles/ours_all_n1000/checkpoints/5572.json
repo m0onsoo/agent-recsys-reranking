@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "4538cbdb727c1eb5390915453977d6729d6bb78e7a9c426b35f1ad5e66ff6ef3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      243,
+      185,
+      125,
+      200,
+      453,
+      8,
+      1069,
+      2476,
+      1274,
+      771
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      1,
+      8,
+      49,
+      65,
+      68,
+      81,
+      105,
+      111,
+      125,
+      135,
+      200,
+      214,
+      243,
+      317,
+      322,
+      337,
+      344,
+      453,
+      588,
+      724,
+      771,
+      909,
+      912,
+      1072,
+      2001
+    ],
+    "seed": 42,
+    "source_hash": "db12ee3849d833c4a8a8d7c22435a9fc3e070d3905e90374094d1ce9d0d413b5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5572,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Brad Pitt",
+          "Morgan Freeman",
+          "Gwyneth Paltrow",
+          "John C. McGinley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+        "release_date": "1995-09-22",
+        "release_year": "1995",
+        "title": "Seven (Se7en)"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Katharine Ross",
+          "Strother Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot 'Sundance Kid'. As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "release_year": "1969",
+        "title": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Chow Yun-fat",
+          "Bai Ling",
+          "Tom Felton"
+        ],
+        "country": [
+          "Malaysia",
+          "United States of America"
+        ],
+        "director": "Andy Tennant",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The story of the romance between the King of Siam (now Thailand) and the widowed British school teacher Anna Leonowens during the 1860's. Anna teaches the children and becomes romanced by the King. She convinces him that a man can be loved by just one woman.",
+        "release_date": "1999-12-16",
+        "release_year": "1999",
+        "title": "Anna and the King"
+      },
+      {
+        "cast": [
+          "Melinda Dillon",
+          "Darren McGavin",
+          "Peter Billingsley",
+          "Jean Shepherd"
+        ],
+        "country": [
+          "United States of America",
+          "Canada"
+        ],
+        "director": "Bob Clark",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The comic mishaps and adventures of a young boy named Ralph, trying to convince his parents, teachers, and Santa that a Red Ryder B.B. gun really is the perfect Christmas gift for the 1940s.",
+        "release_date": "1983-11-18",
+        "release_year": "1983",
+        "title": "Christmas Story, A"
+      },
+      {
+        "cast": [
+          "George Lazenby",
+          "Diana Rigg",
+          "Telly Savalas",
+          "Gabriele Ferzetti"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Peter R. Hunt",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "James Bond tracks archnemesis Ernst Blofeld to a mountaintop retreat where he's training an army of beautiful but lethal women. Along the way, Bond falls for Italian contessa Tracy Draco -- and marries her in order to get closer to Blofeld. Meanwhile, he locates Blofeld in the Alps and embarks on a classic ski chase.",
+        "release_date": "1969-12-12",
+        "release_year": "1969",
+        "title": "On Her Majesty's Secret Service"
+      },
+      {
+        "cast": [
+          "Irène Jacob",
+          "Jean-Louis Trintignant",
+          "Jean-Pierre Lorit",
+          "Frédérique Feder"
+        ],
+        "country": [
+          "France",
+          "Poland",
+          "Switzerland"
+        ],
+        "director": "Krzysztof Kieślowski",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "Red This is the third film from the trilogy by Kieślowski. “Red” meaning brotherliness. Here Kieślowski masterly tells strange coincidentally linked stories in the most packed work.",
+        "release_date": "1994-05-27",
+        "release_year": "1994",
+        "title": "Three Colors: Red"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Sean Penn",
+          "Penelope Ann Miller",
+          "John Leguizamo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Puerto-Rican ex-con, just released from prison, pledges to stay away from drugs and violence despite the pressure around him and lead on to a better life outside of NYC.",
+        "release_date": "1993-11-10",
+        "release_year": "1993",
+        "title": "Carlito's Way"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Robert Shaw",
+          "Charles Durning"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Set in the 1930's this intricate caper deals with an ambitious small-time crook and a veteran con man who seek revenge on a vicious crime lord who murdered one of their gang.",
+        "release_date": "1973-12-25",
+        "release_year": "1973",
+        "title": "Sting, The"
+      }
+    ],
+    "raw_user_id": "5572",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 56
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.882690683987395
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "A tendency to dislike films that are primarily war-themed or overly violent.",
+        "Dislike for films that do not balance humor with other engaging elements."
+      ],
+      "liked_patterns": [
+        "A strong preference for films that blend drama with other genres, such as crime and action.",
+        "An appreciation for films that feature complex characters and moral dilemmas.",
+        "Enjoyment of films that incorporate humor alongside serious themes."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates complex narratives and character development often found in dramatic films.); Comedy (The user enjoys humor and light-hearted storytelling, as evidenced by their ratings of comedic films.); Crime (The user is drawn to crime-related themes, indicating an interest in moral ambiguity and tension.); Action (The user favors action-packed films, suggesting a preference for excitement and dynamic storytelling.); Thriller (The user enjoys suspenseful narratives that keep them engaged and on the edge of their seat.). Liked patterns: A strong preference for films that blend drama with other genres, such as crime and action., An appreciation for films that feature complex characters and moral dilemmas., Enjoyment of films that incorporate humor alongside serious themes.. Disliked patterns: A tendency to dislike films that are primarily war-themed or overly violent., Dislike for films that do not balance humor with other engaging elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates complex narratives and character development often found in dramatic films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys humor and light-hearted storytelling, as evidenced by their ratings of comedic films.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to crime-related themes, indicating an interest in moral ambiguity and tension.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "The user favors action-packed films, suggesting a preference for excitement and dynamic storytelling.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user enjoys suspenseful narratives that keep them engaged and on the edge of their seat.",
+          "taste": "Thriller"
+        }
+      ]
+    },
+    "user_id": 5572
+  }
+}

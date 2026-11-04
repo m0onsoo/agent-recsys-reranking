@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "c6cfb4458eea10b49ee97f01fab870456c6015797dcc11d10c16b30d7029d5ba",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2441,
+      1147,
+      904,
+      129,
+      490,
+      2012,
+      1688,
+      2883,
+      39,
+      121
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      39,
+      49,
+      94,
+      114,
+      121,
+      129,
+      133,
+      152,
+      196,
+      265,
+      433,
+      490,
+      754,
+      826,
+      904,
+      912,
+      920,
+      1125,
+      1147,
+      1173,
+      1688,
+      2012,
+      2441,
+      2883
+    ],
+    "seed": 42,
+    "source_hash": "b3e914c71406ee6b3835551f0a392231e895f3862cb016a1ceb803add5115bab",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5297,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Isaiah Washington",
+          "Lisa Gay Hamilton",
+          "James Woods"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Boozer, skirt chaser, careless father. You could create your own list of reporter Steve Everett's faults but there's no time. A San Quentin Death Row prisoner is slated to die at midnight – a man Everett has suddenly realized is innocent.",
+        "release_date": "1999-03-19",
+        "release_year": "1999",
+        "title": "True Crime"
+      },
+      {
+        "cast": [
+          "Martin Lawrence",
+          "Luke Wilson",
+          "Dave Chappelle",
+          "Peter Greene"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Les Mayfield",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Miles Logan is a jewel thief who just hit the big time by stealing a huge diamond. However, after two years in jail, he comes to find out that he hid the diamond in a police building that was being built at the time of the robbery. In an attempt to regain his diamond, he poses as a LAPD detective",
+        "release_date": "1999-09-17",
+        "release_year": "1999",
+        "title": "Blue Streak"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Chris Tucker",
+          "Ken Leung",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brett Ratner",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When Hong Kong Inspector Lee is summoned to Los Angeles to investigate a kidnapping, the FBI doesn't want any outside help and assigns cocky LAPD Detective James Carter to distract Lee from the case. Not content to watch the action from the sidelines, Lee and Carter form an unlikely partnership and investigate the case themselves.",
+        "release_date": "1998-09-18",
+        "release_year": "1998",
+        "title": "Rush Hour"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Diane Keaton",
+          "Andy García",
+          "Talia Shire"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
+        "release_date": "1990-12-24",
+        "release_year": "1990",
+        "title": "Godfather: Part III, The"
+      },
+      {
+        "cast": [
+          "Alicia Silverstone",
+          "Kevin Dillon",
+          "Bill Nunn",
+          "Tara Subkoff"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Pat Verducci",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mary Giordano is a bright, intelligent student who goes to a catholic school. She also has a addiction to mystery novels and detective magazines (hence the title of the movie), which inspire her to do her own detective work. When she starts snooping around on the case of a murderer of teenage girls, it gets her in hot water with her mentor Detective Jerry Gunn. But it also starts a team up with police cadet Tony Campbell. The two work together to find the murderer. But the closer Mary gets to solving the murder, the more danger she puts herself in of being the next victim.",
+        "release_date": "1996-03-12",
+        "release_year": "1995",
+        "title": "True Crime"
+      },
+      {
+        "cast": [
+          "Morgan Freeman",
+          "Ashley Judd",
+          "Cary Elwes",
+          "Alex McArthur"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Fleder",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Forensic psychologist Alex Cross travels to North Carolina and teams with escaped kidnap victim Kate McTiernan to hunt down \"Casanova,\" a serial killer who abducts strong-willed women and forces them to submit to his demands. The trail leads to Los Angeles, where the duo discovers that the psychopath may not be working alone.",
+        "release_date": "1997-10-03",
+        "release_year": "1997",
+        "title": "Kiss the Girls"
+      },
+      {
+        "cast": [
+          "Mark Wahlberg",
+          "Reese Witherspoon",
+          "William Petersen",
+          "Alyssa Milano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Foley",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A 16 year old girl takes up with a charming young man who quickly shows his colors when he beats a friend simply for walking with her and then goes totally ballistic after she tries to break up with him.",
+        "release_date": "1996-04-12",
+        "release_year": "1996",
+        "title": "Fear"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Gene Hackman",
+          "Jon Voight",
+          "Regina King"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Scott",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Hotshot Washington lawyer, Robert Dean becomes a victim of high-tech identity theft when a hacker slips an incriminating video into his pocket. Soon, a rogue National Security agent sets out to recover the tape – and destroy Dean.",
+        "release_date": "1998-11-20",
+        "release_year": "1998",
+        "title": "Enemy of the State"
+      }
+    ],
+    "raw_user_id": "5297",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 24
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.145850829033029
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies",
+        "Negative reception of certain action films",
+        "Dislike for specific thrillers"
+      ],
+      "liked_patterns": [
+        "High ratings for action and thriller genres",
+        "Positive reception of crime-themed narratives",
+        "Enjoyment of character-driven drama films"
+      ],
+      "summary": "Unique tastes: Thriller Enthusiast (The user shows a strong preference for thriller films, as evidenced by multiple high ratings in this genre.); Action Lover (A significant number of action films received high ratings, indicating a strong affinity for this genre.); Appreciation for Crime Elements (Several films with crime themes are rated highly, suggesting a taste for narratives involving crime and moral ambiguity.); Drama Appreciation (The user rates several drama films positively, indicating an enjoyment of character-driven stories.); Comedy Enjoyment (The user has rated multiple comedies highly, showing a preference for humor in their viewing choices.). Liked patterns: High ratings for action and thriller genres, Positive reception of crime-themed narratives, Enjoyment of character-driven drama films. Disliked patterns: Low ratings for comedies, Negative reception of certain action films, Dislike for specific thrillers.",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for thriller films, as evidenced by multiple high ratings in this genre.",
+          "taste": "Thriller Enthusiast"
+        },
+        {
+          "reason": "A significant number of action films received high ratings, indicating a strong affinity for this genre.",
+          "taste": "Action Lover"
+        },
+        {
+          "reason": "Several films with crime themes are rated highly, suggesting a taste for narratives involving crime and moral ambiguity.",
+          "taste": "Appreciation for Crime Elements"
+        },
+        {
+          "reason": "The user rates several drama films positively, indicating an enjoyment of character-driven stories.",
+          "taste": "Drama Appreciation"
+        },
+        {
+          "reason": "The user has rated multiple comedies highly, showing a preference for humor in their viewing choices.",
+          "taste": "Comedy Enjoyment"
+        }
+      ]
+    },
+    "user_id": 5297
+  }
+}

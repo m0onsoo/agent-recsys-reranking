@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "91cc23d6a6a69c34889f2fd031e4d75070e0c1650c55400c72e7642f81e65c9d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1529,
+      127,
+      98,
+      172,
+      1019,
+      154,
+      69,
+      533,
+      79,
+      129
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "6bcec8b2fd544ad48e8f0df46ca9f27c"
+    ],
+    "sampled_item_ids": [
+      4,
+      63,
+      65,
+      94,
+      119,
+      133,
+      134,
+      149,
+      154,
+      203,
+      214,
+      218,
+      223,
+      237,
+      265,
+      407,
+      455,
+      494,
+      534,
+      612,
+      663,
+      720,
+      777,
+      1020,
+      1529
+    ],
+    "seed": 42,
+    "source_hash": "e8ee9d2d96ce289cb390e0e4145aefed5d6e55a5de8294cd11c68cdebcc02724",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3085,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Juliette Binoche",
+          "Willem Dafoe",
+          "Kristin Scott Thomas"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Beginning in the 1930s, \"The English Patient\" tells the story of Count Almásy who is a Hungarian map maker employed by the Royal Geographical Society to chart the vast expanses of the Sahara Desert along with several other prominent explorers. As World War II unfolds, Almásy enters into a world of love, betrayal, and politics that is later revealed in a series of flashbacks while Almásy is on his death bed after being horribly burned in a plane crash.",
+        "release_date": "1996-11-14",
+        "release_year": "1996",
+        "title": "English Patient, The"
+      },
+      {
+        "cast": [
+          "Helen Hunt",
+          "Bill Paxton",
+          "Cary Elwes",
+          "Jami Gertz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "TV weatherman Bill Harding is trying to get his tornado-hunter wife, Jo, to sign divorce papers so he can marry his girlfriend Melissa. But Mother Nature, in the form of a series of intense storms sweeping across Oklahoma, has other plans. Soon the three have joined the team of stormchasers as they attempt to insert a revolutionary measuring device into the very heart of several extremely violent tornados.",
+        "release_date": "1996-05-10",
+        "release_year": "1996",
+        "title": "Twister"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Robin Wright",
+          "Gary Sinise",
+          "Mykelti Williamson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events - in each case, far exceeding what anyone imagined he could do. Yet, despite all the things he has attained, his one true love eludes him. 'Forrest Gump' is the story of a man who rose above his challenges, and who proved that determination, courage, and love are more important than ability.",
+        "release_date": "1994-07-06",
+        "release_year": "1994",
+        "title": "Forrest Gump"
+      },
+      {
+        "cast": [
+          "Peter Weller",
+          "Nancy Allen",
+          "Ronny Cox",
+          "Kurtwood Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can use his body to support their untested RoboCop prototype. But when RoboCop learns of the company's nefarious plans, he turns on his masters.",
+        "release_date": "1987-07-17",
+        "release_year": "1987",
+        "title": "Robocop"
+      },
+      {
+        "cast": [
+          "Vivien Leigh",
+          "Clark Gable",
+          "Olivia de Havilland",
+          "Thomas Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "An American classic in which a manipulative woman and a roguish man carry on a turbulent love affair in the American south during the Civil War and Reconstruction.",
+        "release_date": "1939-12-15",
+        "release_year": "1939",
+        "title": "Gone with the Wind"
+      },
+      {
+        "cast": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Connie Nielsen",
+          "Oliver Reed"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences. His battle skills serve him well, and he becomes one of the most famous and admired men to fight in the Colosseum. Determined to avenge himself against the man who took away his freedom and laid waste to his family, Maximus believes that he can use his fame and skill in the ring to avenge the loss of his family and former glory. As the gladiator begins to challenge his rule, Commodus decides to put his own fighting mettle to the test by squaring off with Maximus in a battle to the death.",
+        "release_date": "2000-05-01",
+        "release_year": "2000",
+        "title": "Gladiator"
+      },
+      {
+        "cast": [
+          "Kevin Bacon",
+          "Elisabeth Shue",
+          "Josh Brolin",
+          "Kim Dickens"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Cocky researcher, Sebastian Caine is working on a project to make living creatures invisible and he's so confident he's found the right formula that he tests it on himself and soon begins to vanish. The only problem is – no-one can determine how to make him visible again. Caine's predicament eventually drives him mad, with terrifying results.",
+        "release_date": "2000-08-04",
+        "release_year": "2000",
+        "title": "Hollow Man"
+      },
+      {
+        "cast": [
+          "Alec Baldwin",
+          "Sean Connery",
+          "Scott Glenn",
+          "Sam Neill"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A new Soviet nuclear missile sub (a Boomer) heading out on her maiden voyage that is being tracked by a Los Angeles class American submarine suddenly goes silent and \"disappears\". This focuses the attention of both U.S. Intelligence and the U.S. Navy on the Russian Sub Commander .  When it is determined that the silent Soviet Boomer may be headed for American coastal waters panic ensues. A CIA analyst, Jack Ryan,  convinces the brass that the Boomer's commander may intend something other than a nuclear first strike in mind. A perilous and tense cat-and-mouse game ensues.",
+        "release_date": "1990-03-02",
+        "release_year": "1990",
+        "title": "Hunt for Red October, The"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      }
+    ],
+    "raw_user_id": "3085",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 99
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8179160521135969
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed"
+      ],
+      "liked_patterns": [
+        "High ratings for action and adventure films",
+        "Consistent enjoyment of dramas with romantic elements",
+        "Preference for films that blend action with thriller or sci-fi genres"
+      ],
+      "summary": "Unique tastes: Action and Adventure (A strong preference for action-packed narratives that often include adventure elements.); Drama with Romantic Themes (Enjoyment of dramatic films that explore romantic relationships and emotional depth.); Sci-Fi Thrillers (A liking for science fiction films that incorporate thrilling and suspenseful elements.); War Themes (An appreciation for films that depict war, often intertwined with drama and action.); Strong Female Leads (A tendency to favor films featuring strong, complex female characters.). Liked patterns: High ratings for action and adventure films, Consistent enjoyment of dramas with romantic elements, Preference for films that blend action with thriller or sci-fi genres. Disliked patterns: No significant patterns of dislike observed.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for action-packed narratives that often include adventure elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "Enjoyment of dramatic films that explore romantic relationships and emotional depth.",
+          "taste": "Drama with Romantic Themes"
+        },
+        {
+          "reason": "A liking for science fiction films that incorporate thrilling and suspenseful elements.",
+          "taste": "Sci-Fi Thrillers"
+        },
+        {
+          "reason": "An appreciation for films that depict war, often intertwined with drama and action.",
+          "taste": "War Themes"
+        },
+        {
+          "reason": "A tendency to favor films featuring strong, complex female characters.",
+          "taste": "Strong Female Leads"
+        }
+      ]
+    },
+    "user_id": 3085
+  }
+}

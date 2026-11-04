@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "9d567dd253246bc1427a9c35bb30950e523b339cb5617f707a3207f75bf50d70",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      501,
+      112,
+      62,
+      946,
+      3224,
+      2490,
+      822,
+      2521,
+      506,
+      1585
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      62,
+      88,
+      137,
+      366,
+      412,
+      505,
+      526,
+      590,
+      663,
+      830,
+      946,
+      961,
+      1071,
+      1306,
+      1446,
+      1452,
+      1467,
+      2229,
+      2295,
+      2342,
+      2413,
+      2618,
+      2683,
+      2723,
+      2745
+    ],
+    "seed": 42,
+    "source_hash": "3388f98541f04b025da51fb6ddc10c23afa3b89f48e871fafb8db1dd7631fb0a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5806,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Carlo Cecchi",
+          "Irene Grazioli",
+          "Anita Laurenzi",
+          "Tommaso Puntelli"
+        ],
+        "country": [
+          "Canada",
+          "Italy",
+          "United Kingdom"
+        ],
+        "director": "François Girard",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Spans 300 years in the life of one famed musical instrument that winds up in present-day Montreal on the auction block. Crafted by the Italian master Bussotti (Cecchi) in 1681, the red violin derives its unusual color from the human blood mixed into the finish. With this legacy, the violin travels to Austria, England, China, and Canada, leaving both beauty and tragedy in its wake.",
+        "release_date": "1998-09-10",
+        "release_year": "1998",
+        "title": "Red Violin, The (Le Violon rouge)"
+      },
+      {
+        "cast": [
+          "Warren Beatty",
+          "Faye Dunaway",
+          "Michael J. Pollard",
+          "Gene Wilder"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Arthur Penn",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Bonnie and Clyde is based on the true stories of the gangster pair Bonnie Parker and Clyde Barrow who in the 1930s began robbing banks in U.S. cities until they were eventually killed. The film is a major landmark in the aesthetic movement known as the New Hollywood.",
+        "release_date": "1967-07-18",
+        "release_year": "1967",
+        "title": "Bonnie and Clyde"
+      },
+      {
+        "cast": [
+          "James Dean",
+          "Natalie Wood",
+          "Sal Mineo",
+          "Ann Doran"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Ray",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After moving to a new town, troublemaking teen Jim Stark is supposed to have a clean slate, although being the new kid in town brings its own problems. While searching for some stability, Stark forms a bond with a disturbed classmate, Plato, and falls for local girl Judy. However, Judy is the girlfriend of neighborhood tough, Buzz. When Buzz violently confronts Jim and challenges him to a drag race, the new kid's real troubles begin.",
+        "release_date": "1955-10-27",
+        "release_year": "1955",
+        "title": "Rebel Without a Cause"
+      },
+      {
+        "cast": [
+          "Anjelica Huston",
+          "John Cusack",
+          "Annette Bening",
+          "Jan Munroe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "A young short-con grifter suffers both injury and the displeasure of reuniting with his criminal mother, all the while dating an unpredictable young lady.",
+        "release_date": "1990-09-14",
+        "release_year": "1990",
+        "title": "Grifters, The"
+      },
+      {
+        "cast": [
+          "Le Van Loc",
+          "Tony Leung Chiu-Wai",
+          "Như Quỳnh Nguyễn",
+          "Hoang Phuc Nguyen"
+        ],
+        "country": [
+          "Vietnam",
+          "Hong Kong",
+          "France"
+        ],
+        "director": "Tran Anh Hung",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "other languages",
+        "overview": "Follows a young cyclo (bicycle cab) driver on his poverty-driven descent into criminality in modern-day Ho Chi Minh City. The boy's struggles to scratch out a living for his two sisters and grandfather in the mean streets of the city lead to petty crime on behalf of a mysterious Madame from whom he rents his cyclo.",
+        "release_date": "1995-01-01",
+        "release_year": "1995",
+        "title": "Cyclo"
+      },
+      {
+        "cast": [
+          "Stephen Dillane",
+          "Woody Harrelson",
+          "Marisa Tomei",
+          "Goran Visnjic"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Michael Winterbottom",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Follow a group of international journalists into the heart of the once cosmopolitan city of Sarajevo—now a danger zone of sniper and mortar attacks where residents still live. While reporting on an American aid worker who’s trying to get children out of the country, a British correspondent decides to take an orphaned girl home to London.",
+        "release_date": "1997-05-09",
+        "release_year": "1997",
+        "title": "Welcome To Sarajevo"
+      },
+      {
+        "cast": [
+          "Mark Rylance",
+          "Kristin Scott Thomas",
+          "Patsy Kensit",
+          "Jeremy Kemp"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Philip Haas",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In Victorian England, wealthy patriarch Sir Harald Alabaster invites an impoverished biologist, William Adamson, into his home. There, William tries to continue his work, but is distracted by Alabaster's seductive daughter, Eugenia. William and Eugenia begin a torrid romance, but as the couple become closer, the young scientist begins to realize that dark, disturbing things are happening behind the closed doors of the Alabaster manor.",
+        "release_date": "1995-09-10",
+        "release_year": "1995",
+        "title": "Angels and Insects"
+      },
+      {
+        "cast": [
+          "David Carradine",
+          "Ronny Cox",
+          "Melinda Dillon",
+          "Gail Strickland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hal Ashby",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A biography of Woody Guthrie, one of America's greatest folk singers. He left his dust-devastated Texas home in the 1930s to find work, discovering the suffering and strength of America's working class.",
+        "release_date": "1976-12-05",
+        "release_year": "1976",
+        "title": "Bound for Glory"
+      },
+      {
+        "cast": [
+          "Nicoletta Braschi",
+          "Roberto Benigni",
+          "Giorgio Cantarini",
+          "Giustino Durano"
+        ],
+        "country": [
+          "Italy"
+        ],
+        "director": "Roberto Benigni",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Italian",
+        "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
+        "release_date": "1997-12-20",
+        "release_year": "1997",
+        "title": "Life Is Beautiful (La Vita è bella)"
+      },
+      {
+        "cast": [
+          "Anton Glanzelius",
+          "Tomas von Brömssen",
+          "Anki Lidén",
+          "Kicki Rundgren"
+        ],
+        "country": [
+          "Sweden"
+        ],
+        "director": "Lasse Hallström",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Swedish",
+        "overview": "A boy and his brother don't get along well. In order to let their ill mother rest, they are separated and sent to different relatives.",
+        "release_date": "1985-12-12",
+        "release_year": "1985",
+        "title": "My Life as a Dog (Mitt liv som hund)"
+      }
+    ],
+    "raw_user_id": "5806",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 177
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1845430490771607
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that do not resonate emotionally or narratively, as seen in the low ratings for certain dramas."
+      ],
+      "liked_patterns": [
+        "Preference for character-driven dramas with complex narratives.",
+        "Attraction to films that combine multiple genres, particularly Drama with Romance or Thriller elements.",
+        "Enjoyment of films that explore moral ambiguity and suspense."
+      ],
+      "summary": "Unique tastes: Drama (A significant number of movies rated 3 or above belong to the Drama genre, indicating a strong preference for character-driven narratives.); Film-Noir (Several highly rated films fall within the Film-Noir genre, suggesting an appreciation for its stylistic elements and themes of moral ambiguity.); Romance (Movies that blend Drama with Romance received favorable ratings, indicating a liking for emotional and relational complexities.); Thriller (The presence of Thrillers among the liked films suggests an attraction to suspenseful and intense storytelling.); Crime (Films that incorporate Crime elements are well-received, reflecting an interest in narratives involving criminal activities and their consequences.). Liked patterns: Preference for character-driven dramas with complex narratives., Attraction to films that combine multiple genres, particularly Drama with Romance or Thriller elements., Enjoyment of films that explore moral ambiguity and suspense.. Disliked patterns: Dislike for films that do not resonate emotionally or narratively, as seen in the low ratings for certain dramas..",
+      "unique_tastes": [
+        {
+          "reason": "A significant number of movies rated 3 or above belong to the Drama genre, indicating a strong preference for character-driven narratives.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Several highly rated films fall within the Film-Noir genre, suggesting an appreciation for its stylistic elements and themes of moral ambiguity.",
+          "taste": "Film-Noir"
+        },
+        {
+          "reason": "Movies that blend Drama with Romance received favorable ratings, indicating a liking for emotional and relational complexities.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The presence of Thrillers among the liked films suggests an attraction to suspenseful and intense storytelling.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "Films that incorporate Crime elements are well-received, reflecting an interest in narratives involving criminal activities and their consequences.",
+          "taste": "Crime"
+        }
+      ]
+    },
+    "user_id": 5806
+  }
+}

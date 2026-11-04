@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "baca2849e039d436e300a64ee94f275b473e63eb2e176ff80f6ea37c6573061d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      612,
+      1261,
+      548,
+      1201,
+      281,
+      316,
+      1454,
+      610,
+      438,
+      48
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "2d162da8a44f4e0cb944a105bf4d5d31"
+    ],
+    "sampled_item_ids": [
+      48,
+      55,
+      97,
+      140,
+      175,
+      325,
+      475,
+      505,
+      548,
+      554,
+      643,
+      712,
+      759,
+      849,
+      1009,
+      1112,
+      1140,
+      1201,
+      1212,
+      1263,
+      1284,
+      1369,
+      1653,
+      1754,
+      2410
+    ],
+    "seed": 42,
+    "source_hash": "b3367afa231015601b7c87204dadf59ce490a0cdd11b4571cd3576c8f382f895",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2555,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Peter Sellers",
+          "George C. Scott",
+          "Sterling Hayden",
+          "Keenan Wynn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union. As soon as the actions of General \"Buck\" Turgidson are discovered, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike. Near the end is a scene that is probably the most uniquely unforgettable performance of Slim Pickens in his movie career. Peter Sellers plays multiple roles in this film.",
+        "release_date": "1964-01-29",
+        "release_year": "1963",
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Audrey Hepburn",
+          "Walter Matthau",
+          "James Coburn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Donen",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After Regina Lampert falls for the dashing Peter Joshua on a skiing holiday in the French Alps, she discovers upon her return to Paris that her husband has been murdered. Soon, she and Peter are giving chase to three of her late husband's World War II cronies, Tex, Scobie and Gideon, who are after a quarter of a million dollars the quartet stole while behind enemy lines. But why does Peter keep changing his name?",
+        "release_date": "1963-12-05",
+        "release_year": "1963",
+        "title": "Charade"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Billy Crystal",
+          "Carrie Fisher",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "During their travels from Chicago to New York, Harry and Sally Will debate whether or not sex ruins a perfect relationship between a man and a woman. Eleven years and later, they're still no closer to finding the answer.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "When Harry Met Sally..."
+      },
+      {
+        "cast": [
+          "Ben Affleck",
+          "Matt Damon",
+          "Linda Fiorentino",
+          "Jason Mewes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The latest battle in the eternal war between Good and Evil has come to New Jersey in the late, late 20th Century. Angels, demons, apostles and prophets (of a sort) walk among the cynics and innocents of America and duke it out for the fate of humankind.",
+        "release_date": "1999-11-12",
+        "release_year": "1999",
+        "title": "Dogma"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Matt Damon",
+          "Ben Affleck",
+          "Stellan Skarsgård"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Will Hunting has a genius-level IQ but chooses to work as a janitor at MIT. When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau, who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire.",
+        "release_date": "1997-12-05",
+        "release_year": "1997",
+        "title": "Good Will Hunting"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Reese Witherspoon",
+          "Chris Klein",
+          "Jessica Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alexander Payne",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A high school teacher's personal life becomes complicated as he works with students during the school elections.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Election"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "John Cazale",
+          "Frederic Forrest",
+          "Cindy Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Surveillance expert Harry Caul (Gene Hackman) is hired by a mysterious client's brusque aide (Harrison Ford) to tail a young couple, Mark (Frederic Forrest) and Ann (Cindy Williams). Tracking the pair through San Francisco's Union Square, Caul and his associate Stan (John Cazale) manage to record a cryptic conversation between them. Tormented by memories of a previous case that ended badly, Caul becomes obsessed with the resulting tape, trying to determine if the couple are in danger.",
+        "release_date": "1974-04-07",
+        "release_year": "1974",
+        "title": "Conversation, The"
+      },
+      {
+        "cast": [
+          "Deems Taylor",
+          "Walt Disney",
+          "Julietta Novis",
+          "Leopold Stokowski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Samuel Armstrong",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Walt Disney's timeless masterpiece is an extravaganza of sight and sound! See the music come to life, hear the pictures burst into song and experience the excitement that is Fantasia over and over again.",
+        "release_date": "1940-11-13",
+        "release_year": "1940",
+        "title": "Fantasia"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Cuba Gooding Jr.",
+          "Renée Zellweger",
+          "Kelly Preston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jerry Maguire used to be a typical sports agent: willing to do just about anything he could to get the biggest possible contracts for his clients, plus a nice commission for himself. Then, one day, he suddenly has second thoughts about what he's really doing. When he voices these doubts, he ends up losing his job and all of his clients, save Rod Tidwell, an egomaniacal football player.",
+        "release_date": "1996-12-06",
+        "release_year": "1996",
+        "title": "Jerry Maguire"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Brock Peters",
+          "James Anderson",
+          "Mary Badham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mulligan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In a small Alabama town in the 1930s, scrupulously honest and highly respected lawyer, Atticus Finch puts his career on the line when he agrees to represent Tom Robinson, a black man accused of rape. The trial and the events surrounding it are seen through the eyes of Finch's six-year-old daughter, Scout. While Robinson's trial gives the movie its momentum, there are plenty of anecdotal occurrences before and after the court date: Scout's ever-strengthening bond with older brother, Jem, her friendship with precocious young Dill Harris, her father's no-nonsense reactions to such life-and-death crises as a rampaging mad dog, and especially Scout's reactions to, and relationship with, Boo Radley, the reclusive 'village idiot' who turns out to be her salvation when she is attacked by a venomous bigot.",
+        "release_date": "1962-12-25",
+        "release_year": "1962",
+        "title": "To Kill a Mockingbird"
+      }
+    ],
+    "raw_user_id": "2555",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 128
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7269938568003302
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or engaging plots.",
+        "Negative response to films that are primarily horror without strong narrative elements."
+      ],
+      "liked_patterns": [
+        "Preference for character-driven dramas with strong narratives.",
+        "Enjoyment of comedies that blend humor with other genres.",
+        "Interest in films that combine mystery and thriller elements."
+      ],
+      "summary": "Unique tastes: Drama (The user consistently rates drama films highly, indicating a strong preference for character-driven narratives and emotional depth.); Comedy (The user enjoys comedies, particularly those that blend humor with other genres, as evidenced by several positive ratings.); Mystery and Thriller (The user shows an affinity for mystery and thriller elements, appreciating suspenseful storytelling.); Romance (The user rates romantic films positively, suggesting an appreciation for romantic themes within broader narratives.); Action (The user enjoys action films, especially those that incorporate drama, indicating a preference for dynamic storytelling.). Liked patterns: Preference for character-driven dramas with strong narratives., Enjoyment of comedies that blend humor with other genres., Interest in films that combine mystery and thriller elements.. Disliked patterns: Dislike for comedies that lack depth or engaging plots., Negative response to films that are primarily horror without strong narrative elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for character-driven narratives and emotional depth.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, particularly those that blend humor with other genres, as evidenced by several positive ratings.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows an affinity for mystery and thriller elements, appreciating suspenseful storytelling.",
+          "taste": "Mystery and Thriller"
+        },
+        {
+          "reason": "The user rates romantic films positively, suggesting an appreciation for romantic themes within broader narratives.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user enjoys action films, especially those that incorporate drama, indicating a preference for dynamic storytelling.",
+          "taste": "Action"
+        }
+      ]
+    },
+    "user_id": 2555
+  }
+}

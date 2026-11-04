@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "e578b8d22f569bc6c20dd2a3eae5be8c552fbdfabf60abd36380ef4bc5e1ad4b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1272,
+      688,
+      206,
+      548,
+      529,
+      689,
+      1394,
+      1178,
+      23,
+      3027
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      16,
+      44,
+      134,
+      147,
+      184,
+      327,
+      420,
+      471,
+      487,
+      524,
+      604,
+      612,
+      619,
+      689,
+      731,
+      734,
+      743,
+      878,
+      1024,
+      1039,
+      1134,
+      1178,
+      1219,
+      1275,
+      3027
+    ],
+    "seed": 42,
+    "source_hash": "baca8562737136c3dcbd17d081d290b2f919e42bf83e2ec2e48a0ae054c74e32",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5272,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sylvester Stallone",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After Rocky goes the distance with champ Apollo Creed, both try to put the fight behind them and move on. Rocky settles down with Adrian but can't put his life together outside the ring, while Creed seeks a rematch to restore his reputation. Soon enough, the \"Master of Disaster\" and the \"Italian Stallion\" are set on a collision course for a climactic battle that is brutal and unforgettable.",
+        "release_date": "1979-06-15",
+        "release_year": "1979",
+        "title": "Rocky II"
+      },
+      {
+        "cast": [
+          "Leslie Nielsen",
+          "Priscilla Presley",
+          "George Kennedy",
+          "O.J. Simpson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Segal",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Frank Drebin is persuaded out of retirement to go undercover in a state prison. There he is to find out what top terrorist, Rocco, has planned for when he escapes. Frank's wife, Jane, is desperate for a baby.. this adds to Frank's problems. A host of celebrities at the Academy awards ceremony are humiliated by Frank as he blunders his way trying to foil Rocco.",
+        "release_date": "1994-03-18",
+        "release_year": "1994",
+        "title": "Naked Gun 33 1/3: The Final Insult"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kate Capshaw",
+          "Jonathan Ke Quan",
+          "Amrish Puri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees – and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace.",
+        "release_date": "1984-05-23",
+        "release_year": "1984",
+        "title": "Indiana Jones and the Temple of Doom"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Billy Crystal",
+          "Carrie Fisher",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "During their travels from Chicago to New York, Harry and Sally Will debate whether or not sex ruins a perfect relationship between a man and a woman. Eleven years and later, they're still no closer to finding the answer.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "When Harry Met Sally..."
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Frakes",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The Borg, a relentless race of cyborgs, are on a direct course for Earth. Violating orders to stay away from the battle, Captain Picard and the crew of the newly-commissioned USS Enterprise E pursue the Borg back in time to prevent the invaders from changing Federation history and assimilating the galaxy.",
+        "release_date": "1996-11-21",
+        "release_year": "1996",
+        "title": "Star Trek: First Contact"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Beverly D'Angelo",
+          "Randy Quaid",
+          "Juliette Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeremiah S. Chechik",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "It's Christmas time and the Griswolds are preparing for a family seasonal celebration, but things never run smoothly for Clark, his wife Ellen and their two kids. Clark's continual bad luck is worsened by his obnoxious family guests, but he manages to keep going knowing that his Christmas bonus is due soon.",
+        "release_date": "1989-12-01",
+        "release_year": "1989",
+        "title": "Christmas Vacation"
+      },
+      {
+        "cast": [
+          "Ralph Macchio",
+          "Pat Morita",
+          "William Zabka",
+          "Martin Kove"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Hassled by the school bullies, Daniel LaRusso has his share of adolescent woes. Luckily, his apartment building houses a resident martial arts master: Kesuke Miyagi, who agrees to train Daniel ... and ends up teaching him much more than self-defense. Armed with newfound confidence, skill and wisdom, Daniel ultimately faces off against his tormentors in this hugely popular classic underdog tale.",
+        "release_date": "1984-06-22",
+        "release_year": "1984",
+        "title": "Karate Kid, The"
+      },
+      {
+        "cast": [
+          "Mike Judge",
+          "Bruce Willis",
+          "Demi Moore",
+          "Robert Stack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Judge",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Mike Judge's slacker duo, Beavis and Butt-Head, wake to discover their TV has been stolen. Their search for a new one takes them on a clueless adventure across America where they manage to accidentally become America's most wanted.",
+        "release_date": "1996-12-15",
+        "release_year": "1996",
+        "title": "Beavis and Butt-head Do America"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      },
+      {
+        "cast": [
+          "Bajram Severdzhan",
+          "Srđan Todorović",
+          "Zabit Memedov",
+          "Florijan Ajdini"
+        ],
+        "country": [
+          "Serbia",
+          "Romania",
+          "Germany",
+          "Austria",
+          "France"
+        ],
+        "director": "Emir Kusturica",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "Serbian",
+        "overview": "Matko is a small time hustler, living by the Danube with his 17 year old son Zare. After a failed business deal he owes money to the much more successful gangster Dadan. Dadan has a sister, Afrodita, that he desperately wants to see get married so they strike a deal: Zare is to marry her.",
+        "release_date": "1998-06-01",
+        "release_year": "1998",
+        "title": "Black Cat, White Cat (Crna macka, beli macor)"
+      }
+    ],
+    "raw_user_id": "5272",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 86
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.5515089375490176
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for traditional horror films.",
+        "Negative responses to comedies that rely on slapstick or lowbrow humor.",
+        "Dislike for action films that lack depth or character development."
+      ],
+      "liked_patterns": [
+        "Positive ratings for comedies that blend humor with other genres.",
+        "High ratings for films that explore complex emotional themes.",
+        "Favoring films with unique or unconventional narratives."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys various styles of comedy, as indicated by multiple high ratings for comedies.); Interest in Drama and Romance (The user rates several drama and romance films positively, suggesting a preference for emotional storytelling.); Enjoyment of Action and Adventure (The user has rated some action and adventure films favorably, indicating a liking for thrilling narratives.); Preference for Unique Storytelling (The user appreciates films with unconventional plots or themes, as seen in the ratings for certain comedies and dramas.); Skepticism towards Horror and Thrillers (The user tends to rate horror and thriller films poorly, suggesting a lack of interest in these genres.). Liked patterns: Positive ratings for comedies that blend humor with other genres., High ratings for films that explore complex emotional themes., Favoring films with unique or unconventional narratives.. Disliked patterns: Low ratings for traditional horror films., Negative responses to comedies that rely on slapstick or lowbrow humor., Dislike for action films that lack depth or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys various styles of comedy, as indicated by multiple high ratings for comedies.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several drama and romance films positively, suggesting a preference for emotional storytelling.",
+          "taste": "Interest in Drama and Romance"
+        },
+        {
+          "reason": "The user has rated some action and adventure films favorably, indicating a liking for thrilling narratives.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films with unconventional plots or themes, as seen in the ratings for certain comedies and dramas.",
+          "taste": "Preference for Unique Storytelling"
+        },
+        {
+          "reason": "The user tends to rate horror and thriller films poorly, suggesting a lack of interest in these genres.",
+          "taste": "Skepticism towards Horror and Thrillers"
+        }
+      ]
+    },
+    "user_id": 5272
+  }
+}

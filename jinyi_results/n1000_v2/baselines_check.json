@@ -1,0 +1,34 @@
+{
+  "bundle_id": "d50a678b62a6539147c0a0314ab3fb044a97177c9033fda2e1dbd604e7345ed5",
+  "candidate_size": 20,
+  "models": {
+    "LightGCN": {
+      "candidate_recall@20": 0.299646808710426,
+      "ndcg@10": 0.344197547716294,
+      "recall@10": 0.20520613656602701,
+      "test_users": 1000
+    },
+    "MF": {
+      "candidate_recall@20": 0.2696872562431465,
+      "ndcg@10": 0.28145307606487363,
+      "recall@10": 0.17399930032666,
+      "test_users": 1000
+    },
+    "MultiVAE": {
+      "candidate_recall@20": 0.30499951550373705,
+      "ndcg@10": 0.33009953504213657,
+      "recall@10": 0.20481443784927872,
+      "test_users": 1000
+    }
+  },
+  "panel_conditioning": "all three models have at least one held-out interaction in Top-20",
+  "panel_sha256": "76cdc352836afd33e23330affa5da3408756af08fc16bafbd5879a4d09425d3b",
+  "relevance_definition": "all checkpoint test interactions, independent of rating",
+  "schema_version": 1,
+  "split_hash": {
+    "test": "b108b2694e68d92ab346222d9806ecad2e6a347cc609fd3f7978bd9f53658393",
+    "train": "133a535f57817c3457042e9beecc3ef544769541bba8ee88614fc71a81283db0",
+    "valid": "b1eabe0a6c3a5b2de84fb44f9124cce912a785fbb4321b5200c06d31afda1bb4"
+  },
+  "top_k": 10
+}

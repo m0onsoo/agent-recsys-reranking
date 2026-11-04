@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "acdc060fa3a3489a5431e0da32e2fe39f1a75c3cd19675e825e6b9903b67972e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      791,
+      322,
+      506,
+      15,
+      65,
+      435,
+      125,
+      277,
+      168,
+      257
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "93d1219c4955403f9cd392eeddde8a7e"
+    ],
+    "sampled_item_ids": [
+      2,
+      15,
+      40,
+      45,
+      93,
+      104,
+      110,
+      117,
+      129,
+      152,
+      157,
+      189,
+      200,
+      243,
+      247,
+      322,
+      337,
+      377,
+      435,
+      634,
+      1006,
+      1015,
+      1107,
+      2220,
+      2496
+    ],
+    "seed": 42,
+    "source_hash": "c75ea5d9c156b3c4a7319f9208f895a3c6b5d6537b2c9a2464c8ae3ed11ae041",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2572,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael C. Williams",
+          "Heather Donahue",
+          "Joshua Leonard",
+          "Bob Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Myrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Blair Witch Project, The"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Nicoletta Braschi",
+          "Roberto Benigni",
+          "Giorgio Cantarini",
+          "Giustino Durano"
+        ],
+        "country": [
+          "Italy"
+        ],
+        "director": "Roberto Benigni",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Italian",
+        "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
+        "release_date": "1997-12-20",
+        "release_year": "1997",
+        "title": "Life Is Beautiful (La Vita è bella)"
+      },
+      {
+        "cast": [
+          "Julie Andrews",
+          "Christopher Plummer",
+          "Eleanor Parker",
+          "Richard Haydn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Wise",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Film adaptation of a classic Rodgers and Hammerstein musical based on a nun who becomes a governess for an Austrian family.",
+        "release_date": "1965-03-02",
+        "release_year": "1965",
+        "title": "Sound of Music, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Robert Duvall",
+          "Diane Keaton",
+          "Robert De Niro"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+        "release_date": "1974-12-20",
+        "release_year": "1974",
+        "title": "Godfather: Part II, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Robert Crumb",
+          "Aline Kominsky",
+          "Charles Crumb",
+          "Maxon Crumb"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Zwigoff",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "This movie chronicles the life and times of R. Crumb. Robert Crumb is the cartoonist/artist who drew Keep On Truckin', Fritz the Cat, and played a major pioneering role in the genesis of underground comix. Through interviews with his mother, two brothers, wife, and ex-girlfriends, as well as selections from his vast quantity of graphic art, we are treated to a darkly comic ride through one man's subconscious mind.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Crumb"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Morgan Freeman",
+          "Bob Gunton",
+          "Clancy Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Shawshank Redemption, The"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Russell Crowe",
+          "Christopher Plummer",
+          "Diane Venora"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Tells the true story of a 60 Minutes television series exposé of the tobacco industry, as seen through the eyes of a real tobacco executive, Jeffrey Wigand",
+        "release_date": "1999-10-28",
+        "release_year": "1999",
+        "title": "Insider, The"
+      }
+    ],
+    "raw_user_id": "2572",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 121
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.43351788746883
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed"
+      ],
+      "liked_patterns": [
+        "Strong preference for musicals and dramatic narratives",
+        "Enjoyment of action and thriller genres",
+        "Interest in films that combine romance with other themes"
+      ],
+      "summary": "Unique tastes: Musicals (The user enjoys films that incorporate musical elements, showcasing a preference for storytelling through song.); Dramatic narratives (The user favors films with strong dramatic themes, often exploring complex characters and emotional depth.); Action and adventure (The user appreciates films that feature action-packed sequences and adventurous plots, indicating a taste for excitement.); Thrillers (The user is drawn to suspenseful and thrilling narratives that keep them engaged and on the edge of their seat.); Romantic elements (The user enjoys films that blend romance with other genres, highlighting a preference for emotional connections.). Liked patterns: Strong preference for musicals and dramatic narratives, Enjoyment of action and thriller genres, Interest in films that combine romance with other themes. Disliked patterns: No significant patterns of dislike observed.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that incorporate musical elements, showcasing a preference for storytelling through song.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "The user favors films with strong dramatic themes, often exploring complex characters and emotional depth.",
+          "taste": "Dramatic narratives"
+        },
+        {
+          "reason": "The user appreciates films that feature action-packed sequences and adventurous plots, indicating a taste for excitement.",
+          "taste": "Action and adventure"
+        },
+        {
+          "reason": "The user is drawn to suspenseful and thrilling narratives that keep them engaged and on the edge of their seat.",
+          "taste": "Thrillers"
+        },
+        {
+          "reason": "The user enjoys films that blend romance with other genres, highlighting a preference for emotional connections.",
+          "taste": "Romantic elements"
+        }
+      ]
+    },
+    "user_id": 2572
+  }
+}

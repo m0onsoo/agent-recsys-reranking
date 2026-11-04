@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "2a52a17150c32186e87396bbe936d8ee2bbf1ed3acf2e997536a84ae6d473654",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      86,
+      63,
+      1851,
+      462,
+      409,
+      2235,
+      260,
+      1214,
+      329,
+      407
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9e3fc2089ff94d8790f1efb19e3f618c"
+    ],
+    "sampled_item_ids": [
+      39,
+      79,
+      98,
+      118,
+      121,
+      129,
+      265,
+      268,
+      329,
+      350,
+      434,
+      518,
+      524,
+      530,
+      532,
+      832,
+      861,
+      893,
+      896,
+      906,
+      922,
+      923,
+      926,
+      1851,
+      2056
+    ],
+    "seed": 42,
+    "source_hash": "56057ceb34d0addf789c0be4767a519674dbc53cfe1634a0c078e29d8e6f2ce4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2452,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Hanks",
+          "Michael Clarke Duncan",
+          "David Morse",
+          "Bonnie Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cellblock's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Green Mile, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Dean Jones",
+          "Michele Lee",
+          "Buddy Hackett",
+          "Joe Flynn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Stevenson",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Herbie is a car - but no ordinary car. The story follows the Volkswagen Beetle with a mind of its own from the showroom to the race track, with various close escapes in between. Three further Herbie movies were to follow.",
+        "release_date": "1968-12-22",
+        "release_year": "1969",
+        "title": "Love Bug, The"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Gene Hackman",
+          "Matt Craven",
+          "George Dzundza"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Scott",
+        "genres": [
+          "Drama",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "On a US nuclear missile sub, a young first officer stages a mutiny to prevent his trigger happy captain from launching his missiles before confirming his orders to do so.",
+        "release_date": "1995-05-12",
+        "release_year": "1995",
+        "title": "Crimson Tide"
+      },
+      {
+        "cast": [
+          "Annette Funicello",
+          "Ray Bolger",
+          "Tommy Sands",
+          "Ed Wynn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jack Donohue",
+        "genres": [
+          "Children's",
+          "Fantasy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "All roads lead to magical, merry Toyland as Mary Contrary and Tom Piper prepare for their wedding! But villainous Barnaby wants Mary for himself, so he kidnaps Tom, setting off a series of comic chases, searches, and double-crosses! The \"March Of The Wooden Soldiers\" helps put Barnaby in his place, and ensures a \"happily ever after\" for Tom and Mary!",
+        "release_date": "1961-12-14",
+        "release_year": "1961",
+        "title": "Babes in Toyland"
+      },
+      {
+        "cast": [
+          "Danny DeVito",
+          "Bette Midler",
+          "Neve Campbell",
+          "Jamie Lee Curtis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nick Gomez",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The recently deceased Mona Dearly (Bette Midler) was many things: an abusive wife, a domineering mother, a loud-mouthed neighbor and a violent malcontent. So when her car and corpse are discovered in the Hudson River, police Chief Wyatt Rash (Danny DeVito) immediately suspects murder rather than an accident. But, since the whole community of Verplanck, N.Y., shares a deep hatred for this unceasingly spiteful woman, Rash finds his murder investigation overwhelmed with potential suspects.",
+        "release_date": "2000-03-03",
+        "release_year": "2000",
+        "title": "Drowning Mona"
+      },
+      {
+        "cast": [
+          "Stephen Baldwin",
+          "Gabriel Byrne",
+          "Chazz Palminteri",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Usual Suspects, The"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Samuel L. Jackson",
+          "Yvonne Zima",
+          "Craig Bierko"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Samantha Caine, suburban homemaker, is the ideal mom to her 8 year old daughter Caitlin. She lives in Honesdale, PA, has a job teaching school and makes the best Rice Krispie treats in town. But when she receives a bump on her head, she begins to remember small parts of her previous life as a lethal, top-secret agent",
+        "release_date": "1996-10-11",
+        "release_year": "1996",
+        "title": "Long Kiss Goodnight, The"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Sharon Stone",
+          "Joe Pesci",
+          "James Woods"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The life of the gambling paradise – Las Vegas – and its dark mafia underbelly.",
+        "release_date": "1995-11-22",
+        "release_year": "1995",
+        "title": "Casino"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Heath Ledger",
+          "Joely Richardson",
+          "Jason Isaacs"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "After proving himself on the field of battle in the French and Indian War, Benjamin Martin wants nothing more to do with such things, preferring the simple life of a farmer. But when his son Gabriel enlists in the army to defend their new nation, America, against the British, Benjamin reluctantly returns to his old life to protect his son.",
+        "release_date": "2000-06-28",
+        "release_year": "2000",
+        "title": "Patriot, The"
+      }
+    ],
+    "raw_user_id": "2452",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 42
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1591783014216714
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for children's comedies, as indicated by a low rating for a film in this category."
+      ],
+      "liked_patterns": [
+        "Strong preference for thrillers that combine elements of action and drama.",
+        "High ratings for films that feature complex characters and intense plots.",
+        "Enjoyment of films that blend genres, such as action-thrillers and drama-thrillers."
+      ],
+      "summary": "Unique tastes: Thriller (The user consistently rates thrillers highly, indicating a strong preference for suspenseful and intense narratives.); Action (The user enjoys action films, as evidenced by multiple high ratings for movies in this genre.); Drama (The user appreciates dramatic storytelling, reflected in several high ratings for drama films.); Mystery (The user shows a liking for mystery elements, as indicated by high ratings for films that incorporate this genre.); Comedy (The user rates comedies positively, suggesting an enjoyment of humor and light-hearted narratives.). Liked patterns: Strong preference for thrillers that combine elements of action and drama., High ratings for films that feature complex characters and intense plots., Enjoyment of films that blend genres, such as action-thrillers and drama-thrillers.. Disliked patterns: Dislike for children's comedies, as indicated by a low rating for a film in this category..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates thrillers highly, indicating a strong preference for suspenseful and intense narratives.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user enjoys action films, as evidenced by multiple high ratings for movies in this genre.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user appreciates dramatic storytelling, reflected in several high ratings for drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows a liking for mystery elements, as indicated by high ratings for films that incorporate this genre.",
+          "taste": "Mystery"
+        },
+        {
+          "reason": "The user rates comedies positively, suggesting an enjoyment of humor and light-hearted narratives.",
+          "taste": "Comedy"
+        }
+      ]
+    },
+    "user_id": 2452
+  }
+}

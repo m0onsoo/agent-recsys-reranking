@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "bf3acbec61c4f4fe54222323bc43ea0deb6363dfd3930ef6402bb77526f17f92",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2056,
+      49,
+      837,
+      126,
+      1276,
+      743,
+      1675,
+      618,
+      84,
+      190
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d714f57cebfe4e858254a8f7a8599263"
+    ],
+    "sampled_item_ids": [
+      5,
+      49,
+      156,
+      203,
+      215,
+      336,
+      372,
+      433,
+      601,
+      626,
+      639,
+      793,
+      820,
+      851,
+      953,
+      1049,
+      1074,
+      1076,
+      1166,
+      1237,
+      1271,
+      1331,
+      1659,
+      2541,
+      2644
+    ],
+    "seed": 42,
+    "source_hash": "98e89aed2ef49bd001dc373568dc62385491f33cf1f499c23d9a5738e5c304d5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2994,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "customer service"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ben Affleck",
+          "Gary Sinise",
+          "Charlize Theron",
+          "Dennis Farina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Frankenheimer",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After assuming his dead cellmate's identity to get with his girlfriend, an ex-con finds himself the reluctant participant in a casino heist.",
+        "release_date": "2000-02-25",
+        "release_year": "2000",
+        "title": "Reindeer Games"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Warren Beatty",
+          "Al Pacino",
+          "Madonna",
+          "Charlie Korsmo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Warren Beatty",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "The comic strip detective finds his life vastly complicated when Breathless Mahoney makes advances towards him while he is trying to battle Big Boy Caprice's united mob,",
+        "release_date": "1990-06-15",
+        "release_year": "1990",
+        "title": "Dick Tracy"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "John Cusack",
+          "John Malkovich",
+          "Ving Rhames"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Simon West",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When the government puts all its rotten criminal eggs in one airborne basket, it's asking for trouble. Before you can say, \"Pass the barf bag,\" the crooks control the plane, led by creepy Cyrus \"The Virus\" Grissom. Watching his every move is the just-released Cameron Poe, who'd rather reunite with his family.",
+        "release_date": "1997-06-01",
+        "release_year": "1997",
+        "title": "Con Air"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sylvester Stallone",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Rocky must come out of retirement to battle a gargantuan Soviet fighter named Drago, who brutally punished Rocky's friend and former rival, Apollo Creed. Seeking revenge in the name of his fallen comrade and his country, Rocky agrees to fight Drago in Moscow on Christmas, and the bout changes both fighters -- and the world.",
+        "release_date": "1985-11-21",
+        "release_year": "1985",
+        "title": "Rocky IV"
+      },
+      {
+        "cast": [
+          "Dan Monahan",
+          "Mark Herrier",
+          "Wyatt Knight",
+          "Cyril O'Reilly"
+        ],
+        "country": [
+          "United States of America",
+          "Canada"
+        ],
+        "director": "Bob Clark",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Set in 1954, a group of Florida high schoolers seek out to lose their virginity which leads them to seek revenge on a sleazy nightclub owner and his redneck sheriff brother for harassing them.",
+        "release_date": "1981-11-13",
+        "release_year": "1981",
+        "title": "Porky's"
+      },
+      {
+        "cast": [
+          "Kevin Peter Hall",
+          "Danny Glover",
+          "Gary Busey",
+          "Rubén Blades"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Hopkins",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Ten years after a band of mercenaries first battled a vicious alien, the invisible creature from another world has returned to Earth -- and this time, it's drawn to the gang-ruled and ravaged city of Los Angeles. When it starts murdering drug dealers, detective-lieutenant Mike Harrigan and his police force set out to capture the creature, ignoring warnings from a mysterious government agent to stay away.",
+        "release_date": "1990-11-20",
+        "release_year": "1990",
+        "title": "Predator 2"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Zero Mostel",
+          "Dick Shawn",
+          "Kenneth Mars"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Broadway producer, Max Bialystock and his accountant, Leo Bloom plan to make money by charming little old ladies to invest in a production many times over what it will actually cost, and then put on a sure-fire flop, so nobody will ask for their money back – and what can be a more certain flop than a tasteless musical celebrating Hitler.",
+        "release_date": "1967-11-22",
+        "release_year": "1968",
+        "title": "Producers, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Jodie Foster",
+          "James Garner",
+          "Graham Greene"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Maverick is a gambler who would rather con someone than fight them. He needs an additional three thousand dollars in order to enter a Winner Take All poker game that begins in a few days. He tries to win some, tries to collect a few debts, and recover a little loot for the reward. He joins forces with a woman gambler with a marvelous southern accent as the two both try and enter the game.",
+        "release_date": "1994-05-20",
+        "release_year": "1994",
+        "title": "Maverick"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      }
+    ],
+    "raw_user_id": "2994",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 303
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4478971158726647
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for action films that lack engaging elements.",
+        "Dislike for comedies that do not resonate with the user's humor.",
+        "Negative ratings for films that attempt to blend genres unsuccessfully."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend with other genres.",
+        "Positive ratings for action films with sci-fi elements.",
+        "Appreciation for war-themed films that include comedic elements."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Action (The user shows a preference for action films, particularly those that blend with other genres.); Sci-Fi (The user appreciates science fiction elements, especially when combined with action.); War Themes (The user is drawn to films that incorporate war themes, often rating them positively.); Thriller Elements (The user enjoys thrillers, particularly those that intersect with action and sci-fi.). Liked patterns: High ratings for comedies that blend with other genres., Positive ratings for action films with sci-fi elements., Appreciation for war-themed films that include comedic elements.. Disliked patterns: Low ratings for action films that lack engaging elements., Dislike for comedies that do not resonate with the user's humor., Negative ratings for films that attempt to blend genres unsuccessfully..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows a preference for action films, particularly those that blend with other genres.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user appreciates science fiction elements, especially when combined with action.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user is drawn to films that incorporate war themes, often rating them positively.",
+          "taste": "War Themes"
+        },
+        {
+          "reason": "The user enjoys thrillers, particularly those that intersect with action and sci-fi.",
+          "taste": "Thriller Elements"
+        }
+      ]
+    },
+    "user_id": 2994
+  }
+}

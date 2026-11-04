@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "42dcce46d0498b95ae55c09673b069c93a9c6da5501c3e6f3a2c28ff8f00f6a5",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      426,
+      1286,
+      306,
+      436,
+      995,
+      39,
+      178,
+      1926,
+      920,
+      24
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7a83d6a248d540deb6d3ab4ce87a89ef"
+    ],
+    "sampled_item_ids": [
+      6,
+      24,
+      39,
+      54,
+      65,
+      135,
+      178,
+      306,
+      353,
+      426,
+      436,
+      455,
+      501,
+      513,
+      542,
+      877,
+      920,
+      995,
+      1286,
+      1926
+    ],
+    "seed": 42,
+    "source_hash": "6ba88080dde4a2ab4fb68ab1f07051775a54238e913f4dc9fe7e50f507a2fa11",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3330,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Meryl Streep",
+          "Robert Redford",
+          "Klaus Maria Brandauer",
+          "Michael Kitchen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Out of Africa tells the story of the life of Danish author Karen Blixen, who at the beginning of the 20th century moved to Africa to build a new life for herself. The film is based on the autobiographical novel by Karen Blixen from 1937.",
+        "release_date": "1985-12-20",
+        "release_year": "1985",
+        "title": "Out of Africa"
+      },
+      {
+        "cast": [
+          "Bryan Brown",
+          "Brian Dennehy",
+          "Diane Venora",
+          "Cliff DeYoung"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mandel",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A movies special effects man is hired by a government agency to help stage the assassination of a well known gangster. When the agency double cross him, he uses his special effects to trap the gangster and the corrupt agents.",
+        "release_date": "1986-02-07",
+        "release_year": "1986",
+        "title": "F/X"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Cate Blanchett",
+          "Geoffrey Rush",
+          "Christopher Eccleston",
+          "Joseph Fiennes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Shekhar Kapur",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of the ascension to the throne and the early reign of Queen Elizabeth the First, the endless attempts by her council to marry her off, the Catholic hatred of her and her romance with Lord Robert Dudley.",
+        "release_date": "1998-09-13",
+        "release_year": "1998",
+        "title": "Elizabeth"
+      },
+      {
+        "cast": [
+          "Malcolm McDowell",
+          "Patrick Magee",
+          "Adrienne Corri",
+          "Michael Bates"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.",
+        "release_date": "1971-12-18",
+        "release_year": "1971",
+        "title": "Clockwork Orange, A"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Holly Hunter",
+          "Trey Wilson",
+          "John Goodman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Coen Brothers tell the story of a absurd yet likable family with an unproductive couple as the focal point. The couple has gotten themselves into some trouble while kidnapping a baby and give Hollywood one of the most memorable chase scenes to date.",
+        "release_date": "1987-03-01",
+        "release_year": "1987",
+        "title": "Raising Arizona"
+      },
+      {
+        "cast": [
+          "Emily Watson",
+          "Robert Carlyle",
+          "Joe Breen",
+          "Michael Legge"
+        ],
+        "country": [
+          "Ireland",
+          "United States of America"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Based on the best selling autobiography by Irish expat Frank McCourt, Angela's Ashes follows the experiences of young Frankie and his family as they try against all odds to escape the poverty endemic in the slums of pre-war Limerick. The film opens with the family in Brooklyn, but following the death of one of Frankie's siblings, they return home, only to find the situation there even worse. Prejudice against Frankie's Northern Irish father makes his search for employment in the Republic difficult despite his having fought for the IRA, and when he does find money, he spends the money on drink.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Angela's Ashes"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Catherine Zeta-Jones",
+          "Will Patton",
+          "Maury Chaykin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two thieves, who travel in elegant circles, try to outsmart each other and, in the process, end up falling in love.",
+        "release_date": "1999-04-29",
+        "release_year": "1999",
+        "title": "Entrapment"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      }
+    ],
+    "raw_user_id": "3330",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 20
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0878857098196417
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 10
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to certain comedies, suggesting a lack of appreciation for specific comedic styles.",
+        "Dislike for some action films, indicating that not all entries in the genre resonate with the user."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and romance films, often rated 4 or 5.",
+        "High ratings for thrillers, indicating a taste for suspenseful storytelling.",
+        "Enjoyment of films that blend genres, such as drama with romance or thriller elements."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, often rating them highly.); Thriller (The user enjoys thrillers, as indicated by multiple high ratings in this genre.); Romance (Romantic elements are frequently appreciated, with several high ratings for films that incorporate romance.); Comedy (The user has a mixed response to comedies, with some rated highly and others poorly.); Action (Action films receive a varied response, with some rated positively, indicating an interest in the genre.). Liked patterns: Strong preference for drama and romance films, often rated 4 or 5., High ratings for thrillers, indicating a taste for suspenseful storytelling., Enjoyment of films that blend genres, such as drama with romance or thriller elements.. Disliked patterns: Negative response to certain comedies, suggesting a lack of appreciation for specific comedic styles., Dislike for some action films, indicating that not all entries in the genre resonate with the user..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, often rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys thrillers, as indicated by multiple high ratings in this genre.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "Romantic elements are frequently appreciated, with several high ratings for films that incorporate romance.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user has a mixed response to comedies, with some rated highly and others poorly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Action films receive a varied response, with some rated positively, indicating an interest in the genre.",
+          "taste": "Action"
+        }
+      ]
+    },
+    "user_id": 3330
+  }
+}

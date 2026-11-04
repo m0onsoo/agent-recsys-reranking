@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "cf9056ae32331c8974440a1ebfaa08570860d8977dd669c4bab04db2542112b7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      434,
+      1062,
+      1546,
+      142,
+      418,
+      756,
+      39,
+      796,
+      1584,
+      662
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "4e72bfa7fb154fc497676983c5b89b60"
+    ],
+    "sampled_item_ids": [
+      24,
+      52,
+      62,
+      88,
+      101,
+      260,
+      273,
+      284,
+      299,
+      367,
+      373,
+      412,
+      624,
+      687,
+      757,
+      832,
+      958,
+      995,
+      1043,
+      1062,
+      1071,
+      2126,
+      2263,
+      2790,
+      2894
+    ],
+    "seed": 42,
+    "source_hash": "b3f6b21558a34eea45d9298d1a43a509565a5fc1e2b24ae1728b0cefaa0f0d02",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2608,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Rene Russo",
+          "John Malkovich",
+          "Dylan McDermott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Veteran Secret Service agent Frank Horrigan is a man haunted by his failure to save President Kennedy while serving protection detail in Dallas. Thirty years later, a man calling himself \"Booth\" threatens the life of the current President, forcing Horrigan to come back to protection detail to confront the ghosts from his past.",
+        "release_date": "1993-07-08",
+        "release_year": "1993",
+        "title": "In the Line of Fire"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Ione Skye",
+          "John Mahoney",
+          "Lili Taylor"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A budding romance between noble underachiever Lloyd Dobler and high school valedictorian Diane Court is threatened when Diane's overly possessive, disapproving father interferes with their relationship. With a prized scholarship to study abroad hanging in the balance, Diane must find a way to make both men happy.",
+        "release_date": "1989-04-14",
+        "release_year": "1989",
+        "title": "Say Anything..."
+      },
+      {
+        "cast": [
+          "Sam Waterston",
+          "Haing S. Ngor",
+          "Craig T. Nelson",
+          "John Malkovich"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Roland Joffé",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The Killing Fields tells the real life story of a friendship between two journalists, an American and a Cambodian, during the bloody Khmer Rouge takeover of Cambodia in 1975, which lead to the death of 2-3 million Cambodians during the next four years, until Pol Pot's regime was toppled by the intervening Vietnamese in 1979.",
+        "release_date": "1984-11-02",
+        "release_year": "1984",
+        "title": "Killing Fields, The"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Martin Landau",
+          "Sarah Jessica Parker",
+          "Patricia Arquette"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The mostly true story of the legendary \"worst director of all time\", who, with the help of his strange friends, filmed countless B-movies without ever becoming famous or successful.",
+        "release_date": "1994-09-27",
+        "release_year": "1994",
+        "title": "Ed Wood"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Emma Thompson",
+          "Hugh Grant",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ang Lee",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Rich Mr. Dashwood dies, leaving his second wife and her daughters poor by the rules of inheritance. Two daughters are the titular opposites.",
+        "release_date": "1995-12-13",
+        "release_year": "1995",
+        "title": "Sense and Sensibility"
+      },
+      {
+        "cast": [
+          "Dan Aykroyd",
+          "John Belushi",
+          "James Brown",
+          "Cab Calloway"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Jake Blues is just out of jail, and teams up with his brother, Elwood on a 'mission from God' to raise funds for the orphanage in which they grew up. The only thing they can do is do what they do best – play music – so they get their old band together and they're on their way, while getting in a bit of trouble here and there.",
+        "release_date": "1980-06-17",
+        "release_year": "1980",
+        "title": "Blues Brothers, The"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "William Gates",
+          "Arthur Agee",
+          "Steve James"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve James",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "This documentary follows two inner-city Chicago residents, Arthur Agee and William Gates, as they follow their dreams of becoming basketball superstars. Beginning at the start of their high school years, and ending almost 5 years later, as they start college, we watch the boys mature into men, still retaining their \"Hoop Dreams\".",
+        "release_date": "1994-09-12",
+        "release_year": "1994",
+        "title": "Hoop Dreams"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Christian Slater",
+          "Helmut Qualtinger",
+          "Elya Baskin"
+        ],
+        "country": [
+          "France",
+          "Italy",
+          "Germany"
+        ],
+        "director": "Jean-Jacques Annaud",
+        "genres": [
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "14th-century Franciscan monk William of Baskerville and his young novice arrive at a conference to find that several monks have been murdered under mysterious circumstances. To solve the crimes, William must rise up against the Church's authority and fight the shadowy conspiracy of monastery monks using only his intelligence – which is considerable.",
+        "release_date": "1986-09-24",
+        "release_year": "1986",
+        "title": "Name of the Rose, The"
+      },
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      }
+    ],
+    "raw_user_id": "2608",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 184
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9453335001670741
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for war-themed dramas",
+        "Dislike for certain comedies",
+        "Negative reception of specific dramatic narratives"
+      ],
+      "liked_patterns": [
+        "High ratings for drama films",
+        "Positive reception of crime and thriller genres",
+        "Strong appreciation for comedy films"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user has rated multiple drama films highly, indicating a strong preference for this genre.); Interest in Crime and Thriller (The user enjoys crime and thriller genres, as evidenced by high ratings for several films in these categories.); Fondness for Comedy (The user has rated several comedies positively, suggesting a liking for humor and light-hearted storytelling.); Engagement with Historical and War Themes (The user shows a preference for films that explore historical and war-related themes, reflected in their high ratings.); Enjoyment of Romantic Elements (The user appreciates films that incorporate romance, as indicated by positive ratings for movies with romantic themes.). Liked patterns: High ratings for drama films, Positive reception of crime and thriller genres, Strong appreciation for comedy films. Disliked patterns: Low ratings for war-themed dramas, Dislike for certain comedies, Negative reception of specific dramatic narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user enjoys crime and thriller genres, as evidenced by high ratings for several films in these categories.",
+          "taste": "Interest in Crime and Thriller"
+        },
+        {
+          "reason": "The user has rated several comedies positively, suggesting a liking for humor and light-hearted storytelling.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user shows a preference for films that explore historical and war-related themes, reflected in their high ratings.",
+          "taste": "Engagement with Historical and War Themes"
+        },
+        {
+          "reason": "The user appreciates films that incorporate romance, as indicated by positive ratings for movies with romantic themes.",
+          "taste": "Enjoyment of Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 2608
+  }
+}

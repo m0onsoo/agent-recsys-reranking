@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "85b9ad801145286b1b2de403561196bdf849496cb3db0fd3ce840a584b6b1ee3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      712,
+      210,
+      506,
+      1015,
+      152,
+      536,
+      81,
+      135,
+      1457,
+      63
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "516869f35f4849debe571ef383fbde7a"
+    ],
+    "sampled_item_ids": [
+      6,
+      42,
+      52,
+      81,
+      85,
+      125,
+      128,
+      133,
+      145,
+      168,
+      210,
+      214,
+      216,
+      218,
+      238,
+      260,
+      382,
+      536,
+      712,
+      1015,
+      1019,
+      1111,
+      1183,
+      1457,
+      1467
+    ],
+    "seed": 42,
+    "source_hash": "b9c2a9e42d43b95480c164872be97890c6eabb1a347e0156ad2600031781f298",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 236,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "customer service"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Gary Busey",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Veteran buttoned-down LAPD detective Roger Murtaugh is partnered with unhinged cop Martin Riggs, who -- distraught after his wife's death -- has a death wish and takes unnecessary risks with criminals at every turn. The odd couple embark on their first homicide investigation as partners, involving a young woman known to Murtaugh with ties to a drug and prostitution ring.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Lethal Weapon"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Nicoletta Braschi",
+          "Roberto Benigni",
+          "Giorgio Cantarini",
+          "Giustino Durano"
+        ],
+        "country": [
+          "Italy"
+        ],
+        "director": "Roberto Benigni",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Italian",
+        "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
+        "release_date": "1997-12-20",
+        "release_year": "1997",
+        "title": "Life Is Beautiful (La Vita è bella)"
+      },
+      {
+        "cast": [
+          "Rufus Sewell",
+          "William Hurt",
+          "Kiefer Sutherland",
+          "Jennifer Connelly"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "release_date": "1998-02-27",
+        "release_year": "1998",
+        "title": "Dark City"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "Peter Sallis"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Gromit finds himself being pushed out of his room and home by a new lodger who is actually a ruthless criminal (and a small penguin). The penguin is planning a robbery and needs to use Wallace and his mechanical remote controlled trousers to pull off the raid. However, Gromit is wise to the penguin and comes to the rescue.",
+        "release_date": "1993-12-17",
+        "release_year": "1993",
+        "title": "Wrong Trousers, The"
+      },
+      {
+        "cast": [
+          "Ashley Judd",
+          "Ian Michael Smith",
+          "Joseph Mazzello",
+          "Oliver Platt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Steven Johnson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Simon Birch tells the story of Joe and Simon's heart-warming journey of friendship. Simon Birch was born with a condition that makes him much smaller than all the other kids in town. Now, due to his condition, Simon thinks God made him this way for a reason and highly believes in God. Together, Joe and Simon go on a journey of trust and friendship to find the answers to many things. Their friendship is put to the test when some unfortunate events happen.",
+        "release_date": "1998-09-11",
+        "release_year": "1998",
+        "title": "Simon Birch"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "John Getz",
+          "Frances McDormand",
+          "Dan Hedaya",
+          "M. Emmet Walsh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Drama",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "The owner of a seedy small-town Texas bar discovers that one of his employees is having an affair with his wife. A chaotic chain of misunderstandings, lies and mischief ensues after he devises a plot to have them murdered.",
+        "release_date": "1984-09-07",
+        "release_year": "1984",
+        "title": "Blood Simple"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      }
+    ],
+    "raw_user_id": "236",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 50
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.2244047406962977
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films with low emotional engagement",
+        "Negative response to poorly executed thrillers",
+        "Dislike for films that lack character development"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure genres",
+        "Enjoyment of films that combine drama with humor",
+        "Appreciation for thrillers that include crime elements"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Drama with Emotional Depth (The user appreciates dramas that explore complex emotional themes and character development.); Thrillers with Intriguing Plots (The user is drawn to thrillers that offer suspenseful narratives and unexpected twists.); Comedy with Heart (The user favors comedies that blend humor with meaningful storytelling.); Sci-Fi with Philosophical Themes (The user enjoys science fiction films that provoke thought and explore deeper philosophical questions.). Liked patterns: Strong preference for action and adventure genres, Enjoyment of films that combine drama with humor, Appreciation for thrillers that include crime elements. Disliked patterns: Dislike for films with low emotional engagement, Negative response to poorly executed thrillers, Dislike for films that lack character development.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex emotional themes and character development.",
+          "taste": "Drama with Emotional Depth"
+        },
+        {
+          "reason": "The user is drawn to thrillers that offer suspenseful narratives and unexpected twists.",
+          "taste": "Thrillers with Intriguing Plots"
+        },
+        {
+          "reason": "The user favors comedies that blend humor with meaningful storytelling.",
+          "taste": "Comedy with Heart"
+        },
+        {
+          "reason": "The user enjoys science fiction films that provoke thought and explore deeper philosophical questions.",
+          "taste": "Sci-Fi with Philosophical Themes"
+        }
+      ]
+    },
+    "user_id": 236
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "72871afc04155db74ef7734b8e0383cb31ab09c350a563eb02a893849e85919f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      24,
+      332,
+      539,
+      215,
+      151,
+      679,
+      75,
+      1372,
+      431,
+      23
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      8,
+      24,
+      48,
+      85,
+      119,
+      134,
+      168,
+      196,
+      211,
+      216,
+      243,
+      350,
+      469,
+      515,
+      529,
+      592,
+      698,
+      714,
+      717,
+      755,
+      1017,
+      1073,
+      1229,
+      1372
+    ],
+    "seed": 42,
+    "source_hash": "f0efc21dcef44608956a8564754cec02554231dbe88c1e7696c3ab83982d2d0e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5339,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Danny Elfman",
+          "Chris Sarandon",
+          "Catherine O'Hara",
+          "William Hickey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Henry Selick",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.",
+        "release_date": "1993-10-09",
+        "release_year": "1993",
+        "title": "Nightmare Before Christmas, The"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Matthew McConaughey",
+          "James Woods",
+          "John Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Contact is a science fiction film about an encounter with alien intelligence. Based on the novel by Carl Sagan the film starred Jodie Foster as the one chosen scientist who must make some difficult decisions between her beliefs, the truth, and reality.",
+        "release_date": "1997-07-11",
+        "release_year": "1997",
+        "title": "Contact"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Carl Weathers",
+          "Elpidia Carrillo",
+          "Bill Duke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dutch and his group of commandos are hired by the CIA to rescue downed airmen from guerillas in a Central American jungle. The mission goes well but as they return they find that something is hunting them. Nearly invisible, it blends in with the forest, taking trophies from the bodies of its victims as it goes along. Occasionally seeing through its eyes, the audience sees it is an intelligent alien hunter, hunting them for sport, killing them off one at a time.",
+        "release_date": "1987-06-11",
+        "release_year": "1987",
+        "title": "Predator"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Willem Dafoe",
+          "Anne Archer",
+          "Joaquim de Almeida"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "CIA Analyst Jack Ryan is drawn into an illegal war fought by the US government against a Colombian drug cartel.",
+        "release_date": "1994-08-03",
+        "release_year": "1994",
+        "title": "Clear and Present Danger"
+      },
+      {
+        "cast": [
+          "Warwick Davis",
+          "Val Kilmer",
+          "Joanne Whalley",
+          "Jean Marsh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Fearful of a prophecy stating that a girl child will be born to bring about her downfall, the evil Queen Bavmorda imprisons all pregnant women within the formidable stronghold of Nockmaar. A child, Elora Danan, is born in the Nockmaar dungeons and identified as the prophesied child by a birthmark on her arm. However, before the black sorceress arrives to claim the child, Elora's mother convinces her reluctant midwife to escape with the baby. Willow, a timid farmer and aspiring sorcerer, is entrusted with delivering the royal infant from evil.",
+        "release_date": "1988-05-01",
+        "release_year": "1988",
+        "title": "Willow"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "William Baldwin",
+          "Robert De Niro",
+          "Donald Sutherland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "They say a blast of flames can take a life ... and hide a secret. But now firemen brothers Brian and Stephen McCaffrey are battling each other over past slights while trying to stop an arsonist with a diabolical agenda from torching Chicago.",
+        "release_date": "1991-05-24",
+        "release_year": "1991",
+        "title": "Backdraft"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Richard Crenna",
+          "Brian Dennehy",
+          "Bill McKinney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ted Kotcheff",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "When former Green Beret John Rambo is harassed by local law enforcement and arrested for vagrancy, the Vietnam vet snaps, runs for the hills and rat-a-tat-tats his way into the action-movie hall of fame. Hounded by a relentless sheriff, Rambo employs heavy-handed guerilla tactics to shake the cops off his tail.",
+        "release_date": "1982-10-22",
+        "release_year": "1982",
+        "title": "First Blood"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Michelle Yeoh",
+          "Maggie Cheung",
+          "Kenneth Tsang"
+        ],
+        "country": [
+          "Hong Kong"
+        ],
+        "director": "Stanley Tong",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "A Hong Kong detective teams up with his female Red Chinese counterpart to stop a Chinese drug czar.",
+        "release_date": "1992-07-04",
+        "release_year": "1992",
+        "title": "Supercop"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      }
+    ],
+    "raw_user_id": "5339",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 88
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7445356306824759
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for poorly received action films",
+        "Dislike for films with weak narratives",
+        "Negative reception of certain sci-fi films"
+      ],
+      "liked_patterns": [
+        "High ratings for drama films",
+        "Positive reception of action and adventure genres",
+        "Favoring comedies with engaging plots"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for emotional and thought-provoking narratives.); Enjoyment of Action and Adventure (Multiple action and adventure films receive favorable ratings, suggesting a liking for excitement and dynamic storytelling.); Fondness for Comedy (The user rates several comedies positively, showing an appreciation for humor and light-hearted entertainment.); Interest in Sci-Fi and Fantasy (The user has rated several sci-fi and fantasy films well, indicating a taste for imaginative and speculative storytelling.); Preference for Strong Character Development (High ratings for films with complex characters suggest the user values character-driven stories.). Liked patterns: High ratings for drama films, Positive reception of action and adventure genres, Favoring comedies with engaging plots. Disliked patterns: Low ratings for poorly received action films, Dislike for films with weak narratives, Negative reception of certain sci-fi films.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for emotional and thought-provoking narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Multiple action and adventure films receive favorable ratings, suggesting a liking for excitement and dynamic storytelling.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user rates several comedies positively, showing an appreciation for humor and light-hearted entertainment.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user has rated several sci-fi and fantasy films well, indicating a taste for imaginative and speculative storytelling.",
+          "taste": "Interest in Sci-Fi and Fantasy"
+        },
+        {
+          "reason": "High ratings for films with complex characters suggest the user values character-driven stories.",
+          "taste": "Preference for Strong Character Development"
+        }
+      ]
+    },
+    "user_id": 5339
+  }
+}

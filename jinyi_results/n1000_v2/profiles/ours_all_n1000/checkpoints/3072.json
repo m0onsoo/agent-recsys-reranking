@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "6bf0fbb542dca3801ca95b93fb3fc621dd78bb976acef471d64165508344f006",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1960,
+      1875,
+      1293,
+      370,
+      8,
+      245,
+      567,
+      14,
+      124,
+      1121
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "db0420e0ad10424ab79e5f8a8db193c8"
+    ],
+    "sampled_item_ids": [
+      23,
+      116,
+      124,
+      141,
+      213,
+      247,
+      351,
+      422,
+      515,
+      516,
+      552,
+      567,
+      684,
+      724,
+      901,
+      1002,
+      1084,
+      1097,
+      1107,
+      1121,
+      1298,
+      1323,
+      2757,
+      3210,
+      3317
+    ],
+    "seed": 42,
+    "source_hash": "368a948fce0d81512ea277d5bcd63d576ea38a25211bd6bb9f8735f07b39ebbd",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3072,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Woody Allen",
+          "Mia Farrow",
+          "Jeff Daniels",
+          "Larry David"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Narrator (Woody Allen) tells us how the radio influenced his childhood in the days before TV. In the New York City of the late 1930s to the New Year's Eve 1944, this coming-of-age tale mixes the narrator's experiences with contemporary anecdotes and urban legends of the radio stars.",
+        "release_date": "1987-01-30",
+        "release_year": "1987",
+        "title": "Radio Days"
+      },
+      {
+        "cast": [
+          "Harvey Keitel",
+          "John Turturro",
+          "Delroy Lindo",
+          "Mekhi Phifer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Lee",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Strike is a young city drug pusher under the tutelage of drug-lord Rodney Little.When a night man at a fast-food restaurant is found with four bullets in his body, Strike's older brother turns himself in as the killer. Det. Rocco Klein doesn't buy the story, however, and sets out to find the truth, and it seems that all the fingers point toward Strike &amp; Rodney.",
+        "release_date": "1995-09-15",
+        "release_year": "1995",
+        "title": "Clockers"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Martin Landau",
+          "Anjelica Huston",
+          "Joanna Gleason"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "An ophthalmologist's mistress threatens to reveal their affair to his wife, while a married documentary filmmaker is infatuated by another woman.",
+        "release_date": "1989-10-13",
+        "release_year": "1989",
+        "title": "Crimes and Misdemeanors"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Richard Briers",
+          "Michael Keaton",
+          "Robert Sean Leonard"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this Shakespearean farce, Hero and her groom-to-be, Claudio, team up with Claudio's commanding officer, Don Pedro, the week before their wedding to hatch a matchmaking scheme. Their targets are sharp-witted duo Benedick and Beatrice -- a tough task indeed, considering their corresponding distaste for love and each other. Meanwhile, meddling Don John plots to ruin the wedding.",
+        "release_date": "1993-05-07",
+        "release_year": "1993",
+        "title": "Much Ado About Nothing"
+      },
+      {
+        "cast": [
+          "Melinda Dillon",
+          "Darren McGavin",
+          "Peter Billingsley",
+          "Jean Shepherd"
+        ],
+        "country": [
+          "United States of America",
+          "Canada"
+        ],
+        "director": "Bob Clark",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The comic mishaps and adventures of a young boy named Ralph, trying to convince his parents, teachers, and Santa that a Red Ryder B.B. gun really is the perfect Christmas gift for the 1940s.",
+        "release_date": "1983-11-18",
+        "release_year": "1983",
+        "title": "Christmas Story, A"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "Macaulay Culkin",
+          "Joe Pesci",
+          "Daniel Stern",
+          "John Heard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Columbus",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Eight-year-old Kevin McCallister makes the most of the situation after his family unwittingly leaves him behind when they go on Christmas vacation. But when a pair of bungling burglars set their sights on Kevin's house, the plucky kid stands ready to defend his territory. By planting booby traps galore, adorably mischievous Kevin stands his ground as his frantic mother attempts to race home before.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Home Alone"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Alan Ruck",
+          "Mia Sara",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Charismatic teen Ferris Bueller plays hooky in Chicago with his girlfriend and best friend.",
+        "release_date": "1986-06-11",
+        "release_year": "1986",
+        "title": "Ferris Bueller's Day Off"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Mary McDonnell",
+          "Graham Greene",
+          "Rodney A. Grant"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kevin Costner",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Wounded Civil War soldier, John Dunbar tries to commit suicide – and becomes a hero instead. As a reward, he's assigned to his dream post, a remote junction on the Western frontier, and soon makes unlikely friends with the local Sioux tribe.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Dances with Wolves"
+      },
+      {
+        "cast": [
+          "Michael Moore",
+          "Roger B. Smith",
+          "Rhonda Britton",
+          "Fred Ross"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Moore",
+        "genres": [
+          "Comedy",
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A documentary about the closure of General Motors' plant at Flint, Michigan, which resulted in the loss of 30,000 jobs. Details the attempts of filmmaker Michael Moore to get an interview with GM CEO Roger Smith.",
+        "release_date": "1989-09-01",
+        "release_year": "1989",
+        "title": "Roger & Me"
+      }
+    ],
+    "raw_user_id": "3072",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 169
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7683220466818983
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that lack depth or originality.",
+        "Dislike for musicals that do not resonate emotionally."
+      ],
+      "liked_patterns": [
+        "High ratings for drama films that explore complex relationships and societal issues.",
+        "Positive reception of comedies that blend humor with deeper themes.",
+        "Strong appreciation for films that combine romance with drama."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for emotional and narrative depth.); Enjoyment of Comedy (The user has rated several comedies positively, suggesting a fondness for humor and light-hearted storytelling.); Interest in Romance (The user shows a liking for romantic themes, as evidenced by high ratings for films that incorporate romance.); Affinity for Historical and War Themes (The user appreciates films that explore historical and war-related narratives, as reflected in their ratings.); Preference for Sci-Fi Elements (The user enjoys films that blend comedy with sci-fi elements, indicating a taste for imaginative storytelling.). Liked patterns: High ratings for drama films that explore complex relationships and societal issues., Positive reception of comedies that blend humor with deeper themes., Strong appreciation for films that combine romance with drama.. Disliked patterns: Low ratings for comedies that lack depth or originality., Dislike for musicals that do not resonate emotionally..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for emotional and narrative depth.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user has rated several comedies positively, suggesting a fondness for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for romantic themes, as evidenced by high ratings for films that incorporate romance.",
+          "taste": "Interest in Romance"
+        },
+        {
+          "reason": "The user appreciates films that explore historical and war-related narratives, as reflected in their ratings.",
+          "taste": "Affinity for Historical and War Themes"
+        },
+        {
+          "reason": "The user enjoys films that blend comedy with sci-fi elements, indicating a taste for imaginative storytelling.",
+          "taste": "Preference for Sci-Fi Elements"
+        }
+      ]
+    },
+    "user_id": 3072
+  }
+}

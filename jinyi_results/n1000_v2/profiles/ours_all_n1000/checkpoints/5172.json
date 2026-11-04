@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "9ea4a71b56fd429eb440f3ecd6d1fc0ab50d9b544bf8c36491bd3ecec79308a9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      218,
+      1183,
+      892,
+      247,
+      664,
+      291,
+      1940,
+      572,
+      1464,
+      327
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      1,
+      10,
+      121,
+      185,
+      187,
+      230,
+      346,
+      349,
+      454,
+      528,
+      535,
+      697,
+      719,
+      734,
+      770,
+      802,
+      829,
+      863,
+      901,
+      1026,
+      1095,
+      1119,
+      1374,
+      1746,
+      2123
+    ],
+    "seed": 42,
+    "source_hash": "3c094dbc13b24e5cba69ec35f09ee9bff3773164d7cef5f97f1f26fff82c8e2d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5172,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Molly Ringwald",
+          "J.T. Walsh"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "George Hickenlooper",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "25 years after committing a double murder, Karl Childers is going to be released from an institution for the criminally insane. A local reporter comes to talk to him, and listens in horror about his life leading up to the crime. This is the short film that inspired the full-length \"Sling Blade\"",
+        "release_date": "1994-03-26",
+        "release_year": "1993",
+        "title": "Some Folks Call It a Sling Blade"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Rene Russo",
+          "Denis Leary",
+          "Ben Gazzara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A very rich and successful playboy amuses himself by stealing artwork, but may have met his match in a seductive detective.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Thomas Crown Affair, The"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "James Caan",
+          "Mandy Patinkin",
+          "Terence Stamp",
+          "Kevyn Major Howard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Graham Baker",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A few years from now, Earth will have the first contact with an alien civilisation. These aliens, known as Newcomers, slowly begin to be integrated into human society after years of quarantine.",
+        "release_date": "1988-10-07",
+        "release_year": "1988",
+        "title": "Alien Nation"
+      },
+      {
+        "cast": [
+          "Cameron Diaz",
+          "Ben Stiller",
+          "Matt Dillon",
+          "Lee Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Having never fully recovered from a prom date that became a total disaster, a man finally gets a chance to reunite with his old prom date, only to run up against other suitors including the sleazy detective he hired to find her.",
+        "release_date": "1998-07-15",
+        "release_year": "1998",
+        "title": "There's Something About Mary"
+      },
+      {
+        "cast": [
+          "John Goodman",
+          "Jim Broadbent",
+          "Celia Imrie",
+          "Tom Felton"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Peter Hewitt",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "The four-inch-tall Clock family secretly share a house with the normal-sized Lender family, \"borrowing\" such items as thread, safety pins, batteries and scraps of food. However, their peaceful co-existence is disturbed when evil lawyer Ocious P. Potter steals the will granting title to the house, which he plans to demolish in order to build apartments. The Lenders are forced to move, and the Clocks face the risk of being exposed to the normal-sized world.",
+        "release_date": "1997-12-05",
+        "release_year": "1997",
+        "title": "Borrowers, The"
+      },
+      {
+        "cast": [
+          "Brendan Fraser",
+          "Alicia Silverstone",
+          "Christopher Walken",
+          "Sissy Spacek"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hugh Wilson",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Following a bomb scare in the 1960s that locked the Webers into their bomb shelter for 35 years, Adam now ventures forth into Los Angeles to obtain food and supplies for his family, and a non-mutant wife for himself.",
+        "release_date": "1999-02-12",
+        "release_year": "1999",
+        "title": "Blast from the Past"
+      },
+      {
+        "cast": [
+          "Wallace Shawn",
+          "Julianne Moore",
+          "Larry Pine",
+          "Brooke Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Louis Malle",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An uninterrupted rehersal of Chekhov's \"Uncle Vanya\" played out by a company of actors. The setting is their run down theater with an unusable stage and crumbling ceiling. The play is shown act by act with the briefest of breaks to move props or for refreshments. The lack of costumes, real props and scenery is soon forgotten.",
+        "release_date": "1994-09-13",
+        "release_year": "1994",
+        "title": "Vanya on 42nd Street"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Mark Wahlberg",
+          "Ice Cube",
+          "Spike Jonze"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David O. Russell",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A group of American soldiers stationed in Iraq at the end of the Gulf War find a map they believe will take them to a huge cache of stolen Kuwaiti gold hidden near their base, and they embark on a secret mission that's destined to change everything.",
+        "release_date": "1999-09-27",
+        "release_year": "1999",
+        "title": "Three Kings"
+      }
+    ],
+    "raw_user_id": "5172",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 366
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6982124481033398
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films, as evidenced by a low rating.",
+        "Negative reception of certain children's films, indicating a lack of interest in that genre."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies and dramas, often rated 4 or 5 stars.",
+        "Enjoyment of adventure films, frequently receiving positive ratings.",
+        "Positive reception of romantic comedies, indicating a liking for light-hearted romance."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, often rating them highly, indicating a strong preference for humor in films.); Interest in Drama (The user rates several drama films positively, suggesting a taste for emotional and character-driven narratives.); Enjoyment of Adventure (The user shows a liking for adventure films, as evidenced by multiple high ratings in this genre.); Affinity for Romance (The user rates romantic comedies favorably, indicating a preference for light-hearted love stories.); Engagement with Thrillers (The user has rated several thrillers positively, suggesting an interest in suspenseful and gripping narratives.). Liked patterns: Strong preference for comedies and dramas, often rated 4 or 5 stars., Enjoyment of adventure films, frequently receiving positive ratings., Positive reception of romantic comedies, indicating a liking for light-hearted romance.. Disliked patterns: Dislike for horror films, as evidenced by a low rating., Negative reception of certain children's films, indicating a lack of interest in that genre..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly, indicating a strong preference for humor in films.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several drama films positively, suggesting a taste for emotional and character-driven narratives.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user shows a liking for adventure films, as evidenced by multiple high ratings in this genre.",
+          "taste": "Enjoyment of Adventure"
+        },
+        {
+          "reason": "The user rates romantic comedies favorably, indicating a preference for light-hearted love stories.",
+          "taste": "Affinity for Romance"
+        },
+        {
+          "reason": "The user has rated several thrillers positively, suggesting an interest in suspenseful and gripping narratives.",
+          "taste": "Engagement with Thrillers"
+        }
+      ]
+    },
+    "user_id": 5172
+  }
+}

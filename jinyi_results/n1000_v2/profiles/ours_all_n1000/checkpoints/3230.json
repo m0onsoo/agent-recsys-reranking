@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "d9227a5f92f10b5e6065d4f9378a11fa821fde138df5a86c8b2f829cd4beb9f2",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1227,
+      377,
+      189,
+      1902,
+      161,
+      218,
+      203,
+      120,
+      1207,
+      2137
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "52fcc60af06847248ceb18f20f56d7f2"
+    ],
+    "sampled_item_ids": [
+      23,
+      35,
+      41,
+      51,
+      105,
+      113,
+      128,
+      150,
+      245,
+      264,
+      301,
+      383,
+      515,
+      523,
+      556,
+      647,
+      652,
+      734,
+      813,
+      883,
+      924,
+      1088,
+      1143,
+      1725,
+      1838
+    ],
+    "seed": 42,
+    "source_hash": "4e2fe1d9df64263336896e425f15e62dce4cb5fcc4c741c2eaed1d6c0b90e330",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3230,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jackie Chan",
+          "Anita Mui",
+          "Françoise Yip",
+          "Bill Tung"
+        ],
+        "country": [
+          "Hong Kong"
+        ],
+        "director": "Stanley Tong",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "Keong comes from Hong Kong to visit New York for his uncle's wedding. His uncle runs a market in the Bronx and Keong offers to help out while Uncle is on his honeymoon. During his stay in the Bronx, Keong befriends a neighbor kid and beats up some neighborhood thugs who cause problems at the market. One of those petty thugs in the local gang stumbles into a criminal situation way over his head.",
+        "release_date": "1995-01-30",
+        "release_year": "1995",
+        "title": "Rumble in the Bronx"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Madeleine Stowe",
+          "Brad Pitt",
+          "Christopher Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly, and patient Jeffrey Goines, the son of a famous virus expert, who may hold the key to the mysterious rogue group, the Army of the 12 Monkeys, thought to be responsible for unleashing the killer disease.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Twelve Monkeys"
+      },
+      {
+        "cast": [
+          "Wesley Snipes",
+          "Stephen Dorff",
+          "Kris Kristofferson",
+          "N'Bushe Wright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Norrington",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "When Blade's mother was bitten by a vampire during pregnancy, she did not know that she gave her son a special gift while dying: All the good vampire attributes in combination with the best human skills. Blade and his mentor Whistler battle an evil vampire rebel (Deacon Frost) who plans to take over the outdated vampire council, capture Blade and resurrect voracious blood god La Magra.",
+        "release_date": "1998-08-21",
+        "release_year": "1998",
+        "title": "Blade"
+      },
+      {
+        "cast": [
+          "Nicole de Boer",
+          "Nicky Guadagni",
+          "David Hewlett",
+          "Andrew Miller"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Vincenzo Natali",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Seven strangers are taken out of their daily lives and placed mysteriously in a deadly cube where they all agree they must find their way out.",
+        "release_date": "1997-09-09",
+        "release_year": "1997",
+        "title": "Cube"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Bill Pullman",
+          "Jeff Goldblum",
+          "Mary McDonnell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "On July 2, a giant alien mothership enters orbit around Earth and deploys several dozen saucer-shaped 'destroyer' spacecraft that quickly lay waste to major cities around the planet. On July 3, the United States conducts a coordinated counterattack that fails. On July 4, a plan is devised to gain access to the interior of the alien mothership in space, in order to plant a nuclear missile.",
+        "release_date": "1996-06-25",
+        "release_year": "1996",
+        "title": "Independence Day (ID4)"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Brendan Fraser",
+          "Rachel Weisz",
+          "John Hannah",
+          "Arnold Vosloo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Sommers",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dashing legionnaire Rick O'Connell and his companion, Beni stumble upon the hidden ruins of Hamunaptra while in the midst of a battle in 1923, 3,000 years after Imhotep has suffered a fate worse than death – his body will remain undead for all eternity as a punishment for a forbidden love.",
+        "release_date": "1999-04-16",
+        "release_year": "1999",
+        "title": "Mummy, The"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "On the eve of retirement, Kirk and McCoy are charged with assassinating the Klingon High Chancellor and imprisoned. The Enterprise crew must help them escape to thwart a conspiracy aimed at sabotaging the last best hope for peace.",
+        "release_date": "1991-12-05",
+        "release_year": "1991",
+        "title": "Star Trek VI: The Undiscovered Country"
+      },
+      {
+        "cast": [
+          "Kiefer Sutherland",
+          "Reese Witherspoon",
+          "Wolfgang Bodison",
+          "Dan Hedaya"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Matthew Bright",
+        "genres": [
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Following the arrest of her mother, Ramona, young Vanessa Lutz decides to go in search of her estranged grandmother. On the way, she is given a ride by school counselor Bob Wolverton. During the journey, Lutz begins to realize that Bob is the notorious I-5 Killer and manages to escape by shooting him several times. Wounded but still very much alive, Bob pursues Lutz across the state in this modern retelling of Little Red Riding Hood.",
+        "release_date": "1996-08-23",
+        "release_year": "1996",
+        "title": "Freeway"
+      },
+      {
+        "cast": [
+          "Craig Bierko",
+          "Armin Mueller-Stahl",
+          "Gretchen Mol",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Josef Rusnak",
+        "genres": [
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Computer scientist Hannon Fuller has discovered something extremely important. He's about to tell the discovery to his colleague, Douglas Hall, but knowing someone is after him, the old man leaves a letter in his computer generated parallel world that's just like the 30's with seemingly real people with real emotions.",
+        "release_date": "1999-04-16",
+        "release_year": "1999",
+        "title": "Thirteenth Floor, The"
+      }
+    ],
+    "raw_user_id": "3230",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 121
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1331893968898579
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films",
+        "Negative response to certain romantic comedies",
+        "Dislike for films with low comedic value"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films",
+        "Preference for comedies that blend with drama",
+        "Strong liking for action and adventure films"
+      ],
+      "summary": "Unique tastes: Animation and Children's Films (The user enjoys animated films that appeal to children, as evidenced by multiple high ratings for such movies.); Comedy with Dramatic Elements (The user appreciates comedies that incorporate dramatic themes, reflected in several high ratings for films blending these genres.); Action and Adventure (The user favors action and adventure films, indicated by consistent high ratings for movies in these genres.); Sci-Fi with Humor (The user shows a preference for science fiction films that include comedic elements, as seen in their ratings.); Romantic Comedies (The user enjoys romantic comedies, as indicated by their positive ratings for films that combine these genres.). Liked patterns: High ratings for animated films, Preference for comedies that blend with drama, Strong liking for action and adventure films. Disliked patterns: Dislike for horror films, Negative response to certain romantic comedies, Dislike for films with low comedic value.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films that appeal to children, as evidenced by multiple high ratings for such movies.",
+          "taste": "Animation and Children's Films"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate dramatic themes, reflected in several high ratings for films blending these genres.",
+          "taste": "Comedy with Dramatic Elements"
+        },
+        {
+          "reason": "The user favors action and adventure films, indicated by consistent high ratings for movies in these genres.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user shows a preference for science fiction films that include comedic elements, as seen in their ratings.",
+          "taste": "Sci-Fi with Humor"
+        },
+        {
+          "reason": "The user enjoys romantic comedies, as indicated by their positive ratings for films that combine these genres.",
+          "taste": "Romantic Comedies"
+        }
+      ]
+    },
+    "user_id": 3230
+  }
+}

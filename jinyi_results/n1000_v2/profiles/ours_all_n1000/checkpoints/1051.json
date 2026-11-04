@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "6540911712c5a6997ed00e188b2fbb5eaa4315aaa4cde51bc5039c7013f6bbe3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2503,
+      1980,
+      463,
+      1930,
+      58,
+      401,
+      886,
+      1220,
+      1955,
+      756
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "2db521a56e744b5a9ad45fa289e82d6d"
+    ],
+    "sampled_item_ids": [
+      61,
+      105,
+      148,
+      169,
+      177,
+      187,
+      276,
+      318,
+      353,
+      384,
+      400,
+      507,
+      606,
+      683,
+      768,
+      820,
+      918,
+      1055,
+      1384,
+      1400,
+      1586,
+      1773,
+      1785,
+      1830,
+      2962
+    ],
+    "seed": 42,
+    "source_hash": "7aca4d90e66d8afa7d0353f658a2c4dbb419e64d8197b27ee5788c6c01126c37",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1051,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Meryl Streep",
+          "Ed Begley Jr.",
+          "Linda Hunt",
+          "Roseanne Barr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Susan Seidelman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A cunning and resourceful housewife vows revenge on her husband when he begins an affair with a wealthy romance novelist.",
+        "release_date": "1989-12-08",
+        "release_year": "1989",
+        "title": "She-Devil"
+      },
+      {
+        "cast": [
+          "Tom Everett Scott",
+          "Julie Delpy",
+          "Vince Vieluf",
+          "Julie Bowen"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "Luxembourg",
+          "Netherlands",
+          "United States of America"
+        ],
+        "director": "Anthony Waller",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An American man unwittingly gets involved with werewolves who have developed a serum allowing them to transform at will.",
+        "release_date": "1997-12-25",
+        "release_year": "1997",
+        "title": "American Werewolf in Paris, An"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Derek Jacobi",
+          "Julie Christie",
+          "Richard Briers"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Hamlet, Prince of Denmark, returns home to find his father murdered and his mother remarrying the murderer, his uncle. Meanwhile, war is brewing.",
+        "release_date": "1996-12-25",
+        "release_year": "1996",
+        "title": "Hamlet"
+      },
+      {
+        "cast": [
+          "Devon Sawa",
+          "Seth Green",
+          "Jessica Alba",
+          "Vivica A. Fox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rodman Flender",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Anton is a cheerful but exceedingly non-ambitious 17-year-old stoner who lives to stay buzzed, watch TV, and moon over Molly, the beautiful girl who lives next door. However, it turns out that the old cliché about idle hands being the devil's playground has a kernel of truth after all.",
+        "release_date": "1999-04-30",
+        "release_year": "1999",
+        "title": "Idle Hands"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Sean Connery",
+          "Charles Martin Smith",
+          "Andy García"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Young Treasury Agent Elliot Ness arrives in Chicago and is determined to take down Al Capone, but it's not going to be easy because Capone has the police in his pocket. Ness meets Jimmy Malone, a veteran patrolman and probably the most honorable one on the force. He asks Malone to help him get Capone, but Malone warns him that if he goes after Capone, he is going to war.",
+        "release_date": "1987-06-02",
+        "release_year": "1987",
+        "title": "Untouchables, The"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Dermot Mulroney",
+          "Cameron Diaz",
+          "Rupert Everett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "P.J. Hogan",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When she receives word that her longtime platonic pal Michael O'Neal is getting married to debutante Kimberly Wallace, food critic Julianne Potter realizes her true feelings for Michael -- and sets out to sabotage the wedding.",
+        "release_date": "1997-06-19",
+        "release_year": "1997",
+        "title": "My Best Friend's Wedding"
+      },
+      {
+        "cast": [
+          "Christian Bale",
+          "Willem Dafoe",
+          "Jared Leto",
+          "Josh Lucas"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Mary Harron",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+        "release_date": "2000-04-13",
+        "release_year": "2000",
+        "title": "American Psycho"
+      },
+      {
+        "cast": [
+          "Pauly Shore",
+          "Stephen Baldwin",
+          "Joey Lauren Adams",
+          "Teresa Hill"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jason Bloom",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Bud and Doyle are two losers who are doing nothing with their lives. Both of their girlfriends are actively involved in saving the environment, but the two friends couldn't care less about saving the Earth. One day, when a group of scientists begin a mission to live inside a \"Bio-Dome\" for a year without outside contact, Bud and Doyle mistakenly become part of the project themselves.",
+        "release_date": "1996-01-12",
+        "release_year": "1996",
+        "title": "Bio-Dome"
+      },
+      {
+        "cast": [
+          "Elizabeth Berkley",
+          "Kyle MacLachlan",
+          "Gina Gershon",
+          "Glenn Plummer"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A young drifter named Nomi arrives in Las Vegas to become a dancer and soon sets about clawing and pushing her way to become a top showgirl.",
+        "release_date": "1995-09-22",
+        "release_year": "1995",
+        "title": "Showgirls"
+      },
+      {
+        "cast": [
+          "Dan Aykroyd",
+          "John Belushi",
+          "James Brown",
+          "Cab Calloway"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Jake Blues is just out of jail, and teams up with his brother, Elwood on a 'mission from God' to raise funds for the orphanage in which they grew up. The only thing they can do is do what they do best – play music – so they get their old band together and they're on their way, while getting in a bit of trouble here and there.",
+        "release_date": "1980-06-17",
+        "release_year": "1980",
+        "title": "Blues Brothers, The"
+      }
+    ],
+    "raw_user_id": "1051",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 690
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.2839175015444981
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for children's comedies, indicating a lack of interest in this subgenre.",
+        "Dislike for comedies that rely on slapstick or simplistic humor."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like comedy and thriller.",
+        "Strong preference for character-driven narratives that explore personal and societal issues.",
+        "Consistent enjoyment of films that feature action and adventure elements."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (Several comedies receive high ratings, suggesting a fondness for humor and light-hearted storytelling.); Interest in Action and Adventure (Action and adventure films are frequently rated positively, showing a liking for excitement and thrill.); Affinity for Character-Driven Stories (High ratings for films with deep character exploration suggest a preference for narratives that focus on personal journeys.); Value for Thought-Provoking Themes (The user enjoys films that tackle serious or complex themes, as seen in their ratings for impactful dramas.). Liked patterns: High ratings for films that blend drama with other genres like comedy and thriller., Strong preference for character-driven narratives that explore personal and societal issues., Consistent enjoyment of films that feature action and adventure elements.. Disliked patterns: Low ratings for children's comedies, indicating a lack of interest in this subgenre., Dislike for comedies that rely on slapstick or simplistic humor..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies receive high ratings, suggesting a fondness for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "Action and adventure films are frequently rated positively, showing a liking for excitement and thrill.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "High ratings for films with deep character exploration suggest a preference for narratives that focus on personal journeys.",
+          "taste": "Affinity for Character-Driven Stories"
+        },
+        {
+          "reason": "The user enjoys films that tackle serious or complex themes, as seen in their ratings for impactful dramas.",
+          "taste": "Value for Thought-Provoking Themes"
+        }
+      ]
+    },
+    "user_id": 1051
+  }
+}

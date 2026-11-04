@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "2e5134fa8f762cfc5a19d4e3141fb57dfa487ee23305ed18500cb1d96110c694",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      568,
+      383,
+      5,
+      668,
+      600,
+      149,
+      41,
+      584,
+      767,
+      734
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5166eba675494d218910d4f6731865fa"
+    ],
+    "sampled_item_ids": [
+      34,
+      65,
+      149,
+      164,
+      172,
+      317,
+      336,
+      372,
+      383,
+      490,
+      522,
+      538,
+      562,
+      568,
+      584,
+      600,
+      668,
+      732,
+      734,
+      767,
+      775,
+      984,
+      1080,
+      1147,
+      1178
+    ],
+    "seed": 42,
+    "source_hash": "1590260f6df15d60bc8e6e925a7cc219438e06af6bfcf92b2721ea1fa1966f0c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1076,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Patrick Swayze",
+          "Demi Moore",
+          "Whoopi Goldberg",
+          "Tony Goldwyn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Zucker",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Wheat is a banker, Molly Jensen is an artist, and the two are madly in love. However, when Sam is murdered by his friend and corrupt business partner Carl Bruner over a shady business deal, he is left to roam the earth as a powerless spirit. When he learns of Carl's betrayal, Sam must seek the help of psychic Oda Mae Brown to set things right and protect Molly from Carl and his goons.",
+        "release_date": "1990-07-12",
+        "release_year": "1990",
+        "title": "Ghost"
+      },
+      {
+        "cast": [
+          "Hugh Grant",
+          "Andie MacDowell",
+          "James Fleet",
+          "Simon Callow"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Four Weddings And A Funeral is a British comedy about a British Man named Charles and an American Woman named Carrie who go through numerous weddings before they determine if they are right for one another.",
+        "release_date": "1994-03-09",
+        "release_year": "1994",
+        "title": "Four Weddings and a Funeral"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Julia Louis-Dreyfus",
+          "Hayden Panettiere",
+          "Phyllis Diller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+        "release_date": "1998-11-25",
+        "release_year": "1998",
+        "title": "Bug's Life, A"
+      },
+      {
+        "cast": [
+          "Leon Robinson",
+          "Doug E. Doug",
+          "Rawle D. Lewis",
+          "Malik Yoba"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a Jamaican sprinter is disqualified from the Olympic Games, he enlists the help of a dishonored coach to start the first Jamaican Bobsled Team.",
+        "release_date": "1993-09-30",
+        "release_year": "1993",
+        "title": "Cool Runnings"
+      },
+      {
+        "cast": [
+          "Michael J. Nelson",
+          "Trace Beaulieu",
+          "Jim Mallon",
+          "Kevin Murphy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Mallon",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The mad and evil scientist, Dr. Clayton Forrester, has created an evil little scheme that is bound to give him world global domination but first things first. He plans to torment Mike Nelson and the robots by sending them a real stinker of a film to watch called, \"This Island Earth.\" He is convinced that this movie will drive them insane. Will this be the ultimate cheese that breaks the boys' spirits?",
+        "release_date": "1996-04-19",
+        "release_year": "1996",
+        "title": "Mystery Science Theater 3000: The Movie"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Jamie Lee Curtis",
+          "Tom Arnold",
+          "Bill Paxton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Harry Tasker is a secret agent for the United States Government. For years, he has kept his job from his wife, but is forced to reveal his identity and try to stop nuclear terrorists when he and his wife are kidnapped by them.",
+        "release_date": "1994-07-14",
+        "release_year": "1994",
+        "title": "True Lies"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Don Rickles",
+          "Jim Varney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+        "release_date": "1995-10-30",
+        "release_year": "1995",
+        "title": "Toy Story"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Andie MacDowell",
+          "William Hurt",
+          "Bob Hoskins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nora Ephron",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Tabloid reporters are sent by their editor to investigate after the paper recieves a letter from a woman claiming an angel is living with her.",
+        "release_date": "1996-12-25",
+        "release_year": "1996",
+        "title": "Michael"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Tim Allen",
+          "Sigourney Weaver",
+          "Alan Rickman",
+          "Tony Shalhoub"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dean Parisot",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.",
+        "release_date": "1999-12-23",
+        "release_year": "1999",
+        "title": "Galaxy Quest"
+      }
+    ],
+    "raw_user_id": "1076",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 33
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.7202172580980912
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack strong humor",
+        "Negative response to romantic comedies that are overly sentimental",
+        "Dislike for films with a serious tone lacking comedic elements"
+      ],
+      "liked_patterns": [
+        "Preference for comedies with romantic themes",
+        "Enjoyment of action films that include humor",
+        "Positive reception of animated comedies"
+      ],
+      "summary": "Unique tastes: Comedy (A strong preference for comedies is evident, with many high ratings for films in this genre.); Romantic elements in comedies (Several liked films combine romance with comedy, indicating a preference for lighthearted romantic narratives.); Action-comedy blend (Enjoyment of action films that incorporate comedic elements is reflected in the ratings.); Animated films (Positive ratings for animated films suggest an appreciation for family-friendly and whimsical storytelling.); Dramatic comedies (A liking for films that blend drama with comedy is shown through several ratings.). Liked patterns: Preference for comedies with romantic themes, Enjoyment of action films that include humor, Positive reception of animated comedies. Disliked patterns: Dislike for comedies that lack strong humor, Negative response to romantic comedies that are overly sentimental, Dislike for films with a serious tone lacking comedic elements.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for comedies is evident, with many high ratings for films in this genre.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Several liked films combine romance with comedy, indicating a preference for lighthearted romantic narratives.",
+          "taste": "Romantic elements in comedies"
+        },
+        {
+          "reason": "Enjoyment of action films that incorporate comedic elements is reflected in the ratings.",
+          "taste": "Action-comedy blend"
+        },
+        {
+          "reason": "Positive ratings for animated films suggest an appreciation for family-friendly and whimsical storytelling.",
+          "taste": "Animated films"
+        },
+        {
+          "reason": "A liking for films that blend drama with comedy is shown through several ratings.",
+          "taste": "Dramatic comedies"
+        }
+      ]
+    },
+    "user_id": 1076
+  }
+}

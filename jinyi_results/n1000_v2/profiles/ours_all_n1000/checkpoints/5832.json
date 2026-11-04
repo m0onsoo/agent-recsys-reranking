@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "1564ab90a9d456dfd0755b484652923b52e9faca09a75dc777ad0de32809eea0",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      125,
+      2123,
+      110,
+      471,
+      266,
+      1097,
+      700,
+      677,
+      1652,
+      1435
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      4,
+      19,
+      49,
+      65,
+      105,
+      129,
+      200,
+      259,
+      266,
+      278,
+      346,
+      359,
+      373,
+      391,
+      406,
+      500,
+      677,
+      991,
+      1097,
+      1498,
+      1652,
+      1921,
+      2089,
+      2159,
+      2475
+    ],
+    "seed": 42,
+    "source_hash": "b8089051f867888ebe11ea5faa44c197d6701fa43375d6f8e3cf64c776447fbf",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5832,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Willeke van Ammelrooy",
+          "Els Dottermans",
+          "Dora van der Groen",
+          "Veerle van Overloop"
+        ],
+        "country": [
+          "Netherlands",
+          "United Kingdom",
+          "Belgium"
+        ],
+        "director": "Marleen Gorris",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Dutch",
+        "overview": "After World War II, Antonia and her daughter, Danielle, go back to their Dutch hometown, where Antonia's late mother has bestowed a small farm upon her. There, Antonia settles down and joins a tightly-knit but unusual community. Those around her include quirky friend Crooked Finger, would-be suitor Bas and, eventually for Antonia, a granddaughter and great-granddaughter who help create a strong family of empowered women.",
+        "release_date": "1995-09-12",
+        "release_year": "1995",
+        "title": "Antonia's Line (Antonia)"
+      },
+      {
+        "cast": [
+          "Marco Leonardi",
+          "Lumi Cavazos",
+          "Regina Torné",
+          "Ada Carrasco"
+        ],
+        "country": [
+          "Mexico"
+        ],
+        "director": "Alfonso Aráu",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "Spanish",
+        "overview": "Tita is passionately in love with Pedro, but her controlling mother forbids her from marrying him. When Pedro marries her sister, Tita throws herself into her cooking and discovers she can transfer her emotions through the food she prepares, infecting all who eat it with her intense heartbreak.",
+        "release_date": "1992-04-16",
+        "release_year": "1992",
+        "title": "Like Water for Chocolate (Como agua para chocolate)"
+      },
+      {
+        "cast": [
+          "Ben Affleck",
+          "Joey Lauren Adams",
+          "Jason Lee",
+          "Dwight Ewell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Holden and Banky are comic book artists. Everything is going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's a lesbian.",
+        "release_date": "1997-04-04",
+        "release_year": "1997",
+        "title": "Chasing Amy"
+      },
+      {
+        "cast": [
+          "Christian Slater",
+          "Samantha Mathis",
+          "Annie Ross",
+          "Scott Paulin"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Allan Moyle",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Mark is an intelligent but shy teenager who has just moved to Arizona from the East Coast. His parents give him a short-wave radio so he can talk to his pals, but instead he sets up shop as pirate deejay Hard Harry, who becomes a hero to his peers while inspiring the wrath of the local high school principal.",
+        "release_date": "1990-08-22",
+        "release_year": "1990",
+        "title": "Pump Up the Volume"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Pete Postlethwaite",
+          "Emma Thompson",
+          "John Lynch"
+        ],
+        "country": [
+          "United Kingdom",
+          "Ireland"
+        ],
+        "director": "Jim Sheridan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A small time thief from Belfast, Gerry Conlon, is falsely implicated in the IRA bombing of a pub that kills several people while he is in London. He and his four friends are coerced by British police into confessing their guilt. Gerry's father and other relatives in London are also implicated in the crime. He spends fifteen years in prison with his father trying to prove his innocence.",
+        "release_date": "1993-12-12",
+        "release_year": "1993",
+        "title": "In the Name of the Father"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Dom DeLuise",
+          "Roger Rees",
+          "Dave Chappelle"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Robin Hood comes home after fighting in the Crusades to learn that the noble King Richard is in exile and that the despotic King John now rules England, with the help of the Sheriff of Rottingham. Robin Hood assembles a band of fellow patriots to do battle with King John and the Sheriff.",
+        "release_date": "1993-07-28",
+        "release_year": "1993",
+        "title": "Robin Hood: Men in Tights"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Tahnee Welch",
+          "Brian Dennehy",
+          "Don Ameche"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A group of aliens return to earth to take back some cocoons of their people they left behind from an earlier trip. They kept the recovered cocoons in the swimming pool of a house they rented in a small Florida town. Their mission is hampered by a number of old people from an elderly home nearby, who have been secretly using the pool and discovering the unusual power of these cocoons.",
+        "release_date": "1985-06-21",
+        "release_year": "1985",
+        "title": "Cocoon"
+      },
+      {
+        "cast": [
+          "Philippe Noiret",
+          "Jacques Perrin",
+          "Marco Leonardi",
+          "Salvatore Cascio"
+        ],
+        "country": [
+          "Italy",
+          "France"
+        ],
+        "director": "Giuseppe Tornatore",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "Italian",
+        "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
+        "release_date": "1988-11-17",
+        "release_year": "1988",
+        "title": "Cinema Paradiso"
+      },
+      {
+        "cast": [
+          "Matt Dillon",
+          "Noah Emmerich",
+          "Annabeth Gish",
+          "Lauren Holly"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ted Demme",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "During a snowy winter in the small fictional town of Knight\"s Ridge, Massachusetts, a group of lifelong buddies hang out, drink and struggle to connect with the women who affect their decisions, dreams and desires.",
+        "release_date": "1996-02-09",
+        "release_year": "1996",
+        "title": "Beautiful Girls"
+      }
+    ],
+    "raw_user_id": "5832",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 64
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.662590003042557
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that do not resonate or connect emotionally.",
+        "Negative response to films that lack engaging narratives or character development."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and character-driven stories.",
+        "Enjoyment of comedies that blend humor with other genres.",
+        "Appreciation for films that combine action with emotional or dramatic elements."
+      ],
+      "summary": "Unique tastes: Drama (The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.); Comedy (The user enjoys comedies, as evidenced by multiple high ratings for films in this genre, suggesting a taste for humor and lighthearted storytelling.); Action (The user appreciates action films, particularly those that blend with other genres like drama and sci-fi, indicating a preference for engaging and dynamic storytelling.); Romance (The user shows a liking for romantic elements within various genres, suggesting an appreciation for love stories and emotional connections.); Thriller (The user rates thrillers positively, indicating a taste for suspenseful and intense narratives that keep viewers engaged.). Liked patterns: Strong preference for drama and character-driven stories., Enjoyment of comedies that blend humor with other genres., Appreciation for films that combine action with emotional or dramatic elements.. Disliked patterns: Dislike for comedies that do not resonate or connect emotionally., Negative response to films that lack engaging narratives or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, as evidenced by multiple high ratings for films in this genre, suggesting a taste for humor and lighthearted storytelling.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates action films, particularly those that blend with other genres like drama and sci-fi, indicating a preference for engaging and dynamic storytelling.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user shows a liking for romantic elements within various genres, suggesting an appreciation for love stories and emotional connections.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user rates thrillers positively, indicating a taste for suspenseful and intense narratives that keep viewers engaged.",
+          "taste": "Thriller"
+        }
+      ]
+    },
+    "user_id": 5832
+  }
+}

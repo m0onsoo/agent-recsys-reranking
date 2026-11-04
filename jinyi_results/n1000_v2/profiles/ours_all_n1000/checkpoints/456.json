@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "569eb5cc10c53b9cb9c8fe245c86dfc84d880fb2791e82e3f50a1d076ce37e22",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      14,
+      135,
+      606,
+      926,
+      662,
+      1337,
+      114,
+      846,
+      715,
+      1584
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b0a8a48023bf41e0b0670129267bd243"
+    ],
+    "sampled_item_ids": [
+      14,
+      51,
+      68,
+      93,
+      116,
+      125,
+      148,
+      237,
+      264,
+      524,
+      568,
+      645,
+      662,
+      665,
+      703,
+      720,
+      749,
+      1155,
+      1337,
+      1467,
+      1477,
+      1700,
+      1716,
+      1920,
+      2379
+    ],
+    "seed": 42,
+    "source_hash": "32257320bd06ee296ee85998ca4d3d1813bf0f0a1ef678c2de75184aab7c1723",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 456,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Alan Ruck",
+          "Mia Sara",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Charismatic teen Ferris Bueller plays hooky in Chicago with his girlfriend and best friend.",
+        "release_date": "1986-06-11",
+        "release_year": "1986",
+        "title": "Ferris Bueller's Day Off"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "James Spader",
+          "Jaye Davidson",
+          "Viveca Lindfors"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
+        "release_date": "1994-10-27",
+        "release_year": "1994",
+        "title": "Stargate"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sharon Stone",
+          "George Dzundza",
+          "Jeanne Tripplehorn"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A police detective is in charge of the investigation of a brutal murder, in which a beautiful and seductive woman could be involved.",
+        "release_date": "1992-03-20",
+        "release_year": "1992",
+        "title": "Basic Instinct"
+      },
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      },
+      {
+        "cast": [
+          "Patrick Swayze",
+          "C. Thomas Howell",
+          "Lea Thompson",
+          "Darren Dalton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Milius",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "It is the mid-1980s. From out of the sky, Soviet and Cuban troops begin landing on the football field of a Colorado high school. In seconds, the paratroops have attacked the school and sent a group of teenagers fleeing into the mountains. Armed only with hunting rifles, pistols and bows and arrows, the teens struggles to survive the bitter winter and Soviet KGB patrols hunting for them.",
+        "release_date": "1984-08-10",
+        "release_year": "1984",
+        "title": "Red Dawn"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "John Wayne",
+          "Kim Darby",
+          "Jeremy Slate",
+          "Dennis Hopper"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Henry Hathaway",
+        "genres": [
+          "Adventure",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "The murder of her father sends a teenage tomboy, Mattie Ross (Kim Darby), on a mission of \"justice\", which involves avenging her father's death. She recruits a tough old marshal, \"Rooster\" Cogburn (John Wayne), because he has \"grit\", and a reputation of getting the job done. The two are joined by a Texas Ranger, La Boeuf (Glen Campbell), who is looking for the same man (Jeff Corey) for a separate murder in Texas. Their odyssey takes them from Fort Smith, Arkansas, deep into the Indian Territory (present day Oklahoma) to find their man.",
+        "release_date": "1969-06-11",
+        "release_year": "1969",
+        "title": "True Grit"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Michael Biehn",
+          "James Remar",
+          "Paul Reiser"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
+        "release_date": "1986-07-18",
+        "release_year": "1986",
+        "title": "Aliens"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Christian Slater",
+          "Helmut Qualtinger",
+          "Elya Baskin"
+        ],
+        "country": [
+          "France",
+          "Italy",
+          "Germany"
+        ],
+        "director": "Jean-Jacques Annaud",
+        "genres": [
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "14th-century Franciscan monk William of Baskerville and his young novice arrive at a conference to find that several monks have been murdered under mysterious circumstances. To solve the crimes, William must rise up against the Church's authority and fight the shadowy conspiracy of monastery monks using only his intelligence – which is considerable.",
+        "release_date": "1986-09-24",
+        "release_year": "1986",
+        "title": "Name of the Rose, The"
+      }
+    ],
+    "raw_user_id": "456",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 127
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7923823244396861
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for certain action films that lack depth",
+        "Dislike for war dramas that are overly bleak",
+        "Dislike for specific sci-fi films that do not resonate"
+      ],
+      "liked_patterns": [
+        "Preference for action and adventure genres",
+        "Enjoyment of dramas that explore war themes",
+        "Interest in comedies that blend romance"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives that often include adventure elements.); Drama with War Themes (The user appreciates dramatic films that explore themes of war and its impact on characters.); Comedy with Romantic Elements (The user likes comedies that incorporate romance, suggesting a preference for light-hearted yet emotional storytelling.); Animation and Family-Friendly Content (The user enjoys animated films that appeal to children and families, indicating a taste for wholesome entertainment.); Thrillers with Complex Plots (The user is drawn to thrillers that offer suspense and intricate storylines.). Liked patterns: Preference for action and adventure genres, Enjoyment of dramas that explore war themes, Interest in comedies that blend romance. Disliked patterns: Dislike for certain action films that lack depth, Dislike for war dramas that are overly bleak, Dislike for specific sci-fi films that do not resonate.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives that often include adventure elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramatic films that explore themes of war and its impact on characters.",
+          "taste": "Drama with War Themes"
+        },
+        {
+          "reason": "The user likes comedies that incorporate romance, suggesting a preference for light-hearted yet emotional storytelling.",
+          "taste": "Comedy with Romantic Elements"
+        },
+        {
+          "reason": "The user enjoys animated films that appeal to children and families, indicating a taste for wholesome entertainment.",
+          "taste": "Animation and Family-Friendly Content"
+        },
+        {
+          "reason": "The user is drawn to thrillers that offer suspense and intricate storylines.",
+          "taste": "Thrillers with Complex Plots"
+        }
+      ]
+    },
+    "user_id": 456
+  }
+}

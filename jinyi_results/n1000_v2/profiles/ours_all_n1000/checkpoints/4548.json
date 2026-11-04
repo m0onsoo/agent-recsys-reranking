@@ -1,0 +1,322 @@
+{
+  "checkpoint_hash": "f0cc61eb856f5c7fc1e49cc6cdced42ef0b277ab1fe995107a48441f663ca753",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      353,
+      105,
+      698,
+      909,
+      2315,
+      780,
+      232,
+      369,
+      393,
+      6
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      105,
+      232,
+      353,
+      369,
+      393,
+      509,
+      513,
+      516,
+      698,
+      780,
+      874,
+      909,
+      930,
+      1559,
+      2182,
+      2315
+    ],
+    "seed": 42,
+    "source_hash": "4c53e304229d59c92d5d26403d1d4236ad9b49e3a405e8a7e0cb5812f3dac73e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4548,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mike Myers",
+          "Heather Graham",
+          "Michael York",
+          "Robert Wagner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When diabolical genius, Dr. Evil travels back in time to steal superspy Austin Powers's ‘mojo’, Austin must return to the swingin' '60s himself – with the help of American agent, Felicity Shagwell – to stop the dastardly plan. Once there, Austin faces off against Dr. Evil's army of minions and saves the world in his own unbelievably groovy way.",
+        "release_date": "1999-06-08",
+        "release_year": "1999",
+        "title": "Austin Powers: The Spy Who Shagged Me"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Barry Pepper",
+          "Forest Whitaker",
+          "Kim Coates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Christian",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 3000, man is no match for the Psychlos, a greedy, manipulative race of aliens on a quest for ultimate profit. Led by the powerful Terl, the Psychlos are stripping Earth clean of its natural resources, using the broken remnants of humanity as slaves. What is left of the human race has descended into a near primitive state. After being captured, it is up to Tyler to save mankind.",
+        "release_date": "2000-05-10",
+        "release_year": "2000",
+        "title": "Battlefield Earth"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Robert Duvall",
+          "Tony Shalhoub",
+          "William H. Macy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Zaillian",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Portuguese",
+        "overview": "Jan Schlickmann is a cynical lawyer who goes out to \"get rid of\" a case, only to find out it is potentially worth millions. The case becomes his obsession, to the extent that he is willing to give up everything - including his career and his clients' goals, in order to continue the case against all odds.",
+        "release_date": "1998-03-05",
+        "release_year": "1998",
+        "title": "Civil Action, A"
+      },
+      {
+        "cast": [
+          "Kevin Bacon",
+          "John Lithgow",
+          "Dianne Wiest",
+          "Chris Penn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Herbert Ross",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When teenager Ren and his family move from big-city Chicago to a small town in the West, he's in for a real case of culture shock.",
+        "release_date": "1984-02-17",
+        "release_year": "1984",
+        "title": "Footloose"
+      },
+      {
+        "cast": [
+          "Michael Crawford",
+          "Oliver Reed",
+          "Barbara Carrera",
+          "James Hampton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charles Jarrott",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Comic artist and writer Woody performs a simple courier operation for his friend Harry who works for the CIA. But when he successfully fends off hostile agents, he earns the respect of the beautiful Natalia, who requests his assistance for her defection. Woody uses this request as leverage to use the CIA's resources to bring his comic book creation, Condorman, to life to battle the evil Krokov.",
+        "release_date": "1981-07-02",
+        "release_year": "1981",
+        "title": "Condorman"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Eddie Murphy",
+          "Heather Graham",
+          "Christine Baranski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On the verge of bankruptcy and desperate for his big break, aspiring filmmaker Bobby Bowfinger concocts a crazy plan to make his ultimate dream movie. Rallying a ragtag team that includes a starry-eyed ingenue, a has-been diva and a film studio gofer, he sets out to shoot a blockbuster featuring the biggest star in Hollywood, Kit Ramsey -- only without letting Ramsey know he's in the picture.",
+        "release_date": "1999-08-12",
+        "release_year": "1999",
+        "title": "Bowfinger"
+      },
+      {
+        "cast": [
+          "Ryan Phillippe",
+          "Salma Hayek",
+          "Breckin Meyer",
+          "Mike Myers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Christopher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Shane, a Jersey boy with big dreams, crosses the river in hopes of finding a more exciting life at Studio 54. When Steve Rubell, the mastermind behind the infamous disco, plucks Shane from the sea of faces clamoring to get inside his club, Shane not only gets his foot in the door, but lands a coveted job behind the bar – and a front-row seat at the most legendary party on the planet.",
+        "release_date": "1998-08-28",
+        "release_year": "1998",
+        "title": "54"
+      },
+      {
+        "cast": [
+          "Cher",
+          "Nicolas Cage",
+          "Vincent Gardenia",
+          "Olympia Dukakis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Jewison",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Cher is devastatingly funny, sinuous and beautiful as Loretta, an unlucky-in-love Italian widow who finds romance through the intervention of the Manhattan moon. With her wedding to a close friend just weeks away, she meets - and falls hopelessly in love with - his younger brother (Cage)!",
+        "release_date": "1987-12-18",
+        "release_year": "1987",
+        "title": "Moonstruck"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      }
+    ],
+    "raw_user_id": "4548",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 17
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.49294048722125333
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 10
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received action films",
+        "Dislike for films with low engagement in the children's genre",
+        "Dislike for films that fail to deliver on dramatic tension"
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedies that blend humor with other genres",
+        "Appreciation for dramas that explore complex themes",
+        "Interest in thrillers that maintain suspense and intrigue"
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Drama (The user appreciates dramatic narratives, as indicated by several high ratings.); Action (The user shows a preference for action films, though with mixed ratings.); Thriller (The user has a moderate interest in thrillers, with several rated positively.); Adventure (The user enjoys adventure elements, particularly when combined with comedy.). Liked patterns: Enjoyment of comedies that blend humor with other genres, Appreciation for dramas that explore complex themes, Interest in thrillers that maintain suspense and intrigue. Disliked patterns: Dislike for poorly received action films, Dislike for films with low engagement in the children's genre, Dislike for films that fail to deliver on dramatic tension.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, as indicated by several high ratings.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows a preference for action films, though with mixed ratings.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user has a moderate interest in thrillers, with several rated positively.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user enjoys adventure elements, particularly when combined with comedy.",
+          "taste": "Adventure"
+        }
+      ]
+    },
+    "user_id": 4548
+  }
+}

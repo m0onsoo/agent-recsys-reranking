@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "6af8acc0be526395ffe62bf781f75d73f6195ebcafdea75f197f7ff0cab4fc2e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1221,
+      674,
+      1271,
+      1215,
+      27,
+      848,
+      759,
+      2042,
+      644,
+      2300
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "831ed679220b45e09de2ed270abd1ab8"
+    ],
+    "sampled_item_ids": [
+      23,
+      45,
+      61,
+      113,
+      125,
+      215,
+      644,
+      647,
+      674,
+      721,
+      742,
+      744,
+      755,
+      759,
+      843,
+      848,
+      935,
+      1019,
+      1102,
+      1134,
+      1242,
+      1243,
+      1271,
+      1636,
+      2042
+    ],
+    "seed": 42,
+    "source_hash": "8d0ba4dd29059a8c08760cc5643739f9cd6d78fb78a9c9a38c752e0a0a5823f0",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2711,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Action",
+          "Animation",
+          "Children's",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1986",
+        "title": "Transformers: The Movie, The"
+      },
+      {
+        "cast": [
+          "David Bowie",
+          "Jennifer Connelly",
+          "Toby Froud",
+          "Christopher Malcolm"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Henson",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Frustrated with babysitting on yet another weekend night, Sarah - a teenager with an active imagination - summons the Goblins from her favourite book, \"Labyrinth\", to take the baby stepbrother away. When little Toby actually disappears, Sarah must follow him into the world of the fairytale to rescue him from the Goblin King!",
+        "release_date": "1986-06-27",
+        "release_year": "1986",
+        "title": "Labyrinth"
+      },
+      {
+        "cast": [
+          "Harry Dean Stanton",
+          "Emilio Estevez",
+          "Tracey Walter",
+          "Olivia Barash"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alex Cox",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A down and out young punk gets a job working with a seasoned repo man, but what awaits him in his new career is a series of outlandish adventures revolving around aliens, the CIA, and a most wanted '64 Chevy.",
+        "release_date": "1984-02-20",
+        "release_year": "1984",
+        "title": "Repo Man"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1989",
+        "title": "Puppet Master"
+      },
+      {
+        "cast": [
+          "Henry Thomas",
+          "Drew Barrymore",
+          "Robert MacNaughton",
+          "Dee Wallace"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Children's",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+        "release_date": "1982-04-03",
+        "release_year": "1982",
+        "title": "E.T. the Extra-Terrestrial"
+      },
+      {
+        "cast": [
+          "Peter Weller",
+          "John Lithgow",
+          "Ellen Barkin",
+          "Jeff Goldblum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "W.D. Richter",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Adventurer/surgeon/rock musician Buckaroo Banzai and his band of men, the Hong Kong Cavaliers, take on evil alien invaders from the 8th dimension.",
+        "release_date": "1984-08-15",
+        "release_year": "1984",
+        "title": "Adventures of Buckaroo Bonzai Across the 8th Dimension, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "John Cleese",
+          "Shelley Duvall",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Young history buff Kevin can scarcely believe it when six dwarfs emerge from his closet one night. Former employees of the Supreme Being, they've purloined a map charting all of the holes in the fabric of time and are using it to steal treasures from different historical eras. Taking Kevin with them, they variously drop in on Napoleon, Robin Hood and King Agamemnon before the Supreme Being catches up with them.",
+        "release_date": "1981-07-13",
+        "release_year": "1981",
+        "title": "Time Bandits"
+      },
+      {
+        "cast": [
+          "Marcello Mastroianni",
+          "Ugo Tognazzi",
+          "Michel Piccoli",
+          "Philippe Noiret"
+        ],
+        "country": [
+          "France",
+          "Italy"
+        ],
+        "director": "Marco Ferreri",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "A group of men hire some prostitutes and go to a villa in the countryside. There, they engage in group sex and resolve to eat themselves to death.",
+        "release_date": "1973-05-16",
+        "release_year": "1973",
+        "title": "Blow-Out (La Grande Bouffe)"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      },
+      {
+        "cast": [
+          "Greta Garbo",
+          "Melvyn Douglas",
+          "Ina Claire",
+          "Bela Lugosi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ernst Lubitsch",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A stern Russian woman sent to Paris on official business finds herself attracted to a man who represents everything she is supposed to detest.",
+        "release_date": "1939-10-06",
+        "release_year": "1939",
+        "title": "Ninotchka"
+      }
+    ],
+    "raw_user_id": "2711",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 32
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.966136553379472
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received sci-fi films that lack engaging plots.",
+        "Negative ratings for action films that do not meet expectations.",
+        "Disappointment with fantasy films that fail to deliver compelling stories."
+      ],
+      "liked_patterns": [
+        "Enjoyment of sci-fi films with strong narratives and visual storytelling.",
+        "Preference for adventure films that combine elements of fantasy and humor.",
+        "Positive reception of comedies that blend with other genres."
+      ],
+      "summary": "Unique tastes: Sci-Fi Enthusiast (The user enjoys a variety of sci-fi films, indicating a strong preference for the genre.); Adventure Lover (Many liked films feature adventure elements, suggesting a fondness for adventurous storytelling.); Comedy Appreciation (The user rates several comedies positively, showing an enjoyment of humor in films.); Fantasy Interest (The presence of fantasy elements in liked films indicates an attraction to fantastical narratives.); Action Seeker (The user has rated multiple action films positively, reflecting a preference for action-packed experiences.). Liked patterns: Enjoyment of sci-fi films with strong narratives and visual storytelling., Preference for adventure films that combine elements of fantasy and humor., Positive reception of comedies that blend with other genres.. Disliked patterns: Dislike for poorly received sci-fi films that lack engaging plots., Negative ratings for action films that do not meet expectations., Disappointment with fantasy films that fail to deliver compelling stories..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of sci-fi films, indicating a strong preference for the genre.",
+          "taste": "Sci-Fi Enthusiast"
+        },
+        {
+          "reason": "Many liked films feature adventure elements, suggesting a fondness for adventurous storytelling.",
+          "taste": "Adventure Lover"
+        },
+        {
+          "reason": "The user rates several comedies positively, showing an enjoyment of humor in films.",
+          "taste": "Comedy Appreciation"
+        },
+        {
+          "reason": "The presence of fantasy elements in liked films indicates an attraction to fantastical narratives.",
+          "taste": "Fantasy Interest"
+        },
+        {
+          "reason": "The user has rated multiple action films positively, reflecting a preference for action-packed experiences.",
+          "taste": "Action Seeker"
+        }
+      ]
+    },
+    "user_id": 2711
+  }
+}

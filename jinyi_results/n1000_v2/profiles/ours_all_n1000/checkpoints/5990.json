@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "28f1e99b52532c0757c327965478e17ea9ebc9bba67f3be097d889d0625a4701",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      429,
+      2367,
+      756,
+      2067,
+      778,
+      1652,
+      373,
+      339,
+      220,
+      798
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      27,
+      58,
+      106,
+      112,
+      154,
+      178,
+      199,
+      257,
+      420,
+      626,
+      728,
+      744,
+      760,
+      798,
+      951,
+      985,
+      1116,
+      1234,
+      1377,
+      1536,
+      1622,
+      1629,
+      2603,
+      2671,
+      3105
+    ],
+    "seed": 42,
+    "source_hash": "1a375881cf7f7a26f74772350d4650c11f4f8316b611537f17e30a3f01a2b40e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5990,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kelly McGillis",
+          "Josef Sommer",
+          "Lukas Haas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A sheltered Amish child is the sole witness of a brutal murder in a restroom at a Philadelphia train station, and he must be protected.  The assignment falls to a taciturn detective who goes undercover in a Pennsylvania Dutch community. On the farm, he slowly assimilates despite his urban grit and forges a romantic bond with the child's beautiful mother.",
+        "release_date": "1985-02-08",
+        "release_year": "1985",
+        "title": "Witness"
+      },
+      {
+        "cast": [
+          "Jonathan Silverman",
+          "Blythe Danner",
+          "Stacey Glick",
+          "Judith Ivey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gene Saks",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Eugene, a young teenage Jewish boy, recalls his memoirs of his time as an adolescent youth. He lives with his parents, his aunt, two cousins, and his brother, Stanley, whom he looks up to and admires. He goes through the hardships of puberty, sexual fantasy, and living the life of a poor boy in a crowded house.",
+        "release_date": "1986-01-01",
+        "release_year": "1986",
+        "title": "Brighton Beach Memoirs"
+      },
+      {
+        "cast": [
+          "Dan Aykroyd",
+          "John Belushi",
+          "James Brown",
+          "Cab Calloway"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Jake Blues is just out of jail, and teams up with his brother, Elwood on a 'mission from God' to raise funds for the orphanage in which they grew up. The only thing they can do is do what they do best – play music – so they get their old band together and they're on their way, while getting in a bit of trouble here and there.",
+        "release_date": "1980-06-17",
+        "release_year": "1980",
+        "title": "Blues Brothers, The"
+      },
+      {
+        "cast": [
+          "Geraldine Page",
+          "John Heard",
+          "Carlin Glynn",
+          "Richard Bradford"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Masterson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Carrie Watts is living the twilight of her life trapped in an apartment in 1940's Houston, Texas with a controlling daughter-in-law and a hen-pecked son. Her fondest wish -- just once before she dies -- is to revisit Bountiful, the small Texas town of her youth which she still refers to as \"home.\"",
+        "release_date": "1985-12-20",
+        "release_year": "1985",
+        "title": "Trip to Bountiful, The"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Kathleen Turner",
+          "David Warner",
+          "Paul Benedict"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Carl Reiner",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A story about a brain surgeon who tries to end his unhappy marriage to spend more time with a disembodied brain.",
+        "release_date": "1983-06-10",
+        "release_year": "1983",
+        "title": "Man with Two Brains, The"
+      },
+      {
+        "cast": [
+          "Philippe Noiret",
+          "Jacques Perrin",
+          "Marco Leonardi",
+          "Salvatore Cascio"
+        ],
+        "country": [
+          "Italy",
+          "France"
+        ],
+        "director": "Giuseppe Tornatore",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "Italian",
+        "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
+        "release_date": "1988-11-17",
+        "release_year": "1988",
+        "title": "Cinema Paradiso"
+      },
+      {
+        "cast": [
+          "Hilary Swank",
+          "Chloë Sevigny",
+          "Peter Sarsgaard",
+          "Brendan Sexton III"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kimberly Peirce",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Female born, Teena Brandon adopts his male identity of Brandon Teena and attempts to find himself and love in Nebraska.",
+        "release_date": "1999-09-02",
+        "release_year": "1999",
+        "title": "Boys Don't Cry"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Mary Astor",
+          "Gladys George",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A private detective takes on a case that involves him with three eccentric criminals, a gorgeous liar, and their quest for a priceless statuette.",
+        "release_date": "1941-11-18",
+        "release_year": "1941",
+        "title": "Maltese Falcon, The"
+      },
+      {
+        "cast": [
+          "Ian McKellen",
+          "Brendan Fraser",
+          "Lynn Redgrave",
+          "Lolita Davidovich"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Bill Condon",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "It's 1957, and Whale's heyday as the director of \"Frankenstein,\" \"Bride of Frankenstein\" and \"The Invisible Man\" is long behind him. Retired and a semi-recluse, he lives his days accompanied only by images from his past. When his dour housekeeper, Hannah, hires a handsome young gardener, the flamboyant director and simple yard man develop an unlikely friendship, which will change them forever.",
+        "release_date": "1998-01-21",
+        "release_year": "1998",
+        "title": "Gods and Monsters"
+      },
+      {
+        "cast": [
+          "Christopher Guest",
+          "Michael McKean",
+          "Harry Shearer",
+          "Rob Reiner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "\"This Is Spinal Tap\" shines a light on the self-contained universe of a metal band struggling to get back on the charts, including everything from its complicated history of ups and downs, gold albums, name changes and undersold concert dates, along with the full host of requisite groupies, promoters, hangers-on and historians, sessions, release events and those special behind-the-scenes moments that keep it all real.",
+        "release_date": "1984-05-04",
+        "release_year": "1984",
+        "title": "This Is Spinal Tap"
+      }
+    ],
+    "raw_user_id": "5990",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 230
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6517045741579978
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Disappointment with comedies that lack depth or strong narratives.",
+        "Low ratings for romantic comedies that do not resonate emotionally."
+      ],
+      "liked_patterns": [
+        "Enjoyment of dramatic narratives with strong emotional themes.",
+        "Appreciation for crime and thriller elements within dramas.",
+        "Positive reception of comedies that incorporate drama."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Comedy (There is a notable interest in comedy, although the ratings vary, indicating a mix of enjoyment and disappointment.); Crime (The user appreciates crime dramas, as shown by high ratings for films that explore this theme.); Romance (Romantic elements in dramas are well-received, suggesting a liking for emotional and relational storytelling.); Musical (Musicals that blend with drama or comedy are favored, indicating an appreciation for music in storytelling.). Liked patterns: Enjoyment of dramatic narratives with strong emotional themes., Appreciation for crime and thriller elements within dramas., Positive reception of comedies that incorporate drama.. Disliked patterns: Disappointment with comedies that lack depth or strong narratives., Low ratings for romantic comedies that do not resonate emotionally..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "There is a notable interest in comedy, although the ratings vary, indicating a mix of enjoyment and disappointment.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates crime dramas, as shown by high ratings for films that explore this theme.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "Romantic elements in dramas are well-received, suggesting a liking for emotional and relational storytelling.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "Musicals that blend with drama or comedy are favored, indicating an appreciation for music in storytelling.",
+          "taste": "Musical"
+        }
+      ]
+    },
+    "user_id": 5990
+  }
+}

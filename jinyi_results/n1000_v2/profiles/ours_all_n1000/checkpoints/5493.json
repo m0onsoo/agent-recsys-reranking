@@ -1,0 +1,328 @@
+{
+  "checkpoint_hash": "0fa7d0ec29799e6eb746099aa877fee54b28daf8aaf658164217a2ae52741fd4",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      539,
+      185,
+      173,
+      1050,
+      3153,
+      2619,
+      598,
+      2452,
+      910,
+      1878
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      39,
+      43,
+      81,
+      97,
+      179,
+      223,
+      323,
+      639,
+      658,
+      660,
+      756,
+      820,
+      827,
+      836,
+      933,
+      1121,
+      1193,
+      1257,
+      1356,
+      1787,
+      1802,
+      1926,
+      1960,
+      2086,
+      2554
+    ],
+    "seed": 42,
+    "source_hash": "8cf6613d7a8251a6488d0ffa298baee0a12f514e75003225a98bc91ceff81ab0",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5493,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jodie Foster",
+          "Matthew McConaughey",
+          "James Woods",
+          "John Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Contact is a science fiction film about an encounter with alien intelligence. Based on the novel by Carl Sagan the film starred Jodie Foster as the one chosen scientist who must make some difficult decisions between her beliefs, the truth, and reality.",
+        "release_date": "1997-07-11",
+        "release_year": "1997",
+        "title": "Contact"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "John Turturro",
+          "Gabriel Byrne",
+          "Marcia Gay Harden",
+          "Steve Buscemi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Set in 1929, a political boss and his advisor have a parting of the ways when they both fall for the same woman.",
+        "release_date": "1990-09-21",
+        "release_year": "1990",
+        "title": "Miller's Crossing"
+      },
+      {
+        "cast": [
+          "Whoopi Goldberg",
+          "Margaret Avery",
+          "Danny Glover",
+          "Akosua Busia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An epic tale spanning forty years in the life of Celie (Whoopi Goldberg), an African-American woman living in the South who survives incredible abuse and bigotry.  After Celie's abusive father marries her off to the equally debasing \"Mister\" Albert Johnson (Danny Glover), things go from bad to worse, leaving Celie to find companionship anywhere she can.  She perseveres, holding on to her dream of one day being reunited with her sister in Africa.  Based on the novel by Alice Walker.",
+        "release_date": "1985-12-18",
+        "release_year": "1985",
+        "title": "Color Purple, The"
+      },
+      {
+        "cast": [
+          "Tupac Amaru Shakur",
+          "Tim Roth",
+          "Thandie Newton",
+          "Charles Fleischer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Vondie Curtis-Hall",
+        "genres": [
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "After a friend overdoses, Spoon and Stretch decide to kick their drug habits and attempt to enroll in a government detox program. Their efforts are hampered by seemingly endless red tape, as they are shuffled from one office to another while being chased by drug dealers and the police.",
+        "release_date": "1997-01-29",
+        "release_year": "1997",
+        "title": "Gridlock'd"
+      },
+      {
+        "cast": [
+          "Joe Berlinger",
+          "Bruce Sinofsky",
+          "Jessie Miskelly",
+          "Jason Baldwin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Berlinger",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A horrific triple child murder leads to an indictment and trial of three nonconformist boys based on questionable evidence.",
+        "release_date": "1996-12-03",
+        "release_year": "1996",
+        "title": "Paradise Lost: The Child Murders at Robin Hood Hills"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "George Kennedy",
+          "Luke Askew",
+          "Morgan Woodward"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stuart Rosenberg",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When petty criminal Luke Jackson is sentenced to two years in a Florida prison farm, he doesn't play by the rules of either the sadistic warden or the yard's resident heavy, Dragline, who ends up admiring the new guy's unbreakable will. Luke's bravado, even in the face of repeated stints in the prison's dreaded solitary confinement cell, \"the box,\" make him a rebel hero to his fellow convicts and a thorn in the side of the prison officers.",
+        "release_date": "1967-06-22",
+        "release_year": "1967",
+        "title": "Cool Hand Luke"
+      },
+      {
+        "cast": [
+          "Andy García",
+          "Ian Holm",
+          "James Gandolfini",
+          "Lena Olin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A newly elected District attorney finds himself in the middle of a police corruption investigation that may involve his father and his partner.",
+        "release_date": "1996-10-22",
+        "release_year": "1997",
+        "title": "Night Falls on Manhattan"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Quentin Tarantino",
+          "Harvey Keitel",
+          "Juliette Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Rodriguez",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Seth Gecko and his younger brother Richard are on the run after a bloody bank robbery in Texas. They escape across the border into Mexico and will be home-free the next morning, when they pay off the local kingpin. They just have to survive 'from dusk till dawn' at the rendezvous point, which turns out to be a Hell of a strip joint.",
+        "release_date": "1996-01-19",
+        "release_year": "1996",
+        "title": "From Dusk Till Dawn"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Gene Hackman",
+          "Brooke Langton",
+          "Orlando Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Deutch",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Maverick old-guard coach Jimmy McGinty is hired in the wake of a players' strike to help the Washington Sentinels advance to the playoffs. But that impossible dream hinges on whether his replacements can hunker down and do the job. So, McGinty dusts off his secret dossier of ex-players who never got a chance (or screwed up the one they were given) and knits together a bad-dream team of guys who just may give the Sentinels their title shot.",
+        "release_date": "2000-08-07",
+        "release_year": "2000",
+        "title": "Replacements, The"
+      }
+    ],
+    "raw_user_id": "5493",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 459
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.103411073634266
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for straightforward comedies lacking depth or complexity.",
+        "Dislike for dramas that do not engage emotionally or narratively."
+      ],
+      "liked_patterns": [
+        "High ratings for thrillers and dramas that incorporate suspense and emotional depth.",
+        "Positive reception of comedies that blend humor with other genres, particularly drama.",
+        "Strong appreciation for films featuring complex characters and narratives."
+      ],
+      "summary": "Unique tastes: Appreciation for Thrillers (The user rates several thrillers highly, indicating a strong preference for suspenseful and engaging narratives.); Enjoyment of Comedic Elements (The user shows a liking for comedies, particularly those that blend humor with other genres, as seen in multiple high ratings.); Interest in Drama (The user rates various dramas positively, suggesting a preference for character-driven stories and emotional depth.); Favoring Complex Characters (The user seems to appreciate films with intricate character development, as indicated by high ratings for movies featuring nuanced portrayals.); Preference for Genre Blends (The user enjoys films that combine multiple genres, such as comedy with drama or thriller, reflecting a taste for diverse storytelling.). Liked patterns: High ratings for thrillers and dramas that incorporate suspense and emotional depth., Positive reception of comedies that blend humor with other genres, particularly drama., Strong appreciation for films featuring complex characters and narratives.. Disliked patterns: Low ratings for straightforward comedies lacking depth or complexity., Dislike for dramas that do not engage emotionally or narratively..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several thrillers highly, indicating a strong preference for suspenseful and engaging narratives.",
+          "taste": "Appreciation for Thrillers"
+        },
+        {
+          "reason": "The user shows a liking for comedies, particularly those that blend humor with other genres, as seen in multiple high ratings.",
+          "taste": "Enjoyment of Comedic Elements"
+        },
+        {
+          "reason": "The user rates various dramas positively, suggesting a preference for character-driven stories and emotional depth.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user seems to appreciate films with intricate character development, as indicated by high ratings for movies featuring nuanced portrayals.",
+          "taste": "Favoring Complex Characters"
+        },
+        {
+          "reason": "The user enjoys films that combine multiple genres, such as comedy with drama or thriller, reflecting a taste for diverse storytelling.",
+          "taste": "Preference for Genre Blends"
+        }
+      ]
+    },
+    "user_id": 5493
+  }
+}

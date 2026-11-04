@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "ef22e87f4579be7b8e8f1b36e627c733eeabe19cfc79fe1967c9faa5b8515380",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      714,
+      1554,
+      1502,
+      178,
+      1061,
+      212,
+      1023,
+      1945,
+      1475,
+      6
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      55,
+      64,
+      106,
+      160,
+      313,
+      366,
+      387,
+      409,
+      411,
+      426,
+      609,
+      623,
+      866,
+      946,
+      964,
+      1186,
+      1229,
+      1450,
+      1484,
+      1620,
+      1731,
+      1884,
+      2087,
+      2711,
+      2859
+    ],
+    "seed": 42,
+    "source_hash": "6b80fc4abbd81cea61046b46103d1c7fd3ab3e7d0225c761c7e572e9319fad5b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4408,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "female",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Joe Pesci",
+          "Joss Ackland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the opening chase, Martin Riggs and Roger Murtaugh stumble across a trunk full of Krugerrands. They follow the trail to a South African diplomat who's using his immunity to conceal a smuggling operation. When he plants a bomb under Murtaugh's toilet, the action explodes!",
+        "release_date": "1989-07-07",
+        "release_year": "1989",
+        "title": "Lethal Weapon 2"
+      },
+      {
+        "cast": [
+          "John Mills",
+          "Dorothy McGuire",
+          "James MacArthur",
+          "Janet Munro"
+        ],
+        "country": [
+          "Trinidad and Tobago",
+          "United Kingdom"
+        ],
+        "director": "Ken Annakin",
+        "genres": [
+          "Adventure",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "After being shipwrecked, the Robinson family is marooned on an island inhabited only by an impressive array of wildlife. In true pioneer spirit, they quickly make themselves at home but soon face a danger even greater than nature: dastardly pirates. A rousing adventure suitable for the whole family, this Disney adaptation of the classic Johann Wyss novel stars Dorothy McGuire and John Mills as Mother and Father Robinson.",
+        "release_date": "1960-12-21",
+        "release_year": "1960",
+        "title": "Swiss Family Robinson"
+      },
+      {
+        "cast": [
+          "Peter O'Toole",
+          "Mark Linn-Baker",
+          "Jessica Harper",
+          "Joseph Bologna"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Benjamin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Benjy Stone is the junior writer on the top rated variety/comedy show, in the mid 50s (the early years). Alan Swann, an Erol Flynn type actor with a drinking problem is to be that weeks guest star.",
+        "release_date": "1982-10-01",
+        "release_year": "1982",
+        "title": "My Favorite Year"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Holly Hunter",
+          "Trey Wilson",
+          "John Goodman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Coen Brothers tell the story of a absurd yet likable family with an unproductive couple as the focal point. The couple has gotten themselves into some trouble while kidnapping a baby and give Hollywood one of the most memorable chase scenes to date.",
+        "release_date": "1987-03-01",
+        "release_year": "1987",
+        "title": "Raising Arizona"
+      },
+      {
+        "cast": [
+          "Liesel Matthews",
+          "Eleanor Bron",
+          "Liam Cunningham",
+          "Rusty Schwimmer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfonso Cuarón",
+        "genres": [
+          "Children's",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When her father enlists to fight for the British in WWI, young Sara Crewe goes to New York to attend the same boarding school her late mother attended. She soon clashes with the severe headmistress, Miss Minchin, who attempts to stifle Sara's creativity and sense of self- worth.",
+        "release_date": "1995-05-10",
+        "release_year": "1995",
+        "title": "Little Princess, A"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Joanne Samuel",
+          "Hugh Keays-Byrne",
+          "Steve Bisley"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future Australia, a vicious biker gang murders a cop's family, and makes his fight with them personal.",
+        "release_date": "1979-04-12",
+        "release_year": "1979",
+        "title": "Mad Max"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Claudine Auger",
+          "Adolfo Celi",
+          "Luciana Paluzzi"
+        ],
+        "country": [
+          "Bahamas",
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Terence Young",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "A criminal organization has obtained two nuclear bombs and are asking for a 100 million pound ransom in the form of diamonds in seven days or they will use the weapons. The secret service sends James Bond to the Bahamas to once again save the world.",
+        "release_date": "1965-12-16",
+        "release_year": "1965",
+        "title": "Thunderball"
+      },
+      {
+        "cast": [
+          "Elvis Presley",
+          "Carolyn Jones",
+          "Walter Matthau",
+          "Dolores Hart"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Danny Fisher, young delinquent, flunks out of high school. He quits his job as a busboy in a nightclub, and one night he gets the chance to perform. Success is imminent and the local crime boss Maxie Fields wants to hire him to perform at his night club The Blue Shade. Danny refuses, but Fields won't take no for an answer.",
+        "release_date": "1958-07-02",
+        "release_year": "1958",
+        "title": "King Creole"
+      },
+      {
+        "cast": [
+          "Akira Takarada",
+          "Momoko Kôchi",
+          "Akihiko Hirata",
+          "Takashi Shimura"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Ishirô Honda",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "Japanese",
+        "overview": "Japan is thrown into a panic after several ships explode and are sunk near Odo Island. An expedition to the island led by paleontologist Professor Kyohei Yemani soon discover something more devastating than imagined in the form of a 164 foot tall monster whom the natives call Gojira. Now the monster begins a rampage that threatens to destroy not only Japan, but the rest of the world as well.",
+        "release_date": "1954-11-03",
+        "release_year": "1954",
+        "title": "Godzilla (Gojira)"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      }
+    ],
+    "raw_user_id": "4408",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 435
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7206596088213262
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to horror films, indicating a lack of interest in that genre.",
+        "Dislike for certain musicals, suggesting a selective taste within that genre."
+      ],
+      "liked_patterns": [
+        "High ratings for drama films with strong narratives and character development.",
+        "Positive reception of films that combine comedy with drama or romance.",
+        "Consistent enjoyment of films featuring complex characters and emotional depth."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for drama films, consistently rating them highly.); Comedy-Drama (The user enjoys films that blend comedy with drama, as indicated by several high ratings in this genre.); Romantic Elements in Drama (The user appreciates drama films that incorporate romantic themes, reflected in their ratings.); Musicals (The user has a mixed response to musicals, with some ratings indicating enjoyment and others indicating dislike.); Children's and Family Films (The user has shown a moderate interest in children's films, with a few ratings indicating a positive reception.). Liked patterns: High ratings for drama films with strong narratives and character development., Positive reception of films that combine comedy with drama or romance., Consistent enjoyment of films featuring complex characters and emotional depth.. Disliked patterns: Negative response to horror films, indicating a lack of interest in that genre., Dislike for certain musicals, suggesting a selective taste within that genre..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for drama films, consistently rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys films that blend comedy with drama, as indicated by several high ratings in this genre.",
+          "taste": "Comedy-Drama"
+        },
+        {
+          "reason": "The user appreciates drama films that incorporate romantic themes, reflected in their ratings.",
+          "taste": "Romantic Elements in Drama"
+        },
+        {
+          "reason": "The user has a mixed response to musicals, with some ratings indicating enjoyment and others indicating dislike.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "The user has shown a moderate interest in children's films, with a few ratings indicating a positive reception.",
+          "taste": "Children's and Family Films"
+        }
+      ]
+    },
+    "user_id": 4408
+  }
+}

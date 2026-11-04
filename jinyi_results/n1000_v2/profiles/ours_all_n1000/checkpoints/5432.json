@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "dcec9a38664ecea81073c9e79ff19f39a863fcbcf3ab4df85ea9cb23a130cd3f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1299,
+      894,
+      560,
+      1518,
+      128,
+      2259,
+      171,
+      282,
+      598,
+      762
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      24,
+      52,
+      77,
+      117,
+      128,
+      137,
+      175,
+      200,
+      367,
+      410,
+      445,
+      638,
+      670,
+      729,
+      762,
+      864,
+      986,
+      1065,
+      1299,
+      1450,
+      1518,
+      1646,
+      2147,
+      2346,
+      2431
+    ],
+    "seed": 42,
+    "source_hash": "86f5fc318708a077b0d15b9402aa334fa78937bd84b2087be2ab86d13954d3e9",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5432,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "retired"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kevin Costner",
+          "Susan Sarandon",
+          "Tim Robbins",
+          "Trey Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Veteran catcher Crash Davis is brought to the minor league Durham Bulls to help their up and coming pitching prospect, \"Nuke\" Laloosh. Their relationship gets off to a rocky start and is further complicated when baseball groupie Annie Savoy sets her sights on the two men.",
+        "release_date": "1988-06-15",
+        "release_year": "1988",
+        "title": "Bull Durham"
+      },
+      {
+        "cast": [
+          "Steve McQueen",
+          "Faye Dunaway",
+          "Paul Burke",
+          "Jack Weston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Jewison",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Young businessman, Thomas Crown is bored and decides to plan a robbery and assigns a professional agent with the right information to the job. However, Crown is soon betrayed yet cannot blow his cover because he’s in love.",
+        "release_date": "1968-06-19",
+        "release_year": "1968",
+        "title": "Thomas Crown Affair, The"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Faye Dunaway",
+          "John Huston",
+          "Perry Lopez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Private eye Jake Gittes lives off the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband's extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and political scandals that come crashing together.",
+        "release_date": "1974-06-20",
+        "release_year": "1974",
+        "title": "Chinatown"
+      },
+      {
+        "cast": [
+          "Ruth Gordon",
+          "Bud Cort",
+          "Cyril Cusack",
+          "Charles Tyner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hal Ashby",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The young Harold lives in his own world of suicide-attempts and funeral visits to avoid the misery of his current family and home environment. Harold meets an 80-year-old woman named Maude who also lives in her own world yet one in which she is having the time of her life. When the two opposites meet they realize that their differences don’t matter and they become best friends and love each other.",
+        "release_date": "1971-12-20",
+        "release_year": "1971",
+        "title": "Harold and Maude"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Dennis Hopper",
+          "Lara Flynn Boyle",
+          "J.T. Walsh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Dahl",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a promised job for Texan Michael fails to materialise in Wyoming, Mike is mistaken by Wayne to be the hitman he hired to kill his unfaithful wife, Suzanne. Mike takes full advantage of the situation, collects the money and runs. During his getaway, things go wrong, and soon get worse when he runs into the real hitman, Lyle.",
+        "release_date": "1993-07-08",
+        "release_year": "1992",
+        "title": "Red Rock West"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Michael Murphy",
+          "Mariel Hemingway"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The life of a divorced television writer dating a teenage girl is further complicated when he falls in love with his best friend's mistress.",
+        "release_date": "1979-04-25",
+        "release_year": "1979",
+        "title": "Manhattan"
+      },
+      {
+        "cast": [
+          "Allan Corduner",
+          "Jim Broadbent",
+          "Timothy Spall",
+          "Dexter Fletcher"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Mike Leigh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After their production \"Princess Ida\" meets with less-than-stunning reviews, the relationship between Gilbert and Sullivan is strained to breaking. Their friends and associates attempt to get the two to work together again, which opens the way to \"The Mikado,\" one of the duo's greatest successes.",
+        "release_date": "1999-09-03",
+        "release_year": "1999",
+        "title": "Topsy-Turvy"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "George Kennedy",
+          "Luke Askew",
+          "Morgan Woodward"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stuart Rosenberg",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When petty criminal Luke Jackson is sentenced to two years in a Florida prison farm, he doesn't play by the rules of either the sadistic warden or the yard's resident heavy, Dragline, who ends up admiring the new guy's unbreakable will. Luke's bravado, even in the face of repeated stints in the prison's dreaded solitary confinement cell, \"the box,\" make him a rebel hero to his fellow convicts and a thorn in the side of the prison officers.",
+        "release_date": "1967-06-22",
+        "release_year": "1967",
+        "title": "Cool Hand Luke"
+      },
+      {
+        "cast": [
+          "Barbra Streisand",
+          "Robert Redford",
+          "Bradford Dillman",
+          "Lois Chiles"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two desperate people have a wonderful romance, but their political views and convictions drive them apart.",
+        "release_date": "1973-10-17",
+        "release_year": "1973",
+        "title": "Way We Were, The"
+      }
+    ],
+    "raw_user_id": "5432",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 147
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6448469633092169
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films that lack depth or strong narrative elements."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine drama with other genres such as romance and crime.",
+        "Consistent enjoyment of comedies that also incorporate elements of drama or romance.",
+        "Strong appreciation for films that feature complex characters and moral dilemmas."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Comedy (Enjoyment of comedic elements is reflected in several ratings, indicating a fondness for humor in films.); Romance (A notable appreciation for romantic themes is present, as seen in the ratings for films that blend drama and romance.); Crime (Interest in crime-related stories is indicated by high ratings for films that incorporate crime as a central theme.); War (A preference for war-themed narratives is shown through positive ratings for films that explore this genre.). Liked patterns: High ratings for films that combine drama with other genres such as romance and crime., Consistent enjoyment of comedies that also incorporate elements of drama or romance., Strong appreciation for films that feature complex characters and moral dilemmas.. Disliked patterns: Dislike for action films that lack depth or strong narrative elements..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Enjoyment of comedic elements is reflected in several ratings, indicating a fondness for humor in films.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "A notable appreciation for romantic themes is present, as seen in the ratings for films that blend drama and romance.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "Interest in crime-related stories is indicated by high ratings for films that incorporate crime as a central theme.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "A preference for war-themed narratives is shown through positive ratings for films that explore this genre.",
+          "taste": "War"
+        }
+      ]
+    },
+    "user_id": 5432
+  }
+}

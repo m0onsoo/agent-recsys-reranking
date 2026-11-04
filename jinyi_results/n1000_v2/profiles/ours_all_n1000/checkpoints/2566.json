@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "f568ed72a4faf00f927ac23790ab5f5b4cb4f15218f0275d9597379bd9212114",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      612,
+      1275,
+      114,
+      1059,
+      41,
+      218,
+      78,
+      216,
+      126,
+      2041
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "0e6aa79182f449fbbb174b66fd2b0e40"
+    ],
+    "sampled_item_ids": [
+      11,
+      19,
+      98,
+      125,
+      176,
+      190,
+      210,
+      215,
+      241,
+      278,
+      421,
+      631,
+      654,
+      683,
+      771,
+      776,
+      1006,
+      1008,
+      1036,
+      1073,
+      1103,
+      1275,
+      1368,
+      1406,
+      1696
+    ],
+    "seed": 42,
+    "source_hash": "cd62a7e533bcde9ae70555d772725cc52178dd528d43d08999c99e24612ab541",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2566,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Peter Sellers",
+          "George C. Scott",
+          "Sterling Hayden",
+          "Keenan Wynn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union. As soon as the actions of General \"Buck\" Turgidson are discovered, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike. Near the end is a scene that is probably the most uniquely unforgettable performance of Slim Pickens in his movie career. Peter Sellers plays multiple roles in this film.",
+        "release_date": "1964-01-29",
+        "release_year": "1963",
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sylvester Stallone",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Now the world champion, Rocky Balboa is living in luxury and only fighting opponents who pose no threat to him in the ring. His lifestyle of wealth and idleness is shaken when a powerful young fighter known as Clubber Lang challenges him to a bout. After taking a pounding from Lang, the humbled champ turns to former bitter rival Apollo Creed to help him regain his form for a rematch with Lang.",
+        "release_date": "1982-05-28",
+        "release_year": "1982",
+        "title": "Rocky III"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Robert Duvall",
+          "Téa Leoni",
+          "Elijah Wood",
+          "Vanessa Redgrave"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mimi Leder",
+        "genres": [
+          "Action",
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A seven-mile-wide space rock is hurtling toward Earth, threatening to obliterate the planet. Now, it's up to the president of the United States to save the world. He appoints a tough-as-nails veteran astronaut to lead a joint American-Russian crew into space to destroy the comet before impact. Meanwhile, an enterprising reporter uses her smarts to uncover the scoop of the century.",
+        "release_date": "1998-05-08",
+        "release_year": "1998",
+        "title": "Deep Impact"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Don Rickles",
+          "Jim Varney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+        "release_date": "1995-10-30",
+        "release_year": "1995",
+        "title": "Toy Story"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Michael Rennie",
+          "Patricia Neal",
+          "Billy Gray",
+          "Hugh Marlowe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Wise",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An alien and a robot land on earth after World War II and tell mankind to be peaceful or face destruction. A classic science fiction film from Robert Wise with an exceptional message.",
+        "release_date": "1951-09-17",
+        "release_year": "1951",
+        "title": "Day the Earth Stood Still, The"
+      },
+      {
+        "cast": [
+          "Eli Wallach",
+          "Clint Eastwood",
+          "Lee Van Cleef",
+          "Aldo Giuffrè"
+        ],
+        "country": [
+          "United States of America",
+          "Italy",
+          "Spain",
+          "Germany"
+        ],
+        "director": "Sergio Leone",
+        "genres": [
+          "Action",
+          "Western"
+        ],
+        "language": "Italian",
+        "overview": "While the Civil War rages between the Union and the Confederacy, three men – a quiet loner, a ruthless hit man and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
+        "release_date": "1966-12-23",
+        "release_year": "1966",
+        "title": "Good, The Bad and The Ugly, The"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "John Cusack",
+          "John Malkovich",
+          "Ving Rhames"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Simon West",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When the government puts all its rotten criminal eggs in one airborne basket, it's asking for trouble. Before you can say, \"Pass the barf bag,\" the crooks control the plane, led by creepy Cyrus \"The Virus\" Grissom. Watching his every move is the just-released Cameron Poe, who'd rather reunite with his family.",
+        "release_date": "1997-06-01",
+        "release_year": "1997",
+        "title": "Con Air"
+      },
+      {
+        "cast": [
+          "Ron Moody",
+          "Shani Wallis",
+          "Oliver Reed",
+          "Harry Secombe"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Carol Reed",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Musical adaptation of Charles Dickens' Oliver Twist, a classic tale of an orphan who runs away from the workhouse and joins up with a group of boys headed by the Artful Dodger and trained to be pickpockets by master thief Fagin.",
+        "release_date": "1968-09-26",
+        "release_year": "1968",
+        "title": "Oliver!"
+      }
+    ],
+    "raw_user_id": "2566",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 212
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7333867346576537
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that fail to engage in action or plot",
+        "Dislike for poorly rated sci-fi films",
+        "Dislike for films that do not resonate emotionally"
+      ],
+      "liked_patterns": [
+        "Enjoyment of action-packed films with strong narratives",
+        "Appreciation for animated and family-friendly content",
+        "Interest in films that blend comedy with other genres"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Animation and Children's (The user appreciates animated films and children's stories that often include musical elements.); Drama and Emotional Depth (The user is drawn to dramas that explore complex emotions and relationships.); Comedy with a Blend of Other Genres (The user likes comedies that incorporate elements from other genres, such as action or crime.); Sci-Fi and Thrillers (The user enjoys science fiction films that also provide thrilling experiences.). Liked patterns: Enjoyment of action-packed films with strong narratives, Appreciation for animated and family-friendly content, Interest in films that blend comedy with other genres. Disliked patterns: Dislike for films that fail to engage in action or plot, Dislike for poorly rated sci-fi films, Dislike for films that do not resonate emotionally.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates animated films and children's stories that often include musical elements.",
+          "taste": "Animation and Children's"
+        },
+        {
+          "reason": "The user is drawn to dramas that explore complex emotions and relationships.",
+          "taste": "Drama and Emotional Depth"
+        },
+        {
+          "reason": "The user likes comedies that incorporate elements from other genres, such as action or crime.",
+          "taste": "Comedy with a Blend of Other Genres"
+        },
+        {
+          "reason": "The user enjoys science fiction films that also provide thrilling experiences.",
+          "taste": "Sci-Fi and Thrillers"
+        }
+      ]
+    },
+    "user_id": 2566
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "b8423837ca2ff16d7d11cf6d89e93b6b20e5511850d0c353a1e06eb5e74ba867",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1125,
+      58,
+      190,
+      931,
+      125,
+      2137,
+      755,
+      114,
+      6,
+      733
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      27,
+      45,
+      58,
+      61,
+      65,
+      94,
+      95,
+      114,
+      125,
+      190,
+      211,
+      217,
+      219,
+      294,
+      353,
+      513,
+      529,
+      733,
+      749,
+      755,
+      768,
+      867,
+      904,
+      936,
+      1125
+    ],
+    "seed": 42,
+    "source_hash": "5ae512782a0f63cca069851828006dac402b433f4603b1976a656349db5602ce",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4910,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Steve Martin",
+          "Goldie Hawn",
+          "John Cleese",
+          "Mark McKinney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Weisman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The remake of the 1970 Neil Simon comedy follows the adventures of a couple, Henry and Nancy Clark, vexed by misfortune while in New York City for a job interview.",
+        "release_date": "1999-04-02",
+        "release_year": "1999",
+        "title": "Out-of-Towners, The"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Sean Connery",
+          "Charles Martin Smith",
+          "Andy García"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Young Treasury Agent Elliot Ness arrives in Chicago and is determined to take down Al Capone, but it's not going to be easy because Capone has the police in his pocket. Ness meets Jimmy Malone, a veteran patrolman and probably the most honorable one on the force. He asks Malone to help him get Capone, but Malone warns him that if he goes after Capone, he is going to war.",
+        "release_date": "1987-06-02",
+        "release_year": "1987",
+        "title": "Untouchables, The"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Claire Danes",
+          "Giovanni Ribisi",
+          "Omar Epps",
+          "Dennis Farina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Scott Silver",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Three minor delinquints (Danes, Ribisi, and Epps) are recruited by a cop (Farina) working undercover to bust a cop/drug ring. When the officer who recruited them is killed, they go above and beyond the call of duty to solve the murder; and bust the drug ring. Suffering the jibes, and ridicule of fellow officers; they struggle to save their names, and that of their deceased benefactor.",
+        "release_date": "1999-03-26",
+        "release_year": "1999",
+        "title": "Mod Squad, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Craig Bierko",
+          "Armin Mueller-Stahl",
+          "Gretchen Mol",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Josef Rusnak",
+        "genres": [
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Computer scientist Hannon Fuller has discovered something extremely important. He's about to tell the discovery to his colleague, Douglas Hall, but knowing someone is after him, the old man leaves a letter in his computer generated parallel world that's just like the 30's with seemingly real people with real emotions.",
+        "release_date": "1999-04-16",
+        "release_year": "1999",
+        "title": "Thirteenth Floor, The"
+      },
+      {
+        "cast": [
+          "Kyle MacLachlan",
+          "Francesca Annis",
+          "Leonardo Cimino",
+          "Brad Dourif"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 10,191, the world is at war for control of the desert planet Dune – the only place where the time-travel substance 'Spice' can be found. But when one leader gives up control, it's only so he can stage a coup with some unsavory characters.",
+        "release_date": "1984-12-14",
+        "release_year": "1984",
+        "title": "Dune"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Courtney Love",
+          "Bob Zmuda",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A film about the life and career of the eccentric avant-garde comedian, Andy Kaufman.",
+        "release_date": "1999-12-22",
+        "release_year": "1999",
+        "title": "Man on the Moon"
+      }
+    ],
+    "raw_user_id": "4910",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 40
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5438952475328448
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for children's comedies",
+        "Negative response to films that lack engaging plots or humor"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure films",
+        "Enjoyment of sci-fi and fantasy elements",
+        "Appreciation for comedic elements in various genres"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Sci-Fi and Fantasy (The user has a preference for imaginative and speculative narratives that explore futuristic or fantastical themes.); Comedy (The user appreciates humor and light-hearted storytelling, often enjoying films that blend comedy with other genres.); Drama (The user is drawn to films that explore emotional depth and character development, often found in dramatic narratives.); Crime Thrillers (The user enjoys suspenseful stories that involve crime and moral dilemmas, often with a thrilling edge.). Liked patterns: Strong preference for action and adventure films, Enjoyment of sci-fi and fantasy elements, Appreciation for comedic elements in various genres. Disliked patterns: Dislike for children's comedies, Negative response to films that lack engaging plots or humor.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user has a preference for imaginative and speculative narratives that explore futuristic or fantastical themes.",
+          "taste": "Sci-Fi and Fantasy"
+        },
+        {
+          "reason": "The user appreciates humor and light-hearted storytelling, often enjoying films that blend comedy with other genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to films that explore emotional depth and character development, often found in dramatic narratives.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys suspenseful stories that involve crime and moral dilemmas, often with a thrilling edge.",
+          "taste": "Crime Thrillers"
+        }
+      ]
+    },
+    "user_id": 4910
+  }
+}

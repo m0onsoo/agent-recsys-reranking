@@ -1,0 +1,346 @@
+{
+  "checkpoint_hash": "31c984e2a589392a8d3c8f8034c22b10a2a1dcc0ae5f5f71f3c17bddc2c1ac78",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      65,
+      720,
+      905,
+      2962,
+      407,
+      1110,
+      1507,
+      1694,
+      754,
+      2287
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9641e85d13e94bab8af139668117620b"
+    ],
+    "sampled_item_ids": [
+      65,
+      93,
+      100,
+      148,
+      161,
+      172,
+      407,
+      417,
+      421,
+      547,
+      715,
+      754,
+      796,
+      828,
+      919,
+      1073,
+      1089,
+      1110,
+      1229,
+      1337,
+      1473,
+      1477,
+      1507,
+      1894,
+      2962
+    ],
+    "seed": 42,
+    "source_hash": "784da077fa5ca52be436b62ca1b51e15942ffa6f6c2ea1988a856f74ca27b74a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 279,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Jamyang Jamtsho Wangchuk",
+          "David Thewlis",
+          "BD Wong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jean-Jacques Annaud",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Austrian mountaineer, Heinrich Harrer journeys to the Himalayas without his family to head an expedition in 1939. But when World War II breaks out, the arrogant Harrer falls into Allied forces' hands as a prisoner of war. He escapes with a fellow detainee and makes his way to Llaso, Tibet, where he meets the 14-year-old Dalai Lama, whose friendship ultimately transforms his outlook on life.",
+        "release_date": "1997-09-12",
+        "release_year": "1997",
+        "title": "Seven Years in Tibet"
+      },
+      {
+        "cast": [
+          "Dean Jones",
+          "Suzanne Pleshette",
+          "Tim Conway",
+          "Keenan Wynn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Stevenson",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Wilby Daniels, a successful lawyer running for District Attorney, suddenly finds himself being transformed into an English sheepdog. Somehow he has to keep his change a secret and find just what is causing it, all the while eluding the local dog catcher.",
+        "release_date": "1976-12-17",
+        "release_year": "1976",
+        "title": "Shaggy D.A., The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Heath Ledger",
+          "Joely Richardson",
+          "Jason Isaacs"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "After proving himself on the field of battle in the French and Indian War, Benjamin Martin wants nothing more to do with such things, preferring the simple life of a farmer. But when his son Gabriel enlists in the army to defend their new nation, America, against the British, Benjamin reluctantly returns to his old life to protect his son.",
+        "release_date": "2000-06-28",
+        "release_year": "2000",
+        "title": "Patriot, The"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Denzel Washington",
+          "Cary Elwes",
+          "Morgan Freeman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Robert Gould Shaw leads the US Civil War's first all-black volunteer company, fighting prejudices of both his own Union army and the Confederates.",
+        "release_date": "1989-12-15",
+        "release_year": "1989",
+        "title": "Glory"
+      },
+      {
+        "cast": [
+          "Carole Lombard",
+          "Jack Benny",
+          "Robert Stack",
+          "Felix Bressart"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ernst Lubitsch",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "During the Nazi occupation of Poland, an acting troupe becomes embroiled in a Polish soldier's efforts to track down a German spy.",
+        "release_date": "1942-03-05",
+        "release_year": "1942",
+        "title": "To Be or Not to Be"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Robert Shaw",
+          "Barbara Bach",
+          "Edward Fox"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Guy Hamilton",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Mallory and Miller are back. The survivors of Navarone are sent on a mission along with a unit called Force 10, which is led by Colonel Barnsby. But Force 10 has a mission of their own which the boys know nothing about.",
+        "release_date": "1978-11-01",
+        "release_year": "1978",
+        "title": "Force 10 from Navarone"
+      },
+      {
+        "cast": [
+          "Demi Moore",
+          "Viggo Mortensen",
+          "Anne Bancroft",
+          "Jason Beghe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A female Senator succeeds in enrolling a woman into Combined Reconnaissance Team training where everyone expects her to fail.",
+        "release_date": "1997-08-22",
+        "release_year": "1997",
+        "title": "G.I. Jane"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Marsha Mason",
+          "Everett McGill",
+          "Moses Gunn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A hard-nosed, hard-living Marine gunnery sergeant clashes with his superiors and his ex-wife as he takes command of a spoiled recon platoon with a bad attitude.",
+        "release_date": "1986-12-15",
+        "release_year": "1986",
+        "title": "Heartbreak Ridge"
+      }
+    ],
+    "raw_user_id": "279",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 39
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.320044341437013
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or serious themes",
+        "Negative response to films that focus solely on action without character development",
+        "Dislike for war films that do not engage emotionally or narratively"
+      ],
+      "liked_patterns": [
+        "Preference for action and war genres with strong narratives",
+        "Enjoyment of films that blend drama with romance",
+        "Appreciation for character-driven stories that explore serious themes"
+      ],
+      "summary": "Unique tastes: Action and War (The user enjoys action-packed narratives that often explore themes of conflict and heroism.); Drama and Romance (The user appreciates films that combine emotional depth with romantic elements.); Comedy with Serious Themes (The user is drawn to comedies that incorporate serious or war-related themes, providing a mix of humor and reflection.); Historical Context (The user favors films that depict historical events or settings, particularly those related to war.); Character-Driven Stories (The user enjoys films that focus on character development and personal journeys, especially in dramatic contexts.). Liked patterns: Preference for action and war genres with strong narratives, Enjoyment of films that blend drama with romance, Appreciation for character-driven stories that explore serious themes. Disliked patterns: Dislike for comedies that lack depth or serious themes, Negative response to films that focus solely on action without character development, Dislike for war films that do not engage emotionally or narratively.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives that often explore themes of conflict and heroism.",
+          "taste": "Action and War"
+        },
+        {
+          "reason": "The user appreciates films that combine emotional depth with romantic elements.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "The user is drawn to comedies that incorporate serious or war-related themes, providing a mix of humor and reflection.",
+          "taste": "Comedy with Serious Themes"
+        },
+        {
+          "reason": "The user favors films that depict historical events or settings, particularly those related to war.",
+          "taste": "Historical Context"
+        },
+        {
+          "reason": "The user enjoys films that focus on character development and personal journeys, especially in dramatic contexts.",
+          "taste": "Character-Driven Stories"
+        }
+      ]
+    },
+    "user_id": 279
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "checkpoint_hash": "345b1b349d57afdb0c01c097cd8df96c0938483d2c0d1f3287cc0bf7c1302a26",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      502,
+      909,
+      1158,
+      446,
+      353,
+      306,
+      789,
+      933,
+      794,
+      70
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      39,
+      42,
+      70,
+      79,
+      306,
+      353,
+      446,
+      455,
+      502,
+      789,
+      794,
+      874,
+      909,
+      933,
+      1019,
+      1136,
+      1158,
+      1163,
+      1367
+    ],
+    "seed": 42,
+    "source_hash": "58029c67abe227fc343d0abbb0860240032ee2507e2fd1d1e22f56401d468d95",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4703,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Travolta",
+          "Madeleine Stowe",
+          "James Cromwell",
+          "Timothy Hutton"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Simon West",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When the body of Army Capt. Elizabeth Campbell is found on a Georgia military base, two investigators, Warrant Officers Paul Brenner and Sara Sunhill, are ordered to solve her murder. What they uncover is anything but clear-cut. Unseemly details emerge about Campbell's life, leading to allegations of a possible military coverup of her death and the involvement of her father, Lt. Gen. Joseph Campbell.",
+        "release_date": "1999-06-18",
+        "release_year": "1999",
+        "title": "General's Daughter, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Robert Duvall",
+          "Tony Shalhoub",
+          "William H. Macy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Zaillian",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Portuguese",
+        "overview": "Jan Schlickmann is a cynical lawyer who goes out to \"get rid of\" a case, only to find out it is potentially worth millions. The case becomes his obsession, to the extent that he is willing to give up everything - including his career and his clients' goals, in order to continue the case against all odds.",
+        "release_date": "1998-03-05",
+        "release_year": "1998",
+        "title": "Civil Action, A"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Renée Zellweger",
+          "Anthony Anderson",
+          "Robert Forster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Rhode Island State Trooper Charlie Baileygates has a multiple personality disorder. One personality is crazy and aggressive, while the other is more friendly and laid back. Both of these personalities fall in love with the same woman named Irene after Charlie loses his medication.",
+        "release_date": "2000-06-22",
+        "release_year": "2000",
+        "title": "Me, Myself and Irene"
+      },
+      {
+        "cast": [
+          "John Leguizamo",
+          "Adrien Brody",
+          "Mira Sorvino",
+          "Jennifer Esposito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Lee",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spike Lee's take on the \"Son of Sam\" murders in New York City during the summer of 1977 centering on the residents of an Italian-American South Bronx neighborhood who live in fear and distrust of one another.",
+        "release_date": "1999-07-02",
+        "release_year": "1999",
+        "title": "Summer of Sam"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Heather Graham",
+          "Michael York",
+          "Robert Wagner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When diabolical genius, Dr. Evil travels back in time to steal superspy Austin Powers's ‘mojo’, Austin must return to the swingin' '60s himself – with the help of American agent, Felicity Shagwell – to stop the dastardly plan. Once there, Austin faces off against Dr. Evil's army of minions and saves the world in his own unbelievably groovy way.",
+        "release_date": "1999-06-08",
+        "release_year": "1999",
+        "title": "Austin Powers: The Spy Who Shagged Me"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Jason Biggs",
+          "Chris Klein",
+          "Thomas Ian Nicholas",
+          "Alyson Hannigan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Weitz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a high-school party, four friends find that losing their collective virginity isn't as easy as they had thought. But they still believe that they need to do so before college. To motivate themselves, they enter a pact to all \"score.\" by their senior prom.",
+        "release_date": "1999-07-09",
+        "release_year": "1999",
+        "title": "American Pie"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Ossie Davis",
+          "Oliver Platt",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A successful physician and devoted family man, John Dolittle (Eddie Murphy) seems to have the world by the tail, until a long suppressed talent he possessed as a child, the ability to communicate with animals is suddenly reawakened with a vengeance! Now every creature within squawking distance wants the good doctor's advice, unleashing an outrageous chain of events that turns his world upside down!",
+        "release_date": "1998-06-22",
+        "release_year": "1998",
+        "title": "Doctor Dolittle"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Jeff Daniels",
+          "Lauren Holly",
+          "Teri Garr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Lloyd and Harry are two men whose stupidity is really indescribable. When Mary, a beautiful woman, loses an important suitcase with money before she leaves for Aspen, the two friends (who have found the suitcase) decide to return it to her. After some \"adventures\" they finally get to Aspen where, using the lost money they live it up and fight for Mary's heart.",
+        "release_date": "1994-12-16",
+        "release_year": "1994",
+        "title": "Dumb & Dumber"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Ashley Judd",
+          "Bruce Greenwood",
+          "Annabeth Gish"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Bruce Beresford",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A woman framed for her husband's murder suspects he is still alive; as she has already been tried for the crime, she can't be re-prosecuted if she finds and kills him.",
+        "release_date": "1999-09-24",
+        "release_year": "1999",
+        "title": "Double Jeopardy"
+      }
+    ],
+    "raw_user_id": "4703",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 19
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.7353915506197495
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 9
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "A dislike for poorly received comedies and films that fail to deliver on their premise.",
+        "A negative response to horror films that do not resonate with the user."
+      ],
+      "liked_patterns": [
+        "A strong preference for thrillers and dramas, often rated highly.",
+        "A consistent enjoyment of comedies, particularly those with a mix of humor and heart.",
+        "A tendency to rate action films positively, especially those with engaging plots."
+      ],
+      "summary": "Unique tastes: Thrillers (The user enjoys suspenseful narratives that keep them engaged.); Dramas (The user appreciates character-driven stories that explore complex emotions and relationships.); Comedies (The user favors humor and light-hearted entertainment, particularly in comedic storytelling.); Action (The user is drawn to high-energy films that feature intense sequences and excitement.); Mystery (The user enjoys plots that involve intrigue and the unraveling of secrets.). Liked patterns: A strong preference for thrillers and dramas, often rated highly., A consistent enjoyment of comedies, particularly those with a mix of humor and heart., A tendency to rate action films positively, especially those with engaging plots.. Disliked patterns: A dislike for poorly received comedies and films that fail to deliver on their premise., A negative response to horror films that do not resonate with the user..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys suspenseful narratives that keep them engaged.",
+          "taste": "Thrillers"
+        },
+        {
+          "reason": "The user appreciates character-driven stories that explore complex emotions and relationships.",
+          "taste": "Dramas"
+        },
+        {
+          "reason": "The user favors humor and light-hearted entertainment, particularly in comedic storytelling.",
+          "taste": "Comedies"
+        },
+        {
+          "reason": "The user is drawn to high-energy films that feature intense sequences and excitement.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user enjoys plots that involve intrigue and the unraveling of secrets.",
+          "taste": "Mystery"
+        }
+      ]
+    },
+    "user_id": 4703
+  }
+}

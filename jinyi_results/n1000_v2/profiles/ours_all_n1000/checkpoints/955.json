@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "96b8bec1b9378c47229be1f67052398ca0242dd1e6b73f66aa7ba6c9639c94d6",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1286,
+      291,
+      888,
+      210,
+      1916,
+      352,
+      1842,
+      1333,
+      946,
+      971
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ea16e7fa5e5740e881e8d1e219c74ff9"
+    ],
+    "sampled_item_ids": [
+      19,
+      20,
+      126,
+      133,
+      183,
+      218,
+      222,
+      241,
+      273,
+      377,
+      405,
+      433,
+      435,
+      466,
+      508,
+      515,
+      623,
+      636,
+      744,
+      974,
+      985,
+      1107,
+      1291,
+      1536,
+      2264
+    ],
+    "seed": 42,
+    "source_hash": "8e7d430b784d0b85586053072bb60027e81fd751985be51d943477756af2e29e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 955,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "female",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bryan Brown",
+          "Brian Dennehy",
+          "Diane Venora",
+          "Cliff DeYoung"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mandel",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A movies special effects man is hired by a government agency to help stage the assassination of a well known gangster. When the agency double cross him, he uses his special effects to trap the gangster and the corrupt agents.",
+        "release_date": "1986-02-07",
+        "release_year": "1986",
+        "title": "F/X"
+      },
+      {
+        "cast": [
+          "Cameron Diaz",
+          "Ben Stiller",
+          "Matt Dillon",
+          "Lee Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Having never fully recovered from a prom date that became a total disaster, a man finally gets a chance to reunite with his old prom date, only to run up against other suitors including the sleazy detective he hired to find her.",
+        "release_date": "1998-07-15",
+        "release_year": "1998",
+        "title": "There's Something About Mary"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Gary Sinise",
+          "Delroy Lindo",
+          "Rene Russo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a rich man's son is kidnapped, he cooperates with the police at first but then tries a unique tactic against the criminals.",
+        "release_date": "1996-11-08",
+        "release_year": "1996",
+        "title": "Ransom"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Cathy Tyson",
+          "Michael Caine",
+          "Robbie Coltrane"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Comedy",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "George has just been released from prison, and manages to get a job driving an expensive call girl from customer to customer. Initially they don't get on - he doesn't fit in with the high class customers Simone services. Will they ever get on?",
+        "release_date": "1986-06-13",
+        "release_year": "1986",
+        "title": "Mona Lisa"
+      },
+      {
+        "cast": [
+          "Aaron Eckhart",
+          "Stacy Edwards",
+          "Matt Malloy",
+          "Michael Martin"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Neil LaBute",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two business executives--one an avowed misogynist, the other recently emotionally wounded by his love interest--set out to exact revenge on the female gender by seeking out the most innocent, uncorrupted girl they can find and ruining her life.",
+        "release_date": "1997-01-19",
+        "release_year": "1997",
+        "title": "In the Company of Men"
+      },
+      {
+        "cast": [
+          "Jonny Lee Miller",
+          "Angelina Jolie",
+          "Jesse Bradford",
+          "Matthew Lillard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Iain Softley",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Along with his new friends, a teenager who was arrested by the US Secret Service and banned from using a computer for writing a computer virus discovers a plot by a nefarious hacker, but they must use their computer skills to find the evidence while being pursued by the Secret Service and the evil computer genius behind the virus.",
+        "release_date": "1995-09-14",
+        "release_year": "1995",
+        "title": "Hackers"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Alec Baldwin",
+          "Miko Hughes",
+          "Chi McBride"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Becker",
+        "genres": [
+          "Action",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Renegade FBI agent Art Jeffries protects a nine-year-old autistic boy who has cracked the government's new \"unbreakable\" code.",
+        "release_date": "1998-04-03",
+        "release_year": "1998",
+        "title": "Mercury Rising"
+      },
+      {
+        "cast": [
+          "Anjelica Huston",
+          "John Cusack",
+          "Annette Bening",
+          "Jan Munroe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "A young short-con grifter suffers both injury and the displeasure of reuniting with his criminal mother, all the while dating an unpredictable young lady.",
+        "release_date": "1990-09-14",
+        "release_year": "1990",
+        "title": "Grifters, The"
+      },
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Angela Bassett",
+          "Tom Sizemore",
+          "Juliette Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kathryn Bigelow",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Set in the year 1999 during the last days of the old millennium, the movie tells the story of Lenny Nero, an ex-cop who now deals with data-discs containing recorded memories and emotions. One day he receives a disc which contains the memories of a murderer killing a prostitute. Lenny investigates and is pulled deeper and deeper in a whirl of blackmail, murder and rape. Will he survive and solve the case?",
+        "release_date": "1995-10-13",
+        "release_year": "1995",
+        "title": "Strange Days"
+      }
+    ],
+    "raw_user_id": "955",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 272
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8490990438467212
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that lack engaging plots or character development.",
+        "Dislike for films that are overly simplistic or do not resonate emotionally."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as comedy with romance or action with thriller.",
+        "Consistent appreciation for films with strong character development and emotional depth.",
+        "Positive ratings for films that feature unique storytelling or innovative concepts."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (The user shows a consistent liking for comedies, particularly those that blend humor with other genres.); Interest in Action and Thriller (The user rates multiple action and thriller films positively, suggesting a preference for suspenseful and dynamic storytelling.); Fondness for Sci-Fi (The user enjoys science fiction films, especially those that incorporate complex themes and narratives.); Attraction to Romantic Elements (The user appreciates films that include romantic themes, often rating them positively when combined with other genres.). Liked patterns: High ratings for films that blend genres, such as comedy with romance or action with thriller., Consistent appreciation for films with strong character development and emotional depth., Positive ratings for films that feature unique storytelling or innovative concepts.. Disliked patterns: Low ratings for films that lack engaging plots or character development., Dislike for films that are overly simplistic or do not resonate emotionally..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user shows a consistent liking for comedies, particularly those that blend humor with other genres.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user rates multiple action and thriller films positively, suggesting a preference for suspenseful and dynamic storytelling.",
+          "taste": "Interest in Action and Thriller"
+        },
+        {
+          "reason": "The user enjoys science fiction films, especially those that incorporate complex themes and narratives.",
+          "taste": "Fondness for Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates films that include romantic themes, often rating them positively when combined with other genres.",
+          "taste": "Attraction to Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 955
+  }
+}

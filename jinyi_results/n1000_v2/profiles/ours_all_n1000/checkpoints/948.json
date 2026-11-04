@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "6f1b42ef7f85257627ea921d241c27a206167ae96b1b914474c4972b5ea283b6",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      672,
+      1266,
+      1260,
+      1327,
+      18,
+      327,
+      111,
+      200,
+      1252,
+      1412
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "efbfa43c44004a8b8cc9bc01d8a6d462"
+    ],
+    "sampled_item_ids": [
+      72,
+      134,
+      146,
+      161,
+      163,
+      276,
+      339,
+      350,
+      421,
+      529,
+      693,
+      723,
+      962,
+      1040,
+      1064,
+      1111,
+      1167,
+      1281,
+      1543,
+      1587,
+      1756,
+      1838,
+      2040,
+      2372,
+      3184
+    ],
+    "seed": 42,
+    "source_hash": "b11574ff14cf184ff58911ee2ed649895990d5e3623cc9d55e6bcb154d7f2ba3",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 948,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sebastian Cabot",
+          "Karl Swenson",
+          "Junius Matthews",
+          "Norman Alden"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Reitherman",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "Wart is a young boy who aspires to be a knight's squire. On a hunting trip he falls in on Merlin, a powerful but amnesiac wizard who has plans for him beyond mere squiredom. He starts by trying to give him an education, believing that once one has an education, one can go anywhere. Needless to say, it doesn't quite work out that way.",
+        "release_date": "1963-12-25",
+        "release_year": "1963",
+        "title": "Sword in the Stone, The"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "Jason Scott Lee",
+          "Jason Isaacs",
+          "Connie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul W.S. Anderson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Sergeant Todd is a veteran soldier for an elite group of the armed forces. After being defeated by a new breed of genetically engineered soldiers, he is dumped on a waste planet and left for dead. He soon interacts with a group of crash survivors who lead out a peaceful existence. The peace is broken as the new soldiers land on the planet to eliminate the colony, which Sergeant Todd must defend.",
+        "release_date": "1998-10-23",
+        "release_year": "1998",
+        "title": "Soldier"
+      },
+      {
+        "cast": [
+          "Natasha Henstridge",
+          "Ben Kingsley",
+          "Michael Madsen",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Donaldson",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In 1993, the Search for Extra Terrestrial Intelligence Project receives a transmission detailing an alien DNA structure, along with instructions on how to splice it with human DNA. The result is Sil, a sensual but deadly creature who can change from a beautiful woman to an armour-plated killing machine in the blink of an eye.",
+        "release_date": "1995-07-07",
+        "release_year": "1995",
+        "title": "Species"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Marcia Strassman",
+          "Robert Oliveri",
+          "Daniel Shalikar"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Randal Kleiser",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Wayne Szalinski is at it again. But instead of shrinking things, he tries to make a machine that can make things grow. As in the first one, his machine isn't quite accurate. But when he brings Nick & his toddler son Adam to see his invention, the machine unexpectedly starts working. And when Adam comes right up to the machine, he gets zapped along with his stuffed bunny.",
+        "release_date": "1992-07-16",
+        "release_year": "1992",
+        "title": "Honey, I Blew Up the Kid"
+      },
+      {
+        "cast": [
+          "Donnie Dunagan",
+          "Peter Behn",
+          "Stan Alexander",
+          "Cammie King"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Hand",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "Bambi's tale unfolds from season to season as the young prince of the forest learns about life, love, and friends.",
+        "release_date": "1942-08-14",
+        "release_year": "1942",
+        "title": "Bambi"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Mark Wahlberg",
+          "Ice Cube",
+          "Spike Jonze"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David O. Russell",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A group of American soldiers stationed in Iraq at the end of the Gulf War find a map they believe will take them to a huge cache of stolen Kuwaiti gold hidden near their base, and they embark on a secret mission that's destined to change everything.",
+        "release_date": "1999-09-27",
+        "release_year": "1999",
+        "title": "Three Kings"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Madeleine Stowe",
+          "Russell Means",
+          "Eric Schweig"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Action",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As the English and French soldiers battle for control of the American colonies in the 18th century, the settlers and native Americans are forced to take sides. Cora and her sister Alice unwittingly walk into trouble but are reluctantly saved by Hawkeye, an orphaned settler adopted by the last of the Mohicans.",
+        "release_date": "1992-09-25",
+        "release_year": "1992",
+        "title": "Last of the Mohicans, The"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Katharine Ross",
+          "Strother Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot 'Sundance Kid'. As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "release_year": "1969",
+        "title": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Charles Grodin",
+          "Yaphet Kotto",
+          "John Ashton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Brest",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "An accountant embezzles $15 million of mob money, jumps bail and is chased by bounty hunters, the FBI, and the Mafia.",
+        "release_date": "1988-07-20",
+        "release_year": "1988",
+        "title": "Midnight Run"
+      },
+      {
+        "cast": [
+          "Nathan Lane",
+          "Lee Evans",
+          "Vicki Lewis",
+          "Maury Chaykin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gore Verbinski",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Down-on-their luck brothers, Lars and Ernie Smuntz, aren't happy with the crumbling old mansion they inherit... until they discover the estate is worth millions. Before they can cash in, they have to rid the house of it's single, stubborn occupant: a tiny and tenacious mouse.",
+        "release_date": "1997-12-19",
+        "release_year": "1997",
+        "title": "Mouse Hunt"
+      }
+    ],
+    "raw_user_id": "948",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 415
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3057556590952406
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for Action films that lack depth or strong narratives.",
+        "Negative reception of films that attempt to blend Comedy with less engaging storylines."
+      ],
+      "liked_patterns": [
+        "Preference for films that combine Drama with other genres like War and Musical.",
+        "Enjoyment of films that feature strong narratives in the Sci-Fi genre.",
+        "Positive reception of films that blend Comedy with Drama."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama and War genres (Multiple high ratings for films that explore dramatic narratives and war themes.); Appreciation for Comedy and its blend with other genres (Several films rated positively that combine comedy with drama or action.); Enjoyment of Sci-Fi and its thematic elements (High ratings for films that incorporate science fiction elements, often with strong narratives.); Interest in Film-Noir and Mystery (Consistent high ratings for films that embody the film-noir style and mystery elements.); Favoring Animation with depth (High rating for animated films that offer complex themes and storytelling.). Liked patterns: Preference for films that combine Drama with other genres like War and Musical., Enjoyment of films that feature strong narratives in the Sci-Fi genre., Positive reception of films that blend Comedy with Drama.. Disliked patterns: Dislike for Action films that lack depth or strong narratives., Negative reception of films that attempt to blend Comedy with less engaging storylines..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for films that explore dramatic narratives and war themes.",
+          "taste": "Strong preference for Drama and War genres"
+        },
+        {
+          "reason": "Several films rated positively that combine comedy with drama or action.",
+          "taste": "Appreciation for Comedy and its blend with other genres"
+        },
+        {
+          "reason": "High ratings for films that incorporate science fiction elements, often with strong narratives.",
+          "taste": "Enjoyment of Sci-Fi and its thematic elements"
+        },
+        {
+          "reason": "Consistent high ratings for films that embody the film-noir style and mystery elements.",
+          "taste": "Interest in Film-Noir and Mystery"
+        },
+        {
+          "reason": "High rating for animated films that offer complex themes and storytelling.",
+          "taste": "Favoring Animation with depth"
+        }
+      ]
+    },
+    "user_id": 948
+  }
+}

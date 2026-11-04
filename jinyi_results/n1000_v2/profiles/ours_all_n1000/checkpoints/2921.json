@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "c8bc737b8754dbf3346cea9e7dadf996c519cf5e6b3f2ce7931c175838deef16",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1008,
+      612,
+      2548,
+      760,
+      61,
+      1530,
+      616,
+      278,
+      1720,
+      129
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "35b41945c87d4258a645372ff7f251f5"
+    ],
+    "sampled_item_ids": [
+      27,
+      45,
+      63,
+      87,
+      125,
+      215,
+      218,
+      377,
+      739,
+      768,
+      861,
+      879,
+      952,
+      955,
+      1008,
+      1104,
+      1191,
+      1260,
+      1327,
+      1715,
+      1727,
+      1836,
+      1874,
+      2548,
+      2940
+    ],
+    "seed": 42,
+    "source_hash": "df49a343994220596fc3871016625db7c5f3c42b6866d27c9b022ec64d552abe",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2921,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Roddy McDowall",
+          "Kim Hunter",
+          "Bradford Dillman",
+          "Natalie Trundy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Don Taylor",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The world is shocked by the appearance of two talking chimpanzees, who arrived mysteriously in a U.S. spacecraft. They become the toast of society; but one man believes them to be a threat to the human race.",
+        "release_date": "1971-05-20",
+        "release_year": "1971",
+        "title": "Escape from the Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Peter Sellers",
+          "George C. Scott",
+          "Sterling Hayden",
+          "Keenan Wynn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union. As soon as the actions of General \"Buck\" Turgidson are discovered, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike. Near the end is a scene that is probably the most uniquely unforgettable performance of Slim Pickens in his movie career. Peter Sellers plays multiple roles in this film.",
+        "release_date": "1964-01-29",
+        "release_year": "1963",
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Russell Crowe",
+          "Kelly Lynch",
+          "William Forsythe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brett Leonard",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The Law Enforcement Technology Advancement Centre (LETAC) has developed SID version 6.7: a Sadistic, Intelligent, and Dangerous virtual reality entity which is synthesized from the personalities of more than 150 serial killers, and only one man can stop him.",
+        "release_date": "1995-08-04",
+        "release_year": "1995",
+        "title": "Virtuosity"
+      },
+      {
+        "cast": [
+          "James Franciscus",
+          "Kim Hunter",
+          "Maurice Evans",
+          "Linda Harrison"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ted Post",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Astronaut Brent is sent to rescue Taylor but crash lands on the Planet of the Apes, just like Taylor did in the original film. Taylor has disappeared into the Forbidden Zone so Brent and Nova try to follow and find him. He discovers a cult of humans that fear the Apes' latest military movements and finds himself in the middle. Tension mounts to a climactic battle between ape and man deep in the bowels of the planet.",
+        "release_date": "1970-05-01",
+        "release_year": "1970",
+        "title": "Beneath the Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Faye Dunaway",
+          "William Holden",
+          "Peter Finch",
+          "Robert Duvall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A TV network cynically exploits a deranged ex-TV anchor's ravings and revelations about the media for their own profit.",
+        "release_date": "1976-11-01",
+        "release_year": "1976",
+        "title": "Network"
+      },
+      {
+        "cast": [
+          "Gene Barry",
+          "Ann Robinson",
+          "Les Tremayne",
+          "Lewis Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Byron Haskin",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The residents of a small town are excited when a flaming meteor lands in the hills, but their joy is short-lived when they discover it has passengers who are not very friendly.",
+        "release_date": "1953-08-13",
+        "release_year": "1953",
+        "title": "War of the Worlds, The"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "Patrick Bergin",
+          "Matt Frewer",
+          "Austin O'Brien",
+          "Ely Pouget"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Farhad Mann",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jobe is resuscitated by Jonathan Walker. He wants Jobe to create a special computer chip that would connect all the computers in the world into one network, which Walker would control and use. But what Walker doesn't realize is a group of teenage hackers are on to him and out to stop his plan.",
+        "release_date": "1996-01-12",
+        "release_year": "1996",
+        "title": "Lawnmower Man 2: Beyond Cyberspace"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      }
+    ],
+    "raw_user_id": "2921",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 103
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5957032880633484
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for horror films.",
+        "Dislike for films with weak narratives or execution."
+      ],
+      "liked_patterns": [
+        "Strong preference for science fiction and action-adventure genres.",
+        "High ratings for films that combine drama with sci-fi elements.",
+        "Consistent enjoyment of films featuring thrilling plots."
+      ],
+      "summary": "Unique tastes: Sci-Fi Enthusiast (The user has a strong preference for science fiction, as evidenced by multiple high ratings for films in this genre.); Action and Adventure Lover (The user enjoys action and adventure films, consistently rating them positively.); Appreciation for Fantasy Elements (The user shows a liking for fantasy elements, often found in the rated films.); Interest in Thrillers (The user rates several thriller films highly, indicating a taste for suspenseful narratives.); Dramatic Storytelling (The user appreciates drama within their film choices, as seen in the ratings for films that blend drama with other genres.). Liked patterns: Strong preference for science fiction and action-adventure genres., High ratings for films that combine drama with sci-fi elements., Consistent enjoyment of films featuring thrilling plots.. Disliked patterns: Negative ratings for horror films., Dislike for films with weak narratives or execution..",
+      "unique_tastes": [
+        {
+          "reason": "The user has a strong preference for science fiction, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Sci-Fi Enthusiast"
+        },
+        {
+          "reason": "The user enjoys action and adventure films, consistently rating them positively.",
+          "taste": "Action and Adventure Lover"
+        },
+        {
+          "reason": "The user shows a liking for fantasy elements, often found in the rated films.",
+          "taste": "Appreciation for Fantasy Elements"
+        },
+        {
+          "reason": "The user rates several thriller films highly, indicating a taste for suspenseful narratives.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user appreciates drama within their film choices, as seen in the ratings for films that blend drama with other genres.",
+          "taste": "Dramatic Storytelling"
+        }
+      ]
+    },
+    "user_id": 2921
+  }
+}

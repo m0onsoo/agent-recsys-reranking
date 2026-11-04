@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "0aa5cd5e6d32187179c6e9d3d94baf96110456b61e3b70eb0a65336e956b486b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      841,
+      739,
+      377,
+      744,
+      33,
+      35,
+      1015,
+      187,
+      323,
+      190
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      31,
+      61,
+      85,
+      98,
+      133,
+      177,
+      204,
+      210,
+      218,
+      219,
+      262,
+      323,
+      386,
+      601,
+      739,
+      743,
+      816,
+      849,
+      857,
+      989,
+      1001,
+      1202,
+      1317,
+      1414,
+      3117
+    ],
+    "seed": 42,
+    "source_hash": "125eba875a877bb9fb39e16a2237e931571f17eb2e6b4a582f2def95cd5dc67e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4461,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gene Hackman",
+          "Christopher Reeve",
+          "Ned Beatty",
+          "Jackie Cooper"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Three escaped criminals from the planet Krypton test the Man of Steel's mettle. Led by Gen. Zod, the Kryptonians take control of the White House and partner with Lex Luthor to destroy Superman and rule the world. But Superman, who attempts to make himself human in order to get closer to Lois, realizes he has a responsibility to save the planet.",
+        "release_date": "1980-12-04",
+        "release_year": "1980",
+        "title": "Superman II"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Mary Steenburgen",
+          "Thomas F. Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "The final installment of the Back to the Future trilogy finds Marty digging the trusty DeLorean out of a mineshaft and looking up Doc in the Wild West of 1885. But when their time machine breaks down, the travelers are stranded in a land of spurs. More problems arise when Doc falls for pretty schoolteacher Clara Clayton, and Marty tangles with Buford Tannen.",
+        "release_date": "1990-05-25",
+        "release_year": "1990",
+        "title": "Back to the Future Part III"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Madeleine Stowe",
+          "Brad Pitt",
+          "Christopher Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly, and patient Jeffrey Goines, the son of a famous virus expert, who may hold the key to the mysterious rogue group, the Army of the 12 Monkeys, thought to be responsible for unleashing the killer disease.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Twelve Monkeys"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "Tate Donovan",
+          "Josh Keaton",
+          "Roger Bart",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Clements",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Bestowed with superhuman strength, a young mortal named Hercules sets out to prove himself a hero in the eyes of his father, the great god Zeus. Along with his friends Pegasus, a flying horse, and Phil, a personal trainer, Hercules is tricked by the hilarious, hotheaded villain Hades, who's plotting to take over Mount Olympus!",
+        "release_date": "1997-06-26",
+        "release_year": "1997",
+        "title": "Hercules"
+      },
+      {
+        "cast": [
+          "Ming-Na Wen",
+          "Lea Salonga",
+          "Eddie Murphy",
+          "BD Wong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Bancroft",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "A tomboyish girl disguises herself as a young man so she can fight with the Imperial Chinese Army against the invading Huns. With help from wise-cracking dragon Mushu, Mulan just might save her country -- and win the heart of handsome Captain Li Shang.",
+        "release_date": "1998-06-18",
+        "release_year": "1998",
+        "title": "Mulan"
+      },
+      {
+        "cast": [
+          "Rufus Sewell",
+          "William Hurt",
+          "Kiefer Sutherland",
+          "Jennifer Connelly"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "release_date": "1998-02-27",
+        "release_year": "1998",
+        "title": "Dark City"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Sean Connery",
+          "Denholm Elliott",
+          "Alison Doody"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Henry Jones Sr. suddenly goes missing while pursuing the Holy Grail, eminent archaeologist Indiana must team up with Marcus Brody, Sallah and Elsa Schneider to follow in his father's footsteps and stop the Nazis from recovering the power of eternal life.",
+        "release_date": "1989-05-24",
+        "release_year": "1989",
+        "title": "Indiana Jones and the Last Crusade"
+      },
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Jude Law",
+          "Gore Vidal",
+          "Uma Thurman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Niccol",
+        "genres": [
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Science fiction drama about a future society in the era of indefinite eugenics where humans are set on a life course depending on their DNA. The young Vincent Freeman is born with a condition that would prevent him from space travel, yet he is determined to infiltrate the GATTACA space program.",
+        "release_date": "1997-09-07",
+        "release_year": "1997",
+        "title": "Gattaca"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      }
+    ],
+    "raw_user_id": "4461",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 126
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1168792338937983
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that attempt to blend genres unsuccessfully."
+      ],
+      "liked_patterns": [
+        "Strong preference for action-packed films with adventure themes.",
+        "Enjoyment of comedies that span various styles and eras.",
+        "Appreciation for animated films that cater to a wide audience."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventure elements.); Comedy (The user has a strong preference for comedic films across various sub-genres.); Animation (The user appreciates animated films, particularly those that appeal to both children and adults.); Sci-Fi and Thriller (The user is drawn to science fiction films that incorporate thrilling elements.); Drama with Humor (The user enjoys films that blend dramatic themes with comedic moments.). Liked patterns: Strong preference for action-packed films with adventure themes., Enjoyment of comedies that span various styles and eras., Appreciation for animated films that cater to a wide audience.. Disliked patterns: Dislike for films that attempt to blend genres unsuccessfully..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventure elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user has a strong preference for comedic films across various sub-genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates animated films, particularly those that appeal to both children and adults.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user is drawn to science fiction films that incorporate thrilling elements.",
+          "taste": "Sci-Fi and Thriller"
+        },
+        {
+          "reason": "The user enjoys films that blend dramatic themes with comedic moments.",
+          "taste": "Drama with Humor"
+        }
+      ]
+    },
+    "user_id": 4461
+  }
+}

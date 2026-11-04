@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "a733ab33230a79fa7665d475bee179d9012f8f2a343540eba1a7618da5e8b620",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1242,
+      250,
+      72,
+      636,
+      741,
+      2516,
+      532,
+      1754,
+      384,
+      3359
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5dfa07a9a3da4289a840c1b7dd96a9b2"
+    ],
+    "sampled_item_ids": [
+      41,
+      58,
+      197,
+      395,
+      408,
+      630,
+      644,
+      682,
+      727,
+      749,
+      846,
+      956,
+      959,
+      981,
+      1004,
+      1011,
+      1071,
+      1131,
+      1183,
+      1395,
+      1562,
+      1611,
+      1831,
+      2460,
+      3201
+    ],
+    "seed": 42,
+    "source_hash": "0088ffdc69a32959c3d8d24c656cb18f07e1d71ff6b393426d0244db3e151db5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1140,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "female",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jonathan Pryce",
+          "Robert De Niro",
+          "Katherine Helmond",
+          "Ian Holm"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
+        "release_date": "1985-02-20",
+        "release_year": "1985",
+        "title": "Brazil"
+      },
+      {
+        "cast": [
+          "Frances O'Connor",
+          "Lindsay Duncan",
+          "James Purefoy",
+          "Sheila Gish"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Patricia Rozema",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "This fun and sexy comedy tells a timelessly entertaining story where wealthy, secret passions and mischievous women put love to the test.. When a spirited young woman, Fanny Price, is sent away to live on the great country estate of her rich cousins, she's meant to learn the ways of proper society. But while Fanny learns \"their\" ways, she also enlightens them with a wit and sparkle all her own!",
+        "release_date": "1999-11-12",
+        "release_year": "1999",
+        "title": "Mansfield Park"
+      },
+      {
+        "cast": [
+          "Akira Terao",
+          "Jinpachi Nezu",
+          "Daisuke Ryû",
+          "Tatsuya Nakadai"
+        ],
+        "country": [
+          "Japan",
+          "France"
+        ],
+        "director": "Akira Kurosawa",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "Japanese",
+        "overview": "Set in Japan in the 16th century (or so), an elderly warlord retires, handing over his empire to his three sons. However, he vastly underestimates how the new-found power will corrupt them, or cause them to turn on each other...and him...",
+        "release_date": "1985-06-01",
+        "release_year": "1985",
+        "title": "Ran"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Ellen Greene",
+          "Vincent Gardenia",
+          "Steve Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Seymour Krelborn is a nerdy orphan working at Mushnik's, a flower shop in urban Skid Row. He harbors a crush on fellow co-worker Audrey Fulquard, and is berated by Mr. Mushnik daily. One day as Seymour is seeking a new mysterious plant, he finds a very mysterious unidentified plant which he calls Audrey II. The plant seems to have a craving for blood and soon begins to sing for his supper.",
+        "release_date": "1986-12-19",
+        "release_year": "1986",
+        "title": "Little Shop of Horrors"
+      },
+      {
+        "cast": [
+          "Bruce Campbell",
+          "Embeth Davidtz",
+          "Marcus Gilbert",
+          "Ian Abercrombie"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A man is accidentally transported to 1300 A.D., where he must battle an army of the dead and retrieve the Necronomicon so he can return home.",
+        "release_date": "1992-10-09",
+        "release_year": "1993",
+        "title": "Army of Darkness"
+      },
+      {
+        "cast": [
+          "Laurence Olivier",
+          "Jean Simmons",
+          "John Laurie",
+          "Esmond Knight"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Laurence Olivier",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Winner of four Academy Awards, including Best Picture and Best Actor, Sir Laurence Olivier’s Hamlet continues to be the most compelling version of Shakespeare’s beloved tragedy. Olivier is at his most inspired—both as director and as the melancholy Dane himself—as he breathes new life into the words of one of the world’s greatest dramatists.",
+        "release_date": "1948-03-25",
+        "release_year": "1948",
+        "title": "Hamlet"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Miranda Richardson",
+          "Timothy Spall",
+          "Imelda Staunton"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Having been hopelessly repressed and facing eventual certain death at the British chicken farm where they are held, Rocky the american rooster and Ginger the chicken decide to rebel against the evil Mr. and Mrs. Tweedy, the farm's owners. Rocky and Ginger lead their fellow chickens in a great escape from the murderous farmers and their farm of doom.",
+        "release_date": "2000-06-21",
+        "release_year": "2000",
+        "title": "Chicken Run"
+      },
+      {
+        "cast": [
+          "Jane Fonda",
+          "Lee Marvin",
+          "Nat 'King' Cole",
+          "Stubby Kaye"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Elliot Silverstein",
+        "genres": [
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "A woman seeking revenge for her murdered father hires a famous gunman, but he's very different from what she expects.",
+        "release_date": "1965-06-24",
+        "release_year": "1965",
+        "title": "Cat Ballou"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Sean Penn",
+          "Robert Prosky",
+          "Raymond J. Barry"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Tim Robbins",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A justice drama based on a true story about a man on death row who in his last days forms a strong relationship with a nun who teaches him forgiveness and gives him spirituality as she accompanies him to his execution. Susan Sarandon won an Oscar for best female actress for her convincing portrayal of Sister Helen Prejean.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Dead Man Walking"
+      },
+      {
+        "cast": [
+          "Jane Russell",
+          "Jack Buetel",
+          "Thomas Mitchell",
+          "Walter Huston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Hawks",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Newly appointed sheriff Pat Garrett is pleased when his old friend Doc Holliday arrives in Lincoln, New Mexico on the stage. Doc is trailing his stolen horse, and it is discovered in the possession of Billy the Kid. In a surprising turnaround, Billy and Doc become friends. This causes the friendship between Doc and Pat to cool. The odd relationship between Doc and Billy grows stranger when Doc hides Billy at his girl, Rio's, place after Billy is shot.",
+        "release_date": "1943-02-05",
+        "release_year": "1943",
+        "title": "Outlaw, The"
+      }
+    ],
+    "raw_user_id": "1140",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 299
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.87229726573352
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for horror films",
+        "Dislike for films with low engagement or poor execution"
+      ],
+      "liked_patterns": [
+        "High ratings for Western films",
+        "Strong preference for drama films",
+        "Appreciation for action and adventure genres"
+      ],
+      "summary": "Unique tastes: Western (The user enjoys Western films, as indicated by multiple high ratings for movies in this genre.); Drama (The user has a strong preference for drama, reflected in several high ratings across various dramatic films.); Action (The user appreciates action films, with multiple ratings of 4 or higher in this genre.); Mystery (The user shows a liking for mystery films, as evidenced by high ratings for several titles.); Comedy (The user enjoys comedy, with several films rated positively in this genre.). Liked patterns: High ratings for Western films, Strong preference for drama films, Appreciation for action and adventure genres. Disliked patterns: Negative ratings for horror films, Dislike for films with low engagement or poor execution.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys Western films, as indicated by multiple high ratings for movies in this genre.",
+          "taste": "Western"
+        },
+        {
+          "reason": "The user has a strong preference for drama, reflected in several high ratings across various dramatic films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user appreciates action films, with multiple ratings of 4 or higher in this genre.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user shows a liking for mystery films, as evidenced by high ratings for several titles.",
+          "taste": "Mystery"
+        },
+        {
+          "reason": "The user enjoys comedy, with several films rated positively in this genre.",
+          "taste": "Comedy"
+        }
+      ]
+    },
+    "user_id": 1140
+  }
+}

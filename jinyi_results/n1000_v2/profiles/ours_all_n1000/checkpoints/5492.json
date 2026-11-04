@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "2f4b5b2ca70f1a16063c8b909651621e17e9e8f069714ea78a04a50341fd3819",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2883,
+      1353,
+      1190,
+      494,
+      628,
+      1125,
+      20,
+      1169,
+      1285,
+      182
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      39,
+      59,
+      114,
+      185,
+      190,
+      232,
+      273,
+      375,
+      515,
+      569,
+      572,
+      694,
+      801,
+      882,
+      1298,
+      1329,
+      1432,
+      1522,
+      1773,
+      1824,
+      1970,
+      2054,
+      2233,
+      2256,
+      2883
+    ],
+    "seed": 42,
+    "source_hash": "cb208484f8f2892edc96282c51e2df201d3283699266170dbaa30a551795635e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5492,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mark Wahlberg",
+          "Reese Witherspoon",
+          "William Petersen",
+          "Alyssa Milano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Foley",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A 16 year old girl takes up with a charming young man who quickly shows his colors when he beats a friend simply for walking with her and then goes totally ballistic after she tries to break up with him.",
+        "release_date": "1996-04-12",
+        "release_year": "1996",
+        "title": "Fear"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "John Hurt",
+          "Anne Bancroft",
+          "John Gielgud"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.",
+        "release_date": "1980-10-02",
+        "release_year": "1980",
+        "title": "Elephant Man, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Danny DeVito",
+          "Emma Thompson",
+          "Frank Langella"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "As part of a fertility research project, a male scientist agrees to carry a pregnancy in his own body.",
+        "release_date": "1994-11-22",
+        "release_year": "1994",
+        "title": "Junior"
+      },
+      {
+        "cast": [
+          "Jennifer Jason Leigh",
+          "Jude Law",
+          "Ian Holm",
+          "Willem Dafoe"
+        ],
+        "country": [
+          "Canada",
+          "France",
+          "United Kingdom"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A game designer on the run from assassins must play her latest virtual reality creation with a marketing trainee to determine if the game has been damaged.",
+        "release_date": "1999-04-14",
+        "release_year": "1999",
+        "title": "eXistenZ"
+      },
+      {
+        "cast": [
+          "Goldie Hawn",
+          "Bette Midler",
+          "Diane Keaton",
+          "Maggie Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hugh Wilson",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After years of helping their hubbies climb the ladder of success, three mid-life Manhattanites have been dumped for a newer, curvier model. But the trio is determined to turn their pain into gain. They come up with a cleverly devious plan to hit their exes where it really hurts - in the wallet!",
+        "release_date": "1996-09-20",
+        "release_year": "1996",
+        "title": "First Wives Club, The"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Goldie Hawn",
+          "John Cleese",
+          "Mark McKinney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Weisman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The remake of the 1970 Neil Simon comedy follows the adventures of a couple, Henry and Nancy Clark, vexed by misfortune while in New York City for a job interview.",
+        "release_date": "1999-04-02",
+        "release_year": "1999",
+        "title": "Out-of-Towners, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Elizabeth Perkins",
+          "Robert Loggia",
+          "John Heard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young boy, Josh Baskin makes a wish at a carnival machine to be big. He wakes up the following morning to find that it has been granted and his body has grown older overnight. But he is still the same 13-year-old boy inside. Now he must learn how to cope with the unfamiliar world of grown-ups including getting a job and having his first romantic encounter with a woman. What will he find out about this strange world?",
+        "release_date": "1988-06-03",
+        "release_year": "1988",
+        "title": "Big"
+      },
+      {
+        "cast": [
+          "Milla Jovovich",
+          "Dustin Hoffman",
+          "Faye Dunaway",
+          "John Malkovich"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "French",
+        "overview": "In 1429 a teenage girl from a remote French village stood before her King with a message she claimed came from God; that she would defeat the world's greatest army and liberate her country from its political and religious turmoil. Following her mission to reclaim god's dimished kingdom - through her amazing victories until her violent and untimely death.",
+        "release_date": "1999-10-18",
+        "release_year": "1999",
+        "title": "Messenger: The Story of Joan of Arc, The"
+      },
+      {
+        "cast": [
+          "Chow Yun-fat",
+          "Danny Lee Sau-Yin",
+          "Sally Yeh",
+          "Paul Chu Kong"
+        ],
+        "country": [
+          "Hong Kong"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "Mob assassin Jeffrey is no ordinary hired gun; the best in his business, he views his chosen profession as a calling rather than simply a job. So, when beautiful nightclub chanteuse Jennie is blinded in the crossfire of his most recent hit, Jeffrey chooses to retire after one last job to pay for his unintended victim's sight-restoring operation. But when Jeffrey is double-crossed, he reluctantly joins forces with a rogue policeman to make things right.",
+        "release_date": "1989-07-06",
+        "release_year": "1989",
+        "title": "Killer, The (Die xue shuang xiong)"
+      },
+      {
+        "cast": [
+          "Chris Farley",
+          "Nicollette Sheridan",
+          "Robin Shou",
+          "Nathaniel Parker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dennis Dugan",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Haru, an orphaned American who washes ashore in Japan and is mistaken for the great White Ninja of legend. Raised among the finest Ninjas, Haru grows strong and big - very big. With the grace of all Three Stooges rolled into one body, Haru is an embarrassment to his clan. But when a beautiful blonde pleads for his help, Haru is given one dangerous, disastrously funny chance to prove himself.",
+        "release_date": "1997-01-17",
+        "release_year": "1997",
+        "title": "Beverly Hills Ninja"
+      }
+    ],
+    "raw_user_id": "5492",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 305
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4395566249179543
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received comedies",
+        "Dislike for children's films that do not resonate",
+        "Dislike for films that mix genres unsuccessfully"
+      ],
+      "liked_patterns": [
+        "Enjoyment of thrillers and suspenseful narratives",
+        "Appreciation for action-packed adventures",
+        "Interest in comedic films with light-hearted themes"
+      ],
+      "summary": "Unique tastes: Thrillers (The user enjoys suspenseful narratives that keep them engaged.); Action and Adventure (The user appreciates high-energy films with exciting plots and dynamic characters.); Comedy (The user has a preference for humor, particularly in light-hearted and entertaining scenarios.); Drama (The user is drawn to films that explore emotional depth and character development.); Romantic Elements (The user enjoys stories that incorporate romance alongside other genres.). Liked patterns: Enjoyment of thrillers and suspenseful narratives, Appreciation for action-packed adventures, Interest in comedic films with light-hearted themes. Disliked patterns: Dislike for poorly received comedies, Dislike for children's films that do not resonate, Dislike for films that mix genres unsuccessfully.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys suspenseful narratives that keep them engaged.",
+          "taste": "Thrillers"
+        },
+        {
+          "reason": "The user appreciates high-energy films with exciting plots and dynamic characters.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user has a preference for humor, particularly in light-hearted and entertaining scenarios.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to films that explore emotional depth and character development.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys stories that incorporate romance alongside other genres.",
+          "taste": "Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 5492
+  }
+}

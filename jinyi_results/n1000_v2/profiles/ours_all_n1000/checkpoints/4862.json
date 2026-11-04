@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "d500db48051e6bf01e700e19b56d8ce9cdeaab4636ad5e6b98eeeda56b2cb567",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      63,
+      547,
+      692,
+      1166,
+      981,
+      278,
+      556,
+      90,
+      644,
+      214
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      23,
+      69,
+      79,
+      90,
+      98,
+      99,
+      105,
+      128,
+      135,
+      137,
+      187,
+      211,
+      214,
+      256,
+      273,
+      278,
+      663,
+      664,
+      798,
+      834,
+      965,
+      971,
+      1279,
+      1476,
+      1613
+    ],
+    "seed": 42,
+    "source_hash": "ff3419d71fcf72f86a4ea07af9b01d397ab29395e083bd9fe273691c9db27f34",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4862,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Jürgen Prochnow",
+          "Herbert Grönemeyer",
+          "Klaus Wennemann",
+          "Hubertus Bengsch"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "German",
+        "overview": "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.",
+        "release_date": "1981-09-16",
+        "release_year": "1981",
+        "title": "Boat, The (Das Boot)"
+      },
+      {
+        "cast": [
+          "Stan Laurel",
+          "Oliver Hardy",
+          "Charlotte Henry",
+          "Felix Knight"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charley Rogers",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Ollie Dee and Stanley Dum try to borrow money from their employer, the toymaker, to pay off the mortgage on Mother Peep's shoe and keep it and Little Bo Peep from the clutches of the evil Barnaby. When that fails, they trick Barnaby into marrying Stanley Dum instead of Bo Peep. Enraged, Barnaby unleashes the bogeymen from their caverns to destroy Toyland.",
+        "release_date": "1934-12-14",
+        "release_year": "1934",
+        "title": "March of the Wooden Soldiers (a.k.a. Laurel & Hardy in Toyland)"
+      },
+      {
+        "cast": [
+          "Shelley Long",
+          "Gary Cole",
+          "Christine Taylor",
+          "Christopher Daniel Barnes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The original 70's TV family is now placed in the 1990's, where they're even more square and out of place than ever.",
+        "release_date": "1995-02-16",
+        "release_year": "1995",
+        "title": "Brady Bunch Movie, The"
+      },
+      {
+        "cast": [
+          "Kyle MacLachlan",
+          "Michael Nouri",
+          "Claudia Christian",
+          "Clarence Felder"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jack Sholder",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An alien is on the run in America. To get his kicks, it kills anything that gets in its way, and uses the body as a new hiding place. This alien has a goal in life; power. Hotly pursued by another alien (who's borrowed the body of a dead FBI agent), lots of innocent people die in the chase.",
+        "release_date": "1987-10-30",
+        "release_year": "1987",
+        "title": "Hidden, The"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Charles S. Dutton",
+          "Charles Dance",
+          "Pete Postlethwaite"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After escaping with Newt and Hicks from the alien planet, Ripley crash lands on Fiorina 161, a prison planet and host to a correctional facility. Unfortunately, although Newt and Hicks do not survive the crash, a more unwelcome visitor does. The prison does not allow weapons of any kind, and with aid being a long time away, the prisoners must simply survive in any way they can.",
+        "release_date": "1992-05-22",
+        "release_year": "1992",
+        "title": "Alien³"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Geena Davis",
+          "Madonna",
+          "Lori Petty"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Small-town sisters Dottie and Kit join an all-female baseball league formed after World War II brings pro baseball to a standstill. When their team hits the road with its drunken coach, the siblings find troubles and triumphs on and off the field.",
+        "release_date": "1992-07-01",
+        "release_year": "1992",
+        "title": "League of Their Own, A"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Robert Shaw",
+          "Richard Dreyfuss",
+          "Lorraine Gary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
+        "release_date": "1975-06-18",
+        "release_year": "1975",
+        "title": "Jaws"
+      }
+    ],
+    "raw_user_id": "4862",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 76
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6990512285170772
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that mix genres poorly",
+        "Dislike for horror elements in action films"
+      ],
+      "liked_patterns": [
+        "Preference for action-oriented films",
+        "Enjoyment of comedies that incorporate drama",
+        "Interest in thrillers with sci-fi elements"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Comedy with Drama (The user appreciates films that blend humor with deeper emotional or dramatic themes.); Sci-Fi Thrillers (The user is drawn to science fiction films that incorporate thrilling elements and suspense.); Crime and Thriller (The user favors movies that explore crime narratives with thrilling twists.); Romantic Elements in Action (The user enjoys action films that also include romantic subplots.). Liked patterns: Preference for action-oriented films, Enjoyment of comedies that incorporate drama, Interest in thrillers with sci-fi elements. Disliked patterns: Dislike for films that mix genres poorly, Dislike for horror elements in action films.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that blend humor with deeper emotional or dramatic themes.",
+          "taste": "Comedy with Drama"
+        },
+        {
+          "reason": "The user is drawn to science fiction films that incorporate thrilling elements and suspense.",
+          "taste": "Sci-Fi Thrillers"
+        },
+        {
+          "reason": "The user favors movies that explore crime narratives with thrilling twists.",
+          "taste": "Crime and Thriller"
+        },
+        {
+          "reason": "The user enjoys action films that also include romantic subplots.",
+          "taste": "Romantic Elements in Action"
+        }
+      ]
+    },
+    "user_id": 4862
+  }
+}

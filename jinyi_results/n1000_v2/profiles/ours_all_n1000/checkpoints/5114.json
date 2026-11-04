@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "6588edd6c1bef91dc45c8c1f9c8a105e032df441ab89003001a29e231949a88b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      854,
+      2271,
+      2284,
+      742,
+      634,
+      648,
+      177,
+      1229,
+      658,
+      157
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      10,
+      18,
+      35,
+      45,
+      78,
+      114,
+      133,
+      177,
+      274,
+      336,
+      382,
+      391,
+      574,
+      603,
+      609,
+      616,
+      727,
+      843,
+      853,
+      930,
+      1017,
+      1038,
+      1043,
+      1328,
+      1473
+    ],
+    "seed": 42,
+    "source_hash": "d51af8791b9802352641c0f46ca8434ad83a6686136c26df081ba742a5b1d5ed",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5114,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "Under 18",
+      "gender": "female",
+      "occupation": "K-12 student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matt Damon",
+          "Bill Pullman",
+          "Drew Barrymore",
+          "John Leguizamo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Goldman",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A young man finds out that he holds the key to restoring hope and ensuring survival for the human race, while an alien species called the Dredge are bent on mankind's destruction.",
+        "release_date": "2000-06-16",
+        "release_year": "2000",
+        "title": "Titan A.E."
+      },
+      {
+        "cast": [
+          "Jason James Richter",
+          "August Schellenberg",
+          "Annie Corley",
+          "Vincent Berry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Pillsbury",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Willy the whale is back, this time threatened by illegal whalers making money off sushi. Jesse, now 16, has taken a job on an orca-researching ship, along with old friend Randolph and a sarcastic scientist, Drew. On the whaler's ship is captain John Wesley and his son, Max, who isn't really pleased about his father's job, but doesn't have the gut to say so. Along the way, Willy reunites with Jesse",
+        "release_date": "1997-08-08",
+        "release_year": "1997",
+        "title": "Free Willy 3: The Rescue"
+      },
+      {
+        "cast": [
+          "Barrie Ingham",
+          "Val Bettin",
+          "Vincent Price",
+          "Susanne Pollatschek"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Clements",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "When the diabolical Professor Ratigan kidnaps London's master toymaker, the brilliant master of disguise Basil of Baker Street and his trusted sidekick Dawson try to elude the ultimate trap and foil the perfect crime.",
+        "release_date": "1986-07-02",
+        "release_year": "1986",
+        "title": "Great Mouse Detective, The"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Jack Albertson",
+          "Peter Ostrum",
+          "Roy Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Stuart",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Eccentric candy man Willy Wonka prompts a worldwide frenzy when he announces that golden tickets hidden inside five of his delicious candy bars will admit their lucky holders into his top-secret confectionary. But does Wonka have an agenda hidden amid a world of Oompa Loompas and chocolate rivers?",
+        "release_date": "1971-06-29",
+        "release_year": "1971",
+        "title": "Willy Wonka and the Chocolate Factory"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1970",
+        "title": "M*A*S*H"
+      },
+      {
+        "cast": [
+          "Michael Keaton",
+          "Danny DeVito",
+          "Michelle Pfeiffer",
+          "Christopher Walken"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Having defeated the Joker, Batman now faces the Penguin - a warped and deformed individual who is intent on being accepted into Gotham society. Crooked businessman Max Schreck is coerced into helping him become Mayor of Gotham and they both attempt to expose Batman in a different light. Selina Kyle, Max's secretary, is thrown from the top of a building and is transformed into Catwoman - a mysterious figure who has the same personality disorder as Batman. Batman must attempt to clear his name, all the time deciding just what must be done with the Catwoman.",
+        "release_date": "1992-06-19",
+        "release_year": "1992",
+        "title": "Batman Returns"
+      },
+      {
+        "cast": [
+          "Robert Carlyle",
+          "Mark Addy",
+          "William Snape",
+          "Steve Huison"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Peter Cattaneo",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Sheffield, England. Gaz, a jobless steelworker in need of quick cash persuades his mates to bare it all in a one-night-only strip show.",
+        "release_date": "1997-08-13",
+        "release_year": "1997",
+        "title": "Full Monty, The"
+      },
+      {
+        "cast": [
+          "Matthew Modine",
+          "Adam Baldwin",
+          "Vincent D'Onofrio",
+          "R. Lee Ermey"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+        "release_date": "1987-06-26",
+        "release_year": "1987",
+        "title": "Full Metal Jacket"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Sean Young",
+          "Courteney Cox",
+          "Tone Loc"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom Shadyac",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "He's Ace Ventura: Pet Detective. Jim Carrey is on the case to find the Miami Dolphins' missing mascot and quarterback Dan Marino. He goes eyeball to eyeball with a man-eating shark, stakes out the Miami Dolphins and woos and wows the ladies. Whether he's undercover, under fire or underwater, he always gets his man . . . or beast!",
+        "release_date": "1994-02-04",
+        "release_year": "1994",
+        "title": "Ace Ventura: Pet Detective"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Geena Davis",
+          "Harvey Keitel",
+          "Brad Pitt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Whilst on a short weekend getaway, Louise shoots a man who had tried to rape Thelma. Due to the incriminating circumstances, they make a run for it and thus a cross country chase ensues for the two fugitives. Along the way, both women rediscover the strength of their friendship and surprising aspects of their personalities and self-strengths in the trying times.",
+        "release_date": "1991-05-24",
+        "release_year": "1991",
+        "title": "Thelma & Louise"
+      }
+    ],
+    "raw_user_id": "5114",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 121
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.558495109849726
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for war-themed films that lack engaging narratives.",
+        "Negative response to films that do not resonate emotionally or thematically."
+      ],
+      "liked_patterns": [
+        "Strong preference for animated films, especially those aimed at children.",
+        "Enjoyment of films that blend adventure with fantasy elements.",
+        "Appreciation for comedies that provide light-hearted entertainment."
+      ],
+      "summary": "Unique tastes: Children's and Family-Friendly Films (The user enjoys movies that are suitable for children and families, often featuring themes of adventure and fantasy.); Action and Adventure (The user has a strong preference for action-packed films that include elements of adventure and exploration.); Musicals and Comedies (The user appreciates films that incorporate music and humor, often enjoying light-hearted narratives.); Fantasy Elements (The user is drawn to films that include fantastical elements, often blending them with adventure and romance.); Dramatic Storytelling (The user enjoys films that present strong narratives, particularly those that evoke emotional responses.). Liked patterns: Strong preference for animated films, especially those aimed at children., Enjoyment of films that blend adventure with fantasy elements., Appreciation for comedies that provide light-hearted entertainment.. Disliked patterns: Dislike for war-themed films that lack engaging narratives., Negative response to films that do not resonate emotionally or thematically..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys movies that are suitable for children and families, often featuring themes of adventure and fantasy.",
+          "taste": "Children's and Family-Friendly Films"
+        },
+        {
+          "reason": "The user has a strong preference for action-packed films that include elements of adventure and exploration.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that incorporate music and humor, often enjoying light-hearted narratives.",
+          "taste": "Musicals and Comedies"
+        },
+        {
+          "reason": "The user is drawn to films that include fantastical elements, often blending them with adventure and romance.",
+          "taste": "Fantasy Elements"
+        },
+        {
+          "reason": "The user enjoys films that present strong narratives, particularly those that evoke emotional responses.",
+          "taste": "Dramatic Storytelling"
+        }
+      ]
+    },
+    "user_id": 5114
+  }
+}

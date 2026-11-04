@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "74e6ba9051986ca2b45ef30eeb7acd2171da8d3a39ae935838199ecd2bb098db",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      387,
+      930,
+      4,
+      744,
+      306,
+      1692,
+      436,
+      69,
+      360,
+      52
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      18,
+      105,
+      121,
+      125,
+      169,
+      200,
+      426,
+      434,
+      436,
+      525,
+      529,
+      672,
+      759,
+      881,
+      930,
+      995,
+      1006,
+      1040,
+      1107,
+      1299,
+      1311,
+      1388,
+      1501,
+      1536
+    ],
+    "seed": 42,
+    "source_hash": "7635bbd6db5ac1d3b23c328d760986adfbee986687e2ec628995a0f20be28d06",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5995,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Cruise",
+          "Kelly McGillis",
+          "Val Kilmer",
+          "Anthony Edwards"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Scott",
+        "genres": [
+          "Action",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "For Lieutenant Pete 'Maverick' Mitchell and his friend and Co-Pilot Nick 'Goose' Bradshaw being accepted into an elite training school for fighter pilots is a dream come true.  A tragedy, as well as personal demons, threaten Pete's dreams of becoming an Ace pilot.",
+        "release_date": "1986-05-16",
+        "release_year": "1986",
+        "title": "Top Gun"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Kevin Kline",
+          "Kenneth Branagh",
+          "Salma Hayek"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Legless Southern inventor Dr. Arliss Loveless plans to rekindle the Civil War by assassinating President U.S. Grant. Only two men can stop him: gunfighter James West and master-of-disguise and inventor Artemus Gordon. The two must team up to thwart Loveless' plans.",
+        "release_date": "1999-06-29",
+        "release_year": "1999",
+        "title": "Wild Wild West"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Albert Finney",
+          "Aaron Eckhart",
+          "Marg Helgenberger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "Erin Brockovich"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Geena Davis",
+          "Hugh Laurie",
+          "Jonathan Lipnicki"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Rob Minkoff",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The adventures of a heroic and debonair stalwart mouse named Stuart Little with human qualities, who faces some comic misadventures while searching for his lost bird friend and living with a human family as their child.",
+        "release_date": "1999-12-17",
+        "release_year": "1999",
+        "title": "Stuart Little"
+      },
+      {
+        "cast": [
+          "Cate Blanchett",
+          "Geoffrey Rush",
+          "Christopher Eccleston",
+          "Joseph Fiennes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Shekhar Kapur",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of the ascension to the throne and the early reign of Queen Elizabeth the First, the endless attempts by her council to marry her off, the Catholic hatred of her and her romance with Lord Robert Dudley.",
+        "release_date": "1998-09-13",
+        "release_year": "1998",
+        "title": "Elizabeth"
+      },
+      {
+        "cast": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Connie Nielsen",
+          "Oliver Reed"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences. His battle skills serve him well, and he becomes one of the most famous and admired men to fight in the Colosseum. Determined to avenge himself against the man who took away his freedom and laid waste to his family, Maximus believes that he can use his fame and skill in the ring to avenge the loss of his family and former glory. As the gladiator begins to challenge his rule, Commodus decides to put his own fighting mettle to the test by squaring off with Maximus in a battle to the death.",
+        "release_date": "2000-05-01",
+        "release_year": "2000",
+        "title": "Gladiator"
+      },
+      {
+        "cast": [
+          "Mary Steenburgen",
+          "Sean Patrick Flanery",
+          "Lance Henriksen",
+          "Jeff Goldblum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Salva",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Harassed by classmates who won't accept his shocking appearance, a shy young man known as \"Powder\" struggles to fit in. But the cruel taunts stop when Powder displays a mysterious power that allows him to do incredible things. This phenomenon changes the lives of all those around him in ways they never could have imagined.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Powder"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      }
+    ],
+    "raw_user_id": "5995",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 150
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0650861555572249
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for films that are primarily action-oriented without strong character development.",
+        "Dislike for films that mix genres in a way that does not resonate, such as poorly received sci-fi comedies."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as comedy with drama or action with romance.",
+        "Strong preference for films with compelling narratives and character development.",
+        "Consistent enjoyment of films that feature strong emotional themes."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (Several comedies receive high ratings, suggesting a fondness for humor and lighthearted storytelling.); Interest in Action and Adventure (The user rates numerous action and adventure films positively, reflecting a taste for excitement and dynamic plots.); Fondness for Romance (Romantic films are frequently rated well, indicating an appreciation for love stories and emotional connections.); Engagement with Sci-Fi and Fantasy (The user shows a liking for sci-fi and fantasy genres, as evidenced by high ratings for films in these categories.). Liked patterns: High ratings for films that blend genres, such as comedy with drama or action with romance., Strong preference for films with compelling narratives and character development., Consistent enjoyment of films that feature strong emotional themes.. Disliked patterns: Negative ratings for films that are primarily action-oriented without strong character development., Dislike for films that mix genres in a way that does not resonate, such as poorly received sci-fi comedies..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies receive high ratings, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user rates numerous action and adventure films positively, reflecting a taste for excitement and dynamic plots.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "Romantic films are frequently rated well, indicating an appreciation for love stories and emotional connections.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "The user shows a liking for sci-fi and fantasy genres, as evidenced by high ratings for films in these categories.",
+          "taste": "Engagement with Sci-Fi and Fantasy"
+        }
+      ]
+    },
+    "user_id": 5995
+  }
+}

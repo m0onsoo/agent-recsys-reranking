@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "c0d0128ec5a4cec51c4ad17811461cd48699b81b767e2611c8f03ca1212aaafc",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      749,
+      948,
+      1492,
+      1475,
+      586,
+      1602,
+      219,
+      965,
+      961,
+      1462
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "6f22753b83e048668f6748b681485ce3"
+    ],
+    "sampled_item_ids": [
+      23,
+      97,
+      125,
+      128,
+      339,
+      566,
+      586,
+      587,
+      670,
+      710,
+      767,
+      771,
+      840,
+      962,
+      1241,
+      1284,
+      1452,
+      1475,
+      1492,
+      1602,
+      1632,
+      1802,
+      1961,
+      2295,
+      2494
+    ],
+    "seed": 42,
+    "source_hash": "1cbde99b9843732ad6adc13a769f5aca5a3023f94b361e49adffd7d12916d004",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2335,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Charlton Heston",
+          "Roddy McDowall",
+          "Kim Hunter",
+          "Maurice Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An  U.S. Spaceship lands on a desolate planet, stranding astronaut Taylor in a world dominated by apes, 2000 years into the future, who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
+        "release_date": "1968-02-07",
+        "release_year": "1968",
+        "title": "Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Ian Hendry",
+          "Alan Badel",
+          "Barbara Ferris",
+          "Alfred Burke"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Anton Leader",
+        "genres": [
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Six children are found spread through out the world that not only have enormous intelligence, but identical intelligence and have a strange bond to each other.",
+        "release_date": "1964-01-29",
+        "release_year": "1963",
+        "title": "Children of the Damned"
+      },
+      {
+        "cast": [
+          "Margaret Lockwood",
+          "Michael Redgrave",
+          "Dame May Whitty",
+          "Paul Lukas"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "On a train headed for England a group of travelers is delayed by an avalanche. Holed up in a hotel in a fictional European country, young Iris befriends elderly Miss Froy. When the train resumes, Iris suffers a bout of unconsciousness and wakes to find the old woman has disappeared. The other passengers ominously deny Miss Froy ever existed, so Iris begins to investigate with another traveler and, as the pair sleuth, romantic sparks fly.",
+        "release_date": "1938-07-26",
+        "release_year": "1938",
+        "title": "Lady Vanishes, The"
+      },
+      {
+        "cast": [
+          "Akira Takarada",
+          "Momoko Kôchi",
+          "Akihiko Hirata",
+          "Takashi Shimura"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Ishirô Honda",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "Japanese",
+        "overview": "Japan is thrown into a panic after several ships explode and are sunk near Odo Island. An expedition to the island led by paleontologist Professor Kyohei Yemani soon discover something more devastating than imagined in the form of a 164 foot tall monster whom the natives call Gojira. Now the monster begins a rampage that threatens to destroy not only Japan, but the rest of the world as well.",
+        "release_date": "1954-11-03",
+        "release_year": "1954",
+        "title": "Godzilla (Gojira)"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Priscilla Lane",
+          "Raymond Massey",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Capra",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mortimer Brewster is a newspaperman and author known for his diatribes against marriage. We watch him being married at city hall in the opening scene. Now all that is required is a quick trip home to tell Mortimer's two maiden aunts. While trying to break the news, he finds out his aunts' hobby; killing lonely old men and burying them in the cellar. It gets worse.",
+        "release_date": "1944-09-23",
+        "release_year": "1944",
+        "title": "Arsenic and Old Lace"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Bubba Smith",
+          "David Graf",
+          "Michael Winslow"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Paris",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When police funding is cut, the Governor announces he must close one of the academies. To make it fair, the two police academies must compete against each other to stay in operation. Mauser persuades two officers in Lassard's academy to better his odds, but things don't quite turn out as expected...",
+        "release_date": "1986-03-20",
+        "release_year": "1986",
+        "title": "Police Academy 3: Back in Training"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Christopher Lloyd",
+          "Joanna Cassidy",
+          "Charles Fleischer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "'Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+        "release_date": "1988-06-21",
+        "release_year": "1988",
+        "title": "Who Framed Roger Rabbit?"
+      },
+      {
+        "cast": [
+          "Kevin McCarthy",
+          "Dana Wynter",
+          "King Donovan",
+          "Carolyn Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Don Siegel",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.",
+        "release_date": "1956-02-05",
+        "release_year": "1956",
+        "title": "Invasion of the Body Snatchers"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Lauren Bacall",
+          "John Ridgely",
+          "Martha Vickers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Hawks",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Private Detective Philip Marlowe is hired by a rich family. Before the complex case is over, he's seen murder, blackmail, and what might be love.",
+        "release_date": "1946-08-23",
+        "release_year": "1946",
+        "title": "Big Sleep, The"
+      },
+      {
+        "cast": [
+          "Charles Boyer",
+          "Ingrid Bergman",
+          "Joseph Cotten",
+          "Dame May Whitty"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Cukor",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the late 19th century, Paula Alquist is studying music in Italy, but ends up abandoning her classes because she's fallen in love with the gallant Gregory Anton. The couple marries and moves to England to live in a home inherited by Paula from her aunt, herself a famous singer, who was mysteriously murdered in the house ten years before. Though Paula is certain that she sees the house's gaslights dim every evening and that there are strange noises coming from the attic, Gregory convinces Paula that she's imagining things. Meanwhile, a Scotland Yard inspector, Brian Cameron, becomes sympathetic to Paula's plight.",
+        "release_date": "1944-05-04",
+        "release_year": "1944",
+        "title": "Gaslight"
+      }
+    ],
+    "raw_user_id": "2335",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 78
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.278454376648112
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that lack depth or engaging storylines.",
+        "Dislike for action films that do not resonate with the user’s taste in storytelling."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend comedy with other genres like mystery and romance.",
+        "Positive reception of films featuring strong narrative elements in sci-fi and action genres.",
+        "Consistent enjoyment of classic films across various genres."
+      ],
+      "summary": "Unique tastes: Appreciation for Sci-Fi (The user enjoys science fiction themes, as evidenced by multiple high ratings for films in this genre.); Fondness for Comedy (The user rates several comedies highly, indicating a strong preference for humor in films.); Interest in Mystery and Thriller (The user shows a liking for mystery and thriller elements, reflected in high ratings for films that incorporate these genres.); Enjoyment of Action and Adventure (The user rates action and adventure films positively, suggesting a preference for excitement and dynamic storytelling.); Affinity for Film-Noir (The user appreciates film-noir characteristics, as shown by high ratings for films that embody this genre.). Liked patterns: High ratings for films that blend comedy with other genres like mystery and romance., Positive reception of films featuring strong narrative elements in sci-fi and action genres., Consistent enjoyment of classic films across various genres.. Disliked patterns: Low ratings for comedies that lack depth or engaging storylines., Dislike for action films that do not resonate with the user’s taste in storytelling..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys science fiction themes, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Appreciation for Sci-Fi"
+        },
+        {
+          "reason": "The user rates several comedies highly, indicating a strong preference for humor in films.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user shows a liking for mystery and thriller elements, reflected in high ratings for films that incorporate these genres.",
+          "taste": "Interest in Mystery and Thriller"
+        },
+        {
+          "reason": "The user rates action and adventure films positively, suggesting a preference for excitement and dynamic storytelling.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates film-noir characteristics, as shown by high ratings for films that embody this genre.",
+          "taste": "Affinity for Film-Noir"
+        }
+      ]
+    },
+    "user_id": 2335
+  }
+}

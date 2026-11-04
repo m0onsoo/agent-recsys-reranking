@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "f79087bfc9ee1ee6e46ce4d75ef8df19905f19a212c391505ae8bf783d916fb0",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      6,
+      65,
+      647,
+      187,
+      759,
+      85,
+      172,
+      601,
+      45,
+      27
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      27,
+      45,
+      65,
+      114,
+      125,
+      151,
+      187,
+      190,
+      193,
+      205,
+      213,
+      423,
+      578,
+      588,
+      601,
+      647,
+      741,
+      742,
+      759,
+      800,
+      885,
+      1252,
+      1738,
+      1743
+    ],
+    "seed": 42,
+    "source_hash": "b77bcbe860477d70ef718ae72dc0d5c67544e7fb631feaf6331b784ec99dae45",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4777,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Fugitives of the Federation for their daring rescue of Spock from the doomed Genesis Planet, Admiral Kirk (William Shatner) and his crew begin their journey home to face justice for their actions. But as they near Earth, they find it at the mercy of a mysterious alien presence whose signals are slowly destroying the planet. In a desperate attempt to answer the call of the probe, Kirk and his crew race back to the late twentieth century. However they soon find the world they once knew to be more alien than anything they've encountered in the far reaches of the galaxy!",
+        "release_date": "1986-11-25",
+        "release_year": "1986",
+        "title": "Star Trek IV: The Voyage Home"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Sean Connery",
+          "Denholm Elliott",
+          "Alison Doody"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Henry Jones Sr. suddenly goes missing while pursuing the Holy Grail, eminent archaeologist Indiana must team up with Marcus Brody, Sallah and Elsa Schneider to follow in his father's footsteps and stop the Nazis from recovering the power of eternal life.",
+        "release_date": "1989-05-24",
+        "release_year": "1989",
+        "title": "Indiana Jones and the Last Crusade"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "John Cleese",
+          "Shelley Duvall",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Young history buff Kevin can scarcely believe it when six dwarfs emerge from his closet one night. Former employees of the Supreme Being, they've purloined a map charting all of the holes in the fabric of time and are using it to steal treasures from different historical eras. Taking Kevin with them, they variously drop in on Napoleon, Robin Hood and King Agamemnon before the Supreme Being catches up with them.",
+        "release_date": "1981-07-13",
+        "release_year": "1981",
+        "title": "Time Bandits"
+      },
+      {
+        "cast": [
+          "Wil Wheaton",
+          "River Phoenix",
+          "Corey Feldman",
+          "Jerry O'Connell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After the death of a friend, a writer recounts a boyhood journey to find the body of a missing boy.",
+        "release_date": "1986-08-22",
+        "release_year": "1986",
+        "title": "Stand by Me"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Robin Wright",
+          "Gary Sinise",
+          "Mykelti Williamson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events - in each case, far exceeding what anyone imagined he could do. Yet, despite all the things he has attained, his one true love eludes him. 'Forrest Gump' is the story of a man who rose above his challenges, and who proved that determination, courage, and love are more important than ability.",
+        "release_date": "1994-07-06",
+        "release_year": "1994",
+        "title": "Forrest Gump"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Peter Boyle",
+          "Marty Feldman",
+          "Madeline Kahn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A young neurosurgeon inherits the castle of his grandfather, the famous Dr. Victor von Frankenstein. In the castle he finds a funny hunchback, a pretty lab assistant and the elderly housekeeper. Young Frankenstein believes that the work of his grandfather was delusional, but when he discovers the book where the mad doctor described his reanimation experiment, he suddenly changes his mind.",
+        "release_date": "1974-12-15",
+        "release_year": "1974",
+        "title": "Young Frankenstein"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Henry Thomas",
+          "Drew Barrymore",
+          "Robert MacNaughton",
+          "Dee Wallace"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Children's",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+        "release_date": "1982-04-03",
+        "release_year": "1982",
+        "title": "E.T. the Extra-Terrestrial"
+      }
+    ],
+    "raw_user_id": "4777",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 31
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7693168604369087
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that do not effectively combine genres or fail to engage the viewer's interest."
+      ],
+      "liked_patterns": [
+        "Strong preference for action-adventure films with a mix of comedy and fantasy elements.",
+        "Enjoyment of films that feature imaginative storytelling and whimsical themes.",
+        "Appreciation for films that blend humor with horror or thriller elements."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Comedy (The user appreciates films that incorporate humor, often blending it with other genres like adventure and horror.); Fantasy and Sci-Fi (The user is drawn to imaginative worlds and speculative elements, often found in fantasy and science fiction genres.); Children's and Family-Friendly (The user enjoys films that are suitable for a younger audience, often featuring whimsical stories and lighthearted themes.); Thriller Elements (The user is attracted to films that create suspense and tension, often through dramatic storytelling.). Liked patterns: Strong preference for action-adventure films with a mix of comedy and fantasy elements., Enjoyment of films that feature imaginative storytelling and whimsical themes., Appreciation for films that blend humor with horror or thriller elements.. Disliked patterns: Dislike for films that do not effectively combine genres or fail to engage the viewer's interest..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that incorporate humor, often blending it with other genres like adventure and horror.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to imaginative worlds and speculative elements, often found in fantasy and science fiction genres.",
+          "taste": "Fantasy and Sci-Fi"
+        },
+        {
+          "reason": "The user enjoys films that are suitable for a younger audience, often featuring whimsical stories and lighthearted themes.",
+          "taste": "Children's and Family-Friendly"
+        },
+        {
+          "reason": "The user is attracted to films that create suspense and tension, often through dramatic storytelling.",
+          "taste": "Thriller Elements"
+        }
+      ]
+    },
+    "user_id": 4777
+  }
+}

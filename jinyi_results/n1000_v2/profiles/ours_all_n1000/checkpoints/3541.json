@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "c7ed1f402a73830dcb305323c1b0fa57fcd20ca6a5f090a62005fb2fd4026900",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1587,
+      136,
+      1530,
+      105,
+      2317,
+      435,
+      946,
+      1538,
+      487,
+      52
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "85a1709fa3b943d386fadf30e6bcab62"
+    ],
+    "sampled_item_ids": [
+      1,
+      52,
+      68,
+      105,
+      106,
+      129,
+      136,
+      148,
+      168,
+      318,
+      352,
+      435,
+      487,
+      543,
+      670,
+      686,
+      946,
+      1062,
+      1467,
+      1476,
+      1530,
+      1538,
+      1587,
+      1611,
+      2625
+    ],
+    "seed": 42,
+    "source_hash": "801ea444a3dc5e042183f8e4e3172c681926aaf9d843521b5548241a8f6790ae",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3541,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Fred Ward",
+          "Dennis Quaid",
+          "Ed Harris",
+          "Scott Glenn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A chronicle of the original Mercury astronauts in the formation of America's space program: Alan Shepherd, the first American in space; Gus Grissom, the benighted astronaut for whom nothing works out as planned; John Glenn, the straight-arrow 'boy scout' of the bunch who was the first American to orbit the earth; and the remaining pilots: Deke Slayton, Scott Carpenter and Wally Schirra.",
+        "release_date": "1983-10-20",
+        "release_year": "1983",
+        "title": "Right Stuff, The"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "John Randolph Jones",
+          "Jack Kehoe",
+          "Biff McGuire"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The real-life struggle of an honest New York City cop against a corrupt system.",
+        "release_date": "1973-12-05",
+        "release_year": "1973",
+        "title": "Serpico"
+      },
+      {
+        "cast": [
+          "Faye Dunaway",
+          "William Holden",
+          "Peter Finch",
+          "Robert Duvall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A TV network cynically exploits a deranged ex-TV anchor's ravings and revelations about the media for their own profit.",
+        "release_date": "1976-11-01",
+        "release_year": "1976",
+        "title": "Network"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Jeffrey Wright",
+          "David Bowie",
+          "Dennis Hopper",
+          "Gary Oldman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Julian Schnabel",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Director Julian Schnabel illustrates the portrait of his friend, the first African-American Pop artist Jean-Michel Basquiat who unfortunately died at a young age and just as he was beginning to make a name for himself in the art world. Alongside the biography of Basquiat are the artists and the art scene from early 1980’s New York.",
+        "release_date": "1996-08-09",
+        "release_year": "1996",
+        "title": "Basquiat"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Robert Duvall",
+          "Diane Keaton",
+          "Robert De Niro"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+        "release_date": "1974-12-20",
+        "release_year": "1974",
+        "title": "Godfather: Part II, The"
+      },
+      {
+        "cast": [
+          "Anjelica Huston",
+          "John Cusack",
+          "Annette Bening",
+          "Jan Munroe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "A young short-con grifter suffers both injury and the displeasure of reuniting with his criminal mother, all the while dating an unpredictable young lady.",
+        "release_date": "1990-09-14",
+        "release_year": "1990",
+        "title": "Grifters, The"
+      },
+      {
+        "cast": [
+          "Matt Dillon",
+          "Kelly Lynch",
+          "James Le Gros",
+          "Heather Graham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Bob and his friends Dianne, Rick and Nadine have been drug addicts for years and live from one high to the next. Gus Van Sant attempts to show an intimate look into the lives of heroin addicts with his film Drugstore Cowboy.",
+        "release_date": "1989-09-09",
+        "release_year": "1989",
+        "title": "Drugstore Cowboy"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Cybill Shepherd",
+          "Harvey Keitel",
+          "Jodie Foster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+        "release_date": "1976-02-07",
+        "release_year": "1976",
+        "title": "Taxi Driver"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      }
+    ],
+    "raw_user_id": "3541",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 29
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6523974376049407
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed in the sample."
+      ],
+      "liked_patterns": [
+        "High ratings for films that explore complex human emotions and moral dilemmas.",
+        "Strong preference for films that feature intense character development and psychological depth.",
+        "Frequent enjoyment of narratives that intertwine crime with dramatic storytelling."
+      ],
+      "summary": "Unique tastes: Preference for Drama (The majority of highly rated films belong to the Drama genre, indicating a strong affinity for character-driven narratives.); Interest in Crime and Thriller elements (Several highly rated films incorporate Crime and Thriller elements, suggesting a taste for suspenseful and morally complex stories.); Appreciation for War themes (Films with War themes received high ratings, indicating a preference for narratives that explore the human condition in conflict.); Enjoyment of character studies (Many liked films focus on deep character exploration and psychological themes, reflecting a preference for complex character arcs.); Favoring dark humor and satire (Some liked films blend Comedy with Drama, suggesting an appreciation for humor that addresses serious themes.). Liked patterns: High ratings for films that explore complex human emotions and moral dilemmas., Strong preference for films that feature intense character development and psychological depth., Frequent enjoyment of narratives that intertwine crime with dramatic storytelling.. Disliked patterns: No significant patterns of dislike observed in the sample..",
+      "unique_tastes": [
+        {
+          "reason": "The majority of highly rated films belong to the Drama genre, indicating a strong affinity for character-driven narratives.",
+          "taste": "Preference for Drama"
+        },
+        {
+          "reason": "Several highly rated films incorporate Crime and Thriller elements, suggesting a taste for suspenseful and morally complex stories.",
+          "taste": "Interest in Crime and Thriller elements"
+        },
+        {
+          "reason": "Films with War themes received high ratings, indicating a preference for narratives that explore the human condition in conflict.",
+          "taste": "Appreciation for War themes"
+        },
+        {
+          "reason": "Many liked films focus on deep character exploration and psychological themes, reflecting a preference for complex character arcs.",
+          "taste": "Enjoyment of character studies"
+        },
+        {
+          "reason": "Some liked films blend Comedy with Drama, suggesting an appreciation for humor that addresses serious themes.",
+          "taste": "Favoring dark humor and satire"
+        }
+      ]
+    },
+    "user_id": 3541
+  }
+}

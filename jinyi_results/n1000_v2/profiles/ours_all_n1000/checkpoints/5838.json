@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "fdbdfcf193887bdd6f19d1ce50a9b93baddc0b46c92ec97c4af80ef553a8a2f5",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      849,
+      2894,
+      1311,
+      30,
+      1466,
+      763,
+      1504,
+      584,
+      646,
+      1299
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      24,
+      42,
+      49,
+      88,
+      104,
+      106,
+      110,
+      190,
+      206,
+      284,
+      382,
+      412,
+      425,
+      568,
+      584,
+      587,
+      642,
+      647,
+      719,
+      763,
+      1099,
+      1196,
+      1576,
+      1630,
+      1795
+    ],
+    "seed": 42,
+    "source_hash": "f285befd74affc32bce200a40ae615d601e917f094d20bb803482e9ea5e77346",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5838,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "female",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Nicholas Rowe",
+          "Alan Cox",
+          "Sophie Ward",
+          "Anthony Higgins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Sherlock Holmes and Dr. Watson meet as boys in an English Boarding school. Holmes is known for his deductive ability even as a youth, amazing his classmates with his abilities. When they discover a plot to murder a series of British business men by an Egyptian cult, they move to stop it.",
+        "release_date": "1985-12-04",
+        "release_year": "1985",
+        "title": "Young Sherlock Holmes"
+      },
+      {
+        "cast": [
+          "Gérard Depardieu",
+          "Maurice Barrier",
+          "Bernard-Pierre Donnadieu",
+          "Isabelle Sadoyan"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Daniel Vigne",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "During the medieval times, Martin Guerre returns to his hometown in the middle of France, after being away in the war since he was a child. Nobody recognise him, and the people who knew him suspect he is not Martin, but he knows all about his family and friends, even the most unusual things. Is this man really Martin Guerre?",
+        "release_date": "1982-05-12",
+        "release_year": "1982",
+        "title": "Return of Martin Guerre, The (Retour de Martin Guerre, Le)"
+      },
+      {
+        "cast": [
+          "Tom Berenger",
+          "Glenn Close",
+          "Jeff Goldblum",
+          "William Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Kevin Kline and Glenn Close star as Harold and Sarah Cooper, a couple whose marital troubles are put on hold while they host an unhappy reunion of former college pals gathered for the funeral of one of their own, a suicide victim named Alex. As the weekend unfolds, the friends catch up with each other, play the music of their youth, reminisce, smoke marijuana, and pair off with each other.",
+        "release_date": "1983-09-09",
+        "release_year": "1983",
+        "title": "Big Chill, The"
+      },
+      {
+        "cast": [
+          "Peter Sallis",
+          "Anne Reid"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wallace falls in love with wool-shop owner Wendolene, not suspecting that she (or rather, her dog) is at the head of a fiendish sheep-rustling plot. Gromit is set up and jailed, but his new-found sheepish friend is determine to give Wallace a helping hand in finding out the real truth.",
+        "release_date": "1995-12-24",
+        "release_year": "1995",
+        "title": "Close Shave, A"
+      },
+      {
+        "cast": [
+          "Laurence Olivier",
+          "Joan Fontaine",
+          "George Sanders",
+          "Judith Anderson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A self-conscious bride is tormented by the memory of her husband's dead first wife.",
+        "release_date": "1940-04-12",
+        "release_year": "1940",
+        "title": "Rebecca"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Frakes",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When an alien race and factions within Starfleet attempt to take over a planet that has \"regenerative\" properties, it falls upon Captain Picard and the crew of the Enterprise to defend the planet's people as well as the very ideals upon which the Federation itself was founded.",
+        "release_date": "1998-12-10",
+        "release_year": "1998",
+        "title": "Star Trek: Insurrection"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Grace Kelly",
+          "Jessie Royce Landis",
+          "Brigitte Auber"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A delightful Hitchcock film about an ex-burglar who must catch a thief who’s been copying this style before he gets accused of the wrong crimes. His time is running out as the police are close behind him yet he finds time for a little romance of course. A classic masterpiece starring Grace Kelly and Cary Grant.",
+        "release_date": "1955-08-03",
+        "release_year": "1955",
+        "title": "To Catch a Thief"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Andie MacDowell",
+          "William Hurt",
+          "Bob Hoskins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nora Ephron",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Tabloid reporters are sent by their editor to investigate after the paper recieves a letter from a woman claiming an angel is living with her.",
+        "release_date": "1996-12-25",
+        "release_year": "1996",
+        "title": "Michael"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Audrey Hepburn",
+          "William Holden",
+          "Walter Hampden"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Linus and David Larrabee are the two sons of a very wealthy family. Linus is all work -- busily running the family corporate empire, he has no time for a wife and family. David is all play -- technically he is employed by the family business, but never shows up for work, spends all his time entertaining, and has been married and divorced three times. Meanwhile, Sabrina Fairchild is the young, shy, and awkward daughter of the household chauffeur, who has been infatuated with David all her life, but David hardly notices her -- \"doesn't even know I exist\" -- until she goes away to Paris for two years, and returns an elegant, sophisticated, beautiful woman. Suddenly, she finds that she has captured David's attention, but just as she does so, she finds herself falling in love with Linus, and she finds that Linus is also falling in love with her.",
+        "release_date": "1954-09-28",
+        "release_year": "1954",
+        "title": "Sabrina"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Susan Sarandon",
+          "Tim Robbins",
+          "Trey Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Veteran catcher Crash Davis is brought to the minor league Durham Bulls to help their up and coming pitching prospect, \"Nuke\" Laloosh. Their relationship gets off to a rocky start and is further complicated when baseball groupie Annie Savoy sets her sights on the two men.",
+        "release_date": "1988-06-15",
+        "release_year": "1988",
+        "title": "Bull Durham"
+      }
+    ],
+    "raw_user_id": "5838",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 179
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8860544889669811
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed."
+      ],
+      "liked_patterns": [
+        "Strong preference for films that combine drama with romance.",
+        "Enjoyment of action and adventure films with a mix of other genres.",
+        "Appreciation for comedies that incorporate elements of drama."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for films in this genre.); Romance (The user appreciates romantic elements in films, reflected in several high ratings for romance-infused dramas and comedies.); Action/Adventure (The user enjoys action and adventure films, indicated by positive ratings for several titles in these genres.); Comedy (The user has a liking for comedic films, as shown by high ratings for various comedies that blend humor with other genres.); War (The user is drawn to war-themed films, with several high ratings for dramas and narratives centered around war.). Liked patterns: Strong preference for films that combine drama with romance., Enjoyment of action and adventure films with a mix of other genres., Appreciation for comedies that incorporate elements of drama.. Disliked patterns: No significant patterns of dislike observed..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user appreciates romantic elements in films, reflected in several high ratings for romance-infused dramas and comedies.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user enjoys action and adventure films, indicated by positive ratings for several titles in these genres.",
+          "taste": "Action/Adventure"
+        },
+        {
+          "reason": "The user has a liking for comedic films, as shown by high ratings for various comedies that blend humor with other genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to war-themed films, with several high ratings for dramas and narratives centered around war.",
+          "taste": "War"
+        }
+      ]
+    },
+    "user_id": 5838
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "93d7e78d65e0833cf2b301ae4d183cc200acf3dd066f78d71c5b3174cae4345c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1127,
+      2228,
+      2722,
+      421,
+      2106,
+      1648,
+      277,
+      1232,
+      385,
+      1292
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5aa498f8b4004b1ea1c1951e8b5c82cd"
+    ],
+    "sampled_item_ids": [
+      10,
+      98,
+      259,
+      260,
+      277,
+      385,
+      561,
+      563,
+      666,
+      727,
+      952,
+      999,
+      1081,
+      1284,
+      1456,
+      1497,
+      1648,
+      1672,
+      1921,
+      2136,
+      2601,
+      2622,
+      2920,
+      3168,
+      3300
+    ],
+    "seed": 42,
+    "source_hash": "75b3324b97904c7a27d585d30b853869ca8ab48c01d6bbbb0c432345d33eed1c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3543,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Colin Clive",
+          "Mae Clarke",
+          "John Boles",
+          "Boris Karloff"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Whale",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Henry Frankenstein is a doctor who is trying to discover a way to make the dead walk. He succeeds and creates a monster that has to deal with living again.",
+        "release_date": "1931-11-21",
+        "release_year": "1931",
+        "title": "Frankenstein"
+      },
+      {
+        "cast": [
+          "Peter Lorre",
+          "Ellen Widmann",
+          "Inge Landgut",
+          "Otto Wernicke"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Fritz Lang",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "German",
+        "overview": "In this classic German thriller, Hans Beckert, a serial killer who preys on children, becomes the focus of a massive Berlin police manhunt. Beckert's heinous crimes are so repellant and disruptive to city life that he is even targeted by others in the seedy underworld network. With both cops and criminals in pursuit, the murderer soon realizes that people are on his trail, sending him into a tense, panicked attempt to escape justice.",
+        "release_date": "1931-05-11",
+        "release_year": "1931",
+        "title": "M"
+      },
+      {
+        "cast": [
+          "Nick Broomfield",
+          "Heidi Fleiss",
+          "Madam Alex",
+          "Ivan Nagy"
+        ],
+        "country": [
+          "United Kingdom",
+          "Canada",
+          "United States of America",
+          "Germany"
+        ],
+        "director": "Nick Broomfield",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A documentary crew from the BBC arrives in L.A. intent on interviewing Heidi Fleiss, a year after her arrest for running a brothel but before her trial. Several months elapse before the interview, so the crew searches for anyone who'll talk about the young woman. Two people have a lot to say to the camera: a retired madam named Alex for whom Fleiss once worked and Fleiss's one-time boyfriend, Ivan Nagy, who introduced her to Alex. Alex and Nagy don't like each other, so the crew shuttles between them with \"she said\" and \"he said.\" When they finally interview Fleiss, they spend their time reciting what Alex and Nagy have had to say and asking her reaction.",
+        "release_date": "1995-12-27",
+        "release_year": "1995",
+        "title": "Heidi Fleiss: Hollywood Madam"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      },
+      {
+        "cast": [
+          "Don Ameche",
+          "Joe Mantegna",
+          "Robert Prosky",
+          "J.J. Johnston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Mamet",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Jerry, a misfit Mafia henchman, is assigned the low-level job of keeping an eye on Gino, a shoe repairman fingered by the Mob to confess to a murder he didn't commit. But Gino's mistaken for a Mafia boss, and the two are suddenly catapulted to the highest levels of mobster status. Only friendship will see them through this dangerous adventure alive!",
+        "release_date": "1988-10-21",
+        "release_year": "1988",
+        "title": "Things Change"
+      },
+      {
+        "cast": [
+          "Peter O'Toole",
+          "Alastair Sim",
+          "Arthur Lowe",
+          "Harry Andrews"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Peter Medak",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A member of the House of Lords dies in a shockingly silly way, leaving his estate to his son. Unfortunately, his son is insane: he thinks he is Jesus Christ. The other somewhat-more respectable members of their family plot to steal the estate from him. Murder and mayhem ensues.",
+        "release_date": "1972-09-13",
+        "release_year": "1972",
+        "title": "Ruling Class, The"
+      },
+      {
+        "cast": [
+          "Robert Crumb",
+          "Aline Kominsky",
+          "Charles Crumb",
+          "Maxon Crumb"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Zwigoff",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "This movie chronicles the life and times of R. Crumb. Robert Crumb is the cartoonist/artist who drew Keep On Truckin', Fritz the Cat, and played a major pioneering role in the genesis of underground comix. Through interviews with his mother, two brothers, wife, and ex-girlfriends, as well as selections from his vast quantity of graphic art, we are treated to a darkly comic ride through one man's subconscious mind.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Crumb"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Janet Leigh",
+          "Orson Welles",
+          "Joseph Calleia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Stark, perverse story of murder, kidnapping, and police corruption in Mexican border town.",
+        "release_date": "1958-04-23",
+        "release_year": "1958",
+        "title": "Touch of Evil"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Gary Farmer",
+          "Crispin Glover",
+          "Lance Henriksen"
+        ],
+        "country": [
+          "Germany",
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Jim Jarmusch",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "On the run after murdering a man, accountant William Blake encounters a strange North American man named Nobody who prepares him for his journey into the spiritual world.",
+        "release_date": "1995-12-23",
+        "release_year": "1995",
+        "title": "Dead Man"
+      },
+      {
+        "cast": [
+          "William Hurt",
+          "Solveig Dommartin",
+          "Chick Ortega",
+          "Eddy Mitchell"
+        ],
+        "country": [
+          "Australia",
+          "France",
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Wim Wenders",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "German",
+        "overview": "Until The End of the World is an odyssey for the modern age. As with Homer's Odyssey, the purpose of the journey is to restore sight -- a spiritual reconciliation between an obsessed father and a deserted son. Dr. Farber, in trying to find a cure for his wife's blindness, has created a device that allows the user to send images directly to the brain, enabling the blind to see.",
+        "release_date": "1991-09-12",
+        "release_year": "1991",
+        "title": "Until the End of the World (Bis ans Ende der Welt)"
+      }
+    ],
+    "raw_user_id": "3543",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 84
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8014939657897531
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that lack depth or meaningful content.",
+        "Dislike for films that do not resonate emotionally or thematically."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like musical and adventure.",
+        "Strong preference for films that feature complex narratives and character development.",
+        "Positive reception of films that include elements of mystery and suspense."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.); Enjoyment of Musicals (The user has rated several musicals positively, suggesting a fondness for music and performance in film.); Interest in Thrillers and Mysteries (The user shows a liking for thrillers and mysteries, as evidenced by several high ratings in these genres.); Fondness for Adventure (The user enjoys adventure films, reflected in high ratings for movies that feature exploration and excitement.); Preference for Comedy with Depth (The user rates comedies that incorporate deeper themes or social commentary favorably, indicating a nuanced appreciation for the genre.). Liked patterns: High ratings for films that blend drama with other genres like musical and adventure., Strong preference for films that feature complex narratives and character development., Positive reception of films that include elements of mystery and suspense.. Disliked patterns: Low ratings for comedies that lack depth or meaningful content., Dislike for films that do not resonate emotionally or thematically..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user has rated several musicals positively, suggesting a fondness for music and performance in film.",
+          "taste": "Enjoyment of Musicals"
+        },
+        {
+          "reason": "The user shows a liking for thrillers and mysteries, as evidenced by several high ratings in these genres.",
+          "taste": "Interest in Thrillers and Mysteries"
+        },
+        {
+          "reason": "The user enjoys adventure films, reflected in high ratings for movies that feature exploration and excitement.",
+          "taste": "Fondness for Adventure"
+        },
+        {
+          "reason": "The user rates comedies that incorporate deeper themes or social commentary favorably, indicating a nuanced appreciation for the genre.",
+          "taste": "Preference for Comedy with Depth"
+        }
+      ]
+    },
+    "user_id": 3543
+  }
+}

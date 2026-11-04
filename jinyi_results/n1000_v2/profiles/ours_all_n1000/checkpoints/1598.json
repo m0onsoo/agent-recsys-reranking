@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "7dfac997acef963ffd230766e55f9a4415e523e9f727c87f86781f0fa80199d7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      600,
+      1418,
+      1243,
+      1251,
+      61,
+      1665,
+      930,
+      1812,
+      1991,
+      644
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "87609e3e7e814ad0addd92d8ed1ae2ff"
+    ],
+    "sampled_item_ids": [
+      23,
+      63,
+      78,
+      125,
+      215,
+      349,
+      350,
+      377,
+      481,
+      533,
+      616,
+      647,
+      664,
+      749,
+      965,
+      1016,
+      1111,
+      1132,
+      1217,
+      1665,
+      1724,
+      1725,
+      1991,
+      1994,
+      2549
+    ],
+    "seed": 42,
+    "source_hash": "da3775c55fe6611e2ed2ea7ca754a3922747317a707a0b5266989c2a9b4273c5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1598,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "retired"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael J. Nelson",
+          "Trace Beaulieu",
+          "Jim Mallon",
+          "Kevin Murphy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Mallon",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The mad and evil scientist, Dr. Clayton Forrester, has created an evil little scheme that is bound to give him world global domination but first things first. He plans to torment Mike Nelson and the robots by sending them a real stinker of a film to watch called, \"This Island Earth.\" He is convinced that this movie will drive them insane. Will this be the ultimate cheese that breaks the boys' spirits?",
+        "release_date": "1996-04-19",
+        "release_year": "1996",
+        "title": "Mystery Science Theater 3000: The Movie"
+      },
+      {
+        "cast": [
+          "Brooke Shields",
+          "Christopher Atkins",
+          "Leo McKern",
+          "William Daniels"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Randal Kleiser",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical island. Soon, however, the cook dies and the young boy and girl are left on their own. Days become years and Emmeline (Brooke Shields) and Richard (Christopher Atkins) make a home for themselves surrounded by exotic creatures and nature's beauty. But will they ever see civilization again?",
+        "release_date": "1980-07-05",
+        "release_year": "1980",
+        "title": "Blue Lagoon, The"
+      },
+      {
+        "cast": [
+          "Christopher Reeve",
+          "Richard Pryor",
+          "Jackie Cooper",
+          "Marc McClure"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Aiming to defeat the Man of Steel, wealthy executive Ross Webster hires bumbling but brilliant Gus Gorman to develop synthetic kryptonite, which yields some unexpected psychological effects in the third installment of the 1980s Superman franchise. Between rekindling romance with his high school sweetheart and saving himself, Superman must contend with a powerful supercomputer.",
+        "release_date": "1983-06-17",
+        "release_year": "1983",
+        "title": "Superman III"
+      },
+      {
+        "cast": [
+          "Jean-Claude Van Damme",
+          "Dolph Lundgren",
+          "Ally Walker",
+          "Ed O'Ross"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An American soldier who had been killed during the Vietnam War is revived 25 years later by the military as a semi-android, UniSols, a high-tech soldier of the future. After the failure of the initiative to erase all the soldier's memories, he begins to experience flashbacks that are forcing him to recall his past.",
+        "release_date": "1992-07-10",
+        "release_year": "1992",
+        "title": "Universal Soldier"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Mira Sorvino",
+          "Jeremy Northam",
+          "Giancarlo Giannini",
+          "Josh Brolin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Guillermo del Toro",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A disease carried by common cockroaches is killing Manhattan children. In an effort to stop the epidemic an entomologist, Susan Tyler, creates a mutant breed of insect that secretes a fluid to kill the roaches. This mutant breed was engineered to die after one generation, but three years later Susan finds out that the species has survived and evolved into a large, gruesome monster that can mimic human form.",
+        "release_date": "1997-08-22",
+        "release_year": "1997",
+        "title": "Mimic"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Kevin Kline",
+          "Kenneth Branagh",
+          "Salma Hayek"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Legless Southern inventor Dr. Arliss Loveless plans to rekindle the Civil War by assassinating President U.S. Grant. Only two men can stop him: gunfighter James West and master-of-disguise and inventor Artemus Gordon. The two must team up to thwart Loveless' plans.",
+        "release_date": "1999-06-29",
+        "release_year": "1999",
+        "title": "Wild Wild West"
+      },
+      {
+        "cast": [
+          "Robert Englund",
+          "Lisa Zane",
+          "Shon Greenblatt",
+          "Lezlie Deane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rachel Talalay",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Just when you thought it was safe to sleep, Freddy Krueger returns in this sixth installment of the Nightmare on Elm Street films, as psychologist Maggie Burroughs, tormented by recurring nightmares, meets a patient with the same horrific dreams. Their quest for answers leads to a certain house on Elm Street -- where the nightmares become reality.",
+        "release_date": "1991-09-05",
+        "release_year": "1991",
+        "title": "Freddy's Dead: The Final Nightmare"
+      },
+      {
+        "cast": [
+          "Clare Higgins",
+          "Ashley Laurence",
+          "Kenneth Cranham",
+          "Imogen Boorman"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Tony Randel",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Doctor Channard is sent a new patient, a girl warning of the terrible creatures that have destroyed her family, Cenobites who offer the most intense sensations of pleasure and pain. But Channard has been searching for the doorway to Hell for years, and Kirsty must follow him to save her father and witness the power struggles among the newly damned.",
+        "release_date": "1988-12-23",
+        "release_year": "1988",
+        "title": "Hellbound: Hellraiser II"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      }
+    ],
+    "raw_user_id": "1598",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 148
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4595223258452192
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for sports dramas",
+        "Negative response to children's comedies"
+      ],
+      "liked_patterns": [
+        "Strong preference for Sci-Fi and Action genres",
+        "Enjoyment of Horror films with suspenseful elements",
+        "Positive ratings for films that blend genres, such as Sci-Fi with Action or Horror"
+      ],
+      "summary": "Unique tastes: Sci-Fi Enthusiast (A strong preference for science fiction is evident, with multiple high ratings for films in this genre.); Action Lover (A consistent enjoyment of action films is reflected in the ratings, showcasing a preference for thrilling and adventurous narratives.); Horror Appreciation (A notable interest in horror films is indicated by several positive ratings, suggesting a taste for suspenseful and chilling experiences.); Drama Interest (A moderate appreciation for drama is shown, with several films rated positively, indicating a liking for character-driven stories.); Comedy Enjoyment (A few comedies received favorable ratings, suggesting an enjoyment of humor and light-hearted narratives.). Liked patterns: Strong preference for Sci-Fi and Action genres, Enjoyment of Horror films with suspenseful elements, Positive ratings for films that blend genres, such as Sci-Fi with Action or Horror. Disliked patterns: Dislike for sports dramas, Negative response to children's comedies.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for science fiction is evident, with multiple high ratings for films in this genre.",
+          "taste": "Sci-Fi Enthusiast"
+        },
+        {
+          "reason": "A consistent enjoyment of action films is reflected in the ratings, showcasing a preference for thrilling and adventurous narratives.",
+          "taste": "Action Lover"
+        },
+        {
+          "reason": "A notable interest in horror films is indicated by several positive ratings, suggesting a taste for suspenseful and chilling experiences.",
+          "taste": "Horror Appreciation"
+        },
+        {
+          "reason": "A moderate appreciation for drama is shown, with several films rated positively, indicating a liking for character-driven stories.",
+          "taste": "Drama Interest"
+        },
+        {
+          "reason": "A few comedies received favorable ratings, suggesting an enjoyment of humor and light-hearted narratives.",
+          "taste": "Comedy Enjoyment"
+        }
+      ]
+    },
+    "user_id": 1598
+  }
+}

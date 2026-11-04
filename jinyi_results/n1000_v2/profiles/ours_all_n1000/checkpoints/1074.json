@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "a48d63cc70920d2ee150e6bbee9c41a2743acf2982fb836c1cb9df5c5c9cb6b6",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      60,
+      421,
+      137,
+      13,
+      1790,
+      531,
+      140,
+      386,
+      320,
+      1587
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5b827fcfa77f4f16add6632b0062bb94"
+    ],
+    "sampled_item_ids": [
+      9,
+      24,
+      83,
+      96,
+      109,
+      114,
+      139,
+      141,
+      175,
+      200,
+      613,
+      646,
+      663,
+      717,
+      720,
+      793,
+      804,
+      835,
+      951,
+      1237,
+      1254,
+      1527,
+      1573,
+      1870,
+      1961
+    ],
+    "seed": 42,
+    "source_hash": "3801e19661a56369212099580206af1bfdab612528a087ecab868f8ef54cfa79",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1074,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jack Nicholson",
+          "Demi Moore",
+          "Kevin Bacon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When cocky military lawyer Lt. Daniel Kaffee and his co-counsel, Lt. Cmdr. JoAnne Galloway, are assigned to a murder case, they uncover a hazing ritual that could implicate high-ranking officials such as shady Col. Nathan Jessep.",
+        "release_date": "1992-12-11",
+        "release_year": "1992",
+        "title": "Few Good Men, A"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Fernando Rey",
+          "Roy Scheider",
+          "Tony Lo Bianco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Friedkin",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tough narcotics detective 'Popeye' Doyle is in hot pursuit of a suave French drug dealer who may be the key to a huge heroin-smuggling operation.",
+        "release_date": "1971-10-09",
+        "release_year": "1971",
+        "title": "French Connection, The"
+      },
+      {
+        "cast": [
+          "Edmund Gwenn",
+          "Natalie Wood",
+          "Maureen O'Hara",
+          "John Payne"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Seaton",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Kris Kringle, seemingly the embodiment of Santa Claus, is asked to portray the jolly old fellow at Macy's following his performance in the Thanksgiving Day parade. His portrayal is so complete many begin to question if he truly is Santa Claus while others question his sanity.",
+        "release_date": "1947-05-02",
+        "release_year": "1947",
+        "title": "Miracle on 34th Street"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Georges Adet",
+          "Frank Adu"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Set in 19th-century Russia, Allen is a cowardly serf drafted into the Napoleonic war, who would rather write poetry and obsess over his beautiful but pretentious cousin. Allen's cowardice serves him well when he hides in a cannon and is shot into a tent of French soldiers, making him a national hero. A hilarious parody of Russian literature, Love and Death is a must-see for fans of Allen's films.",
+        "release_date": "1975-06-10",
+        "release_year": "1975",
+        "title": "Love and Death"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Vicellous Reon Shannon",
+          "Deborah Kara Unger",
+          "Liev Schreiber"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Jewison",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of Rubin \"Hurricane\" Carter, a boxer wrongly imprisoned for murder, and the people who aided in his fight to prove his innocence.",
+        "release_date": "1999-09-17",
+        "release_year": "1999",
+        "title": "Hurricane, The"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When world heavyweight boxing champion, Apollo Creed wants to give an unknown fighter a shot at the title as a publicity stunt, his handlers choose palooka Rocky Balboa, an uneducated collector for a Philadelphia loan shark. Rocky teams up with trainer  Mickey Goldmill to make the most of this once in a lifetime break.",
+        "release_date": "1976-11-21",
+        "release_year": "1976",
+        "title": "Rocky"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Kathleen Turner",
+          "Danny DeVito",
+          "Alfonso Aráu"
+        ],
+        "country": [
+          "Mexico",
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Though she can spin wild tales of passionate romance, novelist Joan Wilder has no life of her own. Then one day adventure comes her way in the form of a mysterious package. It turns out that the parcel is the ransom she'll need to free her abducted sister, so Joan flies to South America to hand it over. But she gets on the wrong bus and winds up hopelessly stranded in the jungle...",
+        "release_date": "1984-03-30",
+        "release_year": "1984",
+        "title": "Romancing the Stone"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Jonathan Pryce",
+          "Michelle Yeoh",
+          "Teri Hatcher"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Roger Spottiswoode",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A deranged media mogul is staging international incidents to pit the world's superpowers against each other. Now 007 must take on this evil mastermind in an adrenaline-charged battle to end his reign of terror and prevent global pandemonium.",
+        "release_date": "1997-12-11",
+        "release_year": "1997",
+        "title": "Tomorrow Never Dies"
+      },
+      {
+        "cast": [
+          "Fred Ward",
+          "Dennis Quaid",
+          "Ed Harris",
+          "Scott Glenn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A chronicle of the original Mercury astronauts in the formation of America's space program: Alan Shepherd, the first American in space; Gus Grissom, the benighted astronaut for whom nothing works out as planned; John Glenn, the straight-arrow 'boy scout' of the bunch who was the first American to orbit the earth; and the remaining pilots: Deke Slayton, Scott Carpenter and Wally Schirra.",
+        "release_date": "1983-10-20",
+        "release_year": "1983",
+        "title": "Right Stuff, The"
+      }
+    ],
+    "raw_user_id": "1074",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 154
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.213910152941555
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for romantic dramas",
+        "Dislike for certain adventure films",
+        "Low ratings for comedies with less engaging plots"
+      ],
+      "liked_patterns": [
+        "High ratings for drama and thriller genres",
+        "Positive reception of romantic comedies",
+        "Favoring animated films with musical elements"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user has rated multiple drama films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (Several comedies received favorable ratings, suggesting the user enjoys humor in films.); Interest in Thrillers (The user has shown a liking for thriller films, as evidenced by positive ratings in this genre.); Fondness for Romance (Romantic films have been rated positively, indicating an appreciation for romantic themes.); Affinity for Animation (The user has rated animated films positively, showing a liking for this genre.). Liked patterns: High ratings for drama and thriller genres, Positive reception of romantic comedies, Favoring animated films with musical elements. Disliked patterns: Negative ratings for romantic dramas, Dislike for certain adventure films, Low ratings for comedies with less engaging plots.",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies received favorable ratings, suggesting the user enjoys humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has shown a liking for thriller films, as evidenced by positive ratings in this genre.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "Romantic films have been rated positively, indicating an appreciation for romantic themes.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "The user has rated animated films positively, showing a liking for this genre.",
+          "taste": "Affinity for Animation"
+        }
+      ]
+    },
+    "user_id": 1074
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "5d128771d3ff86b601663fcd041775ecc33ca90248e6079756a9b606294897a7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      218,
+      1116,
+      1062,
+      52,
+      277,
+      742,
+      106,
+      382,
+      356,
+      316
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "58a9052616a44aa289e5ab264268e113"
+    ],
+    "sampled_item_ids": [
+      8,
+      14,
+      53,
+      85,
+      106,
+      168,
+      178,
+      218,
+      260,
+      277,
+      337,
+      548,
+      742,
+      795,
+      798,
+      1062,
+      1116,
+      1273,
+      1314,
+      1345,
+      1585,
+      1634,
+      1912,
+      2106,
+      2482
+    ],
+    "seed": 42,
+    "source_hash": "27add3c67498407b3617d3522a621c05cb54f7b5ff52b489a9eca134058c6e99",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2310,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Shelley Duvall",
+          "Danny Lloyd",
+          "Scatman Crothers"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
+        "release_date": "1980-05-22",
+        "release_year": "1980",
+        "title": "Shining, The"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Ione Skye",
+          "John Mahoney",
+          "Lili Taylor"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A budding romance between noble underachiever Lloyd Dobler and high school valedictorian Diane Court is threatened when Diane's overly possessive, disapproving father interferes with their relationship. With a prized scholarship to study abroad hanging in the balance, Diane must find a way to make both men happy.",
+        "release_date": "1989-04-14",
+        "release_year": "1989",
+        "title": "Say Anything..."
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Robert Crumb",
+          "Aline Kominsky",
+          "Charles Crumb",
+          "Maxon Crumb"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Zwigoff",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "This movie chronicles the life and times of R. Crumb. Robert Crumb is the cartoonist/artist who drew Keep On Truckin', Fritz the Cat, and played a major pioneering role in the genesis of underground comix. Through interviews with his mother, two brothers, wife, and ex-girlfriends, as well as selections from his vast quantity of graphic art, we are treated to a darkly comic ride through one man's subconscious mind.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Crumb"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Jack Albertson",
+          "Peter Ostrum",
+          "Roy Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Stuart",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Eccentric candy man Willy Wonka prompts a worldwide frenzy when he announces that golden tickets hidden inside five of his delicious candy bars will admit their lucky holders into his top-secret confectionary. But does Wonka have an agenda hidden amid a world of Oompa Loompas and chocolate rivers?",
+        "release_date": "1971-06-29",
+        "release_year": "1971",
+        "title": "Willy Wonka and the Chocolate Factory"
+      },
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      },
+      {
+        "cast": [
+          "Stanley Tucci",
+          "Tony Shalhoub",
+          "Marc Anthony",
+          "Minnie Driver"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Tucci",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Primo &amp; Secondo, two immigrant brothers, pin their hopes on a banquet honoring Louis Prima to save their struggling restaurant.",
+        "release_date": "1996-09-20",
+        "release_year": "1996",
+        "title": "Big Night"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Reese Witherspoon",
+          "Chris Klein",
+          "Jessica Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alexander Payne",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A high school teacher's personal life becomes complicated as he works with students during the school elections.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Election"
+      }
+    ],
+    "raw_user_id": "2310",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 81
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6703336516069576
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or fail to resonate emotionally."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with emotional depth.",
+        "Strong appreciation for dramas that focus on character development and emotional storytelling.",
+        "Positive reception of thrillers that maintain suspense and engage the viewer."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly for their humor and character-driven stories.); Drama (The user appreciates dramatic narratives, particularly those that explore deep emotional themes and character development.); Thriller (The user is drawn to thrillers that combine suspense with strong storytelling and character arcs.); Adventure (The user enjoys adventure films that blend humor and drama, often featuring coming-of-age themes.); Crime (The user has a preference for crime films that incorporate elements of suspense and moral complexity.). Liked patterns: High ratings for comedies that blend humor with emotional depth., Strong appreciation for dramas that focus on character development and emotional storytelling., Positive reception of thrillers that maintain suspense and engage the viewer.. Disliked patterns: Dislike for comedies that lack depth or fail to resonate emotionally..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly for their humor and character-driven stories.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, particularly those that explore deep emotional themes and character development.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user is drawn to thrillers that combine suspense with strong storytelling and character arcs.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user enjoys adventure films that blend humor and drama, often featuring coming-of-age themes.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "The user has a preference for crime films that incorporate elements of suspense and moral complexity.",
+          "taste": "Crime"
+        }
+      ]
+    },
+    "user_id": 2310
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "15790c12012600c9c700671b616797c4da244332e5925ee0d3f543871313ee94",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      175,
+      273,
+      959,
+      185,
+      45,
+      544,
+      1677,
+      123,
+      484,
+      1752
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "cd4b34d981204e14aedd9c882311a75d"
+    ],
+    "sampled_item_ids": [
+      34,
+      44,
+      52,
+      174,
+      247,
+      273,
+      337,
+      517,
+      547,
+      554,
+      563,
+      578,
+      658,
+      729,
+      744,
+      896,
+      1047,
+      1183,
+      1254,
+      1584,
+      1752,
+      1901,
+      1977,
+      2125,
+      2436
+    ],
+    "seed": 42,
+    "source_hash": "12f9b71526b8d5a295d2474554bd01b8a71b841de51c3b26c4e87fe5016cea41",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2952,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Anne Bancroft",
+          "Katharine Ross",
+          "Murray Hamilton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A recent college graduate finds himself in a love triangle with an older woman and her daughter.",
+        "release_date": "1967-12-21",
+        "release_year": "1967",
+        "title": "Graduate, The"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Jennifer Lopez",
+          "Ving Rhames",
+          "Don Cheadle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Meet Jack Foley, a smooth criminal who bends the law and is determined to make one last heist. Karen Sisco is a federal marshal who chooses all the right moves … and all the wrong guys. Now they're willing to risk it all to find out if there's more between them than just the law. Variety hails Out of Sight as \"a sly, sexy, vastly entertaining film.\"",
+        "release_date": "1998-06-26",
+        "release_year": "1998",
+        "title": "Out of Sight"
+      },
+      {
+        "cast": [
+          "Melanie Lynskey",
+          "Kate Winslet",
+          "Sarah Peirse",
+          "Simon O'Connor"
+        ],
+        "country": [
+          "New Zealand"
+        ],
+        "director": "Peter Jackson",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Based on the true story of Juliet Hulme and Pauline Parker, two close friends who share a love of fantasy and literature, who conspire to kill Pauline's mother when she tries to end the girls' intense and obsessive relationship.",
+        "release_date": "1994-09-02",
+        "release_year": "1994",
+        "title": "Heavenly Creatures"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Sally Potter",
+          "Morgane Maugran",
+          "Pablo Verón",
+          "Géraldine Maillet"
+        ],
+        "country": [
+          "Argentina",
+          "France",
+          "Germany",
+          "Netherlands",
+          "United Kingdom"
+        ],
+        "director": "Sally Potter",
+        "genres": [
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "On a trip to Paris Sally meets Pablo, a tango dancer. He starts teaching her to dance then she returns to London to work on some \"projects\". She visits Buenos Aires and learns more from Pablo's friends. Sally and Pablo meet again but this time their relationship changes, she realises they want different things from each other. On a trip to Buenos Aires they cement their friendship.",
+        "release_date": "1997-11-28",
+        "release_year": "1997",
+        "title": "Tango Lesson, The"
+      },
+      {
+        "cast": [
+          "Gong Li",
+          "Jiang Wen",
+          "Rujun Ten",
+          "Ji Liu"
+        ],
+        "country": [
+          "China"
+        ],
+        "director": "Zhang Yimou",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "Chinese",
+        "overview": "An old leper who owned a remote sorghum winery dies. Jiu'er, the wife bought by the leper, and her lover, identified only as \"my Grandpa\" by the narrator, take over the winery and set up an idealized quasi-matriarchal community headed by Jiu'er. When the Japanese invaders subject the area to their rule and cut down the sorghum to make way for a road, the community rises up and resists as the sorghum grows anew.",
+        "release_date": "1987-01-01",
+        "release_year": "1987",
+        "title": "Red Sorghum (Hong Gao Liang)"
+      },
+      {
+        "cast": [
+          "Sean Penn",
+          "Adrien Brody",
+          "Jim Caviezel",
+          "Ben Chaplin"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Terrence Malick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Based on the graphic novel by James Jones, The Thin Red Line tells the story of a group of men, an Army Rifle company called C-for-Charlie, who change, suffer, and ultimately make essential discoveries about themselves during the fierce World War II battle of Guadalcanal. It follows their journey, from the surprise of an unopposed landing, through the bloody and exhausting battles that follow, to the ultimate departure of those who survived. A powerful frontline cast - including Sean Penn, Nick Nolte, Woody Harrelson and George Clooney - explodes into action in this hauntingly realistic view of military and moral chaos in the Pacific during World War II.",
+        "release_date": "1998-12-25",
+        "release_year": "1998",
+        "title": "Thin Red Line, The"
+      },
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Vincent Spano",
+          "Josh Hamilton",
+          "Bruce Ramsay"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Marshall",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The amazing, true story of a Uruguayan rugby team's plane that crashed in the middle of the Andes mountains, and their immense will to survive and pull through alive, forced to do anything and everything they could to stay alive on meager rations and through the freezing cold.",
+        "release_date": "1993-01-15",
+        "release_year": "1993",
+        "title": "Alive"
+      },
+      {
+        "cast": [
+          "Myles Berkowitz",
+          "Tia Carrere",
+          "Elisabeth Wagner",
+          "Richard Arlook"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Myles Berkowitz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Myles is divorced in L.A. He wants a love life and a film career. So he decides to go on 20 dates and find true love in front of a camera, making his first feature. His patient agent, Richard, finds a $60,000 investor, the shadowy Elie. Myles starts his search, sometimes telling his date she's being filmed, sometimes not. Elie wants sex and titillation, Myles wants it \"real.\" Myles regularly talks with his old film teacher, Robert McKee, who wonders if love is possible in modern life. Half-way through the 20 dates, Myles meets Elisabeth; she's everything he desires and she likes him. Can he finish the 20 dates, satisfy Elie, and complete his film without losing Elisabeth?",
+        "release_date": "1998-01-01",
+        "release_year": "1998",
+        "title": "20 Dates"
+      }
+    ],
+    "raw_user_id": "2952",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 136
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5794038790424348
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for animated children's films",
+        "Dislike for light comedies without depth"
+      ],
+      "liked_patterns": [
+        "Strong preference for crime and thriller genres",
+        "Enjoyment of dramatic narratives",
+        "Appreciation for comedies that offer deeper themes"
+      ],
+      "summary": "Unique tastes: Crime Thrillers (The user enjoys intense narratives with crime elements, often featuring complex characters and moral ambiguity.); Dramatic Storytelling (The user appreciates films that delve into deep emotional and psychological themes, often highlighting personal struggles.); Comedy with Depth (The user favors comedies that incorporate meaningful themes or character development, rather than purely lighthearted humor.); Action with Substance (The user is drawn to action films that also provide engaging plots and character arcs, rather than just spectacle.); Mystery and Intrigue (The user enjoys films that involve suspense and mystery, often with twists that challenge perceptions.). Liked patterns: Strong preference for crime and thriller genres, Enjoyment of dramatic narratives, Appreciation for comedies that offer deeper themes. Disliked patterns: Dislike for animated children's films, Dislike for light comedies without depth.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys intense narratives with crime elements, often featuring complex characters and moral ambiguity.",
+          "taste": "Crime Thrillers"
+        },
+        {
+          "reason": "The user appreciates films that delve into deep emotional and psychological themes, often highlighting personal struggles.",
+          "taste": "Dramatic Storytelling"
+        },
+        {
+          "reason": "The user favors comedies that incorporate meaningful themes or character development, rather than purely lighthearted humor.",
+          "taste": "Comedy with Depth"
+        },
+        {
+          "reason": "The user is drawn to action films that also provide engaging plots and character arcs, rather than just spectacle.",
+          "taste": "Action with Substance"
+        },
+        {
+          "reason": "The user enjoys films that involve suspense and mystery, often with twists that challenge perceptions.",
+          "taste": "Mystery and Intrigue"
+        }
+      ]
+    },
+    "user_id": 2952
+  }
+}

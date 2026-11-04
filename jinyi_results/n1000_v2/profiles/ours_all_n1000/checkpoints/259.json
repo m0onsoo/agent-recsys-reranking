@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "d74579935b6058af87863f63ce3fb527fdae532baad603a798894c7ed5bbb45e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      670,
+      2510,
+      105,
+      44,
+      383,
+      96,
+      436,
+      350,
+      177,
+      185
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a77c08bad7c74a2d98153aeb7c5c61da"
+    ],
+    "sampled_item_ids": [
+      54,
+      90,
+      99,
+      114,
+      135,
+      177,
+      185,
+      210,
+      247,
+      306,
+      314,
+      337,
+      350,
+      373,
+      460,
+      497,
+      606,
+      715,
+      922,
+      1201,
+      1312,
+      1349,
+      1900,
+      2393,
+      2620
+    ],
+    "seed": 42,
+    "source_hash": "694358bda1b37102557900d4248e304bbc16f75aa17cbd41e38a466fbca18093",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 259,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Marlon Brando",
+          "Al Pacino",
+          "James Caan",
+          "Richard S. Castellano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+        "release_date": "1972-03-14",
+        "release_year": "1972",
+        "title": "Godfather, The"
+      },
+      {
+        "cast": [
+          "Nikita Mikhalkov",
+          "Oleg Menshikov",
+          "Ingeborga Dapkunaite",
+          "Vyacheslav Tikhonov"
+        ],
+        "country": [
+          "France",
+          "Russia"
+        ],
+        "director": "Nikita Mikhalkov",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Russian",
+        "overview": "Russia, 1936: revolutionary hero Colonel Kotov is spending an idyllic summer in his dacha with his young wife and six-year-old daughter Nadia and other assorted family and friends. Things change dramatically with the unheralded arrival of Cousin Dmitri from Moscow, who charms the women and little Nadia with his games and pianistic bravura. But Kotov isn't fooled: this is the time of Stalin's repression, with telephone calls in the middle of the night spelling doom - and he knows that Dmitri isn't paying a social call...",
+        "release_date": "1994-05-01",
+        "release_year": "1994",
+        "title": "Burnt By the Sun (Utomlyonnye solntsem)"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Franka Potente",
+          "Moritz Bleibtreu",
+          "Herbert Knaup",
+          "Nina Petri"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Tom Tykwer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store to get the money. Three different alternatives may happen depending on some minor event along Lola's run.",
+        "release_date": "1998-08-20",
+        "release_year": "1998",
+        "title": "Run Lola Run (Lola rennt)"
+      },
+      {
+        "cast": [
+          "Hugh Grant",
+          "Andie MacDowell",
+          "James Fleet",
+          "Simon Callow"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Four Weddings And A Funeral is a British comedy about a British Man named Charles and an American Woman named Carrie who go through numerous weddings before they determine if they are right for one another.",
+        "release_date": "1994-03-09",
+        "release_year": "1994",
+        "title": "Four Weddings and a Funeral"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Campbell Scott",
+          "Ben Gazzara",
+          "Rebecca Pidgeon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Mamet",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An employee of a corporation with a lucrative secret process is tempted to betray it. But there's more to it than that.",
+        "release_date": "1997-09-08",
+        "release_year": "1997",
+        "title": "Spanish Prisoner, The"
+      },
+      {
+        "cast": [
+          "Cate Blanchett",
+          "Geoffrey Rush",
+          "Christopher Eccleston",
+          "Joseph Fiennes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Shekhar Kapur",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of the ascension to the throne and the early reign of Queen Elizabeth the First, the endless attempts by her council to marry her off, the Catholic hatred of her and her romance with Lord Robert Dudley.",
+        "release_date": "1998-09-13",
+        "release_year": "1998",
+        "title": "Elizabeth"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Owen Wilson",
+          "Lucy Liu",
+          "Xander Berkeley"
+        ],
+        "country": [
+          "Hong Kong",
+          "United States of America"
+        ],
+        "director": "Tom Dey",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Chon Wang, a clumsy imperial guard trails Princess Pei Pei when she is kidnapped from the Forbidden City and transported to America. Wang follows her captors to Nevada, where he teams up with an unlikely partner, outcast outlaw Roy O'Bannon, and tries to spring the princess from her imprisonment.",
+        "release_date": "2000-05-26",
+        "release_year": "2000",
+        "title": "Shanghai Noon"
+      },
+      {
+        "cast": [
+          "Robert Carlyle",
+          "Mark Addy",
+          "William Snape",
+          "Steve Huison"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Peter Cattaneo",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Sheffield, England. Gaz, a jobless steelworker in need of quick cash persuades his mates to bare it all in a one-night-only strip show.",
+        "release_date": "1997-08-13",
+        "release_year": "1997",
+        "title": "Full Monty, The"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      }
+    ],
+    "raw_user_id": "259",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 113
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5504739787122838
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that fail to engage emotionally or narratively, as indicated by low ratings in certain thrillers."
+      ],
+      "liked_patterns": [
+        "Strong preference for character-driven dramas and emotional narratives.",
+        "Enjoyment of comedies that blend humor with other genres.",
+        "Attraction to suspenseful thrillers with complex plots."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates character-driven narratives and emotional depth, as seen in multiple high-rated dramas.); Comedy (The user enjoys humor and light-hearted storytelling, reflected in several well-rated comedies.); Thriller (The user is drawn to suspenseful and engaging plots, indicated by a number of high ratings in the thriller genre.); Action/Sci-Fi (The user favors adventurous and imaginative storytelling, as shown by positive ratings for action and sci-fi films.); Romance (The user enjoys romantic elements intertwined with other genres, evident in the ratings for romantic dramas and comedies.). Liked patterns: Strong preference for character-driven dramas and emotional narratives., Enjoyment of comedies that blend humor with other genres., Attraction to suspenseful thrillers with complex plots.. Disliked patterns: Dislike for films that fail to engage emotionally or narratively, as indicated by low ratings in certain thrillers..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates character-driven narratives and emotional depth, as seen in multiple high-rated dramas.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys humor and light-hearted storytelling, reflected in several well-rated comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to suspenseful and engaging plots, indicated by a number of high ratings in the thriller genre.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user favors adventurous and imaginative storytelling, as shown by positive ratings for action and sci-fi films.",
+          "taste": "Action/Sci-Fi"
+        },
+        {
+          "reason": "The user enjoys romantic elements intertwined with other genres, evident in the ratings for romantic dramas and comedies.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 259
+  }
+}

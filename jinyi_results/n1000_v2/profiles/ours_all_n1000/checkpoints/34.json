@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "7e1c5aa7e3596506c61a8a549ba6bdd116dd25a9bd79fb74056adb5df1ae94bd",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1364,
+      1039,
+      4,
+      1159,
+      643,
+      184,
+      1132,
+      425,
+      1501,
+      1131
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "246e728075eb476b8a15be5c65b97fae"
+    ],
+    "sampled_item_ids": [
+      135,
+      165,
+      317,
+      386,
+      401,
+      406,
+      419,
+      424,
+      425,
+      438,
+      507,
+      548,
+      626,
+      640,
+      643,
+      772,
+      1025,
+      1043,
+      1131,
+      1195,
+      1231,
+      1501,
+      1510,
+      1595,
+      1601
+    ],
+    "seed": 42,
+    "source_hash": "8a51b82109aba40e57f52280dbc96df182e2882dd6f181cdde5b656695a6e7ba",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 34,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Maxwell Caulfield",
+          "Michelle Pfeiffer",
+          "Lorna Luft",
+          "Maureen Teefy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Patricia Birch",
+        "genres": [
+          "Comedy",
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "It's 1961, two years after the original Grease gang graduated, and there's a new crop of seniors and new members of the coolest cliques on campus, the Pink Ladies and T-Birds. Michael Carrington is the new kid in school - but he's been branded a brainiac. Can he fix up an old motorcycle, don a leather jacket, avoid a rumble with the leader of the T-Birds, and win the heart of Pink Lady Stephanie?",
+        "release_date": "1982-06-11",
+        "release_year": "1982",
+        "title": "Grease 2"
+      },
+      {
+        "cast": [
+          "Molly Ringwald",
+          "Jon Cryer",
+          "Andrew McCarthy",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Deutch",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Andie is an outcast, hanging out either with her older boss, who owns the record store where she works, or her quirky high school classmate Duckie, who has a crush on her. When one of the rich and popular kids at school, Blane, asks Andie out, it seems too good to be true. As Andie starts falling for Blane, she begins to realize that dating someone from a different social sphere is not easy.",
+        "release_date": "1986-02-28",
+        "release_year": "1986",
+        "title": "Pretty in Pink"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Albert Finney",
+          "Aaron Eckhart",
+          "Marg Helgenberger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "Erin Brockovich"
+      },
+      {
+        "cast": [
+          "Anthony Perkins",
+          "Vera Miles",
+          "John Gavin",
+          "Janet Leigh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother. The place seems quirky, but fine… until Marion decides to take a shower.",
+        "release_date": "1960-06-16",
+        "release_year": "1960",
+        "title": "Psycho"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Alec Baldwin",
+          "Winona Ryder",
+          "Michael Keaton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Thanks to an untimely demise via drowning, a young couple end up as poltergeists in their New England farmhouse, where they fail to meet the challenge of scaring away the insufferable new owners, who want to make drastic changes. In desperation, the undead newlyweds turn to an expert frightmeister, but he's got a diabolical agenda of his own.",
+        "release_date": "1988-02-29",
+        "release_year": "1988",
+        "title": "Beetlejuice"
+      },
+      {
+        "cast": [
+          "John Cleese",
+          "Jamie Lee Curtis",
+          "Kevin Kline",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Charles Crichton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A diamond advocate is attempting to steal a collection of diamonds, yet troubles arise when he realizes that he is not the only one after the diamonds.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Fish Called Wanda, A"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "John Cassavetes",
+          "Ruth Gordon",
+          "Sidney Blackmer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A young couple moves into an infamous New York apartment building to start a family. Things become frightening as Rosemary begins to suspect her unborn baby isn't safe around their strange neighbors.",
+        "release_date": "1968-06-12",
+        "release_year": "1968",
+        "title": "Rosemary's Baby"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Daryl Hannah",
+          "Eugene Levy",
+          "John Candy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A successful businessman falls in love with the girl of his dreams. There's one big complication though; he's fallen hook, line and sinker for a mermaid.",
+        "release_date": "1984-03-09",
+        "release_year": "1984",
+        "title": "Splash"
+      },
+      {
+        "cast": [
+          "Jackie Joseph",
+          "Mel Welles",
+          "Jack Nicholson",
+          "Leola Wendorff"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Corman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Black comedy about a young man who creates a carnivorous plant and must kill in order to feed it.",
+        "release_date": "1960-09-14",
+        "release_year": "1960",
+        "title": "Little Shop of Horrors, The"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Lee Remick",
+          "David Warner",
+          "Billie Whitelaw"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Immediately after their miscarriage, the US diplomat Robert Thorn adopts the newborn Damien without the knowledge of his wife. Yet what he doesn’t know is that their new son is the son of the devil. A classic horror film with Gregory Peck from 1976.",
+        "release_date": "1976-06-06",
+        "release_year": "1976",
+        "title": "Omen, The"
+      }
+    ],
+    "raw_user_id": "34",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 132
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8997832313754373
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films, as indicated by low ratings in this genre."
+      ],
+      "liked_patterns": [
+        "Strong preference for romantic comedies with high ratings.",
+        "Enjoyment of character-driven stories that blend comedy with drama.",
+        "Tendency to rate films with whimsical or fantastical elements positively."
+      ],
+      "summary": "Unique tastes: Comedy and Romance (A strong preference for romantic comedies is evident, with multiple high ratings in this genre.); Dramatic Elements (Enjoyment of films that incorporate drama alongside comedy and romance, indicating a taste for emotional depth.); Fantasy and Comedy (A liking for comedies that blend fantasy elements, showcasing a preference for whimsical storytelling.); Character-Driven Stories (Appreciation for films that focus on character development and relationships, particularly in romantic contexts.); Lighthearted Adventures (Enjoyment of comedies that involve adventure or crime, suggesting a preference for entertaining plots.). Liked patterns: Strong preference for romantic comedies with high ratings., Enjoyment of character-driven stories that blend comedy with drama., Tendency to rate films with whimsical or fantastical elements positively.. Disliked patterns: Dislike for horror films, as indicated by low ratings in this genre..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for romantic comedies is evident, with multiple high ratings in this genre.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "Enjoyment of films that incorporate drama alongside comedy and romance, indicating a taste for emotional depth.",
+          "taste": "Dramatic Elements"
+        },
+        {
+          "reason": "A liking for comedies that blend fantasy elements, showcasing a preference for whimsical storytelling.",
+          "taste": "Fantasy and Comedy"
+        },
+        {
+          "reason": "Appreciation for films that focus on character development and relationships, particularly in romantic contexts.",
+          "taste": "Character-Driven Stories"
+        },
+        {
+          "reason": "Enjoyment of comedies that involve adventure or crime, suggesting a preference for entertaining plots.",
+          "taste": "Lighthearted Adventures"
+        }
+      ]
+    },
+    "user_id": 34
+  }
+}

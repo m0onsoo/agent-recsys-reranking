@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "ace5893ab3af9ae9691e059a51d332ef38d5c6c85c653b95829141163a10bda8",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      229,
+      1079,
+      22,
+      5,
+      147,
+      93,
+      49,
+      24,
+      59,
+      559
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "1309c9b33747487ebb3214c109c54088"
+    ],
+    "sampled_item_ids": [
+      5,
+      22,
+      24,
+      45,
+      49,
+      59,
+      93,
+      120,
+      147,
+      229,
+      265,
+      455,
+      556,
+      559,
+      881,
+      936,
+      1019,
+      1079,
+      1156,
+      1260,
+      1329,
+      1979,
+      2816
+    ],
+    "seed": 42,
+    "source_hash": "4947a00156aaccf9bf1325349cb43e3d5bc5628a178216cc546c5b0d77f57956",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 283,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Helena Bonham Carter",
+          "Alison Elliott",
+          "Elizabeth McGovern",
+          "Alex Jennings"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Iain Softley",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Kate is secretly betrothed to a struggling journalist, Merton Densher. But she knows her Aunt Maude will never approve of the match, since Kate's deceased mother has lost all her money in a marriage to a degenerate opium addict. When Kate meets a terminally ill American heiress named Millie traveling through Europe, she comes up with a conniving plan to have both love and wealth.",
+        "release_date": "1997-11-07",
+        "release_year": "1997",
+        "title": "Wings of the Dove, The"
+      },
+      {
+        "cast": [
+          "Christopher Lambert",
+          "Robin Shou",
+          "Linden Ashby",
+          "Cary-Hiroyuki Tagawa"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul W.S. Anderson",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "For nine generations an evil sorcerer has been victorious in hand-to-hand battle against his mortal enemies. If he wins a tenth Mortal Kombat tournament, desolation and evil will reign over the multiverse forever. To save Earth, three warriors must overcome seemingly insurmountable odds, their own inner demons, and superhuman foes in this action/adventure movie based on one of the most popular video games of all time.",
+        "release_date": "1995-08-18",
+        "release_year": "1995",
+        "title": "Mortal Kombat"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Animation"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1996",
+        "title": "Wallace & Gromit: The Best of Aardman Animation"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Julia Louis-Dreyfus",
+          "Hayden Panettiere",
+          "Phyllis Diller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+        "release_date": "1998-11-25",
+        "release_year": "1998",
+        "title": "Bug's Life, A"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Jeremy Irons",
+          "Samuel L. Jackson",
+          "Graham Greene"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"partner\" -- and his beloved city -- in a deadly game that demands their concentration.",
+        "release_date": "1995-05-19",
+        "release_year": "1995",
+        "title": "Die Hard: With a Vengeance"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jon Voight",
+          "Emmanuelle Béart",
+          "Henry Czerny"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the No. 1 suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
+        "release_date": "1996-05-22",
+        "release_year": "1996",
+        "title": "Mission: Impossible"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Marcia Strassman",
+          "Matt Frewer",
+          "Kristine Sutherland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Johnston",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The scientist father of a teenage girl and boy accidentally shrinks his and two other neighborhood teens to the size of insects. Now the teens must fight diminutive dangers as the father searches for them.",
+        "release_date": "1989-06-22",
+        "release_year": "1989",
+        "title": "Honey, I Shrunk the Kids"
+      }
+    ],
+    "raw_user_id": "283",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 23
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.6627417719486575
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [],
+      "liked_patterns": [
+        "Strong preference for action and adventure genres",
+        "High ratings for films with dramatic and emotional storytelling",
+        "Consistent enjoyment of animated and family-oriented films"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Drama with Emotional Depth (The user appreciates dramas that explore complex emotional themes and character development.); Animation and Family-Friendly Content (The user favors animated films and those suitable for children, often with comedic elements.); Thrillers with Suspense (The user is drawn to thrillers that create tension and suspense, often involving horror or crime elements.); War and Historical Narratives (The user has a strong interest in films that depict war and historical events, often highlighting human experiences.). Liked patterns: Strong preference for action and adventure genres, High ratings for films with dramatic and emotional storytelling, Consistent enjoyment of animated and family-oriented films. Disliked patterns: no repeated disliked pattern identified.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex emotional themes and character development.",
+          "taste": "Drama with Emotional Depth"
+        },
+        {
+          "reason": "The user favors animated films and those suitable for children, often with comedic elements.",
+          "taste": "Animation and Family-Friendly Content"
+        },
+        {
+          "reason": "The user is drawn to thrillers that create tension and suspense, often involving horror or crime elements.",
+          "taste": "Thrillers with Suspense"
+        },
+        {
+          "reason": "The user has a strong interest in films that depict war and historical events, often highlighting human experiences.",
+          "taste": "War and Historical Narratives"
+        }
+      ]
+    },
+    "user_id": 283
+  }
+}

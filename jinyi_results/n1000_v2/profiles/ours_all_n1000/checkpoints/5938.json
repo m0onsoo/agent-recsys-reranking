@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "1c6ac62bc3c806db63763df63f4dbde4d05790dfc3ba7013dec5e0428a043e60",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      959,
+      190,
+      105,
+      181,
+      1451,
+      522,
+      770,
+      1674,
+      52,
+      1651
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      58,
+      76,
+      89,
+      98,
+      125,
+      133,
+      210,
+      221,
+      247,
+      307,
+      366,
+      381,
+      518,
+      532,
+      637,
+      662,
+      816,
+      881,
+      1076,
+      1166,
+      1593,
+      1886,
+      2131,
+      2584,
+      2937
+    ],
+    "seed": 42,
+    "source_hash": "983492fb770ed0053e8c0a3838d87ded5d8221dda7d4c0ef74bf43917a4f797d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5938,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Melanie Lynskey",
+          "Kate Winslet",
+          "Sarah Peirse",
+          "Simon O'Connor"
+        ],
+        "country": [
+          "New Zealand"
+        ],
+        "director": "Peter Jackson",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Based on the true story of Juliet Hulme and Pauline Parker, two close friends who share a love of fantasy and literature, who conspire to kill Pauline's mother when she tries to end the girls' intense and obsessive relationship.",
+        "release_date": "1994-09-02",
+        "release_year": "1994",
+        "title": "Heavenly Creatures"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Charles Dance",
+          "Charlotte Lewis",
+          "Victor Wong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Ritchie",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A detective specializing in missing children is on a madcap mission to save a youth with mystical powers who's been abducted by an evil cult. He battles a band of super-nasties, scrambles through a booby-trapped chamber of horrors and traverses Tibet to obtain a sacred dagger.",
+        "release_date": "1986-12-12",
+        "release_year": "1986",
+        "title": "Golden Child, The"
+      },
+      {
+        "cast": [
+          "Farley Granger",
+          "Robert Walker",
+          "Ruth Roman",
+          "Patricia Hitchcock"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychotic socialite confronts a pro tennis star with a theory on how two complete strangers can get away with murder...a theory that he plans to implement.",
+        "release_date": "1951-06-18",
+        "release_year": "1951",
+        "title": "Strangers on a Train"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Drew Barrymore",
+          "Christine Taylor",
+          "Allen Covert"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Coraci",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Robbie, a local rock star turned wedding singer, is dumped on the day of his wedding. Meanwhile, waitress Julia finally sets a wedding date with her fiancée Glenn. When Julia and Robbie meet and hit it off, they find that things are more complicated than anybody thought.",
+        "release_date": "1998-02-13",
+        "release_year": "1998",
+        "title": "Wedding Singer, The"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Sarah Jessica Parker",
+          "Victoria Tennant",
+          "Richard E. Grant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mick Jackson",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "With the help of a talking freeway billboard, a \"wacky weatherman\" tries to win the heart of an English newspaper reporter, who is struggling to make sense of the strange world of early-90s Los Angeles.",
+        "release_date": "1991-02-08",
+        "release_year": "1991",
+        "title": "L.A. Story"
+      },
+      {
+        "cast": [
+          "Muhammad Ali",
+          "George Foreman",
+          "Don King",
+          "James Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leon Gast",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "It's 1974. Muhammad Ali is 32 and thought by many to be past his prime. George Foreman is ten years younger and the heavyweight champion of the world. Promoter Don King wants to make a name for himself and offers both fighters five million dollars apiece to fight one another, and when they accept, King has only to come up with the money. He finds a willing backer in Mobutu Sese Suko, the dictator of Zaire, and the \"Rumble in the Jungle\" is set, including a musical festival featuring some of America's top black performers, like James Brown and B.B. King.",
+        "release_date": "1996-10-25",
+        "release_year": "1996",
+        "title": "When We Were Kings"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Donal Logue",
+          "Ayelet Kaznelson",
+          "John Hines",
+          "John Harrington Bland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jenniphr Goodman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Underachieving, overweight kindergarten teacher Dex finds a woman who forces him to reexamine his Zen-like system of seduction.",
+        "release_date": "2000-08-04",
+        "release_year": "2000",
+        "title": "Tao of Steve, The"
+      }
+    ],
+    "raw_user_id": "5938",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 153
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7164536787203087
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for romantic comedies that lack depth or originality.",
+        "Displeasure with films that focus solely on romance without additional engaging elements."
+      ],
+      "liked_patterns": [
+        "Enjoyment of films that blend comedy with drama or romance.",
+        "Preference for action films that also incorporate elements of science fiction or thriller.",
+        "Attraction to films with unique storytelling or unconventional narratives."
+      ],
+      "summary": "Unique tastes: Appreciation for Action and Sci-Fi (The user enjoys high-energy films that combine action with science fiction elements.); Fondness for Comedy and Drama (The user is drawn to films that blend humor with deeper emotional narratives.); Interest in Unique Storytelling (The user favors films that present unconventional plots or themes, often found in independent or foreign cinema.); Enjoyment of Romantic Elements (The user appreciates films that incorporate romance, particularly when intertwined with other genres.); Preference for Strong Character Development (The user values films that focus on character arcs and personal growth.). Liked patterns: Enjoyment of films that blend comedy with drama or romance., Preference for action films that also incorporate elements of science fiction or thriller., Attraction to films with unique storytelling or unconventional narratives.. Disliked patterns: Dislike for romantic comedies that lack depth or originality., Displeasure with films that focus solely on romance without additional engaging elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with science fiction elements.",
+          "taste": "Appreciation for Action and Sci-Fi"
+        },
+        {
+          "reason": "The user is drawn to films that blend humor with deeper emotional narratives.",
+          "taste": "Fondness for Comedy and Drama"
+        },
+        {
+          "reason": "The user favors films that present unconventional plots or themes, often found in independent or foreign cinema.",
+          "taste": "Interest in Unique Storytelling"
+        },
+        {
+          "reason": "The user appreciates films that incorporate romance, particularly when intertwined with other genres.",
+          "taste": "Enjoyment of Romantic Elements"
+        },
+        {
+          "reason": "The user values films that focus on character arcs and personal growth.",
+          "taste": "Preference for Strong Character Development"
+        }
+      ]
+    },
+    "user_id": 5938
+  }
+}

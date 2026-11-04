@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "820c11af21874fca140b33aad421d39c3c2ea8556450132c55cfae8c2045063b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      45,
+      56,
+      1242,
+      2410,
+      316,
+      759,
+      98,
+      105,
+      541,
+      125
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      27,
+      41,
+      45,
+      56,
+      98,
+      105,
+      113,
+      114,
+      117,
+      125,
+      133,
+      156,
+      185,
+      190,
+      323,
+      616,
+      663,
+      715,
+      744,
+      759,
+      848,
+      1015,
+      1242,
+      1271,
+      2410
+    ],
+    "seed": 42,
+    "source_hash": "e947aa7736811601662fc8038cc62ebdaacd2af00d48d57325066e4531388ce1",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5474,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Koji Yakusho",
+          "Tamiyo Kusakari",
+          "Naoto Takenaka",
+          "Yu Tokui"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Masayuki Suo",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "Japanese",
+        "overview": "A bored Japanese accountant sees a beautiful woman in the window of a ballroom dance studio. He secretly starts taking dancing lessons to be near her, and then over time discovers how much he loves ballroom dancing. His wife, meanwhile, has hired a private detective to find out why he has started coming home late smelling of perfume.",
+        "release_date": "1996-01-27",
+        "release_year": "1996",
+        "title": "Shall We Dance? (Shall We Dansu?)"
+      },
+      {
+        "cast": [
+          "Jonathan Pryce",
+          "Robert De Niro",
+          "Katherine Helmond",
+          "Ian Holm"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
+        "release_date": "1985-02-20",
+        "release_year": "1985",
+        "title": "Brazil"
+      },
+      {
+        "cast": [
+          "Luke Wilson",
+          "Owen Wilson",
+          "Lumi Cavazos",
+          "Andrew Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Anderson",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Upon his release from a mental hospital following a nervous breakdown, the directionless Anthony joins his friend Dignan, who seems far less sane than the former. Dignan has hatched a hair-brained scheme for an as-yet-unspecified crime spree that somehow involves his former boss, the (supposedly) legendary Mr. Henry.",
+        "release_date": "1996-02-21",
+        "release_year": "1996",
+        "title": "Bottle Rocket"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Reese Witherspoon",
+          "Chris Klein",
+          "Jessica Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alexander Payne",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A high school teacher's personal life becomes complicated as he works with students during the school elections.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Election"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "John Cleese",
+          "Shelley Duvall",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Young history buff Kevin can scarcely believe it when six dwarfs emerge from his closet one night. Former employees of the Supreme Being, they've purloined a map charting all of the holes in the fabric of time and are using it to steal treasures from different historical eras. Taking Kevin with them, they variously drop in on Napoleon, Robin Hood and King Agamemnon before the Supreme Being catches up with them.",
+        "release_date": "1981-07-13",
+        "release_year": "1981",
+        "title": "Time Bandits"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Andrei Chalimon",
+          "Zdeněk Svěrák",
+          "Libuše Šafránková",
+          "Ondřej Vetchý"
+        ],
+        "country": [
+          "France",
+          "Czech Republic",
+          "United Kingdom"
+        ],
+        "director": "Jan Svěrák",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "Czech",
+        "overview": "The Czech Republic Director Jan Sverák tells in this Oscar winning film the story of the disillusioned Prague man named Cellisten Louka, who after a fictitious marriage with a Russian emigrant must suddenly take responsibility for her son. However it’s not long before the communication barrier is broken between the two new family members.",
+        "release_date": "1996-05-05",
+        "release_year": "1996",
+        "title": "Kolya"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      }
+    ],
+    "raw_user_id": "5474",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 39
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7639492420783195
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that are primarily children's or family-oriented without deeper themes.",
+        "Dislike for certain sci-fi films that may lack engaging plots or character development."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend action and sci-fi elements.",
+        "Positive reception of comedies that incorporate unique or surreal themes.",
+        "Strong preference for films that feature complex characters and narratives."
+      ],
+      "summary": "Unique tastes: Appreciation for Sci-Fi (The user enjoys a variety of sci-fi films, often rating them highly, indicating a strong preference for this genre.); Enjoyment of Comedy (The user rates several comedies positively, suggesting a fondness for humor and lighthearted storytelling.); Interest in Action and Adventure (The user frequently rates action and adventure films well, showing a preference for excitement and dynamic narratives.); Favoring Drama with Depth (The user appreciates dramas that explore complex themes, as evidenced by high ratings for films in this genre.); Affinity for Fantasy Elements (The user enjoys films that incorporate fantasy elements, indicating a taste for imaginative storytelling.). Liked patterns: High ratings for films that blend action and sci-fi elements., Positive reception of comedies that incorporate unique or surreal themes., Strong preference for films that feature complex characters and narratives.. Disliked patterns: Low ratings for films that are primarily children's or family-oriented without deeper themes., Dislike for certain sci-fi films that may lack engaging plots or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of sci-fi films, often rating them highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Sci-Fi"
+        },
+        {
+          "reason": "The user rates several comedies positively, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user frequently rates action and adventure films well, showing a preference for excitement and dynamic narratives.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex themes, as evidenced by high ratings for films in this genre.",
+          "taste": "Favoring Drama with Depth"
+        },
+        {
+          "reason": "The user enjoys films that incorporate fantasy elements, indicating a taste for imaginative storytelling.",
+          "taste": "Affinity for Fantasy Elements"
+        }
+      ]
+    },
+    "user_id": 5474
+  }
+}

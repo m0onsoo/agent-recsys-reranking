@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "4342fca5cb522057d0e550f8b17558ef5798b9b50ff5e960a73d4866a6cc58af",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2640,
+      2125,
+      1989,
+      994,
+      386,
+      644,
+      200,
+      1113,
+      63,
+      1719
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "574b82a812074634829765c03a04acc0"
+    ],
+    "sampled_item_ids": [
+      23,
+      65,
+      79,
+      95,
+      127,
+      146,
+      151,
+      156,
+      200,
+      215,
+      328,
+      376,
+      576,
+      647,
+      652,
+      729,
+      1020,
+      1045,
+      1074,
+      1275,
+      1286,
+      1482,
+      1675,
+      1938,
+      2014
+    ],
+    "seed": 42,
+    "source_hash": "a21b71716e5849ee4c28e6ff181267462e89bbc4a22d194e946a6af39b06ba5e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2445,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mark Wahlberg",
+          "Lou Diamond Phillips",
+          "Christina Applegate",
+          "China Chow"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kirk Wong",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Affable hit man Melvin Smiley is constantly being scammed by his cutthroat colleagues in the life-ending business. So, when he and his fellow assassins kidnap the daughter of an electronics mogul, it's naturally Melvin who takes the fall when their prime score turns sour. That's because the girl is the goddaughter of the gang's ruthless crime boss. But, even while dodging bullets, Melvin has to keep his real job secret from his unsuspecting fiancée, Pam.",
+        "release_date": "1998-04-24",
+        "release_year": "1998",
+        "title": "Big Hit, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Robert Downey Jr.",
+          "Nancy Travis",
+          "Ken Jenkins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Spottiswoode",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Air America was the CIA's private airline operating in Laos during the Vietnam War, running anything and everything from soldiers to foodstuffs for local villagers. After losing his pilot's license, Billy Covington is recruited into it, and ends up in the middle of a bunch of lunatic pilots, gun-running by his friend Gene Ryack, and opium smuggling by his own superiors.",
+        "release_date": "1990-08-10",
+        "release_year": "1990",
+        "title": "Air America"
+      },
+      {
+        "cast": [
+          "Bryan Brown",
+          "Brian Dennehy",
+          "Rachel Ticotin",
+          "Tom Mason"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Franklin",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "F/X man Rollie Tyler is now a toymaker. Mike, the ex-husband of his girlfriend Kim, is a cop. He asks Rollie to help catch a killer. The operation goes well until some unknown man kills both the killer and Mike. Mike's boss, Silak says it was the killer who killed Mike but Rollie knows it wasn't. Obviously, Silak is involved with Mike's death, so he calls on Leo McCarthy, the cop from the last movie, who is now a P.I., for help and they discover it's not just Silak they have to worry about.",
+        "release_date": "1991-04-16",
+        "release_year": "1992",
+        "title": "F/X 2"
+      },
+      {
+        "cast": [
+          "Vin Diesel",
+          "Radha Mitchell",
+          "Cole Hauser",
+          "Lewis Fitz-Gerald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Twohy",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When their ship crash-lands on a remote planet, the marooned passengers soon learn that escaped convict Riddick isn't the only thing they have to fear. Deadly creatures lurk in the shadows, waiting to attack in the dark, and the planet is rapidly plunging into the utter blackness of a total eclipse. With the body count rising, the doomed survivors are forced to turn to Riddick with his eerie eyes to guide them through the darkness to safety. With time running out, there's only one rule: Stay in the light.",
+        "release_date": "2000-02-18",
+        "release_year": "2000",
+        "title": "Pitch Black"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Kathleen Turner",
+          "Danny DeVito",
+          "Alfonso Aráu"
+        ],
+        "country": [
+          "Mexico",
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Though she can spin wild tales of passionate romance, novelist Joan Wilder has no life of her own. Then one day adventure comes her way in the form of a mysterious package. It turns out that the parcel is the ransom she'll need to free her abducted sister, so Joan flies to South America to hand it over. But she gets on the wrong bus and winds up hopelessly stranded in the jungle...",
+        "release_date": "1984-03-30",
+        "release_year": "1984",
+        "title": "Romancing the Stone"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Katharine Ross",
+          "Strother Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot 'Sundance Kid'. As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "release_year": "1969",
+        "title": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+        "cast": [
+          "Timothy Dalton",
+          "Carey Lowell",
+          "Robert Davi",
+          "Talisa Soto"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Glen",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "James Bond and his American colleague Felix Leiter arrest the drug lord Sanchez who succeeds in escaping and takes revenge on Felix and his wife. Bond knows but just one thing: revenge.",
+        "release_date": "1989-07-07",
+        "release_year": "1989",
+        "title": "Licence to Kill"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Patrick Wayne",
+          "Taryn Power",
+          "Margaret Whiting",
+          "Jane Seymour"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Sam Wanamaker",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Princess Farah refuses to marry Sinbad until Prince Kassim, her brother, is able to give his consent. However, the Prince's wicked stepmother, Queen Zenobia, has changed Kassim into a baboon in order to have her own son crowned as caliph. Sinbad, his crew, the Princess and the transformed Prince travel to a distant land, fighting every obstacle Zenobia places in their path, to seek the advice of a legendary wise man who can possibly tell how to end the spell.",
+        "release_date": "1977-07-15",
+        "release_year": "1977",
+        "title": "Sinbad and the Eye of the Tiger"
+      }
+    ],
+    "raw_user_id": "2445",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 196
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7142389439303658
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films that lack engaging plots or character development."
+      ],
+      "liked_patterns": [
+        "Strong preference for action films with high ratings.",
+        "Enjoyment of films that blend action with other genres like comedy and romance.",
+        "Consistent appreciation for thrillers that maintain a high level of suspense."
+      ],
+      "summary": "Unique tastes: Action and Thriller (A strong preference for action-packed narratives that include suspenseful and thrilling elements.); Sci-Fi Elements (Enjoyment of science fiction themes, particularly in action contexts.); Comedy in Action (Appreciation for humor interwoven with action sequences.); Romantic Subplots (Interest in action films that incorporate romantic storylines.); Adventure Themes (Favoring films that explore adventurous journeys and quests.). Liked patterns: Strong preference for action films with high ratings., Enjoyment of films that blend action with other genres like comedy and romance., Consistent appreciation for thrillers that maintain a high level of suspense.. Disliked patterns: Dislike for action films that lack engaging plots or character development..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for action-packed narratives that include suspenseful and thrilling elements.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "Enjoyment of science fiction themes, particularly in action contexts.",
+          "taste": "Sci-Fi Elements"
+        },
+        {
+          "reason": "Appreciation for humor interwoven with action sequences.",
+          "taste": "Comedy in Action"
+        },
+        {
+          "reason": "Interest in action films that incorporate romantic storylines.",
+          "taste": "Romantic Subplots"
+        },
+        {
+          "reason": "Favoring films that explore adventurous journeys and quests.",
+          "taste": "Adventure Themes"
+        }
+      ]
+    },
+    "user_id": 2445
+  }
+}

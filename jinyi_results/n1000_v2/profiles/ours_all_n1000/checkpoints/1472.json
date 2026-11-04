@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "833143d9c5f2278ac8d25355092a8424f3092ca80cce9ae647c909b6a5bd1501",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      120,
+      850,
+      2495,
+      151,
+      1245,
+      429,
+      127,
+      665,
+      1482,
+      587
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9738cfb783d84447a8b7bed39a22433e"
+    ],
+    "sampled_item_ids": [
+      15,
+      20,
+      45,
+      49,
+      79,
+      84,
+      92,
+      94,
+      100,
+      146,
+      188,
+      189,
+      197,
+      265,
+      547,
+      548,
+      644,
+      714,
+      837,
+      1019,
+      1023,
+      1099,
+      1872,
+      1874,
+      2989
+    ],
+    "seed": 42,
+    "source_hash": "aed2b93eba0ddf280bbfad6ad64601cb0cfbe4c5e113a4c6e30f917bc47a7f09",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1472,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "On the eve of retirement, Kirk and McCoy are charged with assassinating the Klingon High Chancellor and imprisoned. The Enterprise crew must help them escape to thwart a conspiracy aimed at sabotaging the last best hope for peace.",
+        "release_date": "1991-12-05",
+        "release_year": "1991",
+        "title": "Star Trek VI: The Undiscovered Country"
+      },
+      {
+        "cast": [
+          "Val Kilmer",
+          "Elisabeth Shue",
+          "Rade Serbedzija",
+          "Henry Goodman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Ivan Tretiak, Russian Mafia boss who wants to create an oil crisis in Moscow and seize power as a result sends Simon Templar, great international criminal, to England to get a secret formula for cold fusion from U.S. scientist Emma Russell. Templar falls in love with Emma and they try to outwit Tretiak and his guerrillas, hiding from them in Moscow",
+        "release_date": "1997-04-03",
+        "release_year": "1997",
+        "title": "Saint, The"
+      },
+      {
+        "cast": [
+          "Charlie Sheen",
+          "Nastassja Kinski",
+          "James Gandolfini",
+          "Christopher McDonald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Deran Sarafian",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "A maverick skydiver and a former KGB agent team up to stop the Russian mafia from stealing gold.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Terminal Velocity"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Willem Dafoe",
+          "Anne Archer",
+          "Joaquim de Almeida"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "CIA Analyst Jack Ryan is drawn into an illegal war fought by the US government against a Colombian drug cartel.",
+        "release_date": "1994-08-03",
+        "release_year": "1994",
+        "title": "Clear and Present Danger"
+      },
+      {
+        "cast": [
+          "Gary Oldman",
+          "Joan Allen",
+          "Jeff Bridges",
+          "Christian Slater"
+        ],
+        "country": [
+          "Germany",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Rod Lurie",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Political thriller about Laine Hanson's nomination and confirmation as Vice President. An allegation that she was involved in a sexual orgy at the age of 19 is leaked to the press. As pressure mounts on Laine, she's torn between fighting back or sticking to her principles and refusing to comment on the allegations.",
+        "release_date": "2000-10-13",
+        "release_year": "2000",
+        "title": "Contender, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kelly McGillis",
+          "Josef Sommer",
+          "Lukas Haas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A sheltered Amish child is the sole witness of a brutal murder in a restroom at a Philadelphia train station, and he must be protected.  The assignment falls to a taciturn detective who goes undercover in a Pennsylvania Dutch community. On the farm, he slowly assimilates despite his urban grit and forges a romantic bond with the child's beautiful mother.",
+        "release_date": "1985-02-08",
+        "release_year": "1985",
+        "title": "Witness"
+      },
+      {
+        "cast": [
+          "Helen Hunt",
+          "Bill Paxton",
+          "Cary Elwes",
+          "Jami Gertz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "TV weatherman Bill Harding is trying to get his tornado-hunter wife, Jo, to sign divorce papers so he can marry his girlfriend Melissa. But Mother Nature, in the form of a series of intense storms sweeping across Oklahoma, has other plans. Soon the three have joined the team of stormchasers as they attempt to insert a revolutionary measuring device into the very heart of several extremely violent tornados.",
+        "release_date": "1996-05-10",
+        "release_year": "1996",
+        "title": "Twister"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Bruce Spence",
+          "Michael Preston",
+          "Max Phipps"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape.",
+        "release_date": "1981-12-24",
+        "release_year": "1981",
+        "title": "Mad Max 2 (a.k.a. The Road Warrior)"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Mark Harmon",
+          "Meg Ryan",
+          "Jack Warden"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Jay Austin is now a civilian police detective. Colonel Caldwell was his commanding officer years before when he left the military police over a disagreement over the handling of a drunk driver. Now a series of murders that cross jurisdictions force them to work together again. That Austin is now dating Caldwell's daughter is not helping the relationship at all.",
+        "release_date": "1988-06-10",
+        "release_year": "1988",
+        "title": "Presidio, The"
+      },
+      {
+        "cast": [
+          "Christopher Reeve",
+          "Marlon Brando",
+          "Margot Kidder",
+          "Gene Hackman"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Mild-mannered Clark Kent works as a reporter at the Daily Planet alongside his crush, Lois Lane − who's in love with Superman. Clark must summon his superhero alter ego when the nefarious Lex Luthor launches a plan to take over the world.",
+        "release_date": "1978-12-13",
+        "release_year": "1978",
+        "title": "Superman"
+      }
+    ],
+    "raw_user_id": "1472",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 187
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7025996415730553
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for action films that lack engaging plots or character depth.",
+        "Dislike for comedies that do not resonate with the user's sense of humor."
+      ],
+      "liked_patterns": [
+        "High ratings for action films that blend with other genres like comedy and drama.",
+        "Positive reception of films featuring strong narratives and character development.",
+        "Enjoyment of films that incorporate elements of fantasy and adventure."
+      ],
+      "summary": "Unique tastes: Appreciation for Action and Adventure (The user rates multiple action and adventure films highly, indicating a strong preference for these genres.); Enjoyment of Comedic Elements (Several comedies received high ratings, suggesting the user enjoys humor in films.); Interest in War and Drama Themes (The user rates war and drama films positively, showing an affinity for serious narratives.); Fondness for Fantasy Elements (Fantasy films are rated well, indicating a liking for imaginative and fantastical storytelling.); Preference for Romantic Subplots (Romantic elements in various genres are appreciated, as seen in the ratings for films with romance.). Liked patterns: High ratings for action films that blend with other genres like comedy and drama., Positive reception of films featuring strong narratives and character development., Enjoyment of films that incorporate elements of fantasy and adventure.. Disliked patterns: Low ratings for action films that lack engaging plots or character depth., Dislike for comedies that do not resonate with the user's sense of humor..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple action and adventure films highly, indicating a strong preference for these genres.",
+          "taste": "Appreciation for Action and Adventure"
+        },
+        {
+          "reason": "Several comedies received high ratings, suggesting the user enjoys humor in films.",
+          "taste": "Enjoyment of Comedic Elements"
+        },
+        {
+          "reason": "The user rates war and drama films positively, showing an affinity for serious narratives.",
+          "taste": "Interest in War and Drama Themes"
+        },
+        {
+          "reason": "Fantasy films are rated well, indicating a liking for imaginative and fantastical storytelling.",
+          "taste": "Fondness for Fantasy Elements"
+        },
+        {
+          "reason": "Romantic elements in various genres are appreciated, as seen in the ratings for films with romance.",
+          "taste": "Preference for Romantic Subplots"
+        }
+      ]
+    },
+    "user_id": 1472
+  }
+}

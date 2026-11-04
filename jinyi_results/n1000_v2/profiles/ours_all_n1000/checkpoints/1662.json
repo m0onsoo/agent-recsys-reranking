@@ -1,0 +1,324 @@
+{
+  "checkpoint_hash": "197279a69dde6201dbcd507788efb53f18826a788850ed871c8df08202210b8a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      370,
+      129,
+      950,
+      245,
+      1485,
+      1233,
+      273,
+      135,
+      800,
+      3241
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "093e5d8a073d4b718c7284db035bab62"
+    ],
+    "sampled_item_ids": [
+      39,
+      85,
+      98,
+      105,
+      129,
+      135,
+      245,
+      273,
+      284,
+      332,
+      370,
+      465,
+      729,
+      800,
+      917,
+      950,
+      1233,
+      1241,
+      1485,
+      2286,
+      3241
+    ],
+    "seed": 42,
+    "source_hash": "7354e7831e561698f16fe167353d2f6dea503bce3245b4b887217ed7d1013228",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1662,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Richard Briers",
+          "Michael Keaton",
+          "Robert Sean Leonard"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this Shakespearean farce, Hero and her groom-to-be, Claudio, team up with Claudio's commanding officer, Don Pedro, the week before their wedding to hatch a matchmaking scheme. Their targets are sharp-witted duo Benedick and Beatrice -- a tough task indeed, considering their corresponding distaste for love and each other. Meanwhile, meddling Don John plots to ruin the wedding.",
+        "release_date": "1993-05-07",
+        "release_year": "1993",
+        "title": "Much Ado About Nothing"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Jennifer Lopez",
+          "Vincent D'Onofrio",
+          "Vince Vaughn",
+          "Marianne Jean-Baptiste"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Tarsem Singh",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychotherapist journeys inside a comatose serial killer in the hopes of saving his latest victim.",
+        "release_date": "2000-08-17",
+        "release_year": "2000",
+        "title": "Cell, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "Damon Wayans",
+          "Savion Glover",
+          "Tommy Davidson",
+          "Jada Pinkett Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Lee",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "TV producer Pierre Delacroix (Damon Wayans) becomes frustrated when network brass reject his sitcom idea. Hoping to get fired, Delacroix pitches the worst idea he can think of: a minstrel show. The network not only airs it, but it incredibly becomes a smash hit. Michael Rapaport co-stars in this searing satire.",
+        "release_date": "2000-10-06",
+        "release_year": "2000",
+        "title": "Bamboozled"
+      },
+      {
+        "cast": [
+          "Anne Parillaud",
+          "Marc Duret",
+          "Patrick Fontana",
+          "Alain Lathière"
+        ],
+        "country": [
+          "France",
+          "Italy"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "French",
+        "overview": "A beautiful felon, sentenced to life in prison for the murder of a policeman, is given a second chance - as a secret political assassin controlled by the government.",
+        "release_date": "1990-02-21",
+        "release_year": "1990",
+        "title": "Nikita (La Femme Nikita)"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Jennifer Lopez",
+          "Ving Rhames",
+          "Don Cheadle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Meet Jack Foley, a smooth criminal who bends the law and is determined to make one last heist. Karen Sisco is a federal marshal who chooses all the right moves … and all the wrong guys. Now they're willing to risk it all to find out if there's more between them than just the law. Variety hails Out of Sight as \"a sly, sexy, vastly entertaining film.\"",
+        "release_date": "1998-06-26",
+        "release_year": "1998",
+        "title": "Out of Sight"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Glenn Close",
+          "Anne Archer",
+          "Ellen Hamilton Latzen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A married man's one night stand comes back to haunt him when that lover begins to stalk him and his family.",
+        "release_date": "1987-09-11",
+        "release_year": "1987",
+        "title": "Fatal Attraction"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1997",
+        "title": "Sixth Man, The"
+      }
+    ],
+    "raw_user_id": "1662",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 21
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7680435548002662
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for straightforward action films",
+        "Negative response to comedies lacking depth",
+        "Dislike for films that do not blend genres effectively"
+      ],
+      "liked_patterns": [
+        "Preference for thrillers and dramas that explore complex themes",
+        "Enjoyment of romantic comedies and dramas",
+        "High ratings for action films with strong narratives"
+      ],
+      "summary": "Unique tastes: Thrillers with psychological elements (The user enjoys thrillers that delve into psychological themes, as evidenced by high ratings for multiple films in this genre.); Dramatic narratives with strong character development (The user appreciates dramas that focus on character depth and emotional storytelling, reflected in their ratings for several drama films.); Comedies that blend romance and drama (The user favors comedies that incorporate romantic and dramatic elements, as shown by their positive ratings for films that mix these genres.); Action films with complex plots (The user rates action films highly when they feature intricate storylines and character dynamics.); Adventure films with a nostalgic feel (The user enjoys adventure films that evoke nostalgia, as indicated by their ratings for films that capture this essence.). Liked patterns: Preference for thrillers and dramas that explore complex themes, Enjoyment of romantic comedies and dramas, High ratings for action films with strong narratives. Disliked patterns: Dislike for straightforward action films, Negative response to comedies lacking depth, Dislike for films that do not blend genres effectively.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys thrillers that delve into psychological themes, as evidenced by high ratings for multiple films in this genre.",
+          "taste": "Thrillers with psychological elements"
+        },
+        {
+          "reason": "The user appreciates dramas that focus on character depth and emotional storytelling, reflected in their ratings for several drama films.",
+          "taste": "Dramatic narratives with strong character development"
+        },
+        {
+          "reason": "The user favors comedies that incorporate romantic and dramatic elements, as shown by their positive ratings for films that mix these genres.",
+          "taste": "Comedies that blend romance and drama"
+        },
+        {
+          "reason": "The user rates action films highly when they feature intricate storylines and character dynamics.",
+          "taste": "Action films with complex plots"
+        },
+        {
+          "reason": "The user enjoys adventure films that evoke nostalgia, as indicated by their ratings for films that capture this essence.",
+          "taste": "Adventure films with a nostalgic feel"
+        }
+      ]
+    },
+    "user_id": 1662
+  }
+}

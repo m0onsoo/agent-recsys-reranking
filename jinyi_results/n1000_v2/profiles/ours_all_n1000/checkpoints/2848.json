@@ -1,0 +1,344 @@
+{
+  "checkpoint_hash": "0469583df8a58ee7ef048f3ed6e3f96e15f67480d78f2146b889ef7aec206c87",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      391,
+      841,
+      1168,
+      3,
+      312,
+      129,
+      1828,
+      559,
+      1077,
+      65
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7885f16d05d84d3fb2925deeeddf4b20"
+    ],
+    "sampled_item_ids": [
+      1,
+      69,
+      97,
+      133,
+      142,
+      172,
+      218,
+      222,
+      223,
+      473,
+      532,
+      606,
+      645,
+      684,
+      865,
+      1006,
+      1016,
+      1019,
+      1077,
+      1168,
+      1190,
+      1584,
+      1684,
+      1725,
+      1849
+    ],
+    "seed": 42,
+    "source_hash": "e7749f6a2197eca67bc25580165161784cac27d9fac387a799707d100e5ab196",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2848,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jonathan Taylor Thomas",
+          "Matthew Broderick",
+          "James Earl Jones",
+          "Jeremy Irons"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Allers",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A young lion cub named Simba can't wait to be king. But his uncle craves the title for himself and will stop at nothing to get it.",
+        "release_date": "1994-06-23",
+        "release_year": "1994",
+        "title": "Lion King, The"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Christopher Reeve",
+          "Ned Beatty",
+          "Jackie Cooper"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Three escaped criminals from the planet Krypton test the Man of Steel's mettle. Led by Gen. Zod, the Kryptonians take control of the White House and partner with Lex Luthor to destroy Superman and rule the world. But Superman, who attempts to make himself human in order to get closer to Lois, realizes he has a responsibility to save the planet.",
+        "release_date": "1980-12-04",
+        "release_year": "1980",
+        "title": "Superman II"
+      },
+      {
+        "cast": [
+          "Gabriel Damon",
+          "Mickey Rooney",
+          "Rene Auberjonois",
+          "Danny Mann"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Masami Hata",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "A little boy whose dreams transcend reality is sucked into his own fantasy, which is everything he has dreamed of, until he unleashes an old secret that may not only destroy this perfect dream world but reality itself.",
+        "release_date": "1989-07-15",
+        "release_year": "1992",
+        "title": "Little Nemo: Adventures in Slumberland"
+      },
+      {
+        "cast": [
+          "Audrey Hepburn",
+          "Rex Harrison",
+          "Stanley Holloway",
+          "Wilfrid Hyde-White"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Cukor",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A misogynistic and snobbish phonetics professor agrees to a wager that he can take a flower girl and make her presentable in high society.",
+        "release_date": "1964-10-21",
+        "release_year": "1964",
+        "title": "My Fair Lady"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Ernest Borgnine",
+          "Red Buttons",
+          "Carol Lynley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ronald Neame",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "The Poseidon Adventure was one of the first Catastrophe films and began the Disaster Film genre. Director Neame tells the story of a group of people that must fight for their lives aboard a sinking ship. Based on the novel by Paul Gallico.",
+        "release_date": "1972-12-01",
+        "release_year": "1972",
+        "title": "Poseidon Adventure, The"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Morgan Freeman",
+          "Rachel Weisz",
+          "Fred Ward"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two researchers in a green alternative energy project are put on the run when they are framed for murder and treason.",
+        "release_date": "1996-08-02",
+        "release_year": "1996",
+        "title": "Chain Reaction"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Marcia Strassman",
+          "Matt Frewer",
+          "Kristine Sutherland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Johnston",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The scientist father of a teenage girl and boy accidentally shrinks his and two other neighborhood teens to the size of insects. Now the teens must fight diminutive dangers as the father searches for them.",
+        "release_date": "1989-06-22",
+        "release_year": "1989",
+        "title": "Honey, I Shrunk the Kids"
+      },
+      {
+        "cast": [
+          "Mickey Rooney",
+          "Kurt Russell",
+          "Pearl Bailey",
+          "Jack Albertson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ted Berman",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "When a feisty little fox named Tod is adopted into a farm family, he quickly becomes friends with a fun and adorable hound puppy named Copper. Life is full of hilarious adventures until Copper is expected to take on his role as a hunting dog -- and the object of his search is his best friend!",
+        "release_date": "1981-07-10",
+        "release_year": "1981",
+        "title": "Fox and the Hound, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      }
+    ],
+    "raw_user_id": "2848",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 176
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.2005615992016105
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for action films that lack depth or engaging storytelling.",
+        "Dislike for animated films that do not resonate emotionally or are perceived as less engaging."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as action with drama or comedy with sci-fi.",
+        "Positive reception of films featuring strong character development and emotional depth.",
+        "Preference for films that incorporate imaginative or fantastical elements."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Sci-Fi (Several sci-fi films receive high ratings, suggesting a liking for imaginative and speculative storytelling.); Fondness for Comedy (The user rates various comedies positively, showing an appreciation for humor and lighthearted themes.); Interest in Action (Action films are frequently rated well, indicating a preference for excitement and dynamic storytelling.); Affinity for Animation (The user enjoys animated films, particularly those that appeal to both children and adults.). Liked patterns: High ratings for films that blend genres, such as action with drama or comedy with sci-fi., Positive reception of films featuring strong character development and emotional depth., Preference for films that incorporate imaginative or fantastical elements.. Disliked patterns: Low ratings for action films that lack depth or engaging storytelling., Dislike for animated films that do not resonate emotionally or are perceived as less engaging..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several sci-fi films receive high ratings, suggesting a liking for imaginative and speculative storytelling.",
+          "taste": "Enjoyment of Sci-Fi"
+        },
+        {
+          "reason": "The user rates various comedies positively, showing an appreciation for humor and lighthearted themes.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "Action films are frequently rated well, indicating a preference for excitement and dynamic storytelling.",
+          "taste": "Interest in Action"
+        },
+        {
+          "reason": "The user enjoys animated films, particularly those that appeal to both children and adults.",
+          "taste": "Affinity for Animation"
+        }
+      ]
+    },
+    "user_id": 2848
+  }
+}

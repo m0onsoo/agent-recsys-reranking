@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "9c0ddd91b7f5b390a41e5e83eaf2a1fb09de544312a4d6f8695680754235b0ad",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      353,
+      318,
+      1371,
+      933,
+      1559,
+      105,
+      350,
+      426,
+      1388,
+      545
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "4d9401ea9070478ebfae58e95a029448"
+    ],
+    "sampled_item_ids": [
+      39,
+      51,
+      70,
+      312,
+      350,
+      353,
+      426,
+      502,
+      520,
+      542,
+      545,
+      594,
+      888,
+      890,
+      892,
+      920,
+      932,
+      933,
+      937,
+      1098,
+      1388,
+      1559,
+      1692,
+      1934,
+      2056
+    ],
+    "seed": 42,
+    "source_hash": "38ead83258f119532079baa4ab8cc3aa9d6d1ee75ae431073c5582f61b9e1f45",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2548,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mike Myers",
+          "Heather Graham",
+          "Michael York",
+          "Robert Wagner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When diabolical genius, Dr. Evil travels back in time to steal superspy Austin Powers's ‘mojo’, Austin must return to the swingin' '60s himself – with the help of American agent, Felicity Shagwell – to stop the dastardly plan. Once there, Austin faces off against Dr. Evil's army of minions and saves the world in his own unbelievably groovy way.",
+        "release_date": "1999-06-08",
+        "release_year": "1999",
+        "title": "Austin Powers: The Spy Who Shagged Me"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Bruce Willis",
+          "Melanie Griffith",
+          "Kim Cattrall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After his mistress runs over a young teen, a Wall Street hotshot sees his life unravel in the spotlight, and attracting the interest of a down and out reporter.",
+        "release_date": "1990-12-21",
+        "release_year": "1990",
+        "title": "Bonfire of the Vanities"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Ossie Davis",
+          "Oliver Platt",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A successful physician and devoted family man, John Dolittle (Eddie Murphy) seems to have the world by the tail, until a long suppressed talent he possessed as a child, the ability to communicate with animals is suddenly reawakened with a vengeance! Now every creature within squawking distance wants the good doctor's advice, unleashing an outrageous chain of events that turns his world upside down!",
+        "release_date": "1998-06-22",
+        "release_year": "1998",
+        "title": "Doctor Dolittle"
+      },
+      {
+        "cast": [
+          "Nicole Kidman",
+          "Sam Neill",
+          "Billy Zane",
+          "George Shevtsov"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An Australian couple take a sailing trip in the Pacific to forget about a terrible accident. While on the open sea, in dead calm, they come across a ship with one survivor who is not at all what he seems.",
+        "release_date": "1989-04-07",
+        "release_year": "1989",
+        "title": "Dead Calm"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Owen Wilson",
+          "Lucy Liu",
+          "Xander Berkeley"
+        ],
+        "country": [
+          "Hong Kong",
+          "United States of America"
+        ],
+        "director": "Tom Dey",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Chon Wang, a clumsy imperial guard trails Princess Pei Pei when she is kidnapped from the Forbidden City and transported to America. Wang follows her captors to Nevada, where he teams up with an unlikely partner, outcast outlaw Roy O'Bannon, and tries to spring the princess from her imprisonment.",
+        "release_date": "2000-05-26",
+        "release_year": "2000",
+        "title": "Shanghai Noon"
+      },
+      {
+        "cast": [
+          "Meryl Streep",
+          "Robert Redford",
+          "Klaus Maria Brandauer",
+          "Michael Kitchen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Out of Africa tells the story of the life of Danish author Karen Blixen, who at the beginning of the 20th century moved to Africa to build a new life for herself. The film is based on the autobiographical novel by Karen Blixen from 1937.",
+        "release_date": "1985-12-20",
+        "release_year": "1985",
+        "title": "Out of Africa"
+      },
+      {
+        "cast": [
+          "Melanie Griffith",
+          "Matthew Modine",
+          "Michael Keaton",
+          "Mako"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A couple works hard to renovate their dream house and become landlords to pay for it. Unfortunately one of their tenants has plans of his own.",
+        "release_date": "1990-09-28",
+        "release_year": "1990",
+        "title": "Pacific Heights"
+      },
+      {
+        "cast": [
+          "Joshua Jackson",
+          "Paul Walker",
+          "Hill Harper",
+          "Leslie Bibb"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Rob Cohen",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Luke's exultance at being selected for The Skulls (a secret society bred within the walls of a prominent Ivy League Campus) is soon overshadowed when he realises that all is 'not well in Wonderland'. For The Skulls is a breeding ground for the future powerful and elite. It's not only a far cry from his working class background, but it also hallows its own deep and dark secrets.",
+        "release_date": "2000-03-31",
+        "release_year": "2000",
+        "title": "Skulls, The"
+      }
+    ],
+    "raw_user_id": "2548",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 35
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6902233224483103
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for thrillers that lack depth or engaging plots",
+        "Dislike for horror elements that do not contribute to the overall story",
+        "Dislike for films that mix genres poorly"
+      ],
+      "liked_patterns": [
+        "Preference for thrillers that blend action and drama",
+        "Enjoyment of animated films that appeal to both children and adults",
+        "Tendency to rate family-oriented comedies positively"
+      ],
+      "summary": "Unique tastes: Thrillers with strong narratives (The user enjoys thrillers that feature compelling storylines and suspenseful elements.); Dramatic storytelling (The user appreciates dramas that explore deep emotional themes and character development.); Action-packed adventures (The user favors action films that combine excitement with engaging plots.); Family-friendly comedies (The user likes comedies that are suitable for all ages and provide light-hearted entertainment.); Romantic dramas (The user enjoys films that blend romance with dramatic storytelling.). Liked patterns: Preference for thrillers that blend action and drama, Enjoyment of animated films that appeal to both children and adults, Tendency to rate family-oriented comedies positively. Disliked patterns: Dislike for thrillers that lack depth or engaging plots, Dislike for horror elements that do not contribute to the overall story, Dislike for films that mix genres poorly.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys thrillers that feature compelling storylines and suspenseful elements.",
+          "taste": "Thrillers with strong narratives"
+        },
+        {
+          "reason": "The user appreciates dramas that explore deep emotional themes and character development.",
+          "taste": "Dramatic storytelling"
+        },
+        {
+          "reason": "The user favors action films that combine excitement with engaging plots.",
+          "taste": "Action-packed adventures"
+        },
+        {
+          "reason": "The user likes comedies that are suitable for all ages and provide light-hearted entertainment.",
+          "taste": "Family-friendly comedies"
+        },
+        {
+          "reason": "The user enjoys films that blend romance with dramatic storytelling.",
+          "taste": "Romantic dramas"
+        }
+      ]
+    },
+    "user_id": 2548
+  }
+}

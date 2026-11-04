@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "283d849361392064872a6f2d996cb86108f978d6ba43acefcfc31021fa9d2a50",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      306,
+      152,
+      252,
+      1059,
+      134,
+      768,
+      1996,
+      1108,
+      157,
+      376
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "2a6b799b5ea84dec9ff975f4e928d547"
+    ],
+    "sampled_item_ids": [
+      6,
+      16,
+      34,
+      61,
+      133,
+      152,
+      210,
+      219,
+      247,
+      265,
+      387,
+      515,
+      542,
+      591,
+      642,
+      645,
+      739,
+      749,
+      879,
+      896,
+      946,
+      1064,
+      1108,
+      1440,
+      2238
+    ],
+    "seed": 42,
+    "source_hash": "96e14d80c4fdf4d81442256e22a416cc0ead081faf85be51761e66f0ce97a6fa",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 729,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "David Duchovny",
+          "Gillian Anderson",
+          "Mitch Pileggi",
+          "William B. Davis"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Rob Bowman",
+        "genres": [
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mulder and Scully, now taken off the FBI's X Files cases, must find a way to fight the shadowy elements of the government to find out the truth about a conspiracy that might mean the alien colonization of Earth.",
+        "release_date": "1998-06-19",
+        "release_year": "1998",
+        "title": "X-Files: Fight the Future, The"
+      },
+      {
+        "cast": [
+          "Robert Duvall",
+          "Téa Leoni",
+          "Elijah Wood",
+          "Vanessa Redgrave"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mimi Leder",
+        "genres": [
+          "Action",
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A seven-mile-wide space rock is hurtling toward Earth, threatening to obliterate the planet. Now, it's up to the president of the United States to save the world. He appoints a tough-as-nails veteran astronaut to lead a joint American-Russian crew into space to destroy the comet before impact. Meanwhile, an enterprising reporter uses her smarts to uncover the scoop of the century.",
+        "release_date": "1998-05-08",
+        "release_year": "1998",
+        "title": "Deep Impact"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Billy Bob Thornton",
+          "Ben Affleck",
+          "Liv Tyler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When an asteroid threatens to collide with Earth, NASA honcho Dan Truman determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller Harry Stamper, who agrees to helm the dangerous space mission provided he can bring along his own hotshot crew. Among them is the cocksure A.J. who Harry thinks isn't good enough for his daughter, until the mission proves otherwise.",
+        "release_date": "1998-07-01",
+        "release_year": "1998",
+        "title": "Armageddon"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Bruce Boxleitner",
+          "David Warner",
+          "Cindy Morgan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Lisberger",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "As Kevin Flynn searches for proof that he invented a hit video game, he is \"digitalized\" by a laser and finds himself inside The Grid, where programs suffer under the tyrannical rule of the Master Control Program. With the help of TRON, a security program, Flynn seeks to free The Grid from the MCP.",
+        "release_date": "1982-07-09",
+        "release_year": "1982",
+        "title": "Tron"
+      },
+      {
+        "cast": [
+          "Danny Glover",
+          "Kevin Kline",
+          "Steve Martin",
+          "Mary McDonnell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Grand Canyon revolved around six residents from different backgrounds whose lives intertwine in modern-day Los Angeles. At the center of the film is the unlikely friendship of two men from different races and classes brought together when one finds himself in jeopardy in the other's rough neighborhood.",
+        "release_date": "1991-12-25",
+        "release_year": "1991",
+        "title": "Grand Canyon"
+      },
+      {
+        "cast": [
+          "Tyrin Turner",
+          "Larenz Tate",
+          "Glenn Plummer",
+          "Jada Pinkett Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Albert Hughes",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Menace II Society is a coming of age tale detailing the summer after its protagonist Caine (Tyrin Turner) graduates from high school. This is Caine's story, which details real life in today's tough inner city.",
+        "release_date": "1993-05-26",
+        "release_year": "1993",
+        "title": "Menace II Society"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Geena Davis",
+          "Harvey Keitel",
+          "Brad Pitt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Whilst on a short weekend getaway, Louise shoots a man who had tried to rape Thelma. Due to the incriminating circumstances, they make a run for it and thus a cross country chase ensues for the two fugitives. Along the way, both women rediscover the strength of their friendship and surprising aspects of their personalities and self-strengths in the trying times.",
+        "release_date": "1991-05-24",
+        "release_year": "1991",
+        "title": "Thelma & Louise"
+      },
+      {
+        "cast": [
+          "Brandon Lee",
+          "Rochelle Davis",
+          "Ernie Hudson",
+          "Michael Wincott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Exactly one year after young rock guitarist Eric Draven and his fiancée are brutally killed by a ruthless gang of criminals, Draven -- watched over by a hypnotic crow -- returns from the grave to exact revenge.",
+        "release_date": "1994-05-11",
+        "release_year": "1994",
+        "title": "Crow, The"
+      }
+    ],
+    "raw_user_id": "729",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 118
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9449640762996252
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Frequent discontent with films that mix action with poorly executed narratives.",
+        "Negative responses to films that attempt to blend genres unsuccessfully."
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure films with high ratings.",
+        "Consistent enjoyment of comedies, particularly those with unique premises.",
+        "Appreciation for animated films that blend humor and family themes."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.); Comedy (The user has a strong preference for comedic elements, reflected in several highly rated comedies.); Animation and Family (The user appreciates animated films that appeal to family audiences, indicated by high ratings for animated features.); Thriller and Suspense (The user is drawn to thrillers that maintain suspense, as evidenced by positive ratings for films in this genre.); Crime and Drama (The user enjoys crime dramas that explore complex narratives, shown by favorable ratings for films in this category.). Liked patterns: Strong preference for action and adventure films with high ratings., Consistent enjoyment of comedies, particularly those with unique premises., Appreciation for animated films that blend humor and family themes.. Disliked patterns: Frequent discontent with films that mix action with poorly executed narratives., Negative responses to films that attempt to blend genres unsuccessfully..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user has a strong preference for comedic elements, reflected in several highly rated comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates animated films that appeal to family audiences, indicated by high ratings for animated features.",
+          "taste": "Animation and Family"
+        },
+        {
+          "reason": "The user is drawn to thrillers that maintain suspense, as evidenced by positive ratings for films in this genre.",
+          "taste": "Thriller and Suspense"
+        },
+        {
+          "reason": "The user enjoys crime dramas that explore complex narratives, shown by favorable ratings for films in this category.",
+          "taste": "Crime and Drama"
+        }
+      ]
+    },
+    "user_id": 729
+  }
+}

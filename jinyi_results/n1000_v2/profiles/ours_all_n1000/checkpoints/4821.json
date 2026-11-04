@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "baa5a29413aab18eb382d703be98cf391819e06916937c0aed9573beeac6d561",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      439,
+      800,
+      1309,
+      1337,
+      718,
+      131,
+      266,
+      42,
+      732,
+      400
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      151,
+      172,
+      223,
+      366,
+      492,
+      506,
+      516,
+      581,
+      592,
+      626,
+      677,
+      748,
+      766,
+      796,
+      830,
+      958,
+      1039,
+      1197,
+      1257,
+      1270,
+      1339,
+      1374,
+      1394,
+      2080,
+      2463
+    ],
+    "seed": 42,
+    "source_hash": "7a9f92f2cc86aed85baa9134b28ce6f24e2b3e4ee242e29c3eabf69d373f7fc9",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4821,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "unemployed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jim Carrey",
+          "Laura Linney",
+          "Noah Emmerich",
+          "Natascha McElhone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Truman Burbank is the star of \"The Truman Show\", a 24-hour-a-day \"reality\" TV show that broadcasts every aspect of his life -- live and in color -- without his knowledge. His entire life has been an unending soap opera for consumption by the rest of the world. And everyone he knows -- including his wife and his best friend -- is really an actor, paid to be part of his life.",
+        "release_date": "1998-06-04",
+        "release_year": "1998",
+        "title": "Truman Show, The"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Glenn Close",
+          "Anne Archer",
+          "Ellen Hamilton Latzen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A married man's one night stand comes back to haunt him when that lover begins to stalk him and his family.",
+        "release_date": "1987-09-11",
+        "release_year": "1987",
+        "title": "Fatal Attraction"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Rebecca De Mornay",
+          "Sean Penn",
+          "Joe Pantoliano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Brickman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Meet Joel Goodson, an industrious, college-bound 17-year-old and a responsible, trustworthy son. However, when his parents go away and leave him home alone in the wealthy Chicago suburbs with the Porsche at his disposal he quickly decides he has been good for too long and it is time to enjoy himself. After an unfortunate incident with the Porsche Joel must raise some cash, in a risky way.",
+        "release_date": "1983-08-05",
+        "release_year": "1983",
+        "title": "Risky Business"
+      },
+      {
+        "cast": [
+          "Patrick Swayze",
+          "C. Thomas Howell",
+          "Lea Thompson",
+          "Darren Dalton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Milius",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "It is the mid-1980s. From out of the sky, Soviet and Cuban troops begin landing on the football field of a Colorado high school. In seconds, the paratroops have attacked the school and sent a group of teenagers fleeing into the mountains. Armed only with hunting rifles, pistols and bows and arrows, the teens struggles to survive the bitter winter and Soviet KGB patrols hunting for them.",
+        "release_date": "1984-08-10",
+        "release_year": "1984",
+        "title": "Red Dawn"
+      },
+      {
+        "cast": [
+          "Sean Astin",
+          "Josh Brolin",
+          "Jeff Cohen",
+          "Corey Feldman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young teenager named Mikey Walsh finds an old treasure map in his father's attic. Hoping to save their homes from demolition, Mikey and his friends Data Wang, Chunk Cohen, and Mouth Devereaux run off on a big quest to find the secret stash of Pirate One-Eyed Willie.",
+        "release_date": "1985-06-06",
+        "release_year": "1985",
+        "title": "Goonies, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Christian Slater",
+          "Samantha Mathis",
+          "Delroy Lindo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When rogue stealth-fighter pilot Vic Deakins deliberately drops off the radar while on maneuvers, the Air Force ends up with two stolen nuclear warheads -- and Deakins's co-pilot, Riley Hale, is the military's only hope for getting them back. Traversing the deserted canyons of Utah, Hale teams with park ranger Terry Carmichael to put Deakins back in his box.",
+        "release_date": "1996-02-09",
+        "release_year": "1996",
+        "title": "Broken Arrow"
+      },
+      {
+        "cast": [
+          "Christian Slater",
+          "Samantha Mathis",
+          "Annie Ross",
+          "Scott Paulin"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Allan Moyle",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Mark is an intelligent but shy teenager who has just moved to Arizona from the East Coast. His parents give him a short-wave radio so he can talk to his pals, but instead he sets up shop as pirate deejay Hard Harry, who becomes a hero to his peers while inspiring the wrath of the local high school principal.",
+        "release_date": "1990-08-22",
+        "release_year": "1990",
+        "title": "Pump Up the Volume"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Tom Cruise",
+          "Valeria Golino",
+          "Gerald R. Molen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.",
+        "release_date": "1988-12-11",
+        "release_year": "1988",
+        "title": "Rain Man"
+      },
+      {
+        "cast": [
+          "Whoopi Goldberg",
+          "Maggie Smith",
+          "Kathy Najimy",
+          "Wendy Makkena"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Emile Ardolino",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "A Reno singer witnesses a mob murder and the cops stash her in a nunnery to protect her from the hitmen. The mother superior does not trust her, and takes steps to limit her influence on the other nuns. Eventually the singer rescues the failing choir and begins helping with community projects, which gets her an interview on TV.",
+        "release_date": "1992-05-28",
+        "release_year": "1992",
+        "title": "Sister Act"
+      },
+      {
+        "cast": [
+          "Dudley Moore",
+          "Liza Minnelli",
+          "John Gielgud",
+          "Geraldine Fitzgerald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve Gordon",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Arthur is the most quotable drunk millionaire that is likely to ever steal your heart. Dudley Moore portrays Arthur, a thirty year old child who will inherit 750 million dollars if he complies with his family's demands and marries the woman of their choosing.",
+        "release_date": "1981-07-17",
+        "release_year": "1981",
+        "title": "Arthur"
+      }
+    ],
+    "raw_user_id": "4821",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 188
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8320966175060229
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to certain thrillers",
+        "Dislike for specific romantic comedies",
+        "Low ratings for films with weak narratives"
+      ],
+      "liked_patterns": [
+        "High ratings for comedies and dramas",
+        "Positive reception of animated and children's films",
+        "Interest in films that blend comedy with romance"
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Drama (Dramatic films resonate well with the user, leading to several high ratings.); Thriller (The user shows a moderate interest in thrillers, with mixed ratings.); Animation and Children's (The user appreciates animated and children's films, often giving them high ratings.); Romance (Romantic elements in films are positively received, particularly when combined with comedy.). Liked patterns: High ratings for comedies and dramas, Positive reception of animated and children's films, Interest in films that blend comedy with romance. Disliked patterns: Negative response to certain thrillers, Dislike for specific romantic comedies, Low ratings for films with weak narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Dramatic films resonate well with the user, leading to several high ratings.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows a moderate interest in thrillers, with mixed ratings.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user appreciates animated and children's films, often giving them high ratings.",
+          "taste": "Animation and Children's"
+        },
+        {
+          "reason": "Romantic elements in films are positively received, particularly when combined with comedy.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 4821
+  }
+}

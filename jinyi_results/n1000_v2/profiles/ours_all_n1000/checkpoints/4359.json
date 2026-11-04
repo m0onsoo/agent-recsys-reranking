@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "ad8c644645730ac13b358351a676f24ad5be04eb2e07a6197f1b5a852b054c4b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1158,
+      1084,
+      994,
+      1317,
+      2041,
+      69,
+      279,
+      10,
+      70,
+      1415
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      39,
+      46,
+      49,
+      185,
+      232,
+      274,
+      349,
+      360,
+      391,
+      513,
+      520,
+      574,
+      614,
+      874,
+      942,
+      1071,
+      1169,
+      1303,
+      1317,
+      1342,
+      1941,
+      2026,
+      2041,
+      2151,
+      2476
+    ],
+    "seed": 42,
+    "source_hash": "c2e7e0d7be7cfdc7b484a5630d9d512d73f690b8abfa7b38707c6cffd300ac14",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4359,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jim Carrey",
+          "Renée Zellweger",
+          "Anthony Anderson",
+          "Robert Forster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Rhode Island State Trooper Charlie Baileygates has a multiple personality disorder. One personality is crazy and aggressive, while the other is more friendly and laid back. Both of these personalities fall in love with the same woman named Irene after Charlie loses his medication.",
+        "release_date": "2000-06-22",
+        "release_year": "2000",
+        "title": "Me, Myself and Irene"
+      },
+      {
+        "cast": [
+          "Phoebe Cates",
+          "Rik Mayall",
+          "Marsha Mason",
+          "Tim Matheson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ate de Jong",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "When Elizabeth returns to her mother's home after her marriage breaks up, she recreates her imaginary childhood friend, Fred, to escape from the trauma of losing her husband and her job. In between the chaos and mayhem that Fred creates, Elizabeth attempts to win back her husband and return to normality.",
+        "release_date": "1991-04-19",
+        "release_year": "1991",
+        "title": "Drop Dead Fred"
+      },
+      {
+        "cast": [
+          "Vin Diesel",
+          "Radha Mitchell",
+          "Cole Hauser",
+          "Lewis Fitz-Gerald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Twohy",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When their ship crash-lands on a remote planet, the marooned passengers soon learn that escaped convict Riddick isn't the only thing they have to fear. Deadly creatures lurk in the shadows, waiting to attack in the dark, and the planet is rapidly plunging into the utter blackness of a total eclipse. With the body count rising, the doomed survivors are forced to turn to Riddick with his eerie eyes to guide them through the darkness to safety. With time running out, there's only one rule: Stay in the light.",
+        "release_date": "2000-02-18",
+        "release_year": "2000",
+        "title": "Pitch Black"
+      },
+      {
+        "cast": [
+          "Gregory Smith",
+          "Kirsten Dunst",
+          "Denis Leary",
+          "Phil Hartman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Fantasy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When missile technology is used to enhance toy action figures, the toys soon begin to take their battle programming too seriously.",
+        "release_date": "1998-07-10",
+        "release_year": "1998",
+        "title": "Small Soldiers"
+      },
+      {
+        "cast": [
+          "Ron Moody",
+          "Shani Wallis",
+          "Oliver Reed",
+          "Harry Secombe"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Carol Reed",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Musical adaptation of Charles Dickens' Oliver Twist, a classic tale of an orphan who runs away from the workhouse and joins up with a group of boys headed by the Artful Dodger and trained to be pickpockets by master thief Fagin.",
+        "release_date": "1968-09-26",
+        "release_year": "1968",
+        "title": "Oliver!"
+      },
+      {
+        "cast": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Connie Nielsen",
+          "Oliver Reed"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences. His battle skills serve him well, and he becomes one of the most famous and admired men to fight in the Colosseum. Determined to avenge himself against the man who took away his freedom and laid waste to his family, Maximus believes that he can use his fame and skill in the ring to avenge the loss of his family and former glory. As the gladiator begins to challenge his rule, Commodus decides to put his own fighting mettle to the test by squaring off with Maximus in a battle to the death.",
+        "release_date": "2000-05-01",
+        "release_year": "2000",
+        "title": "Gladiator"
+      },
+      {
+        "cast": [
+          "Hal Holbrook",
+          "Adrienne Barbeau",
+          "Fritz Weaver",
+          "Leslie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George A. Romero",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Inspired by the E.C. comics of the 1950s, George A.Romero and Stephen King bring five tales of terror to the screen.",
+        "release_date": "1982-11-12",
+        "release_year": "1982",
+        "title": "Creepshow"
+      },
+      {
+        "cast": [
+          "Judy Garland",
+          "Frank Morgan",
+          "Ray Bolger",
+          "Bert Lahr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+        "release_date": "1939-08-15",
+        "release_year": "1939",
+        "title": "Wizard of Oz, The"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Ashley Judd",
+          "Bruce Greenwood",
+          "Annabeth Gish"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Bruce Beresford",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A woman framed for her husband's murder suspects he is still alive; as she has already been tried for the crime, she can't be re-prosecuted if she finds and kills him.",
+        "release_date": "1999-09-24",
+        "release_year": "1999",
+        "title": "Double Jeopardy"
+      },
+      {
+        "cast": [
+          "Christian Slater",
+          "Mary Stuart Masterson",
+          "Pamela Adlon",
+          "Josh Brolin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Goldenberg",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The seeds of love are planted when Lisa, a high-powered investment banker, receives flowers from a secret admirer. But when his fairy-tale fantasies clash with her workaholic ways, they soon find out that sometimes, it's harder than it seems for love to conquer all.",
+        "release_date": "1996-01-26",
+        "release_year": "1996",
+        "title": "Bed of Roses"
+      }
+    ],
+    "raw_user_id": "4359",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 65
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.2142159966294335
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or strong narratives.",
+        "Negative response to films that attempt to blend genres unsuccessfully."
+      ],
+      "liked_patterns": [
+        "Strong preference for thrillers and dramas with high emotional stakes.",
+        "Enjoyment of comedies that blend humor with other genres.",
+        "Appreciation for children's films that also appeal to adult audiences."
+      ],
+      "summary": "Unique tastes: Thrillers (The user enjoys suspenseful narratives that keep them engaged.); Dramas (The user appreciates deep emotional storytelling and character development.); Comedies (The user likes humor and light-hearted entertainment.); Children's and Family Films (The user enjoys films that are suitable for all ages, often with nostalgic elements.); Musicals (The user has an affinity for films that incorporate music and performance.). Liked patterns: Strong preference for thrillers and dramas with high emotional stakes., Enjoyment of comedies that blend humor with other genres., Appreciation for children's films that also appeal to adult audiences.. Disliked patterns: Dislike for comedies that lack depth or strong narratives., Negative response to films that attempt to blend genres unsuccessfully..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys suspenseful narratives that keep them engaged.",
+          "taste": "Thrillers"
+        },
+        {
+          "reason": "The user appreciates deep emotional storytelling and character development.",
+          "taste": "Dramas"
+        },
+        {
+          "reason": "The user likes humor and light-hearted entertainment.",
+          "taste": "Comedies"
+        },
+        {
+          "reason": "The user enjoys films that are suitable for all ages, often with nostalgic elements.",
+          "taste": "Children's and Family Films"
+        },
+        {
+          "reason": "The user has an affinity for films that incorporate music and performance.",
+          "taste": "Musicals"
+        }
+      ]
+    },
+    "user_id": 4359
+  }
+}

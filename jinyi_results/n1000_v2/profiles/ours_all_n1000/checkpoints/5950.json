@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "b309a34cae7ca44952a498ae62490fd05806f9204831b6fca667b3cd05dd0457",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1587,
+      1112,
+      556,
+      2016,
+      744,
+      1395,
+      265,
+      1219,
+      1019,
+      1242
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      1,
+      7,
+      27,
+      91,
+      117,
+      125,
+      128,
+      168,
+      237,
+      284,
+      322,
+      323,
+      376,
+      425,
+      489,
+      580,
+      587,
+      720,
+      764,
+      768,
+      1008,
+      1159,
+      1211,
+      1567,
+      1642
+    ],
+    "seed": 42,
+    "source_hash": "4846c3e6e0403341c73178bcc5f9d0f0938c69b894d63062b96138058c521fb5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5950,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Fred Ward",
+          "Dennis Quaid",
+          "Ed Harris",
+          "Scott Glenn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A chronicle of the original Mercury astronauts in the formation of America's space program: Alan Shepherd, the first American in space; Gus Grissom, the benighted astronaut for whom nothing works out as planned; John Glenn, the straight-arrow 'boy scout' of the bunch who was the first American to orbit the earth; and the remaining pilots: Deke Slayton, Scott Carpenter and Wally Schirra.",
+        "release_date": "1983-10-20",
+        "release_year": "1983",
+        "title": "Right Stuff, The"
+      },
+      {
+        "cast": [
+          "David Naughton",
+          "Jenny Agutter",
+          "Griffin Dunne",
+          "John Woodvine"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Two American tourists in England are attacked by a werewolf that none of the locals will admit exists.",
+        "release_date": "1981-08-21",
+        "release_year": "1981",
+        "title": "American Werewolf in London, An"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Charles S. Dutton",
+          "Charles Dance",
+          "Pete Postlethwaite"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After escaping with Newt and Hicks from the alien planet, Ripley crash lands on Fiorina 161, a prison planet and host to a correctional facility. Unfortunately, although Newt and Hicks do not survive the crash, a more unwelcome visitor does. The prison does not allow weapons of any kind, and with aid being a long time away, the prisoners must simply survive in any way they can.",
+        "release_date": "1992-05-22",
+        "release_year": "1992",
+        "title": "Alien³"
+      },
+      {
+        "cast": [
+          "Forest Whitaker",
+          "Cliff Gorman",
+          "Tricia Vessey",
+          "Henry Silva"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Jarmusch",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An African-American Mafia hit man who models himself after the samurai of old finds himself targeted for death by the mob.",
+        "release_date": "1999-09-13",
+        "release_year": "1999",
+        "title": "Ghost Dog: The Way of the Samurai"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "Timothy Bottoms",
+          "Jeff Bridges",
+          "Cybill Shepherd",
+          "Ben Johnson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Bogdanovich",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The coming of age of a youth named Sonny in a small Texas town in the 1950s.",
+        "release_date": "1971-10-03",
+        "release_year": "1971",
+        "title": "Last Picture Show, The"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dennis Hopper",
+          "Sandra Bullock",
+          "Joe Morton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Los Angeles SWAT cop Jack Traven is up against bomb expert Howard Payne, who's after major ransom money. First it's a rigged elevator in a very tall building. Then it's a rigged bus--if it slows, it will blow, bad enough any day, but a nightmare in LA traffic. And that's still not the end.",
+        "release_date": "1994-06-09",
+        "release_year": "1994",
+        "title": "Speed"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Beverly D'Angelo",
+          "Dana Hill",
+          "Jason Lively"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Amy Heckerling",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Griswalds win a vacation to Europe on a game show, and thus pack their bags for the continent. They do their best to catch the flavor of Europe, but they just don't know how to be be good tourists. Besides, they have trouble taking holidays in countries where they CAN speak the language.",
+        "release_date": "1985-07-25",
+        "release_year": "1985",
+        "title": "European Vacation"
+      },
+      {
+        "cast": [
+          "Peter Weller",
+          "Nancy Allen",
+          "Ronny Cox",
+          "Kurtwood Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can use his body to support their untested RoboCop prototype. But when RoboCop learns of the company's nefarious plans, he turns on his masters.",
+        "release_date": "1987-07-17",
+        "release_year": "1987",
+        "title": "Robocop"
+      },
+      {
+        "cast": [
+          "Jonathan Pryce",
+          "Robert De Niro",
+          "Katherine Helmond",
+          "Ian Holm"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
+        "release_date": "1985-02-20",
+        "release_year": "1985",
+        "title": "Brazil"
+      }
+    ],
+    "raw_user_id": "5950",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 348
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.388066826697344
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or emotional resonance",
+        "Negative response to films with weak plots or character development"
+      ],
+      "liked_patterns": [
+        "Preference for drama and character-driven stories",
+        "Enjoyment of action and adventure films",
+        "Positive reception of thrillers and suspenseful narratives"
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, as indicated by multiple high ratings for drama films.); Action and Adventure (The user enjoys action and adventure genres, reflected in several ratings of 3 or above for films in these categories.); Thriller (The user appreciates thrillers, as evidenced by positive ratings for films that incorporate suspense and tension.); Comedy with Romantic Elements (The user rates comedies that include romantic themes positively, indicating a preference for light-hearted narratives with emotional depth.); Sci-Fi with Dramatic Themes (The user enjoys science fiction films that also explore dramatic themes, as shown by favorable ratings for such movies.). Liked patterns: Preference for drama and character-driven stories, Enjoyment of action and adventure films, Positive reception of thrillers and suspenseful narratives. Disliked patterns: Dislike for comedies that lack depth or emotional resonance, Negative response to films with weak plots or character development.",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, as indicated by multiple high ratings for drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys action and adventure genres, reflected in several ratings of 3 or above for films in these categories.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates thrillers, as evidenced by positive ratings for films that incorporate suspense and tension.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user rates comedies that include romantic themes positively, indicating a preference for light-hearted narratives with emotional depth.",
+          "taste": "Comedy with Romantic Elements"
+        },
+        {
+          "reason": "The user enjoys science fiction films that also explore dramatic themes, as shown by favorable ratings for such movies.",
+          "taste": "Sci-Fi with Dramatic Themes"
+        }
+      ]
+    },
+    "user_id": 5950
+  }
+}

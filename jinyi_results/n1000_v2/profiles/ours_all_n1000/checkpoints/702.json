@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "c1afd349824f5b6860b048907d9a277414d65fffd230a19b36d0b83cfd7ecc29",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      694,
+      2964,
+      176,
+      1345,
+      11,
+      1082,
+      2094,
+      1575,
+      401,
+      602
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d73afe2df6ee466bab77fb10382e1863"
+    ],
+    "sampled_item_ids": [
+      64,
+      169,
+      207,
+      227,
+      410,
+      435,
+      449,
+      547,
+      591,
+      678,
+      1002,
+      1005,
+      1233,
+      1281,
+      1305,
+      1390,
+      1394,
+      1419,
+      1477,
+      1493,
+      1529,
+      1632,
+      1664,
+      1850,
+      2327
+    ],
+    "seed": 42,
+    "source_hash": "a2d0a4ff50984d4c3e2209cc488d8e1b12fea4df73fbbd6165d22757a9bc7ac3",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 702,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "James Stewart",
+          "Donna Reed",
+          "Lionel Barrymore",
+          "Thomas Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Capra",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "George Bailey has spent his entire life giving of himself to the people of Bedford Falls. He has always longed to travel but never had the opportunity in order to prevent rich skinflint Mr. Potter from taking over the entire town. All that prevents him from doing so is George's modest building and loan company, which was founded by his generous father. But on Christmas Eve, George's Uncle Billy loses the business's $8,000 while intending to deposit it in the bank. Potter finds the misplaced money, hides it from Billy, and George's troubles begin.",
+        "release_date": "1946-12-20",
+        "release_year": "1946",
+        "title": "It's a Wonderful Life"
+      },
+      {
+        "cast": [
+          "Bela Lugosi",
+          "Lyle Talbot",
+          "Edward D. Wood Jr.",
+          "Dolores Fuller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward D. Wood Jr.",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A psychiatrist tells two stories: one of a transvestite (Glen or Glenda), the other of a pseudohermaphrodite (Alan or Anne).",
+        "release_date": "1953-01-01",
+        "release_year": "1953",
+        "title": "Glen or Glenda"
+      },
+      {
+        "cast": [
+          "John Belushi",
+          "Tim Matheson",
+          "John Vernon",
+          "Verna Bloom"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a 1962 College, Dean Vernon Wormer is determined to expel the entire Delta Tau Chi Fraternity, but those troublemakers have other plans for him.",
+        "release_date": "1978-07-27",
+        "release_year": "1978",
+        "title": "Animal House"
+      },
+      {
+        "cast": [
+          "Winona Ryder",
+          "Christian Slater",
+          "Shannen Doherty",
+          "Lisanne Falk"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Lehmann",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A girl who halfheartedly tries to be part of the \"in crowd\" of her school meets a rebel who teaches her a more devious way to play social politics: by killing the popular kids.",
+        "release_date": "1988-10-01",
+        "release_year": "1989",
+        "title": "Heathers"
+      },
+      {
+        "cast": [
+          "Paige O'Hara",
+          "Robby Benson",
+          "Richard White",
+          "Jerry Orbach"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Trousdale",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Follow the adventures of Belle, a bright young woman who finds herself in the castle of a prince who's been turned into a mysterious beast. With the help of the castle's enchanted staff, Belle soon learns the most important lesson of all -- that true beauty comes from within.",
+        "release_date": "1991-11-13",
+        "release_year": "1991",
+        "title": "Beauty and the Beast"
+      },
+      {
+        "cast": [
+          "Ralph Macchio",
+          "Pat Morita",
+          "Martin Kove",
+          "Charlie Tanimoto"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Mr. Miyagi and Daniel take a trip to Okinawa to visit Mr. Miyagi's dying father. After arriving Mr. Miyagi finds he still has feelings for an old love. This stirs up trouble with an old rival who he originally left Okinawa to avoid. In the mean time, Daniel encounters a new love and also makes some enemies.",
+        "release_date": "1986-06-18",
+        "release_year": "1986",
+        "title": "Karate Kid, Part II, The"
+      },
+      {
+        "cast": [
+          "Burt Lancaster",
+          "Kirk Douglas",
+          "Charles Durning",
+          "Alexis Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeff Kanew",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Harry Doyle (Lancaster) and Archie Lang (Douglas) are two old-time train robbers, who held up a train in 1956 and have been incarcerated for thirty years. After serving their time, they are released from jail and have to adjust to a new life of freedom. Harry and Archie realize that they still have the pizzazz when, picking up their prison checks at a bank, they foil a robbery attempt. Archie, who spent his prison time pumping himself up, easily picks up a 20-year-old aerobics instructor. Harry, on the other hand, has to waste away his days in a nursing home. They both have festering resentments -- Archie for having to endure a humiliating job as a busboy; Harry for having to endure patronizing attitudes toward senior citizens. The two old pals finally go back to what they know best. After successfully robbing an armored car, they decide to rob the same train that they robbed thirty years ago.",
+        "release_date": "1986-10-03",
+        "release_year": "1986",
+        "title": "Tough Guys"
+      },
+      {
+        "cast": [
+          "Timothy Hutton",
+          "Sean Penn",
+          "Pat Hingle",
+          "Joyce Van Patten"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of a disillusioned military contractor employee and his drug pusher childhood friend who became walk-in spies for the Soviet Union.",
+        "release_date": "1985-01-25",
+        "release_year": "1984",
+        "title": "Falcon and the Snowman, The"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Dermot Mulroney",
+          "Cameron Diaz",
+          "Rupert Everett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "P.J. Hogan",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When she receives word that her longtime platonic pal Michael O'Neal is getting married to debutante Kimberly Wallace, food critic Julianne Potter realizes her true feelings for Michael -- and sets out to sabotage the wedding.",
+        "release_date": "1997-06-19",
+        "release_year": "1997",
+        "title": "My Best Friend's Wedding"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tawny Kitaen",
+          "Adrian Zmed",
+          "George Grizzard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Neal Israel",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "This outrageously funny look at one man's final moments of bachelorhood stars Tom Hanks as Rick, reluctant recipient of a bachelor bash given by a group of friends who view partying as their full-time religion. Rick's worried fiancée, Debbie (Tawny Kitaen), dresses up in disguise and crashes the party to spy on her future husband.",
+        "release_date": "1984-06-29",
+        "release_year": "1984",
+        "title": "Bachelor Party"
+      }
+    ],
+    "raw_user_id": "702",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 385
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9896648887556607
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily comedic without deeper narrative elements.",
+        "Dislike for films that attempt to blend genres unsuccessfully, particularly in the action-comedy realm."
+      ],
+      "liked_patterns": [
+        "Enjoyment of films that blend drama with other genres like comedy and romance.",
+        "Preference for action films that also incorporate elements of drama or comedy."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates complex narratives and character development often found in drama films.); Comedy (The user enjoys humor and light-hearted storytelling, as evidenced by multiple ratings for comedies.); Action (The user is drawn to action films that combine excitement with engaging plots.); Romance (The user shows an interest in romantic elements within various genres, particularly in dramas and comedies.); War (The user has a notable interest in war-themed films that explore human experiences and conflicts.). Liked patterns: Enjoyment of films that blend drama with other genres like comedy and romance., Preference for action films that also incorporate elements of drama or comedy.. Disliked patterns: Dislike for films that are primarily comedic without deeper narrative elements., Dislike for films that attempt to blend genres unsuccessfully, particularly in the action-comedy realm..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates complex narratives and character development often found in drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys humor and light-hearted storytelling, as evidenced by multiple ratings for comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to action films that combine excitement with engaging plots.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user shows an interest in romantic elements within various genres, particularly in dramas and comedies.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user has a notable interest in war-themed films that explore human experiences and conflicts.",
+          "taste": "War"
+        }
+      ]
+    },
+    "user_id": 702
+  }
+}

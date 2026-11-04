@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "815b0c80a8fdf0db0203e2fc95b429a3f0e22e7d58df70794854ac6aa44dbba1",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      416,
+      701,
+      177,
+      36,
+      506,
+      63,
+      6,
+      425,
+      219,
+      426
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      4,
+      24,
+      27,
+      51,
+      79,
+      105,
+      110,
+      128,
+      152,
+      190,
+      278,
+      390,
+      391,
+      413,
+      567,
+      592,
+      671,
+      676,
+      701,
+      718,
+      1051,
+      1259,
+      1444,
+      1496,
+      1870
+    ],
+    "seed": 42,
+    "source_hash": "be969671fac5f15a0a5cc8f6f64e7a51c01da20f5fcf038336eddaa4b480ccae",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4934,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Richard Farnsworth",
+          "Sissy Spacek",
+          "Jane Galloway Heitz",
+          "Joseph A. Carpenter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "\"The Straight Story\" chronicles a trip made by 73-year-old Alvin Straight from Laurens, Iowa, to Mt. Zion, Wisconsin, in 1994 while riding a lawn mower. The man undertook his strange journey to mend his relationship with his ill, estranged, 75-year-old brother Lyle.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Straight Story, The"
+      },
+      {
+        "cast": [
+          "Leonard Whiting",
+          "Olivia Hussey",
+          "John McEnery",
+          "Michael York"
+        ],
+        "country": [
+          "Italy",
+          "United Kingdom"
+        ],
+        "director": "Franco Zeffirelli",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Director Franco Zeffirelli's beloved version of one of the most well-known love stories in the English language. Romeo Montague and Juliet Capulet fall in love against the wishes of their feuding families. Driven by their passion, the young lovers defy their destiny and elope, only to suffer the ultimate tragedy.",
+        "release_date": "1968-04-02",
+        "release_year": "1968",
+        "title": "Romeo and Juliet"
+      },
+      {
+        "cast": [
+          "Robert Carlyle",
+          "Mark Addy",
+          "William Snape",
+          "Steve Huison"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Peter Cattaneo",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Sheffield, England. Gaz, a jobless steelworker in need of quick cash persuades his mates to bare it all in a one-night-only strip show.",
+        "release_date": "1997-08-13",
+        "release_year": "1997",
+        "title": "Full Monty, The"
+      },
+      {
+        "cast": [
+          "Tom Hulce",
+          "Demi Moore",
+          "Tony Jay",
+          "Kevin Kline"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Trousdale",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "When Quasi defies the evil Frollo and ventures out to the Festival of Fools, the cruel crowd jeers him. Rescued by fellow outcast the gypsy Esmeralda, Quasi soon finds himself battling to save the people and the city he loves.",
+        "release_date": "1996-06-21",
+        "release_year": "1996",
+        "title": "Hunchback of Notre Dame, The"
+      },
+      {
+        "cast": [
+          "Nicoletta Braschi",
+          "Roberto Benigni",
+          "Giorgio Cantarini",
+          "Giustino Durano"
+        ],
+        "country": [
+          "Italy"
+        ],
+        "director": "Roberto Benigni",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Italian",
+        "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
+        "release_date": "1997-12-20",
+        "release_year": "1997",
+        "title": "Life Is Beautiful (La Vita è bella)"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Daryl Hannah",
+          "Eugene Levy",
+          "John Candy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A successful businessman falls in love with the girl of his dreams. There's one big complication though; he's fallen hook, line and sinker for a mermaid.",
+        "release_date": "1984-03-09",
+        "release_year": "1984",
+        "title": "Splash"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Christopher Lloyd",
+          "Joanna Cassidy",
+          "Charles Fleischer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "'Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+        "release_date": "1988-06-21",
+        "release_year": "1988",
+        "title": "Who Framed Roger Rabbit?"
+      },
+      {
+        "cast": [
+          "Meryl Streep",
+          "Robert Redford",
+          "Klaus Maria Brandauer",
+          "Michael Kitchen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Out of Africa tells the story of the life of Danish author Karen Blixen, who at the beginning of the 20th century moved to Africa to build a new life for herself. The film is based on the autobiographical novel by Karen Blixen from 1937.",
+        "release_date": "1985-12-20",
+        "release_year": "1985",
+        "title": "Out of Africa"
+      }
+    ],
+    "raw_user_id": "4934",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 145
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.585191624742026
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for certain Comedies",
+        "Dislike for specific Animated films",
+        "Negative response to some Children's films"
+      ],
+      "liked_patterns": [
+        "High ratings for Drama and Romance films",
+        "Positive ratings for Animation and Children's films",
+        "Favoring Action and Adventure genres"
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (The user rated multiple drama films highly, indicating a strong appreciation for emotional and narrative depth.); Enjoyment of Animation and Children's films (Several animated and children's films received high ratings, suggesting a fondness for family-friendly content.); Interest in Action and Adventure (The user rated several action and adventure films positively, showing a liking for excitement and thrill.); Appreciation for Romantic themes (Romantic films received favorable ratings, indicating a preference for stories centered around love and relationships.); Fondness for Comedic elements (The user rated various comedies positively, suggesting enjoyment of humor and light-hearted storytelling.). Liked patterns: High ratings for Drama and Romance films, Positive ratings for Animation and Children's films, Favoring Action and Adventure genres. Disliked patterns: Low ratings for certain Comedies, Dislike for specific Animated films, Negative response to some Children's films.",
+      "unique_tastes": [
+        {
+          "reason": "The user rated multiple drama films highly, indicating a strong appreciation for emotional and narrative depth.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Several animated and children's films received high ratings, suggesting a fondness for family-friendly content.",
+          "taste": "Enjoyment of Animation and Children's films"
+        },
+        {
+          "reason": "The user rated several action and adventure films positively, showing a liking for excitement and thrill.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "Romantic films received favorable ratings, indicating a preference for stories centered around love and relationships.",
+          "taste": "Appreciation for Romantic themes"
+        },
+        {
+          "reason": "The user rated various comedies positively, suggesting enjoyment of humor and light-hearted storytelling.",
+          "taste": "Fondness for Comedic elements"
+        }
+      ]
+    },
+    "user_id": 4934
+  }
+}

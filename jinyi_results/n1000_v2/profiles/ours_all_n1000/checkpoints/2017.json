@@ -1,0 +1,349 @@
+{
+  "checkpoint_hash": "fdf5a036a8339434f3b5e110a362b5b7095b7859ad56507652db452271bafe86",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      265,
+      92,
+      606,
+      1095,
+      1828,
+      1301,
+      1397,
+      1869,
+      1068,
+      134
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "6bdc04364ee94d66b68d755c759b5284"
+    ],
+    "sampled_item_ids": [
+      40,
+      65,
+      73,
+      75,
+      98,
+      146,
+      161,
+      168,
+      172,
+      196,
+      245,
+      260,
+      284,
+      349,
+      376,
+      439,
+      763,
+      851,
+      910,
+      1064,
+      1067,
+      1251,
+      1301,
+      1828,
+      2428
+    ],
+    "seed": 42,
+    "source_hash": "f0f69215083fad2776895be769d9bbbd8d1112c1b73d7a83511c90a3107c2de5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2017,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dennis Hopper",
+          "Sandra Bullock",
+          "Joe Morton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Los Angeles SWAT cop Jack Traven is up against bomb expert Howard Payne, who's after major ransom money. First it's a rigged elevator in a very tall building. Then it's a rigged bus--if it slows, it will blow, bad enough any day, but a nightmare in LA traffic. And that's still not the end.",
+        "release_date": "1994-06-09",
+        "release_year": "1994",
+        "title": "Speed"
+      },
+      {
+        "cast": [
+          "Whitney Houston",
+          "Kevin Costner",
+          "Michele Lamar Richards",
+          "Ralph Waite"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mick Jackson",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A former Secret Service agent grudgingly takes an assignment to protect a pop idol who's threatened by a crazed fan. At first, the safety-obsessed bodyguard and the self-indulgent diva totally clash. But before long, all that tension sparks fireworks of another sort, and the love-averse tough guy is torn between duty and romance.",
+        "release_date": "1992-11-25",
+        "release_year": "1992",
+        "title": "Bodyguard, The"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "James Spader",
+          "Jaye Davidson",
+          "Viveca Lindfors"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
+        "release_date": "1994-10-27",
+        "release_year": "1994",
+        "title": "Stargate"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "John Leguizamo",
+          "Dennis Hopper",
+          "Samantha Mathis"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Annabel Jankel",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Children's",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Mario and Luigi, plumbers from Brooklyn, find themselves in an alternate universe where evolved dinosaurs live in hi-tech squalor. They're the only hope to save our universe from invasion by the dino dictator, Koopa.",
+        "release_date": "1993-05-28",
+        "release_year": "1993",
+        "title": "Super Mario Bros."
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Morgan Freeman",
+          "Rachel Weisz",
+          "Fred Ward"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two researchers in a green alternative energy project are put on the run when they are framed for murder and treason.",
+        "release_date": "1996-08-02",
+        "release_year": "1996",
+        "title": "Chain Reaction"
+      },
+      {
+        "cast": [
+          "Sharon Stone",
+          "Gene Hackman",
+          "Russell Crowe",
+          "Leonardo DiCaprio"
+        ],
+        "country": [
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "A mysterious woman comes to compete in a quick-draw elimination tournament, in a town taken over by a notorious gunman.",
+        "release_date": "1995-02-09",
+        "release_year": "1995",
+        "title": "Quick and the Dead, The"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Jason Patric",
+          "Willem Dafoe",
+          "Temuera Morrison"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sandra Bullock and Jason Patric star as a young couple whose dream cruise turns to terror when a lunatic computer genius (Willem Dafoe) sets a new course for destruction.",
+        "release_date": "1997-06-13",
+        "release_year": "1997",
+        "title": "Speed 2: Cruise Control"
+      },
+      {
+        "cast": [
+          "Alec Baldwin",
+          "John Lone",
+          "Penelope Ann Miller",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Russell Mulcahy",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Based on the 1930's comic strip, puts the hero up against his arch enemy, Shiwan Khan, who plans to take over the world by holding a city to ransom using an atom bomb. Using his powers of invisibility and \"The power to cloud men's minds\", the Shadow comes blazing to the city's rescue with explosive results.",
+        "release_date": "1994-07-01",
+        "release_year": "1994",
+        "title": "Shadow, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Goldie Hawn",
+          "Joan Severance",
+          "David Carradine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Badham",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A FBI informant has kept his new identity secret for 15 years, now an old flame has recognised him and the bad guys are back for revenge.",
+        "release_date": "1990-05-18",
+        "release_year": "1990",
+        "title": "Bird on a Wire"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Billy Bob Thornton",
+          "Ben Affleck",
+          "Liv Tyler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When an asteroid threatens to collide with Earth, NASA honcho Dan Truman determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller Harry Stamper, who agrees to helm the dangerous space mission provided he can bring along his own hotshot crew. Among them is the cocksure A.J. who Harry thinks isn't good enough for his daughter, until the mission proves otherwise.",
+        "release_date": "1998-07-01",
+        "release_year": "1998",
+        "title": "Armageddon"
+      }
+    ],
+    "raw_user_id": "2017",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 97
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8384344000224515
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that attempt to mix genres unsuccessfully, particularly in action and comedy.",
+        "Dislike for films that lack engaging plots or character development."
+      ],
+      "liked_patterns": [
+        "High ratings for action films that combine multiple genres such as adventure, thriller, and drama.",
+        "Strong preference for films that feature complex characters and emotional storytelling.",
+        "Enjoyment of films that blend humor with action or drama."
+      ],
+      "summary": "Unique tastes: Action and Adventure (A strong preference for action and adventure genres is evident, with multiple high ratings for films that feature intense action sequences and adventurous plots.); Drama with Emotional Depth (A notable appreciation for drama films that explore deep emotional themes, as indicated by high ratings for several dramatic narratives.); Thriller Elements (An inclination towards thrillers is present, with several films rated highly that incorporate suspenseful and thrilling elements.); Comedy and Lightheartedness (A liking for comedy is shown through high ratings for films that blend humor with other genres, particularly in action and drama.); Sci-Fi and Fantasy (A consistent enjoyment of science fiction and fantasy elements is reflected in the ratings for films that explore imaginative and speculative themes.). Liked patterns: High ratings for action films that combine multiple genres such as adventure, thriller, and drama., Strong preference for films that feature complex characters and emotional storytelling., Enjoyment of films that blend humor with action or drama.. Disliked patterns: Low ratings for films that attempt to mix genres unsuccessfully, particularly in action and comedy., Dislike for films that lack engaging plots or character development..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for action and adventure genres is evident, with multiple high ratings for films that feature intense action sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "A notable appreciation for drama films that explore deep emotional themes, as indicated by high ratings for several dramatic narratives.",
+          "taste": "Drama with Emotional Depth"
+        },
+        {
+          "reason": "An inclination towards thrillers is present, with several films rated highly that incorporate suspenseful and thrilling elements.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "A liking for comedy is shown through high ratings for films that blend humor with other genres, particularly in action and drama.",
+          "taste": "Comedy and Lightheartedness"
+        },
+        {
+          "reason": "A consistent enjoyment of science fiction and fantasy elements is reflected in the ratings for films that explore imaginative and speculative themes.",
+          "taste": "Sci-Fi and Fantasy"
+        }
+      ]
+    },
+    "user_id": 2017
+  }
+}

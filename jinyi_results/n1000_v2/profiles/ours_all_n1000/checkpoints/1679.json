@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "32cda4fe92a1ac8f3457cee05815c43cb0f20b296620ea3b74ff206fdd721fec",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      509,
+      652,
+      2666,
+      791,
+      500,
+      209,
+      361,
+      1388,
+      93,
+      5
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "025c8454b47a405aaaa2889e028c17e5"
+    ],
+    "sampled_item_ids": [
+      5,
+      44,
+      69,
+      85,
+      244,
+      251,
+      264,
+      292,
+      318,
+      350,
+      455,
+      500,
+      629,
+      652,
+      734,
+      825,
+      867,
+      882,
+      928,
+      933,
+      937,
+      1151,
+      1388,
+      1559,
+      2666
+    ],
+    "seed": 42,
+    "source_hash": "38e27e74ab81fd1ebe5428ecc466311dcc7aea0dd32a0e0063e1b7674222c56e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1679,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sarah Michelle Gellar",
+          "Ryan Phillippe",
+          "Reese Witherspoon",
+          "Selma Blair"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Kumble",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Slaking a thirst for dangerous games, Kathryn challenges her stepbrother, Sebastian, to deflower their headmaster's daughter before the summer ends. If he succeeds, the prize is the chance to bed Kathryn. But if he loses, Kathryn will claim his most prized possession.",
+        "release_date": "1999-03-05",
+        "release_year": "1999",
+        "title": "Cruel Intentions"
+      },
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Vladimir Kulich",
+          "Dennis Storhøi",
+          "Daniel Southern"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In AD 922, Arab courtier, Ahmad Ibn Fadlan accompanies a party of Vikings to the barbaric North to combat a terror that slaughters Vikings and devours their flesh.",
+        "release_date": "1999-08-27",
+        "release_year": "1999",
+        "title": "13th Warrior, The"
+      },
+      {
+        "cast": [
+          "Sheryl Lee",
+          "Ray Wise",
+          "Mädchen Amick",
+          "Dana Ashbrook"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and supernatural encounters, Agent Dale Cooper chillingly predicts that the culprit will claim another life. Meanwhile, in the more cozy town of Twin Peaks, hedonistic beauty Laura Palmer hangs with lowlifes and seems destined for a grisly fate.",
+        "release_date": "1992-06-03",
+        "release_year": "1992",
+        "title": "Twin Peaks: Fire Walk with Me"
+      },
+      {
+        "cast": [
+          "Michael C. Williams",
+          "Heather Donahue",
+          "Joshua Leonard",
+          "Bob Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Myrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Blair Witch Project, The"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Iben Hjejle",
+          "Todd Louiso",
+          "Jack Black"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When record store owner Rob Gordon gets dumped by his girlfriend, Laura, because he hasn't changed since they met, he revisits his top five breakups of all time in an attempt to figure out what went wrong. As Rob seeks out his former lovers to find out why they left, he keeps up his efforts to win Laura back.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "High Fidelity"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Marianne Koch",
+          "Gian Maria Volonté",
+          "Wolfgang Lukschy"
+        ],
+        "country": [
+          "Italy",
+          "Germany",
+          "Spain"
+        ],
+        "director": "Sergio Leone",
+        "genres": [
+          "Action",
+          "Western"
+        ],
+        "language": "Italian",
+        "overview": "The Man With No Name enters the Mexican village of San Miguel in the midst of a power struggle among the three Rojo brothers and sheriff John Baxter. When a regiment of Mexican soldiers bearing gold intended to pay for new weapons is waylaid by the Rojo brothers, the stranger inserts himself into the middle of the long-simmering battle, selling false information to both sides for his own benefit.",
+        "release_date": "1964-09-12",
+        "release_year": "1964",
+        "title": "Fistful of Dollars, A"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Natalie Portman",
+          "Hart Bochner",
+          "Eileen Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wayne Wang",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In this adaptation of the Mona Simpson novel, single mother Adele August is bad with money, and even worse when it comes to making decisions. Her straight-laced daughter, Ann, is a successful high school student with Ivy League aspirations. When Adele decides to pack up and move the two of them from the Midwest to Beverly Hills, Calif., to pursue her dreams of Hollywood success, Ann grows frustrated with her mother's irresponsible and impulsive ways.",
+        "release_date": "1999-11-12",
+        "release_year": "1999",
+        "title": "Anywhere But Here"
+      },
+      {
+        "cast": [
+          "Melanie Griffith",
+          "Matthew Modine",
+          "Michael Keaton",
+          "Mako"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A couple works hard to renovate their dream house and become landlords to pay for it. Unfortunately one of their tenants has plans of his own.",
+        "release_date": "1990-09-28",
+        "release_year": "1990",
+        "title": "Pacific Heights"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Julia Louis-Dreyfus",
+          "Hayden Panettiere",
+          "Phyllis Diller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+        "release_date": "1998-11-25",
+        "release_year": "1998",
+        "title": "Bug's Life, A"
+      }
+    ],
+    "raw_user_id": "1679",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 66
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5845563909870548
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for comedies that lack depth or originality."
+      ],
+      "liked_patterns": [
+        "High ratings for animated films that are comedic in nature.",
+        "Positive reception of action films that also incorporate dramatic storytelling.",
+        "Appreciation for adventure films that include humor."
+      ],
+      "summary": "Unique tastes: Animation and Comedy (The user enjoys animated films that incorporate humor, as evidenced by high ratings for multiple titles in these genres.); Action and Drama (The user appreciates films that blend action with dramatic elements, reflected in several high ratings for such combinations.); Adventure with Humor (The user favors adventure films that also include comedic aspects, indicated by positive ratings for movies that fit this description.); Thriller and Horror (The user shows a preference for films that combine thriller and horror elements, as seen in the ratings for titles in these genres.); Romantic Comedies (The user enjoys romantic comedies, as indicated by favorable ratings for films that blend romance with comedic themes.). Liked patterns: High ratings for animated films that are comedic in nature., Positive reception of action films that also incorporate dramatic storytelling., Appreciation for adventure films that include humor.. Disliked patterns: Negative ratings for comedies that lack depth or originality..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films that incorporate humor, as evidenced by high ratings for multiple titles in these genres.",
+          "taste": "Animation and Comedy"
+        },
+        {
+          "reason": "The user appreciates films that blend action with dramatic elements, reflected in several high ratings for such combinations.",
+          "taste": "Action and Drama"
+        },
+        {
+          "reason": "The user favors adventure films that also include comedic aspects, indicated by positive ratings for movies that fit this description.",
+          "taste": "Adventure with Humor"
+        },
+        {
+          "reason": "The user shows a preference for films that combine thriller and horror elements, as seen in the ratings for titles in these genres.",
+          "taste": "Thriller and Horror"
+        },
+        {
+          "reason": "The user enjoys romantic comedies, as indicated by favorable ratings for films that blend romance with comedic themes.",
+          "taste": "Romantic Comedies"
+        }
+      ]
+    },
+    "user_id": 1679
+  }
+}

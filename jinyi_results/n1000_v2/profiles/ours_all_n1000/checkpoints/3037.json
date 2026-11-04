@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "e18f49e065249056db53edc06ef074c7fdc743f317c8f05e00f956e4c1417584",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      492,
+      39,
+      149,
+      543,
+      2476,
+      485,
+      838,
+      594,
+      60,
+      463
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "cb9faef9e95145d9ab824ed2be80dd4e"
+    ],
+    "sampled_item_ids": [
+      52,
+      60,
+      105,
+      110,
+      124,
+      129,
+      185,
+      243,
+      245,
+      257,
+      284,
+      311,
+      383,
+      454,
+      485,
+      499,
+      503,
+      506,
+      531,
+      543,
+      705,
+      797,
+      838,
+      1941,
+      2476
+    ],
+    "seed": 42,
+    "source_hash": "3c3b5ed858a05c42fe9375bfe75bedd4617294bcd0c71a03cd5ecddc62faa317",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3037,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Johnny Depp",
+          "Leonardo DiCaprio",
+          "Juliette Lewis",
+          "Darlene Cates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lasse Hallström",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Gilbert has to care for his brother Arnie and his obese mother, which gets in the way when love walks into his life.",
+        "release_date": "1993-12-17",
+        "release_year": "1993",
+        "title": "What's Eating Gilbert Grape"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Jamie Lee Curtis",
+          "Tom Arnold",
+          "Bill Paxton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Harry Tasker is a secret agent for the United States Government. For years, he has kept his job from his wife, but is forced to reveal his identity and try to stop nuclear terrorists when he and his wife are kidnapped by them.",
+        "release_date": "1994-07-14",
+        "release_year": "1994",
+        "title": "True Lies"
+      },
+      {
+        "cast": [
+          "Ewan McGregor",
+          "Ewen Bremner",
+          "Jonny Lee Miller",
+          "Robert Carlyle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Danny Boyle",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
+        "release_date": "1996-02-23",
+        "release_year": "1996",
+        "title": "Trainspotting"
+      },
+      {
+        "cast": [
+          "Irène Jacob",
+          "Jean-Louis Trintignant",
+          "Jean-Pierre Lorit",
+          "Frédérique Feder"
+        ],
+        "country": [
+          "France",
+          "Poland",
+          "Switzerland"
+        ],
+        "director": "Krzysztof Kieślowski",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "Red This is the third film from the trilogy by Kieślowski. “Red” meaning brotherliness. Here Kieślowski masterly tells strange coincidentally linked stories in the most packed work.",
+        "release_date": "1994-05-27",
+        "release_year": "1994",
+        "title": "Three Colors: Red"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Chris O'Donnell",
+          "James Rebhorn",
+          "Gabrielle Anwar"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Brest",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Charlie Simms (Chris O'Donnell) is a student at a private preparatory school who comes from a poor family. To earn the money for his flight home to Gresham, Oregon for Christmas, Charlie takes a job over Thanksgiving looking after retired U.S. Army officer Lieutenant Colonel Frank Slade (Al Pacino), a cantankerous middle-aged man who lives with his niece and her family.",
+        "release_date": "1992-12-23",
+        "release_year": "1992",
+        "title": "Scent of a Woman"
+      },
+      {
+        "cast": [
+          "Carmen Electra",
+          "Dave Sheridan",
+          "Anna Faris",
+          "Jon Abrahams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Keenen Ivory Wayans",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Following on the heels of popular teen-scream horror movies, with uproarious comedy and biting satire. Marlon and Shawn Wayans, Shannon Elizabeth and Carmen Electra pitch in to skewer some of Hollywood's biggest blockbusters, including Scream, I Know What You Did Last Summer, The Matrix, American Pie and The Blair Witch Project.",
+        "release_date": "2000-07-07",
+        "release_year": "2000",
+        "title": "Scary Movie"
+      },
+      {
+        "cast": [
+          "Kathy Bates",
+          "Mary-Louise Parker",
+          "Jessica Tandy",
+          "Cicely Tyson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Avnet",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Amidst her own personality crisis, southern housewife Evelyn Couch meets Ninny, an outgoing old woman who tells her the story of Idgie Threadgoode and Ruth Jamison, two young women who experienced hardships and love in Whistle Stop, Alabama in the 1920s.",
+        "release_date": "1991-12-27",
+        "release_year": "1991",
+        "title": "Fried Green Tomatoes"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jack Nicholson",
+          "Demi Moore",
+          "Kevin Bacon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When cocky military lawyer Lt. Daniel Kaffee and his co-counsel, Lt. Cmdr. JoAnne Galloway, are assigned to a murder case, they uncover a hazing ritual that could implicate high-ranking officials such as shady Col. Nathan Jessep.",
+        "release_date": "1992-12-11",
+        "release_year": "1992",
+        "title": "Few Good Men, A"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Derek Jacobi",
+          "Julie Christie",
+          "Richard Briers"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Hamlet, Prince of Denmark, returns home to find his father murdered and his mother remarrying the murderer, his uncle. Meanwhile, war is brewing.",
+        "release_date": "1996-12-25",
+        "release_year": "1996",
+        "title": "Hamlet"
+      }
+    ],
+    "raw_user_id": "3037",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 52
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8264223498310082
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that prioritize humor over narrative depth, as seen in low ratings for certain comedies."
+      ],
+      "liked_patterns": [
+        "Preference for films that combine Drama with other genres like Crime and Romance.",
+        "Enjoyment of films that feature strong character development and emotional depth.",
+        "Tendency to rate films highly that include elements of suspense or moral dilemmas."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (The majority of highly rated films belong to the Drama genre, indicating a strong affinity for character-driven narratives.); Appreciation for Crime and Thriller elements (Several top-rated films incorporate Crime and Thriller elements, suggesting a taste for suspenseful and intense storytelling.); Enjoyment of Romantic themes (Many liked films feature Romance as a significant genre, indicating a preference for stories that explore love and relationships.); Interest in Comedic elements within Drama (Several films rated positively blend Comedy with Drama, showing a preference for humor that complements serious themes.); Favoring films with strong emotional impact (High ratings for films that evoke deep emotions suggest a preference for narratives that resonate on a personal level.). Liked patterns: Preference for films that combine Drama with other genres like Crime and Romance., Enjoyment of films that feature strong character development and emotional depth., Tendency to rate films highly that include elements of suspense or moral dilemmas.. Disliked patterns: Dislike for films that prioritize humor over narrative depth, as seen in low ratings for certain comedies..",
+      "unique_tastes": [
+        {
+          "reason": "The majority of highly rated films belong to the Drama genre, indicating a strong affinity for character-driven narratives.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Several top-rated films incorporate Crime and Thriller elements, suggesting a taste for suspenseful and intense storytelling.",
+          "taste": "Appreciation for Crime and Thriller elements"
+        },
+        {
+          "reason": "Many liked films feature Romance as a significant genre, indicating a preference for stories that explore love and relationships.",
+          "taste": "Enjoyment of Romantic themes"
+        },
+        {
+          "reason": "Several films rated positively blend Comedy with Drama, showing a preference for humor that complements serious themes.",
+          "taste": "Interest in Comedic elements within Drama"
+        },
+        {
+          "reason": "High ratings for films that evoke deep emotions suggest a preference for narratives that resonate on a personal level.",
+          "taste": "Favoring films with strong emotional impact"
+        }
+      ]
+    },
+    "user_id": 3037
+  }
+}

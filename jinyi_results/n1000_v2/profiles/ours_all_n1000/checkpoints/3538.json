@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "ca43d0f7a51cea2e0abd79c324e8fbd5a9abe55aabb0ffdf8a3cef5ff46b6bf9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      367,
+      447,
+      39,
+      157,
+      489,
+      483,
+      505,
+      145,
+      461,
+      40
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b7610b3ffe584332b3e95d17c2991339"
+    ],
+    "sampled_item_ids": [
+      20,
+      49,
+      57,
+      98,
+      117,
+      118,
+      245,
+      316,
+      322,
+      344,
+      439,
+      447,
+      462,
+      466,
+      519,
+      543,
+      922,
+      1119,
+      1173,
+      1189,
+      1325,
+      1439,
+      1965,
+      1967,
+      1996
+    ],
+    "seed": 42,
+    "source_hash": "3420ec8d00a086e6d6f25744c318fb45f45a4ee63be4209766c77858d9c202d3",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3538,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Al Pacino",
+          "Jack Lemmon",
+          "Alec Baldwin",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Foley",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Glengarry Glen Ross, follows the lives of four unethical Chicago real estate agents who are prepared to go to any lengths (legal or illegal) to unload undesirable real estate on unwilling prospective buyers.",
+        "release_date": "1992-09-15",
+        "release_year": "1992",
+        "title": "Glengarry Glen Ross"
+      },
+      {
+        "cast": [
+          "Howard Stern",
+          "Mary McCormack",
+          "Kelly Bishop",
+          "Paul Giamatti"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The auto-biographical story of Howard Stern, the radio-rebel who is now also a TV-personality, an author and a movie star.",
+        "release_date": "1997-03-07",
+        "release_year": "1997",
+        "title": "Private Parts"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Geena Davis",
+          "Harvey Keitel",
+          "Brad Pitt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Whilst on a short weekend getaway, Louise shoots a man who had tried to rape Thelma. Due to the incriminating circumstances, they make a run for it and thus a cross country chase ensues for the two fugitives. Along the way, both women rediscover the strength of their friendship and surprising aspects of their personalities and self-strengths in the trying times.",
+        "release_date": "1991-05-24",
+        "release_year": "1991",
+        "title": "Thelma & Louise"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Harvey Keitel",
+          "Ray Liotta",
+          "Robert De Niro"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Mangold",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Freddy Heflin is the sheriff of a place everyone calls “Cop Land” — a small and seemingly peaceful town populated by the big city police officers he’s long admired. Yet something ugly is taking place behind the town’s peaceful facade. And when Freddy uncovers a massive, deadly conspiracy among these local residents, he is forced to take action and make a dangerous choice between protecting his idols and upholding the law.",
+        "release_date": "1997-08-15",
+        "release_year": "1997",
+        "title": "Cop Land"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Tom Cruise",
+          "Kirsten Dunst",
+          "Antonio Banderas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A vampire relates his epic life story of love, betrayal, loneliness, and dark hunger to an over-curious reporter.",
+        "release_date": "1994-11-11",
+        "release_year": "1994",
+        "title": "Interview with the Vampire"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Elisabeth Shue",
+          "Julian Sands",
+          "Richard Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Figgis",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Ben Sanderson, an alcoholic Hollywood screenwriter who lost everything because of his drinking, arrives in Las Vegas to drink himself to death. There, he meets and forms an uneasy friendship and non-interference pact with prostitute Sera.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Leaving Las Vegas"
+      },
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Salma Hayek",
+          "Joaquim de Almeida",
+          "Cheech Marin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Rodriguez",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A gunslinger is embroiled in a war with a local drug runner.",
+        "release_date": "1995-08-25",
+        "release_year": "1995",
+        "title": "Desperado"
+      },
+      {
+        "cast": [
+          "Woody Harrelson",
+          "Courtney Love",
+          "Edward Norton",
+          "Brett Harrelson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Larry Flynt is the hedonistically obnoxious, but indomitable, publisher of Hustler magazine. The film recounts his struggle to make an honest living publishing his girlie magazine and how it changes into a battle to protect the freedom of speech for all people.",
+        "release_date": "1996-10-12",
+        "release_year": "1996",
+        "title": "People vs. Larry Flynt, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Bill Paxton",
+          "Kevin Bacon",
+          "Gary Sinise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of technical troubles that scuttle the Apollo 13 lunar mission in 1971, risking the lives of astronaut Jim Lovell and his crew, with the failed journey turning into a thrilling saga of heroism. Drifting more than 200,000 miles from Earth, the astronauts work furiously with the ground crew to avert tragedy.",
+        "release_date": "1995-06-30",
+        "release_year": "1995",
+        "title": "Apollo 13"
+      }
+    ],
+    "raw_user_id": "3538",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 131
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6699812793156198
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for romantic comedies that lack depth",
+        "Dislike for films that do not engage with complex narratives"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and thriller genres",
+        "Enjoyment of dramas that tackle serious themes",
+        "Appreciation for comedies that blend humor with darker elements"
+      ],
+      "summary": "Unique tastes: Action and Thriller (The user enjoys high-stakes narratives with intense action sequences and suspenseful plots.); Drama with Complex Themes (The user appreciates dramas that explore deep emotional and moral dilemmas.); Comedy with a Dark or Satirical Edge (The user favors comedies that incorporate darker themes or social commentary.); Crime and Mystery Elements (The user is drawn to films that involve crime, mystery, and the exploration of human behavior.); Fantasy and Surreal Elements (The user enjoys films that incorporate fantastical or surreal elements, often blending them with humor.). Liked patterns: Strong preference for action and thriller genres, Enjoyment of dramas that tackle serious themes, Appreciation for comedies that blend humor with darker elements. Disliked patterns: Dislike for romantic comedies that lack depth, Dislike for films that do not engage with complex narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-stakes narratives with intense action sequences and suspenseful plots.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "The user appreciates dramas that explore deep emotional and moral dilemmas.",
+          "taste": "Drama with Complex Themes"
+        },
+        {
+          "reason": "The user favors comedies that incorporate darker themes or social commentary.",
+          "taste": "Comedy with a Dark or Satirical Edge"
+        },
+        {
+          "reason": "The user is drawn to films that involve crime, mystery, and the exploration of human behavior.",
+          "taste": "Crime and Mystery Elements"
+        },
+        {
+          "reason": "The user enjoys films that incorporate fantastical or surreal elements, often blending them with humor.",
+          "taste": "Fantasy and Surreal Elements"
+        }
+      ]
+    },
+    "user_id": 3538
+  }
+}

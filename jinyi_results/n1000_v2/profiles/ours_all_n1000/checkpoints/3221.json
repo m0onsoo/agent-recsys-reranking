@@ -1,0 +1,346 @@
+{
+  "checkpoint_hash": "8de5e583b98b65840f08334595647e927ad87b05d9820670df2ec0076b0728f3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      147,
+      591,
+      125,
+      164,
+      665,
+      152,
+      433,
+      844,
+      1146,
+      1675
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "f81b3d23f0654951898c515dac971f08"
+    ],
+    "sampled_item_ids": [
+      45,
+      59,
+      80,
+      91,
+      118,
+      125,
+      126,
+      129,
+      133,
+      147,
+      152,
+      164,
+      190,
+      210,
+      218,
+      433,
+      591,
+      665,
+      715,
+      844,
+      851,
+      892,
+      923,
+      1030,
+      1309
+    ],
+    "seed": 42,
+    "source_hash": "4ed69f41d31077b27754c8c80dc2e4f8835df549bec3f2babdbed48e05b3960f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3221,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bruce Willis",
+          "Jeremy Irons",
+          "Samuel L. Jackson",
+          "Graham Greene"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"partner\" -- and his beloved city -- in a deadly game that demands their concentration.",
+        "release_date": "1995-05-19",
+        "release_year": "1995",
+        "title": "Die Hard: With a Vengeance"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Joe Pesci",
+          "Rene Russo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the combustible action franchise's final installment, maverick detectives Martin Riggs and Roger Murtaugh square off against Asian mobster Wah Sing Ku, who's up to his neck in slave trading and counterfeit currency. With help from gumshoe Leo Getz and smart-aleck rookie cop Lee Butters, Riggs and Murtaugh aim to take down Ku and his gang.",
+        "release_date": "1998-07-10",
+        "release_year": "1998",
+        "title": "Lethal Weapon 4"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Joe Pesci",
+          "Rene Russo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Archetypal buddy cops Riggs and Murtaugh are back for another round of high-stakes action, this time setting their collective sights on bringing down a former Los Angeles police lieutenant turned black market weapons dealer. Lorna Cole joins as the beautiful yet hardnosed internal affairs sergeant who catches Riggs's eye.",
+        "release_date": "1992-05-15",
+        "release_year": "1992",
+        "title": "Lethal Weapon 3"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Bruce Spence",
+          "Michael Preston",
+          "Max Phipps"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape.",
+        "release_date": "1981-12-24",
+        "release_year": "1981",
+        "title": "Mad Max 2 (a.k.a. The Road Warrior)"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Nicolas Cage",
+          "Joan Allen",
+          "Alessandro Nivola"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.",
+        "release_date": "1997-06-27",
+        "release_year": "1997",
+        "title": "Face/Off"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sean Bean",
+          "Izabella Scorupco",
+          "Famke Janssen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "James Bond must unmask the mysterious head of the Janus Syndicate and prevent the leader from utilizing the GoldenEye weapons system to inflict devastating revenge on Britain.",
+        "release_date": "1995-11-16",
+        "release_year": "1995",
+        "title": "GoldenEye"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sophie Marceau",
+          "Robert Carlyle",
+          "Denise Richards"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Michael Apted",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Greed, revenge, world dominance and high-tech terrorism – it's all in a day's work for Bond, who's on a mission to a protect beautiful oil heiress from a notorious terrorist. In a race against time that culminates in a dramatic submarine showdown, Bond works to defuse the international power struggle that has the world's oil supply hanging in the balance.",
+        "release_date": "1999-11-08",
+        "release_year": "1999",
+        "title": "World Is Not Enough, The"
+      },
+      {
+        "cast": [
+          "Kevin Peter Hall",
+          "Danny Glover",
+          "Gary Busey",
+          "Rubén Blades"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Hopkins",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Ten years after a band of mercenaries first battled a vicious alien, the invisible creature from another world has returned to Earth -- and this time, it's drawn to the gang-ruled and ravaged city of Los Angeles. When it starts murdering drug dealers, detective-lieutenant Mike Harrigan and his police force set out to capture the creature, ignoring warnings from a mysterious government agent to stay away.",
+        "release_date": "1990-11-20",
+        "release_year": "1990",
+        "title": "Predator 2"
+      }
+    ],
+    "raw_user_id": "3221",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 33
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9908950927661611
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that fail to deliver engaging action or plot.",
+        "Negative response to poorly received action films with low ratings."
+      ],
+      "liked_patterns": [
+        "High ratings for action films with strong narratives and character arcs.",
+        "Preference for films that combine action with thriller elements.",
+        "Enjoyment of science fiction films that include action and adventure."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user consistently rates action and adventure films highly, indicating a strong preference for thrilling and dynamic narratives.); Thriller Elements (Many of the user's liked films incorporate thriller elements, suggesting an appreciation for suspenseful and intense storytelling.); Sci-Fi Themes (The user enjoys science fiction themes, as evidenced by high ratings for films that explore futuristic concepts and technology.); Strong Character Development (The user favors films with well-developed characters, often reflected in their ratings for dramas and thrillers.); Blend of Genres (The user appreciates films that blend multiple genres, particularly action with comedy or drama, indicating a preference for complexity in storytelling.). Liked patterns: High ratings for action films with strong narratives and character arcs., Preference for films that combine action with thriller elements., Enjoyment of science fiction films that include action and adventure.. Disliked patterns: Dislike for films that fail to deliver engaging action or plot., Negative response to poorly received action films with low ratings..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates action and adventure films highly, indicating a strong preference for thrilling and dynamic narratives.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "Many of the user's liked films incorporate thriller elements, suggesting an appreciation for suspenseful and intense storytelling.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user enjoys science fiction themes, as evidenced by high ratings for films that explore futuristic concepts and technology.",
+          "taste": "Sci-Fi Themes"
+        },
+        {
+          "reason": "The user favors films with well-developed characters, often reflected in their ratings for dramas and thrillers.",
+          "taste": "Strong Character Development"
+        },
+        {
+          "reason": "The user appreciates films that blend multiple genres, particularly action with comedy or drama, indicating a preference for complexity in storytelling.",
+          "taste": "Blend of Genres"
+        }
+      ]
+    },
+    "user_id": 3221
+  }
+}

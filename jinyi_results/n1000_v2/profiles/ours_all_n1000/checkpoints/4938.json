@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "d83f3fefbc069ab6d10e57956f7be9d4ed80ab65ba612954ed7d2bcc9126e619",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      154,
+      502,
+      1559,
+      808,
+      353,
+      5,
+      278,
+      65,
+      871,
+      219
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      4,
+      87,
+      154,
+      219,
+      262,
+      278,
+      306,
+      333,
+      353,
+      361,
+      373,
+      502,
+      513,
+      801,
+      808,
+      861,
+      871,
+      881,
+      928,
+      1109,
+      1315,
+      1559,
+      1709,
+      1994,
+      2006
+    ],
+    "seed": 42,
+    "source_hash": "a31afea3f4ae46f456addc567f5149c7def905386bb361ba147185ba2a03f640",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4938,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Vivien Leigh",
+          "Clark Gable",
+          "Olivia de Havilland",
+          "Thomas Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "An American classic in which a manipulative woman and a roguish man carry on a turbulent love affair in the American south during the Civil War and Reconstruction.",
+        "release_date": "1939-12-15",
+        "release_year": "1939",
+        "title": "Gone with the Wind"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Madeleine Stowe",
+          "James Cromwell",
+          "Timothy Hutton"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Simon West",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When the body of Army Capt. Elizabeth Campbell is found on a Georgia military base, two investigators, Warrant Officers Paul Brenner and Sara Sunhill, are ordered to solve her murder. What they uncover is anything but clear-cut. Unseemly details emerge about Campbell's life, leading to allegations of a possible military coverup of her death and the involvement of her father, Lt. Gen. Joseph Campbell.",
+        "release_date": "1999-06-18",
+        "release_year": "1999",
+        "title": "General's Daughter, The"
+      },
+      {
+        "cast": [
+          "Nicole Kidman",
+          "Sam Neill",
+          "Billy Zane",
+          "George Shevtsov"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An Australian couple take a sailing trip in the Pacific to forget about a terrible accident. While on the open sea, in dead calm, they come across a ship with one survivor who is not at all what he seems.",
+        "release_date": "1989-04-07",
+        "release_year": "1989",
+        "title": "Dead Calm"
+      },
+      {
+        "cast": [
+          "Molly Shannon",
+          "Will Ferrell",
+          "Elaine Hendrix",
+          "Harland Williams"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Bruce McCulloch",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Orphan Mary Katherine Gallagher, an ugly duckling at St. Monica High School, has a dream: to be kissed soulfully. She decides she can realize this dream if she becomes a superstar, so her prayers, her fantasies, and her conversations with her only friend focus on achieving super-stardom.",
+        "release_date": "1999-10-08",
+        "release_year": "1999",
+        "title": "Superstar"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Heather Graham",
+          "Michael York",
+          "Robert Wagner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When diabolical genius, Dr. Evil travels back in time to steal superspy Austin Powers's ‘mojo’, Austin must return to the swingin' '60s himself – with the help of American agent, Felicity Shagwell – to stop the dastardly plan. Once there, Austin faces off against Dr. Evil's army of minions and saves the world in his own unbelievably groovy way.",
+        "release_date": "1999-06-08",
+        "release_year": "1999",
+        "title": "Austin Powers: The Spy Who Shagged Me"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Julia Louis-Dreyfus",
+          "Hayden Panettiere",
+          "Phyllis Diller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+        "release_date": "1998-11-25",
+        "release_year": "1998",
+        "title": "Bug's Life, A"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Freddie Prinze Jr.",
+          "Rachael Leigh Cook",
+          "Matthew Lillard",
+          "Paul Walker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Iscove",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "High school hotshot Zach Siler is the envy of his peers. But his popularity declines sharply when his cheerleader girlfriend, Taylor, leaves him for sleazy reality-television star Brock Hudson. Desperate to revive his fading reputation, Siler agrees to a seemingly impossible challenge. He has six weeks to gain the trust of nerdy outcast Laney Boggs -- and help her to become the school's next prom queen.",
+        "release_date": "1999-01-29",
+        "release_year": "1999",
+        "title": "She's All That"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Christopher Lloyd",
+          "Joanna Cassidy",
+          "Charles Fleischer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "'Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+        "release_date": "1988-06-21",
+        "release_year": "1988",
+        "title": "Who Framed Roger Rabbit?"
+      }
+    ],
+    "raw_user_id": "4938",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 31
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7295966842865987
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for certain comedies, particularly those that may not resonate well with the user.",
+        "Negative ratings for sci-fi films that do not meet expectations."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and thriller genres with multiple high ratings.",
+        "Enjoyment of comedic films, particularly those with a light-hearted tone.",
+        "Positive reception of children's comedies."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, often rating them highly.); Comedy (The user enjoys comedic films, with several rated positively, indicating a fondness for humor.); Thriller (The user appreciates thrillers, as evidenced by multiple high ratings in this genre.); Children's (The user has a liking for children's comedies, reflected in positive ratings for films in this category.); Documentary (The user has shown interest in documentaries, rating at least one highly.). Liked patterns: Strong preference for drama and thriller genres with multiple high ratings., Enjoyment of comedic films, particularly those with a light-hearted tone., Positive reception of children's comedies.. Disliked patterns: Dislike for certain comedies, particularly those that may not resonate well with the user., Negative ratings for sci-fi films that do not meet expectations..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, often rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedic films, with several rated positively, indicating a fondness for humor.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates thrillers, as evidenced by multiple high ratings in this genre.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user has a liking for children's comedies, reflected in positive ratings for films in this category.",
+          "taste": "Children's"
+        },
+        {
+          "reason": "The user has shown interest in documentaries, rating at least one highly.",
+          "taste": "Documentary"
+        }
+      ]
+    },
+    "user_id": 4938
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "4968a4f1dbe7534a52552daa0e5dfd9f34087cd072a5581e8b85f7b3becd1de0",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1740,
+      1990,
+      259,
+      44,
+      714,
+      173,
+      644,
+      127,
+      712,
+      365
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d695caf992484b18917fc06b26e280f6"
+    ],
+    "sampled_item_ids": [
+      23,
+      39,
+      93,
+      98,
+      105,
+      127,
+      133,
+      185,
+      221,
+      245,
+      259,
+      284,
+      349,
+      438,
+      469,
+      536,
+      734,
+      741,
+      874,
+      1292,
+      1523,
+      1717,
+      1939,
+      1989,
+      1990
+    ],
+    "seed": 42,
+    "source_hash": "d3dec0dc74354c18a600a6c9b665e92298710c9ba4420bdf23563193e3363100",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3172,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Dennis Hopper",
+          "Caroline Williams",
+          "Jim Siedow",
+          "Bill Moseley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tobe Hooper",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A radio host is victimized by the cannibal family as a former Texas Marshall hunts them.",
+        "release_date": "1986-08-22",
+        "release_year": "1986",
+        "title": "Texas Chainsaw Massacre 2, The"
+      },
+      {
+        "cast": [
+          "Eric Stoltz",
+          "Julie Delpy",
+          "Jean-Hugues Anglade",
+          "Tai Thai"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Roger Avary",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Zed (Eric Stoltz) is an American vault-cracker who travels to Paris to meet up with his old friend Eric (Jean-Hugues Anglade). Eric and his gang have planned to raid the only bank in the city which is open on Bastille day. After offering his services, Zed soon finds himself trapped in a situation beyond his control when heroin abuse, poor planning and a call-girl named Zoe all conspire to turn the robbery into a very bloody siege.",
+        "release_date": "1993-10-01",
+        "release_year": "1994",
+        "title": "Killing Zoe"
+      },
+      {
+        "cast": [
+          "Chris Cooper",
+          "Matthew McConaughey",
+          "Elizabeth Peña",
+          "Kris Kristofferson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Sayles",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When the skeleton of his murdered predecessor is found, Sheriff Sam Deeds unearths many other long-buried secrets in his Texas border town.",
+        "release_date": "1996-06-21",
+        "release_year": "1996",
+        "title": "Lone Star"
+      },
+      {
+        "cast": [
+          "Franka Potente",
+          "Moritz Bleibtreu",
+          "Herbert Knaup",
+          "Nina Petri"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Tom Tykwer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store to get the money. Three different alternatives may happen depending on some minor event along Lola's run.",
+        "release_date": "1998-08-20",
+        "release_year": "1998",
+        "title": "Run Lola Run (Lola rennt)"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Joe Pesci",
+          "Joss Ackland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the opening chase, Martin Riggs and Roger Murtaugh stumble across a trunk full of Krugerrands. They follow the trail to a South African diplomat who's using his immunity to conceal a smuggling operation. When he plants a bomb under Murtaugh's toilet, the action explodes!",
+        "release_date": "1989-07-07",
+        "release_year": "1989",
+        "title": "Lethal Weapon 2"
+      },
+      {
+        "cast": [
+          "John Turturro",
+          "Gabriel Byrne",
+          "Marcia Gay Harden",
+          "Steve Buscemi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Set in 1929, a political boss and his advisor have a parting of the ways when they both fall for the same woman.",
+        "release_date": "1990-09-21",
+        "release_year": "1990",
+        "title": "Miller's Crossing"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      },
+      {
+        "cast": [
+          "Helen Hunt",
+          "Bill Paxton",
+          "Cary Elwes",
+          "Jami Gertz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "TV weatherman Bill Harding is trying to get his tornado-hunter wife, Jo, to sign divorce papers so he can marry his girlfriend Melissa. But Mother Nature, in the form of a series of intense storms sweeping across Oklahoma, has other plans. Soon the three have joined the team of stormchasers as they attempt to insert a revolutionary measuring device into the very heart of several extremely violent tornados.",
+        "release_date": "1996-05-10",
+        "release_year": "1996",
+        "title": "Twister"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Gary Busey",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Veteran buttoned-down LAPD detective Roger Murtaugh is partnered with unhinged cop Martin Riggs, who -- distraught after his wife's death -- has a death wish and takes unnecessary risks with criminals at every turn. The odd couple embark on their first homicide investigation as partners, involving a young woman known to Murtaugh with ties to a drug and prostitution ring.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Lethal Weapon"
+      },
+      {
+        "cast": [
+          "Ron Perlman",
+          "Dominique Pinon",
+          "Judith Vittet",
+          "Daniel Emilfork"
+        ],
+        "country": [
+          "France",
+          "Germany",
+          "Spain"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "A scientist in a surrealist society kidnaps children to steal their dreams, hoping that they slow his aging process.",
+        "release_date": "1995-05-16",
+        "release_year": "1995",
+        "title": "City of Lost Children, The"
+      }
+    ],
+    "raw_user_id": "3172",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 88
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3436342334922702
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for straightforward action films without depth.",
+        "Dislike for romantic dramas that lack engaging plots.",
+        "Negative reception of thrillers that do not deliver suspense effectively."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres like action, sci-fi, and comedy.",
+        "Positive reception of films with strong character-driven stories.",
+        "Frequent enjoyment of animated films with comedic elements."
+      ],
+      "summary": "Unique tastes: Appreciation for Sci-Fi and Action (The user enjoys a blend of science fiction and action genres, often rating them highly.); Interest in Comedy and Drama (The user shows a preference for films that combine comedic elements with dramatic storytelling.); Enjoyment of Thrillers (The user rates several thrillers positively, indicating a taste for suspenseful narratives.); Fondness for Animation (The user appreciates animated films, particularly those that incorporate humor.); Preference for Complex Narratives (The user favors films with intricate plots and character development, as seen in their high ratings for dramas.). Liked patterns: High ratings for films that blend genres like action, sci-fi, and comedy., Positive reception of films with strong character-driven stories., Frequent enjoyment of animated films with comedic elements.. Disliked patterns: Low ratings for straightforward action films without depth., Dislike for romantic dramas that lack engaging plots., Negative reception of thrillers that do not deliver suspense effectively..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a blend of science fiction and action genres, often rating them highly.",
+          "taste": "Appreciation for Sci-Fi and Action"
+        },
+        {
+          "reason": "The user shows a preference for films that combine comedic elements with dramatic storytelling.",
+          "taste": "Interest in Comedy and Drama"
+        },
+        {
+          "reason": "The user rates several thrillers positively, indicating a taste for suspenseful narratives.",
+          "taste": "Enjoyment of Thrillers"
+        },
+        {
+          "reason": "The user appreciates animated films, particularly those that incorporate humor.",
+          "taste": "Fondness for Animation"
+        },
+        {
+          "reason": "The user favors films with intricate plots and character development, as seen in their high ratings for dramas.",
+          "taste": "Preference for Complex Narratives"
+        }
+      ]
+    },
+    "user_id": 3172
+  }
+}

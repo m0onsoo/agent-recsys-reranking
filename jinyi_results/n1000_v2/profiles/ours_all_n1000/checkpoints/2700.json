@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "87eb85ab1e10b10bccef04c146499e57ceafe437b8fd58d643d64483b3e99acb",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2463,
+      820,
+      464,
+      958,
+      2931,
+      284,
+      1112,
+      407,
+      133,
+      2180
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "dc6b50a6b64e40288063f88302de8e6e"
+    ],
+    "sampled_item_ids": [
+      25,
+      34,
+      106,
+      165,
+      198,
+      214,
+      302,
+      398,
+      438,
+      472,
+      475,
+      496,
+      663,
+      795,
+      889,
+      897,
+      910,
+      914,
+      924,
+      946,
+      983,
+      1163,
+      1274,
+      1914,
+      2121
+    ],
+    "seed": 42,
+    "source_hash": "ce5be2d7ddf982fdbac95293a301698e0e392022624849e2a29cd22265ac0018",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2700,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jeremy Davies",
+          "Benjamin Hendrickson",
+          "Alberta Watson",
+          "Carla Gallo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David O. Russell",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Bright young student Raymond Aibelli is forced to sidetrack an important medical internship because his mother, Susan, is recovering from a broken leg. When he isn't tasked with the most mundane aspects of Susan's recuperation, Raymond finds distraction in a neighborhood girl, Toni Peck. But, as Susan begins relying on her son for both physical and emotional needs, Raymond starts developing disturbing and unwanted new yearnings.",
+        "release_date": "1994-01-15",
+        "release_year": "1994",
+        "title": "Spanking the Monkey"
+      },
+      {
+        "cast": [
+          "Loren Dean",
+          "Hope Davis",
+          "Jason Lee",
+          "Alfre Woodard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In the small town of Mumford, a psychologist of the same name moves in and quickly becomes very popular, despite a questionable past.",
+        "release_date": "1999-09-24",
+        "release_year": "1999",
+        "title": "Mumford"
+      },
+      {
+        "cast": [
+          "Sean Astin",
+          "Jon Favreau",
+          "Ned Beatty",
+          "Greta Lind"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Anspaugh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Rudy grew up in a steel mill town where most people ended up working, but wanted to play football at Notre Dame instead. There were only a couple of problems. His grades were a little low, his athletic skills were poor, and he was only half the size of the other players. But he had the drive and the spirit of 5 people and has set his sights upon joining the team.",
+        "release_date": "1993-09-17",
+        "release_year": "1993",
+        "title": "Rudy"
+      },
+      {
+        "cast": [
+          "Kerry Fox",
+          "Christopher Eccleston",
+          "Ewan McGregor",
+          "Ken Stott"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Danny Boyle",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three friends discover their new flatmate dead but loaded with cash.",
+        "release_date": "1994-12-22",
+        "release_year": "1994",
+        "title": "Shallow Grave"
+      },
+      {
+        "cast": [
+          "John Wayne",
+          "Robert Mitchum",
+          "James Caan",
+          "Charlene Holt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Hawks",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Cole Thornton, a gunfighter for hire, joins forces with an old friend, Sheriff J.P. Hara. Together with an old indian fighter and a gambler, they help a rancher and his family fight a rival rancher that is trying to steal their water.",
+        "release_date": "1966-12-17",
+        "release_year": "1967",
+        "title": "Dorado, El"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "David Naughton",
+          "Jenny Agutter",
+          "Griffin Dunne",
+          "John Woodvine"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Two American tourists in England are attacked by a werewolf that none of the locals will admit exists.",
+        "release_date": "1981-08-21",
+        "release_year": "1981",
+        "title": "American Werewolf in London, An"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Heath Ledger",
+          "Joely Richardson",
+          "Jason Isaacs"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "After proving himself on the field of battle in the French and Indian War, Benjamin Martin wants nothing more to do with such things, preferring the simple life of a farmer. But when his son Gabriel enlists in the army to defend their new nation, America, against the British, Benjamin reluctantly returns to his old life to protect his son.",
+        "release_date": "2000-06-28",
+        "release_year": "2000",
+        "title": "Patriot, The"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Michelle Trachtenberg",
+          "Rosie O'Donnell",
+          "J. Smith-Cameron",
+          "Eartha Kitt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bronwen Hughes",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the secret notebook of a young girl who fancies herself a spy is found by her friends, her speculations make her very unpopular! Can she win her friends back?",
+        "release_date": "1996-07-10",
+        "release_year": "1996",
+        "title": "Harriet the Spy"
+      }
+    ],
+    "raw_user_id": "2700",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 236
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1755778771537084
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are purely comedic without deeper themes.",
+        "Negative reception of horror films that lack substantial plot or character development."
+      ],
+      "liked_patterns": [
+        "Enjoyment of films that blend drama with crime and romance.",
+        "Positive reception of animated films, particularly those with musical elements.",
+        "Appreciation for films that feature strong character arcs and complex narratives."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates complex narratives and character development, as seen in multiple high-rated dramas.); Crime (The user shows a strong interest in crime-related themes, often rating them positively.); Comedy (The user enjoys comedic elements, particularly when blended with other genres like drama and crime.); Romance (The user has a notable preference for romantic themes, especially when intertwined with drama.); Mystery (The user is drawn to films that incorporate mystery elements, often rating them favorably.). Liked patterns: Enjoyment of films that blend drama with crime and romance., Positive reception of animated films, particularly those with musical elements., Appreciation for films that feature strong character arcs and complex narratives.. Disliked patterns: Dislike for films that are purely comedic without deeper themes., Negative reception of horror films that lack substantial plot or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates complex narratives and character development, as seen in multiple high-rated dramas.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows a strong interest in crime-related themes, often rating them positively.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "The user enjoys comedic elements, particularly when blended with other genres like drama and crime.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user has a notable preference for romantic themes, especially when intertwined with drama.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user is drawn to films that incorporate mystery elements, often rating them favorably.",
+          "taste": "Mystery"
+        }
+      ]
+    },
+    "user_id": 2700
+  }
+}

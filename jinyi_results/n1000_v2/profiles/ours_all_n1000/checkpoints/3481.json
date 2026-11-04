@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "e916494932330f168122e1dc8b8c37e84ec3a7185a96a96ce8a7468ad752bcef",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1259,
+      385,
+      1731,
+      2029,
+      643,
+      152,
+      715,
+      814,
+      1448,
+      153
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "69a79ad546424d34b28c41317b7e7f9b"
+    ],
+    "sampled_item_ids": [
+      45,
+      61,
+      65,
+      72,
+      76,
+      125,
+      128,
+      218,
+      284,
+      385,
+      421,
+      439,
+      455,
+      601,
+      643,
+      744,
+      1237,
+      1242,
+      1448,
+      1585,
+      1731,
+      1939,
+      2128,
+      2693,
+      2729
+    ],
+    "seed": 42,
+    "source_hash": "a42c10f134bca1a4cb5dc72f8f892421745a3e1c1682f5c90e307deaf9a8bcec",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3481,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Derek Jacobi",
+          "Andy García",
+          "Robin Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In 1949 composer Roman Strauss is executed for the vicious murder of his wife Margaret with a pair of scissors. In 1990s Los Angeles a mute amnesiac woman shows up at an orphanage and private eye Mike Church is called in to investigate. Under hypnosis both the woman and Church seem to have a strange link back to the Strauss murder.",
+        "release_date": "1991-08-23",
+        "release_year": "1991",
+        "title": "Dead Again"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Gary Farmer",
+          "Crispin Glover",
+          "Lance Henriksen"
+        ],
+        "country": [
+          "Germany",
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Jim Jarmusch",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "On the run after murdering a man, accountant William Blake encounters a strange North American man named Nobody who prepares him for his journey into the spiritual world.",
+        "release_date": "1995-12-23",
+        "release_year": "1995",
+        "title": "Dead Man"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Jon Voight",
+          "Sylvia Miles",
+          "John McGiver"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A naive male prostitute and his sickly friend struggle to survive on the streets of New York City.",
+        "release_date": "1969-05-25",
+        "release_year": "1969",
+        "title": "Midnight Cowboy"
+      },
+      {
+        "cast": [
+          "Jean Gabin",
+          "Dita Parlo",
+          "Pierre Fresnay",
+          "Erich von Stroheim"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Jean Renoir",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "French",
+        "overview": "A group of French soldiers, including the patrician Captain de Boeldieu and the working-class Lieutenant Maréchal, grapple with their own class differences after being captured and held in a World War I German prison camp. When the men are transferred to a high-security fortress, they must concoct a plan to escape beneath the watchful eye of aristocratic German officer von Rauffenstein, who has formed an unexpected bond with de Boeldieu.",
+        "release_date": "1937-06-04",
+        "release_year": "1937",
+        "title": "Grand Illusion (Grande illusion, La)"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Alec Baldwin",
+          "Winona Ryder",
+          "Michael Keaton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Thanks to an untimely demise via drowning, a young couple end up as poltergeists in their New England farmhouse, where they fail to meet the challenge of scaring away the insufferable new owners, who want to make drastic changes. In desperation, the undead newlyweds turn to an expert frightmeister, but he's got a diabolical agenda of his own.",
+        "release_date": "1988-02-29",
+        "release_year": "1988",
+        "title": "Beetlejuice"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Michael Biehn",
+          "James Remar",
+          "Paul Reiser"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
+        "release_date": "1986-07-18",
+        "release_year": "1986",
+        "title": "Aliens"
+      },
+      {
+        "cast": [
+          "Scott Allen",
+          "Steven Soderbergh",
+          "Betsy Brantley",
+          "Eddie Jemison"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Fletcher Munson is a lethargic, passive worker for a Scientology-like self-help corporation called Eventualism...",
+        "release_date": "1996-09-13",
+        "release_year": "1996",
+        "title": "Schizopolis"
+      },
+      {
+        "cast": [
+          "Spencer Tracy",
+          "Fredric March",
+          "Gene Kelly",
+          "Dick York"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Kramer",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "This gripping adaptation of the Jerome Lawrence-Robert E. Lee play examines an issue that still causes great controversy: the role religion should play in the schools.",
+        "release_date": "1960-06-24",
+        "release_year": "1960",
+        "title": "Inherit the Wind"
+      },
+      {
+        "cast": [
+          "Meryl Streep",
+          "Kevin Kline",
+          "Peter MacNicol",
+          "Rita Karin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Alan J. Pakula",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Meryl Streep stars as Sophie, a Polish immigrant who shares a boarding house in Brooklyn with her tempestuous lover, Nathan (Kevin Kline in his feature film debut), and a young writer, Stingo (Peter MacNicol).",
+        "release_date": "1982-12-08",
+        "release_year": "1982",
+        "title": "Sophie's Choice"
+      }
+    ],
+    "raw_user_id": "3481",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 112
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5765479367960082
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or emotional resonance",
+        "Dislike for films that do not engage with complex themes"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure genres",
+        "Enjoyment of films with dramatic and emotional narratives",
+        "Appreciation for fantasy and sci-fi elements"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films with thrilling plots and adventurous themes.); Drama with Emotional Depth (The user appreciates dramas that explore complex emotions and character development.); Fantasy Elements (The user is drawn to films that incorporate fantastical elements within their narratives.); Romantic Subplots (The user enjoys films that weave romance into their stories, enhancing emotional engagement.); Comedy with Heart (The user favors comedies that blend humor with deeper themes or character relationships.). Liked patterns: Strong preference for action and adventure genres, Enjoyment of films with dramatic and emotional narratives, Appreciation for fantasy and sci-fi elements. Disliked patterns: Dislike for comedies that lack depth or emotional resonance, Dislike for films that do not engage with complex themes.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films with thrilling plots and adventurous themes.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex emotions and character development.",
+          "taste": "Drama with Emotional Depth"
+        },
+        {
+          "reason": "The user is drawn to films that incorporate fantastical elements within their narratives.",
+          "taste": "Fantasy Elements"
+        },
+        {
+          "reason": "The user enjoys films that weave romance into their stories, enhancing emotional engagement.",
+          "taste": "Romantic Subplots"
+        },
+        {
+          "reason": "The user favors comedies that blend humor with deeper themes or character relationships.",
+          "taste": "Comedy with Heart"
+        }
+      ]
+    },
+    "user_id": 3481
+  }
+}

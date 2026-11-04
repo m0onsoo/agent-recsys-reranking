@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "6a498e417fd4cc3eb2ed1c89cfcd0a44d1556214af19593bdb641a564adab89f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1432,
+      126,
+      196,
+      79,
+      284,
+      2056,
+      1829,
+      622,
+      376,
+      185
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9e4ddab33c5a4b05adb73dc767c41522"
+    ],
+    "sampled_item_ids": [
+      52,
+      63,
+      79,
+      87,
+      93,
+      127,
+      147,
+      148,
+      172,
+      195,
+      196,
+      244,
+      466,
+      490,
+      503,
+      534,
+      640,
+      663,
+      730,
+      870,
+      955,
+      1108,
+      1339,
+      1347,
+      1540
+    ],
+    "seed": 42,
+    "source_hash": "27a106859dd3103d11f1fd35172b2d3f69c9de280fa63336aa3517852df71d68",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3591,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Wesley Snipes",
+          "Woody Harrelson",
+          "Rosie Perez",
+          "Tyra Ferrell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Billy Hoyle (Woody Harrelson) and Sidney Deane (Wesley Snipes) are an unlikely pair of basketball hustlers. They team up to con their way across the courts of Los Angeles, playing a game that's fast dangerous - and funny.",
+        "release_date": "1992-03-26",
+        "release_year": "1992",
+        "title": "White Men Can't Jump"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "John Cusack",
+          "John Malkovich",
+          "Ving Rhames"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Simon West",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When the government puts all its rotten criminal eggs in one airborne basket, it's asking for trouble. Before you can say, \"Pass the barf bag,\" the crooks control the plane, led by creepy Cyrus \"The Virus\" Grissom. Watching his every move is the just-released Cameron Poe, who'd rather reunite with his family.",
+        "release_date": "1997-06-01",
+        "release_year": "1997",
+        "title": "Con Air"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Nicolas Cage",
+          "Ed Harris",
+          "John Spencer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A group of renegade marine commandos seizes a stockpile of chemical weapons and takes over Alcatraz, with 81 tourists as hostages. Their leader demands $100 million to be paid, as restitution to families of Marines who died in covert ops – or he will launch 15 rockets carrying deadly VX gas into the San Francisco Bay area.",
+        "release_date": "1996-06-06",
+        "release_year": "1996",
+        "title": "Rock, The"
+      },
+      {
+        "cast": [
+          "Alec Baldwin",
+          "Sean Connery",
+          "Scott Glenn",
+          "Sam Neill"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A new Soviet nuclear missile sub (a Boomer) heading out on her maiden voyage that is being tracked by a Los Angeles class American submarine suddenly goes silent and \"disappears\". This focuses the attention of both U.S. Intelligence and the U.S. Navy on the Russian Sub Commander .  When it is determined that the silent Soviet Boomer may be headed for American coastal waters panic ensues. A CIA analyst, Jack Ryan,  convinces the brass that the Boomer's commander may intend something other than a nuclear first strike in mind. A perilous and tense cat-and-mouse game ensues.",
+        "release_date": "1990-03-02",
+        "release_year": "1990",
+        "title": "Hunt for Red October, The"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "Ben Affleck",
+          "Gary Sinise",
+          "Charlize Theron",
+          "Dennis Farina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Frankenheimer",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After assuming his dead cellmate's identity to get with his girlfriend, an ex-con finds himself the reluctant participant in a casino heist.",
+        "release_date": "2000-02-25",
+        "release_year": "2000",
+        "title": "Reindeer Games"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Billy Crystal",
+          "Julia Louis-Dreyfus",
+          "Nastassja Kinski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After Scott has a fight with his father and runs away and when his father refuses to go after him. His mother, Collette, then goes to one of her former boyfriends, Jack, a lawyer, and tells him that he's her son's real father. Jack initially refuses. So she goes to another boyfriend, Dale, who goes off looking for Scott. Eventually the two men meet and realize that they are looking for the same boy and that Collette told them they are the boy's father. What follows is a mad chase, cause the boy doesn't want to go back.",
+        "release_date": "1997-05-09",
+        "release_year": "1997",
+        "title": "Fathers' Day"
+      },
+      {
+        "cast": [
+          "Hugh Grant",
+          "Julianne Moore",
+          "Tom Arnold",
+          "Joan Cusack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Columbus",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When he finds out his longtime girlfriend is pregnant, a commitment-phobe realizes he might have to change his lifestyle for better or much, much worse.",
+        "release_date": "1995-07-12",
+        "release_year": "1995",
+        "title": "Nine Months"
+      },
+      {
+        "cast": [
+          "Brandon Lee",
+          "Rochelle Davis",
+          "Ernie Hudson",
+          "Michael Wincott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Exactly one year after young rock guitarist Eric Draven and his fiancée are brutally killed by a ruthless gang of criminals, Draven -- watched over by a hypnotic crow -- returns from the grave to exact revenge.",
+        "release_date": "1994-05-11",
+        "release_year": "1994",
+        "title": "Crow, The"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      }
+    ],
+    "raw_user_id": "3591",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 162
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1181286547028333
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films that lack depth or engaging storylines.",
+        "Negative response to thrillers that do not deliver suspense or excitement."
+      ],
+      "liked_patterns": [
+        "Strong preference for films that combine action with adventure and thriller elements.",
+        "Enjoyment of films that feature a mix of comedy and romance.",
+        "Appreciation for narratives that delve into crime and drama."
+      ],
+      "summary": "Unique tastes: Appreciation for Crime and Drama (The user enjoys films that blend crime and drama elements, often resulting in intense narratives.); Interest in Action and Adventure (The user favors action-packed films that also incorporate adventure themes, indicating a preference for excitement and thrill.); Enjoyment of Comedy and Romance (The user shows a strong liking for comedies that include romantic elements, suggesting a preference for light-hearted and emotional storytelling.); Fascination with War Themes (The user appreciates films that explore war, indicating an interest in historical and dramatic portrayals of conflict.); Preference for Thrillers (The user enjoys thrillers across various genres, indicating a taste for suspenseful and engaging plots.). Liked patterns: Strong preference for films that combine action with adventure and thriller elements., Enjoyment of films that feature a mix of comedy and romance., Appreciation for narratives that delve into crime and drama.. Disliked patterns: Dislike for action films that lack depth or engaging storylines., Negative response to thrillers that do not deliver suspense or excitement..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend crime and drama elements, often resulting in intense narratives.",
+          "taste": "Appreciation for Crime and Drama"
+        },
+        {
+          "reason": "The user favors action-packed films that also incorporate adventure themes, indicating a preference for excitement and thrill.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user shows a strong liking for comedies that include romantic elements, suggesting a preference for light-hearted and emotional storytelling.",
+          "taste": "Enjoyment of Comedy and Romance"
+        },
+        {
+          "reason": "The user appreciates films that explore war, indicating an interest in historical and dramatic portrayals of conflict.",
+          "taste": "Fascination with War Themes"
+        },
+        {
+          "reason": "The user enjoys thrillers across various genres, indicating a taste for suspenseful and engaging plots.",
+          "taste": "Preference for Thrillers"
+        }
+      ]
+    },
+    "user_id": 3591
+  }
+}

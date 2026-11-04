@@ -1,0 +1,346 @@
+{
+  "checkpoint_hash": "d3427e9276ac746631309f61a528b42836e5ef6085b2ec783be20f221f0ee4de",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      718,
+      865,
+      156,
+      1317,
+      681,
+      75,
+      703,
+      1342,
+      750,
+      1134
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "f675d63a82c94934a5b22b673293c946"
+    ],
+    "sampled_item_ids": [
+      65,
+      75,
+      210,
+      606,
+      607,
+      627,
+      647,
+      656,
+      657,
+      703,
+      718,
+      721,
+      738,
+      739,
+      749,
+      755,
+      809,
+      843,
+      858,
+      897,
+      1000,
+      1014,
+      1027,
+      1041,
+      1260
+    ],
+    "seed": 42,
+    "source_hash": "b7b03a73d96ea221e7dc386c60ef567903e8de8997f8538cefac0969a3071d99",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 262,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sean Astin",
+          "Josh Brolin",
+          "Jeff Cohen",
+          "Corey Feldman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young teenager named Mikey Walsh finds an old treasure map in his father's attic. Hoping to save their homes from demolition, Mikey and his friends Data Wang, Chunk Cohen, and Mouth Devereaux run off on a big quest to find the secret stash of Pirate One-Eyed Willie.",
+        "release_date": "1985-06-06",
+        "release_year": "1985",
+        "title": "Goonies, The"
+      },
+      {
+        "cast": [
+          "Mel Brooks",
+          "Rick Moranis",
+          "Bill Pullman",
+          "Daphne Zuniga"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When the nefarious Dark Helmet hatches a plan to snatch Princess Vespa and steal her planet's air, space-bum-for-hire Lone Starr and his clueless sidekick fly to the rescue. Along the way, they meet Yogurt, who puts Lone Starr wise to the power of \"The Schwartz.\" Can he master it in time to save the day?",
+        "release_date": "1987-06-24",
+        "release_year": "1987",
+        "title": "Spaceballs"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Gary Oldman",
+          "Ian Holm",
+          "Milla Jovovich"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In 2257, a taxi driver is unintentionally given the task of saving a young girl who is part of the key that will ensure the survival of humanity.",
+        "release_date": "1997-05-07",
+        "release_year": "1997",
+        "title": "Fifth Element, The"
+      },
+      {
+        "cast": [
+          "Gregory Smith",
+          "Kirsten Dunst",
+          "Denis Leary",
+          "Phil Hartman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Fantasy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When missile technology is used to enhance toy action figures, the toys soon begin to take their battle programming too seriously.",
+        "release_date": "1998-07-10",
+        "release_year": "1998",
+        "title": "Small Soldiers"
+      },
+      {
+        "cast": [
+          "Angela Lansbury",
+          "David Tomlinson",
+          "Roddy McDowall",
+          "Sam Jaffe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Stevenson",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Three children evacuated from London during World War II are forced to stay with an eccentric spinster (Eglantine Price). The children's initial fears disappear when they find out she is in fact a trainee witch.",
+        "release_date": "1971-10-07",
+        "release_year": "1971",
+        "title": "Bedknobs and Broomsticks"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "William Baldwin",
+          "Robert De Niro",
+          "Donald Sutherland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "They say a blast of flames can take a life ... and hide a secret. But now firemen brothers Brian and Stephen McCaffrey are battling each other over past slights while trying to stop an arsonist with a diabolical agenda from torching Chicago.",
+        "release_date": "1991-05-24",
+        "release_year": "1991",
+        "title": "Backdraft"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "Lee Van Cleef",
+          "Ernest Borgnine",
+          "Donald Pleasence"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In 1997, the island of Manhattan has been walled off and turned into a giant maximum security prison within which the country's worst criminals are left to form their own anarchic society. However, when the President of the United States crash lands on the island, the authorities turn to a former soldier and current convict, Snake Plissken, to rescue him.",
+        "release_date": "1981-05-22",
+        "release_year": "1981",
+        "title": "Escape from New York"
+      },
+      {
+        "cast": [
+          "Michael Jordan",
+          "Wayne Knight",
+          "Billy West",
+          "Dee Bradley Baker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Pytka",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "In a desperate attempt to win a basketball match and earn their freedom, the Looney Tunes seek the aid of retired basketball champion, Michael Jordan.",
+        "release_date": "1996-11-15",
+        "release_year": "1996",
+        "title": "Space Jam"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Harvey Keitel",
+          "Peter O'Toole",
+          "Bill Nighy"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Charles Sturridge",
+        "genres": [
+          "Children's",
+          "Drama",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Two children in 1917 take a photograph, believed by some to be the first scientific evidence of the existence of fairies. Based on a true story",
+        "release_date": "1997-01-01",
+        "release_year": "1997",
+        "title": "FairyTale: A True Story"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Shatner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Capt. Kirk and his crew must deal with Mr. Spock's half brother who kidnaps three diplomats and hijacks the Enterprise in his obsessive search for God.",
+        "release_date": "1989-06-09",
+        "release_year": "1989",
+        "title": "Star Trek V: The Final Frontier"
+      }
+    ],
+    "raw_user_id": "262",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 86
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0075106719897398
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror elements in sci-fi films.",
+        "Negative ratings for action films lacking strong narratives or character development."
+      ],
+      "liked_patterns": [
+        "Strong preference for action-adventure films with sci-fi elements.",
+        "Positive ratings for fantasy films that include adventure or romance.",
+        "Enjoyment of children's films that blend humor and fantasy."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.); Fantasy Elements (The user appreciates fantasy elements in movies, often rating them positively when combined with adventure or romance.); Sci-Fi Themes (The user shows a strong preference for science fiction, particularly when it intersects with action and adventure.); Children's and Family-Friendly Content (The user rates children's and family-oriented films positively, indicating a fondness for light-hearted and imaginative storytelling.); Romantic Undertones (The user enjoys films that incorporate romantic themes, especially when blended with action or fantasy.). Liked patterns: Strong preference for action-adventure films with sci-fi elements., Positive ratings for fantasy films that include adventure or romance., Enjoyment of children's films that blend humor and fantasy.. Disliked patterns: Dislike for horror elements in sci-fi films., Negative ratings for action films lacking strong narratives or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates fantasy elements in movies, often rating them positively when combined with adventure or romance.",
+          "taste": "Fantasy Elements"
+        },
+        {
+          "reason": "The user shows a strong preference for science fiction, particularly when it intersects with action and adventure.",
+          "taste": "Sci-Fi Themes"
+        },
+        {
+          "reason": "The user rates children's and family-oriented films positively, indicating a fondness for light-hearted and imaginative storytelling.",
+          "taste": "Children's and Family-Friendly Content"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romantic themes, especially when blended with action or fantasy.",
+          "taste": "Romantic Undertones"
+        }
+      ]
+    },
+    "user_id": 262
+  }
+}

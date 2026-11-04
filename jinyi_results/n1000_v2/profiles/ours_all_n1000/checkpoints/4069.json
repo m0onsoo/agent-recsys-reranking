@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "25a35fbfbd5d760842d87681e2002439498310b280b78495e0e81221b5b148fd",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      644,
+      615,
+      1039,
+      45,
+      238,
+      1886,
+      171,
+      1259,
+      636,
+      1466
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8f3d4b38b2254567897b88424721e667"
+    ],
+    "sampled_item_ids": [
+      6,
+      45,
+      134,
+      161,
+      171,
+      238,
+      410,
+      471,
+      615,
+      636,
+      644,
+      704,
+      854,
+      942,
+      1039,
+      1069,
+      1072,
+      1155,
+      1255,
+      1259,
+      1466,
+      1886,
+      2323,
+      2467,
+      2482
+    ],
+    "seed": 42,
+    "source_hash": "e1118863c0fb54556958b4a9c31857cc3e95eb29d498401ee904ba57d7024945",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4069,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "scientist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      },
+      {
+        "cast": [
+          "Paul Reubens",
+          "E.G. Daily",
+          "Mark Holton",
+          "Diane Salinger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The eccentric and childish Pee-wee Herman embarks on a big adventure when his beloved bicycle is stolen. Armed with information from a fortune-teller and a relentless obsession with his prized possession, Pee-wee encounters a host of odd characters and bizarre situations as he treks across the country to recover his bike.",
+        "release_date": "1985-07-26",
+        "release_year": "1985",
+        "title": "Pee-wee's Big Adventure"
+      },
+      {
+        "cast": [
+          "Molly Ringwald",
+          "Jon Cryer",
+          "Andrew McCarthy",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Deutch",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Andie is an outcast, hanging out either with her older boss, who owns the record store where she works, or her quirky high school classmate Duckie, who has a crush on her. When one of the rich and popular kids at school, Blane, asks Andie out, it seems too good to be true. As Andie starts falling for Blane, she begins to realize that dating someone from a different social sphere is not easy.",
+        "release_date": "1986-02-28",
+        "release_year": "1986",
+        "title": "Pretty in Pink"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Hugh Jackman",
+          "Ian McKellen",
+          "Halle Berry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers.",
+        "release_date": "2000-07-13",
+        "release_year": "2000",
+        "title": "X-Men"
+      },
+      {
+        "cast": [
+          "Breckin Meyer",
+          "Seann William Scott",
+          "Amy Smart",
+          "Paulo Costanzo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Todd Phillips",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Four friends take off on an 1800 mile road trip to retrieve an illicit tape mistakenly mailed to a girl friend.",
+        "release_date": "2000-05-19",
+        "release_year": "2000",
+        "title": "Road Trip"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Michael Murphy",
+          "Mariel Hemingway"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The life of a divorced television writer dating a teenage girl is further complicated when he falls in love with his best friend's mistress.",
+        "release_date": "1979-04-25",
+        "release_year": "1979",
+        "title": "Manhattan"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Derek Jacobi",
+          "Andy García",
+          "Robin Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In 1949 composer Roman Strauss is executed for the vicious murder of his wife Margaret with a pair of scissors. In 1990s Los Angeles a mute amnesiac woman shows up at an orphanage and private eye Mike Church is called in to investigate. Under hypnosis both the woman and Church seem to have a strange link back to the Strauss murder.",
+        "release_date": "1991-08-23",
+        "release_year": "1991",
+        "title": "Dead Again"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Ellen Greene",
+          "Vincent Gardenia",
+          "Steve Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Seymour Krelborn is a nerdy orphan working at Mushnik's, a flower shop in urban Skid Row. He harbors a crush on fellow co-worker Audrey Fulquard, and is berated by Mr. Mushnik daily. One day as Seymour is seeking a new mysterious plant, he finds a very mysterious unidentified plant which he calls Audrey II. The plant seems to have a craving for blood and soon begins to sing for his supper.",
+        "release_date": "1986-12-19",
+        "release_year": "1986",
+        "title": "Little Shop of Horrors"
+      },
+      {
+        "cast": [
+          "Laurence Olivier",
+          "Joan Fontaine",
+          "George Sanders",
+          "Judith Anderson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A self-conscious bride is tormented by the memory of her husband's dead first wife.",
+        "release_date": "1940-04-12",
+        "release_year": "1940",
+        "title": "Rebecca"
+      }
+    ],
+    "raw_user_id": "4069",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 25
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.2026642203620692
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that are primarily action without additional depth or narrative.",
+        "Dislike for romantic comedies that do not resonate emotionally.",
+        "Negative reception of films that attempt to blend genres unsuccessfully."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend comedy with romance or drama.",
+        "Positive reception of action films that incorporate adventure elements.",
+        "Strong preference for films with unique or imaginative storytelling."
+      ],
+      "summary": "Unique tastes: Appreciation for Action and Adventure (The user rates multiple action and adventure films highly, indicating a strong preference for these genres.); Fondness for Comedy and Romance (Several comedies and romantic films receive high ratings, suggesting a liking for light-hearted and emotional narratives.); Interest in Sci-Fi and Fantasy (The user enjoys sci-fi and fantasy elements, as evidenced by high ratings for films in these genres.); Enjoyment of Drama (Dramatic films are frequently rated positively, showing an appreciation for deeper, character-driven stories.); Preference for Unique Storytelling (The user rates films with unconventional plots or themes highly, indicating a taste for originality.). Liked patterns: High ratings for films that blend comedy with romance or drama., Positive reception of action films that incorporate adventure elements., Strong preference for films with unique or imaginative storytelling.. Disliked patterns: Low ratings for films that are primarily action without additional depth or narrative., Dislike for romantic comedies that do not resonate emotionally., Negative reception of films that attempt to blend genres unsuccessfully..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple action and adventure films highly, indicating a strong preference for these genres.",
+          "taste": "Appreciation for Action and Adventure"
+        },
+        {
+          "reason": "Several comedies and romantic films receive high ratings, suggesting a liking for light-hearted and emotional narratives.",
+          "taste": "Fondness for Comedy and Romance"
+        },
+        {
+          "reason": "The user enjoys sci-fi and fantasy elements, as evidenced by high ratings for films in these genres.",
+          "taste": "Interest in Sci-Fi and Fantasy"
+        },
+        {
+          "reason": "Dramatic films are frequently rated positively, showing an appreciation for deeper, character-driven stories.",
+          "taste": "Enjoyment of Drama"
+        },
+        {
+          "reason": "The user rates films with unconventional plots or themes highly, indicating a taste for originality.",
+          "taste": "Preference for Unique Storytelling"
+        }
+      ]
+    },
+    "user_id": 4069
+  }
+}

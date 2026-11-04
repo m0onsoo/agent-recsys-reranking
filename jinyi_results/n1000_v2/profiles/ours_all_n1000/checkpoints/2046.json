@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "22de79d9055a51a9c1312873321a3ea7b012912498cdad24a8e44e4a6e00f632",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1810,
+      500,
+      245,
+      1217,
+      410,
+      6,
+      586,
+      23,
+      466,
+      479
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ac73e1b3d17f44deb7813bbbd172b9ad"
+    ],
+    "sampled_item_ids": [
+      6,
+      16,
+      21,
+      24,
+      61,
+      150,
+      171,
+      200,
+      204,
+      207,
+      245,
+      257,
+      318,
+      384,
+      410,
+      520,
+      530,
+      548,
+      586,
+      734,
+      1121,
+      1252,
+      1506,
+      1669,
+      1810
+    ],
+    "seed": 42,
+    "source_hash": "562d17819aa33402786b5dc55e7fa03ea2c2fa5d2f969832ad83f8465a0ec491",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2046,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Robert Englund",
+          "Tuesday Knight",
+          "Ken Sagoes",
+          "Rodney Eastman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Dream demon Freddy Krueger is resurrected from his apparent demise, and rapidly tracks down and kills the remainder of the Elm Street kids. However, Kristen, who can draw others into her dreams, wills her special ability to her friend Alice. Alice soon realizes that Freddy is taking advantage of that unknown power to pull a new group of children into his foul domain.",
+        "release_date": "1988-08-19",
+        "release_year": "1988",
+        "title": "Nightmare on Elm Street 4: The Dream Master, A"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Iben Hjejle",
+          "Todd Louiso",
+          "Jack Black"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When record store owner Rob Gordon gets dumped by his girlfriend, Laura, because he hasn't changed since they met, he revisits his top five breakups of all time in an attempt to figure out what went wrong. As Rob seeks out his former lovers to find out why they left, he keeps up his efforts to win Laura back.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "High Fidelity"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "Robert Hays",
+          "Julie Hagerty",
+          "Lloyd Bridges",
+          "Chad Everett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ken Finkleman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A faulty computer causes a passenger space shuttle to head straight for the sun, and man-with-a-past, Ted Striker must save the day and get the shuttle back on track – again – all the while trying to patch up his relationship with Elaine.",
+        "release_date": "1982-12-10",
+        "release_year": "1982",
+        "title": "Airplane II: The Sequel"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Kathleen Turner",
+          "Robert Loggia",
+          "William Hickey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A professional hit man and hit woman fall in love, only to discover that they have each been hired to kill the other.",
+        "release_date": "1985-06-14",
+        "release_year": "1985",
+        "title": "Prizzi's Honor"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Priscilla Lane",
+          "Raymond Massey",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Capra",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mortimer Brewster is a newspaperman and author known for his diatribes against marriage. We watch him being married at city hall in the opening scene. Now all that is required is a quick trip home to tell Mortimer's two maiden aunts. While trying to break the news, he finds out his aunts' hobby; killing lonely old men and burying them in the cellar. It gets worse.",
+        "release_date": "1944-09-23",
+        "release_year": "1944",
+        "title": "Arsenic and Old Lace"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jeanne Tripplehorn",
+          "Gene Hackman",
+          "Holly Hunter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mitch McDeere is a young man with a promising future in Law. About to sit his Bar exam, he is approached by 'The Firm' and made an offer he doesn't refuse. Seduced by the money and gifts showered on him, he is totally oblivious to the more sinister side of his company. Then, two Associates are murdered. The FBI contact him, asking him for information and suddenly his life is ruined. He has a choice - work with the FBI, or stay with the Firm. Either way he will lose his life as he knows it. Mitch figures the only way out is to follow his own plan...",
+        "release_date": "1993-06-30",
+        "release_year": "1993",
+        "title": "Firm, The"
+      },
+      {
+        "cast": [
+          "Jean-Paul Belmondo",
+          "Michel Boujenah",
+          "Alessandra Martines",
+          "Salomé Lelouch"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Claude Lelouch",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "French",
+        "overview": "In France during World War II, a poor and illiterate man, Henri Fortin (Jean-Paul Belmondo), is introduced to Victor Hugo's classic novel Les Misérables and begins to see parallels between the book and his own life.",
+        "release_date": "1995-03-22",
+        "release_year": "1995",
+        "title": "Misérables, Les"
+      }
+    ],
+    "raw_user_id": "2046",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 67
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7504812393917303
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films, as indicated by low ratings for multiple titles in this genre."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies that blend humor with other genres.",
+        "High ratings for dramas that explore deep themes and character development.",
+        "Positive reception of films that combine action with adventure elements."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, as indicated by multiple high ratings for films in this genre.); Interest in Drama (The user rates several dramas highly, suggesting a strong appreciation for emotional and thought-provoking narratives.); Enjoyment of Action and Adventure (The user has rated several action and adventure films positively, indicating a preference for excitement and thrill.); Fondness for Romantic Elements (The user shows a liking for films that incorporate romance, often rating them favorably.); Preference for Genre Blends (The user enjoys films that mix genres, such as comedy with drama or action, reflecting a taste for complexity in storytelling.). Liked patterns: Strong preference for comedies that blend humor with other genres., High ratings for dramas that explore deep themes and character development., Positive reception of films that combine action with adventure elements.. Disliked patterns: Dislike for horror films, as indicated by low ratings for multiple titles in this genre..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, as indicated by multiple high ratings for films in this genre.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several dramas highly, suggesting a strong appreciation for emotional and thought-provoking narratives.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated several action and adventure films positively, indicating a preference for excitement and thrill.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user shows a liking for films that incorporate romance, often rating them favorably.",
+          "taste": "Fondness for Romantic Elements"
+        },
+        {
+          "reason": "The user enjoys films that mix genres, such as comedy with drama or action, reflecting a taste for complexity in storytelling.",
+          "taste": "Preference for Genre Blends"
+        }
+      ]
+    },
+    "user_id": 2046
+  }
+}

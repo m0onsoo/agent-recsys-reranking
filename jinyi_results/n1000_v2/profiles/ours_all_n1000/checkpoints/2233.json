@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "03620c8185b578231657cbd11fd5e2491a7101bba50f976c258c78f8b582f498",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      274,
+      81,
+      1022,
+      416,
+      125,
+      1530,
+      640,
+      733,
+      322,
+      1265
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "c7809baba1e7433987eaa6f7b5f8ca01"
+    ],
+    "sampled_item_ids": [
+      6,
+      96,
+      109,
+      146,
+      169,
+      322,
+      333,
+      427,
+      440,
+      466,
+      506,
+      507,
+      518,
+      624,
+      756,
+      881,
+      894,
+      1182,
+      1302,
+      1366,
+      1517,
+      1527,
+      1631,
+      1645,
+      1773
+    ],
+    "seed": 42,
+    "source_hash": "d5c3c9110b221f7973c9847527f853f18b0e74c42ff9249ed40633ad8b598f47",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2233,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bill Murray",
+          "Dan Aykroyd",
+          "Sigourney Weaver",
+          "Harold Ramis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Ghostbusters"
+      },
+      {
+        "cast": [
+          "Ashley Judd",
+          "Ian Michael Smith",
+          "Joseph Mazzello",
+          "Oliver Platt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Steven Johnson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Simon Birch tells the story of Joe and Simon's heart-warming journey of friendship. Simon Birch was born with a condition that makes him much smaller than all the other kids in town. Now, due to his condition, Simon thinks God made him this way for a reason and highly believes in God. Together, Joe and Simon go on a journey of trust and friendship to find the answers to many things. Their friendship is put to the test when some unfortunate events happen.",
+        "release_date": "1998-09-11",
+        "release_year": "1998",
+        "title": "Simon Birch"
+      },
+      {
+        "cast": [
+          "Bette Midler",
+          "Sarah Jessica Parker",
+          "Kathy Najimy",
+          "Omri Katz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kenny Ortega",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After 300 years of slumber, three sister witches are accidentally resurrected in Salem on Halloween night, and it us up to three kids and their newfound feline friend to put an end to the witches' reign of terror once and for all.",
+        "release_date": "1993-07-16",
+        "release_year": "1993",
+        "title": "Hocus Pocus"
+      },
+      {
+        "cast": [
+          "Richard Farnsworth",
+          "Sissy Spacek",
+          "Jane Galloway Heitz",
+          "Joseph A. Carpenter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "\"The Straight Story\" chronicles a trip made by 73-year-old Alvin Straight from Laurens, Iowa, to Mt. Zion, Wisconsin, in 1994 while riding a lawn mower. The man undertook his strange journey to mend his relationship with his ill, estranged, 75-year-old brother Lyle.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Straight Story, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Faye Dunaway",
+          "William Holden",
+          "Peter Finch",
+          "Robert Duvall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A TV network cynically exploits a deranged ex-TV anchor's ravings and revelations about the media for their own profit.",
+        "release_date": "1976-11-01",
+        "release_year": "1976",
+        "title": "Network"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Bill Pullman",
+          "Peter Gallagher",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A love story built on a misunderstanding. A transit worker pulls commuter Peter off the tracks after he's mugged. But while he's in a coma, his family mistakenly thinks she's Peter's fiancée, and she doesn't correct them. Things get more complicated when she falls for his brother, who's not quite sure that she's who she claims to be.",
+        "release_date": "1995-04-21",
+        "release_year": "1995",
+        "title": "While You Were Sleeping"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Courtney Love",
+          "Bob Zmuda",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A film about the life and career of the eccentric avant-garde comedian, Andy Kaufman.",
+        "release_date": "1999-12-22",
+        "release_year": "1999",
+        "title": "Man on the Moon"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Shirley MacLaine",
+          "Debra Winger",
+          "Jack Nicholson",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Aurora and Emma are mother and daughter who march to different drummers. Beginning with Emma's marriage, Aurora shows how difficult and loving she can be. The movie covers several years of their lives as each finds different reasons to go on living and find joy. Aurora's interludes with Garrett Breedlove, retired astronaut and next door neighbor are quite striking.",
+        "release_date": "1983-11-20",
+        "release_year": "1983",
+        "title": "Terms of Endearment"
+      }
+    ],
+    "raw_user_id": "2233",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 167
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0842431427655272
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that fail to resonate, as seen in lower ratings.",
+        "Negative response to children's comedies, indicating a lack of interest in that genre."
+      ],
+      "liked_patterns": [
+        "Preference for comedies that blend humor with other genres like drama and romance.",
+        "Strong appreciation for dramatic films that tackle serious themes.",
+        "Enjoyment of films with romantic elements, often rated positively."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, often rating them positively.); Interest in Drama (The user shows a strong preference for dramatic narratives, frequently giving high ratings.); Enjoyment of Romantic Elements (Romantic themes are present in several liked movies, indicating a fondness for romance.); Thriller Elements (The user appreciates thrillers, as evidenced by positive ratings for films in this genre.); Blend of Genres (The user enjoys films that combine multiple genres, such as comedy with drama or romance.). Liked patterns: Preference for comedies that blend humor with other genres like drama and romance., Strong appreciation for dramatic films that tackle serious themes., Enjoyment of films with romantic elements, often rated positively.. Disliked patterns: Dislike for comedies that fail to resonate, as seen in lower ratings., Negative response to children's comedies, indicating a lack of interest in that genre..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them positively.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, frequently giving high ratings.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "Romantic themes are present in several liked movies, indicating a fondness for romance.",
+          "taste": "Enjoyment of Romantic Elements"
+        },
+        {
+          "reason": "The user appreciates thrillers, as evidenced by positive ratings for films in this genre.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user enjoys films that combine multiple genres, such as comedy with drama or romance.",
+          "taste": "Blend of Genres"
+        }
+      ]
+    },
+    "user_id": 2233
+  }
+}

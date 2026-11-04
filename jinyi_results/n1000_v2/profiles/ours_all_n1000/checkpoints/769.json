@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "eed89a3b0d934d019871699789c06dae3faf3641c6d5b8f2edbd1afb804ad79d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      421,
+      24,
+      339,
+      2120,
+      200,
+      1454,
+      322,
+      1546,
+      148,
+      2697
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a239afb7cb20452984c7288150255d75"
+    ],
+    "sampled_item_ids": [
+      45,
+      102,
+      112,
+      125,
+      148,
+      237,
+      322,
+      339,
+      435,
+      598,
+      601,
+      717,
+      742,
+      744,
+      767,
+      800,
+      835,
+      840,
+      1238,
+      1254,
+      1449,
+      1454,
+      1546,
+      1587,
+      2120
+    ],
+    "seed": 42,
+    "source_hash": "a6ce33655d21b13d5c90492e13d06922810c2448ca3009a9c269d68bd6f6e44f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 769,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Mary Astor",
+          "Gladys George",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A private detective takes on a case that involves him with three eccentric criminals, a gorgeous liar, and their quest for a priceless statuette.",
+        "release_date": "1941-11-18",
+        "release_year": "1941",
+        "title": "Maltese Falcon, The"
+      },
+      {
+        "cast": [
+          "Henry Fonda",
+          "Claudia Cardinale",
+          "Jason Robards",
+          "Charles Bronson"
+        ],
+        "country": [
+          "Italy",
+          "Spain",
+          "United States of America"
+        ],
+        "director": "Sergio Leone",
+        "genres": [
+          "Western"
+        ],
+        "language": "Italian",
+        "overview": "This classic western masterpiece is an epic film about a widow whose land and life are in danger as the railroad is getting closer and closer to taking them over. A mysterious harmonica player joins forces with a desperado to protect the woman and her land.",
+        "release_date": "1968-12-21",
+        "release_year": "1969",
+        "title": "Once Upon a Time in the West"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Katharine Ross",
+          "Strother Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot 'Sundance Kid'. As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "release_year": "1969",
+        "title": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "John Cazale",
+          "Frederic Forrest",
+          "Cindy Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Surveillance expert Harry Caul (Gene Hackman) is hired by a mysterious client's brusque aide (Harrison Ford) to tail a young couple, Mark (Frederic Forrest) and Ann (Cindy Williams). Tracking the pair through San Francisco's Union Square, Caul and his associate Stan (John Cazale) manage to record a cryptic conversation between them. Tormented by memories of a previous case that ended badly, Caul becomes obsessed with the resulting tape, trying to determine if the couple are in danger.",
+        "release_date": "1974-04-07",
+        "release_year": "1974",
+        "title": "Conversation, The"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Sam Waterston",
+          "Haing S. Ngor",
+          "Craig T. Nelson",
+          "John Malkovich"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Roland Joffé",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The Killing Fields tells the real life story of a friendship between two journalists, an American and a Cambodian, during the bloody Khmer Rouge takeover of Cambodia in 1975, which lead to the death of 2-3 million Cambodians during the next four years, until Pol Pot's regime was toppled by the intervening Vietnamese in 1979.",
+        "release_date": "1984-11-02",
+        "release_year": "1984",
+        "title": "Killing Fields, The"
+      },
+      {
+        "cast": [
+          "Tom Berenger",
+          "Charlie Sheen",
+          "Willem Dafoe",
+          "Forest Whitaker"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As a young and naive recruit in Vietnam, Chris Taylor faces a moral crisis when confronted with the horrors of war and the duality of man.",
+        "release_date": "1986-12-18",
+        "release_year": "1986",
+        "title": "Platoon"
+      },
+      {
+        "cast": [
+          "Chris Cooper",
+          "James Earl Jones",
+          "Mary McDonnell",
+          "Will Oldham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Sayles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Filmed in the coal country of West Virginia, \"Matewan\" celebrates labor organizing in the context of a 1920s work stoppage. Union organizer, Joe Kenehan, a scab named \"Few Clothes\" Johnson and a sympathetic mayor and police chief heroically fight the power represented by a coal company and Matewan's vested interests so that justice and workers' rights need not take a back seat to squalid working conditions, exploitation and the bottom line.",
+        "release_date": "1987-08-28",
+        "release_year": "1987",
+        "title": "Matewan"
+      }
+    ],
+    "raw_user_id": "769",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 55
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.47724096110161257
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for children's films or overly simplistic narratives.",
+        "Negative response to films that lack depth or complexity in storytelling."
+      ],
+      "liked_patterns": [
+        "Preference for films that combine Drama with other genres like Crime and War.",
+        "Enjoyment of films that feature strong character development and moral dilemmas.",
+        "Tendency to rate films with imaginative and adventurous themes positively."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (Multiple high ratings for films in the Drama genre, indicating a deep appreciation for character-driven narratives.); Interest in Crime and Thriller genres (Consistent ratings for films that explore crime and suspense, suggesting a liking for tension and moral complexity.); Appreciation for War-themed narratives (High ratings for films that depict war, reflecting an interest in historical and emotional storytelling.); Enjoyment of Adventure and Fantasy elements (Positive ratings for films that incorporate adventure and fantasy, indicating a preference for imaginative and escapist stories.); Fondness for Comedy with depth (Good ratings for comedies that blend humor with serious themes, showing an appreciation for films that balance lightheartedness with emotional weight.). Liked patterns: Preference for films that combine Drama with other genres like Crime and War., Enjoyment of films that feature strong character development and moral dilemmas., Tendency to rate films with imaginative and adventurous themes positively.. Disliked patterns: Dislike for children's films or overly simplistic narratives., Negative response to films that lack depth or complexity in storytelling..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for films in the Drama genre, indicating a deep appreciation for character-driven narratives.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Consistent ratings for films that explore crime and suspense, suggesting a liking for tension and moral complexity.",
+          "taste": "Interest in Crime and Thriller genres"
+        },
+        {
+          "reason": "High ratings for films that depict war, reflecting an interest in historical and emotional storytelling.",
+          "taste": "Appreciation for War-themed narratives"
+        },
+        {
+          "reason": "Positive ratings for films that incorporate adventure and fantasy, indicating a preference for imaginative and escapist stories.",
+          "taste": "Enjoyment of Adventure and Fantasy elements"
+        },
+        {
+          "reason": "Good ratings for comedies that blend humor with serious themes, showing an appreciation for films that balance lightheartedness with emotional weight.",
+          "taste": "Fondness for Comedy with depth"
+        }
+      ]
+    },
+    "user_id": 769
+  }
+}

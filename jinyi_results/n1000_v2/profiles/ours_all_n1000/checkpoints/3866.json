@@ -1,0 +1,346 @@
+{
+  "checkpoint_hash": "7932596a00c86813a6271bceb9d5667070a9eee1f4a85fc6926921b3874aad97",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      421,
+      1261,
+      247,
+      1839,
+      533,
+      2028,
+      931,
+      475,
+      1611,
+      851
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d7a21ae7753b4fcaa688651191a10b0f"
+    ],
+    "sampled_item_ids": [
+      24,
+      91,
+      95,
+      112,
+      220,
+      245,
+      547,
+      652,
+      658,
+      717,
+      744,
+      884,
+      904,
+      906,
+      980,
+      1172,
+      1235,
+      1261,
+      1331,
+      1477,
+      1830,
+      1839,
+      1854,
+      1939,
+      2028
+    ],
+    "seed": 42,
+    "source_hash": "9505af4dc92a31ce3ab5d96b4ae3298cec33ef6df18c7875b7140da6ceb60f4d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3866,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Audrey Hepburn",
+          "Walter Matthau",
+          "James Coburn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Donen",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After Regina Lampert falls for the dashing Peter Joshua on a skiing holiday in the French Alps, she discovers upon her return to Paris that her husband has been murdered. Soon, she and Peter are giving chase to three of her late husband's World War II cronies, Tex, Scobie and Gideon, who are after a quarter of a million dollars the quartet stole while behind enemy lines. But why does Peter keep changing his name?",
+        "release_date": "1963-12-05",
+        "release_year": "1963",
+        "title": "Charade"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "Morgan Freeman",
+          "Christian Slater",
+          "Randy Quaid",
+          "Minnie Driver"
+        ],
+        "country": [
+          "Denmark",
+          "France",
+          "New Zealand",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Mikael Salomon",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Get swept up in the action as an armored car driver (Christian Slater) tries to elude a gang of thieves (led by Morgan Freeman) while a flood ravages the countryside. Hard Rain is \"a wild, thrilling, chilling action ride\" filled with close calls, uncertain loyalties and heart-stopping heroics.",
+        "release_date": "1998-01-16",
+        "release_year": "1998",
+        "title": "Hard Rain"
+      },
+      {
+        "cast": [
+          "Kevin Bacon",
+          "Elisabeth Shue",
+          "Josh Brolin",
+          "Kim Dickens"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Cocky researcher, Sebastian Caine is working on a project to make living creatures invisible and he's so confident he's found the right formula that he tests it on himself and soon begins to vanish. The only problem is – no-one can determine how to make him visible again. Caine's predicament eventually drives him mad, with terrifying results.",
+        "release_date": "2000-08-04",
+        "release_year": "2000",
+        "title": "Hollow Man"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Susan Anspach",
+          "Karen Black",
+          "Billy Green Bush"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bob Rafelson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A drop-out from upper-class America picks up work along the way on oil-rigs when his life isn't spent in a squalid succession of bars, motels, and other points of interest.",
+        "release_date": "1970-09-12",
+        "release_year": "1970",
+        "title": "Five Easy Pieces"
+      },
+      {
+        "cast": [
+          "Claire Danes",
+          "Giovanni Ribisi",
+          "Omar Epps",
+          "Dennis Farina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Scott Silver",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Three minor delinquints (Danes, Ribisi, and Epps) are recruited by a cop (Farina) working undercover to bust a cop/drug ring. When the officer who recruited them is killed, they go above and beyond the call of duty to solve the murder; and bust the drug ring. Suffering the jibes, and ridicule of fellow officers; they struggle to save their names, and that of their deceased benefactor.",
+        "release_date": "1999-03-26",
+        "release_year": "1999",
+        "title": "Mod Squad, The"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Kevin Spacey",
+          "Jude Law",
+          "Alison Eastwood"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A visiting city reporter's assignment suddenly revolves around the murder trial of a local millionaire, whom he befriends.",
+        "release_date": "1997-11-21",
+        "release_year": "1997",
+        "title": "Midnight in the Garden of Good and Evil"
+      },
+      {
+        "cast": [
+          "Alan Ladd",
+          "Jean Arthur",
+          "Van Heflin",
+          "Brandon De Wilde"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Stevens",
+        "genres": [
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "A weary gunfighter attempts to settle down with a homestead family, but a smouldering settler and rancher conflict forces him to act.",
+        "release_date": "1953-04-23",
+        "release_year": "1953",
+        "title": "Shane"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Wesley Snipes",
+          "Harvey Keitel",
+          "Cary-Hiroyuki Tagawa"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Action",
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When a prostitute is found dead in a Los Angeles skyscraper occupied by a large Japanese corporation, detectives John Conner and Web Smith are called in to investigate. Although Conner has previous experience working in Japan, cultural differences make their progress difficult until a security disc showing the murder turns up. Close scrutiny proves the disc has been doctored, and the detectives realize they're dealing with a cover-up as well.",
+        "release_date": "1993-07-30",
+        "release_year": "1993",
+        "title": "Rising Sun"
+      }
+    ],
+    "raw_user_id": "3866",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 69
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6013945510653972
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "A tendency to dislike films that are primarily focused on horror or overly simplistic narratives."
+      ],
+      "liked_patterns": [
+        "A preference for films that blend action with drama or thriller elements.",
+        "An appreciation for films that feature strong character development and moral complexity.",
+        "Enjoyment of narratives that include suspenseful twists and engaging plots."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates films that explore complex emotional and social themes.); Action (The user enjoys high-energy films with thrilling sequences and intense plots.); Thriller (The user is drawn to suspenseful narratives that keep them on the edge of their seat.); Comedy (The user likes light-hearted films that provide humor and entertainment.); Crime (The user is interested in stories that delve into criminal activities and moral dilemmas.). Liked patterns: A preference for films that blend action with drama or thriller elements., An appreciation for films that feature strong character development and moral complexity., Enjoyment of narratives that include suspenseful twists and engaging plots.. Disliked patterns: A tendency to dislike films that are primarily focused on horror or overly simplistic narratives..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates films that explore complex emotional and social themes.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys high-energy films with thrilling sequences and intense plots.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user is drawn to suspenseful narratives that keep them on the edge of their seat.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user likes light-hearted films that provide humor and entertainment.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is interested in stories that delve into criminal activities and moral dilemmas.",
+          "taste": "Crime"
+        }
+      ]
+    },
+    "user_id": 3866
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "b49f66aa66d6cca5167f9babe1aeb5642e5954dd45e723cc367617cb84a52a40",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      165,
+      1559,
+      624,
+      133,
+      127,
+      16,
+      360,
+      561,
+      41,
+      245
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      53,
+      85,
+      126,
+      133,
+      151,
+      167,
+      169,
+      196,
+      280,
+      291,
+      524,
+      554,
+      559,
+      563,
+      586,
+      623,
+      624,
+      634,
+      767,
+      858,
+      881,
+      1132,
+      1311,
+      1559,
+      1843
+    ],
+    "seed": 42,
+    "source_hash": "cfa30a8ff57f2327bc1c20664d03e3747ac82fa8699420432df53ee3653d9d15",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5355,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Helen Hunt",
+          "Greg Kinnear",
+          "Cuba Gooding Jr."
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "New York City. Melvin Udall, a cranky, bigoted, obsessive-compulsive writer, finds his life turned upside down when neighboring gay artist Simon is hospitalized and his dog is entrusted to Melvin. In addition, Carol, the only waitress who will tolerate him, must leave work to care for her sick son, making it impossible for Melvin to eat breakfast.",
+        "release_date": "1997-12-19",
+        "release_year": "1997",
+        "title": "As Good As It Gets"
+      },
+      {
+        "cast": [
+          "Nicole Kidman",
+          "Sam Neill",
+          "Billy Zane",
+          "George Shevtsov"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An Australian couple take a sailing trip in the Pacific to forget about a terrible accident. While on the open sea, in dead calm, they come across a ship with one survivor who is not at all what he seems.",
+        "release_date": "1989-04-07",
+        "release_year": "1989",
+        "title": "Dead Calm"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Faye Dunaway",
+          "Chief Dan George",
+          "Martin Balsam"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Arthur Penn",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Jack Crabb, looking back from extreme old age, tells of his life being raised by Indians and fighting with General Custer.",
+        "release_date": "1970-12-14",
+        "release_year": "1970",
+        "title": "Little Big Man"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Helen Hunt",
+          "Bill Paxton",
+          "Cary Elwes",
+          "Jami Gertz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "TV weatherman Bill Harding is trying to get his tornado-hunter wife, Jo, to sign divorce papers so he can marry his girlfriend Melissa. But Mother Nature, in the form of a series of intense storms sweeping across Oklahoma, has other plans. Soon the three have joined the team of stormchasers as they attempt to insert a revolutionary measuring device into the very heart of several extremely violent tornados.",
+        "release_date": "1996-05-10",
+        "release_year": "1996",
+        "title": "Twister"
+      },
+      {
+        "cast": [
+          "Robert Hays",
+          "Julie Hagerty",
+          "Kareem Abdul-Jabbar",
+          "Lloyd Bridges"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Abrahams",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Alcoholic pilot, Ted Striker has developed a fear of flying due to wartime trauma, but nevertheless boards a passenger jet in an attempt to woo back his stewardess girlfriend. Food poisoning decimates the passengers and crew, leaving it up to Striker to land the plane with the help of a glue-sniffing air traffic controller and Striker's vengeful former Air Force captain, who must both talk him down.",
+        "release_date": "1980-07-02",
+        "release_year": "1980",
+        "title": "Airplane!"
+      },
+      {
+        "cast": [
+          "Mary Steenburgen",
+          "Sean Patrick Flanery",
+          "Lance Henriksen",
+          "Jeff Goldblum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Salva",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Harassed by classmates who won't accept his shocking appearance, a shy young man known as \"Powder\" struggles to fit in. But the cruel taunts stop when Powder displays a mysterious power that allows him to do incredible things. This phenomenon changes the lives of all those around him in ways they never could have imagined.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Powder"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Walter Huston",
+          "Tim Holt",
+          "Bruce Bennett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Fred C. Dobbs and Bob Curtin, both down on their luck in Tampico, Mexico in 1925, meet up with a grizzled prospector named Howard and decide to join with him in search of gold in the wilds of central Mexico. Through enormous difficulties, they eventually succeed in finding gold, but bandits, the elements, and most especially greed threaten to turn their success into disaster.",
+        "release_date": "1948-01-24",
+        "release_year": "1948",
+        "title": "Treasure of the Sierra Madre, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Don Rickles",
+          "Jim Varney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+        "release_date": "1995-10-30",
+        "release_year": "1995",
+        "title": "Toy Story"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      }
+    ],
+    "raw_user_id": "5355",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 145
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8281083947505266
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for certain comedies",
+        "Dislike for films with children's themes",
+        "Negative response to specific romantic comedies"
+      ],
+      "liked_patterns": [
+        "High ratings for drama and emotional narratives",
+        "Positive reception of action and adventure films",
+        "Strong appreciation for thrillers with engaging plots"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Action and Adventure (The user consistently rates action and adventure films positively, suggesting a taste for excitement and thrill.); Fondness for Comedy (The user shows a mixed response to comedies, with some rated highly, indicating a selective enjoyment of humor.); Interest in Thrillers (The user rates multiple thrillers well, reflecting a preference for suspenseful and engaging plots.); Preference for Romantic Elements (The user enjoys films that incorporate romance, as seen in several highly rated titles.). Liked patterns: High ratings for drama and emotional narratives, Positive reception of action and adventure films, Strong appreciation for thrillers with engaging plots. Disliked patterns: Low ratings for certain comedies, Dislike for films with children's themes, Negative response to specific romantic comedies.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user consistently rates action and adventure films positively, suggesting a taste for excitement and thrill.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user shows a mixed response to comedies, with some rated highly, indicating a selective enjoyment of humor.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user rates multiple thrillers well, reflecting a preference for suspenseful and engaging plots.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romance, as seen in several highly rated titles.",
+          "taste": "Preference for Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 5355
+  }
+}

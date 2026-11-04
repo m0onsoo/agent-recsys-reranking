@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "88d82e7f59fa3dbce269867bfd2c4be4c9c012aa25012ef19d5b692f416ccfdf",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      281,
+      809,
+      466,
+      252,
+      365,
+      14,
+      2840,
+      52,
+      128,
+      377
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "2c6d62a786ca4ffb92684cb9a8d981ec"
+    ],
+    "sampled_item_ids": [
+      22,
+      30,
+      59,
+      63,
+      68,
+      157,
+      184,
+      265,
+      270,
+      359,
+      466,
+      528,
+      532,
+      539,
+      576,
+      601,
+      759,
+      768,
+      1062,
+      1201,
+      1227,
+      1238,
+      1757,
+      1981,
+      2971
+    ],
+    "seed": 42,
+    "source_hash": "525db944aa9776b33eb016477fe68d3a517c653ebc8d513cb0ef4ab8b3a69fba",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1658,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Robin Williams",
+          "Matt Damon",
+          "Ben Affleck",
+          "Stellan Skarsgård"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Will Hunting has a genius-level IQ but chooses to work as a janitor at MIT. When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau, who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire.",
+        "release_date": "1997-12-05",
+        "release_year": "1997",
+        "title": "Good Will Hunting"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Jada Pinkett Smith",
+          "James Coburn",
+          "Larry Miller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom Shadyac",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eddie Murphy stars as shy Dr. Sherman Klump, a kind, brilliant, 'calorifically challenged' genetic professor. When beautiful Carla Purty joins the university faculty, Sherman grows desperate to whittle his 400-pound frame down to size and win her heart. So, with one swig of his experimental fat-reducing serum, Sherman becomes 'Buddy Love', a fast-talking, pumped-up , plumped down Don Juan.",
+        "release_date": "1996-06-26",
+        "release_year": "1996",
+        "title": "Nutty Professor, The"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jeanne Tripplehorn",
+          "Gene Hackman",
+          "Holly Hunter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mitch McDeere is a young man with a promising future in Law. About to sit his Bar exam, he is approached by 'The Firm' and made an offer he doesn't refuse. Seduced by the money and gifts showered on him, he is totally oblivious to the more sinister side of his company. Then, two Associates are murdered. The FBI contact him, asking him for information and suddenly his life is ruined. He has a choice - work with the FBI, or stay with the Firm. Either way he will lose his life as he knows it. Mitch figures the only way out is to follow his own plan...",
+        "release_date": "1993-06-30",
+        "release_year": "1993",
+        "title": "Firm, The"
+      },
+      {
+        "cast": [
+          "David Duchovny",
+          "Gillian Anderson",
+          "Mitch Pileggi",
+          "William B. Davis"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Rob Bowman",
+        "genres": [
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mulder and Scully, now taken off the FBI's X Files cases, must find a way to fight the shadowy elements of the government to find out the truth about a conspiracy that might mean the alien colonization of Earth.",
+        "release_date": "1998-06-19",
+        "release_year": "1998",
+        "title": "X-Files: Fight the Future, The"
+      },
+      {
+        "cast": [
+          "Ron Perlman",
+          "Dominique Pinon",
+          "Judith Vittet",
+          "Daniel Emilfork"
+        ],
+        "country": [
+          "France",
+          "Germany",
+          "Spain"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "A scientist in a surrealist society kidnaps children to steal their dreams, hoping that they slow his aging process.",
+        "release_date": "1995-05-16",
+        "release_year": "1995",
+        "title": "City of Lost Children, The"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Alan Ruck",
+          "Mia Sara",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Charismatic teen Ferris Bueller plays hooky in Chicago with his girlfriend and best friend.",
+        "release_date": "1986-06-11",
+        "release_year": "1986",
+        "title": "Ferris Bueller's Day Off"
+      },
+      {
+        "cast": [
+          "Wesley Snipes",
+          "Dennis Hopper",
+          "Lolita Davidovich",
+          "Viggo Mortensen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James B. Harris",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Red is an aging scam-artist who's just been released from prison together with Ronnie, a young and not-so-bright hoodlum who is easily manipulated. Their new business is to organize fake-money sales and then kill the buyer to take his money; but when Ronnie kills an undercover secret service agent, his partner Jimmy Mercer vows revenge and is given one week to catch the killers before being transferred. Written by Giancarlo Cairella",
+        "release_date": "1993-04-16",
+        "release_year": "1993",
+        "title": "Boiling Point"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Madeleine Stowe",
+          "Brad Pitt",
+          "Christopher Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly, and patient Jeffrey Goines, the son of a famous virus expert, who may hold the key to the mysterious rogue group, the Army of the 12 Monkeys, thought to be responsible for unleashing the killer disease.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Twelve Monkeys"
+      }
+    ],
+    "raw_user_id": "1658",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 320
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1504072466568291
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "The user tends to rate films with low comedic value poorly.",
+        "The user shows a dislike for certain dramas that do not resonate with them."
+      ],
+      "liked_patterns": [
+        "The user tends to rate animated films highly.",
+        "The user shows a consistent preference for comedies and dramas.",
+        "The user enjoys action films that blend with other genres."
+      ],
+      "summary": "Unique tastes: Animation (The user enjoys animated films, as indicated by high ratings for multiple titles in this genre.); Comedy (The user appreciates comedies, reflected in several high ratings across various comedic films.); Action (The user rates action films positively, showing a preference for this genre.); Drama (The user has a notable interest in drama, with several films rated positively.); Thriller (The user enjoys thrillers, as evidenced by favorable ratings for films that incorporate this genre.). Liked patterns: The user tends to rate animated films highly., The user shows a consistent preference for comedies and dramas., The user enjoys action films that blend with other genres.. Disliked patterns: The user tends to rate films with low comedic value poorly., The user shows a dislike for certain dramas that do not resonate with them..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films, as indicated by high ratings for multiple titles in this genre.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user appreciates comedies, reflected in several high ratings across various comedic films.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user rates action films positively, showing a preference for this genre.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user has a notable interest in drama, with several films rated positively.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys thrillers, as evidenced by favorable ratings for films that incorporate this genre.",
+          "taste": "Thriller"
+        }
+      ]
+    },
+    "user_id": 1658
+  }
+}

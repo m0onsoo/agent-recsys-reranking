@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "8f33ac8ef0eb4bbb8d2c9768e15dbbe8d577def22d735a0511b330bebb5c138d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1132,
+      1300,
+      624,
+      417,
+      142,
+      1504,
+      1634,
+      1547,
+      665,
+      1106
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "09351052342f4172be59e7cc741e0e0e"
+    ],
+    "sampled_item_ids": [
+      133,
+      165,
+      185,
+      207,
+      210,
+      228,
+      230,
+      417,
+      440,
+      595,
+      650,
+      880,
+      974,
+      1098,
+      1229,
+      1457,
+      1530,
+      1547,
+      1559,
+      1645,
+      1932,
+      2484,
+      2518,
+      2713,
+      3382
+    ],
+    "seed": 42,
+    "source_hash": "c3398c3f7b4efe3380c7a82ed047aabd21eda4c54ba5e82236c1d61cd49f7fa3",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2860,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mia Farrow",
+          "John Cassavetes",
+          "Ruth Gordon",
+          "Sidney Blackmer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A young couple moves into an infamous New York apartment building to start a family. Things become frightening as Rosemary begins to suspect her unborn baby isn't safe around their strange neighbors.",
+        "release_date": "1968-06-12",
+        "release_year": "1968",
+        "title": "Rosemary's Baby"
+      },
+      {
+        "cast": [
+          "Elizabeth Taylor",
+          "Richard Burton",
+          "George Segal",
+          "Sandy Dennis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Mike Nichols’ film from Edward Albee's play brought new themes to the film industry. Elizabeth Taylor and Richard Burton have never been more brilliant together as they portray an experienced married couple who love each other yet verbally attack one another when they see how boring their naïve newlywed guests have made their night.",
+        "release_date": "1966-06-21",
+        "release_year": "1966",
+        "title": "Who's Afraid of Virginia Woolf?"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Faye Dunaway",
+          "Chief Dan George",
+          "Martin Balsam"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Arthur Penn",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Jack Crabb, looking back from extreme old age, tells of his life being raised by Indians and fighting with General Custer.",
+        "release_date": "1970-12-14",
+        "release_year": "1970",
+        "title": "Little Big Man"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Anthony Hopkins",
+          "Aidan Quinn",
+          "Julia Ormond"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "An epic tale of three brothers and their father living in the remote wilderness of 1900s USA and how their lives are affected by nature, history, war, and love.",
+        "release_date": "1994-12-16",
+        "release_year": "1994",
+        "title": "Legends of the Fall"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Martin Landau",
+          "Sarah Jessica Parker",
+          "Patricia Arquette"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The mostly true story of the legendary \"worst director of all time\", who, with the help of his strange friends, filmed countless B-movies without ever becoming famous or successful.",
+        "release_date": "1994-09-27",
+        "release_year": "1994",
+        "title": "Ed Wood"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Grace Kelly",
+          "Jessie Royce Landis",
+          "Brigitte Auber"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A delightful Hitchcock film about an ex-burglar who must catch a thief who’s been copying this style before he gets accused of the wrong crimes. His time is running out as the police are close behind him yet he finds time for a little romance of course. A classic masterpiece starring Grace Kelly and Cary Grant.",
+        "release_date": "1955-08-03",
+        "release_year": "1955",
+        "title": "To Catch a Thief"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Sigourney Weaver",
+          "Linda Hunt",
+          "Michael Murphy"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Australian journalist Guy Hamilton travels to Indonesia to cover civil strife in 1965. There, on the eve of an attempted coup, he befriends a Chinese Australian photographer with a deep connection to and vast knowledge of the Indonesian people and also falls in love with a British national.",
+        "release_date": "1982-12-17",
+        "release_year": "1982",
+        "title": "Year of Living Dangerously"
+      },
+      {
+        "cast": [
+          "Bette Davis",
+          "Joan Crawford",
+          "Victor Buono",
+          "Wesley Addy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Aldrich",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two aging film actresses live as virtual recluses in an old Hollywood mansion. Jane Hudson, a successful child star, cares for her crippled sister Blanche, whose career in later years eclipsed that of Jane. Now the two live together, their relationship affected by simmering subconscious thoughts of mutual envy, hate and revenge.",
+        "release_date": "1962-10-31",
+        "release_year": "1962",
+        "title": "What Ever Happened to Baby Jane?"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Bruce Spence",
+          "Michael Preston",
+          "Max Phipps"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape.",
+        "release_date": "1981-12-24",
+        "release_year": "1981",
+        "title": "Mad Max 2 (a.k.a. The Road Warrior)"
+      },
+      {
+        "cast": [
+          "Jay Brazeau",
+          "Parker Posey",
+          "Michael Hitchcock",
+          "Catherine O'Hara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Christopher Guest",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The tension is palpable, the excitement is mounting and the heady scent of competition is in the air as hundreds of eager contestants from across America prepare to take part in what is undoubtedly one of the greatest events of their lives -- the Mayflower Dog Show. The canine contestants and their owners are as wondrously diverse as the great country that has bred them.",
+        "release_date": "2000-09-19",
+        "release_year": "2000",
+        "title": "Best in Show"
+      }
+    ],
+    "raw_user_id": "2860",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 408
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7505929796241932
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for dramas that lack engaging storytelling or character depth."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as comedy with drama or action with sci-fi.",
+        "Consistent appreciation for films with strong narratives and character development.",
+        "Positive ratings for films that include elements of suspense or psychological tension."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, as indicated by multiple high ratings for films in this genre.); Interest in Drama (The user rates several dramas highly, showing a preference for character-driven narratives and emotional depth.); Fondness for Thrillers (The user has rated several thrillers positively, indicating a taste for suspenseful and engaging plots.); Enjoyment of Sci-Fi (The user has shown a liking for science fiction films, particularly those that blend action and thought-provoking themes.); Affinity for Strong Female Characters (The user appreciates films featuring strong female leads or significant female roles, as reflected in their ratings.). Liked patterns: High ratings for films that blend genres, such as comedy with drama or action with sci-fi., Consistent appreciation for films with strong narratives and character development., Positive ratings for films that include elements of suspense or psychological tension.. Disliked patterns: Low ratings for dramas that lack engaging storytelling or character depth..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, as indicated by multiple high ratings for films in this genre.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several dramas highly, showing a preference for character-driven narratives and emotional depth.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated several thrillers positively, indicating a taste for suspenseful and engaging plots.",
+          "taste": "Fondness for Thrillers"
+        },
+        {
+          "reason": "The user has shown a liking for science fiction films, particularly those that blend action and thought-provoking themes.",
+          "taste": "Enjoyment of Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates films featuring strong female leads or significant female roles, as reflected in their ratings.",
+          "taste": "Affinity for Strong Female Characters"
+        }
+      ]
+    },
+    "user_id": 2860
+  }
+}

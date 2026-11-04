@@ -1,0 +1,346 @@
+{
+  "checkpoint_hash": "d2ab6c10aee96ad31afac523950d0c9cd0152b80365800cf55dac5058d4ebe72",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      642,
+      238,
+      1120,
+      741,
+      1260,
+      645,
+      210,
+      98,
+      739,
+      1727
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "54a0722a8ab14e9291d5fa04c27603bc"
+    ],
+    "sampled_item_ids": [
+      61,
+      97,
+      114,
+      120,
+      190,
+      210,
+      215,
+      238,
+      529,
+      559,
+      587,
+      606,
+      642,
+      645,
+      661,
+      741,
+      776,
+      809,
+      865,
+      897,
+      1006,
+      1076,
+      1120,
+      1260,
+      1727
+    ],
+    "seed": 42,
+    "source_hash": "5b0a272b3588d3d5dc6cfcd2d4d9e354ce8c4e3a7dd8b052d5aee156233bb91e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3954,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Wise",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When a destructive space entity is spotted approaching Earth, Admiral Kirk resumes command of the Starship Enterprise in order to intercept, examine, and hopefully stop it.",
+        "release_date": "1979-12-06",
+        "release_year": "1979",
+        "title": "Star Trek: The Motion Picture"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Hugh Jackman",
+          "Ian McKellen",
+          "Halle Berry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers.",
+        "release_date": "2000-07-13",
+        "release_year": "2000",
+        "title": "X-Men"
+      },
+      {
+        "cast": [
+          "Steve McQueen",
+          "Aneta Corsaut",
+          "Earl Rowe",
+          "John Benson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin S. Yeaworth Jr.",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A mysterious creature from another planet, resembling a giant blob of jelly, lands on earth. The people of a nearby small town refuse to listen to some teenagers who have witnessed the blob's destructive power. In the meantime, the blob just keeps on getting bigger.",
+        "release_date": "1958-09-12",
+        "release_year": "1958",
+        "title": "Blob, The"
+      },
+      {
+        "cast": [
+          "Bruce Campbell",
+          "Embeth Davidtz",
+          "Marcus Gilbert",
+          "Ian Abercrombie"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A man is accidentally transported to 1300 A.D., where he must battle an army of the dead and retrieve the Necronomicon so he can return home.",
+        "release_date": "1992-10-09",
+        "release_year": "1993",
+        "title": "Army of Darkness"
+      },
+      {
+        "cast": [
+          "Natasha Henstridge",
+          "Ben Kingsley",
+          "Michael Madsen",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Donaldson",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In 1993, the Search for Extra Terrestrial Intelligence Project receives a transmission detailing an alien DNA structure, along with instructions on how to splice it with human DNA. The result is Sil, a sensual but deadly creature who can change from a beautiful woman to an armour-plated killing machine in the blink of an eye.",
+        "release_date": "1995-07-07",
+        "release_year": "1995",
+        "title": "Species"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral Kirk and his bridge crew risk their careers stealing the decommissioned Enterprise to return to the restricted Genesis planet to recover Spock's body.",
+        "release_date": "1984-05-31",
+        "release_year": "1984",
+        "title": "Star Trek III: The Search for Spock"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Mary Steenburgen",
+          "Thomas F. Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "The final installment of the Back to the Future trilogy finds Marty digging the trusty DeLorean out of a mineshaft and looking up Doc in the Wild West of 1885. But when their time machine breaks down, the travelers are stranded in a land of spurs. More problems arise when Doc falls for pretty schoolteacher Clara Clayton, and Marty tangles with Buford Tannen.",
+        "release_date": "1990-05-25",
+        "release_year": "1990",
+        "title": "Back to the Future Part III"
+      },
+      {
+        "cast": [
+          "Peter Weller",
+          "Nancy Allen",
+          "Tom Noonan",
+          "Belinda Bauer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a successful deployment of the Robocop Law Enforcement unit, OCP sees its goal of urban pacification come closer and closer, but as this develops, a new narcotic known as \"Nuke\" invades the streets led by God-delirious leader Cane. As this menace grows, it may prove to be too much for Murphy to handle. OCP tries to replicate the success of the first unit, but ends up with failed prototypes with suicidal issues... until Dr. Faxx, a scientist straying away from OCP's path, uses Cane as the new subject for the Robocop 2 project, a living God.",
+        "release_date": "1990-06-22",
+        "release_year": "1990",
+        "title": "Robocop 2"
+      }
+    ],
+    "raw_user_id": "3954",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 35
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5610184707418574
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films that lack strong sci-fi elements.",
+        "Dislike for comedies that do not effectively blend with other genres."
+      ],
+      "liked_patterns": [
+        "High ratings for action and adventure films with sci-fi elements.",
+        "Consistent enjoyment of films that blend comedy with sci-fi or action.",
+        "Positive reception of classic sci-fi narratives involving space and alien themes."
+      ],
+      "summary": "Unique tastes: Sci-Fi Enthusiast (The user shows a strong preference for science fiction, as evidenced by multiple high ratings for films in this genre.); Action and Adventure Lover (A significant number of liked films fall under action and adventure, indicating a strong affinity for these genres.); Appreciation for Blending Genres (The user enjoys films that combine multiple genres, such as action with comedy or horror, as seen in several liked titles.); Interest in Classic Sci-Fi Themes (The user rates highly films that explore classic sci-fi themes, such as space exploration and alien encounters.); Preference for Strong Characters (Many liked films feature strong, memorable characters, suggesting the user values character-driven narratives.). Liked patterns: High ratings for action and adventure films with sci-fi elements., Consistent enjoyment of films that blend comedy with sci-fi or action., Positive reception of classic sci-fi narratives involving space and alien themes.. Disliked patterns: Low ratings for horror films that lack strong sci-fi elements., Dislike for comedies that do not effectively blend with other genres..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for science fiction, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Sci-Fi Enthusiast"
+        },
+        {
+          "reason": "A significant number of liked films fall under action and adventure, indicating a strong affinity for these genres.",
+          "taste": "Action and Adventure Lover"
+        },
+        {
+          "reason": "The user enjoys films that combine multiple genres, such as action with comedy or horror, as seen in several liked titles.",
+          "taste": "Appreciation for Blending Genres"
+        },
+        {
+          "reason": "The user rates highly films that explore classic sci-fi themes, such as space exploration and alien encounters.",
+          "taste": "Interest in Classic Sci-Fi Themes"
+        },
+        {
+          "reason": "Many liked films feature strong, memorable characters, suggesting the user values character-driven narratives.",
+          "taste": "Preference for Strong Characters"
+        }
+      ]
+    },
+    "user_id": 3954
+  }
+}

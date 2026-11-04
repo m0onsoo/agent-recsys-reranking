@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "81d2cc3841e42c8c4b7618f45805ee1400c0141cbcac7f7e00161bf136093e9d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      798,
+      2016,
+      60,
+      212,
+      259,
+      218,
+      129,
+      1652,
+      39,
+      121
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      51,
+      58,
+      105,
+      128,
+      168,
+      217,
+      317,
+      322,
+      329,
+      337,
+      500,
+      530,
+      662,
+      665,
+      679,
+      712,
+      721,
+      724,
+      798,
+      1015,
+      1102,
+      1238,
+      1298,
+      1584,
+      1802
+    ],
+    "seed": 42,
+    "source_hash": "d52dd0835ec2a74363306e586db86f676c960acbd7b3d849165a32e5925669a0",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5437,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Christopher Guest",
+          "Michael McKean",
+          "Harry Shearer",
+          "Rob Reiner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "\"This Is Spinal Tap\" shines a light on the self-contained universe of a metal band struggling to get back on the charts, including everything from its complicated history of ups and downs, gold albums, name changes and undersold concert dates, along with the full host of requisite groupies, promoters, hangers-on and historians, sessions, release events and those special behind-the-scenes moments that keep it all real.",
+        "release_date": "1984-05-04",
+        "release_year": "1984",
+        "title": "This Is Spinal Tap"
+      },
+      {
+        "cast": [
+          "Forest Whitaker",
+          "Cliff Gorman",
+          "Tricia Vessey",
+          "Henry Silva"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Jarmusch",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An African-American Mafia hit man who models himself after the samurai of old finds himself targeted for death by the mob.",
+        "release_date": "1999-09-13",
+        "release_year": "1999",
+        "title": "Ghost Dog: The Way of the Samurai"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jack Nicholson",
+          "Demi Moore",
+          "Kevin Bacon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When cocky military lawyer Lt. Daniel Kaffee and his co-counsel, Lt. Cmdr. JoAnne Galloway, are assigned to a murder case, they uncover a hazing ritual that could implicate high-ranking officials such as shady Col. Nathan Jessep.",
+        "release_date": "1992-12-11",
+        "release_year": "1992",
+        "title": "Few Good Men, A"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Joanne Samuel",
+          "Hugh Keays-Byrne",
+          "Steve Bisley"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future Australia, a vicious biker gang murders a cop's family, and makes his fight with them personal.",
+        "release_date": "1979-04-12",
+        "release_year": "1979",
+        "title": "Mad Max"
+      },
+      {
+        "cast": [
+          "Chris Cooper",
+          "Matthew McConaughey",
+          "Elizabeth Peña",
+          "Kris Kristofferson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Sayles",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When the skeleton of his murdered predecessor is found, Sheriff Sam Deeds unearths many other long-buried secrets in his Texas border town.",
+        "release_date": "1996-06-21",
+        "release_year": "1996",
+        "title": "Lone Star"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Philippe Noiret",
+          "Jacques Perrin",
+          "Marco Leonardi",
+          "Salvatore Cascio"
+        ],
+        "country": [
+          "Italy",
+          "France"
+        ],
+        "director": "Giuseppe Tornatore",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "Italian",
+        "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
+        "release_date": "1988-11-17",
+        "release_year": "1988",
+        "title": "Cinema Paradiso"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Gene Hackman",
+          "Jon Voight",
+          "Regina King"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Scott",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Hotshot Washington lawyer, Robert Dean becomes a victim of high-tech identity theft when a hacker slips an incriminating video into his pocket. Soon, a rogue National Security agent sets out to recover the tape – and destroy Dean.",
+        "release_date": "1998-11-20",
+        "release_year": "1998",
+        "title": "Enemy of the State"
+      }
+    ],
+    "raw_user_id": "5437",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 126
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5331177718982975
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films with low engagement or poor execution",
+        "Negative response to certain fantasy elements",
+        "Dislike for films that lack depth or complexity"
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and character-driven stories",
+        "Enjoyment of comedies with a mix of other genres",
+        "High ratings for action and adventure films"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.); Enjoyment of Comedy (Several comedies received favorable ratings, suggesting a liking for humor and light-hearted storytelling.); Interest in Action and Adventure (The user has rated various action and adventure films positively, showing a preference for excitement and thrill.); Affinity for Crime and Thriller (The user enjoys crime and thriller genres, as evidenced by high ratings for films in these categories.); Taste for Complex Narratives (The user appreciates films with intricate plots and themes, as seen in their ratings for dramas and mysteries.). Liked patterns: Strong preference for drama and character-driven stories, Enjoyment of comedies with a mix of other genres, High ratings for action and adventure films. Disliked patterns: Dislike for films with low engagement or poor execution, Negative response to certain fantasy elements, Dislike for films that lack depth or complexity.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies received favorable ratings, suggesting a liking for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has rated various action and adventure films positively, showing a preference for excitement and thrill.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user enjoys crime and thriller genres, as evidenced by high ratings for films in these categories.",
+          "taste": "Affinity for Crime and Thriller"
+        },
+        {
+          "reason": "The user appreciates films with intricate plots and themes, as seen in their ratings for dramas and mysteries.",
+          "taste": "Taste for Complex Narratives"
+        }
+      ]
+    },
+    "user_id": 5437
+  }
+}

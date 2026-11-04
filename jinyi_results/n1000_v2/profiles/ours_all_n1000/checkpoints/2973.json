@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "85013f94fd99102403efc41a3425eb142a4cf96079723580633d16b3234a33c3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      871,
+      861,
+      360,
+      312,
+      105,
+      353,
+      306,
+      1031,
+      185,
+      244
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "04d038709292436696902ff9fe9e29af"
+    ],
+    "sampled_item_ids": [
+      5,
+      39,
+      105,
+      219,
+      232,
+      295,
+      306,
+      318,
+      353,
+      364,
+      369,
+      446,
+      509,
+      513,
+      520,
+      525,
+      597,
+      789,
+      808,
+      863,
+      871,
+      881,
+      932,
+      942,
+      1031
+    ],
+    "seed": 42,
+    "source_hash": "2f5004d9f3522dcacd70cffd851cf2b7bc5f4c7775c0153e17c80125bc024240",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2973,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Freddie Prinze Jr.",
+          "Rachael Leigh Cook",
+          "Matthew Lillard",
+          "Paul Walker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Iscove",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "High school hotshot Zach Siler is the envy of his peers. But his popularity declines sharply when his cheerleader girlfriend, Taylor, leaves him for sleazy reality-television star Brock Hudson. Desperate to revive his fading reputation, Siler agrees to a seemingly impossible challenge. He has six weeks to gain the trust of nerdy outcast Laney Boggs -- and help her to become the school's next prom queen.",
+        "release_date": "1999-01-29",
+        "release_year": "1999",
+        "title": "She's All That"
+      },
+      {
+        "cast": [
+          "Gary Sinise",
+          "Tim Robbins",
+          "Don Cheadle",
+          "Connie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When contact is lost with the crew of the first Mars expedition, a rescue mission is launched to discover their fate.",
+        "release_date": "2000-03-10",
+        "release_year": "2000",
+        "title": "Mission to Mars"
+      },
+      {
+        "cast": [
+          "Mary Steenburgen",
+          "Sean Patrick Flanery",
+          "Lance Henriksen",
+          "Jeff Goldblum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Salva",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Harassed by classmates who won't accept his shocking appearance, a shy young man known as \"Powder\" struggles to fit in. But the cruel taunts stop when Powder displays a mysterious power that allows him to do incredible things. This phenomenon changes the lives of all those around him in ways they never could have imagined.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Powder"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Ernest Borgnine",
+          "Red Buttons",
+          "Carol Lynley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ronald Neame",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "The Poseidon Adventure was one of the first Catastrophe films and began the Disaster Film genre. Director Neame tells the story of a group of people that must fight for their lives aboard a sinking ship. Based on the novel by Paul Gallico.",
+        "release_date": "1972-12-01",
+        "release_year": "1972",
+        "title": "Poseidon Adventure, The"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Heather Graham",
+          "Michael York",
+          "Robert Wagner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When diabolical genius, Dr. Evil travels back in time to steal superspy Austin Powers's ‘mojo’, Austin must return to the swingin' '60s himself – with the help of American agent, Felicity Shagwell – to stop the dastardly plan. Once there, Austin faces off against Dr. Evil's army of minions and saves the world in his own unbelievably groovy way.",
+        "release_date": "1999-06-08",
+        "release_year": "1999",
+        "title": "Austin Powers: The Spy Who Shagged Me"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Kirsten Dunst",
+          "Ellen Barkin",
+          "Denise Richards",
+          "Amy Adams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Patrick Jann",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In a small Minnesota town, the annual beauty pageant is being covered by a TV crew. Former winner Gladys Leeman wants to make sure her daughter follows in her footsteps; explosions, falling lights, and trailer fires prove that. As the Leemans are the richest family in town, the police are pretty relaxed about it all. Despite everything, main rival (but sweet) Amber Atkins won't give up without a fight.",
+        "release_date": "1999-07-23",
+        "release_year": "1999",
+        "title": "Drop Dead Gorgeous"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Trey Parker",
+          "Matt Stone",
+          "Mary Kay Bergman",
+          "Isaac Hayes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Trey Parker",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the four boys see an R-rated movie featuring Canadians Terrance and Philip, they are pronounced \"corrupted\", and their parents pressure the United States to wage war against Canada.",
+        "release_date": "1999-06-30",
+        "release_year": "1999",
+        "title": "South Park: Bigger, Longer and Uncut"
+      }
+    ],
+    "raw_user_id": "2973",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 50
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.3889489752251446
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that fail to deliver humor effectively.",
+        "Negative response to films that do not engage emotionally or narratively."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies that blend humor with other genres.",
+        "Positive ratings for films that feature complex characters and emotional narratives.",
+        "Enjoyment of animated films that appeal to both children and adults."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, as indicated by multiple high ratings for films in this genre.); Interest in Drama (The user rates several dramas positively, suggesting a preference for character-driven narratives and emotional depth.); Enjoyment of Animation (The user has rated animated films highly, indicating a fondness for this genre, particularly those appealing to both children and adults.); Thriller Elements (The user shows a liking for thrillers, as evidenced by positive ratings for films that incorporate suspense and tension.); Blend of Genres (The user appreciates films that combine multiple genres, such as comedy with drama or animation with adventure.). Liked patterns: Strong preference for comedies that blend humor with other genres., Positive ratings for films that feature complex characters and emotional narratives., Enjoyment of animated films that appeal to both children and adults.. Disliked patterns: Dislike for comedies that fail to deliver humor effectively., Negative response to films that do not engage emotionally or narratively..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, as indicated by multiple high ratings for films in this genre.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several dramas positively, suggesting a preference for character-driven narratives and emotional depth.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated animated films highly, indicating a fondness for this genre, particularly those appealing to both children and adults.",
+          "taste": "Enjoyment of Animation"
+        },
+        {
+          "reason": "The user shows a liking for thrillers, as evidenced by positive ratings for films that incorporate suspense and tension.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user appreciates films that combine multiple genres, such as comedy with drama or animation with adventure.",
+          "taste": "Blend of Genres"
+        }
+      ]
+    },
+    "user_id": 2973
+  }
+}

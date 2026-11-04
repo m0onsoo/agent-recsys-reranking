@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "81bfe622c190f6791742c3e9f7b4aab3c799b79a80c1a553cd0c6c760077c5b3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      370,
+      1119,
+      863,
+      114,
+      1816,
+      553,
+      375,
+      203,
+      641,
+      41
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7ac671c1d1ac415c8a89ae76a6d0c4a0"
+    ],
+    "sampled_item_ids": [
+      10,
+      11,
+      51,
+      110,
+      114,
+      133,
+      233,
+      252,
+      284,
+      332,
+      353,
+      383,
+      439,
+      471,
+      496,
+      641,
+      911,
+      950,
+      1397,
+      1798,
+      1910,
+      1930,
+      2034,
+      2371,
+      2437
+    ],
+    "seed": 42,
+    "source_hash": "c11502738e8e9ea624e864c3cfd8804be62860d4938553c9466357d10cc93755",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1705,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Richard Briers",
+          "Michael Keaton",
+          "Robert Sean Leonard"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this Shakespearean farce, Hero and her groom-to-be, Claudio, team up with Claudio's commanding officer, Don Pedro, the week before their wedding to hatch a matchmaking scheme. Their targets are sharp-witted duo Benedick and Beatrice -- a tough task indeed, considering their corresponding distaste for love and each other. Meanwhile, meddling Don John plots to ruin the wedding.",
+        "release_date": "1993-05-07",
+        "release_year": "1993",
+        "title": "Much Ado About Nothing"
+      },
+      {
+        "cast": [
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Matthew Lillard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A killer known as Ghostface begins killing off teenagers, and as the body count begins rising, one girl and her friends find themselves contemplating the 'rules' of horror films as they find themselves living in a real-life one.",
+        "release_date": "1996-12-20",
+        "release_year": "1996",
+        "title": "Scream"
+      },
+      {
+        "cast": [
+          "Heath Ledger",
+          "Julia Stiles",
+          "Joseph Gordon-Levitt",
+          "Larisa Oleynik"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gil Junger",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Bianca, a tenth grader, has never gone on a date, but she isn't allowed to go out with boys until her older sister Kat gets a boyfriend. The problem is, Kat rubs nearly everyone the wrong way. But Bianca and the guy she has her eye on, Joey, are eager, so Joey fixes Kat up with Patrick, a new kid in town just bitter enough for Kat.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "10 Things I Hate About You"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Heather Langenkamp",
+          "Robert Englund",
+          "Miko Hughes",
+          "Wes Craven"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Freddy's back … and he's badder than ever! Nancy, the historical nemesis of the man with the satanic snarl and pitchfork fingers, discovers that a new monstrous demon has taken on Freddy's persona. Can Nancy stop this new threat in time to save her son?",
+        "release_date": "1994-10-13",
+        "release_year": "1994",
+        "title": "Wes Craven's New Nightmare"
+      },
+      {
+        "cast": [
+          "Albert Brooks",
+          "Meryl Streep",
+          "Rip Torn",
+          "Lee Grant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Albert Brooks",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In an afterlife resembling the present-day US, people must prove their worth by showing in court how they have demonstrated courage.",
+        "release_date": "1991-03-22",
+        "release_year": "1991",
+        "title": "Defending Your Life"
+      },
+      {
+        "cast": [
+          "James Caan",
+          "Kathy Bates",
+          "Richard Farnsworth",
+          "Frances Sternhagen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Novelist Paul Sheldon crashes his car on a snowy Colorado road. He is found by Annie Wilkes, the \"number one fan\" of Paul's heroine Misery Chastaine. Annie is also somewhat unstable, and Paul finds himself crippled, drugged and at her mercy.",
+        "release_date": "1990-11-28",
+        "release_year": "1990",
+        "title": "Misery"
+      },
+      {
+        "cast": [
+          "Brendan Fraser",
+          "Rachel Weisz",
+          "John Hannah",
+          "Arnold Vosloo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Sommers",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dashing legionnaire Rick O'Connell and his companion, Beni stumble upon the hidden ruins of Hamunaptra while in the midst of a battle in 1923, 3,000 years after Imhotep has suffered a fate worse than death – his body will remain undead for all eternity as a punishment for a forbidden love.",
+        "release_date": "1999-04-16",
+        "release_year": "1999",
+        "title": "Mummy, The"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Nicole Kidman",
+          "Evan Rachel Wood",
+          "Goran Visnjic"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Griffin Dunne",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Sally and Gillian Owens, born into a magical family, have mostly avoided witchcraft themselves. But when Gillian's vicious boyfriend, Jimmy Angelov, dies unexpectedly, the Owens sisters give themselves a crash course in hard magic. With policeman Gary Hallet growing suspicious, the girls struggle to resurrect Angelov -- and unwittingly inject his corpse with an evil spirit that threatens to end their family line.",
+        "release_date": "1998-10-16",
+        "release_year": "1998",
+        "title": "Practical Magic"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Don Rickles",
+          "Jim Varney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+        "release_date": "1995-10-30",
+        "release_year": "1995",
+        "title": "Toy Story"
+      }
+    ],
+    "raw_user_id": "1705",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 69
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6510807780247286
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films",
+        "Negative ratings for poorly received action comedies",
+        "Dislike for films with weak romantic plots"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films and musicals",
+        "Positive ratings for romantic dramas",
+        "Appreciation for action and sci-fi films"
+      ],
+      "summary": "Unique tastes: Musicals and Animated Films (The user enjoys musicals and animated films, as evidenced by high ratings for multiple titles in these genres.); Romantic Dramas (The user shows a preference for romantic dramas, consistently rating films in this genre positively.); Action and Sci-Fi (The user appreciates action and sci-fi films, reflected in high ratings for several titles that blend these genres.); Comedies with Romantic Elements (The user rates comedies that incorporate romantic themes favorably, indicating a liking for this blend.); Thrillers with Mystery Elements (The user enjoys thrillers that include mystery elements, as shown by positive ratings for films in this category.). Liked patterns: High ratings for animated films and musicals, Positive ratings for romantic dramas, Appreciation for action and sci-fi films. Disliked patterns: Low ratings for horror films, Negative ratings for poorly received action comedies, Dislike for films with weak romantic plots.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys musicals and animated films, as evidenced by high ratings for multiple titles in these genres.",
+          "taste": "Musicals and Animated Films"
+        },
+        {
+          "reason": "The user shows a preference for romantic dramas, consistently rating films in this genre positively.",
+          "taste": "Romantic Dramas"
+        },
+        {
+          "reason": "The user appreciates action and sci-fi films, reflected in high ratings for several titles that blend these genres.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "The user rates comedies that incorporate romantic themes favorably, indicating a liking for this blend.",
+          "taste": "Comedies with Romantic Elements"
+        },
+        {
+          "reason": "The user enjoys thrillers that include mystery elements, as shown by positive ratings for films in this category.",
+          "taste": "Thrillers with Mystery Elements"
+        }
+      ]
+    },
+    "user_id": 1705
+  }
+}

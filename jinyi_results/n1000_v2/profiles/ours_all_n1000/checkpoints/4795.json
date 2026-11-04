@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "48b2461a725a61b81bdf84eb10c49bd1dc3718d500c6f0d7a4b24b2a02cd7dab",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      116,
+      766,
+      246,
+      1634,
+      744,
+      560,
+      1288,
+      39,
+      2329,
+      1236
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      10,
+      45,
+      61,
+      98,
+      105,
+      123,
+      154,
+      218,
+      247,
+      262,
+      391,
+      416,
+      753,
+      766,
+      861,
+      1065,
+      1288,
+      1450,
+      1634,
+      1876,
+      2107,
+      2329,
+      2568,
+      2712,
+      2902
+    ],
+    "seed": 42,
+    "source_hash": "3e891341a2e2c588a3a4598b7a79ec7886cdcd836ddbfb28d9e4dab0dd29a037",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4795,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Omar Sharif",
+          "Julie Christie",
+          "Geraldine Chaplin",
+          "Rod Steiger"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "David Lean",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Doctor Zhivago is the filmed adapation of the Russian novel by Boris Pasternak from director David Lean that was an international success and today deemed a classic. Omar Sharif and Julie Christie play two protagonists who in fact love each other yet because of their current situation cannot find a way be together.",
+        "release_date": "1965-12-22",
+        "release_year": "1965",
+        "title": "Doctor Zhivago"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Amy Madigan",
+          "Gaby Hoffmann",
+          "Ray Liotta"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phil Alden Robinson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ray Kinsella is an Iowa farmer who hears a mysterious voice telling him to turn his cornfield into a baseball diamond. He does, but the voice's directions don't stop -- even after the spirits of deceased ballplayers turn up to play.",
+        "release_date": "1989-04-21",
+        "release_year": "1989",
+        "title": "Field of Dreams"
+      },
+      {
+        "cast": [
+          "Lily Tomlin",
+          "Tony Curtis",
+          "Susan Sarandon",
+          "Gore Vidal"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Epstein",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "This documentary highlights the historical contexts that gays, lesbians, bisexuals and transgenders have occupied in cinema history, and shows the evolution of the entertainment industry's role in shaping perceptions of LGBT figures. The issues addressed include secrecy – which initially defined homosexuality – as well as the demonization of the homosexual community with the advent of AIDS, and finally the shift toward acceptance and positivity in the modern era.",
+        "release_date": "1996-01-30",
+        "release_year": "1995",
+        "title": "Celluloid Closet, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Sigourney Weaver",
+          "Linda Hunt",
+          "Michael Murphy"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Australian journalist Guy Hamilton travels to Indonesia to cover civil strife in 1965. There, on the eve of an attempted coup, he befriends a Chinese Australian photographer with a deep connection to and vast knowledge of the Indonesian people and also falls in love with a British national.",
+        "release_date": "1982-12-17",
+        "release_year": "1982",
+        "title": "Year of Living Dangerously"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Faye Dunaway",
+          "John Huston",
+          "Perry Lopez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Private eye Jake Gittes lives off the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband's extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and political scandals that come crashing together.",
+        "release_date": "1974-06-20",
+        "release_year": "1974",
+        "title": "Chinatown"
+      },
+      {
+        "cast": [
+          "James Carville",
+          "George Stephanopoulos",
+          "Heather Beckel",
+          "Paul Begala"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "D.A. Pennebaker",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A behind-the-scenes documentary about the Clinton for President campaign, focusing on the adventures of spin doctors James Carville and George Stephanopoulos.",
+        "release_date": "1993-12-05",
+        "release_year": "1993",
+        "title": "War Room, The"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Tippi Hedren",
+          "Sean Connery",
+          "Diane Baker",
+          "Martin Gabel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Marnie is a beautiful kleptomaniac who is in love with businessman Mark Rutland. Marnie who is a compulsive thief is being watched by her new boss Mark who suspects her of stealing from him and thus decides to blackmail her in the most unusual way. A psychological thriller from Alfred Hitchcock based on a novel of the same name by Winston Graham.",
+        "release_date": "1964-07-09",
+        "release_year": "1964",
+        "title": "Marnie"
+      },
+      {
+        "cast": [
+          "Randall Adams",
+          "David Harris",
+          "Gus Rose",
+          "Jackie Johnson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Errol Morris",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "Errol Morris's unique documentary dramatically re-enacts the crime scene and investigation of a police officer's murder in Dallas.",
+        "release_date": "1988-08-28",
+        "release_year": "1988",
+        "title": "Thin Blue Line, The"
+      }
+    ],
+    "raw_user_id": "4795",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 92
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.752051240765733
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for a war drama, indicating a possible aversion to certain historical narratives"
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend action with strong narratives",
+        "Consistent appreciation for character-driven dramas",
+        "Positive reception of musicals and animated films"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.); Interest in Action and Sci-Fi (The user enjoys action and sci-fi genres, as evidenced by high ratings for films that combine these elements.); Fondness for Documentaries (The user rates several documentaries positively, suggesting an interest in real-life stories and informative content.); Enjoyment of Musicals and Children's Films (The user rates musicals and children's films highly, indicating a taste for uplifting and imaginative storytelling.); Preference for Thrillers (The user shows a liking for thrillers, as reflected in the positive ratings for films that create suspense and tension.). Liked patterns: High ratings for films that blend action with strong narratives, Consistent appreciation for character-driven dramas, Positive reception of musicals and animated films. Disliked patterns: Negative rating for a war drama, indicating a possible aversion to certain historical narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user enjoys action and sci-fi genres, as evidenced by high ratings for films that combine these elements.",
+          "taste": "Interest in Action and Sci-Fi"
+        },
+        {
+          "reason": "The user rates several documentaries positively, suggesting an interest in real-life stories and informative content.",
+          "taste": "Fondness for Documentaries"
+        },
+        {
+          "reason": "The user rates musicals and children's films highly, indicating a taste for uplifting and imaginative storytelling.",
+          "taste": "Enjoyment of Musicals and Children's Films"
+        },
+        {
+          "reason": "The user shows a liking for thrillers, as reflected in the positive ratings for films that create suspense and tension.",
+          "taste": "Preference for Thrillers"
+        }
+      ]
+    },
+    "user_id": 4795
+  }
+}

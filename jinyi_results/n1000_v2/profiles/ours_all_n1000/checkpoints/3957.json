@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "1fad8fe1eecb15d7da492a2304fa7107895531676c4ac425f415cf00bae0b164",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      172,
+      1332,
+      1385,
+      691,
+      1586,
+      149,
+      329,
+      1493,
+      1112,
+      424
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9c69c61fb31c49e28e1a6809947da3d2"
+    ],
+    "sampled_item_ids": [
+      49,
+      61,
+      88,
+      117,
+      118,
+      168,
+      219,
+      260,
+      329,
+      462,
+      480,
+      529,
+      634,
+      643,
+      851,
+      1002,
+      1076,
+      1089,
+      1301,
+      1366,
+      1386,
+      1564,
+      1609,
+      1929,
+      2762
+    ],
+    "seed": 42,
+    "source_hash": "ce9dc1d4b32165307c7313fbf8171e24275cdb3ae573db2c15ac5f52bbd625af",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3957,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Hanks",
+          "Robin Wright",
+          "Gary Sinise",
+          "Mykelti Williamson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events - in each case, far exceeding what anyone imagined he could do. Yet, despite all the things he has attained, his one true love eludes him. 'Forrest Gump' is the story of a man who rose above his challenges, and who proved that determination, courage, and love are more important than ability.",
+        "release_date": "1994-07-06",
+        "release_year": "1994",
+        "title": "Forrest Gump"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Barbara Hershey",
+          "Dennis Hopper",
+          "C.W. Mundy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Anspaugh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "High school basketball is king in small-town Indiana, and the 1954 Hickory Huskers are all hope and no talent. But their new coach -- abrasive, unlikable Norman Dale -- whips the team into shape ... while also inciting controversy.",
+        "release_date": "1986-11-14",
+        "release_year": "1986",
+        "title": "Hoosiers"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Bridget Fonda",
+          "Rosie Perez",
+          "Wendell Pierce"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Bergman",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Charlie Lang is a simple, kindhearted New York City cop. When he realizes he has no money to tip waitress Yvonne Biasi, Lang offers her half the winnings of his lottery ticket. Amazingly, the ticket happens to be a winner, in the sum of $4 million. True to his word, Lang proceeds to share the prize money with Biasi, which infuriates his greedy wife, Muriel. Not content with the arrangement, Muriel begins scheming to take all the money.",
+        "release_date": "1994-07-29",
+        "release_year": "1994",
+        "title": "It Could Happen to You"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Meg Ryan",
+          "Katie Sagona",
+          "Greg Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nora Ephron",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Book superstore magnate, Joe Fox and independent book shop owner, Kathleen Kelly fall in love in the anonymity of the Internet – both blissfully unaware that he's putting her out of business.",
+        "release_date": "1998-12-17",
+        "release_year": "1998",
+        "title": "You've Got Mail"
+      },
+      {
+        "cast": [
+          "Sally Field",
+          "Dolly Parton",
+          "Shirley MacLaine",
+          "Julia Roberts"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Herbert Ross",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "This heart wrenching drama is about a beauty shop, in Louisana owned by Truvy, and the tragedies of all of her clients.",
+        "release_date": "1989-11-15",
+        "release_year": "1989",
+        "title": "Steel Magnolias"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Jamie Lee Curtis",
+          "Tom Arnold",
+          "Bill Paxton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Harry Tasker is a secret agent for the United States Government. For years, he has kept his job from his wife, but is forced to reveal his identity and try to stop nuclear terrorists when he and his wife are kidnapped by them.",
+        "release_date": "1994-07-14",
+        "release_year": "1994",
+        "title": "True Lies"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Sharon Stone",
+          "Joe Pesci",
+          "James Woods"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The life of the gambling paradise – Las Vegas – and its dark mafia underbelly.",
+        "release_date": "1995-11-22",
+        "release_year": "1995",
+        "title": "Casino"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "Jeff Daniels",
+          "Danny Aiello",
+          "Irving Metzman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Cecilia is a waitress in New Jersey, living a dreary life during the Great Depression. Her only escape from her mudane reality is the movie theatre. After losing her job, Cecilia goes to see 'The Purple Rose of Cairo' in hopes of raising her spirits, where she watches dashing archaeologist Tom Baxter time and again.",
+        "release_date": "1985-03-01",
+        "release_year": "1985",
+        "title": "Purple Rose of Cairo, The"
+      },
+      {
+        "cast": [
+          "David Naughton",
+          "Jenny Agutter",
+          "Griffin Dunne",
+          "John Woodvine"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Two American tourists in England are attacked by a werewolf that none of the locals will admit exists.",
+        "release_date": "1981-08-21",
+        "release_year": "1981",
+        "title": "American Werewolf in London, An"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Jim Carrey",
+          "Kathleen Turner",
+          "Helen Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Peggy Sue faints at a Highschool reunion. When she wakes up she finds herself in her own past, just before she finished school.",
+        "release_date": "1986-10-05",
+        "release_year": "1986",
+        "title": "Peggy Sue Got Married"
+      }
+    ],
+    "raw_user_id": "3957",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 281
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7471106520153791
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily categorized as Crime or overly complex Thrillers."
+      ],
+      "liked_patterns": [
+        "Preference for films that blend Drama with Action or War themes.",
+        "Enjoyment of films that incorporate elements of Comedy alongside other genres.",
+        "High ratings for films featuring strong character development and emotional depth."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (Multiple high ratings for films primarily categorized as Drama, indicating a deep appreciation for character-driven narratives.); Enjoyment of Action and Adventure (Consistent high ratings for Action and Adventure films suggest a strong affinity for thrilling and dynamic storytelling.); Appreciation for Comedy (Several ratings of 3 or above for Comedy films indicate enjoyment of humor and light-hearted narratives.); Interest in War themes (High ratings for films with War themes reflect a fascination with historical and intense storytelling.); Fondness for Thrillers (Positive ratings for Thriller films suggest an enjoyment of suspenseful and engaging plots.). Liked patterns: Preference for films that blend Drama with Action or War themes., Enjoyment of films that incorporate elements of Comedy alongside other genres., High ratings for films featuring strong character development and emotional depth.. Disliked patterns: Dislike for films that are primarily categorized as Crime or overly complex Thrillers..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for films primarily categorized as Drama, indicating a deep appreciation for character-driven narratives.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Consistent high ratings for Action and Adventure films suggest a strong affinity for thrilling and dynamic storytelling.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "Several ratings of 3 or above for Comedy films indicate enjoyment of humor and light-hearted narratives.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "High ratings for films with War themes reflect a fascination with historical and intense storytelling.",
+          "taste": "Interest in War themes"
+        },
+        {
+          "reason": "Positive ratings for Thriller films suggest an enjoyment of suspenseful and engaging plots.",
+          "taste": "Fondness for Thrillers"
+        }
+      ]
+    },
+    "user_id": 3957
+  }
+}

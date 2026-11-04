@@ -1,0 +1,346 @@
+{
+  "checkpoint_hash": "75c7788f6ab0ac95cccb55d426dab23f29530acf4da4d57394777fe1f68a6648",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1317,
+      45,
+      653,
+      487,
+      765,
+      592,
+      569,
+      613,
+      617,
+      1931
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "c68901a21b6a4283bde32a83285fc6c2"
+    ],
+    "sampled_item_ids": [
+      27,
+      45,
+      61,
+      188,
+      391,
+      425,
+      559,
+      569,
+      592,
+      613,
+      617,
+      629,
+      653,
+      679,
+      740,
+      755,
+      768,
+      809,
+      843,
+      1029,
+      1038,
+      1067,
+      1903,
+      1931,
+      3000
+    ],
+    "seed": 42,
+    "source_hash": "dfe7a849c396995fe015d0c9e0f175027446fa0e2d4e34df46469ceb67c331ab",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1042,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "customer service"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gregory Smith",
+          "Kirsten Dunst",
+          "Denis Leary",
+          "Phil Hartman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Fantasy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When missile technology is used to enhance toy action figures, the toys soon begin to take their battle programming too seriously.",
+        "release_date": "1998-07-10",
+        "release_year": "1998",
+        "title": "Small Soldiers"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Charlie Chaplin",
+          "Georgia Hale",
+          "Mack Swain",
+          "Tom Murray"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charlie Chaplin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A lone prospector ventures into Alaska looking for gold. He gets mixed up with some burly characters and falls in love with the beautiful Georgia. He tries to win her heart with his singular charm.",
+        "release_date": "1925-06-25",
+        "release_year": "1925",
+        "title": "Gold Rush, The"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Cybill Shepherd",
+          "Harvey Keitel",
+          "Jodie Foster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+        "release_date": "1976-02-07",
+        "release_year": "1976",
+        "title": "Taxi Driver"
+      },
+      {
+        "cast": [
+          "Dudley Moore",
+          "John Lithgow",
+          "David Huddleston",
+          "Burgess Meredith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeannot Szwarc",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "The first half of this film, set hundreds of years ago, shows how the old man who eventually became Santa Claus was given immortality and chosen to deliver toys to all the children of the world. The second half moves into the modern era, in which Patch, the head elf, strikes out on his own and falls in with an evil toy manufacturer who wants to corner the market and eliminate Santa Claus.",
+        "release_date": "1985-10-29",
+        "release_year": "1985",
+        "title": "Santa Claus: The Movie"
+      },
+      {
+        "cast": [
+          "Jim Henson",
+          "Kathryn Mullen",
+          "Frank Oz",
+          "Dave Goelz"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Henson",
+        "genres": [
+          "Children's",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "On another planet in the distant past, a Gelfling embarks on a quest to find the missing shard of a magical crystal and restore order to his world, before the grotesque race of Skeksis find and use the crystal for evil.",
+        "release_date": "1982-12-17",
+        "release_year": "1982",
+        "title": "Dark Crystal, The"
+      },
+      {
+        "cast": [
+          "Judith Hoag",
+          "Elias Koteas",
+          "Josh Pais",
+          "Brian Tochi"
+        ],
+        "country": [
+          "Hong Kong",
+          "United States of America"
+        ],
+        "director": "Steve Barron",
+        "genres": [
+          "Action",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A quartet of mutated humanoid turtles clash with an uprising criminal gang of ninjas",
+        "release_date": "1990-03-30",
+        "release_year": "1990",
+        "title": "Teenage Mutant Ninja Turtles"
+      },
+      {
+        "cast": [
+          "Bobby Driscoll",
+          "Kathryn Beaumont",
+          "Hans Conried",
+          "Bill Thompson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Fantasy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Leaving the safety of their nursery behind, Wendy, Michael and John follow Peter Pan to a magical world where childhood lasts forever. But while in Neverland, the kids must face Captain Hook and foil his attempts to get rid of Peter for good.",
+        "release_date": "1953-02-05",
+        "release_year": "1953",
+        "title": "Peter Pan"
+      },
+      {
+        "cast": [
+          "Robert Downey Jr.",
+          "Charles Grodin",
+          "Kyra Sedgwick",
+          "Elisabeth Shue"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Underwood",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A businessman is reunited with the four lost souls who were his guardian angels during childhood, all with a particular purpose to joining the afterlife.",
+        "release_date": "1993-08-13",
+        "release_year": "1993",
+        "title": "Heart and Souls"
+      },
+      {
+        "cast": [
+          "Jason James Richter",
+          "Melody Kay",
+          "Kevin McNulty",
+          "Tracey Ellis"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Peter MacDonald",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young boy must restore order when a group of bullies steal the magical book that acts as a portal between Earth and the imaginary world of Fantasia.",
+        "release_date": "1994-10-26",
+        "release_year": "1994",
+        "title": "NeverEnding Story III, The"
+      }
+    ],
+    "raw_user_id": "1042",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 37
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.284006624637971
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action-oriented films that lack strong fantasy elements.",
+        "Negative reception of sequels or follow-ups in children's fantasy films."
+      ],
+      "liked_patterns": [
+        "Preference for fantasy and adventure genres in children's films.",
+        "Enjoyment of comedic elements in family-oriented movies.",
+        "Positive reception of films that blend fantasy with romance."
+      ],
+      "summary": "Unique tastes: Fantasy (A strong preference for fantasy elements is evident in multiple liked movies.); Children's (Enjoyment of children's films is reflected in several ratings of 3 or above.); Comedy (A notable appreciation for comedy is shown through positive ratings of comedic films.); Adventure (Adventure themes are frequently present in liked movies, indicating a preference for this genre.); Romance (Romantic elements are appreciated, as seen in several liked films.). Liked patterns: Preference for fantasy and adventure genres in children's films., Enjoyment of comedic elements in family-oriented movies., Positive reception of films that blend fantasy with romance.. Disliked patterns: Dislike for action-oriented films that lack strong fantasy elements., Negative reception of sequels or follow-ups in children's fantasy films..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for fantasy elements is evident in multiple liked movies.",
+          "taste": "Fantasy"
+        },
+        {
+          "reason": "Enjoyment of children's films is reflected in several ratings of 3 or above.",
+          "taste": "Children's"
+        },
+        {
+          "reason": "A notable appreciation for comedy is shown through positive ratings of comedic films.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Adventure themes are frequently present in liked movies, indicating a preference for this genre.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "Romantic elements are appreciated, as seen in several liked films.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 1042
+  }
+}

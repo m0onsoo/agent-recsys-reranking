@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "357d165bef56960f9fc22bfda9fffb151d6de39d9625a9e8944a157ac92f7121",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      530,
+      548,
+      618,
+      934,
+      1765,
+      214,
+      663,
+      135,
+      1082,
+      2063
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "c92370c6045b45688f19f68e47503fbd"
+    ],
+    "sampled_item_ids": [
+      4,
+      10,
+      114,
+      122,
+      128,
+      129,
+      135,
+      143,
+      313,
+      397,
+      410,
+      561,
+      563,
+      707,
+      934,
+      1082,
+      1116,
+      1159,
+      1241,
+      1311,
+      1476,
+      1518,
+      1731,
+      2063,
+      3306
+    ],
+    "seed": 42,
+    "source_hash": "38c45c3df1c497162ac5b298f112b0499a56bb8c4705df79621ed90df4ab88b7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1547,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "retired"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Billy Crystal",
+          "Carrie Fisher",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "During their travels from Chicago to New York, Harry and Sally Will debate whether or not sex ruins a perfect relationship between a man and a woman. Eleven years and later, they're still no closer to finding the answer.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "When Harry Met Sally..."
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Zero Mostel",
+          "Dick Shawn",
+          "Kenneth Mars"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Broadway producer, Max Bialystock and his accountant, Leo Bloom plan to make money by charming little old ladies to invest in a production many times over what it will actually cost, and then put on a sure-fire flop, so nobody will ask for their money back – and what can be a more certain flop than a tasteless musical celebrating Hitler.",
+        "release_date": "1967-11-22",
+        "release_year": "1968",
+        "title": "Producers, The"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Kim Novak",
+          "Jack Lemmon",
+          "Ernie Kovacs"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Quine",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A modern-day witch likes her neighbor but despises his fiancee, so she enchants him to love her instead... only to fall in love with him for real.",
+        "release_date": "1958-12-25",
+        "release_year": "1958",
+        "title": "Bell, Book and Candle"
+      },
+      {
+        "cast": [
+          "Jack Lemmon",
+          "Shirley MacLaine",
+          "Fred MacMurray",
+          "Ray Walston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he's left with a major problem to solve.",
+        "release_date": "1960-06-15",
+        "release_year": "1960",
+        "title": "Apartment, The"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Robert Shaw",
+          "Richard Dreyfuss",
+          "Lorraine Gary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
+        "release_date": "1975-06-18",
+        "release_year": "1975",
+        "title": "Jaws"
+      },
+      {
+        "cast": [
+          "Keir Dullea",
+          "Gary Lockwood",
+          "William Sylvester",
+          "Douglas Rain"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "release_date": "1968-04-10",
+        "release_year": "1968",
+        "title": "2001: A Space Odyssey"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Ralph Macchio",
+          "Pat Morita",
+          "Martin Kove",
+          "Charlie Tanimoto"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Mr. Miyagi and Daniel take a trip to Okinawa to visit Mr. Miyagi's dying father. After arriving Mr. Miyagi finds he still has feelings for an old love. This stirs up trouble with an old rival who he originally left Okinawa to avoid. In the mean time, Daniel encounters a new love and also makes some enemies.",
+        "release_date": "1986-06-18",
+        "release_year": "1986",
+        "title": "Karate Kid, Part II, The"
+      },
+      {
+        "cast": [
+          "Rod Steiger",
+          "Geraldine Fitzgerald",
+          "Brock Peters",
+          "Jaime Sánchez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Jewish pawnbroker, a victim of Nazi persecution, loses all faith in his fellow man until he realizes too late the tragedy of his actions.",
+        "release_date": "1965-04-20",
+        "release_year": "1965",
+        "title": "Pawnbroker, The"
+      }
+    ],
+    "raw_user_id": "1547",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 108
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.815238967788581
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Disliking films that are primarily horror or overly dark in theme."
+      ],
+      "liked_patterns": [
+        "Favoring films with strong character development and emotional depth.",
+        "Enjoying narratives that blend humor with romance.",
+        "Appreciating suspenseful and thrilling storylines."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (Multiple high ratings for films primarily categorized as Drama.); Appreciation for Comedy and Romance (Consistent high ratings for films that blend Comedy and Romance.); Interest in Adventure films (Several Adventure films received favorable ratings.); Enjoyment of Thrillers (Thrillers received positive ratings, indicating a taste for suspenseful narratives.); Fondness for Classic films (High ratings for films from earlier decades suggest an appreciation for classic cinema.). Liked patterns: Favoring films with strong character development and emotional depth., Enjoying narratives that blend humor with romance., Appreciating suspenseful and thrilling storylines.. Disliked patterns: Disliking films that are primarily horror or overly dark in theme..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for films primarily categorized as Drama.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Consistent high ratings for films that blend Comedy and Romance.",
+          "taste": "Appreciation for Comedy and Romance"
+        },
+        {
+          "reason": "Several Adventure films received favorable ratings.",
+          "taste": "Interest in Adventure films"
+        },
+        {
+          "reason": "Thrillers received positive ratings, indicating a taste for suspenseful narratives.",
+          "taste": "Enjoyment of Thrillers"
+        },
+        {
+          "reason": "High ratings for films from earlier decades suggest an appreciation for classic cinema.",
+          "taste": "Fondness for Classic films"
+        }
+      ]
+    },
+    "user_id": 1547
+  }
+}

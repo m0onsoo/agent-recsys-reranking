@@ -1,0 +1,328 @@
+{
+  "checkpoint_hash": "59e0e97945fa7c4607c6fba7abd5be5da7cce643ebdc207fbc3c6f6268eb306b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      14,
+      1375,
+      1500,
+      400,
+      1309,
+      702,
+      76,
+      816,
+      1265,
+      1356
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a977d9bae1624920bfb93733d7d0cd66"
+    ],
+    "sampled_item_ids": [
+      8,
+      20,
+      32,
+      41,
+      86,
+      105,
+      177,
+      185,
+      317,
+      382,
+      564,
+      567,
+      578,
+      615,
+      696,
+      866,
+      1039,
+      1265,
+      1298,
+      1299,
+      1377,
+      1404,
+      1500,
+      1567,
+      1571
+    ],
+    "seed": 42,
+    "source_hash": "2d11a24c786c125aa41fde09f33dd1e25934a6c27cea657549b4bd427e7b3ae3",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4092,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Alan Ruck",
+          "Mia Sara",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Charismatic teen Ferris Bueller plays hooky in Chicago with his girlfriend and best friend.",
+        "release_date": "1986-06-11",
+        "release_year": "1986",
+        "title": "Ferris Bueller's Day Off"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Demi Moore",
+          "Bobcat Goldthwait",
+          "Tom Villard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Savage Steve Holland",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "An aspiring teenage cartoonist and his friends come to the aid of a singer trying to save her family property from developers.",
+        "release_date": "1986-08-08",
+        "release_year": "1986",
+        "title": "One Crazy Summer"
+      },
+      {
+        "cast": [
+          "Val Kilmer",
+          "Gabriel Jarret",
+          "Michelle Meyrink",
+          "William Atherton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martha Coolidge",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Chris is the top brain who just wants to party, Mitch is the 15-year-old college wiz kid. Supposedly hard at work on a lab project with a mysterious deadline, they still find time to use their genius to discover new ways to have fun.",
+        "release_date": "1985-08-07",
+        "release_year": "1985",
+        "title": "Real Genius"
+      },
+      {
+        "cast": [
+          "Dudley Moore",
+          "Liza Minnelli",
+          "John Gielgud",
+          "Geraldine Fitzgerald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve Gordon",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Arthur is the most quotable drunk millionaire that is likely to ever steal your heart. Dudley Moore portrays Arthur, a thirty year old child who will inherit 750 million dollars if he complies with his family's demands and marries the woman of their choosing.",
+        "release_date": "1981-07-17",
+        "release_year": "1981",
+        "title": "Arthur"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Rebecca De Mornay",
+          "Sean Penn",
+          "Joe Pantoliano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Brickman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Meet Joel Goodson, an industrious, college-bound 17-year-old and a responsible, trustworthy son. However, when his parents go away and leave him home alone in the wealthy Chicago suburbs with the Porsche at his disposal he quickly decides he has been good for too long and it is time to enjoy himself. After an unfortunate incident with the Porsche Joel must raise some cash, in a risky way.",
+        "release_date": "1983-08-05",
+        "release_year": "1983",
+        "title": "Risky Business"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Beverly D'Angelo",
+          "Imogene Coca",
+          "Randy Quaid"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Clark Griswold is on a quest to take his family on a quest to Walley World theme park for a vacation, but things don't go exactly as planned.",
+        "release_date": "1983-07-28",
+        "release_year": "1983",
+        "title": "Vacation"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Robin Williams",
+          "Mercedes Ruehl",
+          "Amanda Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Two troubled men face their terrible destinies and events of their past as they join together on a mission to find the Holy Grail and thus to save themselves.",
+        "release_date": "1991-09-09",
+        "release_year": "1991",
+        "title": "Fisher King, The"
+      },
+      {
+        "cast": [
+          "Jason London",
+          "Rory Cochrane",
+          "Wiley Wiggins",
+          "Sasha Jenson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Linklater",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The adventures of a group of Texas teens on their last day of school in 1976, centering on student Randall Floyd, who moves easily among stoners, jocks and geeks. Floyd is a star athlete, but he also likes smoking weed, which presents a conundrum when his football coach demands he sign a \"no drugs\" pledge.",
+        "release_date": "1993-09-24",
+        "release_year": "1993",
+        "title": "Dazed and Confused"
+      },
+      {
+        "cast": [
+          "Shirley MacLaine",
+          "Debra Winger",
+          "Jack Nicholson",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Aurora and Emma are mother and daughter who march to different drummers. Beginning with Emma's marriage, Aurora shows how difficult and loving she can be. The movie covers several years of their lives as each finds different reasons to go on living and find joy. Aurora's interludes with Garrett Breedlove, retired astronaut and next door neighbor are quite striking.",
+        "release_date": "1983-11-20",
+        "release_year": "1983",
+        "title": "Terms of Endearment"
+      },
+      {
+        "cast": [
+          "Michelle Pfeiffer",
+          "Matthew Modine",
+          "Oliver Platt",
+          "Alec Baldwin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Angela de Marco is fed up with her gangster husband's line of work and wants no part of the crime world. When her husband is killed for having an affair with the mistress of mob boss Tony \"The Tiger\" Russo, Angela and her son depart for New York City to make a fresh start. Unfortunately, Tony has set his sights upon Angela -- and so has an undercover FBI agent looking to use her to bust Tony.",
+        "release_date": "1988-08-19",
+        "release_year": "1988",
+        "title": "Married to the Mob"
+      }
+    ],
+    "raw_user_id": "4092",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 58
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8033438742584295
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that lack depth or engaging storylines.",
+        "Dislike for children's films that do not resonate with humor or emotional connection."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend with drama or romance.",
+        "Strong appreciation for family-friendly films with comedic elements.",
+        "Positive reception of films featuring unique or quirky narratives."
+      ],
+      "summary": "Unique tastes: Comedy (A strong preference for comedies is evident, with many high ratings across various comedic sub-genres.); Drama (Enjoyment of dramatic narratives is reflected in several high ratings, often combined with comedy.); Children's and Family Themes (A notable appreciation for children's and family-oriented films, indicated by high ratings for movies in these genres.); Romantic Elements (A tendency to enjoy romantic comedies and dramas, as shown by multiple high ratings in films that blend these themes.); Fantasy and Adventure (An interest in fantasy and adventure elements is present, particularly in films that incorporate humor.). Liked patterns: High ratings for comedies that blend with drama or romance., Strong appreciation for family-friendly films with comedic elements., Positive reception of films featuring unique or quirky narratives.. Disliked patterns: Low ratings for comedies that lack depth or engaging storylines., Dislike for children's films that do not resonate with humor or emotional connection..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for comedies is evident, with many high ratings across various comedic sub-genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Enjoyment of dramatic narratives is reflected in several high ratings, often combined with comedy.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "A notable appreciation for children's and family-oriented films, indicated by high ratings for movies in these genres.",
+          "taste": "Children's and Family Themes"
+        },
+        {
+          "reason": "A tendency to enjoy romantic comedies and dramas, as shown by multiple high ratings in films that blend these themes.",
+          "taste": "Romantic Elements"
+        },
+        {
+          "reason": "An interest in fantasy and adventure elements is present, particularly in films that incorporate humor.",
+          "taste": "Fantasy and Adventure"
+        }
+      ]
+    },
+    "user_id": 4092
+  }
+}

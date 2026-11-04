@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "bad69baa7ddc21be0c7b1a2c75a6be7b4835effe2d6027fe687a9ddeaadf7c1c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      273,
+      1683,
+      30,
+      677,
+      220,
+      436,
+      290,
+      2623,
+      1195,
+      382
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e5538cc0f1ea411b9046ab439d4f870f"
+    ],
+    "sampled_item_ids": [
+      28,
+      69,
+      82,
+      91,
+      139,
+      306,
+      327,
+      336,
+      445,
+      448,
+      466,
+      518,
+      532,
+      670,
+      815,
+      1108,
+      1288,
+      1290,
+      1360,
+      1388,
+      1713,
+      2233,
+      2437,
+      2522,
+      2570
+    ],
+    "seed": 42,
+    "source_hash": "e253e737c4fc0b49bac5c1783509f0fd32b7ff79f08f51f229548add24a6d678",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 303,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "George Clooney",
+          "Jennifer Lopez",
+          "Ving Rhames",
+          "Don Cheadle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Meet Jack Foley, a smooth criminal who bends the law and is determined to make one last heist. Karen Sisco is a federal marshal who chooses all the right moves … and all the wrong guys. Now they're willing to risk it all to find out if there's more between them than just the law. Variety hails Out of Sight as \"a sly, sexy, vastly entertaining film.\"",
+        "release_date": "1998-06-26",
+        "release_year": "1998",
+        "title": "Out of Sight"
+      },
+      {
+        "cast": [
+          "Compay Segundo",
+          "Eliades Ochoa",
+          "Ry Cooder",
+          "Joachim Cooder"
+        ],
+        "country": [
+          "Cuba",
+          "Germany",
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Wim Wenders",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "In this fascinating Oscar-nominated documentary, American guitarist Ry Cooder brings together a group of legendary Cuban folk musicians (some in their 90s) to record a Grammy-winning CD in their native city of Havana. The result is a spectacular compilation of concert footage from the group's gigs in Amsterdam and New York City's famed Carnegie Hall, with director Wim Wenders capturing not only the music -- but also the musicians' life stories.",
+        "release_date": "1999-02-17",
+        "release_year": "1999",
+        "title": "Buena Vista Social Club"
+      },
+      {
+        "cast": [
+          "Peter Sallis",
+          "Anne Reid"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wallace falls in love with wool-shop owner Wendolene, not suspecting that she (or rather, her dog) is at the head of a fiendish sheep-rustling plot. Gromit is set up and jailed, but his new-found sheepish friend is determine to give Wallace a helping hand in finding out the real truth.",
+        "release_date": "1995-12-24",
+        "release_year": "1995",
+        "title": "Close Shave, A"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Tahnee Welch",
+          "Brian Dennehy",
+          "Don Ameche"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A group of aliens return to earth to take back some cocoons of their people they left behind from an earlier trip. They kept the recovered cocoons in the swimming pool of a house they rented in a small Florida town. Their mission is hampered by a number of old people from an elderly home nearby, who have been secretly using the pool and discovering the unusual power of these cocoons.",
+        "release_date": "1985-06-21",
+        "release_year": "1985",
+        "title": "Cocoon"
+      },
+      {
+        "cast": [
+          "Ian McKellen",
+          "Brendan Fraser",
+          "Lynn Redgrave",
+          "Lolita Davidovich"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Bill Condon",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "It's 1957, and Whale's heyday as the director of \"Frankenstein,\" \"Bride of Frankenstein\" and \"The Invisible Man\" is long behind him. Retired and a semi-recluse, he lives his days accompanied only by images from his past. When his dour housekeeper, Hannah, hires a handsome young gardener, the flamboyant director and simple yard man develop an unlikely friendship, which will change them forever.",
+        "release_date": "1998-01-21",
+        "release_year": "1998",
+        "title": "Gods and Monsters"
+      },
+      {
+        "cast": [
+          "Cate Blanchett",
+          "Geoffrey Rush",
+          "Christopher Eccleston",
+          "Joseph Fiennes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Shekhar Kapur",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of the ascension to the throne and the early reign of Queen Elizabeth the First, the endless attempts by her council to marry her off, the Catholic hatred of her and her romance with Lord Robert Dudley.",
+        "release_date": "1998-09-13",
+        "release_year": "1998",
+        "title": "Elizabeth"
+      },
+      {
+        "cast": [
+          "Mark Polish",
+          "Michael Polish",
+          "Michele Hicks",
+          "Jon Gries"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Michael Polish",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Francis and Blake Falls are Siamese twins who live in a neat little room in a rundown hotel. While sharing some organs, Blake is always fit and Francis is very sickly. Into their world comes a young lady, who turns their world upside down. She gets involved with Blake, and convinces the two to attend a Halloween party, where they can pass themselves off as wearing a costume. Eventually Francis becomes really ill, and they have to be separated. They then face the physical and mental strains that come from their proposed separation.",
+        "release_date": "1999-07-30",
+        "release_year": "1999",
+        "title": "Twin Falls Idaho"
+      },
+      {
+        "cast": [],
+        "country": [
+          "unkown"
+        ],
+        "director": "Jean Bach",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "Art Kane, now deceased, coordinated a group photograph of all the top jazz musicians in NYC in the year 1958, for a piece in Esquire magazine. Just about every jazz musician at the time showed up for the photo shoot which took place in front of a brownstone near the 125th street station. The documentary compiles interviews of many of the musicians in the photograph to talk about the day of the photograph, and it shows film footage taken that day by Milt Hinton and his wife.",
+        "release_date": "1994-09-27",
+        "release_year": "1994",
+        "title": "Great Day in Harlem, A"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Hugh Grant",
+          "Gina McKee",
+          "Tim McInnerny"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Roger Michell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The British comedy from director Roger Michell tells the love story between a famous actress and a simple book seller from London. A look into the attempt for famous people to have a personal and private life and the ramifications that follow. Nominated for three Golden Globes in 2000.",
+        "release_date": "1999-05-13",
+        "release_year": "1999",
+        "title": "Notting Hill"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      }
+    ],
+    "raw_user_id": "303",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 169
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0673662474055319
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films that lack strong narratives",
+        "Negative reception of certain comedies that do not resonate with the user",
+        "Dislike for thrillers that fail to engage the user"
+      ],
+      "liked_patterns": [
+        "Preference for drama and emotional storytelling",
+        "Enjoyment of comedic elements across various contexts",
+        "Interest in films that combine multiple genres, such as drama with romance or comedy"
+      ],
+      "summary": "Unique tastes: Drama (The user has a strong preference for dramatic narratives, as evidenced by multiple high ratings for drama films.); Comedy (The user enjoys comedic films, with several ratings of 3 or above indicating a positive reception.); Thriller (The user shows an interest in thrillers, reflected in the ratings for several films in this genre.); Romance (The user appreciates romantic elements in films, as indicated by positive ratings for movies that blend drama and romance.); Documentary (The user has rated several documentaries highly, suggesting an interest in real-life stories and informative content.). Liked patterns: Preference for drama and emotional storytelling, Enjoyment of comedic elements across various contexts, Interest in films that combine multiple genres, such as drama with romance or comedy. Disliked patterns: Dislike for action films that lack strong narratives, Negative reception of certain comedies that do not resonate with the user, Dislike for thrillers that fail to engage the user.",
+      "unique_tastes": [
+        {
+          "reason": "The user has a strong preference for dramatic narratives, as evidenced by multiple high ratings for drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedic films, with several ratings of 3 or above indicating a positive reception.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows an interest in thrillers, reflected in the ratings for several films in this genre.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user appreciates romantic elements in films, as indicated by positive ratings for movies that blend drama and romance.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user has rated several documentaries highly, suggesting an interest in real-life stories and informative content.",
+          "taste": "Documentary"
+        }
+      ]
+    },
+    "user_id": 303
+  }
+}

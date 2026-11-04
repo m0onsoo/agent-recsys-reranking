@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "eff73db031506166b16ebe54678913c299fe5e7b0bcead06931c285e9b8134c7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      157,
+      129,
+      418,
+      247,
+      329,
+      530,
+      1097,
+      1870,
+      367,
+      107
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      40,
+      52,
+      93,
+      98,
+      107,
+      129,
+      157,
+      168,
+      227,
+      245,
+      257,
+      313,
+      325,
+      354,
+      367,
+      384,
+      418,
+      506,
+      521,
+      530,
+      1097,
+      1231,
+      1870,
+      2629,
+      2666
+    ],
+    "seed": 42,
+    "source_hash": "fd611da9d137e76252701d86326536bf6b37678e97314f108f684e78f6770697",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5559,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Geena Davis",
+          "Harvey Keitel",
+          "Brad Pitt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Whilst on a short weekend getaway, Louise shoots a man who had tried to rape Thelma. Due to the incriminating circumstances, they make a run for it and thus a cross country chase ensues for the two fugitives. Along the way, both women rediscover the strength of their friendship and surprising aspects of their personalities and self-strengths in the trying times.",
+        "release_date": "1991-05-24",
+        "release_year": "1991",
+        "title": "Thelma & Louise"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Emma Thompson",
+          "Hugh Grant",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ang Lee",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Rich Mr. Dashwood dies, leaving his second wife and her daughters poor by the rules of inheritance. Two daughters are the titular opposites.",
+        "release_date": "1995-12-13",
+        "release_year": "1995",
+        "title": "Sense and Sensibility"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Sharon Stone",
+          "Joe Pesci",
+          "James Woods"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The life of the gambling paradise – Las Vegas – and its dark mafia underbelly.",
+        "release_date": "1995-11-22",
+        "release_year": "1995",
+        "title": "Casino"
+      },
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Pete Postlethwaite",
+          "Emma Thompson",
+          "John Lynch"
+        ],
+        "country": [
+          "United Kingdom",
+          "Ireland"
+        ],
+        "director": "Jim Sheridan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A small time thief from Belfast, Gerry Conlon, is falsely implicated in the IRA bombing of a pub that kills several people while he is in London. He and his four friends are coerced by British police into confessing their guilt. Gerry's father and other relatives in London are also implicated in the crime. He spends fifteen years in prison with his father trying to prove his innocence.",
+        "release_date": "1993-12-12",
+        "release_year": "1993",
+        "title": "In the Name of the Father"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "Debra Winger",
+          "John Wood",
+          "Julian Fellowes"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Richard Attenborough",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "C.S. Lewis, a world-renowned writer and professor, leads a passionless life until he meets spirited poet Joy Gresham",
+        "release_date": "1993-12-25",
+        "release_year": "1993",
+        "title": "Shadowlands"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Jack Lemmon",
+          "Alec Baldwin",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Foley",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Glengarry Glen Ross, follows the lives of four unethical Chicago real estate agents who are prepared to go to any lengths (legal or illegal) to unload undesirable real estate on unwilling prospective buyers.",
+        "release_date": "1992-09-15",
+        "release_year": "1992",
+        "title": "Glengarry Glen Ross"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "Emma Thompson",
+          "James Fox",
+          "Christopher Reeve"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Ivory",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A rule bound head butler's world of manners and decorum in the household he maintains is tested by the arrival of a housekeeper who falls in love with him in post-WWI Britain. The possibility of romance and his master's cultivation of ties with the Nazi cause challenge his carefully maintained veneer of servitude.",
+        "release_date": "1993-11-05",
+        "release_year": "1993",
+        "title": "Remains of the Day, The"
+      }
+    ],
+    "raw_user_id": "5559",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 33
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.43206146130732026
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike are evident based on the provided ratings."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with crime and thriller elements.",
+        "Consistent appreciation for character-driven stories across various genres.",
+        "Positive reception of films that combine action with strong dramatic themes."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.); Crime and Thriller (The user enjoys crime and thriller elements, as shown by multiple high ratings for films that combine these genres with drama.); Action with Dramatic Elements (There is a notable appreciation for action films that also incorporate significant dramatic themes.); Romantic Drama (The user shows a liking for romantic dramas, as indicated by positive ratings for films that blend these elements.); Character-Driven Stories (A preference for character-driven narratives is apparent, with high ratings for films that focus on deep character development.). Liked patterns: High ratings for films that blend drama with crime and thriller elements., Consistent appreciation for character-driven stories across various genres., Positive reception of films that combine action with strong dramatic themes.. Disliked patterns: No significant patterns of dislike are evident based on the provided ratings..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys crime and thriller elements, as shown by multiple high ratings for films that combine these genres with drama.",
+          "taste": "Crime and Thriller"
+        },
+        {
+          "reason": "There is a notable appreciation for action films that also incorporate significant dramatic themes.",
+          "taste": "Action with Dramatic Elements"
+        },
+        {
+          "reason": "The user shows a liking for romantic dramas, as indicated by positive ratings for films that blend these elements.",
+          "taste": "Romantic Drama"
+        },
+        {
+          "reason": "A preference for character-driven narratives is apparent, with high ratings for films that focus on deep character development.",
+          "taste": "Character-Driven Stories"
+        }
+      ]
+    },
+    "user_id": 5559
+  }
+}

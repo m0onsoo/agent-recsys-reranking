@@ -1,0 +1,327 @@
+{
+  "checkpoint_hash": "31afdd85b9ccee0a9bb5a06231551f064e191f6971fa8e2afc609ebca94eed93",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      380,
+      1904,
+      1,
+      2072,
+      321,
+      1314,
+      452,
+      1352,
+      1377,
+      135
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      15,
+      69,
+      116,
+      281,
+      289,
+      410,
+      451,
+      530,
+      573,
+      733,
+      844,
+      845,
+      1061,
+      1314,
+      1353,
+      1365,
+      1454,
+      1614,
+      1733,
+      1997,
+      2072,
+      2686,
+      2889,
+      2922,
+      3093
+    ],
+    "seed": 42,
+    "source_hash": "08145cccfd3871dbaccf5b44200c3d25b1c48400747c5cfcbb75f492328def49",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5812,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tim Robbins",
+          "Giancarlo Esposito",
+          "Alan Rickman",
+          "David Strathairn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Robbins",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Mock documentary about an upstart candidate for the U.S. Senate written and directed by actor Tim Robbins. Bob Roberts is a folksinger with a difference: He offers tunes that protest welfare chiselers, liberal whining, and the like. As the filmmakers follow his campaign, Robbins gives needle-sharp insight into the way candidates manipulate the media.",
+        "release_date": "1992-09-04",
+        "release_year": "1992",
+        "title": "Bob Roberts"
+      },
+      {
+        "cast": [
+          "Amy Brenneman",
+          "Aaron Eckhart",
+          "Ben Stiller",
+          "Nastassja Kinski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Neil LaBute",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "This adult comedy follows six characters, three men and three women from a cross-section of social groups, as they play sexual power games. When an affair fires up between 2 of the married characters, it sparks a chain of consequences for all of them, including one of the wives falling for another woman!",
+        "release_date": "1998-02-04",
+        "release_year": "1998",
+        "title": "Your Friends and Neighbors"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Louise Fletcher",
+          "Danny DeVito",
+          "William Redfield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
+        "release_date": "1975-11-18",
+        "release_year": "1975",
+        "title": "One Flew Over the Cuckoo's Nest"
+      },
+      {
+        "cast": [
+          "Jane Fonda",
+          "Robert De Niro",
+          "Swoosie Kurtz",
+          "Martha Plimpton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Ritt",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "An illiterate cook at a company cafeteria tries for the attention of a newly widowed woman. As they get to know one another, she discovers his inability to read. When he is fired, she takes on trying to teach him to read in her kitchen each night.",
+        "release_date": "1990-02-09",
+        "release_year": "1990",
+        "title": "Stanley & Iris"
+      },
+      {
+        "cast": [
+          "Jennifer Jason Leigh",
+          "Albert Finney",
+          "Maggie Smith",
+          "Ben Chaplin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Agnieszka Holland",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Set in 1870's New York, a spinster heiress is courted by a much younger, penniless man, much to the chagrin of her over-protective father, and must decide whether to spend the rest of her life alone, or marry a man who is interested in her only because of her inheritence.",
+        "release_date": "1997-10-10",
+        "release_year": "1997",
+        "title": "Washington Square"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Harold Ramis",
+          "Warren Oates",
+          "P.J. Soles"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "John Winger, an indolent sad sack in his 30s, impulsively joins the U.S. Army after losing his job, his girlfriend and his apartment.",
+        "release_date": "1981-06-25",
+        "release_year": "1981",
+        "title": "Stripes"
+      },
+      {
+        "cast": [
+          "Vivica A. Fox",
+          "Nia Long",
+          "Michael Beach",
+          "Mekhi Phifer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Tillman, Jr.",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Traditional Sunday dinners at Mama Joe's (Irma P. Hall) turn sour when sisters Teri (Vanessa L. Williams), Bird (Nia Long) and Maxine (Vivica A. Fox) start bringing their problems to the dinner table in this ensemble comedy. When tragedy strikes, it's up to grandson Ahmad (Brandon Hammond) to pull the family together and put the soul back into the family's weekly gatherings. Michael Beach, Mekhi P",
+        "release_date": "1997-09-26",
+        "release_year": "1997",
+        "title": "Soul Food"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Harvey Atkin",
+          "Kate Lynch",
+          "Russ Banham"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Tripper is the head counselor at a budget summer camp called Camp Northstar. In truth, he's young at heart and only marginally more mature than the campers themselves. Tripper befriends Rudy, a loner camper who has trouble fitting in. As Tripper inspires his young charges to defeat rival Camp Mohawk in the annual Olympiad competition, Rudy plays matchmaker between Tripper and Roxanne, a female counselor at Northstar.",
+        "release_date": "1979-06-28",
+        "release_year": "1979",
+        "title": "Meatballs"
+      },
+      {
+        "cast": [
+          "Demi Moore",
+          "Rob Lowe",
+          "Jim Belushi",
+          "Elizabeth Perkins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A man and woman meet and try to have a romantic affair, despite their personal problems and the interference of their disapproving friends.",
+        "release_date": "1986-07-02",
+        "release_year": "1986",
+        "title": "About Last Night..."
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      }
+    ],
+    "raw_user_id": "5812",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 715
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7479274329957595
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or strong narrative.",
+        "Negative response to horror films, indicating a lack of interest in that genre.",
+        "Dislike for children's films, suggesting a preference for more mature themes."
+      ],
+      "liked_patterns": [
+        "Preference for films that blend drama with romance or comedy.",
+        "Enjoyment of films that feature strong character development and emotional depth.",
+        "Tendency to rate thrillers positively when they incorporate dramatic elements."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Romance (Romantic themes are frequently appreciated, as shown by several high ratings for romance-infused dramas.); Comedy (There is a notable enjoyment of comedic elements, particularly when combined with drama or romance.); Thriller (Thriller elements are liked, especially when they intersect with drama, indicating a taste for suspenseful storytelling.); Musical (A high rating for a musical suggests an appreciation for music-driven narratives.). Liked patterns: Preference for films that blend drama with romance or comedy., Enjoyment of films that feature strong character development and emotional depth., Tendency to rate thrillers positively when they incorporate dramatic elements.. Disliked patterns: Dislike for comedies that lack depth or strong narrative., Negative response to horror films, indicating a lack of interest in that genre., Dislike for children's films, suggesting a preference for more mature themes..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Romantic themes are frequently appreciated, as shown by several high ratings for romance-infused dramas.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "There is a notable enjoyment of comedic elements, particularly when combined with drama or romance.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Thriller elements are liked, especially when they intersect with drama, indicating a taste for suspenseful storytelling.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "A high rating for a musical suggests an appreciation for music-driven narratives.",
+          "taste": "Musical"
+        }
+      ]
+    },
+    "user_id": 5812
+  }
+}

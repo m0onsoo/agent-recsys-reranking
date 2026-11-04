@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "aab0abde10d351ed59702278250faa728808c44e0f48816431f716462ee77696",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      532,
+      959,
+      24,
+      2790,
+      3115,
+      2238,
+      886,
+      3123,
+      1635,
+      1207
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "6a38706113a149f892d3e985322c841c"
+    ],
+    "sampled_item_ids": [
+      45,
+      105,
+      185,
+      207,
+      210,
+      322,
+      458,
+      506,
+      541,
+      554,
+      1034,
+      1207,
+      1254,
+      1486,
+      1521,
+      1533,
+      1615,
+      1971,
+      2274,
+      2537,
+      2619,
+      2694,
+      2747,
+      3200,
+      3262
+    ],
+    "seed": 42,
+    "source_hash": "5640cc60038142e270f3a02896a025a855d8d09cb111660b8f41f2d35ee27719",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 862,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mel Gibson",
+          "Miranda Richardson",
+          "Timothy Spall",
+          "Imelda Staunton"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Having been hopelessly repressed and facing eventual certain death at the British chicken farm where they are held, Rocky the american rooster and Ginger the chicken decide to rebel against the evil Mr. and Mrs. Tweedy, the farm's owners. Rocky and Ginger lead their fellow chickens in a great escape from the murderous farmers and their farm of doom.",
+        "release_date": "2000-06-21",
+        "release_year": "2000",
+        "title": "Chicken Run"
+      },
+      {
+        "cast": [
+          "Melanie Lynskey",
+          "Kate Winslet",
+          "Sarah Peirse",
+          "Simon O'Connor"
+        ],
+        "country": [
+          "New Zealand"
+        ],
+        "director": "Peter Jackson",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Based on the true story of Juliet Hulme and Pauline Parker, two close friends who share a love of fantasy and literature, who conspire to kill Pauline's mother when she tries to end the girls' intense and obsessive relationship.",
+        "release_date": "1994-09-02",
+        "release_year": "1994",
+        "title": "Heavenly Creatures"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "Jessica Lange",
+          "Jonathan Rhys Meyers",
+          "Matthew Rhys"
+        ],
+        "country": [
+          "United Kingdom",
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Julie Taymor",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Titus Andronicus returns from the wars and sees his sons and daughters taken from him, one by one. Shakespeare's goriest and earliest tragedy.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Titus"
+      },
+      {
+        "cast": [
+          "Elliott Gould",
+          "Bill Cosby",
+          "Susan Anspach",
+          "Adam Rich"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Steven Hilliard Stern",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When Max dies in an accident, he goes straight to hell. But the devil Barney makes him an offer: if he manages to get three innocent youths to sell him their souls in the next two months, he may stay on earth. Max accepts, and returns to earth, equipped with special powers. However his task is harder than expected, especially when 7 years old Tobi demands that he marry his mother. Written by Tom Zoerner",
+        "release_date": "1981-03-06",
+        "release_year": "1981",
+        "title": "Devil and Max Devlin, The"
+      },
+      {
+        "cast": [
+          "Ben Weber",
+          "Timothy Olyphant",
+          "Matt McGrath",
+          "Zach Braff"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Greg Berlanti",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A group of friends search for fun, love and ultimately themselves in West Hollywood. This movie is an entertaining, and sometimes cynical look into the lives of six gay men trying to come to terms with what being gay and single (or gay and partnered) means to them.",
+        "release_date": "2000-02-01",
+        "release_year": "2000",
+        "title": "Broken Hearts Club, The"
+      },
+      {
+        "cast": [
+          "Christian Bale",
+          "Willem Dafoe",
+          "Jared Leto",
+          "Josh Lucas"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Mary Harron",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+        "release_date": "2000-04-13",
+        "release_year": "2000",
+        "title": "American Psycho"
+      },
+      {
+        "cast": [
+          "Jeanie Drynan",
+          "Linal Haft",
+          "Russell Dykstra",
+          "Genevieve Lemon"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Christina Andreef",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "For the first time in 15 years, all four siblings in a family show up to care for their dying mother, who is only given a couple of weeks to live. One comes from America with her two children. A divorced sister also comes with her child and sneaks off regularly to meet a mystery man who may be her ex-husband. The third &amp; youngest daughter is an unmarried nurse aware of her ticking biological clock. The only son chases after his grumpy father who seems to not care a whit about his wife's circumstances. The four are also faced my their mother's dreams to accomplish a few things before she dies - to visit a beach she had visited in the past, to see her youngest married, and to visit Paris. She also wants to be embalmed and be honored with a 21 gun salute. Thus the whole group has to set off in the quest to fulfill their mother's wishes.",
+        "release_date": "1999-10-28",
+        "release_year": "1999",
+        "title": "Soft Fruit"
+      },
+      {
+        "cast": [
+          "Richard Gere",
+          "Lauren Hutton",
+          "Judith Ransdell",
+          "Héctor Elizondo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Schrader",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Julian makes a lucrative living as an escort to older women in the Los Angeles area. He begins a relationship with Michelle, a local politician's wife, without expecting any pay. One of his clients is murdered and Detective Sunday begins pumping him for details on his different clients, something he is reluctant to do considering the nature of his work. Julian begins to suspect he's being framed. Meanwhile Michelle begins to fall in love with him.",
+        "release_date": "1980-02-08",
+        "release_year": "1980",
+        "title": "American Gigolo"
+      },
+      {
+        "cast": [
+          "Kiefer Sutherland",
+          "Reese Witherspoon",
+          "Wolfgang Bodison",
+          "Dan Hedaya"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Matthew Bright",
+        "genres": [
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Following the arrest of her mother, Ramona, young Vanessa Lutz decides to go in search of her estranged grandmother. On the way, she is given a ride by school counselor Bob Wolverton. During the journey, Lutz begins to realize that Bob is the notorious I-5 Killer and manages to escape by shooting him several times. Wounded but still very much alive, Bob pursues Lutz across the state in this modern retelling of Little Red Riding Hood.",
+        "release_date": "1996-08-23",
+        "release_year": "1996",
+        "title": "Freeway"
+      }
+    ],
+    "raw_user_id": "862",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 94
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6465888686836859
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that do not effectively blend genres or themes.",
+        "Dislike for films that lack character depth or development."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine comedy with drama.",
+        "Consistent appreciation for character-driven narratives across various genres.",
+        "Positive reception of films featuring strong emotional themes."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy and Drama (The user enjoys films that blend humor with emotional depth, often rating them highly.); Interest in Thrillers and Mysteries (The user shows a preference for suspenseful narratives, as indicated by their ratings for thriller and mystery genres.); Enjoyment of Animation (The user appreciates animated films, particularly those that incorporate comedic elements.); Affinity for Documentaries (The user rates documentaries positively, indicating an interest in real-life stories and themes.); Preference for Character-Driven Stories (The user favors films that focus on character development and personal journeys, often reflected in their ratings.). Liked patterns: High ratings for films that combine comedy with drama., Consistent appreciation for character-driven narratives across various genres., Positive reception of films featuring strong emotional themes.. Disliked patterns: Low ratings for films that do not effectively blend genres or themes., Dislike for films that lack character depth or development..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend humor with emotional depth, often rating them highly.",
+          "taste": "Appreciation for Comedy and Drama"
+        },
+        {
+          "reason": "The user shows a preference for suspenseful narratives, as indicated by their ratings for thriller and mystery genres.",
+          "taste": "Interest in Thrillers and Mysteries"
+        },
+        {
+          "reason": "The user appreciates animated films, particularly those that incorporate comedic elements.",
+          "taste": "Enjoyment of Animation"
+        },
+        {
+          "reason": "The user rates documentaries positively, indicating an interest in real-life stories and themes.",
+          "taste": "Affinity for Documentaries"
+        },
+        {
+          "reason": "The user favors films that focus on character development and personal journeys, often reflected in their ratings.",
+          "taste": "Preference for Character-Driven Stories"
+        }
+      ]
+    },
+    "user_id": 862
+  }
+}

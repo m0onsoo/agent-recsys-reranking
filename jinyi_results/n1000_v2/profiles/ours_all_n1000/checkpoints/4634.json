@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "499440c9bf5fe5ac8fbdcbda65f5a7bbda90e9745869c080f33998e10c985588",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      60,
+      106,
+      720,
+      49,
+      1132,
+      1447,
+      205,
+      6,
+      312,
+      547
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      20,
+      39,
+      48,
+      49,
+      105,
+      136,
+      185,
+      210,
+      216,
+      247,
+      358,
+      426,
+      513,
+      547,
+      561,
+      643,
+      720,
+      767,
+      870,
+      917,
+      1282,
+      1447,
+      1564,
+      1674,
+      1831
+    ],
+    "seed": 42,
+    "source_hash": "b9ef0dbd6e0e657b6f319b6d9b0c1609295dca7b7eea010482f2323ce1a9fe37",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4634,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jack Nicholson",
+          "Demi Moore",
+          "Kevin Bacon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When cocky military lawyer Lt. Daniel Kaffee and his co-counsel, Lt. Cmdr. JoAnne Galloway, are assigned to a murder case, they uncover a hazing ritual that could implicate high-ranking officials such as shady Col. Nathan Jessep.",
+        "release_date": "1992-12-11",
+        "release_year": "1992",
+        "title": "Few Good Men, A"
+      },
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "John Cassavetes",
+          "Ruth Gordon",
+          "Sidney Blackmer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A young couple moves into an infamous New York apartment building to start a family. Things become frightening as Rosemary begins to suspect her unborn baby isn't safe around their strange neighbors.",
+        "release_date": "1968-06-12",
+        "release_year": "1968",
+        "title": "Rosemary's Baby"
+      },
+      {
+        "cast": [
+          "Robert Mitchum",
+          "Jane Greer",
+          "Kirk Douglas",
+          "Rhonda Fleming"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jacques Tourneur",
+        "genres": [
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "Jeff Bailey seems to be a mundane gas station owner in remote Bridgeport, CA. He is dating local girl Ann Miller and lives a quiet life. But Jeff has a secret past, and when a mysterious stranger arrives in town, Jeff is forced to return to the dark world he had tried to escape.",
+        "release_date": "1947-11-13",
+        "release_year": "1947",
+        "title": "Out of the Past"
+      },
+      {
+        "cast": [
+          "Jon Voight",
+          "Burt Reynolds",
+          "Ned Beatty",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Boorman",
+        "genres": [
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Intent on seeing the Cahulawassee River before it's turned into one huge lake, outdoor fanatic Lewis Medlock takes his friends on a river-rafting trip they'll never forget into the dangerous American back-country.",
+        "release_date": "1972-07-30",
+        "release_year": "1972",
+        "title": "Deliverance"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Ernest Borgnine",
+          "Red Buttons",
+          "Carol Lynley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ronald Neame",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "The Poseidon Adventure was one of the first Catastrophe films and began the Disaster Film genre. Director Neame tells the story of a group of people that must fight for their lives aboard a sinking ship. Based on the novel by Paul Gallico.",
+        "release_date": "1972-12-01",
+        "release_year": "1972",
+        "title": "Poseidon Adventure, The"
+      },
+      {
+        "cast": [
+          "Jürgen Prochnow",
+          "Herbert Grönemeyer",
+          "Klaus Wennemann",
+          "Hubertus Bengsch"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "German",
+        "overview": "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.",
+        "release_date": "1981-09-16",
+        "release_year": "1981",
+        "title": "Boat, The (Das Boot)"
+      }
+    ],
+    "raw_user_id": "4634",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 82
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8593348652802246
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed based on the limited sample."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as comedy with drama or action with thriller.",
+        "Strong preference for films with rich storytelling and character development across various genres.",
+        "Consistent enjoyment of films that feature strong moral or ethical dilemmas."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates many drama films highly, indicating a strong preference for character-driven narratives and emotional depth.); Fondness for Comedy (Several comedies receive high ratings, suggesting the user enjoys humor and lighthearted storytelling.); Interest in Action and Adventure (The user rates multiple action and adventure films positively, showing a preference for excitement and dynamic plots.); Enjoyment of Crime and Thriller Genres (High ratings for crime and thriller films indicate a taste for suspenseful and intense narratives.); Affinity for Westerns (The user has rated several westerns highly, reflecting an appreciation for the themes and aesthetics of this genre.). Liked patterns: High ratings for films that blend genres, such as comedy with drama or action with thriller., Strong preference for films with rich storytelling and character development across various genres., Consistent enjoyment of films that feature strong moral or ethical dilemmas.. Disliked patterns: No significant patterns of dislike observed based on the limited sample..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates many drama films highly, indicating a strong preference for character-driven narratives and emotional depth.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies receive high ratings, suggesting the user enjoys humor and lighthearted storytelling.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user rates multiple action and adventure films positively, showing a preference for excitement and dynamic plots.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "High ratings for crime and thriller films indicate a taste for suspenseful and intense narratives.",
+          "taste": "Enjoyment of Crime and Thriller Genres"
+        },
+        {
+          "reason": "The user has rated several westerns highly, reflecting an appreciation for the themes and aesthetics of this genre.",
+          "taste": "Affinity for Westerns"
+        }
+      ]
+    },
+    "user_id": 4634
+  }
+}

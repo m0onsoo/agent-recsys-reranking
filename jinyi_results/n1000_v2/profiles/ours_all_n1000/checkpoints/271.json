@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "54c435e91e57d9ff31651400ee563fa568470400464ea130c2d41aba72de7d25",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      190,
+      784,
+      755,
+      2062,
+      1276,
+      46,
+      20,
+      600,
+      36,
+      438
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "929ba59729264b7d85747b1776cbbc86"
+    ],
+    "sampled_item_ids": [
+      22,
+      105,
+      124,
+      142,
+      152,
+      161,
+      167,
+      196,
+      213,
+      265,
+      274,
+      333,
+      506,
+      539,
+      589,
+      604,
+      648,
+      742,
+      771,
+      782,
+      955,
+      1037,
+      1106,
+      1417,
+      1596
+    ],
+    "seed": 42,
+    "source_hash": "f3e611f509c8fa50745bce235e1c1196f36b6c717e4f5a62ce16dd11d47f23e7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 271,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Joey Cramer",
+          "Paul Reubens",
+          "Cliff DeYoung",
+          "Veronica Cartwright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Randal Kleiser",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "This 1986 Disney adventure tells the story of 12-year-old David who lives with his family in Fort Lauderdale, Fla. When he awakens from being accidentally knocked out in the forest near his home, he finds that eight years have passed. His family is overjoyed to have him back, but just as perplexed as he is by the fact that he hasn't aged. When a NASA scientist discovers a UFO nearby, David gets the chance to unravel the mystery and recover the life he lost.",
+        "release_date": "1986-07-30",
+        "release_year": "1986",
+        "title": "Flight of the Navigator"
+      },
+      {
+        "cast": [
+          "Kyle MacLachlan",
+          "Francesca Annis",
+          "Leonardo Cimino",
+          "Brad Dourif"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 10,191, the world is at war for control of the desert planet Dune – the only place where the time-travel substance 'Spice' can be found. But when one leader gives up control, it's only so he can stage a coup with some unsavory characters.",
+        "release_date": "1984-12-14",
+        "release_year": "1984",
+        "title": "Dune"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Spencer Breslin",
+          "Emily Mortimer",
+          "Lily Tomlin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Powerful businessman Russ Duritz is self-absorbed and immersed in his work. But by the magic of the moon, he meets Rusty, a chubby, charming 8-year-old version of himself who can't believe he could turn out so badly -- with no life and no dog. With Rusty's help, Russ is able to reconcile the person he used to dream of being with the man he's actually become.",
+        "release_date": "2000-07-07",
+        "release_year": "2000",
+        "title": "Kid, The"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sylvester Stallone",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Rocky must come out of retirement to battle a gargantuan Soviet fighter named Drago, who brutally punished Rocky's friend and former rival, Apollo Creed. Seeking revenge in the name of his fallen comrade and his country, Rocky agrees to fight Drago in Moscow on Christmas, and the bout changes both fighters -- and the world.",
+        "release_date": "1985-11-21",
+        "release_year": "1985",
+        "title": "Rocky IV"
+      },
+      {
+        "cast": [
+          "Julie Andrews",
+          "Dick Van Dyke",
+          "David Tomlinson",
+          "Glynis Johns"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Stevenson",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "The movie combines a diverting story, songs, color and sequences of live action blended with the movements of animated figures. Mary Poppins is a kind of Super-nanny who flies in with her umbrella in response to the request of the Banks children and proceeds to put things right with the aid of her rather extraordinary magical powers before flying off again.",
+        "release_date": "1964-08-27",
+        "release_year": "1964",
+        "title": "Mary Poppins"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Elizabeth Perkins",
+          "Robert Loggia",
+          "John Heard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young boy, Josh Baskin makes a wish at a carnival machine to be big. He wakes up the following morning to find that it has been granted and his body has grown older overnight. But he is still the same 13-year-old boy inside. Now he must learn how to cope with the unfamiliar world of grown-ups including getting a job and having his first romantic encounter with a woman. What will he find out about this strange world?",
+        "release_date": "1988-06-03",
+        "release_year": "1988",
+        "title": "Big"
+      },
+      {
+        "cast": [
+          "Michael J. Nelson",
+          "Trace Beaulieu",
+          "Jim Mallon",
+          "Kevin Murphy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Mallon",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The mad and evil scientist, Dr. Clayton Forrester, has created an evil little scheme that is bound to give him world global domination but first things first. He plans to torment Mike Nelson and the robots by sending them a real stinker of a film to watch called, \"This Island Earth.\" He is convinced that this movie will drive them insane. Will this be the ultimate cheese that breaks the boys' spirits?",
+        "release_date": "1996-04-19",
+        "release_year": "1996",
+        "title": "Mystery Science Theater 3000: The Movie"
+      },
+      {
+        "cast": [
+          "Tom Hulce",
+          "Demi Moore",
+          "Tony Jay",
+          "Kevin Kline"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Trousdale",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "When Quasi defies the evil Frollo and ventures out to the Festival of Fools, the cruel crowd jeers him. Rescued by fellow outcast the gypsy Esmeralda, Quasi soon finds himself battling to save the people and the city he loves.",
+        "release_date": "1996-06-21",
+        "release_year": "1996",
+        "title": "Hunchback of Notre Dame, The"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Cuba Gooding Jr.",
+          "Renée Zellweger",
+          "Kelly Preston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jerry Maguire used to be a typical sports agent: willing to do just about anything he could to get the biggest possible contracts for his clients, plus a nice commission for himself. Then, one day, he suddenly has second thoughts about what he's really doing. When he voices these doubts, he ends up losing his job and all of his clients, save Rod Tidwell, an egomaniacal football player.",
+        "release_date": "1996-12-06",
+        "release_year": "1996",
+        "title": "Jerry Maguire"
+      }
+    ],
+    "raw_user_id": "271",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 250
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.813596229786098
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for romantic comedies",
+        "Negative response to certain thrillers",
+        "Discontent with specific comedies lacking depth"
+      ],
+      "liked_patterns": [
+        "Strong preference for animated films",
+        "High ratings for comedies that blend humor with drama",
+        "Consistent enjoyment of action and adventure genres"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation (The user enjoys animated films, as indicated by high ratings for multiple titles in this genre.); Fondness for Comedy and Drama (The user rates several comedies and dramas highly, suggesting a preference for films that blend humor with emotional depth.); Interest in Action and Adventure (The user shows a strong liking for action and adventure films, consistently rating them positively.); Enjoyment of Sci-Fi Elements (The user appreciates science fiction themes, as evidenced by favorable ratings for films that incorporate these elements.); Nostalgia for Family and Children's Films (The user rates family-oriented and children's films positively, indicating a fondness for nostalgic storytelling.). Liked patterns: Strong preference for animated films, High ratings for comedies that blend humor with drama, Consistent enjoyment of action and adventure genres. Disliked patterns: Dislike for romantic comedies, Negative response to certain thrillers, Discontent with specific comedies lacking depth.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films, as indicated by high ratings for multiple titles in this genre.",
+          "taste": "Appreciation for Animation"
+        },
+        {
+          "reason": "The user rates several comedies and dramas highly, suggesting a preference for films that blend humor with emotional depth.",
+          "taste": "Fondness for Comedy and Drama"
+        },
+        {
+          "reason": "The user shows a strong liking for action and adventure films, consistently rating them positively.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates science fiction themes, as evidenced by favorable ratings for films that incorporate these elements.",
+          "taste": "Enjoyment of Sci-Fi Elements"
+        },
+        {
+          "reason": "The user rates family-oriented and children's films positively, indicating a fondness for nostalgic storytelling.",
+          "taste": "Nostalgia for Family and Children's Films"
+        }
+      ]
+    },
+    "user_id": 271
+  }
+}

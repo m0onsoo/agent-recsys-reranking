@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "82d934e3f4f2b51a87ed8063e706ebc8232cd261ad50c12308825fa8328d833d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      800,
+      1039,
+      1073,
+      24,
+      766,
+      176,
+      39,
+      530,
+      1366,
+      40
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8844127c6e45404c9185edc07dbb51d1"
+    ],
+    "sampled_item_ids": [
+      8,
+      21,
+      105,
+      175,
+      176,
+      247,
+      276,
+      291,
+      318,
+      358,
+      415,
+      521,
+      588,
+      670,
+      715,
+      743,
+      798,
+      874,
+      975,
+      1121,
+      1159,
+      1183,
+      1293,
+      1309,
+      1472
+    ],
+    "seed": 42,
+    "source_hash": "40074a659653e8fc4a177aac8dfb16527862be17d90ef5283a11cec005b7d549",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1040,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael Douglas",
+          "Glenn Close",
+          "Anne Archer",
+          "Ellen Hamilton Latzen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A married man's one night stand comes back to haunt him when that lover begins to stalk him and his family.",
+        "release_date": "1987-09-11",
+        "release_year": "1987",
+        "title": "Fatal Attraction"
+      },
+      {
+        "cast": [
+          "Molly Ringwald",
+          "Jon Cryer",
+          "Andrew McCarthy",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Deutch",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Andie is an outcast, hanging out either with her older boss, who owns the record store where she works, or her quirky high school classmate Duckie, who has a crush on her. When one of the rich and popular kids at school, Blane, asks Andie out, it seems too good to be true. As Andie starts falling for Blane, she begins to realize that dating someone from a different social sphere is not easy.",
+        "release_date": "1986-02-28",
+        "release_year": "1986",
+        "title": "Pretty in Pink"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Richard Crenna",
+          "Charles Napier",
+          "Steven Berkoff"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George P. Cosmatos",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "John Rambo is released from prison by the government for a top-secret covert mission to the last place on Earth he'd want to return - the jungles of Vietnam.",
+        "release_date": "1985-05-21",
+        "release_year": "1985",
+        "title": "Rambo: First Blood Part II"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Amy Madigan",
+          "Gaby Hoffmann",
+          "Ray Liotta"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phil Alden Robinson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ray Kinsella is an Iowa farmer who hears a mysterious voice telling him to turn his cornfield into a baseball diamond. He does, but the voice's directions don't stop -- even after the spirits of deceased ballplayers turn up to play.",
+        "release_date": "1989-04-21",
+        "release_year": "1989",
+        "title": "Field of Dreams"
+      },
+      {
+        "cast": [
+          "John Belushi",
+          "Tim Matheson",
+          "John Vernon",
+          "Verna Bloom"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a 1962 College, Dean Vernon Wormer is determined to expel the entire Delta Tau Chi Fraternity, but those troublemakers have other plans for him.",
+        "release_date": "1978-07-27",
+        "release_year": "1978",
+        "title": "Animal House"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Don Johnson",
+          "Cheech Marin",
+          "George Perez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A washed up golf pro working at a driving range tries to qualify for the US Open in order to win the heart of his succesful rival's girlfriend.",
+        "release_date": "1996-08-16",
+        "release_year": "1996",
+        "title": "Tin Cup"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Bill Paxton",
+          "Kevin Bacon",
+          "Gary Sinise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of technical troubles that scuttle the Apollo 13 lunar mission in 1971, risking the lives of astronaut Jim Lovell and his crew, with the failed journey turning into a thrilling saga of heroism. Drifting more than 200,000 miles from Earth, the astronauts work furiously with the ground crew to avert tragedy.",
+        "release_date": "1995-06-30",
+        "release_year": "1995",
+        "title": "Apollo 13"
+      }
+    ],
+    "raw_user_id": "1040",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 209
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.46395292712335784
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No patterns of dislike observed."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine comedy with other genres like drama and musical.",
+        "Consistent appreciation for films featuring strong narratives and character arcs.",
+        "Positive reception of thrillers that incorporate elements of drama."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy and Drama (The user enjoys films that blend humor with emotional depth, often rating them highly.); Interest in Thrillers and Mysteries (The user shows a preference for suspenseful narratives, as indicated by high ratings for thriller genres.); Fondness for Strong Character Development (Many liked films feature complex characters and moral dilemmas, suggesting a taste for depth in storytelling.); Enjoyment of Musical Elements (The user appreciates films that incorporate music, as seen in the ratings for musicals.); Affinity for Crime and Action (The user rates crime and action films positively, indicating a liking for intense and engaging plots.). Liked patterns: High ratings for films that combine comedy with other genres like drama and musical., Consistent appreciation for films featuring strong narratives and character arcs., Positive reception of thrillers that incorporate elements of drama.. Disliked patterns: No patterns of dislike observed..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend humor with emotional depth, often rating them highly.",
+          "taste": "Appreciation for Comedy and Drama"
+        },
+        {
+          "reason": "The user shows a preference for suspenseful narratives, as indicated by high ratings for thriller genres.",
+          "taste": "Interest in Thrillers and Mysteries"
+        },
+        {
+          "reason": "Many liked films feature complex characters and moral dilemmas, suggesting a taste for depth in storytelling.",
+          "taste": "Fondness for Strong Character Development"
+        },
+        {
+          "reason": "The user appreciates films that incorporate music, as seen in the ratings for musicals.",
+          "taste": "Enjoyment of Musical Elements"
+        },
+        {
+          "reason": "The user rates crime and action films positively, indicating a liking for intense and engaging plots.",
+          "taste": "Affinity for Crime and Action"
+        }
+      ]
+    },
+    "user_id": 1040
+  }
+}

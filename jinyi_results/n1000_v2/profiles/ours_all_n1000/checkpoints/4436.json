@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "7350e5fd019df36edf4abf74f79072da9fd8c88a4a7c810b8f9787d5994fed64",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2431,
+      81,
+      167,
+      867,
+      705,
+      110,
+      854,
+      906,
+      252,
+      1527
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      60,
+      76,
+      79,
+      98,
+      133,
+      207,
+      351,
+      362,
+      418,
+      446,
+      489,
+      501,
+      511,
+      542,
+      756,
+      795,
+      833,
+      877,
+      931,
+      969,
+      1017,
+      1175,
+      1196,
+      1655,
+      2034
+    ],
+    "seed": 42,
+    "source_hash": "2d12225ceb84ee28345ed2b133e6171f218176448ad409c63d0f87ec2f2bc384",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4436,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Stephen Rea",
+          "Julianne Moore",
+          "James Bolam"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "On a rainy London night in 1946, novelist Maurice Bendrix has a chance meeting with Henry Miles, husband of his ex-mistress Sarah, who abruptly ended their affair two years before. Bendrix's obsession with Sarah is rekindled; he succumbs to his own jealousy and arranges to have her followed.",
+        "release_date": "1999-12-03",
+        "release_year": "1999",
+        "title": "End of the Affair, The"
+      },
+      {
+        "cast": [
+          "Ashley Judd",
+          "Ian Michael Smith",
+          "Joseph Mazzello",
+          "Oliver Platt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Steven Johnson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Simon Birch tells the story of Joe and Simon's heart-warming journey of friendship. Simon Birch was born with a condition that makes him much smaller than all the other kids in town. Now, due to his condition, Simon thinks God made him this way for a reason and highly believes in God. Together, Joe and Simon go on a journey of trust and friendship to find the answers to many things. Their friendship is put to the test when some unfortunate events happen.",
+        "release_date": "1998-09-11",
+        "release_year": "1998",
+        "title": "Simon Birch"
+      },
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Anthony Hopkins",
+          "Catherine Zeta-Jones",
+          "Stuart Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "It has been twenty years since Don Diego de la Vega fought Spanish oppression in Alta California as the legendary romantic hero, Zorro. Having escaped from prison he transforms troubled bandit Alejandro into his successor, in order to foil the plans of the tyrannical Don Rafael Montero who robbed him of his freedom, his wife and his precious daughter.",
+        "release_date": "1998-07-16",
+        "release_year": "1998",
+        "title": "Mask of Zorro, The"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Joey Lauren Adams",
+          "Kristy Swanson",
+          "Cole Sprouse"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dennis Dugan",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A lazy law school grad adopts a kid to impress his girlfriend, but everything doesn't go as planned and he becomes the unlikely foster father.",
+        "release_date": "1999-06-25",
+        "release_year": "1999",
+        "title": "Big Daddy"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "Glenne Headly",
+          "Jay Thomas",
+          "Olympia Dukakis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Herek",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In 1965, passionate musician Glenn Holland takes a day job as a high school music teacher, convinced it's just a small obstacle on the road to his true calling: writing a historic opus. As the decades roll by with the composition unwritten but generations of students inspired through his teaching, Holland must redefine his life's purpose.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Mr. Holland's Opus"
+      },
+      {
+        "cast": [
+          "Marco Leonardi",
+          "Lumi Cavazos",
+          "Regina Torné",
+          "Ada Carrasco"
+        ],
+        "country": [
+          "Mexico"
+        ],
+        "director": "Alfonso Aráu",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "Spanish",
+        "overview": "Tita is passionately in love with Pedro, but her controlling mother forbids her from marrying him. When Pedro marries her sister, Tita throws herself into her cooking and discovers she can transfer her emotions through the food she prepares, infecting all who eat it with her intense heartbreak.",
+        "release_date": "1992-04-16",
+        "release_year": "1992",
+        "title": "Like Water for Chocolate (Como agua para chocolate)"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Bill Pullman",
+          "Drew Barrymore",
+          "John Leguizamo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Goldman",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A young man finds out that he holds the key to restoring hope and ensuring survival for the human race, while an alien species called the Dredge are bent on mankind's destruction.",
+        "release_date": "2000-06-16",
+        "release_year": "2000",
+        "title": "Titan A.E."
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sean Penn",
+          "Deborah Kara Unger",
+          "James Rebhorn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In honor of his birthday, San Francisco banker Nicholas Van Orton, a financial genius and a coldhearted loner, receives an unusual present from his younger brother, Conrad -- a gift certificate to play a unique kind of game. In nearly a nanosecond, Nicholas finds himself consumed by a dangerous set of ever-changing rules, unable to distinguish where the charade ends and reality begins.",
+        "release_date": "1997-09-12",
+        "release_year": "1997",
+        "title": "Game, The"
+      },
+      {
+        "cast": [
+          "David Duchovny",
+          "Gillian Anderson",
+          "Mitch Pileggi",
+          "William B. Davis"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Rob Bowman",
+        "genres": [
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mulder and Scully, now taken off the FBI's X Files cases, must find a way to fight the shadowy elements of the government to find out the truth about a conspiracy that might mean the alien colonization of Earth.",
+        "release_date": "1998-06-19",
+        "release_year": "1998",
+        "title": "X-Files: Fight the Future, The"
+      },
+      {
+        "cast": [
+          "Gwyneth Paltrow",
+          "John Hannah",
+          "John Lynch",
+          "Jeanne Tripplehorn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Peter Howitt",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Gwyneth Paltrow plays London publicist Helen, effortlessly sliding between parallel storylines that show what happens if she does or does not catch a train back to her apartment. Love. Romantic entanglements. Deception. Trust. Friendship. Comedy. All come into focus as the two stories shift back and forth, overlap and surprisingly converge.",
+        "release_date": "1998-04-23",
+        "release_year": "1998",
+        "title": "Sliding Doors"
+      }
+    ],
+    "raw_user_id": "4436",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 183
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7425844004760749
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that do not resonate with the user.",
+        "Dislike for thrillers that lack depth or engaging narratives."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like romance and mystery.",
+        "Positive reception of comedies that incorporate elements of drama or unique storytelling.",
+        "Consistent enjoyment of action films that also feature thriller components."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (The user rates several comedies positively, suggesting a taste for humor and lighthearted storytelling.); Interest in Action and Thriller (The user shows a liking for action and thriller genres, as evidenced by multiple high ratings in these categories.); Fondness for Mystery Elements (The user enjoys films with mystery elements, as reflected in their ratings for dramas and thrillers that incorporate this theme.); Preference for Romantic Themes (The user appreciates films that explore romantic relationships, as indicated by positive ratings for dramas with romantic elements.). Liked patterns: High ratings for films that blend drama with other genres like romance and mystery., Positive reception of comedies that incorporate elements of drama or unique storytelling., Consistent enjoyment of action films that also feature thriller components.. Disliked patterns: Low ratings for comedies that do not resonate with the user., Dislike for thrillers that lack depth or engaging narratives..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user rates several comedies positively, suggesting a taste for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for action and thriller genres, as evidenced by multiple high ratings in these categories.",
+          "taste": "Interest in Action and Thriller"
+        },
+        {
+          "reason": "The user enjoys films with mystery elements, as reflected in their ratings for dramas and thrillers that incorporate this theme.",
+          "taste": "Fondness for Mystery Elements"
+        },
+        {
+          "reason": "The user appreciates films that explore romantic relationships, as indicated by positive ratings for dramas with romantic elements.",
+          "taste": "Preference for Romantic Themes"
+        }
+      ]
+    },
+    "user_id": 4436
+  }
+}

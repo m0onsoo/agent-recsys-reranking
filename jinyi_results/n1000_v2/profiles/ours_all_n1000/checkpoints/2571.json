@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "ce020eab2da0f7ed49d17bbdb09e0aa7f08ea7901ba0e64027cefc9a7eb1d926",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      237,
+      848,
+      390,
+      9,
+      606,
+      5,
+      683,
+      30,
+      50,
+      539
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "69060bc8a7c847e29d4f71cbea9c6325"
+    ],
+    "sampled_item_ids": [
+      5,
+      27,
+      30,
+      45,
+      50,
+      128,
+      161,
+      187,
+      190,
+      213,
+      390,
+      532,
+      554,
+      559,
+      634,
+      644,
+      647,
+      720,
+      742,
+      767,
+      768,
+      1315,
+      1833,
+      1903,
+      2045
+    ],
+    "seed": 42,
+    "source_hash": "8d10ad105a74c740ae5d07aae0159002e7b21a0bd9c70a0c5c7428c35a206de6",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2571,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "William Holden",
+          "Alec Guinness",
+          "Jack Hawkins",
+          "Sessue Hayakawa"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Lean",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The classic story of English POWs in Burma forced to build a bridge to aid the war effort of their Japanese captors. British and American intelligence officers conspire to blow up the structure, but Col. Nicholson , the commander who supervised the bridge's construction, has acquired a sense of pride in his creation and tries to foil their plans.",
+        "release_date": "1957-10-02",
+        "release_year": "1957",
+        "title": "Bridge on the River Kwai, The"
+      },
+      {
+        "cast": [
+          "Peter Weller",
+          "John Lithgow",
+          "Ellen Barkin",
+          "Jeff Goldblum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "W.D. Richter",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Adventurer/surgeon/rock musician Buckaroo Banzai and his band of men, the Hong Kong Cavaliers, take on evil alien invaders from the 8th dimension.",
+        "release_date": "1984-08-15",
+        "release_year": "1984",
+        "title": "Adventures of Buckaroo Bonzai Across the 8th Dimension, The"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "John Cusack",
+          "Christopher Lloyd",
+          "Angela Lansbury"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Goldman",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "This animated adventure retells the story of the lost daughter of Russia's last czar. The evil Rasputin places a curse on the Romanov family, and Anastasia and her grandmother, Empress Maria, get separated. After growing up in an orphanage, Anastasia encounters two Russian men seeking a reward offered by Empress Maria for the return of her granddaughter. The trio travels to Paris, where they find that the empress has grown skeptical of imposters.",
+        "release_date": "1997-11-20",
+        "release_year": "1997",
+        "title": "Anastasia"
+      },
+      {
+        "cast": [
+          "Adriana Caselotti",
+          "Lucille La Verne",
+          "Harry Stockwell",
+          "Roy Atwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Hand",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A beautiful girl, Snow White, takes refuge in the forest in the house of seven dwarfs to hide from her stepmother, the wicked Queen. The Queen is jealous because she wants to be known as \"the fairest in the land,\" and Snow White's beauty surpasses her own.",
+        "release_date": "1937-12-20",
+        "release_year": "1937",
+        "title": "Snow White and the Seven Dwarfs"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "James Spader",
+          "Jaye Davidson",
+          "Viveca Lindfors"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
+        "release_date": "1994-10-27",
+        "release_year": "1994",
+        "title": "Stargate"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Julia Louis-Dreyfus",
+          "Hayden Panettiere",
+          "Phyllis Diller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+        "release_date": "1998-11-25",
+        "release_year": "1998",
+        "title": "Bug's Life, A"
+      },
+      {
+        "cast": [
+          "Kathryn Beaumont",
+          "Verna Felton",
+          "Ed Wynn",
+          "Richard Haydn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hamilton Luske",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "On a golden afternoon, young Alice follows a White Rabbit, who disappears down a nearby rabbit hole. Quickly following him, she tumbles into the burrow - and enters the merry, topsy-turvy world of Wonderland! Memorable songs and whimsical escapades highlight Alice's journey, which culminates in a madcap encounter with the Queen of Hearts - and her army of playing cards!",
+        "release_date": "1951-07-03",
+        "release_year": "1951",
+        "title": "Alice in Wonderland"
+      },
+      {
+        "cast": [
+          "Peter Sallis",
+          "Anne Reid"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wallace falls in love with wool-shop owner Wendolene, not suspecting that she (or rather, her dog) is at the head of a fiendish sheep-rustling plot. Gromit is set up and jailed, but his new-found sheepish friend is determine to give Wallace a helping hand in finding out the real truth.",
+        "release_date": "1995-12-24",
+        "release_year": "1995",
+        "title": "Close Shave, A"
+      },
+      {
+        "cast": [
+          "Kate Maberly",
+          "Heydon Prowse",
+          "Andrew Knott",
+          "Maggie Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Agnieszka Holland",
+        "genres": [
+          "Children's",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A young British girl born and reared in India loses her neglectful parents in an earthquake. She is returned to England to live at her uncle's castle. Her uncle is very distant due to the loss of his wife ten years before. Neglected once again, she begins exploring the estate and discovers a garden that has been locked and neglected. Aided by one of the servants' boys, she begins restoring the garden, and eventually discovers some other secrets of the manor.",
+        "release_date": "1993-08-13",
+        "release_year": "1993",
+        "title": "Secret Garden, The"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Matthew McConaughey",
+          "James Woods",
+          "John Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Contact is a science fiction film about an encounter with alien intelligence. Based on the novel by Carl Sagan the film starred Jodie Foster as the one chosen scientist who must make some difficult decisions between her beliefs, the truth, and reality.",
+        "release_date": "1997-07-11",
+        "release_year": "1997",
+        "title": "Contact"
+      }
+    ],
+    "raw_user_id": "2571",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 56
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1157715973394142
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for certain action-adventure films, as indicated by a low rating.",
+        "Negative response to specific comedies, suggesting a selective taste in humor."
+      ],
+      "liked_patterns": [
+        "Strong preference for animated and children's films with high ratings.",
+        "Consistent enjoyment of action and adventure films, often rated highly.",
+        "Positive ratings for fantasy and sci-fi films, indicating a liking for imaginative storytelling."
+      ],
+      "summary": "Unique tastes: Animation and Children's Films (The user enjoys animated films and children's stories, as indicated by multiple high ratings in these genres.); Action and Adventure (The user has a strong preference for action and adventure films, consistently rating them highly.); Fantasy and Sci-Fi (The user appreciates fantasy and sci-fi elements, as shown by several high ratings in these genres.); Comedy (The user enjoys comedies, with several films rated positively, indicating a preference for humor.); Drama (The user has shown an appreciation for dramatic narratives, as evidenced by positive ratings in this genre.). Liked patterns: Strong preference for animated and children's films with high ratings., Consistent enjoyment of action and adventure films, often rated highly., Positive ratings for fantasy and sci-fi films, indicating a liking for imaginative storytelling.. Disliked patterns: Dislike for certain action-adventure films, as indicated by a low rating., Negative response to specific comedies, suggesting a selective taste in humor..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films and children's stories, as indicated by multiple high ratings in these genres.",
+          "taste": "Animation and Children's Films"
+        },
+        {
+          "reason": "The user has a strong preference for action and adventure films, consistently rating them highly.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates fantasy and sci-fi elements, as shown by several high ratings in these genres.",
+          "taste": "Fantasy and Sci-Fi"
+        },
+        {
+          "reason": "The user enjoys comedies, with several films rated positively, indicating a preference for humor.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user has shown an appreciation for dramatic narratives, as evidenced by positive ratings in this genre.",
+          "taste": "Drama"
+        }
+      ]
+    },
+    "user_id": 2571
+  }
+}

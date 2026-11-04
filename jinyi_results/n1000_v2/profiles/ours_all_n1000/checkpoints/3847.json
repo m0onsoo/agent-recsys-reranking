@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "6a8b22289a5b832c5ae7b61213a0ed72819f8cc5e2f25b1815f18e4d9cf59009",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      433,
+      2328,
+      2322,
+      180,
+      1317,
+      619,
+      93,
+      848,
+      1850,
+      652
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d67d9881a6f14ddb851902015bc579a3"
+    ],
+    "sampled_item_ids": [
+      59,
+      86,
+      158,
+      161,
+      164,
+      180,
+      333,
+      427,
+      468,
+      522,
+      615,
+      645,
+      711,
+      718,
+      788,
+      1035,
+      1185,
+      1187,
+      1209,
+      1260,
+      1656,
+      1678,
+      1826,
+      1840,
+      1910
+    ],
+    "seed": 42,
+    "source_hash": "7ec74a97ed6b89450db17c9335855f262015c1a14713eeadf1329b6febc98280",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3847,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Travolta",
+          "Nicolas Cage",
+          "Joan Allen",
+          "Alessandro Nivola"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.",
+        "release_date": "1997-06-27",
+        "release_year": "1997",
+        "title": "Face/Off"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Anne Heche",
+          "Gaby Hoffmann",
+          "Don Cheadle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mick Jackson",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An earthquake shatters a peaceful Los Angeles morning and opens a fissure deep into the earth, causing lava to start bubbling up. As a volcano begins forming in the La Brea Tar Pits, the director of the city's emergency management service, Mike Roark, working with geologist Amy Barnes, must then use every resource in the city to try and stop the volcano from consuming Los Angeles.",
+        "release_date": "1997-04-25",
+        "release_year": "1997",
+        "title": "Volcano"
+      },
+      {
+        "cast": [
+          "Oliver Reed",
+          "Ann-Margret",
+          "Roger Daltrey",
+          "Elton John"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Ken Russell",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A psychosomatically deaf, dumb and blind boy becomes a master pinball player and the object of a religious cult.",
+        "release_date": "1975-03-19",
+        "release_year": "1975",
+        "title": "Tommy"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Ben Stiller",
+          "Christopher McDonald",
+          "Julie Bowen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dennis Dugan",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Failed hockey player-turned-golf whiz Happy Gilmore -- whose unconventional approach and antics on the grass courts the ire of rival Shooter McGavin -- is determined to win a PGA tournament so he can save his granny's house with the prize money. Meanwhile, an attractive tour publicist tries to soften Happy's image.",
+        "release_date": "1996-02-16",
+        "release_year": "1996",
+        "title": "Happy Gilmore"
+      },
+      {
+        "cast": [
+          "Gregory Smith",
+          "Kirsten Dunst",
+          "Denis Leary",
+          "Phil Hartman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Fantasy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When missile technology is used to enhance toy action figures, the toys soon begin to take their battle programming too seriously.",
+        "release_date": "1998-07-10",
+        "release_year": "1998",
+        "title": "Small Soldiers"
+      },
+      {
+        "cast": [
+          "Jason Lee",
+          "Jeremy London",
+          "Shannen Doherty",
+          "Claire Forlani"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Both dumped by their girlfriends, two best friends seek refuge in the local mall.",
+        "release_date": "1995-10-20",
+        "release_year": "1995",
+        "title": "Mallrats"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Peter Weller",
+          "John Lithgow",
+          "Ellen Barkin",
+          "Jeff Goldblum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "W.D. Richter",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Adventurer/surgeon/rock musician Buckaroo Banzai and his band of men, the Hong Kong Cavaliers, take on evil alien invaders from the 8th dimension.",
+        "release_date": "1984-08-15",
+        "release_year": "1984",
+        "title": "Adventures of Buckaroo Bonzai Across the 8th Dimension, The"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Ian McNeice",
+          "Simon Callow",
+          "Maynard Eziashi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve Oedekerk",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Summoned from an ashram in Tibet, Ace finds himself on a perilous journey into the jungles of Africa to find Shikaka, the missing sacred animal of the friendly Wachati tribe. He must accomplish this before the wedding of the Wachati's Princess to the prince of the warrior Wachootoos. If Ace fails, the result will be a vicious tribal war.",
+        "release_date": "1995-11-10",
+        "release_year": "1995",
+        "title": "Ace Ventura: When Nature Calls"
+      },
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Vladimir Kulich",
+          "Dennis Storhøi",
+          "Daniel Southern"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In AD 922, Arab courtier, Ahmad Ibn Fadlan accompanies a party of Vikings to the barbaric North to combat a terror that slaughters Vikings and devours their flesh.",
+        "release_date": "1999-08-27",
+        "release_year": "1999",
+        "title": "13th Warrior, The"
+      }
+    ],
+    "raw_user_id": "3847",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 345
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0146206956650399
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for action films that lack engaging narratives.",
+        "Dislike for comedies that do not resonate or entertain effectively."
+      ],
+      "liked_patterns": [
+        "Positive ratings for comedies that blend humor with other genres.",
+        "Consistent enjoyment of action films that incorporate adventure and sci-fi elements.",
+        "Appreciation for films that combine drama with thriller aspects."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, as indicated by multiple ratings of 3 or above in this genre.); Interest in Action and Adventure (The user has rated several action and adventure films positively, showing a preference for thrilling narratives.); Enjoyment of Sci-Fi Elements (The user has rated multiple sci-fi films positively, indicating a liking for speculative and imaginative storytelling.); Engagement with Drama and Thriller (The user has shown a preference for films that blend drama with thriller elements, as seen in their higher ratings.); Fondness for Animation and Family-Friendly Content (The user has rated animated and family-oriented films positively, suggesting an appreciation for light-hearted and imaginative stories.). Liked patterns: Positive ratings for comedies that blend humor with other genres., Consistent enjoyment of action films that incorporate adventure and sci-fi elements., Appreciation for films that combine drama with thriller aspects.. Disliked patterns: Negative ratings for action films that lack engaging narratives., Dislike for comedies that do not resonate or entertain effectively..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, as indicated by multiple ratings of 3 or above in this genre.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user has rated several action and adventure films positively, showing a preference for thrilling narratives.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user has rated multiple sci-fi films positively, indicating a liking for speculative and imaginative storytelling.",
+          "taste": "Enjoyment of Sci-Fi Elements"
+        },
+        {
+          "reason": "The user has shown a preference for films that blend drama with thriller elements, as seen in their higher ratings.",
+          "taste": "Engagement with Drama and Thriller"
+        },
+        {
+          "reason": "The user has rated animated and family-oriented films positively, suggesting an appreciation for light-hearted and imaginative stories.",
+          "taste": "Fondness for Animation and Family-Friendly Content"
+        }
+      ]
+    },
+    "user_id": 3847
+  }
+}

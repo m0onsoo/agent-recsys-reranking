@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "3f34a4c8662378c889ad27aeac95b05d261b2e7da3f3d4f429923d73138c0f68",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      791,
+      629,
+      1210,
+      105,
+      65,
+      1659,
+      749,
+      1041,
+      867,
+      734
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "48619e9903e24b768509d348a8973e32"
+    ],
+    "sampled_item_ids": [
+      39,
+      51,
+      133,
+      140,
+      152,
+      189,
+      333,
+      388,
+      453,
+      471,
+      587,
+      714,
+      749,
+      756,
+      789,
+      863,
+      867,
+      874,
+      938,
+      1062,
+      1067,
+      1102,
+      1688,
+      1752,
+      1926
+    ],
+    "seed": 42,
+    "source_hash": "8625a35092811c290d65fdcc071826820e9edc13b7de3c729be4279e9a55b03a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1560,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael C. Williams",
+          "Heather Donahue",
+          "Joshua Leonard",
+          "Bob Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Myrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Blair Witch Project, The"
+      },
+      {
+        "cast": [
+          "Fairuza Balk",
+          "Nicol Williamson",
+          "Jean Marsh",
+          "Piper Laurie"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Walter Murch",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Dorothy, saved from a psychiatric experiment by a mysterious girl, finds herself back in the land of her dreams, and makes delightful new friends, and dangerous new enemies.",
+        "release_date": "1985-06-21",
+        "release_year": "1985",
+        "title": "Return to Oz"
+      },
+      {
+        "cast": [
+          "Jeff Fahey",
+          "Pierce Brosnan",
+          "Jenny Wright",
+          "Mark Bringelson"
+        ],
+        "country": [
+          "United Kingdom",
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Brett Leonard",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A simple man is turned into a genius through the application of computer science.",
+        "release_date": "1992-03-05",
+        "release_year": "1992",
+        "title": "Lawnmower Man, The"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Louis Gossett, Jr.",
+          "Jason Gedrick",
+          "Tim Thomerson",
+          "Larry B. Scott"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Sidney J. Furie",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Doug's father, an Air Force Pilot, is shot down by MiGs belonging to a radical Middle Eastern state, no one seems able to get him out. Doug finds Chappy, an Air Force Colonel who is intrigued by the idea of sending in two fighters piloted by himself and Doug to rescue Doug's father after bombing the MiG base.",
+        "release_date": "1986-01-17",
+        "release_year": "1986",
+        "title": "Iron Eagle"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Roddy McDowall",
+          "Kim Hunter",
+          "Maurice Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An  U.S. Spaceship lands on a desolate planet, stranding astronaut Taylor in a world dominated by apes, 2000 years into the future, who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
+        "release_date": "1968-02-07",
+        "release_year": "1968",
+        "title": "Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Christopher Lambert",
+          "Bruce Payne",
+          "Adrian Paul",
+          "Donnie Yen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Douglas Aarniokoski",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Immortals Connor and Duncan Macleod join forces against a man from Connor's distant past in the highlands of Scotland, Kell, an immensely powerful immortal who leads an army of equally powerful and deadly immortal swordsmen and assassins. No immortal alive has been able to defeat Kell yet, and neither Connor nor Duncan are skilled enough themselves to take him on and live. The two of them eventually come to one inevitable conclusion; one of them must die so that the combined power of both the Highlanders can bring down Kell for good. There can be only one... the question is, who will it be?",
+        "release_date": "2000-09-01",
+        "release_year": "2000",
+        "title": "Highlander: Endgame"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Joey Lauren Adams",
+          "Kristy Swanson",
+          "Cole Sprouse"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dennis Dugan",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A lazy law school grad adopts a kid to impress his girlfriend, but everything doesn't go as planned and he becomes the unlikely foster father.",
+        "release_date": "1999-06-25",
+        "release_year": "1999",
+        "title": "Big Daddy"
+      },
+      {
+        "cast": [
+          "Tim Allen",
+          "Sigourney Weaver",
+          "Alan Rickman",
+          "Tony Shalhoub"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dean Parisot",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.",
+        "release_date": "1999-12-23",
+        "release_year": "1999",
+        "title": "Galaxy Quest"
+      }
+    ],
+    "raw_user_id": "1560",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 132
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.963538918733186
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly executed action films that lack depth or coherence.",
+        "Dislike for romantic dramas that do not resonate emotionally.",
+        "Dislike for comedies that fail to deliver humor or engaging storylines."
+      ],
+      "liked_patterns": [
+        "Enjoyment of thrillers that combine suspense with strong narratives.",
+        "Preference for comedies that blend humor with relatable themes.",
+        "Attraction to action films that feature engaging plots and character arcs."
+      ],
+      "summary": "Unique tastes: Thrillers (The user enjoys suspenseful narratives that keep them engaged.); Comedies (The user appreciates humor and light-hearted storytelling.); Action (The user favors dynamic and intense sequences that provide excitement.); Romantic elements (The user is drawn to stories that explore relationships and emotions.); Dramatic storytelling (The user values narratives that delve into character development and emotional depth.). Liked patterns: Enjoyment of thrillers that combine suspense with strong narratives., Preference for comedies that blend humor with relatable themes., Attraction to action films that feature engaging plots and character arcs.. Disliked patterns: Dislike for poorly executed action films that lack depth or coherence., Dislike for romantic dramas that do not resonate emotionally., Dislike for comedies that fail to deliver humor or engaging storylines..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys suspenseful narratives that keep them engaged.",
+          "taste": "Thrillers"
+        },
+        {
+          "reason": "The user appreciates humor and light-hearted storytelling.",
+          "taste": "Comedies"
+        },
+        {
+          "reason": "The user favors dynamic and intense sequences that provide excitement.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user is drawn to stories that explore relationships and emotions.",
+          "taste": "Romantic elements"
+        },
+        {
+          "reason": "The user values narratives that delve into character development and emotional depth.",
+          "taste": "Dramatic storytelling"
+        }
+      ]
+    },
+    "user_id": 1560
+  }
+}

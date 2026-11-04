@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "8d47ee584acb389003fba1073906f3ca50f7a6e95489f54c13552a163deb0382",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      508,
+      531,
+      466,
+      475,
+      442,
+      1252,
+      551,
+      2484,
+      445,
+      1471
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7c0fb89f215e486a8bdadc96dfc62132"
+    ],
+    "sampled_item_ids": [
+      28,
+      57,
+      60,
+      93,
+      112,
+      137,
+      257,
+      325,
+      338,
+      372,
+      416,
+      444,
+      480,
+      889,
+      1225,
+      1287,
+      1446,
+      1649,
+      2115,
+      2177,
+      2241,
+      2317,
+      2338,
+      2747,
+      3045
+    ],
+    "seed": 42,
+    "source_hash": "930761832727e63c0d846eeec5fc69a57916550868960e4b9ce3bf2a87c400ae",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3882,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Travolta",
+          "Emma Thompson",
+          "Billy Bob Thornton",
+          "Kathy Bates"
+        ],
+        "country": [
+          "France",
+          "Germany",
+          "Japan",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In this adaptation of the best-selling roman à clef about Bill Clinton's 1992 run for the White House, the young and gifted Henry Burton is tapped to oversee the presidential campaign of Governor Jack Stanton. Burton is pulled into the politician's colorful world and looks on as Stanton -- who has a wandering eye that could be his downfall -- contends with his ambitious wife, Susan, and an outspoken adviser, Richard Jemmons.",
+        "release_date": "1998-03-20",
+        "release_year": "1998",
+        "title": "Primary Colors"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Vicellous Reon Shannon",
+          "Deborah Kara Unger",
+          "Liev Schreiber"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Jewison",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of Rubin \"Hurricane\" Carter, a boxer wrongly imprisoned for murder, and the people who aided in his fight to prove his innocence.",
+        "release_date": "1999-09-17",
+        "release_year": "1999",
+        "title": "Hurricane, The"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jeanne Tripplehorn",
+          "Gene Hackman",
+          "Holly Hunter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mitch McDeere is a young man with a promising future in Law. About to sit his Bar exam, he is approached by 'The Firm' and made an offer he doesn't refuse. Seduced by the money and gifts showered on him, he is totally oblivious to the more sinister side of his company. Then, two Associates are murdered. The FBI contact him, asking him for information and suddenly his life is ruined. He has a choice - work with the FBI, or stay with the Firm. Either way he will lose his life as he knows it. Mitch figures the only way out is to follow his own plan...",
+        "release_date": "1993-06-30",
+        "release_year": "1993",
+        "title": "Firm, The"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Kevin Spacey",
+          "Jude Law",
+          "Alison Eastwood"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A visiting city reporter's assignment suddenly revolves around the murder trial of a local millionaire, whom he befriends.",
+        "release_date": "1997-11-21",
+        "release_year": "1997",
+        "title": "Midnight in the Garden of Good and Evil"
+      },
+      {
+        "cast": [
+          "Larenz Tate",
+          "Keith David",
+          "Chris Tucker",
+          "Freddy Rodríguez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Albert Hughes",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Depicts a heist of old bills, retired from circulation and destined by the government to be \"money to burn\". However, more broadly, it addresses the issues of Black Americans' involvement in the Vietnam War and their subsequent disillusionment with progress in social issues and civil rights back home in the United States, during the 1960s.",
+        "release_date": "1995-10-06",
+        "release_year": "1995",
+        "title": "Dead Presidents"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Charles Grodin",
+          "Yaphet Kotto",
+          "John Ashton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Brest",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "An accountant embezzles $15 million of mob money, jumps bail and is chased by bounty hunters, the FBI, and the Mafia.",
+        "release_date": "1988-07-20",
+        "release_year": "1988",
+        "title": "Midnight Run"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Chazz Palminteri",
+          "Lillo Brancato",
+          "Francis Capra"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert De Niro",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster's growing attraction - forbidden in his neighborhood - for a beautiful black girl.",
+        "release_date": "1993-09-14",
+        "release_year": "1993",
+        "title": "Bronx Tale, A"
+      },
+      {
+        "cast": [
+          "Julianne Moore",
+          "Andie MacDowell",
+          "Tim Robbins",
+          "Jack Lemmon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Altman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Multi-storied, fish-eyed look at American culture with some 22 characters intersecting--profoundly or fleetingly--through each other's lives. Running the emotional gamut from disturbing to humorous, Altman's portrait of the contemporary human condition is nevertheless fascinating. Based on nine stories and a prose poem by Raymond Carver.",
+        "release_date": "1993-09-05",
+        "release_year": "1993",
+        "title": "Short Cuts"
+      },
+      {
+        "cast": [
+          "Tobey Maguire",
+          "Charlize Theron",
+          "Delroy Lindo",
+          "Paul Rudd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lasse Hallström",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Homer is an orphan who was never adopted, becoming the favorite of orphanage director Dr. Larch. Dr. Larch imparts his full medical knowledge on Homer, who becomes a skilled, albeit unlicensed, physician. But Homer yearns for a self-chosen life outside the orphanage. What will Homer learn about life and love in the cider house? What of the destiny that Dr. Larch has planned for him?",
+        "release_date": "1999-12-17",
+        "release_year": "1999",
+        "title": "Cider House Rules, The"
+      },
+      {
+        "cast": [
+          "Christopher Walken",
+          "David Caruso",
+          "Laurence Fishburne",
+          "Victor Argo"
+        ],
+        "country": [
+          "Italy",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Abel Ferrara",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "A former drug lord returns from prison determined to wipe out all his competition and distribute the profits of his operations to New York's poor and lower classes in this stylish and ultra violent modern twist on Robin Hood.",
+        "release_date": "1990-07-18",
+        "release_year": "1990",
+        "title": "King of New York"
+      }
+    ],
+    "raw_user_id": "3882",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 163
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5882352596593914
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Movies rated below 3 are primarily comedies that do not blend well with drama, indicating a lack of appreciation for pure comedic films."
+      ],
+      "liked_patterns": [
+        "A preference for drama and crime genres is consistently reflected in high ratings.",
+        "Movies that combine drama with elements of war or romance tend to receive favorable ratings.",
+        "Dramas with comedic elements are also well-received, indicating a liking for lighter moments within serious narratives."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for drama is evident, with many high ratings across various sub-genres.); Crime (Crime dramas are frequently rated positively, indicating an appreciation for narratives involving moral complexity and tension.); War (War-themed dramas receive favorable ratings, suggesting an interest in stories that explore conflict and its human impact.); Romance (Romantic elements in dramas are appreciated, as seen in several liked films that blend these themes.); Comedy (Comedy is enjoyed when it is intertwined with drama, as indicated by positive ratings for dramedy films.). Liked patterns: A preference for drama and crime genres is consistently reflected in high ratings., Movies that combine drama with elements of war or romance tend to receive favorable ratings., Dramas with comedic elements are also well-received, indicating a liking for lighter moments within serious narratives.. Disliked patterns: Movies rated below 3 are primarily comedies that do not blend well with drama, indicating a lack of appreciation for pure comedic films..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for drama is evident, with many high ratings across various sub-genres.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Crime dramas are frequently rated positively, indicating an appreciation for narratives involving moral complexity and tension.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "War-themed dramas receive favorable ratings, suggesting an interest in stories that explore conflict and its human impact.",
+          "taste": "War"
+        },
+        {
+          "reason": "Romantic elements in dramas are appreciated, as seen in several liked films that blend these themes.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "Comedy is enjoyed when it is intertwined with drama, as indicated by positive ratings for dramedy films.",
+          "taste": "Comedy"
+        }
+      ]
+    },
+    "user_id": 3882
+  }
+}

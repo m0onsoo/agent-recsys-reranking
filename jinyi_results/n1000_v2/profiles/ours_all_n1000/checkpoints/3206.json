@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "662d0f7d339700709869eb099b509b2a96e13cf9d51984750854b66718e45ad2",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      516,
+      526,
+      308,
+      185,
+      93,
+      452,
+      135,
+      227,
+      1401,
+      45
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "cb1d97442cdd42c48629b44a0ddcd2b7"
+    ],
+    "sampled_item_ids": [
+      41,
+      45,
+      180,
+      185,
+      251,
+      292,
+      318,
+      353,
+      502,
+      521,
+      526,
+      551,
+      733,
+      789,
+      886,
+      898,
+      950,
+      983,
+      1100,
+      1401,
+      1854,
+      1917,
+      2557,
+      2637,
+      2911
+    ],
+    "seed": 42,
+    "source_hash": "71c0c4d7ea6a034e8cba5b99ab796e5f982ded4bd652d6f6284469673df8a928",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3206,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Brian O'Halloran",
+          "Jeff Anderson",
+          "Jason Mewes",
+          "Kevin Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Convenience and video store clerks Dante and Randal are sharp-witted, potty-mouthed and bored out of their minds. So in between needling customers, the counter jockeys play hockey on the roof, visit a funeral home and deal with their love lives.",
+        "release_date": "1994-09-13",
+        "release_year": "1994",
+        "title": "Clerks"
+      },
+      {
+        "cast": [
+          "Max Pomeranc",
+          "Joe Mantegna",
+          "Joan Allen",
+          "Ben Kingsley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Zaillian",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A prepubescent chess prodigy refuses to harden himself in order to become a champion like the famous but unlikable Bobby Fischer.",
+        "release_date": "1993-08-13",
+        "release_year": "1993",
+        "title": "Searching for Bobby Fischer"
+      },
+      {
+        "cast": [
+          "Helen Mirren",
+          "Katie Holmes",
+          "Jeffrey Tambor",
+          "Molly Ringwald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Williamson",
+        "genres": [
+          "Comedy",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Leanne is salutatorian when she needs to be valedictorian to get her scholarship to Harvard. The only class she is worse than the leader in is history, taught by Mrs. Tingle, and the teacher hates her. When an attempt to get ahead in Mrs. Tingle's class goes awry, mayhem ensues and friendships, loyalties and trust are tested by the teacher's intricate mind-games.",
+        "release_date": "1999-08-11",
+        "release_year": "1999",
+        "title": "Teaching Mrs. Tingle"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Vivica A. Fox",
+          "Nia Long",
+          "Michael Beach",
+          "Mekhi Phifer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Tillman, Jr.",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Traditional Sunday dinners at Mama Joe's (Irma P. Hall) turn sour when sisters Teri (Vanessa L. Williams), Bird (Nia Long) and Maxine (Vivica A. Fox) start bringing their problems to the dinner table in this ensemble comedy. When tragedy strikes, it's up to grandson Ahmad (Brandon Hammond) to pull the family together and put the soul back into the family's weekly gatherings. Michael Beach, Mekhi P",
+        "release_date": "1997-09-26",
+        "release_year": "1997",
+        "title": "Soul Food"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Al Pacino",
+          "Michael Madsen",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An FBI undercover agent infilitrates the mob and finds himself identifying more with the mafia life at the expense of his regular one.",
+        "release_date": "1997-02-27",
+        "release_year": "1997",
+        "title": "Donnie Brasco"
+      },
+      {
+        "cast": [
+          "Andy García",
+          "Meg Ryan",
+          "Ellen Burstyn",
+          "Tina Majorino"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Luis Mandoki",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An airline pilot and his wife are forced to face the consequences of her alcoholism when her addictions threaten her life and their daughter's safety. While the woman enters detox, her husband must face the truth of his enabling behavior.",
+        "release_date": "1994-04-29",
+        "release_year": "1994",
+        "title": "When a Man Loves a Woman"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      }
+    ],
+    "raw_user_id": "3206",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 80
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5462955229895446
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed in the ratings below 3."
+      ],
+      "liked_patterns": [
+        "Preference for films that blend genres, particularly comedy with drama or thriller elements.",
+        "Tendency to enjoy films with strong character development and emotional storytelling.",
+        "Attraction to movies that feature unconventional or thought-provoking plots."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, indicating a preference for humor in their movie choices.); Interest in Drama (The user rates several dramas highly, suggesting a strong appreciation for character-driven narratives and emotional depth.); Enjoyment of Thrillers (The user has rated multiple thrillers positively, indicating a taste for suspenseful and engaging plots.); Fascination with Crime Themes (The user shows a liking for crime-related films, reflecting an interest in stories involving moral ambiguity and complex characters.); Affinity for Unique Storytelling (The user appreciates films with unconventional narratives or themes, as seen in their high ratings for movies that explore unique concepts.). Liked patterns: Preference for films that blend genres, particularly comedy with drama or thriller elements., Tendency to enjoy films with strong character development and emotional storytelling., Attraction to movies that feature unconventional or thought-provoking plots.. Disliked patterns: No significant patterns of dislike observed in the ratings below 3..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, indicating a preference for humor in their movie choices.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several dramas highly, suggesting a strong appreciation for character-driven narratives and emotional depth.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated multiple thrillers positively, indicating a taste for suspenseful and engaging plots.",
+          "taste": "Enjoyment of Thrillers"
+        },
+        {
+          "reason": "The user shows a liking for crime-related films, reflecting an interest in stories involving moral ambiguity and complex characters.",
+          "taste": "Fascination with Crime Themes"
+        },
+        {
+          "reason": "The user appreciates films with unconventional narratives or themes, as seen in their high ratings for movies that explore unique concepts.",
+          "taste": "Affinity for Unique Storytelling"
+        }
+      ]
+    },
+    "user_id": 3206
+  }
+}

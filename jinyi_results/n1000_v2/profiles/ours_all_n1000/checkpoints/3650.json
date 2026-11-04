@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "3c606582de03756e86679ba0c886477eaf3fb4bc74a17457d456c7c604bdb9e2",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      841,
+      1097,
+      857,
+      1674,
+      533,
+      616,
+      51,
+      428,
+      2768,
+      562
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b5d5c4182c2a49bcb24414b875f92a13"
+    ],
+    "sampled_item_ids": [
+      27,
+      45,
+      126,
+      205,
+      284,
+      329,
+      331,
+      516,
+      677,
+      714,
+      749,
+      809,
+      911,
+      923,
+      1020,
+      1091,
+      1152,
+      1222,
+      1291,
+      1457,
+      1501,
+      1765,
+      1989,
+      2018,
+      2973
+    ],
+    "seed": 42,
+    "source_hash": "233455fda6e498cf4018dff6ba2213e304f4d51a89417753b228a279a0301dbb",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3650,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gene Hackman",
+          "Christopher Reeve",
+          "Ned Beatty",
+          "Jackie Cooper"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Three escaped criminals from the planet Krypton test the Man of Steel's mettle. Led by Gen. Zod, the Kryptonians take control of the White House and partner with Lex Luthor to destroy Superman and rule the world. But Superman, who attempts to make himself human in order to get closer to Lois, realizes he has a responsibility to save the planet.",
+        "release_date": "1980-12-04",
+        "release_year": "1980",
+        "title": "Superman II"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Pete Postlethwaite",
+          "Emma Thompson",
+          "John Lynch"
+        ],
+        "country": [
+          "United Kingdom",
+          "Ireland"
+        ],
+        "director": "Jim Sheridan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A small time thief from Belfast, Gerry Conlon, is falsely implicated in the IRA bombing of a pub that kills several people while he is in London. He and his four friends are coerced by British police into confessing their guilt. Gerry's father and other relatives in London are also implicated in the crime. He spends fifteen years in prison with his father trying to prove his innocence.",
+        "release_date": "1993-12-12",
+        "release_year": "1993",
+        "title": "In the Name of the Father"
+      },
+      {
+        "cast": [
+          "Michael York",
+          "Richard Jordan",
+          "Jenny Agutter",
+          "Roscoe Lee Browne"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Anderson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An idyllic sci-fi future has one major drawback: All citizens get a chance of being 'renewed' in a Civic Ceremony at their 30th birthday, unless they run and escape before their time comes.",
+        "release_date": "1976-06-23",
+        "release_year": "1976",
+        "title": "Logan's Run"
+      },
+      {
+        "cast": [
+          "Muhammad Ali",
+          "George Foreman",
+          "Don King",
+          "James Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leon Gast",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "It's 1974. Muhammad Ali is 32 and thought by many to be past his prime. George Foreman is ten years younger and the heavyweight champion of the world. Promoter Don King wants to make a name for himself and offers both fighters five million dollars apiece to fight one another, and when they accept, King has only to come up with the money. He finds a willing backer in Mobutu Sese Suko, the dictator of Zaire, and the \"Rumble in the Jungle\" is set, including a musical festival featuring some of America's top black performers, like James Brown and B.B. King.",
+        "release_date": "1996-10-25",
+        "release_year": "1996",
+        "title": "When We Were Kings"
+      },
+      {
+        "cast": [
+          "Kevin Bacon",
+          "Elisabeth Shue",
+          "Josh Brolin",
+          "Kim Dickens"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Cocky researcher, Sebastian Caine is working on a project to make living creatures invisible and he's so confident he's found the right formula that he tests it on himself and soon begins to vanish. The only problem is – no-one can determine how to make him visible again. Caine's predicament eventually drives him mad, with terrifying results.",
+        "release_date": "2000-08-04",
+        "release_year": "2000",
+        "title": "Hollow Man"
+      },
+      {
+        "cast": [
+          "Gene Barry",
+          "Ann Robinson",
+          "Les Tremayne",
+          "Lewis Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Byron Haskin",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The residents of a small town are excited when a flaming meteor lands in the hills, but their joy is short-lived when they discover it has passengers who are not very friendly.",
+        "release_date": "1953-08-13",
+        "release_year": "1953",
+        "title": "War of the Worlds, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Joan Cusack",
+          "Kelsey Grammer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
+        "release_date": "1999-10-30",
+        "release_year": "1999",
+        "title": "Toy Story 2"
+      },
+      {
+        "cast": [
+          "Luke Edwards",
+          "Timothy Busfield",
+          "John Ashton",
+          "Dennis Farina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Scheinman",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Chairman of the Minnesota Twins passes away and in his will, leaves his grandson, Billy Heywood, ownership of the team. Billy appoints himself the new manager. But will the proud, arrogant arrogant players of the team, be willing to take orders and tactics from a 12 year old boy?",
+        "release_date": "1994-06-29",
+        "release_year": "1994",
+        "title": "Little Big League"
+      },
+      {
+        "cast": [
+          "Duane Martin",
+          "Tupac Amaru Shakur",
+          "Bernie Mac",
+          "Marlon Wayans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeff Pollack",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Story of a promising high school basketball star and his relationships with two brothers, one a drug dealer and the other a former basketball star fallen on hard times and now employed as a security guard.",
+        "release_date": "1994-03-23",
+        "release_year": "1994",
+        "title": "Above the Rim"
+      },
+      {
+        "cast": [
+          "Leslie Nielsen",
+          "Priscilla Presley",
+          "George Kennedy",
+          "O.J. Simpson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Zucker",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Bumbling cop Frank Drebin is out to foil the big boys in the energy industry, who intend to suppress technology that will put them out of business.",
+        "release_date": "1991-06-28",
+        "release_year": "1991",
+        "title": "Naked Gun 2 1/2: The Smell of Fear, The"
+      }
+    ],
+    "raw_user_id": "3650",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 628
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8810725582780121
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films, as indicated by low ratings for multiple titles in this genre.",
+        "Negative response to films that are primarily comedic without strong narrative elements."
+      ],
+      "liked_patterns": [
+        "Preference for films that combine multiple genres, especially Drama with Thriller or Romance.",
+        "High ratings for films featuring imaginative or fantastical elements, particularly in Sci-Fi and Fantasy.",
+        "Enjoyment of character-driven stories that evoke strong emotional responses."
+      ],
+      "summary": "Unique tastes: Strong preference for Sci-Fi and Fantasy (Multiple high ratings for films in these genres, indicating a strong affinity for imaginative storytelling.); Enjoyment of Drama and Thriller elements (Consistently high ratings for movies that blend these genres, suggesting a taste for intense and emotional narratives.); Appreciation for Comedy (Several ratings of 4 or above for comedies, indicating a preference for humor in films.); Interest in Action and Adventure (High ratings for action-packed films suggest a liking for excitement and dynamic storytelling.); Fondness for Romance in Drama (Positive ratings for romantic dramas indicate an appreciation for emotional depth in relationships.). Liked patterns: Preference for films that combine multiple genres, especially Drama with Thriller or Romance., High ratings for films featuring imaginative or fantastical elements, particularly in Sci-Fi and Fantasy., Enjoyment of character-driven stories that evoke strong emotional responses.. Disliked patterns: Dislike for horror films, as indicated by low ratings for multiple titles in this genre., Negative response to films that are primarily comedic without strong narrative elements..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for films in these genres, indicating a strong affinity for imaginative storytelling.",
+          "taste": "Strong preference for Sci-Fi and Fantasy"
+        },
+        {
+          "reason": "Consistently high ratings for movies that blend these genres, suggesting a taste for intense and emotional narratives.",
+          "taste": "Enjoyment of Drama and Thriller elements"
+        },
+        {
+          "reason": "Several ratings of 4 or above for comedies, indicating a preference for humor in films.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "High ratings for action-packed films suggest a liking for excitement and dynamic storytelling.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "Positive ratings for romantic dramas indicate an appreciation for emotional depth in relationships.",
+          "taste": "Fondness for Romance in Drama"
+        }
+      ]
+    },
+    "user_id": 3650
+  }
+}

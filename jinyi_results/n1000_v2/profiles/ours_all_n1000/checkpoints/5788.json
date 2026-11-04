@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "4b7daffdcd3a123115427ef0d127cc929dbbe9d10977d8db3fdbc79293759b9e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      733,
+      1095,
+      1103,
+      1825,
+      1089,
+      1228,
+      2125,
+      2356,
+      867,
+      105
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      46,
+      192,
+      218,
+      332,
+      585,
+      606,
+      1229,
+      1246,
+      1327,
+      1335,
+      1349,
+      1354,
+      1383,
+      1404,
+      1667,
+      1729,
+      1797,
+      1811,
+      1838,
+      1994,
+      2348,
+      2350,
+      2487,
+      2664,
+      2790
+    ],
+    "seed": 42,
+    "source_hash": "22cc3d17efddc600c46cb0dc2b962dd3c3a639759c717d52e19ed7911126eae7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5788,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jim Carrey",
+          "Courtney Love",
+          "Bob Zmuda",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A film about the life and career of the eccentric avant-garde comedian, Andy Kaufman.",
+        "release_date": "1999-12-22",
+        "release_year": "1999",
+        "title": "Man on the Moon"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "John Leguizamo",
+          "Dennis Hopper",
+          "Samantha Mathis"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Annabel Jankel",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Children's",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Mario and Luigi, plumbers from Brooklyn, find themselves in an alternate universe where evolved dinosaurs live in hi-tech squalor. They're the only hope to save our universe from invasion by the dino dictator, Koopa.",
+        "release_date": "1993-05-28",
+        "release_year": "1993",
+        "title": "Super Mario Bros."
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "F. Murray Abraham",
+          "Art Carney",
+          "Charles Dance"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Danny is obsessed with a fictional movie character action hero Jack Slater. When a magical ticket transports him into Jack's latest adventure, Danny finds himself in a world where movie magic and reality collide. Now it's up to Danny to save the life of his hero and new friend.",
+        "release_date": "1993-06-18",
+        "release_year": "1993",
+        "title": "Last Action Hero"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Phil Hartman",
+          "Sinbad",
+          "Rita Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian Levant",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Meet Howard Langston, a salesman for a mattress company is constantly busy at his job, and he also constantly disappoints his son, after he misses his son's karate exposition, his son tells Howard that he wants for Christmas is an action figure of his son's television hero, he tries hard to to make it up to him. Unfortunately for Howard, it is Christmas Eve, and every store is sold out of Turbo Man, now Howard must travel all over town and compete with everybody else to find a Turbo Man action figure.",
+        "release_date": "1996-11-15",
+        "release_year": "1996",
+        "title": "Jingle All the Way"
+      },
+      {
+        "cast": [
+          "Charlie Sheen",
+          "Lloyd Bridges",
+          "Valeria Golino",
+          "Richard Crenna"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Abrahams",
+        "genres": [
+          "Action",
+          "Comedy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Topper Harley is found to be working as an odd-job-man in a monastery. The CIA want him to lead a rescue mission into Iraq, to rescue the last rescue team, who went in to rescue the last rescue team who... who went in to rescue hostages left behind after Desert Storm.",
+        "release_date": "1993-05-21",
+        "release_year": "1993",
+        "title": "Hot Shots! Part Deux"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Alicia Silverstone",
+          "Jennifer Rubin",
+          "Kurtwood Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alan Shapiro",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A precocious and obsessive teenager develops a crush on a naive writer with harrowing consequences.",
+        "release_date": "1993-04-02",
+        "release_year": "1993",
+        "title": "Crush, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Robert Downey Jr.",
+          "Nancy Travis",
+          "Ken Jenkins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Spottiswoode",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Air America was the CIA's private airline operating in Laos during the Vietnam War, running anything and everything from soldiers to foodstuffs for local villagers. After losing his pilot's license, Billy Covington is recruited into it, and ends up in the middle of a bunch of lunatic pilots, gun-running by his friend Gene Ryack, and opium smuggling by his own superiors.",
+        "release_date": "1990-08-10",
+        "release_year": "1990",
+        "title": "Air America"
+      },
+      {
+        "cast": [
+          "Deborah Harry",
+          "Matthew Lawrence",
+          "Christian Slater",
+          "Steve Buscemi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Harrison",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "The first segment features an animated mummy stalking selected student victims; the second tale tells the story of a \"cat from hell\" who cannot be killed and leaves a trail of victims behind it; the third story is about a man who witnesses a bizarre killing and promises never to tell what he saw and the \"in-between\" bit is the story of a woman preparing to cook her newspaper boy for supper.",
+        "release_date": "1990-05-03",
+        "release_year": "1990",
+        "title": "Tales from the Darkside: The Movie"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Joey Lauren Adams",
+          "Kristy Swanson",
+          "Cole Sprouse"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dennis Dugan",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A lazy law school grad adopts a kid to impress his girlfriend, but everything doesn't go as planned and he becomes the unlikely foster father.",
+        "release_date": "1999-06-25",
+        "release_year": "1999",
+        "title": "Big Daddy"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      }
+    ],
+    "raw_user_id": "5788",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 661
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0311000464992626
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that lack depth or are overly simplistic.",
+        "Dislike for comedies that fail to deliver humor or engaging narratives."
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedies that blend humor with drama or other genres.",
+        "Preference for action films that are engaging and thrilling.",
+        "Appreciation for children's films that are entertaining and whimsical."
+      ],
+      "summary": "Unique tastes: Children's and Family Themes (Enjoyment of children's movies and musicals, indicating a preference for light-hearted and family-friendly content.); Comedy with Dramatic Elements (Appreciation for comedies that incorporate drama, suggesting a liking for humor that also explores deeper themes.); Action and Adventure (Strong preference for action and adventure genres, particularly those with engaging plots and thrilling elements.); Horror with a Touch of Comedy (Interest in horror films that blend comedic elements, indicating a taste for genre hybrids.); Strong Character-Driven Narratives (Favoring films with strong character development and emotional depth, as seen in drama and certain comedies.). Liked patterns: Enjoyment of comedies that blend humor with drama or other genres., Preference for action films that are engaging and thrilling., Appreciation for children's films that are entertaining and whimsical.. Disliked patterns: Dislike for horror films that lack depth or are overly simplistic., Dislike for comedies that fail to deliver humor or engaging narratives..",
+      "unique_tastes": [
+        {
+          "reason": "Enjoyment of children's movies and musicals, indicating a preference for light-hearted and family-friendly content.",
+          "taste": "Children's and Family Themes"
+        },
+        {
+          "reason": "Appreciation for comedies that incorporate drama, suggesting a liking for humor that also explores deeper themes.",
+          "taste": "Comedy with Dramatic Elements"
+        },
+        {
+          "reason": "Strong preference for action and adventure genres, particularly those with engaging plots and thrilling elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "Interest in horror films that blend comedic elements, indicating a taste for genre hybrids.",
+          "taste": "Horror with a Touch of Comedy"
+        },
+        {
+          "reason": "Favoring films with strong character development and emotional depth, as seen in drama and certain comedies.",
+          "taste": "Strong Character-Driven Narratives"
+        }
+      ]
+    },
+    "user_id": 5788
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "6fcbbd10b9ea0c599b27d72b02638b97d11f3151ecd7ef967d05ab5781f7775f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      61,
+      1495,
+      3030,
+      94,
+      2482,
+      593,
+      1849,
+      865,
+      433,
+      1302
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "4c00cafdb8a848a1ac259b155d5921a3"
+    ],
+    "sampled_item_ids": [
+      8,
+      94,
+      98,
+      145,
+      157,
+      210,
+      278,
+      307,
+      431,
+      496,
+      580,
+      592,
+      604,
+      715,
+      756,
+      799,
+      849,
+      889,
+      919,
+      1054,
+      1477,
+      1587,
+      1690,
+      1905,
+      3353
+    ],
+    "seed": 42,
+    "source_hash": "7762caa6ee1bca742fcf02b888c65d8ae4cb82e5f675b436afd398c67410ae12",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3695,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Buster Keaton",
+          "Marion Mack",
+          "Glen Cavender",
+          "Jim Farley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Buster Keaton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "During America’s Civil War Union spies steal engineer Johnnie Gray's (Buster Keaton's) beloved locomotive The General and he single-handedly must do all in his power to get it back. Released throughout most of the world in 1927, this Silent comedy-action film flopped when originally released, but now is regarded as one of the great American motion pictures. The story is based on actual historic events.",
+        "release_date": "1926-12-31",
+        "release_year": "1927",
+        "title": "General, The"
+      },
+      {
+        "cast": [
+          "Angus Macfadyen",
+          "Mario Yedidia",
+          "Marley Shelton",
+          "Chao Li Chi"
+        ],
+        "country": [
+          "China",
+          "United States of America"
+        ],
+        "director": "Ronny Yu",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young man, Ryan, suffering from a disability, wishes to join the other kids from his schools football team. During an initiation rite, Ryan is swept away through a whirlpool to the land of Tao. There he is hunted by the evil Lord Komodo, who desires the boy as a key to enter the real world. Ryan is rescued by the protectors of Tao, five humanoid kangaroos, each embued with the five elements and virtues. Ryan learns his valuable lesson while saving the land of Tao.",
+        "release_date": "1997-05-02",
+        "release_year": "1997",
+        "title": "Warriors of Virtue"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Jean Reno",
+          "Natascha McElhone",
+          "Stellan Skarsgård"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Frankenheimer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A briefcase with undisclosed contents – sought by Irish terrorists and the Russian mob – makes its way into criminals' hands. An Irish liaison assembles a squad of mercenaries, or 'ronin', and gives them the thorny task of recovering the case.",
+        "release_date": "1998-09-25",
+        "release_year": "1998",
+        "title": "Ronin"
+      },
+      {
+        "cast": [
+          "Tsutomu Yamazaki",
+          "Nobuko Miyamoto",
+          "Ken Watanabe",
+          "Koji Yakusho"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Juzo Itami",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "Japanese",
+        "overview": "A pair of truck drivers happen onto a decrepit roadside fast food stop selling ramen noodles. The widowed owner, Tampopo, pleads them to help her turn her establishment into a paragon of the \"art of noodle soup making\".",
+        "release_date": "1985-11-23",
+        "release_year": "1986",
+        "title": "Tampopo"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Bruce Dern",
+          "Carrie Fisher",
+          "Rick Ducommun"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When secretive new neighbors move in next door, suburbanite Ray Peterson and his friends let their paranoia get the best of them as they start to suspect the newcomers of evildoings and commence an investigation. But it's hardly how Ray, who much prefers drinking beer, reading his newspaper and watching a ball game on the tube expected to spend his vacation.",
+        "release_date": "1989-02-17",
+        "release_year": "1989",
+        "title": "'burbs, The"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Matthew Modine",
+          "Frank Langella",
+          "Maury Chaykin"
+        ],
+        "country": [
+          "France",
+          "Germany",
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Morgan Adams and her slave, William Shaw, are on a quest to recover the three portions of a treasure map. Unfortunately, the final portion is held by her murderous uncle, Dawg. Her crew is skeptical of her leadership abilities, so she must complete her quest before they mutiny against her. This is made yet more difficult by the efforts of the British crown to end her pirate raids.",
+        "release_date": "1995-12-22",
+        "release_year": "1995",
+        "title": "Cutthroat Island"
+      },
+      {
+        "cast": [
+          "Mel Brooks",
+          "Rick Moranis",
+          "Bill Pullman",
+          "Daphne Zuniga"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When the nefarious Dark Helmet hatches a plan to snatch Princess Vespa and steal her planet's air, space-bum-for-hire Lone Starr and his clueless sidekick fly to the rescue. Along the way, they meet Yogurt, who puts Lone Starr wise to the power of \"The Schwartz.\" Can he master it in time to save the day?",
+        "release_date": "1987-06-24",
+        "release_year": "1987",
+        "title": "Spaceballs"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Nicolas Cage",
+          "Joan Allen",
+          "Alessandro Nivola"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.",
+        "release_date": "1997-06-27",
+        "release_year": "1997",
+        "title": "Face/Off"
+      },
+      {
+        "cast": [
+          "Molly Ringwald",
+          "Justin Henry",
+          "Michael Schoeffling",
+          "Haviland Morris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A teenage girls deals with her parents forgetting her birthday and a crush on her high school's heartthrob.",
+        "release_date": "1984-05-04",
+        "release_year": "1984",
+        "title": "Sixteen Candles"
+      }
+    ],
+    "raw_user_id": "3695",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 241
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7009352607582352
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are purely thriller without additional engaging elements.",
+        "Dislike for films that lack character depth or emotional engagement."
+      ],
+      "liked_patterns": [
+        "Preference for action films with strong narratives and character development.",
+        "Enjoyment of comedies that also deliver emotional or dramatic themes.",
+        "Attraction to films featuring a mix of genres, particularly those that combine action with other elements like romance or comedy."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with elements of adventure, often featuring strong characters and thrilling plots.); Comedy and Drama (The user appreciates films that blend humor with emotional depth, showcasing relatable characters and situations.); Strong Female Characters (The user favors films that highlight strong female leads, often in action or dramatic roles, showcasing resilience and complexity.); Sci-Fi and Fantasy Elements (The user is drawn to films that incorporate science fiction or fantasy elements, often exploring imaginative worlds and concepts.); Musical Elements (The user enjoys films that include musical components, enhancing the storytelling through song and performance.). Liked patterns: Preference for action films with strong narratives and character development., Enjoyment of comedies that also deliver emotional or dramatic themes., Attraction to films featuring a mix of genres, particularly those that combine action with other elements like romance or comedy.. Disliked patterns: Dislike for films that are purely thriller without additional engaging elements., Dislike for films that lack character depth or emotional engagement..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with elements of adventure, often featuring strong characters and thrilling plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that blend humor with emotional depth, showcasing relatable characters and situations.",
+          "taste": "Comedy and Drama"
+        },
+        {
+          "reason": "The user favors films that highlight strong female leads, often in action or dramatic roles, showcasing resilience and complexity.",
+          "taste": "Strong Female Characters"
+        },
+        {
+          "reason": "The user is drawn to films that incorporate science fiction or fantasy elements, often exploring imaginative worlds and concepts.",
+          "taste": "Sci-Fi and Fantasy Elements"
+        },
+        {
+          "reason": "The user enjoys films that include musical components, enhancing the storytelling through song and performance.",
+          "taste": "Musical Elements"
+        }
+      ]
+    },
+    "user_id": 3695
+  }
+}

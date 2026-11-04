@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "afefab9d1cb2ad737ef093df9388c903785988d6d4efdc6a41554e92039fe5cd",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      801,
+      161,
+      2989,
+      673,
+      1089,
+      288,
+      295,
+      2175,
+      892,
+      678
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "2fa80bd42ee74377b7004ce3554c66b0"
+    ],
+    "sampled_item_ids": [
+      5,
+      24,
+      120,
+      135,
+      161,
+      232,
+      288,
+      295,
+      312,
+      642,
+      673,
+      754,
+      776,
+      791,
+      892,
+      930,
+      1076,
+      1089,
+      1114,
+      1134,
+      1469,
+      1676,
+      1694,
+      1705,
+      2429
+    ],
+    "seed": 42,
+    "source_hash": "237a9c5ad2ed1fb539f58d0907b4950648c3ea35a008d78a538228a12ef828ef",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 344,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Cusack",
+          "Billy Bob Thornton",
+          "Cate Blanchett",
+          "Angelina Jolie"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two air traffic controllers (John Cusack, Billy Bob Thornton) who thrive on living dangerously compete to outdo each other on several levels.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Pushing Tin"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Bill Pullman",
+          "Jeff Goldblum",
+          "Mary McDonnell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "On July 2, a giant alien mothership enters orbit around Earth and deploys several dozen saucer-shaped 'destroyer' spacecraft that quickly lay waste to major cities around the planet. On July 3, the United States conducts a coordinated counterattack that fails. On July 4, a plan is devised to gain access to the interior of the alien mothership in space, in order to plant a nuclear missile.",
+        "release_date": "1996-06-25",
+        "release_year": "1996",
+        "title": "Independence Day (ID4)"
+      },
+      {
+        "cast": [
+          "George Segal",
+          "Ben Gazzara",
+          "Robert Vaughn",
+          "Bradford Dillman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Guillermin",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In March of 1945, as the War in Europe is coming to a close, fighting erupts between German and American troops at the last remaining bridgehead across the Rhine.",
+        "release_date": "1969-06-25",
+        "release_year": "1969",
+        "title": "Bridge at Remagen, The"
+      },
+      {
+        "cast": [
+          "Denise Crosby",
+          "Barbara Adams",
+          "Majel Barrett",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Nygard",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A hilarious look at the universe's most fervent fans.",
+        "release_date": "1997-10-18",
+        "release_year": "1997",
+        "title": "Trekkies"
+      },
+      {
+        "cast": [
+          "Charlie Sheen",
+          "Lloyd Bridges",
+          "Valeria Golino",
+          "Richard Crenna"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Abrahams",
+        "genres": [
+          "Action",
+          "Comedy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Topper Harley is found to be working as an odd-job-man in a monastery. The CIA want him to lead a rescue mission into Iraq, to rescue the last rescue team, who went in to rescue the last rescue team who... who went in to rescue hostages left behind after Desert Storm.",
+        "release_date": "1993-05-21",
+        "release_year": "1993",
+        "title": "Hot Shots! Part Deux"
+      },
+      {
+        "cast": [
+          "Ben Stiller",
+          "Geoffrey Rush",
+          "Claire Forlani",
+          "William H. Macy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kinka Usher",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When Captain Amazing (Kinnear) is kidnapped by Casanova Frankenstein (Rush) a group of superheroes combine together to create a plan. But these aren't normal superheroes. Now, the group who include such heroes as Mr. Furious (Stiller), The Shoveller (Macy) and The Blue Raja (Azaria) must put all the powers together to save everyone they know and love.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Mystery Men"
+      },
+      {
+        "cast": [
+          "Duane Jones",
+          "Judith O'Dea",
+          "Karl Hardman",
+          "Marilyn Eastman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George A. Romero",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A group of people try to survive an attack of bloodthirsty zombies while trapped in a rural Pennsylvania farmhouse. Although not the first zombie film, Night of the Living Dead is the progenitor of the contemporary \"zombie apocalypse\" horror film, and it greatly influenced the modern pop-culture zombie archetype.",
+        "release_date": "1968-10-01",
+        "release_year": "1968",
+        "title": "Night of the Living Dead"
+      },
+      {
+        "cast": [
+          "Chuck Norris",
+          "Aki Aleong",
+          "Roland Harrah III",
+          "Miki Kim"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Aaron Norris",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Colonel James Braddock is told that his Asian wife and 12-year-old son are still alive in Communist Vietnam, he mounts a one-man assault to free them. Armed with the latest high-tech firepower, Braddock fights his way into the heart of the country and ends up battling his way out with several dozen abused Amerasian children in tow! Struggling to keep them alive while outmaneuvering a sadistic Vietnamese officer, Braddock ignites the jungle in a blazing cross-country race for freedom.",
+        "release_date": "1988-01-22",
+        "release_year": "1988",
+        "title": "Braddock: Missing in Action III"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Rene Russo",
+          "Denis Leary",
+          "Ben Gazzara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A very rich and successful playboy amuses himself by stealing artwork, but may have met his match in a seductive detective.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Thomas Crown Affair, The"
+      },
+      {
+        "cast": [
+          "Martin Balsam",
+          "Sô Yamamura",
+          "Joseph Cotten",
+          "Tatsuya Mihashi"
+        ],
+        "country": [
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Richard Fleischer",
+        "genres": [
+          "War"
+        ],
+        "language": "English",
+        "overview": "In the summer of 1941, the United States and Japan seem on the brink of war after constant embargos and failed diplomacy come to no end. \"Tora! Tora! Tora!\", named after the code words use by the lead Japanese pilot to indicate they had surprised the Americans, covers the days leading up to the attack on Pearl Harbor, which plunged America into the Second World War.",
+        "release_date": "1970-01-26",
+        "release_year": "1970",
+        "title": "Tora! Tora! Tora!"
+      }
+    ],
+    "raw_user_id": "344",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 72
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4339818236587032
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received action comedies",
+        "Negative response to certain sci-fi films",
+        "Displeasure with specific horror films"
+      ],
+      "liked_patterns": [
+        "Enjoyment of war-related narratives",
+        "Positive reception of action and adventure films",
+        "Appreciation for comedic storytelling"
+      ],
+      "summary": "Unique tastes: Appreciation for War Dramas (The user enjoys films that explore themes of conflict and sacrifice, as seen in the ratings for various war dramas.); Interest in Action and Adventure (The user rates several action and adventure films positively, indicating a preference for thrilling narratives.); Enjoyment of Comedic Elements (The user has rated comedies highly, suggesting a taste for humor in film.); Preference for Sci-Fi Themes (The user shows a liking for science fiction elements, particularly in action-oriented films.); Engagement with Horror Classics (The user appreciates classic horror films, as indicated by positive ratings for notable titles in the genre.). Liked patterns: Enjoyment of war-related narratives, Positive reception of action and adventure films, Appreciation for comedic storytelling. Disliked patterns: Dislike for poorly received action comedies, Negative response to certain sci-fi films, Displeasure with specific horror films.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that explore themes of conflict and sacrifice, as seen in the ratings for various war dramas.",
+          "taste": "Appreciation for War Dramas"
+        },
+        {
+          "reason": "The user rates several action and adventure films positively, indicating a preference for thrilling narratives.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user has rated comedies highly, suggesting a taste for humor in film.",
+          "taste": "Enjoyment of Comedic Elements"
+        },
+        {
+          "reason": "The user shows a liking for science fiction elements, particularly in action-oriented films.",
+          "taste": "Preference for Sci-Fi Themes"
+        },
+        {
+          "reason": "The user appreciates classic horror films, as indicated by positive ratings for notable titles in the genre.",
+          "taste": "Engagement with Horror Classics"
+        }
+      ]
+    },
+    "user_id": 344
+  }
+}

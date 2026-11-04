@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "796365f0f4841d1cb66d696a2778d62436d1ecdb53e9c9f6045990c6dc147422",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      119,
+      691,
+      882,
+      1428,
+      490,
+      1257,
+      449,
+      464,
+      1313,
+      568
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "3f5c95fbd75d450ca8e5cd1e9de235a8"
+    ],
+    "sampled_item_ids": [
+      76,
+      253,
+      401,
+      413,
+      490,
+      537,
+      553,
+      630,
+      675,
+      815,
+      881,
+      882,
+      1336,
+      1339,
+      1340,
+      1346,
+      1408,
+      1428,
+      1443,
+      1527,
+      1626,
+      1682,
+      1776,
+      3015,
+      3045
+    ],
+    "seed": 42,
+    "source_hash": "20a5ddf32b6e0d335ca1f6f4faeb98a399470e45f7fef5df8f8949416c80e118",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 432,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Leonardo DiCaprio",
+          "Jeremy Irons",
+          "Gérard Depardieu",
+          "Gabriel Byrne"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Randall Wallace",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Years have passed since the Three Musketeers, Aramis, Athos and Porthos, have fought together with their friend, D'Artagnan. But with the tyrannical King Louis using his power to wreak havoc in the kingdom while his twin brother, Philippe, remains imprisoned, the Musketeers reunite to abduct Louis and replace him with Philippe.",
+        "release_date": "1998-03-12",
+        "release_year": "1998",
+        "title": "Man in the Iron Mask, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Meg Ryan",
+          "Katie Sagona",
+          "Greg Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nora Ephron",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Book superstore magnate, Joe Fox and independent book shop owner, Kathleen Kelly fall in love in the anonymity of the Internet – both blissfully unaware that he's putting her out of business.",
+        "release_date": "1998-12-17",
+        "release_year": "1998",
+        "title": "You've Got Mail"
+      },
+      {
+        "cast": [
+          "Drew Barrymore",
+          "David Arquette",
+          "Michael Vartan",
+          "Molly Shannon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Raja Gosnell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Josie Geller, a baby-faced junior copywriter at the Chicago Sun-Times, must pose as a student at her former high school to research contemporary teenage culture. With the help of her brother, Rob, Josie infiltrates the inner circle of the most popular clique on campus. But she hits a major snag in her investigation -- not to mention her own failed love life -- when she falls for her dreamy English teacher, Sam Coulson.",
+        "release_date": "1999-04-09",
+        "release_year": "1999",
+        "title": "Never Been Kissed"
+      },
+      {
+        "cast": [
+          "Sarah Jessica Parker",
+          "Elle Macpherson",
+          "Scarlett Johansson",
+          "Eric Schaeffer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Eric Schaeffer",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Joe and Lucy are roommates and best friends. Lucy, whose love life is embarrassingly dull, convinces Joe, who is infatuated with a neighbor he's never met, that if they don't have stable romances within a month, they must jump off the Brooklyn Bridge.",
+        "release_date": "1996-03-08",
+        "release_year": "1996",
+        "title": "If Lucy Fell"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Diane Keaton",
+          "Andy García",
+          "Talia Shire"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
+        "release_date": "1990-12-24",
+        "release_year": "1990",
+        "title": "Godfather: Part III, The"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Annette Bening",
+          "Michael J. Fox",
+          "Martin Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Widowed U.S. president Andrew Shepherd, one of the world's most powerful men, can have anything he wants -- and what he covets most is Sydney Ellen Wade, a Washington lobbyist. But Shepherd's attempts at courting her spark wild rumors and decimate his approval ratings.",
+        "release_date": "1995-11-17",
+        "release_year": "1995",
+        "title": "American President, The"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Jessica Lange",
+          "John Hurt",
+          "Tim Roth"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Michael Caton-Jones",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In the highlands of Scotland in the 1700s, Rob Roy tries to lead his small town to a better future, by borrowing money from the local nobility to buy cattle to herd to market. When the money is stolen, Rob is forced into a Robin Hood lifestyle to defend his family and honour.",
+        "release_date": "1995-04-13",
+        "release_year": "1995",
+        "title": "Rob Roy"
+      },
+      {
+        "cast": [
+          "Sean Astin",
+          "Jon Favreau",
+          "Ned Beatty",
+          "Greta Lind"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Anspaugh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Rudy grew up in a steel mill town where most people ended up working, but wanted to play football at Notre Dame instead. There were only a couple of problems. His grades were a little low, his athletic skills were poor, and he was only half the size of the other players. But he had the drive and the spirit of 5 people and has set his sights upon joining the team.",
+        "release_date": "1993-09-17",
+        "release_year": "1993",
+        "title": "Rudy"
+      },
+      {
+        "cast": [
+          "Hugh Grant",
+          "Tara Fitzgerald",
+          "Colm Meaney",
+          "Ian McNeice"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Christopher Monger",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When an English cartographer arrives in Wales to tell the residents of the Welsh village of Ffynnon Garw  that their \"mountain\" is only a hill, the offended community sets out to remedy the situation.  The film is based on a story heard by Christopher Monger from his grandfather about the real village of Taff's Well,  in the old county of Glamorgan, and its neighbouring Garth Hill. However, due to 20th century urbanisation of the area, it was filmed in the more rural Llanrhaeadr-ym-Mochnant and Llansilin areas in Powys.",
+        "release_date": "1995-05-12",
+        "release_year": "1995",
+        "title": "Englishman Who Went Up a Hill, But Came Down a Mountain, The"
+      },
+      {
+        "cast": [
+          "Patrick Swayze",
+          "Demi Moore",
+          "Whoopi Goldberg",
+          "Tony Goldwyn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Zucker",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Wheat is a banker, Molly Jensen is an artist, and the two are madly in love. However, when Sam is murdered by his friend and corrupt business partner Carl Bruner over a shady business deal, he is left to roam the earth as a powerless spirit. When he learns of Carl's betrayal, Sam must seek the help of psychic Oda Mae Brown to set things right and protect Molly from Carl and his goons.",
+        "release_date": "1990-07-12",
+        "release_year": "1990",
+        "title": "Ghost"
+      }
+    ],
+    "raw_user_id": "432",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 59
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9508252386493085
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for romantic comedies that lack depth or engaging characters.",
+        "Negative response to films that do not resonate emotionally or feel superficial."
+      ],
+      "liked_patterns": [
+        "Preference for romantic comedies with a mix of drama and humor.",
+        "Enjoyment of films that feature strong emotional narratives.",
+        "Attraction to character-driven stories that explore relationships."
+      ],
+      "summary": "Unique tastes: Romantic Comedies (The user enjoys light-hearted narratives that blend humor with romantic themes.); Dramatic Romance (The user appreciates films that explore deeper emotional connections and relationships.); Character-Driven Stories (The user favors films that focus on character development and personal growth.); Comedy with Heart (The user is drawn to comedies that also convey meaningful messages or emotional depth.); Mystery Elements in Drama (The user enjoys stories that incorporate mystery within a dramatic context.). Liked patterns: Preference for romantic comedies with a mix of drama and humor., Enjoyment of films that feature strong emotional narratives., Attraction to character-driven stories that explore relationships.. Disliked patterns: Dislike for romantic comedies that lack depth or engaging characters., Negative response to films that do not resonate emotionally or feel superficial..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted narratives that blend humor with romantic themes.",
+          "taste": "Romantic Comedies"
+        },
+        {
+          "reason": "The user appreciates films that explore deeper emotional connections and relationships.",
+          "taste": "Dramatic Romance"
+        },
+        {
+          "reason": "The user favors films that focus on character development and personal growth.",
+          "taste": "Character-Driven Stories"
+        },
+        {
+          "reason": "The user is drawn to comedies that also convey meaningful messages or emotional depth.",
+          "taste": "Comedy with Heart"
+        },
+        {
+          "reason": "The user enjoys stories that incorporate mystery within a dramatic context.",
+          "taste": "Mystery Elements in Drama"
+        }
+      ]
+    },
+    "user_id": 432
+  }
+}

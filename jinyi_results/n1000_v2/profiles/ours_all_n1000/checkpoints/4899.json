@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "0f49ad67fedd64c07df30b48e7db2a850c07dafeb4b74d158d65edadaf09d366",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      857,
+      543,
+      128,
+      1587,
+      1252,
+      3233,
+      767,
+      1920,
+      835,
+      45
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      24,
+      129,
+      184,
+      212,
+      219,
+      260,
+      377,
+      526,
+      530,
+      541,
+      602,
+      738,
+      759,
+      767,
+      857,
+      952,
+      959,
+      962,
+      999,
+      1019,
+      1112,
+      1242,
+      1541,
+      2044
+    ],
+    "seed": 42,
+    "source_hash": "d2ee043ab669095db0c072406b0f75a763128bf4dfa56d25daf038bb63e088bd",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4899,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael York",
+          "Richard Jordan",
+          "Jenny Agutter",
+          "Roscoe Lee Browne"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Anderson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An idyllic sci-fi future has one major drawback: All citizens get a chance of being 'renewed' in a Civic Ceremony at their 30th birthday, unless they run and escape before their time comes.",
+        "release_date": "1976-06-23",
+        "release_year": "1976",
+        "title": "Logan's Run"
+      },
+      {
+        "cast": [
+          "Ewan McGregor",
+          "Ewen Bremner",
+          "Jonny Lee Miller",
+          "Robert Carlyle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Danny Boyle",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
+        "release_date": "1996-02-23",
+        "release_year": "1996",
+        "title": "Trainspotting"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Fred Ward",
+          "Dennis Quaid",
+          "Ed Harris",
+          "Scott Glenn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A chronicle of the original Mercury astronauts in the formation of America's space program: Alan Shepherd, the first American in space; Gus Grissom, the benighted astronaut for whom nothing works out as planned; John Glenn, the straight-arrow 'boy scout' of the bunch who was the first American to orbit the earth; and the remaining pilots: Deke Slayton, Scott Carpenter and Wally Schirra.",
+        "release_date": "1983-10-20",
+        "release_year": "1983",
+        "title": "Right Stuff, The"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Charles Grodin",
+          "Yaphet Kotto",
+          "John Ashton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Brest",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "An accountant embezzles $15 million of mob money, jumps bail and is chased by bounty hunters, the FBI, and the Mafia.",
+        "release_date": "1988-07-20",
+        "release_year": "1988",
+        "title": "Midnight Run"
+      },
+      {
+        "cast": [
+          "Roberto Benigni",
+          "Nicoletta Braschi",
+          "Michel Blanc",
+          "Dominique Lavanant"
+        ],
+        "country": [
+          "Italy",
+          "France"
+        ],
+        "director": "Roberto Benigni",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "Italian",
+        "overview": "A vicious serial sex killer is on the loose, and landscape gardener and shop-window outfitter Loris is the prime suspect, thanks to his unfortunate habit of getting caught in compromising situations (for which there is always a totally innocent explanation that the police fail to spot). Undercover policewoman Jessica is assigned by eccentric police psychologist Taccone to follow Loris and ...",
+        "release_date": "1994-10-22",
+        "release_year": "1994",
+        "title": "Monster, The (Il Mostro)"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "William Powell",
+          "Myrna Loy",
+          "Maureen O'Sullivan",
+          "Nat Pendleton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "W.S. Van Dyke",
+        "genres": [
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "After a four year absence, one time detective Nick Charles returns to New York with his new wife Nora and their dog, Asta. Nick re-connects with many of his old cronies, several of whom are eccentric characters, to say the least. He's also approached by Dorothy Wynant whose inventor father Clyde Wynant is suspected of murdering her step-mother. Her father had left on a planned trip some months before and she has had no contact with him. Nick isn't all that keen on resuming his former profession but egged-on by wife Nora, who thinks this all very exciting, he agrees to help out. He solves the case, announcing the identity of the killer at a dinner party for all of the suspects.",
+        "release_date": "1934-05-25",
+        "release_year": "1934",
+        "title": "Thin Man, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Michael Caine",
+          "Christopher Plummer",
+          "Saeed Jaffrey"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "A robust adventure about two British adventurers who take over primitive Kafiristan as \"godlike\" rulers, meeting a tragic end through their desire for a native girl. Based on a short story by Rudyard Kipling.",
+        "release_date": "1975-12-03",
+        "release_year": "1975",
+        "title": "Man Who Would Be King, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      }
+    ],
+    "raw_user_id": "4899",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 197
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9096986043192684
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly rated comedies",
+        "Negative response to certain action films",
+        "Dislike for low-rated sci-fi films"
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and thriller genres",
+        "Enjoyment of comedy films with a mix of romance",
+        "High ratings for science fiction films with unique concepts"
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates complex narratives and character development, as seen in multiple highly rated dramas.); Comedy (The user enjoys humor and light-hearted storytelling, reflected in several well-rated comedies.); Sci-Fi (The user is drawn to imaginative and speculative themes, indicated by a strong preference for science fiction films.); Thriller (The user favors suspenseful and intense storytelling, as shown by high ratings for thrillers.); Adventure (The user enjoys films that offer escapism and exploration, evident in the ratings for adventure films.). Liked patterns: Strong preference for drama and thriller genres, Enjoyment of comedy films with a mix of romance, High ratings for science fiction films with unique concepts. Disliked patterns: Dislike for poorly rated comedies, Negative response to certain action films, Dislike for low-rated sci-fi films.",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates complex narratives and character development, as seen in multiple highly rated dramas.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys humor and light-hearted storytelling, reflected in several well-rated comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to imaginative and speculative themes, indicated by a strong preference for science fiction films.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user favors suspenseful and intense storytelling, as shown by high ratings for thrillers.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user enjoys films that offer escapism and exploration, evident in the ratings for adventure films.",
+          "taste": "Adventure"
+        }
+      ]
+    },
+    "user_id": 4899
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "checkpoint_hash": "06499b0aed4b4401fc97493b17dcaa09106c37888c43668cc75a61fc83891edd",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      634,
+      200,
+      1314,
+      1211,
+      65,
+      244,
+      1476,
+      159,
+      567,
+      626
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      1,
+      16,
+      65,
+      159,
+      176,
+      199,
+      200,
+      207,
+      244,
+      322,
+      397,
+      516,
+      535,
+      567,
+      601,
+      632,
+      634,
+      699,
+      756,
+      771,
+      1211,
+      1314,
+      1476,
+      1664,
+      2870
+    ],
+    "seed": 42,
+    "source_hash": "f4a93965cd007f0af96ceb54049de52f2d5c48860bd606710bdbec44c35f8b39",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4273,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "retired"
+    },
+    "interaction_history": [
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1970",
+        "title": "M*A*S*H"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Katharine Ross",
+          "Strother Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot 'Sundance Kid'. As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "release_year": "1969",
+        "title": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Harold Ramis",
+          "Warren Oates",
+          "P.J. Soles"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "John Winger, an indolent sad sack in his 30s, impulsively joins the U.S. Army after losing his job, his girlfriend and his apartment.",
+        "release_date": "1981-06-25",
+        "release_year": "1981",
+        "title": "Stripes"
+      },
+      {
+        "cast": [
+          "Sean Penn",
+          "Jennifer Jason Leigh",
+          "Judge Reinhold",
+          "Phoebe Cates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Amy Heckerling",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Follows a group of high school students growing up in southern California, based on the real-life adventures chronicled by Cameron Crowe. Stacy Hamilton and Mark Ratner are looking for a love interest, and are helped along by their older classmates, Linda Barrett and Mike Damone, respectively. The center of the film is held by Jeff Spicoli, a perpetually stoned surfer dude who faces off with the resolute Mr. Hand, who is convinced that everyone is on dope.",
+        "release_date": "1982-08-13",
+        "release_year": "1982",
+        "title": "Fast Times at Ridgemont High"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Trey Parker",
+          "Matt Stone",
+          "Mary Kay Bergman",
+          "Isaac Hayes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Trey Parker",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the four boys see an R-rated movie featuring Canadians Terrance and Philip, they are pronounced \"corrupted\", and their parents pressure the United States to wage war against Canada.",
+        "release_date": "1999-06-30",
+        "release_year": "1999",
+        "title": "South Park: Bigger, Longer and Uncut"
+      },
+      {
+        "cast": [
+          "Lee Marvin",
+          "Ernest Borgnine",
+          "Charles Bronson",
+          "Jim Brown"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Robert Aldrich",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "12 American military prisoners in World War II are ordered to infiltrate a well-guarded enemy château and kill the Nazi officers vacationing there. The soldiers, most of whom are facing death sentences for a variety of violent crimes, agree to the mission and the possible commuting of their sentences.",
+        "release_date": "1967-06-15",
+        "release_year": "1967",
+        "title": "Dirty Dozen, The"
+      },
+      {
+        "cast": [
+          "Spencer Tracy",
+          "Sidney Poitier",
+          "Katharine Hepburn",
+          "Katharine Houghton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Kramer",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Matt and Christina Drayton are a couple whose attitudes are challenged when their daughter brings home a fiancé who is black.",
+        "release_date": "1967-12-11",
+        "release_year": "1967",
+        "title": "Guess Who's Coming to Dinner"
+      },
+      {
+        "cast": [
+          "Macaulay Culkin",
+          "Joe Pesci",
+          "Daniel Stern",
+          "John Heard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Columbus",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Eight-year-old Kevin McCallister makes the most of the situation after his family unwittingly leaves him behind when they go on Christmas vacation. But when a pair of bungling burglars set their sights on Kevin's house, the plucky kid stands ready to defend his territory. By planting booby traps galore, adorably mischievous Kevin stands his ground as his frantic mother attempts to race home before.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Home Alone"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Dan Aykroyd",
+          "Jamie Lee Curtis",
+          "Jim Belushi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A snobbish investor and a wily street con-artist find their positions reversed as part of a bet by two callous millionaires.",
+        "release_date": "1983-06-07",
+        "release_year": "1983",
+        "title": "Trading Places"
+      }
+    ],
+    "raw_user_id": "4273",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 27
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9261978341291814
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with other genres like action and drama.",
+        "Consistent enjoyment of films featuring strong character-driven narratives.",
+        "Preference for films that incorporate social themes or commentary."
+      ],
+      "summary": "Unique tastes: Comedy (A strong preference for comedies is evident, with multiple high ratings across various comedic styles.); Action (Enjoyment of action films is reflected in high ratings for several titles within the genre.); Drama (A notable appreciation for dramatic narratives is shown through high ratings for several drama films.); Romance (Positive ratings for romantic comedies indicate a liking for romantic themes intertwined with humor.); Animation (A favorable rating for animated comedies suggests an enjoyment of humor in animated formats.). Liked patterns: High ratings for comedies that blend humor with other genres like action and drama., Consistent enjoyment of films featuring strong character-driven narratives., Preference for films that incorporate social themes or commentary.. Disliked patterns: no repeated disliked pattern identified.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for comedies is evident, with multiple high ratings across various comedic styles.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Enjoyment of action films is reflected in high ratings for several titles within the genre.",
+          "taste": "Action"
+        },
+        {
+          "reason": "A notable appreciation for dramatic narratives is shown through high ratings for several drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Positive ratings for romantic comedies indicate a liking for romantic themes intertwined with humor.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "A favorable rating for animated comedies suggests an enjoyment of humor in animated formats.",
+          "taste": "Animation"
+        }
+      ]
+    },
+    "user_id": 4273
+  }
+}

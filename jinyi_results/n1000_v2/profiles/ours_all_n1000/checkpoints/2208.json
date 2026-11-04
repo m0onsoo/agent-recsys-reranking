@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "7b3b59a1c120e54b72b7d5184dedd2b86d91b0642eabad8b05584949535d691f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      247,
+      356,
+      314,
+      367,
+      1692,
+      2092,
+      1829,
+      317,
+      335,
+      2211
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7ed1b39323c943dfb4d4597861280f86"
+    ],
+    "sampled_item_ids": [
+      39,
+      44,
+      68,
+      183,
+      190,
+      215,
+      276,
+      291,
+      373,
+      441,
+      501,
+      507,
+      531,
+      605,
+      658,
+      660,
+      691,
+      693,
+      926,
+      1172,
+      1257,
+      1312,
+      1802,
+      1863,
+      2567
+    ],
+    "seed": 42,
+    "source_hash": "a5ed99537fbb3d065398fff7878ec4a18018fbf4ba0cc20ba943d0a9caf33f60",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2208,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "Stanley Tucci",
+          "Tony Shalhoub",
+          "Marc Anthony",
+          "Minnie Driver"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Tucci",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Primo &amp; Secondo, two immigrant brothers, pin their hopes on a banquet honoring Louis Prima to save their struggling restaurant.",
+        "release_date": "1996-09-20",
+        "release_year": "1996",
+        "title": "Big Night"
+      },
+      {
+        "cast": [
+          "Philip Baker Hall",
+          "Gwyneth Paltrow",
+          "John C. Reilly",
+          "Samuel L. Jackson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Thomas Anderson",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A stranger mentors a young Reno gambler who weds a hooker and befriends a vulgar casino regular.",
+        "release_date": "1996-02-28",
+        "release_year": "1996",
+        "title": "Hard 8 (a.k.a. Sydney, a.k.a. Hard Eight)"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Jack Lemmon",
+          "Alec Baldwin",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Foley",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Glengarry Glen Ross, follows the lives of four unethical Chicago real estate agents who are prepared to go to any lengths (legal or illegal) to unload undesirable real estate on unwilling prospective buyers.",
+        "release_date": "1992-09-15",
+        "release_year": "1992",
+        "title": "Glengarry Glen Ross"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Geena Davis",
+          "Hugh Laurie",
+          "Jonathan Lipnicki"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Rob Minkoff",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The adventures of a heroic and debonair stalwart mouse named Stuart Little with human qualities, who faces some comic misadventures while searching for his lost bird friend and living with a human family as their child.",
+        "release_date": "1999-12-17",
+        "release_year": "1999",
+        "title": "Stuart Little"
+      },
+      {
+        "cast": [
+          "Gregory Hines",
+          "Billy Crystal",
+          "Steven Bauer",
+          "Darlanne Fluegel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two street-wise Chicago cops have to shake off some rust after returning from a Key West vacation to pursue a drug dealer that nearly killed them in the past.",
+        "release_date": "1986-06-27",
+        "release_year": "1986",
+        "title": "Running Scared"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Billy Crystal",
+          "Julia Louis-Dreyfus",
+          "Nastassja Kinski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After Scott has a fight with his father and runs away and when his father refuses to go after him. His mother, Collette, then goes to one of her former boyfriends, Jack, a lawyer, and tells him that he's her son's real father. Jack initially refuses. So she goes to another boyfriend, Dale, who goes off looking for Scott. Eventually the two men meet and realize that they are looking for the same boy and that Collette told them they are the boy's father. What follows is a mad chase, cause the boy doesn't want to go back.",
+        "release_date": "1997-05-09",
+        "release_year": "1997",
+        "title": "Fathers' Day"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Minnie Driver",
+          "Dan Aykroyd",
+          "Joan Cusack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Armitage",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Martin Blank is a freelance hitman who starts to develop a conscience, which causes him to muff a couple of routine assignments. On the advice of his secretary and his psychiatrist, he attends his 10th year High School reunion in Grosse Pointe, Michigan.",
+        "release_date": "1997-04-11",
+        "release_year": "1997",
+        "title": "Grosse Pointe Blank"
+      },
+      {
+        "cast": [
+          "Jane Adams",
+          "Jon Lovitz",
+          "Philip Seymour Hoffman",
+          "Dylan Baker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Todd Solondz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The lives of many individuals connected by the desire for happiness, often from sources usually considered dark or evil.",
+        "release_date": "1998-10-16",
+        "release_year": "1998",
+        "title": "Happiness"
+      },
+      {
+        "cast": [
+          "Clive Owen",
+          "Kate Hardie",
+          "Alex Kingston",
+          "Gina McKee"
+        ],
+        "country": [
+          "Germany",
+          "France",
+          "Ireland",
+          "United Kingdom"
+        ],
+        "director": "Mike Hodges",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jack Manfred is an aspiring writer who to make ends meet, takes a job as a croupier. Jack remains an observer, knowing that everything in life is a gamble and that gamblers are born to lose. Inevitably, he gets sucked into the world of the casino which takes its toll on his relationships and the novel he is writing.",
+        "release_date": "1998-06-25",
+        "release_year": "1998",
+        "title": "Croupier"
+      }
+    ],
+    "raw_user_id": "2208",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 213
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6177640009442299
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that rely on slapstick or less sophisticated humor.",
+        "Dislike for films that do not effectively blend genres or fail to engage the viewer."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine comedy with other genres like drama and romance.",
+        "Positive reception of films featuring strong character-driven narratives, particularly in crime and drama.",
+        "Frequent enjoyment of films that incorporate elements of suspense and thrill."
+      ],
+      "summary": "Unique tastes: Appreciation for Crime and Drama (The user enjoys narratives that explore complex characters and moral dilemmas, often found in crime and drama genres.); Fondness for Comedy (The user rates several comedies highly, indicating a preference for humor and light-hearted storytelling.); Interest in Thrillers (The user shows a liking for thrillers, suggesting an appreciation for suspenseful and engaging plots.); Enjoyment of Romantic Elements (The user rates films with romantic themes positively, indicating a preference for stories that explore relationships.); Diverse Genre Blending (The user appreciates films that blend multiple genres, such as comedy with drama or action with romance.). Liked patterns: High ratings for films that combine comedy with other genres like drama and romance., Positive reception of films featuring strong character-driven narratives, particularly in crime and drama., Frequent enjoyment of films that incorporate elements of suspense and thrill.. Disliked patterns: Low ratings for comedies that rely on slapstick or less sophisticated humor., Dislike for films that do not effectively blend genres or fail to engage the viewer..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys narratives that explore complex characters and moral dilemmas, often found in crime and drama genres.",
+          "taste": "Appreciation for Crime and Drama"
+        },
+        {
+          "reason": "The user rates several comedies highly, indicating a preference for humor and light-hearted storytelling.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user shows a liking for thrillers, suggesting an appreciation for suspenseful and engaging plots.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user rates films with romantic themes positively, indicating a preference for stories that explore relationships.",
+          "taste": "Enjoyment of Romantic Elements"
+        },
+        {
+          "reason": "The user appreciates films that blend multiple genres, such as comedy with drama or action with romance.",
+          "taste": "Diverse Genre Blending"
+        }
+      ]
+    },
+    "user_id": 2208
+  }
+}

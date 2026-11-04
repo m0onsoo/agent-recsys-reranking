@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "587e0dc3039580a21d810feac0dbcb464578e1856d2d420eb29780b0dbcb46f7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1279,
+      1914,
+      1580,
+      2228,
+      771,
+      15,
+      1460,
+      1536,
+      1023,
+      1257
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "368a2188de524581bd791972ce241c6d"
+    ],
+    "sampled_item_ids": [
+      21,
+      23,
+      44,
+      210,
+      221,
+      259,
+      297,
+      372,
+      408,
+      554,
+      682,
+      702,
+      1062,
+      1125,
+      1372,
+      1497,
+      1536,
+      1622,
+      2044,
+      2087,
+      2227,
+      2569,
+      2790,
+      2798,
+      3097
+    ],
+    "seed": 42,
+    "source_hash": "26f9aeafbb264504a9356f00fd200f38046439fbfeef6a33002b71d7182c5fee",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1019,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Cary Grant",
+          "Rosalind Russell",
+          "Ralph Bellamy",
+          "Gene Lockhart"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Hawks",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Hildy, the journalist former wife of newspaper editor Walter Burns, visits his office to inform him that she's engaged and will be getting remarried the next day. Walter can't let that happen and frames the fiancé, Bruce Baldwin, for one thing after another, to keep him temporarily held in prison, while trying to steer Hildy into returning to her old job as his employee.",
+        "release_date": "1940-01-18",
+        "release_year": "1940",
+        "title": "His Girl Friday"
+      },
+      {
+        "cast": [
+          "River Phoenix",
+          "Keanu Reeves",
+          "James Russo",
+          "William Richert"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In this loose adaptation of Shakespeare's \"Henry IV,\" Mike Waters (River Phoenix) is a gay hustler afflicted with narcolepsy. Scott Favor (Keanu Reeves) is the rebellious son of a mayor. Together, the two travel from Portland, Oregon to Idaho and finally to the coast of Italy in a quest to find Mike's estranged mother. Along the way they turn tricks for money and drugs, eventually attracting the attention of a wealthy benefactor and sexual deviant.",
+        "release_date": "1991-10-17",
+        "release_year": "1991",
+        "title": "My Own Private Idaho"
+      },
+      {
+        "cast": [
+          "Evan C. Kim",
+          "Bong Soo Han",
+          "Marilyn Joi",
+          "Saul Kahan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A series of loosely connected skits that spoof news programs, commercials, porno films, kung-fu films, disaster films, blaxploitation films, spy films, mafia films, and the fear that somebody is watching you on the other side of the TV.",
+        "release_date": "1977-08-10",
+        "release_year": "1977",
+        "title": "Kentucky Fried Movie, The"
+      },
+      {
+        "cast": [
+          "Peter Lorre",
+          "Ellen Widmann",
+          "Inge Landgut",
+          "Otto Wernicke"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Fritz Lang",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "German",
+        "overview": "In this classic German thriller, Hans Beckert, a serial killer who preys on children, becomes the focus of a massive Berlin police manhunt. Beckert's heinous crimes are so repellant and disruptive to city life that he is even targeted by others in the seedy underworld network. With both cops and criminals in pursuit, the murderer soon realizes that people are on his trail, sending him into a tense, panicked attempt to escape justice.",
+        "release_date": "1931-05-11",
+        "release_year": "1931",
+        "title": "M"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Robert Shaw",
+          "Charles Durning"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Set in the 1930's this intricate caper deals with an ambitious small-time crook and a veteran con man who seek revenge on a vicious crime lord who murdered one of their gang.",
+        "release_date": "1973-12-25",
+        "release_year": "1973",
+        "title": "Sting, The"
+      },
+      {
+        "cast": [
+          "Julie Andrews",
+          "Christopher Plummer",
+          "Eleanor Parker",
+          "Richard Haydn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Wise",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Film adaptation of a classic Rodgers and Hammerstein musical based on a nun who becomes a governess for an Austrian family.",
+        "release_date": "1965-03-02",
+        "release_year": "1965",
+        "title": "Sound of Music, The"
+      },
+      {
+        "cast": [
+          "Shari Albert",
+          "Maxine Bahns",
+          "Catharine Bolz",
+          "Connie Britton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Burns",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Deals with the lives of the three Irish Catholic McMullen brothers from Long Island, New York, over three months, as they grapple with basic ideas and values — love, sex, marriage, religion and family — in the 1990s. Directed, written, produced by and starring Edward Burns.",
+        "release_date": "1995-08-09",
+        "release_year": "1995",
+        "title": "Brothers McMullen, The"
+      },
+      {
+        "cast": [
+          "Tippi Hedren",
+          "Rod Taylor",
+          "Suzanne Pleshette",
+          "Veronica Cartwright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Chic socialite Melanie Daniels enjoys a passing flirtation with an eligible attorney in a San Francisco pet shop and, on an impulse, follows him to his hometown bearing a gift of lovebirds. But upon her arrival, the bird population runs amok. Suddenly, the townsfolk face a massive avian onslaught, with the feathered fiends inexplicably attacking people all over Bodega Bay.",
+        "release_date": "1963-03-28",
+        "release_year": "1963",
+        "title": "Birds, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Claudine Auger",
+          "Adolfo Celi",
+          "Luciana Paluzzi"
+        ],
+        "country": [
+          "Bahamas",
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Terence Young",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "A criminal organization has obtained two nuclear bombs and are asking for a 100 million pound ransom in the form of diamonds in seven days or they will use the weapons. The secret service sends James Bond to the Bahamas to once again save the world.",
+        "release_date": "1965-12-16",
+        "release_year": "1965",
+        "title": "Thunderball"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Annette Bening",
+          "Michael J. Fox",
+          "Martin Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Widowed U.S. president Andrew Shepherd, one of the world's most powerful men, can have anything he wants -- and what he covets most is Sydney Ellen Wade, a Washington lobbyist. But Shepherd's attempts at courting her spark wild rumors and decimate his approval ratings.",
+        "release_date": "1995-11-17",
+        "release_year": "1995",
+        "title": "American President, The"
+      }
+    ],
+    "raw_user_id": "1019",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 743
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.5353444389248545
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for comedies that fail to engage or entertain.",
+        "Dislike for action films that lack depth or character development."
+      ],
+      "liked_patterns": [
+        "Positive ratings for comedies that blend with drama or romance.",
+        "High ratings for films that feature strong dramatic narratives.",
+        "Consistent appreciation for action films with compelling storylines."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, often rating them positively.); Interest in Drama (The user shows a strong preference for dramatic narratives, frequently giving high ratings.); Fondness for Action and Thrillers (The user rates action and thriller films positively, indicating a taste for suspenseful storytelling.); Enjoyment of Sci-Fi Elements (The user appreciates films that incorporate science fiction themes, often rating them well.); Engagement with War Themes (The user has a notable interest in films that explore war, reflected in positive ratings.). Liked patterns: Positive ratings for comedies that blend with drama or romance., High ratings for films that feature strong dramatic narratives., Consistent appreciation for action films with compelling storylines.. Disliked patterns: Negative ratings for comedies that fail to engage or entertain., Dislike for action films that lack depth or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them positively.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, frequently giving high ratings.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user rates action and thriller films positively, indicating a taste for suspenseful storytelling.",
+          "taste": "Fondness for Action and Thrillers"
+        },
+        {
+          "reason": "The user appreciates films that incorporate science fiction themes, often rating them well.",
+          "taste": "Enjoyment of Sci-Fi Elements"
+        },
+        {
+          "reason": "The user has a notable interest in films that explore war, reflected in positive ratings.",
+          "taste": "Engagement with War Themes"
+        }
+      ]
+    },
+    "user_id": 1019
+  }
+}

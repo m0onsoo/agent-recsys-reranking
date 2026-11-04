@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "4b67d680211402842cce9a6bab6504d352cf9c1b358998f49212508904980b08",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      433,
+      730,
+      316,
+      2383,
+      1518,
+      1253,
+      685,
+      793,
+      1670,
+      124
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      13,
+      62,
+      83,
+      98,
+      105,
+      266,
+      294,
+      329,
+      505,
+      612,
+      694,
+      716,
+      739,
+      844,
+      872,
+      899,
+      1012,
+      1077,
+      1096,
+      1312,
+      1424,
+      1670,
+      1746,
+      1855,
+      2329
+    ],
+    "seed": 42,
+    "source_hash": "2c17a782a38b909f70b89276a1be1a18cf9519d103954e642dba675536b11a4f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5811,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Travolta",
+          "Nicolas Cage",
+          "Joan Allen",
+          "Alessandro Nivola"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.",
+        "release_date": "1997-06-27",
+        "release_year": "1997",
+        "title": "Face/Off"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Meg Ryan",
+          "Bill Pullman",
+          "Ross Malinger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nora Ephron",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A young boy who tries to set his dad up on a date after the death of his mother. He calls into a radio station to talk about his dad’s loneliness which soon leads the dad into meeting a Journalist Annie who flies to Seattle to write a story about the boy and his dad. Yet Annie ends up with more than just a story in this popular romantic comedy.",
+        "release_date": "1993-06-24",
+        "release_year": "1993",
+        "title": "Sleepless in Seattle"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Reese Witherspoon",
+          "Chris Klein",
+          "Jessica Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alexander Payne",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A high school teacher's personal life becomes complicated as he works with students during the school elections.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Election"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Nancy Allen",
+          "Heather O'Rourke",
+          "Lara Flynn Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Sherman",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Carol Anne has been sent to live with her Aunt and Uncle in an effort to hide her from the clutches of the ghostly Reverend Kane, but he tracks her down and terrorises her in her relatives' appartment in a tall glass building. Will he finally achieve his target and capture Carol Anne again, or will Tangina be able, yet again, to thwart him?",
+        "release_date": "1988-06-10",
+        "release_year": "1988",
+        "title": "Poltergeist III"
+      },
+      {
+        "cast": [
+          "Ruth Gordon",
+          "Bud Cort",
+          "Cyril Cusack",
+          "Charles Tyner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hal Ashby",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The young Harold lives in his own world of suicide-attempts and funeral visits to avoid the misery of his current family and home environment. Harold meets an 80-year-old woman named Maude who also lives in her own world yet one in which she is having the time of her life. When the two opposites meet they realize that their differences don’t matter and they become best friends and love each other.",
+        "release_date": "1971-12-20",
+        "release_year": "1971",
+        "title": "Harold and Maude"
+      },
+      {
+        "cast": [
+          "Parker Posey",
+          "Liev Schreiber",
+          "Anthony DeSando",
+          "Guillermo Díaz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daisy von Scherler Mayer",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Although Mary has little income, she still finds ways to spend her nights at clubs. After being arrested for throwing an illegal rave, she asks her aunt Judy for bail money. Judy then finds Mary a job at her library so that Mary can repay her. Initially, Mary finds the job as a clerk boring and stifling, and prefers to get to know a street food vendor whom she likes. However, Mary must refocus her life once she loses her job and apartment.",
+        "release_date": "1995-06-09",
+        "release_year": "1995",
+        "title": "Party Girl"
+      },
+      {
+        "cast": [
+          "Gene Tierney",
+          "Rex Harrison",
+          "George Sanders",
+          "Edna Best"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joseph L. Mankiewicz",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In 1900, strong-willed widow Lucy Muir goes to live in Gull Cottage by the British seaside, even though it appears to be haunted. Sure enough, that very night she meets the ghost of crusty former owner Captain Gregg...and refuses to be scared off. Indeed, they become friends and allies, after Lucy gets used to the idea of a man's ghost haunting her bedroom. But when a charming live man comes courting, Lucy and the captain must deal with their feelings for each other.",
+        "release_date": "1947-06-26",
+        "release_year": "1947",
+        "title": "Ghost and Mrs. Muir, The"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Forest Whitaker",
+          "Tung Thanh Tran",
+          "Chintara Sukapatana"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Radio funny man Adrian Cronauer is sent to Vietnam to bring a little comedy back into the lives of the soldiers. After setting up shop, Cronauer delights the G.I.s but shocks his superior officer, Sergeant Major Dickerson, with his irreverent take on the war. While Dickerson attempts to censor Cronauer's broadcasts, Cronauer pursues a relationship with a Vietnamese girl named Trinh, who shows him the horrors of war first-hand.",
+        "release_date": "1987-12-23",
+        "release_year": "1987",
+        "title": "Good Morning, Vietnam"
+      },
+      {
+        "cast": [
+          "Bono",
+          "The Edge",
+          "Larry Mullen Jr.",
+          "Adam Clayton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phil Joanou",
+        "genres": [
+          "Documentary",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A concert movie on an unprecedented scale, Rattle And Hum captures U2 - on and off the stage - during their triumphant Joshua Tree tour. From the giant technicolour stadium celebrations to the black-and-white intensity of the indoor shows, this is U2 at their best. Follow the group across America, exploring new influences, playing with the legendary B.B. King from Dublin to Graceland.",
+        "release_date": "1988-11-04",
+        "release_year": "1988",
+        "title": "U2: Rattle and Hum"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Mary McDonnell",
+          "Graham Greene",
+          "Rodney A. Grant"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kevin Costner",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Wounded Civil War soldier, John Dunbar tries to commit suicide – and becomes a hero instead. As a reward, he's assigned to his dream post, a remote junction on the Western frontier, and soon makes unlikely friends with the local Sioux tribe.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Dances with Wolves"
+      }
+    ],
+    "raw_user_id": "5811",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 248
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.5042994670790246
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily horror or poorly received comedies.",
+        "Negative ratings for films that lack strong narrative or character development."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and character-driven stories.",
+        "Enjoyment of comedies that blend humor with romance or social themes.",
+        "Appreciation for thrillers that incorporate dramatic elements."
+      ],
+      "summary": "Unique tastes: Drama (The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.); Comedy (The user enjoys comedies, particularly those that blend humor with romance or social commentary, as seen in multiple high ratings.); Thriller (The user shows an appreciation for thrillers, especially those that incorporate elements of drama or crime.); Romance (The user favors romantic films, particularly those that also include comedic elements, suggesting a preference for light-hearted love stories.); Action (The user rates action films positively, especially those that combine action with other genres like adventure or crime.). Liked patterns: Strong preference for drama and character-driven stories., Enjoyment of comedies that blend humor with romance or social themes., Appreciation for thrillers that incorporate dramatic elements.. Disliked patterns: Dislike for films that are primarily horror or poorly received comedies., Negative ratings for films that lack strong narrative or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, particularly those that blend humor with romance or social commentary, as seen in multiple high ratings.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows an appreciation for thrillers, especially those that incorporate elements of drama or crime.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user favors romantic films, particularly those that also include comedic elements, suggesting a preference for light-hearted love stories.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user rates action films positively, especially those that combine action with other genres like adventure or crime.",
+          "taste": "Action"
+        }
+      ]
+    },
+    "user_id": 5811
+  }
+}

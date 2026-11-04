@@ -1,0 +1,58 @@
+{
+  "completed_users": 1000,
+  "components": [
+    "demographics",
+    "history",
+    "social_traits",
+    "unique_tastes"
+  ],
+  "concurrency": 16,
+  "configuration": {
+    "components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "endpoint_hash": "bc117764e0a9bb347a0c0df98670cf42e0c58599b26a6adcb0ddf637f4e48a30",
+    "history_size": 10,
+    "method": "ours",
+    "model": "gpt-4o-mini",
+    "movies_hash": "724e7ff57274e438a19e7f4297a8d0a7a37e2d7ecfb99cf21b3df760760855f6",
+    "persona_hash": null,
+    "prompt_hashes": {
+      "profile_agent4rec_system.txt": "0329309e0dbe913cfb1f39900a4a5bf14e2ef5950d57b662e809347b56a67c7e",
+      "profile_ours_system.txt": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+      "profile_ours_user.txt": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa",
+      "profile_simuser_system.txt": "baa9330764f4ad732be2b64410dda82f65c351e2053b815a7237020ca721c5dc"
+    },
+    "seed": 42,
+    "selected_user_ids_hash": "0289609e2e7dfbe03d580fecd5a1d0101345aed63feee962eab5c08792a951ee",
+    "source_hash": "1a3b47f2f8e7c69d9806ae86403e20ee91c8c68ab0b750d00f350b34646daa44",
+    "temperature": 0.0,
+    "traits_hash": "c97e15dd2d0a617d5795fe1f68d79a2662d1a9bd5e7949f4de09c2cbdac5da9f"
+  },
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "method": "ours",
+  "num_users": 1000,
+  "persona_file": "",
+  "schema_version": 1,
+  "seed": 42,
+  "selected_user_ids_hash": "0289609e2e7dfbe03d580fecd5a1d0101345aed63feee962eab5c08792a951ee",
+  "status": "complete",
+  "trait_population_scope": "checkpoint_train_only_all_users",
+  "trait_thresholds": {
+    "activity": [
+      102.0,
+      320.0
+    ],
+    "conformity": [
+      0.6647301241346356,
+      1.2418272227637637
+    ],
+    "diversity": [
+      14.0,
+      17.0
+    ]
+  }
+}

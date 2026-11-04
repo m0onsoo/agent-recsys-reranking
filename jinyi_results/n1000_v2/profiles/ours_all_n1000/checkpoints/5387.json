@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "9e74e2689106397351fb1dc26d73fb9d1d8c5d0f27ac538bd7cbff170aa46748",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      167,
+      796,
+      1424,
+      722,
+      2099,
+      961,
+      521,
+      141,
+      1232,
+      1259
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      26,
+      107,
+      133,
+      304,
+      317,
+      354,
+      457,
+      516,
+      643,
+      698,
+      777,
+      807,
+      892,
+      958,
+      1042,
+      1071,
+      1186,
+      1261,
+      1392,
+      1521,
+      1545,
+      1547,
+      1560,
+      1664,
+      2157
+    ],
+    "seed": 42,
+    "source_hash": "372cf8a2ee66fa6a2537a8624dafaa20dc4affb765fed50240976dfc256bb1c5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5387,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Anthony Hopkins",
+          "Catherine Zeta-Jones",
+          "Stuart Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "It has been twenty years since Don Diego de la Vega fought Spanish oppression in Alta California as the legendary romantic hero, Zorro. Having escaped from prison he transforms troubled bandit Alejandro into his successor, in order to foil the plans of the tyrannical Don Rafael Montero who robbed him of his freedom, his wife and his precious daughter.",
+        "release_date": "1998-07-16",
+        "release_year": "1998",
+        "title": "Mask of Zorro, The"
+      },
+      {
+        "cast": [
+          "William Gates",
+          "Arthur Agee",
+          "Steve James"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve James",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "This documentary follows two inner-city Chicago residents, Arthur Agee and William Gates, as they follow their dreams of becoming basketball superstars. Beginning at the start of their high school years, and ending almost 5 years later, as they start college, we watch the boys mature into men, still retaining their \"Hoop Dreams\".",
+        "release_date": "1994-09-12",
+        "release_year": "1994",
+        "title": "Hoop Dreams"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Jennifer Jason Leigh",
+          "Paul Newman",
+          "Charles Durning"
+        ],
+        "country": [
+          "Germany",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A naive business graduate is installed as president of a manufacturing company as part of a stock scam.",
+        "release_date": "1994-03-11",
+        "release_year": "1994",
+        "title": "Hudsucker Proxy, The"
+      },
+      {
+        "cast": [
+          "Bing Crosby",
+          "Danny Kaye",
+          "Rosemary Clooney",
+          "Vera-Ellen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Two talented song-and-dance men team up after the war to become one of the hottest acts in show business.",
+        "release_date": "1954-10-13",
+        "release_year": "1954",
+        "title": "White Christmas"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Jessica Lange",
+          "John Colicos",
+          "Michael Lerner"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Bob Rafelson",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "This remake of the 1946 movie of the same name accounts an affair between a seedy drifter and a seductive wife of a roadside cafe owner. This begins a chain of events that culminates in murder. Based on a novel by James M. Cain.",
+        "release_date": "1981-03-20",
+        "release_year": "1981",
+        "title": "Postman Always Rings Twice, The"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Lauren Bacall",
+          "John Ridgely",
+          "Martha Vickers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Hawks",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Private Detective Philip Marlowe is hired by a rich family. Before the complex case is over, he's seen murder, blackmail, and what might be love.",
+        "release_date": "1946-08-23",
+        "release_year": "1946",
+        "title": "Big Sleep, The"
+      },
+      {
+        "cast": [
+          "John Turturro",
+          "Rob Morrow",
+          "Ralph Fiennes",
+          "Paul Scofield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Redford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Quiz Show is a 1994 American historical drama film which tells the true story of the Twenty One quiz show scandal of the 1950s.",
+        "release_date": "1994-09-16",
+        "release_year": "1994",
+        "title": "Quiz Show"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Meryl Streep",
+          "Jane Alexander",
+          "Justin Henry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Benton",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ted Kramer is a career man for whom his work comes before his family. His wife Joanna cannot take this anymore, so she decides to leave him. Ted is now faced with the tasks of housekeeping and taking care of himself and their young son Billy.",
+        "release_date": "1979-12-18",
+        "release_year": "1979",
+        "title": "Kramer Vs. Kramer"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Janet Leigh",
+          "Orson Welles",
+          "Joseph Calleia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Stark, perverse story of murder, kidnapping, and police corruption in Mexican border town.",
+        "release_date": "1958-04-23",
+        "release_year": "1958",
+        "title": "Touch of Evil"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Derek Jacobi",
+          "Andy García",
+          "Robin Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In 1949 composer Roman Strauss is executed for the vicious murder of his wife Margaret with a pair of scissors. In 1990s Los Angeles a mute amnesiac woman shows up at an orphanage and private eye Mike Church is called in to investigate. Under hypnosis both the woman and Church seem to have a strange link back to the Strauss murder.",
+        "release_date": "1991-08-23",
+        "release_year": "1991",
+        "title": "Dead Again"
+      }
+    ],
+    "raw_user_id": "5387",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 585
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8264794544146836
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for comedies that lack depth or originality.",
+        "Dislike for action films that are poorly executed or lack engaging plots."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like romance and comedy.",
+        "Positive reception of animated films, particularly those with musical elements.",
+        "Strong appreciation for comedies that incorporate unique storytelling or character dynamics."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.); Enjoyment of Comedy (The user has rated several comedies positively, suggesting a fondness for humor and lighthearted storytelling.); Interest in Thrillers (The user shows a liking for thriller films, as evidenced by several high ratings in this genre.); Affinity for Animation (The user enjoys animated films, as reflected in positive ratings for multiple titles in this genre.); Preference for Romantic Elements (The user appreciates films that incorporate romance, as seen in the ratings for several romantic dramas and comedies.). Liked patterns: High ratings for films that blend drama with other genres like romance and comedy., Positive reception of animated films, particularly those with musical elements., Strong appreciation for comedies that incorporate unique storytelling or character dynamics.. Disliked patterns: Negative ratings for comedies that lack depth or originality., Dislike for action films that are poorly executed or lack engaging plots..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user has rated several comedies positively, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for thriller films, as evidenced by several high ratings in this genre.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user enjoys animated films, as reflected in positive ratings for multiple titles in this genre.",
+          "taste": "Affinity for Animation"
+        },
+        {
+          "reason": "The user appreciates films that incorporate romance, as seen in the ratings for several romantic dramas and comedies.",
+          "taste": "Preference for Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 5387
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "6f0b649733d87a3c72c705c1b76abcc3c3e129b8b1cfd175fdb94b5b49b6cecb",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      199,
+      674,
+      169,
+      2616,
+      1356,
+      677,
+      1707,
+      101,
+      2413,
+      942
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ad0e5ae9d8c24940bbfd825c0640d1ad"
+    ],
+    "sampled_item_ids": [
+      6,
+      14,
+      23,
+      42,
+      109,
+      219,
+      274,
+      548,
+      670,
+      714,
+      716,
+      744,
+      759,
+      815,
+      1006,
+      1043,
+      1052,
+      1157,
+      1235,
+      1252,
+      1332,
+      1419,
+      1559,
+      1585,
+      2418
+    ],
+    "seed": 42,
+    "source_hash": "6425051969527a52f2951589c51edf2c4d725b0c13c70758f14fd0c2d9d931b8",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1321,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Chevy Chase",
+          "Rodney Dangerfield",
+          "Ted Knight",
+          "Michael O'Keefe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At an exclusive country club, an ambitious young caddy, Danny Noonan, eagerly pursues a caddy scholarship in hopes of attending college and, in turn, avoiding a job at the lumber yard. In order to succeed, he must first win the favour of the elitist Judge Smails, and then the caddy golf tournament which Smails sponsors.",
+        "release_date": "1980-07-25",
+        "release_year": "1980",
+        "title": "Caddyshack"
+      },
+      {
+        "cast": [
+          "David Bowie",
+          "Jennifer Connelly",
+          "Toby Froud",
+          "Christopher Malcolm"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Henson",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Frustrated with babysitting on yet another weekend night, Sarah - a teenager with an active imagination - summons the Goblins from her favourite book, \"Labyrinth\", to take the baby stepbrother away. When little Toby actually disappears, Sarah must follow him into the world of the fairytale to rescue him from the Goblin King!",
+        "release_date": "1986-06-27",
+        "release_year": "1986",
+        "title": "Labyrinth"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Anthony Michael Hall",
+          "Judd Nelson",
+          "Molly Ringwald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Five high school students, all different stereotypes, meet in detention, where they pour their hearts out to each other, and discover how they have a lot more in common than they thought.",
+        "release_date": "1985-02-15",
+        "release_year": "1985",
+        "title": "Breakfast Club, The"
+      },
+      {
+        "cast": [
+          "Jason Robards",
+          "Paul Le Mat",
+          "Elizabeth Cheshire",
+          "Mary Steenburgen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of hard-luck Melvin Dummar, who claimed to have received a will naming him an heir to the fortune of Howard Hughes.",
+        "release_date": "1980-09-19",
+        "release_year": "1980",
+        "title": "Melvin and Howard"
+      },
+      {
+        "cast": [
+          "Michelle Pfeiffer",
+          "Matthew Modine",
+          "Oliver Platt",
+          "Alec Baldwin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Angela de Marco is fed up with her gangster husband's line of work and wants no part of the crime world. When her husband is killed for having an affair with the mistress of mob boss Tony \"The Tiger\" Russo, Angela and her son depart for New York City to make a fresh start. Unfortunately, Tony has set his sights upon Angela -- and so has an undercover FBI agent looking to use her to bust Tony.",
+        "release_date": "1988-08-19",
+        "release_year": "1988",
+        "title": "Married to the Mob"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Tahnee Welch",
+          "Brian Dennehy",
+          "Don Ameche"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A group of aliens return to earth to take back some cocoons of their people they left behind from an earlier trip. They kept the recovered cocoons in the swimming pool of a house they rented in a small Florida town. Their mission is hampered by a number of old people from an elderly home nearby, who have been secretly using the pool and discovering the unusual power of these cocoons.",
+        "release_date": "1985-06-21",
+        "release_year": "1985",
+        "title": "Cocoon"
+      },
+      {
+        "cast": [
+          "Tchéky Karyo",
+          "Jack Wallace",
+          "André Lacombe"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Jean-Jacques Annaud",
+        "genres": [
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "An orphan bear cub hooks up with an adult male as they try to dodge human hunters.",
+        "release_date": "1988-10-21",
+        "release_year": "1988",
+        "title": "Bear, The"
+      },
+      {
+        "cast": [
+          "Howard Rollins",
+          "Adolph Caesar",
+          "Art Evans",
+          "Robert Townsend"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Jewison",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the towm of Tynen, Louisiana, a black Master Sergeant is found shot to death just outside the local Army Base. A military lawyer, also a black man, is sent from Washington to conduct an investigation. Facing an uncooperative chain of command and fearful black troops, Captain Davenport must battle with deceipt and prejudice in order to find out exactly who really did kill Sergeant Waters.",
+        "release_date": "1984-09-14",
+        "release_year": "1984",
+        "title": "Soldier's Story, A"
+      },
+      {
+        "cast": [
+          "Jeremy Irons",
+          "Geneviève Bujold",
+          "Heidi von Palleske",
+          "Barbara Gordon"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Elliot, a successful gynecologist, works at the same practice as his identical twin, Beverly. Elliot is attracted to many of his patients and has affairs with them. When he inevitably loses interest, he will give the woman over to Beverly, the meeker of the two, without the woman knowing the difference. Beverly falls hard for one of the patients, Claire, but when she inadvertently deceives him, he slips into a state of madness.",
+        "release_date": "1988-09-23",
+        "release_year": "1988",
+        "title": "Dead Ringers"
+      },
+      {
+        "cast": [
+          "Madonna",
+          "Rosanna Arquette",
+          "Aidan Quinn",
+          "Mark Blum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Susan Seidelman",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Roberta is a bored suburban housewife who is fascinated with a woman, Susan, she only knows about by reading messages to and from her in the personals section of the newspaper. This fascination reaches a peak when an ad with the headline \"Desperately Seeking Susan\" proposes a rendezvous. Roberta goes too, and in a series of events involving amnesia and mistaken identity, steps into Susan's life.",
+        "release_date": "1985-03-29",
+        "release_year": "1985",
+        "title": "Desperately Seeking Susan"
+      }
+    ],
+    "raw_user_id": "1321",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 137
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.2492335402937151
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that do not balance with humor or other genres.",
+        "Negative ratings for films that focus solely on drama without engaging elements."
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedies with strong humor and character interactions.",
+        "Appreciation for films that blend action with adventure and comedy elements.",
+        "Positive reception of dramas that explore complex emotional themes."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys light-hearted narratives and humor, as evidenced by multiple high ratings for comedies.); Drama (The user appreciates emotional depth and character-driven stories, reflected in their positive ratings for dramatic films.); Action-Adventure (The user is drawn to films that combine excitement and adventure, indicated by favorable ratings for action-adventure titles.); Romantic Elements (The user shows a preference for films that incorporate romance, as seen in their ratings for romantic comedies.); Fantasy and Sci-Fi (The user has an interest in imaginative storytelling and speculative themes, as indicated by their ratings for fantasy and sci-fi films.). Liked patterns: Enjoyment of comedies with strong humor and character interactions., Appreciation for films that blend action with adventure and comedy elements., Positive reception of dramas that explore complex emotional themes.. Disliked patterns: Dislike for horror films that do not balance with humor or other genres., Negative ratings for films that focus solely on drama without engaging elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted narratives and humor, as evidenced by multiple high ratings for comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates emotional depth and character-driven stories, reflected in their positive ratings for dramatic films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user is drawn to films that combine excitement and adventure, indicated by favorable ratings for action-adventure titles.",
+          "taste": "Action-Adventure"
+        },
+        {
+          "reason": "The user shows a preference for films that incorporate romance, as seen in their ratings for romantic comedies.",
+          "taste": "Romantic Elements"
+        },
+        {
+          "reason": "The user has an interest in imaginative storytelling and speculative themes, as indicated by their ratings for fantasy and sci-fi films.",
+          "taste": "Fantasy and Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 1321
+  }
+}

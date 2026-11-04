@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "facdadf793bc5310d42019d34f2ff0de036c30085b3ce9422f70cf7952f1115a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      863,
+      882,
+      438,
+      522,
+      829,
+      253,
+      746,
+      89,
+      401,
+      334
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a1be0cb733af452ba644e688789a760c"
+    ],
+    "sampled_item_ids": [
+      21,
+      28,
+      41,
+      76,
+      89,
+      105,
+      110,
+      127,
+      135,
+      149,
+      172,
+      190,
+      222,
+      253,
+      334,
+      355,
+      397,
+      465,
+      516,
+      538,
+      553,
+      829,
+      871,
+      919,
+      1631
+    ],
+    "seed": 42,
+    "source_hash": "9fbf76eb89dd6e51218da8c3801d3c8f43a6fecca7f0c8b05b1e77f19571e44e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 726,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "homemaker"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Heath Ledger",
+          "Julia Stiles",
+          "Joseph Gordon-Levitt",
+          "Larisa Oleynik"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gil Junger",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Bianca, a tenth grader, has never gone on a date, but she isn't allowed to go out with boys until her older sister Kat gets a boyfriend. The problem is, Kat rubs nearly everyone the wrong way. But Bianca and the guy she has her eye on, Joey, are eager, so Joey fixes Kat up with Patrick, a new kid in town just bitter enough for Kat.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "10 Things I Hate About You"
+      },
+      {
+        "cast": [
+          "Drew Barrymore",
+          "David Arquette",
+          "Michael Vartan",
+          "Molly Shannon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Raja Gosnell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Josie Geller, a baby-faced junior copywriter at the Chicago Sun-Times, must pose as a student at her former high school to research contemporary teenage culture. With the help of her brother, Rob, Josie infiltrates the inner circle of the most popular clique on campus. But she hits a major snag in her investigation -- not to mention her own failed love life -- when she falls for her dreamy English teacher, Sam Coulson.",
+        "release_date": "1999-04-09",
+        "release_year": "1999",
+        "title": "Never Been Kissed"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Cuba Gooding Jr.",
+          "Renée Zellweger",
+          "Kelly Preston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jerry Maguire used to be a typical sports agent: willing to do just about anything he could to get the biggest possible contracts for his clients, plus a nice commission for himself. Then, one day, he suddenly has second thoughts about what he's really doing. When he voices these doubts, he ends up losing his job and all of his clients, save Rod Tidwell, an egomaniacal football player.",
+        "release_date": "1996-12-06",
+        "release_year": "1996",
+        "title": "Jerry Maguire"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Drew Barrymore",
+          "Christine Taylor",
+          "Allen Covert"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Coraci",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Robbie, a local rock star turned wedding singer, is dumped on the day of his wedding. Meanwhile, waitress Julia finally sets a wedding date with her fiancée Glenn. When Julia and Robbie meet and hit it off, they find that things are more complicated than anybody thought.",
+        "release_date": "1998-02-13",
+        "release_year": "1998",
+        "title": "Wedding Singer, The"
+      },
+      {
+        "cast": [
+          "Uma Thurman",
+          "Janeane Garofalo",
+          "Ben Chaplin",
+          "James McCaffrey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Lehmann",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A successful veterinarian and radio show host with low self-esteem asks her model friend to impersonate her when a handsome man wants to see her.",
+        "release_date": "1996-04-26",
+        "release_year": "1996",
+        "title": "Truth About Cats & Dogs, The"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Marlon Brando",
+          "Faye Dunaway",
+          "Géraldine Pailhas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeremy Leven",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "John Arnold DeMarco is a man who believes he is Don Juan, the greatest lover in the world. Clad in a cape and mask, DeMarco undergoes psychiatric treatment with Dr. Jack Mickler to cure him of his apparent delusion. But the psychiatric sessions have an unexpected effect on the psychiatric staff and, most profoundly, Dr Mickler, who rekindles the romance in his complacent marriage.",
+        "release_date": "1994-10-01",
+        "release_year": "1995",
+        "title": "Don Juan DeMarco"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Nancy Travis",
+          "Anthony LaPaglia",
+          "Amanda Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Thomas Schlamme",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Just after a bad breakup, Charlie MacKenzie falls for lovely butcher Harriet Michaels and introduces her to his parents. But, as voracious consumers of sensational tabloids, his parents soon come to suspect that Harriet is actually a notorious serial killer -- \"Mrs. X\" -- wanted in connection with a string of bizarre honeymoon killings. Thinking his parents foolish, Charlie proposes to Harriet. But while on his honeymoon with her, he begins to fear they were right.",
+        "release_date": "1993-07-30",
+        "release_year": "1993",
+        "title": "So I Married an Axe Murderer"
+      },
+      {
+        "cast": [
+          "Paul Mercurio",
+          "Tara Morice",
+          "Bill Hunter",
+          "Barry Otto"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "Baz Luhrmann",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Brave new steps put Scott's career in jeopardy. With a new partner and determination, can he still succeed?",
+        "release_date": "1992-08-20",
+        "release_year": "1992",
+        "title": "Strictly Ballroom"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Dermot Mulroney",
+          "Cameron Diaz",
+          "Rupert Everett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "P.J. Hogan",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When she receives word that her longtime platonic pal Michael O'Neal is getting married to debutante Kimberly Wallace, food critic Julianne Potter realizes her true feelings for Michael -- and sets out to sabotage the wedding.",
+        "release_date": "1997-06-19",
+        "release_year": "1997",
+        "title": "My Best Friend's Wedding"
+      },
+      {
+        "cast": [
+          "Laurel Holloman",
+          "Maggie Moore",
+          "Kate Stafford",
+          "Nicole Ari Parker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Maria Maggenti",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "An adventurous love story between two young women of different social and economic backgrounds who find themselves going through all the typical struggles of a new romance.",
+        "release_date": "1995-06-16",
+        "release_year": "1995",
+        "title": "Incredibly True Adventure of Two Girls in Love, The"
+      }
+    ],
+    "raw_user_id": "726",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 59
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6326418230753367
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 10
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed"
+      ],
+      "liked_patterns": [
+        "High ratings for romantic comedies and dramas",
+        "Consistent enjoyment of films with comedic elements",
+        "Preference for films that feature strong character relationships"
+      ],
+      "summary": "Unique tastes: Comedy and Romance (A strong preference for films that blend humor with romantic themes, as seen in multiple high-rated titles.); Dramatic Elements (Enjoyment of films that incorporate drama alongside comedy and romance, indicating a taste for emotional depth.); Animation and Family-Friendly Content (A liking for animated films that appeal to both children and adults, suggesting a preference for family-oriented storytelling.); Action with Humor (An appreciation for action films that also include comedic elements, indicating a preference for light-hearted adventure.); Strong Character Relationships (A tendency to favor films that explore relationships, particularly romantic ones, highlighting a focus on character dynamics.). Liked patterns: High ratings for romantic comedies and dramas, Consistent enjoyment of films with comedic elements, Preference for films that feature strong character relationships. Disliked patterns: No significant patterns of dislike observed.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for films that blend humor with romantic themes, as seen in multiple high-rated titles.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "Enjoyment of films that incorporate drama alongside comedy and romance, indicating a taste for emotional depth.",
+          "taste": "Dramatic Elements"
+        },
+        {
+          "reason": "A liking for animated films that appeal to both children and adults, suggesting a preference for family-oriented storytelling.",
+          "taste": "Animation and Family-Friendly Content"
+        },
+        {
+          "reason": "An appreciation for action films that also include comedic elements, indicating a preference for light-hearted adventure.",
+          "taste": "Action with Humor"
+        },
+        {
+          "reason": "A tendency to favor films that explore relationships, particularly romantic ones, highlighting a focus on character dynamics.",
+          "taste": "Strong Character Relationships"
+        }
+      ]
+    },
+    "user_id": 726
+  }
+}

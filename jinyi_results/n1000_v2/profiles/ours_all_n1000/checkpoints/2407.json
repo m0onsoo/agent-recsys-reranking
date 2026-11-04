@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "2bcd3db111f8b3f79ca340b16418631592ce8ddd931a3f2a0e28cc49ebab3b01",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      204,
+      210,
+      260,
+      1510,
+      1349,
+      1455,
+      122,
+      10,
+      129,
+      692
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9129b1a2c46b4325b2065d38558f7130"
+    ],
+    "sampled_item_ids": [
+      10,
+      18,
+      24,
+      39,
+      41,
+      46,
+      77,
+      117,
+      219,
+      337,
+      598,
+      610,
+      630,
+      757,
+      798,
+      1232,
+      1233,
+      1293,
+      1349,
+      1510,
+      1535,
+      1562,
+      2227,
+      2894,
+      3009
+    ],
+    "seed": 42,
+    "source_hash": "d2477e7080fed8101e111f19fe298b2eddab0031cdd554e82221513b1386acb9",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2407,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Cleavon Little",
+          "Gene Wilder",
+          "Harvey Korman",
+          "Slim Pickens"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "A town – where everyone seems to be named Johnson – is in the way of the railroad and, in order to grab their land, Hedley Lemar, a politically connected nasty person, sends in his henchmen to make the town unlivable. After the sheriff is killed, the town demands a new sheriff from the Governor, so Hedley convinces him to send the town the first black sheriff in the west.",
+        "release_date": "1974-02-07",
+        "release_year": "1974",
+        "title": "Blazing Saddles"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Stephen Baldwin",
+          "Gabriel Byrne",
+          "Chazz Palminteri",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Usual Suspects, The"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Josephine Hull",
+          "Peggy Dow",
+          "Charles Drake"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Henry Koster",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The classic stage hit gets the Hollywood treatment in the story of Elwood P. Dowd who makes friends with a spirit taking the form of a human-sized rabbit named Harvey that only he sees (and a few privileged others on occasion also.) After his sister tries to commit him to a mental institution, a comedy of errors ensues. Elwood and Harvey become the catalysts for a family mending its wounds and for romance blossoming in unexpected places.",
+        "release_date": "1950-10-13",
+        "release_year": "1950",
+        "title": "Harvey"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Daniel Stern",
+          "Mickey Rourke",
+          "Kevin Bacon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Set in 1959, Diner shows how five young men resist their adulthood and seek refuge in their beloved Diner. The mundane, childish, and titillating details of their lives are shared. But the golden moments pass, and the men shoulder their responsibilities, leaving the Diner behind.",
+        "release_date": "1982-04-02",
+        "release_year": "1982",
+        "title": "Diner"
+      },
+      {
+        "cast": [
+          "Katharine Hepburn",
+          "Cary Grant",
+          "Charles Ruggles",
+          "Walter Catlett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Hawks",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "David Huxley is waiting to get a bone he needs for his museum collection. Through a series of strange circumstances, he meets Susan Vance, and the duo have a series of misadventures which include a leopard called Baby.",
+        "release_date": "1938-02-18",
+        "release_year": "1938",
+        "title": "Bringing Up Baby"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Edward G. Robinson",
+          "Lauren Bacall",
+          "Lionel Barrymore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A hurricane swells outside, but it's nothing compared to the storm within the hotel at Key Largo. There, sadistic mobster Johnny Rocco holes up - and holds at gunpoint hotel owner James Temple, his widowed daughter-in-law Nora, and ex-GI Frank McCloud.",
+        "release_date": "1948-07-31",
+        "release_year": "1948",
+        "title": "Key Largo"
+      },
+      {
+        "cast": [
+          "Judy Garland",
+          "Frank Morgan",
+          "Ray Bolger",
+          "Bert Lahr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+        "release_date": "1939-08-15",
+        "release_year": "1939",
+        "title": "Wizard of Oz, The"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Stan Laurel",
+          "Oliver Hardy",
+          "Charlotte Henry",
+          "Felix Knight"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charley Rogers",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Ollie Dee and Stanley Dum try to borrow money from their employer, the toymaker, to pay off the mortgage on Mother Peep's shoe and keep it and Little Bo Peep from the clutches of the evil Barnaby. When that fails, they trick Barnaby into marrying Stanley Dum instead of Bo Peep. Enraged, Barnaby unleashes the bogeymen from their caverns to destroy Toyland.",
+        "release_date": "1934-12-14",
+        "release_year": "1934",
+        "title": "March of the Wooden Soldiers (a.k.a. Laurel & Hardy in Toyland)"
+      }
+    ],
+    "raw_user_id": "2407",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 122
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6860247784328141
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Lower ratings for films that are primarily thrillers without strong character development or narrative depth.",
+        "Dislike for certain comedies that may not resonate as well with the user's sense of humor."
+      ],
+      "liked_patterns": [
+        "High ratings for animated films, especially those aimed at children.",
+        "Positive ratings for films that blend comedy with other genres, such as drama and musical.",
+        "Strong appreciation for classic films across various genres."
+      ],
+      "summary": "Unique tastes: Appreciation for Children's and Family Films (The user enjoys films that are suitable for children and families, often rated highly.); Fondness for Comedy (The user rates comedies positively, indicating a preference for humor in films.); Interest in Thrillers and Mysteries (The user shows a liking for suspenseful and mysterious narratives, reflected in their ratings.); Enjoyment of Musicals (The user appreciates musicals, as indicated by high ratings for films in this genre.); Affinity for Drama and War Themes (The user rates dramas, particularly those with war themes, positively, suggesting a deeper engagement with serious narratives.). Liked patterns: High ratings for animated films, especially those aimed at children., Positive ratings for films that blend comedy with other genres, such as drama and musical., Strong appreciation for classic films across various genres.. Disliked patterns: Lower ratings for films that are primarily thrillers without strong character development or narrative depth., Dislike for certain comedies that may not resonate as well with the user's sense of humor..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that are suitable for children and families, often rated highly.",
+          "taste": "Appreciation for Children's and Family Films"
+        },
+        {
+          "reason": "The user rates comedies positively, indicating a preference for humor in films.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user shows a liking for suspenseful and mysterious narratives, reflected in their ratings.",
+          "taste": "Interest in Thrillers and Mysteries"
+        },
+        {
+          "reason": "The user appreciates musicals, as indicated by high ratings for films in this genre.",
+          "taste": "Enjoyment of Musicals"
+        },
+        {
+          "reason": "The user rates dramas, particularly those with war themes, positively, suggesting a deeper engagement with serious narratives.",
+          "taste": "Affinity for Drama and War Themes"
+        }
+      ]
+    },
+    "user_id": 2407
+  }
+}

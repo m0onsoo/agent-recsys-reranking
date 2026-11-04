@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "9fa4f9906984e3d28dfaa6fec3c3ed46f8140a32947aad9a5512960a1483ef7d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      560,
+      1233,
+      117,
+      273,
+      373,
+      185,
+      243,
+      318,
+      168,
+      68
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "3bf9c3c384f74605a9801a401d2d428e"
+    ],
+    "sampled_item_ids": [
+      68,
+      93,
+      117,
+      125,
+      152,
+      157,
+      168,
+      230,
+      243,
+      244,
+      245,
+      273,
+      313,
+      316,
+      329,
+      351,
+      373,
+      462,
+      471,
+      479,
+      496,
+      506,
+      525,
+      543,
+      3093
+    ],
+    "seed": 42,
+    "source_hash": "928c66d1d8d5dfe488e0deda10855cb0f49b0b7eed9dae4b4d3e4ad361f47d59",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 845,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Faye Dunaway",
+          "John Huston",
+          "Perry Lopez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Private eye Jake Gittes lives off the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband's extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and political scandals that come crashing together.",
+        "release_date": "1974-06-20",
+        "release_year": "1974",
+        "title": "Chinatown"
+      },
+      {
+        "cast": [
+          "Anne Parillaud",
+          "Marc Duret",
+          "Patrick Fontana",
+          "Alain Lathière"
+        ],
+        "country": [
+          "France",
+          "Italy"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "French",
+        "overview": "A beautiful felon, sentenced to life in prison for the murder of a policeman, is given a second chance - as a secret political assassin controlled by the government.",
+        "release_date": "1990-02-21",
+        "release_year": "1990",
+        "title": "Nikita (La Femme Nikita)"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Andie MacDowell",
+          "Chris Elliott",
+          "Stephen Tobolowsky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "release_date": "1993-02-11",
+        "release_year": "1993",
+        "title": "Groundhog Day"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Jennifer Lopez",
+          "Ving Rhames",
+          "Don Cheadle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Meet Jack Foley, a smooth criminal who bends the law and is determined to make one last heist. Karen Sisco is a federal marshal who chooses all the right moves … and all the wrong guys. Now they're willing to risk it all to find out if there's more between them than just the law. Variety hails Out of Sight as \"a sly, sexy, vastly entertaining film.\"",
+        "release_date": "1998-06-26",
+        "release_year": "1998",
+        "title": "Out of Sight"
+      },
+      {
+        "cast": [
+          "Hilary Swank",
+          "Chloë Sevigny",
+          "Peter Sarsgaard",
+          "Brendan Sexton III"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kimberly Peirce",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Female born, Teena Brandon adopts his male identity of Brandon Teena and attempts to find himself and love in Nebraska.",
+        "release_date": "1999-09-02",
+        "release_year": "1999",
+        "title": "Boys Don't Cry"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Morgan Freeman",
+          "Gwyneth Paltrow",
+          "John C. McGinley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+        "release_date": "1995-09-22",
+        "release_year": "1995",
+        "title": "Seven (Se7en)"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Morgan Freeman",
+          "Bob Gunton",
+          "Clancy Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Shawshank Redemption, The"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Ray Liotta",
+          "Joe Pesci",
+          "Lorraine Bracco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+        "release_date": "1990-09-12",
+        "release_year": "1990",
+        "title": "GoodFellas"
+      }
+    ],
+    "raw_user_id": "845",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 42
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9846844881867344
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for light-hearted comedies",
+        "Dislike for films that lack strong narrative or character development"
+      ],
+      "liked_patterns": [
+        "Strong preference for crime and drama films",
+        "Enjoyment of action films that also explore deeper themes",
+        "Appreciation for comedies that incorporate darker or satirical elements"
+      ],
+      "summary": "Unique tastes: Crime and Drama (A strong preference for crime and drama genres is evident, with multiple high ratings for films that explore complex characters and moral dilemmas.); Action with Depth (Enjoyment of action films that also incorporate dramatic elements, showcasing character development and emotional stakes.); Romantic Elements in Drama (A tendency to appreciate films that blend romance with drama, indicating a liking for emotional narratives.); Dark Humor in Comedy (An affinity for comedies that feature dark humor or satirical elements, suggesting a preference for unconventional comedic storytelling.); Thrillers with Strong Narratives (A preference for thrillers that offer engaging plots and character-driven stories, highlighting a taste for suspenseful storytelling.). Liked patterns: Strong preference for crime and drama films, Enjoyment of action films that also explore deeper themes, Appreciation for comedies that incorporate darker or satirical elements. Disliked patterns: Dislike for light-hearted comedies, Dislike for films that lack strong narrative or character development.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for crime and drama genres is evident, with multiple high ratings for films that explore complex characters and moral dilemmas.",
+          "taste": "Crime and Drama"
+        },
+        {
+          "reason": "Enjoyment of action films that also incorporate dramatic elements, showcasing character development and emotional stakes.",
+          "taste": "Action with Depth"
+        },
+        {
+          "reason": "A tendency to appreciate films that blend romance with drama, indicating a liking for emotional narratives.",
+          "taste": "Romantic Elements in Drama"
+        },
+        {
+          "reason": "An affinity for comedies that feature dark humor or satirical elements, suggesting a preference for unconventional comedic storytelling.",
+          "taste": "Dark Humor in Comedy"
+        },
+        {
+          "reason": "A preference for thrillers that offer engaging plots and character-driven stories, highlighting a taste for suspenseful storytelling.",
+          "taste": "Thrillers with Strong Narratives"
+        }
+      ]
+    },
+    "user_id": 845
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "353d8bf78cee9e933b720fa193f082bdc8eff7f0a2250a60d8ccc781d0ab2a05",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      138,
+      6,
+      743,
+      925,
+      1150,
+      657,
+      190,
+      1164,
+      532,
+      643
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      14,
+      18,
+      58,
+      114,
+      161,
+      184,
+      190,
+      197,
+      213,
+      429,
+      466,
+      568,
+      588,
+      592,
+      621,
+      653,
+      728,
+      739,
+      887,
+      1062,
+      1104,
+      1210,
+      1237,
+      1345,
+      1729
+    ],
+    "seed": 42,
+    "source_hash": "9e23211f2e6ecc7f2edf01318d0c99884fec2faad3b9bfc458ed8feb342f928b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5065,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mel Gibson",
+          "Julia Roberts",
+          "Patrick Stewart",
+          "Cylk Cozart"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man obsessed with conspiracy theories becomes a target after one of his theories turns out to be true. Unfortunately, in order to save himself, he has to figure out which theory it is.",
+        "release_date": "1997-08-07",
+        "release_year": "1997",
+        "title": "Conspiracy Theory"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Dan Monahan",
+          "Mark Herrier",
+          "Wyatt Knight",
+          "Cyril O'Reilly"
+        ],
+        "country": [
+          "United States of America",
+          "Canada"
+        ],
+        "director": "Bob Clark",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Set in 1954, a group of Florida high schoolers seek out to lose their virginity which leads them to seek revenge on a sleazy nightclub owner and his redneck sheriff brother for harassing them.",
+        "release_date": "1981-11-13",
+        "release_year": "1981",
+        "title": "Porky's"
+      },
+      {
+        "cast": [
+          "Christopher Reid",
+          "Martin Lawrence",
+          "Christopher Martin",
+          "Robin Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Reginald Hudlin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Young Kid has been invited to a party at his friend Play's house. But after a fight at school, Kid's father grounds him. None the less, Kid sneaks out when his father falls asleep. But Kid doesn't know that three of the thugs at school have decided to give him a lesson in behavior.",
+        "release_date": "1990-03-09",
+        "release_year": "1990",
+        "title": "House Party"
+      },
+      {
+        "cast": [
+          "Craig T. Nelson",
+          "JoBeth Williams",
+          "Beatrice Straight",
+          "Heather O'Rourke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tobe Hooper",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Steve Freeling lives with his wife, Diane, and their three children, Dana, Robbie, and Carol Anne, in Southern California where he sells houses for the company that built the neighborhood. It starts with just a few odd occurrences, such as broken dishes and furniture moving around by itself. However, when he realizes that something truly evil haunts his home, Steve calls in a team of parapsychologists led by Dr. Lesh to help before it's too late.",
+        "release_date": "1982-06-04",
+        "release_year": "1982",
+        "title": "Poltergeist"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Dustin Hoffman",
+          "Julia Roberts",
+          "Bob Hoskins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "The boy who wasn't supposed to grow up—Peter Pan—did just that, becoming a soulless corporate lawyer whose workaholism could cost him his wife and kids. But a trip to see Granny Wendy in London, where the vengeful Capt. Hook kidnaps Peter's kids and forces Peter to return to Neverland, could lead to a chance at redemption, in this family-oriented fantasy from director Steven Spielberg.",
+        "release_date": "1991-12-11",
+        "release_year": "1991",
+        "title": "Hook"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Robert Duvall",
+          "Billy Bob Thornton",
+          "June Carter Cash",
+          "Farrah Fawcett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Duvall",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After his happy life spins out of control, a preacher from Texas changes his name, goes to Louisiana and starts preaching on the radio.",
+        "release_date": "1997-10-09",
+        "release_year": "1997",
+        "title": "Apostle, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Miranda Richardson",
+          "Timothy Spall",
+          "Imelda Staunton"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Having been hopelessly repressed and facing eventual certain death at the British chicken farm where they are held, Rocky the american rooster and Ginger the chicken decide to rebel against the evil Mr. and Mrs. Tweedy, the farm's owners. Rocky and Ginger lead their fellow chickens in a great escape from the murderous farmers and their farm of doom.",
+        "release_date": "2000-06-21",
+        "release_year": "2000",
+        "title": "Chicken Run"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Alec Baldwin",
+          "Winona Ryder",
+          "Michael Keaton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Thanks to an untimely demise via drowning, a young couple end up as poltergeists in their New England farmhouse, where they fail to meet the challenge of scaring away the insufferable new owners, who want to make drastic changes. In desperation, the undead newlyweds turn to an expert frightmeister, but he's got a diabolical agenda of his own.",
+        "release_date": "1988-02-29",
+        "release_year": "1988",
+        "title": "Beetlejuice"
+      }
+    ],
+    "raw_user_id": "5065",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 213
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9005348560363302
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative responses to certain action and sci-fi films, with ratings below 3.",
+        "Dislike for specific thrillers and mysteries, indicated by low ratings."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies, with multiple ratings of 4 or 5.",
+        "Enjoyment of action and adventure films, consistently rated 3 or above.",
+        "Appreciation for animated and children's films, reflected in high ratings."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys light-hearted and humorous films, as indicated by multiple high ratings for comedies.); Action and Adventure (The user appreciates action-packed narratives, reflected in their positive ratings for various action and adventure films.); Animation and Children's (The user has a fondness for animated films and children's stories, as shown by their high ratings for several titles in these genres.); Drama and Romance (The user is drawn to dramatic narratives with romantic elements, evidenced by their favorable ratings for films that blend these genres.); Fantasy and Sci-Fi (The user enjoys imaginative and speculative storytelling, as indicated by their high ratings for fantasy and sci-fi films.). Liked patterns: Strong preference for comedies, with multiple ratings of 4 or 5., Enjoyment of action and adventure films, consistently rated 3 or above., Appreciation for animated and children's films, reflected in high ratings.. Disliked patterns: Negative responses to certain action and sci-fi films, with ratings below 3., Dislike for specific thrillers and mysteries, indicated by low ratings..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted and humorous films, as indicated by multiple high ratings for comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates action-packed narratives, reflected in their positive ratings for various action and adventure films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user has a fondness for animated films and children's stories, as shown by their high ratings for several titles in these genres.",
+          "taste": "Animation and Children's"
+        },
+        {
+          "reason": "The user is drawn to dramatic narratives with romantic elements, evidenced by their favorable ratings for films that blend these genres.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "The user enjoys imaginative and speculative storytelling, as indicated by their high ratings for fantasy and sci-fi films.",
+          "taste": "Fantasy and Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 5065
+  }
+}

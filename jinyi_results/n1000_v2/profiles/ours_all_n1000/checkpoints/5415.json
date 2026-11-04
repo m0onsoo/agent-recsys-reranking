@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "d6bffaad33494d24774040673538371b6153cf6249c0bcfe8f049431bb7e1a6b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      130,
+      720,
+      3143,
+      1843,
+      117,
+      742,
+      46,
+      914,
+      383,
+      1309
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      23,
+      45,
+      128,
+      176,
+      187,
+      383,
+      421,
+      528,
+      548,
+      568,
+      597,
+      601,
+      602,
+      720,
+      742,
+      767,
+      799,
+      838,
+      866,
+      979,
+      1252,
+      1309,
+      1352,
+      3143
+    ],
+    "seed": 42,
+    "source_hash": "2b7b39ed2d4eb4a26f15f09af77a714859c20271f2ecc15eff36b5e23eb49bf7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5415,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ian Bannen",
+          "David Kelly",
+          "Fionnula Flanagan",
+          "Susan Lynch"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kirk Jones",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a lottery winner dies of shock, his fellow townsfolk attempt to claim the money.",
+        "release_date": "1998-09-15",
+        "release_year": "1998",
+        "title": "Waking Ned Devine"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      },
+      {
+        "cast": [
+          "Sylvie Testud",
+          "Tatjana Trieb",
+          "Howie Seago",
+          "Emmanuelle Laborit"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Caroline Link",
+        "genres": [
+          "Drama"
+        ],
+        "language": "German",
+        "overview": "Beyond Silence is about a family and a young girl’s coming of age story. This German film looks into the lives of the deaf and at a story about the love for music. A girl who has always had to translate speech into sign language for her deaf parents yet when her love for playing music grows strong she must decide to continue doing something she cannot share with her parents.",
+        "release_date": "1996-12-18",
+        "release_year": "1996",
+        "title": "Beyond Silence"
+      },
+      {
+        "cast": [
+          "Charles Laughton",
+          "Clark Gable",
+          "Franchot Tone",
+          "Herbert Mundin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Lloyd",
+        "genres": [
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Fletcher Christian successfully leads a revolt against the ruthless Captain Bligh on the HMS Bounty. However, Bligh returns one year later, hell bent on avenging his captors.",
+        "release_date": "1935-11-08",
+        "release_year": "1935",
+        "title": "Mutiny on the Bounty"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Andie MacDowell",
+          "Chris Elliott",
+          "Stephen Tobolowsky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "release_date": "1993-02-11",
+        "release_year": "1993",
+        "title": "Groundhog Day"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Jack Albertson",
+          "Peter Ostrum",
+          "Roy Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Stuart",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Eccentric candy man Willy Wonka prompts a worldwide frenzy when he announces that golden tickets hidden inside five of his delicious candy bars will admit their lucky holders into his top-secret confectionary. But does Wonka have an agenda hidden amid a world of Oompa Loompas and chocolate rivers?",
+        "release_date": "1971-06-29",
+        "release_year": "1971",
+        "title": "Willy Wonka and the Chocolate Factory"
+      },
+      {
+        "cast": [
+          "Julie Andrews",
+          "Dick Van Dyke",
+          "David Tomlinson",
+          "Glynis Johns"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Stevenson",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "The movie combines a diverting story, songs, color and sequences of live action blended with the movements of animated figures. Mary Poppins is a kind of Super-nanny who flies in with her umbrella in response to the request of the Banks children and proceeds to put things right with the aid of her rather extraordinary magical powers before flying off again.",
+        "release_date": "1964-08-27",
+        "release_year": "1964",
+        "title": "Mary Poppins"
+      },
+      {
+        "cast": [
+          "Jon Favreau",
+          "Leland Orser",
+          "Cameron Diaz",
+          "Christian Slater"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Berg",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Kyle Fisher has one last night to celebrate life as a single man before marrying Laura, so he sets out to Vegas with four of his best buddies. But a drug and alcohol filled night on the town with a stripper who goes all the way, turns into a cold night in the desert with shovels when the stripper goes all the way into a body bag after dying in their bathroom. And that's just the first of the bodies to pile up before Kyle can walk down the aisle...",
+        "release_date": "1998-09-11",
+        "release_year": "1998",
+        "title": "Very Bad Things"
+      },
+      {
+        "cast": [
+          "Hugh Grant",
+          "Andie MacDowell",
+          "James Fleet",
+          "Simon Callow"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Four Weddings And A Funeral is a British comedy about a British Man named Charles and an American Woman named Carrie who go through numerous weddings before they determine if they are right for one another.",
+        "release_date": "1994-03-09",
+        "release_year": "1994",
+        "title": "Four Weddings and a Funeral"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Rebecca De Mornay",
+          "Sean Penn",
+          "Joe Pantoliano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Brickman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Meet Joel Goodson, an industrious, college-bound 17-year-old and a responsible, trustworthy son. However, when his parents go away and leave him home alone in the wealthy Chicago suburbs with the Porsche at his disposal he quickly decides he has been good for too long and it is time to enjoy himself. After an unfortunate incident with the Porsche Joel must raise some cash, in a risky way.",
+        "release_date": "1983-08-05",
+        "release_year": "1983",
+        "title": "Risky Business"
+      }
+    ],
+    "raw_user_id": "5415",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 45
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1642741343667145
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that fail to deliver humor or engaging content.",
+        "Negative reception of children's films that do not resonate with adult audiences."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies that also explore romantic relationships.",
+        "Consistent enjoyment of action-adventure films with engaging plots.",
+        "High ratings for films that combine humor with dramatic elements."
+      ],
+      "summary": "Unique tastes: Comedy and Romance (A strong preference for films that blend humor with romantic themes, often resulting in high ratings.); Action and Adventure (Enjoyment of films that feature thrilling action sequences and adventurous plots, consistently rated positively.); Dramatic Elements in Comedies (Appreciation for comedies that incorporate dramatic elements, enhancing emotional depth while maintaining humor.); Nostalgic Themes (A tendency to favor films that evoke nostalgia, often through familiar genres and storytelling styles.); Family-Friendly Content (A liking for films that are suitable for a wide audience, particularly those that include children's themes.). Liked patterns: Strong preference for comedies that also explore romantic relationships., Consistent enjoyment of action-adventure films with engaging plots., High ratings for films that combine humor with dramatic elements.. Disliked patterns: Dislike for comedies that fail to deliver humor or engaging content., Negative reception of children's films that do not resonate with adult audiences..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for films that blend humor with romantic themes, often resulting in high ratings.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "Enjoyment of films that feature thrilling action sequences and adventurous plots, consistently rated positively.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "Appreciation for comedies that incorporate dramatic elements, enhancing emotional depth while maintaining humor.",
+          "taste": "Dramatic Elements in Comedies"
+        },
+        {
+          "reason": "A tendency to favor films that evoke nostalgia, often through familiar genres and storytelling styles.",
+          "taste": "Nostalgic Themes"
+        },
+        {
+          "reason": "A liking for films that are suitable for a wide audience, particularly those that include children's themes.",
+          "taste": "Family-Friendly Content"
+        }
+      ]
+    },
+    "user_id": 5415
+  }
+}

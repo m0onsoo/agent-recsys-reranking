@@ -1,0 +1,328 @@
+{
+  "checkpoint_hash": "b18a0aef9b8f9d7cfe9773a34dbd0f81a5205fc5eaea6065a7db03e4dd18c27a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      377,
+      178,
+      1586,
+      634,
+      6,
+      1252,
+      530,
+      41,
+      243,
+      759
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      9,
+      40,
+      89,
+      117,
+      217,
+      219,
+      332,
+      391,
+      530,
+      535,
+      621,
+      739,
+      759,
+      840,
+      1069,
+      1116,
+      1150,
+      1159,
+      1353,
+      1434,
+      1579,
+      1885,
+      2533,
+      2841,
+      3189
+    ],
+    "seed": 42,
+    "source_hash": "525f36f92502e2acd31b910b7f1c479a9ea4f4b6c1a107c5289ac6e4784062a5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4118,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bruce Willis",
+          "Madeleine Stowe",
+          "Brad Pitt",
+          "Christopher Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly, and patient Jeffrey Goines, the son of a famous virus expert, who may hold the key to the mysterious rogue group, the Army of the 12 Monkeys, thought to be responsible for unleashing the killer disease.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Twelve Monkeys"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Holly Hunter",
+          "Trey Wilson",
+          "John Goodman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Coen Brothers tell the story of a absurd yet likable family with an unproductive couple as the focal point. The couple has gotten themselves into some trouble while kidnapping a baby and give Hollywood one of the most memorable chase scenes to date.",
+        "release_date": "1987-03-01",
+        "release_year": "1987",
+        "title": "Raising Arizona"
+      },
+      {
+        "cast": [
+          "Sally Field",
+          "Dolly Parton",
+          "Shirley MacLaine",
+          "Julia Roberts"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Herbert Ross",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "This heart wrenching drama is about a beauty shop, in Louisana owned by Truvy, and the tragedies of all of her clients.",
+        "release_date": "1989-11-15",
+        "release_year": "1989",
+        "title": "Steel Magnolias"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1970",
+        "title": "M*A*S*H"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Charles Grodin",
+          "Yaphet Kotto",
+          "John Ashton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Brest",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "An accountant embezzles $15 million of mob money, jumps bail and is chased by bounty hunters, the FBI, and the Mafia.",
+        "release_date": "1988-07-20",
+        "release_year": "1988",
+        "title": "Midnight Run"
+      },
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Don Rickles",
+          "Jim Varney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+        "release_date": "1995-10-30",
+        "release_year": "1995",
+        "title": "Toy Story"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Morgan Freeman",
+          "Gwyneth Paltrow",
+          "John C. McGinley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+        "release_date": "1995-09-22",
+        "release_year": "1995",
+        "title": "Seven (Se7en)"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "John Cleese",
+          "Shelley Duvall",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Young history buff Kevin can scarcely believe it when six dwarfs emerge from his closet one night. Former employees of the Supreme Being, they've purloined a map charting all of the holes in the fabric of time and are using it to steal treasures from different historical eras. Taking Kevin with them, they variously drop in on Napoleon, Robin Hood and King Agamemnon before the Supreme Being catches up with them.",
+        "release_date": "1981-07-13",
+        "release_year": "1981",
+        "title": "Time Bandits"
+      }
+    ],
+    "raw_user_id": "4118",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 167
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5851975097372762
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly rated comedies.",
+        "Dislike for animated films that do not resonate with the user."
+      ],
+      "liked_patterns": [
+        "Strong preference for animated films with musical elements.",
+        "Enjoyment of horror films with high ratings.",
+        "Appreciation for comedies that also explore romantic themes."
+      ],
+      "summary": "Unique tastes: Animation and Children's Films (The user enjoys animated films that cater to children, often appreciating their musical elements.); Drama and Thrillers (The user has a strong preference for dramatic narratives that include thriller elements, indicating a taste for intense storytelling.); Comedy and Romance (The user appreciates comedies that incorporate romantic themes, suggesting a fondness for light-hearted yet emotionally engaging content.); Horror Films (The user shows a clear liking for horror films, particularly those that are critically acclaimed or have strong narratives.); Adventure and Fantasy (The user enjoys films that blend adventure with fantasy elements, indicating a preference for imaginative storytelling.). Liked patterns: Strong preference for animated films with musical elements., Enjoyment of horror films with high ratings., Appreciation for comedies that also explore romantic themes.. Disliked patterns: Dislike for poorly rated comedies., Dislike for animated films that do not resonate with the user..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films that cater to children, often appreciating their musical elements.",
+          "taste": "Animation and Children's Films"
+        },
+        {
+          "reason": "The user has a strong preference for dramatic narratives that include thriller elements, indicating a taste for intense storytelling.",
+          "taste": "Drama and Thrillers"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate romantic themes, suggesting a fondness for light-hearted yet emotionally engaging content.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "The user shows a clear liking for horror films, particularly those that are critically acclaimed or have strong narratives.",
+          "taste": "Horror Films"
+        },
+        {
+          "reason": "The user enjoys films that blend adventure with fantasy elements, indicating a preference for imaginative storytelling.",
+          "taste": "Adventure and Fantasy"
+        }
+      ]
+    },
+    "user_id": 4118
+  }
+}

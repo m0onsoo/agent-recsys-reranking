@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "d9764cb365dae5acdd76166cd14f208103018bc5fcc86d335aed6ceac2738d45",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      203,
+      1344,
+      614,
+      591,
+      585,
+      1193,
+      932,
+      137,
+      190,
+      890
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      58,
+      137,
+      138,
+      149,
+      201,
+      219,
+      429,
+      606,
+      641,
+      965,
+      1003,
+      1004,
+      1019,
+      1120,
+      1131,
+      1360,
+      1418,
+      1536,
+      1706,
+      1723,
+      1828,
+      2314,
+      2397,
+      2957,
+      2970
+    ],
+    "seed": 42,
+    "source_hash": "27006badcf1b21f4f3aa1f0ffb6abcab53ec97cc70e1b795412adce9fb7427d5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 6007,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Brendan Fraser",
+          "Rachel Weisz",
+          "John Hannah",
+          "Arnold Vosloo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Sommers",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dashing legionnaire Rick O'Connell and his companion, Beni stumble upon the hidden ruins of Hamunaptra while in the midst of a battle in 1923, 3,000 years after Imhotep has suffered a fate worse than death – his body will remain undead for all eternity as a punishment for a forbidden love.",
+        "release_date": "1999-04-16",
+        "release_year": "1999",
+        "title": "Mummy, The"
+      },
+      {
+        "cast": [
+          "Angela Bassett",
+          "Taye Diggs",
+          "Whoopi Goldberg",
+          "Regina King"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Rodney Sullivan",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Through good times and bad, Stella and Delilah have always had each other. Now, Stella's so busy building a life that she's forgotten how to really live. But Delilah is about to change all that. What starts as a quick trip to Jamaica, end as an exhilarating voyage of self discovery as Stella learns to open her heart and find love - even if it's with a man 20 years her junior.",
+        "release_date": "1998-08-14",
+        "release_year": "1998",
+        "title": "How Stella Got Her Groove Back"
+      },
+      {
+        "cast": [
+          "Christopher Reeve",
+          "Jane Seymour",
+          "Christopher Plummer",
+          "Teresa Wright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeannot Szwarc",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young writer, Richard Collier is met on the opening night of his first play by an old lady who begs him to, \"Come back to me.\" Mystified, he tries to find out about her, and learns that she is a famous stage actress from the early 1900s. Becoming more and more obsessed with her, he manages – by self-hypnosis – to travel back in time where he meets her. They fall in love, a matching that is not appreciated by her manager. Can their love outlast the immense problems caused by their 'time\" difference, and can Richard remain in a time that is not his?",
+        "release_date": "1980-10-02",
+        "release_year": "1980",
+        "title": "Somewhere in Time"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Joe Pesci",
+          "Rene Russo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the combustible action franchise's final installment, maverick detectives Martin Riggs and Roger Murtaugh square off against Asian mobster Wah Sing Ku, who's up to his neck in slave trading and counterfeit currency. With help from gumshoe Leo Getz and smart-aleck rookie cop Lee Butters, Riggs and Murtaugh aim to take down Ku and his gang.",
+        "release_date": "1998-07-10",
+        "release_year": "1998",
+        "title": "Lethal Weapon 4"
+      },
+      {
+        "cast": [
+          "Gary Oldman",
+          "Winona Ryder",
+          "Anthony Hopkins",
+          "Keanu Reeves"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Horror",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When Dracula leaves the captive Jonathan Harker and Transylvania for London in search of Mina Harker -- the spitting image of Dracula's long-dead wife, Elisabeta -- obsessed vampire hunter Dr. Van Helsing sets out to end the madness.",
+        "release_date": "1992-11-13",
+        "release_year": "1992",
+        "title": "Bram Stoker's Dracula"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Linda Hamilton",
+          "Jamie Renée Smith",
+          "Jeremy Foley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Donaldson",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Volcanologist Harry Dalton comes to the sleepy town of Dante's Peak to investigate the recent rumblings of the dormant volcano the burg is named for. Before long, his worst fears are realized when a massive eruption hits, and immediately, Harry, the mayor and the townspeople find themselves fighting for their lives amid a catastrophic nightmare.",
+        "release_date": "1997-02-07",
+        "release_year": "1997",
+        "title": "Dante's Peak"
+      },
+      {
+        "cast": [
+          "Bill Pullman",
+          "Bridget Fonda",
+          "Oliver Platt",
+          "Brendan Gleeson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve Miner",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a man is eaten alive by an unknown creature, the local Game Warden teams up with a paleontologist from New York to find the beast. Add to the mix an eccentric philanthropist with a penchant for \"Crocs\", and here we go! This quiet, remote lake is suddenly the focus of an intense search for a crocodile with a taste for live animals...and people!",
+        "release_date": "1999-07-15",
+        "release_year": "1999",
+        "title": "Lake Placid"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Fernando Rey",
+          "Roy Scheider",
+          "Tony Lo Bianco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Friedkin",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tough narcotics detective 'Popeye' Doyle is in hot pursuit of a suave French drug dealer who may be the key to a huge heroin-smuggling operation.",
+        "release_date": "1971-10-09",
+        "release_year": "1971",
+        "title": "French Connection, The"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "Cuba Gooding Jr.",
+          "Donald Sutherland",
+          "Maura Tierney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dr. Ethan Powell, an anthropologist, is in Africa studying apes when he is lost for two years. When he is found, he kills 3 men and puts 2 in the hospital. Cuba Gooding's character is a psychiatrist who wants to take up the task of trying to get Dr. Powell to speak again and maybe even stand judgment at a trial for his release from prison of mental cases. Along the way, Cuba has to deal with also helping the mental patients that are being abused and neglected. In this process Cuba learns a few things about himself and life, and so does Anthony Hopkins character, Dr. Powell.",
+        "release_date": "1999-06-04",
+        "release_year": "1999",
+        "title": "Instinct"
+      }
+    ],
+    "raw_user_id": "6007",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 262
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9650165144725933
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislikes horror films that lack strong narrative elements or character development.",
+        "Shows a tendency to rate films poorly when they focus solely on horror without additional genres."
+      ],
+      "liked_patterns": [
+        "Enjoys action films that incorporate adventure and thriller elements.",
+        "Likes films that blend drama with romance and comedy.",
+        "Appreciates science fiction narratives, especially those with action."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with adventurous elements, as seen in multiple high-rated films.); Drama and Romance (There is a consistent appreciation for films that blend drama with romantic themes, reflected in several liked titles.); Thriller Elements (The user shows a preference for thrillers, particularly those that incorporate action or mystery.); Comedy (The user has a liking for comedic elements, especially when combined with adventure or romance.); Sci-Fi (There is an interest in science fiction, particularly when it intersects with action or horror.). Liked patterns: Enjoys action films that incorporate adventure and thriller elements., Likes films that blend drama with romance and comedy., Appreciates science fiction narratives, especially those with action.. Disliked patterns: Dislikes horror films that lack strong narrative elements or character development., Shows a tendency to rate films poorly when they focus solely on horror without additional genres..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with adventurous elements, as seen in multiple high-rated films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "There is a consistent appreciation for films that blend drama with romantic themes, reflected in several liked titles.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "The user shows a preference for thrillers, particularly those that incorporate action or mystery.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user has a liking for comedic elements, especially when combined with adventure or romance.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "There is an interest in science fiction, particularly when it intersects with action or horror.",
+          "taste": "Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 6007
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "37d391ce9f8e6cd6a33283322916fcbbb02867671a18b8aedb6693d9a7300363",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      114,
+      994,
+      1342,
+      353,
+      861,
+      873,
+      69,
+      431,
+      976,
+      2429
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      45,
+      114,
+      156,
+      214,
+      318,
+      353,
+      388,
+      431,
+      516,
+      523,
+      542,
+      714,
+      838,
+      854,
+      861,
+      873,
+      892,
+      906,
+      976,
+      1070,
+      1072,
+      1201,
+      1342,
+      2114,
+      2650
+    ],
+    "seed": 42,
+    "source_hash": "61738aef210a572c483a828f0102b20d647176c907fe6aecef4d4ccda962f56e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4135,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "Under 18",
+      "gender": "male",
+      "occupation": "K-12 student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Vin Diesel",
+          "Radha Mitchell",
+          "Cole Hauser",
+          "Lewis Fitz-Gerald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Twohy",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When their ship crash-lands on a remote planet, the marooned passengers soon learn that escaped convict Riddick isn't the only thing they have to fear. Deadly creatures lurk in the shadows, waiting to attack in the dark, and the planet is rapidly plunging into the utter blackness of a total eclipse. With the body count rising, the doomed survivors are forced to turn to Riddick with his eerie eyes to guide them through the darkness to safety. With time running out, there's only one rule: Stay in the light.",
+        "release_date": "2000-02-18",
+        "release_year": "2000",
+        "title": "Pitch Black"
+      },
+      {
+        "cast": [
+          "Michael Jordan",
+          "Wayne Knight",
+          "Billy West",
+          "Dee Bradley Baker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Pytka",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "In a desperate attempt to win a basketball match and earn their freedom, the Looney Tunes seek the aid of retired basketball champion, Michael Jordan.",
+        "release_date": "1996-11-15",
+        "release_year": "1996",
+        "title": "Space Jam"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Heather Graham",
+          "Michael York",
+          "Robert Wagner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When diabolical genius, Dr. Evil travels back in time to steal superspy Austin Powers's ‘mojo’, Austin must return to the swingin' '60s himself – with the help of American agent, Felicity Shagwell – to stop the dastardly plan. Once there, Austin faces off against Dr. Evil's army of minions and saves the world in his own unbelievably groovy way.",
+        "release_date": "1999-06-08",
+        "release_year": "1999",
+        "title": "Austin Powers: The Spy Who Shagged Me"
+      },
+      {
+        "cast": [
+          "Gary Sinise",
+          "Tim Robbins",
+          "Don Cheadle",
+          "Connie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When contact is lost with the crew of the first Mars expedition, a rescue mission is launched to discover their fate.",
+        "release_date": "2000-03-10",
+        "release_year": "2000",
+        "title": "Mission to Mars"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Michelle Pfeiffer",
+          "Diana Scarwid",
+          "James Remar"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When Claire Spencer starts hearing ghostly voices and seeing spooky images, she wonders if an otherworldly spirit is trying to contact her. All the while, her husband tries to reassure her by telling her it's all in her head. But as Claire investigates, she discovers that the man she loves might know more than he's letting on.",
+        "release_date": "2000-07-21",
+        "release_year": "2000",
+        "title": "What Lies Beneath"
+      },
+      {
+        "cast": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Connie Nielsen",
+          "Oliver Reed"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences. His battle skills serve him well, and he becomes one of the most famous and admired men to fight in the Colosseum. Determined to avenge himself against the man who took away his freedom and laid waste to his family, Maximus believes that he can use his fame and skill in the ring to avenge the loss of his family and former glory. As the gladiator begins to challenge his rule, Commodus decides to put his own fighting mettle to the test by squaring off with Maximus in a battle to the death.",
+        "release_date": "2000-05-01",
+        "release_year": "2000",
+        "title": "Gladiator"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Michelle Yeoh",
+          "Maggie Cheung",
+          "Kenneth Tsang"
+        ],
+        "country": [
+          "Hong Kong"
+        ],
+        "director": "Stanley Tong",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "A Hong Kong detective teams up with his female Red Chinese counterpart to stop a Chinese drug czar.",
+        "release_date": "1992-07-04",
+        "release_year": "1992",
+        "title": "Supercop"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Lois Chiles",
+          "Michael Lonsdale",
+          "Corinne Cléry"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Lewis Gilbert",
+        "genres": [
+          "Action",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "During the transportation of a Space Shuttle a Boeing 747 crashes in the Atlantic Ocean yet when they go to look for the destroyed shuttle it is not there. James Bond investigates the missing mission space shuttle and soon learns that the shuttles owner Hugo Drax wants to kill all of mankind.",
+        "release_date": "1979-06-26",
+        "release_year": "1979",
+        "title": "Moonraker"
+      },
+      {
+        "cast": [
+          "Chuck Norris",
+          "M. Emmet Walsh",
+          "David Tress",
+          "Lenore Kasdorf"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joseph Zito",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "American servicemen are still being held captive in Vietnam and it's up to one man to bring them home in this blistering, fast-paced action/adventure starring martial arts superstar Chuck Norris.Following a daring escape from a Vietnamese POW camp, Special Forces Colonel James Braddock (Norris) is on a mission to locate and save remaining MIAs.",
+        "release_date": "1984-11-16",
+        "release_year": "1984",
+        "title": "Missing in Action"
+      }
+    ],
+    "raw_user_id": "4135",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 54
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3894664464818378
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [],
+      "liked_patterns": [
+        "Strong preference for action-packed films",
+        "Enjoyment of comedic narratives",
+        "Interest in suspenseful thrillers"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventurous themes.); Comedy (The user appreciates humor and comedic elements across various sub-genres.); Sci-Fi and Fantasy (The user is drawn to imaginative and speculative narratives that explore futuristic concepts.); Thriller and Mystery (The user favors suspenseful plots that keep them engaged and guessing.); Drama with Depth (The user values films that offer emotional and thought-provoking storytelling.). Liked patterns: Strong preference for action-packed films, Enjoyment of comedic narratives, Interest in suspenseful thrillers. Disliked patterns: no repeated disliked pattern identified.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventurous themes.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates humor and comedic elements across various sub-genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to imaginative and speculative narratives that explore futuristic concepts.",
+          "taste": "Sci-Fi and Fantasy"
+        },
+        {
+          "reason": "The user favors suspenseful plots that keep them engaged and guessing.",
+          "taste": "Thriller and Mystery"
+        },
+        {
+          "reason": "The user values films that offer emotional and thought-provoking storytelling.",
+          "taste": "Drama with Depth"
+        }
+      ]
+    },
+    "user_id": 4135
+  }
+}

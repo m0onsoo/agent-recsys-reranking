@@ -1,0 +1,344 @@
+{
+  "checkpoint_hash": "46d34d808778ea7fb15c469ff4978df9ab9062deec98cd1e14a961d6a1ea8e50",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1199,
+      152,
+      667,
+      1846,
+      426,
+      1342,
+      133,
+      284,
+      1120,
+      636
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "276633b938cf402ba808000de63ef5fb"
+    ],
+    "sampled_item_ids": [
+      33,
+      52,
+      65,
+      102,
+      114,
+      172,
+      209,
+      278,
+      421,
+      548,
+      647,
+      767,
+      857,
+      862,
+      926,
+      974,
+      1081,
+      1099,
+      1120,
+      1473,
+      1576,
+      1624,
+      1843,
+      1861,
+      2223
+    ],
+    "seed": 42,
+    "source_hash": "398486ec78d0a4f9ba7da7c646468b580a76424af8abeaf32876cba204c5ed44",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3393,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kurt Russell",
+          "Stacy Keach",
+          "Steve Buscemi",
+          "Pam Grier"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "This time, a cataclysmic temblor hits Los Angeles, turning it into an island. The president views the quake as a sign from above, expels Los Angeles from the country and makes it a penal colony for those found guilty of moral crimes. When his daughter, part of a resistance movement, steals the control unit for a doomsday weapon, Snake again gets tapped to save the day.",
+        "release_date": "1996-08-09",
+        "release_year": "1996",
+        "title": "Escape from L.A."
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Tina Turner",
+          "Bruce Spence",
+          "Helen Buday"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Mad Max becomes a pawn in a decadent oasis of a technological society, and when exiled, becomes the deliverer of a colony of children.",
+        "release_date": "1985-06-29",
+        "release_year": "1985",
+        "title": "Mad Max Beyond Thunderdome"
+      },
+      {
+        "cast": [
+          "Burt Lancaster",
+          "Montgomery Clift",
+          "Deborah Kerr",
+          "Donna Reed"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Fred Zinnemann",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In 1941 Hawaii, a private is cruelly punished for not boxing on his unit's team, while his captain's wife and second in command are falling in love.",
+        "release_date": "1953-08-28",
+        "release_year": "1953",
+        "title": "From Here to Eternity"
+      },
+      {
+        "cast": [
+          "Meryl Streep",
+          "Robert Redford",
+          "Klaus Maria Brandauer",
+          "Michael Kitchen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Out of Africa tells the story of the life of Danish author Karen Blixen, who at the beginning of the 20th century moved to Africa to build a new life for herself. The film is based on the autobiographical novel by Karen Blixen from 1937.",
+        "release_date": "1985-12-20",
+        "release_year": "1985",
+        "title": "Out of Africa"
+      },
+      {
+        "cast": [
+          "Michael Jordan",
+          "Wayne Knight",
+          "Billy West",
+          "Dee Bradley Baker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Pytka",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "In a desperate attempt to win a basketball match and earn their freedom, the Looney Tunes seek the aid of retired basketball champion, Michael Jordan.",
+        "release_date": "1996-11-15",
+        "release_year": "1996",
+        "title": "Space Jam"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "Steve McQueen",
+          "Aneta Corsaut",
+          "Earl Rowe",
+          "John Benson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin S. Yeaworth Jr.",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A mysterious creature from another planet, resembling a giant blob of jelly, lands on earth. The people of a nearby small town refuse to listen to some teenagers who have witnessed the blob's destructive power. In the meantime, the blob just keeps on getting bigger.",
+        "release_date": "1958-09-12",
+        "release_year": "1958",
+        "title": "Blob, The"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Ellen Greene",
+          "Vincent Gardenia",
+          "Steve Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Seymour Krelborn is a nerdy orphan working at Mushnik's, a flower shop in urban Skid Row. He harbors a crush on fellow co-worker Audrey Fulquard, and is berated by Mr. Mushnik daily. One day as Seymour is seeking a new mysterious plant, he finds a very mysterious unidentified plant which he calls Audrey II. The plant seems to have a craving for blood and soon begins to sing for his supper.",
+        "release_date": "1986-12-19",
+        "release_year": "1986",
+        "title": "Little Shop of Horrors"
+      }
+    ],
+    "raw_user_id": "3393",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 214
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4638777440252118
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for animated children's films",
+        "Dislike for musicals that do not resonate",
+        "Dislike for certain dramas that lack engagement"
+      ],
+      "liked_patterns": [
+        "Enjoyment of high-rated action and adventure films",
+        "Appreciation for well-rated dramas and romances",
+        "Interest in comedies that resonate positively"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films with thrilling plots and adventurous themes.); Drama and Romance (The user appreciates films that explore emotional depth and relationships.); Comedy (The user has a preference for light-hearted films that provide humor and entertainment.); Sci-Fi (The user is drawn to imaginative and speculative narratives that often include futuristic elements.); Musicals (The user enjoys films that incorporate music and dance as a central element of storytelling.). Liked patterns: Enjoyment of high-rated action and adventure films, Appreciation for well-rated dramas and romances, Interest in comedies that resonate positively. Disliked patterns: Dislike for animated children's films, Dislike for musicals that do not resonate, Dislike for certain dramas that lack engagement.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films with thrilling plots and adventurous themes.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that explore emotional depth and relationships.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "The user has a preference for light-hearted films that provide humor and entertainment.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to imaginative and speculative narratives that often include futuristic elements.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user enjoys films that incorporate music and dance as a central element of storytelling.",
+          "taste": "Musicals"
+        }
+      ]
+    },
+    "user_id": 3393
+  }
+}

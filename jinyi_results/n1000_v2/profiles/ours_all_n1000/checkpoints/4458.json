@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "b8e63f1b13facd22a822cd0add703685487ef06dc423961a5ace5c430aeac603",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      384,
+      869,
+      173,
+      1141,
+      1918,
+      2697,
+      2053,
+      1804,
+      433,
+      2958
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      142,
+      146,
+      187,
+      261,
+      264,
+      356,
+      377,
+      391,
+      402,
+      525,
+      535,
+      560,
+      606,
+      721,
+      747,
+      776,
+      1088,
+      1151,
+      1467,
+      1804,
+      1918,
+      1990,
+      2053,
+      2893
+    ],
+    "seed": 42,
+    "source_hash": "b5780cf3c91648240aaaab3a09ace40e66d8a0e36aec53b5dd7b66c66e26afbd",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4458,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Sean Penn",
+          "Robert Prosky",
+          "Raymond J. Barry"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Tim Robbins",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A justice drama based on a true story about a man on death row who in his last days forms a strong relationship with a nun who teaches him forgiveness and gives him spirituality as she accompanies him to his execution. Susan Sarandon won an Oscar for best female actress for her convincing portrayal of Sister Helen Prejean.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Dead Man Walking"
+      },
+      {
+        "cast": [
+          "Donald Pleasence",
+          "Jamie Lee Curtis",
+          "P.J. Soles",
+          "Nancy Kyes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In John Carpenter's horror classic, a psychotic murderer, institutionalized since childhood for the murder of his sister, escapes and stalks a bookish teenage girl and her friends while his doctor chases him through the streets.",
+        "release_date": "1978-10-25",
+        "release_year": "1978",
+        "title": "Halloween"
+      },
+      {
+        "cast": [
+          "John Turturro",
+          "Gabriel Byrne",
+          "Marcia Gay Harden",
+          "Steve Buscemi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Set in 1929, a political boss and his advisor have a parting of the ways when they both fall for the same woman.",
+        "release_date": "1990-09-21",
+        "release_year": "1990",
+        "title": "Miller's Crossing"
+      },
+      {
+        "cast": [
+          "Norm Macdonald",
+          "Artie Lange",
+          "Jack Warden",
+          "Traylor Howard"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Bob Saget",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Unemployed and recently dumped, Mitch and his buddy Sam start a revenge-for-hire business to raise the $50,000 that Sam's father needs to get a heart transplant. The dirty duo brings down a movie theater manager and hires hookers to pose as dead bodies during a live TV ad. When a wealthy developer hires the guys to trash a building (so that he can have it condemned), problems arise and a feud ensues.",
+        "release_date": "1998-06-12",
+        "release_year": "1998",
+        "title": "Dirty Work"
+      },
+      {
+        "cast": [
+          "Sean Penn",
+          "Nick Nolte",
+          "Jennifer Lopez",
+          "Joaquin Phoenix"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Action",
+          "Crime",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When Bobby's car breaks down in the desert while on the run from some of the bookies who have already taken two of his fingers, he becomes trapped in the nearby small town where the people are stranger than anyone he's encountered. After becoming involved with a young married woman, her husband hires Bobby to kill her. Later, she hires Bobby to kill the husband.",
+        "release_date": "1997-10-03",
+        "release_year": "1997",
+        "title": "U Turn"
+      },
+      {
+        "cast": [
+          "Chris Cooper",
+          "James Earl Jones",
+          "Mary McDonnell",
+          "Will Oldham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Sayles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Filmed in the coal country of West Virginia, \"Matewan\" celebrates labor organizing in the context of a 1920s work stoppage. Union organizer, Joe Kenehan, a scab named \"Few Clothes\" Johnson and a sympathetic mayor and police chief heroically fight the power represented by a coal company and Matewan's vested interests so that justice and workers' rights need not take a back seat to squalid working conditions, exploitation and the bottom line.",
+        "release_date": "1987-08-28",
+        "release_year": "1987",
+        "title": "Matewan"
+      },
+      {
+        "cast": [
+          "Glenn Close",
+          "Julianne Moore",
+          "Liv Tyler",
+          "Patricia Neal"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Altman",
+        "genres": [
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Conflict arises in the small town of Holly Springs when an old woman's death causes a variety of reactions among family and friends.",
+        "release_date": "1999-01-22",
+        "release_year": "1999",
+        "title": "Cookie's Fortune"
+      },
+      {
+        "cast": [
+          "Andie MacDowell",
+          "John Turturro",
+          "Michael Richards",
+          "Nathan Watt"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Diane Keaton",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Steven Lidz, unhappy with his home life since his mother got sick, goes and lives with his two crazy Uncles. There he changes and gets closer to his Uncles, but his parents want him home even though he is finally happy and popular. Written by Todd Weiser",
+        "release_date": "1995-09-15",
+        "release_year": "1995",
+        "title": "Unstrung Heroes"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Nicolas Cage",
+          "Joan Allen",
+          "Alessandro Nivola"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.",
+        "release_date": "1997-06-27",
+        "release_year": "1997",
+        "title": "Face/Off"
+      },
+      {
+        "cast": [
+          "Vincent Price",
+          "Hazel Court",
+          "Jane Asher",
+          "David Weston"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Roger Corman",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Satan-worshiper Prince Prospero invites the local nobility to his castle for protection against an oncoming plague, the Red Death. He orders his guests to attend a masked ball and, amidst an atmosphere of debauchery and depravity, notices the entry of a hooded stranger dressed all in red. Believing the figure to be his master, Satan, Prospero is horrified at the revelation of his true identity.",
+        "release_date": "1964-06-24",
+        "release_year": "1964",
+        "title": "Masque of the Red Death, The"
+      }
+    ],
+    "raw_user_id": "4458",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 329
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7927242228593055
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that attempt to blend genres unsuccessfully, particularly in action and comedy.",
+        "Negative ratings for films that are primarily focused on crime or thriller elements."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies and dramas, with multiple high ratings in these genres.",
+        "Positive ratings for films that blend action with adventure elements.",
+        "High ratings for movies that incorporate romance alongside other genres."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, as indicated by multiple high ratings for films in this genre.); Interest in Drama (The user rates several dramas highly, suggesting a strong preference for character-driven narratives.); Fondness for Action and Adventure (The user has rated several action and adventure films positively, indicating a liking for thrilling and dynamic storytelling.); Enjoyment of Romance (The user has shown a preference for films that incorporate romantic elements, as seen in their ratings.); Affinity for Unique Storytelling (The user appreciates films with unconventional plots or themes, as reflected in their high ratings for distinctive narratives.). Liked patterns: Strong preference for comedies and dramas, with multiple high ratings in these genres., Positive ratings for films that blend action with adventure elements., High ratings for movies that incorporate romance alongside other genres.. Disliked patterns: Dislike for films that attempt to blend genres unsuccessfully, particularly in action and comedy., Negative ratings for films that are primarily focused on crime or thriller elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, as indicated by multiple high ratings for films in this genre.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several dramas highly, suggesting a strong preference for character-driven narratives.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated several action and adventure films positively, indicating a liking for thrilling and dynamic storytelling.",
+          "taste": "Fondness for Action and Adventure"
+        },
+        {
+          "reason": "The user has shown a preference for films that incorporate romantic elements, as seen in their ratings.",
+          "taste": "Enjoyment of Romance"
+        },
+        {
+          "reason": "The user appreciates films with unconventional plots or themes, as reflected in their high ratings for distinctive narratives.",
+          "taste": "Affinity for Unique Storytelling"
+        }
+      ]
+    },
+    "user_id": 4458
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "9317baf59b1927e61537e5c176d3ec93b18bc108de9c9b6cc8ff34dd9af0182e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1121,
+      1985,
+      41,
+      270,
+      458,
+      262,
+      539,
+      2028,
+      1617,
+      1249
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "fa669d028d8b40f5873f54936cb3cbb0"
+    ],
+    "sampled_item_ids": [
+      65,
+      129,
+      173,
+      190,
+      218,
+      262,
+      270,
+      277,
+      332,
+      358,
+      421,
+      539,
+      543,
+      560,
+      663,
+      757,
+      848,
+      946,
+      947,
+      995,
+      1004,
+      1538,
+      1664,
+      2481,
+      2704
+    ],
+    "seed": 42,
+    "source_hash": "c059e891b8350b64c752f8f6ff400dd6900851ae4e868bbcee31d9a75e39e508",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3790,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael Moore",
+          "Roger B. Smith",
+          "Rhonda Britton",
+          "Fred Ross"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Moore",
+        "genres": [
+          "Comedy",
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A documentary about the closure of General Motors' plant at Flint, Michigan, which resulted in the loss of 30,000 jobs. Details the attempts of filmmaker Michael Moore to get an interview with GM CEO Roger Smith.",
+        "release_date": "1989-09-01",
+        "release_year": "1989",
+        "title": "Roger & Me"
+      },
+      {
+        "cast": [
+          "Bruno Ganz",
+          "Otto Sander",
+          "Solveig Dommartin",
+          "Curt Bois"
+        ],
+        "country": [
+          "Germany",
+          "France"
+        ],
+        "director": "Wim Wenders",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Wings of Desire is Wim Wender’s artistically beautiful film about the lonely and immortal life of angels during a post-war Berlin. It’s a poetic journey from the perspective of the angels of which one falls in love with a living woman and wants to become a mortal human thus giving up his heavenly life. Filmed in black and white and with a feeling of celebrating life.",
+        "release_date": "1987-01-01",
+        "release_year": "1987",
+        "title": "Wings of Desire (Der Himmel über Berlin)"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Don Rickles",
+          "Jim Varney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+        "release_date": "1995-10-30",
+        "release_year": "1995",
+        "title": "Toy Story"
+      },
+      {
+        "cast": [
+          "Edward Furlong",
+          "Christina Ricci",
+          "Bess Armstrong",
+          "Mark Joy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Waters",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Baltimore sandwich shop employee becomes an overnight sensation when photographs he's taken of his weird family become the latest rage in the art world. The young man is called \"Pecker\" because he pecks at his food like a bird.",
+        "release_date": "1998-09-16",
+        "release_year": "1998",
+        "title": "Pecker"
+      },
+      {
+        "cast": [
+          "Vincent Gallo",
+          "Christina Ricci",
+          "Ben Gazzara",
+          "Mickey Rourke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Vincent Gallo",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Billy is released after five years in prison. In the next moment, he kidnaps teenage student Layla and visits his parents with her, pretending she is his girlfriend and they will soon marry.",
+        "release_date": "1998-01-20",
+        "release_year": "1998",
+        "title": "Buffalo 66"
+      },
+      {
+        "cast": [
+          "Madonna",
+          "Al Pacino",
+          "Kevin Costner",
+          "Antonio Banderas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alek Keshishian",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "From the rain of Japan, through threats of arrest for 'public indecency' in Canada, and a birthday tribute to her father in Detroit, this documentary follows Madonna on her 1990 'Blond Ambition' concert tour. Filmed in black and white, with the concert pieces in glittering MTV color, it is an intimate look at the work of the music performer, from a prayer circle with the dancers before each performance to bed games with the dance troupe afterwards.",
+        "release_date": "1991-05-10",
+        "release_year": "1991",
+        "title": "Madonna: Truth or Dare"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Matthew McConaughey",
+          "James Woods",
+          "John Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Contact is a science fiction film about an encounter with alien intelligence. Based on the novel by Carl Sagan the film starred Jodie Foster as the one chosen scientist who must make some difficult decisions between her beliefs, the truth, and reality.",
+        "release_date": "1997-07-11",
+        "release_year": "1997",
+        "title": "Contact"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Susan Anspach",
+          "Karen Black",
+          "Billy Green Bush"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bob Rafelson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A drop-out from upper-class America picks up work along the way on oil-rigs when his life isn't spent in a squalid succession of bars, motels, and other points of interest.",
+        "release_date": "1970-09-12",
+        "release_year": "1970",
+        "title": "Five Easy Pieces"
+      },
+      {
+        "cast": [
+          "André Eisermann",
+          "Udo Samel",
+          "Jeremy Clyde",
+          "Katharina Thalbach"
+        ],
+        "country": [
+          "Austria",
+          "Germany",
+          "Sweden"
+        ],
+        "director": "Peter Sehr",
+        "genres": [
+          "Drama"
+        ],
+        "language": "German",
+        "overview": "No overview found.",
+        "release_date": "1993-09-11",
+        "release_year": "1993",
+        "title": "Kaspar Hauser"
+      },
+      {
+        "cast": [
+          "Jane Fonda",
+          "John Phillip Law",
+          "Anita Pallenberg",
+          "Marcel Marceau"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Vadim",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the far future, a highly sexual woman is tasked with finding and stopping the evil Durand-Durand. Along the way she encounters various unusual people.",
+        "release_date": "1968-10-10",
+        "release_year": "1968",
+        "title": "Barbarella"
+      }
+    ],
+    "raw_user_id": "3790",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 99
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0379693416321594
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for films that are primarily action-oriented without strong narrative elements.",
+        "Dislike for films that are overly conventional or lack depth in character development."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like comedy and sci-fi.",
+        "Strong preference for films that feature unique storytelling or unconventional narratives.",
+        "Consistent enjoyment of films with critical acclaim or cult status."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (Several comedies received high ratings, suggesting a fondness for humor in films.); Interest in Sci-Fi (The user has rated multiple sci-fi films positively, showing a clear interest in this genre.); Affinity for Documentaries (High ratings for documentaries indicate a preference for real-life stories and explorations.); Tendency towards Thrillers (The user has shown a liking for thriller elements in various films, suggesting an appreciation for suspense.). Liked patterns: High ratings for films that blend drama with other genres like comedy and sci-fi., Strong preference for films that feature unique storytelling or unconventional narratives., Consistent enjoyment of films with critical acclaim or cult status.. Disliked patterns: Negative ratings for films that are primarily action-oriented without strong narrative elements., Dislike for films that are overly conventional or lack depth in character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies received high ratings, suggesting a fondness for humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has rated multiple sci-fi films positively, showing a clear interest in this genre.",
+          "taste": "Interest in Sci-Fi"
+        },
+        {
+          "reason": "High ratings for documentaries indicate a preference for real-life stories and explorations.",
+          "taste": "Affinity for Documentaries"
+        },
+        {
+          "reason": "The user has shown a liking for thriller elements in various films, suggesting an appreciation for suspense.",
+          "taste": "Tendency towards Thrillers"
+        }
+      ]
+    },
+    "user_id": 3790
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "ab804f63dc0b110ddc415db007de881126c7dbc2580447790a7ecbb7e710ae48",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      767,
+      530,
+      171,
+      310,
+      1949,
+      183,
+      65,
+      1615,
+      2510,
+      807
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "48c19f87bf084159872dc8236ad6cf23"
+    ],
+    "sampled_item_ids": [
+      49,
+      98,
+      117,
+      129,
+      142,
+      173,
+      214,
+      250,
+      259,
+      310,
+      375,
+      377,
+      384,
+      435,
+      471,
+      543,
+      711,
+      942,
+      1432,
+      1543,
+      1615,
+      1642,
+      1949,
+      2037,
+      2583
+    ],
+    "seed": 42,
+    "source_hash": "b3518c56d05d7736c4a216384b9c4b51ac1e91153eeee28ddefc0eb9d5142784",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3237,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Michael Murphy",
+          "Mariel Hemingway"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The life of a divorced television writer dating a teenage girl is further complicated when he falls in love with his best friend's mistress.",
+        "release_date": "1979-04-25",
+        "release_year": "1979",
+        "title": "Manhattan"
+      },
+      {
+        "cast": [
+          "Dave Hoover",
+          "George Mendonça",
+          "Raymond A. Mendez",
+          "Rodney Brooks"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Errol Morris",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "Hilarious, sad, absurd, eerie and beautiful, \"FAST, CHEAP &amp; OUT OF CONTROL\" is a film like no other. Starting as a darkly funny contemplation of the Sisyphus-like nature of human striving, it ultimately becomes a profoundly moving meditation on the very nature of existence.",
+        "release_date": "1997-10-03",
+        "release_year": "1997",
+        "title": "Fast, Cheap & Out of Control"
+      },
+      {
+        "cast": [
+          "Ge You",
+          "Gong Li",
+          "Niu Ben",
+          "Jiang Wu"
+        ],
+        "country": [
+          "China",
+          "Hong Kong"
+        ],
+        "director": "Zhang Yimou",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Chinese",
+        "overview": "Fugui and Jiazhen endure tumultuous events in China as their personal fortunes move from wealthy landownership to peasantry.",
+        "release_date": "1994-06-30",
+        "release_year": "1994",
+        "title": "To Live (Huozhe)"
+      },
+      {
+        "cast": [
+          "Leslie Nielsen",
+          "Priscilla Presley",
+          "Ricardo Montalban",
+          "George Kennedy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Zucker",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the incompetent Officer Frank Drebin seeks the ruthless killer of his partner, he stumbles upon an attempt to assassinate Queen Elizabeth.",
+        "release_date": "1988-12-02",
+        "release_year": "1988",
+        "title": "Naked Gun: From the Files of Police Squad!, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Élodie Bouchez",
+          "Natacha Régnier",
+          "Patrick Mercado",
+          "Grégoire Colin"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Erick Zonca",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "In Lille, two penniless young women with few prospects become friends. Isa moves in with Marie, who's flat-sitting for a mother and child in hospital in comas following a car crash. Isa is out-going, unskilled, with hopes of moving south to warmer climes. Marie usually is either angry or detached. Then, while Isa begins to visit the child in whose flat they live, going to hospital to read to her, Marie slowly falls for a rich youth. At first Marie keeps him at bay, then she not only pursues him, she begins to dream he is her life's love. When Isa tries to warn Marie, their friendship flounders. How will Marie handle the inevitable? And once they lose the flat, where will they go?",
+        "release_date": "1998-09-16",
+        "release_year": "1998",
+        "title": "Dreamlife of Angels, The (La Vie rêvée des anges)"
+      },
+      {
+        "cast": [
+          "Nikita Mikhalkov",
+          "Oleg Menshikov",
+          "Ingeborga Dapkunaite",
+          "Vyacheslav Tikhonov"
+        ],
+        "country": [
+          "France",
+          "Russia"
+        ],
+        "director": "Nikita Mikhalkov",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Russian",
+        "overview": "Russia, 1936: revolutionary hero Colonel Kotov is spending an idyllic summer in his dacha with his young wife and six-year-old daughter Nadia and other assorted family and friends. Things change dramatically with the unheralded arrival of Cousin Dmitri from Moscow, who charms the women and little Nadia with his games and pianistic bravura. But Kotov isn't fooled: this is the time of Stalin's repression, with telephone calls in the middle of the night spelling doom - and he knows that Dmitri isn't paying a social call...",
+        "release_date": "1994-05-01",
+        "release_year": "1994",
+        "title": "Burnt By the Sun (Utomlyonnye solntsem)"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Ben Duncan (DJ)",
+          "Daniel Okrent",
+          "Dan Moran"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A comedic biopic focused on the life of fictional jazz guitarist Emmett Ray. Ray was an irresponsible, free-spending, arrogant, obnoxious, alcohol-abusing, miserable human being, who was also arguably the best guitarist in the world.",
+        "release_date": "1999-12-03",
+        "release_year": "1999",
+        "title": "Sweet and Lowdown"
+      }
+    ],
+    "raw_user_id": "3237",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 64
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9707042922126637
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for romantic comedies that may not resonate with the user's taste.",
+        "Dislike for films that lack engaging plots or character development."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and character-driven narratives.",
+        "High ratings for films that blend genres, such as drama with comedy or romance.",
+        "Consistent enjoyment of films with strong storytelling and emotional depth."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user has rated multiple drama films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (Several comedies received high ratings, suggesting the user enjoys humor and light-hearted storytelling.); Interest in Thrillers (The user has rated thrillers positively, showing a taste for suspenseful and engaging narratives.); Fondness for Romance (Romantic elements in various films have been well-received, indicating a liking for romantic storylines.); Affinity for Action (Action films have also garnered high ratings, reflecting an appreciation for excitement and adventure.). Liked patterns: Strong preference for drama and character-driven narratives., High ratings for films that blend genres, such as drama with comedy or romance., Consistent enjoyment of films with strong storytelling and emotional depth.. Disliked patterns: Negative ratings for romantic comedies that may not resonate with the user's taste., Dislike for films that lack engaging plots or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies received high ratings, suggesting the user enjoys humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has rated thrillers positively, showing a taste for suspenseful and engaging narratives.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "Romantic elements in various films have been well-received, indicating a liking for romantic storylines.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "Action films have also garnered high ratings, reflecting an appreciation for excitement and adventure.",
+          "taste": "Affinity for Action"
+        }
+      ]
+    },
+    "user_id": 3237
+  }
+}

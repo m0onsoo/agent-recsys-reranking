@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "9a5ac80519a176f4a9b3fa295d4dd9e3d7bf9b94a6f502982cee689638e6937c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1618,
+      7,
+      2327,
+      1663,
+      439,
+      59,
+      1858,
+      1609,
+      521,
+      656
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9e07cb80e3284f9f8e03411fa0377953"
+    ],
+    "sampled_item_ids": [
+      10,
+      27,
+      81,
+      92,
+      243,
+      343,
+      365,
+      439,
+      462,
+      658,
+      674,
+      699,
+      895,
+      899,
+      967,
+      1301,
+      1319,
+      1388,
+      1408,
+      1620,
+      1877,
+      2001,
+      2228,
+      2380,
+      2625
+    ],
+    "seed": 42,
+    "source_hash": "23d47e38b67bdaa8ff93141b54675f9f1277d5b10d7d5e67cd21f9b27223186e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 424,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Robin Williams",
+          "Shelley Duvall",
+          "Ray Walston",
+          "Paul Dooley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Altman",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Popeye is a super-strong, spinach-scarfing sailor man who's searching for his father. During a storm that wrecks his ship, Popeye washes ashore and winds up rooming at the Oyl household, where he meets Olive. Before he can win her heart, he must first contend with Olive's fiancé, Bluto.",
+        "release_date": "1980-12-12",
+        "release_year": "1980",
+        "title": "Popeye"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Jack Hawkins",
+          "Haya Harareet",
+          "Stephen Boyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ben-Hur is a 1959 epic film directed by William Wyler, the third film version of Civil War vet Lew Wallace's 1880 novel Ben-Hur: A Tale of the Christ. It premiered at Loew's State Theatre in New York City on November 18, 1959. The movie's reputation as a classic is primarily based on two spectacular action sequences:  the great chariot race and a Roman naval battle, along with lavish production values and strong performances.  The plot of Ben Hur revolves around a Jewish prince who is betrayed and sent into slavery by a Roman friend and how he regains his freedom and comes back for revenge. However, instead he finds redemption in Christ, the theme is ultimately about being saved in the Christian sense.  The film went on to win a record of eleven Academy Awards, including Best Picture and Best Actor (Charlton Heston as Ben Hur). This record-setting Oscars sweep has since been equaled by Titanic in 1998 and The Lord of the Rings: The Return of the King in 2004, but never broken.",
+        "release_date": "1959-12-26",
+        "release_year": "1959",
+        "title": "Ben-Hur"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Rutger Hauer",
+          "Billy Dee Williams",
+          "Lindsay Wagner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bruce Malmuth",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An international terrorist has New York in a grip of panic and it's up to Det. Sgt. Deke DaSilva to take him down.",
+        "release_date": "1981-03-17",
+        "release_year": "1981",
+        "title": "Nighthawks"
+      },
+      {
+        "cast": [
+          "Mickey Rourke",
+          "Robert De Niro",
+          "Lisa Bonet",
+          "Charlotte Rampling"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The down-and-out private detective Harry Angel is ordered, by a mysterious man named Louis Cyphre, to go on a mission to find a missing person. His routine failure soon leads to a bloody spar with himself as Harry Angel goes on a supernatural journey into his soul.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Angel Heart"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Laura Linney",
+          "Noah Emmerich",
+          "Natascha McElhone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Truman Burbank is the star of \"The Truman Show\", a 24-hour-a-day \"reality\" TV show that broadcasts every aspect of his life -- live and in color -- without his knowledge. His entire life has been an unending soap opera for consumption by the rest of the world. And everyone he knows -- including his wife and his best friend -- is really an actor, paid to be part of his life.",
+        "release_date": "1998-06-04",
+        "release_year": "1998",
+        "title": "Truman Show, The"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jon Voight",
+          "Emmanuelle Béart",
+          "Henry Czerny"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the No. 1 suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
+        "release_date": "1996-05-22",
+        "release_year": "1996",
+        "title": "Mission: Impossible"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Tommy Lee Jones",
+          "Suzy Amis",
+          "Lloyd Bridges"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Hopkins",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Blown Away tells the story of Jimmy Dove who works for the Boston bomb squad. Shortly after Dove leaves the force his partner is killed by a bomb that Dove thinks might have been made by someone he knows.",
+        "release_date": "1994-07-01",
+        "release_year": "1994",
+        "title": "Blown Away"
+      },
+      {
+        "cast": [
+          "John Wayne",
+          "Jeffrey Hunter",
+          "Vera Miles",
+          "Natalie Wood"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Ford",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "As a Civil War veteran spends years searching for a young niece captured by Indians, his motivation becomes increasingly questionable.",
+        "release_date": "1956-03-13",
+        "release_year": "1956",
+        "title": "Searchers, The"
+      },
+      {
+        "cast": [
+          "John Turturro",
+          "Rob Morrow",
+          "Ralph Fiennes",
+          "Paul Scofield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Redford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Quiz Show is a 1994 American historical drama film which tells the true story of the Twenty One quiz show scandal of the 1950s.",
+        "release_date": "1994-09-16",
+        "release_year": "1994",
+        "title": "Quiz Show"
+      },
+      {
+        "cast": [
+          "Kirk Douglas",
+          "James Mason",
+          "Paul Lukas",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Fleischer",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A ship sent to investigate a wave of mysterious sinkings encounters the advanced submarine, the Nautilus, commanded by Captain Nemo.",
+        "release_date": "1954-12-23",
+        "release_year": "1954",
+        "title": "20,000 Leagues Under the Sea"
+      }
+    ],
+    "raw_user_id": "424",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 982
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.550433375460697
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films with low ratings in the mystery and horror genres."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and emotional narratives.",
+        "Enjoyment of thrillers with suspenseful elements.",
+        "Appreciation for adventure and imaginative storytelling."
+      ],
+      "summary": "Unique tastes: Drama (A significant number of highly rated films fall within the drama genre, indicating a strong preference for emotional and character-driven narratives.); Thriller (Several films rated 3 or above belong to the thriller genre, suggesting an appreciation for suspenseful and engaging plots.); Adventure (The user enjoys adventure films, as evidenced by multiple high ratings in this genre, reflecting a taste for imaginative and exploratory storytelling.); Comedy (The presence of multiple comedies rated 3 or above indicates a liking for humor and light-hearted entertainment.); Children's (The user has rated several children's films positively, showing an affinity for family-friendly and whimsical stories.). Liked patterns: Strong preference for drama and emotional narratives., Enjoyment of thrillers with suspenseful elements., Appreciation for adventure and imaginative storytelling.. Disliked patterns: Dislike for films with low ratings in the mystery and horror genres..",
+      "unique_tastes": [
+        {
+          "reason": "A significant number of highly rated films fall within the drama genre, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Several films rated 3 or above belong to the thriller genre, suggesting an appreciation for suspenseful and engaging plots.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user enjoys adventure films, as evidenced by multiple high ratings in this genre, reflecting a taste for imaginative and exploratory storytelling.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "The presence of multiple comedies rated 3 or above indicates a liking for humor and light-hearted entertainment.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user has rated several children's films positively, showing an affinity for family-friendly and whimsical stories.",
+          "taste": "Children's"
+        }
+      ]
+    },
+    "user_id": 424
+  }
+}

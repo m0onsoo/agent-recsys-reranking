@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "e275e6b68dc09a882db6cfeb045c342ace23a3300dbc625065808bf12b61c584",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1965,
+      1850,
+      67,
+      754,
+      826,
+      111,
+      733,
+      730,
+      4,
+      429
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ff8aab5e07cf4d0393de60e880acdb9d"
+    ],
+    "sampled_item_ids": [
+      4,
+      28,
+      49,
+      67,
+      93,
+      129,
+      172,
+      387,
+      438,
+      449,
+      472,
+      473,
+      488,
+      573,
+      680,
+      800,
+      826,
+      844,
+      1257,
+      1334,
+      1529,
+      1593,
+      1748,
+      1850,
+      1938
+    ],
+    "seed": 42,
+    "source_hash": "913bcb2f00d12fe0ac6991ca4c1344e5b4fef0887697721421abe220478cbcee",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2371,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Holly Hunter",
+          "Will Patton",
+          "William McNamara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An agoraphobic psychologist and a female detective must work together to take down a serial killer who copies serial killers from the past.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Copycat"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Ian McNeice",
+          "Simon Callow",
+          "Maynard Eziashi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve Oedekerk",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Summoned from an ashram in Tibet, Ace finds himself on a perilous journey into the jungles of Africa to find Shikaka, the missing sacred animal of the friendly Wachati tribe. He must accomplish this before the wedding of the Wachati's Princess to the prince of the warrior Wachootoos. If Ace fails, the result will be a vicious tribal war.",
+        "release_date": "1995-11-10",
+        "release_year": "1995",
+        "title": "Ace Ventura: When Nature Calls"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Richard Gere",
+          "Sidney Poitier",
+          "Diane Venora"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Caton-Jones",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Hired by a powerful member of the Russian mafia to avenge an FBI sting that left his brother dead, the perfectionist Jackal proves an elusive target for the men charged with the task of bringing him down: a deputy FBI boss and a former IRA terrorist.",
+        "release_date": "1997-11-14",
+        "release_year": "1997",
+        "title": "Jackal, The"
+      },
+      {
+        "cast": [
+          "Demi Moore",
+          "Viggo Mortensen",
+          "Anne Bancroft",
+          "Jason Beghe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A female Senator succeeds in enrolling a woman into Combined Reconnaissance Team training where everyone expects her to fail.",
+        "release_date": "1997-08-22",
+        "release_year": "1997",
+        "title": "G.I. Jane"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Billy Crystal",
+          "Lisa Kudrow",
+          "Chazz Palminteri"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Countless wiseguy films are spoofed in this film that centers on the neuroses and angst of a powerful Mafia racketeer who suffers from panic attacks. When Paul Vitti needs help dealing with his role in the \"family,\" unlucky shrink Dr. Ben Sobel is given just days to resolve Vitti's emotional crisis and turn him into a happy, well-adjusted gangster.",
+        "release_date": "1999-03-05",
+        "release_year": "1999",
+        "title": "Analyze This"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Madeleine Stowe",
+          "Russell Means",
+          "Eric Schweig"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Action",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As the English and French soldiers battle for control of the American colonies in the 18th century, the settlers and native Americans are forced to take sides. Cora and her sister Alice unwittingly walk into trouble but are reluctantly saved by Hawkeye, an orphaned settler adopted by the last of the Mohicans.",
+        "release_date": "1992-09-25",
+        "release_year": "1992",
+        "title": "Last of the Mohicans, The"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Courtney Love",
+          "Bob Zmuda",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A film about the life and career of the eccentric avant-garde comedian, Andy Kaufman.",
+        "release_date": "1999-12-22",
+        "release_year": "1999",
+        "title": "Man on the Moon"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Meg Ryan",
+          "Bill Pullman",
+          "Ross Malinger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nora Ephron",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A young boy who tries to set his dad up on a date after the death of his mother. He calls into a radio station to talk about his dad’s loneliness which soon leads the dad into meeting a Journalist Annie who flies to Seattle to write a story about the boy and his dad. Yet Annie ends up with more than just a story in this popular romantic comedy.",
+        "release_date": "1993-06-24",
+        "release_year": "1993",
+        "title": "Sleepless in Seattle"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Albert Finney",
+          "Aaron Eckhart",
+          "Marg Helgenberger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "Erin Brockovich"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kelly McGillis",
+          "Josef Sommer",
+          "Lukas Haas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A sheltered Amish child is the sole witness of a brutal murder in a restroom at a Philadelphia train station, and he must be protected.  The assignment falls to a taciturn detective who goes undercover in a Pennsylvania Dutch community. On the farm, he slowly assimilates despite his urban grit and forges a romantic bond with the child's beautiful mother.",
+        "release_date": "1985-02-08",
+        "release_year": "1985",
+        "title": "Witness"
+      }
+    ],
+    "raw_user_id": "2371",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 65
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.5867897956082708
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films that lack depth or strong narratives",
+        "Negative response to comedies that do not resonate emotionally"
+      ],
+      "liked_patterns": [
+        "Preference for films that combine Drama and Romance",
+        "Enjoyment of films with strong emotional narratives",
+        "Tendency to rate thrillers highly when they include psychological elements"
+      ],
+      "summary": "Unique tastes: Strong preference for Drama and Romance (Many highly rated films fall within these genres, indicating a strong emotional connection to character-driven narratives.); Appreciation for Action films with dramatic elements (Several action films rated positively suggest enjoyment of intense, plot-driven experiences that also explore deeper themes.); Interest in Thrillers with psychological depth (High ratings for thrillers indicate a preference for suspenseful narratives that engage the mind and evoke strong emotions.); Enjoyment of Comedic elements in Drama and Romance (Positive ratings for comedies that blend with drama and romance suggest a liking for humor that complements emotional storytelling.); Favoring War-themed narratives (Films that incorporate war themes and are rated positively show an appreciation for stories that explore conflict and human resilience.). Liked patterns: Preference for films that combine Drama and Romance, Enjoyment of films with strong emotional narratives, Tendency to rate thrillers highly when they include psychological elements. Disliked patterns: Dislike for action films that lack depth or strong narratives, Negative response to comedies that do not resonate emotionally.",
+      "unique_tastes": [
+        {
+          "reason": "Many highly rated films fall within these genres, indicating a strong emotional connection to character-driven narratives.",
+          "taste": "Strong preference for Drama and Romance"
+        },
+        {
+          "reason": "Several action films rated positively suggest enjoyment of intense, plot-driven experiences that also explore deeper themes.",
+          "taste": "Appreciation for Action films with dramatic elements"
+        },
+        {
+          "reason": "High ratings for thrillers indicate a preference for suspenseful narratives that engage the mind and evoke strong emotions.",
+          "taste": "Interest in Thrillers with psychological depth"
+        },
+        {
+          "reason": "Positive ratings for comedies that blend with drama and romance suggest a liking for humor that complements emotional storytelling.",
+          "taste": "Enjoyment of Comedic elements in Drama and Romance"
+        },
+        {
+          "reason": "Films that incorporate war themes and are rated positively show an appreciation for stories that explore conflict and human resilience.",
+          "taste": "Favoring War-themed narratives"
+        }
+      ]
+    },
+    "user_id": 2371
+  }
+}

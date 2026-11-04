@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "50ff4dd5277c534540ab8bb912ef7eca737c2902438959b9d9f76182172ba3b7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1,
+      2623,
+      830,
+      520,
+      247,
+      941,
+      2009,
+      1998,
+      190,
+      2511
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "88ef0616041540ce95c43cc11d98f99e"
+    ],
+    "sampled_item_ids": [
+      53,
+      190,
+      247,
+      265,
+      410,
+      487,
+      490,
+      520,
+      795,
+      951,
+      1088,
+      1254,
+      1298,
+      1319,
+      1454,
+      1560,
+      1567,
+      1587,
+      1667,
+      1683,
+      1965,
+      2093,
+      2100,
+      2623,
+      2806
+    ],
+    "seed": 42,
+    "source_hash": "848222c7dd1e42c2621ff8430f24b10809e712fe8f2187ced65d2e655f34c3fc",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 285,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Louise Fletcher",
+          "Danny DeVito",
+          "William Redfield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
+        "release_date": "1975-11-18",
+        "release_year": "1975",
+        "title": "One Flew Over the Cuckoo's Nest"
+      },
+      {
+        "cast": [],
+        "country": [
+          "unkown"
+        ],
+        "director": "Jean Bach",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "Art Kane, now deceased, coordinated a group photograph of all the top jazz musicians in NYC in the year 1958, for a piece in Esquire magazine. Just about every jazz musician at the time showed up for the photo shoot which took place in front of a brownstone near the 125th street station. The documentary compiles interviews of many of the musicians in the photograph to talk about the day of the photograph, and it shows film footage taken that day by Milt Hinton and his wife.",
+        "release_date": "1994-09-27",
+        "release_year": "1994",
+        "title": "Great Day in Harlem, A"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "John Cazale",
+          "Charles Durning",
+          "Chris Sarandon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A man robs a bank to pay for his lover's operation; it turns into a hostage situation and a media circus.",
+        "release_date": "1975-08-11",
+        "release_year": "1975",
+        "title": "Dog Day Afternoon"
+      },
+      {
+        "cast": [
+          "Dennis Quaid",
+          "Jim Caviezel",
+          "Andre Braugher",
+          "Elizabeth Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Hoblit",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a rare phenomenon gives police officer John Sullivan the chance to speak to his father, 30 years in the past, he takes the opportunity to prevent his dad's tragic death.  After his actions inadvertently give rise to a series of brutal murders he and his father must find a way to fix the consequences of altering time.",
+        "release_date": "2000-04-28",
+        "release_year": "2000",
+        "title": "Frequency"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "Joan Crawford",
+          "John Ireland",
+          "Leif Erickson",
+          "Sara Lane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Castle",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When two teenagers make prank phone calls to strangers, they become the target for terror when they whisper \"I Saw What You Did, And I Know Who You Are!\" to psychopath Steve Marek who has just murdered his wife. But somebody else knows of the terrible crime that was committed that night, the killer's desperately amorous neighbor Amy Nelson.",
+        "release_date": "1965-07-21",
+        "release_year": "1965",
+        "title": "I Saw What You Did"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Joe Pesci",
+          "Cathy Moriarty",
+          "Frank Vincent"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When Jake LaMotta steps into a boxing ring and obliterates his opponent, he's a prizefighter. But when he treats his family and friends the same way, he's a ticking time bomb, ready to go off at any moment. Though LaMotta wants his family's love, something always seems to come between them. Perhaps it's his violent bouts of paranoia and jealousy. This kind of rage helped make him a champ, but in real life, he winds up in the ring alone.",
+        "release_date": "1980-11-14",
+        "release_year": "1980",
+        "title": "Raging Bull"
+      },
+      {
+        "cast": [
+          "Richard Bohringer",
+          "Michael Gambon",
+          "Helen Mirren",
+          "Alan Howard"
+        ],
+        "country": [
+          "United Kingdom",
+          "France"
+        ],
+        "director": "Peter Greenaway",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The wife of a barbaric crime boss engages in a secretive romance with a gentle bookseller between meals at her husband's restaurant. Food, colour coding, sex, murder, torture and cannibalism are the exotic fare in this beautifully filmed but brutally uncompromising modern fable which has been interpreted as an allegory for Thatcherism.",
+        "release_date": "1989-09-10",
+        "release_year": "1989",
+        "title": "Cook the Thief His Wife & Her Lover, The"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Sandra Bernhard",
+          "Isaac Mizrahi",
+          "Naomi Campbell",
+          "John Galliano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Douglas Keeve",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "Using a variety of cinematographic techniques, the world of high- profile fashion designer Issac Mizrahi is portrayed as being driven by excitement and creativity, despite the concomitant chaos and cacophony. Mizrahi's frenzied genius and rollercoaster emotions paint a humorous and personal portrait of a brilliant designer. Famous \"SuperModels\", actors, and actresses populate Issac's rarified world, but Douglas Keeve's cameras capture the stress and turbulence beneath the placid coolness of glamour. Written by Tad Dibbern",
+        "release_date": "1995-08-11",
+        "release_year": "1995",
+        "title": "Unzipped"
+      }
+    ],
+    "raw_user_id": "285",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 113
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8244322179976611
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to films with low character complexity",
+        "Dislike for certain action-oriented narratives"
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and character-driven narratives",
+        "Enjoyment of films that blend comedy with serious themes",
+        "High ratings for thrillers and suspenseful plots"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user has rated multiple drama films highly, indicating a strong preference for this genre.); Interest in Thrillers (Several thrillers received high ratings, suggesting the user enjoys suspenseful and intense narratives.); Fondness for Comedy-Drama Blends (The user has shown a liking for films that combine comedy and drama, as evidenced by multiple high ratings in this category.); Engagement with Complex Characters (The user tends to favor films featuring intricate character development and moral dilemmas, as seen in their high ratings.); Enjoyment of Documentaries (The user has rated documentaries highly, indicating an interest in real-life stories and informative content.). Liked patterns: Strong preference for drama and character-driven narratives, Enjoyment of films that blend comedy with serious themes, High ratings for thrillers and suspenseful plots. Disliked patterns: Negative response to films with low character complexity, Dislike for certain action-oriented narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several thrillers received high ratings, suggesting the user enjoys suspenseful and intense narratives.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user has shown a liking for films that combine comedy and drama, as evidenced by multiple high ratings in this category.",
+          "taste": "Fondness for Comedy-Drama Blends"
+        },
+        {
+          "reason": "The user tends to favor films featuring intricate character development and moral dilemmas, as seen in their high ratings.",
+          "taste": "Engagement with Complex Characters"
+        },
+        {
+          "reason": "The user has rated documentaries highly, indicating an interest in real-life stories and informative content.",
+          "taste": "Enjoyment of Documentaries"
+        }
+      ]
+    },
+    "user_id": 285
+  }
+}

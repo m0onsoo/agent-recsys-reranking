@@ -1,0 +1,328 @@
+{
+  "checkpoint_hash": "27002cc4fd0b956e6b9d5d94df8b9bed5a80f3a8cc0526e81054f40668379e88",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      245,
+      86,
+      49,
+      479,
+      507,
+      1417,
+      52,
+      356,
+      157,
+      892
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ce554b9e1e0840deaf71c98498601fcc"
+    ],
+    "sampled_item_ids": [
+      23,
+      49,
+      52,
+      86,
+      93,
+      104,
+      157,
+      200,
+      245,
+      257,
+      276,
+      293,
+      318,
+      356,
+      439,
+      479,
+      484,
+      507,
+      763,
+      892,
+      1417
+    ],
+    "seed": 42,
+    "source_hash": "31ab60067bbddfe5bfc553743c90ec262f6bd04c85b6d8bb23d889b7ee93a1b1",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 607,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Michael Clarke Duncan",
+          "David Morse",
+          "Bonnie Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cellblock's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Green Mile, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Jean-Paul Belmondo",
+          "Michel Boujenah",
+          "Alessandra Martines",
+          "Salomé Lelouch"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Claude Lelouch",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "French",
+        "overview": "In France during World War II, a poor and illiterate man, Henri Fortin (Jean-Paul Belmondo), is introduced to Victor Hugo's classic novel Les Misérables and begins to see parallels between the book and his own life.",
+        "release_date": "1995-03-22",
+        "release_year": "1995",
+        "title": "Misérables, Les"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Edward Furlong",
+          "Beverly D'Angelo",
+          "Avery Brooks"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Kaye",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Derek Vineyard is paroled after serving 3 years in prison for killing two thugs who tried to break into/steal his truck. Through his brother, Danny Vineyard's narration, we learn that before going to prison, Derek was a skinhead and the leader of a violent white supremacist gang that committed acts of racial crime throughout L.A. and his actions greatly influenced Danny. Reformed and fresh out of prison, Derek severs contact with the gang and becomes determined to keep Danny from going down the same violent path as he did.",
+        "release_date": "1998-10-30",
+        "release_year": "1998",
+        "title": "American History X"
+      },
+      {
+        "cast": [
+          "James Van Der Beek",
+          "Amy Smart",
+          "Jon Voight",
+          "Paul Walker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian Robbins",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In small-town Texas, high school football is a religion, 17-year-old schoolboys carry the hopes of an entire community onto the gridiron every Friday night. When star quarterback Lance Harbor suffers an injury, the Coyotes are forced to regroup under the questionable leadership of John Moxon, a second-string quarterback with a slightly irreverent approach to the game.",
+        "release_date": "1999-01-15",
+        "release_year": "1999",
+        "title": "Varsity Blues"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Stanley Tucci",
+          "Tony Shalhoub",
+          "Marc Anthony",
+          "Minnie Driver"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Tucci",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Primo &amp; Secondo, two immigrant brothers, pin their hopes on a banquet honoring Louis Prima to save their struggling restaurant.",
+        "release_date": "1996-09-20",
+        "release_year": "1996",
+        "title": "Big Night"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Geena Davis",
+          "Harvey Keitel",
+          "Brad Pitt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Whilst on a short weekend getaway, Louise shoots a man who had tried to rape Thelma. Due to the incriminating circumstances, they make a run for it and thus a cross country chase ensues for the two fugitives. Along the way, both women rediscover the strength of their friendship and surprising aspects of their personalities and self-strengths in the trying times.",
+        "release_date": "1991-05-24",
+        "release_year": "1991",
+        "title": "Thelma & Louise"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Rene Russo",
+          "Denis Leary",
+          "Ben Gazzara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A very rich and successful playboy amuses himself by stealing artwork, but may have met his match in a seductive detective.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Thomas Crown Affair, The"
+      }
+    ],
+    "raw_user_id": "607",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 21
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5701583149785733
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 10
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for a film that lacks dramatic depth or engaging storytelling."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with action or thriller elements.",
+        "Consistent appreciation for films that feature strong character development and moral dilemmas."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Action (Enjoyment of action-packed films is reflected in several high ratings, indicating a taste for excitement and intensity.); Thriller (A liking for thrillers is shown through positive ratings, suggesting an appreciation for suspenseful storytelling.); Crime (An affinity for crime dramas is indicated by high ratings, highlighting a preference for complex narratives involving moral ambiguity.); Comedy (A moderate interest in comedies is present, as seen in several ratings, suggesting enjoyment of humor alongside other genres.). Liked patterns: High ratings for films that blend drama with action or thriller elements., Consistent appreciation for films that feature strong character development and moral dilemmas.. Disliked patterns: Negative rating for a film that lacks dramatic depth or engaging storytelling..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Enjoyment of action-packed films is reflected in several high ratings, indicating a taste for excitement and intensity.",
+          "taste": "Action"
+        },
+        {
+          "reason": "A liking for thrillers is shown through positive ratings, suggesting an appreciation for suspenseful storytelling.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "An affinity for crime dramas is indicated by high ratings, highlighting a preference for complex narratives involving moral ambiguity.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "A moderate interest in comedies is present, as seen in several ratings, suggesting enjoyment of humor alongside other genres.",
+          "taste": "Comedy"
+        }
+      ]
+    },
+    "user_id": 607
+  }
+}

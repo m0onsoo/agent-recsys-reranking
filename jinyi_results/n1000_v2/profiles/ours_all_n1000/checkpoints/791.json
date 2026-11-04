@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "5f61211ba4227abe853659c0c0c6e3067734cb27cafcede1a3a129716104dbfb",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1272,
+      90,
+      1040,
+      681,
+      595,
+      2409,
+      185,
+      6,
+      91,
+      134
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8c7206f0642244f3ae602cf8f4713cf4"
+    ],
+    "sampled_item_ids": [
+      2,
+      27,
+      63,
+      79,
+      93,
+      118,
+      140,
+      327,
+      391,
+      435,
+      559,
+      568,
+      587,
+      633,
+      681,
+      776,
+      809,
+      1006,
+      1039,
+      1314,
+      1420,
+      1729,
+      2013,
+      2045,
+      2409
+    ],
+    "seed": 42,
+    "source_hash": "da0c564e10c52a58a1341535c95a266174a046e27ef81de1c3c946da5c6ede8f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 791,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sylvester Stallone",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After Rocky goes the distance with champ Apollo Creed, both try to put the fight behind them and move on. Rocky settles down with Adrian but can't put his life together outside the ring, while Creed seeks a rematch to restore his reputation. Soon enough, the \"Master of Disaster\" and the \"Italian Stallion\" are set on a collision course for a climactic battle that is brutal and unforgettable.",
+        "release_date": "1979-06-15",
+        "release_year": "1979",
+        "title": "Rocky II"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Geena Davis",
+          "Madonna",
+          "Lori Petty"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Small-town sisters Dottie and Kit join an all-female baseball league formed after World War II brings pro baseball to a standstill. When their team hits the road with its drunken coach, the siblings find troubles and triumphs on and off the field.",
+        "release_date": "1992-07-01",
+        "release_year": "1992",
+        "title": "League of Their Own, A"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Robert Mitchum",
+          "Polly Bergen",
+          "Lori Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "J. Lee Thompson",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Bowden witnesses a rape committed by Max Cady and testifies against him. When released after 8 years in prison, Cady begins stalking Bowden and his family but is always clever enough not to violate the law.",
+        "release_date": "1962-04-12",
+        "release_year": "1962",
+        "title": "Cape Fear"
+      },
+      {
+        "cast": [
+          "Angela Lansbury",
+          "David Tomlinson",
+          "Roddy McDowall",
+          "Sam Jaffe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Stevenson",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Three children evacuated from London during World War II are forced to stay with an eccentric spinster (Eglantine Price). The children's initial fears disappear when they find out she is in fact a trainee witch.",
+        "release_date": "1971-10-07",
+        "release_year": "1971",
+        "title": "Bedknobs and Broomsticks"
+      },
+      {
+        "cast": [
+          "Sissy Spacek",
+          "Piper Laurie",
+          "Amy Irving",
+          "William Katt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Carrie may be ostracized, but the shy teen has the ability to move objects with her mind. So when the high school \"in crowd\" torments her with a sick joke at the prom, she lashes out with devastating -- and deadly -- power.",
+        "release_date": "1976-11-03",
+        "release_year": "1976",
+        "title": "Carrie"
+      },
+      {
+        "cast": [
+          "Henry Winkler",
+          "Michael Keaton",
+          "Shelley Long",
+          "Gina Hecht"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A nebbish of a morgue attendant gets shunted back to the night shift where he is shackled with an obnoxious neophyte partner who dreams of the \"one great idea\" for success. His life takes a bizarre turn when a prostitute neighbour complains about the loss of her pimp. His partner, upon hearing the situation, suggests that they fill that opening themselves using the morgue at night .",
+        "release_date": "1982-07-30",
+        "release_year": "1982",
+        "title": "Night Shift"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Anne Archer",
+          "Patrick Bergin",
+          "Thora Birch"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When CIA Analyst Jack Ryan interferes with an IRA assassination, a renegade faction targets Jack and his family as revenge.",
+        "release_date": "1992-06-04",
+        "release_year": "1992",
+        "title": "Patriot Games"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Billy Bob Thornton",
+          "Ben Affleck",
+          "Liv Tyler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When an asteroid threatens to collide with Earth, NASA honcho Dan Truman determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller Harry Stamper, who agrees to helm the dangerous space mission provided he can bring along his own hotshot crew. Among them is the cocksure A.J. who Harry thinks isn't good enough for his daughter, until the mission proves otherwise.",
+        "release_date": "1998-07-01",
+        "release_year": "1998",
+        "title": "Armageddon"
+      }
+    ],
+    "raw_user_id": "791",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 264
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.68640560095004
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror elements in children's films",
+        "Negative reception of thrillers with less engaging plots",
+        "Dislike for certain comedies that may not resonate"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films and musicals",
+        "Strong preference for action and adventure genres",
+        "Positive reception of dramas with war themes"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Children's Films (The user enjoys animated and children's films, as evidenced by multiple high ratings for titles in these genres.); Fondness for Action and Adventure (The user rates several action and adventure films highly, indicating a strong preference for thrilling narratives.); Interest in Drama and War Themes (The user shows a liking for dramas, particularly those with war themes, reflected in high ratings for such films.); Enjoyment of Comedic Elements (The user rates comedies positively, suggesting a preference for humor in their viewing choices.); Attraction to Sci-Fi and Fantasy (The user appreciates sci-fi and fantasy genres, as indicated by favorable ratings for films that explore these themes.). Liked patterns: High ratings for animated films and musicals, Strong preference for action and adventure genres, Positive reception of dramas with war themes. Disliked patterns: Dislike for horror elements in children's films, Negative reception of thrillers with less engaging plots, Dislike for certain comedies that may not resonate.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated and children's films, as evidenced by multiple high ratings for titles in these genres.",
+          "taste": "Appreciation for Animation and Children's Films"
+        },
+        {
+          "reason": "The user rates several action and adventure films highly, indicating a strong preference for thrilling narratives.",
+          "taste": "Fondness for Action and Adventure"
+        },
+        {
+          "reason": "The user shows a liking for dramas, particularly those with war themes, reflected in high ratings for such films.",
+          "taste": "Interest in Drama and War Themes"
+        },
+        {
+          "reason": "The user rates comedies positively, suggesting a preference for humor in their viewing choices.",
+          "taste": "Enjoyment of Comedic Elements"
+        },
+        {
+          "reason": "The user appreciates sci-fi and fantasy genres, as indicated by favorable ratings for films that explore these themes.",
+          "taste": "Attraction to Sci-Fi and Fantasy"
+        }
+      ]
+    },
+    "user_id": 791
+  }
+}

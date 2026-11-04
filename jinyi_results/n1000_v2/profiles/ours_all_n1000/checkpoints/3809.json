@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "d7c8d643c12696cda9fadd59701b7437d2db2a76677f74d6241870a4feaf485b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2365,
+      716,
+      214,
+      200,
+      152,
+      1155,
+      1286,
+      125,
+      241,
+      1229
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "49f74bcc7a8f48afb46b71af6b7d8318"
+    ],
+    "sampled_item_ids": [
+      6,
+      45,
+      49,
+      65,
+      79,
+      98,
+      100,
+      128,
+      137,
+      190,
+      200,
+      214,
+      216,
+      241,
+      432,
+      616,
+      715,
+      716,
+      756,
+      1081,
+      1093,
+      1110,
+      1155,
+      1286,
+      1699
+    ],
+    "seed": 42,
+    "source_hash": "fd4c5c83444992be52cec9bde63c91cfe2f0cc036837a7fb7dc884a7f36b2656",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3809,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Horror"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1958",
+        "title": "Dracula"
+      },
+      {
+        "cast": [
+          "Zach Galligan",
+          "Phoebe Cates",
+          "Hoyt Axton",
+          "Polly Holliday"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "When Billy Peltzer is given a strange but adorable pet named Gizmo for Christmas, he inadvertently breaks the three important rules of caring for a Mogwai, and unleashes a horde of mischievous gremlins on a small town.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Gremlins"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Robert Shaw",
+          "Richard Dreyfuss",
+          "Lorraine Gary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
+        "release_date": "1975-06-18",
+        "release_year": "1975",
+        "title": "Jaws"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Katharine Ross",
+          "Strother Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot 'Sundance Kid'. As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "release_year": "1969",
+        "title": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Ursula Andress",
+          "Joseph Wiseman",
+          "Jack Lord"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terence Young",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "In the film that launched the James Bond saga, Agent 007 battles mysterious Dr. No, a scientific genius bent on destroying the U.S. space program. As the countdown to disaster begins, Bond must go to Jamaica, where he encounters beautiful Honey Ryder, to confront a megalomaniacal villain in his massive island headquarters.",
+        "release_date": "1962-10-04",
+        "release_year": "1962",
+        "title": "Dr. No"
+      },
+      {
+        "cast": [
+          "Bryan Brown",
+          "Brian Dennehy",
+          "Diane Venora",
+          "Cliff DeYoung"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mandel",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A movies special effects man is hired by a government agency to help stage the assassination of a well known gangster. When the agency double cross him, he uses his special effects to trap the gangster and the corrupt agents.",
+        "release_date": "1986-02-07",
+        "release_year": "1986",
+        "title": "F/X"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Samuel L. Jackson",
+          "Kevin Spacey",
+          "David Morse",
+          "Ron Rifkin"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "F. Gary Gray",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The police try to arrest expert hostage negotiator Danny Roman, who insists he's being framed for his partner's murder in what he believes is an elaborate conspiracy. Thinking there's evidence in the Internal Affairs offices that might clear him, he takes everyone in the office hostage and demands that another well-known negotiator be brought in to handle the situation and secretly investigate the conspiracy.",
+        "release_date": "1998-07-29",
+        "release_year": "1998",
+        "title": "Negotiator, The"
+      },
+      {
+        "cast": [
+          "Matthew Modine",
+          "Adam Baldwin",
+          "Vincent D'Onofrio",
+          "R. Lee Ermey"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+        "release_date": "1987-06-26",
+        "release_year": "1987",
+        "title": "Full Metal Jacket"
+      }
+    ],
+    "raw_user_id": "3809",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 39
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.477383830687902
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [],
+      "liked_patterns": [
+        "High ratings for action films with strong narratives and character development.",
+        "Frequent enjoyment of films that combine multiple genres, particularly action with comedy or drama.",
+        "Consistent preference for films that feature iconic characters or legendary stories."
+      ],
+      "summary": "Unique tastes: Action and Adventure (A strong preference for action-packed narratives that often include adventurous elements.); War Themes (An inclination towards films that explore war, conflict, and their consequences.); Thriller Elements (Enjoyment of suspenseful and thrilling plots that keep the audience engaged.); Comedy Integration (Appreciation for films that blend action with comedic elements, providing both excitement and humor.); Sci-Fi and Fantasy (A liking for stories that incorporate science fiction and fantasy elements, enhancing the imaginative experience.). Liked patterns: High ratings for action films with strong narratives and character development., Frequent enjoyment of films that combine multiple genres, particularly action with comedy or drama., Consistent preference for films that feature iconic characters or legendary stories.. Disliked patterns: no repeated disliked pattern identified.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for action-packed narratives that often include adventurous elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "An inclination towards films that explore war, conflict, and their consequences.",
+          "taste": "War Themes"
+        },
+        {
+          "reason": "Enjoyment of suspenseful and thrilling plots that keep the audience engaged.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "Appreciation for films that blend action with comedic elements, providing both excitement and humor.",
+          "taste": "Comedy Integration"
+        },
+        {
+          "reason": "A liking for stories that incorporate science fiction and fantasy elements, enhancing the imaginative experience.",
+          "taste": "Sci-Fi and Fantasy"
+        }
+      ]
+    },
+    "user_id": 3809
+  }
+}

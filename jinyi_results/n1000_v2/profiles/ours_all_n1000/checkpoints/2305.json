@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "a94e7d27c9f3139da2bdd9b6f930cb32f30c2518e1a2399dd7b9ebf744e0491d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1201,
+      1863,
+      1746,
+      28,
+      919,
+      807,
+      1626,
+      351,
+      1802,
+      41
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "0672ff758f5744afbcd56e5821b88e6c"
+    ],
+    "sampled_item_ids": [
+      41,
+      276,
+      316,
+      344,
+      382,
+      397,
+      398,
+      401,
+      419,
+      577,
+      640,
+      810,
+      820,
+      836,
+      884,
+      919,
+      1136,
+      1137,
+      1195,
+      1626,
+      1767,
+      1863,
+      2218,
+      2233,
+      2811
+    ],
+    "seed": 42,
+    "source_hash": "06f90891c1161efdfe2d1d2f63921cc654d649e06c03f8e20b64376ecfdb74b6",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2305,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ben Affleck",
+          "Matt Damon",
+          "Linda Fiorentino",
+          "Jason Mewes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The latest battle in the eternal war between Good and Evil has come to New Jersey in the late, late 20th Century. Angels, demons, apostles and prophets (of a sort) walk among the cynics and innocents of America and duke it out for the fate of humankind.",
+        "release_date": "1999-11-12",
+        "release_year": "1999",
+        "title": "Dogma"
+      },
+      {
+        "cast": [
+          "Denis Leary",
+          "Judy Davis",
+          "Kevin Spacey",
+          "Glynis Johns"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ted Demme",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A cat burglar is forced to take a bickering, dysfunctional family hostage on Christmas Eve.",
+        "release_date": "1994-03-09",
+        "release_year": "1994",
+        "title": "Ref, The"
+      },
+      {
+        "cast": [
+          "Jennifer Aniston",
+          "Paul Rudd",
+          "Hayden Panettiere",
+          "Alan Alda"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Hytner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A pregnant New York social worker begins to develop romantic feelings for her gay best friend, and decides she'd rather raise her child with him, much to the dismay of her overbearing boyfriend.",
+        "release_date": "1998-04-17",
+        "release_year": "1998",
+        "title": "Object of My Affection, The"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Leonardo DiCaprio",
+          "Frances Fisher",
+          "Billy Zane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "84 years later, a 101-year-old woman named Rose DeWitt Bukater tells the story to her granddaughter Lizzy Calvert, Brock Lovett, Lewis Bodine, Bobby Buell and Anatoly Mikailavich on the Keldysh about her life set in April 10th 1912, on a ship called Titanic when young Rose boards the departing ship with the upper-class passengers and her mother, Ruth DeWitt Bukater, and her fiancé, Caledon Hockley. Meanwhile, a drifter and artist named Jack Dawson and his best friend Fabrizio De Rossi win third-class tickets to the ship in a game. And she explains the whole story from departure until the death of Titanic on its first and last voyage April 15th, 1912 at 2:20 in the morning.",
+        "release_date": "1997-11-18",
+        "release_year": "1997",
+        "title": "Titanic"
+      },
+      {
+        "cast": [
+          "Bridget Fonda",
+          "Campbell Scott",
+          "Kyra Sedgwick",
+          "Sheila Kelley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Romantic comedy about six of Seattle's young people, most of whom live in the same apartment building and whose lives revolve around the city's ever-expanding music scene. The interrelated stories about each character's progress through the singles scene are intriguing and often very funny, and the soundtrack is a grunge fanatic's dream, with the likes of Soundgarden, Pearl Jam and Mudhoney.",
+        "release_date": "1992-09-18",
+        "release_year": "1992",
+        "title": "Singles"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Ben Duncan (DJ)",
+          "Daniel Okrent",
+          "Dan Moran"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A comedic biopic focused on the life of fictional jazz guitarist Emmett Ray. Ray was an irresponsible, free-spending, arrogant, obnoxious, alcohol-abusing, miserable human being, who was also arguably the best guitarist in the world.",
+        "release_date": "1999-12-03",
+        "release_year": "1999",
+        "title": "Sweet and Lowdown"
+      },
+      {
+        "cast": [
+          "Hope Davis",
+          "Philip Seymour Hoffman",
+          "Holland Taylor",
+          "Alan Gelfant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brad Anderson",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A lighthearted story about a man and a woman who seem destined to be together... and the hilarious chain of accidents that seem determined to keep them apart!",
+        "release_date": "1998-08-21",
+        "release_year": "1998",
+        "title": "Next Stop, Wonderland"
+      },
+      {
+        "cast": [
+          "Jason Schwartzman",
+          "Olivia Williams",
+          "Bill Murray",
+          "Seymour Cassel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Anderson",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a beautiful first-grade teacher arrives at a prep school, she soon attracts the attention of an ambitious teenager named Max, who quickly falls in love with her. Max turns to the father of two of his schoolmates for advice on how to woo the teacher. However, the situation soon gets complicated when Max's new friend becomes involved with her, setting the two pals against one another in a war for her attention.",
+        "release_date": "1998-09-17",
+        "release_year": "1998",
+        "title": "Rushmore"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Jerry Adler",
+          "Alan Alda"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A middle-aged couple suspects foul play when their neighbor's wife suddenly drops dead.",
+        "release_date": "1993-08-18",
+        "release_year": "1993",
+        "title": "Manhattan Murder Mystery"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Don Rickles",
+          "Jim Varney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+        "release_date": "1995-10-30",
+        "release_year": "1995",
+        "title": "Toy Story"
+      }
+    ],
+    "raw_user_id": "2305",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 63
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4308367725438786
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are purely comedic without deeper themes or narratives.",
+        "Negative ratings for films that attempt to blend comedy with crime or mystery but fail to engage."
+      ],
+      "liked_patterns": [
+        "Preference for comedies that incorporate romance and drama elements.",
+        "Enjoyment of family-friendly and children's films.",
+        "High ratings for films that blend humor with other genres."
+      ],
+      "summary": "Unique tastes: Comedy (A strong preference for comedies is evident, with multiple high ratings across various sub-genres.); Romantic Comedy (Enjoyment of romantic comedies is reflected in several ratings of 3 or above.); Drama (A liking for comedic dramas is shown through consistent ratings for films that blend humor with dramatic elements.); Children's Films (Positive ratings for children's films indicate an appreciation for family-friendly content.); Mystery and Thriller Elements (Interest in mystery and thriller genres is noted, particularly when combined with comedy.). Liked patterns: Preference for comedies that incorporate romance and drama elements., Enjoyment of family-friendly and children's films., High ratings for films that blend humor with other genres.. Disliked patterns: Dislike for films that are purely comedic without deeper themes or narratives., Negative ratings for films that attempt to blend comedy with crime or mystery but fail to engage..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for comedies is evident, with multiple high ratings across various sub-genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Enjoyment of romantic comedies is reflected in several ratings of 3 or above.",
+          "taste": "Romantic Comedy"
+        },
+        {
+          "reason": "A liking for comedic dramas is shown through consistent ratings for films that blend humor with dramatic elements.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Positive ratings for children's films indicate an appreciation for family-friendly content.",
+          "taste": "Children's Films"
+        },
+        {
+          "reason": "Interest in mystery and thriller genres is noted, particularly when combined with comedy.",
+          "taste": "Mystery and Thriller Elements"
+        }
+      ]
+    },
+    "user_id": 2305
+  }
+}

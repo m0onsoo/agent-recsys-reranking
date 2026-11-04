@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "4d3f9c4a069a4faebb5fd356caa3dc11841551de1951d995bd722ec2ef8d6736",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      500,
+      1634,
+      16,
+      1230,
+      715,
+      909,
+      774,
+      128,
+      1071,
+      712
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "1cfe764b938e43d0a3f23bd0ffd1a4ce"
+    ],
+    "sampled_item_ids": [
+      58,
+      106,
+      114,
+      128,
+      184,
+      232,
+      274,
+      278,
+      373,
+      417,
+      510,
+      712,
+      744,
+      886,
+      961,
+      1016,
+      1024,
+      1065,
+      1071,
+      1080,
+      1311,
+      1332,
+      1334,
+      1336,
+      1652
+    ],
+    "seed": 42,
+    "source_hash": "672b2956e3f3addb6c9fa31647611d5996ba22a10ad5deb8e13e8fc334295e67",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1595,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Cusack",
+          "Iben Hjejle",
+          "Todd Louiso",
+          "Jack Black"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When record store owner Rob Gordon gets dumped by his girlfriend, Laura, because he hasn't changed since they met, he revisits his top five breakups of all time in an attempt to figure out what went wrong. As Rob seeks out his former lovers to find out why they left, he keeps up his efforts to win Laura back.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "High Fidelity"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Sigourney Weaver",
+          "Linda Hunt",
+          "Michael Murphy"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Australian journalist Guy Hamilton travels to Indonesia to cover civil strife in 1965. There, on the eve of an attempted coup, he befriends a Chinese Australian photographer with a deep connection to and vast knowledge of the Indonesian people and also falls in love with a British national.",
+        "release_date": "1982-12-17",
+        "release_year": "1982",
+        "title": "Year of Living Dangerously"
+      },
+      {
+        "cast": [
+          "Robert Hays",
+          "Julie Hagerty",
+          "Kareem Abdul-Jabbar",
+          "Lloyd Bridges"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Abrahams",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Alcoholic pilot, Ted Striker has developed a fear of flying due to wartime trauma, but nevertheless boards a passenger jet in an attempt to woo back his stewardess girlfriend. Food poisoning decimates the passengers and crew, leaving it up to Striker to land the plane with the help of a glue-sniffing air traffic controller and Striker's vengeful former Air Force captain, who must both talk him down.",
+        "release_date": "1980-07-02",
+        "release_year": "1980",
+        "title": "Airplane!"
+      },
+      {
+        "cast": [
+          "Andrew Robinson",
+          "Clare Higgins",
+          "Ashley Laurence",
+          "Sean Chapman"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Clive Barker",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Larry and his wife, Julia move into an old house and discover a hideous creature - the man's half-brother, who is also the woman's former lover - hiding upstairs. Having lost his earthly body to a trio of S&amp;M demons, the Cenobites, Frank, is brought back into existence by a drop of blood on the floor. He soon forces his former mistress to bring him his necessary human sacrifices to complete his body... but the Cenobites won't be happy about this.",
+        "release_date": "1987-09-11",
+        "release_year": "1987",
+        "title": "Hellraiser"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Michael Biehn",
+          "James Remar",
+          "Paul Reiser"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
+        "release_date": "1986-07-18",
+        "release_year": "1986",
+        "title": "Aliens"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Robert Duvall",
+          "Tony Shalhoub",
+          "William H. Macy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Zaillian",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Portuguese",
+        "overview": "Jan Schlickmann is a cynical lawyer who goes out to \"get rid of\" a case, only to find out it is potentially worth millions. The case becomes his obsession, to the extent that he is willing to give up everything - including his career and his clients' goals, in order to continue the case against all odds.",
+        "release_date": "1998-03-05",
+        "release_year": "1998",
+        "title": "Civil Action, A"
+      },
+      {
+        "cast": [
+          "Charles Martin Smith",
+          "Zachary Ittimangnaq",
+          "Samson Jorah",
+          "Hugh Webster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Carroll Ballard",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "This film dramatizes the true story of Farley Mowat, when he was sent to the Canadian tundra area to collect evidence of the grievous harm the wolf population was allegedly doing to the caribou herds. In his struggle to survive in that difficult environment he studies the wolves, and realizes that the old beliefs about wolves and their supposed threat are almost totally false. Furthermore, he learns that humans represent a far greater threat to the land, and also to the wolves, a species which plays an important role in the ecosystem of the north.",
+        "release_date": "1983-10-07",
+        "release_year": "1983",
+        "title": "Never Cry Wolf"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "John Lone",
+          "Peter O'Toole",
+          "Joan Chen",
+          "Dennis Dun"
+        ],
+        "country": [
+          "France",
+          "China",
+          "United Kingdom",
+          "Italy"
+        ],
+        "director": "Bernardo Bertolucci",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A dramatic history of Pu Yi, the last of the Emperors of China, from his lofty birth and brief reign in the Forbidden City, the object of worship by half a billion people; through his abdication, his decline and dissolute lifestyle; his exploitation by the invading Japanese, and finally to his obscure existence as just another peasant worker in the People's Republic.",
+        "release_date": "1987-10-21",
+        "release_year": "1987",
+        "title": "Last Emperor, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Gary Busey",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Veteran buttoned-down LAPD detective Roger Murtaugh is partnered with unhinged cop Martin Riggs, who -- distraught after his wife's death -- has a death wish and takes unnecessary risks with criminals at every turn. The odd couple embark on their first homicide investigation as partners, involving a young woman known to Murtaugh with ties to a drug and prostitution ring.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Lethal Weapon"
+      }
+    ],
+    "raw_user_id": "1595",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 107
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6452147228723456
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that fail to deliver humor effectively.",
+        "Dislike for films that mix genres but do not succeed in execution."
+      ],
+      "liked_patterns": [
+        "High ratings for drama films that explore deep emotional themes.",
+        "Positive reception of comedies that blend humor with other genres.",
+        "Strong appreciation for action and adventure films with engaging plots."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.); Enjoyment of Comedy (Several comedies receive high ratings, suggesting a fondness for humor and light-hearted storytelling.); Interest in Action and Adventure (Action and adventure films are frequently rated positively, showing a liking for excitement and thrill.); Favoring Complex Themes (The user enjoys films that explore complex themes, as seen in their high ratings for dramas that tackle serious subjects.); Preference for Sci-Fi Elements (The user rates several sci-fi films well, indicating an interest in speculative and imaginative storytelling.). Liked patterns: High ratings for drama films that explore deep emotional themes., Positive reception of comedies that blend humor with other genres., Strong appreciation for action and adventure films with engaging plots.. Disliked patterns: Low ratings for comedies that fail to deliver humor effectively., Dislike for films that mix genres but do not succeed in execution..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies receive high ratings, suggesting a fondness for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "Action and adventure films are frequently rated positively, showing a liking for excitement and thrill.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user enjoys films that explore complex themes, as seen in their high ratings for dramas that tackle serious subjects.",
+          "taste": "Favoring Complex Themes"
+        },
+        {
+          "reason": "The user rates several sci-fi films well, indicating an interest in speculative and imaginative storytelling.",
+          "taste": "Preference for Sci-Fi Elements"
+        }
+      ]
+    },
+    "user_id": 1595
+  }
+}

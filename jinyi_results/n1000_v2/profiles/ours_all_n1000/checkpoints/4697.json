@@ -1,0 +1,344 @@
+{
+  "checkpoint_hash": "743207a7609b600f550fae82862697a6edf3a63f9e5c8287b64dad1395484495",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      323,
+      2201,
+      863,
+      1325,
+      1015,
+      609,
+      610,
+      920,
+      629,
+      258
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      11,
+      21,
+      23,
+      26,
+      27,
+      46,
+      133,
+      172,
+      222,
+      341,
+      391,
+      610,
+      681,
+      765,
+      809,
+      863,
+      882,
+      939,
+      1031,
+      1329,
+      1330,
+      1903,
+      1934,
+      2201,
+      2599
+    ],
+    "seed": 42,
+    "source_hash": "504b362ac2390581463f6bd2fe6938e228e141ca077c745ffa5bee666ba7f84a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4697,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "K-12 student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Jude Law",
+          "Gore Vidal",
+          "Uma Thurman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Niccol",
+        "genres": [
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Science fiction drama about a future society in the era of indefinite eugenics where humans are set on a life course depending on their DNA. The young Vincent Freeman is born with a condition that would prevent him from space travel, yet he is determined to infiltrate the GATTACA space program.",
+        "release_date": "1997-09-07",
+        "release_year": "1997",
+        "title": "Gattaca"
+      },
+      {
+        "cast": [
+          "Macaulay Culkin",
+          "Christopher Lloyd",
+          "Patrick Stewart",
+          "Whoopi Goldberg"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Johnston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Tyler knows a lot about accidents. So much so, he is scared to do anything that might endanger him, like riding his bike, or climbing into his treehouse. While in an old library, he is mystically transported into the unknown world of books, and he has to try and get home again. Along the way he meets some interesting characters, like Fantasy, Adventure, and Horror... Written by Colin Tinto",
+        "release_date": "1994-11-23",
+        "release_year": "1994",
+        "title": "Pagemaster, The"
+      },
+      {
+        "cast": [
+          "Heath Ledger",
+          "Julia Stiles",
+          "Joseph Gordon-Levitt",
+          "Larisa Oleynik"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gil Junger",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Bianca, a tenth grader, has never gone on a date, but she isn't allowed to go out with boys until her older sister Kat gets a boyfriend. The problem is, Kat rubs nearly everyone the wrong way. But Bianca and the guy she has her eye on, Joey, are eager, so Joey fixes Kat up with Patrick, a new kid in town just bitter enough for Kat.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "10 Things I Hate About You"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Ben Affleck",
+          "Maura Tierney",
+          "Steve Zahn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bronwen Hughes",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Ben Holmes, a professional book-jacket blurbologist, is trying to get to Savannah for his wedding. He just barely catches the last plane, but a seagull flies into the engine as the plane is taking off. All later flights are cancelled because of an approaching hurricane, so he is forced to hitch a ride in a Geo Metro with an attractive but eccentric woman named Sara.",
+        "release_date": "1999-03-12",
+        "release_year": "1999",
+        "title": "Forces of Nature"
+      },
+      {
+        "cast": [
+          "Rufus Sewell",
+          "William Hurt",
+          "Kiefer Sutherland",
+          "Jennifer Connelly"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "release_date": "1998-02-27",
+        "release_year": "1998",
+        "title": "Dark City"
+      },
+      {
+        "cast": [
+          "Peggy Lee",
+          "Barbara Luddy",
+          "Larry Roberts",
+          "Bill Thompson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hamilton Luske",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Lady, a golden cocker spaniel, meets up with a mongrel dog who calls himself the Tramp. He is obviously from the wrong side of town, but happenings at Lady's home make her decide to travel with him for a while.",
+        "release_date": "1955-06-16",
+        "release_year": "1955",
+        "title": "Lady and the Tramp"
+      },
+      {
+        "cast": [
+          "Deems Taylor",
+          "Walt Disney",
+          "Julietta Novis",
+          "Leopold Stokowski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Samuel Armstrong",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Walt Disney's timeless masterpiece is an extravaganza of sight and sound! See the music come to life, hear the pictures burst into song and experience the excitement that is Fantasia over and over again.",
+        "release_date": "1940-11-13",
+        "release_year": "1940",
+        "title": "Fantasia"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Catherine Zeta-Jones",
+          "Will Patton",
+          "Maury Chaykin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two thieves, who travel in elegant circles, try to outsmart each other and, in the process, end up falling in love.",
+        "release_date": "1999-04-29",
+        "release_year": "1999",
+        "title": "Entrapment"
+      },
+      {
+        "cast": [
+          "Fairuza Balk",
+          "Nicol Williamson",
+          "Jean Marsh",
+          "Piper Laurie"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Walter Murch",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Dorothy, saved from a psychiatric experiment by a mysterious girl, finds herself back in the land of her dreams, and makes delightful new friends, and dangerous new enemies.",
+        "release_date": "1985-06-21",
+        "release_year": "1985",
+        "title": "Return to Oz"
+      },
+      {
+        "cast": [
+          "Linda Henry",
+          "Glen Berry",
+          "Scott Neal",
+          "Tameka Empson"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Hettie MacDonald",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A pair of teenage boys growing up in a working-class neighbourhood of Thamesmead, in south-east London, become aware of their homosexuality. While both were vaguely aware they might be gay, neither had ever acted on their impulses. Once they decide that they're attracted to each other, neither is sure just what to do.",
+        "release_date": "1996-06-21",
+        "release_year": "1996",
+        "title": "Beautiful Thing"
+      }
+    ],
+    "raw_user_id": "4697",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 120
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.8239752781933005
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for children's comedies rated below 3."
+      ],
+      "liked_patterns": [
+        "Strong preference for animated films rated 4 or above.",
+        "High ratings for comedies, particularly those with romantic themes.",
+        "Frequent enjoyment of musicals, especially in children's films."
+      ],
+      "summary": "Unique tastes: Animation and Children's Films (The user enjoys animated films that cater to children, often rated highly.); Comedy and Romance (The user shows a strong preference for comedies that incorporate romantic elements.); Musicals (The user appreciates musicals, particularly those that are family-friendly and animated.); Adventure and Fantasy (The user enjoys adventure films that include fantasy elements, often rated positively.); Dramatic Themes (The user is drawn to films with dramatic themes, especially those that blend with other genres.). Liked patterns: Strong preference for animated films rated 4 or above., High ratings for comedies, particularly those with romantic themes., Frequent enjoyment of musicals, especially in children's films.. Disliked patterns: Dislike for children's comedies rated below 3..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films that cater to children, often rated highly.",
+          "taste": "Animation and Children's Films"
+        },
+        {
+          "reason": "The user shows a strong preference for comedies that incorporate romantic elements.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "The user appreciates musicals, particularly those that are family-friendly and animated.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "The user enjoys adventure films that include fantasy elements, often rated positively.",
+          "taste": "Adventure and Fantasy"
+        },
+        {
+          "reason": "The user is drawn to films with dramatic themes, especially those that blend with other genres.",
+          "taste": "Dramatic Themes"
+        }
+      ]
+    },
+    "user_id": 4697
+  }
+}

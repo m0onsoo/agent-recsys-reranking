@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "ffc1305cbff4b60671cad2591d0882d470937ec9bd91e6df73e4c985477a87f1",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2862,
+      370,
+      420,
+      647,
+      339,
+      168,
+      2040,
+      154,
+      1332,
+      184
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      56,
+      63,
+      147,
+      156,
+      205,
+      377,
+      420,
+      479,
+      501,
+      559,
+      560,
+      692,
+      715,
+      862,
+      865,
+      990,
+      1006,
+      1131,
+      1369,
+      1473,
+      1556,
+      1629,
+      1676,
+      2013,
+      2119
+    ],
+    "seed": 42,
+    "source_hash": "2c73de7a016bee1cc3da705ab93ce2e940ca798db802d6251e8fb58063b17d31",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5916,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Wayne",
+          "Gail Russell",
+          "Harry Carey",
+          "Bruce Cabot"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Edward Grant",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Notorious shootist and womanizer Quirt Evans' horse collapses as he passes a Quaker family's home. Quirt has been wounded, and the kindly family takes him in to nurse him back to health against the advice of others. The handsome Evans quickly attracts the affections of their beautiful daughter, Penelope. He develops an affection for the family, but his troubled past follows him.",
+        "release_date": "1947-02-15",
+        "release_year": "1947",
+        "title": "Angel and the Badman"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Richard Briers",
+          "Michael Keaton",
+          "Robert Sean Leonard"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this Shakespearean farce, Hero and her groom-to-be, Claudio, team up with Claudio's commanding officer, Don Pedro, the week before their wedding to hatch a matchmaking scheme. Their targets are sharp-witted duo Benedick and Beatrice -- a tough task indeed, considering their corresponding distaste for love and each other. Meanwhile, meddling Don John plots to ruin the wedding.",
+        "release_date": "1993-05-07",
+        "release_year": "1993",
+        "title": "Much Ado About Nothing"
+      },
+      {
+        "cast": [
+          "Jennifer Grey",
+          "Patrick Swayze",
+          "Jerry Orbach",
+          "Cynthia Rhodes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Emile Ardolino",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Expecting the usual tedium that accompanies a summer in the Catskills with her family, 17-year-old Frances 'Baby' Houseman is surprised to find herself stepping into the shoes of a professional hoofer – and unexpectedly falling in love.",
+        "release_date": "1987-08-21",
+        "release_year": "1987",
+        "title": "Dirty Dancing"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Fugitives of the Federation for their daring rescue of Spock from the doomed Genesis Planet, Admiral Kirk (William Shatner) and his crew begin their journey home to face justice for their actions. But as they near Earth, they find it at the mercy of a mysterious alien presence whose signals are slowly destroying the planet. In a desperate attempt to answer the call of the probe, Kirk and his crew race back to the late twentieth century. However they soon find the world they once knew to be more alien than anything they've encountered in the far reaches of the galaxy!",
+        "release_date": "1986-11-25",
+        "release_year": "1986",
+        "title": "Star Trek IV: The Voyage Home"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Mary Astor",
+          "Gladys George",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A private detective takes on a case that involves him with three eccentric criminals, a gorgeous liar, and their quest for a priceless statuette.",
+        "release_date": "1941-11-18",
+        "release_year": "1941",
+        "title": "Maltese Falcon, The"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Morgan Freeman",
+          "Bob Gunton",
+          "Clancy Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Shawshank Redemption, The"
+      },
+      {
+        "cast": [
+          "Clark Gable",
+          "Burt Lancaster",
+          "Jack Warden",
+          "Brad Dexter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Wise",
+        "genres": [
+          "War"
+        ],
+        "language": "English",
+        "overview": "The captain of a submarine sunk by the Japanese during WWII is finally given a chance to skipper another sub after a year of working a desk job. His singleminded determination for revenge against the destroyer that sunk his previous vessel puts his new crew in unneccessary danger.",
+        "release_date": "1958-03-27",
+        "release_year": "1958",
+        "title": "Run Silent, Run Deep"
+      },
+      {
+        "cast": [
+          "Vivien Leigh",
+          "Clark Gable",
+          "Olivia de Havilland",
+          "Thomas Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "An American classic in which a manipulative woman and a roguish man carry on a turbulent love affair in the American south during the Civil War and Reconstruction.",
+        "release_date": "1939-12-15",
+        "release_year": "1939",
+        "title": "Gone with the Wind"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Barbara Hershey",
+          "Dennis Hopper",
+          "C.W. Mundy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Anspaugh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "High school basketball is king in small-town Indiana, and the 1954 Hickory Huskers are all hope and no talent. But their new coach -- abrasive, unlikable Norman Dale -- whips the team into shape ... while also inciting controversy.",
+        "release_date": "1986-11-14",
+        "release_year": "1986",
+        "title": "Hoosiers"
+      },
+      {
+        "cast": [
+          "John Cleese",
+          "Jamie Lee Curtis",
+          "Kevin Kline",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Charles Crichton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A diamond advocate is attempting to steal a collection of diamonds, yet troubles arise when he realizes that he is not the only one after the diamonds.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Fish Called Wanda, A"
+      }
+    ],
+    "raw_user_id": "5916",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 563
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7802704858812829
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily horror or mystery without strong narrative elements"
+      ],
+      "liked_patterns": [
+        "Enjoyment of films that blend drama with thriller elements",
+        "Preference for comedies that provide humor and light-heartedness",
+        "Interest in action and sci-fi films that offer excitement and adventure"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama and Thrillers (The user enjoys films that combine dramatic storytelling with suspenseful elements, as seen in multiple high-rated dramas and thrillers.); Fondness for Comedic Elements (The user rates several comedies positively, indicating a preference for humor in their viewing choices.); Interest in Sci-Fi and Action (The user shows a liking for action-packed and science fiction films, reflected in their ratings for various titles in these genres.); Enjoyment of Musical and Romantic Themes (The user appreciates musicals and romantic films, as evidenced by their positive ratings for movies in these genres.); Tendency to Enjoy War and Historical Themes (The user rates several war-themed films highly, suggesting an interest in narratives that explore historical conflicts.). Liked patterns: Enjoyment of films that blend drama with thriller elements, Preference for comedies that provide humor and light-heartedness, Interest in action and sci-fi films that offer excitement and adventure. Disliked patterns: Dislike for films that are primarily horror or mystery without strong narrative elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that combine dramatic storytelling with suspenseful elements, as seen in multiple high-rated dramas and thrillers.",
+          "taste": "Appreciation for Drama and Thrillers"
+        },
+        {
+          "reason": "The user rates several comedies positively, indicating a preference for humor in their viewing choices.",
+          "taste": "Fondness for Comedic Elements"
+        },
+        {
+          "reason": "The user shows a liking for action-packed and science fiction films, reflected in their ratings for various titles in these genres.",
+          "taste": "Interest in Sci-Fi and Action"
+        },
+        {
+          "reason": "The user appreciates musicals and romantic films, as evidenced by their positive ratings for movies in these genres.",
+          "taste": "Enjoyment of Musical and Romantic Themes"
+        },
+        {
+          "reason": "The user rates several war-themed films highly, suggesting an interest in narratives that explore historical conflicts.",
+          "taste": "Tendency to Enjoy War and Historical Themes"
+        }
+      ]
+    },
+    "user_id": 5916
+  }
+}

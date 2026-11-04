@@ -1,0 +1,328 @@
+{
+  "checkpoint_hash": "40188c83918e5106ad00592eb9c2b5426cc592b55ac195cb9d6cf1aa44e28084",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      487,
+      1579,
+      965,
+      1587,
+      968,
+      175,
+      1731,
+      1941,
+      112,
+      64
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      10,
+      63,
+      89,
+      122,
+      125,
+      210,
+      280,
+      435,
+      487,
+      525,
+      529,
+      587,
+      656,
+      663,
+      865,
+      899,
+      948,
+      965,
+      1037,
+      1232,
+      1254,
+      1716,
+      2137,
+      2689
+    ],
+    "seed": 42,
+    "source_hash": "661ba8ccb5f43e63f9fcc1116cf426764686e10923f18e21a0c2e42107893f53",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4734,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Robert De Niro",
+          "Cybill Shepherd",
+          "Harvey Keitel",
+          "Jodie Foster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+        "release_date": "1976-02-07",
+        "release_year": "1976",
+        "title": "Taxi Driver"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Lee Van Cleef",
+          "Gian Maria Volonté",
+          "Mario Brega"
+        ],
+        "country": [
+          "Italy",
+          "Spain",
+          "Germany"
+        ],
+        "director": "Sergio Leone",
+        "genres": [
+          "Western"
+        ],
+        "language": "Italian",
+        "overview": "Two bounty hunters are in pursuit of \"El Indio,\" one of the most wanted fugitives in the western territories, and his gang.",
+        "release_date": "1965-12-18",
+        "release_year": "1965",
+        "title": "For a Few Dollars More"
+      },
+      {
+        "cast": [
+          "Kevin McCarthy",
+          "Dana Wynter",
+          "King Donovan",
+          "Carolyn Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Don Siegel",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.",
+        "release_date": "1956-02-05",
+        "release_year": "1956",
+        "title": "Invasion of the Body Snatchers"
+      },
+      {
+        "cast": [
+          "Fred Ward",
+          "Dennis Quaid",
+          "Ed Harris",
+          "Scott Glenn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A chronicle of the original Mercury astronauts in the formation of America's space program: Alan Shepherd, the first American in space; Gus Grissom, the benighted astronaut for whom nothing works out as planned; John Glenn, the straight-arrow 'boy scout' of the bunch who was the first American to orbit the earth; and the remaining pilots: Deke Slayton, Scott Carpenter and Wally Schirra.",
+        "release_date": "1983-10-20",
+        "release_year": "1983",
+        "title": "Right Stuff, The"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Anthony Zerbe",
+          "Rosalind Cash",
+          "Paul Koslo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Boris Sagal",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Robert Neville, a doctor, due to an experimental vaccine, is the only survivor of an apocalyptic war waged with biological weapons. The plague caused by the war has killed everyone else except for a few hundred deformed, nocturnal people calling themselves \"The Family\". The plague has caused them to become sensitive to light, as well as homicidally psychotic.",
+        "release_date": "1971-08-01",
+        "release_year": "1971",
+        "title": "Omega Man, The"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Anne Bancroft",
+          "Katharine Ross",
+          "Murray Hamilton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A recent college graduate finds himself in a love triangle with an older woman and her daughter.",
+        "release_date": "1967-12-21",
+        "release_year": "1967",
+        "title": "Graduate, The"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Jon Voight",
+          "Sylvia Miles",
+          "John McGiver"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A naive male prostitute and his sickly friend struggle to survive on the streets of New York City.",
+        "release_date": "1969-05-25",
+        "release_year": "1969",
+        "title": "Midnight Cowboy"
+      },
+      {
+        "cast": [
+          "Juliette Binoche",
+          "Benoît Régent",
+          "Florence Pernel",
+          "Charlotte Véry"
+        ],
+        "country": [
+          "France",
+          "Poland"
+        ],
+        "director": "Krzysztof Kieślowski",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "A woman struggles to find a way to live her life after the death of her husband and child.",
+        "release_date": "1993-01-10",
+        "release_year": "1993",
+        "title": "Three Colors: Blue"
+      },
+      {
+        "cast": [
+          "Warren Beatty",
+          "Faye Dunaway",
+          "Michael J. Pollard",
+          "Gene Wilder"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Arthur Penn",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Bonnie and Clyde is based on the true stories of the gangster pair Bonnie Parker and Clyde Barrow who in the 1930s began robbing banks in U.S. cities until they were eventually killed. The film is a major landmark in the aesthetic movement known as the New Hollywood.",
+        "release_date": "1967-07-18",
+        "release_year": "1967",
+        "title": "Bonnie and Clyde"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Jackie Gleason",
+          "Piper Laurie",
+          "George C. Scott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Rossen",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Fast Eddie Felson is a small-time pool hustler with a lot of talent but a self-destructive attitude. His bravado causes him to challenge the legendary Minnesota Fats to a high-stakes match.",
+        "release_date": "1961-09-25",
+        "release_year": "1961",
+        "title": "Hustler, The"
+      }
+    ],
+    "raw_user_id": "4734",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 137
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6718339815872534
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that do not effectively combine action with engaging storytelling.",
+        "Dislike for films that lack character development or emotional resonance."
+      ],
+      "liked_patterns": [
+        "Strong preference for films that blend action with adventure and drama.",
+        "Enjoyment of films that feature complex characters and emotional depth.",
+        "Appreciation for science fiction that explores philosophical or existential themes."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys films that combine action with adventure elements, often featuring heroic journeys and conflicts.); Drama with Depth (The user appreciates dramas that explore complex characters and emotional narratives.); Sci-Fi Exploration (The user is drawn to science fiction films that delve into thought-provoking themes and imaginative concepts.); Comedy with Heart (The user favors comedies that incorporate romantic elements and heartfelt storytelling.); Thrilling Suspense (The user enjoys thrillers that maintain suspense and tension throughout the narrative.). Liked patterns: Strong preference for films that blend action with adventure and drama., Enjoyment of films that feature complex characters and emotional depth., Appreciation for science fiction that explores philosophical or existential themes.. Disliked patterns: Dislike for films that do not effectively combine action with engaging storytelling., Dislike for films that lack character development or emotional resonance..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that combine action with adventure elements, often featuring heroic journeys and conflicts.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex characters and emotional narratives.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "The user is drawn to science fiction films that delve into thought-provoking themes and imaginative concepts.",
+          "taste": "Sci-Fi Exploration"
+        },
+        {
+          "reason": "The user favors comedies that incorporate romantic elements and heartfelt storytelling.",
+          "taste": "Comedy with Heart"
+        },
+        {
+          "reason": "The user enjoys thrillers that maintain suspense and tension throughout the narrative.",
+          "taste": "Thrilling Suspense"
+        }
+      ]
+    },
+    "user_id": 4734
+  }
+}

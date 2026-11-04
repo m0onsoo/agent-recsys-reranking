@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "e59eeeec52a5c09cc538caae83c2a5fb6d94bbbe1110eb4d16810ae3ff78be14",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      462,
+      1231,
+      111,
+      1165,
+      1131,
+      1796,
+      1337,
+      662,
+      2254,
+      1145
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b25abc76165445909c335b9092cee2ee"
+    ],
+    "sampled_item_ids": [
+      61,
+      62,
+      63,
+      98,
+      196,
+      209,
+      421,
+      453,
+      615,
+      647,
+      664,
+      679,
+      968,
+      999,
+      1001,
+      1038,
+      1092,
+      1107,
+      1298,
+      1335,
+      1394,
+      1554,
+      1850,
+      1994,
+      3412
+    ],
+    "seed": 42,
+    "source_hash": "6eaee46054bdac19f71c0fa7cceadf75395df3a5773193339f5165b1fa88a948",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2665,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Denzel Washington",
+          "Gene Hackman",
+          "Matt Craven",
+          "George Dzundza"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Scott",
+        "genres": [
+          "Drama",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "On a US nuclear missile sub, a young first officer stages a mutiny to prevent his trigger happy captain from launching his missiles before confirming his orders to do so.",
+        "release_date": "1995-05-12",
+        "release_year": "1995",
+        "title": "Crimson Tide"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Steve Martin",
+          "Martin Short",
+          "Patrice Martinez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Three unemployed actors accept an invitation to a Mexican village to replay their bandit fighter roles, unaware that it is the real thing.",
+        "release_date": "1986-12-12",
+        "release_year": "1986",
+        "title": "Three Amigos!"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Madeleine Stowe",
+          "Russell Means",
+          "Eric Schweig"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Action",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As the English and French soldiers battle for control of the American colonies in the 18th century, the settlers and native Americans are forced to take sides. Cora and her sister Alice unwittingly walk into trouble but are reluctantly saved by Hawkeye, an orphaned settler adopted by the last of the Mohicans.",
+        "release_date": "1992-09-25",
+        "release_year": "1992",
+        "title": "Last of the Mohicans, The"
+      },
+      {
+        "cast": [
+          "Jamie Foxx",
+          "Tommy Davidson",
+          "Vivica A. Fox",
+          "Tamala Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeff Pollack",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Rushon is sexually pent-up and ready to take thing things to the next level with his girlfriend, Nikki. But when he calls for a date, she asks to make it a double -- bringing along her brash friend Lysterine, whom Rushon sets up with his lewd buddy, Bunz. Things go better than expected. As the evening transitions from the restaurant to the bedroom, the two men go on a madcap search for what will surely make the night complete: condoms.",
+        "release_date": "1997-02-26",
+        "release_year": "1997",
+        "title": "Booty Call"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Lee Remick",
+          "David Warner",
+          "Billie Whitelaw"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Immediately after their miscarriage, the US diplomat Robert Thorn adopts the newborn Damien without the knowledge of his wife. Yet what he doesn’t know is that their new son is the son of the devil. A classic horror film with Gregory Peck from 1976.",
+        "release_date": "1976-06-06",
+        "release_year": "1976",
+        "title": "Omen, The"
+      },
+      {
+        "cast": [
+          "Jack Lemmon",
+          "Tony Curtis",
+          "Natalie Wood",
+          "Peter Falk"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Blake Edwards",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Professional daredevil and white-suited hero, The Great Leslie, convinces turn-of-the-century auto makers that a race from New York to Paris (westward across America, the Bering Straight and Russia) will help to promote automobile sales. Leslie's arch-rival, the mustached and black-attired Professor Fate vows to beat Leslie to the finish line in a car of Fate's own invention.",
+        "release_date": "1965-07-01",
+        "release_year": "1965",
+        "title": "Great Race, The"
+      },
+      {
+        "cast": [
+          "Patrick Swayze",
+          "C. Thomas Howell",
+          "Lea Thompson",
+          "Darren Dalton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Milius",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "It is the mid-1980s. From out of the sky, Soviet and Cuban troops begin landing on the football field of a Colorado high school. In seconds, the paratroops have attacked the school and sent a group of teenagers fleeing into the mountains. Armed only with hunting rifles, pistols and bows and arrows, the teens struggles to survive the bitter winter and Soviet KGB patrols hunting for them.",
+        "release_date": "1984-08-10",
+        "release_year": "1984",
+        "title": "Red Dawn"
+      },
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      },
+      {
+        "cast": [
+          "Alicia Witt",
+          "Jared Leto",
+          "Rebecca Gayheart",
+          "Michael Rosenbaum"
+        ],
+        "country": [
+          "Canada",
+          "France",
+          "United States of America"
+        ],
+        "director": "Jamie Blanks",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "There's a campus killer on the loose who's making urban legends, like the one about eating pop rocks and soda at the same time will make your stomach explode and the one about a psycho with an axe stepping into the backseat of your car at the gas station when not looking, into reality.",
+        "release_date": "1998-09-25",
+        "release_year": "1998",
+        "title": "Urban Legend"
+      },
+      {
+        "cast": [
+          "William Holden",
+          "Lee Grant",
+          "Jonathan Scott-Taylor",
+          "Robert Foxworth"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Don Taylor",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Since the sudden and highly suspicious death of his parents, 12-year-old Damien has been in the charge of his wealthy aunt and uncle (Lee Grant and William Holden). Widely feared to be the Antichrist, Damien relentlessly plots to seize control of his uncle's business empire - and the world. Meanwhile, anyone attempting to unravel the secrets of Damien's sinister past or fiendish future meets with a swift and cruel demise.",
+        "release_date": "1978-06-09",
+        "release_year": "1978",
+        "title": "Damien: Omen II"
+      }
+    ],
+    "raw_user_id": "2665",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 662
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.6291680726956703
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or engaging storylines",
+        "Dislike for films that do not resonate emotionally or thematically",
+        "Dislike for films with weak character development"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure films",
+        "Enjoyment of science fiction with engaging narratives",
+        "Appreciation for dramas that explore complex relationships"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films with action-packed sequences and adventurous plots.); Sci-Fi (The user has a strong preference for science fiction, appreciating its imaginative and speculative elements.); Drama and Romance (The user is drawn to films that explore emotional depth and relationships.); Thriller Elements (The user appreciates films that incorporate suspense and tension, often found in action and sci-fi genres.); Fantasy (The user enjoys films that transport them to fantastical worlds and imaginative settings.). Liked patterns: Strong preference for action and adventure films, Enjoyment of science fiction with engaging narratives, Appreciation for dramas that explore complex relationships. Disliked patterns: Dislike for comedies that lack depth or engaging storylines, Dislike for films that do not resonate emotionally or thematically, Dislike for films with weak character development.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films with action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user has a strong preference for science fiction, appreciating its imaginative and speculative elements.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user is drawn to films that explore emotional depth and relationships.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "The user appreciates films that incorporate suspense and tension, often found in action and sci-fi genres.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user enjoys films that transport them to fantastical worlds and imaginative settings.",
+          "taste": "Fantasy"
+        }
+      ]
+    },
+    "user_id": 2665
+  }
+}

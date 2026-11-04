@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "2d0413b00721dc77c24a0c44eb0f69b988aaaeb45cb849ebfe626e3d78fbc02f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2090,
+      65,
+      1955,
+      2045,
+      106,
+      1150,
+      832,
+      1299,
+      774,
+      18
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8b1a8709a82e47698bd7e3e61af69d62"
+    ],
+    "sampled_item_ids": [
+      3,
+      14,
+      15,
+      183,
+      233,
+      247,
+      259,
+      279,
+      284,
+      389,
+      418,
+      425,
+      600,
+      610,
+      742,
+      798,
+      986,
+      1110,
+      1217,
+      1254,
+      1302,
+      1353,
+      1498,
+      1524,
+      2045
+    ],
+    "seed": 42,
+    "source_hash": "1d35f83367250379d0d967480a682d2e2ef41acd3516b7bca503588672518a12",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 840,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Charles Boyer",
+          "Sigrid Gurie",
+          "Hedy Lamarr",
+          "Joseph Calleia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Cromwell",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Pepe Le Moko is a notorious thief, who escaped from France. Since his escape, Moko became a resident and leader of the immense Casbah of Algiers. French officials arrive insisting on Pepe's capture are met with unfazed local detectives, led by Inspector Slimane, who are biding their time. Meanwhile, Pepe meets the beautiful Gaby , which arouses the jealousy of Ines",
+        "release_date": "1938-06-28",
+        "release_year": "1938",
+        "title": "Algiers"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Elizabeth Berkley",
+          "Kyle MacLachlan",
+          "Gina Gershon",
+          "Glenn Plummer"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A young drifter named Nomi arrives in Las Vegas to become a dancer and soon sets about clawing and pushing her way to become a top showgirl.",
+        "release_date": "1995-09-22",
+        "release_year": "1995",
+        "title": "Showgirls"
+      },
+      {
+        "cast": [
+          "Aleksandr Antonov",
+          "Vladimir Barsky",
+          "Grigori Aleksandrov",
+          "Ivan Bobrov"
+        ],
+        "country": [
+          "Russia"
+        ],
+        "director": "Sergei M. Eisenstein",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "Russian",
+        "overview": "A dramatized account of a great Russian naval mutiny and a resulting street demonstration which brought on a police massacre. The film had an incredible impact on the development of cinema and was a masterful example of montage editing.",
+        "release_date": "1925-12-24",
+        "release_year": "1925",
+        "title": "Battleship Potemkin, The (Bronenosets Potyomkin)"
+      },
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      },
+      {
+        "cast": [
+          "Craig T. Nelson",
+          "JoBeth Williams",
+          "Beatrice Straight",
+          "Heather O'Rourke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tobe Hooper",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Steve Freeling lives with his wife, Diane, and their three children, Dana, Robbie, and Carol Anne, in Southern California where he sells houses for the company that built the neighborhood. It starts with just a few odd occurrences, such as broken dishes and furniture moving around by itself. However, when he realizes that something truly evil haunts his home, Steve calls in a team of parapsychologists led by Dr. Lesh to help before it's too late.",
+        "release_date": "1982-06-04",
+        "release_year": "1982",
+        "title": "Poltergeist"
+      },
+      {
+        "cast": [
+          "Kate Hudson",
+          "Billy Crudup",
+          "Frances McDormand",
+          "Jason Lee"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Almost Famous is an autobiographical inspired film about a 15-year-old who is hired by Rolling Stone magazine to follow and interview a rock band during their tour. A film about growing up, first love, disappointment, and the life of a rock star.",
+        "release_date": "2000-09-15",
+        "release_year": "2000",
+        "title": "Almost Famous"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Susan Sarandon",
+          "Tim Robbins",
+          "Trey Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Veteran catcher Crash Davis is brought to the minor league Durham Bulls to help their up and coming pitching prospect, \"Nuke\" Laloosh. Their relationship gets off to a rocky start and is further complicated when baseball groupie Annie Savoy sets her sights on the two men.",
+        "release_date": "1988-06-15",
+        "release_year": "1988",
+        "title": "Bull Durham"
+      },
+      {
+        "cast": [
+          "Charles Martin Smith",
+          "Zachary Ittimangnaq",
+          "Samson Jorah",
+          "Hugh Webster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Carroll Ballard",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "This film dramatizes the true story of Farley Mowat, when he was sent to the Canadian tundra area to collect evidence of the grievous harm the wolf population was allegedly doing to the caribou herds. In his struggle to survive in that difficult environment he studies the wolves, and realizes that the old beliefs about wolves and their supposed threat are almost totally false. Furthermore, he learns that humans represent a far greater threat to the land, and also to the wolves, a species which plays an important role in the ecosystem of the north.",
+        "release_date": "1983-10-07",
+        "release_year": "1983",
+        "title": "Never Cry Wolf"
+      },
+      {
+        "cast": [
+          "Donnie Dunagan",
+          "Peter Behn",
+          "Stan Alexander",
+          "Cammie King"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Hand",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "Bambi's tale unfolds from season to season as the young prince of the forest learns about life, love, and friends.",
+        "release_date": "1942-08-14",
+        "release_year": "1942",
+        "title": "Bambi"
+      }
+    ],
+    "raw_user_id": "840",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 200
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0677949653720082
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed"
+      ],
+      "liked_patterns": [
+        "Strong preference for musicals and romantic films",
+        "High enjoyment of comedies with unique storytelling",
+        "Appreciation for dramatic narratives with emotional depth"
+      ],
+      "summary": "Unique tastes: Musicals and Romantic Comedies (The user enjoys films that blend music with romantic themes, indicating a preference for light-hearted and emotionally engaging narratives.); Dramatic and Thought-Provoking Stories (The user appreciates films that delve into complex characters and emotional depth, often found in dramas and mysteries.); Comedic Elements (The user favors comedies, particularly those that incorporate satire or unique storytelling, suggesting a taste for humor that challenges norms.); Animation and Family-Friendly Content (The user enjoys animated films and those suitable for children, indicating a fondness for imaginative storytelling and visual creativity.); Crime and Thriller Genres (The user is drawn to films that explore crime and suspense, reflecting an interest in narratives that involve tension and moral complexity.). Liked patterns: Strong preference for musicals and romantic films, High enjoyment of comedies with unique storytelling, Appreciation for dramatic narratives with emotional depth. Disliked patterns: No significant patterns of dislike observed.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend music with romantic themes, indicating a preference for light-hearted and emotionally engaging narratives.",
+          "taste": "Musicals and Romantic Comedies"
+        },
+        {
+          "reason": "The user appreciates films that delve into complex characters and emotional depth, often found in dramas and mysteries.",
+          "taste": "Dramatic and Thought-Provoking Stories"
+        },
+        {
+          "reason": "The user favors comedies, particularly those that incorporate satire or unique storytelling, suggesting a taste for humor that challenges norms.",
+          "taste": "Comedic Elements"
+        },
+        {
+          "reason": "The user enjoys animated films and those suitable for children, indicating a fondness for imaginative storytelling and visual creativity.",
+          "taste": "Animation and Family-Friendly Content"
+        },
+        {
+          "reason": "The user is drawn to films that explore crime and suspense, reflecting an interest in narratives that involve tension and moral complexity.",
+          "taste": "Crime and Thriller Genres"
+        }
+      ]
+    },
+    "user_id": 840
+  }
+}

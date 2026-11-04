@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "0b40bf4efc26ba954156309ac925e687491ad1488c56672ff9063aef5e832621",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      30,
+      98,
+      1089,
+      754,
+      843,
+      645,
+      1233,
+      498,
+      211,
+      108
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "13769212ff3b4072b5fedf8098b0ac04"
+    ],
+    "sampled_item_ids": [
+      66,
+      85,
+      125,
+      151,
+      156,
+      185,
+      190,
+      201,
+      203,
+      211,
+      214,
+      320,
+      376,
+      510,
+      556,
+      604,
+      644,
+      712,
+      1042,
+      1089,
+      1114,
+      1214,
+      1251,
+      1291,
+      2495
+    ],
+    "seed": 42,
+    "source_hash": "e671eeefb10f4dc8f01d54395cea3401d985ab3e6d44564301df5ac3f9fb3873",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2876,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Peter Sallis",
+          "Anne Reid"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wallace falls in love with wool-shop owner Wendolene, not suspecting that she (or rather, her dog) is at the head of a fiendish sheep-rustling plot. Gromit is set up and jailed, but his new-found sheepish friend is determine to give Wallace a helping hand in finding out the real truth.",
+        "release_date": "1995-12-24",
+        "release_year": "1995",
+        "title": "Close Shave, A"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Charlie Sheen",
+          "Lloyd Bridges",
+          "Valeria Golino",
+          "Richard Crenna"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Abrahams",
+        "genres": [
+          "Action",
+          "Comedy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Topper Harley is found to be working as an odd-job-man in a monastery. The CIA want him to lead a rescue mission into Iraq, to rescue the last rescue team, who went in to rescue the last rescue team who... who went in to rescue hostages left behind after Desert Storm.",
+        "release_date": "1993-05-21",
+        "release_year": "1993",
+        "title": "Hot Shots! Part Deux"
+      },
+      {
+        "cast": [
+          "Demi Moore",
+          "Viggo Mortensen",
+          "Anne Bancroft",
+          "Jason Beghe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A female Senator succeeds in enrolling a woman into Combined Reconnaissance Team training where everyone expects her to fail.",
+        "release_date": "1997-08-22",
+        "release_year": "1997",
+        "title": "G.I. Jane"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Rutger Hauer",
+          "Michelle Pfeiffer",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Captain Etienne Navarre is a man on whose shoulders lies a cruel curse. Punished for loving each other, Navarre must become a wolf by night whilst his lover, Lady Isabeau, takes the form of a hawk by day. Together, with the thief Philippe Gaston, they must try to overthrow the corrupt Bishop and in doing so break the spell.",
+        "release_date": "1985-03-27",
+        "release_year": "1985",
+        "title": "Ladyhawke"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral Kirk and his bridge crew risk their careers stealing the decommissioned Enterprise to return to the restricted Genesis planet to recover Spock's body.",
+        "release_date": "1984-05-31",
+        "release_year": "1984",
+        "title": "Star Trek III: The Search for Spock"
+      },
+      {
+        "cast": [
+          "Anne Parillaud",
+          "Marc Duret",
+          "Patrick Fontana",
+          "Alain Lathière"
+        ],
+        "country": [
+          "France",
+          "Italy"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "French",
+        "overview": "A beautiful felon, sentenced to life in prison for the murder of a policeman, is given a second chance - as a secret political assassin controlled by the government.",
+        "release_date": "1990-02-21",
+        "release_year": "1990",
+        "title": "Nikita (La Femme Nikita)"
+      },
+      {
+        "cast": [
+          "Chow Yun-fat",
+          "Tony Leung Chiu-Wai",
+          "Anthony Wong",
+          "Teresa Mo"
+        ],
+        "country": [
+          "Hong Kong"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "A cop who loses his partner in a shoot-out with gun smugglers goes on a mission to catch them. In order to get closer to the leaders of the ring he joins forces with an undercover cop who's working as a gangster hitman. They use all means of excessive force to find them.",
+        "release_date": "1992-04-16",
+        "release_year": "1992",
+        "title": "Hard-Boiled (Lashou shentan)"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Alan Rickman",
+          "Alexander Godunov",
+          "Bonnie Bedelia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "NYPD cop, John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Die Hard"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Wesley Snipes",
+          "Sandra Bullock",
+          "Nigel Hawthorne"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Marco Brambilla",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Simon Phoenix, a violent criminal cryogenically frozen in 1996, has escaped during a parole hearing in 2032 in the utopia of San Angeles. Police are incapable of dealing with his violent ways and turn to his captor, John Spartan, who had also been cryogenically frozen when wrongfully accused of killing 30 innocent people while apprehending Phoenix.",
+        "release_date": "1993-10-08",
+        "release_year": "1993",
+        "title": "Demolition Man"
+      }
+    ],
+    "raw_user_id": "2876",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 152
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8112623992331993
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily horror",
+        "Dislike for films that do not effectively combine genres",
+        "Dislike for films with weak narratives or execution"
+      ],
+      "liked_patterns": [
+        "Preference for action-packed films with adventure elements",
+        "Enjoyment of comedies that blend with other genres",
+        "Attraction to thrillers that maintain strong narratives"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventure elements.); Comedy with a mix of other genres (The user appreciates comedies that incorporate elements from other genres, such as action or drama.); Thrillers with strong narratives (The user favors thrillers that provide engaging and suspenseful storylines.); Sci-Fi elements in various genres (The user is drawn to films that blend science fiction with other genres, enhancing the storytelling.); Dramatic themes in diverse settings (The user enjoys films that explore dramatic themes, regardless of the primary genre.). Liked patterns: Preference for action-packed films with adventure elements, Enjoyment of comedies that blend with other genres, Attraction to thrillers that maintain strong narratives. Disliked patterns: Dislike for films that are primarily horror, Dislike for films that do not effectively combine genres, Dislike for films with weak narratives or execution.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventure elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate elements from other genres, such as action or drama.",
+          "taste": "Comedy with a mix of other genres"
+        },
+        {
+          "reason": "The user favors thrillers that provide engaging and suspenseful storylines.",
+          "taste": "Thrillers with strong narratives"
+        },
+        {
+          "reason": "The user is drawn to films that blend science fiction with other genres, enhancing the storytelling.",
+          "taste": "Sci-Fi elements in various genres"
+        },
+        {
+          "reason": "The user enjoys films that explore dramatic themes, regardless of the primary genre.",
+          "taste": "Dramatic themes in diverse settings"
+        }
+      ]
+    },
+    "user_id": 2876
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "c3010709569d9ec97b63be43f66dea674497c72f13dabbbf0aa4b80da5692985",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      27,
+      2367,
+      218,
+      647,
+      1150,
+      1314,
+      109,
+      1404,
+      1309,
+      1663
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "52a216c167bd4fb6abcb4f1ed1740b84"
+    ],
+    "sampled_item_ids": [
+      14,
+      27,
+      42,
+      72,
+      218,
+      293,
+      462,
+      731,
+      1024,
+      1062,
+      1065,
+      1186,
+      1235,
+      1240,
+      1286,
+      1305,
+      1309,
+      1345,
+      1404,
+      1419,
+      1502,
+      1562,
+      2009,
+      2357,
+      2367
+    ],
+    "seed": 42,
+    "source_hash": "a0acc0ddf0a6010e5eef418c91daee71090be95a4c9fd21ebb29f7a966fe9da7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 388,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Henry Thomas",
+          "Drew Barrymore",
+          "Robert MacNaughton",
+          "Dee Wallace"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Children's",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+        "release_date": "1982-04-03",
+        "release_year": "1982",
+        "title": "E.T. the Extra-Terrestrial"
+      },
+      {
+        "cast": [
+          "Jonathan Silverman",
+          "Blythe Danner",
+          "Stacey Glick",
+          "Judith Ivey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gene Saks",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Eugene, a young teenage Jewish boy, recalls his memoirs of his time as an adolescent youth. He lives with his parents, his aunt, two cousins, and his brother, Stanley, whom he looks up to and admires. He goes through the hardships of puberty, sexual fantasy, and living the life of a poor boy in a crowded house.",
+        "release_date": "1986-01-01",
+        "release_year": "1986",
+        "title": "Brighton Beach Memoirs"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Fugitives of the Federation for their daring rescue of Spock from the doomed Genesis Planet, Admiral Kirk (William Shatner) and his crew begin their journey home to face justice for their actions. But as they near Earth, they find it at the mercy of a mysterious alien presence whose signals are slowly destroying the planet. In a desperate attempt to answer the call of the probe, Kirk and his crew race back to the late twentieth century. However they soon find the world they once knew to be more alien than anything they've encountered in the far reaches of the galaxy!",
+        "release_date": "1986-11-25",
+        "release_year": "1986",
+        "title": "Star Trek IV: The Voyage Home"
+      },
+      {
+        "cast": [
+          "Craig T. Nelson",
+          "JoBeth Williams",
+          "Beatrice Straight",
+          "Heather O'Rourke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tobe Hooper",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Steve Freeling lives with his wife, Diane, and their three children, Dana, Robbie, and Carol Anne, in Southern California where he sells houses for the company that built the neighborhood. It starts with just a few odd occurrences, such as broken dishes and furniture moving around by itself. However, when he realizes that something truly evil haunts his home, Steve calls in a team of parapsychologists led by Dr. Lesh to help before it's too late.",
+        "release_date": "1982-06-04",
+        "release_year": "1982",
+        "title": "Poltergeist"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Harold Ramis",
+          "Warren Oates",
+          "P.J. Soles"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "John Winger, an indolent sad sack in his 30s, impulsively joins the U.S. Army after losing his job, his girlfriend and his apartment.",
+        "release_date": "1981-06-25",
+        "release_year": "1981",
+        "title": "Stripes"
+      },
+      {
+        "cast": [
+          "William Hurt",
+          "Marlee Matlin",
+          "Piper Laurie",
+          "Philip Bosco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Randa Haines",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "James is a new speech teacher at a school for the deaf. He falls for Sarah, a pupil who decided to stay on at the school rather than venture into the big bad world. She shuns him at first, refusing to read his lips and only using signs. Will her feelings change over time?",
+        "release_date": "1986-09-13",
+        "release_year": "1986",
+        "title": "Children of a Lesser God"
+      },
+      {
+        "cast": [
+          "Matt Dillon",
+          "Héctor Elizondo",
+          "Molly McCarthy",
+          "Martha Gehman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Garry Marshall",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Brooklyn teenager Jeffrey Willis, thoroughly unhappy with his modest homestead, embraces the other-world aspects of his summer job at the posh Flamingo Club. He spurns his father in favor of the patronage of smooth-talking Phil Brody and is seduced by the ample bikini charms of club member Carla Samson. But thanks to a couple of late-summer hard lessons, the teen eventually realizes that family should always come first.",
+        "release_date": "1984-12-21",
+        "release_year": "1984",
+        "title": "Flamingo Kid, The"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Rebecca De Mornay",
+          "Sean Penn",
+          "Joe Pantoliano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Brickman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Meet Joel Goodson, an industrious, college-bound 17-year-old and a responsible, trustworthy son. However, when his parents go away and leave him home alone in the wealthy Chicago suburbs with the Porsche at his disposal he quickly decides he has been good for too long and it is time to enjoy himself. After an unfortunate incident with the Porsche Joel must raise some cash, in a risky way.",
+        "release_date": "1983-08-05",
+        "release_year": "1983",
+        "title": "Risky Business"
+      },
+      {
+        "cast": [
+          "Mickey Rourke",
+          "Robert De Niro",
+          "Lisa Bonet",
+          "Charlotte Rampling"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The down-and-out private detective Harry Angel is ordered, by a mysterious man named Louis Cyphre, to go on a mission to find a missing person. His routine failure soon leads to a bloody spar with himself as Harry Angel goes on a supernatural journey into his soul.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Angel Heart"
+      }
+    ],
+    "raw_user_id": "388",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 49
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6977198844247895
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for comedies that fail to resonate or entertain.",
+        "Dislike for films that do not effectively balance drama with engaging storytelling."
+      ],
+      "liked_patterns": [
+        "High ratings for drama films that explore complex themes and character development.",
+        "Positive reception of comedies that blend humor with emotional depth.",
+        "Strong preference for thrillers that incorporate suspense and intrigue."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (The user has rated several comedies positively, suggesting a fondness for humor and lighthearted storytelling.); Interest in Thrillers (The user shows a liking for thriller films, as evidenced by several high ratings in this genre.); Fondness for Romantic Elements (The user enjoys films that incorporate romance, as seen in the positive ratings for dramas with romantic themes.); Engagement with Sci-Fi and Fantasy (The user appreciates science fiction and fantasy elements, reflected in high ratings for films that explore these genres.). Liked patterns: High ratings for drama films that explore complex themes and character development., Positive reception of comedies that blend humor with emotional depth., Strong preference for thrillers that incorporate suspense and intrigue.. Disliked patterns: Negative ratings for comedies that fail to resonate or entertain., Dislike for films that do not effectively balance drama with engaging storytelling..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user has rated several comedies positively, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for thriller films, as evidenced by several high ratings in this genre.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romance, as seen in the positive ratings for dramas with romantic themes.",
+          "taste": "Fondness for Romantic Elements"
+        },
+        {
+          "reason": "The user appreciates science fiction and fantasy elements, reflected in high ratings for films that explore these genres.",
+          "taste": "Engagement with Sci-Fi and Fantasy"
+        }
+      ]
+    },
+    "user_id": 388
+  }
+}

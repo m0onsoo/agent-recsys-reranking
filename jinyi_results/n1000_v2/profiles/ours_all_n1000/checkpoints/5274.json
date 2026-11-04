@@ -1,0 +1,328 @@
+{
+  "checkpoint_hash": "2eaf556be70bcbe83fc72f586dad1145837189cefd92c054e0dad81e2fb91fb6",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2348,
+      670,
+      1506,
+      885,
+      129,
+      244,
+      8,
+      530,
+      791,
+      598
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      8,
+      85,
+      97,
+      106,
+      125,
+      129,
+      148,
+      244,
+      384,
+      487,
+      530,
+      598,
+      670,
+      717,
+      791,
+      885,
+      1205,
+      1298,
+      1506,
+      2249,
+      2348
+    ],
+    "seed": 42,
+    "source_hash": "a09ebd55e66843e7076e03286f78f73d2dd7e4d0cb258f9fd61dae1fae8db549",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5274,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Dee Wallace",
+          "Danny Pintauro",
+          "Daniel Hugh Kelly",
+          "Christopher Stone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lewis Teague",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A friendly St. Bernard named \"Cujo\" contracts rabies and conducts a reign of terror on a small American town.",
+        "release_date": "1983-08-10",
+        "release_year": "1983",
+        "title": "Cujo"
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Al Pacino",
+          "James Caan",
+          "Richard S. Castellano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+        "release_date": "1972-03-14",
+        "release_year": "1972",
+        "title": "Godfather, The"
+      },
+      {
+        "cast": [
+          "Dana Kimmell",
+          "Paul Kratka",
+          "Tracie Savage",
+          "Jeffrey Rogers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve Miner",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An idyllic summer turns into a nightmare of unspeakable terror for yet another group of naive counselors. Ignoring Camp Crystal Lake's bloody legacy, one by one they fall victim to the maniacal Jason who stalks them at every turn.",
+        "release_date": "1982-08-13",
+        "release_year": "1982",
+        "title": "Friday the 13th Part 3: 3D"
+      },
+      {
+        "cast": [
+          "James Aubrey",
+          "Tom Chapin",
+          "Hugh Edwards",
+          "Roger Elwin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Peter Brook",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Amidst a nuclear war, a plane carrying a group of schoolboys crash lands on a deserted island. With no adult survivors, the boys are forced to fend for themselves. At first they cooperate, but when the they split into two separate camps -- one led by the pragmatic Ralph and the other by militaristic Jack -- their society falls into disarray, leading to a disturbing examination of human nature and a chilling conclusion.",
+        "release_date": "1963-08-13",
+        "release_year": "1963",
+        "title": "Lord of the Flies"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Trey Parker",
+          "Matt Stone",
+          "Mary Kay Bergman",
+          "Isaac Hayes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Trey Parker",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the four boys see an R-rated movie featuring Canadians Terrance and Philip, they are pronounced \"corrupted\", and their parents pressure the United States to wage war against Canada.",
+        "release_date": "1999-06-30",
+        "release_year": "1999",
+        "title": "South Park: Bigger, Longer and Uncut"
+      },
+      {
+        "cast": [
+          "Melinda Dillon",
+          "Darren McGavin",
+          "Peter Billingsley",
+          "Jean Shepherd"
+        ],
+        "country": [
+          "United States of America",
+          "Canada"
+        ],
+        "director": "Bob Clark",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The comic mishaps and adventures of a young boy named Ralph, trying to convince his parents, teachers, and Santa that a Red Ryder B.B. gun really is the perfect Christmas gift for the 1940s.",
+        "release_date": "1983-11-18",
+        "release_year": "1983",
+        "title": "Christmas Story, A"
+      },
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Michael C. Williams",
+          "Heather Donahue",
+          "Joshua Leonard",
+          "Bob Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Myrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Blair Witch Project, The"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "George Kennedy",
+          "Luke Askew",
+          "Morgan Woodward"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stuart Rosenberg",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When petty criminal Luke Jackson is sentenced to two years in a Florida prison farm, he doesn't play by the rules of either the sadistic warden or the yard's resident heavy, Dragline, who ends up admiring the new guy's unbreakable will. Luke's bravado, even in the face of repeated stints in the prison's dreaded solitary confinement cell, \"the box,\" make him a rebel hero to his fellow convicts and a thorn in the side of the prison officers.",
+        "release_date": "1967-06-22",
+        "release_year": "1967",
+        "title": "Cool Hand Luke"
+      }
+    ],
+    "raw_user_id": "5274",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 21
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.1818775163753505
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that rely on shock value rather than narrative depth.",
+        "Negative ratings for films that lack character development or emotional engagement."
+      ],
+      "liked_patterns": [
+        "Preference for films that combine drama with other genres like comedy and thriller.",
+        "High ratings for character-driven stories that explore deep emotional themes.",
+        "Enjoyment of films that create suspense and tension, particularly in the thriller genre."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Thriller (The user enjoys thrillers, as indicated by several high ratings for films that create suspense and tension.); Comedy (There is an appreciation for comedic elements, shown by consistent ratings for films that blend humor with other genres.); Character-driven stories (The user favors films that focus on character development and emotional depth, as seen in their ratings for dramas and thrillers.); Complex narratives (A tendency towards films with intricate plots and moral dilemmas is reflected in the high ratings for various dramas.). Liked patterns: Preference for films that combine drama with other genres like comedy and thriller., High ratings for character-driven stories that explore deep emotional themes., Enjoyment of films that create suspense and tension, particularly in the thriller genre.. Disliked patterns: Dislike for horror films that rely on shock value rather than narrative depth., Negative ratings for films that lack character development or emotional engagement..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys thrillers, as indicated by several high ratings for films that create suspense and tension.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "There is an appreciation for comedic elements, shown by consistent ratings for films that blend humor with other genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user favors films that focus on character development and emotional depth, as seen in their ratings for dramas and thrillers.",
+          "taste": "Character-driven stories"
+        },
+        {
+          "reason": "A tendency towards films with intricate plots and moral dilemmas is reflected in the high ratings for various dramas.",
+          "taste": "Complex narratives"
+        }
+      ]
+    },
+    "user_id": 5274
+  }
+}

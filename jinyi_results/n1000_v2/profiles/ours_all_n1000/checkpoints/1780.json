@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "0f47553d9dca43f05a4ca1f28269070b4c8dc3225e122bcc17e97d8e0d27d329",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      211,
+      1587,
+      1601,
+      504,
+      626,
+      408,
+      165,
+      252,
+      215,
+      62
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a28acb850e0740ecbf96399fc44a0ac2"
+    ],
+    "sampled_item_ids": [
+      38,
+      133,
+      185,
+      199,
+      215,
+      281,
+      434,
+      440,
+      448,
+      538,
+      598,
+      649,
+      693,
+      730,
+      759,
+      892,
+      906,
+      961,
+      1039,
+      1235,
+      1406,
+      1529,
+      1601,
+      2014,
+      2482
+    ],
+    "seed": 42,
+    "source_hash": "090ae00f6643a27793628740c2f54f44a17641ce2d0767cfb04c03af89bb09c7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1780,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bruce Willis",
+          "Alan Rickman",
+          "Alexander Godunov",
+          "Bonnie Bedelia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "NYPD cop, John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Die Hard"
+      },
+      {
+        "cast": [
+          "Fred Ward",
+          "Dennis Quaid",
+          "Ed Harris",
+          "Scott Glenn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A chronicle of the original Mercury astronauts in the formation of America's space program: Alan Shepherd, the first American in space; Gus Grissom, the benighted astronaut for whom nothing works out as planned; John Glenn, the straight-arrow 'boy scout' of the bunch who was the first American to orbit the earth; and the remaining pilots: Deke Slayton, Scott Carpenter and Wally Schirra.",
+        "release_date": "1983-10-20",
+        "release_year": "1983",
+        "title": "Right Stuff, The"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Bubba Smith",
+          "David Graf",
+          "Michael Winslow"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Paris",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Officer Carey Mahoney and his cohorts have finally graduated from the Police Academy and are about to hit the streets on their first assignment. Question is, are they ready to do battle with a band of graffiti-tagging terrorists? Time will tell, but don't sell short this cheerful band of doltish boys in blue.",
+        "release_date": "1985-03-28",
+        "release_year": "1985",
+        "title": "Police Academy 2: Their First Assignment"
+      },
+      {
+        "cast": [
+          "Ian McKellen",
+          "Brad Renfro",
+          "David Schwimmer",
+          "Bruce Davison"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Neighborhood boy Todd Bowden discovers that an old man living on his block named Arthur Denker is nazi war criminal. Bowden confronts Denker and offers him a deal: Bowden will not go to the authorities if Denker tells him stories of the concentration camps in WWII...",
+        "release_date": "1998-10-23",
+        "release_year": "1998",
+        "title": "Apt Pupil"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Dan Aykroyd",
+          "Jamie Lee Curtis",
+          "Jim Belushi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A snobbish investor and a wily street con-artist find their positions reversed as part of a bet by two callous millionaires.",
+        "release_date": "1983-06-07",
+        "release_year": "1983",
+        "title": "Trading Places"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Hal Holbrook",
+          "Mitchell Ryan",
+          "David Soul"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ted Post",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "\"Dirty\" Harry Calahan is a San Francisco Police Inspector on the trail of a group of rogue cops who have taken justice into their own hands. When shady characters are murdered one after another in grisly fashion, only Dirty Harry can stop them.",
+        "release_date": "1973-12-23",
+        "release_year": "1973",
+        "title": "Magnum Force"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Helen Hunt",
+          "Greg Kinnear",
+          "Cuba Gooding Jr."
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "New York City. Melvin Udall, a cranky, bigoted, obsessive-compulsive writer, finds his life turned upside down when neighboring gay artist Simon is hospitalized and his dog is entrusted to Melvin. In addition, Carol, the only waitress who will tolerate him, must leave work to care for her sick son, making it impossible for Melvin to eat breakfast.",
+        "release_date": "1997-12-19",
+        "release_year": "1997",
+        "title": "As Good As It Gets"
+      },
+      {
+        "cast": [
+          "David Duchovny",
+          "Gillian Anderson",
+          "Mitch Pileggi",
+          "William B. Davis"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Rob Bowman",
+        "genres": [
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mulder and Scully, now taken off the FBI's X Files cases, must find a way to fight the shadowy elements of the government to find out the truth about a conspiracy that might mean the alien colonization of Earth.",
+        "release_date": "1998-06-19",
+        "release_year": "1998",
+        "title": "X-Files: Fight the Future, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Carl Weathers",
+          "Elpidia Carrillo",
+          "Bill Duke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dutch and his group of commandos are hired by the CIA to rescue downed airmen from guerillas in a Central American jungle. The mission goes well but as they return they find that something is hunting them. Nearly invisible, it blends in with the forest, taking trophies from the bodies of its victims as it goes along. Occasionally seeing through its eyes, the audience sees it is an intelligent alien hunter, hunting them for sport, killing them off one at a time.",
+        "release_date": "1987-06-11",
+        "release_year": "1987",
+        "title": "Predator"
+      },
+      {
+        "cast": [
+          "James Dean",
+          "Natalie Wood",
+          "Sal Mineo",
+          "Ann Doran"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Ray",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After moving to a new town, troublemaking teen Jim Stark is supposed to have a clean slate, although being the new kid in town brings its own problems. While searching for some stability, Stark forms a bond with a disturbed classmate, Plato, and falls for local girl Judy. However, Judy is the girlfriend of neighborhood tough, Buzz. When Buzz violently confronts Jim and challenges him to a drag race, the new kid's real troubles begin.",
+        "release_date": "1955-10-27",
+        "release_year": "1955",
+        "title": "Rebel Without a Cause"
+      }
+    ],
+    "raw_user_id": "1780",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 494
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0008696841313627
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for animated children's films, as indicated by low ratings in this category.",
+        "Negative ratings for traditional comedies that lack depth or originality."
+      ],
+      "liked_patterns": [
+        "Enjoyment of films that blend comedy with other genres like drama and romance.",
+        "Positive ratings for films that feature strong emotional narratives.",
+        "Preference for action and thriller films that incorporate suspense and intrigue."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.); Interest in Comedy (The user enjoys comedies, as evidenced by multiple ratings of 3 or above in this genre.); Enjoyment of Action and Thriller (The user rates action and thriller films positively, suggesting a taste for suspenseful and engaging plots.); Fondness for Romance (The user shows a liking for romantic elements in films, as seen in the ratings for romantic comedies.); Preference for Unique Storytelling (The user appreciates films with unconventional narratives or themes, as indicated by the ratings for films with unique plots.). Liked patterns: Enjoyment of films that blend comedy with other genres like drama and romance., Positive ratings for films that feature strong emotional narratives., Preference for action and thriller films that incorporate suspense and intrigue.. Disliked patterns: Dislike for animated children's films, as indicated by low ratings in this category., Negative ratings for traditional comedies that lack depth or originality..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, as evidenced by multiple ratings of 3 or above in this genre.",
+          "taste": "Interest in Comedy"
+        },
+        {
+          "reason": "The user rates action and thriller films positively, suggesting a taste for suspenseful and engaging plots.",
+          "taste": "Enjoyment of Action and Thriller"
+        },
+        {
+          "reason": "The user shows a liking for romantic elements in films, as seen in the ratings for romantic comedies.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "The user appreciates films with unconventional narratives or themes, as indicated by the ratings for films with unique plots.",
+          "taste": "Preference for Unique Storytelling"
+        }
+      ]
+    },
+    "user_id": 1780
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "2931a042d3d94d05a1741532e2b79580afd1a688c0918084b93cbc545ad9cb0f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      275,
+      616,
+      1234,
+      2536,
+      2533,
+      30,
+      2371,
+      519,
+      983,
+      1965
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      64,
+      391,
+      425,
+      462,
+      512,
+      540,
+      607,
+      614,
+      676,
+      683,
+      867,
+      879,
+      932,
+      983,
+      1170,
+      1299,
+      1317,
+      1372,
+      1413,
+      1558,
+      1581,
+      1656,
+      1671,
+      2375,
+      2626
+    ],
+    "seed": 42,
+    "source_hash": "8527e9580de8df823af5dc2e2efca175ed062cc220cfbcab810e15e37b0b3f76",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4808,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jim Carrey",
+          "Maura Tierney",
+          "Cary Elwes",
+          "Jennifer Tilly"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom Shadyac",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Fletcher Reede is a fast-talking attorney and habitual liar. When his son Max blows out the candles on his fifth birthday he has just one wish - that his dad will stop lying for 24 hours. When Max's wish comes true, Fletcher discovers that his mouth has suddenly become his biggest liability.",
+        "release_date": "1997-03-21",
+        "release_year": "1997",
+        "title": "Liar Liar"
+      },
+      {
+        "cast": [
+          "Gene Barry",
+          "Ann Robinson",
+          "Les Tremayne",
+          "Lewis Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Byron Haskin",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The residents of a small town are excited when a flaming meteor lands in the hills, but their joy is short-lived when they discover it has passengers who are not very friendly.",
+        "release_date": "1953-08-13",
+        "release_year": "1953",
+        "title": "War of the Worlds, The"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Jack Warden",
+          "John Forsythe",
+          "Christine Lahti"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Jewison",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An ethical Baltimore defense lawyer disgusted with rampant legal corruption is asked to defend a judge he despises in a rape trial. But if he doesn't do it, the judge will have him disbarred.",
+        "release_date": "1979-10-19",
+        "release_year": "1979",
+        "title": "...And Justice for All"
+      },
+      {
+        "cast": [
+          "Joe Pesci",
+          "Danny Glover",
+          "Rosanna Arquette",
+          "Lynn Whitfield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Christopher Cain",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two fishing fanatics get in trouble when their fishing boat gets stolen while on a trip.",
+        "release_date": "1997-05-30",
+        "release_year": "1997",
+        "title": "Gone Fishin'"
+      },
+      {
+        "cast": [
+          "Chris Makepeace",
+          "Adam Baldwin",
+          "Matt Dillon",
+          "Martin Mull"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Bill",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Clifford Peach (Chris Makepeace), an easygoing teenager, is finding less than easy to fit in at his new high school, where a tough-talking bully (Matt Dillon) terrorizes his classmates and extorts their lunch money. Refusing to pay up, Clifford enlist the aid of an overgrown misfit whose mere presence intimidates students and teachers alike. But their \"business relationship\" soon turns personal as Clifford and the troubled loner forge a winning alliance against their intimidators - and a very special friendship with each other. Ruth Gordon, Martin Mull, Joan Cusack and John Houseman round out \"a truly remarkable cast\" (Variety) in this delightful coming-of-age comedy and triumphant tribute to the underdog.",
+        "release_date": "1980-07-11",
+        "release_year": "1980",
+        "title": "My Bodyguard"
+      },
+      {
+        "cast": [
+          "Peter Sallis",
+          "Anne Reid"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wallace falls in love with wool-shop owner Wendolene, not suspecting that she (or rather, her dog) is at the head of a fiendish sheep-rustling plot. Gromit is set up and jailed, but his new-found sheepish friend is determine to give Wallace a helping hand in finding out the real truth.",
+        "release_date": "1995-12-24",
+        "release_year": "1995",
+        "title": "Close Shave, A"
+      },
+      {
+        "cast": [
+          "Billy Zane",
+          "William Sadler",
+          "Jada Pinkett Smith",
+          "Brenda Bakke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ernest R. Dickerson",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A man on the run is hunted by a demon known as the Collector.",
+        "release_date": "1995-01-13",
+        "release_year": "1995",
+        "title": "Tales From the Crypt Presents: Demon Knight"
+      },
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Sandra Bullock",
+          "Samuel L. Jackson",
+          "Kevin Spacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A young lawyer defends a black man accused of murdering two men who raped his 10-year-old daughter, sparking a rebirth of the KKK.",
+        "release_date": "1996-07-24",
+        "release_year": "1996",
+        "title": "Time to Kill, A"
+      },
+      {
+        "cast": [
+          "Jean Reno",
+          "Natalie Portman",
+          "Gary Oldman",
+          "Danny Aiello"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "French",
+        "overview": "Leon, the top hit man in New York, has earned a rep as an effective \"cleaner\". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda's thoughts turn to revenge, and she considers following in Leon's footsteps.",
+        "release_date": "1994-09-14",
+        "release_year": "1994",
+        "title": "Professional, The (a.k.a. Leon: The Professional)"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Holly Hunter",
+          "Will Patton",
+          "William McNamara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An agoraphobic psychologist and a female detective must work together to take down a serial killer who copies serial killers from the past.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Copycat"
+      }
+    ],
+    "raw_user_id": "4808",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 752
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5182233829836034
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for a specific comedy film"
+      ],
+      "liked_patterns": [
+        "Positive ratings for animated and family-oriented films",
+        "Consistent enjoyment of drama and emotional narratives",
+        "Frequent appreciation for comedy films"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Family-Friendly Content (The user enjoys animated films and children's movies, as indicated by multiple ratings of 3 or above in these genres.); Interest in Drama and Emotional Storytelling (The user rates several drama films positively, suggesting a preference for narratives that explore deeper emotional themes.); Enjoyment of Comedy (The user has rated various comedies positively, indicating a consistent enjoyment of humor in films.); Fascination with Action and Adventure (The user has shown a liking for action and adventure films, as evidenced by multiple ratings of 3 or above in these genres.); Tendency towards Romantic Elements (The user appreciates films that incorporate romance, as reflected in positive ratings for movies with romantic themes.). Liked patterns: Positive ratings for animated and family-oriented films, Consistent enjoyment of drama and emotional narratives, Frequent appreciation for comedy films. Disliked patterns: Negative rating for a specific comedy film.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films and children's movies, as indicated by multiple ratings of 3 or above in these genres.",
+          "taste": "Appreciation for Animation and Family-Friendly Content"
+        },
+        {
+          "reason": "The user rates several drama films positively, suggesting a preference for narratives that explore deeper emotional themes.",
+          "taste": "Interest in Drama and Emotional Storytelling"
+        },
+        {
+          "reason": "The user has rated various comedies positively, indicating a consistent enjoyment of humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has shown a liking for action and adventure films, as evidenced by multiple ratings of 3 or above in these genres.",
+          "taste": "Fascination with Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that incorporate romance, as reflected in positive ratings for movies with romantic themes.",
+          "taste": "Tendency towards Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 4808
+  }
+}

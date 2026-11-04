@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "5b80ef079cb595bafdc94d843f8b002b67832ab746428cd201336c3d6c184393",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      861,
+      238,
+      542,
+      105,
+      407,
+      2056,
+      994,
+      426,
+      490,
+      942
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "35d9572b4d2b4a24bfc4e89f7ea2981a"
+    ],
+    "sampled_item_ids": [
+      4,
+      65,
+      69,
+      105,
+      200,
+      238,
+      274,
+      280,
+      306,
+      309,
+      388,
+      407,
+      426,
+      490,
+      542,
+      561,
+      861,
+      874,
+      892,
+      942,
+      994,
+      1000,
+      1713,
+      2056,
+      2065
+    ],
+    "seed": 42,
+    "source_hash": "44cf380e7ad5efa7aa6eac180a3ae461379e08657037c30535b0a1f06649f05f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2697,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "female",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gary Sinise",
+          "Tim Robbins",
+          "Don Cheadle",
+          "Connie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When contact is lost with the crew of the first Mars expedition, a rescue mission is launched to discover their fate.",
+        "release_date": "2000-03-10",
+        "release_year": "2000",
+        "title": "Mission to Mars"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Hugh Jackman",
+          "Ian McKellen",
+          "Halle Berry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers.",
+        "release_date": "2000-07-13",
+        "release_year": "2000",
+        "title": "X-Men"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Dougray Scott",
+          "Thandie Newton",
+          "Ving Rhames"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt races across Australia and Spain to stop a former IMF agent from unleashing a genetically engineered biological weapon called Chimera. This mission, should Hunt choose to accept it, plunges him into the center of an international crisis of terrifying magnitude.",
+        "release_date": "2000-05-24",
+        "release_year": "2000",
+        "title": "Mission: Impossible 2"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Heath Ledger",
+          "Joely Richardson",
+          "Jason Isaacs"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "After proving himself on the field of battle in the French and Indian War, Benjamin Martin wants nothing more to do with such things, preferring the simple life of a farmer. But when his son Gabriel enlists in the army to defend their new nation, America, against the British, Benjamin reluctantly returns to his old life to protect his son.",
+        "release_date": "2000-06-28",
+        "release_year": "2000",
+        "title": "Patriot, The"
+      },
+      {
+        "cast": [
+          "Ben Affleck",
+          "Gary Sinise",
+          "Charlize Theron",
+          "Dennis Farina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Frankenheimer",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After assuming his dead cellmate's identity to get with his girlfriend, an ex-con finds himself the reluctant participant in a casino heist.",
+        "release_date": "2000-02-25",
+        "release_year": "2000",
+        "title": "Reindeer Games"
+      },
+      {
+        "cast": [
+          "Vin Diesel",
+          "Radha Mitchell",
+          "Cole Hauser",
+          "Lewis Fitz-Gerald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Twohy",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When their ship crash-lands on a remote planet, the marooned passengers soon learn that escaped convict Riddick isn't the only thing they have to fear. Deadly creatures lurk in the shadows, waiting to attack in the dark, and the planet is rapidly plunging into the utter blackness of a total eclipse. With the body count rising, the doomed survivors are forced to turn to Riddick with his eerie eyes to guide them through the darkness to safety. With time running out, there's only one rule: Stay in the light.",
+        "release_date": "2000-02-18",
+        "release_year": "2000",
+        "title": "Pitch Black"
+      },
+      {
+        "cast": [
+          "Meryl Streep",
+          "Robert Redford",
+          "Klaus Maria Brandauer",
+          "Michael Kitchen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Out of Africa tells the story of the life of Danish author Karen Blixen, who at the beginning of the 20th century moved to Africa to build a new life for herself. The film is based on the autobiographical novel by Karen Blixen from 1937.",
+        "release_date": "1985-12-20",
+        "release_year": "1985",
+        "title": "Out of Africa"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Diane Keaton",
+          "Andy García",
+          "Talia Shire"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
+        "release_date": "1990-12-24",
+        "release_year": "1990",
+        "title": "Godfather: Part III, The"
+      },
+      {
+        "cast": [
+          "Madonna",
+          "Rosanna Arquette",
+          "Aidan Quinn",
+          "Mark Blum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Susan Seidelman",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Roberta is a bored suburban housewife who is fascinated with a woman, Susan, she only knows about by reading messages to and from her in the personals section of the newspaper. This fascination reaches a peak when an ad with the headline \"Desperately Seeking Susan\" proposes a rendezvous. Roberta goes too, and in a series of events involving amnesia and mistaken identity, steps into Susan's life.",
+        "release_date": "1985-03-29",
+        "release_year": "1985",
+        "title": "Desperately Seeking Susan"
+      }
+    ],
+    "raw_user_id": "2697",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 28
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.6487304050712013
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed in the sample."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend Drama with other genres like Action and Thriller.",
+        "Consistent enjoyment of films that feature strong character arcs and moral dilemmas.",
+        "Preference for films that include elements of suspense and tension."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (Multiple high ratings for films primarily categorized as Drama.); Enjoyment of Action and Thriller genres (Consistently high ratings for movies that fall within Action and Thriller categories.); Appreciation for Comedy elements (Several ratings of 4 or 5 for films that incorporate Comedy.); Interest in Sci-Fi themes (High ratings for multiple Sci-Fi films, indicating a strong interest in the genre.); Favoring films with complex narratives (High ratings for movies that feature intricate plots or character development.). Liked patterns: High ratings for films that blend Drama with other genres like Action and Thriller., Consistent enjoyment of films that feature strong character arcs and moral dilemmas., Preference for films that include elements of suspense and tension.. Disliked patterns: No significant patterns of dislike observed in the sample..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for films primarily categorized as Drama.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Consistently high ratings for movies that fall within Action and Thriller categories.",
+          "taste": "Enjoyment of Action and Thriller genres"
+        },
+        {
+          "reason": "Several ratings of 4 or 5 for films that incorporate Comedy.",
+          "taste": "Appreciation for Comedy elements"
+        },
+        {
+          "reason": "High ratings for multiple Sci-Fi films, indicating a strong interest in the genre.",
+          "taste": "Interest in Sci-Fi themes"
+        },
+        {
+          "reason": "High ratings for movies that feature intricate plots or character development.",
+          "taste": "Favoring films with complex narratives"
+        }
+      ]
+    },
+    "user_id": 2697
+  }
+}

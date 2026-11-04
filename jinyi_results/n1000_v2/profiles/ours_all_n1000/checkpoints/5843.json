@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "6333d58905c46a9bbb9a9d5ee48180b32ab1e1268b41d9dbaca5d9e0c722e9f4",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1116,
+      2955,
+      723,
+      663,
+      586,
+      1507,
+      643,
+      2512,
+      954,
+      161
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      23,
+      30,
+      34,
+      63,
+      110,
+      163,
+      172,
+      237,
+      284,
+      575,
+      583,
+      587,
+      612,
+      623,
+      645,
+      694,
+      713,
+      742,
+      1002,
+      1116,
+      1261,
+      1273,
+      1300,
+      1461,
+      1738
+    ],
+    "seed": 42,
+    "source_hash": "6001ec3e82b5987419ba7ae5d3d63b6aac66d2a8c5d46cb436ab978c61792efe",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5843,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Shelley Duvall",
+          "Danny Lloyd",
+          "Scatman Crothers"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
+        "release_date": "1980-05-22",
+        "release_year": "1980",
+        "title": "Shining, The"
+      },
+      {
+        "cast": [
+          "Robert Clarke",
+          "Patricia Manning",
+          "Nan Peterson",
+          "Patrick Whyte"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Clarke",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After exposure to radiation, an atomic research scientist finds himself changing into a murderous, lizard-like creature every time he is exposed to sunlight.",
+        "release_date": "1958-08-28",
+        "release_year": "1959",
+        "title": "Hideous Sun Demon, The"
+      },
+      {
+        "cast": [
+          "George Harrison",
+          "John Lennon",
+          "Paul McCartney",
+          "Ringo Starr"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "This Beatles film has an obscure Asian cult, that believes in human sacrifice, chasing Ringo after he accidentally put on the their victim's ceremonial ring. He is pursued by the cult, a pair of mad scientists, a member of a side cult that no longer believes in human sacrifice, and the London police who are trying to help.",
+        "release_date": "1965-07-29",
+        "release_year": "1965",
+        "title": "Help!"
+      },
+      {
+        "cast": [
+          "Keir Dullea",
+          "Gary Lockwood",
+          "William Sylvester",
+          "Douglas Rain"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "release_date": "1968-04-10",
+        "release_year": "1968",
+        "title": "2001: A Space Odyssey"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Priscilla Lane",
+          "Raymond Massey",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Capra",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mortimer Brewster is a newspaperman and author known for his diatribes against marriage. We watch him being married at city hall in the opening scene. Now all that is required is a quick trip home to tell Mortimer's two maiden aunts. While trying to break the news, he finds out his aunts' hobby; killing lonely old men and burying them in the cellar. It gets worse.",
+        "release_date": "1944-09-23",
+        "release_year": "1944",
+        "title": "Arsenic and Old Lace"
+      },
+      {
+        "cast": [
+          "Carole Lombard",
+          "Jack Benny",
+          "Robert Stack",
+          "Felix Bressart"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ernst Lubitsch",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "During the Nazi occupation of Poland, an acting troupe becomes embroiled in a Polish soldier's efforts to track down a German spy.",
+        "release_date": "1942-03-05",
+        "release_year": "1942",
+        "title": "To Be or Not to Be"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Alec Baldwin",
+          "Winona Ryder",
+          "Michael Keaton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Thanks to an untimely demise via drowning, a young couple end up as poltergeists in their New England farmhouse, where they fail to meet the challenge of scaring away the insufferable new owners, who want to make drastic changes. In desperation, the undead newlyweds turn to an expert frightmeister, but he's got a diabolical agenda of his own.",
+        "release_date": "1988-02-29",
+        "release_year": "1988",
+        "title": "Beetlejuice"
+      },
+      {
+        "cast": [
+          "Jennifer Drake",
+          "Eric Baugin",
+          "Jean Topart",
+          "Jean Valmont"
+        ],
+        "country": [
+          "Czech Republic",
+          "France"
+        ],
+        "director": "René Laloux",
+        "genres": [
+          "Animation",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "Fantastic Planet tells the story of “Oms”, human-like creatures, kept as domesticated pets by an alien race of blue giants called “Draags”. The story takes place on the Draags’ planet Ygam, where we follow our narrator, an Om called Terr, from infancy to adulthood. He manages to escape enslavement from a Draag learning device used to educate the savage Oms — and begins to organise an Om revolt.",
+        "release_date": "1973-05-01",
+        "release_year": "1973",
+        "title": "Fantastic Planet, The (La Planète sauvage)"
+      },
+      {
+        "cast": [
+          "John Archer",
+          "Warner Anderson",
+          "Tom Powers",
+          "Dick Wesson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irving Pichel",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Postulates the first manned trip to the moon, happening in the (then) near future, and being funded by a consortium of private backers. Assorted difficulties occur and must be overcome in-flight. Attempted to be realistic, with Robert A. Heinlein providing advice.",
+        "release_date": "1950-06-26",
+        "release_year": "1950",
+        "title": "Destination Moon"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Bill Pullman",
+          "Jeff Goldblum",
+          "Mary McDonnell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "On July 2, a giant alien mothership enters orbit around Earth and deploys several dozen saucer-shaped 'destroyer' spacecraft that quickly lay waste to major cities around the planet. On July 3, the United States conducts a coordinated counterattack that fails. On July 4, a plan is devised to gain access to the interior of the alien mothership in space, in order to plant a nuclear missile.",
+        "release_date": "1996-06-25",
+        "release_year": "1996",
+        "title": "Independence Day (ID4)"
+      }
+    ],
+    "raw_user_id": "5843",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 177
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.1386374894835396
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action-oriented films that lack depth or engaging narratives.",
+        "Negative response to films that are primarily horror without comedic elements.",
+        "Dislike for animated films that do not resonate emotionally or thematically."
+      ],
+      "liked_patterns": [
+        "Enjoyment of animated films that combine comedy and adventure.",
+        "Preference for comedies that also incorporate elements of romance or mystery.",
+        "Interest in dramas that explore complex themes and character development."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys light-hearted narratives and humor, as seen in multiple comedies rated 3 or above.); Animation (The user appreciates animated films, particularly those that blend genres like comedy and adventure.); Drama (The user has a preference for dramatic storytelling, with several dramas rated positively.); Sci-Fi (The user shows interest in science fiction, especially when combined with other genres like comedy and adventure.); Musical (The user enjoys musicals, as indicated by positive ratings for films that incorporate music and performance.). Liked patterns: Enjoyment of animated films that combine comedy and adventure., Preference for comedies that also incorporate elements of romance or mystery., Interest in dramas that explore complex themes and character development.. Disliked patterns: Dislike for action-oriented films that lack depth or engaging narratives., Negative response to films that are primarily horror without comedic elements., Dislike for animated films that do not resonate emotionally or thematically..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted narratives and humor, as seen in multiple comedies rated 3 or above.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates animated films, particularly those that blend genres like comedy and adventure.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user has a preference for dramatic storytelling, with several dramas rated positively.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows interest in science fiction, especially when combined with other genres like comedy and adventure.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user enjoys musicals, as indicated by positive ratings for films that incorporate music and performance.",
+          "taste": "Musical"
+        }
+      ]
+    },
+    "user_id": 5843
+  }
+}

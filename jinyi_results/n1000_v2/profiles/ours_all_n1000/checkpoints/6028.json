@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "6681071268ae3419fb5b832a8c0389d9f3f9cab7c7cdf0f5f207a594aa86d09d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      218,
+      256,
+      1193,
+      137,
+      1842,
+      1073,
+      2431,
+      433,
+      147,
+      140
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      7,
+      65,
+      118,
+      137,
+      187,
+      189,
+      196,
+      210,
+      218,
+      278,
+      301,
+      426,
+      433,
+      435,
+      474,
+      670,
+      679,
+      1019,
+      1073,
+      1110,
+      1167,
+      1193,
+      1666,
+      2431,
+      2543
+    ],
+    "seed": 42,
+    "source_hash": "67d308badd404271c7a2155d3ff289394e8afe7f0bd8bc64a4a7a68d05171974",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 6028,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Robert De Niro",
+          "Val Kilmer",
+          "Jon Voight"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Obsessive master thief, Neil McCauley leads a top-notch crew on various insane heists throughout Los Angeles while a mentally unstable detective, Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
+        "release_date": "1995-12-15",
+        "release_year": "1995",
+        "title": "Heat"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Linda Hamilton",
+          "Jamie Renée Smith",
+          "Jeremy Foley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Donaldson",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Volcanologist Harry Dalton comes to the sleepy town of Dante's Peak to investigate the recent rumblings of the dormant volcano the burg is named for. Before long, his worst fears are realized when a massive eruption hits, and immediately, Harry, the mayor and the townspeople find themselves fighting for their lives amid a catastrophic nightmare.",
+        "release_date": "1997-02-07",
+        "release_year": "1997",
+        "title": "Dante's Peak"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Fernando Rey",
+          "Roy Scheider",
+          "Tony Lo Bianco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Friedkin",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tough narcotics detective 'Popeye' Doyle is in hot pursuit of a suave French drug dealer who may be the key to a huge heroin-smuggling operation.",
+        "release_date": "1971-10-09",
+        "release_year": "1971",
+        "title": "French Connection, The"
+      },
+      {
+        "cast": [
+          "Jonny Lee Miller",
+          "Angelina Jolie",
+          "Jesse Bradford",
+          "Matthew Lillard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Iain Softley",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Along with his new friends, a teenager who was arrested by the US Secret Service and banned from using a computer for writing a computer virus discovers a plot by a nefarious hacker, but they must use their computer skills to find the evidence while being pursued by the Secret Service and the evil computer genius behind the virus.",
+        "release_date": "1995-09-14",
+        "release_year": "1995",
+        "title": "Hackers"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Richard Crenna",
+          "Charles Napier",
+          "Steven Berkoff"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George P. Cosmatos",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "John Rambo is released from prison by the government for a top-secret covert mission to the last place on Earth he'd want to return - the jungles of Vietnam.",
+        "release_date": "1985-05-21",
+        "release_year": "1985",
+        "title": "Rambo: First Blood Part II"
+      },
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Stephen Rea",
+          "Julianne Moore",
+          "James Bolam"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "On a rainy London night in 1946, novelist Maurice Bendrix has a chance meeting with Henry Miles, husband of his ex-mistress Sarah, who abruptly ended their affair two years before. Bendrix's obsession with Sarah is rekindled; he succumbs to his own jealousy and arranges to have her followed.",
+        "release_date": "1999-12-03",
+        "release_year": "1999",
+        "title": "End of the Affair, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Nicolas Cage",
+          "Joan Allen",
+          "Alessandro Nivola"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.",
+        "release_date": "1997-06-27",
+        "release_year": "1997",
+        "title": "Face/Off"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Jeremy Irons",
+          "Samuel L. Jackson",
+          "Graham Greene"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"partner\" -- and his beloved city -- in a deadly game that demands their concentration.",
+        "release_date": "1995-05-19",
+        "release_year": "1995",
+        "title": "Die Hard: With a Vengeance"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When world heavyweight boxing champion, Apollo Creed wants to give an unknown fighter a shot at the title as a publicity stunt, his handlers choose palooka Rocky Balboa, an uneducated collector for a Philadelphia loan shark. Rocky teams up with trainer  Mickey Goldmill to make the most of this once in a lifetime break.",
+        "release_date": "1976-11-21",
+        "release_year": "1976",
+        "title": "Rocky"
+      }
+    ],
+    "raw_user_id": "6028",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 39
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9905149511050186
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that lack engaging plots or character development.",
+        "Negative response to films that are primarily drama without action elements."
+      ],
+      "liked_patterns": [
+        "Preference for action films with strong narratives and character arcs.",
+        "Enjoyment of films that blend action with thriller and sci-fi elements.",
+        "Attraction to movies that feature adventure alongside action."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys films that combine action with adventure elements, often featuring heroic journeys and challenges.); Thriller Elements (The user appreciates movies that incorporate thriller aspects, creating suspense and excitement throughout the narrative.); Strong Character Development (The user favors films that showcase complex characters and their development, particularly in dramatic contexts.); Sci-Fi Integration (The user is drawn to action films that integrate science fiction themes, enhancing the storytelling with imaginative concepts.); Dramatic Themes (The user enjoys films that explore deep emotional and dramatic themes, often intertwined with action.). Liked patterns: Preference for action films with strong narratives and character arcs., Enjoyment of films that blend action with thriller and sci-fi elements., Attraction to movies that feature adventure alongside action.. Disliked patterns: Dislike for films that lack engaging plots or character development., Negative response to films that are primarily drama without action elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that combine action with adventure elements, often featuring heroic journeys and challenges.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates movies that incorporate thriller aspects, creating suspense and excitement throughout the narrative.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user favors films that showcase complex characters and their development, particularly in dramatic contexts.",
+          "taste": "Strong Character Development"
+        },
+        {
+          "reason": "The user is drawn to action films that integrate science fiction themes, enhancing the storytelling with imaginative concepts.",
+          "taste": "Sci-Fi Integration"
+        },
+        {
+          "reason": "The user enjoys films that explore deep emotional and dramatic themes, often intertwined with action.",
+          "taste": "Dramatic Themes"
+        }
+      ]
+    },
+    "user_id": 6028
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "checkpoint_hash": "a050765888a281fb3535edf2c49b59336c63513368e1bce448a6c359eaeeeb9f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      588,
+      128,
+      1377,
+      644,
+      6,
+      582,
+      548,
+      529,
+      125,
+      1593
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "608d55ce1ca74070bbe7a62eff8918f2"
+    ],
+    "sampled_item_ids": [
+      6,
+      63,
+      116,
+      125,
+      128,
+      135,
+      172,
+      206,
+      213,
+      265,
+      429,
+      548,
+      588,
+      609,
+      644,
+      647,
+      815,
+      835,
+      845,
+      866,
+      1025,
+      1062,
+      1195,
+      1259,
+      1593
+    ],
+    "seed": 42,
+    "source_hash": "d08c5d6f5922164ae020f38e84c45108956a734a9c49ada8266fc37287be45f5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2927,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Michael Keaton",
+          "Kim Basinger",
+          "Michael Gough"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker, who has seized control of Gotham's underworld.",
+        "release_date": "1989-06-23",
+        "release_year": "1989",
+        "title": "Batman"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Demi Moore",
+          "Rob Lowe",
+          "Jim Belushi",
+          "Elizabeth Perkins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A man and woman meet and try to have a romantic affair, despite their personal problems and the interference of their disapproving friends.",
+        "release_date": "1986-07-02",
+        "release_year": "1986",
+        "title": "About Last Night..."
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Kyra Sedgwick",
+          "Forest Whitaker",
+          "Robert Duvall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "An ordinary man sees a bright light descend from the sky, and discovers he now has super-intelligence and telekinesis.",
+        "release_date": "1996-07-05",
+        "release_year": "1996",
+        "title": "Phenomenon"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Billy Crystal",
+          "Carrie Fisher",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "During their travels from Chicago to New York, Harry and Sally Will debate whether or not sex ruins a perfect relationship between a man and a woman. Eleven years and later, they're still no closer to finding the answer.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "When Harry Met Sally..."
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Frakes",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The Borg, a relentless race of cyborgs, are on a direct course for Earth. Violating orders to stay away from the battle, Captain Picard and the crew of the newly-commissioned USS Enterprise E pursue the Borg back in time to prevent the invaders from changing Federation history and assimilating the galaxy.",
+        "release_date": "1996-11-21",
+        "release_year": "1996",
+        "title": "Star Trek: First Contact"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Meg Ryan",
+          "Andre Braugher",
+          "Dennis Franz"
+        ],
+        "country": [
+          "United States of America",
+          "Germany"
+        ],
+        "director": "Brad Silberling",
+        "genres": [
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When guardian angel Seth -- who invisibly watches over the citizens of Los Angeles -- becomes captivated by Maggie, a strong-willed heart surgeon, he ponders trading in his pure, otherworldly existence for a mortal life with his beloved. The couple embarks on a tender but forbidden romance spanning heaven and Earth.",
+        "release_date": "1998-04-10",
+        "release_year": "1998",
+        "title": "City of Angels"
+      }
+    ],
+    "raw_user_id": "2927",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 50
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9530373529296852
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "A tendency to dislike films that are primarily focused on crime without strong romantic or adventurous elements."
+      ],
+      "liked_patterns": [
+        "A preference for films that combine action with adventure and romance.",
+        "An inclination towards romantic comedies and dramas that feature strong emotional narratives.",
+        "Enjoyment of films that include elements of science fiction alongside action."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Romantic Comedies (The user appreciates films that blend humor with romantic themes, often enjoying lighthearted narratives.); Dramatic Romance (The user is drawn to films that explore deep emotional connections and relationships, often set against dramatic backdrops.); Sci-Fi Elements (The user shows interest in films that incorporate science fiction themes, particularly when combined with action.); Thrilling Mysteries (The user enjoys films that include elements of mystery and suspense, particularly when intertwined with romance.). Liked patterns: A preference for films that combine action with adventure and romance., An inclination towards romantic comedies and dramas that feature strong emotional narratives., Enjoyment of films that include elements of science fiction alongside action.. Disliked patterns: A tendency to dislike films that are primarily focused on crime without strong romantic or adventurous elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that blend humor with romantic themes, often enjoying lighthearted narratives.",
+          "taste": "Romantic Comedies"
+        },
+        {
+          "reason": "The user is drawn to films that explore deep emotional connections and relationships, often set against dramatic backdrops.",
+          "taste": "Dramatic Romance"
+        },
+        {
+          "reason": "The user shows interest in films that incorporate science fiction themes, particularly when combined with action.",
+          "taste": "Sci-Fi Elements"
+        },
+        {
+          "reason": "The user enjoys films that include elements of mystery and suspense, particularly when intertwined with romance.",
+          "taste": "Thrilling Mysteries"
+        }
+      ]
+    },
+    "user_id": 2927
+  }
+}

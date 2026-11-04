@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "94c5a3f8d44f9c7ad3e99fdea7cf0dc463af6bbdbcb225acd4cc6cb9ad018e2c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      4,
+      88,
+      610,
+      2036,
+      284,
+      56,
+      1540,
+      727,
+      798,
+      54
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "cd7d1a6ae9f04343b77e2c6550de5a9a"
+    ],
+    "sampled_item_ids": [
+      27,
+      54,
+      97,
+      117,
+      137,
+      200,
+      216,
+      384,
+      443,
+      455,
+      547,
+      663,
+      727,
+      1241,
+      1284,
+      1448,
+      1449,
+      1455,
+      1529,
+      1540,
+      1652,
+      1762,
+      2027,
+      2029,
+      2048
+    ],
+    "seed": 42,
+    "source_hash": "b6d9a54581ea4846694e22e82bb9a0b4859a56eb417f73c8d51a8ad2dec302ae",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 59,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Julia Roberts",
+          "Albert Finney",
+          "Aaron Eckhart",
+          "Marg Helgenberger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "Erin Brockovich"
+      },
+      {
+        "cast": [
+          "Ben Kingsley",
+          "Candice Bergen",
+          "Edward Fox",
+          "John Gielgud"
+        ],
+        "country": [
+          "India",
+          "United Kingdom"
+        ],
+        "director": "Richard Attenborough",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the early years of the 20th century, Mohandas K. Gandhi, a British-trained lawyer, forsakes all worldly possessions to take up the cause of Indian independence. Faced with armed resistance from the British government, Gandhi adopts a policy of 'passive resistance', endeavouring to win freedom for his people without resorting to bloodshed.",
+        "release_date": "1982-11-30",
+        "release_year": "1982",
+        "title": "Gandhi"
+      },
+      {
+        "cast": [
+          "Deems Taylor",
+          "Walt Disney",
+          "Julietta Novis",
+          "Leopold Stokowski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Samuel Armstrong",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Walt Disney's timeless masterpiece is an extravaganza of sight and sound! See the music come to life, hear the pictures burst into song and experience the excitement that is Fantasia over and over again.",
+        "release_date": "1940-11-13",
+        "release_year": "1940",
+        "title": "Fantasia"
+      },
+      {
+        "cast": [
+          "Sidney Poitier",
+          "Claudia McNeil",
+          "Ruby Dee",
+          "Diana Sands"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Petrie",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Walter Lee Younger is a young man struggling with his station in life. Sharing a tiny apartment with his wife, son, sister and mother, he seems like an imprisoned man. Until, that is, the family gets an unexpected financial windfall...",
+        "release_date": "1961-05-28",
+        "release_year": "1961",
+        "title": "Raisin in the Sun, A"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "Koji Yakusho",
+          "Tamiyo Kusakari",
+          "Naoto Takenaka",
+          "Yu Tokui"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Masayuki Suo",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "Japanese",
+        "overview": "A bored Japanese accountant sees a beautiful woman in the window of a ballroom dance studio. He secretly starts taking dancing lessons to be near her, and then over time discovers how much he loves ballroom dancing. His wife, meanwhile, has hired a private detective to find out why he has started coming home late smelling of perfume.",
+        "release_date": "1996-01-27",
+        "release_year": "1996",
+        "title": "Shall We Dance? (Shall We Dansu?)"
+      },
+      {
+        "cast": [
+          "George C. Scott",
+          "Karl Malden",
+          "Stephen Young",
+          "Michael Strong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "\"Patton\" tells the tale of General George S. Patton, famous tank commander of World War II. The film begins with patton's career in North Africa and progresses through the invasion of Germany and the fall of the Third Reich. Side plots also speak of Patton's numerous faults such his temper and habit towards insubordination.",
+        "release_date": "1970-01-25",
+        "release_year": "1970",
+        "title": "Patton"
+      },
+      {
+        "cast": [
+          "Gene Kelly",
+          "Donald O'Connor",
+          "Debbie Reynolds",
+          "Jean Hagen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Donen",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In 1927 Hollywood, Don Lockwood and Lina Lamont are a famous on-screen romantic pair in silent movies, but Lina mistakes the on-screen romance for real love. When their latest film is transformed into a musical, Don has the perfect voice for the songs, but strident voice faces the studio to dub her voice. Aspiring actress, Kathy Selden is brought in and, while she is working on the movie, Don falls in love with her.",
+        "release_date": "1952-04-10",
+        "release_year": "1952",
+        "title": "Singin' in the Rain"
+      },
+      {
+        "cast": [
+          "Christopher Guest",
+          "Michael McKean",
+          "Harry Shearer",
+          "Rob Reiner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "\"This Is Spinal Tap\" shines a light on the self-contained universe of a metal band struggling to get back on the charts, including everything from its complicated history of ups and downs, gold albums, name changes and undersold concert dates, along with the full host of requisite groupies, promoters, hangers-on and historians, sessions, release events and those special behind-the-scenes moments that keep it all real.",
+        "release_date": "1984-05-04",
+        "release_year": "1984",
+        "title": "This Is Spinal Tap"
+      },
+      {
+        "cast": [
+          "Geoffrey Rush",
+          "Noah Taylor",
+          "Armin Mueller-Stahl",
+          "Justin Braine"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "Scott Hicks",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Pianist David Helfgott, driven by his father and teachers, has a breakdown. Years later he returns to the piano, to popular if not critical acclaim.",
+        "release_date": "1996-01-21",
+        "release_year": "1996",
+        "title": "Shine"
+      }
+    ],
+    "raw_user_id": "59",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 171
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7180208892677106
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for documentaries, indicating a lack of interest in this genre.",
+        "Dislike for films that do not engage emotionally or lack strong narratives."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine drama with other genres like romance and war.",
+        "Consistent appreciation for films that feature strong character development and emotional depth.",
+        "A tendency to enjoy films that are critically acclaimed or recognized for their artistic merit."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Romance (Romantic elements are frequently appreciated, as shown by several high ratings for films that incorporate romance.); Comedy (There is a notable enjoyment of comedic films, with several ratings of 4 or higher indicating a preference for humor.); War Themes (Films with war themes receive high ratings, suggesting an appreciation for stories that explore conflict and its consequences.); Musicals (Musicals are well-received, as indicated by high ratings for films that blend music with storytelling.). Liked patterns: High ratings for films that combine drama with other genres like romance and war., Consistent appreciation for films that feature strong character development and emotional depth., A tendency to enjoy films that are critically acclaimed or recognized for their artistic merit.. Disliked patterns: Low ratings for documentaries, indicating a lack of interest in this genre., Dislike for films that do not engage emotionally or lack strong narratives..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Romantic elements are frequently appreciated, as shown by several high ratings for films that incorporate romance.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "There is a notable enjoyment of comedic films, with several ratings of 4 or higher indicating a preference for humor.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Films with war themes receive high ratings, suggesting an appreciation for stories that explore conflict and its consequences.",
+          "taste": "War Themes"
+        },
+        {
+          "reason": "Musicals are well-received, as indicated by high ratings for films that blend music with storytelling.",
+          "taste": "Musicals"
+        }
+      ]
+    },
+    "user_id": 59
+  }
+}

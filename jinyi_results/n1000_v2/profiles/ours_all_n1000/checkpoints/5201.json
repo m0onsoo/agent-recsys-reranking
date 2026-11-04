@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "8f509bdbe895c46aba1e1b3ee1f9c021937b6b408e71346400fba4fead0579d6",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      961,
+      129,
+      601,
+      1559,
+      1466,
+      1640,
+      1540,
+      265,
+      1480,
+      946
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      49,
+      112,
+      117,
+      125,
+      128,
+      176,
+      178,
+      237,
+      410,
+      560,
+      598,
+      662,
+      744,
+      764,
+      767,
+      961,
+      1121,
+      1127,
+      1196,
+      1299,
+      1559,
+      2039,
+      2045,
+      2107
+    ],
+    "seed": 42,
+    "source_hash": "241d8f779b06ebe804dacb97ac542b3939ddedd35c0caf8e4f9105ffad6f4c23",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5201,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Lauren Bacall",
+          "John Ridgely",
+          "Martha Vickers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Hawks",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Private Detective Philip Marlowe is hired by a rich family. Before the complex case is over, he's seen murder, blackmail, and what might be love.",
+        "release_date": "1946-08-23",
+        "release_year": "1946",
+        "title": "Big Sleep, The"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Peter Boyle",
+          "Marty Feldman",
+          "Madeline Kahn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A young neurosurgeon inherits the castle of his grandfather, the famous Dr. Victor von Frankenstein. In the castle he finds a funny hunchback, a pretty lab assistant and the elderly housekeeper. Young Frankenstein believes that the work of his grandfather was delusional, but when he discovers the book where the mad doctor described his reanimation experiment, he suddenly changes his mind.",
+        "release_date": "1974-12-15",
+        "release_year": "1974",
+        "title": "Young Frankenstein"
+      },
+      {
+        "cast": [
+          "Nicole Kidman",
+          "Sam Neill",
+          "Billy Zane",
+          "George Shevtsov"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An Australian couple take a sailing trip in the Pacific to forget about a terrible accident. While on the open sea, in dead calm, they come across a ship with one survivor who is not at all what he seems.",
+        "release_date": "1989-04-07",
+        "release_year": "1989",
+        "title": "Dead Calm"
+      },
+      {
+        "cast": [
+          "Laurence Olivier",
+          "Joan Fontaine",
+          "George Sanders",
+          "Judith Anderson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A self-conscious bride is tormented by the memory of her husband's dead first wife.",
+        "release_date": "1940-04-12",
+        "release_year": "1940",
+        "title": "Rebecca"
+      },
+      {
+        "cast": [
+          "Robert Donat",
+          "Madeleine Carroll",
+          "Lucie Mannheim",
+          "Godfrey Tearle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "While on vacation in London, Canadian Richard Hannay becomes embroiled in an international spy ring related to the mysterious \"39 steps.\" Then he meets agent Annabella Smith, who is soon killed in his apartment. He must elude the police, who are hunting him for murder, while he tries to stop Professor Jordan from sending secrets out of the country. Hannay is assisted by Pamela, an unwilling accomplice who discovers the truth.",
+        "release_date": "1935-06-01",
+        "release_year": "1935",
+        "title": "39 Steps, The"
+      },
+      {
+        "cast": [
+          "George C. Scott",
+          "Karl Malden",
+          "Stephen Young",
+          "Michael Strong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "\"Patton\" tells the tale of General George S. Patton, famous tank commander of World War II. The film begins with patton's career in North Africa and progresses through the invasion of Germany and the fall of the Third Reich. Side plots also speak of Patton's numerous faults such his temper and habit towards insubordination.",
+        "release_date": "1970-01-25",
+        "release_year": "1970",
+        "title": "Patton"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dennis Hopper",
+          "Sandra Bullock",
+          "Joe Morton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Los Angeles SWAT cop Jack Traven is up against bomb expert Howard Payne, who's after major ransom money. First it's a rigged elevator in a very tall building. Then it's a rigged bus--if it slows, it will blow, bad enough any day, but a nightmare in LA traffic. And that's still not the end.",
+        "release_date": "1994-06-09",
+        "release_year": "1994",
+        "title": "Speed"
+      },
+      {
+        "cast": [
+          "Kenneth More",
+          "Ronald Allen",
+          "Robert Ayres",
+          "Honor Blackman"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Roy Ward Baker",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The sinking of the Titanic is presented in a highly realistic fashion in this tense British drama. The disaster is portrayed largely from the perspective of the ocean liner's second officer, Charles Lightoller. Despite numerous warnings about ice, the ship sails on, with Capt. Edward John Smith keeping it going at a steady clip. When the doomed vessel finally hits an iceberg, the crew and passengers discover that they lack enough lifeboats, and tragedy follows.",
+        "release_date": "1958-12-16",
+        "release_year": "1958",
+        "title": "Night to Remember, A"
+      },
+      {
+        "cast": [
+          "Anjelica Huston",
+          "John Cusack",
+          "Annette Bening",
+          "Jan Munroe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "A young short-con grifter suffers both injury and the displeasure of reuniting with his criminal mother, all the while dating an unpredictable young lady.",
+        "release_date": "1990-09-14",
+        "release_year": "1990",
+        "title": "Grifters, The"
+      }
+    ],
+    "raw_user_id": "5201",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 89
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0165667952112394
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed."
+      ],
+      "liked_patterns": [
+        "Preference for films that blend action with adventure and drama.",
+        "Enjoyment of comedies that also explore romantic relationships.",
+        "Attraction to films with strong narratives and character development."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys films that combine action with adventure elements, often featuring heroic journeys.); Comedy with Romance (The user appreciates comedies that incorporate romantic themes, highlighting relationships and humor.); Drama with War Themes (The user is drawn to dramatic narratives that explore the complexities of war and its impact on individuals.); Film-Noir and Mystery (The user favors films that delve into dark themes and complex characters, often with a suspenseful or mysterious plot.); Strong Character Development (The user values films that showcase deep character arcs and emotional growth throughout the story.). Liked patterns: Preference for films that blend action with adventure and drama., Enjoyment of comedies that also explore romantic relationships., Attraction to films with strong narratives and character development.. Disliked patterns: No significant patterns of dislike observed..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that combine action with adventure elements, often featuring heroic journeys.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate romantic themes, highlighting relationships and humor.",
+          "taste": "Comedy with Romance"
+        },
+        {
+          "reason": "The user is drawn to dramatic narratives that explore the complexities of war and its impact on individuals.",
+          "taste": "Drama with War Themes"
+        },
+        {
+          "reason": "The user favors films that delve into dark themes and complex characters, often with a suspenseful or mysterious plot.",
+          "taste": "Film-Noir and Mystery"
+        },
+        {
+          "reason": "The user values films that showcase deep character arcs and emotional growth throughout the story.",
+          "taste": "Strong Character Development"
+        }
+      ]
+    },
+    "user_id": 5201
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "checkpoint_hash": "608be5c9cb90acf9a633351f32952f9ed44e80e4655f5889a78b344f26bf1695",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2360,
+      245,
+      2490,
+      534,
+      2049,
+      2380,
+      878,
+      438,
+      733,
+      854
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a428cf79d13a440fb5e10f6c4d160f29"
+    ],
+    "sampled_item_ids": [
+      19,
+      49,
+      52,
+      99,
+      203,
+      227,
+      245,
+      359,
+      379,
+      448,
+      520,
+      534,
+      585,
+      761,
+      903,
+      959,
+      1154,
+      1247,
+      1581,
+      1596,
+      2008,
+      2049,
+      2057,
+      2154,
+      2652
+    ],
+    "seed": 42,
+    "source_hash": "4b2870a117e3276d056412d4e4c9676985d387bad4b1c76d8b62db50e58e31db",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1626,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Stephen Dorff",
+          "Christa Denton",
+          "Louis Tripp",
+          "Kelly Rowan"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Tibor Takács",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Three young children accidentally release a horde of nasty, pint-sized demons from a hole in a suburban backyard. What follows is a classic battle between good and evil as the three kids struggle to overcome a nightmarish hell that is literally taking over the Earth.",
+        "release_date": "1987-04-21",
+        "release_year": "1987",
+        "title": "Gate, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "Stephen Dillane",
+          "Woody Harrelson",
+          "Marisa Tomei",
+          "Goran Visnjic"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Michael Winterbottom",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Follow a group of international journalists into the heart of the once cosmopolitan city of Sarajevo—now a danger zone of sniper and mortar attacks where residents still live. While reporting on an American aid worker who’s trying to get children out of the country, a British correspondent decides to take an orphaned girl home to London.",
+        "release_date": "1997-05-09",
+        "release_year": "1997",
+        "title": "Welcome To Sarajevo"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Mark Wahlberg",
+          "Diane Lane",
+          "John C. Reilly"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In October 1991, a confluence of weather conditions combined to form a killer storm in the North Atlantic. Caught in the storm was the sword-fishing boat Andrea Gail. Magnificent foreshadowing and anticipation fill this true-life drama while minute details of the fishing boats, their gear and the weather are juxtaposed with the sea adventure.",
+        "release_date": "2000-03-15",
+        "release_year": "2000",
+        "title": "Perfect Storm, The"
+      },
+      {
+        "cast": [
+          "Björk",
+          "Catherine Deneuve",
+          "David Morse",
+          "Peter Stormare"
+        ],
+        "country": [
+          "Argentina",
+          "Denmark",
+          "Finland",
+          "France",
+          "Germany",
+          "Iceland",
+          "Italy",
+          "Netherlands",
+          "Norway",
+          "Sweden",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Lars von Trier",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Selma, a Czech immigrant on the verge of blindness, struggles to make ends meet for herself and her son, who has inherited the same genetic disorder and will suffer the same fate without an expensive operation. When life gets too difficult, Selma learns to cope through her love of musicals, escaping life's troubles - even if just for a moment - by dreaming up little numbers to the rhythmic beats of her surroundings.",
+        "release_date": "2000-05-17",
+        "release_year": "2000",
+        "title": "Dancer in the Dark"
+      },
+      {
+        "cast": [
+          "Alex Vincent",
+          "Jenny Agutter",
+          "Gerrit Graham",
+          "Christine Elise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lafia",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Chuckie's back as the doll possessed by the soul of a serial killer, butchering all who stand in his way of possessing the body of a boy.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Child's Play 2"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Catherine Zeta-Jones",
+          "Owen Wilson",
+          "Lili Taylor"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dr. David Marrow invites Nell Vance, and Theo and Luke Sanderson to the eerie and isolated Hill House to be subjects for a sleep disorder study. The unfortunate guests discover that Marrow is far more interested in the sinister mansion itself – and they soon see the true nature of its horror.",
+        "release_date": "1999-07-23",
+        "release_year": "1999",
+        "title": "Haunting, The"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Cuba Gooding Jr.",
+          "Renée Zellweger",
+          "Kelly Preston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jerry Maguire used to be a typical sports agent: willing to do just about anything he could to get the biggest possible contracts for his clients, plus a nice commission for himself. Then, one day, he suddenly has second thoughts about what he's really doing. When he voices these doubts, he ends up losing his job and all of his clients, save Rod Tidwell, an egomaniacal football player.",
+        "release_date": "1996-12-06",
+        "release_year": "1996",
+        "title": "Jerry Maguire"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Courtney Love",
+          "Bob Zmuda",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A film about the life and career of the eccentric avant-garde comedian, Andy Kaufman.",
+        "release_date": "1999-12-22",
+        "release_year": "1999",
+        "title": "Man on the Moon"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Bill Pullman",
+          "Drew Barrymore",
+          "John Leguizamo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Goldman",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A young man finds out that he holds the key to restoring hope and ensuring survival for the human race, while an alien species called the Dredge are bent on mankind's destruction.",
+        "release_date": "2000-06-16",
+        "release_year": "2000",
+        "title": "Titan A.E."
+      }
+    ],
+    "raw_user_id": "1626",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 217
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9264463978651014
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies with horror themes",
+        "Negative reception of films with weak narratives",
+        "Dislike for poorly rated sci-fi films"
+      ],
+      "liked_patterns": [
+        "High ratings for drama and crime films",
+        "Positive reception of horror films with comedic elements",
+        "Appreciation for action-adventure films"
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for drama films, often rating them highly.); Crime (Crime dramas are frequently rated positively, indicating a liking for this genre.); Horror (The user enjoys horror elements, particularly when combined with other genres.); Action (Action films receive favorable ratings, suggesting an appreciation for excitement and intensity.); Romance (Romantic themes are present in several liked films, indicating a positive reception of this genre.). Liked patterns: High ratings for drama and crime films, Positive reception of horror films with comedic elements, Appreciation for action-adventure films. Disliked patterns: Low ratings for comedies with horror themes, Negative reception of films with weak narratives, Dislike for poorly rated sci-fi films.",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for drama films, often rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Crime dramas are frequently rated positively, indicating a liking for this genre.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "The user enjoys horror elements, particularly when combined with other genres.",
+          "taste": "Horror"
+        },
+        {
+          "reason": "Action films receive favorable ratings, suggesting an appreciation for excitement and intensity.",
+          "taste": "Action"
+        },
+        {
+          "reason": "Romantic themes are present in several liked films, indicating a positive reception of this genre.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 1626
+  }
+}

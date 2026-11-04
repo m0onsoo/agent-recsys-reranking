@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "8a674250e2d80f32873f657c84dca85dd4c313af91aa0accf06092c4f29d6217",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1830,
+      28,
+      1798,
+      1082,
+      164,
+      1072,
+      2001,
+      177,
+      114,
+      677
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      11,
+      14,
+      31,
+      111,
+      192,
+      201,
+      214,
+      324,
+      401,
+      425,
+      473,
+      482,
+      604,
+      623,
+      648,
+      691,
+      743,
+      1048,
+      1146,
+      1195,
+      1382,
+      1614,
+      1798,
+      2001,
+      2209
+    ],
+    "seed": 42,
+    "source_hash": "35e92c5ca27cf97d66ca1abe23b12313e40e11d3f7fccf6fcbbd02ddf49fb34c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5512,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Gene Hackman",
+          "Ed Harris",
+          "Scott Glenn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A master thief coincidentally is robbing a house where a murder in which the President of The United States is involved occurs in front of his eyes. He is forced to run yet may hold evidence that could convict the President. A political thriller from and starring Clint Eastwood and based on a novel by David Baldacci.",
+        "release_date": "1997-02-14",
+        "release_year": "1997",
+        "title": "Absolute Power"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Leonardo DiCaprio",
+          "Frances Fisher",
+          "Billy Zane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "84 years later, a 101-year-old woman named Rose DeWitt Bukater tells the story to her granddaughter Lizzy Calvert, Brock Lovett, Lewis Bodine, Bobby Buell and Anatoly Mikailavich on the Keldysh about her life set in April 10th 1912, on a ship called Titanic when young Rose boards the departing ship with the upper-class passengers and her mother, Ruth DeWitt Bukater, and her fiancé, Caledon Hockley. Meanwhile, a drifter and artist named Jack Dawson and his best friend Fabrizio De Rossi win third-class tickets to the ship in a game. And she explains the whole story from departure until the death of Titanic on its first and last voyage April 15th, 1912 at 2:20 in the morning.",
+        "release_date": "1997-11-18",
+        "release_year": "1997",
+        "title": "Titanic"
+      },
+      {
+        "cast": [
+          "Whoopi Goldberg",
+          "Stephen Collins",
+          "Jonathan Pryce",
+          "John Wood"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Terry works for a bank, and uses computers to communicate with clients all over the world. One day she gets a strange message from an unknown source. The message is coded. After decoding the message, Terry becomes embroiled in an espionage ring. People are killed, and Terry is chased. Throughout she remains in contact with this unknown person, who needs Terry to help save his life.",
+        "release_date": "1986-10-09",
+        "release_year": "1986",
+        "title": "Jumpin' Jack Flash"
+      },
+      {
+        "cast": [
+          "Ralph Macchio",
+          "Pat Morita",
+          "Martin Kove",
+          "Charlie Tanimoto"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Mr. Miyagi and Daniel take a trip to Okinawa to visit Mr. Miyagi's dying father. After arriving Mr. Miyagi finds he still has feelings for an old love. This stirs up trouble with an old rival who he originally left Okinawa to avoid. In the mean time, Daniel encounters a new love and also makes some enemies.",
+        "release_date": "1986-06-18",
+        "release_year": "1986",
+        "title": "Karate Kid, Part II, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Joe Pesci",
+          "Rene Russo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Archetypal buddy cops Riggs and Murtaugh are back for another round of high-stakes action, this time setting their collective sights on bringing down a former Los Angeles police lieutenant turned black market weapons dealer. Lorna Cole joins as the beautiful yet hardnosed internal affairs sergeant who catches Riggs's eye.",
+        "release_date": "1992-05-15",
+        "release_year": "1992",
+        "title": "Lethal Weapon 3"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Christopher Lee",
+          "Britt Ekland",
+          "Maud Adams"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Guy Hamilton",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "A golden bullet has 007 engraved on it as it smashes into the secret service headquarters. The bullet came from the professional killer Scaramanga who has yet to miss a target and James Bond begins a mission to try and stop him.",
+        "release_date": "1974-12-01",
+        "release_year": "1974",
+        "title": "Man with the Golden Gun, The"
+      },
+      {
+        "cast": [
+          "Graham Chapman",
+          "John Cleese",
+          "Terry Gilliam",
+          "Eric Idle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Ian MacNaughton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "And Now for Something Completely Different is a film spin-off from the television comedy series Monty Python's Flying Circus featuring favourite sketches from the first two seasons.",
+        "release_date": "1971-09-28",
+        "release_year": "1971",
+        "title": "And Now for Something Completely Different"
+      },
+      {
+        "cast": [
+          "Robert Carlyle",
+          "Mark Addy",
+          "William Snape",
+          "Steve Huison"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Peter Cattaneo",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Sheffield, England. Gaz, a jobless steelworker in need of quick cash persuades his mates to bare it all in a one-night-only strip show.",
+        "release_date": "1997-08-13",
+        "release_year": "1997",
+        "title": "Full Monty, The"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Tahnee Welch",
+          "Brian Dennehy",
+          "Don Ameche"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A group of aliens return to earth to take back some cocoons of their people they left behind from an earlier trip. They kept the recovered cocoons in the swimming pool of a house they rented in a small Florida town. Their mission is hampered by a number of old people from an elderly home nearby, who have been secretly using the pool and discovering the unusual power of these cocoons.",
+        "release_date": "1985-06-21",
+        "release_year": "1985",
+        "title": "Cocoon"
+      }
+    ],
+    "raw_user_id": "5512",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 193
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.055733132015681
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed"
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies and romantic comedies",
+        "High ratings for action and adventure films",
+        "Positive reception of animated and children's movies"
+      ],
+      "summary": "Unique tastes: Enjoyment of Comedy (The user has rated multiple comedies highly, indicating a strong preference for humor in films.); Appreciation for Romance (Several romantic films received high ratings, suggesting a fondness for romantic themes.); Interest in Animation and Children's Films (The user has rated animated and children's films positively, showing a liking for family-friendly content.); Affinity for Action and Adventure (Action and adventure films are frequently rated well, indicating a preference for excitement and thrill.); Tendency to Enjoy Musicals (The user has rated musicals positively, suggesting an appreciation for music and performance in films.). Liked patterns: Strong preference for comedies and romantic comedies, High ratings for action and adventure films, Positive reception of animated and children's movies. Disliked patterns: No significant patterns of dislike observed.",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple comedies highly, indicating a strong preference for humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "Several romantic films received high ratings, suggesting a fondness for romantic themes.",
+          "taste": "Appreciation for Romance"
+        },
+        {
+          "reason": "The user has rated animated and children's films positively, showing a liking for family-friendly content.",
+          "taste": "Interest in Animation and Children's Films"
+        },
+        {
+          "reason": "Action and adventure films are frequently rated well, indicating a preference for excitement and thrill.",
+          "taste": "Affinity for Action and Adventure"
+        },
+        {
+          "reason": "The user has rated musicals positively, suggesting an appreciation for music and performance in films.",
+          "taste": "Tendency to Enjoy Musicals"
+        }
+      ]
+    },
+    "user_id": 5512
+  }
+}

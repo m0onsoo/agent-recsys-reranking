@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "189244e4fc9bbaea3c27537cc5c3f97e19f1a084cf158262fe6a5de69c7f441a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2207,
+      172,
+      350,
+      850,
+      382,
+      1163,
+      190,
+      238,
+      2270,
+      1158
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "388949d0dbac4714b683219990094705"
+    ],
+    "sampled_item_ids": [
+      24,
+      93,
+      105,
+      117,
+      172,
+      177,
+      222,
+      244,
+      382,
+      517,
+      523,
+      532,
+      617,
+      752,
+      854,
+      886,
+      950,
+      953,
+      1000,
+      1201,
+      1845,
+      2062,
+      2207,
+      2266,
+      2437
+    ],
+    "seed": 42,
+    "source_hash": "59fdcd8d454548a31b03fefe6a97327dde3e9f1f69428655bf18148364f310f0",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2236,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "Under 18",
+      "gender": "male",
+      "occupation": "K-12 student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Miranda Richardson",
+          "Rachael Leigh Cook",
+          "Mickey Rourke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen T. Kay",
+        "genres": [
+          "Action",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Remake of the Michael Caine classic. Jack Carter, a mob enforcer living in Las Vegas, travels back to his hometown of Seattle for his brother's funeral. During this visit, Carter realizes that the death of his brother was not accidental, but a murder. With this knowledge, Carter sets out to kill all those responsible.",
+        "release_date": "2000-10-06",
+        "release_year": "2000",
+        "title": "Get Carter"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Robin Wright",
+          "Gary Sinise",
+          "Mykelti Williamson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events - in each case, far exceeding what anyone imagined he could do. Yet, despite all the things he has attained, his one true love eludes him. 'Forrest Gump' is the story of a man who rose above his challenges, and who proved that determination, courage, and love are more important than ability.",
+        "release_date": "1994-07-06",
+        "release_year": "1994",
+        "title": "Forrest Gump"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Owen Wilson",
+          "Lucy Liu",
+          "Xander Berkeley"
+        ],
+        "country": [
+          "Hong Kong",
+          "United States of America"
+        ],
+        "director": "Tom Dey",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Chon Wang, a clumsy imperial guard trails Princess Pei Pei when she is kidnapped from the Forbidden City and transported to America. Wang follows her captors to Nevada, where he teams up with an unlikely partner, outcast outlaw Roy O'Bannon, and tries to spring the princess from her imprisonment.",
+        "release_date": "2000-05-26",
+        "release_year": "2000",
+        "title": "Shanghai Noon"
+      },
+      {
+        "cast": [
+          "Val Kilmer",
+          "Elisabeth Shue",
+          "Rade Serbedzija",
+          "Henry Goodman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Ivan Tretiak, Russian Mafia boss who wants to create an oil crisis in Moscow and seize power as a result sends Simon Templar, great international criminal, to England to get a secret formula for cold fusion from U.S. scientist Emma Russell. Templar falls in love with Emma and they try to outwit Tretiak and his guerrillas, hiding from them in Moscow",
+        "release_date": "1997-04-03",
+        "release_year": "1997",
+        "title": "Saint, The"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      },
+      {
+        "cast": [
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Patrick Dempsey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A murdering spree begins to happen again, this time its targeted toward the original Woodsboro survivors and those associated with the movie inside a movie, 'Stab 3'. Sydney must face the demons of her past to stop the killer.",
+        "release_date": "2000-02-03",
+        "release_year": "2000",
+        "title": "Scream 3"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Hugh Jackman",
+          "Ian McKellen",
+          "Halle Berry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers.",
+        "release_date": "2000-07-13",
+        "release_year": "2000",
+        "title": "X-Men"
+      },
+      {
+        "cast": [
+          "Freddie Prinze Jr.",
+          "Julia Stiles",
+          "Selma Blair",
+          "Shawn Hatosy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kris Isacsson",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "College coeds in New York City, Al, the son of a celebrity chef, and Imogen, a talented artist, become smitten the second they lay eyes on one another at a bar. However, the road to happiness is not a smooth one. Outside forces, including a predatory porn star who wants to lure Al into her bed, threaten to pull apart the young lovers before their romance has a chance to really flourish.",
+        "release_date": "2000-01-21",
+        "release_year": "2000",
+        "title": "Down to You"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Renée Zellweger",
+          "Anthony Anderson",
+          "Robert Forster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Rhode Island State Trooper Charlie Baileygates has a multiple personality disorder. One personality is crazy and aggressive, while the other is more friendly and laid back. Both of these personalities fall in love with the same woman named Irene after Charlie loses his medication.",
+        "release_date": "2000-06-22",
+        "release_year": "2000",
+        "title": "Me, Myself and Irene"
+      }
+    ],
+    "raw_user_id": "2236",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 76
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5054763439067846
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are overly dark or violent",
+        "Dislike for poorly received comedies",
+        "Dislike for thrillers that lack engaging plots"
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and emotional storytelling",
+        "Enjoyment of comedies that incorporate romance",
+        "Interest in animated films suitable for family viewing"
+      ],
+      "summary": "Unique tastes: Drama and War (The user appreciates films that explore serious themes and historical events, often with emotional depth.); Comedy and Romance (The user enjoys light-hearted films that blend humor with romantic elements, indicating a preference for feel-good narratives.); Animation and Family (The user shows a liking for animated films that appeal to both children and adults, suggesting a fondness for family-friendly content.); Action and Adventure (The user is drawn to films that feature thrilling action sequences and adventurous plots, indicating a taste for excitement.); Dark Comedy and Satire (The user has an interest in films that combine humor with darker themes, reflecting a taste for unconventional storytelling.). Liked patterns: Strong preference for drama and emotional storytelling, Enjoyment of comedies that incorporate romance, Interest in animated films suitable for family viewing. Disliked patterns: Dislike for films that are overly dark or violent, Dislike for poorly received comedies, Dislike for thrillers that lack engaging plots.",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates films that explore serious themes and historical events, often with emotional depth.",
+          "taste": "Drama and War"
+        },
+        {
+          "reason": "The user enjoys light-hearted films that blend humor with romantic elements, indicating a preference for feel-good narratives.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "The user shows a liking for animated films that appeal to both children and adults, suggesting a fondness for family-friendly content.",
+          "taste": "Animation and Family"
+        },
+        {
+          "reason": "The user is drawn to films that feature thrilling action sequences and adventurous plots, indicating a taste for excitement.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user has an interest in films that combine humor with darker themes, reflecting a taste for unconventional storytelling.",
+          "taste": "Dark Comedy and Satire"
+        }
+      ]
+    },
+    "user_id": 2236
+  }
+}

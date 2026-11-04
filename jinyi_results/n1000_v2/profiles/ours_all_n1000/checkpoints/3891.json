@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "8472641411069586ddd0b811fc9ed7ddd02cf8bbb6873fdfd1b55ddbd0a65dfc",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      43,
+      767,
+      28,
+      588,
+      1242,
+      2591,
+      56,
+      332,
+      618,
+      1418
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9aa68454544e4297bbfa24378dd549f7"
+    ],
+    "sampled_item_ids": [
+      9,
+      28,
+      38,
+      114,
+      124,
+      129,
+      171,
+      172,
+      190,
+      247,
+      263,
+      475,
+      604,
+      663,
+      767,
+      826,
+      1196,
+      1252,
+      1518,
+      1529,
+      1683,
+      1912,
+      2217,
+      2617,
+      3023
+    ],
+    "seed": 42,
+    "source_hash": "6937932b0016464d0a97547d35ca70aabedd604434ed1fbb089b8c4ae9707b98",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3891,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "female",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Morgan Freeman",
+          "Jessica Tandy",
+          "Dan Aykroyd",
+          "Patti LuPone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bruce Beresford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of an old Jewish widow named Daisy Werthan and her relationship with her colored chauffeur Hoke. From an initial mere work relationship grew in 25 years a strong friendship between the two very different characters in a time when those types of relationships where shunned upon. Oscar winning tragic comedy with a star-studded cast and based on a play of the same name by Alfred Uhry.",
+        "release_date": "1989-12-13",
+        "release_year": "1989",
+        "title": "Driving Miss Daisy"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Leonardo DiCaprio",
+          "Frances Fisher",
+          "Billy Zane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "84 years later, a 101-year-old woman named Rose DeWitt Bukater tells the story to her granddaughter Lizzy Calvert, Brock Lovett, Lewis Bodine, Bobby Buell and Anatoly Mikailavich on the Keldysh about her life set in April 10th 1912, on a ship called Titanic when young Rose boards the departing ship with the upper-class passengers and her mother, Ruth DeWitt Bukater, and her fiancé, Caledon Hockley. Meanwhile, a drifter and artist named Jack Dawson and his best friend Fabrizio De Rossi win third-class tickets to the ship in a game. And she explains the whole story from departure until the death of Titanic on its first and last voyage April 15th, 1912 at 2:20 in the morning.",
+        "release_date": "1997-11-18",
+        "release_year": "1997",
+        "title": "Titanic"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Michael Keaton",
+          "Kim Basinger",
+          "Michael Gough"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker, who has seized control of Gotham's underworld.",
+        "release_date": "1989-06-23",
+        "release_year": "1989",
+        "title": "Batman"
+      },
+      {
+        "cast": [
+          "Jonathan Pryce",
+          "Robert De Niro",
+          "Katherine Helmond",
+          "Ian Holm"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
+        "release_date": "1985-02-20",
+        "release_year": "1985",
+        "title": "Brazil"
+      },
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Kyle MacLachlan",
+          "Diane Venora",
+          "Sam Shepard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Almereyda",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Modern day adaptation of Shakespeare's immortal story about Hamlet's plight to avenge his father's murder in New York City.",
+        "release_date": "2000-05-12",
+        "release_year": "2000",
+        "title": "Hamlet"
+      },
+      {
+        "cast": [
+          "Koji Yakusho",
+          "Tamiyo Kusakari",
+          "Naoto Takenaka",
+          "Yu Tokui"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Masayuki Suo",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "Japanese",
+        "overview": "A bored Japanese accountant sees a beautiful woman in the window of a ballroom dance studio. He secretly starts taking dancing lessons to be near her, and then over time discovers how much he loves ballroom dancing. His wife, meanwhile, has hired a private detective to find out why he has started coming home late smelling of perfume.",
+        "release_date": "1996-01-27",
+        "release_year": "1996",
+        "title": "Shall We Dance? (Shall We Dansu?)"
+      },
+      {
+        "cast": [
+          "Danny Elfman",
+          "Chris Sarandon",
+          "Catherine O'Hara",
+          "William Hickey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Henry Selick",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.",
+        "release_date": "1993-10-09",
+        "release_year": "1993",
+        "title": "Nightmare Before Christmas, The"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Zero Mostel",
+          "Dick Shawn",
+          "Kenneth Mars"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Broadway producer, Max Bialystock and his accountant, Leo Bloom plan to make money by charming little old ladies to invest in a production many times over what it will actually cost, and then put on a sure-fire flop, so nobody will ask for their money back – and what can be a more certain flop than a tasteless musical celebrating Hitler.",
+        "release_date": "1967-11-22",
+        "release_year": "1968",
+        "title": "Producers, The"
+      },
+      {
+        "cast": [
+          "Brooke Shields",
+          "Christopher Atkins",
+          "Leo McKern",
+          "William Daniels"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Randal Kleiser",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical island. Soon, however, the cook dies and the young boy and girl are left on their own. Days become years and Emmeline (Brooke Shields) and Richard (Christopher Atkins) make a home for themselves surrounded by exotic creatures and nature's beauty. But will they ever see civilization again?",
+        "release_date": "1980-07-05",
+        "release_year": "1980",
+        "title": "Blue Lagoon, The"
+      }
+    ],
+    "raw_user_id": "3891",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 80
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4411925129270338
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action-adventure films that lack comedic elements"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films and musicals",
+        "Strong preference for comedies that also incorporate drama",
+        "Positive ratings for films with romantic themes"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Musicals (The user enjoys animated films and musicals, as evidenced by multiple high ratings for films in these genres.); Fondness for Comedy and Drama (The user rates several comedies and dramas highly, indicating a preference for films that blend humor with emotional depth.); Interest in Documentaries (The user has rated multiple documentaries positively, suggesting an appreciation for real-life stories and insights.); Enjoyment of Romantic Themes (The user frequently rates films with romantic elements highly, indicating a strong preference for love stories.); Affinity for Thrillers and Mysteries (The user has shown a liking for thrillers and mystery genres, as reflected in their ratings for films that incorporate these elements.). Liked patterns: High ratings for animated films and musicals, Strong preference for comedies that also incorporate drama, Positive ratings for films with romantic themes. Disliked patterns: Dislike for action-adventure films that lack comedic elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films and musicals, as evidenced by multiple high ratings for films in these genres.",
+          "taste": "Appreciation for Animation and Musicals"
+        },
+        {
+          "reason": "The user rates several comedies and dramas highly, indicating a preference for films that blend humor with emotional depth.",
+          "taste": "Fondness for Comedy and Drama"
+        },
+        {
+          "reason": "The user has rated multiple documentaries positively, suggesting an appreciation for real-life stories and insights.",
+          "taste": "Interest in Documentaries"
+        },
+        {
+          "reason": "The user frequently rates films with romantic elements highly, indicating a strong preference for love stories.",
+          "taste": "Enjoyment of Romantic Themes"
+        },
+        {
+          "reason": "The user has shown a liking for thrillers and mystery genres, as reflected in their ratings for films that incorporate these elements.",
+          "taste": "Affinity for Thrillers and Mysteries"
+        }
+      ]
+    },
+    "user_id": 3891
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "checkpoint_hash": "d9a5197aac4f8c65a9d41469992ba8314a4641604842fca7fb59942a5cb1335e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1110,
+      634,
+      102,
+      68,
+      2044,
+      487,
+      136,
+      1299,
+      1795,
+      717
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "43084e53f386486c91104850d759a31c"
+    ],
+    "sampled_item_ids": [
+      112,
+      168,
+      237,
+      247,
+      421,
+      560,
+      618,
+      634,
+      670,
+      697,
+      699,
+      764,
+      830,
+      965,
+      1116,
+      1273,
+      1448,
+      1451,
+      1470,
+      1474,
+      1583,
+      1674,
+      1795,
+      2129,
+      2331
+    ],
+    "seed": 42,
+    "source_hash": "5657c90383e6aa969a7fbaea346472641ac10e1562c49b9ef2fd9ffc57e5959c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 107,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "tradesman/craftsman"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Denzel Washington",
+          "Cary Elwes",
+          "Morgan Freeman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Robert Gould Shaw leads the US Civil War's first all-black volunteer company, fighting prejudices of both his own Union army and the Confederates.",
+        "release_date": "1989-12-15",
+        "release_year": "1989",
+        "title": "Glory"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1970",
+        "title": "M*A*S*H"
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Karl Malden",
+          "Lee J. Cobb",
+          "Rod Steiger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Elia Kazan",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Terry Malloy dreams about being a prize fighter, while tending his pigeons and running errands at the docks for Johnny Friendly, the corrupt boss of the dockers union. Terry witnesses a murder by two of Johnny's thugs, and later meets the dead man's sister and feels responsible for his death. She introduces him to Father Barry, who tries to force him to provide information for the courts that will smash the dock racketeers.",
+        "release_date": "1954-06-22",
+        "release_year": "1954",
+        "title": "On the Waterfront"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Ray Liotta",
+          "Joe Pesci",
+          "Lorraine Bracco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+        "release_date": "1990-09-12",
+        "release_year": "1990",
+        "title": "GoodFellas"
+      },
+      {
+        "cast": [
+          "Edward Woodward",
+          "Jack Thompson",
+          "John Waters",
+          "Bryan Brown"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "Bruce Beresford",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "During the Boer War, three Australian lieutenants are on trial for shooting Boer prisoners. Though they acted under orders, they are being used as scapegoats by the General Staff, who hopes to distance themselves from the irregular practices of the war. The trial does not progress as smoothly as expected by the General Staff, as the defence puts up a strong fight in the courtroom.",
+        "release_date": "1980-05-15",
+        "release_year": "1980",
+        "title": "Breaker Morant"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Cybill Shepherd",
+          "Harvey Keitel",
+          "Jodie Foster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+        "release_date": "1976-02-07",
+        "release_year": "1976",
+        "title": "Taxi Driver"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "John Randolph Jones",
+          "Jack Kehoe",
+          "Biff McGuire"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The real-life struggle of an honest New York City cop against a corrupt system.",
+        "release_date": "1973-12-05",
+        "release_year": "1973",
+        "title": "Serpico"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Susan Sarandon",
+          "Tim Robbins",
+          "Trey Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Veteran catcher Crash Davis is brought to the minor league Durham Bulls to help their up and coming pitching prospect, \"Nuke\" Laloosh. Their relationship gets off to a rocky start and is further complicated when baseball groupie Annie Savoy sets her sights on the two men.",
+        "release_date": "1988-06-15",
+        "release_year": "1988",
+        "title": "Bull Durham"
+      },
+      {
+        "cast": [
+          "John Wayne",
+          "Maureen O'Hara",
+          "Victor McLaglen",
+          "Barry Fitzgerald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Ford",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Sean Thornton has returned from America to reclaim his homestead and escape his past. Sean's eye is caught by Mary Kate Danaher, the beautiful spinster and younger sister of ill-tempered \"Red\" Will Danaher. The riotous relationship that forms between Sean and Mary Kate, punctuated by Will's pugnacious attempts to keep them apart, form the plot, with Sean's past as the dark undercurrent.",
+        "release_date": "1952-07-21",
+        "release_year": "1952",
+        "title": "Quiet Man, The"
+      },
+      {
+        "cast": [
+          "Henry Fonda",
+          "Martin Balsam",
+          "John Fiedler",
+          "Lee J. Cobb"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+        "release_date": "1957-03-25",
+        "release_year": "1957",
+        "title": "12 Angry Men"
+      }
+    ],
+    "raw_user_id": "107",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 97
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.47518665448892244
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed"
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and crime genres",
+        "Enjoyment of thrillers with suspenseful plots",
+        "Appreciation for comedies, even with mixed ratings"
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for films in this genre.); Crime (The user enjoys crime-related stories, reflected in their positive ratings for several crime dramas and thrillers.); Thriller (The user appreciates suspenseful and thrilling plots, indicated by their favorable ratings for various thriller films.); Comedy (The user has a liking for comedic elements, as shown by their ratings for several comedies, even if some are rated lower.); Film-Noir (The user has a taste for film-noir, demonstrated by consistent high ratings for movies in this genre.). Liked patterns: Strong preference for drama and crime genres, Enjoyment of thrillers with suspenseful plots, Appreciation for comedies, even with mixed ratings. Disliked patterns: No significant patterns of dislike observed.",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys crime-related stories, reflected in their positive ratings for several crime dramas and thrillers.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "The user appreciates suspenseful and thrilling plots, indicated by their favorable ratings for various thriller films.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user has a liking for comedic elements, as shown by their ratings for several comedies, even if some are rated lower.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user has a taste for film-noir, demonstrated by consistent high ratings for movies in this genre.",
+          "taste": "Film-Noir"
+        }
+      ]
+    },
+    "user_id": 107
+  }
+}

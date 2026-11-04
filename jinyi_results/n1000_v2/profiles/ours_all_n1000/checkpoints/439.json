@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "643e179f3e5287b52d9de30b8cc6690ee1894311988a068d53198bf600de9625",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      534,
+      640,
+      27,
+      546,
+      425,
+      121,
+      265,
+      542,
+      1845,
+      1068
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "30330985bbd145f88d12e0fd5e514edf"
+    ],
+    "sampled_item_ids": [
+      27,
+      49,
+      69,
+      91,
+      117,
+      121,
+      128,
+      150,
+      168,
+      175,
+      176,
+      190,
+      211,
+      268,
+      278,
+      397,
+      425,
+      484,
+      566,
+      670,
+      826,
+      1234,
+      1529,
+      1593,
+      3120
+    ],
+    "seed": 42,
+    "source_hash": "be92561cf0239bc7425d0b969b96799b6a3baf518d0caef7a89dbd2063a9991d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 439,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "George Clooney",
+          "Mark Wahlberg",
+          "Diane Lane",
+          "John C. Reilly"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In October 1991, a confluence of weather conditions combined to form a killer storm in the North Atlantic. Caught in the storm was the sword-fishing boat Andrea Gail. Magnificent foreshadowing and anticipation fill this true-life drama while minute details of the fishing boats, their gear and the weather are juxtaposed with the sea adventure.",
+        "release_date": "2000-03-15",
+        "release_year": "2000",
+        "title": "Perfect Storm, The"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Bill Pullman",
+          "Peter Gallagher",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A love story built on a misunderstanding. A transit worker pulls commuter Peter off the tracks after he's mugged. But while he's in a coma, his family mistakenly thinks she's Peter's fiancée, and she doesn't correct them. Things get more complicated when she falls for his brother, who's not quite sure that she's who she claims to be.",
+        "release_date": "1995-04-21",
+        "release_year": "1995",
+        "title": "While You Were Sleeping"
+      },
+      {
+        "cast": [
+          "Henry Thomas",
+          "Drew Barrymore",
+          "Robert MacNaughton",
+          "Dee Wallace"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Children's",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+        "release_date": "1982-04-03",
+        "release_year": "1982",
+        "title": "E.T. the Extra-Terrestrial"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Will Patton",
+          "Ryan Hurst",
+          "Wood Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Boaz Yakin",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After leading his football team to 15 winning seasons, coach Bill Yoast is demoted and replaced by Herman Boone – tough, opinionated and as different from the beloved Yoast as he could be. The two men learn to overcome their differences and turn a group of hostile young men into true champions.",
+        "release_date": "2000-09-29",
+        "release_year": "2000",
+        "title": "Remember the Titans"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Daryl Hannah",
+          "Eugene Levy",
+          "John Candy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A successful businessman falls in love with the girl of his dreams. There's one big complication though; he's fallen hook, line and sinker for a mermaid.",
+        "release_date": "1984-03-09",
+        "release_year": "1984",
+        "title": "Splash"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Gene Hackman",
+          "Jon Voight",
+          "Regina King"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Scott",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Hotshot Washington lawyer, Robert Dean becomes a victim of high-tech identity theft when a hacker slips an incriminating video into his pocket. Soon, a rogue National Security agent sets out to recover the tape – and destroy Dean.",
+        "release_date": "1998-11-20",
+        "release_year": "1998",
+        "title": "Enemy of the State"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dennis Hopper",
+          "Sandra Bullock",
+          "Joe Morton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Los Angeles SWAT cop Jack Traven is up against bomb expert Howard Payne, who's after major ransom money. First it's a rigged elevator in a very tall building. Then it's a rigged bus--if it slows, it will blow, bad enough any day, but a nightmare in LA traffic. And that's still not the end.",
+        "release_date": "1994-06-09",
+        "release_year": "1994",
+        "title": "Speed"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Dougray Scott",
+          "Thandie Newton",
+          "Ving Rhames"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt races across Australia and Spain to stop a former IMF agent from unleashing a genetically engineered biological weapon called Chimera. This mission, should Hunt choose to accept it, plunges him into the center of an international crisis of terrifying magnitude.",
+        "release_date": "2000-05-24",
+        "release_year": "2000",
+        "title": "Mission: Impossible 2"
+      },
+      {
+        "cast": [
+          "D. B. Sweeney",
+          "Alfre Woodard",
+          "Ossie Davis",
+          "Max Casella"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ralph Zondag",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "An orphaned dinosaur raised by lemurs joins an arduous trek to a sancturary after a meteorite shower destroys his family home.",
+        "release_date": "2000-05-19",
+        "release_year": "2000",
+        "title": "Dinosaur"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Goldie Hawn",
+          "Joan Severance",
+          "David Carradine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Badham",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A FBI informant has kept his new identity secret for 15 years, now an old flame has recognised him and the bad guys are back for revenge.",
+        "release_date": "1990-05-18",
+        "release_year": "1990",
+        "title": "Bird on a Wire"
+      }
+    ],
+    "raw_user_id": "439",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 74
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7403296068739957
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed"
+      ],
+      "liked_patterns": [
+        "Preference for action films with strong narratives",
+        "Enjoyment of dramas that explore human experiences",
+        "Attraction to comedies that blend humor with romance"
+      ],
+      "summary": "Unique tastes: Action-Drama Fusion (The user enjoys films that blend action with dramatic storytelling, often featuring intense character arcs.); Comedy with Heart (The user appreciates comedies that incorporate romantic elements or deeper emotional themes.); Thrilling Adventures (The user is drawn to action and adventure films that include thrilling plots and suspenseful moments.); Dramatic Narratives (The user favors films that focus on strong dramatic narratives, often exploring complex human experiences.); Romantic Elements in Various Genres (The user enjoys films that integrate romance into different genres, enhancing the emotional depth.). Liked patterns: Preference for action films with strong narratives, Enjoyment of dramas that explore human experiences, Attraction to comedies that blend humor with romance. Disliked patterns: No significant patterns of dislike observed.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend action with dramatic storytelling, often featuring intense character arcs.",
+          "taste": "Action-Drama Fusion"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate romantic elements or deeper emotional themes.",
+          "taste": "Comedy with Heart"
+        },
+        {
+          "reason": "The user is drawn to action and adventure films that include thrilling plots and suspenseful moments.",
+          "taste": "Thrilling Adventures"
+        },
+        {
+          "reason": "The user favors films that focus on strong dramatic narratives, often exploring complex human experiences.",
+          "taste": "Dramatic Narratives"
+        },
+        {
+          "reason": "The user enjoys films that integrate romance into different genres, enhancing the emotional depth.",
+          "taste": "Romantic Elements in Various Genres"
+        }
+      ]
+    },
+    "user_id": 439
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "cb37eb626d395aec226d7eb1762c231a2e1bdd08dd007a1c337004d0e40d7444",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      961,
+      2594,
+      3267,
+      1032,
+      796,
+      129,
+      174,
+      2238,
+      1132,
+      1879
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "442d3711227146a1be89bad6cb225bd0"
+    ],
+    "sampled_item_ids": [
+      134,
+      322,
+      510,
+      518,
+      604,
+      767,
+      938,
+      957,
+      959,
+      994,
+      1032,
+      1264,
+      1486,
+      1529,
+      1816,
+      2324,
+      2438,
+      2567,
+      2594,
+      2638,
+      2891,
+      3095,
+      3097,
+      3149,
+      3267
+    ],
+    "seed": 42,
+    "source_hash": "41040a77bd5b86cc5d2c8d05a6c3e314e881209fd91f6388bf982ca44cc2540e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1731,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Lauren Bacall",
+          "John Ridgely",
+          "Martha Vickers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Hawks",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Private Detective Philip Marlowe is hired by a rich family. Before the complex case is over, he's seen murder, blackmail, and what might be love.",
+        "release_date": "1946-08-23",
+        "release_year": "1946",
+        "title": "Big Sleep, The"
+      },
+      {
+        "cast": [
+          "Shirley Henderson",
+          "Gina McKee",
+          "Molly Parker",
+          "Ian Hart"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Michael Winterbottom",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "There's little wonder in the working-class lives of Bill, Eileen, and their three grown daughters. They're lonely Londoners. Nadia, a cafe waitress, places personal ads, looking for love; Debbie, a single mom, entertains men at the hair salon after hours; her son spends part of the weekend with her ex, a man with a hair-trigger temper. Molly is expecting her first baby and its father acts as if the responsibility is too much for him.",
+        "release_date": "1999-05-13",
+        "release_year": "1999",
+        "title": "Wonderland"
+      },
+      {
+        "cast": [
+          "Barbara Barrie",
+          "Edie Falco",
+          "Madeline Kahn",
+          "Bob Dishy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Eric Mendelsohn",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A dramatic comedy where a the relationship of a teacher and married principal goes much worse than that of their children.",
+        "release_date": "1999-01-01",
+        "release_year": "1999",
+        "title": "Judy Berlin"
+      },
+      {
+        "cast": [
+          "Miguel Ángel Solá",
+          "Cecilia Narova",
+          "Mía Maestro",
+          "Juan Carlos Copes"
+        ],
+        "country": [
+          "Argentina",
+          "Spain"
+        ],
+        "director": "Carlos Saura",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Spanish",
+        "overview": "A dangerous love affair inspires a director to create the most spectacular and bodly seductive dance film ever made. 1998 Oscar Nominee Best Foreign Language Film.",
+        "release_date": "1998-02-12",
+        "release_year": "1998",
+        "title": "Tango"
+      },
+      {
+        "cast": [
+          "William Gates",
+          "Arthur Agee",
+          "Steve James"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve James",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "This documentary follows two inner-city Chicago residents, Arthur Agee and William Gates, as they follow their dreams of becoming basketball superstars. Beginning at the start of their high school years, and ending almost 5 years later, as they start college, we watch the boys mature into men, still retaining their \"Hoop Dreams\".",
+        "release_date": "1994-09-12",
+        "release_year": "1994",
+        "title": "Hoop Dreams"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Renée Zellweger",
+          "Morgan Freeman",
+          "Chris Rock",
+          "Greg Kinnear"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Neil LaBute",
+        "genres": [
+          "Comedy",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "What happens when a person decides that life is merely a state of mind? If you're Betty, a small-town waitress and soap opera fan from Fair Oaks, Kansas, you refuse to believe that you can't be with the love of your life just because he doesn't really exist. After all, life is no excuse for not living. Traumatized by a savage event, Betty enters into a fugue state that allows -- even encourages -- her to keep functioning... in a kind of alternate reality.",
+        "release_date": "2000-09-08",
+        "release_year": "2000",
+        "title": "Nurse Betty"
+      },
+      {
+        "cast": [
+          "Ben Weber",
+          "Timothy Olyphant",
+          "Matt McGrath",
+          "Zach Braff"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Greg Berlanti",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A group of friends search for fun, love and ultimately themselves in West Hollywood. This movie is an entertaining, and sometimes cynical look into the lives of six gay men trying to come to terms with what being gay and single (or gay and partnered) means to them.",
+        "release_date": "2000-02-01",
+        "release_year": "2000",
+        "title": "Broken Hearts Club, The"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "John Cassavetes",
+          "Ruth Gordon",
+          "Sidney Blackmer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A young couple moves into an infamous New York apartment building to start a family. Things become frightening as Rosemary begins to suspect her unborn baby isn't safe around their strange neighbors.",
+        "release_date": "1968-06-12",
+        "release_year": "1968",
+        "title": "Rosemary's Baby"
+      },
+      {
+        "cast": [
+          "Robert Downey Jr.",
+          "Scott Caan",
+          "Stacy Edwards",
+          "Allan Houston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Toback",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Rich Bower is an up-and-coming star in the hip-hop world. Everyone wants to be around him, including Raven and her fellow upper-class white high school friends. The growing appeal of black culture among white teens fascinates documentary filmmaker Sam Donager, who sets out to chronicle it with her husband, Terry. But before Bower was a rapper, he was a gangster, and his criminal past comes back to haunt him and all those around him.",
+        "release_date": "1999-09-04",
+        "release_year": "1999",
+        "title": "Black and White"
+      }
+    ],
+    "raw_user_id": "1731",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 56
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0726670424661073
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films",
+        "Negative response to documentaries",
+        "Dislike for films with low engagement or poor execution"
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and romance films",
+        "Enjoyment of comedies with romantic elements",
+        "Positive reception of films that blend genres, such as drama and comedy"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user has rated multiple drama films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (Several comedies received favorable ratings, suggesting the user enjoys humor in films.); Interest in Romance (Romantic elements appear in several liked films, showing a preference for stories that explore relationships.); Fascination with Thrillers (The user has shown a liking for thrillers, as evidenced by positive ratings for films in this genre.); Attraction to Complex Themes (The user appreciates films that tackle deep or complex themes, as seen in their high ratings for dramas with significant narratives.). Liked patterns: Strong preference for drama and romance films, Enjoyment of comedies with romantic elements, Positive reception of films that blend genres, such as drama and comedy. Disliked patterns: Dislike for horror films, Negative response to documentaries, Dislike for films with low engagement or poor execution.",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies received favorable ratings, suggesting the user enjoys humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "Romantic elements appear in several liked films, showing a preference for stories that explore relationships.",
+          "taste": "Interest in Romance"
+        },
+        {
+          "reason": "The user has shown a liking for thrillers, as evidenced by positive ratings for films in this genre.",
+          "taste": "Fascination with Thrillers"
+        },
+        {
+          "reason": "The user appreciates films that tackle deep or complex themes, as seen in their high ratings for dramas with significant narratives.",
+          "taste": "Attraction to Complex Themes"
+        }
+      ]
+    },
+    "user_id": 1731
+  }
+}

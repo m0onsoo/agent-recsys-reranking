@@ -1,0 +1,5 @@
+backbone,stage,metric,gpt5mini_minus_4omini,ci95_lower,ci95_upper,num_user_clusters,num_backbone_cases,bootstrap_resamples,bootstrap_seed,method
+MF,converted_then_original,ndcg@10,-4.26853101316621e-05,-0.017652076396530974,0.01999410864462247,50,50,2000,42,paired user-cluster percentile bootstrap
+LightGCN,converted_then_original,ndcg@10,0.005901356826140598,-0.020494003914119836,0.03090650776419421,50,50,2000,42,paired user-cluster percentile bootstrap
+MultiVAE,converted_then_original,ndcg@10,0.011042825544306195,-0.010184790781331504,0.03361246689514278,50,50,2000,42,paired user-cluster percentile bootstrap
+pooled,converted_then_original,ndcg@10,0.005633832353438376,-0.009566816650152634,0.02124462020421127,50,150,2000,42,paired user-cluster percentile bootstrap

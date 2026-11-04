@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "bc22a968e0ec74221e2e75b41cada3e4f0ce620250f2868de800da474d9019b0",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      376,
+      2639,
+      955,
+      562,
+      203,
+      1260,
+      215,
+      183,
+      92,
+      2767
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "21b46c70d35849e98478cd188e7c8f74"
+    ],
+    "sampled_item_ids": [
+      4,
+      93,
+      95,
+      118,
+      152,
+      188,
+      190,
+      203,
+      218,
+      223,
+      241,
+      256,
+      433,
+      511,
+      542,
+      715,
+      744,
+      955,
+      1059,
+      2034,
+      2380,
+      2384,
+      2633,
+      2646,
+      2767
+    ],
+    "seed": 42,
+    "source_hash": "2229bc08df520ad1ad1e40dc1fdf2dfe1e4e0fe6cf0bb13b7ba978167b3f9273",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3564,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Brandon Lee",
+          "Rochelle Davis",
+          "Ernie Hudson",
+          "Michael Wincott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Exactly one year after young rock guitarist Eric Draven and his fiancée are brutally killed by a ruthless gang of criminals, Draven -- watched over by a hypnotic crow -- returns from the grave to exact revenge.",
+        "release_date": "1994-05-11",
+        "release_year": "1994",
+        "title": "Crow, The"
+      },
+      {
+        "cast": [
+          "Miguel Ferrer",
+          "Julie Entwisle",
+          "Dan Monahan",
+          "Michael H. Moss"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Mark Pavia",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Two investigative reporters for a tabloid magazine track down across country \"The Night Flier\", a serial killer who travels by private plane stalking victims in rural airports. One of the reporters, Richard Dees, begins to suspect that \"the Night Flier could perhaps be a vampire\"",
+        "release_date": "1997-04-30",
+        "release_year": "1997",
+        "title": "Night Flier"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Sharon Stone",
+          "Samuel L. Jackson",
+          "Peter Coyote"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The OSSA discovers a spacecraft thought to be at least 300 years old at the bottom of the ocean. Immediately following the discovery, they decide to send a team down to the depths of the ocean to study the space craft.They are the best of best, smart and logical, and the perfect choice to learn more about the spacecraft.",
+        "release_date": "1998-02-13",
+        "release_year": "1998",
+        "title": "Sphere"
+      },
+      {
+        "cast": [
+          "Leslie Nielsen",
+          "Priscilla Presley",
+          "George Kennedy",
+          "O.J. Simpson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Zucker",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Bumbling cop Frank Drebin is out to foil the big boys in the energy industry, who intend to suppress technology that will put them out of business.",
+        "release_date": "1991-06-28",
+        "release_year": "1991",
+        "title": "Naked Gun 2 1/2: The Smell of Fear, The"
+      },
+      {
+        "cast": [
+          "Brendan Fraser",
+          "Rachel Weisz",
+          "John Hannah",
+          "Arnold Vosloo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Sommers",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dashing legionnaire Rick O'Connell and his companion, Beni stumble upon the hidden ruins of Hamunaptra while in the midst of a battle in 1923, 3,000 years after Imhotep has suffered a fate worse than death – his body will remain undead for all eternity as a punishment for a forbidden love.",
+        "release_date": "1999-04-16",
+        "release_year": "1999",
+        "title": "Mummy, The"
+      },
+      {
+        "cast": [
+          "Natasha Henstridge",
+          "Ben Kingsley",
+          "Michael Madsen",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Donaldson",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In 1993, the Search for Extra Terrestrial Intelligence Project receives a transmission detailing an alien DNA structure, along with instructions on how to splice it with human DNA. The result is Sil, a sensual but deadly creature who can change from a beautiful woman to an armour-plated killing machine in the blink of an eye.",
+        "release_date": "1995-07-07",
+        "release_year": "1995",
+        "title": "Species"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Carl Weathers",
+          "Elpidia Carrillo",
+          "Bill Duke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dutch and his group of commandos are hired by the CIA to rescue downed airmen from guerillas in a Central American jungle. The mission goes well but as they return they find that something is hunting them. Nearly invisible, it blends in with the forest, taking trophies from the bodies of its victims as it goes along. Occasionally seeing through its eyes, the audience sees it is an intelligent alien hunter, hunting them for sport, killing them off one at a time.",
+        "release_date": "1987-06-11",
+        "release_year": "1987",
+        "title": "Predator"
+      },
+      {
+        "cast": [
+          "Leslie Nielsen",
+          "Priscilla Presley",
+          "Ricardo Montalban",
+          "George Kennedy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Zucker",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the incompetent Officer Frank Drebin seeks the ruthless killer of his partner, he stumbles upon an attempt to assassinate Queen Elizabeth.",
+        "release_date": "1988-12-02",
+        "release_year": "1988",
+        "title": "Naked Gun: From the Files of Police Squad!, The"
+      },
+      {
+        "cast": [
+          "Whitney Houston",
+          "Kevin Costner",
+          "Michele Lamar Richards",
+          "Ralph Waite"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mick Jackson",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A former Secret Service agent grudgingly takes an assignment to protect a pop idol who's threatened by a crazed fan. At first, the safety-obsessed bodyguard and the self-indulgent diva totally clash. But before long, all that tension sparks fireworks of another sort, and the love-averse tough guy is torn between duty and romance.",
+        "release_date": "1992-11-25",
+        "release_year": "1992",
+        "title": "Bodyguard, The"
+      },
+      {
+        "cast": [
+          "Angus Scrimm",
+          "A. Michael Baldwin",
+          "Bill Thornbury",
+          "Reggie Bannister"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Don Coscarelli",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Taking off immediately where the last one ended, in this episode Mike travels across dimensions and time fleeing from the Tall Man, at the same time he tries to find the origins of his enemy, and what really happened the night that his brother died. Meanwhile, Reggie battles the spheres and the undead in a quest to find Mike before the Tall Man can complete his transformation.",
+        "release_date": "1998-07-31",
+        "release_year": "1998",
+        "title": "Phantasm IV: Oblivion"
+      }
+    ],
+    "raw_user_id": "3564",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 122
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4785591155103277
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received horror films",
+        "Negative response to films lacking engaging plots or character development"
+      ],
+      "liked_patterns": [
+        "Preference for action-packed films with strong narratives",
+        "Enjoyment of character-driven dramas",
+        "Attraction to films that blend genres, particularly action with sci-fi or thriller elements"
+      ],
+      "summary": "Unique tastes: Action and Thriller (The user enjoys high-stakes narratives with intense action sequences and suspenseful plots.); Drama with Strong Characters (The user appreciates films that explore deep emotional themes and character development.); Sci-Fi Elements (The user is drawn to science fiction themes, particularly those that blend action and thriller elements.); Fantasy and Adventure (The user enjoys films that incorporate fantastical elements and adventurous journeys.); Horror with Psychological Depth (The user is interested in horror films that explore psychological themes rather than just relying on jump scares.). Liked patterns: Preference for action-packed films with strong narratives, Enjoyment of character-driven dramas, Attraction to films that blend genres, particularly action with sci-fi or thriller elements. Disliked patterns: Dislike for poorly received horror films, Negative response to films lacking engaging plots or character development.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-stakes narratives with intense action sequences and suspenseful plots.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "The user appreciates films that explore deep emotional themes and character development.",
+          "taste": "Drama with Strong Characters"
+        },
+        {
+          "reason": "The user is drawn to science fiction themes, particularly those that blend action and thriller elements.",
+          "taste": "Sci-Fi Elements"
+        },
+        {
+          "reason": "The user enjoys films that incorporate fantastical elements and adventurous journeys.",
+          "taste": "Fantasy and Adventure"
+        },
+        {
+          "reason": "The user is interested in horror films that explore psychological themes rather than just relying on jump scares.",
+          "taste": "Horror with Psychological Depth"
+        }
+      ]
+    },
+    "user_id": 3564
+  }
+}

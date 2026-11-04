@@ -1,0 +1,328 @@
+{
+  "checkpoint_hash": "8d7e64660f98e05de9d849c1aab43bfc4dbe6d518a5b86d734de1cfc0bfba618",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      798,
+      851,
+      744,
+      53,
+      2999,
+      1298,
+      2087,
+      735,
+      1011,
+      1558
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "047345c87c294860b98c58355e841031"
+    ],
+    "sampled_item_ids": [
+      42,
+      85,
+      110,
+      169,
+      190,
+      247,
+      425,
+      631,
+      721,
+      768,
+      865,
+      896,
+      1298,
+      1305,
+      1311,
+      1404,
+      1467,
+      1530,
+      1916,
+      2409,
+      2499,
+      2717,
+      2999,
+      3017,
+      3146
+    ],
+    "seed": 42,
+    "source_hash": "830c022029ede097b0f19d03b7f0e8c8e5f865636ac398e197effc350d9a17fe",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1591,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Christopher Guest",
+          "Michael McKean",
+          "Harry Shearer",
+          "Rob Reiner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "\"This Is Spinal Tap\" shines a light on the self-contained universe of a metal band struggling to get back on the charts, including everything from its complicated history of ups and downs, gold albums, name changes and undersold concert dates, along with the full host of requisite groupies, promoters, hangers-on and historians, sessions, release events and those special behind-the-scenes moments that keep it all real.",
+        "release_date": "1984-05-04",
+        "release_year": "1984",
+        "title": "This Is Spinal Tap"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Wesley Snipes",
+          "Harvey Keitel",
+          "Cary-Hiroyuki Tagawa"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Action",
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When a prostitute is found dead in a Los Angeles skyscraper occupied by a large Japanese corporation, detectives John Conner and Web Smith are called in to investigate. Although Conner has previous experience working in Japan, cultural differences make their progress difficult until a security disc showing the murder turns up. Close scrutiny proves the disc has been doctored, and the detectives realize they're dealing with a cover-up as well.",
+        "release_date": "1993-07-30",
+        "release_year": "1993",
+        "title": "Rising Sun"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Ethan Hawke",
+          "Robert Sean Leonard",
+          "Gale Hansen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "At an elite, old-fashioned boarding school in New England, a passionate English teacher inspires his students to rebel against convention and seize the potential of every day, courting the disdain of the stern headmaster.",
+        "release_date": "1989-06-02",
+        "release_year": "1989",
+        "title": "Dead Poets Society"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Drama"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1970",
+        "title": "Garden of Finzi-Contini, The (Giardino dei Finzi-Contini, Il)"
+      },
+      {
+        "cast": [
+          "Danny Aiello",
+          "Ossie Davis",
+          "Ruby Dee",
+          "Richard Edson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Lee",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "On the hottest day of the year on a street in the Bedford-Stuyvesant section of Brooklyn, everyone's hate and bigotry smolders and builds until it explodes into violence.",
+        "release_date": "1989-06-30",
+        "release_year": "1989",
+        "title": "Do the Right Thing"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Charlotte Rampling",
+          "Jessica Harper",
+          "Marie-Christine Barrault"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "While attending a retrospect of his work, a filmmaker recalls his life and his loves: the inspirations for his films.",
+        "release_date": "1980-09-26",
+        "release_year": "1980",
+        "title": "Stardust Memories"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Shelley Long",
+          "Alexander Godunov",
+          "Maureen Stapleton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Benjamin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After being evicted from their Manhattan apartment, a couple buys what looks like the home of their dreams – only to find themselves saddled with a bank-account-draining nightmare. Struggling to keep their relationship together as their rambling mansion falls to pieces around them, the two watch in hilarious horror as everything – including the kitchen sink – disappears into the 'Money Pit'.",
+        "release_date": "1986-03-15",
+        "release_year": "1986",
+        "title": "Money Pit, The"
+      },
+      {
+        "cast": [
+          "Catherine Mary Stewart",
+          "Robert Beltran",
+          "Kelli Maroney",
+          "Sharon Farrell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Thom Eberhardt",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two girls from the Valley wake up to find that a passing comet has eradicated their world and left behind a mysterious red-dust and a pack of cannibal mutants. With the help of a friendly truck driver, the girls save the earth from a villainous \"think tank,\" karate chop their way through flesh-eating zombies, and, of course, find time to go to the mall.",
+        "release_date": "1984-11-16",
+        "release_year": "1984",
+        "title": "Night of the Comet"
+      },
+      {
+        "cast": [
+          "Brad Davis",
+          "Irene Miracle",
+          "Bo Hopkins",
+          "Randy Quaid"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Billy Hayes is caught attempting to smuggle drugs out of Turkey. The Turkish courts decide to make an example of him, sentencing him to more than 30 years in prison. Hayes has two opportunities for release: the appeals made by his lawyer, his family, and the American government, or the \"Midnight Express\".",
+        "release_date": "1978-09-12",
+        "release_year": "1978",
+        "title": "Midnight Express"
+      }
+    ],
+    "raw_user_id": "1591",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 252
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9731644987815036
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily drama without engaging elements or strong narratives."
+      ],
+      "liked_patterns": [
+        "Strong preference for films that blend drama with comedy.",
+        "High ratings for films featuring strong character development and emotional depth.",
+        "Enjoyment of films that incorporate elements of romance alongside other genres."
+      ],
+      "summary": "Unique tastes: Drama (The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.); Comedy (The user enjoys comedies, as evidenced by multiple high ratings for films in this genre, suggesting a taste for humor and lighthearted storytelling.); Romance (The user appreciates romantic elements in films, often rating those that blend romance with drama favorably.); Action and Adventure (The user shows a liking for action and adventure films, particularly those that incorporate elements of fantasy and sci-fi.); Thriller (The user rates thrillers positively, indicating an interest in suspenseful and engaging plots.). Liked patterns: Strong preference for films that blend drama with comedy., High ratings for films featuring strong character development and emotional depth., Enjoyment of films that incorporate elements of romance alongside other genres.. Disliked patterns: Dislike for films that are primarily drama without engaging elements or strong narratives..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, as evidenced by multiple high ratings for films in this genre, suggesting a taste for humor and lighthearted storytelling.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates romantic elements in films, often rating those that blend romance with drama favorably.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user shows a liking for action and adventure films, particularly those that incorporate elements of fantasy and sci-fi.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user rates thrillers positively, indicating an interest in suspenseful and engaging plots.",
+          "taste": "Thriller"
+        }
+      ]
+    },
+    "user_id": 1591
+  }
+}

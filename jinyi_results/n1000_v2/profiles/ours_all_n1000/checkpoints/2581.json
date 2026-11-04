@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "a1fcc4deae73a888e8cd3585e7fc1a44e734a7341b2bb8fbe76295c0c84b3683",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      317,
+      329,
+      370,
+      1476,
+      260,
+      176,
+      401,
+      1593,
+      1300,
+      604
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "031e9d18512a48c7b3b4f5a69bca6fb3"
+    ],
+    "sampled_item_ids": [
+      10,
+      28,
+      211,
+      285,
+      306,
+      373,
+      384,
+      501,
+      649,
+      662,
+      666,
+      766,
+      869,
+      894,
+      959,
+      1062,
+      1238,
+      1449,
+      1546,
+      1569,
+      1575,
+      1583,
+      1739,
+      1905,
+      2254
+    ],
+    "seed": 42,
+    "source_hash": "b27260bbb65b47c06c32a589e3e22749cafd790c15b37eabeb1fae1237d505b2",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2581,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Cusack",
+          "Minnie Driver",
+          "Dan Aykroyd",
+          "Joan Cusack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Armitage",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Martin Blank is a freelance hitman who starts to develop a conscience, which causes him to muff a couple of routine assignments. On the advice of his secretary and his psychiatrist, he attends his 10th year High School reunion in Grosse Pointe, Michigan.",
+        "release_date": "1997-04-11",
+        "release_year": "1997",
+        "title": "Grosse Pointe Blank"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Sharon Stone",
+          "Joe Pesci",
+          "James Woods"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The life of the gambling paradise – Las Vegas – and its dark mafia underbelly.",
+        "release_date": "1995-11-22",
+        "release_year": "1995",
+        "title": "Casino"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Richard Briers",
+          "Michael Keaton",
+          "Robert Sean Leonard"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this Shakespearean farce, Hero and her groom-to-be, Claudio, team up with Claudio's commanding officer, Don Pedro, the week before their wedding to hatch a matchmaking scheme. Their targets are sharp-witted duo Benedick and Beatrice -- a tough task indeed, considering their corresponding distaste for love and each other. Meanwhile, meddling Don John plots to ruin the wedding.",
+        "release_date": "1993-05-07",
+        "release_year": "1993",
+        "title": "Much Ado About Nothing"
+      },
+      {
+        "cast": [
+          "Lee Marvin",
+          "Ernest Borgnine",
+          "Charles Bronson",
+          "Jim Brown"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Robert Aldrich",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "12 American military prisoners in World War II are ordered to infiltrate a well-guarded enemy château and kill the Nazi officers vacationing there. The soldiers, most of whom are facing death sentences for a variety of violent crimes, agree to the mission and the possible commuting of their sentences.",
+        "release_date": "1967-06-15",
+        "release_year": "1967",
+        "title": "Dirty Dozen, The"
+      },
+      {
+        "cast": [
+          "Stephen Baldwin",
+          "Gabriel Byrne",
+          "Chazz Palminteri",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Usual Suspects, The"
+      },
+      {
+        "cast": [
+          "John Belushi",
+          "Tim Matheson",
+          "John Vernon",
+          "Verna Bloom"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a 1962 College, Dean Vernon Wormer is determined to expel the entire Delta Tau Chi Fraternity, but those troublemakers have other plans for him.",
+        "release_date": "1978-07-27",
+        "release_year": "1978",
+        "title": "Animal House"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Dermot Mulroney",
+          "Cameron Diaz",
+          "Rupert Everett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "P.J. Hogan",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When she receives word that her longtime platonic pal Michael O'Neal is getting married to debutante Kimberly Wallace, food critic Julianne Potter realizes her true feelings for Michael -- and sets out to sabotage the wedding.",
+        "release_date": "1997-06-19",
+        "release_year": "1997",
+        "title": "My Best Friend's Wedding"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Meg Ryan",
+          "Andre Braugher",
+          "Dennis Franz"
+        ],
+        "country": [
+          "United States of America",
+          "Germany"
+        ],
+        "director": "Brad Silberling",
+        "genres": [
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When guardian angel Seth -- who invisibly watches over the citizens of Los Angeles -- becomes captivated by Maggie, a strong-willed heart surgeon, he ponders trading in his pure, otherworldly existence for a mortal life with his beloved. The couple embarks on a tender but forbidden romance spanning heaven and Earth.",
+        "release_date": "1998-04-10",
+        "release_year": "1998",
+        "title": "City of Angels"
+      },
+      {
+        "cast": [
+          "Elizabeth Taylor",
+          "Richard Burton",
+          "George Segal",
+          "Sandy Dennis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Mike Nichols’ film from Edward Albee's play brought new themes to the film industry. Elizabeth Taylor and Richard Burton have never been more brilliant together as they portray an experienced married couple who love each other yet verbally attack one another when they see how boring their naïve newlywed guests have made their night.",
+        "release_date": "1966-06-21",
+        "release_year": "1966",
+        "title": "Who's Afraid of Virginia Woolf?"
+      },
+      {
+        "cast": [
+          "Tim Curry",
+          "Susan Sarandon",
+          "Barry Bostwick",
+          "Richard O'Brien"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Sharman",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Sweethearts Brad and Janet, stuck with a flat tire during a storm, discover the eerie mansion of Dr. Frank-N-Furter, a transvestite scientist. As their innocence is lost, Brad and Janet meet a houseful of wild characters, including a rocking biker and a creepy butler. Through elaborate dances and rock songs, Frank-N-Furter unveils his latest creation: a muscular man named 'Rocky'.",
+        "release_date": "1975-08-14",
+        "release_year": "1975",
+        "title": "Rocky Horror Picture Show, The"
+      }
+    ],
+    "raw_user_id": "2581",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 323
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9229524407098897
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily categorized as horror, as indicated by a low rating for a horror title."
+      ],
+      "liked_patterns": [
+        "High ratings for drama films that explore complex themes and character development.",
+        "Consistent enjoyment of films that combine romance with other genres like drama and comedy.",
+        "A preference for thrillers and mysteries that engage the viewer with suspenseful plots."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for drama films, consistently rating them highly.); Romance (Romantic elements are frequently appreciated, as indicated by high ratings for films with romance themes.); Thriller (The user enjoys thrillers, as evidenced by several high ratings for films in this genre.); Mystery (Mystery films are well-received, with multiple high ratings indicating a liking for suspenseful narratives.); Comedy (The user appreciates comedies, particularly those that blend humor with drama or romance.). Liked patterns: High ratings for drama films that explore complex themes and character development., Consistent enjoyment of films that combine romance with other genres like drama and comedy., A preference for thrillers and mysteries that engage the viewer with suspenseful plots.. Disliked patterns: Dislike for films that are primarily categorized as horror, as indicated by a low rating for a horror title..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for drama films, consistently rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Romantic elements are frequently appreciated, as indicated by high ratings for films with romance themes.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user enjoys thrillers, as evidenced by several high ratings for films in this genre.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "Mystery films are well-received, with multiple high ratings indicating a liking for suspenseful narratives.",
+          "taste": "Mystery"
+        },
+        {
+          "reason": "The user appreciates comedies, particularly those that blend humor with drama or romance.",
+          "taste": "Comedy"
+        }
+      ]
+    },
+    "user_id": 2581
+  }
+}

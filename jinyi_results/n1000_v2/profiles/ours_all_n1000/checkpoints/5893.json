@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "80d3f4a1b9816b79833a55448cc4e4e3968e6c60f1bb278f3cd4321607fd4d5f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      865,
+      1356,
+      615,
+      636,
+      16,
+      1500,
+      503,
+      386,
+      1630,
+      1261
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      146,
+      172,
+      291,
+      343,
+      344,
+      393,
+      548,
+      598,
+      636,
+      643,
+      677,
+      770,
+      772,
+      848,
+      919,
+      1039,
+      1293,
+      1299,
+      1316,
+      1434,
+      1493,
+      1501,
+      1630,
+      1645,
+      1793
+    ],
+    "seed": 42,
+    "source_hash": "bc7e7b42a3d31117c9d3061ca8b532f201dc661e7ca40c89aaa0324a89f2183e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5893,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mel Brooks",
+          "Rick Moranis",
+          "Bill Pullman",
+          "Daphne Zuniga"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When the nefarious Dark Helmet hatches a plan to snatch Princess Vespa and steal her planet's air, space-bum-for-hire Lone Starr and his clueless sidekick fly to the rescue. Along the way, they meet Yogurt, who puts Lone Starr wise to the power of \"The Schwartz.\" Can he master it in time to save the day?",
+        "release_date": "1987-06-24",
+        "release_year": "1987",
+        "title": "Spaceballs"
+      },
+      {
+        "cast": [
+          "Michelle Pfeiffer",
+          "Matthew Modine",
+          "Oliver Platt",
+          "Alec Baldwin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Angela de Marco is fed up with her gangster husband's line of work and wants no part of the crime world. When her husband is killed for having an affair with the mistress of mob boss Tony \"The Tiger\" Russo, Angela and her son depart for New York City to make a fresh start. Unfortunately, Tony has set his sights upon Angela -- and so has an undercover FBI agent looking to use her to bust Tony.",
+        "release_date": "1988-08-19",
+        "release_year": "1988",
+        "title": "Married to the Mob"
+      },
+      {
+        "cast": [
+          "Paul Reubens",
+          "E.G. Daily",
+          "Mark Holton",
+          "Diane Salinger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The eccentric and childish Pee-wee Herman embarks on a big adventure when his beloved bicycle is stolen. Armed with information from a fortune-teller and a relentless obsession with his prized possession, Pee-wee encounters a host of odd characters and bizarre situations as he treks across the country to recover his bike.",
+        "release_date": "1985-07-26",
+        "release_year": "1985",
+        "title": "Pee-wee's Big Adventure"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Ellen Greene",
+          "Vincent Gardenia",
+          "Steve Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Seymour Krelborn is a nerdy orphan working at Mushnik's, a flower shop in urban Skid Row. He harbors a crush on fellow co-worker Audrey Fulquard, and is berated by Mr. Mushnik daily. One day as Seymour is seeking a new mysterious plant, he finds a very mysterious unidentified plant which he calls Audrey II. The plant seems to have a craving for blood and soon begins to sing for his supper.",
+        "release_date": "1986-12-19",
+        "release_year": "1986",
+        "title": "Little Shop of Horrors"
+      },
+      {
+        "cast": [
+          "Robert Hays",
+          "Julie Hagerty",
+          "Kareem Abdul-Jabbar",
+          "Lloyd Bridges"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Abrahams",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Alcoholic pilot, Ted Striker has developed a fear of flying due to wartime trauma, but nevertheless boards a passenger jet in an attempt to woo back his stewardess girlfriend. Food poisoning decimates the passengers and crew, leaving it up to Striker to land the plane with the help of a glue-sniffing air traffic controller and Striker's vengeful former Air Force captain, who must both talk him down.",
+        "release_date": "1980-07-02",
+        "release_year": "1980",
+        "title": "Airplane!"
+      },
+      {
+        "cast": [
+          "Val Kilmer",
+          "Gabriel Jarret",
+          "Michelle Meyrink",
+          "William Atherton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martha Coolidge",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Chris is the top brain who just wants to party, Mitch is the 15-year-old college wiz kid. Supposedly hard at work on a lab project with a mysterious deadline, they still find time to use their genius to discover new ways to have fun.",
+        "release_date": "1985-08-07",
+        "release_year": "1985",
+        "title": "Real Genius"
+      },
+      {
+        "cast": [
+          "Terence Stamp",
+          "Hugo Weaving",
+          "Guy Pearce",
+          "Bill Hunter"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "Stephan Elliott",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two drag-queens and a transsexual contract to perform a drag show at a resort in Alice Springs, a resort town in the remote Australian desert. They head west from Sydney aboard their lavender bus, Priscilla. En route, it is discovered that the woman they've contracted with is the wife of one of the drag queens. Their bus breaks down, and is repaired by Bob, who travels on with them.",
+        "release_date": "1994-05-31",
+        "release_year": "1994",
+        "title": "Adventures of Priscilla, Queen of the Desert, The"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Kathleen Turner",
+          "Danny DeVito",
+          "Alfonso Aráu"
+        ],
+        "country": [
+          "Mexico",
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Though she can spin wild tales of passionate romance, novelist Joan Wilder has no life of her own. Then one day adventure comes her way in the form of a mysterious package. It turns out that the parcel is the ransom she'll need to free her abducted sister, so Joan flies to South America to hand it over. But she gets on the wrong bus and winds up hopelessly stranded in the jungle...",
+        "release_date": "1984-03-30",
+        "release_year": "1984",
+        "title": "Romancing the Stone"
+      },
+      {
+        "cast": [
+          "Robert Arkins",
+          "Michael Aherne",
+          "Angeline Ball",
+          "Maria Doyle Kennedy"
+        ],
+        "country": [
+          "Ireland",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jimmy Rabbitte, just a tick out of school, gets a brilliant idea: to put a soul band together in Barrytown, his slum home in north Dublin. First he needs musicians and singers: things slowly start to click when he finds three fine-voiced females virtually in his back yard, a lead singer (Deco) at a wedding, and, responding to his ad, an aging trumpet player, Joey \"The Lips\" Fagan.",
+        "release_date": "1991-08-14",
+        "release_year": "1991",
+        "title": "Commitments, The"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Audrey Hepburn",
+          "Walter Matthau",
+          "James Coburn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Donen",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After Regina Lampert falls for the dashing Peter Joshua on a skiing holiday in the French Alps, she discovers upon her return to Paris that her husband has been murdered. Soon, she and Peter are giving chase to three of her late husband's World War II cronies, Tex, Scobie and Gideon, who are after a quarter of a million dollars the quartet stole while behind enemy lines. But why does Peter keep changing his name?",
+        "release_date": "1963-12-05",
+        "release_year": "1963",
+        "title": "Charade"
+      }
+    ],
+    "raw_user_id": "5893",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 120
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.8320946393318367
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or unique humor.",
+        "Negative response to romantic comedies that do not resonate.",
+        "Displeasure with films that attempt to blend genres unsuccessfully."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies with a mix of romance and drama.",
+        "Enjoyment of quirky and offbeat humor in films.",
+        "Positive reception of movies featuring musical elements."
+      ],
+      "summary": "Unique tastes: Comedy (The majority of the movies rated highly fall within the comedy genre, indicating a strong preference for humor.); Romantic Elements (Several liked movies incorporate romantic themes, suggesting an appreciation for romantic storylines.); Dramatic Undertones (Movies that blend comedy with drama are well-received, showing a taste for depth in storytelling.); Quirky and Offbeat Humor (A preference for films with unique and unconventional comedic styles is evident from the high ratings.); Musical Elements (There is an inclination towards comedies that include musical elements, as seen in the liked ratings.). Liked patterns: Strong preference for comedies with a mix of romance and drama., Enjoyment of quirky and offbeat humor in films., Positive reception of movies featuring musical elements.. Disliked patterns: Dislike for comedies that lack depth or unique humor., Negative response to romantic comedies that do not resonate., Displeasure with films that attempt to blend genres unsuccessfully..",
+      "unique_tastes": [
+        {
+          "reason": "The majority of the movies rated highly fall within the comedy genre, indicating a strong preference for humor.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Several liked movies incorporate romantic themes, suggesting an appreciation for romantic storylines.",
+          "taste": "Romantic Elements"
+        },
+        {
+          "reason": "Movies that blend comedy with drama are well-received, showing a taste for depth in storytelling.",
+          "taste": "Dramatic Undertones"
+        },
+        {
+          "reason": "A preference for films with unique and unconventional comedic styles is evident from the high ratings.",
+          "taste": "Quirky and Offbeat Humor"
+        },
+        {
+          "reason": "There is an inclination towards comedies that include musical elements, as seen in the liked ratings.",
+          "taste": "Musical Elements"
+        }
+      ]
+    },
+    "user_id": 5893
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "28c711dc39cd780b7f5d2824f5e12ae9f482137ed655a15ed07ab202801a0749",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      24,
+      501,
+      68,
+      114,
+      543,
+      377,
+      950,
+      2484,
+      281,
+      325
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "05d3f11470114fe4bf6a2a905508baac"
+    ],
+    "sampled_item_ids": [
+      24,
+      52,
+      68,
+      114,
+      123,
+      257,
+      259,
+      281,
+      325,
+      377,
+      436,
+      501,
+      507,
+      510,
+      530,
+      543,
+      546,
+      950,
+      1245,
+      2484
+    ],
+    "seed": 42,
+    "source_hash": "82ab76209485b52fa31c71ad3de833f79dcb7698b8805e60356661c1c22e67a6",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1604,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Carlo Cecchi",
+          "Irene Grazioli",
+          "Anita Laurenzi",
+          "Tommaso Puntelli"
+        ],
+        "country": [
+          "Canada",
+          "Italy",
+          "United Kingdom"
+        ],
+        "director": "François Girard",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Spans 300 years in the life of one famed musical instrument that winds up in present-day Montreal on the auction block. Crafted by the Italian master Bussotti (Cecchi) in 1681, the red violin derives its unusual color from the human blood mixed into the finish. With this legacy, the violin travels to Austria, England, China, and Canada, leaving both beauty and tragedy in its wake.",
+        "release_date": "1998-09-10",
+        "release_year": "1998",
+        "title": "Red Violin, The (Le Violon rouge)"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Ray Liotta",
+          "Joe Pesci",
+          "Lorraine Bracco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+        "release_date": "1990-09-12",
+        "release_year": "1990",
+        "title": "GoodFellas"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Ewan McGregor",
+          "Ewen Bremner",
+          "Jonny Lee Miller",
+          "Robert Carlyle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Danny Boyle",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
+        "release_date": "1996-02-23",
+        "release_year": "1996",
+        "title": "Trainspotting"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Madeleine Stowe",
+          "Brad Pitt",
+          "Christopher Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly, and patient Jeffrey Goines, the son of a famous virus expert, who may hold the key to the mysterious rogue group, the Army of the 12 Monkeys, thought to be responsible for unleashing the killer disease.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Twelve Monkeys"
+      },
+      {
+        "cast": [
+          "Jennifer Lopez",
+          "Vincent D'Onofrio",
+          "Vince Vaughn",
+          "Marianne Jean-Baptiste"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Tarsem Singh",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychotherapist journeys inside a comatose serial killer in the hopes of saving his latest victim.",
+        "release_date": "2000-08-17",
+        "release_year": "2000",
+        "title": "Cell, The"
+      },
+      {
+        "cast": [
+          "Julianne Moore",
+          "Andie MacDowell",
+          "Tim Robbins",
+          "Jack Lemmon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Altman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Multi-storied, fish-eyed look at American culture with some 22 characters intersecting--profoundly or fleetingly--through each other's lives. Running the emotional gamut from disturbing to humorous, Altman's portrait of the contemporary human condition is nevertheless fascinating. Based on nine stories and a prose poem by Raymond Carver.",
+        "release_date": "1993-09-05",
+        "release_year": "1993",
+        "title": "Short Cuts"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Matt Damon",
+          "Ben Affleck",
+          "Stellan Skarsgård"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Will Hunting has a genius-level IQ but chooses to work as a janitor at MIT. When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau, who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire.",
+        "release_date": "1997-12-05",
+        "release_year": "1997",
+        "title": "Good Will Hunting"
+      },
+      {
+        "cast": [
+          "Pam Grier",
+          "Samuel L. Jackson",
+          "Robert Forster",
+          "Bridget Fonda"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jackie Brown is a flight attendant who gets caught in the middle of smuggling cash into the country for her gunrunner boss. When the cops try to use Jackie to get to her boss, she hatches a plan—with help from a bail bondsman—to keep the money for herself. Based on Elmore Leonard's novel “Rum Punch”.",
+        "release_date": "1997-12-24",
+        "release_year": "1997",
+        "title": "Jackie Brown"
+      }
+    ],
+    "raw_user_id": "1604",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 20
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6101455021212487
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 8
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for sports-themed dramas, as indicated by a low rating for a film in this category."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine drama with crime or thriller elements.",
+        "Consistent appreciation for films that explore complex human emotions and moral dilemmas.",
+        "Strong preference for films that feature historical or war-related themes."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Crime (The user enjoys crime-related stories, as indicated by several top-rated films that explore criminal themes.); Thriller (There is an appreciation for thrillers, particularly those that blend drama with suspenseful elements.); War (The user shows a liking for war-themed films, which often combine intense drama with historical contexts.); Mystery (A notable interest in mystery elements is present, as seen in the ratings for films that incorporate this genre.). Liked patterns: High ratings for films that combine drama with crime or thriller elements., Consistent appreciation for films that explore complex human emotions and moral dilemmas., Strong preference for films that feature historical or war-related themes.. Disliked patterns: Dislike for sports-themed dramas, as indicated by a low rating for a film in this category..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys crime-related stories, as indicated by several top-rated films that explore criminal themes.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "There is an appreciation for thrillers, particularly those that blend drama with suspenseful elements.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user shows a liking for war-themed films, which often combine intense drama with historical contexts.",
+          "taste": "War"
+        },
+        {
+          "reason": "A notable interest in mystery elements is present, as seen in the ratings for films that incorporate this genre.",
+          "taste": "Mystery"
+        }
+      ]
+    },
+    "user_id": 1604
+  }
+}

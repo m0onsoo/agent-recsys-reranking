@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "2b3494c06015ef1e442ad5bace338838c9c6701bff3f1cadd09af0af96df455e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      205,
+      744,
+      1080,
+      2120,
+      351,
+      52,
+      210,
+      219,
+      336,
+      106
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      24,
+      63,
+      64,
+      106,
+      112,
+      117,
+      175,
+      176,
+      247,
+      260,
+      327,
+      336,
+      534,
+      585,
+      598,
+      649,
+      686,
+      891,
+      995,
+      1080,
+      1284,
+      1538,
+      1620,
+      2227,
+      2295
+    ],
+    "seed": 42,
+    "source_hash": "c6cf4a3343352a514dde41c805735c8d951c602b73a090624e4989f68873abcb",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4947,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jon Voight",
+          "Burt Reynolds",
+          "Ned Beatty",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Boorman",
+        "genres": [
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Intent on seeing the Cahulawassee River before it's turned into one huge lake, outdoor fanatic Lewis Medlock takes his friends on a river-rafting trip they'll never forget into the dangerous American back-country.",
+        "release_date": "1972-07-30",
+        "release_year": "1972",
+        "title": "Deliverance"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "Gary Oldman",
+          "Chloe Webb",
+          "David Hayman",
+          "Debby Bishop"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Alex Cox",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Following their breakout success in England, flagship punk rock band the Sex Pistols venture out on their first U.S. tour. Temperamental bassist Sid Vicious takes his troubled girlfriend, Nancy Spungen, along for the ride. Along the way, the couple's turbulent relationship strains the patience of bandmate Johnny Rotten and manager Malcolm McLaren, while plunging Sid and Nancy into the depths of drug addiction and co-dependency.",
+        "release_date": "1986-11-07",
+        "release_year": "1986",
+        "title": "Sid and Nancy"
+      },
+      {
+        "cast": [
+          "Henry Fonda",
+          "Claudia Cardinale",
+          "Jason Robards",
+          "Charles Bronson"
+        ],
+        "country": [
+          "Italy",
+          "Spain",
+          "United States of America"
+        ],
+        "director": "Sergio Leone",
+        "genres": [
+          "Western"
+        ],
+        "language": "Italian",
+        "overview": "This classic western masterpiece is an epic film about a widow whose land and life are in danger as the railroad is getting closer and closer to taking them over. A mysterious harmonica player joins forces with a desperado to protect the woman and her land.",
+        "release_date": "1968-12-21",
+        "release_year": "1969",
+        "title": "Once Upon a Time in the West"
+      },
+      {
+        "cast": [
+          "Jason Schwartzman",
+          "Olivia Williams",
+          "Bill Murray",
+          "Seymour Cassel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Anderson",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a beautiful first-grade teacher arrives at a prep school, she soon attracts the attention of an ambitious teenager named Max, who quickly falls in love with her. Max turns to the father of two of his schoolmates for advice on how to woo the teacher. However, the situation soon gets complicated when Max's new friend becomes involved with her, setting the two pals against one another in a war for her attention.",
+        "release_date": "1998-09-17",
+        "release_year": "1998",
+        "title": "Rushmore"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Christopher Lloyd",
+          "Joanna Cassidy",
+          "Charles Fleischer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "'Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+        "release_date": "1988-06-21",
+        "release_year": "1988",
+        "title": "Who Framed Roger Rabbit?"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Elizabeth Hurley",
+          "Michael York",
+          "Mimi Rogers"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "As a swingin' fashion photographer by day and a groovy British superagent by night, Austin Powers is the '60s' most shagadelic spy, baby! But can he stop megalomaniac Dr. Evil after the bald villain freezes himself and unthaws in the '90s? With the help of sexy sidekick Vanessa Kensington, he just might.",
+        "release_date": "1997-05-02",
+        "release_year": "1997",
+        "title": "Austin Powers: International Man of Mystery"
+      },
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      }
+    ],
+    "raw_user_id": "4947",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 80
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7532505833390535
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed in the sample."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine Drama with other genres like War and Romance.",
+        "Consistent appreciation for films that feature strong character development and moral dilemmas.",
+        "Enjoyment of films that blend humor with serious themes."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (Multiple high ratings for films primarily categorized as Drama, indicating a deep appreciation for character-driven narratives.); Enjoyment of Crime and Thriller genres (Consistent high ratings for movies that blend Crime and Thriller elements, suggesting a taste for suspenseful and morally complex stories.); Appreciation for Comedy with depth (High ratings for Comedies that also incorporate elements of Drama or Romance, indicating a preference for humor that resonates on a deeper emotional level.); Interest in War-themed narratives (High ratings for films that explore War, reflecting a fascination with historical and moral complexities.); Fondness for Romance in various contexts (High ratings for films that include Romance, whether as a primary or secondary theme, showing a consistent interest in romantic storytelling.). Liked patterns: High ratings for films that combine Drama with other genres like War and Romance., Consistent appreciation for films that feature strong character development and moral dilemmas., Enjoyment of films that blend humor with serious themes.. Disliked patterns: No significant patterns of dislike observed in the sample..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for films primarily categorized as Drama, indicating a deep appreciation for character-driven narratives.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Consistent high ratings for movies that blend Crime and Thriller elements, suggesting a taste for suspenseful and morally complex stories.",
+          "taste": "Enjoyment of Crime and Thriller genres"
+        },
+        {
+          "reason": "High ratings for Comedies that also incorporate elements of Drama or Romance, indicating a preference for humor that resonates on a deeper emotional level.",
+          "taste": "Appreciation for Comedy with depth"
+        },
+        {
+          "reason": "High ratings for films that explore War, reflecting a fascination with historical and moral complexities.",
+          "taste": "Interest in War-themed narratives"
+        },
+        {
+          "reason": "High ratings for films that include Romance, whether as a primary or secondary theme, showing a consistent interest in romantic storytelling.",
+          "taste": "Fondness for Romance in various contexts"
+        }
+      ]
+    },
+    "user_id": 4947
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "a12c6e99e62208d7e12bb984c3c2db254f6344aada24290e9400525a2ea299ec",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1985,
+      566,
+      362,
+      649,
+      558,
+      418,
+      770,
+      438,
+      866,
+      351
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b39f8a35b45148cbbb8da38c9cb50ba9"
+    ],
+    "sampled_item_ids": [
+      6,
+      20,
+      23,
+      83,
+      106,
+      129,
+      144,
+      175,
+      185,
+      229,
+      276,
+      347,
+      362,
+      383,
+      470,
+      482,
+      601,
+      649,
+      724,
+      800,
+      1024,
+      1116,
+      1186,
+      1576,
+      1762
+    ],
+    "seed": 42,
+    "source_hash": "7319d93e10b864626a78de073ef10f4018760a2aa5da7b6794d773f70f06f228",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 630,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bruno Ganz",
+          "Otto Sander",
+          "Solveig Dommartin",
+          "Curt Bois"
+        ],
+        "country": [
+          "Germany",
+          "France"
+        ],
+        "director": "Wim Wenders",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Wings of Desire is Wim Wender’s artistically beautiful film about the lonely and immortal life of angels during a post-war Berlin. It’s a poetic journey from the perspective of the angels of which one falls in love with a living woman and wants to become a mortal human thus giving up his heavenly life. Filmed in black and white and with a feeling of celebrating life.",
+        "release_date": "1987-01-01",
+        "release_year": "1987",
+        "title": "Wings of Desire (Der Himmel über Berlin)"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "Ron Howard",
+          "Paul Le Mat",
+          "Charles Martin Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A couple of high school graduates spend one final night cruising the strip with their buddies before they go off to college.",
+        "release_date": "1973-08-01",
+        "release_year": "1973",
+        "title": "American Graffiti"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Dianne Wiest",
+          "Jennifer Tilly",
+          "Chazz Palminteri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Set in 1920's New York City, this movie tells the story of idealistic young playwright David Shayne. Producer Julian Marx finally finds funding for the project from gangster Nick Valenti. The catch is that Nick's girl friend Olive Neal gets the part of a psychiatrist, and Olive is a bimbo who could never pass for a psychiatrist as well as being a dreadful actress. Agreeing to this first compromise is the first step to Broadway's complete seduction of David, who neglects longtime girl friend Ellen. Meanwhile David puts up with Warner Purcell, the leading man who is a compulsive eater, Helen Sinclair, the grand dame who wants her part jazzed up, and Cheech, Olive's interfering hitman / bodyguard. Eventually, the playwright must decide whether art or life is more important.",
+        "release_date": "1994-10-14",
+        "release_year": "1994",
+        "title": "Bullets Over Broadway"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Audrey Hepburn",
+          "Eddie Albert",
+          "Hartley Power"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Overwhelmed by her suffocating schedule, touring European princess Ann takes off for a night while in Rome. When a sedative she took from her doctor kicks in, however, she falls asleep on a park bench and is found by an American reporter, Joe Bradley, who takes her back to his apartment for safety. At work the next morning, Joe finds out Ann's regal identity and bets his editor he can get exclusive interview with her, but romance soon gets in the way.",
+        "release_date": "1953-09-02",
+        "release_year": "1953",
+        "title": "Roman Holiday"
+      },
+      {
+        "cast": [
+          "Drew Barrymore",
+          "Dougray Scott",
+          "Anjelica Huston",
+          "Megan Dodds"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andy Tennant",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A unique 16th century woman, Danielle possesses a love of books, and can easily quote from Sir Thomas More’s Utopia. An intriguing mix of tomboyish athleticism and physical beauty, she has more than enough charm to capture the heart of a prince ... after beaning him with an apple.",
+        "release_date": "1998-07-31",
+        "release_year": "1998",
+        "title": "Ever After: A Cinderella Story"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Emma Thompson",
+          "Hugh Grant",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ang Lee",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Rich Mr. Dashwood dies, leaving his second wife and her daughters poor by the rules of inheritance. Two daughters are the titular opposites.",
+        "release_date": "1995-12-13",
+        "release_year": "1995",
+        "title": "Sense and Sensibility"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Sarah Jessica Parker",
+          "Victoria Tennant",
+          "Richard E. Grant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mick Jackson",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "With the help of a talking freeway billboard, a \"wacky weatherman\" tries to win the heart of an English newspaper reporter, who is struggling to make sense of the strange world of early-90s Los Angeles.",
+        "release_date": "1991-02-08",
+        "release_year": "1991",
+        "title": "L.A. Story"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Cuba Gooding Jr.",
+          "Renée Zellweger",
+          "Kelly Preston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jerry Maguire used to be a typical sports agent: willing to do just about anything he could to get the biggest possible contracts for his clients, plus a nice commission for himself. Then, one day, he suddenly has second thoughts about what he's really doing. When he voices these doubts, he ends up losing his job and all of his clients, save Rod Tidwell, an egomaniacal football player.",
+        "release_date": "1996-12-06",
+        "release_year": "1996",
+        "title": "Jerry Maguire"
+      },
+      {
+        "cast": [
+          "William Hurt",
+          "Albert Brooks",
+          "Holly Hunter",
+          "Robert Prosky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Basket-case network news producer Jane Craig falls for new reporter Tom Grunnick, a pretty boy who represents the trend towards entertainment news she despises. Aaron Altman, a talented but plain correspondent, carries an unrequited torch for Jane. Sparks fly between the three as the network prepares for big changes, and both the news and Jane must decide between style and substance.",
+        "release_date": "1987-12-16",
+        "release_year": "1987",
+        "title": "Broadcast News"
+      },
+      {
+        "cast": [
+          "Jason Schwartzman",
+          "Olivia Williams",
+          "Bill Murray",
+          "Seymour Cassel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Anderson",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a beautiful first-grade teacher arrives at a prep school, she soon attracts the attention of an ambitious teenager named Max, who quickly falls in love with her. Max turns to the father of two of his schoolmates for advice on how to woo the teacher. However, the situation soon gets complicated when Max's new friend becomes involved with her, setting the two pals against one another in a war for her attention.",
+        "release_date": "1998-09-17",
+        "release_year": "1998",
+        "title": "Rushmore"
+      }
+    ],
+    "raw_user_id": "630",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 96
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6186675185188152
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that lack strong narrative or character development",
+        "Negative response to thrillers that do not engage emotionally"
+      ],
+      "liked_patterns": [
+        "High ratings for romantic comedies and dramas",
+        "Consistent appreciation for films with comedic elements",
+        "Strong preference for musicals that include romance"
+      ],
+      "summary": "Unique tastes: Romantic Comedies (The user enjoys films that blend romance with humor, as seen in multiple high-rated titles.); Dramatic Narratives (The user appreciates films with strong dramatic elements, often rated highly.); Fantasy Elements (The user is drawn to films that incorporate fantasy, particularly in comedic contexts.); Musicals with Romance (The user favors musicals that feature romantic themes, consistently rating them highly.); Thrillers with Depth (The user enjoys thrillers that also explore deeper emotional or psychological themes.). Liked patterns: High ratings for romantic comedies and dramas, Consistent appreciation for films with comedic elements, Strong preference for musicals that include romance. Disliked patterns: Dislike for films that lack strong narrative or character development, Negative response to thrillers that do not engage emotionally.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend romance with humor, as seen in multiple high-rated titles.",
+          "taste": "Romantic Comedies"
+        },
+        {
+          "reason": "The user appreciates films with strong dramatic elements, often rated highly.",
+          "taste": "Dramatic Narratives"
+        },
+        {
+          "reason": "The user is drawn to films that incorporate fantasy, particularly in comedic contexts.",
+          "taste": "Fantasy Elements"
+        },
+        {
+          "reason": "The user favors musicals that feature romantic themes, consistently rating them highly.",
+          "taste": "Musicals with Romance"
+        },
+        {
+          "reason": "The user enjoys thrillers that also explore deeper emotional or psychological themes.",
+          "taste": "Thrillers with Depth"
+        }
+      ]
+    },
+    "user_id": 630
+  }
+}

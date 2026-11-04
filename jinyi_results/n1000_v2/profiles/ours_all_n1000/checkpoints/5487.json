@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "1151b90e26ee8b5f3f3f4fae14820a3b1157e26871b1479544aa87fcfafc428f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      861,
+      278,
+      738,
+      1160,
+      1045,
+      1146,
+      465,
+      529,
+      49,
+      17
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      23,
+      28,
+      69,
+      105,
+      128,
+      132,
+      274,
+      318,
+      360,
+      439,
+      529,
+      620,
+      628,
+      636,
+      718,
+      738,
+      739,
+      861,
+      1064,
+      1107,
+      1134,
+      1146,
+      1201,
+      1845,
+      2833
+    ],
+    "seed": 42,
+    "source_hash": "5c8a1df46506b26956786ab12801f8e2734ab43e0f4d7cd13a9cac8d7582e83e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5487,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gary Sinise",
+          "Tim Robbins",
+          "Don Cheadle",
+          "Connie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When contact is lost with the crew of the first Mars expedition, a rescue mission is launched to discover their fate.",
+        "release_date": "2000-03-10",
+        "release_year": "2000",
+        "title": "Mission to Mars"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Elisabeth Shue"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Marty and Doc are at it again in this wacky sequel to the 1985 blockbuster as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teenage parents -- again.",
+        "release_date": "1989-11-20",
+        "release_year": "1989",
+        "title": "Back to the Future Part II"
+      },
+      {
+        "cast": [
+          "Madonna",
+          "Rupert Everett",
+          "Benjamin Bratt",
+          "Malcolm Stumpf"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A comedy-drama about best friends - one a straight woman, Abbie, the other a gay man, Robert - who decide to have a child together. Five years later, Abbie falls in love with a straight man and wants to move away with her and Robert's little boy Sam, and a nasty custody battle ensues.",
+        "release_date": "2000-03-03",
+        "release_year": "2000",
+        "title": "Next Best Thing, The"
+      },
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Uma Thurman",
+          "Sean Connery",
+          "Patrick Macnee"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeremiah S. Chechik",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "British Ministry agent John Steed, under direction from \"Mother\", investigates a diabolical plot by arch-villain Sir August de Wynter to rule the world with his weather control machine. Steed investigates the beautiful Doctor Mrs. Emma Peel, the only suspect, but simultaneously falls for her and joins forces with her to combat Sir August.",
+        "release_date": "1998-08-13",
+        "release_year": "1998",
+        "title": "Avengers, The"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sophie Marceau",
+          "Robert Carlyle",
+          "Denise Richards"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Michael Apted",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Greed, revenge, world dominance and high-tech terrorism – it's all in a day's work for Bond, who's on a mission to a protect beautiful oil heiress from a notorious terrorist. In a race against time that culminates in a dramatic submarine showdown, Bond works to defuse the international power struggle that has the world's oil supply hanging in the balance.",
+        "release_date": "1999-11-08",
+        "release_year": "1999",
+        "title": "World Is Not Enough, The"
+      },
+      {
+        "cast": [
+          "Leonardo DiCaprio",
+          "Claire Danes",
+          "John Leguizamo",
+          "Harold Perrineau"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Baz Luhrmann",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In director Baz Luhrmann's contemporary take on William Shakespeare's classic tragedy, the Montagues and Capulets have moved their ongoing feud to the sweltering suburb of Verona Beach, where Romeo and Juliet fall in love and secretly wed. Though the film is visually modern, the bard's dialogue remains.",
+        "release_date": "1996-10-31",
+        "release_year": "1996",
+        "title": "William Shakespeare's Romeo and Juliet"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Frakes",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The Borg, a relentless race of cyborgs, are on a direct course for Earth. Violating orders to stay away from the battle, Captain Picard and the crew of the newly-commissioned USS Enterprise E pursue the Borg back in time to prevent the invaders from changing Federation history and assimilating the galaxy.",
+        "release_date": "1996-11-21",
+        "release_year": "1996",
+        "title": "Star Trek: First Contact"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Tony Goldwyn",
+          "Glenn Close",
+          "Minnie Driver",
+          "Brian Blessed"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Lima",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "Tarzan was a small orphan who was raised by an ape named Kala since he was a child. He believed that this was his family, but on an expedition Jane Porter is rescued by Tarzan. He then finds out that he's human. Now Tarzan must make the decision as to which family he should belong to...",
+        "release_date": "1999-06-18",
+        "release_year": "1999",
+        "title": "Tarzan"
+      }
+    ],
+    "raw_user_id": "5487",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 39
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1568624395993938
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that do not meet the user's expectations in the sci-fi genre."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend comedy with other genres.",
+        "Strong preference for films that feature adventure elements alongside action and sci-fi.",
+        "Consistent enjoyment of films with emotional depth in drama."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Drama (The user appreciates dramatic narratives, particularly those with strong emotional themes.); Sci-Fi (The user shows a preference for science fiction, especially when combined with other genres.); Action (The user favors action films, particularly those that also incorporate adventure elements.); Horror (The user enjoys horror comedies, indicating a taste for humor mixed with suspense.). Liked patterns: High ratings for films that blend comedy with other genres., Strong preference for films that feature adventure elements alongside action and sci-fi., Consistent enjoyment of films with emotional depth in drama.. Disliked patterns: Dislike for films that do not meet the user's expectations in the sci-fi genre..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, particularly those with strong emotional themes.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows a preference for science fiction, especially when combined with other genres.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user favors action films, particularly those that also incorporate adventure elements.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user enjoys horror comedies, indicating a taste for humor mixed with suspense.",
+          "taste": "Horror"
+        }
+      ]
+    },
+    "user_id": 5487
+  }
+}

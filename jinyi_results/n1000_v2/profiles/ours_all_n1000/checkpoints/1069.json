@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "bc08906ddef5a76bd295827c190eb684ddbe5bd3e3072a703da96ecd730699d9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      252,
+      365,
+      1107,
+      3197,
+      2743,
+      1108,
+      57,
+      1904,
+      987,
+      1983
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5db54f695fe848a393eddc97887c72b0"
+    ],
+    "sampled_item_ids": [
+      110,
+      325,
+      417,
+      486,
+      1104,
+      1108,
+      1656,
+      1714,
+      1769,
+      1864,
+      1927,
+      1963,
+      2054,
+      2153,
+      2207,
+      2242,
+      2404,
+      2549,
+      2552,
+      2686,
+      2774,
+      2940,
+      3042,
+      3078,
+      3101
+    ],
+    "seed": 42,
+    "source_hash": "c2c0fab37bbcfdb112fca86116c7617dbe21570f29f9a62ab72561f6f1167e10",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1069,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "David Duchovny",
+          "Gillian Anderson",
+          "Mitch Pileggi",
+          "William B. Davis"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Rob Bowman",
+        "genres": [
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mulder and Scully, now taken off the FBI's X Files cases, must find a way to fight the shadowy elements of the government to find out the truth about a conspiracy that might mean the alien colonization of Earth.",
+        "release_date": "1998-06-19",
+        "release_year": "1998",
+        "title": "X-Files: Fight the Future, The"
+      },
+      {
+        "cast": [
+          "Ron Perlman",
+          "Dominique Pinon",
+          "Judith Vittet",
+          "Daniel Emilfork"
+        ],
+        "country": [
+          "France",
+          "Germany",
+          "Spain"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "A scientist in a surrealist society kidnaps children to steal their dreams, hoping that they slow his aging process.",
+        "release_date": "1995-05-16",
+        "release_year": "1995",
+        "title": "City of Lost Children, The"
+      },
+      {
+        "cast": [
+          "Stephen Rea",
+          "Jaye Davidson",
+          "Miranda Richardson",
+          "Forest Whitaker"
+        ],
+        "country": [
+          "Japan",
+          "United Kingdom",
+          "Ireland"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Irish Republican Army member Fergus (Stephen Rea) forms an unexpected bond with Jody (Forest Whitaker), a kidnapped British soldier in his custody, despite the warnings of fellow IRA members Jude (Miranda Richardson) and Maguire (Adrian Dunbar). Jody makes Fergus promise he'll visit his girlfriend, Dil (Jaye Davidson), in London, and when Fergus flees to the city, he seeks her out. Hounded by his former IRA colleagues, he finds himself increasingly drawn to the enigmatic, and surprising, Dil.",
+        "release_date": "1992-09-02",
+        "release_year": "1992",
+        "title": "Crying Game, The"
+      },
+      {
+        "cast": [
+          "Bridget Fonda",
+          "Russell Crowe",
+          "Jim Broadbent",
+          "D.W. Moffett"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America",
+          "France"
+        ],
+        "director": "Clare Peploe",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A sleazy politician sends an agent (Russell Crowe) after his ex-fiancee (Bridget Fonda), who fled to Mexico with incriminating film of him.",
+        "release_date": "1995-09-07",
+        "release_year": "1995",
+        "title": "Rough Magic"
+      },
+      {
+        "cast": [
+          "Eric Roberts",
+          "Gregory Harrison",
+          "Lee Grant",
+          "Olivia Newton-John"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Randal Kleiser",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A gathering of friends. A gift of love. A celebration of life.",
+        "release_date": "1996-03-22",
+        "release_year": "1995",
+        "title": "It's My Party"
+      },
+      {
+        "cast": [
+          "Tyrin Turner",
+          "Larenz Tate",
+          "Glenn Plummer",
+          "Jada Pinkett Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Albert Hughes",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Menace II Society is a coming of age tale detailing the summer after its protagonist Caine (Tyrin Turner) graduates from high school. This is Caine's story, which details real life in today's tough inner city.",
+        "release_date": "1993-05-26",
+        "release_year": "1993",
+        "title": "Menace II Society"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Meg Ryan",
+          "Lou Diamond Phillips",
+          "Matt Damon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A US Army officer had made a \"friendly fire\" mistake that was covered up and he was reassigned to a desk job. Later he was tasked to investigate a female chopper commander's worthiness to be awarded the Medal of Honor posthumously. At first all seemed in order then he begins to notice inconsistencies between the testimonies of the witnesses....",
+        "release_date": "1996-07-04",
+        "release_year": "1996",
+        "title": "Courage Under Fire"
+      },
+      {
+        "cast": [
+          "Amy Brenneman",
+          "Aaron Eckhart",
+          "Ben Stiller",
+          "Nastassja Kinski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Neil LaBute",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "This adult comedy follows six characters, three men and three women from a cross-section of social groups, as they play sexual power games. When an affair fires up between 2 of the married characters, it sparks a chain of consequences for all of them, including one of the wives falling for another woman!",
+        "release_date": "1998-02-04",
+        "release_year": "1998",
+        "title": "Your Friends and Neighbors"
+      },
+      {
+        "cast": [
+          "Leslie Cheung",
+          "Gong Li",
+          "Zhang Fengyi",
+          "Jiang Wenli"
+        ],
+        "country": [
+          "China",
+          "Hong Kong"
+        ],
+        "director": "Chen Kaige",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "Chinese",
+        "overview": "Abandoned by his prostitute mother in 1920, Douzi was raised by a theater troupe. There he meets Shitou and over the following years the two develop an act entitled, \"Farewell My Concubine,\" that brings them fame and fortune. When Shitou marries Juxian, Doutzi becomes jealous, the beginnings of the acting duo's explosive breakup and tragic fall take root.",
+        "release_date": "1993-09-16",
+        "release_year": "1993",
+        "title": "Farewell My Concubine"
+      },
+      {
+        "cast": [
+          "Sean Nelson",
+          "Giancarlo Esposito",
+          "Samuel L. Jackson",
+          "N'Bushe Wright"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Boaz Yakin",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Michael is a 12-year-old drug pusher who lives in a crowded house with his cousins and aunt. His father has become a street bum,but still meets with Fresh on occasion to play chess. Fresh is rather quiet in a crazy world. Fresh's sister is a junkie who sleeps with the dealers that Fresh sells for. As the story progresses Fresh realizes that he doesn't want to sell drugs anymore - he wants revenge.",
+        "release_date": "1994-08-24",
+        "release_year": "1994",
+        "title": "Fresh"
+      }
+    ],
+    "raw_user_id": "1069",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 481
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.8869265748665331
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are purely comedic without deeper themes.",
+        "Negative response to films that focus on war or heavy drama without lighter elements."
+      ],
+      "liked_patterns": [
+        "Preference for films that combine drama with romance or emotional depth.",
+        "Enjoyment of comedies that also explore serious themes or character arcs.",
+        "Attraction to action films that include crime elements."
+      ],
+      "summary": "Unique tastes: Drama and Romance (The user appreciates films that explore emotional and relational complexities, often within dramatic narratives.); Comedy with Dramatic Elements (The user enjoys comedies that incorporate deeper themes or character development, blending humor with drama.); Action and Crime (The user is drawn to action films that also delve into crime, indicating a preference for intense and thrilling narratives.); Strong Female Characters (The user seems to favor films featuring strong female leads or significant female perspectives, particularly in dramas and comedies.); Thrillers with Sci-Fi Elements (The user shows interest in thrillers that incorporate science fiction, suggesting a taste for suspenseful and imaginative storytelling.). Liked patterns: Preference for films that combine drama with romance or emotional depth., Enjoyment of comedies that also explore serious themes or character arcs., Attraction to action films that include crime elements.. Disliked patterns: Dislike for films that are purely comedic without deeper themes., Negative response to films that focus on war or heavy drama without lighter elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates films that explore emotional and relational complexities, often within dramatic narratives.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "The user enjoys comedies that incorporate deeper themes or character development, blending humor with drama.",
+          "taste": "Comedy with Dramatic Elements"
+        },
+        {
+          "reason": "The user is drawn to action films that also delve into crime, indicating a preference for intense and thrilling narratives.",
+          "taste": "Action and Crime"
+        },
+        {
+          "reason": "The user seems to favor films featuring strong female leads or significant female perspectives, particularly in dramas and comedies.",
+          "taste": "Strong Female Characters"
+        },
+        {
+          "reason": "The user shows interest in thrillers that incorporate science fiction, suggesting a taste for suspenseful and imaginative storytelling.",
+          "taste": "Thrillers with Sci-Fi Elements"
+        }
+      ]
+    },
+    "user_id": 1069
+  }
+}

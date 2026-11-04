@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "5262d48e001e9592235df507e5fb6e41dac17333497e263265293e6b891a84ed",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      4,
+      1064,
+      1139,
+      152,
+      127,
+      1029,
+      1041,
+      2176,
+      87,
+      1028
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5deb9d0092d4469b8388e3d8566b2444"
+    ],
+    "sampled_item_ids": [
+      41,
+      83,
+      87,
+      93,
+      134,
+      194,
+      434,
+      513,
+      576,
+      589,
+      625,
+      1014,
+      1064,
+      1077,
+      1103,
+      1139,
+      1170,
+      1318,
+      1382,
+      1716,
+      1938,
+      2173,
+      2197,
+      2246,
+      2495
+    ],
+    "seed": 42,
+    "source_hash": "426a3e30140378426e4d6291be5a457d1cbd0aa8c4c870900a6cb7fff6f7b696",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1433,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Julia Roberts",
+          "Albert Finney",
+          "Aaron Eckhart",
+          "Marg Helgenberger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "Erin Brockovich"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Jean Reno",
+          "Maria Pitillo",
+          "Hank Azaria"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When a freighter is viciously attacked in the Pacific Ocean, a team of experts -- including biologist Niko Tatopoulos and scientists Elsie Chapman and Mendel Craven -- concludes that an oversized reptile is the culprit. Before long, the giant lizard is loose in Manhattan, destroying everything within its reach. The team chases the monster to Madison Square Garden, where a brutal battle ensues.",
+        "release_date": "1998-05-20",
+        "release_year": "1998",
+        "title": "Godzilla"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Samuel L. Jackson",
+          "Jon Lovitz",
+          "Tim Curry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gene Quintano",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "An LA detective is murdered because she has microfilm with the recipe to make cocaine cookies. A \"Lethal Weapon\" style cop team tries to find and stop the fiends before they can dope the nation by distributing their wares via the \"Wilderness Girls\" cookie drive.",
+        "release_date": "1993-02-04",
+        "release_year": "1993",
+        "title": "Loaded Weapon 1"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "Helen Hunt",
+          "Bill Paxton",
+          "Cary Elwes",
+          "Jami Gertz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "TV weatherman Bill Harding is trying to get his tornado-hunter wife, Jo, to sign divorce papers so he can marry his girlfriend Melissa. But Mother Nature, in the form of a series of intense storms sweeping across Oklahoma, has other plans. Soon the three have joined the team of stormchasers as they attempt to insert a revolutionary measuring device into the very heart of several extremely violent tornados.",
+        "release_date": "1996-05-10",
+        "release_year": "1996",
+        "title": "Twister"
+      },
+      {
+        "cast": [
+          "Paige Turco",
+          "Stuart Wilson",
+          "Sab Shimono",
+          "Vivian Wu"
+        ],
+        "country": [
+          "Hong Kong",
+          "United States of America"
+        ],
+        "director": "Stuart Gillard",
+        "genres": [
+          "Action",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "The four turtles travel back in time to the days of the legendary and deadly samurai in ancient Japan, where they train to perfect the art of becoming one. The turtles also assist a small village in an uprising.",
+        "release_date": "1993-03-17",
+        "release_year": "1993",
+        "title": "Teenage Mutant Ninja Turtles III"
+      },
+      {
+        "cast": [
+          "Christopher Lambert",
+          "Bruce Payne",
+          "Adrian Paul",
+          "Donnie Yen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Douglas Aarniokoski",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Immortals Connor and Duncan Macleod join forces against a man from Connor's distant past in the highlands of Scotland, Kell, an immensely powerful immortal who leads an army of equally powerful and deadly immortal swordsmen and assassins. No immortal alive has been able to defeat Kell yet, and neither Connor nor Duncan are skilled enough themselves to take him on and live. The two of them eventually come to one inevitable conclusion; one of them must die so that the combined power of both the Highlanders can bring down Kell for good. There can be only one... the question is, who will it be?",
+        "release_date": "2000-09-01",
+        "release_year": "2000",
+        "title": "Highlander: Endgame"
+      },
+      {
+        "cast": [
+          "Jean-Claude Van Damme",
+          "Roger Moore",
+          "James Remar",
+          "Jack McGee"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Jean-Claude Van Damme",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Ghang-gheng, the ancient winner-take-all competition in which the deadliest fighters from around the world employ the most spectacular feats of martial arts skills ever displayed in order to win the prized Golden Dragon. But fighting prowess alone will not be enough for Chris to triumph over such daunting foes.",
+        "release_date": "1996-04-19",
+        "release_year": "1996",
+        "title": "Quest, The"
+      },
+      {
+        "cast": [
+          "Jeff Goldblum",
+          "Julianne Moore",
+          "Pete Postlethwaite",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Four years after Jurassic Park's genetically bred dinosaurs ran amok, multimillionaire John Hammond shocks chaos theorist Ian Malcolm by revealing that Hammond has been breeding more beasties at a secret location. Malcolm, his paleontologist ladylove and a wildlife videographer join an expedition to document the lethal lizards' natural behavior in this action-packed thriller.",
+        "release_date": "1997-05-23",
+        "release_year": "1997",
+        "title": "Lost World: Jurassic Park, The"
+      },
+      {
+        "cast": [
+          "Derek Jacobi",
+          "Elizabeth Hartman",
+          "Arthur Malet",
+          "Dom DeLuise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Don Bluth",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "A widowed field mouse must move her family -- including an ailing son -- to escape a farmer's plow. Aided by a crow and a pack of superintelligent, escaped lab rats, the brave mother struggles to transplant her home to firmer ground.",
+        "release_date": "1982-06-17",
+        "release_year": "1982",
+        "title": "Secret of NIMH, The"
+      }
+    ],
+    "raw_user_id": "1433",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 73
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7745048583410864
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films lacking strong comedic or engaging elements",
+        "Negative reception of films that are purely action without additional genres",
+        "Dislike for children's films that do not resonate with the user"
+      ],
+      "liked_patterns": [
+        "Enjoyment of animated films with children's themes",
+        "Preference for action films with comedic elements",
+        "Positive reception of films that blend action and thriller genres"
+      ],
+      "summary": "Unique tastes: Animation and Children's Films (The user enjoys animated films, particularly those aimed at children, as evidenced by high ratings for multiple titles in this genre.); Action and Adventure (The user shows a strong preference for action and adventure films, frequently rating them positively.); Comedy Elements in Action Films (The user appreciates action films that incorporate comedic elements, as indicated by several ratings of 3 or above for such titles.); Romantic Themes in Drama (The user enjoys romantic themes within drama films, reflected in positive ratings for titles that blend these genres.); Thriller Aspects in Action Movies (The user favors action films that include thriller elements, as shown by consistent positive ratings in this category.). Liked patterns: Enjoyment of animated films with children's themes, Preference for action films with comedic elements, Positive reception of films that blend action and thriller genres. Disliked patterns: Dislike for action films lacking strong comedic or engaging elements, Negative reception of films that are purely action without additional genres, Dislike for children's films that do not resonate with the user.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films, particularly those aimed at children, as evidenced by high ratings for multiple titles in this genre.",
+          "taste": "Animation and Children's Films"
+        },
+        {
+          "reason": "The user shows a strong preference for action and adventure films, frequently rating them positively.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates action films that incorporate comedic elements, as indicated by several ratings of 3 or above for such titles.",
+          "taste": "Comedy Elements in Action Films"
+        },
+        {
+          "reason": "The user enjoys romantic themes within drama films, reflected in positive ratings for titles that blend these genres.",
+          "taste": "Romantic Themes in Drama"
+        },
+        {
+          "reason": "The user favors action films that include thriller elements, as shown by consistent positive ratings in this category.",
+          "taste": "Thriller Aspects in Action Movies"
+        }
+      ]
+    },
+    "user_id": 1433
+  }
+}

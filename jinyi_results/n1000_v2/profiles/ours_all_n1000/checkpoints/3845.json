@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "f22875022a3ffc9af03f1b079a519283d9c3d08095cac3bbd5ebecf2a186fac1",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      717,
+      604,
+      40,
+      757,
+      190,
+      22,
+      135,
+      768,
+      30,
+      23
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5cbab7c61b0d42a3aab12fc96dd9f801"
+    ],
+    "sampled_item_ids": [
+      6,
+      22,
+      30,
+      65,
+      97,
+      105,
+      117,
+      128,
+      133,
+      168,
+      175,
+      185,
+      190,
+      273,
+      316,
+      645,
+      674,
+      717,
+      767,
+      841,
+      940,
+      1002,
+      1254,
+      1521,
+      1683
+    ],
+    "seed": 42,
+    "source_hash": "70bc3a3fa0aac0c2744f962c477e780559263869eb7dbd690568e779f03d139b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3845,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Henry Fonda",
+          "Martin Balsam",
+          "John Fiedler",
+          "Lee J. Cobb"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+        "release_date": "1957-03-25",
+        "release_year": "1957",
+        "title": "12 Angry Men"
+      },
+      {
+        "cast": [
+          "Tim Curry",
+          "Susan Sarandon",
+          "Barry Bostwick",
+          "Richard O'Brien"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Sharman",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Sweethearts Brad and Janet, stuck with a flat tire during a storm, discover the eerie mansion of Dr. Frank-N-Furter, a transvestite scientist. As their innocence is lost, Brad and Janet meet a houseful of wild characters, including a rocking biker and a creepy butler. Through elaborate dances and rock songs, Frank-N-Furter unveils his latest creation: a muscular man named 'Rocky'.",
+        "release_date": "1975-08-14",
+        "release_year": "1975",
+        "title": "Rocky Horror Picture Show, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Bill Paxton",
+          "Kevin Bacon",
+          "Gary Sinise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of technical troubles that scuttle the Apollo 13 lunar mission in 1971, risking the lives of astronaut Jim Lovell and his crew, with the failed journey turning into a thrilling saga of heroism. Drifting more than 200,000 miles from Earth, the astronauts work furiously with the ground crew to avert tragedy.",
+        "release_date": "1995-06-30",
+        "release_year": "1995",
+        "title": "Apollo 13"
+      },
+      {
+        "cast": [
+          "Graham Chapman",
+          "John Cleese",
+          "Terry Gilliam",
+          "Eric Idle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Jones",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Brian Cohen is an average young Jewish man, but through a series of ridiculous events, he gains a reputation as the Messiah. When he's not dodging his followers or being scolded by his shrill mother, the hapless Brian has to contend with the pompous Pontius Pilate and acronym-obsessed members of a separatist movement. Rife with Monty Python's signature absurdity, the tale finds Brian's life paralleling Biblical lore, albeit with many more laughs.",
+        "release_date": "1979-08-17",
+        "release_year": "1979",
+        "title": "Monty Python's Life of Brian"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Animation"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1996",
+        "title": "Wallace & Gromit: The Best of Aardman Animation"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Bruce Boxleitner",
+          "David Warner",
+          "Cindy Morgan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Lisberger",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "As Kevin Flynn searches for proof that he invented a hit video game, he is \"digitalized\" by a laser and finds himself inside The Grid, where programs suffer under the tyrannical rule of the Master Control Program. With the help of TRON, a security program, Flynn seeks to free The Grid from the MCP.",
+        "release_date": "1982-07-09",
+        "release_year": "1982",
+        "title": "Tron"
+      },
+      {
+        "cast": [
+          "Peter Sallis",
+          "Anne Reid"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wallace falls in love with wool-shop owner Wendolene, not suspecting that she (or rather, her dog) is at the head of a fiendish sheep-rustling plot. Gromit is set up and jailed, but his new-found sheepish friend is determine to give Wallace a helping hand in finding out the real truth.",
+        "release_date": "1995-12-24",
+        "release_year": "1995",
+        "title": "Close Shave, A"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      }
+    ],
+    "raw_user_id": "3845",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 60
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5542202510299857
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for certain sci-fi films that do not resonate with the user's taste.",
+        "Negative reception of films that lack engaging narratives or character depth."
+      ],
+      "liked_patterns": [
+        "Strong preference for films that blend comedy with other genres like romance and drama.",
+        "High ratings for animated films that are both entertaining and creatively engaging.",
+        "Consistent enjoyment of action-adventure films."
+      ],
+      "summary": "Unique tastes: Appreciation for Animation (The user enjoys animated films, particularly those that blend humor and creativity.); Fondness for Comedy and Romance (The user rates highly films that combine comedic elements with romantic themes.); Interest in Action and Adventure (The user shows a strong preference for action-packed adventure films.); Enjoyment of Thought-Provoking Dramas (The user appreciates dramas that offer deep narratives and character development.); Affinity for Sci-Fi Elements (The user enjoys films that incorporate science fiction themes, especially when combined with other genres.). Liked patterns: Strong preference for films that blend comedy with other genres like romance and drama., High ratings for animated films that are both entertaining and creatively engaging., Consistent enjoyment of action-adventure films.. Disliked patterns: Dislike for certain sci-fi films that do not resonate with the user's taste., Negative reception of films that lack engaging narratives or character depth..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films, particularly those that blend humor and creativity.",
+          "taste": "Appreciation for Animation"
+        },
+        {
+          "reason": "The user rates highly films that combine comedic elements with romantic themes.",
+          "taste": "Fondness for Comedy and Romance"
+        },
+        {
+          "reason": "The user shows a strong preference for action-packed adventure films.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that offer deep narratives and character development.",
+          "taste": "Enjoyment of Thought-Provoking Dramas"
+        },
+        {
+          "reason": "The user enjoys films that incorporate science fiction themes, especially when combined with other genres.",
+          "taste": "Affinity for Sci-Fi Elements"
+        }
+      ]
+    },
+    "user_id": 3845
+  }
+}

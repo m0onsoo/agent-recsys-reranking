@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "23038d0fd5d3981a456bb3d8fdd73a88b907c7aa240f61e65277c4cace4032bc",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      519,
+      23,
+      266,
+      1096,
+      387,
+      542,
+      918,
+      528,
+      178,
+      434
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "92d938030da74770b6c2de1bc2a4e463"
+    ],
+    "sampled_item_ids": [
+      2,
+      23,
+      117,
+      132,
+      133,
+      169,
+      189,
+      275,
+      360,
+      372,
+      466,
+      532,
+      564,
+      738,
+      789,
+      809,
+      933,
+      1200,
+      1252,
+      1385,
+      1678,
+      1934,
+      2374,
+      2768,
+      2778
+    ],
+    "seed": 42,
+    "source_hash": "6e8489c5120e7ee04a84ff663c85c9d2c50cd341685130f4e49bc6dfca48ae99",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3454,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Sandra Bullock",
+          "Samuel L. Jackson",
+          "Kevin Spacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A young lawyer defends a black man accused of murdering two men who raped his 10-year-old daughter, sparking a rebirth of the KKK.",
+        "release_date": "1996-07-24",
+        "release_year": "1996",
+        "title": "Time to Kill, A"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      },
+      {
+        "cast": [
+          "Christian Slater",
+          "Samantha Mathis",
+          "Annie Ross",
+          "Scott Paulin"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Allan Moyle",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Mark is an intelligent but shy teenager who has just moved to Arizona from the East Coast. His parents give him a short-wave radio so he can talk to his pals, but instead he sets up shop as pirate deejay Hard Harry, who becomes a hero to his peers while inspiring the wrath of the local high school principal.",
+        "release_date": "1990-08-22",
+        "release_year": "1990",
+        "title": "Pump Up the Volume"
+      },
+      {
+        "cast": [
+          "Lea Thompson",
+          "Jeffrey Jones",
+          "Tim Robbins",
+          "Ed Gale"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Willard Huyck",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A scientific experiment unknowingly brings extraterrestrial life forms to the Earth through a laser beam. First is the cigar smoking drake Howard from the duck's planet. A few kids try to keep him from the greedy scientists and help him back to his planet. But then a much less friendly being arrives through the beam...",
+        "release_date": "1986-08-01",
+        "release_year": "1986",
+        "title": "Howard the Duck"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Kelly McGillis",
+          "Val Kilmer",
+          "Anthony Edwards"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Scott",
+        "genres": [
+          "Action",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "For Lieutenant Pete 'Maverick' Mitchell and his friend and Co-Pilot Nick 'Goose' Bradshaw being accepted into an elite training school for fighter pilots is a dream come true.  A tragedy, as well as personal demons, threaten Pete's dreams of becoming an Ace pilot.",
+        "release_date": "1986-05-16",
+        "release_year": "1986",
+        "title": "Top Gun"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Dougray Scott",
+          "Thandie Newton",
+          "Ving Rhames"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt races across Australia and Spain to stop a former IMF agent from unleashing a genetically engineered biological weapon called Chimera. This mission, should Hunt choose to accept it, plunges him into the center of an international crisis of terrifying magnitude.",
+        "release_date": "2000-05-24",
+        "release_year": "2000",
+        "title": "Mission: Impossible 2"
+      },
+      {
+        "cast": [
+          "Richard Gere",
+          "Edward Norton",
+          "Laura Linney",
+          "John Mahoney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Hoblit",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An arrogant, high-powered attorney takes on the case of a poor altar boy found running away from the scene of the grisly murder of the bishop who has taken him in. The case gets a lot more complex when the accused reveals that there may or may not have been a 3rd person in the room. The intensity builds when a surprise twist alters everyone's perception of the crime.",
+        "release_date": "1996-04-03",
+        "release_year": "1996",
+        "title": "Primal Fear"
+      },
+      {
+        "cast": [
+          "Jon Favreau",
+          "Vince Vaughn",
+          "Ron Livingston",
+          "Patrick Van Horn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Doug Liman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "This is a story about Mike, a guy who left his girl in New York when he came to LA to be a star. It's been six months since his girlfriend left him and he's not doing so good. So, his pal and some other friends try and get him back in the social scene and forget about his 6 year relationship.",
+        "release_date": "1996-10-18",
+        "release_year": "1996",
+        "title": "Swingers"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Holly Hunter",
+          "Trey Wilson",
+          "John Goodman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Coen Brothers tell the story of a absurd yet likable family with an unproductive couple as the focal point. The couple has gotten themselves into some trouble while kidnapping a baby and give Hollywood one of the most memorable chase scenes to date.",
+        "release_date": "1987-03-01",
+        "release_year": "1987",
+        "title": "Raising Arizona"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Rene Russo",
+          "John Malkovich",
+          "Dylan McDermott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Veteran Secret Service agent Frank Horrigan is a man haunted by his failure to save President Kennedy while serving protection detail in Dallas. Thirty years later, a man calling himself \"Booth\" threatens the life of the current President, forcing Horrigan to come back to protection detail to confront the ghosts from his past.",
+        "release_date": "1993-07-08",
+        "release_year": "1993",
+        "title": "In the Line of Fire"
+      }
+    ],
+    "raw_user_id": "3454",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 290
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8138170132328573
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for sequels or follow-ups to popular films.",
+        "Dislike for comedies that do not resonate or feel flat."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend with other genres like drama and romance.",
+        "Positive reception of animated films, particularly those with comedic elements.",
+        "Strong appreciation for films that combine action with other genres."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Drama (The user appreciates dramatic narratives, as indicated by several high ratings.); Animation (The user has a positive inclination towards animated films, particularly those aimed at children.); Action (The user shows a preference for action films, especially those that blend with other genres.); Romance (The user enjoys romantic elements within comedies and dramas.). Liked patterns: High ratings for comedies that blend with other genres like drama and romance., Positive reception of animated films, particularly those with comedic elements., Strong appreciation for films that combine action with other genres.. Disliked patterns: Negative ratings for sequels or follow-ups to popular films., Dislike for comedies that do not resonate or feel flat..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, as indicated by several high ratings.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user has a positive inclination towards animated films, particularly those aimed at children.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user shows a preference for action films, especially those that blend with other genres.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user enjoys romantic elements within comedies and dramas.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 3454
+  }
+}

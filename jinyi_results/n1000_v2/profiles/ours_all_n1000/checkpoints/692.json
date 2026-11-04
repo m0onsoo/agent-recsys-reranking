@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "05267898efc3508f5221591d013e1593036cc8c84c45fca4a8defb455a585e38",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1962,
+      1377,
+      1121,
+      1019,
+      1366,
+      906,
+      525,
+      1020,
+      279,
+      59
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "03417c3dd39049b0bb2c358c963ee02e"
+    ],
+    "sampled_item_ids": [
+      16,
+      75,
+      149,
+      211,
+      214,
+      305,
+      497,
+      534,
+      539,
+      558,
+      600,
+      757,
+      798,
+      1012,
+      1043,
+      1097,
+      1163,
+      1227,
+      1229,
+      1273,
+      1584,
+      1693,
+      1718,
+      1932,
+      2455
+    ],
+    "seed": 42,
+    "source_hash": "186740539e2cfc1e06f4fe91e5b36bae3e76dd2b73675bf82a6d12a4ea6765b6",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 692,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Andy García",
+          "Lance Henriksen",
+          "Uma Thurman",
+          "Graham Beckel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bruce Robinson",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A big city cop from LA moves to a small town police force and immediately finds himself investigating a murder. Using theories rejected by his colleagues, the cop, John Berlin, meets a young blind woman named Helena, who he is attracted to. Meanwhile, a serial killer is on the loose and only John knows it.",
+        "release_date": "1992-11-06",
+        "release_year": "1992",
+        "title": "Jennifer 8"
+      },
+      {
+        "cast": [
+          "Demi Moore",
+          "Rob Lowe",
+          "Jim Belushi",
+          "Elizabeth Perkins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A man and woman meet and try to have a romantic affair, despite their personal problems and the interference of their disapproving friends.",
+        "release_date": "1986-07-02",
+        "release_year": "1986",
+        "title": "About Last Night..."
+      },
+      {
+        "cast": [
+          "Michael Moore",
+          "Roger B. Smith",
+          "Rhonda Britton",
+          "Fred Ross"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Moore",
+        "genres": [
+          "Comedy",
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A documentary about the closure of General Motors' plant at Flint, Michigan, which resulted in the loss of 30,000 jobs. Details the attempts of filmmaker Michael Moore to get an interview with GM CEO Roger Smith.",
+        "release_date": "1989-09-01",
+        "release_year": "1989",
+        "title": "Roger & Me"
+      },
+      {
+        "cast": [
+          "Peter Weller",
+          "Nancy Allen",
+          "Ronny Cox",
+          "Kurtwood Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can use his body to support their untested RoboCop prototype. But when RoboCop learns of the company's nefarious plans, he turns on his masters.",
+        "release_date": "1987-07-17",
+        "release_year": "1987",
+        "title": "Robocop"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Don Johnson",
+          "Cheech Marin",
+          "George Perez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A washed up golf pro working at a driving range tries to qualify for the US Open in order to win the heart of his succesful rival's girlfriend.",
+        "release_date": "1996-08-16",
+        "release_year": "1996",
+        "title": "Tin Cup"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sean Penn",
+          "Deborah Kara Unger",
+          "James Rebhorn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In honor of his birthday, San Francisco banker Nicholas Van Orton, a financial genius and a coldhearted loner, receives an unusual present from his younger brother, Conrad -- a gift certificate to play a unique kind of game. In nearly a nanosecond, Nicholas finds himself consumed by a dangerous set of ever-changing rules, unable to distinguish where the charade ends and reality begins.",
+        "release_date": "1997-09-12",
+        "release_year": "1997",
+        "title": "Game, The"
+      },
+      {
+        "cast": [
+          "Julianne Moore",
+          "William H. Macy",
+          "John C. Reilly",
+          "Tom Cruise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Thomas Anderson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An epic mosaic of many interrelated characters in search of happiness, forgiveness, and meaning in the San Fernando Valley.",
+        "release_date": "1999-12-08",
+        "release_year": "1999",
+        "title": "Magnolia"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Carole Bouquet",
+          "Chaim Topol",
+          "Lynn-Holly Johnson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Glen",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "A British spy ship has sunk and on board was a hi-tech encryption device. James Bond is sent to find the device that holds British launching instructions before the enemy Soviets get to it first.",
+        "release_date": "1981-06-23",
+        "release_year": "1981",
+        "title": "For Your Eyes Only"
+      },
+      {
+        "cast": [
+          "Hal Holbrook",
+          "Adrienne Barbeau",
+          "Fritz Weaver",
+          "Leslie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George A. Romero",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Inspired by the E.C. comics of the 1950s, George A.Romero and Stephen King bring five tales of terror to the screen.",
+        "release_date": "1982-11-12",
+        "release_year": "1982",
+        "title": "Creepshow"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jon Voight",
+          "Emmanuelle Béart",
+          "Henry Czerny"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the No. 1 suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
+        "release_date": "1996-05-22",
+        "release_year": "1996",
+        "title": "Mission: Impossible"
+      }
+    ],
+    "raw_user_id": "692",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 505
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.524086309165186
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for thrillers that do not engage the user, as seen in lower ratings for specific titles.",
+        "Dislike for comedies that fail to resonate, indicated by lower ratings for certain films."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies that blend humor with other genres.",
+        "Consistent enjoyment of action films that incorporate elements of drama or adventure.",
+        "Positive reception of films that combine thriller aspects with other genres."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys humor across various styles, as indicated by multiple high ratings for comedies.); Action (The user shows a strong preference for action films, consistently rating them positively.); Drama (The user appreciates dramatic narratives, reflected in high ratings for several drama films.); Thriller (The user is drawn to thrillers, as evidenced by positive ratings for films in this genre.); Adventure (The user enjoys adventure elements, often found in action films that received high ratings.). Liked patterns: Strong preference for comedies that blend humor with other genres., Consistent enjoyment of action films that incorporate elements of drama or adventure., Positive reception of films that combine thriller aspects with other genres.. Disliked patterns: Dislike for thrillers that do not engage the user, as seen in lower ratings for specific titles., Dislike for comedies that fail to resonate, indicated by lower ratings for certain films..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys humor across various styles, as indicated by multiple high ratings for comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows a strong preference for action films, consistently rating them positively.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, reflected in high ratings for several drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user is drawn to thrillers, as evidenced by positive ratings for films in this genre.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user enjoys adventure elements, often found in action films that received high ratings.",
+          "taste": "Adventure"
+        }
+      ]
+    },
+    "user_id": 692
+  }
+}

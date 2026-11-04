@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "2cfc1251f6084a0a38117b5300effe7dcb156121867972f8f2be6df0bb0e1e39",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      65,
+      1052,
+      1181,
+      1126,
+      161,
+      1342,
+      1841,
+      752,
+      1713,
+      933
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      4,
+      5,
+      39,
+      180,
+      201,
+      208,
+      211,
+      355,
+      406,
+      515,
+      520,
+      752,
+      863,
+      867,
+      943,
+      1047,
+      1315,
+      1368,
+      1448,
+      1522,
+      1608,
+      1821,
+      1866,
+      2182,
+      2461
+    ],
+    "seed": 42,
+    "source_hash": "b085a83ae0c1f93d9014bc32d3e737ba6b0fb2bb5c4ed158da333c2b434fab85",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4294,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "Under 18",
+      "gender": "male",
+      "occupation": "K-12 student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Jim Henson",
+          "Frank Oz",
+          "Dave Goelz",
+          "Steve Whitmire"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the Muppets graduate from Danhurst College, they take their song-filled senior revue to New York City, only to learn that it isn't easy to find a producer who's willing to back a show starring a frog and a pig. Of course, Kermit the Frog and Miss Piggy won't take no for an answer, launching a search for someone to take them to Broadway.",
+        "release_date": "1984-07-13",
+        "release_year": "1984",
+        "title": "Muppets Take Manhattan, The"
+      },
+      {
+        "cast": [
+          "Shelley Long",
+          "Gary Cole",
+          "Christopher Daniel Barnes",
+          "Christine Taylor"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Arlene Sanford",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A man claiming to be Carol Brady's long-lost first husband, Roy Martin, shows up at the suburban Brady residence one evening. An impostor, the man is actually determined to steal the Bradys' familiar horse statue, a $20-million ancient Asian artifact.",
+        "release_date": "1996-08-23",
+        "release_year": "1996",
+        "title": "Very Brady Sequel, A"
+      },
+      {
+        "cast": [
+          "Dan Aykroyd",
+          "John Goodman",
+          "Joe Morton",
+          "J. Evan Bonifant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Elwood, the now lone \"Blues Brother\" finally released from prison, is once again enlisted by Sister Mary Stigmata in her latest crusade to raise funds for a children's hospital. Once again hitting the road to re-unite the band and win the big prize at the New Orleans Battle of the Bands, Elwood is pursued cross-country by the cops, led by Cabel the Curtis' son",
+        "release_date": "1998-02-05",
+        "release_year": "1998",
+        "title": "Blues Brothers 2000"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Bill Pullman",
+          "Jeff Goldblum",
+          "Mary McDonnell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "On July 2, a giant alien mothership enters orbit around Earth and deploys several dozen saucer-shaped 'destroyer' spacecraft that quickly lay waste to major cities around the planet. On July 3, the United States conducts a coordinated counterattack that fails. On July 4, a plan is devised to gain access to the interior of the alien mothership in space, in order to plant a nuclear missile.",
+        "release_date": "1996-06-25",
+        "release_year": "1996",
+        "title": "Independence Day (ID4)"
+      },
+      {
+        "cast": [
+          "Michael Jordan",
+          "Wayne Knight",
+          "Billy West",
+          "Dee Bradley Baker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Pytka",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "In a desperate attempt to win a basketball match and earn their freedom, the Looney Tunes seek the aid of retired basketball champion, Michael Jordan.",
+        "release_date": "1996-11-15",
+        "release_year": "1996",
+        "title": "Space Jam"
+      },
+      {
+        "cast": [
+          "Bill Farmer",
+          "Jason Marsden",
+          "Rob Paulsen",
+          "Jim Cummings"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Lima",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Though Goofy always means well, his amiable cluelessness and klutzy pratfalls regularly embarrass his awkward adolescent son, Max. When Max's lighthearted prank on his high-school principal finally gets his longtime crush, Roxanne, to notice him, he asks her on a date. Max's trouble at school convinces Goofy that he and the boy need to bond over a cross-country fishing trip like the one he took with his dad when he was Max's age, which throws a kink in his son's plans to impress Roxanne.",
+        "release_date": "1995-04-07",
+        "release_year": "1995",
+        "title": "Goofy Movie, A"
+      },
+      {
+        "cast": [
+          "Frankie Muniz",
+          "Diane Lane",
+          "Kevin Bacon",
+          "Luke Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Russell",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A shy boy is unable to make friends in Yazoo City, Mississippi in 1942, until his parents give him a terrier puppy for his ninth birthday. The dog, which he names Skip, becomes well known and loved throughout the community and enriches the life of the boy, Willie, as he grows into manhood. Based on the best-selling Mississippi memoir by the late Willie Morris.",
+        "release_date": "2000-01-14",
+        "release_year": "1999",
+        "title": "My Dog Skip"
+      },
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Bill Paxton",
+          "Harvey Keitel",
+          "Jon Bon Jovi"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Jonathan Mostow",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the midst of World War II, the battle under the sea rages and the Nazis have the upper hand as the Allies are unable to crack their war codes. However, after a wrecked U-boat sends out an SOS signal, the Allies realise this is their chance to seize the 'enigma coding machine'.",
+        "release_date": "2000-04-20",
+        "release_year": "2000",
+        "title": "U-571"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Ossie Davis",
+          "Oliver Platt",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A successful physician and devoted family man, John Dolittle (Eddie Murphy) seems to have the world by the tail, until a long suppressed talent he possessed as a child, the ability to communicate with animals is suddenly reawakened with a vengeance! Now every creature within squawking distance wants the good doctor's advice, unleashing an outrageous chain of events that turns his world upside down!",
+        "release_date": "1998-06-22",
+        "release_year": "1998",
+        "title": "Doctor Dolittle"
+      }
+    ],
+    "raw_user_id": "4294",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 127
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.7342680392333314
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for certain comedies",
+        "Negative reception of specific children's films",
+        "Dislike for action films with comedic elements"
+      ],
+      "liked_patterns": [
+        "High ratings for drama and thriller films",
+        "Positive reception of animated and children's movies",
+        "Frequent enjoyment of romantic comedies"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for emotional and thought-provoking narratives.); Enjoyment of Comedy (The user frequently rates comedies positively, suggesting a preference for humor and light-hearted storytelling.); Interest in Animation and Children's Films (The user shows a liking for animated and children's films, as evidenced by multiple positive ratings in this genre.); Thriller Elements (The user enjoys thrillers, as indicated by high ratings for films that incorporate suspense and tension.); Romantic Themes (The user appreciates romantic comedies, as seen in the positive ratings for films that blend romance with humor.). Liked patterns: High ratings for drama and thriller films, Positive reception of animated and children's movies, Frequent enjoyment of romantic comedies. Disliked patterns: Low ratings for certain comedies, Negative reception of specific children's films, Dislike for action films with comedic elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for emotional and thought-provoking narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user frequently rates comedies positively, suggesting a preference for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for animated and children's films, as evidenced by multiple positive ratings in this genre.",
+          "taste": "Interest in Animation and Children's Films"
+        },
+        {
+          "reason": "The user enjoys thrillers, as indicated by high ratings for films that incorporate suspense and tension.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user appreciates romantic comedies, as seen in the positive ratings for films that blend romance with humor.",
+          "taste": "Romantic Themes"
+        }
+      ]
+    },
+    "user_id": 4294
+  }
+}

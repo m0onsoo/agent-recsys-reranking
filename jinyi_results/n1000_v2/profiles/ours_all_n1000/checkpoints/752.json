@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "c6a111af0f80e5d4ea64a2fe2ca90a094d411a5bf0cf1fa9f5dd31291104d05c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      775,
+      950,
+      2093,
+      1591,
+      419,
+      942,
+      2619,
+      2879,
+      3263,
+      481
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "53b1d87ac7f74773a4cd01018bdfd3d0"
+    ],
+    "sampled_item_ids": [
+      134,
+      138,
+      160,
+      256,
+      269,
+      323,
+      427,
+      435,
+      461,
+      466,
+      497,
+      504,
+      761,
+      816,
+      901,
+      1166,
+      1484,
+      1669,
+      1830,
+      1958,
+      2115,
+      2645,
+      3131,
+      3257,
+      3269
+    ],
+    "seed": 42,
+    "source_hash": "3a39e50ace3367ea0a7845a2cd1ca0740f2b7604c1e70be678137d8aeb4306e4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 752,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Patrick Swayze",
+          "Wesley Snipes",
+          "John Leguizamo",
+          "Stockard Channing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Beeban Kidron",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Three New York drag queens on their way to Hollywood for a beauty pageant get stranded in a small Midwestern town for the entire weekend when their car breaks down. While waiting for parts for their Cadillac convertible, the flamboyant trio shows the local homophobic rednecks that appearing different doesn't mean they don't have humanity in common.",
+        "release_date": "1995-09-07",
+        "release_year": "1995",
+        "title": "To Wong Foo, Thanks for Everything! Julie Newmar"
+      },
+      {
+        "cast": [
+          "Jennifer Lopez",
+          "Vincent D'Onofrio",
+          "Vince Vaughn",
+          "Marianne Jean-Baptiste"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Tarsem Singh",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychotherapist journeys inside a comatose serial killer in the hopes of saving his latest victim.",
+        "release_date": "2000-08-17",
+        "release_year": "2000",
+        "title": "Cell, The"
+      },
+      {
+        "cast": [
+          "Natalie Wood",
+          "Warren Beatty",
+          "Pat Hingle",
+          "Audrey Christie"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Elia Kazan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A fragile Kansas girl's unrequited and forbidden love for a handsome young man from the town's most powerful family drives her to heartbreak and madness.",
+        "release_date": "1961-10-10",
+        "release_year": "1961",
+        "title": "Splendor in the Grass"
+      },
+      {
+        "cast": [
+          "John Malkovich",
+          "Gary Sinise",
+          "Ray Walston",
+          "Casey Siemaszko"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Sinise",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two drifters, one a gentle but slow giant, try to make money working the fields during the Depression so they can fulfill their dreams.",
+        "release_date": "1992-09-16",
+        "release_year": "1992",
+        "title": "Of Mice and Men"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Mary Stuart Masterson",
+          "Aidan Quinn",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeremiah S. Chechik",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A mentally ill young woman finds her love in an eccentric man who models himself after Buster Keaton.",
+        "release_date": "1993-04-16",
+        "release_year": "1993",
+        "title": "Benny & Joon"
+      },
+      {
+        "cast": [
+          "Madonna",
+          "Rosanna Arquette",
+          "Aidan Quinn",
+          "Mark Blum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Susan Seidelman",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Roberta is a bored suburban housewife who is fascinated with a woman, Susan, she only knows about by reading messages to and from her in the personals section of the newspaper. This fascination reaches a peak when an ad with the headline \"Desperately Seeking Susan\" proposes a rendezvous. Roberta goes too, and in a series of events involving amnesia and mistaken identity, steps into Susan's life.",
+        "release_date": "1985-03-29",
+        "release_year": "1985",
+        "title": "Desperately Seeking Susan"
+      },
+      {
+        "cast": [
+          "Joe Berlinger",
+          "Bruce Sinofsky",
+          "Jessie Miskelly",
+          "Jason Baldwin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Berlinger",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A horrific triple child murder leads to an indictment and trial of three nonconformist boys based on questionable evidence.",
+        "release_date": "1996-12-03",
+        "release_year": "1996",
+        "title": "Paradise Lost: The Child Murders at Robin Hood Hills"
+      },
+      {
+        "cast": [
+          "Jason Beghe",
+          "John Pankow",
+          "Kate McNeil",
+          "Joyce Van Patten"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George A. Romero",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A quadriplegic man is given a trained monkey help him with every day activities, until the little monkey begins to develop feelings, and rage, against its new master and those who get too close to him.",
+        "release_date": "1988-07-29",
+        "release_year": "1988",
+        "title": "Monkey Shines"
+      },
+      {
+        "cast": [
+          "Wesley Snipes",
+          "Nastassja Kinski",
+          "Kyle MacLachlan",
+          "Ming-Na Wen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Figgis",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In Los Angeles, Max Carlyle makes a good living directing commercials and has a happy home life with his wife, Mimi, and two children. When Carlyle travels to New York City to visit his friend Charlie, who has been diagnosed with AIDS, he has repeat run-ins with a beautiful woman, Karen, and eventually sleeps with her. Though he goes home the next day and doesn't return until a year later, Carlyle's infidelity still lingers.",
+        "release_date": "1997-11-14",
+        "release_year": "1997",
+        "title": "One Night Stand"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Cameron Diaz",
+          "Dennis Quaid",
+          "James Woods"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A star quarterback gets knocked out of the game and an unknown third stringer is called in to replace him. The unknown gives a stunning performance and forces the aging coach to reevaluate his game plans and life. A new co-owner/president adds to the pressure of winning. The new owner must prove her self in a male dominated world.",
+        "release_date": "1999-12-16",
+        "release_year": "1999",
+        "title": "Any Given Sunday"
+      }
+    ],
+    "raw_user_id": "752",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 819
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.9499283172413326
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily comedic without deeper themes.",
+        "Negative reception of poorly rated dramas that lack engaging narratives.",
+        "Dislike for films that attempt to blend genres unsuccessfully."
+      ],
+      "liked_patterns": [
+        "Enjoyment of drama films with strong character development and emotional depth.",
+        "Preference for comedies that balance humor with serious themes.",
+        "Interest in thrillers that include mystery and suspense elements."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for drama films, often rating them highly.); Comedy (The user enjoys comedies, particularly those with a mix of humor and deeper themes.); Thriller (The user appreciates thrillers, especially those that incorporate elements of mystery.); Action (The user rates action films positively, particularly those that blend with drama.); Romance (The user has a liking for romance elements within drama films.). Liked patterns: Enjoyment of drama films with strong character development and emotional depth., Preference for comedies that balance humor with serious themes., Interest in thrillers that include mystery and suspense elements.. Disliked patterns: Dislike for films that are primarily comedic without deeper themes., Negative reception of poorly rated dramas that lack engaging narratives., Dislike for films that attempt to blend genres unsuccessfully..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for drama films, often rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, particularly those with a mix of humor and deeper themes.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates thrillers, especially those that incorporate elements of mystery.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user rates action films positively, particularly those that blend with drama.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user has a liking for romance elements within drama films.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 752
+  }
+}

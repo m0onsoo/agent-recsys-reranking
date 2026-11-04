@@ -1,0 +1,8 @@
+2026-11-04T03:08:23.731860+00:00 validate_bundle: start {}
+2026-11-04T03:08:24.046772+00:00 validate_bundle: end {"exit_code": 0, "recorded_cost_usd": 0.0}
+2026-11-04T03:08:24.055857+00:00 baselines_check: start {}
+2026-11-04T03:08:24.316714+00:00 baselines_check: end {"exit_code": 0, "recorded_cost_usd": 0.0}
+2026-11-04T03:08:24.511289+00:00 preflight: verified {"line_counts": {"candidates.jsonl": 3000, "evaluation_labels.jsonl": 1000, "train_interactions.jsonl": 1000, "users.csv": 1001}, "other_jobs": []}
+2026-11-04T03:08:24.626724+00:00 profiles: start {"attempt": 1}
+2026-11-04T03:08:24.630030+00:00 profiles: progress {"completed_cases": 0, "conditions": {"full": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_demographics": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_interaction_history": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_persona": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}}, "failure_rows": 0, "run_dir": "", "step_recorded_cost_usd": 0, "total_recorded_cost_usd": 0}
+2026-11-04T03:09:44.336181+00:00 profiles: end {"attempt": 1, "exit_code": 86, "recorded_cost_usd": 0.22607895, "total_recorded_cost_usd": 0.22607895}

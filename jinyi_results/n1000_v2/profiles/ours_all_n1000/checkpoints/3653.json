@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "099dd921fa4d3b869d1988029fefa26a53946aabde53fb7f9e8322576186a88e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1006,
+      630,
+      587,
+      968,
+      133,
+      744,
+      216,
+      42,
+      598,
+      755
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9c48c96fb0a94953916afaecde147035"
+    ],
+    "sampled_item_ids": [
+      1,
+      89,
+      120,
+      135,
+      178,
+      197,
+      215,
+      247,
+      266,
+      337,
+      377,
+      386,
+      598,
+      624,
+      715,
+      744,
+      755,
+      768,
+      784,
+      897,
+      968,
+      1008,
+      1254,
+      1508,
+      1579
+    ],
+    "seed": 42,
+    "source_hash": "30ce7ce144aa14874af4c14bd03dd999869f6e0147b4eab69144af09f8fc4637",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3653,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "scientist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jeff Goldblum",
+          "Geena Davis",
+          "John Getz",
+          "Joy Boushel"
+        ],
+        "country": [
+          "Canada",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When Seth Brundle makes a huge scientific and technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.",
+        "release_date": "1986-08-15",
+        "release_year": "1986",
+        "title": "Fly, The"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Grace Kelly",
+          "Wendell Corey",
+          "Thelma Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Professional photographer L.B. \"Jeff\" Jeffries breaks his leg while getting an action shot at an auto race. Confined to his New York apartment, he spends his time looking out of the rear window observing the neighbors. He begins to suspect that a man across the courtyard may have murdered his wife. Jeff enlists the help of his high society fashion-consultant girlfriend Lisa Freemont and his visiting nurse Stella to investigate.",
+        "release_date": "1954-08-01",
+        "release_year": "1954",
+        "title": "Rear Window"
+      },
+      {
+        "cast": [
+          "Christopher Reeve",
+          "Marlon Brando",
+          "Margot Kidder",
+          "Gene Hackman"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Mild-mannered Clark Kent works as a reporter at the Daily Planet alongside his crush, Lois Lane − who's in love with Superman. Clark must summon his superhero alter ego when the nefarious Lex Luthor launches a plan to take over the world.",
+        "release_date": "1978-12-13",
+        "release_year": "1978",
+        "title": "Superman"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Anthony Zerbe",
+          "Rosalind Cash",
+          "Paul Koslo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Boris Sagal",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Robert Neville, a doctor, due to an experimental vaccine, is the only survivor of an apocalyptic war waged with biological weapons. The plague caused by the war has killed everyone else except for a few hundred deformed, nocturnal people calling themselves \"The Family\". The plague has caused them to become sensitive to light, as well as homicidally psychotic.",
+        "release_date": "1971-08-01",
+        "release_year": "1971",
+        "title": "Omega Man, The"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "Eli Wallach",
+          "Clint Eastwood",
+          "Lee Van Cleef",
+          "Aldo Giuffrè"
+        ],
+        "country": [
+          "United States of America",
+          "Italy",
+          "Spain",
+          "Germany"
+        ],
+        "director": "Sergio Leone",
+        "genres": [
+          "Action",
+          "Western"
+        ],
+        "language": "Italian",
+        "overview": "While the Civil War rages between the Union and the Confederacy, three men – a quiet loner, a ruthless hit man and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
+        "release_date": "1966-12-23",
+        "release_year": "1966",
+        "title": "Good, The Bad and The Ugly, The"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Tom Cruise",
+          "Valeria Golino",
+          "Gerald R. Molen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.",
+        "release_date": "1988-12-11",
+        "release_year": "1988",
+        "title": "Rain Man"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "George Kennedy",
+          "Luke Askew",
+          "Morgan Woodward"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stuart Rosenberg",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When petty criminal Luke Jackson is sentenced to two years in a Florida prison farm, he doesn't play by the rules of either the sadistic warden or the yard's resident heavy, Dragline, who ends up admiring the new guy's unbreakable will. Luke's bravado, even in the face of repeated stints in the prison's dreaded solitary confinement cell, \"the box,\" make him a rebel hero to his fellow convicts and a thorn in the side of the prison officers.",
+        "release_date": "1967-06-22",
+        "release_year": "1967",
+        "title": "Cool Hand Luke"
+      },
+      {
+        "cast": [
+          "Kyle MacLachlan",
+          "Francesca Annis",
+          "Leonardo Cimino",
+          "Brad Dourif"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 10,191, the world is at war for control of the desert planet Dune – the only place where the time-travel substance 'Spice' can be found. But when one leader gives up control, it's only so he can stage a coup with some unsavory characters.",
+        "release_date": "1984-12-14",
+        "release_year": "1984",
+        "title": "Dune"
+      }
+    ],
+    "raw_user_id": "3653",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 89
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9915141359211561
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed in the sample."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as action-comedy and drama-comedy.",
+        "Strong preference for films with complex characters and engaging plots.",
+        "Consistent enjoyment of films that feature strong narratives and unique settings."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for character-driven narratives.); Enjoyment of Comedy (Multiple comedies receive high ratings, suggesting a fondness for humor and lighthearted storytelling.); Interest in Action and Sci-Fi (The user rates several action and sci-fi films positively, showing a preference for thrilling and imaginative plots.); Affinity for Crime and Thriller (High ratings for crime and thriller genres indicate a liking for suspenseful and intense narratives.); Love for Westerns (The user has rated multiple westerns highly, reflecting an appreciation for this genre's themes and storytelling.). Liked patterns: High ratings for films that blend genres, such as action-comedy and drama-comedy., Strong preference for films with complex characters and engaging plots., Consistent enjoyment of films that feature strong narratives and unique settings.. Disliked patterns: No significant patterns of dislike observed in the sample..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Multiple comedies receive high ratings, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user rates several action and sci-fi films positively, showing a preference for thrilling and imaginative plots.",
+          "taste": "Interest in Action and Sci-Fi"
+        },
+        {
+          "reason": "High ratings for crime and thriller genres indicate a liking for suspenseful and intense narratives.",
+          "taste": "Affinity for Crime and Thriller"
+        },
+        {
+          "reason": "The user has rated multiple westerns highly, reflecting an appreciation for this genre's themes and storytelling.",
+          "taste": "Love for Westerns"
+        }
+      ]
+    },
+    "user_id": 3653
+  }
+}

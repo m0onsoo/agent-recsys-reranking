@@ -1,0 +1,344 @@
+{
+  "checkpoint_hash": "6251abee91476efb01299419eb6872cdbed8ef24095a30d2d62a9840a39540ad",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      370,
+      62,
+      701,
+      1639,
+      676,
+      1562,
+      976,
+      720,
+      380,
+      2316
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "624f2bec71254ef0be8c78c0931847fd"
+    ],
+    "sampled_item_ids": [
+      16,
+      98,
+      105,
+      148,
+      178,
+      284,
+      370,
+      383,
+      415,
+      426,
+      470,
+      547,
+      815,
+      822,
+      934,
+      942,
+      1254,
+      1271,
+      1353,
+      1418,
+      1562,
+      1985,
+      2249,
+      2313,
+      2925
+    ],
+    "seed": 42,
+    "source_hash": "050b0a7b74fd10ffc42fb298172224d4c7592533aa90f91a212d8458677409cb",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1323,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Richard Briers",
+          "Michael Keaton",
+          "Robert Sean Leonard"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this Shakespearean farce, Hero and her groom-to-be, Claudio, team up with Claudio's commanding officer, Don Pedro, the week before their wedding to hatch a matchmaking scheme. Their targets are sharp-witted duo Benedick and Beatrice -- a tough task indeed, considering their corresponding distaste for love and each other. Meanwhile, meddling Don John plots to ruin the wedding.",
+        "release_date": "1993-05-07",
+        "release_year": "1993",
+        "title": "Much Ado About Nothing"
+      },
+      {
+        "cast": [
+          "James Dean",
+          "Natalie Wood",
+          "Sal Mineo",
+          "Ann Doran"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Ray",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After moving to a new town, troublemaking teen Jim Stark is supposed to have a clean slate, although being the new kid in town brings its own problems. While searching for some stability, Stark forms a bond with a disturbed classmate, Plato, and falls for local girl Judy. However, Judy is the girlfriend of neighborhood tough, Buzz. When Buzz violently confronts Jim and challenges him to a drag race, the new kid's real troubles begin.",
+        "release_date": "1955-10-27",
+        "release_year": "1955",
+        "title": "Rebel Without a Cause"
+      },
+      {
+        "cast": [
+          "Leonard Whiting",
+          "Olivia Hussey",
+          "John McEnery",
+          "Michael York"
+        ],
+        "country": [
+          "Italy",
+          "United Kingdom"
+        ],
+        "director": "Franco Zeffirelli",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Director Franco Zeffirelli's beloved version of one of the most well-known love stories in the English language. Romeo Montague and Juliet Capulet fall in love against the wishes of their feuding families. Driven by their passion, the young lovers defy their destiny and elope, only to suffer the ultimate tragedy.",
+        "release_date": "1968-04-02",
+        "release_year": "1968",
+        "title": "Romeo and Juliet"
+      },
+      {
+        "cast": [
+          "Tatsuya Nakadai",
+          "Tsutomu Yamazaki",
+          "Jinpachi Nezu",
+          "Takashi Shimura"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Akira Kurosawa",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "Japanese",
+        "overview": "When a warlord dies, a peasant thief is called upon to impersonate him, in order to protect his clan from appearing weak and vulnerable. But he finds himself haunted by the warlord’s spirit as well as his own ambitions.",
+        "release_date": "1980-04-26",
+        "release_year": "1980",
+        "title": "Kagemusha"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Kathleen Turner",
+          "Danny DeVito",
+          "Spiros Focás"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lewis Teague",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Joan Wilder is thrust back into a world of murder, chases, foreign intrigue... and love. This time out she's duped by a duplicitous Arab dignitary who brings her to the Middle East, ostensibly to write a book about his life. Of course he's up to no good, and Joan is just another pawn in his wicked game. But Jack Colton and his sidekick Ralph show up to help our intrepid heroine save the day.",
+        "release_date": "1985-12-04",
+        "release_year": "1985",
+        "title": "Jewel of the Nile, The"
+      },
+      {
+        "cast": [
+          "Ingrid Bergman",
+          "Gregory Peck",
+          "Michael Chekhov",
+          "Rhonda Fleming"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When Dr. Anthony Edwardes arrives at a Vermont mental hospital to replace the outgoing hospital director, Dr. Constance Peterson, a psychoanalyst, discovers Edwardes is actually an impostor. The man confesses that the real Dr. Edwardes is dead and fears he may have killed him, but cannot recall anything. Dr. Peterson, however is convinced his impostor is innocent of the man's murder, and joins him on a quest to unravel his amnesia through psychoanalysis.",
+        "release_date": "1945-12-28",
+        "release_year": "1945",
+        "title": "Spellbound"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Lois Chiles",
+          "Michael Lonsdale",
+          "Corinne Cléry"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Lewis Gilbert",
+        "genres": [
+          "Action",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "During the transportation of a Space Shuttle a Boeing 747 crashes in the Atlantic Ocean yet when they go to look for the destroyed shuttle it is not there. James Bond investigates the missing mission space shuttle and soon learns that the shuttles owner Hugo Drax wants to kill all of mankind.",
+        "release_date": "1979-06-26",
+        "release_year": "1979",
+        "title": "Moonraker"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Giancarlo Esposito",
+          "Alan Rickman",
+          "David Strathairn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Robbins",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Mock documentary about an upstart candidate for the U.S. Senate written and directed by actor Tim Robbins. Bob Roberts is a folksinger with a difference: He offers tunes that protest welfare chiselers, liberal whining, and the like. As the filmmakers follow his campaign, Robbins gives needle-sharp insight into the way candidates manipulate the media.",
+        "release_date": "1992-09-04",
+        "release_year": "1992",
+        "title": "Bob Roberts"
+      },
+      {
+        "cast": [
+          "Elizabeth Taylor",
+          "Katharine Hepburn",
+          "Montgomery Clift",
+          "Albert Dekker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joseph L. Mankiewicz",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The only son of wealthy widow Violet Venable dies while on vacation with his cousin Catherine. What the girl saw was so horrible that she went insane; now Mrs. Venable wants Catherine lobotomized to cover up the truth.",
+        "release_date": "1959-12-22",
+        "release_year": "1959",
+        "title": "Suddenly, Last Summer"
+      }
+    ],
+    "raw_user_id": "1323",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 120
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6830942132304499
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth",
+        "Negative response to adventure dramas",
+        "Dislike for films that do not effectively blend genres"
+      ],
+      "liked_patterns": [
+        "Strong preference for romantic comedies and dramas",
+        "Enjoyment of action films that also delve into deeper themes",
+        "Appreciation for mystery and thriller genres with romantic elements"
+      ],
+      "summary": "Unique tastes: Romantic Comedies (The user enjoys films that blend romance with humor, as seen in multiple high-rated titles.); Dramatic Romance (A strong preference for dramas that explore romantic themes is evident from several high ratings.); Action with Depth (The user appreciates action films that also incorporate dramatic elements, indicated by positive ratings.); Mystery and Thriller (There is a notable enjoyment of films that combine mystery with thrilling narratives, as shown by high ratings.); Musicals with Romance (The user has a taste for musicals that feature romantic storylines, reflected in high ratings.). Liked patterns: Strong preference for romantic comedies and dramas, Enjoyment of action films that also delve into deeper themes, Appreciation for mystery and thriller genres with romantic elements. Disliked patterns: Dislike for comedies that lack depth, Negative response to adventure dramas, Dislike for films that do not effectively blend genres.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend romance with humor, as seen in multiple high-rated titles.",
+          "taste": "Romantic Comedies"
+        },
+        {
+          "reason": "A strong preference for dramas that explore romantic themes is evident from several high ratings.",
+          "taste": "Dramatic Romance"
+        },
+        {
+          "reason": "The user appreciates action films that also incorporate dramatic elements, indicated by positive ratings.",
+          "taste": "Action with Depth"
+        },
+        {
+          "reason": "There is a notable enjoyment of films that combine mystery with thrilling narratives, as shown by high ratings.",
+          "taste": "Mystery and Thriller"
+        },
+        {
+          "reason": "The user has a taste for musicals that feature romantic storylines, reflected in high ratings.",
+          "taste": "Musicals with Romance"
+        }
+      ]
+    },
+    "user_id": 1323
+  }
+}

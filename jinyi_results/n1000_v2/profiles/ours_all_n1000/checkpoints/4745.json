@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "159aff7ed3bb2a48e4644f47fb88029c76efb1163824bb6c56df8bec4197744b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      199,
+      14,
+      812,
+      382,
+      76,
+      885,
+      767,
+      485,
+      10,
+      1802
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      10,
+      24,
+      40,
+      46,
+      65,
+      76,
+      104,
+      127,
+      135,
+      185,
+      187,
+      245,
+      375,
+      449,
+      475,
+      484,
+      485,
+      604,
+      657,
+      689,
+      723,
+      767,
+      1139,
+      1193,
+      1265
+    ],
+    "seed": 42,
+    "source_hash": "011e9e21a8247f5eb95f3a2a0c462c312f12b456740b41e18fbea493a473aa83",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4745,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Chevy Chase",
+          "Rodney Dangerfield",
+          "Ted Knight",
+          "Michael O'Keefe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At an exclusive country club, an ambitious young caddy, Danny Noonan, eagerly pursues a caddy scholarship in hopes of attending college and, in turn, avoiding a job at the lumber yard. In order to succeed, he must first win the favour of the elitist Judge Smails, and then the caddy golf tournament which Smails sponsors.",
+        "release_date": "1980-07-25",
+        "release_year": "1980",
+        "title": "Caddyshack"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Alan Ruck",
+          "Mia Sara",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Charismatic teen Ferris Bueller plays hooky in Chicago with his girlfriend and best friend.",
+        "release_date": "1986-06-11",
+        "release_year": "1986",
+        "title": "Ferris Bueller's Day Off"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Beverly D'Angelo",
+          "Randy Quaid",
+          "Ethan Embry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Kessler",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Griswold family hits the road again for a typically ill-fated vacation, this time to the glitzy mecca of slots and showgirls—Las Vegas.",
+        "release_date": "1997-02-13",
+        "release_year": "1997",
+        "title": "Vegas Vacation"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Robin Williams",
+          "Mercedes Ruehl",
+          "Amanda Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Two troubled men face their terrible destinies and events of their past as they join together on a mission to find the Holy Grail and thus to save themselves.",
+        "release_date": "1991-09-09",
+        "release_year": "1991",
+        "title": "Fisher King, The"
+      },
+      {
+        "cast": [
+          "James Aubrey",
+          "Tom Chapin",
+          "Hugh Edwards",
+          "Roger Elwin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Peter Brook",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Amidst a nuclear war, a plane carrying a group of schoolboys crash lands on a deserted island. With no adult survivors, the boys are forced to fend for themselves. At first they cooperate, but when the they split into two separate camps -- one led by the pragmatic Ralph and the other by militaristic Jack -- their society falls into disarray, leading to a disturbing examination of human nature and a chilling conclusion.",
+        "release_date": "1963-08-13",
+        "release_year": "1963",
+        "title": "Lord of the Flies"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Chris O'Donnell",
+          "James Rebhorn",
+          "Gabrielle Anwar"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Brest",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Charlie Simms (Chris O'Donnell) is a student at a private preparatory school who comes from a poor family. To earn the money for his flight home to Gresham, Oregon for Christmas, Charlie takes a job over Thanksgiving looking after retired U.S. Army officer Lieutenant Colonel Frank Slade (Al Pacino), a cantankerous middle-aged man who lives with his niece and her family.",
+        "release_date": "1992-12-23",
+        "release_year": "1992",
+        "title": "Scent of a Woman"
+      },
+      {
+        "cast": [
+          "Judy Garland",
+          "Frank Morgan",
+          "Ray Bolger",
+          "Bert Lahr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+        "release_date": "1939-08-15",
+        "release_year": "1939",
+        "title": "Wizard of Oz, The"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Jerry Adler",
+          "Alan Alda"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A middle-aged couple suspects foul play when their neighbor's wife suddenly drops dead.",
+        "release_date": "1993-08-18",
+        "release_year": "1993",
+        "title": "Manhattan Murder Mystery"
+      }
+    ],
+    "raw_user_id": "4745",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 83
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.8622781619808304
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films categorized as Horror, indicating a lack of interest in that genre.",
+        "Dislike for films that are primarily Crime dramas, suggesting a preference against darker themes."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend Drama with other genres like Comedy and Romance.",
+        "Consistent enjoyment of films featuring strong emotional narratives and character development.",
+        "Preference for films that include elements of Adventure and Action."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (Multiple high ratings for films in the Drama genre, indicating a deep appreciation for emotional storytelling.); Enjoyment of Comedy (Consistently high ratings for comedies suggest a strong affinity for humor and lighthearted narratives.); Interest in Adventure and Action (High ratings for films that combine Adventure and Action genres reflect a taste for excitement and thrill.); Appreciation for Musicals (High ratings for musicals indicate a fondness for music and performance within films.); Favoring Romantic elements (Several high ratings for films that incorporate Romance suggest a liking for romantic storylines.). Liked patterns: High ratings for films that blend Drama with other genres like Comedy and Romance., Consistent enjoyment of films featuring strong emotional narratives and character development., Preference for films that include elements of Adventure and Action.. Disliked patterns: Low ratings for films categorized as Horror, indicating a lack of interest in that genre., Dislike for films that are primarily Crime dramas, suggesting a preference against darker themes..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for films in the Drama genre, indicating a deep appreciation for emotional storytelling.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Consistently high ratings for comedies suggest a strong affinity for humor and lighthearted narratives.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "High ratings for films that combine Adventure and Action genres reflect a taste for excitement and thrill.",
+          "taste": "Interest in Adventure and Action"
+        },
+        {
+          "reason": "High ratings for musicals indicate a fondness for music and performance within films.",
+          "taste": "Appreciation for Musicals"
+        },
+        {
+          "reason": "Several high ratings for films that incorporate Romance suggest a liking for romantic storylines.",
+          "taste": "Favoring Romantic elements"
+        }
+      ]
+    },
+    "user_id": 4745
+  }
+}

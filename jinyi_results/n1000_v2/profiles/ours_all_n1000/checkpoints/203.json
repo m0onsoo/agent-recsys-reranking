@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "af4f4791655427fd29c62a08182219a4b80c3e89ef237e625535e04f8eca8506",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      257,
+      519,
+      361,
+      531,
+      484,
+      1330,
+      1791,
+      919,
+      705,
+      1748
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b0257f37ac0e4ebab5d64035b9a695ae"
+    ],
+    "sampled_item_ids": [
+      19,
+      23,
+      104,
+      168,
+      257,
+      327,
+      329,
+      361,
+      461,
+      492,
+      519,
+      539,
+      546,
+      661,
+      916,
+      918,
+      927,
+      945,
+      1330,
+      1669,
+      2075,
+      2262,
+      2294,
+      2666,
+      2746
+    ],
+    "seed": 42,
+    "source_hash": "cb8b1a46ea5745ed29b47b81b5e114051c1db7e6db21ec16729ee0e6032131eb",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 203,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Al Pacino",
+          "Russell Crowe",
+          "Christopher Plummer",
+          "Diane Venora"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Tells the true story of a 60 Minutes television series exposé of the tobacco industry, as seen through the eyes of a real tobacco executive, Jeffrey Wigand",
+        "release_date": "1999-10-28",
+        "release_year": "1999",
+        "title": "Insider, The"
+      },
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Sandra Bullock",
+          "Samuel L. Jackson",
+          "Kevin Spacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A young lawyer defends a black man accused of murdering two men who raped his 10-year-old daughter, sparking a rebirth of the KKK.",
+        "release_date": "1996-07-24",
+        "release_year": "1996",
+        "title": "Time to Kill, A"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Natalie Portman",
+          "Hart Bochner",
+          "Eileen Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wayne Wang",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In this adaptation of the Mona Simpson novel, single mother Adele August is bad with money, and even worse when it comes to making decisions. Her straight-laced daughter, Ann, is a successful high school student with Ivy League aspirations. When Adele decides to pack up and move the two of them from the Midwest to Beverly Hills, Calif., to pursue her dreams of Hollywood success, Ann grows frustrated with her mother's irresponsible and impulsive ways.",
+        "release_date": "1999-11-12",
+        "release_year": "1999",
+        "title": "Anywhere But Here"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Vicellous Reon Shannon",
+          "Deborah Kara Unger",
+          "Liev Schreiber"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Jewison",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of Rubin \"Hurricane\" Carter, a boxer wrongly imprisoned for murder, and the people who aided in his fight to prove his innocence.",
+        "release_date": "1999-09-17",
+        "release_year": "1999",
+        "title": "Hurricane, The"
+      },
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Vincent Spano",
+          "Josh Hamilton",
+          "Bruce Ramsay"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Marshall",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The amazing, true story of a Uruguayan rugby team's plane that crashed in the middle of the Andes mountains, and their immense will to survive and pull through alive, forced to do anything and everything they could to stay alive on meager rations and through the freezing cold.",
+        "release_date": "1993-01-15",
+        "release_year": "1993",
+        "title": "Alive"
+      },
+      {
+        "cast": [
+          "Michael Keaton",
+          "Nicole Kidman",
+          "Bradley Whitford",
+          "Queen Latifah"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bruce Joel Rubin",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "It seems that Bob Jones has everything a man could want, namely a fulfilling job and a beautiful, pregnant wife, Gail. But Bob's life is turned upside-down when he is diagnosed with cancer and given four months to live -- not even enough time to see his first child's birth. To cleanse himself of demons in his remaining days, Bob makes a video diary, hoping to pass along some wisdom to his future child. Along the way, he discovers a lot about himself.",
+        "release_date": "1993-11-12",
+        "release_year": "1993",
+        "title": "My Life"
+      },
+      {
+        "cast": [
+          "Gillian Anderson",
+          "Ellen Burstyn",
+          "Sean Connery",
+          "Anthony Edwards"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Willard Carroll",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Eleven articulate people work through affairs of the heart in L.A. Paul produces Hannah's TV cooking show. Mark is dying of AIDS. Men have scalded Meredith so she rebuffs Trent's charm, but he persists. The trendy, prolix Joan tries to pull the solitary Keenan into her orbit. An adulterous couple meet at hotels for evening sex. Hugh tells tall tales, usually tragic, to women in bars.",
+        "release_date": "1998-12-30",
+        "release_year": "1998",
+        "title": "Playing by Heart"
+      },
+      {
+        "cast": [
+          "Bridget Fonda",
+          "Campbell Scott",
+          "Kyra Sedgwick",
+          "Sheila Kelley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Romantic comedy about six of Seattle's young people, most of whom live in the same apartment building and whose lives revolve around the city's ever-expanding music scene. The interrelated stories about each character's progress through the singles scene are intriguing and often very funny, and the soundtrack is a grunge fanatic's dream, with the likes of Soundgarden, Pearl Jam and Mudhoney.",
+        "release_date": "1992-09-18",
+        "release_year": "1992",
+        "title": "Singles"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "Glenne Headly",
+          "Jay Thomas",
+          "Olympia Dukakis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Herek",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In 1965, passionate musician Glenn Holland takes a day job as a high school music teacher, convinced it's just a small obstacle on the road to his true calling: writing a historic opus. As the decades roll by with the composition unwritten but generations of students inspired through his teaching, Holland must redefine his life's purpose.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Mr. Holland's Opus"
+      },
+      {
+        "cast": [
+          "Robert Redford",
+          "Michelle Pfeiffer",
+          "Stockard Channing",
+          "Joe Mantegna"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Avnet",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Tally Atwater has a dream: to be a prime-time network newscaster. She pursues this dream with nothing but ambition, raw talent and a homemade demo tape. Warren Justice is a brilliant, hard edged, veteran newsman. He sees Tally has talent and becomes her mentor. Tally’s career takes a meteoric rise and she and Warren fall in love. The romance that results is as intense and revealing as television news itself. Yet, each breaking story, every videotaped crisis that brings them together, also threatens to drive them apart...",
+        "release_date": "1996-03-01",
+        "release_year": "1996",
+        "title": "Up Close and Personal"
+      }
+    ],
+    "raw_user_id": "203",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 103
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.832614331048287
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Disliking lighthearted comedies",
+        "Rejecting films with predictable plots",
+        "Disfavoring movies with weak character development"
+      ],
+      "liked_patterns": [
+        "Favoring films with strong dramatic elements",
+        "Enjoying narratives that tackle serious themes",
+        "Appreciating character-focused storytelling"
+      ],
+      "summary": "Unique tastes: Preference for Drama (The majority of rated movies belong to the Drama genre, indicating a strong inclination towards dramatic storytelling.); Interest in Character-Driven Narratives (Higher ratings are given to films that focus on deep character development and emotional arcs.); Appreciation for Complex Themes (Movies rated highly often explore complex social or moral issues, suggesting a preference for thought-provoking content.); Dislike for Lighthearted Comedies (Low ratings are consistently given to comedies, indicating a lack of interest in lighter, humorous narratives.); Skepticism towards Conventional Storytelling (Movies with predictable plots or conventional resolutions tend to receive lower ratings.). Liked patterns: Favoring films with strong dramatic elements, Enjoying narratives that tackle serious themes, Appreciating character-focused storytelling. Disliked patterns: Disliking lighthearted comedies, Rejecting films with predictable plots, Disfavoring movies with weak character development.",
+      "unique_tastes": [
+        {
+          "reason": "The majority of rated movies belong to the Drama genre, indicating a strong inclination towards dramatic storytelling.",
+          "taste": "Preference for Drama"
+        },
+        {
+          "reason": "Higher ratings are given to films that focus on deep character development and emotional arcs.",
+          "taste": "Interest in Character-Driven Narratives"
+        },
+        {
+          "reason": "Movies rated highly often explore complex social or moral issues, suggesting a preference for thought-provoking content.",
+          "taste": "Appreciation for Complex Themes"
+        },
+        {
+          "reason": "Low ratings are consistently given to comedies, indicating a lack of interest in lighter, humorous narratives.",
+          "taste": "Dislike for Lighthearted Comedies"
+        },
+        {
+          "reason": "Movies with predictable plots or conventional resolutions tend to receive lower ratings.",
+          "taste": "Skepticism towards Conventional Storytelling"
+        }
+      ]
+    },
+    "user_id": 203
+  }
+}

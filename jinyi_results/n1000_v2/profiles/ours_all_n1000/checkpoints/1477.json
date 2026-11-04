@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "5521983ec69b321c85e06c9028a493faf5496fadd768f68c37e0462046d43d33",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2808,
+      2336,
+      1953,
+      247,
+      1254,
+      663,
+      1454,
+      1,
+      2024,
+      2313
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e4b8a84cd5e7452cb631180223585847"
+    ],
+    "sampled_item_ids": [
+      247,
+      630,
+      663,
+      763,
+      781,
+      832,
+      862,
+      949,
+      1016,
+      1106,
+      1111,
+      1245,
+      1254,
+      1454,
+      1874,
+      1920,
+      1953,
+      2129,
+      2313,
+      2336,
+      2391,
+      2659,
+      2808,
+      2843,
+      3048
+    ],
+    "seed": 42,
+    "source_hash": "66f8650bf390f65c92bec7e74c96ad3a74295750208f77d773dd6f5ff00e305c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1477,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Francisco Rabal",
+          "José Coronado",
+          "Dafne Fernández",
+          "Maribel Verdú"
+        ],
+        "country": [
+          "Italy",
+          "Spain"
+        ],
+        "director": "Carlos Saura",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Francisco Goya (1746-1828), deaf and ill, lives the last years of his life in voluntary exile in Bordeaux, a Liberal protesting the oppressive rule of Ferdinand VII. He's living with his much younger wife Leocadia and their daughter Rosario. He continues to paint at night, and in flashbacks stirred by conversations with his daughter, by awful headaches, and by the befuddlement of age, he relives key times in his life.",
+        "release_date": "1999-09-04",
+        "release_year": "1999",
+        "title": "Goya in Bordeaux (Goya en Bodeos)"
+      },
+      {
+        "cast": [
+          "John Lurie",
+          "Eszter Balint",
+          "Richard Edson",
+          "Cecillia Stark"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Jarmusch",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Rootless Hungarian émigré Willie, his pal Eddie, and visiting sixteen-year-old cousin Eva always manage to make the least of any situation, whether aimlessly traversing the drab interiors and environs of New York City, Cleveland, or an anonymous Florida suburb.",
+        "release_date": "1984-10-01",
+        "release_year": "1984",
+        "title": "Stranger Than Paradise"
+      },
+      {
+        "cast": [
+          "Lou Diamond Phillips",
+          "Danielle von Zerneck",
+          "Elizabeth Peña",
+          "Rosanna DeSoto"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Luis Valdez",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Biographical story of the rise from nowhere of singer Ritchie Valens whose life was cut short by a plane crash.",
+        "release_date": "1987-07-24",
+        "release_year": "1987",
+        "title": "Bamba, La"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Kim Novak",
+          "Barbara Bel Geddes",
+          "Tom Helmore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+        "release_date": "1958-05-09",
+        "release_year": "1958",
+        "title": "Vertigo"
+      },
+      {
+        "cast": [
+          "Keir Dullea",
+          "Gary Lockwood",
+          "William Sylvester",
+          "Douglas Rain"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "release_date": "1968-04-10",
+        "release_year": "1968",
+        "title": "2001: A Space Odyssey"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "John Cazale",
+          "Frederic Forrest",
+          "Cindy Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Surveillance expert Harry Caul (Gene Hackman) is hired by a mysterious client's brusque aide (Harrison Ford) to tail a young couple, Mark (Frederic Forrest) and Ann (Cindy Williams). Tracking the pair through San Francisco's Union Square, Caul and his associate Stan (John Cazale) manage to record a cryptic conversation between them. Tormented by memories of a previous case that ended badly, Caul becomes obsessed with the resulting tape, trying to determine if the couple are in danger.",
+        "release_date": "1974-04-07",
+        "release_year": "1974",
+        "title": "Conversation, The"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Louise Fletcher",
+          "Danny DeVito",
+          "William Redfield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
+        "release_date": "1975-11-18",
+        "release_year": "1975",
+        "title": "One Flew Over the Cuckoo's Nest"
+      },
+      {
+        "cast": [
+          "Vincent Price",
+          "Brett Halsey",
+          "John Sutton",
+          "David Frankham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Bernds",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "German",
+        "overview": "Fifteen years after his father's experiments with matter transmission fail, Philippe Delambre and his uncle François attempt to create a matter transmission device on their own. However, their experiments have disastrous results, turning Philippe into a horrible half-man, half-fly creature.",
+        "release_date": "1959-07-01",
+        "release_year": "1959",
+        "title": "Return of the Fly"
+      },
+      {
+        "cast": [
+          "Nelson Eddy",
+          "Susanna Foster",
+          "Claude Rains",
+          "Edgar Barrier"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Arthur Lubin",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Pit violinist Claudin hopelessly loves rising operatic soprano Christine Dubois (as do baritone Anatole and police inspector Raoul) and secretly aids her career. But Claudin loses both his touch and his job, murders a rascally music publisher in a fit of madness, and has his face etched with acid. Soon, mysterious crimes plague the Paris Opera House, blamed on a legendary \"phantom\".",
+        "release_date": "1943-08-27",
+        "release_year": "1943",
+        "title": "Phantom of the Opera, The"
+      }
+    ],
+    "raw_user_id": "1477",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 27
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.36922223023483874
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed in the sample."
+      ],
+      "liked_patterns": [
+        "Strong preference for films that blend drama with other genres like mystery and thriller.",
+        "Enjoyment of comedies that feature unique premises and character-driven humor.",
+        "Appreciation for films that explore complex themes, particularly in the drama and thriller genres."
+      ],
+      "summary": "Unique tastes: Mystery and Thriller (The user enjoys films that combine elements of mystery and suspense, often leading to engaging plot twists.); Drama with Depth (The user appreciates dramas that explore complex themes and character development.); Comedy with Wit (The user favors comedies that incorporate clever humor and unique storytelling.); Science Fiction Exploration (The user is drawn to science fiction films that offer imaginative concepts and thought-provoking narratives.); Horror with Classic Appeal (The user enjoys classic horror films that blend suspense with iconic storytelling.). Liked patterns: Strong preference for films that blend drama with other genres like mystery and thriller., Enjoyment of comedies that feature unique premises and character-driven humor., Appreciation for films that explore complex themes, particularly in the drama and thriller genres.. Disliked patterns: No significant patterns of dislike observed in the sample..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that combine elements of mystery and suspense, often leading to engaging plot twists.",
+          "taste": "Mystery and Thriller"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex themes and character development.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "The user favors comedies that incorporate clever humor and unique storytelling.",
+          "taste": "Comedy with Wit"
+        },
+        {
+          "reason": "The user is drawn to science fiction films that offer imaginative concepts and thought-provoking narratives.",
+          "taste": "Science Fiction Exploration"
+        },
+        {
+          "reason": "The user enjoys classic horror films that blend suspense with iconic storytelling.",
+          "taste": "Horror with Classic Appeal"
+        }
+      ]
+    },
+    "user_id": 1477
+  }
+}

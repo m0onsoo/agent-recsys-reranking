@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "e83d9e6130dd08778f19151327f761bdef27bb2db42563a34d640c5561a5525b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      284,
+      2882,
+      24,
+      530,
+      2294,
+      352,
+      282,
+      720,
+      562,
+      418
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "98a48c1ef0d546fcbfd8bdf74ae0a57c"
+    ],
+    "sampled_item_ids": [
+      1,
+      4,
+      52,
+      98,
+      105,
+      107,
+      117,
+      124,
+      133,
+      218,
+      239,
+      282,
+      304,
+      338,
+      397,
+      418,
+      435,
+      453,
+      497,
+      530,
+      531,
+      707,
+      720,
+      2338,
+      2761
+    ],
+    "seed": 42,
+    "source_hash": "c0124ecafb54d8bb762097b56627585dc56b42326dab6299d6af68ed0d4ad164",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 332,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "Stellan Skarsgård",
+          "Jesper Salén",
+          "Basia Frydman",
+          "Niclas Olund"
+        ],
+        "country": [
+          "Denmark",
+          "Sweden"
+        ],
+        "director": "Åke Sandgren",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Swedish",
+        "overview": "Stocholm in the 1920s. Young Roland lives with his socialist father, Jewish mother and a boxing brother. His mother sells condoms illegally, and from them, Roland makes slingshots which he sells. His rebellious ways has gotten him the special attention of his school teacher, who always makes sure that Roland is punished. Roland also tries to make extra money by repairing bicycles, a successful business that in the end lands him in hot water.",
+        "release_date": "1993-09-24",
+        "release_year": "1993",
+        "title": "Slingshot, The (Kådisbellan )"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Pete Postlethwaite",
+          "Tara Fitzgerald",
+          "Ewan McGregor",
+          "Stephen Tompkinson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Mark Herman",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small Yorkshire mining town is threatened with being shut down and the only hope is for the men to enter their Grimley Colliery Brass Band into a national competition. They believe they have no hope until Gloria appears carrying her Flugelhorn. At first mocked for being a woman, she soon becomes the only chance for the band to win.",
+        "release_date": "1996-11-01",
+        "release_year": "1996",
+        "title": "Brassed Off"
+      },
+      {
+        "cast": [
+          "Aaron Eckhart",
+          "Stacy Edwards",
+          "Matt Malloy",
+          "Michael Martin"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Neil LaBute",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two business executives--one an avowed misogynist, the other recently emotionally wounded by his love interest--set out to exact revenge on the female gender by seeking out the most innocent, uncorrupted girl they can find and ruining her life.",
+        "release_date": "1997-01-19",
+        "release_year": "1997",
+        "title": "In the Company of Men"
+      },
+      {
+        "cast": [
+          "Allan Corduner",
+          "Jim Broadbent",
+          "Timothy Spall",
+          "Dexter Fletcher"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Mike Leigh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After their production \"Princess Ida\" meets with less-than-stunning reviews, the relationship between Gilbert and Sullivan is strained to breaking. Their friends and associates attempt to get the two to work together again, which opens the way to \"The Mikado,\" one of the duo's greatest successes.",
+        "release_date": "1999-09-03",
+        "release_year": "1999",
+        "title": "Topsy-Turvy"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      },
+      {
+        "cast": [
+          "Leslie Nielsen",
+          "Priscilla Presley",
+          "George Kennedy",
+          "O.J. Simpson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Zucker",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Bumbling cop Frank Drebin is out to foil the big boys in the energy industry, who intend to suppress technology that will put them out of business.",
+        "release_date": "1991-06-28",
+        "release_year": "1991",
+        "title": "Naked Gun 2 1/2: The Smell of Fear, The"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Emma Thompson",
+          "Hugh Grant",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ang Lee",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Rich Mr. Dashwood dies, leaving his second wife and her daughters poor by the rules of inheritance. Two daughters are the titular opposites.",
+        "release_date": "1995-12-13",
+        "release_year": "1995",
+        "title": "Sense and Sensibility"
+      }
+    ],
+    "raw_user_id": "332",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 55
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0810476680240002
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for Action and Sci-Fi genres",
+        "Dislike for films with simplistic plots",
+        "Low ratings for films lacking character depth"
+      ],
+      "liked_patterns": [
+        "High ratings for Drama and Romance genres",
+        "Consistent appreciation for films with strong character development",
+        "Positive reception of films featuring complex narratives"
+      ],
+      "summary": "Unique tastes: Preference for Drama (The majority of highly rated films belong to the Drama genre, indicating a strong affinity for character-driven narratives.); Appreciation for Romantic Elements (Several liked films incorporate romance, suggesting a preference for stories that explore relationships.); Enjoyment of Complex Characters (Many liked films feature intricate character development and moral dilemmas, reflecting a taste for depth in storytelling.); Interest in Crime and Thriller Themes (A number of liked films include elements of crime and thriller, indicating an attraction to suspenseful and engaging plots.); Favoring Strong Female Leads (Several highly rated films showcase strong female characters, suggesting a preference for narratives that highlight women's experiences.). Liked patterns: High ratings for Drama and Romance genres, Consistent appreciation for films with strong character development, Positive reception of films featuring complex narratives. Disliked patterns: Negative ratings for Action and Sci-Fi genres, Dislike for films with simplistic plots, Low ratings for films lacking character depth.",
+      "unique_tastes": [
+        {
+          "reason": "The majority of highly rated films belong to the Drama genre, indicating a strong affinity for character-driven narratives.",
+          "taste": "Preference for Drama"
+        },
+        {
+          "reason": "Several liked films incorporate romance, suggesting a preference for stories that explore relationships.",
+          "taste": "Appreciation for Romantic Elements"
+        },
+        {
+          "reason": "Many liked films feature intricate character development and moral dilemmas, reflecting a taste for depth in storytelling.",
+          "taste": "Enjoyment of Complex Characters"
+        },
+        {
+          "reason": "A number of liked films include elements of crime and thriller, indicating an attraction to suspenseful and engaging plots.",
+          "taste": "Interest in Crime and Thriller Themes"
+        },
+        {
+          "reason": "Several highly rated films showcase strong female characters, suggesting a preference for narratives that highlight women's experiences.",
+          "taste": "Favoring Strong Female Leads"
+        }
+      ]
+    },
+    "user_id": 332
+  }
+}

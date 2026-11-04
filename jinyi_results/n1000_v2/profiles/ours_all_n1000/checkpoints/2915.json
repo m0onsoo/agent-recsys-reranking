@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "8b24d228d20eea252a2c469c265f63c62363ebb4b96741ccacbd43f877ebb185",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      618,
+      421,
+      1121,
+      219,
+      1385,
+      715,
+      247,
+      893,
+      704,
+      1388
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "c97d0ba228ee4ddaa362534554a9ac84"
+    ],
+    "sampled_item_ids": [
+      20,
+      39,
+      42,
+      65,
+      98,
+      105,
+      125,
+      128,
+      133,
+      218,
+      247,
+      377,
+      391,
+      415,
+      421,
+      548,
+      612,
+      634,
+      643,
+      674,
+      704,
+      854,
+      893,
+      1110,
+      1926
+    ],
+    "seed": 42,
+    "source_hash": "9de82b345867be41125f525296a0ea8fa05d1262bdc22128f3afc481efc807b9",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2915,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gene Wilder",
+          "Zero Mostel",
+          "Dick Shawn",
+          "Kenneth Mars"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Broadway producer, Max Bialystock and his accountant, Leo Bloom plan to make money by charming little old ladies to invest in a production many times over what it will actually cost, and then put on a sure-fire flop, so nobody will ask for their money back – and what can be a more certain flop than a tasteless musical celebrating Hitler.",
+        "release_date": "1967-11-22",
+        "release_year": "1968",
+        "title": "Producers, The"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      },
+      {
+        "cast": [
+          "Michael Moore",
+          "Roger B. Smith",
+          "Rhonda Britton",
+          "Fred Ross"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Moore",
+        "genres": [
+          "Comedy",
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A documentary about the closure of General Motors' plant at Flint, Michigan, which resulted in the loss of 30,000 jobs. Details the attempts of filmmaker Michael Moore to get an interview with GM CEO Roger Smith.",
+        "release_date": "1989-09-01",
+        "release_year": "1989",
+        "title": "Roger & Me"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Christopher Lloyd",
+          "Joanna Cassidy",
+          "Charles Fleischer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "'Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+        "release_date": "1988-06-21",
+        "release_year": "1988",
+        "title": "Who Framed Roger Rabbit?"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Bridget Fonda",
+          "Rosie Perez",
+          "Wendell Pierce"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Bergman",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Charlie Lang is a simple, kindhearted New York City cop. When he realizes he has no money to tip waitress Yvonne Biasi, Lang offers her half the winnings of his lottery ticket. Amazingly, the ticket happens to be a winner, in the sum of $4 million. True to his word, Lang proceeds to share the prize money with Biasi, which infuriates his greedy wife, Muriel. Not content with the arrangement, Muriel begins scheming to take all the money.",
+        "release_date": "1994-07-29",
+        "release_year": "1994",
+        "title": "It Could Happen to You"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Michael Biehn",
+          "James Remar",
+          "Paul Reiser"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
+        "release_date": "1986-07-18",
+        "release_year": "1986",
+        "title": "Aliens"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Danny DeVito",
+          "Peter Facinelli",
+          "Paul Dawson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Swanbeck",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Three salesmen working for a firm that makes industrial lubricants are waiting in the company's \"hospitality suite\" at a manufacturers' convention for a \"big kahuna\" named Dick Fuller to show up, in hopes they can persuade him to place an order that could salvage the company's flagging sales.",
+        "release_date": "2000-04-28",
+        "release_year": "2000",
+        "title": "Big Kahuna, The"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Philip Seymour Hoffman",
+          "Bob Gunton",
+          "Peter Coyote"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom Shadyac",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Meet Patch Adams, a doctor who doesn't look, act or think like any doctor you've met before. For Patch, humor is the best medicine, and he's willing to do just anything to make his patients laugh - even if it means risking his own career.",
+        "release_date": "1998-12-25",
+        "release_year": "1998",
+        "title": "Patch Adams"
+      },
+      {
+        "cast": [
+          "Melanie Griffith",
+          "Matthew Modine",
+          "Michael Keaton",
+          "Mako"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A couple works hard to renovate their dream house and become landlords to pay for it. Unfortunately one of their tenants has plans of his own.",
+        "release_date": "1990-09-28",
+        "release_year": "1990",
+        "title": "Pacific Heights"
+      }
+    ],
+    "raw_user_id": "2915",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 58
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.510809988914273
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that fail to engage emotionally or comedically",
+        "Dislike for animated films that do not resonate with adult themes"
+      ],
+      "liked_patterns": [
+        "Preference for action-packed films with strong narratives",
+        "Enjoyment of films that mix comedy with serious themes",
+        "Attraction to suspenseful thrillers with complex plots"
+      ],
+      "summary": "Unique tastes: Action and Sci-Fi (The user enjoys high-energy narratives with futuristic themes and intense action sequences.); Comedy and Drama (The user appreciates films that blend humor with emotional depth, often exploring complex human experiences.); Thriller and Mystery (The user is drawn to suspenseful plots that keep them guessing and engaged.); Animation and Family (The user enjoys animated films that appeal to both children and adults, often featuring imaginative storytelling.); Romance and Musical (The user has an affinity for films that combine romantic elements with musical performances.). Liked patterns: Preference for action-packed films with strong narratives, Enjoyment of films that mix comedy with serious themes, Attraction to suspenseful thrillers with complex plots. Disliked patterns: Dislike for films that fail to engage emotionally or comedically, Dislike for animated films that do not resonate with adult themes.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy narratives with futuristic themes and intense action sequences.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates films that blend humor with emotional depth, often exploring complex human experiences.",
+          "taste": "Comedy and Drama"
+        },
+        {
+          "reason": "The user is drawn to suspenseful plots that keep them guessing and engaged.",
+          "taste": "Thriller and Mystery"
+        },
+        {
+          "reason": "The user enjoys animated films that appeal to both children and adults, often featuring imaginative storytelling.",
+          "taste": "Animation and Family"
+        },
+        {
+          "reason": "The user has an affinity for films that combine romantic elements with musical performances.",
+          "taste": "Romance and Musical"
+        }
+      ]
+    },
+    "user_id": 2915
+  }
+}

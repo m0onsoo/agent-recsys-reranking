@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "db5162a1f3c92c747bc85c11bcb00e197de8790b2b8b320cc8e4ba1fa15caa77",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1268,
+      133,
+      983,
+      757,
+      1498,
+      100,
+      7,
+      918,
+      196,
+      603
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "4e8982b1c5fc4a03bd3cccacf373c7dd"
+    ],
+    "sampled_item_ids": [
+      7,
+      14,
+      24,
+      45,
+      49,
+      125,
+      128,
+      176,
+      187,
+      207,
+      260,
+      278,
+      429,
+      587,
+      588,
+      619,
+      670,
+      719,
+      796,
+      983,
+      1071,
+      1299,
+      1626,
+      1675,
+      1831
+    ],
+    "seed": 42,
+    "source_hash": "91419d1e6101c32a7308fb12da15cb8fe70a6ad71ccf3b718050cf9e122b175f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1498,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Roy Scheider",
+          "Lorraine Gary",
+          "Murray Hamilton",
+          "Joseph Mascolo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeannot Szwarc",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Police chief Brody must protect the citizens of Amity after a second monstrous shark begins terrorizing the waters.",
+        "release_date": "1978-06-16",
+        "release_year": "1978",
+        "title": "Jaws 2"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Jean Reno",
+          "Natalie Portman",
+          "Gary Oldman",
+          "Danny Aiello"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "French",
+        "overview": "Leon, the top hit man in New York, has earned a rep as an effective \"cleaner\". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda's thoughts turn to revenge, and she considers following in Leon's footsteps.",
+        "release_date": "1994-09-14",
+        "release_year": "1994",
+        "title": "Professional, The (a.k.a. Leon: The Professional)"
+      },
+      {
+        "cast": [
+          "Graham Chapman",
+          "John Cleese",
+          "Terry Gilliam",
+          "Eric Idle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Jones",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Brian Cohen is an average young Jewish man, but through a series of ridiculous events, he gains a reputation as the Messiah. When he's not dodging his followers or being scolded by his shrill mother, the hapless Brian has to contend with the pompous Pontius Pilate and acronym-obsessed members of a separatist movement. Rife with Monty Python's signature absurdity, the tale finds Brian's life paralleling Biblical lore, albeit with many more laughs.",
+        "release_date": "1979-08-17",
+        "release_year": "1979",
+        "title": "Monty Python's Life of Brian"
+      },
+      {
+        "cast": [
+          "Charlie Chaplin",
+          "Paulette Goddard",
+          "Henry Bergman",
+          "Tiny Sandford"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charlie Chaplin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman.",
+        "release_date": "1936-02-05",
+        "release_year": "1936",
+        "title": "Modern Times"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "David Niven",
+          "Anthony Quinn",
+          "Stanley Baker"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "J. Lee Thompson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A team of allied saboteurs are assigned an impossible mission: infiltrate an impregnable Nazi-held island and destroy the two enormous long-range field guns that prevent the rescue of 2,000 trapped British soldiers.",
+        "release_date": "1961-04-27",
+        "release_year": "1961",
+        "title": "Guns of Navarone, The"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Jack Hawkins",
+          "Haya Harareet",
+          "Stephen Boyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ben-Hur is a 1959 epic film directed by William Wyler, the third film version of Civil War vet Lew Wallace's 1880 novel Ben-Hur: A Tale of the Christ. It premiered at Loew's State Theatre in New York City on November 18, 1959. The movie's reputation as a classic is primarily based on two spectacular action sequences:  the great chariot race and a Roman naval battle, along with lavish production values and strong performances.  The plot of Ben Hur revolves around a Jewish prince who is betrayed and sent into slavery by a Roman friend and how he regains his freedom and comes back for revenge. However, instead he finds redemption in Christ, the theme is ultimately about being saved in the Christian sense.  The film went on to win a record of eleven Academy Awards, including Best Picture and Best Actor (Charlton Heston as Ben Hur). This record-setting Oscars sweep has since been equaled by Titanic in 1998 and The Lord of the Rings: The Return of the King in 2004, but never broken.",
+        "release_date": "1959-12-26",
+        "release_year": "1959",
+        "title": "Ben-Hur"
+      },
+      {
+        "cast": [
+          "Richard Gere",
+          "Edward Norton",
+          "Laura Linney",
+          "John Mahoney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Hoblit",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An arrogant, high-powered attorney takes on the case of a poor altar boy found running away from the scene of the grisly murder of the bishop who has taken him in. The case gets a lot more complex when the accused reveals that there may or may not have been a 3rd person in the room. The intensity builds when a surprise twist alters everyone's perception of the crime.",
+        "release_date": "1996-04-03",
+        "release_year": "1996",
+        "title": "Primal Fear"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Nicolas Cage",
+          "Ed Harris",
+          "John Spencer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A group of renegade marine commandos seizes a stockpile of chemical weapons and takes over Alcatraz, with 81 tourists as hostages. Their leader demands $100 million to be paid, as restitution to families of Marines who died in covert ops – or he will launch 15 rockets carrying deadly VX gas into the San Francisco Bay area.",
+        "release_date": "1996-06-06",
+        "release_year": "1996",
+        "title": "Rock, The"
+      },
+      {
+        "cast": [
+          "Lew Ayres",
+          "Arnold Lucy",
+          "John Wray",
+          "Louis Wolheim"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lewis Milestone",
+        "genres": [
+          "War"
+        ],
+        "language": "English",
+        "overview": "A young soldier faces profound disillusionment in the soul-destroying horror of World War I. Together with several other young German soldiers, he experiences the horrors of war, such evil of which he had not conceived of when signing up to fight. They eventually become sad, tormented, and confused of their purpose.",
+        "release_date": "1930-04-29",
+        "release_year": "1930",
+        "title": "All Quiet on the Western Front"
+      }
+    ],
+    "raw_user_id": "1498",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 94
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.45966982909592274
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or engaging content",
+        "Dislike for action films that do not deliver on excitement or quality"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure genres",
+        "Enjoyment of films that blend drama with historical or war themes",
+        "Appreciation for comedies that offer satire or clever humor"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Drama with Historical Themes (The user appreciates dramas that explore significant historical events and human experiences.); Comedy with a Satirical Edge (The user favors comedies that incorporate satire and clever humor.); War Films (The user is drawn to films that depict the complexities and realities of war.); Thrillers with Crime Elements (The user enjoys thrillers that involve crime and suspenseful narratives.). Liked patterns: Strong preference for action and adventure genres, Enjoyment of films that blend drama with historical or war themes, Appreciation for comedies that offer satire or clever humor. Disliked patterns: Dislike for comedies that lack depth or engaging content, Dislike for action films that do not deliver on excitement or quality.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that explore significant historical events and human experiences.",
+          "taste": "Drama with Historical Themes"
+        },
+        {
+          "reason": "The user favors comedies that incorporate satire and clever humor.",
+          "taste": "Comedy with a Satirical Edge"
+        },
+        {
+          "reason": "The user is drawn to films that depict the complexities and realities of war.",
+          "taste": "War Films"
+        },
+        {
+          "reason": "The user enjoys thrillers that involve crime and suspenseful narratives.",
+          "taste": "Thrillers with Crime Elements"
+        }
+      ]
+    },
+    "user_id": 1498
+  }
+}

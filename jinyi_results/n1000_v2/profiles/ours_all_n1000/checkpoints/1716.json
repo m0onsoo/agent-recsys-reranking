@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "a1474502b53441b6e15f51766120a14135c95a5fec0309b74a88b7cbcb3f44b4",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2139,
+      105,
+      876,
+      306,
+      2564,
+      501,
+      1918,
+      1317,
+      1022,
+      541
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "447b79e000d44383a03c3b101f950493"
+    ],
+    "sampled_item_ids": [
+      4,
+      5,
+      36,
+      51,
+      156,
+      165,
+      177,
+      336,
+      438,
+      439,
+      454,
+      471,
+      502,
+      515,
+      534,
+      572,
+      594,
+      910,
+      911,
+      940,
+      1154,
+      1369,
+      1713,
+      2054,
+      2139
+    ],
+    "seed": 42,
+    "source_hash": "811abd908785591a4efe3f1f51fdd41be881136d3f3605e7c8d364781983620d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1716,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Madonna",
+          "Antonio Banderas",
+          "Jonathan Pryce",
+          "Jimmy Nail"
+        ],
+        "country": [
+          "United States of America",
+          "Hungary"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "The hit musical based on the life of Evita Duarte, a B-movie Argentinian actress who eventually became the wife of Argentinian president and dictator Juan Perón, and the most beloved and hated woman in Argentina.",
+        "release_date": "1996-12-14",
+        "release_year": "1996",
+        "title": "Evita"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Chris O'Donnell",
+          "Renée Zellweger",
+          "Artie Lange",
+          "Hal Holbrook"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Sinyor",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jimmie is seeing his single friends get married one by one. He isn't too worried until his girlfriend Anne catches the bouquet at his friend Marco's wedding. Suddenly, his wild mustang days are numbered. He finally decides to propose to her, but he sticks his foot in his mouth and botches the proposal. Being insulted by the defeatist proposal, Anne leaves town on an assignment. After she's gone, he finds out that his recently-deceased grandfather's will stipulates that he gets nothing of a multi-million dollar fortune unless he's married by 6:05pm on his 30th birthday: tomorrow! Not being able to find Anne, Jimmie begins backtracking through his past girlfriends to find a wife.",
+        "release_date": "1999-11-05",
+        "release_year": "1999",
+        "title": "Bachelor, The"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Eduardo Noriega",
+          "Penélope Cruz",
+          "Chete Lera",
+          "Fele Martínez"
+        ],
+        "country": [
+          "Spain"
+        ],
+        "director": "Alejandro Amenábar",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "Spanish",
+        "overview": "A very handsome man finds the love of his life, but he suffers an accident and needs to have his face rebuilt by surgery after it is severely disfigured.",
+        "release_date": "1997-12-19",
+        "release_year": "1997",
+        "title": "Open Your Eyes (Abre los ojos)"
+      },
+      {
+        "cast": [
+          "Carlo Cecchi",
+          "Irene Grazioli",
+          "Anita Laurenzi",
+          "Tommaso Puntelli"
+        ],
+        "country": [
+          "Canada",
+          "Italy",
+          "United Kingdom"
+        ],
+        "director": "François Girard",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Spans 300 years in the life of one famed musical instrument that winds up in present-day Montreal on the auction block. Crafted by the Italian master Bussotti (Cecchi) in 1681, the red violin derives its unusual color from the human blood mixed into the finish. With this legacy, the violin travels to Austria, England, China, and Canada, leaving both beauty and tragedy in its wake.",
+        "release_date": "1998-09-10",
+        "release_year": "1998",
+        "title": "Red Violin, The (Le Violon rouge)"
+      },
+      {
+        "cast": [
+          "Sean Penn",
+          "Nick Nolte",
+          "Jennifer Lopez",
+          "Joaquin Phoenix"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Action",
+          "Crime",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When Bobby's car breaks down in the desert while on the run from some of the bookies who have already taken two of his fingers, he becomes trapped in the nearby small town where the people are stranger than anyone he's encountered. After becoming involved with a young married woman, her husband hires Bobby to kill her. Later, she hires Bobby to kill the husband.",
+        "release_date": "1997-10-03",
+        "release_year": "1997",
+        "title": "U Turn"
+      },
+      {
+        "cast": [
+          "Gregory Smith",
+          "Kirsten Dunst",
+          "Denis Leary",
+          "Phil Hartman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Fantasy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When missile technology is used to enhance toy action figures, the toys soon begin to take their battle programming too seriously.",
+        "release_date": "1998-07-10",
+        "release_year": "1998",
+        "title": "Small Soldiers"
+      },
+      {
+        "cast": [
+          "Bette Midler",
+          "Sarah Jessica Parker",
+          "Kathy Najimy",
+          "Omri Katz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kenny Ortega",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After 300 years of slumber, three sister witches are accidentally resurrected in Salem on Halloween night, and it us up to three kids and their newfound feline friend to put an end to the witches' reign of terror once and for all.",
+        "release_date": "1993-07-16",
+        "release_year": "1993",
+        "title": "Hocus Pocus"
+      },
+      {
+        "cast": [
+          "Andrei Chalimon",
+          "Zdeněk Svěrák",
+          "Libuše Šafránková",
+          "Ondřej Vetchý"
+        ],
+        "country": [
+          "France",
+          "Czech Republic",
+          "United Kingdom"
+        ],
+        "director": "Jan Svěrák",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "Czech",
+        "overview": "The Czech Republic Director Jan Sverák tells in this Oscar winning film the story of the disillusioned Prague man named Cellisten Louka, who after a fictitious marriage with a Russian emigrant must suddenly take responsibility for her son. However it’s not long before the communication barrier is broken between the two new family members.",
+        "release_date": "1996-05-05",
+        "release_year": "1996",
+        "title": "Kolya"
+      }
+    ],
+    "raw_user_id": "1716",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 157
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7854398453292203
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films",
+        "Negative reception of films with weak narratives",
+        "Dislike for thrillers lacking engaging plots"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films",
+        "Positive reception of comedies with dramatic elements",
+        "Strong appreciation for romantic dramas"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Children's Films (The user rates several animated and children's films highly, indicating a strong preference for this genre.); Enjoyment of Comedy and Drama Blends (The user frequently rates comedies that incorporate dramatic elements positively, suggesting a liking for this combination.); Interest in Strong Female Leads (The user rates films featuring strong female characters or narratives highly, reflecting a preference for empowering stories.); Affinity for Romantic Themes (The user enjoys films that explore romantic relationships, as evidenced by high ratings for romantic dramas and comedies.); Preference for Engaging Storytelling in Thrillers (The user rates thrillers that offer compelling narratives positively, indicating a taste for suspenseful storytelling.). Liked patterns: High ratings for animated films, Positive reception of comedies with dramatic elements, Strong appreciation for romantic dramas. Disliked patterns: Low ratings for horror films, Negative reception of films with weak narratives, Dislike for thrillers lacking engaging plots.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several animated and children's films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Animation and Children's Films"
+        },
+        {
+          "reason": "The user frequently rates comedies that incorporate dramatic elements positively, suggesting a liking for this combination.",
+          "taste": "Enjoyment of Comedy and Drama Blends"
+        },
+        {
+          "reason": "The user rates films featuring strong female characters or narratives highly, reflecting a preference for empowering stories.",
+          "taste": "Interest in Strong Female Leads"
+        },
+        {
+          "reason": "The user enjoys films that explore romantic relationships, as evidenced by high ratings for romantic dramas and comedies.",
+          "taste": "Affinity for Romantic Themes"
+        },
+        {
+          "reason": "The user rates thrillers that offer compelling narratives positively, indicating a taste for suspenseful storytelling.",
+          "taste": "Preference for Engaging Storytelling in Thrillers"
+        }
+      ]
+    },
+    "user_id": 1716
+  }
+}

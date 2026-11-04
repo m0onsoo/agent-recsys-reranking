@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "a261533b8830f04a06e96b6c1f29999462139acbaf514064855f266a75bc637a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      350,
+      278,
+      335,
+      1525,
+      933,
+      353,
+      1233,
+      1713,
+      1163,
+      190
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d25a1528058045ec93ba87b9645c7f1a"
+    ],
+    "sampled_item_ids": [
+      2,
+      23,
+      45,
+      51,
+      95,
+      114,
+      219,
+      238,
+      335,
+      353,
+      365,
+      455,
+      468,
+      509,
+      510,
+      604,
+      610,
+      734,
+      1136,
+      1151,
+      1521,
+      1524,
+      1525,
+      1614,
+      1713
+    ],
+    "seed": 42,
+    "source_hash": "5569288d901a0477c2b5ad90f000341a5fd67ab7594bcdba0f34d60a63c409ad",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2103,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jackie Chan",
+          "Owen Wilson",
+          "Lucy Liu",
+          "Xander Berkeley"
+        ],
+        "country": [
+          "Hong Kong",
+          "United States of America"
+        ],
+        "director": "Tom Dey",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Chon Wang, a clumsy imperial guard trails Princess Pei Pei when she is kidnapped from the Forbidden City and transported to America. Wang follows her captors to Nevada, where he teams up with an unlikely partner, outcast outlaw Roy O'Bannon, and tries to spring the princess from her imprisonment.",
+        "release_date": "2000-05-26",
+        "release_year": "2000",
+        "title": "Shanghai Noon"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "Jane Adams",
+          "Jon Lovitz",
+          "Philip Seymour Hoffman",
+          "Dylan Baker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Todd Solondz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The lives of many individuals connected by the desire for happiness, often from sources usually considered dark or evil.",
+        "release_date": "1998-10-16",
+        "release_year": "1998",
+        "title": "Happiness"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Janet Jackson",
+          "Larry Miller",
+          "John Ales"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Segal",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The hilarity begins when professor Sherman Klump finds romance with fellow DNA specialist, Denise Gaines, and discovers a brilliant formula that reverses aging. But Sherman's thin and obnoxious alter ego, Buddy Love, wants out...and a big piece of the action. And when Buddy gets loose, things get seriously nutty.",
+        "release_date": "2000-07-27",
+        "release_year": "2000",
+        "title": "Nutty Professor II: The Klumps"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Ossie Davis",
+          "Oliver Platt",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A successful physician and devoted family man, John Dolittle (Eddie Murphy) seems to have the world by the tail, until a long suppressed talent he possessed as a child, the ability to communicate with animals is suddenly reawakened with a vengeance! Now every creature within squawking distance wants the good doctor's advice, unleashing an outrageous chain of events that turns his world upside down!",
+        "release_date": "1998-06-22",
+        "release_year": "1998",
+        "title": "Doctor Dolittle"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Heather Graham",
+          "Michael York",
+          "Robert Wagner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When diabolical genius, Dr. Evil travels back in time to steal superspy Austin Powers's ‘mojo’, Austin must return to the swingin' '60s himself – with the help of American agent, Felicity Shagwell – to stop the dastardly plan. Once there, Austin faces off against Dr. Evil's army of minions and saves the world in his own unbelievably groovy way.",
+        "release_date": "1999-06-08",
+        "release_year": "1999",
+        "title": "Austin Powers: The Spy Who Shagged Me"
+      },
+      {
+        "cast": [
+          "Anne Parillaud",
+          "Marc Duret",
+          "Patrick Fontana",
+          "Alain Lathière"
+        ],
+        "country": [
+          "France",
+          "Italy"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "French",
+        "overview": "A beautiful felon, sentenced to life in prison for the murder of a policeman, is given a second chance - as a secret political assassin controlled by the government.",
+        "release_date": "1990-02-21",
+        "release_year": "1990",
+        "title": "Nikita (La Femme Nikita)"
+      },
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Bill Paxton",
+          "Harvey Keitel",
+          "Jon Bon Jovi"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Jonathan Mostow",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the midst of World War II, the battle under the sea rages and the Nazis have the upper hand as the Allies are unable to crack their war codes. However, after a wrecked U-boat sends out an SOS signal, the Allies realise this is their chance to seize the 'enigma coding machine'.",
+        "release_date": "2000-04-20",
+        "release_year": "2000",
+        "title": "U-571"
+      },
+      {
+        "cast": [
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Patrick Dempsey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A murdering spree begins to happen again, this time its targeted toward the original Woodsboro survivors and those associated with the movie inside a movie, 'Stab 3'. Sydney must face the demons of her past to stop the killer.",
+        "release_date": "2000-02-03",
+        "release_year": "2000",
+        "title": "Scream 3"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      }
+    ],
+    "raw_user_id": "2103",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 73
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5070206203370246
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative reaction to horror-comedy hybrids.",
+        "Dislike for films that do not blend genres effectively."
+      ],
+      "liked_patterns": [
+        "Strong preference for animated films, especially those aimed at children.",
+        "Consistent enjoyment of action and adventure genres.",
+        "High ratings for comedies across various styles."
+      ],
+      "summary": "Unique tastes: Animation and Children's Films (The user enjoys animated films that appeal to children, as evidenced by multiple high ratings in this genre.); Action and Adventure (The user shows a strong preference for action and adventure films, consistently rating them highly.); Comedy (The user appreciates comedies, with many films in this genre receiving favorable ratings.); Drama (The user has a notable interest in drama films, reflected in several high ratings.); Musicals (The user enjoys musicals, as indicated by positive ratings for films that incorporate musical elements.). Liked patterns: Strong preference for animated films, especially those aimed at children., Consistent enjoyment of action and adventure genres., High ratings for comedies across various styles.. Disliked patterns: Negative reaction to horror-comedy hybrids., Dislike for films that do not blend genres effectively..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films that appeal to children, as evidenced by multiple high ratings in this genre.",
+          "taste": "Animation and Children's Films"
+        },
+        {
+          "reason": "The user shows a strong preference for action and adventure films, consistently rating them highly.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates comedies, with many films in this genre receiving favorable ratings.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user has a notable interest in drama films, reflected in several high ratings.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys musicals, as indicated by positive ratings for films that incorporate musical elements.",
+          "taste": "Musicals"
+        }
+      ]
+    },
+    "user_id": 2103
+  }
+}

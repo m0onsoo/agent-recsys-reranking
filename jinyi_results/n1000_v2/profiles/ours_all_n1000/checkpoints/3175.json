@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "3b650378dbccd6524a511d7c1fec42b5b7125ad2da22c31e555faa8cf09da71a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      141,
+      3272,
+      1121,
+      222,
+      2089,
+      148,
+      2617,
+      129,
+      1000,
+      367
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "3a0f12ae50264a65a43bdbfceb938394"
+    ],
+    "sampled_item_ids": [
+      24,
+      31,
+      44,
+      128,
+      141,
+      144,
+      195,
+      222,
+      247,
+      260,
+      299,
+      367,
+      373,
+      548,
+      698,
+      821,
+      940,
+      1309,
+      1517,
+      1587,
+      2089,
+      2509,
+      2510,
+      2617,
+      3272
+    ],
+    "seed": 42,
+    "source_hash": "82a19495210117eaf09a3d140716dcb2cf182c67f9181e9b85c576d29647f5d7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3175,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Meryl Streep",
+          "Jane Alexander",
+          "Justin Henry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Benton",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ted Kramer is a career man for whom his work comes before his family. His wife Joanna cannot take this anymore, so she decides to leave him. Ted is now faced with the tasks of housekeeping and taking care of himself and their young son Billy.",
+        "release_date": "1979-12-18",
+        "release_year": "1979",
+        "title": "Kramer Vs. Kramer"
+      },
+      {
+        "cast": [],
+        "country": [
+          "unkown"
+        ],
+        "director": "Tim Kirkman",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "In 1996, at age 30, native son Tim Kirkman returns to North Carolina to explore the parallels and differences between himself and Jesse Helms: they're from the same town and college, with media interests, from families blessed by adoptions, Baptists by upbringing.",
+        "release_date": "1998-10-10",
+        "release_year": "1997",
+        "title": "Dear Jesse"
+      },
+      {
+        "cast": [
+          "Michael Moore",
+          "Roger B. Smith",
+          "Rhonda Britton",
+          "Fred Ross"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Moore",
+        "genres": [
+          "Comedy",
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A documentary about the closure of General Motors' plant at Flint, Michigan, which resulted in the loss of 30,000 jobs. Details the attempts of filmmaker Michael Moore to get an interview with GM CEO Roger Smith.",
+        "release_date": "1989-09-01",
+        "release_year": "1989",
+        "title": "Roger & Me"
+      },
+      {
+        "cast": [
+          "Alicia Silverstone",
+          "Stacey Dash",
+          "Brittany Murphy",
+          "Paul Rudd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Amy Heckerling",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Shallow, rich and socially successful Cher is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other. Emboldened by her success, she decides to give hopelessly klutzy new student Tai a makeover. When Tai becomes more popular than she is, Cher realizes that her disapproving ex-stepbrother was right about how misguided she was -- and falls for him.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Clueless"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Tobey Maguire",
+          "Frances McDormand",
+          "Katie Holmes"
+        ],
+        "country": [
+          "Germany",
+          "Japan",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Grady (Michael Douglas) is a 50-ish English professor who hasn't had a thing published in years -- not since he wrote his award winning \"Great American Novel\" 7 years ago. This weekend proves even worse than he could imagine as he finds himself reeling from one misadventure to another in the company of a new wonder boy author.",
+        "release_date": "2000-02-22",
+        "release_year": "2000",
+        "title": "Wonder Boys"
+      },
+      {
+        "cast": [
+          "Tom Berenger",
+          "Charlie Sheen",
+          "Willem Dafoe",
+          "Forest Whitaker"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As a young and naive recruit in Vietnam, Chris Taylor faces a moral crisis when confronted with the horrors of war and the duality of man.",
+        "release_date": "1986-12-18",
+        "release_year": "1986",
+        "title": "Platoon"
+      },
+      {
+        "cast": [
+          "Allan Edwall",
+          "Ewa Fröling",
+          "Erland Josephson",
+          "Bertil Guve"
+        ],
+        "country": [
+          "Sweden",
+          "Germany",
+          "France"
+        ],
+        "director": "Ingmar Bergman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Swedish",
+        "overview": "Through the eyes of ten-year-old Alexander, we witness the delights and conflicts of the Ekdahl family, a sprawling bourgeois clan in turn-of-the-twentieth-century Sweden.",
+        "release_date": "1982-12-17",
+        "release_year": "1982",
+        "title": "Fanny and Alexander"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Tommy Lee Jones",
+          "Donald Sutherland",
+          "James Garner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Frank Corvin, ‘Hawk’ Hawkins, Jerry O'Neill and ‘Tank’ Sullivan were hotdog members of Project Daedalus, the Air Force's test program for space travel, but their hopes were dashed in 1958 with the formation of NASA and the use of trained chimps. They blackmail their way into orbit when Russia's mysterious ‘Ikon’ communications satellite's orbit begins to degrade and threatens to crash to Earth.",
+        "release_date": "2000-07-31",
+        "release_year": "2000",
+        "title": "Space Cowboys"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Jack Lemmon",
+          "Alec Baldwin",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Foley",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Glengarry Glen Ross, follows the lives of four unethical Chicago real estate agents who are prepared to go to any lengths (legal or illegal) to unload undesirable real estate on unwilling prospective buyers.",
+        "release_date": "1992-09-15",
+        "release_year": "1992",
+        "title": "Glengarry Glen Ross"
+      }
+    ],
+    "raw_user_id": "3175",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 71
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5738365322680339
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for poorly received action films",
+        "Dislike for films that lack character depth or engaging narratives"
+      ],
+      "liked_patterns": [
+        "High ratings for films with strong dramatic themes",
+        "Positive reception of comedies that blend romance",
+        "Favoring animated films that appeal to a wide audience"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user has rated multiple drama films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (Several comedies received favorable ratings, suggesting the user enjoys humor in films.); Interest in Crime and Thriller (The user has shown a liking for crime and thriller genres, as evidenced by multiple high ratings.); Fondness for Animation (The user has rated animated films positively, indicating a preference for this genre, especially those appealing to both children and adults.); Affinity for Strong Character Development (Many highly rated films feature complex characters and emotional depth, suggesting the user values character-driven narratives.). Liked patterns: High ratings for films with strong dramatic themes, Positive reception of comedies that blend romance, Favoring animated films that appeal to a wide audience. Disliked patterns: Negative rating for poorly received action films, Dislike for films that lack character depth or engaging narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies received favorable ratings, suggesting the user enjoys humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has shown a liking for crime and thriller genres, as evidenced by multiple high ratings.",
+          "taste": "Interest in Crime and Thriller"
+        },
+        {
+          "reason": "The user has rated animated films positively, indicating a preference for this genre, especially those appealing to both children and adults.",
+          "taste": "Fondness for Animation"
+        },
+        {
+          "reason": "Many highly rated films feature complex characters and emotional depth, suggesting the user values character-driven narratives.",
+          "taste": "Affinity for Strong Character Development"
+        }
+      ]
+    },
+    "user_id": 3175
+  }
+}

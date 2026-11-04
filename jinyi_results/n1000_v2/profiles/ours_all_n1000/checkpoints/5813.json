@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "08583a6184ae067ad1e7dc172c0fbc82450a779e84636afdc8b45151d5401ee3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      232,
+      156,
+      602,
+      1872,
+      714,
+      731,
+      768,
+      65,
+      219,
+      1252
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      10,
+      16,
+      44,
+      59,
+      95,
+      114,
+      118,
+      156,
+      158,
+      196,
+      215,
+      219,
+      289,
+      316,
+      351,
+      387,
+      434,
+      602,
+      712,
+      731,
+      881,
+      920,
+      1159,
+      1854,
+      1872
+    ],
+    "seed": 42,
+    "source_hash": "bc4c413c2fa40d99a7bbb3aa697f3c11c62c0c10c65014f502ee6c26feda9247",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5813,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Steve Martin",
+          "Eddie Murphy",
+          "Heather Graham",
+          "Christine Baranski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On the verge of bankruptcy and desperate for his big break, aspiring filmmaker Bobby Bowfinger concocts a crazy plan to make his ultimate dream movie. Rallying a ragtag team that includes a starry-eyed ingenue, a has-been diva and a film studio gofer, he sets out to shoot a blockbuster featuring the biggest star in Hollywood, Kit Ramsey -- only without letting Ramsey know he's in the picture.",
+        "release_date": "1999-08-12",
+        "release_year": "1999",
+        "title": "Bowfinger"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Gary Oldman",
+          "Ian Holm",
+          "Milla Jovovich"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In 2257, a taxi driver is unintentionally given the task of saving a young girl who is part of the key that will ensure the survival of humanity.",
+        "release_date": "1997-05-07",
+        "release_year": "1997",
+        "title": "Fifth Element, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tawny Kitaen",
+          "Adrian Zmed",
+          "George Grizzard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Neal Israel",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "This outrageously funny look at one man's final moments of bachelorhood stars Tom Hanks as Rick, reluctant recipient of a bachelor bash given by a group of friends who view partying as their full-time religion. Rick's worried fiancée, Debbie (Tawny Kitaen), dresses up in disguise and crashes the party to spy on her future husband.",
+        "release_date": "1984-06-29",
+        "release_year": "1984",
+        "title": "Bachelor Party"
+      },
+      {
+        "cast": [
+          "Casper Van Dien",
+          "Michael York",
+          "Catherine Oxenberg",
+          "Michael Ironside"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Robert Marcarelli",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "In this spiritual thriller, an ancient prophecy is about to be fulfilled as a secret code brings the world to the edge of Apocalypse. Gillen Lane (Casper Van Dien) is a expert on theology and mythology who has gained international fame as a motivational speaker.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Omega Code, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Joe Pesci",
+          "Joss Ackland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the opening chase, Martin Riggs and Roger Murtaugh stumble across a trunk full of Krugerrands. They follow the trail to a South African diplomat who's using his immunity to conceal a smuggling operation. When he plants a bomb under Murtaugh's toilet, the action explodes!",
+        "release_date": "1989-07-07",
+        "release_year": "1989",
+        "title": "Lethal Weapon 2"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Joe Don Baker",
+          "Dana Wheeler-Nicholson",
+          "Richard Libertini"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Ritchie",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A veritable chameleon, investigative reporter Irwin \"Fletch\" Fletcher might drive his editor up the wall, but he always produces great pieces for the newspaper. When his next story is about the drug trade taking place on the beach, Fletch goes undercover as a homeless man. Unaware of Fletch's true identity, businessman Alan Stanwyk offers Fletch $50,000 to kill him. Intrigued, Fletch decides to unearth the full story behind the offer.",
+        "release_date": "1985-05-31",
+        "release_year": "1985",
+        "title": "Fletch"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Bruce Boxleitner",
+          "David Warner",
+          "Cindy Morgan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Lisberger",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "As Kevin Flynn searches for proof that he invented a hit video game, he is \"digitalized\" by a laser and finds himself inside The Grid, where programs suffer under the tyrannical rule of the Master Control Program. With the help of TRON, a security program, Flynn seeks to free The Grid from the MCP.",
+        "release_date": "1982-07-09",
+        "release_year": "1982",
+        "title": "Tron"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Christopher Lloyd",
+          "Joanna Cassidy",
+          "Charles Fleischer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "'Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+        "release_date": "1988-06-21",
+        "release_year": "1988",
+        "title": "Who Framed Roger Rabbit?"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Charles Grodin",
+          "Yaphet Kotto",
+          "John Ashton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Brest",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "An accountant embezzles $15 million of mob money, jumps bail and is chased by bounty hunters, the FBI, and the Mafia.",
+        "release_date": "1988-07-20",
+        "release_year": "1988",
+        "title": "Midnight Run"
+      }
+    ],
+    "raw_user_id": "5813",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 71
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7520680723268676
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative reception of films with low ratings in the sci-fi genre",
+        "Dislike for romantic comedies that do not resonate",
+        "Low ratings for thrillers that lack engaging elements"
+      ],
+      "liked_patterns": [
+        "Strong preference for action films with high ratings",
+        "Consistent enjoyment of comedies across various styles",
+        "Appreciation for thrillers that blend with other genres"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventure elements.); Comedy (The user has a strong preference for comedic films, often rating them highly.); Thrillers with Sci-Fi elements (The user appreciates thrillers that incorporate science fiction themes.); Musicals and Family-friendly films (The user enjoys musicals and films that appeal to a younger audience.); Romantic elements in Action (The user likes action films that also include romantic storylines.). Liked patterns: Strong preference for action films with high ratings, Consistent enjoyment of comedies across various styles, Appreciation for thrillers that blend with other genres. Disliked patterns: Negative reception of films with low ratings in the sci-fi genre, Dislike for romantic comedies that do not resonate, Low ratings for thrillers that lack engaging elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventure elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user has a strong preference for comedic films, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates thrillers that incorporate science fiction themes.",
+          "taste": "Thrillers with Sci-Fi elements"
+        },
+        {
+          "reason": "The user enjoys musicals and films that appeal to a younger audience.",
+          "taste": "Musicals and Family-friendly films"
+        },
+        {
+          "reason": "The user likes action films that also include romantic storylines.",
+          "taste": "Romantic elements in Action"
+        }
+      ]
+    },
+    "user_id": 5813
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "4639f82846ecda0657c1519422c0770288e3332588a4686c7d558bcb602cb7bf",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      3080,
+      2833,
+      1232,
+      767,
+      212,
+      39,
+      97,
+      91,
+      592,
+      42
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e464da3837c94779b0778b7c8254431f"
+    ],
+    "sampled_item_ids": [
+      9,
+      28,
+      45,
+      60,
+      91,
+      133,
+      137,
+      197,
+      212,
+      335,
+      427,
+      464,
+      530,
+      564,
+      592,
+      679,
+      712,
+      718,
+      800,
+      835,
+      983,
+      1097,
+      1112,
+      1735,
+      2745
+    ],
+    "seed": 42,
+    "source_hash": "3ab36a94d9531a548137d1dfdfcc2e4f6c3ead379e28866df823df7f2a29eeae",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3260,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Karen Black",
+          "Oliver Reed",
+          "Burgess Meredith",
+          "Bette Davis"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Dan Curtis",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A couple and their 12-year-old son move into a giant house for the summer. Things start acting strange almost immediately. It seems that every time some gets hurt on the grounds the beat-up house seems to repair itself.",
+        "release_date": "1976-10-18",
+        "release_year": "1976",
+        "title": "Burnt Offerings"
+      },
+      {
+        "cast": [
+          "Russell Crowe",
+          "Hank Azaria",
+          "Mary McCormack",
+          "Burt Reynolds"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In Mystery, Alaska, life revolves around the legendary Saturday hockey game at the local pond. But everything changes when the hometown team unexpectedly gets booked in an exhibition match against the New York Rangers. When quirky small-towners, slick promoters and millionaire athletes come together.",
+        "release_date": "1999-10-01",
+        "release_year": "1999",
+        "title": "Mystery, Alaska"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Janet Leigh",
+          "Orson Welles",
+          "Joseph Calleia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Stark, perverse story of murder, kidnapping, and police corruption in Mexican border town.",
+        "release_date": "1958-04-23",
+        "release_year": "1958",
+        "title": "Touch of Evil"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Joanne Samuel",
+          "Hugh Keays-Byrne",
+          "Steve Bisley"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future Australia, a vicious biker gang murders a cop's family, and makes his fight with them personal.",
+        "release_date": "1979-04-12",
+        "release_year": "1979",
+        "title": "Mad Max"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "François Truffaut",
+          "Teri Garr",
+          "Melinda Dillon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After an encounter with UFOs, a line worker feels undeniably drawn to an isolated area in the wilderness where something spectacular is about to happen.",
+        "release_date": "1977-11-16",
+        "release_year": "1977",
+        "title": "Close Encounters of the Third Kind"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Anne Archer",
+          "Patrick Bergin",
+          "Thora Birch"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When CIA Analyst Jack Ryan interferes with an IRA assassination, a renegade faction targets Jack and his family as revenge.",
+        "release_date": "1992-06-04",
+        "release_year": "1992",
+        "title": "Patriot Games"
+      },
+      {
+        "cast": [
+          "Jim Henson",
+          "Kathryn Mullen",
+          "Frank Oz",
+          "Dave Goelz"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Henson",
+        "genres": [
+          "Children's",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "On another planet in the distant past, a Gelfling embarks on a quest to find the missing shard of a magical crystal and restore order to his world, before the grotesque race of Skeksis find and use the crystal for evil.",
+        "release_date": "1982-12-17",
+        "release_year": "1982",
+        "title": "Dark Crystal, The"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Tom Cruise",
+          "Valeria Golino",
+          "Gerald R. Molen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.",
+        "release_date": "1988-12-11",
+        "release_year": "1988",
+        "title": "Rain Man"
+      }
+    ],
+    "raw_user_id": "3260",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 184
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6416176490731957
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films",
+        "Dislike for certain musicals and comedies",
+        "Negative reception of specific thrillers"
+      ],
+      "liked_patterns": [
+        "High ratings for drama and emotional narratives",
+        "Positive reception of action and adventure films",
+        "Appreciation for comedies with engaging storylines"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Action and Adventure (The user rates action and adventure films positively, suggesting a taste for excitement and dynamic storytelling.); Fondness for Comedy and Musical Elements (The user shows a liking for comedies and musicals, as evidenced by several high ratings in these genres.); Interest in Thrillers (The user rates thriller films favorably, indicating a preference for suspenseful and engaging plots.); Affinity for Fantasy and Children's Films (The user enjoys fantasy and children's films, reflecting a taste for imaginative and whimsical storytelling.). Liked patterns: High ratings for drama and emotional narratives, Positive reception of action and adventure films, Appreciation for comedies with engaging storylines. Disliked patterns: Low ratings for horror films, Dislike for certain musicals and comedies, Negative reception of specific thrillers.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user rates action and adventure films positively, suggesting a taste for excitement and dynamic storytelling.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user shows a liking for comedies and musicals, as evidenced by several high ratings in these genres.",
+          "taste": "Fondness for Comedy and Musical Elements"
+        },
+        {
+          "reason": "The user rates thriller films favorably, indicating a preference for suspenseful and engaging plots.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user enjoys fantasy and children's films, reflecting a taste for imaginative and whimsical storytelling.",
+          "taste": "Affinity for Fantasy and Children's Films"
+        }
+      ]
+    },
+    "user_id": 3260
+  }
+}

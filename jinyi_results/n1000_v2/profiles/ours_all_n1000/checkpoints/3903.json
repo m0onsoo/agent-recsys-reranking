@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "621eda4b13b71ac233d89979e188721db1f73ba647d9b713f4f90679f4335044",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      588,
+      1276,
+      1311,
+      1722,
+      3328,
+      42,
+      206,
+      2147,
+      736,
+      73
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "77fe5f4e52f14e95b085a6553c6fc55c"
+    ],
+    "sampled_item_ids": [
+      27,
+      45,
+      140,
+      148,
+      201,
+      211,
+      218,
+      420,
+      466,
+      523,
+      588,
+      773,
+      799,
+      1006,
+      1229,
+      1252,
+      1311,
+      1432,
+      1467,
+      1472,
+      1733,
+      1911,
+      2096,
+      2147,
+      2538
+    ],
+    "seed": 42,
+    "source_hash": "19523de14ec90ddeb7e34f7f2e5a99d55d2aa31babdeb82de196e7fde42281a3",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3903,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Michael Keaton",
+          "Kim Basinger",
+          "Michael Gough"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker, who has seized control of Gotham's underworld.",
+        "release_date": "1989-06-23",
+        "release_year": "1989",
+        "title": "Batman"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sylvester Stallone",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Rocky must come out of retirement to battle a gargantuan Soviet fighter named Drago, who brutally punished Rocky's friend and former rival, Apollo Creed. Seeking revenge in the name of his fallen comrade and his country, Rocky agrees to fight Drago in Moscow on Christmas, and the bout changes both fighters -- and the world.",
+        "release_date": "1985-11-21",
+        "release_year": "1985",
+        "title": "Rocky IV"
+      },
+      {
+        "cast": [
+          "Tom Berenger",
+          "Glenn Close",
+          "Jeff Goldblum",
+          "William Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Kevin Kline and Glenn Close star as Harold and Sarah Cooper, a couple whose marital troubles are put on hold while they host an unhappy reunion of former college pals gathered for the funeral of one of their own, a suicide victim named Alex. As the weekend unfolds, the friends catch up with each other, play the music of their youth, reminisce, smoke marijuana, and pair off with each other.",
+        "release_date": "1983-09-09",
+        "release_year": "1983",
+        "title": "Big Chill, The"
+      },
+      {
+        "cast": [
+          "Burt Lancaster",
+          "Dean Martin",
+          "Jean Seberg",
+          "Jacqueline Bisset"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Seaton",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Melodrama about a bomber on board an airplane, an airport almost closed by snow, and various personal problems of the people involved.",
+        "release_date": "1970-03-05",
+        "release_year": "1970",
+        "title": "Airport"
+      },
+      {
+        "cast": [
+          "Dyanne Thorne",
+          "Gregory Knoph",
+          "Tony Mumolo",
+          "Maria Marx"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Don Edmonds",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Ilsa is a warden at a Nazi death camp that conducts experiments on prisoners. Ilsa's goal is to prove that woman can withstand more pain and suffering than men and should be allowed to fight on the front lines",
+        "release_date": "1975-10-01",
+        "release_year": "1974",
+        "title": "Ilsa, She Wolf of the SS"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Tom Cruise",
+          "Valeria Golino",
+          "Gerald R. Molen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.",
+        "release_date": "1988-12-11",
+        "release_year": "1988",
+        "title": "Rain Man"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kate Capshaw",
+          "Jonathan Ke Quan",
+          "Amrish Puri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees – and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace.",
+        "release_date": "1984-05-23",
+        "release_year": "1984",
+        "title": "Indiana Jones and the Temple of Doom"
+      },
+      {
+        "cast": [
+          "Warren Beatty",
+          "Diane Keaton",
+          "Edward Herrmann",
+          "Jack Nicholson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Warren Beatty",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A radical American journalist becomes involved with the Communist revolution in Russia and hopes to bring its spirit and idealism to the United States.",
+        "release_date": "1981-12-25",
+        "release_year": "1981",
+        "title": "Reds"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Kim Cattrall",
+          "G. W. Bailey",
+          "Bubba Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hugh Wilson",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "New rules enforced by the Lady Mayoress mean that sex, weight, height and intelligence need no longer be a factor for joining the Police Force. This opens the floodgates for all and sundry to enter the Police Academy, much to the chagrin of the instructors. Not everyone is there through choice, though. Social misfit Mahoney has been forced to sign up as the only alternative to a jail sentence and it doesn't take long before he falls foul of the boorish Lieutenant Harris. But before long, Mahoney realises that he is enjoying being a police cadet and decides he wants to stay... while Harris decides he wants Mahoney out!",
+        "release_date": "1984-03-22",
+        "release_year": "1984",
+        "title": "Police Academy"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "John Lithgow",
+          "Michael Rooker",
+          "Janine Turner"
+        ],
+        "country": [
+          "France",
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "A year after losing his friend in a tragic 4,000-foot fall, former ranger Gabe Walker and his partner, Hal, are called to return to the same peak to rescue a group of stranded climbers, only to learn the climbers are actually thieving hijackers who are looking for boxes full of money.",
+        "release_date": "1993-05-28",
+        "release_year": "1993",
+        "title": "Cliffhanger"
+      }
+    ],
+    "raw_user_id": "3903",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 136
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8072792249969689
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily crime-focused",
+        "Negative reception towards films with low comedic value",
+        "Dislike for poorly rated dramas"
+      ],
+      "liked_patterns": [
+        "Preference for action-packed films with strong narratives",
+        "Enjoyment of comedies that blend with adventure",
+        "Appreciation for dramatic films that tackle serious themes"
+      ],
+      "summary": "Unique tastes: Action and Drama (The user enjoys films that combine action with dramatic elements, often leading to high ratings.); Thriller and Suspense (The user appreciates movies that create tension and suspense, as indicated by several high ratings in this genre.); Comedy with Adventure (The user likes comedies that incorporate adventure themes, which are reflected in their ratings.); War and Drama (The user shows a preference for war-themed dramas, indicating a taste for serious narratives.); Children's and Family-Friendly (The user enjoys family-oriented films, as seen in their ratings for children's movies.). Liked patterns: Preference for action-packed films with strong narratives, Enjoyment of comedies that blend with adventure, Appreciation for dramatic films that tackle serious themes. Disliked patterns: Dislike for films that are primarily crime-focused, Negative reception towards films with low comedic value, Dislike for poorly rated dramas.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that combine action with dramatic elements, often leading to high ratings.",
+          "taste": "Action and Drama"
+        },
+        {
+          "reason": "The user appreciates movies that create tension and suspense, as indicated by several high ratings in this genre.",
+          "taste": "Thriller and Suspense"
+        },
+        {
+          "reason": "The user likes comedies that incorporate adventure themes, which are reflected in their ratings.",
+          "taste": "Comedy with Adventure"
+        },
+        {
+          "reason": "The user shows a preference for war-themed dramas, indicating a taste for serious narratives.",
+          "taste": "War and Drama"
+        },
+        {
+          "reason": "The user enjoys family-oriented films, as seen in their ratings for children's movies.",
+          "taste": "Children's and Family-Friendly"
+        }
+      ]
+    },
+    "user_id": 3903
+  }
+}

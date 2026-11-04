@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "d113dfa3ae5b8a68999629b6a0c3292291b4728c6c9a34ae0efd476e312d36c2",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      926,
+      971,
+      489,
+      222,
+      912,
+      245,
+      344,
+      284,
+      377,
+      133
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      28,
+      39,
+      45,
+      52,
+      74,
+      129,
+      133,
+      149,
+      168,
+      210,
+      252,
+      273,
+      284,
+      337,
+      384,
+      539,
+      815,
+      896,
+      938,
+      1140,
+      1745,
+      1798,
+      1918,
+      1966,
+      2074
+    ],
+    "seed": 42,
+    "source_hash": "f3f7411d85d02cd468c8e72b9101a2a51ce31c300280ddff82759dc5389b4b75",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4617,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sharon Stone",
+          "George Dzundza",
+          "Jeanne Tripplehorn"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A police detective is in charge of the investigation of a brutal murder, in which a beautiful and seductive woman could be involved.",
+        "release_date": "1992-03-20",
+        "release_year": "1992",
+        "title": "Basic Instinct"
+      },
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Angela Bassett",
+          "Tom Sizemore",
+          "Juliette Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kathryn Bigelow",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Set in the year 1999 during the last days of the old millennium, the movie tells the story of Lenny Nero, an ex-cop who now deals with data-discs containing recorded memories and emotions. One day he receives a disc which contains the memories of a murderer killing a prostitute. Lenny investigates and is pulled deeper and deeper in a whirl of blackmail, murder and rape. Will he survive and solve the case?",
+        "release_date": "1995-10-13",
+        "release_year": "1995",
+        "title": "Strange Days"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Harvey Keitel",
+          "Ray Liotta",
+          "Robert De Niro"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Mangold",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Freddy Heflin is the sheriff of a place everyone calls “Cop Land” — a small and seemingly peaceful town populated by the big city police officers he’s long admired. Yet something ugly is taking place behind the town’s peaceful facade. And when Freddy uncovers a massive, deadly conspiracy among these local residents, he is forced to take action and make a dangerous choice between protecting his idols and upholding the law.",
+        "release_date": "1997-08-15",
+        "release_year": "1997",
+        "title": "Cop Land"
+      },
+      {
+        "cast": [
+          "Alicia Silverstone",
+          "Stacey Dash",
+          "Brittany Murphy",
+          "Paul Rudd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Amy Heckerling",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Shallow, rich and socially successful Cher is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other. Emboldened by her success, she decides to give hopelessly klutzy new student Tai a makeover. When Tai becomes more popular than she is, Cher realizes that her disapproving ex-stepbrother was right about how misguided she was -- and falls for him.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Clueless"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Al Pacino",
+          "Charlize Theron",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Taylor Hackford",
+        "genres": [
+          "Crime",
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A hotshot lawyer gets more than he bargained for when he learns his new boss is Lucifer himself.",
+        "release_date": "1997-10-17",
+        "release_year": "1997",
+        "title": "Devil's Advocate, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "John Goodman",
+          "Julianne Moore",
+          "Steve Buscemi"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jeffrey \"The Dude\" Lebowski, a Los Angeles slacker who only wants to bowl and drink white Russians, is mistaken for another Jeffrey Lebowski, a wheelchair-bound millionaire, and finds himself dragged into a strange series of events involving nihilists, adult film producers, ferrets, errant toes, and large sums of money.",
+        "release_date": "1998-03-06",
+        "release_year": "1998",
+        "title": "Big Lebowski, The"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Madeleine Stowe",
+          "Brad Pitt",
+          "Christopher Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly, and patient Jeffrey Goines, the son of a famous virus expert, who may hold the key to the mysterious rogue group, the Army of the 12 Monkeys, thought to be responsible for unleashing the killer disease.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Twelve Monkeys"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      }
+    ],
+    "raw_user_id": "4617",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 59
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.6502225885654787
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily horror or mystery without strong narratives.",
+        "Negative response to films that lack character depth or engaging plots."
+      ],
+      "liked_patterns": [
+        "Enjoyment of thrillers that combine suspense with strong character development.",
+        "Preference for action films that also include elements of romance or comedy.",
+        "Appreciation for dramas that explore deep emotional themes."
+      ],
+      "summary": "Unique tastes: Thrillers with strong narratives (The user enjoys thrillers that offer compelling stories, as seen in multiple high-rated films in this genre.); Dramatic storytelling (The user appreciates films that delve into deep emotional and dramatic themes, reflected in several highly rated dramas.); Action with a mix of other genres (The user favors action films that incorporate elements of romance, comedy, or mystery, as indicated by their ratings.); Romantic elements in various genres (The user shows a preference for films that blend romance with other genres, particularly in higher-rated movies.); Complex characters and moral dilemmas (The user is drawn to films featuring complex characters and ethical challenges, evident in their ratings of dramas and thrillers.). Liked patterns: Enjoyment of thrillers that combine suspense with strong character development., Preference for action films that also include elements of romance or comedy., Appreciation for dramas that explore deep emotional themes.. Disliked patterns: Dislike for films that are primarily horror or mystery without strong narratives., Negative response to films that lack character depth or engaging plots..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys thrillers that offer compelling stories, as seen in multiple high-rated films in this genre.",
+          "taste": "Thrillers with strong narratives"
+        },
+        {
+          "reason": "The user appreciates films that delve into deep emotional and dramatic themes, reflected in several highly rated dramas.",
+          "taste": "Dramatic storytelling"
+        },
+        {
+          "reason": "The user favors action films that incorporate elements of romance, comedy, or mystery, as indicated by their ratings.",
+          "taste": "Action with a mix of other genres"
+        },
+        {
+          "reason": "The user shows a preference for films that blend romance with other genres, particularly in higher-rated movies.",
+          "taste": "Romantic elements in various genres"
+        },
+        {
+          "reason": "The user is drawn to films featuring complex characters and ethical challenges, evident in their ratings of dramas and thrillers.",
+          "taste": "Complex characters and moral dilemmas"
+        }
+      ]
+    },
+    "user_id": 4617
+  }
+}

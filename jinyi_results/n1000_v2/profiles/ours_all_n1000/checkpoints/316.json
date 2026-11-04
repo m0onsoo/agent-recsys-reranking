@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "a607cc4713da7a232206f5c9f6b89a64bd7c4d7cb3f9e8eddc1bd7a56281c8cc",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      861,
+      559,
+      1713,
+      212,
+      857,
+      156,
+      1120,
+      677,
+      45,
+      1008
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a711a26d2a294a97803c0cbf3fb9f8f5"
+    ],
+    "sampled_item_ids": [
+      27,
+      45,
+      49,
+      78,
+      114,
+      133,
+      140,
+      190,
+      212,
+      252,
+      559,
+      587,
+      642,
+      763,
+      784,
+      848,
+      857,
+      963,
+      976,
+      1008,
+      1019,
+      1120,
+      1210,
+      1902,
+      2024
+    ],
+    "seed": 42,
+    "source_hash": "dfd812d1a949ee0feed4322811bc1c8e94d47dee486497c8a6f5b24ae5240d87",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 316,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "retired"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gary Sinise",
+          "Tim Robbins",
+          "Don Cheadle",
+          "Connie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When contact is lost with the crew of the first Mars expedition, a rescue mission is launched to discover their fate.",
+        "release_date": "2000-03-10",
+        "release_year": "2000",
+        "title": "Mission to Mars"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Marcia Strassman",
+          "Matt Frewer",
+          "Kristine Sutherland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Johnston",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The scientist father of a teenage girl and boy accidentally shrinks his and two other neighborhood teens to the size of insects. Now the teens must fight diminutive dangers as the father searches for them.",
+        "release_date": "1989-06-22",
+        "release_year": "1989",
+        "title": "Honey, I Shrunk the Kids"
+      },
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Bill Paxton",
+          "Harvey Keitel",
+          "Jon Bon Jovi"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Jonathan Mostow",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the midst of World War II, the battle under the sea rages and the Nazis have the upper hand as the Allies are unable to crack their war codes. However, after a wrecked U-boat sends out an SOS signal, the Allies realise this is their chance to seize the 'enigma coding machine'.",
+        "release_date": "2000-04-20",
+        "release_year": "2000",
+        "title": "U-571"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Joanne Samuel",
+          "Hugh Keays-Byrne",
+          "Steve Bisley"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future Australia, a vicious biker gang murders a cop's family, and makes his fight with them personal.",
+        "release_date": "1979-04-12",
+        "release_year": "1979",
+        "title": "Mad Max"
+      },
+      {
+        "cast": [
+          "Michael York",
+          "Richard Jordan",
+          "Jenny Agutter",
+          "Roscoe Lee Browne"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Anderson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An idyllic sci-fi future has one major drawback: All citizens get a chance of being 'renewed' in a Civic Ceremony at their 30th birthday, unless they run and escape before their time comes.",
+        "release_date": "1976-06-23",
+        "release_year": "1976",
+        "title": "Logan's Run"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Gary Oldman",
+          "Ian Holm",
+          "Milla Jovovich"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In 2257, a taxi driver is unintentionally given the task of saving a young girl who is part of the key that will ensure the survival of humanity.",
+        "release_date": "1997-05-07",
+        "release_year": "1997",
+        "title": "Fifth Element, The"
+      },
+      {
+        "cast": [
+          "Steve McQueen",
+          "Aneta Corsaut",
+          "Earl Rowe",
+          "John Benson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin S. Yeaworth Jr.",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A mysterious creature from another planet, resembling a giant blob of jelly, lands on earth. The people of a nearby small town refuse to listen to some teenagers who have witnessed the blob's destructive power. In the meantime, the blob just keeps on getting bigger.",
+        "release_date": "1958-09-12",
+        "release_year": "1958",
+        "title": "Blob, The"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Tahnee Welch",
+          "Brian Dennehy",
+          "Don Ameche"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A group of aliens return to earth to take back some cocoons of their people they left behind from an earlier trip. They kept the recovered cocoons in the swimming pool of a house they rented in a small Florida town. Their mission is hampered by a number of old people from an elderly home nearby, who have been secretly using the pool and discovering the unusual power of these cocoons.",
+        "release_date": "1985-06-21",
+        "release_year": "1985",
+        "title": "Cocoon"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Roddy McDowall",
+          "Kim Hunter",
+          "Bradford Dillman",
+          "Natalie Trundy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Don Taylor",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The world is shocked by the appearance of two talking chimpanzees, who arrived mysteriously in a U.S. spacecraft. They become the toast of society; but one man believes them to be a threat to the human race.",
+        "release_date": "1971-05-20",
+        "release_year": "1971",
+        "title": "Escape from the Planet of the Apes"
+      }
+    ],
+    "raw_user_id": "316",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 63
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8262054462858448
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror elements, as indicated by lower ratings for films in this genre.",
+        "Negative reception of films that do not blend action or sci-fi with other genres."
+      ],
+      "liked_patterns": [
+        "Strong preference for action and sci-fi genres, often rated highly together.",
+        "Frequent enjoyment of films that combine adventure with other genres like action and sci-fi.",
+        "Positive ratings for films that feature strong character-driven narratives alongside action and sci-fi elements."
+      ],
+      "summary": "Unique tastes: Sci-Fi Enthusiast (The user shows a strong preference for science fiction, as evidenced by multiple high ratings for films in this genre.); Action Lover (A significant number of action films received high ratings, indicating a strong affinity for this genre.); Appreciation for Adventure (The user enjoys adventure films, as reflected in the ratings for several movies that blend action and adventure.); Drama Appreciation (The user rates several drama films positively, suggesting an appreciation for character-driven narratives.); Fantasy Elements (The presence of fantasy elements in several liked films indicates a taste for imaginative storytelling.). Liked patterns: Strong preference for action and sci-fi genres, often rated highly together., Frequent enjoyment of films that combine adventure with other genres like action and sci-fi., Positive ratings for films that feature strong character-driven narratives alongside action and sci-fi elements.. Disliked patterns: Dislike for horror elements, as indicated by lower ratings for films in this genre., Negative reception of films that do not blend action or sci-fi with other genres..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for science fiction, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Sci-Fi Enthusiast"
+        },
+        {
+          "reason": "A significant number of action films received high ratings, indicating a strong affinity for this genre.",
+          "taste": "Action Lover"
+        },
+        {
+          "reason": "The user enjoys adventure films, as reflected in the ratings for several movies that blend action and adventure.",
+          "taste": "Appreciation for Adventure"
+        },
+        {
+          "reason": "The user rates several drama films positively, suggesting an appreciation for character-driven narratives.",
+          "taste": "Drama Appreciation"
+        },
+        {
+          "reason": "The presence of fantasy elements in several liked films indicates a taste for imaginative storytelling.",
+          "taste": "Fantasy Elements"
+        }
+      ]
+    },
+    "user_id": 316
+  }
+}

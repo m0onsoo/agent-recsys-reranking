@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "608b3637a92b4f74dbab3bdbe92c512bea6d2d35a787faeae8d444a95d9e5ef7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1001,
+      193,
+      197,
+      2,
+      2168,
+      949,
+      1110,
+      93,
+      6,
+      52
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "475e75baaa8f41869b9f2299b33a6fc8"
+    ],
+    "sampled_item_ids": [
+      2,
+      52,
+      105,
+      128,
+      193,
+      197,
+      206,
+      278,
+      284,
+      380,
+      405,
+      518,
+      588,
+      679,
+      712,
+      715,
+      781,
+      858,
+      910,
+      1020,
+      1082,
+      1111,
+      1132,
+      1281,
+      1836
+    ],
+    "seed": 42,
+    "source_hash": "c3490d41aababe2c052ba74577918907ab1844397c07558b484d189fa396d7ef",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2463,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Rodger Bumpass",
+          "Jackie Burroughs",
+          "Joe Flaherty",
+          "Harold Ramis"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Gerald Potterton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A glowing orb terrorizes a young girl with a collection of stories of dark fantasy, eroticism and horror.",
+        "release_date": "1981-08-07",
+        "release_year": "1981",
+        "title": "Heavy Metal"
+      },
+      {
+        "cast": [
+          "Bruce Campbell",
+          "Sarah Berry",
+          "Dan Hicks",
+          "Kassie DePaiva"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Ash Williams and his girlfriend Linda find a log cabin in the woods with a voice recording from an archeologist who had recorded himself reciting ancient chants from “The Book of the Dead.” As they play the recording an evil power is unleashed taking over Linda’s body.",
+        "release_date": "1987-03-13",
+        "release_year": "1987",
+        "title": "Evil Dead II (Dead By Dawn)"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Kiefer Sutherland",
+          "Lou Diamond Phillips",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Christopher Cain",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "A group of young gunmen, led by Billy the Kid, become deputies to avenge the murder of the rancher who became their benefactor. But when Billy takes their authority too far, they become the hunted.",
+        "release_date": "1988-08-12",
+        "release_year": "1988",
+        "title": "Young Guns"
+      },
+      {
+        "cast": [
+          "Miriam Margolyes",
+          "Joanna Lumley",
+          "Pete Postlethwaite",
+          "Susan Sarandon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Henry Selick",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "When the young orphan boy James spills a magic bag of crocodile tongues, he finds himself in possession of a giant peach that flies him away to strange lands.",
+        "release_date": "1996-04-12",
+        "release_year": "1996",
+        "title": "James and the Giant Peach"
+      },
+      {
+        "cast": [
+          "Jean-Claude Van Damme",
+          "Bolo Yeung",
+          "Roy Chiao",
+          "Philip Chan Yan-Kin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Newt Arnold",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Frank Dux has entered the \"kumite\", an illegal underground martial-arts competition where serious injury and even death are not unknown. Chong Li, a particularly ruthless and vicious fighter is the favorite, but then again Dux has not fought him yet.",
+        "release_date": "1988-02-26",
+        "release_year": "1988",
+        "title": "Bloodsport"
+      },
+      {
+        "cast": [
+          "Claude Rains",
+          "Gloria Stuart",
+          "William Harrigan",
+          "Henry Travers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Whale",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Working in Dr. Cranley's laboratory, scientist Jack Griffin was always given the latitude to conduct somhe of his own experiments. His sudden departure, however, has Cranley's daughter Flora worried about him. Griffin has taken a room at the nearby Lion's Head Inn, hoping to reverse an experiment he conducted on himself that made him invisible. Unfortunately, the drug he used has also warped his mind, making him aggressive and dangerous. He's prepared to do whatever it takes to restore his appearance, and several will die in the process.",
+        "release_date": "1933-11-13",
+        "release_year": "1933",
+        "title": "Invisible Man, The"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Denzel Washington",
+          "Cary Elwes",
+          "Morgan Freeman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Robert Gould Shaw leads the US Civil War's first all-black volunteer company, fighting prejudices of both his own Union army and the Confederates.",
+        "release_date": "1989-12-15",
+        "release_year": "1989",
+        "title": "Glory"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      }
+    ],
+    "raw_user_id": "2463",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 85
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0699686301853273
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for animated children's films and light-hearted comedies.",
+        "Negative response to action films lacking depth or engaging narratives."
+      ],
+      "liked_patterns": [
+        "Preference for action and adventure films with strong characters and engaging plots.",
+        "Enjoyment of comedies that blend humor with darker themes or genres.",
+        "Attraction to horror films that incorporate elements of comedy or thriller."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.); Comedy with Dark Themes (The user appreciates comedies that incorporate darker or more complex themes, reflected in several liked titles.); Horror with a Blend of Other Genres (The user favors horror films that mix with other genres, such as comedy or thriller, which is evident in their ratings.); Drama with Strong Character Development (The user is drawn to dramas that feature deep character exploration and emotional storytelling.); Fantasy Elements in Action (The user enjoys action films that incorporate fantasy elements, indicating a preference for imaginative storytelling.). Liked patterns: Preference for action and adventure films with strong characters and engaging plots., Enjoyment of comedies that blend humor with darker themes or genres., Attraction to horror films that incorporate elements of comedy or thriller.. Disliked patterns: Dislike for animated children's films and light-hearted comedies., Negative response to action films lacking depth or engaging narratives..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate darker or more complex themes, reflected in several liked titles.",
+          "taste": "Comedy with Dark Themes"
+        },
+        {
+          "reason": "The user favors horror films that mix with other genres, such as comedy or thriller, which is evident in their ratings.",
+          "taste": "Horror with a Blend of Other Genres"
+        },
+        {
+          "reason": "The user is drawn to dramas that feature deep character exploration and emotional storytelling.",
+          "taste": "Drama with Strong Character Development"
+        },
+        {
+          "reason": "The user enjoys action films that incorporate fantasy elements, indicating a preference for imaginative storytelling.",
+          "taste": "Fantasy Elements in Action"
+        }
+      ]
+    },
+    "user_id": 2463
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "d5618d5b6e2339d74902b59b21b5f910df75a8aac9e9bd79c0162304273ae6b6",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      306,
+      105,
+      895,
+      210,
+      1146,
+      1005,
+      1155,
+      1726,
+      38,
+      2096
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "dff58e21185d498e9968f68992763c53"
+    ],
+    "sampled_item_ids": [
+      79,
+      86,
+      91,
+      105,
+      125,
+      133,
+      137,
+      427,
+      501,
+      506,
+      630,
+      633,
+      656,
+      712,
+      729,
+      964,
+      1005,
+      1006,
+      1254,
+      1475,
+      1536,
+      1577,
+      1724,
+      1836,
+      2366
+    ],
+    "seed": 42,
+    "source_hash": "10771fa89c3bdc0d7dd6a1d5bd904c2975690cd09a20e98434124739ae38a286",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1887,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "scientist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Gwyneth Paltrow",
+          "Viggo Mortensen",
+          "Sarita Choudhury"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Millionaire industrialist Steven Taylor is a man who has everything but what he craves most: the love and fidelity of his wife. A hugely successful player in the New York financial world, he considers her to be his most treasured acquisition. But she needs more than simply the role of dazzling accessory.",
+        "release_date": "1998-06-05",
+        "release_year": "1998",
+        "title": "Perfect Murder, A"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sophie Marceau",
+          "Robert Carlyle",
+          "Denise Richards"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Michael Apted",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Greed, revenge, world dominance and high-tech terrorism – it's all in a day's work for Bond, who's on a mission to a protect beautiful oil heiress from a notorious terrorist. In a race against time that culminates in a dramatic submarine showdown, Bond works to defuse the international power struggle that has the world's oil supply hanging in the balance.",
+        "release_date": "1999-11-08",
+        "release_year": "1999",
+        "title": "World Is Not Enough, The"
+      },
+      {
+        "cast": [
+          "David Hedison",
+          "Patricia Owens",
+          "Vincent Price",
+          "Herbert Marshall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kurt Neumann",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In Montreal, the industrial François Delambre is called late night by his sister-in-law Helene Delambre. She tells him that she has just killed her beloved husband Andre Delambre, using the press of their plant to press his head and left hand. François calls his acquaintance, Inspector Charas, and later the reluctant Helene is convinced to tell them what happened. She explains that Andre had invented a matter transportation apparatus, and while experimenting with himself, a fly entered the chamber, exchanging one hand and the head with him after the transference.",
+        "release_date": "1958-07-16",
+        "release_year": "1958",
+        "title": "Fly, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Ursula Andress",
+          "Joseph Wiseman",
+          "Jack Lord"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terence Young",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "In the film that launched the James Bond saga, Agent 007 battles mysterious Dr. No, a scientific genius bent on destroying the U.S. space program. As the countdown to disaster begins, Bond must go to Jamaica, where he encounters beautiful Honey Ryder, to confront a megalomaniacal villain in his massive island headquarters.",
+        "release_date": "1962-10-04",
+        "release_year": "1962",
+        "title": "Dr. No"
+      },
+      {
+        "cast": [
+          "Lloyd Bridges",
+          "Osa Massen",
+          "John Emery",
+          "Noah Beery, Jr."
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kurt Neumann",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Astronauts blast off to explore the moon on Rocketship X-M or \"Rocketship eXploration Moon\". A spacecraft malfunction and some fuel miscalculations cause them to end up landing on Mars. On Mars, evidence of a once powerful civilization is found. The scientists determined that an atomic war destroyed most of the Martians. Those that survived reverted to a caveman like existence.",
+        "release_date": "1950-06-02",
+        "release_year": "1950",
+        "title": "Rocketship X-M"
+      },
+      {
+        "cast": [
+          "Ilene Woods",
+          "Eleanor Audley",
+          "Lucille Bliss",
+          "Verna Felton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Cinderella has faith her dreams of a better life will come true. With help from her loyal mice friends and a wave of her Fairy Godmother's wand, Cinderella's rags are magically turned into a glorious gown and off she goes to the Royal Ball. But when the clock strikes midnight, the spell is broken, leaving a single glass slipper... the only key to the ultimate fairy-tale ending!",
+        "release_date": "1950-03-04",
+        "release_year": "1950",
+        "title": "Cinderella"
+      },
+      {
+        "cast": [
+          "Charles Bronson",
+          "Hope Lange",
+          "Vincent Gardenia",
+          "Steven Keats"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Winner",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A New York City architect becomes a one-man vigilante squad after his wife is murdered by street punks in which he randomly goes out and kills would-be muggers on the mean streets after dark.",
+        "release_date": "1974-07-24",
+        "release_year": "1974",
+        "title": "Death Wish"
+      }
+    ],
+    "raw_user_id": "1887",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 101
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9898062679385781
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films lacking psychological depth",
+        "Negative response to certain sci-fi horror films",
+        "Dislike for musicals and light-hearted comedies"
+      ],
+      "liked_patterns": [
+        "Preference for action and thriller genres",
+        "Enjoyment of dramatic narratives with emotional depth",
+        "Attraction to mystery and suspense elements"
+      ],
+      "summary": "Unique tastes: Action and Thriller (The user enjoys high-stakes narratives with suspenseful elements, as seen in multiple ratings for action and thriller genres.); Drama with Emotional Depth (The user appreciates dramas that explore complex emotional themes, reflected in high ratings for several dramatic films.); Mystery and Suspense (The user is drawn to films that incorporate mystery and suspense, indicated by positive ratings for mystery-thriller hybrids.); Horror with Psychological Elements (The user favors horror films that delve into psychological themes, as shown by higher ratings for certain horror titles.); Comedy with Heart (The user enjoys comedies that blend humor with emotional storytelling, evident in ratings for comedic dramas.). Liked patterns: Preference for action and thriller genres, Enjoyment of dramatic narratives with emotional depth, Attraction to mystery and suspense elements. Disliked patterns: Dislike for horror films lacking psychological depth, Negative response to certain sci-fi horror films, Dislike for musicals and light-hearted comedies.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-stakes narratives with suspenseful elements, as seen in multiple ratings for action and thriller genres.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex emotional themes, reflected in high ratings for several dramatic films.",
+          "taste": "Drama with Emotional Depth"
+        },
+        {
+          "reason": "The user is drawn to films that incorporate mystery and suspense, indicated by positive ratings for mystery-thriller hybrids.",
+          "taste": "Mystery and Suspense"
+        },
+        {
+          "reason": "The user favors horror films that delve into psychological themes, as shown by higher ratings for certain horror titles.",
+          "taste": "Horror with Psychological Elements"
+        },
+        {
+          "reason": "The user enjoys comedies that blend humor with emotional storytelling, evident in ratings for comedic dramas.",
+          "taste": "Comedy with Heart"
+        }
+      ]
+    },
+    "user_id": 1887
+  }
+}

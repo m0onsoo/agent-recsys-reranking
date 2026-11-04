@@ -1,0 +1,348 @@
+{
+  "checkpoint_hash": "363a1c203ff43897a7d4e583ecadebe70d4b4732f0a8f3886c220e58a4b8daf4",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      744,
+      679,
+      1292,
+      221,
+      776,
+      1016,
+      1015,
+      2549,
+      2989,
+      190
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "91a30ea086f34b02a346721603b82e18"
+    ],
+    "sampled_item_ids": [
+      97,
+      114,
+      212,
+      215,
+      289,
+      587,
+      612,
+      664,
+      665,
+      667,
+      703,
+      734,
+      744,
+      759,
+      848,
+      897,
+      985,
+      995,
+      999,
+      1002,
+      1017,
+      1038,
+      1292,
+      2549,
+      2989
+    ],
+    "seed": 42,
+    "source_hash": "aab371739e33dfb535483a1befbe8898f35e98a3eb7ded8888d54d75274de343",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1522,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "Warwick Davis",
+          "Val Kilmer",
+          "Joanne Whalley",
+          "Jean Marsh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Fearful of a prophecy stating that a girl child will be born to bring about her downfall, the evil Queen Bavmorda imprisons all pregnant women within the formidable stronghold of Nockmaar. A child, Elora Danan, is born in the Nockmaar dungeons and identified as the prophesied child by a birthmark on her arm. However, before the black sorceress arrives to claim the child, Elora's mother convinces her reluctant midwife to escape with the baby. Willow, a timid farmer and aspiring sorcerer, is entrusted with delivering the royal infant from evil.",
+        "release_date": "1988-05-01",
+        "release_year": "1988",
+        "title": "Willow"
+      },
+      {
+        "cast": [
+          "William Hurt",
+          "Solveig Dommartin",
+          "Chick Ortega",
+          "Eddy Mitchell"
+        ],
+        "country": [
+          "Australia",
+          "France",
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Wim Wenders",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "German",
+        "overview": "Until The End of the World is an odyssey for the modern age. As with Homer's Odyssey, the purpose of the journey is to restore sight -- a spiritual reconciliation between an obsessed father and a deserted son. Dr. Farber, in trying to find a cure for his wife's blindness, has created a device that allows the user to send images directly to the brain, enabling the blind to see.",
+        "release_date": "1991-09-12",
+        "release_year": "1991",
+        "title": "Until the End of the World (Bis ans Ende der Welt)"
+      },
+      {
+        "cast": [
+          "Dominique Pinon",
+          "Marie-Laure Dougnac",
+          "Jean-Claude Dreyfus",
+          "Karin Viard"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "This bizarre surrealistic black comedy takes place in a small fictitious post-apocalyptic town where food is scarce and butcher Clapet has the macabre business of using human flesh to feed his customers. Yet when his daughter falls in love with his next slaughter victim things turn into chaos.",
+        "release_date": "1991-04-17",
+        "release_year": "1991",
+        "title": "Delicatessen"
+      },
+      {
+        "cast": [
+          "Casper Van Dien",
+          "Dina Meyer",
+          "Denise Richards",
+          "Jake Busey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Set in the future, the story follows a young soldier named Johnny Rico and his exploits in the Mobile Infantry. Rico's military career progresses from recruit to non-commissioned officer and finally to officer against the backdrop of an interstellar war between mankind and an arachnoid species known as \"the Bugs\".",
+        "release_date": "1997-11-06",
+        "release_year": "1997",
+        "title": "Starship Troopers"
+      },
+      {
+        "cast": [
+          "Stephen Boyd",
+          "Raquel Welch",
+          "Edmond O'Brien",
+          "Donald Pleasence"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Fleischer",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The science of miniaturization has been unlocked, and the army has big plans. But when a scientist carrying the secret of the process is injured in a surprise attack, a life-threatening blood clot puts him into a coma. Now, a team of adventurers will have to use the technology to travel inside his body and destroy the clot.",
+        "release_date": "1966-08-24",
+        "release_year": "1966",
+        "title": "Fantastic Voyage"
+      },
+      {
+        "cast": [
+          "Rufus Sewell",
+          "William Hurt",
+          "Kiefer Sutherland",
+          "Jennifer Connelly"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "release_date": "1998-02-27",
+        "release_year": "1998",
+        "title": "Dark City"
+      },
+      {
+        "cast": [
+          "Gabrielle Anwar",
+          "Terry Kinney",
+          "Billy Wirth",
+          "Christine Elise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Abel Ferrara",
+        "genres": [
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When Environmental Protection Agency inspector Steve Malone travels to a remote military base in order to check for toxic materials, he brings his family along for the ride. After arriving at the base, his teenage daughter Marti befriends Jean Platt, daughter of the base's commander, General Platt. When people at the base begin acting strangely, Marti becomes convinced that they are slowly being replaced by plant-like aliens.",
+        "release_date": "1993-06-09",
+        "release_year": "1993",
+        "title": "Body Snatchers"
+      },
+      {
+        "cast": [
+          "George Segal",
+          "Ben Gazzara",
+          "Robert Vaughn",
+          "Bradford Dillman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Guillermin",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In March of 1945, as the War in Europe is coming to a close, fighting erupts between German and American troops at the last remaining bridgehead across the Rhine.",
+        "release_date": "1969-06-25",
+        "release_year": "1969",
+        "title": "Bridge at Remagen, The"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      }
+    ],
+    "raw_user_id": "1522",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 63
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.568322084469701
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily fantasy without sci-fi elements",
+        "Negative reception of films with weak narratives or themes",
+        "Dislike for films that do not effectively blend genres"
+      ],
+      "liked_patterns": [
+        "Preference for films that blend sci-fi with action and adventure",
+        "Enjoyment of films featuring strong narrative elements",
+        "Positive reception of comedic elements within sci-fi films"
+      ],
+      "summary": "Unique tastes: Sci-Fi Enthusiast (The user has a strong preference for science fiction, as evidenced by multiple high ratings for films in this genre.); Appreciation for Action and Adventure (The user enjoys action and adventure films, reflected in several ratings of 3 or above for movies that combine these genres with sci-fi.); Interest in Thrillers (The user shows a liking for thriller elements, as indicated by positive ratings for films that incorporate suspense and tension.); Enjoyment of Comedic Sci-Fi (The user appreciates comedic elements within the sci-fi genre, as seen in the ratings for films that blend humor with science fiction themes.); Favoring Strong Narratives (The user tends to rate films with compelling narratives and themes highly, particularly those that explore complex ideas.). Liked patterns: Preference for films that blend sci-fi with action and adventure, Enjoyment of films featuring strong narrative elements, Positive reception of comedic elements within sci-fi films. Disliked patterns: Dislike for films that are primarily fantasy without sci-fi elements, Negative reception of films with weak narratives or themes, Dislike for films that do not effectively blend genres.",
+      "unique_tastes": [
+        {
+          "reason": "The user has a strong preference for science fiction, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Sci-Fi Enthusiast"
+        },
+        {
+          "reason": "The user enjoys action and adventure films, reflected in several ratings of 3 or above for movies that combine these genres with sci-fi.",
+          "taste": "Appreciation for Action and Adventure"
+        },
+        {
+          "reason": "The user shows a liking for thriller elements, as indicated by positive ratings for films that incorporate suspense and tension.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user appreciates comedic elements within the sci-fi genre, as seen in the ratings for films that blend humor with science fiction themes.",
+          "taste": "Enjoyment of Comedic Sci-Fi"
+        },
+        {
+          "reason": "The user tends to rate films with compelling narratives and themes highly, particularly those that explore complex ideas.",
+          "taste": "Favoring Strong Narratives"
+        }
+      ]
+    },
+    "user_id": 1522
+  }
+}

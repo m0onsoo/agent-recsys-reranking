@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "dda092d653b5e1532a062639e1e224bb412cff7a4f229570e0a4eeeee2d142f3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      118,
+      918,
+      794,
+      1205,
+      68,
+      507,
+      2290,
+      490,
+      1347,
+      157
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      45,
+      75,
+      105,
+      130,
+      172,
+      186,
+      196,
+      278,
+      384,
+      427,
+      554,
+      705,
+      816,
+      841,
+      946,
+      1193,
+      1209,
+      1227,
+      1257,
+      1290,
+      1563,
+      1593,
+      1713,
+      1929,
+      2339
+    ],
+    "seed": 42,
+    "source_hash": "e41223748417da8058016fefe3e576ebc8412929a4fe9ff780c48dabdc13f8ca",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4578,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bruce Willis",
+          "Bonnie Bedelia",
+          "William Atherton",
+          "Reginald VelJohnson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "John McClane is an off-duty cop gripped with a feeling of déjà vu when on a snowy Christmas Eve in the nation's capital, terrorists seize a major international airport, holding thousands of holiday travelers hostage. Renegade military commandos led by a murderous rogue officer plot to rescue a drug lord from justice and are prepared for every contingency except one: McClane's smart-mouthed heroics.",
+        "release_date": "1990-07-02",
+        "release_year": "1990",
+        "title": "Die Hard 2"
+      },
+      {
+        "cast": [
+          "Richard Gere",
+          "Edward Norton",
+          "Laura Linney",
+          "John Mahoney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Hoblit",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An arrogant, high-powered attorney takes on the case of a poor altar boy found running away from the scene of the grisly murder of the bishop who has taken him in. The case gets a lot more complex when the accused reveals that there may or may not have been a 3rd person in the room. The intensity builds when a surprise twist alters everyone's perception of the crime.",
+        "release_date": "1996-04-03",
+        "release_year": "1996",
+        "title": "Primal Fear"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Jeff Daniels",
+          "Lauren Holly",
+          "Teri Garr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Lloyd and Harry are two men whose stupidity is really indescribable. When Mary, a beautiful woman, loses an important suitcase with money before she leaves for Aspen, the two friends (who have found the suitcase) decide to return it to her. After some \"adventures\" they finally get to Aspen where, using the lost money they live it up and fight for Mary's heart.",
+        "release_date": "1994-12-16",
+        "release_year": "1994",
+        "title": "Dumb & Dumber"
+      },
+      {
+        "cast": [
+          "Demi Moore",
+          "Michael Biehn",
+          "Jürgen Prochnow",
+          "Peter Friedman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Carl Schultz",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Abby is a pregnant woman with a curious new boarder in the apartment over her garage. Turns out he's heaven-sent and is speeding along the Apocalypse by bloodying rivers, egging on plagues and following scripture word for word.",
+        "release_date": "1988-04-01",
+        "release_year": "1988",
+        "title": "Seventh Sign, The"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Ray Liotta",
+          "Joe Pesci",
+          "Lorraine Bracco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+        "release_date": "1990-09-12",
+        "release_year": "1990",
+        "title": "GoodFellas"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Edward Furlong",
+          "Beverly D'Angelo",
+          "Avery Brooks"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Kaye",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Derek Vineyard is paroled after serving 3 years in prison for killing two thugs who tried to break into/steal his truck. Through his brother, Danny Vineyard's narration, we learn that before going to prison, Derek was a skinhead and the leader of a violent white supremacist gang that committed acts of racial crime throughout L.A. and his actions greatly influenced Danny. Reformed and fresh out of prison, Derek severs contact with the gang and becomes determined to keep Danny from going down the same violent path as he did.",
+        "release_date": "1998-10-30",
+        "release_year": "1998",
+        "title": "American History X"
+      },
+      {
+        "cast": [
+          "Louis Gossett, Jr.",
+          "Jason Cadieux",
+          "Joanne Vannicola",
+          "Max Piersig"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Sidney J. Furie",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "While Chappy Sinclair is saddled with a bunch of misfits and delinquents for his flight school, he turns to his protégé Doug Masters to assist him in rounding them into shape for an important competition. During their training, they stumble upon a group of subversive air force officers who are dealing in toxic waste as a sideline.",
+        "release_date": "1995-01-01",
+        "release_year": "1995",
+        "title": "Iron Eagle IV"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Diane Keaton",
+          "Andy García",
+          "Talia Shire"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
+        "release_date": "1990-12-24",
+        "release_year": "1990",
+        "title": "Godfather: Part III, The"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "James Caan",
+          "Sarah Jessica Parker",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Bergman",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "On her deathbed, a mother makes her son promise never to get married, which scars him with psychological blocks to a commitment with his girlfriend. They finally decide to tie the knot in Vegas, but a wealthy gambler arranges for the man to lose $65K in a poker game and offers to clear the debt for a weekend with his fiancée.",
+        "release_date": "1992-08-28",
+        "release_year": "1992",
+        "title": "Honeymoon in Vegas"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Geena Davis",
+          "Harvey Keitel",
+          "Brad Pitt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Whilst on a short weekend getaway, Louise shoots a man who had tried to rape Thelma. Due to the incriminating circumstances, they make a run for it and thus a cross country chase ensues for the two fugitives. Along the way, both women rediscover the strength of their friendship and surprising aspects of their personalities and self-strengths in the trying times.",
+        "release_date": "1991-05-24",
+        "release_year": "1991",
+        "title": "Thelma & Louise"
+      }
+    ],
+    "raw_user_id": "4578",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 448
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8056172641438967
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that focus solely on drama without engaging elements.",
+        "Negative response to films that fail to deliver a compelling narrative or character arc."
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure films with high ratings.",
+        "Enjoyment of comedies that also incorporate dramatic elements.",
+        "Appreciation for films that feature strong character development and emotional storytelling."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Comedy and Drama (The user appreciates films that blend humor with emotional depth, often exploring complex characters and relationships.); Thriller Elements (The user is drawn to films that incorporate suspense and tension, enhancing the overall viewing experience.); Romantic Themes (The user enjoys narratives that explore romantic relationships, often intertwined with other genres.); Crime and Moral Dilemmas (The user is interested in stories that delve into crime and the moral complexities surrounding it.). Liked patterns: Strong preference for action and adventure films with high ratings., Enjoyment of comedies that also incorporate dramatic elements., Appreciation for films that feature strong character development and emotional storytelling.. Disliked patterns: Dislike for films that focus solely on drama without engaging elements., Negative response to films that fail to deliver a compelling narrative or character arc..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that blend humor with emotional depth, often exploring complex characters and relationships.",
+          "taste": "Comedy and Drama"
+        },
+        {
+          "reason": "The user is drawn to films that incorporate suspense and tension, enhancing the overall viewing experience.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user enjoys narratives that explore romantic relationships, often intertwined with other genres.",
+          "taste": "Romantic Themes"
+        },
+        {
+          "reason": "The user is interested in stories that delve into crime and the moral complexities surrounding it.",
+          "taste": "Crime and Moral Dilemmas"
+        }
+      ]
+    },
+    "user_id": 4578
+  }
+}

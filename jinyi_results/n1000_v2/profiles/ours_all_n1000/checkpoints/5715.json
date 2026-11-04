@@ -1,0 +1,346 @@
+{
+  "checkpoint_hash": "0f8d5e27bf8d1dd2364c46d3837b8afc9841897cc8fcaf5affdf29b68274d8d6",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      576,
+      156,
+      218,
+      729,
+      1229,
+      843,
+      125,
+      1070,
+      741,
+      93
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      58,
+      61,
+      79,
+      111,
+      133,
+      152,
+      200,
+      211,
+      216,
+      265,
+      339,
+      468,
+      498,
+      712,
+      725,
+      729,
+      769,
+      1035,
+      1072,
+      1081,
+      1085,
+      1110,
+      1146,
+      1285,
+      1475
+    ],
+    "seed": 42,
+    "source_hash": "0bf244305f45128968ea3a225b24cb54a8f2d6bcc19e46d4686fafd7795ebfef",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5715,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Val Kilmer",
+          "Tommy Lee Jones",
+          "Jim Carrey",
+          "Nicole Kidman"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "The Dark Knight of Gotham City confronts a dastardly duo: Two-Face and the Riddler. Formerly District Attorney Harvey Dent, Two-Face believes Batman caused the courtroom accident which left him disfigured on one side. And Edward Nygma, computer-genius and former employee of millionaire Bruce Wayne, is out to get the philanthropist; as The Riddler. Former circus acrobat Dick Grayson, his family killed by Two-Face, becomes Wayne's ward and Batman's new partner Robin.",
+        "release_date": "1995-06-16",
+        "release_year": "1995",
+        "title": "Batman Forever"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Gary Oldman",
+          "Ian Holm",
+          "Milla Jovovich"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In 2257, a taxi driver is unintentionally given the task of saving a young girl who is part of the key that will ensure the survival of humanity.",
+        "release_date": "1997-05-07",
+        "release_year": "1997",
+        "title": "Fifth Element, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Daniela Bianchi",
+          "Pedro Armendáriz",
+          "Lotte Lenya"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terence Young",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Agent 007 is back in the second installment of the James Bond series, this time battling a secret crime organization known as SPECTRE. Russians Rosa Klebb and Kronsteen are out to snatch a decoding device known as the Lektor, using the ravishing Tatiana to lure Bond into helping them. Bond willingly travels to meet Tatiana in Istanbul, where he must rely on his wits to escape with his life in a series of deadly encounters with the enemy",
+        "release_date": "1963-10-11",
+        "release_year": "1963",
+        "title": "From Russia with Love"
+      },
+      {
+        "cast": [
+          "Matthew Modine",
+          "Adam Baldwin",
+          "Vincent D'Onofrio",
+          "R. Lee Ermey"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+        "release_date": "1987-06-26",
+        "release_year": "1987",
+        "title": "Full Metal Jacket"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Rutger Hauer",
+          "Michelle Pfeiffer",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Captain Etienne Navarre is a man on whose shoulders lies a cruel curse. Punished for loving each other, Navarre must become a wolf by night whilst his lover, Lady Isabeau, takes the form of a hawk by day. Together, with the thief Philippe Gaston, they must try to overthrow the corrupt Bishop and in doing so break the spell.",
+        "release_date": "1985-03-27",
+        "release_year": "1985",
+        "title": "Ladyhawke"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Barbara Bach",
+          "Curd Jürgens",
+          "Richard Kiel"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Lewis Gilbert",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Russian and British submarines with nuclear missiles on board both vanish from sight without a trace. England and Russia both blame each other as James Bond tries to solve the riddle of the disappearing ships. But the KGB also has an agent on the case.",
+        "release_date": "1977-07-07",
+        "release_year": "1977",
+        "title": "Spy Who Loved Me, The"
+      },
+      {
+        "cast": [
+          "Bruce Campbell",
+          "Embeth Davidtz",
+          "Marcus Gilbert",
+          "Ian Abercrombie"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A man is accidentally transported to 1300 A.D., where he must battle an army of the dead and retrieve the Necronomicon so he can return home.",
+        "release_date": "1992-10-09",
+        "release_year": "1993",
+        "title": "Army of Darkness"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      }
+    ],
+    "raw_user_id": "5715",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 68
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6598387020644279
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that mix action with comedy and crime",
+        "Negative ratings for films with low engagement or poor execution",
+        "Dislike for films that do not meet the user's expectations in the action genre"
+      ],
+      "liked_patterns": [
+        "Strong preference for action films across various sub-genres",
+        "Enjoyment of films that combine action with historical or war themes",
+        "Positive reception of animated films and family-friendly content"
+      ],
+      "summary": "Unique tastes: Action and Thriller (The user consistently rates action and thriller films highly, indicating a strong preference for intense and suspenseful narratives.); Action with Historical or War Themes (The user enjoys action films that incorporate historical or war elements, as seen in several highly rated titles.); Animation and Family-Friendly Content (The user appreciates animated films and those suitable for children, as evidenced by positive ratings for several family-oriented animations.); Crime and Drama Elements (The user shows a liking for action films that blend crime and drama, suggesting an interest in complex character-driven stories.); Adventure and Fantasy (The user rates adventure and fantasy films positively, indicating a preference for imaginative and escapist storytelling.). Liked patterns: Strong preference for action films across various sub-genres, Enjoyment of films that combine action with historical or war themes, Positive reception of animated films and family-friendly content. Disliked patterns: Dislike for films that mix action with comedy and crime, Negative ratings for films with low engagement or poor execution, Dislike for films that do not meet the user's expectations in the action genre.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates action and thriller films highly, indicating a strong preference for intense and suspenseful narratives.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "The user enjoys action films that incorporate historical or war elements, as seen in several highly rated titles.",
+          "taste": "Action with Historical or War Themes"
+        },
+        {
+          "reason": "The user appreciates animated films and those suitable for children, as evidenced by positive ratings for several family-oriented animations.",
+          "taste": "Animation and Family-Friendly Content"
+        },
+        {
+          "reason": "The user shows a liking for action films that blend crime and drama, suggesting an interest in complex character-driven stories.",
+          "taste": "Crime and Drama Elements"
+        },
+        {
+          "reason": "The user rates adventure and fantasy films positively, indicating a preference for imaginative and escapist storytelling.",
+          "taste": "Adventure and Fantasy"
+        }
+      ]
+    },
+    "user_id": 5715
+  }
+}

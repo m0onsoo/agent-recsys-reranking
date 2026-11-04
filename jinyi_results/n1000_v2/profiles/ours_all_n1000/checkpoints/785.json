@@ -1,0 +1,344 @@
+{
+  "checkpoint_hash": "f4972d53b139d8a9be1fd1e217dfbb1a8fbeecb5eb8e85dc8b8dc0e6adfd1127",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      93,
+      1275,
+      591,
+      210,
+      2429,
+      94,
+      152,
+      24,
+      105,
+      2176
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8c94bb6a0b094794964548922face884"
+    ],
+    "sampled_item_ids": [
+      24,
+      45,
+      63,
+      93,
+      94,
+      145,
+      149,
+      187,
+      211,
+      223,
+      278,
+      579,
+      591,
+      670,
+      749,
+      1079,
+      1083,
+      1110,
+      1275,
+      1678,
+      1713,
+      2141,
+      2172,
+      2175,
+      2543
+    ],
+    "seed": 42,
+    "source_hash": "34b3811840e34dbe9cd3dcf595311127abfd5f10b4782adb54ee0d051ea7f3b4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 785,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "unemployed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sylvester Stallone",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Now the world champion, Rocky Balboa is living in luxury and only fighting opponents who pose no threat to him in the ring. His lifestyle of wealth and idleness is shaken when a powerful young fighter known as Clubber Lang challenges him to a bout. After taking a pounding from Lang, the humbled champ turns to former bitter rival Apollo Creed to help him regain his form for a rematch with Lang.",
+        "release_date": "1982-05-28",
+        "release_year": "1982",
+        "title": "Rocky III"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Joe Pesci",
+          "Rene Russo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the combustible action franchise's final installment, maverick detectives Martin Riggs and Roger Murtaugh square off against Asian mobster Wah Sing Ku, who's up to his neck in slave trading and counterfeit currency. With help from gumshoe Leo Getz and smart-aleck rookie cop Lee Butters, Riggs and Murtaugh aim to take down Ku and his gang.",
+        "release_date": "1998-07-10",
+        "release_year": "1998",
+        "title": "Lethal Weapon 4"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Chuck Norris",
+          "M. Emmet Walsh",
+          "David Tress",
+          "Lenore Kasdorf"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joseph Zito",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "American servicemen are still being held captive in Vietnam and it's up to one man to bring them home in this blistering, fast-paced action/adventure starring martial arts superstar Chuck Norris.Following a daring escape from a Vietnamese POW camp, Special Forces Colonel James Braddock (Norris) is on a mission to locate and save remaining MIAs.",
+        "release_date": "1984-11-16",
+        "release_year": "1984",
+        "title": "Missing in Action"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Jean Reno",
+          "Natascha McElhone",
+          "Stellan Skarsgård"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Frankenheimer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A briefcase with undisclosed contents – sought by Irish terrorists and the Russian mob – makes its way into criminals' hands. An Irish liaison assembles a squad of mercenaries, or 'ronin', and gives them the thorny task of recovering the case.",
+        "release_date": "1998-09-25",
+        "release_year": "1998",
+        "title": "Ronin"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Jean-Claude Van Damme",
+          "Roger Moore",
+          "James Remar",
+          "Jack McGee"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Jean-Claude Van Damme",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Ghang-gheng, the ancient winner-take-all competition in which the deadliest fighters from around the world employ the most spectacular feats of martial arts skills ever displayed in order to win the prized Golden Dragon. But fighting prowess alone will not be enough for Chris to triumph over such daunting foes.",
+        "release_date": "1996-04-19",
+        "release_year": "1996",
+        "title": "Quest, The"
+      }
+    ],
+    "raw_user_id": "785",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 86
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.3849769774337366
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for action films perceived as lacking quality or depth.",
+        "Negative responses to films that do not meet expectations for engaging storytelling."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine action with drama and war themes.",
+        "Positive reception of films featuring strong character arcs and moral complexities.",
+        "Favoring adventure films that incorporate elements of action and suspense."
+      ],
+      "summary": "Unique tastes: Appreciation for War and Drama (The user rates several war and drama films highly, indicating a strong preference for narratives that explore human conflict and emotional depth.); Interest in Action Thrillers (The user enjoys action thrillers, as evidenced by multiple high ratings for films in this genre, suggesting a taste for suspenseful and intense storytelling.); Enjoyment of Action with Strong Characters (The user favors action films that feature strong character development and moral dilemmas, as seen in their ratings for films that blend action with drama.); Preference for Adventure Elements (The user shows a liking for adventure films, often rating them positively, which indicates an appreciation for escapism and exploration.); Dislike for Low-Quality Action Films (The user rates several action films poorly, suggesting a specific aversion to those that lack depth or engaging storytelling.). Liked patterns: High ratings for films that combine action with drama and war themes., Positive reception of films featuring strong character arcs and moral complexities., Favoring adventure films that incorporate elements of action and suspense.. Disliked patterns: Low ratings for action films perceived as lacking quality or depth., Negative responses to films that do not meet expectations for engaging storytelling..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several war and drama films highly, indicating a strong preference for narratives that explore human conflict and emotional depth.",
+          "taste": "Appreciation for War and Drama"
+        },
+        {
+          "reason": "The user enjoys action thrillers, as evidenced by multiple high ratings for films in this genre, suggesting a taste for suspenseful and intense storytelling.",
+          "taste": "Interest in Action Thrillers"
+        },
+        {
+          "reason": "The user favors action films that feature strong character development and moral dilemmas, as seen in their ratings for films that blend action with drama.",
+          "taste": "Enjoyment of Action with Strong Characters"
+        },
+        {
+          "reason": "The user shows a liking for adventure films, often rating them positively, which indicates an appreciation for escapism and exploration.",
+          "taste": "Preference for Adventure Elements"
+        },
+        {
+          "reason": "The user rates several action films poorly, suggesting a specific aversion to those that lack depth or engaging storytelling.",
+          "taste": "Dislike for Low-Quality Action Films"
+        }
+      ]
+    },
+    "user_id": 785
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "components": [
+    "demographics",
+    "history",
+    "social_traits",
+    "unique_tastes"
+  ],
+  "concurrency": 3,
+  "method": "ours",
+  "num_users": 50,
+  "persona_file": "",
+  "schema_version": 1,
+  "seed": 42,
+  "selected_user_ids_hash": "7c9bc182d55a6703cc780d3cb459d624ab651572acd63f474c4f2832f71d3675",
+  "trait_population_scope": "checkpoint_train_only_all_users",
+  "trait_thresholds": {
+    "activity": [
+      102.0,
+      320.0
+    ],
+    "conformity": [
+      0.6647301241346356,
+      1.2418272227637637
+    ],
+    "diversity": [
+      14.0,
+      17.0
+    ]
+  }
+}

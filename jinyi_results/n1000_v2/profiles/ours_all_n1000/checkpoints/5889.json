@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "a47c1663bba09475b49baee0f61359f6739ba4accac7fc6262223e8f3605826c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      88,
+      175,
+      184,
+      200,
+      176,
+      487,
+      1395,
+      697,
+      49,
+      5
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      5,
+      23,
+      27,
+      48,
+      88,
+      176,
+      177,
+      247,
+      274,
+      295,
+      382,
+      421,
+      436,
+      724,
+      830,
+      930,
+      951,
+      1093,
+      1279,
+      1299,
+      1395,
+      1488,
+      1502,
+      1587,
+      1613
+    ],
+    "seed": 42,
+    "source_hash": "1797e3e87009fe85931d1ca5ea2bfd196196dffad55dcbe59a7d0222ab16ba15",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5889,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ben Kingsley",
+          "Candice Bergen",
+          "Edward Fox",
+          "John Gielgud"
+        ],
+        "country": [
+          "India",
+          "United Kingdom"
+        ],
+        "director": "Richard Attenborough",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the early years of the 20th century, Mohandas K. Gandhi, a British-trained lawyer, forsakes all worldly possessions to take up the cause of Indian independence. Faced with armed resistance from the British government, Gandhi adopts a policy of 'passive resistance', endeavouring to win freedom for his people without resorting to bloodshed.",
+        "release_date": "1982-11-30",
+        "release_year": "1982",
+        "title": "Gandhi"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Anne Bancroft",
+          "Katharine Ross",
+          "Murray Hamilton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A recent college graduate finds himself in a love triangle with an older woman and her daughter.",
+        "release_date": "1967-12-21",
+        "release_year": "1967",
+        "title": "Graduate, The"
+      },
+      {
+        "cast": [
+          "John Cleese",
+          "Jamie Lee Curtis",
+          "Kevin Kline",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Charles Crichton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A diamond advocate is attempting to steal a collection of diamonds, yet troubles arise when he realizes that he is not the only one after the diamonds.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Fish Called Wanda, A"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Katharine Ross",
+          "Strother Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot 'Sundance Kid'. As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "release_year": "1969",
+        "title": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+        "cast": [
+          "John Belushi",
+          "Tim Matheson",
+          "John Vernon",
+          "Verna Bloom"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a 1962 College, Dean Vernon Wormer is determined to expel the entire Delta Tau Chi Fraternity, but those troublemakers have other plans for him.",
+        "release_date": "1978-07-27",
+        "release_year": "1978",
+        "title": "Animal House"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Cybill Shepherd",
+          "Harvey Keitel",
+          "Jodie Foster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+        "release_date": "1976-02-07",
+        "release_year": "1976",
+        "title": "Taxi Driver"
+      },
+      {
+        "cast": [
+          "Timothy Bottoms",
+          "Jeff Bridges",
+          "Cybill Shepherd",
+          "Ben Johnson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Bogdanovich",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The coming of age of a youth named Sonny in a small Texas town in the 1950s.",
+        "release_date": "1971-10-03",
+        "release_year": "1971",
+        "title": "Last Picture Show, The"
+      },
+      {
+        "cast": [
+          "John Lennon",
+          "Paul McCartney",
+          "George Harrison",
+          "Ringo Starr"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Capturing John Lennon, Paul McCartney, George Harrison and Ringo Starr in their electrifying element, 'A Hard Day's Night' is a wildly irreverent journey through this pastiche of a day in the life of The Beatles during 1964. The band have to use all their guile and wit to avoid the pursuing fans and press to reach their scheduled television performance, in spite of Paul's troublemaking grandfather and Ringo's arrest.",
+        "release_date": "1964-07-06",
+        "release_year": "1964",
+        "title": "Hard Day's Night, A"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Julia Louis-Dreyfus",
+          "Hayden Panettiere",
+          "Phyllis Diller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+        "release_date": "1998-11-25",
+        "release_year": "1998",
+        "title": "Bug's Life, A"
+      }
+    ],
+    "raw_user_id": "5889",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 104
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6555876141762625
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to action films",
+        "Dislike for poorly rated sci-fi comedies"
+      ],
+      "liked_patterns": [
+        "High ratings for drama films",
+        "Positive reception of comedies",
+        "Favoring films with strong narratives"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for emotional and narrative depth.); Enjoyment of Comedy (Several comedies receive favorable ratings, suggesting a liking for humor and lighthearted storytelling.); Interest in Children's Films (The user rates children's films positively, showing an affinity for family-friendly content.); Fondness for Historical and Biographical Themes (The user enjoys films that explore historical events or figures, as seen in their high ratings for related dramas.); Attraction to Genre Blends (The user appreciates films that combine genres, such as comedy with drama or sci-fi, indicating a taste for complexity in storytelling.). Liked patterns: High ratings for drama films, Positive reception of comedies, Favoring films with strong narratives. Disliked patterns: Negative response to action films, Dislike for poorly rated sci-fi comedies.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for emotional and narrative depth.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies receive favorable ratings, suggesting a liking for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user rates children's films positively, showing an affinity for family-friendly content.",
+          "taste": "Interest in Children's Films"
+        },
+        {
+          "reason": "The user enjoys films that explore historical events or figures, as seen in their high ratings for related dramas.",
+          "taste": "Fondness for Historical and Biographical Themes"
+        },
+        {
+          "reason": "The user appreciates films that combine genres, such as comedy with drama or sci-fi, indicating a taste for complexity in storytelling.",
+          "taste": "Attraction to Genre Blends"
+        }
+      ]
+    },
+    "user_id": 5889
+  }
+}

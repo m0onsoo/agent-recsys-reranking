@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "465a0da861e2bfec9e742ac7ae087cb698f37e32d36683a755f6bcef35dc3db4",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      4,
+      6,
+      727,
+      184,
+      1543,
+      634,
+      382,
+      422,
+      415,
+      3020
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      15,
+      27,
+      28,
+      65,
+      110,
+      137,
+      140,
+      207,
+      208,
+      339,
+      393,
+      415,
+      436,
+      588,
+      610,
+      647,
+      723,
+      1186,
+      1455,
+      1543,
+      1798,
+      1843,
+      1861,
+      2337
+    ],
+    "seed": 42,
+    "source_hash": "978c110d92d9f38dff3edac9602f195c9f1985a387a97cd61dd1f16f289d78ea",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5109,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "female",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Julia Roberts",
+          "Albert Finney",
+          "Aaron Eckhart",
+          "Marg Helgenberger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "Erin Brockovich"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Gene Kelly",
+          "Donald O'Connor",
+          "Debbie Reynolds",
+          "Jean Hagen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Donen",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In 1927 Hollywood, Don Lockwood and Lina Lamont are a famous on-screen romantic pair in silent movies, but Lina mistakes the on-screen romance for real love. When their latest film is transformed into a musical, Don has the perfect voice for the songs, but strident voice faces the studio to dub her voice. Aspiring actress, Kathy Selden is brought in and, while she is working on the movie, Don falls in love with her.",
+        "release_date": "1952-04-10",
+        "release_year": "1952",
+        "title": "Singin' in the Rain"
+      },
+      {
+        "cast": [
+          "John Cleese",
+          "Jamie Lee Curtis",
+          "Kevin Kline",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Charles Crichton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A diamond advocate is attempting to steal a collection of diamonds, yet troubles arise when he realizes that he is not the only one after the diamonds.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Fish Called Wanda, A"
+      },
+      {
+        "cast": [
+          "David Arkin",
+          "Barbara Baxley",
+          "Ned Beatty",
+          "Karen Black"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Altman",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "This movie tells the intersecting stories of various people connected to the music business in Nashville. Barbara Jean is the reigning queen of Nashville but is near collapse. Linnea and Delbert Reese have a shaky marriage and 2 deaf children. Opal is a British journalist touring the area. These and other stories come together in a dramatic climax.",
+        "release_date": "1975-06-11",
+        "release_year": "1975",
+        "title": "Nashville"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1970",
+        "title": "M*A*S*H"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      },
+      {
+        "cast": [
+          "Catherine Deneuve",
+          "Nino Castelnuovo",
+          "Anne Vernon",
+          "Mireille Perrey"
+        ],
+        "country": [
+          "Germany",
+          "France"
+        ],
+        "director": "Jacques Demy",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "French",
+        "overview": "This simple romantic tragedy begins in 1957. Guy Foucher, a 20-year-old French auto mechanic, has fallen in love with 17-year-old Geneviève Emery, an employee in her widowed mother's chic but financially embattled umbrella shop. On the evening before Guy is to leave for a two-year tour of combat in Algeria, he and Geneviève make love. She becomes pregnant and must choose between waiting for Guy's return or accepting an offer of marriage from a wealthy diamond merchant.",
+        "release_date": "1964-02-19",
+        "release_year": "1964",
+        "title": "Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les)"
+      },
+      {
+        "cast": [
+          "Natalie Wood",
+          "Richard Beymer",
+          "Russ Tamblyn",
+          "Rita Moreno"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerome Robbins",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the slums of the upper West Side of Manhattan, New York, a gang of Polish-American teenagers called the Jets compete with a rival gang of recently immigrated Puerto Ricans, the Sharks, to \"own\" the neighborhood streets. Tensions are high between the gangs but two kids, one from each rival gang, fall in love leading to tragedy.",
+        "release_date": "1961-10-18",
+        "release_year": "1961",
+        "title": "West Side Story"
+      },
+      {
+        "cast": [
+          "Faye Dunaway",
+          "Tommy Lee Jones",
+          "Brad Dourif",
+          "Rene Auberjonois"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A famous fashion photographer develops a disturbing ability to see through the eyes of a killer.",
+        "release_date": "1978-08-02",
+        "release_year": "1978",
+        "title": "Eyes of Laura Mars"
+      }
+    ],
+    "raw_user_id": "5109",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 105
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9498759691971717
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislikes films with low dramatic tension",
+        "Avoids poorly rated action films",
+        "Does not favor comedies that lack depth"
+      ],
+      "liked_patterns": [
+        "Enjoys films with strong romantic elements",
+        "Prefers musicals and comedies",
+        "Appreciates action and adventure genres"
+      ],
+      "summary": "Unique tastes: Romantic Themes (The user enjoys movies that incorporate romance, as seen in multiple films rated 3 or above.); Musicals and Comedies (The user appreciates musicals and comedies, indicated by several high ratings in these genres.); Action and Adventure (The user has a preference for action and adventure films, with several rated positively.); Dramatic Storytelling (The user favors dramas that explore emotional narratives, reflected in multiple high ratings.); Family-Friendly Content (The user enjoys family-oriented films, particularly those that are animated or children's stories.). Liked patterns: Enjoys films with strong romantic elements, Prefers musicals and comedies, Appreciates action and adventure genres. Disliked patterns: Dislikes films with low dramatic tension, Avoids poorly rated action films, Does not favor comedies that lack depth.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys movies that incorporate romance, as seen in multiple films rated 3 or above.",
+          "taste": "Romantic Themes"
+        },
+        {
+          "reason": "The user appreciates musicals and comedies, indicated by several high ratings in these genres.",
+          "taste": "Musicals and Comedies"
+        },
+        {
+          "reason": "The user has a preference for action and adventure films, with several rated positively.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user favors dramas that explore emotional narratives, reflected in multiple high ratings.",
+          "taste": "Dramatic Storytelling"
+        },
+        {
+          "reason": "The user enjoys family-oriented films, particularly those that are animated or children's stories.",
+          "taste": "Family-Friendly Content"
+        }
+      ]
+    },
+    "user_id": 5109
+  }
+}

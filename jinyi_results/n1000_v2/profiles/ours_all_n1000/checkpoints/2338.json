@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "285fbafe86a61baaeb33cd40d615b36cc878eee870d3ab7f89269676e37066e4",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1002,
+      529,
+      631,
+      1587,
+      1018,
+      114,
+      79,
+      1653,
+      841,
+      168
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ca1644623edc4da1b3a8209a2873255d"
+    ],
+    "sampled_item_ids": [
+      63,
+      77,
+      105,
+      171,
+      175,
+      237,
+      278,
+      377,
+      529,
+      554,
+      566,
+      644,
+      701,
+      712,
+      738,
+      749,
+      755,
+      832,
+      879,
+      976,
+      1069,
+      1292,
+      1584,
+      1613,
+      2048
+    ],
+    "seed": 42,
+    "source_hash": "0e2ac0a79118ba2a81cb0b29fe600bd56a7ccbfaf65ebf03213af44f9b4cf00c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2338,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "John Beck",
+          "Mary Gregory"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Miles Monroe, a clarinet-playing health food store proprietor, is revived out of cryostasis 200 years into a future world in order to help rebels fight an oppressive government regime.",
+        "release_date": "1973-12-17",
+        "release_year": "1973",
+        "title": "Sleeper"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Frakes",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The Borg, a relentless race of cyborgs, are on a direct course for Earth. Violating orders to stay away from the battle, Captain Picard and the crew of the newly-commissioned USS Enterprise E pursue the Borg back in time to prevent the invaders from changing Federation history and assimilating the galaxy.",
+        "release_date": "1996-11-21",
+        "release_year": "1996",
+        "title": "Star Trek: First Contact"
+      },
+      {
+        "cast": [
+          "Billy Campbell",
+          "Jennifer Connelly",
+          "Alan Arkin",
+          "Timothy Dalton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Johnston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Straight from the pages of a pulp comic from a past era, the Rocketeer recreates 1930s Hollywood, complete with gangsters, Nazi spies, and the growth of the Age of Aviation. Young pilot Cliff Secord stumbles on a top secret rocket-pack and with the help of his mechanic/mentor, Peevy, he attempts to save his girl and stop the Nazis as The Rocketeer.",
+        "release_date": "1991-06-21",
+        "release_year": "1991",
+        "title": "Rocketeer, The"
+      },
+      {
+        "cast": [
+          "Fred Ward",
+          "Dennis Quaid",
+          "Ed Harris",
+          "Scott Glenn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A chronicle of the original Mercury astronauts in the formation of America's space program: Alan Shepherd, the first American in space; Gus Grissom, the benighted astronaut for whom nothing works out as planned; John Glenn, the straight-arrow 'boy scout' of the bunch who was the first American to orbit the earth; and the remaining pilots: Deke Slayton, Scott Carpenter and Wally Schirra.",
+        "release_date": "1983-10-20",
+        "release_year": "1983",
+        "title": "Right Stuff, The"
+      },
+      {
+        "cast": [
+          "John Hurt",
+          "Richard Burton",
+          "Suzanna Hamilton",
+          "Cyril Cusack"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Michael Radford",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "George Orwell's novel of a totalitarian future society in which a man whose daily work is rewriting history tries to rebel by falling in love.",
+        "release_date": "1984-10-10",
+        "release_year": "1984",
+        "title": "Nineteen Eighty-Four"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Alec Baldwin",
+          "Sean Connery",
+          "Scott Glenn",
+          "Sam Neill"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A new Soviet nuclear missile sub (a Boomer) heading out on her maiden voyage that is being tracked by a Los Angeles class American submarine suddenly goes silent and \"disappears\". This focuses the attention of both U.S. Intelligence and the U.S. Navy on the Russian Sub Commander .  When it is determined that the silent Soviet Boomer may be headed for American coastal waters panic ensues. A CIA analyst, Jack Ryan,  convinces the brass that the Boomer's commander may intend something other than a nuclear first strike in mind. A perilous and tense cat-and-mouse game ensues.",
+        "release_date": "1990-03-02",
+        "release_year": "1990",
+        "title": "Hunt for Red October, The"
+      },
+      {
+        "cast": [
+          "David Hemmings",
+          "Vanessa Redgrave",
+          "Sarah Miles",
+          "John Castle"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America",
+          "Italy"
+        ],
+        "director": "Michelangelo Antonioni",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A successful mod photographer in London whose world is bounded by fashion, pop music, marijuana, and easy sex, feels his life is boring and despairing. But in the course of a single day he accidentally captures on film the commission of a murder. The fact that he has photographed a murder does not occur to him until he studies and then blows up his negatives, uncovering details, blowing up smaller and smaller elements, and finally putting the puzzle together.",
+        "release_date": "1966-12-18",
+        "release_year": "1966",
+        "title": "Blowup"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Christopher Reeve",
+          "Ned Beatty",
+          "Jackie Cooper"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Three escaped criminals from the planet Krypton test the Man of Steel's mettle. Led by Gen. Zod, the Kryptonians take control of the White House and partner with Lex Luthor to destroy Superman and rule the world. But Superman, who attempts to make himself human in order to get closer to Lois, realizes he has a responsibility to save the planet.",
+        "release_date": "1980-12-04",
+        "release_year": "1980",
+        "title": "Superman II"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Morgan Freeman",
+          "Bob Gunton",
+          "Clancy Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Shawshank Redemption, The"
+      }
+    ],
+    "raw_user_id": "2338",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 151
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5655590633590502
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that attempt to blend genres unsuccessfully, such as action with weak narratives.",
+        "Dislike for poorly received sci-fi films that do not meet expectations."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine drama with other genres like comedy and romance.",
+        "Consistent appreciation for action and sci-fi films, particularly those with strong narratives.",
+        "Positive reception of films featuring war themes."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama and Comedy (The user enjoys films that blend drama and comedy, often rating them highly.); Interest in Sci-Fi and Action (The user rates action and sci-fi films positively, indicating a preference for thrilling narratives.); Enjoyment of War Themes (The user shows a liking for films that explore war themes, often rating them favorably.); Preference for Romantic Elements (The user appreciates films that incorporate romance, as seen in their ratings for related genres.); Fascination with Mystery (The user enjoys mystery elements in films, reflected in their high ratings for such genres.). Liked patterns: High ratings for films that combine drama with other genres like comedy and romance., Consistent appreciation for action and sci-fi films, particularly those with strong narratives., Positive reception of films featuring war themes.. Disliked patterns: Low ratings for films that attempt to blend genres unsuccessfully, such as action with weak narratives., Dislike for poorly received sci-fi films that do not meet expectations..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend drama and comedy, often rating them highly.",
+          "taste": "Appreciation for Drama and Comedy"
+        },
+        {
+          "reason": "The user rates action and sci-fi films positively, indicating a preference for thrilling narratives.",
+          "taste": "Interest in Sci-Fi and Action"
+        },
+        {
+          "reason": "The user shows a liking for films that explore war themes, often rating them favorably.",
+          "taste": "Enjoyment of War Themes"
+        },
+        {
+          "reason": "The user appreciates films that incorporate romance, as seen in their ratings for related genres.",
+          "taste": "Preference for Romantic Elements"
+        },
+        {
+          "reason": "The user enjoys mystery elements in films, reflected in their high ratings for such genres.",
+          "taste": "Fascination with Mystery"
+        }
+      ]
+    },
+    "user_id": 2338
+  }
+}

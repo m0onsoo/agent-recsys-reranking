@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "02e2fb43f7a110967bf6ba3977cba397d5e9c8a0ca18a86e3ae07de2e3183064",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      904,
+      908,
+      517,
+      142,
+      180,
+      214,
+      526,
+      128,
+      794,
+      861
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "bb76314c0b8642c785728998fa0a4d7c"
+    ],
+    "sampled_item_ids": [
+      98,
+      108,
+      123,
+      147,
+      161,
+      172,
+      211,
+      377,
+      438,
+      492,
+      517,
+      529,
+      538,
+      557,
+      606,
+      794,
+      853,
+      874,
+      937,
+      1012,
+      1067,
+      1136,
+      1718,
+      2201,
+      2610
+    ],
+    "seed": 42,
+    "source_hash": "f1e55657c5093a5dde5c78789f2fed844a6a92f22606852543bf0da6db2bb546",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2120,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "Under 18",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jackie Chan",
+          "Chris Tucker",
+          "Ken Leung",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brett Ratner",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When Hong Kong Inspector Lee is summoned to Los Angeles to investigate a kidnapping, the FBI doesn't want any outside help and assigns cocky LAPD Detective James Carter to distract Lee from the case. Not content to watch the action from the sidelines, Lee and Carter form an unlikely partnership and investigate the case themselves.",
+        "release_date": "1998-09-18",
+        "release_year": "1998",
+        "title": "Rush Hour"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Marcia Gay Harden",
+          "Christopher McDonald",
+          "Raymond J. Barry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Les Mayfield",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Professor Phillip Brainard, an absent minded professor, works with his assistant Weebo, trying to create a substance that's a new source of energy and that will save Medfield College where his sweetheart Sara is the president. He has missed his wedding twice, and on the afternoon of his third wedding, Professor Brainard creates flubber, which allows objects to fly through the air.",
+        "release_date": "1997-11-26",
+        "release_year": "1997",
+        "title": "Flubber"
+      },
+      {
+        "cast": [
+          "Giovanni Ribisi",
+          "Vin Diesel",
+          "Nia Long",
+          "Tom Everett Scott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ben Younger",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A college dropout gets a job as a broker for a suburban investment firm, which puts him on the fast track to success, but the job might not be as legitimate as it sounds.",
+        "release_date": "2000-02-18",
+        "release_year": "2000",
+        "title": "Boiler Room"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Martin Landau",
+          "Sarah Jessica Parker",
+          "Patricia Arquette"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The mostly true story of the legendary \"worst director of all time\", who, with the help of his strange friends, filmed countless B-movies without ever becoming famous or successful.",
+        "release_date": "1994-09-27",
+        "release_year": "1994",
+        "title": "Ed Wood"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Ben Stiller",
+          "Christopher McDonald",
+          "Julie Bowen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dennis Dugan",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Failed hockey player-turned-golf whiz Happy Gilmore -- whose unconventional approach and antics on the grass courts the ire of rival Shooter McGavin -- is determined to win a PGA tournament so he can save his granny's house with the prize money. Meanwhile, an attractive tour publicist tries to soften Happy's image.",
+        "release_date": "1996-02-16",
+        "release_year": "1996",
+        "title": "Happy Gilmore"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Robert Shaw",
+          "Richard Dreyfuss",
+          "Lorraine Gary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
+        "release_date": "1975-06-18",
+        "release_year": "1975",
+        "title": "Jaws"
+      },
+      {
+        "cast": [
+          "Max Pomeranc",
+          "Joe Mantegna",
+          "Joan Allen",
+          "Ben Kingsley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Zaillian",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A prepubescent chess prodigy refuses to harden himself in order to become a champion like the famous but unlikable Bobby Fischer.",
+        "release_date": "1993-08-13",
+        "release_year": "1993",
+        "title": "Searching for Bobby Fischer"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Jeff Daniels",
+          "Lauren Holly",
+          "Teri Garr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Lloyd and Harry are two men whose stupidity is really indescribable. When Mary, a beautiful woman, loses an important suitcase with money before she leaves for Aspen, the two friends (who have found the suitcase) decide to return it to her. After some \"adventures\" they finally get to Aspen where, using the lost money they live it up and fight for Mary's heart.",
+        "release_date": "1994-12-16",
+        "release_year": "1994",
+        "title": "Dumb & Dumber"
+      },
+      {
+        "cast": [
+          "Gary Sinise",
+          "Tim Robbins",
+          "Don Cheadle",
+          "Connie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When contact is lost with the crew of the first Mars expedition, a rescue mission is launched to discover their fate.",
+        "release_date": "2000-03-10",
+        "release_year": "2000",
+        "title": "Mission to Mars"
+      }
+    ],
+    "raw_user_id": "2120",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 132
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9052946521034232
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack engaging storylines",
+        "Dislike for thrillers that do not maintain suspense",
+        "Dislike for films that mix genres poorly or fail to deliver on their themes"
+      ],
+      "liked_patterns": [
+        "Enjoyment of action and sci-fi films with strong narratives",
+        "Preference for comedies that also incorporate elements of other genres",
+        "Appreciation for dramas that provide emotional depth and character exploration"
+      ],
+      "summary": "Unique tastes: Action and Sci-Fi (The user enjoys action-packed narratives that incorporate science fiction elements.); Drama with emotional depth (The user appreciates dramas that explore complex emotional themes and character development.); Comedy with a mix of genres (The user favors comedies that blend humor with other genres, such as action or romance.); Thrillers with suspenseful plots (The user is drawn to thrillers that maintain tension and suspense throughout the story.); War themes in various genres (The user shows interest in films that incorporate war themes, whether in action, drama, or comedy.). Liked patterns: Enjoyment of action and sci-fi films with strong narratives, Preference for comedies that also incorporate elements of other genres, Appreciation for dramas that provide emotional depth and character exploration. Disliked patterns: Dislike for comedies that lack engaging storylines, Dislike for thrillers that do not maintain suspense, Dislike for films that mix genres poorly or fail to deliver on their themes.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives that incorporate science fiction elements.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex emotional themes and character development.",
+          "taste": "Drama with emotional depth"
+        },
+        {
+          "reason": "The user favors comedies that blend humor with other genres, such as action or romance.",
+          "taste": "Comedy with a mix of genres"
+        },
+        {
+          "reason": "The user is drawn to thrillers that maintain tension and suspense throughout the story.",
+          "taste": "Thrillers with suspenseful plots"
+        },
+        {
+          "reason": "The user shows interest in films that incorporate war themes, whether in action, drama, or comedy.",
+          "taste": "War themes in various genres"
+        }
+      ]
+    },
+    "user_id": 2120
+  }
+}

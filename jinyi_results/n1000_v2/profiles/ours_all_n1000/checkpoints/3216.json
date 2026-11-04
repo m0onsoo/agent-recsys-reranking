@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "fdfd21934f1a92049c77b883234159dd15937fd765ba74547af257e21174d962",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      190,
+      1019,
+      384,
+      2560,
+      148,
+      711,
+      1,
+      987,
+      2480,
+      1645
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "6e34e6ec7c0c49ceb67f543283264120"
+    ],
+    "sampled_item_ids": [
+      61,
+      90,
+      120,
+      133,
+      137,
+      164,
+      176,
+      222,
+      244,
+      284,
+      327,
+      365,
+      370,
+      425,
+      470,
+      557,
+      642,
+      714,
+      723,
+      734,
+      1457,
+      1725,
+      1989,
+      2000,
+      2561
+    ],
+    "seed": 42,
+    "source_hash": "1dd4fe8896d6df9c0e3aceb62c77caeceb70f73fa6fa31b440b587e4b1f6d703",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3216,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Peter Weller",
+          "Nancy Allen",
+          "Ronny Cox",
+          "Kurtwood Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can use his body to support their untested RoboCop prototype. But when RoboCop learns of the company's nefarious plans, he turns on his masters.",
+        "release_date": "1987-07-17",
+        "release_year": "1987",
+        "title": "Robocop"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Sean Penn",
+          "Robert Prosky",
+          "Raymond J. Barry"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Tim Robbins",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A justice drama based on a true story about a man on death row who in his last days forms a strong relationship with a nun who teaches him forgiveness and gives him spirituality as she accompanies him to his execution. Susan Sarandon won an Oscar for best female actress for her convincing portrayal of Sister Helen Prejean.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Dead Man Walking"
+      },
+      {
+        "cast": [
+          "Brendan Gleeson",
+          "Peter McDonald",
+          "Tony Doyle",
+          "Peter Caffrey"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America",
+          "Ireland"
+        ],
+        "director": "Paddy Breathnach",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Fresh out of prison, Git rescues a former best friend (now living with Git's girlfriend) from a beating at the hands of loan sharks. He's now in trouble with the mob boss, Tom French, who sends Git to Cork with another debtor, Bunny Kelly, to find a guy named Frank Grogan, and take him to a man with a friendly face at a shack across a bog. It's a tougher assignment than it seems: Git's a novice, Bunny's prone to rash acts, Frank doesn't want to be found (and once he's found, he has no money), and maybe Tom's planning to murder Frank, which puts Git in a moral dilemma. Then, there's the long-ago disappearance of Sonny Mulligan. What's a decent and stand-up lad to do?",
+        "release_date": "1997-10-03",
+        "release_year": "1997",
+        "title": "I Went Down"
+      },
+      {
+        "cast": [
+          "Tom Berenger",
+          "Charlie Sheen",
+          "Willem Dafoe",
+          "Forest Whitaker"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As a young and naive recruit in Vietnam, Chris Taylor faces a moral crisis when confronted with the horrors of war and the duality of man.",
+        "release_date": "1986-12-18",
+        "release_year": "1986",
+        "title": "Platoon"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "John Carradine",
+          "Lou Jacobi",
+          "Louise Lasser"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A collection of seven vignettes, which each address a question concerning human sexuality.",
+        "release_date": "1972-08-06",
+        "release_year": "1972",
+        "title": "Everything You Always Wanted to Know About Sex"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Louise Fletcher",
+          "Danny DeVito",
+          "William Redfield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
+        "release_date": "1975-11-18",
+        "release_year": "1975",
+        "title": "One Flew Over the Cuckoo's Nest"
+      },
+      {
+        "cast": [
+          "Leslie Cheung",
+          "Gong Li",
+          "Zhang Fengyi",
+          "Jiang Wenli"
+        ],
+        "country": [
+          "China",
+          "Hong Kong"
+        ],
+        "director": "Chen Kaige",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "Chinese",
+        "overview": "Abandoned by his prostitute mother in 1920, Douzi was raised by a theater troupe. There he meets Shitou and over the following years the two develop an act entitled, \"Farewell My Concubine,\" that brings them fame and fortune. When Shitou marries Juxian, Doutzi becomes jealous, the beginnings of the acting duo's explosive breakup and tragic fall take root.",
+        "release_date": "1993-09-16",
+        "release_year": "1993",
+        "title": "Farewell My Concubine"
+      },
+      {
+        "cast": [
+          "Om Puri",
+          "Rachel Griffiths",
+          "Akbar Kurtha",
+          "Stellan Skarsgård"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Udayan Prasad",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Pakistani taxi-driver Parvez and prostitute Bettina find themselves trapped in the middle when Islamic fundamentalists decide to clean up their local town.",
+        "release_date": "1997-10-21",
+        "release_year": "1998",
+        "title": "My Son the Fanatic"
+      },
+      {
+        "cast": [
+          "Julie Andrews",
+          "James Garner",
+          "Robert Preston",
+          "Lesley Ann Warren"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Blake Edwards",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A struggling female soprano finds work playing a male female impersonator, but it complicates her personal life.",
+        "release_date": "1982-04-25",
+        "release_year": "1982",
+        "title": "Victor/Victoria"
+      }
+    ],
+    "raw_user_id": "3216",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 260
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6451099317769424
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received action and sci-fi films.",
+        "Negative ratings for comedies that do not resonate with the user."
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedies with a mix of romance and drama elements.",
+        "Positive reception of action films that incorporate humor.",
+        "Appreciation for films that blend adventure with science fiction."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, as indicated by multiple ratings of 3 or higher in this genre.); Interest in Action and Adventure (The user rates several action and adventure films positively, showing a preference for excitement and thrill.); Fondness for Drama and Romance (The user has rated several dramas and romantic films favorably, indicating an appreciation for emotional storytelling.); Enjoyment of Sci-Fi Elements (The user has shown a liking for science fiction films, with multiple positive ratings in this genre.); Preference for Unique Storytelling (The user rates films with unconventional narratives or themes highly, suggesting a taste for originality.). Liked patterns: Enjoyment of comedies with a mix of romance and drama elements., Positive reception of action films that incorporate humor., Appreciation for films that blend adventure with science fiction.. Disliked patterns: Dislike for poorly received action and sci-fi films., Negative ratings for comedies that do not resonate with the user..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, as indicated by multiple ratings of 3 or higher in this genre.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several action and adventure films positively, showing a preference for excitement and thrill.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user has rated several dramas and romantic films favorably, indicating an appreciation for emotional storytelling.",
+          "taste": "Fondness for Drama and Romance"
+        },
+        {
+          "reason": "The user has shown a liking for science fiction films, with multiple positive ratings in this genre.",
+          "taste": "Enjoyment of Sci-Fi Elements"
+        },
+        {
+          "reason": "The user rates films with unconventional narratives or themes highly, suggesting a taste for originality.",
+          "taste": "Preference for Unique Storytelling"
+        }
+      ]
+    },
+    "user_id": 3216
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "3f49e79a9b16b4782f0e13eb7ee3075e4798bb90d476ba2a70e07a112484ece8",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      844,
+      2141,
+      133,
+      1076,
+      5,
+      80,
+      1860,
+      871,
+      789,
+      933
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      51,
+      67,
+      121,
+      151,
+      168,
+      241,
+      273,
+      278,
+      320,
+      350,
+      455,
+      570,
+      574,
+      657,
+      789,
+      844,
+      850,
+      871,
+      874,
+      898,
+      1029,
+      1483,
+      1860,
+      1938,
+      2141
+    ],
+    "seed": 42,
+    "source_hash": "029ac609dcb4af5d2398e745c99ebbbd797dcd466f1e7977d4d11cc0b977652f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4699,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sean Bean",
+          "Izabella Scorupco",
+          "Famke Janssen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "James Bond must unmask the mysterious head of the Janus Syndicate and prevent the leader from utilizing the GoldenEye weapons system to inflict devastating revenge on Britain.",
+        "release_date": "1995-11-16",
+        "release_year": "1995",
+        "title": "GoldenEye"
+      },
+      {
+        "cast": [
+          "Jean-Claude Van Damme",
+          "Powers Boothe",
+          "Dorian Harewood",
+          "Raymond J. Barry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "International action superstar Jean Claude Van Damme teams with Powers Boothe in a Tension-packed, suspense thriller, set against the back-drop of a Stanley Cup game.Van Damme portrays a father whose daughter is suddenly taken during a championship hockey game. With the captors demanding a billion dollars by game's end, Van Damme frantically sets a plan in motion to rescue his daughter and abort an impending explosion before the final buzzer...",
+        "release_date": "1995-12-22",
+        "release_year": "1995",
+        "title": "Sudden Death"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Glenn Close",
+          "Annette Bening",
+          "Pierce Brosnan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "'We come in peace' is not what those green men from Mars mean when they invade our planet, armed with irresistible weapons and a cruel sense of humor.  This star studded cast must play victim to the alien’s fun and games in this comedy homage to science fiction films of the '50s and '60s.",
+        "release_date": "1996-12-12",
+        "release_year": "1996",
+        "title": "Mars Attacks!"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Julia Louis-Dreyfus",
+          "Hayden Panettiere",
+          "Phyllis Diller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+        "release_date": "1998-11-25",
+        "release_year": "1998",
+        "title": "Bug's Life, A"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Rene Russo",
+          "Morgan Freeman",
+          "Kevin Spacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A deadly airborne virus finds its way into the USA and starts killing off people at an epidemic rate. Col Sam Daniels' job is to stop the virus spreading from a small town, which must be quarantined, and to prevent an over reaction by the White House.",
+        "release_date": "1995-03-10",
+        "release_year": "1995",
+        "title": "Outbreak"
+      },
+      {
+        "cast": [
+          "Nick Nolte",
+          "Saul Rubinek",
+          "James Rebhorn",
+          "Julia Roberts"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charles Shyer",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Rival Chicago reporters Sabrina Peterson (Roberts) and Peter Brackett (Nolte) reluctantly join forces to uncover a train wreck conspiracy and bite off more than they can chew while pursuing the story and bickering along the way - and falling in love, despite the fact that he's many years older than she.Sabrina is an ambitious, gifted reporter willing to do whatever it takes to learn the truth about the train accident, which leads her into conflict, then reluctant partnership, with fading star newsman Peter who works for a rival paper. He is her polar opposite: he chases women, smokes cigars, and has just published his first novel. During their pursuit of the story, Peter and Sabrina clash over virtually everything - he also subjects Sabrina to indecent exposure in front of a group of boy scouts after he catches her skinny dipping.",
+        "release_date": "1994-06-29",
+        "release_year": "1994",
+        "title": "I Love Trouble"
+      },
+      {
+        "cast": [
+          "Freddie Prinze Jr.",
+          "Rachael Leigh Cook",
+          "Matthew Lillard",
+          "Paul Walker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Iscove",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "High school hotshot Zach Siler is the envy of his peers. But his popularity declines sharply when his cheerleader girlfriend, Taylor, leaves him for sleazy reality-television star Brock Hudson. Desperate to revive his fading reputation, Siler agrees to a seemingly impossible challenge. He has six weeks to gain the trust of nerdy outcast Laney Boggs -- and help her to become the school's next prom queen.",
+        "release_date": "1999-01-29",
+        "release_year": "1999",
+        "title": "She's All That"
+      },
+      {
+        "cast": [
+          "Jason Biggs",
+          "Chris Klein",
+          "Thomas Ian Nicholas",
+          "Alyson Hannigan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Weitz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a high-school party, four friends find that losing their collective virginity isn't as easy as they had thought. But they still believe that they need to do so before college. To motivate themselves, they enter a pact to all \"score.\" by their senior prom.",
+        "release_date": "1999-07-09",
+        "release_year": "1999",
+        "title": "American Pie"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Ossie Davis",
+          "Oliver Platt",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A successful physician and devoted family man, John Dolittle (Eddie Murphy) seems to have the world by the tail, until a long suppressed talent he possessed as a child, the ability to communicate with animals is suddenly reawakened with a vengeance! Now every creature within squawking distance wants the good doctor's advice, unleashing an outrageous chain of events that turns his world upside down!",
+        "release_date": "1998-06-22",
+        "release_year": "1998",
+        "title": "Doctor Dolittle"
+      }
+    ],
+    "raw_user_id": "4699",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 137
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4884111996085907
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislikes films with weak narratives",
+        "Avoids poorly received action films",
+        "Dislikes comedies that lack depth"
+      ],
+      "liked_patterns": [
+        "Enjoys action films with suspenseful plots",
+        "Appreciates animated and family-friendly movies",
+        "Likes comedies that explore relationships"
+      ],
+      "summary": "Unique tastes: Action Thrillers (The user enjoys intense narratives with suspenseful elements, as seen in multiple action thrillers.); Animation and Family Films (The user appreciates animated films and family-friendly content, indicating a preference for light-hearted and entertaining stories.); Dramatic Storytelling (The user is drawn to films with strong dramatic elements, suggesting an appreciation for character-driven narratives.); Romantic Elements in Action (The user seems to enjoy action films that incorporate romantic subplots, indicating a blend of excitement and emotional depth.); Comedy with Heart (The user favors comedies that also explore relationships and personal growth, reflecting a taste for humor that resonates on a deeper level.). Liked patterns: Enjoys action films with suspenseful plots, Appreciates animated and family-friendly movies, Likes comedies that explore relationships. Disliked patterns: Dislikes films with weak narratives, Avoids poorly received action films, Dislikes comedies that lack depth.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys intense narratives with suspenseful elements, as seen in multiple action thrillers.",
+          "taste": "Action Thrillers"
+        },
+        {
+          "reason": "The user appreciates animated films and family-friendly content, indicating a preference for light-hearted and entertaining stories.",
+          "taste": "Animation and Family Films"
+        },
+        {
+          "reason": "The user is drawn to films with strong dramatic elements, suggesting an appreciation for character-driven narratives.",
+          "taste": "Dramatic Storytelling"
+        },
+        {
+          "reason": "The user seems to enjoy action films that incorporate romantic subplots, indicating a blend of excitement and emotional depth.",
+          "taste": "Romantic Elements in Action"
+        },
+        {
+          "reason": "The user favors comedies that also explore relationships and personal growth, reflecting a taste for humor that resonates on a deeper level.",
+          "taste": "Comedy with Heart"
+        }
+      ]
+    },
+    "user_id": 4699
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "checkpoint_hash": "082f878e1d3ce0fa94ef364bee1708d21d123f9a0e2cee3d946199ba2c825d06",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      20,
+      1658,
+      375,
+      1378,
+      643,
+      662,
+      907,
+      515,
+      1159,
+      27
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      20,
+      23,
+      27,
+      45,
+      160,
+      375,
+      382,
+      466,
+      515,
+      643,
+      662,
+      809,
+      838,
+      907,
+      1159,
+      1378,
+      1658
+    ],
+    "seed": 42,
+    "source_hash": "c6a7cb62fad922e9fa912f61799159700d3f46e058cfae7d6511163845579584",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4554,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "homemaker"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Hanks",
+          "Elizabeth Perkins",
+          "Robert Loggia",
+          "John Heard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young boy, Josh Baskin makes a wish at a carnival machine to be big. He wakes up the following morning to find that it has been granted and his body has grown older overnight. But he is still the same 13-year-old boy inside. Now he must learn how to cope with the unfamiliar world of grown-ups including getting a job and having his first romantic encounter with a woman. What will he find out about this strange world?",
+        "release_date": "1988-06-03",
+        "release_year": "1988",
+        "title": "Big"
+      },
+      {
+        "cast": [
+          "Natasha Lyonne",
+          "Alan Arkin",
+          "Marisa Tomei",
+          "Eli Marienthal"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tamara Jenkins",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In 1976, a lower-middle-class teenager struggles to cope living with her neurotic family of nomads on the outskirts of Beverly Hills.",
+        "release_date": "1998-08-14",
+        "release_year": "1998",
+        "title": "Slums of Beverly Hills, The"
+      },
+      {
+        "cast": [
+          "James Caan",
+          "Kathy Bates",
+          "Richard Farnsworth",
+          "Frances Sternhagen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Novelist Paul Sheldon crashes his car on a snowy Colorado road. He is found by Annie Wilkes, the \"number one fan\" of Paul's heroine Misery Chastaine. Annie is also somewhat unstable, and Paul finds himself crippled, drugged and at her mercy.",
+        "release_date": "1990-11-28",
+        "release_year": "1990",
+        "title": "Misery"
+      },
+      {
+        "cast": [
+          "Dennis Farina",
+          "Paula Marshall",
+          "Danny Nucci",
+          "Bette Midler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Carl Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A bride's divorced parents find their old feelings for each other during the wedding reception and over the course of the next few days upsetting the newlywed's honeymoon.",
+        "release_date": "1997-04-04",
+        "release_year": "1997",
+        "title": "That Old Feeling"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Alec Baldwin",
+          "Winona Ryder",
+          "Michael Keaton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Thanks to an untimely demise via drowning, a young couple end up as poltergeists in their New England farmhouse, where they fail to meet the challenge of scaring away the insufferable new owners, who want to make drastic changes. In desperation, the undead newlyweds turn to an expert frightmeister, but he's got a diabolical agenda of his own.",
+        "release_date": "1988-02-29",
+        "release_year": "1988",
+        "title": "Beetlejuice"
+      },
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      },
+      {
+        "cast": [
+          "Jennifer Lopez",
+          "Edward James Olmos",
+          "Constance Marie",
+          "Jon Seda"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Nava",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "In this biographical drama, Selena Quintanilla is born into a musical Mexican-American family in Texas. Her father, Abraham, realizes that his young daughter is talented and begins performing with her at small venues. She finds success and falls for her guitarist, Chris Perez, who draws the ire of her father. Seeking mainstream stardom, Selena begins recording an English-language album which, tragically, she would never complete.",
+        "release_date": "1997-03-21",
+        "release_year": "1997",
+        "title": "Selena"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Cameron Diaz",
+          "Nancy Fish",
+          "Tim Bagley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chuck Russell",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "When timid bank clerk Stanley Ipkiss discovers a magical mask containing the spirit of the Norse god Loki, his entire life changes. While wearing the mask, Ipkiss becomes a supernatural playboy exuding charm and confidence which allows him to catch the eye of local nightclub singer Tina Carlyle. Unfortunately, under the mask's influence, Ipkiss also robs a bank, which angers junior crime lord Dorian Tyrell, whose goons get blamed for the heist.",
+        "release_date": "1994-07-29",
+        "release_year": "1994",
+        "title": "Mask, The"
+      },
+      {
+        "cast": [
+          "Anthony Perkins",
+          "Vera Miles",
+          "John Gavin",
+          "Janet Leigh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother. The place seems quirky, but fine… until Marion decides to take a shower.",
+        "release_date": "1960-06-16",
+        "release_year": "1960",
+        "title": "Psycho"
+      },
+      {
+        "cast": [
+          "Henry Thomas",
+          "Drew Barrymore",
+          "Robert MacNaughton",
+          "Dee Wallace"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Children's",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+        "release_date": "1982-04-03",
+        "release_year": "1982",
+        "title": "E.T. the Extra-Terrestrial"
+      }
+    ],
+    "raw_user_id": "4554",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 17
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3558670188799915
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror comedies that fail to deliver on humor or scares."
+      ],
+      "liked_patterns": [
+        "Preference for films that blend comedy with fantasy or adventure.",
+        "Enjoyment of dramatic narratives with strong character arcs.",
+        "Attraction to thrillers that maintain suspense."
+      ],
+      "summary": "Unique tastes: Fantasy (The user enjoys films that incorporate fantastical elements, often blending them with comedy or adventure.); Drama (The user appreciates dramatic narratives that explore complex themes and character development.); Comedy (The user has a strong preference for comedic films, particularly those that also incorporate elements of fantasy or romance.); Thriller (The user is drawn to thrillers that provide suspense and psychological depth.); Children's (The user enjoys children's films that offer both entertainment and moral lessons.). Liked patterns: Preference for films that blend comedy with fantasy or adventure., Enjoyment of dramatic narratives with strong character arcs., Attraction to thrillers that maintain suspense.. Disliked patterns: Dislike for horror comedies that fail to deliver on humor or scares..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that incorporate fantastical elements, often blending them with comedy or adventure.",
+          "taste": "Fantasy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives that explore complex themes and character development.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user has a strong preference for comedic films, particularly those that also incorporate elements of fantasy or romance.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to thrillers that provide suspense and psychological depth.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user enjoys children's films that offer both entertainment and moral lessons.",
+          "taste": "Children's"
+        }
+      ]
+    },
+    "user_id": 4554
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "8a34ea9fe76054619bbfb68313b7594af91bfb910e3771cdd33e27bf995dd768",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      798,
+      1119,
+      424,
+      302,
+      23,
+      1150,
+      1132,
+      169,
+      1658,
+      210
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e7ba0d490ee24159abc6e27ad8d044ab"
+    ],
+    "sampled_item_ids": [
+      23,
+      169,
+      210,
+      214,
+      274,
+      302,
+      326,
+      372,
+      424,
+      432,
+      670,
+      716,
+      791,
+      798,
+      869,
+      912,
+      932,
+      1115,
+      1119,
+      1132,
+      1150,
+      1180,
+      1230,
+      1658
+    ],
+    "seed": 42,
+    "source_hash": "eef7be38b6841b2716eca0a0e8af8ce45af3f4e426acdbee0082c19ac85c3ed2",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2871,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Christopher Guest",
+          "Michael McKean",
+          "Harry Shearer",
+          "Rob Reiner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "\"This Is Spinal Tap\" shines a light on the self-contained universe of a metal band struggling to get back on the charts, including everything from its complicated history of ups and downs, gold albums, name changes and undersold concert dates, along with the full host of requisite groupies, promoters, hangers-on and historians, sessions, release events and those special behind-the-scenes moments that keep it all real.",
+        "release_date": "1984-05-04",
+        "release_year": "1984",
+        "title": "This Is Spinal Tap"
+      },
+      {
+        "cast": [
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Matthew Lillard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A killer known as Ghostface begins killing off teenagers, and as the body count begins rising, one girl and her friends find themselves contemplating the 'rules' of horror films as they find themselves living in a real-life one.",
+        "release_date": "1996-12-20",
+        "release_year": "1996",
+        "title": "Scream"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Jim Carrey",
+          "Kathleen Turner",
+          "Helen Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Peggy Sue faints at a Highschool reunion. When she wakes up she finds herself in her own past, just before she finished school.",
+        "release_date": "1986-10-05",
+        "release_year": "1986",
+        "title": "Peggy Sue Got Married"
+      },
+      {
+        "cast": [
+          "Michael Rooker",
+          "Tracy Arnold",
+          "Tom Towles",
+          "David Katz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McNaughton",
+        "genres": [
+          "Crime",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Henry likes to kill people, in different ways each time. Henry shares an apartment with Otis. When Otis' sister comes to stay, we see both sides of Henry: \"the guy next door\" and the serial killer.",
+        "release_date": "1986-09-24",
+        "release_year": "1990",
+        "title": "Henry: Portrait of a Serial Killer"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      },
+      {
+        "cast": [
+          "Craig T. Nelson",
+          "JoBeth Williams",
+          "Beatrice Straight",
+          "Heather O'Rourke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tobe Hooper",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Steve Freeling lives with his wife, Diane, and their three children, Dana, Robbie, and Carol Anne, in Southern California where he sells houses for the company that built the neighborhood. It starts with just a few odd occurrences, such as broken dishes and furniture moving around by itself. However, when he realizes that something truly evil haunts his home, Steve calls in a team of parapsychologists led by Dr. Lesh to help before it's too late.",
+        "release_date": "1982-06-04",
+        "release_year": "1982",
+        "title": "Poltergeist"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "John Cassavetes",
+          "Ruth Gordon",
+          "Sidney Blackmer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A young couple moves into an infamous New York apartment building to start a family. Things become frightening as Rosemary begins to suspect her unborn baby isn't safe around their strange neighbors.",
+        "release_date": "1968-06-12",
+        "release_year": "1968",
+        "title": "Rosemary's Baby"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Anthony Michael Hall",
+          "Judd Nelson",
+          "Molly Ringwald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Five high school students, all different stereotypes, meet in detention, where they pour their hearts out to each other, and discover how they have a lot more in common than they thought.",
+        "release_date": "1985-02-15",
+        "release_year": "1985",
+        "title": "Breakfast Club, The"
+      },
+      {
+        "cast": [
+          "Natasha Lyonne",
+          "Alan Arkin",
+          "Marisa Tomei",
+          "Eli Marienthal"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tamara Jenkins",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In 1976, a lower-middle-class teenager struggles to cope living with her neurotic family of nomads on the outskirts of Beverly Hills.",
+        "release_date": "1998-08-14",
+        "release_year": "1998",
+        "title": "Slums of Beverly Hills, The"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      }
+    ],
+    "raw_user_id": "2871",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 24
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6410339226047245
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 10
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that fail to engage in horror or thriller genres",
+        "Negative response to romantic comedies that lack depth",
+        "Dislike for poorly received horror films"
+      ],
+      "liked_patterns": [
+        "Enjoyment of horror films with strong narratives and character development",
+        "Positive ratings for comedies that incorporate elements of drama",
+        "Appreciation for films that blend horror with thriller aspects"
+      ],
+      "summary": "Unique tastes: Horror Enthusiast (The user has a strong preference for horror films, as indicated by multiple high ratings for various horror titles.); Comedy Appreciation (The user enjoys comedies, with several films rated positively, showcasing a liking for humor.); Thriller Interest (The user shows an affinity for thriller elements, particularly in horror films, as reflected in their ratings.); Drama Elements (The user appreciates films that blend drama with other genres, as seen in their ratings for comedy-drama hybrids.); Strong Character-Driven Stories (The user favors films with complex characters and narratives, evident in their ratings for crime and psychological themes.). Liked patterns: Enjoyment of horror films with strong narratives and character development, Positive ratings for comedies that incorporate elements of drama, Appreciation for films that blend horror with thriller aspects. Disliked patterns: Dislike for films that fail to engage in horror or thriller genres, Negative response to romantic comedies that lack depth, Dislike for poorly received horror films.",
+      "unique_tastes": [
+        {
+          "reason": "The user has a strong preference for horror films, as indicated by multiple high ratings for various horror titles.",
+          "taste": "Horror Enthusiast"
+        },
+        {
+          "reason": "The user enjoys comedies, with several films rated positively, showcasing a liking for humor.",
+          "taste": "Comedy Appreciation"
+        },
+        {
+          "reason": "The user shows an affinity for thriller elements, particularly in horror films, as reflected in their ratings.",
+          "taste": "Thriller Interest"
+        },
+        {
+          "reason": "The user appreciates films that blend drama with other genres, as seen in their ratings for comedy-drama hybrids.",
+          "taste": "Drama Elements"
+        },
+        {
+          "reason": "The user favors films with complex characters and narratives, evident in their ratings for crime and psychological themes.",
+          "taste": "Strong Character-Driven Stories"
+        }
+      ]
+    },
+    "user_id": 2871
+  }
+}

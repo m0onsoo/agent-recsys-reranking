@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "5cd5b3c71a87570b1e5d837306ba4233673ae803061be4929ea42b01166915b1",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      471,
+      1201,
+      277,
+      2087,
+      804,
+      1492,
+      397,
+      381,
+      1664,
+      1580
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      10,
+      34,
+      45,
+      49,
+      88,
+      146,
+      209,
+      277,
+      333,
+      354,
+      422,
+      424,
+      471,
+      487,
+      506,
+      795,
+      893,
+      1110,
+      1184,
+      1521,
+      1527,
+      1550,
+      2081,
+      2139,
+      2479
+    ],
+    "seed": 42,
+    "source_hash": "4e7bbce33607ae7519fa08876a95983c1ebb12e5f076869411b12c39178826cc",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4933,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "scientist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ben Affleck",
+          "Joey Lauren Adams",
+          "Jason Lee",
+          "Dwight Ewell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Holden and Banky are comic book artists. Everything is going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's a lesbian.",
+        "release_date": "1997-04-04",
+        "release_year": "1997",
+        "title": "Chasing Amy"
+      },
+      {
+        "cast": [
+          "Ben Affleck",
+          "Matt Damon",
+          "Linda Fiorentino",
+          "Jason Mewes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The latest battle in the eternal war between Good and Evil has come to New Jersey in the late, late 20th Century. Angels, demons, apostles and prophets (of a sort) walk among the cynics and innocents of America and duke it out for the fate of humankind.",
+        "release_date": "1999-11-12",
+        "release_year": "1999",
+        "title": "Dogma"
+      },
+      {
+        "cast": [
+          "Robert Crumb",
+          "Aline Kominsky",
+          "Charles Crumb",
+          "Maxon Crumb"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Zwigoff",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "This movie chronicles the life and times of R. Crumb. Robert Crumb is the cartoonist/artist who drew Keep On Truckin', Fritz the Cat, and played a major pioneering role in the genesis of underground comix. Through interviews with his mother, two brothers, wife, and ex-girlfriends, as well as selections from his vast quantity of graphic art, we are treated to a darkly comic ride through one man's subconscious mind.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Crumb"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Charlotte Rampling",
+          "Jessica Harper",
+          "Marie-Christine Barrault"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "While attending a retrospect of his work, a filmmaker recalls his life and his loves: the inspirations for his films.",
+        "release_date": "1980-09-26",
+        "release_year": "1980",
+        "title": "Stardust Memories"
+      },
+      {
+        "cast": [
+          "Toni Collette",
+          "Bill Hunter",
+          "Rachel Griffiths",
+          "Sophie Lee"
+        ],
+        "country": [
+          "Australia",
+          "France"
+        ],
+        "director": "P.J. Hogan",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Muriel’s Wedding is P.J. Hogan’s film debut. A humorous emancipation story of an unemployed woman who evolves from a dreamer into a self sustaining successful woman. An amusing comedy that’s funny, silly, angry and serious.",
+        "release_date": "1994-09-29",
+        "release_year": "1994",
+        "title": "Muriel's Wedding"
+      },
+      {
+        "cast": [
+          "Margaret Lockwood",
+          "Michael Redgrave",
+          "Dame May Whitty",
+          "Paul Lukas"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Comedy",
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "On a train headed for England a group of travelers is delayed by an avalanche. Holed up in a hotel in a fictional European country, young Iris befriends elderly Miss Froy. When the train resumes, Iris suffers a bout of unconsciousness and wakes to find the old woman has disappeared. The other passengers ominously deny Miss Froy ever existed, so Iris begins to investigate with another traveler and, as the pair sleuth, romantic sparks fly.",
+        "release_date": "1938-07-26",
+        "release_year": "1938",
+        "title": "Lady Vanishes, The"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Richard Gere",
+          "Ralph Bellamy",
+          "Jason Alexander"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Garry Marshall",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When millionaire wheeler-dealer Edward Lewis enters a business contract with Hollywood hooker Vivian Ward, he loses his heart in the bargain in this charming romantic comedy. After Edward hires Vivian as his date for a week and gives her a Cinderella makeover, she returns the favor by mellowing the hardnosed tycoon's outlook. Can the poor prostitute and the rich capitalist live happily ever after?",
+        "release_date": "1990-03-23",
+        "release_year": "1990",
+        "title": "Pretty Woman"
+      },
+      {
+        "cast": [
+          "Natasha Lyonne",
+          "Brandt Wille",
+          "Bud Cort",
+          "Michelle Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jamie Babbit",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Megan is an all-American girl. A cheerleader. She has a boyfriend. But Megan doesn't like kissing her boyfriend very much. And she's pretty touchy with her cheerleader friends. Her conservative parents worry that she must be a lesbian and send her off to \"sexual redirection\" school, where she must learn how to be straight.",
+        "release_date": "1999-09-12",
+        "release_year": "1999",
+        "title": "But I'm a Cheerleader"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Janet Margolin",
+          "Marcel Hillaire",
+          "Jacquelyn Hyde"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The life and times of Virgil Starkwell, inept bank robber.",
+        "release_date": "1969-08-18",
+        "release_year": "1969",
+        "title": "Take the Money and Run"
+      },
+      {
+        "cast": [
+          "Evan C. Kim",
+          "Bong Soo Han",
+          "Marilyn Joi",
+          "Saul Kahan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A series of loosely connected skits that spoof news programs, commercials, porno films, kung-fu films, disaster films, blaxploitation films, spy films, mafia films, and the fear that somebody is watching you on the other side of the TV.",
+        "release_date": "1977-08-10",
+        "release_year": "1977",
+        "title": "Kentucky Fried Movie, The"
+      }
+    ],
+    "raw_user_id": "4933",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 241
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1002248123122325
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative reception of films with low ratings in drama and comedy",
+        "Dislike for certain musicals as indicated by low ratings",
+        "Negative response to films with mystery elements"
+      ],
+      "liked_patterns": [
+        "Preference for musicals and comedies with positive ratings",
+        "Strong appreciation for action and adventure films",
+        "Enjoyment of dramas with a mix of romance and historical themes"
+      ],
+      "summary": "Unique tastes: Appreciation for musicals (Enjoyment of musicals is evident from multiple ratings of 3 or above for films in this genre.); Interest in drama (A significant number of dramas received favorable ratings, indicating a strong preference for this genre.); Fondness for comedy (Several comedies were rated positively, suggesting a liking for humor in films.); Enjoyment of action films (High ratings for action films indicate a strong preference for this genre.); Affinity for animated films (Positive ratings for animated features suggest a liking for this genre.). Liked patterns: Preference for musicals and comedies with positive ratings, Strong appreciation for action and adventure films, Enjoyment of dramas with a mix of romance and historical themes. Disliked patterns: Negative reception of films with low ratings in drama and comedy, Dislike for certain musicals as indicated by low ratings, Negative response to films with mystery elements.",
+      "unique_tastes": [
+        {
+          "reason": "Enjoyment of musicals is evident from multiple ratings of 3 or above for films in this genre.",
+          "taste": "Appreciation for musicals"
+        },
+        {
+          "reason": "A significant number of dramas received favorable ratings, indicating a strong preference for this genre.",
+          "taste": "Interest in drama"
+        },
+        {
+          "reason": "Several comedies were rated positively, suggesting a liking for humor in films.",
+          "taste": "Fondness for comedy"
+        },
+        {
+          "reason": "High ratings for action films indicate a strong preference for this genre.",
+          "taste": "Enjoyment of action films"
+        },
+        {
+          "reason": "Positive ratings for animated features suggest a liking for this genre.",
+          "taste": "Affinity for animated films"
+        }
+      ]
+    },
+    "user_id": 4933
+  }
+}

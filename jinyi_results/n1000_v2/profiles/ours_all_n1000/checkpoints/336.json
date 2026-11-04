@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "d199520582953fec6e6281ed93f8b49b32b4730b07b976e3659648bbf99fe743",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      897,
+      1969,
+      1994,
+      1260,
+      715,
+      1656,
+      755,
+      69,
+      991,
+      1019
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "c1731e9fe53846fdb55aa952eede4305"
+    ],
+    "sampled_item_ids": [
+      27,
+      45,
+      98,
+      156,
+      218,
+      559,
+      587,
+      606,
+      642,
+      677,
+      725,
+      784,
+      861,
+      865,
+      897,
+      965,
+      971,
+      992,
+      1015,
+      1076,
+      1215,
+      1251,
+      1665,
+      1723,
+      1892
+    ],
+    "seed": 42,
+    "source_hash": "39e20c378995a66855d6d5f7642659c278baa64e55d734554030a4206d1ca62c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 336,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Robert Redford",
+          "Sidney Poitier",
+          "Dan Aykroyd",
+          "David Strathairn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phil Alden Robinson",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When shadowy U.S. intelligence agents blackmail a reformed computer hacker and his eccentric team of security experts into stealing a code-breaking 'black box' from a Soviet-funded genius, they uncover a bigger conspiracy. Now, he and his 'sneakers' must save themselves and the world economy by retrieving the box from their blackmailers.",
+        "release_date": "1992-09-09",
+        "release_year": "1992",
+        "title": "Sneakers"
+      },
+      {
+        "cast": [
+          "Xander Berkeley",
+          "Golden Brooks",
+          "Saffron Burrows",
+          "Viveka Davis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Figgis",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A production company begins casting for its next feature, and an up-and-coming actress named Rose tries to manipulate her filmmaker boyfriend, Alex, into giving her a screen test. Alex's wife, Emma, knows about the affair and is considering divorce, while Rose's girlfriend secretly spies on her and attempts to sabotage the relationship. The four storylines in the film were each shot in one take and are shown simultaneously, each taking up a quarter of the screen.",
+        "release_date": "2000-03-22",
+        "release_year": "2000",
+        "title": "Time Code"
+      },
+      {
+        "cast": [
+          "Ken Berry",
+          "Sandy Duncan",
+          "Harry Morgan",
+          "Roddy McDowall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Tokar",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A UFO is stranded on earth and impounded by the US government. Its pilot, a cat with a collar that gives it special powers, including the ability to communicate with humans, has eluded the authorities and seeks the help of a scientist in order to reclaim and repair his ship and get back home.",
+        "release_date": "1978-06-09",
+        "release_year": "1978",
+        "title": "Cat from Outer Space, The"
+      },
+      {
+        "cast": [
+          "Natasha Henstridge",
+          "Ben Kingsley",
+          "Michael Madsen",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Donaldson",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In 1993, the Search for Extra Terrestrial Intelligence Project receives a transmission detailing an alien DNA structure, along with instructions on how to splice it with human DNA. The result is Sil, a sensual but deadly creature who can change from a beautiful woman to an armour-plated killing machine in the blink of an eye.",
+        "release_date": "1995-07-07",
+        "release_year": "1995",
+        "title": "Species"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Michael Biehn",
+          "James Remar",
+          "Paul Reiser"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
+        "release_date": "1986-07-18",
+        "release_year": "1986",
+        "title": "Aliens"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dina Meyer",
+          "Takeshi Kitano",
+          "Ice-T"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Robert Longo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A data courier, literally carrying a data package inside his head, must deliver it before he dies from the burden or is killed by the Yakuza.  In a dystopian 2021, Johnny (Keanu Reeves) is a data trafficker who has an implant that allows him to securely store data too sensitive for regular computer networks. On one delivery run, he accepts a package that not only exceeds the implant's safety limits - and will kill him if the data is not removed in time - but also contains information far more important and valuable than he had ever imagined. On a race against time, he must avoid the assassins sent to kill him and remove the data before it, too, ends his life.",
+        "release_date": "1995-05-26",
+        "release_year": "1995",
+        "title": "Johnny Mnemonic"
+      },
+      {
+        "cast": [
+          "Kyle MacLachlan",
+          "Francesca Annis",
+          "Leonardo Cimino",
+          "Brad Dourif"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 10,191, the world is at war for control of the desert planet Dune – the only place where the time-travel substance 'Spice' can be found. But when one leader gives up control, it's only so he can stage a coup with some unsavory characters.",
+        "release_date": "1984-12-14",
+        "release_year": "1984",
+        "title": "Dune"
+      },
+      {
+        "cast": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Connie Nielsen",
+          "Oliver Reed"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences. His battle skills serve him well, and he becomes one of the most famous and admired men to fight in the Colosseum. Determined to avenge himself against the man who took away his freedom and laid waste to his family, Maximus believes that he can use his fame and skill in the ring to avenge the loss of his family and former glory. As the gladiator begins to challenge his rule, Commodus decides to put his own fighting mettle to the test by squaring off with Maximus in a battle to the death.",
+        "release_date": "2000-05-01",
+        "release_year": "2000",
+        "title": "Gladiator"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "Keith David",
+          "Wilford Brimley",
+          "Donald Moffat"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Scientists in the Antarctic are confronted by a shape-shifting alien that assumes the appearance of the people that it kills.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Thing, The"
+      },
+      {
+        "cast": [
+          "Peter Weller",
+          "Nancy Allen",
+          "Ronny Cox",
+          "Kurtwood Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can use his body to support their untested RoboCop prototype. But when RoboCop learns of the company's nefarious plans, he turns on his masters.",
+        "release_date": "1987-07-17",
+        "release_year": "1987",
+        "title": "Robocop"
+      }
+    ],
+    "raw_user_id": "336",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 87
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.129008372378564
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to comedic sci-fi blends"
+      ],
+      "liked_patterns": [
+        "High ratings for action and sci-fi combinations",
+        "Positive reception of films with fantasy elements",
+        "Favoring family-friendly and adventure themes"
+      ],
+      "summary": "Unique tastes: Sci-Fi Enthusiast (A strong preference for science fiction is evident, with many high ratings for films in this genre.); Action Lover (A significant number of action films received high ratings, indicating a strong affinity for this genre.); Appreciation for Fantasy Elements (Several films that blend fantasy with other genres were rated positively, showing a liking for fantastical themes.); Interest in Thrillers (Thriller elements in various films were well-received, suggesting a taste for suspenseful narratives.); Enjoyment of Family-Friendly Content (Films that cater to children and family audiences received favorable ratings, indicating a preference for light-hearted entertainment.). Liked patterns: High ratings for action and sci-fi combinations, Positive reception of films with fantasy elements, Favoring family-friendly and adventure themes. Disliked patterns: Negative response to comedic sci-fi blends.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for science fiction is evident, with many high ratings for films in this genre.",
+          "taste": "Sci-Fi Enthusiast"
+        },
+        {
+          "reason": "A significant number of action films received high ratings, indicating a strong affinity for this genre.",
+          "taste": "Action Lover"
+        },
+        {
+          "reason": "Several films that blend fantasy with other genres were rated positively, showing a liking for fantastical themes.",
+          "taste": "Appreciation for Fantasy Elements"
+        },
+        {
+          "reason": "Thriller elements in various films were well-received, suggesting a taste for suspenseful narratives.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "Films that cater to children and family audiences received favorable ratings, indicating a preference for light-hearted entertainment.",
+          "taste": "Enjoyment of Family-Friendly Content"
+        }
+      ]
+    },
+    "user_id": 336
+  }
+}

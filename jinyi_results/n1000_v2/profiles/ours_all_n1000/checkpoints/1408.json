@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "affd824bd76bcdd6ff50e44569080f0890669dac3768a9f46aedd8134b0fe4bc",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      971,
+      131,
+      189,
+      432,
+      98,
+      498,
+      851,
+      433,
+      66,
+      1678
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7bb45c58672b4b648c4e5a9d93454ce1"
+    ],
+    "sampled_item_ids": [
+      66,
+      73,
+      87,
+      93,
+      121,
+      134,
+      155,
+      223,
+      490,
+      498,
+      500,
+      565,
+      648,
+      652,
+      796,
+      850,
+      1076,
+      1095,
+      1174,
+      1193,
+      1214,
+      1666,
+      1716,
+      1869,
+      2773
+    ],
+    "seed": 42,
+    "source_hash": "471f51191f6d197920a42b3582763f1fb86a02613f0392f3d17e32b19a3cb76e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1408,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Angela Bassett",
+          "Tom Sizemore",
+          "Juliette Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kathryn Bigelow",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Set in the year 1999 during the last days of the old millennium, the movie tells the story of Lenny Nero, an ex-cop who now deals with data-discs containing recorded memories and emotions. One day he receives a disc which contains the memories of a murderer killing a prostitute. Lenny investigates and is pulled deeper and deeper in a whirl of blackmail, murder and rape. Will he survive and solve the case?",
+        "release_date": "1995-10-13",
+        "release_year": "1995",
+        "title": "Strange Days"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Christian Slater",
+          "Samantha Mathis",
+          "Delroy Lindo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When rogue stealth-fighter pilot Vic Deakins deliberately drops off the radar while on maneuvers, the Air Force ends up with two stolen nuclear warheads -- and Deakins's co-pilot, Riley Hale, is the military's only hope for getting them back. Traversing the deserted canyons of Utah, Hale teams with park ranger Terry Carmichael to put Deakins back in his box.",
+        "release_date": "1996-02-09",
+        "release_year": "1996",
+        "title": "Broken Arrow"
+      },
+      {
+        "cast": [
+          "Wesley Snipes",
+          "Stephen Dorff",
+          "Kris Kristofferson",
+          "N'Bushe Wright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Norrington",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "When Blade's mother was bitten by a vampire during pregnancy, she did not know that she gave her son a special gift while dying: All the good vampire attributes in combination with the best human skills. Blade and his mentor Whistler battle an evil vampire rebel (Deacon Frost) who plans to take over the outdated vampire council, capture Blade and resurrect voracious blood god La Magra.",
+        "release_date": "1998-08-21",
+        "release_year": "1998",
+        "title": "Blade"
+      },
+      {
+        "cast": [
+          "Linda Blair",
+          "Max von Sydow",
+          "Ellen Burstyn",
+          "Jason Miller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Friedkin",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "12-year-old Regan MacNeil begins to adapt an explicit new personality as strange events befall the local area of Georgetown. Her mother becomes torn between science and superstition in a desperate bid to save her daughter, and ultimately turns to her last hope: Father Damien Karras, a troubled priest who is struggling with his own faith.",
+        "release_date": "1973-12-26",
+        "release_year": "1973",
+        "title": "Exorcist, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Chow Yun-fat",
+          "Tony Leung Chiu-Wai",
+          "Anthony Wong",
+          "Teresa Mo"
+        ],
+        "country": [
+          "Hong Kong"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "A cop who loses his partner in a shoot-out with gun smugglers goes on a mission to catch them. In order to get closer to the leaders of the ring he joins forces with an undercover cop who's working as a gangster hitman. They use all means of excessive force to find them.",
+        "release_date": "1992-04-16",
+        "release_year": "1992",
+        "title": "Hard-Boiled (Lashou shentan)"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Wesley Snipes",
+          "Harvey Keitel",
+          "Cary-Hiroyuki Tagawa"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Action",
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When a prostitute is found dead in a Los Angeles skyscraper occupied by a large Japanese corporation, detectives John Conner and Web Smith are called in to investigate. Although Conner has previous experience working in Japan, cultural differences make their progress difficult until a security disc showing the murder turns up. Close scrutiny proves the disc has been doctored, and the detectives realize they're dealing with a cover-up as well.",
+        "release_date": "1993-07-30",
+        "release_year": "1993",
+        "title": "Rising Sun"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Nicolas Cage",
+          "Joan Allen",
+          "Alessandro Nivola"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.",
+        "release_date": "1997-06-27",
+        "release_year": "1997",
+        "title": "Face/Off"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Wesley Snipes",
+          "Robert Downey Jr.",
+          "Joe Pantoliano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stuart Baird",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "U.S. Marshal Sam Gerard is accompanying a plane load of convicts from Chicago to New York. The plane crashes spectacularly, and Mark Sheridan escapes. But when Diplomatic Security Agent John Royce is assigned to help Gerard recapture Sheridan, it becomes clear that Sheridan is more than just another murderer.",
+        "release_date": "1998-03-06",
+        "release_year": "1998",
+        "title": "U.S. Marshalls"
+      },
+      {
+        "cast": [
+          "Mark Wahlberg",
+          "Chow Yun-fat",
+          "Byron Mann",
+          "Kim Chan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Foley",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Danny is a young cop partnered with Nick, a seasoned but ethically tainted veteran. As the two try to stop a gang war in Chinatown, Danny relies on Nick but grows increasingly uncomfortable with the way Nick gets things done.",
+        "release_date": "1999-03-12",
+        "release_year": "1999",
+        "title": "Corruptor, The"
+      }
+    ],
+    "raw_user_id": "1408",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 110
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0716020620845927
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films lacking engaging plots or character depth",
+        "Negative response to action films with poor execution or storytelling",
+        "Dislike for films that mix genres unsuccessfully, particularly in action"
+      ],
+      "liked_patterns": [
+        "Preference for action films with strong narratives and character development",
+        "Enjoyment of action thrillers that maintain suspense and tension",
+        "Positive reception of action films that incorporate comedic elements"
+      ],
+      "summary": "Unique tastes: Action Thrillers (The user enjoys intense narratives with suspenseful elements, as seen in multiple action thrillers rated positively.); Action with Strong Characters (The user appreciates action films that feature strong character development and engaging storylines, reflected in high ratings for such films.); Dramatic Action (The user favors action films that incorporate dramatic themes, indicating a preference for depth in storytelling.); Comedy Elements in Action (The user enjoys action films that blend in comedic elements, as evidenced by positive ratings for such combinations.); Documentary Appreciation (The user shows a liking for documentaries, indicating an interest in real-life narratives and storytelling.). Liked patterns: Preference for action films with strong narratives and character development, Enjoyment of action thrillers that maintain suspense and tension, Positive reception of action films that incorporate comedic elements. Disliked patterns: Dislike for action films lacking engaging plots or character depth, Negative response to action films with poor execution or storytelling, Dislike for films that mix genres unsuccessfully, particularly in action.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys intense narratives with suspenseful elements, as seen in multiple action thrillers rated positively.",
+          "taste": "Action Thrillers"
+        },
+        {
+          "reason": "The user appreciates action films that feature strong character development and engaging storylines, reflected in high ratings for such films.",
+          "taste": "Action with Strong Characters"
+        },
+        {
+          "reason": "The user favors action films that incorporate dramatic themes, indicating a preference for depth in storytelling.",
+          "taste": "Dramatic Action"
+        },
+        {
+          "reason": "The user enjoys action films that blend in comedic elements, as evidenced by positive ratings for such combinations.",
+          "taste": "Comedy Elements in Action"
+        },
+        {
+          "reason": "The user shows a liking for documentaries, indicating an interest in real-life narratives and storytelling.",
+          "taste": "Documentary Appreciation"
+        }
+      ]
+    },
+    "user_id": 1408
+  }
+}

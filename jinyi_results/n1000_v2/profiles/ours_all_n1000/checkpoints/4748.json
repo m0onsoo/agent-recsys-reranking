@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "c44e99991f2807a3ee7e0f70d3db30a30f9de5c8c2a32609066cf266c8214f1e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      45,
+      128,
+      85,
+      438,
+      653,
+      712,
+      911,
+      626,
+      826,
+      1182
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      70,
+      75,
+      80,
+      118,
+      129,
+      206,
+      208,
+      237,
+      462,
+      523,
+      566,
+      588,
+      594,
+      658,
+      660,
+      888,
+      1034,
+      1040,
+      1081,
+      1201,
+      1226,
+      1237,
+      1394,
+      1518,
+      2078
+    ],
+    "seed": 42,
+    "source_hash": "68607efce57d8850954955db5f4a19115bd6dda82e79977e8d6e4491e616982a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4748,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Wil Wheaton",
+          "River Phoenix",
+          "Corey Feldman",
+          "Jerry O'Connell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After the death of a friend, a writer recounts a boyhood journey to find the body of a missing boy.",
+        "release_date": "1986-08-22",
+        "release_year": "1986",
+        "title": "Stand by Me"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Cuba Gooding Jr.",
+          "Renée Zellweger",
+          "Kelly Preston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jerry Maguire used to be a typical sports agent: willing to do just about anything he could to get the biggest possible contracts for his clients, plus a nice commission for himself. Then, one day, he suddenly has second thoughts about what he's really doing. When he voices these doubts, he ends up losing his job and all of his clients, save Rod Tidwell, an egomaniacal football player.",
+        "release_date": "1996-12-06",
+        "release_year": "1996",
+        "title": "Jerry Maguire"
+      },
+      {
+        "cast": [
+          "Charlie Chaplin",
+          "Georgia Hale",
+          "Mack Swain",
+          "Tom Murray"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charlie Chaplin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A lone prospector ventures into Alaska looking for gold. He gets mixed up with some burly characters and falls in love with the beautiful Georgia. He tries to win her heart with his singular charm.",
+        "release_date": "1925-06-25",
+        "release_year": "1925",
+        "title": "Gold Rush, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Gary Busey",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Veteran buttoned-down LAPD detective Roger Murtaugh is partnered with unhinged cop Martin Riggs, who -- distraught after his wife's death -- has a death wish and takes unnecessary risks with criminals at every turn. The odd couple embark on their first homicide investigation as partners, involving a young woman known to Murtaugh with ties to a drug and prostitution ring.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Lethal Weapon"
+      },
+      {
+        "cast": [
+          "Jennifer Love Hewitt",
+          "Sarah Michelle Gellar",
+          "Ryan Phillippe",
+          "Freddie Prinze Jr."
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Gillespie",
+        "genres": [
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "As they celebrate their high school graduation, four friends are involved in a hit-and-run accident when their car hits and apparently kills a pedestrian on an isolated roadway. They dispose of the body and vow to keep the incident a secret, a year later somebody starts sending them letters bearing the warning \"I Know What You Did Last Summer.\"",
+        "release_date": "1997-10-17",
+        "release_year": "1997",
+        "title": "I Know What You Did Last Summer"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Dan Aykroyd",
+          "Jamie Lee Curtis",
+          "Jim Belushi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A snobbish investor and a wily street con-artist find their positions reversed as part of a bet by two callous millionaires.",
+        "release_date": "1983-06-07",
+        "release_year": "1983",
+        "title": "Trading Places"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Billy Crystal",
+          "Lisa Kudrow",
+          "Chazz Palminteri"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Countless wiseguy films are spoofed in this film that centers on the neuroses and angst of a powerful Mafia racketeer who suffers from panic attacks. When Paul Vitti needs help dealing with his role in the \"family,\" unlucky shrink Dr. Ben Sobel is given just days to resolve Vitti's emotional crisis and turn him into a happy, well-adjusted gangster.",
+        "release_date": "1999-03-05",
+        "release_year": "1999",
+        "title": "Analyze This"
+      },
+      {
+        "cast": [
+          "Jack Lemmon",
+          "Walter Matthau",
+          "Ann-Margret",
+          "Burgess Meredith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Donald Petrie",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "For decades, next-door neighbors and former friends John and Max have feuded, trading insults and wicked pranks. When an attractive widow moves in nearby, their bad blood erupts into a high-stakes rivalry full of naughty jokes and adolescent hijinks. Will this love triangle destroy the two old grumps? Or will the geriatric odd couple overcome their differences and rediscover their friendship?",
+        "release_date": "1993-12-25",
+        "release_year": "1993",
+        "title": "Grumpy Old Men"
+      }
+    ],
+    "raw_user_id": "4748",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 291
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9618768084678275
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that are primarily Drama without strong character arcs or engaging plots."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend Drama with other genres like Thriller and Comedy.",
+        "Consistent appreciation for films featuring strong character development and emotional depth.",
+        "Enjoyment of films that incorporate elements of suspense and action."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (Multiple high ratings for films in the Drama genre, indicating a deep appreciation for character-driven narratives.); Enjoyment of Thrillers (Consistent high ratings for Thriller films suggest a liking for suspenseful and intense storytelling.); Appreciation for Comedy (High ratings for various comedies indicate a strong enjoyment of humor and light-hearted themes.); Interest in Action and Adventure (Several high ratings for Action and Adventure films show a preference for excitement and dynamic storytelling.); Fondness for Animation and Family-friendly films (High ratings for animated and children's films reflect a liking for family-oriented entertainment.). Liked patterns: High ratings for films that blend Drama with other genres like Thriller and Comedy., Consistent appreciation for films featuring strong character development and emotional depth., Enjoyment of films that incorporate elements of suspense and action.. Disliked patterns: Low ratings for films that are primarily Drama without strong character arcs or engaging plots..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for films in the Drama genre, indicating a deep appreciation for character-driven narratives.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Consistent high ratings for Thriller films suggest a liking for suspenseful and intense storytelling.",
+          "taste": "Enjoyment of Thrillers"
+        },
+        {
+          "reason": "High ratings for various comedies indicate a strong enjoyment of humor and light-hearted themes.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "Several high ratings for Action and Adventure films show a preference for excitement and dynamic storytelling.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "High ratings for animated and children's films reflect a liking for family-oriented entertainment.",
+          "taste": "Fondness for Animation and Family-friendly films"
+        }
+      ]
+    },
+    "user_id": 4748
+  }
+}

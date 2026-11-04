@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "c751bfe1720f806a164e9cce6afcee05d6e421564fec7b3d95f88f06eb62fe6a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      335,
+      185,
+      44,
+      274,
+      318,
+      863,
+      278,
+      874,
+      648,
+      292
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "61c1703458534ec8a3624da304a75977"
+    ],
+    "sampled_item_ids": [
+      4,
+      44,
+      185,
+      220,
+      224,
+      244,
+      274,
+      292,
+      316,
+      335,
+      351,
+      364,
+      373,
+      446,
+      501,
+      509,
+      513,
+      789,
+      791,
+      863,
+      874,
+      969,
+      1655,
+      2137,
+      2233
+    ],
+    "seed": 42,
+    "source_hash": "c7c29e975ebe1dfd4f0f53868e471a42e4687a974622c48955c1d289eae28ffd",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 145,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jane Adams",
+          "Jon Lovitz",
+          "Philip Seymour Hoffman",
+          "Dylan Baker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Todd Solondz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The lives of many individuals connected by the desire for happiness, often from sources usually considered dark or evil.",
+        "release_date": "1998-10-16",
+        "release_year": "1998",
+        "title": "Happiness"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Franka Potente",
+          "Moritz Bleibtreu",
+          "Herbert Knaup",
+          "Nina Petri"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Tom Tykwer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store to get the money. Three different alternatives may happen depending on some minor event along Lola's run.",
+        "release_date": "1998-08-20",
+        "release_year": "1998",
+        "title": "Run Lola Run (Lola rennt)"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Dan Aykroyd",
+          "Sigourney Weaver",
+          "Harold Ramis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Ghostbusters"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Heath Ledger",
+          "Julia Stiles",
+          "Joseph Gordon-Levitt",
+          "Larisa Oleynik"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gil Junger",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Bianca, a tenth grader, has never gone on a date, but she isn't allowed to go out with boys until her older sister Kat gets a boyfriend. The problem is, Kat rubs nearly everyone the wrong way. But Bianca and the guy she has her eye on, Joey, are eager, so Joey fixes Kat up with Patrick, a new kid in town just bitter enough for Kat.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "10 Things I Hate About You"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Tim Robbins",
+          "Joan Cusack",
+          "Hope Davis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Pellington",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Threats from sinister foreign nationals aren't the only thing to fear. Bedraggled college professor Michael Faraday has been vexed (and increasingly paranoid) since his wife's accidental death in a botched FBI operation. But all that takes a backseat when a seemingly all-American couple set up house next door.",
+        "release_date": "1999-03-19",
+        "release_year": "1999",
+        "title": "Arlington Road"
+      },
+      {
+        "cast": [
+          "Michael Keaton",
+          "Danny DeVito",
+          "Michelle Pfeiffer",
+          "Christopher Walken"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Having defeated the Joker, Batman now faces the Penguin - a warped and deformed individual who is intent on being accepted into Gotham society. Crooked businessman Max Schreck is coerced into helping him become Mayor of Gotham and they both attempt to expose Batman in a different light. Selina Kyle, Max's secretary, is thrown from the top of a building and is transformed into Catwoman - a mysterious figure who has the same personality disorder as Batman. Batman must attempt to clear his name, all the time deciding just what must be done with the Catwoman.",
+        "release_date": "1992-06-19",
+        "release_year": "1992",
+        "title": "Batman Returns"
+      },
+      {
+        "cast": [
+          "Sarah Polley",
+          "Katie Holmes",
+          "Jay Mohr",
+          "Timothy Olyphant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Doug Liman",
+        "genres": [
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Told from three perspectives, a story of a bunch of young Californians trying to get some cash, do and deal some drugs, score money and sex in Las Vegas, and generally experience the rush of life.",
+        "release_date": "1999-04-09",
+        "release_year": "1999",
+        "title": "Go"
+      }
+    ],
+    "raw_user_id": "145",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 33
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.427534529972755
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films with poorly executed humor",
+        "Negative reception of horror films that lack depth or originality",
+        "Discontent with films that attempt to blend genres unsuccessfully"
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and character-driven stories",
+        "High ratings for comedies with unique or satirical elements",
+        "Enjoyment of films that blend genres, particularly crime and thriller"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (Multiple comedies receive favorable ratings, suggesting a liking for humor and lighthearted storytelling.); Interest in Crime and Thriller Elements (The user shows a preference for films that incorporate crime and thriller elements, as evidenced by several high ratings in these genres.); Affinity for Unique Storytelling (The user enjoys films with unconventional plots or themes, as seen in the high ratings for films that explore unique narratives.); Mixed Feelings Towards Horror (The user rates some horror films positively while others receive low ratings, indicating a selective appreciation for the genre.). Liked patterns: Strong preference for drama and character-driven stories, High ratings for comedies with unique or satirical elements, Enjoyment of films that blend genres, particularly crime and thriller. Disliked patterns: Dislike for films with poorly executed humor, Negative reception of horror films that lack depth or originality, Discontent with films that attempt to blend genres unsuccessfully.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Multiple comedies receive favorable ratings, suggesting a liking for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a preference for films that incorporate crime and thriller elements, as evidenced by several high ratings in these genres.",
+          "taste": "Interest in Crime and Thriller Elements"
+        },
+        {
+          "reason": "The user enjoys films with unconventional plots or themes, as seen in the high ratings for films that explore unique narratives.",
+          "taste": "Affinity for Unique Storytelling"
+        },
+        {
+          "reason": "The user rates some horror films positively while others receive low ratings, indicating a selective appreciation for the genre.",
+          "taste": "Mixed Feelings Towards Horror"
+        }
+      ]
+    },
+    "user_id": 145
+  }
+}

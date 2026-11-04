@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "6a20fc460eb62978ec8ec06b86ece74bcb4d0d8d98290c8f3fc927611f09b79d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      49,
+      52,
+      538,
+      211,
+      771,
+      245,
+      243,
+      367,
+      597,
+      42
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "1e1088fe0a1e481c9f147951196c669e"
+    ],
+    "sampled_item_ids": [
+      8,
+      14,
+      16,
+      27,
+      39,
+      42,
+      49,
+      52,
+      58,
+      65,
+      85,
+      105,
+      129,
+      176,
+      211,
+      284,
+      421,
+      435,
+      508,
+      598,
+      749,
+      771,
+      1299,
+      1366,
+      1459
+    ],
+    "seed": 42,
+    "source_hash": "f9c254a8247abcf73da17fc7da27e9e9a29e2e2db4e5e0b4e4f1cc0104abe1a8",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3880,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Dana Carvey",
+          "Rob Lowe",
+          "Tia Carrere"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penelope Spheeris",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a sleazy TV exec offers Wayne and Garth a fat contract to tape their late-night public access show at his network, they can't believe their good fortune. But they soon discover the road from basement to big-time is a gnarly one, fraught with danger, temptation and ragin' party opportunities.",
+        "release_date": "1992-02-14",
+        "release_year": "1992",
+        "title": "Wayne's World"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Alan Rickman",
+          "Alexander Godunov",
+          "Bonnie Bedelia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "NYPD cop, John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Die Hard"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Robert Shaw",
+          "Charles Durning"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Set in the 1930's this intricate caper deals with an ambitious small-time crook and a veteran con man who seek revenge on a vicious crime lord who murdered one of their gang.",
+        "release_date": "1973-12-25",
+        "release_year": "1973",
+        "title": "Sting, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Morgan Freeman",
+          "Gwyneth Paltrow",
+          "John C. McGinley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+        "release_date": "1995-09-22",
+        "release_year": "1995",
+        "title": "Seven (Se7en)"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Jack Lemmon",
+          "Alec Baldwin",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Foley",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Glengarry Glen Ross, follows the lives of four unethical Chicago real estate agents who are prepared to go to any lengths (legal or illegal) to unload undesirable real estate on unwilling prospective buyers.",
+        "release_date": "1992-09-15",
+        "release_year": "1992",
+        "title": "Glengarry Glen Ross"
+      },
+      {
+        "cast": [
+          "Bruce Reitherman",
+          "Phil Harris",
+          "Sebastian Cabot",
+          "Louis Prima"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Reitherman",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "The boy Mowgli makes his way to the man-village with Bagheera, the wise panther. Along the way he meets jazzy King Louie, the hypnotic snake Kaa and the lovable, happy-go-lucky bear Baloo, who teaches Mowgli \"The Bare Necessities\" of life and the true meaning of friendship.",
+        "release_date": "1967-10-17",
+        "release_year": "1967",
+        "title": "Jungle Book, The"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Tom Cruise",
+          "Valeria Golino",
+          "Gerald R. Molen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.",
+        "release_date": "1988-12-11",
+        "release_year": "1988",
+        "title": "Rain Man"
+      }
+    ],
+    "raw_user_id": "3880",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 47
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.2005627736150537
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for horror films that fail to engage or entertain.",
+        "Low ratings for films that primarily focus on romance without strong narrative support."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with drama.",
+        "Strong appreciation for films that combine action with dramatic storytelling.",
+        "Consistent enjoyment of thrillers that offer suspense and psychological depth."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys light-hearted narratives and humor, as evidenced by multiple high ratings for comedies.); Drama (The user appreciates emotional depth and character-driven stories, reflected in their ratings for various dramatic films.); Thriller (The user is drawn to suspenseful and intense narratives, indicated by high ratings for thriller films.); Action (The user enjoys dynamic and engaging action sequences, as shown by their ratings for action films.); Romance (The user has a preference for romantic elements within films, as seen in their ratings for movies that blend romance with other genres.). Liked patterns: High ratings for comedies that blend humor with drama., Strong appreciation for films that combine action with dramatic storytelling., Consistent enjoyment of thrillers that offer suspense and psychological depth.. Disliked patterns: Negative ratings for horror films that fail to engage or entertain., Low ratings for films that primarily focus on romance without strong narrative support..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted narratives and humor, as evidenced by multiple high ratings for comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates emotional depth and character-driven stories, reflected in their ratings for various dramatic films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user is drawn to suspenseful and intense narratives, indicated by high ratings for thriller films.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user enjoys dynamic and engaging action sequences, as shown by their ratings for action films.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user has a preference for romantic elements within films, as seen in their ratings for movies that blend romance with other genres.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 3880
+  }
+}

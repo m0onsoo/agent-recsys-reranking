@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "af4ee6c536e0e84a54605a1bbf7a5e1397b168d183c0dd8f132d489aad98e0ac",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      245,
+      126,
+      114,
+      167,
+      151,
+      1199,
+      2172,
+      149,
+      124,
+      196
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "3fbf7d8e597640c8abf7f7ddc8c467ab"
+    ],
+    "sampled_item_ids": [
+      23,
+      61,
+      63,
+      114,
+      124,
+      126,
+      149,
+      151,
+      154,
+      167,
+      190,
+      194,
+      196,
+      245,
+      377,
+      1037,
+      1199,
+      1299,
+      2172
+    ],
+    "seed": 42,
+    "source_hash": "a01900030c373288ee2b011e4ea0bd6b4c44a913416525f4761149dc94b111a4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2549,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "retired"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "John Cusack",
+          "John Malkovich",
+          "Ving Rhames"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Simon West",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When the government puts all its rotten criminal eggs in one airborne basket, it's asking for trouble. Before you can say, \"Pass the barf bag,\" the crooks control the plane, led by creepy Cyrus \"The Virus\" Grissom. Watching his every move is the just-released Cameron Poe, who'd rather reunite with his family.",
+        "release_date": "1997-06-01",
+        "release_year": "1997",
+        "title": "Con Air"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Anthony Hopkins",
+          "Catherine Zeta-Jones",
+          "Stuart Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "It has been twenty years since Don Diego de la Vega fought Spanish oppression in Alta California as the legendary romantic hero, Zorro. Having escaped from prison he transforms troubled bandit Alejandro into his successor, in order to foil the plans of the tyrannical Don Rafael Montero who robbed him of his freedom, his wife and his precious daughter.",
+        "release_date": "1998-07-16",
+        "release_year": "1998",
+        "title": "Mask of Zorro, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Willem Dafoe",
+          "Anne Archer",
+          "Joaquim de Almeida"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "CIA Analyst Jack Ryan is drawn into an illegal war fought by the US government against a Colombian drug cartel.",
+        "release_date": "1994-08-03",
+        "release_year": "1994",
+        "title": "Clear and Present Danger"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "Stacy Keach",
+          "Steve Buscemi",
+          "Pam Grier"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "This time, a cataclysmic temblor hits Los Angeles, turning it into an island. The president views the quake as a sign from above, expels Los Angeles from the country and makes it a penal colony for those found guilty of moral crimes. When his daughter, part of a resistance movement, steals the control unit for a doomsday weapon, Snake again gets tapped to save the day.",
+        "release_date": "1996-08-09",
+        "release_year": "1996",
+        "title": "Escape from L.A."
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Carol Cheng",
+          "Eva Cobo",
+          "Shôko Ikeda"
+        ],
+        "country": [
+          "Hong Kong"
+        ],
+        "director": "Jackie Chan",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "Agent Jackie is hired to find WWII Nazi gold hidden in the Sahara desert. He teams up with three bungling women (the 3 stooges?) who are all connected in some way. However a team of mercenries have ideas on the ownership of the gold. A battle / chase ensues as to who gets there first. Lots of choregraphed Kung-Fu and quirky Chan humor.",
+        "release_date": "1991-02-07",
+        "release_year": "1990",
+        "title": "Operation Condor (Feiying gaiwak)"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Jamie Lee Curtis",
+          "Tom Arnold",
+          "Bill Paxton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Harry Tasker is a secret agent for the United States Government. For years, he has kept his job from his wife, but is forced to reveal his identity and try to stop nuclear terrorists when he and his wife are kidnapped by them.",
+        "release_date": "1994-07-14",
+        "release_year": "1994",
+        "title": "True Lies"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Mary McDonnell",
+          "Graham Greene",
+          "Rodney A. Grant"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kevin Costner",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Wounded Civil War soldier, John Dunbar tries to commit suicide – and becomes a hero instead. As a reward, he's assigned to his dream post, a remote junction on the Western frontier, and soon makes unlikely friends with the local Sioux tribe.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Dances with Wolves"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Nicolas Cage",
+          "Ed Harris",
+          "John Spencer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A group of renegade marine commandos seizes a stockpile of chemical weapons and takes over Alcatraz, with 81 tourists as hostages. Their leader demands $100 million to be paid, as restitution to families of Marines who died in covert ops – or he will launch 15 rockets carrying deadly VX gas into the San Francisco Bay area.",
+        "release_date": "1996-06-06",
+        "release_year": "1996",
+        "title": "Rock, The"
+      }
+    ],
+    "raw_user_id": "2549",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 19
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.5339529329250423
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislikes films that are purely action without depth.",
+        "Dislikes poorly received sci-fi films.",
+        "Dislikes films that attempt to blend genres unsuccessfully."
+      ],
+      "liked_patterns": [
+        "Enjoys action and adventure films with comedic elements.",
+        "Prefers films that combine drama with romance.",
+        "Likes thrillers that incorporate action."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.); Comedy (The user appreciates humor, particularly in action and adventure contexts, reflected in several liked titles.); Drama and Romance (The user has a preference for films that blend drama with romantic elements, indicated by high ratings for such genres.); Thriller Elements (The user is drawn to thrillers, especially when combined with action and adventure, as shown in their ratings.); Sci-Fi (The user shows an interest in science fiction, particularly when it intersects with action and adventure.). Liked patterns: Enjoys action and adventure films with comedic elements., Prefers films that combine drama with romance., Likes thrillers that incorporate action.. Disliked patterns: Dislikes films that are purely action without depth., Dislikes poorly received sci-fi films., Dislikes films that attempt to blend genres unsuccessfully..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates humor, particularly in action and adventure contexts, reflected in several liked titles.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user has a preference for films that blend drama with romantic elements, indicated by high ratings for such genres.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "The user is drawn to thrillers, especially when combined with action and adventure, as shown in their ratings.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user shows an interest in science fiction, particularly when it intersects with action and adventure.",
+          "taste": "Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 2549
+  }
+}

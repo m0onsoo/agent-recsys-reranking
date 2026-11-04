@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "25d600b58d7236fa9cf13937cf66f9f392941b7b46e2b96d4db027afafa7803b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1737,
+      86,
+      185,
+      1302,
+      940,
+      60,
+      535,
+      1252,
+      277,
+      172
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d151295e027341369325f7368979665d"
+    ],
+    "sampled_item_ids": [
+      9,
+      31,
+      43,
+      51,
+      61,
+      128,
+      165,
+      168,
+      172,
+      176,
+      178,
+      245,
+      261,
+      277,
+      391,
+      444,
+      752,
+      995,
+      1043,
+      1050,
+      1252,
+      1302,
+      1731,
+      1948,
+      2422
+    ],
+    "seed": 42,
+    "source_hash": "7d5516f735fbd3dd346662637e9a2e64a1b8232b364a76e1ea60db966cd245c7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2027,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "homemaker"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Donald Pleasence",
+          "Paul Rudd",
+          "Marianne Hagan",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Chappelle",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Six years ago, Michael Myers terrorized the town of Haddonfield, Illinois. He and his niece, Jamie Lloyd, have disappeared. Jamie was kidnapped by a bunch of evil druids who protect Michael Myers. And now, six years later, Jamie has escaped after giving birth to Michael's child. She runs to Haddonfield to get Dr. Loomis to help her again.",
+        "release_date": "1995-09-29",
+        "release_year": "1995",
+        "title": "Halloween: The Curse of Michael Myers"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Michael Clarke Duncan",
+          "David Morse",
+          "Bonnie Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cellblock's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Green Mile, The"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Molly Ringwald",
+          "Justin Henry",
+          "Michael Schoeffling",
+          "Haviland Morris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A teenage girls deals with her parents forgetting her birthday and a crush on her high school's heartthrob.",
+        "release_date": "1984-05-04",
+        "release_year": "1984",
+        "title": "Sixteen Candles"
+      },
+      {
+        "cast": [
+          "Eli Marienthal",
+          "Jennifer Aniston",
+          "Vin Diesel",
+          "Christopher McDonald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brad Bird",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "In the small town of Rockwell, Maine in October 1957, a giant metal machine befriends a nine-year-old boy and ultimately finds its humanity by unselfishly saving people from their own fears and prejudices.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Iron Giant, The"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jack Nicholson",
+          "Demi Moore",
+          "Kevin Bacon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When cocky military lawyer Lt. Daniel Kaffee and his co-counsel, Lt. Cmdr. JoAnne Galloway, are assigned to a murder case, they uncover a hazing ritual that could implicate high-ranking officials such as shady Col. Nathan Jessep.",
+        "release_date": "1992-12-11",
+        "release_year": "1992",
+        "title": "Few Good Men, A"
+      },
+      {
+        "cast": [
+          "Joe Pesci",
+          "Ralph Macchio",
+          "Marisa Tomei",
+          "Mitchell Whitfield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Lynn",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two carefree pals traveling through Alabama are mistakenly arrested, and charged with murder. Fortunately, one of them has a cousin who's a lawyer - Vincent Gambini, a former auto mechanic from Brooklyn who just passed his bar exam after his sixth try. When he arrives with his leather-clad girlfriend , to try his first case, it's a real shock - for him and the Deep South!",
+        "release_date": "1992-03-13",
+        "release_year": "1992",
+        "title": "My Cousin Vinny"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Charles Grodin",
+          "Yaphet Kotto",
+          "John Ashton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Brest",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "An accountant embezzles $15 million of mob money, jumps bail and is chased by bounty hunters, the FBI, and the Mafia.",
+        "release_date": "1988-07-20",
+        "release_year": "1988",
+        "title": "Midnight Run"
+      },
+      {
+        "cast": [
+          "Robert Crumb",
+          "Aline Kominsky",
+          "Charles Crumb",
+          "Maxon Crumb"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Zwigoff",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "This movie chronicles the life and times of R. Crumb. Robert Crumb is the cartoonist/artist who drew Keep On Truckin', Fritz the Cat, and played a major pioneering role in the genesis of underground comix. Through interviews with his mother, two brothers, wife, and ex-girlfriends, as well as selections from his vast quantity of graphic art, we are treated to a darkly comic ride through one man's subconscious mind.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Crumb"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Robin Wright",
+          "Gary Sinise",
+          "Mykelti Williamson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events - in each case, far exceeding what anyone imagined he could do. Yet, despite all the things he has attained, his one true love eludes him. 'Forrest Gump' is the story of a man who rose above his challenges, and who proved that determination, courage, and love are more important than ability.",
+        "release_date": "1994-07-06",
+        "release_year": "1994",
+        "title": "Forrest Gump"
+      }
+    ],
+    "raw_user_id": "2027",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 85
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6847817659746294
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for certain documentaries",
+        "Dislike for specific sci-fi films"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films and children's stories",
+        "Positive reception of comedy-drama hybrids",
+        "Strong appreciation for dramatic narratives"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Children's Films (The user enjoys animated films and children's stories, as indicated by multiple ratings of 3 or higher in this genre.); Fondness for Comedy and Drama Blends (The user rates several films that combine comedy and drama highly, suggesting a preference for narratives that balance humor with emotional depth.); Interest in Action and Adventure (The user has rated several action and adventure films positively, indicating a liking for thrilling and dynamic storytelling.); Enjoyment of Strong Dramatic Narratives (The user has given high ratings to films with strong dramatic themes, reflecting a preference for impactful storytelling.); Preference for Musicals (The user has rated musicals positively, showing an appreciation for music and performance in film.). Liked patterns: High ratings for animated films and children's stories, Positive reception of comedy-drama hybrids, Strong appreciation for dramatic narratives. Disliked patterns: Negative ratings for certain documentaries, Dislike for specific sci-fi films.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films and children's stories, as indicated by multiple ratings of 3 or higher in this genre.",
+          "taste": "Appreciation for Animation and Children's Films"
+        },
+        {
+          "reason": "The user rates several films that combine comedy and drama highly, suggesting a preference for narratives that balance humor with emotional depth.",
+          "taste": "Fondness for Comedy and Drama Blends"
+        },
+        {
+          "reason": "The user has rated several action and adventure films positively, indicating a liking for thrilling and dynamic storytelling.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user has given high ratings to films with strong dramatic themes, reflecting a preference for impactful storytelling.",
+          "taste": "Enjoyment of Strong Dramatic Narratives"
+        },
+        {
+          "reason": "The user has rated musicals positively, showing an appreciation for music and performance in film.",
+          "taste": "Preference for Musicals"
+        }
+      ]
+    },
+    "user_id": 2027
+  }
+}

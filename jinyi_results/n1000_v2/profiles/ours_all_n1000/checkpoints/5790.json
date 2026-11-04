@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "474ad837c0c336e77021898c1d60d5b99f9e8e379c82d199cbb8841495d554e2",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      10,
+      117,
+      202,
+      274,
+      916,
+      779,
+      539,
+      45,
+      397,
+      184
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      14,
+      49,
+      85,
+      88,
+      117,
+      129,
+      146,
+      195,
+      211,
+      218,
+      245,
+      260,
+      274,
+      327,
+      397,
+      480,
+      566,
+      670,
+      800,
+      824,
+      877,
+      1159,
+      1191,
+      1367,
+      2023
+    ],
+    "seed": 42,
+    "source_hash": "1a27804b8c13d0d014f5c45aca180edbce73ee395a0fe34a891c7eba83839816",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5790,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Judy Garland",
+          "Frank Morgan",
+          "Ray Bolger",
+          "Bert Lahr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+        "release_date": "1939-08-15",
+        "release_year": "1939",
+        "title": "Wizard of Oz, The"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Andie MacDowell",
+          "Chris Elliott",
+          "Stephen Tobolowsky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "release_date": "1993-02-11",
+        "release_year": "1993",
+        "title": "Groundhog Day"
+      },
+      {
+        "cast": [
+          "Peter Fonda",
+          "Dennis Hopper",
+          "Antonio Mendoza",
+          "Phil Spector"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dennis Hopper",
+        "genres": [
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A cross-country trip to sell drugs puts two hippie bikers on a collision course with small-town prejudices.",
+        "release_date": "1969-05-07",
+        "release_year": "1969",
+        "title": "Easy Rider"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Dan Aykroyd",
+          "Sigourney Weaver",
+          "Harold Ramis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Ghostbusters"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Michelle Pfeiffer",
+          "Rob Reiner",
+          "Colleen Rennison"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ben and Katie Jordan are a married couple who go through hard times in fifteen years of marriage.",
+        "release_date": "1999-10-13",
+        "release_year": "1999",
+        "title": "Story of Us, The"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "Cesar Romero",
+          "Joe Flynn",
+          "William Schallert"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Butler",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Some college students manage to persuade the town's big businessman, A. J. Arno, to donate a computer to their college. When the problem- student, Dexter Riley, tries to fix the computer, he gets an electric shock and his brain turns to a computer; now he remembers everything he reads. Unfortunately, he also remembers information which was in the computer's memory, like Arno's illegal businesses..",
+        "release_date": "1969-12-29",
+        "release_year": "1970",
+        "title": "Computer Wore Tennis Shoes, The"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Matthew McConaughey",
+          "James Woods",
+          "John Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Contact is a science fiction film about an encounter with alien intelligence. Based on the novel by Carl Sagan the film starred Jodie Foster as the one chosen scientist who must make some difficult decisions between her beliefs, the truth, and reality.",
+        "release_date": "1997-07-11",
+        "release_year": "1997",
+        "title": "Contact"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Richard Gere",
+          "Ralph Bellamy",
+          "Jason Alexander"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Garry Marshall",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When millionaire wheeler-dealer Edward Lewis enters a business contract with Hollywood hooker Vivian Ward, he loses his heart in the bargain in this charming romantic comedy. After Edward hires Vivian as his date for a week and gives her a Cinderella makeover, she returns the favor by mellowing the hardnosed tycoon's outlook. Can the poor prostitute and the rich capitalist live happily ever after?",
+        "release_date": "1990-03-23",
+        "release_year": "1990",
+        "title": "Pretty Woman"
+      },
+      {
+        "cast": [
+          "John Cleese",
+          "Jamie Lee Curtis",
+          "Kevin Kline",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Charles Crichton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A diamond advocate is attempting to steal a collection of diamonds, yet troubles arise when he realizes that he is not the only one after the diamonds.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Fish Called Wanda, A"
+      }
+    ],
+    "raw_user_id": "5790",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 75
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7736289593486447
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for films that may lack engaging narratives or character depth."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as action-comedy and drama-comedy.",
+        "Consistent appreciation for films featuring strong character development and emotional depth."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (The user consistently rates comedies positively, suggesting a fondness for humor and lighthearted storytelling.); Interest in Action and Thrillers (The user shows a liking for action and thriller genres, as evidenced by high ratings for several films in these categories.); Favoring Complex Characters (The user seems to appreciate films with complex characters and moral dilemmas, as seen in their ratings for dramas and thrillers.); Affinity for War Themes (The user rates war-themed films positively, indicating an interest in stories that explore conflict and its consequences.). Liked patterns: High ratings for films that blend genres, such as action-comedy and drama-comedy., Consistent appreciation for films featuring strong character development and emotional depth.. Disliked patterns: Negative ratings for films that may lack engaging narratives or character depth..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user consistently rates comedies positively, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for action and thriller genres, as evidenced by high ratings for several films in these categories.",
+          "taste": "Interest in Action and Thrillers"
+        },
+        {
+          "reason": "The user seems to appreciate films with complex characters and moral dilemmas, as seen in their ratings for dramas and thrillers.",
+          "taste": "Favoring Complex Characters"
+        },
+        {
+          "reason": "The user rates war-themed films positively, indicating an interest in stories that explore conflict and its consequences.",
+          "taste": "Affinity for War Themes"
+        }
+      ]
+    },
+    "user_id": 5790
+  }
+}

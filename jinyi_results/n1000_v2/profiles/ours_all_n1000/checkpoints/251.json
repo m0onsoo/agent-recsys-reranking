@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "a291e757235150cf1a333da6569f3543a62458fe8a723052bd0aa8eddff70b35",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2207,
+      124,
+      1309,
+      91,
+      546,
+      152,
+      784,
+      434,
+      1299,
+      1265
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "78434944ac5e40f3931357e4e6aba5a1"
+    ],
+    "sampled_item_ids": [
+      9,
+      85,
+      98,
+      118,
+      146,
+      149,
+      152,
+      161,
+      169,
+      190,
+      195,
+      241,
+      256,
+      274,
+      398,
+      546,
+      547,
+      606,
+      756,
+      793,
+      917,
+      1015,
+      1245,
+      1257,
+      1309
+    ],
+    "seed": 42,
+    "source_hash": "534b30541d4b428c175e231227ed73949bea801e5dc223b9189d7284cb133b37",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 251,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Miranda Richardson",
+          "Rachael Leigh Cook",
+          "Mickey Rourke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen T. Kay",
+        "genres": [
+          "Action",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Remake of the Michael Caine classic. Jack Carter, a mob enforcer living in Las Vegas, travels back to his hometown of Seattle for his brother's funeral. During this visit, Carter realizes that the death of his brother was not accidental, but a murder. With this knowledge, Carter sets out to kill all those responsible.",
+        "release_date": "2000-10-06",
+        "release_year": "2000",
+        "title": "Get Carter"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Mary McDonnell",
+          "Graham Greene",
+          "Rodney A. Grant"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kevin Costner",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Wounded Civil War soldier, John Dunbar tries to commit suicide – and becomes a hero instead. As a reward, he's assigned to his dream post, a remote junction on the Western frontier, and soon makes unlikely friends with the local Sioux tribe.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Dances with Wolves"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Rebecca De Mornay",
+          "Sean Penn",
+          "Joe Pantoliano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Brickman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Meet Joel Goodson, an industrious, college-bound 17-year-old and a responsible, trustworthy son. However, when his parents go away and leave him home alone in the wealthy Chicago suburbs with the Porsche at his disposal he quickly decides he has been good for too long and it is time to enjoy himself. After an unfortunate incident with the Porsche Joel must raise some cash, in a risky way.",
+        "release_date": "1983-08-05",
+        "release_year": "1983",
+        "title": "Risky Business"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Anne Archer",
+          "Patrick Bergin",
+          "Thora Birch"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When CIA Analyst Jack Ryan interferes with an IRA assassination, a renegade faction targets Jack and his family as revenge.",
+        "release_date": "1992-06-04",
+        "release_year": "1992",
+        "title": "Patriot Games"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Will Patton",
+          "Ryan Hurst",
+          "Wood Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Boaz Yakin",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After leading his football team to 15 winning seasons, coach Bill Yoast is demoted and replaced by Herman Boone – tough, opinionated and as different from the beloved Yoast as he could be. The two men learn to overcome their differences and turn a group of hostile young men into true champions.",
+        "release_date": "2000-09-29",
+        "release_year": "2000",
+        "title": "Remember the Titans"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "Joey Cramer",
+          "Paul Reubens",
+          "Cliff DeYoung",
+          "Veronica Cartwright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Randal Kleiser",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "This 1986 Disney adventure tells the story of 12-year-old David who lives with his family in Fort Lauderdale, Fla. When he awakens from being accidentally knocked out in the forest near his home, he finds that eight years have passed. His family is overjoyed to have him back, but just as perplexed as he is by the fact that he hasn't aged. When a NASA scientist discovers a UFO nearby, David gets the chance to unravel the mystery and recover the life he lost.",
+        "release_date": "1986-07-30",
+        "release_year": "1986",
+        "title": "Flight of the Navigator"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Rene Russo",
+          "John Malkovich",
+          "Dylan McDermott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Veteran Secret Service agent Frank Horrigan is a man haunted by his failure to save President Kennedy while serving protection detail in Dallas. Thirty years later, a man calling himself \"Booth\" threatens the life of the current President, forcing Horrigan to come back to protection detail to confront the ghosts from his past.",
+        "release_date": "1993-07-08",
+        "release_year": "1993",
+        "title": "In the Line of Fire"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Susan Sarandon",
+          "Tim Robbins",
+          "Trey Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Veteran catcher Crash Davis is brought to the minor league Durham Bulls to help their up and coming pitching prospect, \"Nuke\" Laloosh. Their relationship gets off to a rocky start and is further complicated when baseball groupie Annie Savoy sets her sights on the two men.",
+        "release_date": "1988-06-15",
+        "release_year": "1988",
+        "title": "Bull Durham"
+      },
+      {
+        "cast": [
+          "Shirley MacLaine",
+          "Debra Winger",
+          "Jack Nicholson",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Aurora and Emma are mother and daughter who march to different drummers. Beginning with Emma's marriage, Aurora shows how difficult and loving she can be. The movie covers several years of their lives as each finds different reasons to go on living and find joy. Aurora's interludes with Garrett Breedlove, retired astronaut and next door neighbor are quite striking.",
+        "release_date": "1983-11-20",
+        "release_year": "1983",
+        "title": "Terms of Endearment"
+      }
+    ],
+    "raw_user_id": "251",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 59
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5323634498011234
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films lacking depth or engaging plots",
+        "Dislike for comedies that fail to balance humor with substance",
+        "Dislike for war-themed films that do not resonate emotionally"
+      ],
+      "liked_patterns": [
+        "Preference for action films with strong narratives",
+        "Enjoyment of comedies that blend humor with drama",
+        "Attraction to films featuring strong character development"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with adventurous elements, as seen in multiple high-rated action films.); Comedy and Drama (The user appreciates films that blend humor with emotional depth, reflected in several well-rated comedies and dramas.); Thriller Elements (The user is drawn to thrillers, often rating them positively when they incorporate action or crime.); Strong Character Development (The user favors films that showcase strong character arcs and development, particularly in dramas and action films.); Musical Elements (The user enjoys films that incorporate musical elements, as indicated by positive ratings for musicals and comedies with musical components.). Liked patterns: Preference for action films with strong narratives, Enjoyment of comedies that blend humor with drama, Attraction to films featuring strong character development. Disliked patterns: Dislike for action films lacking depth or engaging plots, Dislike for comedies that fail to balance humor with substance, Dislike for war-themed films that do not resonate emotionally.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with adventurous elements, as seen in multiple high-rated action films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that blend humor with emotional depth, reflected in several well-rated comedies and dramas.",
+          "taste": "Comedy and Drama"
+        },
+        {
+          "reason": "The user is drawn to thrillers, often rating them positively when they incorporate action or crime.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user favors films that showcase strong character arcs and development, particularly in dramas and action films.",
+          "taste": "Strong Character Development"
+        },
+        {
+          "reason": "The user enjoys films that incorporate musical elements, as indicated by positive ratings for musicals and comedies with musical components.",
+          "taste": "Musical Elements"
+        }
+      ]
+    },
+    "user_id": 251
+  }
+}

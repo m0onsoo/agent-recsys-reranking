@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "69ec8de2ab762a1d56a977c14ab54e9a0947b0c0c3c14ec7014322086dc2d4ee",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      644,
+      350,
+      976,
+      41,
+      1664,
+      34,
+      729,
+      1227,
+      857,
+      1096
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "142fca7dc1c443ca8dd4d4e6e7952920"
+    ],
+    "sampled_item_ids": [
+      27,
+      94,
+      117,
+      149,
+      212,
+      215,
+      238,
+      323,
+      333,
+      365,
+      378,
+      604,
+      738,
+      757,
+      768,
+      879,
+      897,
+      991,
+      1001,
+      1015,
+      1064,
+      1155,
+      1185,
+      1675,
+      3117
+    ],
+    "seed": 42,
+    "source_hash": "c922c8beef874c60db32a252ebed2077fe183b33d4a93b3f4a27862367575525",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1695,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Owen Wilson",
+          "Lucy Liu",
+          "Xander Berkeley"
+        ],
+        "country": [
+          "Hong Kong",
+          "United States of America"
+        ],
+        "director": "Tom Dey",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Chon Wang, a clumsy imperial guard trails Princess Pei Pei when she is kidnapped from the Forbidden City and transported to America. Wang follows her captors to Nevada, where he teams up with an unlikely partner, outcast outlaw Roy O'Bannon, and tries to spring the princess from her imprisonment.",
+        "release_date": "2000-05-26",
+        "release_year": "2000",
+        "title": "Shanghai Noon"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Lois Chiles",
+          "Michael Lonsdale",
+          "Corinne Cléry"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Lewis Gilbert",
+        "genres": [
+          "Action",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "During the transportation of a Space Shuttle a Boeing 747 crashes in the Atlantic Ocean yet when they go to look for the destroyed shuttle it is not there. James Bond investigates the missing mission space shuttle and soon learns that the shuttles owner Hugo Drax wants to kill all of mankind.",
+        "release_date": "1979-06-26",
+        "release_year": "1979",
+        "title": "Moonraker"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Don Rickles",
+          "Jim Varney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+        "release_date": "1995-10-30",
+        "release_year": "1995",
+        "title": "Toy Story"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Janet Margolin",
+          "Marcel Hillaire",
+          "Jacquelyn Hyde"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The life and times of Virgil Starkwell, inept bank robber.",
+        "release_date": "1969-08-18",
+        "release_year": "1969",
+        "title": "Take the Money and Run"
+      },
+      {
+        "cast": [
+          "Scott Weinger",
+          "Robin Williams",
+          "Linda Larkin",
+          "Jonathan Freeman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Clements",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Princess Jasmine grows tired of being forced to remain in the palace and she sneaks out into the marketplace  in disguise where she meets street-urchin Aladdin and the two fall in love, although she may only marry a prince. After being thrown in jail, Aladdin and becomes embroiled in a plot to find a mysterious lamp with which the evil Jafar hopes to rule the land.",
+        "release_date": "1992-11-25",
+        "release_year": "1992",
+        "title": "Aladdin"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Daniela Bianchi",
+          "Pedro Armendáriz",
+          "Lotte Lenya"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terence Young",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Agent 007 is back in the second installment of the James Bond series, this time battling a secret crime organization known as SPECTRE. Russians Rosa Klebb and Kronsteen are out to snatch a decoding device known as the Lektor, using the ravishing Tatiana to lure Bond into helping them. Bond willingly travels to meet Tatiana in Istanbul, where he must rely on his wits to escape with his life in a series of deadly encounters with the enemy",
+        "release_date": "1963-10-11",
+        "release_year": "1963",
+        "title": "From Russia with Love"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Anita Mui",
+          "Françoise Yip",
+          "Bill Tung"
+        ],
+        "country": [
+          "Hong Kong"
+        ],
+        "director": "Stanley Tong",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "Keong comes from Hong Kong to visit New York for his uncle's wedding. His uncle runs a market in the Bronx and Keong offers to help out while Uncle is on his honeymoon. During his stay in the Bronx, Keong befriends a neighbor kid and beats up some neighborhood thugs who cause problems at the market. One of those petty thugs in the local gang stumbles into a criminal situation way over his head.",
+        "release_date": "1995-01-30",
+        "release_year": "1995",
+        "title": "Rumble in the Bronx"
+      },
+      {
+        "cast": [
+          "Michael York",
+          "Richard Jordan",
+          "Jenny Agutter",
+          "Roscoe Lee Browne"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Anderson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An idyllic sci-fi future has one major drawback: All citizens get a chance of being 'renewed' in a Civic Ceremony at their 30th birthday, unless they run and escape before their time comes.",
+        "release_date": "1976-06-23",
+        "release_year": "1976",
+        "title": "Logan's Run"
+      },
+      {
+        "cast": [
+          "Lea Thompson",
+          "Jeffrey Jones",
+          "Tim Robbins",
+          "Ed Gale"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Willard Huyck",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A scientific experiment unknowingly brings extraterrestrial life forms to the Earth through a laser beam. First is the cigar smoking drake Howard from the duck's planet. A few kids try to keep him from the greedy scientists and help him back to his planet. But then a much less friendly being arrives through the beam...",
+        "release_date": "1986-08-01",
+        "release_year": "1986",
+        "title": "Howard the Duck"
+      }
+    ],
+    "raw_user_id": "1695",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 158
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0197811124138496
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received action films",
+        "Negative response to certain sci-fi films that lack depth",
+        "Dislike for films that do not effectively combine genres"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and sci-fi genres",
+        "Enjoyment of comedies with unique narratives",
+        "Appreciation for films that blend drama with other genres"
+      ],
+      "summary": "Unique tastes: Action and Sci-Fi (The user enjoys a combination of action and sci-fi elements, as seen in multiple highly rated films.); Comedy with a twist (The user appreciates comedies that incorporate unique themes or narratives, reflected in several liked titles.); Thriller elements (The user is drawn to films that blend action with thriller aspects, indicated by their ratings of such movies.); Dramatic narratives (The user shows a preference for films that include dramatic storytelling, particularly when combined with other genres.); Fantasy elements (The user enjoys films that incorporate fantasy elements, as evidenced by their ratings of such movies.). Liked patterns: Strong preference for action and sci-fi genres, Enjoyment of comedies with unique narratives, Appreciation for films that blend drama with other genres. Disliked patterns: Dislike for poorly received action films, Negative response to certain sci-fi films that lack depth, Dislike for films that do not effectively combine genres.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a combination of action and sci-fi elements, as seen in multiple highly rated films.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate unique themes or narratives, reflected in several liked titles.",
+          "taste": "Comedy with a twist"
+        },
+        {
+          "reason": "The user is drawn to films that blend action with thriller aspects, indicated by their ratings of such movies.",
+          "taste": "Thriller elements"
+        },
+        {
+          "reason": "The user shows a preference for films that include dramatic storytelling, particularly when combined with other genres.",
+          "taste": "Dramatic narratives"
+        },
+        {
+          "reason": "The user enjoys films that incorporate fantasy elements, as evidenced by their ratings of such movies.",
+          "taste": "Fantasy elements"
+        }
+      ]
+    },
+    "user_id": 1695
+  }
+}

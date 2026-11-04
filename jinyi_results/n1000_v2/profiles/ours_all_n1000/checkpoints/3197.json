@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "6ba035f01f355b51ff23218c109dc246ba2ad002772523fdc96e665356034b67",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1380,
+      284,
+      239,
+      2844,
+      383,
+      1751,
+      1762,
+      1538,
+      442,
+      1165
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "0896b2c82dfd4fa78a0e96cb82ff67fd"
+    ],
+    "sampled_item_ids": [
+      175,
+      233,
+      273,
+      576,
+      648,
+      732,
+      746,
+      797,
+      1038,
+      1108,
+      1341,
+      1360,
+      1364,
+      1377,
+      1424,
+      1457,
+      1576,
+      1578,
+      1751,
+      1762,
+      1965,
+      2114,
+      2218,
+      2580,
+      2672
+    ],
+    "seed": 42,
+    "source_hash": "2c532382bcf6b33dbdbab2879178d9c901171527ee1b68682e282ef1ee4dec6b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3197,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Demi Moore",
+          "Jeff Daniels",
+          "George Dzundza",
+          "Mary Steenburgen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Hughes",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A clairvoyant woman thinks that she's met her future husband because she's seen him in a dream. They marry and he takes her back to his butcher shop in New York city, where her powers tend to influence everyone she meets while working in the shop. Through her advice, she helps others and eventually finds the true man of her dreams.",
+        "release_date": "1991-10-25",
+        "release_year": "1991",
+        "title": "Butcher's Wife, The"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "Holly Hunter",
+          "Harvey Keitel",
+          "Sam Neill",
+          "Anna Paquin"
+        ],
+        "country": [
+          "New Zealand",
+          "Australia",
+          "France"
+        ],
+        "director": "Jane Campion",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "After a long voyage from Scotland, pianist Ada McGrath and her young daughter, Flora, are left with all their belongings, including a piano, on a New Zealand beach. Ada, who has been mute since childhood, has been sold into marriage to a local man named Alisdair Stewart. Making little attempt to warm up to Alisdair, Ada soon becomes intrigued by his Maori-friendly acquaintance, George Baines, leading to tense, life-altering conflicts.",
+        "release_date": "1993-05-19",
+        "release_year": "1993",
+        "title": "Piano, The"
+      },
+      {
+        "cast": [
+          "Isabelle Huppert",
+          "Martin Donovan",
+          "Elina Löwensohn",
+          "Damian Young"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Hal Hartley",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man wakes up in an alley, bleeding and with no memory of who he is. He stumbles into a coffee shop and is befriended by a charitable ex-nun who is failing in her attempts to write marketable pornography.",
+        "release_date": "1994-08-05",
+        "release_year": "1994",
+        "title": "Amateur"
+      },
+      {
+        "cast": [
+          "Hugh Grant",
+          "Andie MacDowell",
+          "James Fleet",
+          "Simon Callow"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Four Weddings And A Funeral is a British comedy about a British Man named Charles and an American Woman named Carrie who go through numerous weddings before they determine if they are right for one another.",
+        "release_date": "1994-03-09",
+        "release_year": "1994",
+        "title": "Four Weddings and a Funeral"
+      },
+      {
+        "cast": [
+          "Sarah Michelle Gellar",
+          "Sean Patrick Flanery",
+          "Dylan Baker",
+          "Patricia Clarkson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Tarlov",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "After her mother's death, mediocre chef Amanda Shelton is having trouble attracting customers to her family's restaurant. While shopping for ingredients, she is given a magical crab by mysterious Gene O'Reilly. Afterward, Amanda's dishes suddenly become excellent, inducing strong emotional reactions in everyone who eats them. Tom Bartlett, who is preparing to open his own eatery, tries her cooking and falls in love.",
+        "release_date": "1999-02-05",
+        "release_year": "1999",
+        "title": "Simply Irresistible"
+      },
+      {
+        "cast": [
+          "Gene Kelly",
+          "Leslie Caron",
+          "Oscar Levant",
+          "Georges Guétary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Vincente Minnelli",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jerry Mulligan is an exuberant American expatriate in Paris trying to make a reputation as a painter. His friend Adam is a struggling concert pianist who's a long time associate of a famous French singer, Henri Baurel. A lonely society woman, Milo Roberts, takes Jerry under her wing and supports him, but is interested in more than his art.",
+        "release_date": "1951-08-08",
+        "release_year": "1951",
+        "title": "American in Paris, An"
+      },
+      {
+        "cast": [
+          "Matt Dillon",
+          "Kelly Lynch",
+          "James Le Gros",
+          "Heather Graham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Bob and his friends Dianne, Rick and Nadine have been drug addicts for years and live from one high to the next. Gus Van Sant attempts to show an intimate look into the lives of heroin addicts with his film Drugstore Cowboy.",
+        "release_date": "1989-09-09",
+        "release_year": "1989",
+        "title": "Drugstore Cowboy"
+      },
+      {
+        "cast": [
+          "Larenz Tate",
+          "Keith David",
+          "Chris Tucker",
+          "Freddy Rodríguez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Albert Hughes",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Depicts a heist of old bills, retired from circulation and destined by the government to be \"money to burn\". However, more broadly, it addresses the issues of Black Americans' involvement in the Vietnam War and their subsequent disillusionment with progress in social issues and civil rights back home in the United States, during the 1960s.",
+        "release_date": "1995-10-06",
+        "release_year": "1995",
+        "title": "Dead Presidents"
+      },
+      {
+        "cast": [
+          "Jamie Foxx",
+          "Tommy Davidson",
+          "Vivica A. Fox",
+          "Tamala Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeff Pollack",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Rushon is sexually pent-up and ready to take thing things to the next level with his girlfriend, Nikki. But when he calls for a date, she asks to make it a double -- bringing along her brash friend Lysterine, whom Rushon sets up with his lewd buddy, Bunz. Things go better than expected. As the evening transitions from the restaurant to the bedroom, the two men go on a madcap search for what will surely make the night complete: condoms.",
+        "release_date": "1997-02-26",
+        "release_year": "1997",
+        "title": "Booty Call"
+      }
+    ],
+    "raw_user_id": "3197",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 110
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.032514679316859
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or engaging storylines.",
+        "Negative response to musicals that do not resonate emotionally.",
+        "Dislike for films that are overly simplistic in plot or character development."
+      ],
+      "liked_patterns": [
+        "Preference for romantic narratives that combine humor and drama.",
+        "Enjoyment of films that feature strong character development and emotional depth.",
+        "Attraction to crime and action films that also explore romantic themes."
+      ],
+      "summary": "Unique tastes: Romantic Comedies (The user enjoys films that blend romance with humor, as seen in multiple high-rated titles.); Dramatic Narratives (The user appreciates dramas that explore complex themes and character development, reflected in several high ratings.); Crime and Action Elements (The user shows a preference for crime and action genres, particularly when they are intertwined with drama.); Musicals with Romantic Themes (The user enjoys musicals that incorporate romance, as indicated by high ratings for such films.); Thrillers with Romantic Subplots (The user is drawn to thrillers that also include romantic elements, as evidenced by their ratings.). Liked patterns: Preference for romantic narratives that combine humor and drama., Enjoyment of films that feature strong character development and emotional depth., Attraction to crime and action films that also explore romantic themes.. Disliked patterns: Dislike for comedies that lack depth or engaging storylines., Negative response to musicals that do not resonate emotionally., Dislike for films that are overly simplistic in plot or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend romance with humor, as seen in multiple high-rated titles.",
+          "taste": "Romantic Comedies"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex themes and character development, reflected in several high ratings.",
+          "taste": "Dramatic Narratives"
+        },
+        {
+          "reason": "The user shows a preference for crime and action genres, particularly when they are intertwined with drama.",
+          "taste": "Crime and Action Elements"
+        },
+        {
+          "reason": "The user enjoys musicals that incorporate romance, as indicated by high ratings for such films.",
+          "taste": "Musicals with Romantic Themes"
+        },
+        {
+          "reason": "The user is drawn to thrillers that also include romantic elements, as evidenced by their ratings.",
+          "taste": "Thrillers with Romantic Subplots"
+        }
+      ]
+    },
+    "user_id": 3197
+  }
+}

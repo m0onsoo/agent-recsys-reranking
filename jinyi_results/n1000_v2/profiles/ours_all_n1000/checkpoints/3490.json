@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "89492c984f925853c4ebb5da8631e1b339534b22ffb912481f1b978077f73265",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      886,
+      68,
+      274,
+      1259,
+      1241,
+      63,
+      289,
+      962,
+      1985,
+      1920
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "3330cb470b624cdea762d31d2d8dd7c7"
+    ],
+    "sampled_item_ids": [
+      22,
+      24,
+      64,
+      97,
+      128,
+      146,
+      147,
+      190,
+      204,
+      416,
+      418,
+      469,
+      470,
+      487,
+      498,
+      634,
+      653,
+      666,
+      999,
+      1254,
+      1279,
+      1455,
+      1621,
+      2052,
+      2467
+    ],
+    "seed": 42,
+    "source_hash": "00b3d8c617a16f2830fbb078cb9a245ad753b0ff543362b8d5b2bd44303da5df",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3490,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Christian Bale",
+          "Willem Dafoe",
+          "Jared Leto",
+          "Josh Lucas"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Mary Harron",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+        "release_date": "2000-04-13",
+        "release_year": "2000",
+        "title": "American Psycho"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Ray Liotta",
+          "Joe Pesci",
+          "Lorraine Bracco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+        "release_date": "1990-09-12",
+        "release_year": "1990",
+        "title": "GoodFellas"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Dan Aykroyd",
+          "Sigourney Weaver",
+          "Harold Ramis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Ghostbusters"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Derek Jacobi",
+          "Andy García",
+          "Robin Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In 1949 composer Roman Strauss is executed for the vicious murder of his wife Margaret with a pair of scissors. In 1990s Los Angeles a mute amnesiac woman shows up at an orphanage and private eye Mike Church is called in to investigate. Under hypnosis both the woman and Church seem to have a strange link back to the Strauss murder.",
+        "release_date": "1991-08-23",
+        "release_year": "1991",
+        "title": "Dead Again"
+      },
+      {
+        "cast": [
+          "Frank Sinatra",
+          "Laurence Harvey",
+          "Angela Lansbury",
+          "Janet Leigh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Frankenheimer",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The Manchurian Candidate is a political thriller from American director John Frankenheimer. An American soldier is brainwashed into being a killer for the communist Russians during the Korean War.",
+        "release_date": "1962-10-24",
+        "release_year": "1962",
+        "title": "Manchurian Candidate, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Sean Gullette",
+          "Mark Margolis",
+          "Ben Shenkman",
+          "Samia Shoaib"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Darren Aronofsky",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The debut film from Darren Aronofsky in which a mathematical genius Maximilian Cohen discovers a link in the connection between numbers and reality and thus believes he can predict the future.",
+        "release_date": "1998-07-10",
+        "release_year": "1998",
+        "title": "Pi"
+      },
+      {
+        "cast": [
+          "Kenneth Tobey",
+          "Margaret Sheridan",
+          "Robert Cornthwaite",
+          "Douglas Spencer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Christian Nyby",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Scientists and American Air Force officials fend off a blood-thirsty alien organism while at a remote arctic outpost.",
+        "release_date": "1951-04-29",
+        "release_year": "1951",
+        "title": "Thing From Another World, The"
+      },
+      {
+        "cast": [
+          "Bruno Ganz",
+          "Otto Sander",
+          "Solveig Dommartin",
+          "Curt Bois"
+        ],
+        "country": [
+          "Germany",
+          "France"
+        ],
+        "director": "Wim Wenders",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Wings of Desire is Wim Wender’s artistically beautiful film about the lonely and immortal life of angels during a post-war Berlin. It’s a poetic journey from the perspective of the angels of which one falls in love with a living woman and wants to become a mortal human thus giving up his heavenly life. Filmed in black and white and with a feeling of celebrating life.",
+        "release_date": "1987-01-01",
+        "release_year": "1987",
+        "title": "Wings of Desire (Der Himmel über Berlin)"
+      },
+      {
+        "cast": [
+          "William Powell",
+          "Myrna Loy",
+          "Maureen O'Sullivan",
+          "Nat Pendleton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "W.S. Van Dyke",
+        "genres": [
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "After a four year absence, one time detective Nick Charles returns to New York with his new wife Nora and their dog, Asta. Nick re-connects with many of his old cronies, several of whom are eccentric characters, to say the least. He's also approached by Dorothy Wynant whose inventor father Clyde Wynant is suspected of murdering her step-mother. Her father had left on a planned trip some months before and she has had no contact with him. Nick isn't all that keen on resuming his former profession but egged-on by wife Nora, who thinks this all very exciting, he agrees to help out. He solves the case, announcing the identity of the killer at a dinner party for all of the suspects.",
+        "release_date": "1934-05-25",
+        "release_year": "1934",
+        "title": "Thin Man, The"
+      }
+    ],
+    "raw_user_id": "3490",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 196
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7431202948867156
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for certain action and comedy films",
+        "Dislike for specific animated titles",
+        "Negative reception of war-themed comedies"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films",
+        "Strong preference for drama and action genres",
+        "Positive reception of comedy films"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation (The user enjoys animated films, as evidenced by high ratings for multiple titles in this genre.); Interest in Drama (The user rates several drama films highly, indicating a strong preference for this genre.); Fondness for Comedy (The user has rated a number of comedies positively, suggesting a liking for humor in films.); Enjoyment of Action (The user has given high ratings to several action films, showing a preference for excitement and adventure.); Engagement with Sci-Fi (The user has rated multiple sci-fi films highly, indicating an interest in speculative and imaginative storytelling.). Liked patterns: High ratings for animated films, Strong preference for drama and action genres, Positive reception of comedy films. Disliked patterns: Low ratings for certain action and comedy films, Dislike for specific animated titles, Negative reception of war-themed comedies.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films, as evidenced by high ratings for multiple titles in this genre.",
+          "taste": "Appreciation for Animation"
+        },
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for this genre.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated a number of comedies positively, suggesting a liking for humor in films.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user has given high ratings to several action films, showing a preference for excitement and adventure.",
+          "taste": "Enjoyment of Action"
+        },
+        {
+          "reason": "The user has rated multiple sci-fi films highly, indicating an interest in speculative and imaginative storytelling.",
+          "taste": "Engagement with Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 3490
+  }
+}

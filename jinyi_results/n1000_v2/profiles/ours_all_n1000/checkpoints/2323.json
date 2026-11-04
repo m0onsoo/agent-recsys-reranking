@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "50deb20df10051a8df949062febf73a82e6cb1e8739371e0e1f043581a82dd78",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      318,
+      14,
+      435,
+      869,
+      199,
+      97,
+      168,
+      111,
+      471,
+      212
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "f28f22105225492fb0cef09cdffe8eb3"
+    ],
+    "sampled_item_ids": [
+      54,
+      85,
+      171,
+      207,
+      212,
+      291,
+      316,
+      380,
+      510,
+      562,
+      624,
+      749,
+      778,
+      816,
+      975,
+      1180,
+      1242,
+      1281,
+      1372,
+      1398,
+      1540,
+      1580,
+      1967,
+      2408,
+      2615
+    ],
+    "seed": 42,
+    "source_hash": "42f2c3f0dd2c22b775fbed2fea4b0ff33381aa6a15e3245ec43b6ecc57dac2ed",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2323,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Alan Ruck",
+          "Mia Sara",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Charismatic teen Ferris Bueller plays hooky in Chicago with his girlfriend and best friend.",
+        "release_date": "1986-06-11",
+        "release_year": "1986",
+        "title": "Ferris Bueller's Day Off"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Robert Duvall",
+          "Diane Keaton",
+          "Robert De Niro"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+        "release_date": "1974-12-20",
+        "release_year": "1974",
+        "title": "Godfather: Part II, The"
+      },
+      {
+        "cast": [
+          "Donald Pleasence",
+          "Jamie Lee Curtis",
+          "P.J. Soles",
+          "Nancy Kyes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In John Carpenter's horror classic, a psychotic murderer, institutionalized since childhood for the murder of his sister, escapes and stalks a bookish teenage girl and her friends while his doctor chases him through the streets.",
+        "release_date": "1978-10-25",
+        "release_year": "1978",
+        "title": "Halloween"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Rodney Dangerfield",
+          "Ted Knight",
+          "Michael O'Keefe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At an exclusive country club, an ambitious young caddy, Danny Noonan, eagerly pursues a caddy scholarship in hopes of attending college and, in turn, avoiding a job at the lumber yard. In order to succeed, he must first win the favour of the elitist Judge Smails, and then the caddy golf tournament which Smails sponsors.",
+        "release_date": "1980-07-25",
+        "release_year": "1980",
+        "title": "Caddyshack"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "François Truffaut",
+          "Teri Garr",
+          "Melinda Dillon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After an encounter with UFOs, a line worker feels undeniably drawn to an isolated area in the wilderness where something spectacular is about to happen.",
+        "release_date": "1977-11-16",
+        "release_year": "1977",
+        "title": "Close Encounters of the Third Kind"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Morgan Freeman",
+          "Bob Gunton",
+          "Clancy Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Shawshank Redemption, The"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Madeleine Stowe",
+          "Russell Means",
+          "Eric Schweig"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Action",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As the English and French soldiers battle for control of the American colonies in the 18th century, the settlers and native Americans are forced to take sides. Cora and her sister Alice unwittingly walk into trouble but are reluctantly saved by Hawkeye, an orphaned settler adopted by the last of the Mohicans.",
+        "release_date": "1992-09-25",
+        "release_year": "1992",
+        "title": "Last of the Mohicans, The"
+      },
+      {
+        "cast": [
+          "Ben Affleck",
+          "Joey Lauren Adams",
+          "Jason Lee",
+          "Dwight Ewell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Holden and Banky are comic book artists. Everything is going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's a lesbian.",
+        "release_date": "1997-04-04",
+        "release_year": "1997",
+        "title": "Chasing Amy"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Joanne Samuel",
+          "Hugh Keays-Byrne",
+          "Steve Bisley"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future Australia, a vicious biker gang murders a cop's family, and makes his fight with them personal.",
+        "release_date": "1979-04-12",
+        "release_year": "1979",
+        "title": "Mad Max"
+      }
+    ],
+    "raw_user_id": "2323",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 217
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.870005153314199
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that do not resonate or feel flat.",
+        "Dislike for horror films that fail to engage or entertain.",
+        "Negative reception of films that lack strong narrative or character appeal."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with other genres like drama and action.",
+        "Positive reception of films that feature strong character development and emotional depth.",
+        "Favoring films with unique or unconventional storytelling."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user rates multiple comedies highly, indicating a strong preference for humor in films.); Interest in Drama (Several dramas receive favorable ratings, suggesting the user enjoys emotional and character-driven narratives.); Enjoyment of Sci-Fi and Action (The user rates several action and sci-fi films positively, indicating a liking for adventurous and speculative themes.); Fondness for Romance (The user shows a preference for romantic elements in films, as seen in the ratings for romantic dramas.); Tendency to Appreciate Unique Storytelling (The user rates films with unconventional narratives or themes highly, reflecting a taste for originality.). Liked patterns: High ratings for comedies that blend humor with other genres like drama and action., Positive reception of films that feature strong character development and emotional depth., Favoring films with unique or unconventional storytelling.. Disliked patterns: Low ratings for comedies that do not resonate or feel flat., Dislike for horror films that fail to engage or entertain., Negative reception of films that lack strong narrative or character appeal..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple comedies highly, indicating a strong preference for humor in films.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "Several dramas receive favorable ratings, suggesting the user enjoys emotional and character-driven narratives.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user rates several action and sci-fi films positively, indicating a liking for adventurous and speculative themes.",
+          "taste": "Enjoyment of Sci-Fi and Action"
+        },
+        {
+          "reason": "The user shows a preference for romantic elements in films, as seen in the ratings for romantic dramas.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "The user rates films with unconventional narratives or themes highly, reflecting a taste for originality.",
+          "taste": "Tendency to Appreciate Unique Storytelling"
+        }
+      ]
+    },
+    "user_id": 2323
+  }
+}

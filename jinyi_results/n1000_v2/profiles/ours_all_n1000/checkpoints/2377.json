@@ -1,0 +1,344 @@
+{
+  "checkpoint_hash": "017e7bf41249c9634885e3b8a23c674e63257891fca9879f149ac2bacc76dce9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      632,
+      547,
+      265,
+      322,
+      63,
+      756,
+      712,
+      216,
+      749,
+      1476
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "f17e1335be714b8a9030e5f32ba378ba"
+    ],
+    "sampled_item_ids": [
+      45,
+      98,
+      114,
+      125,
+      129,
+      207,
+      210,
+      211,
+      241,
+      265,
+      322,
+      327,
+      386,
+      632,
+      665,
+      712,
+      715,
+      749,
+      756,
+      830,
+      838,
+      1114,
+      1349,
+      1476,
+      2288
+    ],
+    "seed": 42,
+    "source_hash": "b99ac813937f2f1b9ab5beeb27398cc94289f860cd5c4e4027d2116af23131ea",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2377,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Peter Sellers",
+          "Shirley MacLaine",
+          "Melvyn Douglas",
+          "Jack Warden"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hal Ashby",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A simple-minded gardener named Chance has spent all his life in the Washington D.C. house of an old man. When the man dies, Chance is put out on the street with no knowledge of the world except what he has learned from television.",
+        "release_date": "1979-12-19",
+        "release_year": "1979",
+        "title": "Being There"
+      },
+      {
+        "cast": [
+          "Jürgen Prochnow",
+          "Herbert Grönemeyer",
+          "Klaus Wennemann",
+          "Hubertus Bengsch"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "German",
+        "overview": "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.",
+        "release_date": "1981-09-16",
+        "release_year": "1981",
+        "title": "Boat, The (Das Boot)"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dennis Hopper",
+          "Sandra Bullock",
+          "Joe Morton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Los Angeles SWAT cop Jack Traven is up against bomb expert Howard Payne, who's after major ransom money. First it's a rigged elevator in a very tall building. Then it's a rigged bus--if it slows, it will blow, bad enough any day, but a nightmare in LA traffic. And that's still not the end.",
+        "release_date": "1994-06-09",
+        "release_year": "1994",
+        "title": "Speed"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Dan Aykroyd",
+          "John Belushi",
+          "James Brown",
+          "Cab Calloway"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Jake Blues is just out of jail, and teams up with his brother, Elwood on a 'mission from God' to raise funds for the orphanage in which they grew up. The only thing they can do is do what they do best – play music – so they get their old band together and they're on their way, while getting in a bit of trouble here and there.",
+        "release_date": "1980-06-17",
+        "release_year": "1980",
+        "title": "Blues Brothers, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Gary Busey",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Veteran buttoned-down LAPD detective Roger Murtaugh is partnered with unhinged cop Martin Riggs, who -- distraught after his wife's death -- has a death wish and takes unnecessary risks with criminals at every turn. The odd couple embark on their first homicide investigation as partners, involving a young woman known to Murtaugh with ties to a drug and prostitution ring.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Lethal Weapon"
+      },
+      {
+        "cast": [
+          "Eli Wallach",
+          "Clint Eastwood",
+          "Lee Van Cleef",
+          "Aldo Giuffrè"
+        ],
+        "country": [
+          "United States of America",
+          "Italy",
+          "Spain",
+          "Germany"
+        ],
+        "director": "Sergio Leone",
+        "genres": [
+          "Action",
+          "Western"
+        ],
+        "language": "Italian",
+        "overview": "While the Civil War rages between the Union and the Confederacy, three men – a quiet loner, a ruthless hit man and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
+        "release_date": "1966-12-23",
+        "release_year": "1966",
+        "title": "Good, The Bad and The Ugly, The"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Roddy McDowall",
+          "Kim Hunter",
+          "Maurice Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An  U.S. Spaceship lands on a desolate planet, stranding astronaut Taylor in a world dominated by apes, 2000 years into the future, who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
+        "release_date": "1968-02-07",
+        "release_year": "1968",
+        "title": "Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Lee Marvin",
+          "Ernest Borgnine",
+          "Charles Bronson",
+          "Jim Brown"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Robert Aldrich",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "12 American military prisoners in World War II are ordered to infiltrate a well-guarded enemy château and kill the Nazi officers vacationing there. The soldiers, most of whom are facing death sentences for a variety of violent crimes, agree to the mission and the possible commuting of their sentences.",
+        "release_date": "1967-06-15",
+        "release_year": "1967",
+        "title": "Dirty Dozen, The"
+      }
+    ],
+    "raw_user_id": "2377",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 30
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5720943948873615
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for straightforward comedies lacking depth",
+        "Dislike for horror elements that do not align with other preferred genres"
+      ],
+      "liked_patterns": [
+        "Preference for action-oriented films with strong narratives",
+        "Enjoyment of thrillers that combine drama and suspense",
+        "Appreciation for comedies that also deliver emotional depth"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Thriller Elements (The user appreciates films that incorporate suspense and tension, often found in the thriller genre.); Strong Character Development (The user favors movies that showcase complex characters and their journeys, particularly in drama and action.); Comedy with Depth (The user enjoys comedies that blend humor with meaningful themes or character exploration.); Sci-Fi Themes (The user is drawn to science fiction films that explore futuristic concepts and imaginative worlds.). Liked patterns: Preference for action-oriented films with strong narratives, Enjoyment of thrillers that combine drama and suspense, Appreciation for comedies that also deliver emotional depth. Disliked patterns: Dislike for straightforward comedies lacking depth, Dislike for horror elements that do not align with other preferred genres.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that incorporate suspense and tension, often found in the thriller genre.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user favors movies that showcase complex characters and their journeys, particularly in drama and action.",
+          "taste": "Strong Character Development"
+        },
+        {
+          "reason": "The user enjoys comedies that blend humor with meaningful themes or character exploration.",
+          "taste": "Comedy with Depth"
+        },
+        {
+          "reason": "The user is drawn to science fiction films that explore futuristic concepts and imaginative worlds.",
+          "taste": "Sci-Fi Themes"
+        }
+      ]
+    },
+    "user_id": 2377
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "62a1775dbcd8cfb57aef978ae7652266c89672c2a86166eede388cca40420fa9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      251,
+      1158,
+      328,
+      70,
+      1151,
+      877,
+      306,
+      341,
+      318,
+      892
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d4ae4fd93d574268986add97b1fdc864"
+    ],
+    "sampled_item_ids": [
+      70,
+      105,
+      135,
+      179,
+      244,
+      288,
+      308,
+      318,
+      333,
+      341,
+      364,
+      446,
+      494,
+      509,
+      517,
+      789,
+      791,
+      867,
+      881,
+      892,
+      930,
+      941,
+      1136,
+      1752,
+      1917
+    ],
+    "seed": 42,
+    "source_hash": "2ed145bd246b1dc7605f5d27e99545de413ce242b003f11d416646c33ccf16f2",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2005,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Guy Pearce",
+          "Robert Carlyle",
+          "David Arquette",
+          "Jeremy Davies"
+        ],
+        "country": [
+          "Czech Republic",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Antonia Bird",
+        "genres": [
+          "Drama",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Upon receiving reports of missing persons at Fort Spencer, a remote Army outpost on the Western frontier, Capt. John Boyd investigates. After arriving at his new post, Boyd and his regiment aid a wounded frontiersman who recounts a horrifying tale of a wagon train murdered by its supposed guide -- a vicious U.S. Army colonel gone rogue. Fearing the worst, the regiment heads out into the wilderness to verify the gruesome claims",
+        "release_date": "1999-03-16",
+        "release_year": "1999",
+        "title": "Ravenous"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Renée Zellweger",
+          "Anthony Anderson",
+          "Robert Forster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Rhode Island State Trooper Charlie Baileygates has a multiple personality disorder. One personality is crazy and aggressive, while the other is more friendly and laid back. Both of these personalities fall in love with the same woman named Irene after Charlie loses his medication.",
+        "release_date": "2000-06-22",
+        "release_year": "2000",
+        "title": "Me, Myself and Irene"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Gabriel Byrne",
+          "Kevin Pollak",
+          "Robin Tunney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "On December 28th, 1999, the citizens of New York City are getting ready for the turn of the millennium. However, the Devil decides to crash the party by coming to the city, inhabiting a man's body, and searching for his chosen bride, a 20-year-old woman named Christine York. The world will end, and the only hope lies within an atheist called Jericho Cane.",
+        "release_date": "1999-11-24",
+        "release_year": "1999",
+        "title": "End of Days"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Ashley Judd",
+          "Bruce Greenwood",
+          "Annabeth Gish"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Bruce Beresford",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A woman framed for her husband's murder suspects he is still alive; as she has already been tried for the crime, she can't be re-prosecuted if she finds and kills him.",
+        "release_date": "1999-09-24",
+        "release_year": "1999",
+        "title": "Double Jeopardy"
+      },
+      {
+        "cast": [
+          "Ron Livingston",
+          "Jennifer Aniston",
+          "David Herman",
+          "Ajay Naidu"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Judge",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Three office workers strike back at their evil employers by hatching a hapless attempt to embezzle money.",
+        "release_date": "1999-02-19",
+        "release_year": "1999",
+        "title": "Office Space"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Angelina Jolie",
+          "Queen Latifah",
+          "Michael Rooker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Rookie cop, Amelia Donaghy reluctantly teams with Lincoln Rhyme – formerly the department's top homicide detective but now paralyzed as a result of a spinal injury – to catch a grisly serial killer dubbed 'The Bone Collector'. The murderer's special signature is to leave tantalizing clues based on the grim remains of his crimes.",
+        "release_date": "1999-11-04",
+        "release_year": "1999",
+        "title": "Bone Collector, The"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Devon Sawa",
+          "Ali Larter",
+          "Kerr Smith",
+          "Tony Todd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Wong",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After a teenager has a terrifying vision of him and his friends dying in a plane crash, he prevents the accident only to have Death hunt them down, one by one.",
+        "release_date": "2000-03-16",
+        "release_year": "2000",
+        "title": "Final Destination"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Rene Russo",
+          "Denis Leary",
+          "Ben Gazzara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A very rich and successful playboy amuses himself by stealing artwork, but may have met his match in a seductive detective.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Thomas Crown Affair, The"
+      }
+    ],
+    "raw_user_id": "2005",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 72
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.0473526303024783
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies perceived as unfunny or poorly executed",
+        "Negative responses to thrillers lacking depth or engaging plots",
+        "Dislike for action films that do not deliver on excitement or quality"
+      ],
+      "liked_patterns": [
+        "High ratings for drama films with strong narratives",
+        "Positive reception of comedies that blend humor with romance",
+        "Appreciation for films that incorporate thriller elements alongside other genres"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (The user has rated multiple comedies positively, suggesting a fondness for humor in films.); Interest in Thrillers (The user shows a liking for thriller elements, as seen in the higher ratings for films that incorporate suspense.); Preference for Romantic Elements (The user enjoys films that blend romance with other genres, as indicated by positive ratings for romantic comedies.); Dislike for Poorly Executed Comedies (The user rates several comedies poorly, indicating a specific aversion to those that do not meet their expectations.). Liked patterns: High ratings for drama films with strong narratives, Positive reception of comedies that blend humor with romance, Appreciation for films that incorporate thriller elements alongside other genres. Disliked patterns: Low ratings for comedies perceived as unfunny or poorly executed, Negative responses to thrillers lacking depth or engaging plots, Dislike for action films that do not deliver on excitement or quality.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user has rated multiple comedies positively, suggesting a fondness for humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for thriller elements, as seen in the higher ratings for films that incorporate suspense.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user enjoys films that blend romance with other genres, as indicated by positive ratings for romantic comedies.",
+          "taste": "Preference for Romantic Elements"
+        },
+        {
+          "reason": "The user rates several comedies poorly, indicating a specific aversion to those that do not meet their expectations.",
+          "taste": "Dislike for Poorly Executed Comedies"
+        }
+      ]
+    },
+    "user_id": 2005
+  }
+}

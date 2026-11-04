@@ -1,0 +1,349 @@
+{
+  "checkpoint_hash": "c6bd4ebf34fca5015f572539d74d00dcf7ca3b9039464720d0f478bcffff66ef",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      648,
+      98,
+      1185,
+      6,
+      620,
+      1076,
+      2020,
+      734,
+      1902,
+      776
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ec25571882084ef9bf2372cdc666d35e"
+    ],
+    "sampled_item_ids": [
+      6,
+      45,
+      61,
+      87,
+      98,
+      120,
+      133,
+      215,
+      529,
+      539,
+      556,
+      565,
+      612,
+      644,
+      647,
+      648,
+      663,
+      776,
+      784,
+      1185,
+      1216,
+      1675,
+      2021,
+      2290,
+      3007
+    ],
+    "seed": 42,
+    "source_hash": "12fcb045a90fa3a8f96fa973a0af6d2a889fe414841555c4012f44b33bd53e1f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3456,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael Keaton",
+          "Danny DeVito",
+          "Michelle Pfeiffer",
+          "Christopher Walken"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Having defeated the Joker, Batman now faces the Penguin - a warped and deformed individual who is intent on being accepted into Gotham society. Crooked businessman Max Schreck is coerced into helping him become Mayor of Gotham and they both attempt to expose Batman in a different light. Selina Kyle, Max's secretary, is thrown from the top of a building and is transformed into Catwoman - a mysterious figure who has the same personality disorder as Batman. Batman must attempt to clear his name, all the time deciding just what must be done with the Catwoman.",
+        "release_date": "1992-06-19",
+        "release_year": "1992",
+        "title": "Batman Returns"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Diane Lane",
+          "Armand Assante",
+          "Rob Schneider"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Danny Cannon",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future, Dredd, the most famous judge (a cop with instant field judiciary powers) is convicted for a crime he did not commit while his murderous counterpart escapes.",
+        "release_date": "1995-06-30",
+        "release_year": "1995",
+        "title": "Judge Dredd"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Carson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Captain Jean-Luc Picard and the crew of the Enterprise-D find themselves at odds with the renegade scientist Soran who is destroying entire star systems. Only one man can help Picard stop Soran's scheme...and he's been dead for seventy-eight years.",
+        "release_date": "1994-11-17",
+        "release_year": "1994",
+        "title": "Star Trek: Generations"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Glenn Close",
+          "Annette Bening",
+          "Pierce Brosnan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "'We come in peace' is not what those green men from Mars mean when they invade our planet, armed with irresistible weapons and a cruel sense of humor.  This star studded cast must play victim to the alien’s fun and games in this comedy homage to science fiction films of the '50s and '60s.",
+        "release_date": "1996-12-12",
+        "release_year": "1996",
+        "title": "Mars Attacks!"
+      },
+      {
+        "cast": [
+          "Gordon Currie",
+          "Chandra West",
+          "Ash Adams",
+          "Teresa Hill"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeff Burr",
+        "genres": [
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A young scientist working on an artificial intelligence project is the target of strange gremlin-like creatures, who are out to kill him and thus terminate his research. By coincidence, in one of the rooms he uses, there's a mysterious case containing the puppets of the \"puppet master\". When the puppets are brought to life, they help destroy the creatures.",
+        "release_date": "1993-11-24",
+        "release_year": "1993",
+        "title": "Puppet Master 4"
+      },
+      {
+        "cast": [
+          "Tim Allen",
+          "Sigourney Weaver",
+          "Alan Rickman",
+          "Tony Shalhoub"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dean Parisot",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.",
+        "release_date": "1999-12-23",
+        "release_year": "1999",
+        "title": "Galaxy Quest"
+      },
+      {
+        "cast": [
+          "Nicole de Boer",
+          "Nicky Guadagni",
+          "David Hewlett",
+          "Andrew Miller"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Vincenzo Natali",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Seven strangers are taken out of their daily lives and placed mysteriously in a deadly cube where they all agree they must find their way out.",
+        "release_date": "1997-09-09",
+        "release_year": "1997",
+        "title": "Cube"
+      },
+      {
+        "cast": [
+          "Casper Van Dien",
+          "Dina Meyer",
+          "Denise Richards",
+          "Jake Busey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Set in the future, the story follows a young soldier named Johnny Rico and his exploits in the Mobile Infantry. Rico's military career progresses from recruit to non-commissioned officer and finally to officer against the backdrop of an interstellar war between mankind and an arachnoid species known as \"the Bugs\".",
+        "release_date": "1997-11-06",
+        "release_year": "1997",
+        "title": "Starship Troopers"
+      }
+    ],
+    "raw_user_id": "3456",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 45
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.7016547746210677
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror elements in films",
+        "Negative response to films with low suspense or tension"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and sci-fi genres",
+        "Enjoyment of films with adventurous plots",
+        "Appreciation for movies that blend humor with action"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Sci-Fi and Fantasy (The user has a strong preference for science fiction and fantasy elements, often appreciating imaginative worlds and futuristic concepts.); Thriller and Suspense (The user is drawn to films that create tension and suspense, often through thrilling narratives and intense situations.); Comedy (The user appreciates humor in films, particularly when combined with action or adventure.); War Themes (The user shows interest in films that explore war, often within the context of action and sci-fi.). Liked patterns: Strong preference for action and sci-fi genres, Enjoyment of films with adventurous plots, Appreciation for movies that blend humor with action. Disliked patterns: Dislike for horror elements in films, Negative response to films with low suspense or tension.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user has a strong preference for science fiction and fantasy elements, often appreciating imaginative worlds and futuristic concepts.",
+          "taste": "Sci-Fi and Fantasy"
+        },
+        {
+          "reason": "The user is drawn to films that create tension and suspense, often through thrilling narratives and intense situations.",
+          "taste": "Thriller and Suspense"
+        },
+        {
+          "reason": "The user appreciates humor in films, particularly when combined with action or adventure.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows interest in films that explore war, often within the context of action and sci-fi.",
+          "taste": "War Themes"
+        }
+      ]
+    },
+    "user_id": 3456
+  }
+}

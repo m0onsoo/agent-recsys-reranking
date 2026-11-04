@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "1ffceab23397e6ddaafa94151764b3cb06946845233f26406834b17ddd881308",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2125,
+      1656,
+      1257,
+      323,
+      568,
+      134,
+      1000,
+      734,
+      1932,
+      276
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b34e2afba4f345e4b6ad1ea498702b1e"
+    ],
+    "sampled_item_ids": [
+      10,
+      39,
+      75,
+      79,
+      113,
+      168,
+      201,
+      475,
+      485,
+      512,
+      526,
+      548,
+      667,
+      707,
+      718,
+      771,
+      997,
+      1107,
+      1114,
+      1209,
+      1233,
+      1243,
+      1467,
+      1474,
+      1867
+    ],
+    "seed": 42,
+    "source_hash": "eb48d46cbd16773915e712b5d95d42899521264bc977a3ed5219ac0991856fbd",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1202,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mel Gibson",
+          "Robert Downey Jr.",
+          "Nancy Travis",
+          "Ken Jenkins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Spottiswoode",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Air America was the CIA's private airline operating in Laos during the Vietnam War, running anything and everything from soldiers to foodstuffs for local villagers. After losing his pilot's license, Billy Covington is recruited into it, and ends up in the middle of a bunch of lunatic pilots, gun-running by his friend Gene Ryack, and opium smuggling by his own superiors.",
+        "release_date": "1990-08-10",
+        "release_year": "1990",
+        "title": "Air America"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dina Meyer",
+          "Takeshi Kitano",
+          "Ice-T"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Robert Longo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A data courier, literally carrying a data package inside his head, must deliver it before he dies from the burden or is killed by the Yakuza.  In a dystopian 2021, Johnny (Keanu Reeves) is a data trafficker who has an implant that allows him to securely store data too sensitive for regular computer networks. On one delivery run, he accepts a package that not only exceeds the implant's safety limits - and will kill him if the data is not removed in time - but also contains information far more important and valuable than he had ever imagined. On a race against time, he must avoid the assassins sent to kill him and remove the data before it, too, ends his life.",
+        "release_date": "1995-05-26",
+        "release_year": "1995",
+        "title": "Johnny Mnemonic"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Annette Bening",
+          "Michael J. Fox",
+          "Martin Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Widowed U.S. president Andrew Shepherd, one of the world's most powerful men, can have anything he wants -- and what he covets most is Sydney Ellen Wade, a Washington lobbyist. But Shepherd's attempts at courting her spark wild rumors and decimate his approval ratings.",
+        "release_date": "1995-11-17",
+        "release_year": "1995",
+        "title": "American President, The"
+      },
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Jude Law",
+          "Gore Vidal",
+          "Uma Thurman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Niccol",
+        "genres": [
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Science fiction drama about a future society in the era of indefinite eugenics where humans are set on a life course depending on their DNA. The young Vincent Freeman is born with a condition that would prevent him from space travel, yet he is determined to infiltrate the GATTACA space program.",
+        "release_date": "1997-09-07",
+        "release_year": "1997",
+        "title": "Gattaca"
+      },
+      {
+        "cast": [
+          "Patrick Swayze",
+          "Demi Moore",
+          "Whoopi Goldberg",
+          "Tony Goldwyn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Zucker",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Wheat is a banker, Molly Jensen is an artist, and the two are madly in love. However, when Sam is murdered by his friend and corrupt business partner Carl Bruner over a shady business deal, he is left to roam the earth as a powerless spirit. When he learns of Carl's betrayal, Sam must seek the help of psychic Oda Mae Brown to set things right and protect Molly from Carl and his goons.",
+        "release_date": "1990-07-12",
+        "release_year": "1990",
+        "title": "Ghost"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Billy Bob Thornton",
+          "Ben Affleck",
+          "Liv Tyler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When an asteroid threatens to collide with Earth, NASA honcho Dan Truman determines the only way to stop it is to drill into its surface and detonate a nuclear bomb. This leads him to renowned driller Harry Stamper, who agrees to helm the dangerous space mission provided he can bring along his own hotshot crew. Among them is the cocksure A.J. who Harry thinks isn't good enough for his daughter, until the mission proves otherwise.",
+        "release_date": "1998-07-01",
+        "release_year": "1998",
+        "title": "Armageddon"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Tommy Lee Jones",
+          "Donald Sutherland",
+          "James Garner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Frank Corvin, ‘Hawk’ Hawkins, Jerry O'Neill and ‘Tank’ Sullivan were hotdog members of Project Daedalus, the Air Force's test program for space travel, but their hopes were dashed in 1958 with the formation of NASA and the use of trained chimps. They blackmail their way into orbit when Russia's mysterious ‘Ikon’ communications satellite's orbit begins to degrade and threatens to crash to Earth.",
+        "release_date": "2000-07-31",
+        "release_year": "2000",
+        "title": "Space Cowboys"
+      },
+      {
+        "cast": [
+          "Tim Allen",
+          "Sigourney Weaver",
+          "Alan Rickman",
+          "Tony Shalhoub"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dean Parisot",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.",
+        "release_date": "1999-12-23",
+        "release_year": "1999",
+        "title": "Galaxy Quest"
+      },
+      {
+        "cast": [
+          "Matthew Modine",
+          "Nicolas Cage",
+          "John Harkins",
+          "Sandy Baron"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Two young men are seriously affected by the Vietnam war. One of them has always been obsessed with birds - but now believes he really is a bird, and has been sent to a mental hospital. Can his friend help him pull through?",
+        "release_date": "1984-12-14",
+        "release_year": "1984",
+        "title": "Birdy"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Greta Scacchi",
+          "Fred Ward",
+          "Whoopi Goldberg"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Altman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Hollywood studio executive is being sent death threats by a writer whose script he rejected - but which one?",
+        "release_date": "1992-04-03",
+        "release_year": "1992",
+        "title": "Player, The"
+      }
+    ],
+    "raw_user_id": "1202",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 416
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8099134839910858
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films",
+        "Negative reception of certain action films",
+        "Dislike for films with weak narratives"
+      ],
+      "liked_patterns": [
+        "High ratings for drama films",
+        "Positive reception of adventure and comedy genres",
+        "Interest in thrillers with engaging plots"
+      ],
+      "summary": "Unique tastes: Drama (The user consistently rates drama films highly, indicating a strong appreciation for character-driven narratives and emotional depth.); Adventure (The user enjoys adventure films, as evidenced by multiple high ratings in this genre, suggesting a preference for exploration and excitement.); Thriller (The user shows a liking for thrillers, with several ratings of 3 or above, indicating an interest in suspenseful and engaging plots.); Comedy (The user rates comedies positively, reflecting a taste for humor and light-hearted storytelling.); Romance (The user appreciates romantic elements in films, as seen in the positive ratings for movies that blend drama and romance.). Liked patterns: High ratings for drama films, Positive reception of adventure and comedy genres, Interest in thrillers with engaging plots. Disliked patterns: Low ratings for horror films, Negative reception of certain action films, Dislike for films with weak narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong appreciation for character-driven narratives and emotional depth.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys adventure films, as evidenced by multiple high ratings in this genre, suggesting a preference for exploration and excitement.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "The user shows a liking for thrillers, with several ratings of 3 or above, indicating an interest in suspenseful and engaging plots.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user rates comedies positively, reflecting a taste for humor and light-hearted storytelling.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates romantic elements in films, as seen in the positive ratings for movies that blend drama and romance.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 1202
+  }
+}

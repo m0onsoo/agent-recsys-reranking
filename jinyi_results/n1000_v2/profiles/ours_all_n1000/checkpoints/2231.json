@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "ffc5c6a54e8a908f5054028f87aa0d2167212e0a6ccca5b322dc781fea6b49cc",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      934,
+      1345,
+      1634,
+      435,
+      1331,
+      1390,
+      392,
+      1476,
+      1306,
+      1519
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "bcca99d9c5c340f3bf571900ffcc59d4"
+    ],
+    "sampled_item_ids": [
+      152,
+      209,
+      216,
+      218,
+      274,
+      325,
+      400,
+      420,
+      429,
+      548,
+      560,
+      604,
+      618,
+      719,
+      724,
+      1279,
+      1299,
+      1467,
+      1496,
+      1497,
+      1587,
+      1761,
+      2303,
+      2487,
+      2516
+    ],
+    "seed": 42,
+    "source_hash": "7d5fa77ddff67f37c925b7c41cad9ceeecc436e1c646b25700f4ee634666dcfe",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2231,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "James Stewart",
+          "Kim Novak",
+          "Jack Lemmon",
+          "Ernie Kovacs"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Quine",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A modern-day witch likes her neighbor but despises his fiancee, so she enchants him to love her instead... only to fall in love with him for real.",
+        "release_date": "1958-12-25",
+        "release_year": "1958",
+        "title": "Bell, Book and Candle"
+      },
+      {
+        "cast": [
+          "Winona Ryder",
+          "Christian Slater",
+          "Shannen Doherty",
+          "Lisanne Falk"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Lehmann",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A girl who halfheartedly tries to be part of the \"in crowd\" of her school meets a rebel who teaches her a more devious way to play social politics: by killing the popular kids.",
+        "release_date": "1988-10-01",
+        "release_year": "1989",
+        "title": "Heathers"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Sigourney Weaver",
+          "Linda Hunt",
+          "Michael Murphy"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Australian journalist Guy Hamilton travels to Indonesia to cover civil strife in 1965. There, on the eve of an attempted coup, he befriends a Chinese Australian photographer with a deep connection to and vast knowledge of the Indonesian people and also falls in love with a British national.",
+        "release_date": "1982-12-17",
+        "release_year": "1982",
+        "title": "Year of Living Dangerously"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Robert Duvall",
+          "Diane Keaton",
+          "Robert De Niro"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+        "release_date": "1974-12-20",
+        "release_year": "1974",
+        "title": "Godfather: Part II, The"
+      },
+      {
+        "cast": [
+          "Nick Nolte",
+          "Mac Davis",
+          "Charles Durning",
+          "Dayle Haddon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ted Kotcheff",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A semi-fictional account of life as a professional Football (American-style) player. Loosely based on the Dallas Cowboys team of the early 1970s.",
+        "release_date": "1979-08-03",
+        "release_year": "1979",
+        "title": "North Dallas Forty"
+      },
+      {
+        "cast": [
+          "Richard Gere",
+          "Valérie Kaprisky",
+          "Art Metrano",
+          "John P. Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim McBride",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jesse has to get out of Las Vegas quickly, and steals a car to drive to L.A. On the way he shoots a police man. When he makes it to L.A. he stays with Monica, a girl he has only known for a few days. As the film progresses, the police get closer to him, and the crimes escalate.",
+        "release_date": "1983-05-13",
+        "release_year": "1983",
+        "title": "Breathless"
+      },
+      {
+        "cast": [
+          "Sally Field",
+          "James Garner",
+          "Brian Kerwin",
+          "Corey Haim"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Ritt",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Emma is a divorced woman with a teen aged boy who moves into a small town and tries to make a go of a horse ranch. Murphy is the town druggist who steers business her way. Things are going along predictably until her ex husband shows up, needing a place to stay. The three of them form an intricate circle, Emma's son liking Murphy, but desperately wanting his father back.",
+        "release_date": "1985-12-25",
+        "release_year": "1985",
+        "title": "Murphy's Romance"
+      },
+      {
+        "cast": [
+          "Lee Marvin",
+          "Ernest Borgnine",
+          "Charles Bronson",
+          "Jim Brown"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Robert Aldrich",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "12 American military prisoners in World War II are ordered to infiltrate a well-guarded enemy château and kill the Nazi officers vacationing there. The soldiers, most of whom are facing death sentences for a variety of violent crimes, agree to the mission and the possible commuting of their sentences.",
+        "release_date": "1967-06-15",
+        "release_year": "1967",
+        "title": "Dirty Dozen, The"
+      },
+      {
+        "cast": [
+          "Jessica Lange",
+          "Kim Stanley",
+          "Sam Shepard",
+          "Bart Burns"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Graeme Clifford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of Frances Farmer's meteoric rise to fame in Hollywood and the tragic turn her life took when she was blacklisted.",
+        "release_date": "1982-12-03",
+        "release_year": "1982",
+        "title": "Frances"
+      },
+      {
+        "cast": [
+          "Judy Holliday",
+          "Broderick Crawford",
+          "William Holden",
+          "Howard St. John"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Cukor",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Uncouth, loud-mouth junkyard tycoon Harry Brock descends upon Washington D.C. to buy himself a congressman or two, bringing with him his mistress, ex-showgirl Billie Dawn.",
+        "release_date": "1950-12-25",
+        "release_year": "1950",
+        "title": "Born Yesterday"
+      }
+    ],
+    "raw_user_id": "2231",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 350
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8523877519660118
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that lack engaging narratives or character development.",
+        "Negative response to comedies that do not resonate with the user's sense of humor."
+      ],
+      "liked_patterns": [
+        "Strong preference for action-packed films with thrilling elements.",
+        "Enjoyment of comedies that also explore romantic relationships.",
+        "Appreciation for dramas that delve into complex themes and character arcs."
+      ],
+      "summary": "Unique tastes: Action and Thriller (The user enjoys high-stakes narratives with intense action sequences and suspenseful plots.); Comedy and Romance (The user appreciates light-hearted films that blend humor with romantic themes.); Drama with Complex Characters (The user is drawn to films that explore deep emotional narratives and character development.); Musicals with Humor (The user enjoys musicals that incorporate comedic elements, enhancing the entertainment value.); Western Genre (The user has a preference for classic Westerns that feature strong characters and moral dilemmas.). Liked patterns: Strong preference for action-packed films with thrilling elements., Enjoyment of comedies that also explore romantic relationships., Appreciation for dramas that delve into complex themes and character arcs.. Disliked patterns: Dislike for films that lack engaging narratives or character development., Negative response to comedies that do not resonate with the user's sense of humor..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-stakes narratives with intense action sequences and suspenseful plots.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "The user appreciates light-hearted films that blend humor with romantic themes.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "The user is drawn to films that explore deep emotional narratives and character development.",
+          "taste": "Drama with Complex Characters"
+        },
+        {
+          "reason": "The user enjoys musicals that incorporate comedic elements, enhancing the entertainment value.",
+          "taste": "Musicals with Humor"
+        },
+        {
+          "reason": "The user has a preference for classic Westerns that feature strong characters and moral dilemmas.",
+          "taste": "Western Genre"
+        }
+      ]
+    },
+    "user_id": 2231
+  }
+}

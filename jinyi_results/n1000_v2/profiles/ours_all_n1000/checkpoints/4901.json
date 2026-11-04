@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "36aee5efb0c6e9a45ca07a9c0084caac516798ae3a15f4162b8f2fd0b997e32a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      145,
+      670,
+      742,
+      892,
+      795,
+      548,
+      1560,
+      141,
+      46,
+      1132
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      45,
+      176,
+      193,
+      207,
+      211,
+      279,
+      294,
+      318,
+      429,
+      548,
+      587,
+      626,
+      742,
+      771,
+      848,
+      849,
+      1002,
+      1004,
+      1252,
+      1332,
+      1348,
+      1476,
+      1584,
+      2009,
+      2107
+    ],
+    "seed": 42,
+    "source_hash": "89b95a3f6c79a95077804d1f0f6e2e7222c0714235e7cf58740ca4781c24791f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4901,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Salma Hayek",
+          "Joaquim de Almeida",
+          "Cheech Marin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Rodriguez",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A gunslinger is embroiled in a war with a local drug runner.",
+        "release_date": "1995-08-25",
+        "release_year": "1995",
+        "title": "Desperado"
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Al Pacino",
+          "James Caan",
+          "Richard S. Castellano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+        "release_date": "1972-03-14",
+        "release_year": "1972",
+        "title": "Godfather, The"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Jack Albertson",
+          "Peter Ostrum",
+          "Roy Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Stuart",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Eccentric candy man Willy Wonka prompts a worldwide frenzy when he announces that golden tickets hidden inside five of his delicious candy bars will admit their lucky holders into his top-secret confectionary. But does Wonka have an agenda hidden amid a world of Oompa Loompas and chocolate rivers?",
+        "release_date": "1971-06-29",
+        "release_year": "1971",
+        "title": "Willy Wonka and the Chocolate Factory"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Rene Russo",
+          "Denis Leary",
+          "Ben Gazzara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A very rich and successful playboy amuses himself by stealing artwork, but may have met his match in a seductive detective.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Thomas Crown Affair, The"
+      },
+      {
+        "cast": [
+          "Isabella Rossellini",
+          "Kyle MacLachlan",
+          "Dennis Hopper",
+          "Laura Dern"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of criminals who have kidnapped her child.",
+        "release_date": "1986-08-01",
+        "release_year": "1986",
+        "title": "Blue Velvet"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Billy Crystal",
+          "Carrie Fisher",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "During their travels from Chicago to New York, Harry and Sally Will debate whether or not sex ruins a perfect relationship between a man and a woman. Eleven years and later, they're still no closer to finding the answer.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "When Harry Met Sally..."
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Laurence Olivier",
+          "James Mason",
+          "Lilli Palmer"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nazi hunter Ezra Lieberman discovers a sinister and bizarre plot to rekindle the Third Reich.",
+        "release_date": "1978-10-05",
+        "release_year": "1978",
+        "title": "Boys from Brazil, The"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Meryl Streep",
+          "Jane Alexander",
+          "Justin Henry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Benton",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ted Kramer is a career man for whom his work comes before his family. His wife Joanna cannot take this anymore, so she decides to leave him. Ted is now faced with the tasks of housekeeping and taking care of himself and their young son Billy.",
+        "release_date": "1979-12-18",
+        "release_year": "1979",
+        "title": "Kramer Vs. Kramer"
+      },
+      {
+        "cast": [
+          "Julie Andrews",
+          "Dick Van Dyke",
+          "David Tomlinson",
+          "Glynis Johns"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Stevenson",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "The movie combines a diverting story, songs, color and sequences of live action blended with the movements of animated figures. Mary Poppins is a kind of Super-nanny who flies in with her umbrella in response to the request of the Banks children and proceeds to put things right with the aid of her rather extraordinary magical powers before flying off again.",
+        "release_date": "1964-08-27",
+        "release_year": "1964",
+        "title": "Mary Poppins"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "John Cassavetes",
+          "Ruth Gordon",
+          "Sidney Blackmer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A young couple moves into an infamous New York apartment building to start a family. Things become frightening as Rosemary begins to suspect her unborn baby isn't safe around their strange neighbors.",
+        "release_date": "1968-06-12",
+        "release_year": "1968",
+        "title": "Rosemary's Baby"
+      }
+    ],
+    "raw_user_id": "4901",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 153
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4985020629234342
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "A tendency to rate horror films lower, indicating a lack of enjoyment in that genre."
+      ],
+      "liked_patterns": [
+        "A preference for action and adventure films that also incorporate humor or drama elements.",
+        "An inclination towards comedies that are well-rated, often blending with other genres.",
+        "A consistent appreciation for films that feature strong narratives and character-driven stories."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Comedy with a blend of other genres (The user appreciates comedies that incorporate elements from other genres, such as action or romance.); Drama with strong narratives (The user favors dramas that present compelling stories and character development.); Thrillers with suspenseful elements (The user is drawn to thrillers that maintain tension and intrigue throughout the film.); Fantasy and Sci-Fi elements (The user enjoys films that explore imaginative worlds and futuristic concepts.). Liked patterns: A preference for action and adventure films that also incorporate humor or drama elements., An inclination towards comedies that are well-rated, often blending with other genres., A consistent appreciation for films that feature strong narratives and character-driven stories.. Disliked patterns: A tendency to rate horror films lower, indicating a lack of enjoyment in that genre..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate elements from other genres, such as action or romance.",
+          "taste": "Comedy with a blend of other genres"
+        },
+        {
+          "reason": "The user favors dramas that present compelling stories and character development.",
+          "taste": "Drama with strong narratives"
+        },
+        {
+          "reason": "The user is drawn to thrillers that maintain tension and intrigue throughout the film.",
+          "taste": "Thrillers with suspenseful elements"
+        },
+        {
+          "reason": "The user enjoys films that explore imaginative worlds and futuristic concepts.",
+          "taste": "Fantasy and Sci-Fi elements"
+        }
+      ]
+    },
+    "user_id": 4901
+  }
+}

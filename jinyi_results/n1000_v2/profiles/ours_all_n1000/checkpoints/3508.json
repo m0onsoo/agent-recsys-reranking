@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "3837ecbeedc92c63d5906ec2ba98d54e03faf429ee641c3df14cb3129dce2947",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      45,
+      433,
+      582,
+      23,
+      98,
+      455,
+      238,
+      592,
+      218,
+      759
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7fbabe094d34418dadad1ad938ff437c"
+    ],
+    "sampled_item_ids": [
+      23,
+      27,
+      35,
+      45,
+      63,
+      65,
+      98,
+      105,
+      125,
+      133,
+      190,
+      210,
+      215,
+      238,
+      455,
+      477,
+      582,
+      592,
+      759,
+      994,
+      995,
+      1086,
+      1813,
+      1854,
+      2015
+    ],
+    "seed": 42,
+    "source_hash": "55c025f3f61425a73f1b08b5a82a9a8eb14d8e5491f6a4c649fae69b3da75329",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3508,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Nicolas Cage",
+          "Joan Allen",
+          "Alessandro Nivola"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.",
+        "release_date": "1997-06-27",
+        "release_year": "1997",
+        "title": "Face/Off"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Kyra Sedgwick",
+          "Forest Whitaker",
+          "Robert Duvall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "An ordinary man sees a bright light descend from the sky, and discovers he now has super-intelligence and telekinesis.",
+        "release_date": "1996-07-05",
+        "release_year": "1996",
+        "title": "Phenomenon"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Nicole Kidman",
+          "Madison Eginton",
+          "Jackie Sawiris"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After Dr. Bill Hartford's wife, Alice, admits to having sexual fantasies about a man she met, Bill becomes obsessed with having a sexual encounter. He discovers an underground sexual group and attends one of their meetings -- and quickly discovers that he is in over his head.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Eyes Wide Shut"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Hugh Jackman",
+          "Ian McKellen",
+          "Halle Berry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers.",
+        "release_date": "2000-07-13",
+        "release_year": "2000",
+        "title": "X-Men"
+      },
+      {
+        "cast": [
+          "Jim Henson",
+          "Kathryn Mullen",
+          "Frank Oz",
+          "Dave Goelz"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Henson",
+        "genres": [
+          "Children's",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "On another planet in the distant past, a Gelfling embarks on a quest to find the missing shard of a magical crystal and restore order to his world, before the grotesque race of Skeksis find and use the crystal for evil.",
+        "release_date": "1982-12-17",
+        "release_year": "1982",
+        "title": "Dark Crystal, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "John Cleese",
+          "Shelley Duvall",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Young history buff Kevin can scarcely believe it when six dwarfs emerge from his closet one night. Former employees of the Supreme Being, they've purloined a map charting all of the holes in the fabric of time and are using it to steal treasures from different historical eras. Taking Kevin with them, they variously drop in on Napoleon, Robin Hood and King Agamemnon before the Supreme Being catches up with them.",
+        "release_date": "1981-07-13",
+        "release_year": "1981",
+        "title": "Time Bandits"
+      }
+    ],
+    "raw_user_id": "3508",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 30
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3453302004143552
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films with low-quality storytelling",
+        "Negative response to poorly rated children's films",
+        "Dislike for horror films that lack depth"
+      ],
+      "liked_patterns": [
+        "Strong preference for Action and Sci-Fi genres",
+        "High ratings for films with complex narratives",
+        "Enjoyment of films that blend comedy with drama"
+      ],
+      "summary": "Unique tastes: Preference for Sci-Fi and Action (The user consistently rates Sci-Fi and Action films highly, indicating a strong interest in these genres.); Enjoyment of Thrillers (Several highly rated films fall within the Thriller genre, suggesting a particular enjoyment of suspenseful narratives.); Appreciation for Fantasy Elements (The user shows a liking for films that incorporate fantasy elements, as seen in multiple ratings of 3 or above.); Interest in Complex Narratives (The user rates films with deeper themes and complex narratives highly, indicating a preference for thought-provoking content.); Favoring Comedic Elements in Drama (The user enjoys films that blend comedy with drama, as evidenced by positive ratings in this combination.). Liked patterns: Strong preference for Action and Sci-Fi genres, High ratings for films with complex narratives, Enjoyment of films that blend comedy with drama. Disliked patterns: Dislike for films with low-quality storytelling, Negative response to poorly rated children's films, Dislike for horror films that lack depth.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates Sci-Fi and Action films highly, indicating a strong interest in these genres.",
+          "taste": "Preference for Sci-Fi and Action"
+        },
+        {
+          "reason": "Several highly rated films fall within the Thriller genre, suggesting a particular enjoyment of suspenseful narratives.",
+          "taste": "Enjoyment of Thrillers"
+        },
+        {
+          "reason": "The user shows a liking for films that incorporate fantasy elements, as seen in multiple ratings of 3 or above.",
+          "taste": "Appreciation for Fantasy Elements"
+        },
+        {
+          "reason": "The user rates films with deeper themes and complex narratives highly, indicating a preference for thought-provoking content.",
+          "taste": "Interest in Complex Narratives"
+        },
+        {
+          "reason": "The user enjoys films that blend comedy with drama, as evidenced by positive ratings in this combination.",
+          "taste": "Favoring Comedic Elements in Drama"
+        }
+      ]
+    },
+    "user_id": 3508
+  }
+}

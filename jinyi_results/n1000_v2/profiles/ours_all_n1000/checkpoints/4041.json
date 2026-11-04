@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "96b84f1dfc96bfcf3fbeec540bc8cff726cca81559ba96899f16b200be81fc04",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2872,
+      1141,
+      260,
+      1919,
+      93,
+      620,
+      219,
+      735,
+      2548,
+      2125
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "66108d9de75545638faf068463595867"
+    ],
+    "sampled_item_ids": [
+      63,
+      92,
+      114,
+      305,
+      441,
+      483,
+      498,
+      733,
+      798,
+      848,
+      995,
+      1120,
+      1251,
+      1268,
+      1354,
+      1372,
+      1382,
+      1417,
+      1506,
+      1605,
+      1836,
+      2156,
+      2544,
+      2992,
+      3158
+    ],
+    "seed": 42,
+    "source_hash": "4c7206e9e8fe67a5fef7bfc33c6f32ed6e19ecac4248193990abfd16fa9b2be2",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4041,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Elijah Wood",
+          "Jason Alexander",
+          "Julia Louis-Dreyfus",
+          "Jon Lovitz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Eleven-year-old North has had it with his parents. They are always busy with their careers and don't give North the attention he needs, so he files a lawsuit against them. The judge rules that North should either find new parents or return to his own parents within two months. Thus north starts off on an hilarious journey around the world to find the parents that really care about him.",
+        "release_date": "1994-07-22",
+        "release_year": "1994",
+        "title": "North"
+      },
+      {
+        "cast": [
+          "Norm Macdonald",
+          "Artie Lange",
+          "Jack Warden",
+          "Traylor Howard"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Bob Saget",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Unemployed and recently dumped, Mitch and his buddy Sam start a revenge-for-hire business to raise the $50,000 that Sam's father needs to get a heart transplant. The dirty duo brings down a movie theater manager and hires hookers to pose as dead bodies during a live TV ad. When a wealthy developer hires the guys to trash a building (so that he can have it condemned), problems arise and a feud ensues.",
+        "release_date": "1998-06-12",
+        "release_year": "1998",
+        "title": "Dirty Work"
+      },
+      {
+        "cast": [
+          "Stephen Baldwin",
+          "Gabriel Byrne",
+          "Chazz Palminteri",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Usual Suspects, The"
+      },
+      {
+        "cast": [
+          "James Spader",
+          "Deborah Kara Unger",
+          "Holly Hunter",
+          "Elias Koteas"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After getting into a serious car accident, a TV director discovers an underground sub-culture of scarred, omnisexual car-crash victims who use car accidents and the raw sexual energy they produce to try to rejuvenate his sex life with his wife.",
+        "release_date": "1996-07-17",
+        "release_year": "1996",
+        "title": "Crash"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Carson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Captain Jean-Luc Picard and the crew of the Enterprise-D find themselves at odds with the renegade scientist Soran who is destroying entire star systems. Only one man can help Picard stop Soran's scheme...and he's been dead for seventy-eight years.",
+        "release_date": "1994-11-17",
+        "release_year": "1994",
+        "title": "Star Trek: Generations"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Christopher Lloyd",
+          "Joanna Cassidy",
+          "Charles Fleischer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "'Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+        "release_date": "1988-06-21",
+        "release_year": "1988",
+        "title": "Who Framed Roger Rabbit?"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Shelley Long",
+          "Alexander Godunov",
+          "Maureen Stapleton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Benjamin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After being evicted from their Manhattan apartment, a couple buys what looks like the home of their dreams – only to find themselves saddled with a bank-account-draining nightmare. Struggling to keep their relationship together as their rambling mansion falls to pieces around them, the two watch in hilarious horror as everything – including the kitchen sink – disappears into the 'Money Pit'.",
+        "release_date": "1986-03-15",
+        "release_year": "1986",
+        "title": "Money Pit, The"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Russell Crowe",
+          "Kelly Lynch",
+          "William Forsythe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brett Leonard",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The Law Enforcement Technology Advancement Centre (LETAC) has developed SID version 6.7: a Sadistic, Intelligent, and Dangerous virtual reality entity which is synthesized from the personalities of more than 150 serial killers, and only one man can stop him.",
+        "release_date": "1995-08-04",
+        "release_year": "1995",
+        "title": "Virtuosity"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Robert Downey Jr.",
+          "Nancy Travis",
+          "Ken Jenkins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Spottiswoode",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Air America was the CIA's private airline operating in Laos during the Vietnam War, running anything and everything from soldiers to foodstuffs for local villagers. After losing his pilot's license, Billy Covington is recruited into it, and ends up in the middle of a bunch of lunatic pilots, gun-running by his friend Gene Ryack, and opium smuggling by his own superiors.",
+        "release_date": "1990-08-10",
+        "release_year": "1990",
+        "title": "Air America"
+      }
+    ],
+    "raw_user_id": "4041",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 675
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8170970676203337
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for romantic dramas",
+        "Dislike for horror films that lack depth",
+        "Dislike for action films that are poorly executed"
+      ],
+      "liked_patterns": [
+        "Enjoyment of action and adventure genres",
+        "Preference for comedies that blend with drama",
+        "Interest in thrillers that explore psychological themes"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Comedy with Drama (The user appreciates comedies that incorporate dramatic elements, suggesting a preference for humor with depth.); Thrillers with Psychological Elements (The user is drawn to thrillers that explore psychological themes, indicating an interest in suspenseful narratives.); Sci-Fi with Unique Concepts (The user favors science fiction films that present imaginative and unique ideas, reflecting a taste for creativity.); Animated Films (The user enjoys animated films, indicating a preference for storytelling that appeals to a wide audience.). Liked patterns: Enjoyment of action and adventure genres, Preference for comedies that blend with drama, Interest in thrillers that explore psychological themes. Disliked patterns: Dislike for romantic dramas, Dislike for horror films that lack depth, Dislike for action films that are poorly executed.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate dramatic elements, suggesting a preference for humor with depth.",
+          "taste": "Comedy with Drama"
+        },
+        {
+          "reason": "The user is drawn to thrillers that explore psychological themes, indicating an interest in suspenseful narratives.",
+          "taste": "Thrillers with Psychological Elements"
+        },
+        {
+          "reason": "The user favors science fiction films that present imaginative and unique ideas, reflecting a taste for creativity.",
+          "taste": "Sci-Fi with Unique Concepts"
+        },
+        {
+          "reason": "The user enjoys animated films, indicating a preference for storytelling that appeals to a wide audience.",
+          "taste": "Animated Films"
+        }
+      ]
+    },
+    "user_id": 4041
+  }
+}

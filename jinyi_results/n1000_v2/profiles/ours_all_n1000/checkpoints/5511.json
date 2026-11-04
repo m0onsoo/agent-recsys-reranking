@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "a2b65ec0b06c7c62e3412c037563ec935ed820f6066f23c75ab01390785b34de",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1019,
+      80,
+      2603,
+      433,
+      2337,
+      760,
+      126,
+      135,
+      1241,
+      843
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      14,
+      116,
+      177,
+      418,
+      474,
+      505,
+      522,
+      575,
+      628,
+      679,
+      793,
+      887,
+      894,
+      1197,
+      1211,
+      1240,
+      1252,
+      1287,
+      1457,
+      1630,
+      1830,
+      1951,
+      2037,
+      2142,
+      2146
+    ],
+    "seed": 42,
+    "source_hash": "7cda9d298041af9db919ea1dca62d8e82dff830882bc67d59df0cd2ee93a5c74",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5511,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Peter Weller",
+          "Nancy Allen",
+          "Ronny Cox",
+          "Kurtwood Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a violent, near-apocalyptic Detroit, evil corporation Omni Consumer Products wins a contract from the city government to privatize the police force. To test their crime-eradicating cyborgs, the company leads street cop Alex Murphy into an armed confrontation with crime lord Boddicker so they can use his body to support their untested RoboCop prototype. But when RoboCop learns of the company's nefarious plans, he turns on his masters.",
+        "release_date": "1987-07-17",
+        "release_year": "1987",
+        "title": "Robocop"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Rene Russo",
+          "Morgan Freeman",
+          "Kevin Spacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A deadly airborne virus finds its way into the USA and starts killing off people at an epidemic rate. Col Sam Daniels' job is to stop the virus spreading from a small town, which must be quarantined, and to prevent an over reaction by the White House.",
+        "release_date": "1995-03-10",
+        "release_year": "1995",
+        "title": "Outbreak"
+      },
+      {
+        "cast": [
+          "Tom Waits",
+          "John Lurie",
+          "Roberto Benigni",
+          "Nicoletta Braschi"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Jim Jarmusch",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of three men from completely different tracks who all meet in a Louisiana prison cell and eventually begin an awkward journey together.",
+        "release_date": "1986-05-01",
+        "release_year": "1986",
+        "title": "Down by Law"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Nicolas Cage",
+          "Joan Allen",
+          "Alessandro Nivola"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.",
+        "release_date": "1997-06-27",
+        "release_year": "1997",
+        "title": "Face/Off"
+      },
+      {
+        "cast": [
+          "Fred MacMurray",
+          "Keenan Wynn",
+          "Paul Lynde",
+          "Nancy Olson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Stevenson",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Medfield's lovable but hopelessly absent-minded professor -- Ned Brainard (Fred MacMurray) -- bounces back in this classic Disney film with hilarious new mishaps when he experiments with the amazing by-products of his startling anti-gravity substance, \"flubber.\" Windows shatter, football players fly, and thunderstorms materialize indoors as Professor Brainard fights to keep Medfield College from falling into the hands of ruthless land developer Alonzo Hawk (Keenan Wynn).",
+        "release_date": "1963-01-16",
+        "release_year": "1963",
+        "title": "Son of Flubber"
+      },
+      {
+        "cast": [
+          "James Franciscus",
+          "Kim Hunter",
+          "Maurice Evans",
+          "Linda Harrison"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ted Post",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Astronaut Brent is sent to rescue Taylor but crash lands on the Planet of the Apes, just like Taylor did in the original film. Taylor has disappeared into the Forbidden Zone so Brent and Nova try to follow and find him. He discovers a cult of humans that fear the Apes' latest military movements and finds himself in the middle. Tension mounts to a climactic battle between ape and man deep in the bowels of the planet.",
+        "release_date": "1970-05-01",
+        "release_year": "1970",
+        "title": "Beneath the Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "John Cusack",
+          "John Malkovich",
+          "Ving Rhames"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Simon West",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When the government puts all its rotten criminal eggs in one airborne basket, it's asking for trouble. Before you can say, \"Pass the barf bag,\" the crooks control the plane, led by creepy Cyrus \"The Virus\" Grissom. Watching his every move is the just-released Cameron Poe, who'd rather reunite with his family.",
+        "release_date": "1997-06-01",
+        "release_year": "1997",
+        "title": "Con Air"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Frank Sinatra",
+          "Laurence Harvey",
+          "Angela Lansbury",
+          "Janet Leigh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Frankenheimer",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The Manchurian Candidate is a political thriller from American director John Frankenheimer. An American soldier is brainwashed into being a killer for the communist Russians during the Korean War.",
+        "release_date": "1962-10-24",
+        "release_year": "1962",
+        "title": "Manchurian Candidate, The"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Rutger Hauer",
+          "Michelle Pfeiffer",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Captain Etienne Navarre is a man on whose shoulders lies a cruel curse. Punished for loving each other, Navarre must become a wolf by night whilst his lover, Lady Isabeau, takes the form of a hawk by day. Together, with the thief Philippe Gaston, they must try to overthrow the corrupt Bishop and in doing so break the spell.",
+        "release_date": "1985-03-27",
+        "release_year": "1985",
+        "title": "Ladyhawke"
+      }
+    ],
+    "raw_user_id": "5511",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 580
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8734095273365189
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that are primarily mystery or thriller without strong character development.",
+        "Dislike for films that do not effectively blend genres, particularly in drama or romance."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with other genres like romance and drama.",
+        "Positive reception of films that combine drama with elements of romance and war.",
+        "Strong appreciation for films that feature crime and thriller elements."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys light-hearted and humorous films, as indicated by multiple high ratings for comedies.); Drama (The user appreciates dramatic narratives, reflected in several ratings for drama films.); Romance (The user shows a preference for romantic themes, as seen in the ratings for romance films.); Thriller (The user is drawn to suspenseful and thrilling plots, indicated by positive ratings for thriller films.); War (The user has an interest in war-related stories, as evidenced by ratings for films in this genre.). Liked patterns: High ratings for comedies that blend humor with other genres like romance and drama., Positive reception of films that combine drama with elements of romance and war., Strong appreciation for films that feature crime and thriller elements.. Disliked patterns: Low ratings for films that are primarily mystery or thriller without strong character development., Dislike for films that do not effectively blend genres, particularly in drama or romance..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted and humorous films, as indicated by multiple high ratings for comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, reflected in several ratings for drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows a preference for romantic themes, as seen in the ratings for romance films.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user is drawn to suspenseful and thrilling plots, indicated by positive ratings for thriller films.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user has an interest in war-related stories, as evidenced by ratings for films in this genre.",
+          "taste": "War"
+        }
+      ]
+    },
+    "user_id": 5511
+  }
+}

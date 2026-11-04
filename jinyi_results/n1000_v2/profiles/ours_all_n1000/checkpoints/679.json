@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "f5e683a883e7b7a5ce66340a79088a6343a71bde8a2f9295d9ab87bbc34cd176",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      243,
+      1155,
+      128,
+      176,
+      144,
+      125,
+      539,
+      211,
+      262,
+      281
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "fad9b3d5dc2947c7acc8d3d516fff35e"
+    ],
+    "sampled_item_ids": [
+      5,
+      27,
+      59,
+      65,
+      85,
+      117,
+      129,
+      148,
+      281,
+      393,
+      421,
+      484,
+      532,
+      539,
+      644,
+      665,
+      744,
+      766,
+      869,
+      917,
+      995,
+      1111,
+      1155,
+      1353,
+      2009
+    ],
+    "seed": 42,
+    "source_hash": "22eac50857f18b2592f3ca360b1c8f84cdf38fae5772e7a89c8fe29785c038fe",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 679,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Brad Pitt",
+          "Morgan Freeman",
+          "Gwyneth Paltrow",
+          "John C. McGinley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+        "release_date": "1995-09-22",
+        "release_year": "1995",
+        "title": "Seven (Se7en)"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Ursula Andress",
+          "Joseph Wiseman",
+          "Jack Lord"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terence Young",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "In the film that launched the James Bond saga, Agent 007 battles mysterious Dr. No, a scientific genius bent on destroying the U.S. space program. As the countdown to disaster begins, Bond must go to Jamaica, where he encounters beautiful Honey Ryder, to confront a megalomaniacal villain in his massive island headquarters.",
+        "release_date": "1962-10-04",
+        "release_year": "1962",
+        "title": "Dr. No"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "John Belushi",
+          "Tim Matheson",
+          "John Vernon",
+          "Verna Bloom"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a 1962 College, Dean Vernon Wormer is determined to expel the entire Delta Tau Chi Fraternity, but those troublemakers have other plans for him.",
+        "release_date": "1978-07-27",
+        "release_year": "1978",
+        "title": "Animal House"
+      },
+      {
+        "cast": [
+          "Ben Cross",
+          "Ian Charleson",
+          "Cheryl Campbell",
+          "Alice Krige"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Hugh Hudson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of British athletes preparing for and competing in the 1924 Summer Olympics.",
+        "release_date": "1981-05-15",
+        "release_year": "1981",
+        "title": "Chariots of Fire"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Matthew McConaughey",
+          "James Woods",
+          "John Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Contact is a science fiction film about an encounter with alien intelligence. Based on the novel by Carl Sagan the film starred Jodie Foster as the one chosen scientist who must make some difficult decisions between her beliefs, the truth, and reality.",
+        "release_date": "1997-07-11",
+        "release_year": "1997",
+        "title": "Contact"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Alan Rickman",
+          "Alexander Godunov",
+          "Bonnie Bedelia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "NYPD cop, John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Die Hard"
+      },
+      {
+        "cast": [
+          "Madonna",
+          "Al Pacino",
+          "Kevin Costner",
+          "Antonio Banderas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alek Keshishian",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "From the rain of Japan, through threats of arrest for 'public indecency' in Canada, and a birthday tribute to her father in Detroit, this documentary follows Madonna on her 1990 'Blond Ambition' concert tour. Filmed in black and white, with the concert pieces in glittering MTV color, it is an intimate look at the work of the music performer, from a prayer circle with the dancers before each performance to bed games with the dance troupe afterwards.",
+        "release_date": "1991-05-10",
+        "release_year": "1991",
+        "title": "Madonna: Truth or Dare"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Matt Damon",
+          "Ben Affleck",
+          "Stellan Skarsgård"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Will Hunting has a genius-level IQ but chooses to work as a janitor at MIT. When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau, who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire.",
+        "release_date": "1997-12-05",
+        "release_year": "1997",
+        "title": "Good Will Hunting"
+      }
+    ],
+    "raw_user_id": "679",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 66
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.3430706671483731
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Lower ratings for horror films, suggesting a lack of interest in that genre.",
+        "Dislike for certain sci-fi films that may not align with the user's preferences."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like romance and adventure.",
+        "Positive reception of films featuring strong character development and emotional depth.",
+        "Consistent enjoyment of films with imaginative or fantastical elements."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Sci-Fi (Several sci-fi films receive high ratings, suggesting a liking for imaginative and speculative storytelling.); Fondness for Animation and Family Films (The user rates animated and children's films positively, showing an affinity for light-hearted and family-friendly content.); Interest in Action and Adventure (Action and adventure genres are frequently rated well, reflecting a taste for excitement and dynamic storytelling.); Preference for Comedy (The user enjoys comedies, as evidenced by several high ratings in this genre, indicating a desire for humor and entertainment.). Liked patterns: High ratings for films that blend drama with other genres like romance and adventure., Positive reception of films featuring strong character development and emotional depth., Consistent enjoyment of films with imaginative or fantastical elements.. Disliked patterns: Lower ratings for horror films, suggesting a lack of interest in that genre., Dislike for certain sci-fi films that may not align with the user's preferences..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several sci-fi films receive high ratings, suggesting a liking for imaginative and speculative storytelling.",
+          "taste": "Enjoyment of Sci-Fi"
+        },
+        {
+          "reason": "The user rates animated and children's films positively, showing an affinity for light-hearted and family-friendly content.",
+          "taste": "Fondness for Animation and Family Films"
+        },
+        {
+          "reason": "Action and adventure genres are frequently rated well, reflecting a taste for excitement and dynamic storytelling.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user enjoys comedies, as evidenced by several high ratings in this genre, indicating a desire for humor and entertainment.",
+          "taste": "Preference for Comedy"
+        }
+      ]
+    },
+    "user_id": 679
+  }
+}

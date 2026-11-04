@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "e7133477c2fc0b81e354f3d71afdd905fc4fc20529b0b4161cee4ece188628a4",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      738,
+      735,
+      1217,
+      626,
+      798,
+      1345,
+      2092,
+      154,
+      2671,
+      85
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      14,
+      184,
+      400,
+      532,
+      564,
+      626,
+      712,
+      716,
+      736,
+      743,
+      778,
+      848,
+      1121,
+      1213,
+      1217,
+      1219,
+      1309,
+      1352,
+      1364,
+      1429,
+      2409,
+      2459,
+      2671,
+      2858,
+      2860
+    ],
+    "seed": 42,
+    "source_hash": "99bbf878b38fd746aae7e8219552634f954fe5e697a8e13c003e39db443a0a34",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4175,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Elisabeth Shue"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Marty and Doc are at it again in this wacky sequel to the 1985 blockbuster as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teenage parents -- again.",
+        "release_date": "1989-11-20",
+        "release_year": "1989",
+        "title": "Back to the Future Part II"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Shelley Long",
+          "Alexander Godunov",
+          "Maureen Stapleton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Benjamin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After being evicted from their Manhattan apartment, a couple buys what looks like the home of their dreams – only to find themselves saddled with a bank-account-draining nightmare. Struggling to keep their relationship together as their rambling mansion falls to pieces around them, the two watch in hilarious horror as everything – including the kitchen sink – disappears into the 'Money Pit'.",
+        "release_date": "1986-03-15",
+        "release_year": "1986",
+        "title": "Money Pit, The"
+      },
+      {
+        "cast": [
+          "Robert Hays",
+          "Julie Hagerty",
+          "Lloyd Bridges",
+          "Chad Everett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ken Finkleman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A faulty computer causes a passenger space shuttle to head straight for the sun, and man-with-a-past, Ted Striker must save the day and get the shuttle back on track – again – all the while trying to patch up his relationship with Elaine.",
+        "release_date": "1982-12-10",
+        "release_year": "1982",
+        "title": "Airplane II: The Sequel"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Dan Aykroyd",
+          "Jamie Lee Curtis",
+          "Jim Belushi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A snobbish investor and a wily street con-artist find their positions reversed as part of a bet by two callous millionaires.",
+        "release_date": "1983-06-07",
+        "release_year": "1983",
+        "title": "Trading Places"
+      },
+      {
+        "cast": [
+          "Christopher Guest",
+          "Michael McKean",
+          "Harry Shearer",
+          "Rob Reiner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "\"This Is Spinal Tap\" shines a light on the self-contained universe of a metal band struggling to get back on the charts, including everything from its complicated history of ups and downs, gold albums, name changes and undersold concert dates, along with the full host of requisite groupies, promoters, hangers-on and historians, sessions, release events and those special behind-the-scenes moments that keep it all real.",
+        "release_date": "1984-05-04",
+        "release_year": "1984",
+        "title": "This Is Spinal Tap"
+      },
+      {
+        "cast": [
+          "Winona Ryder",
+          "Christian Slater",
+          "Shannen Doherty",
+          "Lisanne Falk"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Lehmann",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A girl who halfheartedly tries to be part of the \"in crowd\" of her school meets a rebel who teaches her a more devious way to play social politics: by killing the popular kids.",
+        "release_date": "1988-10-01",
+        "release_year": "1989",
+        "title": "Heathers"
+      },
+      {
+        "cast": [
+          "Gregory Hines",
+          "Billy Crystal",
+          "Steven Bauer",
+          "Darlanne Fluegel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two street-wise Chicago cops have to shake off some rust after returning from a Key West vacation to pursue a drug dealer that nearly killed them in the past.",
+        "release_date": "1986-06-27",
+        "release_year": "1986",
+        "title": "Running Scared"
+      },
+      {
+        "cast": [
+          "Vivien Leigh",
+          "Clark Gable",
+          "Olivia de Havilland",
+          "Thomas Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "An American classic in which a manipulative woman and a roguish man carry on a turbulent love affair in the American south during the Civil War and Reconstruction.",
+        "release_date": "1939-12-15",
+        "release_year": "1939",
+        "title": "Gone with the Wind"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Hal Holbrook",
+          "Julianne Phillips",
+          "R. Lee Ermey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Ritchie",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Fletch is a fish out of water in small-town Louisiana, where he's checking out a tumbledown mansion he's inherited. When a woman he flirts with turns up dead, Fletch becomes a suspect and must find the killer and clear his name. In the meantime, he's got some serious home-ownership issues, such as termites and weird neighbors.",
+        "release_date": "1989-03-17",
+        "release_year": "1989",
+        "title": "Fletch Lives"
+      },
+      {
+        "cast": [
+          "Wil Wheaton",
+          "River Phoenix",
+          "Corey Feldman",
+          "Jerry O'Connell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After the death of a friend, a writer recounts a boyhood journey to find the body of a missing boy.",
+        "release_date": "1986-08-22",
+        "release_year": "1986",
+        "title": "Stand by Me"
+      }
+    ],
+    "raw_user_id": "4175",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 74
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1899850545098805
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films with poor humor",
+        "Dislike for certain comedies that do not resonate",
+        "Negative response to films that mix comedy with less favorable genres"
+      ],
+      "liked_patterns": [
+        "High ratings for comedies across various sub-genres",
+        "Preference for animated films that are comedic",
+        "Enjoyment of romantic comedies"
+      ],
+      "summary": "Unique tastes: Comedy (The user consistently rates comedies highly, indicating a strong preference for humor and lighthearted storytelling.); Animated and Children's Films (The user enjoys animated films, particularly those that incorporate comedy, suggesting a fondness for family-friendly content.); Romantic Comedy (The user appreciates romantic comedies, as evidenced by high ratings for films that blend romance with humor.); Action-Comedy (The user shows a liking for action-comedy films, indicating enjoyment of humor combined with action elements.); Documentary Comedy (The user rates documentary comedies highly, suggesting an interest in humor that also provides social commentary.). Liked patterns: High ratings for comedies across various sub-genres, Preference for animated films that are comedic, Enjoyment of romantic comedies. Disliked patterns: Low ratings for films with poor humor, Dislike for certain comedies that do not resonate, Negative response to films that mix comedy with less favorable genres.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates comedies highly, indicating a strong preference for humor and lighthearted storytelling.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user enjoys animated films, particularly those that incorporate comedy, suggesting a fondness for family-friendly content.",
+          "taste": "Animated and Children's Films"
+        },
+        {
+          "reason": "The user appreciates romantic comedies, as evidenced by high ratings for films that blend romance with humor.",
+          "taste": "Romantic Comedy"
+        },
+        {
+          "reason": "The user shows a liking for action-comedy films, indicating enjoyment of humor combined with action elements.",
+          "taste": "Action-Comedy"
+        },
+        {
+          "reason": "The user rates documentary comedies highly, suggesting an interest in humor that also provides social commentary.",
+          "taste": "Documentary Comedy"
+        }
+      ]
+    },
+    "user_id": 4175
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "bb2607e60784258a91c2098566d5714659dd97003b68805ee492b68f0d8220b7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      376,
+      209,
+      1113,
+      2345,
+      1063,
+      212,
+      754,
+      45,
+      217,
+      596
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8afbc8feac2c48af87f96ecdde8074e1"
+    ],
+    "sampled_item_ids": [
+      27,
+      63,
+      111,
+      126,
+      185,
+      332,
+      591,
+      616,
+      721,
+      841,
+      870,
+      969,
+      1037,
+      1064,
+      1096,
+      1110,
+      1159,
+      1337,
+      1675,
+      1698,
+      1858,
+      2200,
+      2373,
+      2494,
+      2534
+    ],
+    "seed": 42,
+    "source_hash": "b757d3fa1b0feec6421e6338f66b80f19cc7f6f92e023e89de2eba45631323e3",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2995,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "scientist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Brandon Lee",
+          "Rochelle Davis",
+          "Ernie Hudson",
+          "Michael Wincott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Exactly one year after young rock guitarist Eric Draven and his fiancée are brutally killed by a ruthless gang of criminals, Draven -- watched over by a hypnotic crow -- returns from the grave to exact revenge.",
+        "release_date": "1994-05-11",
+        "release_year": "1994",
+        "title": "Crow, The"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Marianne Koch",
+          "Gian Maria Volonté",
+          "Wolfgang Lukschy"
+        ],
+        "country": [
+          "Italy",
+          "Germany",
+          "Spain"
+        ],
+        "director": "Sergio Leone",
+        "genres": [
+          "Action",
+          "Western"
+        ],
+        "language": "Italian",
+        "overview": "The Man With No Name enters the Mexican village of San Miguel in the midst of a power struggle among the three Rojo brothers and sheriff John Baxter. When a regiment of Mexican soldiers bearing gold intended to pay for new weapons is waylaid by the Rojo brothers, the stranger inserts himself into the middle of the long-simmering battle, selling false information to both sides for his own benefit.",
+        "release_date": "1964-09-12",
+        "release_year": "1964",
+        "title": "Fistful of Dollars, A"
+      },
+      {
+        "cast": [
+          "Timothy Dalton",
+          "Carey Lowell",
+          "Robert Davi",
+          "Talisa Soto"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Glen",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "James Bond and his American colleague Felix Leiter arrest the drug lord Sanchez who succeeds in escaping and takes revenge on Felix and his wife. Bond knows but just one thing: revenge.",
+        "release_date": "1989-07-07",
+        "release_year": "1989",
+        "title": "Licence to Kill"
+      },
+      {
+        "cast": [
+          "Ruth Warrick",
+          "Bobby Driscoll",
+          "James Baskett",
+          "Luana Patten"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harve Foster",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Uncle Remus draws upon his tales of Brer Rabbit to help little Johnny deal with his confusion over his parents' separation as well as his new life on the plantation.",
+        "release_date": "1946-11-12",
+        "release_year": "1946",
+        "title": "Song of the South"
+      },
+      {
+        "cast": [
+          "Hayley Mills",
+          "Maureen O'Hara",
+          "Brian Keith",
+          "Charles Ruggles"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Swift",
+        "genres": [
+          "Children's",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Hayley Mills plays twins who, unknown to their divorced parents, meet at a summer camp. Products of single parent households, they switch places (surprise!) so as to meet the parent they never knew, and then contrive to reunite them.",
+        "release_date": "1961-06-12",
+        "release_year": "1961",
+        "title": "Parent Trap, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Joanne Samuel",
+          "Hugh Keays-Byrne",
+          "Steve Bisley"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future Australia, a vicious biker gang murders a cop's family, and makes his fight with them personal.",
+        "release_date": "1979-04-12",
+        "release_year": "1979",
+        "title": "Mad Max"
+      },
+      {
+        "cast": [
+          "Demi Moore",
+          "Viggo Mortensen",
+          "Anne Bancroft",
+          "Jason Beghe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A female Senator succeeds in enrolling a woman into Combined Reconnaissance Team training where everyone expects her to fail.",
+        "release_date": "1997-08-22",
+        "release_year": "1997",
+        "title": "G.I. Jane"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Honor Blackman",
+          "Gert Fröbe",
+          "Shirley Eaton"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Guy Hamilton",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Special agent 007 (Sean Connery) comes face to face with one of the most notorious villains of all time, and now he must outwit and outgun the powerful tycoon to prevent him from cashing in on a devious scheme to raid Fort Knox -- and obliterate the world's economy.",
+        "release_date": "1964-09-17",
+        "release_year": "1964",
+        "title": "Goldfinger"
+      },
+      {
+        "cast": [
+          "Meredith Salenger",
+          "John Cusack",
+          "Ray Wise",
+          "Scatman Crothers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeremy Kagan",
+        "genres": [
+          "Adventure",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "America is in the depths of the Great Depression. Families drift apart when faraway jobs beckon. In this masterful, atmospheric adventure, a courageous young girl (Meredith Salenger) confronts overwhelming odds when she embarks on a cross-country search for her father. During her extraordinary odyssey, she forms a close bond with two diverse traveling companions: a magnificent, protective wolf, and a hardened drifter (John Cusack). A brilliant, moving tapestry, woven of courage and perseverance.",
+        "release_date": "1985-09-25",
+        "release_year": "1985",
+        "title": "Journey of Natty Gann, The"
+      }
+    ],
+    "raw_user_id": "2995",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 273
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6154169657185302
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received action films",
+        "Negative response to certain children's films",
+        "Dislike for films that blend genres unsuccessfully"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure films",
+        "Enjoyment of fantasy and sci-fi genres",
+        "Positive reception of comedies that incorporate other elements"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys a variety of action and adventure films, often rated highly.); Fantasy and Sci-Fi (The user appreciates fantasy and sci-fi elements, as seen in several highly rated films.); Comedy (The user has a preference for comedies, particularly those that blend with other genres.); Drama (The user shows a strong inclination towards dramatic narratives, often rated positively.); Horror and Thriller (The user enjoys horror and thriller films, with several rated highly.). Liked patterns: Strong preference for action and adventure films, Enjoyment of fantasy and sci-fi genres, Positive reception of comedies that incorporate other elements. Disliked patterns: Dislike for poorly received action films, Negative response to certain children's films, Dislike for films that blend genres unsuccessfully.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of action and adventure films, often rated highly.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates fantasy and sci-fi elements, as seen in several highly rated films.",
+          "taste": "Fantasy and Sci-Fi"
+        },
+        {
+          "reason": "The user has a preference for comedies, particularly those that blend with other genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows a strong inclination towards dramatic narratives, often rated positively.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys horror and thriller films, with several rated highly.",
+          "taste": "Horror and Thriller"
+        }
+      ]
+    },
+    "user_id": 2995
+  }
+}

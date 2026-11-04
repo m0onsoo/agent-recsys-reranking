@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "2218dadc6bf392dfc1c1a613e6fb75feac07bcbb255baa65e26ef8245a842ca9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      187,
+      119,
+      1867,
+      49,
+      98,
+      126,
+      73,
+      1023,
+      111,
+      652
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      65,
+      66,
+      67,
+      69,
+      75,
+      79,
+      98,
+      108,
+      146,
+      156,
+      169,
+      187,
+      194,
+      200,
+      206,
+      216,
+      278,
+      591,
+      644,
+      667,
+      676,
+      1042,
+      1699,
+      1712,
+      2773
+    ],
+    "seed": 42,
+    "source_hash": "586a1c6730d73517be4d52bc5b4fb4b210f07dfdd19846ce73150c7bbce579d9",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5531,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Harrison Ford",
+          "Sean Connery",
+          "Denholm Elliott",
+          "Alison Doody"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Henry Jones Sr. suddenly goes missing while pursuing the Holy Grail, eminent archaeologist Indiana must team up with Marcus Brody, Sallah and Elsa Schneider to follow in his father's footsteps and stop the Nazis from recovering the power of eternal life.",
+        "release_date": "1989-05-24",
+        "release_year": "1989",
+        "title": "Indiana Jones and the Last Crusade"
+      },
+      {
+        "cast": [
+          "Leonardo DiCaprio",
+          "Jeremy Irons",
+          "Gérard Depardieu",
+          "Gabriel Byrne"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Randall Wallace",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Years have passed since the Three Musketeers, Aramis, Athos and Porthos, have fought together with their friend, D'Artagnan. But with the tyrannical King Louis using his power to wreak havoc in the kingdom while his twin brother, Philippe, remains imprisoned, the Musketeers reunite to abduct Louis and replace him with Philippe.",
+        "release_date": "1998-03-12",
+        "release_year": "1998",
+        "title": "Man in the Iron Mask, The"
+      },
+      {
+        "cast": [
+          "Meryl Streep",
+          "David Strathairn",
+          "Kevin Bacon",
+          "Benjamin Bratt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "While on a family vacation,  rafting expert Gail takes on a pair of armed killers while navigating a spectacularly violent river.",
+        "release_date": "1994-09-30",
+        "release_year": "1994",
+        "title": "River Wild, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "John Cusack",
+          "John Malkovich",
+          "Ving Rhames"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Simon West",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When the government puts all its rotten criminal eggs in one airborne basket, it's asking for trouble. Before you can say, \"Pass the barf bag,\" the crooks control the plane, led by creepy Cyrus \"The Virus\" Grissom. Watching his every move is the just-released Cameron Poe, who'd rather reunite with his family.",
+        "release_date": "1997-06-01",
+        "release_year": "1997",
+        "title": "Con Air"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "John Lithgow",
+          "Michael Rooker",
+          "Janine Turner"
+        ],
+        "country": [
+          "France",
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "A year after losing his friend in a tragic 4,000-foot fall, former ranger Gabe Walker and his partner, Hal, are called to return to the same peak to rescue a group of stranded climbers, only to learn the climbers are actually thieving hijackers who are looking for boxes full of money.",
+        "release_date": "1993-05-28",
+        "release_year": "1993",
+        "title": "Cliffhanger"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Claudine Auger",
+          "Adolfo Celi",
+          "Luciana Paluzzi"
+        ],
+        "country": [
+          "Bahamas",
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Terence Young",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "A criminal organization has obtained two nuclear bombs and are asking for a 100 million pound ransom in the form of diamonds in seven days or they will use the weapons. The secret service sends James Bond to the Bahamas to once again save the world.",
+        "release_date": "1965-12-16",
+        "release_year": "1965",
+        "title": "Thunderball"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Madeleine Stowe",
+          "Russell Means",
+          "Eric Schweig"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Action",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As the English and French soldiers battle for control of the American colonies in the 18th century, the settlers and native Americans are forced to take sides. Cora and her sister Alice unwittingly walk into trouble but are reluctantly saved by Hawkeye, an orphaned settler adopted by the last of the Mohicans.",
+        "release_date": "1992-09-25",
+        "release_year": "1992",
+        "title": "Last of the Mohicans, The"
+      },
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Vladimir Kulich",
+          "Dennis Storhøi",
+          "Daniel Southern"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In AD 922, Arab courtier, Ahmad Ibn Fadlan accompanies a party of Vikings to the barbaric North to combat a terror that slaughters Vikings and devours their flesh.",
+        "release_date": "1999-08-27",
+        "release_year": "1999",
+        "title": "13th Warrior, The"
+      }
+    ],
+    "raw_user_id": "5531",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 120
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7692670318489409
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films rated below 3, particularly those that do not meet action or adventure expectations"
+      ],
+      "liked_patterns": [
+        "Strong preference for action films with high ratings",
+        "Enjoyment of films that combine action with other genres like drama and comedy",
+        "Appreciation for science fiction themes in action movies"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventure elements.); Sci-Fi (The user has a strong preference for science fiction themes, often appreciating the imaginative aspects of the genre.); Drama within Action (The user favors action films that incorporate dramatic storytelling, enhancing emotional engagement.); Thriller Elements (The user is drawn to action films that include thriller components, adding suspense and excitement.); Comedy in Action (The user appreciates action films that blend in comedic elements, providing a lighter tone.). Liked patterns: Strong preference for action films with high ratings, Enjoyment of films that combine action with other genres like drama and comedy, Appreciation for science fiction themes in action movies. Disliked patterns: Dislike for films rated below 3, particularly those that do not meet action or adventure expectations.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventure elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user has a strong preference for science fiction themes, often appreciating the imaginative aspects of the genre.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user favors action films that incorporate dramatic storytelling, enhancing emotional engagement.",
+          "taste": "Drama within Action"
+        },
+        {
+          "reason": "The user is drawn to action films that include thriller components, adding suspense and excitement.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user appreciates action films that blend in comedic elements, providing a lighter tone.",
+          "taste": "Comedy in Action"
+        }
+      ]
+    },
+    "user_id": 5531
+  }
+}

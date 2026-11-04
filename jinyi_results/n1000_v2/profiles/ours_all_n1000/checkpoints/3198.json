@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "2c47e5724a14e4dd2e5add7465ff5a85308b2b59d8ce006bab87683263bd489e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      757,
+      1680,
+      910,
+      1518,
+      741,
+      2663,
+      1132,
+      999,
+      97,
+      1011
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7e08c56034424252b86935cb4a9a679c"
+    ],
+    "sampled_item_ids": [
+      97,
+      193,
+      207,
+      214,
+      274,
+      295,
+      604,
+      662,
+      789,
+      791,
+      910,
+      999,
+      1127,
+      1152,
+      1159,
+      1232,
+      1254,
+      1458,
+      1518,
+      1622,
+      1959,
+      2229,
+      2615,
+      2663,
+      2694
+    ],
+    "seed": 42,
+    "source_hash": "a419d4ebffd8ced750fcab81b52d656604e57fd5f0fd0085e19d776aa7adc49a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3198,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Graham Chapman",
+          "John Cleese",
+          "Terry Gilliam",
+          "Eric Idle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Jones",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Brian Cohen is an average young Jewish man, but through a series of ridiculous events, he gains a reputation as the Messiah. When he's not dodging his followers or being scolded by his shrill mother, the hapless Brian has to contend with the pompous Pontius Pilate and acronym-obsessed members of a separatist movement. Rife with Monty Python's signature absurdity, the tale finds Brian's life paralleling Biblical lore, albeit with many more laughs.",
+        "release_date": "1979-08-17",
+        "release_year": "1979",
+        "title": "Monty Python's Life of Brian"
+      },
+      {
+        "cast": [
+          "Kimberly Beck",
+          "Erich Anderson",
+          "Corey Feldman",
+          "Barbara Howard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joseph Zito",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After the Crystal Lake Massacres, Jason is pronounced dead and taken to the hospital morgue, where he is mysteriously revived, allowing his diabolical killing spree to continue at the camp where the gruesome slaughtering began. But this time, in addition to terrified teenagers, he meets a young boy named Tommy who has a special talent for horror masks and make up, leading up to a horrifying, bloody battle! Has Jason finally met his match?",
+        "release_date": "1984-04-13",
+        "release_year": "1984",
+        "title": "Friday the 13th: The Final Chapter"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Quentin Tarantino",
+          "Harvey Keitel",
+          "Juliette Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Rodriguez",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Seth Gecko and his younger brother Richard are on the run after a bloody bank robbery in Texas. They escape across the border into Mexico and will be home-free the next morning, when they pay off the local kingpin. They just have to survive 'from dusk till dawn' at the rendezvous point, which turns out to be a Hell of a strip joint.",
+        "release_date": "1996-01-19",
+        "release_year": "1996",
+        "title": "From Dusk Till Dawn"
+      },
+      {
+        "cast": [
+          "Ruth Gordon",
+          "Bud Cort",
+          "Cyril Cusack",
+          "Charles Tyner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hal Ashby",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The young Harold lives in his own world of suicide-attempts and funeral visits to avoid the misery of his current family and home environment. Harold meets an 80-year-old woman named Maude who also lives in her own world yet one in which she is having the time of her life. When the two opposites meet they realize that their differences don’t matter and they become best friends and love each other.",
+        "release_date": "1971-12-20",
+        "release_year": "1971",
+        "title": "Harold and Maude"
+      },
+      {
+        "cast": [
+          "Bruce Campbell",
+          "Embeth Davidtz",
+          "Marcus Gilbert",
+          "Ian Abercrombie"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A man is accidentally transported to 1300 A.D., where he must battle an army of the dead and retrieve the Necronomicon so he can return home.",
+        "release_date": "1992-10-09",
+        "release_year": "1993",
+        "title": "Army of Darkness"
+      },
+      {
+        "cast": [
+          "Dale Midkiff",
+          "Fred Gwynne",
+          "Denise Crosby",
+          "Brad Greenquist"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mary Lambert",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Dr. Louis Creed's family moves into the country house of their dreams and discover a pet cemetery at the back of their property. The cursed burial ground deep in the woods brings the dead back to life -- with \"minor\" problems. At first, only the family's cat makes the return trip, but an accident forces a heartbroken father to contemplate the unthinkable.",
+        "release_date": "1989-04-21",
+        "release_year": "1989",
+        "title": "Pet Sematary"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "John Cassavetes",
+          "Ruth Gordon",
+          "Sidney Blackmer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A young couple moves into an infamous New York apartment building to start a family. Things become frightening as Rosemary begins to suspect her unborn baby isn't safe around their strange neighbors.",
+        "release_date": "1968-06-12",
+        "release_year": "1968",
+        "title": "Rosemary's Baby"
+      },
+      {
+        "cast": [
+          "Brigitte Helm",
+          "Alfred Abel",
+          "Gustav Fröhlich",
+          "Rudolf Klein-Rogge"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Fritz Lang",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "German",
+        "overview": "In a futuristic city sharply divided between the working class and the city planners, the son of the city's mastermind falls in love with a working class prophet who predicts the coming of a savior to mediate their differences.",
+        "release_date": "1927-01-10",
+        "release_year": "1926",
+        "title": "Metropolis"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "François Truffaut",
+          "Teri Garr",
+          "Melinda Dillon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After an encounter with UFOs, a line worker feels undeniably drawn to an isolated area in the wilderness where something spectacular is about to happen.",
+        "release_date": "1977-11-16",
+        "release_year": "1977",
+        "title": "Close Encounters of the Third Kind"
+      },
+      {
+        "cast": [
+          "Catherine Mary Stewart",
+          "Robert Beltran",
+          "Kelli Maroney",
+          "Sharon Farrell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Thom Eberhardt",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two girls from the Valley wake up to find that a passing comet has eradicated their world and left behind a mysterious red-dust and a pack of cannibal mutants. With the help of a friendly truck driver, the girls save the earth from a villainous \"think tank,\" karate chop their way through flesh-eating zombies, and, of course, find time to go to the mall.",
+        "release_date": "1984-11-16",
+        "release_year": "1984",
+        "title": "Night of the Comet"
+      }
+    ],
+    "raw_user_id": "3198",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 84
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8067173568346769
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed in the sample."
+      ],
+      "liked_patterns": [
+        "High ratings for horror films that blend with other genres like comedy and drama.",
+        "Positive ratings for films that feature strong character-driven narratives.",
+        "A tendency to enjoy films that combine elements of humor with darker themes."
+      ],
+      "summary": "Unique tastes: Horror (The user enjoys a variety of horror films, often rating them highly, indicating a strong preference for this genre.); Comedy (The user rates several comedies positively, suggesting a fondness for humor and light-hearted storytelling.); Drama (The user appreciates dramatic narratives, as evidenced by multiple high ratings for films in this genre.); Sci-Fi (The user shows an interest in science fiction, with several films rated positively, indicating a liking for imaginative and speculative themes.); Thriller (The user enjoys thrillers, as reflected in the ratings for films that create suspense and tension.). Liked patterns: High ratings for horror films that blend with other genres like comedy and drama., Positive ratings for films that feature strong character-driven narratives., A tendency to enjoy films that combine elements of humor with darker themes.. Disliked patterns: No significant patterns of dislike observed in the sample..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of horror films, often rating them highly, indicating a strong preference for this genre.",
+          "taste": "Horror"
+        },
+        {
+          "reason": "The user rates several comedies positively, suggesting a fondness for humor and light-hearted storytelling.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows an interest in science fiction, with several films rated positively, indicating a liking for imaginative and speculative themes.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user enjoys thrillers, as reflected in the ratings for films that create suspense and tension.",
+          "taste": "Thriller"
+        }
+      ]
+    },
+    "user_id": 3198
+  }
+}

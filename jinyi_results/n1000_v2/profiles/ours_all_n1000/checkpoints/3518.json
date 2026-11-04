@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "6d72d9b4d15e3524b8ba1359bd2c32a300e42df1b4428619275799fa30f7720c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      801,
+      506,
+      796,
+      1119,
+      1088,
+      206,
+      141,
+      2034,
+      649,
+      1186
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "bd5430f96254459e9dc7de91d6bc741e"
+    ],
+    "sampled_item_ids": [
+      128,
+      172,
+      238,
+      253,
+      266,
+      331,
+      370,
+      432,
+      472,
+      567,
+      695,
+      747,
+      757,
+      761,
+      896,
+      905,
+      1064,
+      1271,
+      1299,
+      1567,
+      1683,
+      1955,
+      1977,
+      1997,
+      2039
+    ],
+    "seed": 42,
+    "source_hash": "070ab62cdc73933ed31b209c90158645da6eecee9d7cf1837d0363865f4ede7a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3518,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Cusack",
+          "Billy Bob Thornton",
+          "Cate Blanchett",
+          "Angelina Jolie"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two air traffic controllers (John Cusack, Billy Bob Thornton) who thrive on living dangerously compete to outdo each other on several levels.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Pushing Tin"
+      },
+      {
+        "cast": [
+          "Nicoletta Braschi",
+          "Roberto Benigni",
+          "Giorgio Cantarini",
+          "Giustino Durano"
+        ],
+        "country": [
+          "Italy"
+        ],
+        "director": "Roberto Benigni",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Italian",
+        "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
+        "release_date": "1997-12-20",
+        "release_year": "1997",
+        "title": "Life Is Beautiful (La Vita è bella)"
+      },
+      {
+        "cast": [
+          "William Gates",
+          "Arthur Agee",
+          "Steve James"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve James",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "This documentary follows two inner-city Chicago residents, Arthur Agee and William Gates, as they follow their dreams of becoming basketball superstars. Beginning at the start of their high school years, and ending almost 5 years later, as they start college, we watch the boys mature into men, still retaining their \"Hoop Dreams\".",
+        "release_date": "1994-09-12",
+        "release_year": "1994",
+        "title": "Hoop Dreams"
+      },
+      {
+        "cast": [
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Matthew Lillard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A killer known as Ghostface begins killing off teenagers, and as the body count begins rising, one girl and her friends find themselves contemplating the 'rules' of horror films as they find themselves living in a real-life one.",
+        "release_date": "1996-12-20",
+        "release_year": "1996",
+        "title": "Scream"
+      },
+      {
+        "cast": [
+          "Kathleen Turner",
+          "Sam Waterston",
+          "Ricki Lake",
+          "Matthew Lillard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Waters",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A picture perfect middle class family is shocked when they find out that one of their neighbors is receiving obscene phone calls. The mom takes slights against her family very personally, and it turns out she is indeed the one harassing the neighbor. As other slights befall her beloved family, the body count begins to increase.",
+        "release_date": "1994-04-13",
+        "release_year": "1994",
+        "title": "Serial Mom"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kate Capshaw",
+          "Jonathan Ke Quan",
+          "Amrish Puri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees – and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace.",
+        "release_date": "1984-05-23",
+        "release_year": "1984",
+        "title": "Indiana Jones and the Temple of Doom"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Meryl Streep",
+          "Jane Alexander",
+          "Justin Henry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Benton",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ted Kramer is a career man for whom his work comes before his family. His wife Joanna cannot take this anymore, so she decides to leave him. Ted is now faced with the tasks of housekeeping and taking care of himself and their young son Billy.",
+        "release_date": "1979-12-18",
+        "release_year": "1979",
+        "title": "Kramer Vs. Kramer"
+      },
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Youki Kudoh",
+          "Reeve Carney",
+          "Anne Suzuki"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Scott Hicks",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Japanese-American fisherman may have killed his neighbor Carl at sea. In the 1950s, race figures in the trial. So does reporter Ishmael.",
+        "release_date": "1999-12-22",
+        "release_year": "1999",
+        "title": "Snow Falling on Cedars"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Audrey Hepburn",
+          "Eddie Albert",
+          "Hartley Power"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Overwhelmed by her suffocating schedule, touring European princess Ann takes off for a night while in Rome. When a sedative she took from her doctor kicks in, however, she falls asleep on a park bench and is found by an American reporter, Joe Bradley, who takes her back to his apartment for safety. At work the next morning, Joe finds out Ann's regal identity and bets his editor he can get exclusive interview with her, but romance soon gets in the way.",
+        "release_date": "1953-09-02",
+        "release_year": "1953",
+        "title": "Roman Holiday"
+      },
+      {
+        "cast": [
+          "N!xau",
+          "Michael Thys",
+          "Marius Weyers",
+          "Sandra Prinsloo"
+        ],
+        "country": [
+          "South Africa",
+          "Botswana"
+        ],
+        "director": "Jamie Uys",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Misery is brought to a small group of Sho in the Kalahari desert in the form of a cola bottle. In his quest to throw the evil object over the edge of the earth, Xixo encounters Western \"civilization,\" a haphazard doctor and a tyranical despot.",
+        "release_date": "1980-09-10",
+        "release_year": "1980",
+        "title": "Gods Must Be Crazy, The"
+      }
+    ],
+    "raw_user_id": "3518",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 401
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.615521185664609
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that are primarily drama without strong character engagement.",
+        "Dislike for films that attempt to blend genres unsuccessfully, such as comedy with horror.",
+        "Negative ratings for films that do not resonate emotionally or lack compelling narratives."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with romance or comedy.",
+        "Positive ratings for action films that also incorporate elements of adventure.",
+        "Strong appreciation for films that feature character development and emotional depth."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (The user frequently rates comedies positively, suggesting a fondness for humor and lighthearted storytelling.); Interest in Action and Adventure (The user shows a liking for action and adventure genres, as evidenced by high ratings for films in these categories.); Fondness for Romance (Several films with romantic themes receive favorable ratings, indicating an appreciation for love stories.); Engagement with Documentaries (The user rates a documentary highly, suggesting an interest in real-life stories and informative content.). Liked patterns: High ratings for films that blend drama with romance or comedy., Positive ratings for action films that also incorporate elements of adventure., Strong appreciation for films that feature character development and emotional depth.. Disliked patterns: Low ratings for films that are primarily drama without strong character engagement., Dislike for films that attempt to blend genres unsuccessfully, such as comedy with horror., Negative ratings for films that do not resonate emotionally or lack compelling narratives..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user frequently rates comedies positively, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for action and adventure genres, as evidenced by high ratings for films in these categories.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "Several films with romantic themes receive favorable ratings, indicating an appreciation for love stories.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "The user rates a documentary highly, suggesting an interest in real-life stories and informative content.",
+          "taste": "Engagement with Documentaries"
+        }
+      ]
+    },
+    "user_id": 3518
+  }
+}

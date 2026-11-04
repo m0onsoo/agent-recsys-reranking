@@ -1,0 +1,344 @@
+{
+  "checkpoint_hash": "19026a8b661b2ffe5832b9f958b3873ce9a8a0991a5a60c3f5d3722e4802e077",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      45,
+      1210,
+      899,
+      1017,
+      698,
+      1260,
+      1004,
+      247,
+      210,
+      1319
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      45,
+      200,
+      210,
+      252,
+      490,
+      513,
+      631,
+      698,
+      795,
+      853,
+      906,
+      1006,
+      1015,
+      1017,
+      1064,
+      1071,
+      1096,
+      1210,
+      1319,
+      1395,
+      1454,
+      1569,
+      1675,
+      1716,
+      1743
+    ],
+    "seed": 42,
+    "source_hash": "97b786991e1468dd416927ffc13c3184f4e0d12d24c52c6a9f2d80c5c5c71d5b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4994,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Jeff Fahey",
+          "Pierce Brosnan",
+          "Jenny Wright",
+          "Mark Bringelson"
+        ],
+        "country": [
+          "United Kingdom",
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Brett Leonard",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A simple man is turned into a genius through the application of computer science.",
+        "release_date": "1992-03-05",
+        "release_year": "1992",
+        "title": "Lawnmower Man, The"
+      },
+      {
+        "cast": [
+          "Kevin Bacon",
+          "Kathryn Erbe",
+          "Illeana Douglas",
+          "Kevin Dunn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Koepp",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After being hypnotized by his sister in law, Tom Witzky begins seeing haunting visions of a girl's ghost and a mystery begins to unfold around her.",
+        "release_date": "1999-09-10",
+        "release_year": "1999",
+        "title": "Stir of Echoes"
+      },
+      {
+        "cast": [
+          "Christopher Guard",
+          "William Squire",
+          "Michael Scholes",
+          "John Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ralph Bakshi",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Children's",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The Fellowship of the Ring embark on a journey to destroy the One Ring and end Sauron's reign over Middle-earth.",
+        "release_date": "1978-11-15",
+        "release_year": "1978",
+        "title": "Lord of the Rings, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Barry Pepper",
+          "Forest Whitaker",
+          "Kim Coates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Christian",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 3000, man is no match for the Psychlos, a greedy, manipulative race of aliens on a quest for ultimate profit. Led by the powerful Terl, the Psychlos are stripping Earth clean of its natural resources, using the broken remnants of humanity as slaves. What is left of the human race has descended into a near primitive state. After being captured, it is up to Tyler to save mankind.",
+        "release_date": "2000-05-10",
+        "release_year": "2000",
+        "title": "Battlefield Earth"
+      },
+      {
+        "cast": [
+          "Natasha Henstridge",
+          "Ben Kingsley",
+          "Michael Madsen",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Donaldson",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In 1993, the Search for Extra Terrestrial Intelligence Project receives a transmission detailing an alien DNA structure, along with instructions on how to splice it with human DNA. The result is Sil, a sensual but deadly creature who can change from a beautiful woman to an armour-plated killing machine in the blink of an eye.",
+        "release_date": "1995-07-07",
+        "release_year": "1995",
+        "title": "Species"
+      },
+      {
+        "cast": [
+          "Yul Brynner",
+          "Richard Benjamin",
+          "James Brolin",
+          "Norman Bartold"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Crichton",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In a futuristic resort, wealthy patrons can visit recreations of different time periods and experience their wildest fantasies with life-like robots. But when Richard Benjamin opts for the wild west, he gets more than he bargained for when a gunslinger robot goes berserk.",
+        "release_date": "1973-10-22",
+        "release_year": "1973",
+        "title": "Westworld"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Jack Nance",
+          "Charlotte Stewart",
+          "Allen Joseph",
+          "Jeanne Bates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Drama",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Henry Spencer tries to survive his industrial environment, his angry girlfriend, and the unbearable screams of his newly born mutant child.",
+        "release_date": "1977-03-19",
+        "release_year": "1977",
+        "title": "Eraserhead"
+      }
+    ],
+    "raw_user_id": "4994",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 109
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9345904653915571
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received action and sci-fi films.",
+        "Negative response to films that attempt to blend genres unsuccessfully."
+      ],
+      "liked_patterns": [
+        "Strong preference for action-packed films with sci-fi elements.",
+        "Enjoyment of films that combine drama with mystery and suspense.",
+        "Appreciation for adventure films that include fantasy themes."
+      ],
+      "summary": "Unique tastes: Action and Sci-Fi (The user enjoys a combination of action and science fiction elements, often favoring films that blend these genres.); Drama and Mystery (The user appreciates films that incorporate strong dramatic narratives with mysterious elements, indicating a preference for complex storytelling.); Adventure and Fantasy (The user shows a liking for adventure films that also include fantasy themes, suggesting an interest in imaginative and escapist narratives.); Thriller Elements (The user is drawn to films that incorporate thriller aspects, indicating a preference for suspenseful and engaging plots.); Horror with Sci-Fi (The user enjoys horror films that also integrate science fiction elements, reflecting a taste for innovative and unsettling narratives.). Liked patterns: Strong preference for action-packed films with sci-fi elements., Enjoyment of films that combine drama with mystery and suspense., Appreciation for adventure films that include fantasy themes.. Disliked patterns: Dislike for poorly received action and sci-fi films., Negative response to films that attempt to blend genres unsuccessfully..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a combination of action and science fiction elements, often favoring films that blend these genres.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates films that incorporate strong dramatic narratives with mysterious elements, indicating a preference for complex storytelling.",
+          "taste": "Drama and Mystery"
+        },
+        {
+          "reason": "The user shows a liking for adventure films that also include fantasy themes, suggesting an interest in imaginative and escapist narratives.",
+          "taste": "Adventure and Fantasy"
+        },
+        {
+          "reason": "The user is drawn to films that incorporate thriller aspects, indicating a preference for suspenseful and engaging plots.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user enjoys horror films that also integrate science fiction elements, reflecting a taste for innovative and unsettling narratives.",
+          "taste": "Horror with Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 4994
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "d49adc85dcaa675daf86e48221d7a153969e1d69b4ad9de8ef77e0fa6a184f59",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2652,
+      1678,
+      657,
+      93,
+      1151,
+      194,
+      799,
+      1072,
+      643,
+      260
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b10593127dd54479b65fae6baab308fc"
+    ],
+    "sampled_item_ids": [
+      85,
+      91,
+      125,
+      133,
+      145,
+      151,
+      176,
+      189,
+      243,
+      418,
+      559,
+      589,
+      651,
+      652,
+      718,
+      744,
+      837,
+      844,
+      858,
+      1019,
+      1116,
+      1146,
+      1229,
+      1345,
+      1554
+    ],
+    "seed": 42,
+    "source_hash": "ed1331aad598430f3f007bc7714ce39c2f6d2364994f6525eebc3fa4cc849763",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3101,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "scientist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Terry Potter",
+          "Pete O'Herne",
+          "Craig Smith",
+          "Mike Minett"
+        ],
+        "country": [
+          "New Zealand"
+        ],
+        "director": "Peter Jackson",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A team from the intergalactic fast food chain Crumb's Crunchy Delights descends on Earth, planning to make human flesh the newest taste sensation. After they wipe out the New Zealand town Kaihoro, the country's Astro-Investigation and Defense Service is called in to deal with the problem. Things are complicated due to Giles, an aid worker who comes to Kaihoro the same day to collect change from the residents. He is captured by the aliens, and AIaDS stages a rescue mission that quickly becomes an all-out assault on the aliens' headquarters.",
+        "release_date": "1987-12-01",
+        "release_year": "1987",
+        "title": "Bad Taste"
+      },
+      {
+        "cast": [
+          "Mark Wahlberg",
+          "Chow Yun-fat",
+          "Byron Mann",
+          "Kim Chan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Foley",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Danny is a young cop partnered with Nick, a seasoned but ethically tainted veteran. As the two try to stop a gang war in Chinatown, Danny relies on Nick but grows increasingly uncomfortable with the way Nick gets things done.",
+        "release_date": "1999-03-12",
+        "release_year": "1999",
+        "title": "Corruptor, The"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Dustin Hoffman",
+          "Julia Roberts",
+          "Bob Hoskins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "The boy who wasn't supposed to grow up—Peter Pan—did just that, becoming a soulless corporate lawyer whose workaholism could cost him his wife and kids. But a trip to see Granny Wendy in London, where the vengeful Capt. Hook kidnaps Peter's kids and forces Peter to return to Neverland, could lead to a chance at redemption, in this family-oriented fantasy from director Steven Spielberg.",
+        "release_date": "1991-12-11",
+        "release_year": "1991",
+        "title": "Hook"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Ron Livingston",
+          "Jennifer Aniston",
+          "David Herman",
+          "Ajay Naidu"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Judge",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Three office workers strike back at their evil employers by hatching a hapless attempt to embezzle money.",
+        "release_date": "1999-02-19",
+        "release_year": "1999",
+        "title": "Office Space"
+      },
+      {
+        "cast": [
+          "Charlie Sheen",
+          "Kiefer Sutherland",
+          "Chris O'Donnell",
+          "Oliver Platt"
+        ],
+        "country": [
+          "United States of America",
+          "Austria"
+        ],
+        "director": "Stephen Herek",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "D'Artagnan travels to Paris hoping to become a musketeer, one of the French king's elite bodyguards, only to discover that the corps has been disbanded by conniving Cardinal Richelieu, who secretly hopes to usurp the throne. Fortunately, Athos, Porthos and Aramis have refused to lay down their weapons and continue to protect their king. D'Artagnan joins with the rogues to expose Richelieu's plot against the crown.",
+        "release_date": "1993-11-11",
+        "release_year": "1993",
+        "title": "Three Musketeers, The"
+      },
+      {
+        "cast": [
+          "Jim Henson",
+          "Frank Oz",
+          "Jerry Nelson",
+          "Richard Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Frawley",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Kermit the Frog is persuaded by agent Dom DeLuise to pursue a career in Hollywood. Along the way, Kermit picks up Fozzie Bear, Miss Piggy, Gonzo, and a motley crew of other Muppets with similar aspirations. Meanwhile, Kermit must elude the grasp of a frog-leg restaurant magnate.",
+        "release_date": "1979-05-31",
+        "release_year": "1979",
+        "title": "Muppet Movie, The"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Christopher Lee",
+          "Britt Ekland",
+          "Maud Adams"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Guy Hamilton",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "A golden bullet has 007 engraved on it as it smashes into the secret service headquarters. The bullet came from the professional killer Scaramanga who has yet to miss a target and James Bond begins a mission to try and stop him.",
+        "release_date": "1974-12-01",
+        "release_year": "1974",
+        "title": "Man with the Golden Gun, The"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Alec Baldwin",
+          "Winona Ryder",
+          "Michael Keaton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Thanks to an untimely demise via drowning, a young couple end up as poltergeists in their New England farmhouse, where they fail to meet the challenge of scaring away the insufferable new owners, who want to make drastic changes. In desperation, the undead newlyweds turn to an expert frightmeister, but he's got a diabolical agenda of his own.",
+        "release_date": "1988-02-29",
+        "release_year": "1988",
+        "title": "Beetlejuice"
+      },
+      {
+        "cast": [
+          "Stephen Baldwin",
+          "Gabriel Byrne",
+          "Chazz Palminteri",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Usual Suspects, The"
+      }
+    ],
+    "raw_user_id": "3101",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 216
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7104687146703006
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for romantic dramas",
+        "Dislike for films with low engagement or poor execution"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure genres",
+        "Enjoyment of films with thriller elements",
+        "Appreciation for comedic films"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventurous themes.); Thriller Elements (The user appreciates films that incorporate suspense and tension, often found in thrillers.); Comedy (The user has a strong preference for comedic films, indicating a taste for humor.); Drama with Depth (The user is drawn to dramas that explore complex themes and character development.); Children's and Family-Friendly (The user enjoys films that are suitable for children, often featuring adventure and fantasy.). Liked patterns: Strong preference for action and adventure genres, Enjoyment of films with thriller elements, Appreciation for comedic films. Disliked patterns: Dislike for romantic dramas, Dislike for films with low engagement or poor execution.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventurous themes.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that incorporate suspense and tension, often found in thrillers.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user has a strong preference for comedic films, indicating a taste for humor.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to dramas that explore complex themes and character development.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "The user enjoys films that are suitable for children, often featuring adventure and fantasy.",
+          "taste": "Children's and Family-Friendly"
+        }
+      ]
+    },
+    "user_id": 3101
+  }
+}

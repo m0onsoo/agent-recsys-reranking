@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "64b77b2b0e52df6baeb18fe581171d156e8f10adf896845a3801c4f0752c1d78",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      257,
+      281,
+      301,
+      338,
+      244,
+      168,
+      6,
+      24,
+      530,
+      44
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "c3f0437169c64a6fadf6102c90b44281"
+    ],
+    "sampled_item_ids": [
+      6,
+      20,
+      24,
+      39,
+      44,
+      52,
+      135,
+      168,
+      244,
+      245,
+      247,
+      257,
+      281,
+      301,
+      316,
+      338,
+      418,
+      530,
+      541,
+      796,
+      1335,
+      2660
+    ],
+    "seed": 42,
+    "source_hash": "b81367d9d6546de357e7a63e175d7919f66744acbe8ca37a4ce3a37233f011b6",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 969,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Al Pacino",
+          "Russell Crowe",
+          "Christopher Plummer",
+          "Diane Venora"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Tells the true story of a 60 Minutes television series exposé of the tobacco industry, as seen through the eyes of a real tobacco executive, Jeffrey Wigand",
+        "release_date": "1999-10-28",
+        "release_year": "1999",
+        "title": "Insider, The"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Matt Damon",
+          "Ben Affleck",
+          "Stellan Skarsgård"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Will Hunting has a genius-level IQ but chooses to work as a janitor at MIT. When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau, who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire.",
+        "release_date": "1997-12-05",
+        "release_year": "1997",
+        "title": "Good Will Hunting"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Bill Tung",
+          "Jackson Liu",
+          "Annie Wu"
+        ],
+        "country": [
+          "Australia",
+          "Hong Kong",
+          "Russia",
+          "United States of America"
+        ],
+        "director": "Stanley Tong",
+        "genres": [
+          "Action"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "Jackie Chan reprises his role as Chan Ka-Kui (also known in some versions as Jackie) yet again as a Hong Kong cop who works with Interpol to track down and arrest an illegal weapons dealer. Later Jackie realizes that things are not as simple as they appear and soon find himself a pawn of an organisation posing as Russian intelligence.",
+        "release_date": "1996-02-10",
+        "release_year": "1996",
+        "title": "Jackie Chan's First Strike"
+      },
+      {
+        "cast": [
+          "Vanessa Redgrave",
+          "Helena Bonham Carter",
+          "Emma Thompson",
+          "Prunella Scales"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "James Ivory",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Merchant Ivory’s adaptation of EM Forster’s classic 1910 novel, starring Emma Thompson, Helena Bonham Carter, Anthony Hopkins & Vanessa Redgrave returns to the big screen in a beautiful new 4K restoration. Stunning location photography, lavishly detailed sets & elegant period costumes, this compelling saga follows the interwoven fates and misfortunes of three families amid the changing times of Edwardian England. It tells the story of two free-spirited, cosmopolitan sisters, Margaret (Emma Thompson) and Helen Schlegel (Helena Bonham Carter), who collide with the world of the very wealthy ­­– one sister benefiting from the acquaintance with the Wilcoxes (owners of the beloved country home Howards End), the other all but destroyed by it. Anthony Hopkins is the conservative industrialist Henry Wilcox and Vanessa Redgrave is his ailing wife Ruth Wilcox.",
+        "release_date": "1992-03-13",
+        "release_year": "1992",
+        "title": "Howards End"
+      },
+      {
+        "cast": [
+          "Trey Parker",
+          "Matt Stone",
+          "Mary Kay Bergman",
+          "Isaac Hayes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Trey Parker",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the four boys see an R-rated movie featuring Canadians Terrance and Philip, they are pronounced \"corrupted\", and their parents pressure the United States to wage war against Canada.",
+        "release_date": "1999-06-30",
+        "release_year": "1999",
+        "title": "South Park: Bigger, Longer and Uncut"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Morgan Freeman",
+          "Bob Gunton",
+          "Clancy Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Shawshank Redemption, The"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Franka Potente",
+          "Moritz Bleibtreu",
+          "Herbert Knaup",
+          "Nina Petri"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Tom Tykwer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store to get the money. Three different alternatives may happen depending on some minor event along Lola's run.",
+        "release_date": "1998-08-20",
+        "release_year": "1998",
+        "title": "Run Lola Run (Lola rennt)"
+      }
+    ],
+    "raw_user_id": "969",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 22
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7660416557927647
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for comedies that lack depth or engaging storytelling."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like crime and romance.",
+        "Consistent enjoyment of comedies that offer both humor and emotional depth."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (The user rates several comedies positively, suggesting a fondness for humor and lighthearted storytelling.); Interest in Crime Thrillers (The user shows a liking for crime and thriller genres, as evidenced by high ratings for films that blend suspense with dramatic elements.); Affinity for Romantic Elements (The user enjoys films that incorporate romance, often rating them favorably when combined with other genres.); Value for Strong Storytelling (The user appreciates films with compelling narratives, as reflected in high ratings for movies with intricate plots and character development.). Liked patterns: High ratings for films that blend drama with other genres like crime and romance., Consistent enjoyment of comedies that offer both humor and emotional depth.. Disliked patterns: Negative ratings for comedies that lack depth or engaging storytelling..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user rates several comedies positively, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for crime and thriller genres, as evidenced by high ratings for films that blend suspense with dramatic elements.",
+          "taste": "Interest in Crime Thrillers"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romance, often rating them favorably when combined with other genres.",
+          "taste": "Affinity for Romantic Elements"
+        },
+        {
+          "reason": "The user appreciates films with compelling narratives, as reflected in high ratings for movies with intricate plots and character development.",
+          "taste": "Value for Strong Storytelling"
+        }
+      ]
+    },
+    "user_id": 969
+  }
+}

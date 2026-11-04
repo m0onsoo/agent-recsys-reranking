@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "f87ac630d5966502e6d7fe1be3449dbd589bc80872fc8e5e3ed9a75129ba29be",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      362,
+      40,
+      837,
+      1793,
+      1802,
+      2091,
+      1334,
+      2589,
+      901,
+      91
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "76d4dd9dd2564708a33b1f4442532201"
+    ],
+    "sampled_item_ids": [
+      5,
+      44,
+      74,
+      105,
+      120,
+      137,
+      152,
+      174,
+      248,
+      313,
+      383,
+      393,
+      416,
+      445,
+      483,
+      577,
+      691,
+      844,
+      946,
+      1257,
+      1627,
+      1658,
+      1870,
+      1901,
+      2218
+    ],
+    "seed": 42,
+    "source_hash": "d78e2300d1fd3cbb11541ae3bb4bd854c8a525e3523eaa91cb5f9191ebcc6431",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1016,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Cusack",
+          "Dianne Wiest",
+          "Jennifer Tilly",
+          "Chazz Palminteri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Set in 1920's New York City, this movie tells the story of idealistic young playwright David Shayne. Producer Julian Marx finally finds funding for the project from gangster Nick Valenti. The catch is that Nick's girl friend Olive Neal gets the part of a psychiatrist, and Olive is a bimbo who could never pass for a psychiatrist as well as being a dreadful actress. Agreeing to this first compromise is the first step to Broadway's complete seduction of David, who neglects longtime girl friend Ellen. Meanwhile David puts up with Warner Purcell, the leading man who is a compulsive eater, Helen Sinclair, the grand dame who wants her part jazzed up, and Cheech, Olive's interfering hitman / bodyguard. Eventually, the playwright must decide whether art or life is more important.",
+        "release_date": "1994-10-14",
+        "release_year": "1994",
+        "title": "Bullets Over Broadway"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Bill Paxton",
+          "Kevin Bacon",
+          "Gary Sinise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of technical troubles that scuttle the Apollo 13 lunar mission in 1971, risking the lives of astronaut Jim Lovell and his crew, with the failed journey turning into a thrilling saga of heroism. Drifting more than 200,000 miles from Earth, the astronauts work furiously with the ground crew to avert tragedy.",
+        "release_date": "1995-06-30",
+        "release_year": "1995",
+        "title": "Apollo 13"
+      },
+      {
+        "cast": [
+          "Warren Beatty",
+          "Al Pacino",
+          "Madonna",
+          "Charlie Korsmo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Warren Beatty",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "The comic strip detective finds his life vastly complicated when Breathless Mahoney makes advances towards him while he is trying to battle Big Boy Caprice's united mob,",
+        "release_date": "1990-06-15",
+        "release_year": "1990",
+        "title": "Dick Tracy"
+      },
+      {
+        "cast": [
+          "Garance Clavel",
+          "Zinedine Soualem",
+          "Renée Le Calm",
+          "Olivier Py"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Cédric Klapisch",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "French",
+        "overview": "When Chloe (Garance Clavel), a young Parisian, decides to take a long-overdue vacation, she has to find someone to look after Gris-Gris, her beloved cat. Everyone, including her gay male roommate, refuses to help her, but she finally makes an arrangement with the elderly Madame Renée (Renée Le Calm), who often watches over other peoples' cats and dogs. However, when Chloe comes back, Madame Renée tells her that unfortunately the cat has been lost, and the unlucky owner goes on a search for her dear animal friend. While looking for the cat, she meets many colorful characters who populate the neighborhood.",
+        "release_date": "1996-04-03",
+        "release_year": "1996",
+        "title": "When the Cats Away (Chacun cherche son chat)"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Jerry Adler",
+          "Alan Alda"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A middle-aged couple suspects foul play when their neighbor's wife suddenly drops dead.",
+        "release_date": "1993-08-18",
+        "release_year": "1993",
+        "title": "Manhattan Murder Mystery"
+      },
+      {
+        "cast": [
+          "Robert Redford",
+          "Kristin Scott Thomas",
+          "Sam Neill",
+          "Scarlett Johansson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Redford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Based on the novel by the same name from Nicholas Evans, the talented Robert Redford presents this meditative family drama set in the country side. Redford not only directs but also stars in the roll of a cowboy with a magical talent for healing.",
+        "release_date": "1998-05-14",
+        "release_year": "1998",
+        "title": "Horse Whisperer, The"
+      },
+      {
+        "cast": [
+          "Walter Matthau",
+          "Jack Lemmon",
+          "Ann-Margret",
+          "Sophia Loren"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Deutch",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A family wedding reignites the ancient feud between next-door neighbors and fishing buddies John and Max. Meanwhile, a sultry Italian divorcée opens a restaurant at the local bait shop, alarming the locals who worry she'll scare the fish away. But she's less interested in seafood than she is in cooking up a hot time with Max.",
+        "release_date": "1995-12-22",
+        "release_year": "1995",
+        "title": "Grumpier Old Men"
+      },
+      {
+        "cast": [
+          "Jessica Lange",
+          "Elisabeth Shue",
+          "Bob Hoskins",
+          "Hugh Laurie"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Des McAnuff",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Cousin Bette is a poor and lonely seamstress, who, after the death of her prominent and wealthy sister, tries to ingratiate herself into lives of her brother-in-law, Baron Hulot, and her niece, Hortense Hulot. Failing to do so, she instead finds solace and company in a handsome young sculptor she saves from starvation. But the aspiring artist soon finds love in the arms of another woman, Hortense, leaving Bette a bitter spinster. Bette plots to take revenge on the family who turned her away and stole her only love. With the help of famed courtesan Jenny Cadine she slowly destroys the lives of those who have scorned her. Written by CherylC894@aol.com",
+        "release_date": "1998-06-12",
+        "release_year": "1998",
+        "title": "Cousin Bette"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Sally Field",
+          "Pierce Brosnan",
+          "Harvey Fierstein"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Columbus",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Loving but irresponsible dad Daniel Hillard, estranged from his exasperated spouse, is crushed by a court order allowing only weekly visits with his kids. When Daniel learns his ex needs a housekeeper, he gets the job -- disguised as an English nanny. Soon he becomes not only his children's best pal but the kind of parent he should have been from the start.",
+        "release_date": "1993-11-24",
+        "release_year": "1993",
+        "title": "Mrs. Doubtfire"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Anne Archer",
+          "Patrick Bergin",
+          "Thora Birch"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When CIA Analyst Jack Ryan interferes with an IRA assassination, a renegade faction targets Jack and his family as revenge.",
+        "release_date": "1992-06-04",
+        "release_year": "1992",
+        "title": "Patriot Games"
+      }
+    ],
+    "raw_user_id": "1016",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 121
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.3987281851264185
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films with weak comedic elements",
+        "Dislike for certain action films that may lack depth",
+        "Negative reception of films that do not blend genres effectively"
+      ],
+      "liked_patterns": [
+        "High ratings for comedies and dramas",
+        "Positive reception of films with romantic elements",
+        "Interest in action and thriller genres"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, often rating them highly, indicating a preference for humor in films.); Interest in Drama (The user rates many dramas positively, suggesting a strong appreciation for emotional and narrative depth.); Fondness for Action and Thriller Elements (The user has rated several action and thriller films, indicating a liking for suspense and excitement.); Enjoyment of Romantic Themes (The user frequently rates romantic comedies and dramas well, showing a preference for love stories.); Engagement with Crime and Mystery (The user has shown interest in crime and mystery genres, often rating them positively.). Liked patterns: High ratings for comedies and dramas, Positive reception of films with romantic elements, Interest in action and thriller genres. Disliked patterns: Low ratings for films with weak comedic elements, Dislike for certain action films that may lack depth, Negative reception of films that do not blend genres effectively.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly, indicating a preference for humor in films.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates many dramas positively, suggesting a strong appreciation for emotional and narrative depth.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated several action and thriller films, indicating a liking for suspense and excitement.",
+          "taste": "Fondness for Action and Thriller Elements"
+        },
+        {
+          "reason": "The user frequently rates romantic comedies and dramas well, showing a preference for love stories.",
+          "taste": "Enjoyment of Romantic Themes"
+        },
+        {
+          "reason": "The user has shown interest in crime and mystery genres, often rating them positively.",
+          "taste": "Engagement with Crime and Mystery"
+        }
+      ]
+    },
+    "user_id": 1016
+  }
+}

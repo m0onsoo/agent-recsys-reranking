@@ -1,0 +1,347 @@
+{
+  "checkpoint_hash": "6e89c8a8ff7878fff63ff538b2b777554523c7853a68a6d1d779550075fd03e7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      52,
+      841,
+      172,
+      645,
+      137,
+      676,
+      387,
+      124,
+      1074,
+      715
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7c37bffeacae45ec9ff1f7667c636bd3"
+    ],
+    "sampled_item_ids": [
+      6,
+      53,
+      87,
+      93,
+      148,
+      163,
+      168,
+      172,
+      195,
+      206,
+      237,
+      387,
+      634,
+      647,
+      712,
+      720,
+      768,
+      840,
+      1059,
+      1082,
+      1159,
+      1254,
+      1382,
+      1659,
+      1830
+    ],
+    "seed": 42,
+    "source_hash": "584b9d8e7d8a44424e41b572f6b6d40d9eab2d9343e0d1d6fc270195402ddfcc",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3361,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Christopher Reeve",
+          "Ned Beatty",
+          "Jackie Cooper"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Three escaped criminals from the planet Krypton test the Man of Steel's mettle. Led by Gen. Zod, the Kryptonians take control of the White House and partner with Lex Luthor to destroy Superman and rule the world. But Superman, who attempts to make himself human in order to get closer to Lois, realizes he has a responsibility to save the planet.",
+        "release_date": "1980-12-04",
+        "release_year": "1980",
+        "title": "Superman II"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Robin Wright",
+          "Gary Sinise",
+          "Mykelti Williamson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events - in each case, far exceeding what anyone imagined he could do. Yet, despite all the things he has attained, his one true love eludes him. 'Forrest Gump' is the story of a man who rose above his challenges, and who proved that determination, courage, and love are more important than ability.",
+        "release_date": "1994-07-06",
+        "release_year": "1994",
+        "title": "Forrest Gump"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral Kirk and his bridge crew risk their careers stealing the decommissioned Enterprise to return to the restricted Genesis planet to recover Spock's body.",
+        "release_date": "1984-05-31",
+        "release_year": "1984",
+        "title": "Star Trek III: The Search for Spock"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Fernando Rey",
+          "Roy Scheider",
+          "Tony Lo Bianco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Friedkin",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tough narcotics detective 'Popeye' Doyle is in hot pursuit of a suave French drug dealer who may be the key to a huge heroin-smuggling operation.",
+        "release_date": "1971-10-09",
+        "release_year": "1971",
+        "title": "French Connection, The"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Kathleen Turner",
+          "Danny DeVito",
+          "Spiros Focás"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lewis Teague",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Joan Wilder is thrust back into a world of murder, chases, foreign intrigue... and love. This time out she's duped by a duplicitous Arab dignitary who brings her to the Middle East, ostensibly to write a book about his life. Of course he's up to no good, and Joan is just another pawn in his wicked game. But Jack Colton and his sidekick Ralph show up to help our intrepid heroine save the day.",
+        "release_date": "1985-12-04",
+        "release_year": "1985",
+        "title": "Jewel of the Nile, The"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Kelly McGillis",
+          "Val Kilmer",
+          "Anthony Edwards"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Scott",
+        "genres": [
+          "Action",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "For Lieutenant Pete 'Maverick' Mitchell and his friend and Co-Pilot Nick 'Goose' Bradshaw being accepted into an elite training school for fighter pilots is a dream come true.  A tragedy, as well as personal demons, threaten Pete's dreams of becoming an Ace pilot.",
+        "release_date": "1986-05-16",
+        "release_year": "1986",
+        "title": "Top Gun"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Mary McDonnell",
+          "Graham Greene",
+          "Rodney A. Grant"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kevin Costner",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Wounded Civil War soldier, John Dunbar tries to commit suicide – and becomes a hero instead. As a reward, he's assigned to his dream post, a remote junction on the Western frontier, and soon makes unlikely friends with the local Sioux tribe.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Dances with Wolves"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Richard Crenna",
+          "Kurtwood Smith",
+          "Spiros Focás"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter MacDonald",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Combat has taken its toll on Rambo, but he's finally begun to find inner peace in a monastery. When Rambo's friend and mentor Col. Trautman asks for his help on a top secret mission to Afghanistan, Rambo declines but must reconsider when Trautman is captured.",
+        "release_date": "1988-05-24",
+        "release_year": "1988",
+        "title": "Rambo III"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Michael Biehn",
+          "James Remar",
+          "Paul Reiser"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
+        "release_date": "1986-07-18",
+        "release_year": "1986",
+        "title": "Aliens"
+      }
+    ],
+    "raw_user_id": "3361",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 129
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6183726690746699
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily horror or thriller without strong character development or emotional depth."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and war films with high emotional stakes.",
+        "Enjoyment of action-adventure films that combine excitement with engaging narratives.",
+        "Appreciation for films that blend romance with other genres, particularly in action and drama."
+      ],
+      "summary": "Unique tastes: Dramatic storytelling (A strong preference for films that explore deep emotional and moral themes, often found in dramas and war narratives.); Action and adventure (Enjoyment of high-energy films that feature thrilling action sequences and adventurous plots.); Romantic elements (Appreciation for films that incorporate romance, often intertwined with other genres like comedy and drama.); War themes (Interest in narratives that depict the complexities and consequences of war, often through a dramatic lens.); Classic storytelling (Favoring films that are considered iconic or influential, often with strong character development and memorable plots.). Liked patterns: Strong preference for drama and war films with high emotional stakes., Enjoyment of action-adventure films that combine excitement with engaging narratives., Appreciation for films that blend romance with other genres, particularly in action and drama.. Disliked patterns: Dislike for films that are primarily horror or thriller without strong character development or emotional depth..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for films that explore deep emotional and moral themes, often found in dramas and war narratives.",
+          "taste": "Dramatic storytelling"
+        },
+        {
+          "reason": "Enjoyment of high-energy films that feature thrilling action sequences and adventurous plots.",
+          "taste": "Action and adventure"
+        },
+        {
+          "reason": "Appreciation for films that incorporate romance, often intertwined with other genres like comedy and drama.",
+          "taste": "Romantic elements"
+        },
+        {
+          "reason": "Interest in narratives that depict the complexities and consequences of war, often through a dramatic lens.",
+          "taste": "War themes"
+        },
+        {
+          "reason": "Favoring films that are considered iconic or influential, often with strong character development and memorable plots.",
+          "taste": "Classic storytelling"
+        }
+      ]
+    },
+    "user_id": 3361
+  }
+}

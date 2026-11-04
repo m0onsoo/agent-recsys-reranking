@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "15d0635c9d904d328500744cad7acaaed5478fe9f15671dcc148fb2f21ce89b3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      14,
+      630,
+      536,
+      1243,
+      1277,
+      91,
+      657,
+      169,
+      912,
+      797
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9dbccc6331484f058e8bfde75ac2a690"
+    ],
+    "sampled_item_ids": [
+      8,
+      93,
+      114,
+      129,
+      156,
+      281,
+      336,
+      352,
+      388,
+      507,
+      540,
+      630,
+      744,
+      859,
+      871,
+      904,
+      1254,
+      1270,
+      1303,
+      1333,
+      1424,
+      1467,
+      1660,
+      1713,
+      1956
+    ],
+    "seed": 42,
+    "source_hash": "94a82b5907c41571eb8290c0ac5b677c2322059cacdc4325f7a44107bbd73d29",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3327,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Alan Ruck",
+          "Mia Sara",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Charismatic teen Ferris Bueller plays hooky in Chicago with his girlfriend and best friend.",
+        "release_date": "1986-06-11",
+        "release_year": "1986",
+        "title": "Ferris Bueller's Day Off"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Grace Kelly",
+          "Wendell Corey",
+          "Thelma Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Professional photographer L.B. \"Jeff\" Jeffries breaks his leg while getting an action shot at an auto race. Confined to his New York apartment, he spends his time looking out of the rear window observing the neighbors. He begins to suspect that a man across the courtyard may have murdered his wife. Jeff enlists the help of his high society fashion-consultant girlfriend Lisa Freemont and his visiting nurse Stella to investigate.",
+        "release_date": "1954-08-01",
+        "release_year": "1954",
+        "title": "Rear Window"
+      },
+      {
+        "cast": [
+          "Peter Sallis"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Gromit finds himself being pushed out of his room and home by a new lodger who is actually a ruthless criminal (and a small penguin). The penguin is planning a robbery and needs to use Wallace and his mechanical remote controlled trousers to pull off the raid. However, Gromit is wise to the penguin and comes to the rescue.",
+        "release_date": "1993-12-17",
+        "release_year": "1993",
+        "title": "Wrong Trousers, The"
+      },
+      {
+        "cast": [
+          "Christopher Reeve",
+          "Richard Pryor",
+          "Jackie Cooper",
+          "Marc McClure"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Aiming to defeat the Man of Steel, wealthy executive Ross Webster hires bumbling but brilliant Gus Gorman to develop synthetic kryptonite, which yields some unexpected psychological effects in the third installment of the 1980s Superman franchise. Between rekindling romance with his high school sweetheart and saving himself, Superman must contend with a powerful supercomputer.",
+        "release_date": "1983-06-17",
+        "release_year": "1983",
+        "title": "Superman III"
+      },
+      {
+        "cast": [
+          "Nicole Kidman",
+          "Matt Dillon",
+          "Joaquin Phoenix",
+          "Casey Affleck"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Susan wants to work in television and will therefore do anything it takes, even if it means killing her husband. A very dark comedy from independent director Gus Van Sant with a brilliant Nicole Kidman in the leading role.",
+        "release_date": "1995-05-20",
+        "release_year": "1995",
+        "title": "To Die For"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Anne Archer",
+          "Patrick Bergin",
+          "Thora Birch"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When CIA Analyst Jack Ryan interferes with an IRA assassination, a renegade faction targets Jack and his family as revenge.",
+        "release_date": "1992-06-04",
+        "release_year": "1992",
+        "title": "Patriot Games"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Dustin Hoffman",
+          "Julia Roberts",
+          "Bob Hoskins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "The boy who wasn't supposed to grow up—Peter Pan—did just that, becoming a soulless corporate lawyer whose workaholism could cost him his wife and kids. But a trip to see Granny Wendy in London, where the vengeful Capt. Hook kidnaps Peter's kids and forces Peter to return to Neverland, could lead to a chance at redemption, in this family-oriented fantasy from director Steven Spielberg.",
+        "release_date": "1991-12-11",
+        "release_year": "1991",
+        "title": "Hook"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Anthony Michael Hall",
+          "Judd Nelson",
+          "Molly Ringwald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Five high school students, all different stereotypes, meet in detention, where they pour their hearts out to each other, and discover how they have a lot more in common than they thought.",
+        "release_date": "1985-02-15",
+        "release_year": "1985",
+        "title": "Breakfast Club, The"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Al Pacino",
+          "Charlize Theron",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Taylor Hackford",
+        "genres": [
+          "Crime",
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A hotshot lawyer gets more than he bargained for when he learns his new boss is Lucifer himself.",
+        "release_date": "1997-10-17",
+        "release_year": "1997",
+        "title": "Devil's Advocate, The"
+      },
+      {
+        "cast": [
+          "Gary Oldman",
+          "Jeroen Krabbé",
+          "Isabella Rossellini",
+          "Johanna ter Steege"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bernard Rose",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The life and death of the legendary Ludwig van Beethoven. Beside all the work he is known for, the composer once wrote a famous love letter to a nameless beloved and the movie tries to find out who this beloved was. Not easy as Beethoven has had many women in his life.",
+        "release_date": "1994-12-16",
+        "release_year": "1994",
+        "title": "Immortal Beloved"
+      }
+    ],
+    "raw_user_id": "3327",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 288
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6641199208949451
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that combine action with crime, as indicated by low ratings.",
+        "Negative response to horror films, reflected in a low rating."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and action genres, often rated 4 or 5.",
+        "Enjoyment of comedic films, consistently rated positively.",
+        "Appreciation for thrillers and sci-fi films, with multiple high ratings."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for films in this genre.); Action (The user enjoys action-packed films, reflected in several ratings of 4 or 5 for movies featuring intense action sequences.); Comedy (The user appreciates comedic elements, indicated by consistent ratings for various comedies.); Thriller (The user is drawn to thrillers, as shown by positive ratings for films that create suspense and tension.); Sci-Fi (The user has a liking for science fiction, with several high ratings for films that explore futuristic themes.). Liked patterns: Strong preference for drama and action genres, often rated 4 or 5., Enjoyment of comedic films, consistently rated positively., Appreciation for thrillers and sci-fi films, with multiple high ratings.. Disliked patterns: Dislike for films that combine action with crime, as indicated by low ratings., Negative response to horror films, reflected in a low rating..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys action-packed films, reflected in several ratings of 4 or 5 for movies featuring intense action sequences.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user appreciates comedic elements, indicated by consistent ratings for various comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to thrillers, as shown by positive ratings for films that create suspense and tension.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user has a liking for science fiction, with several high ratings for films that explore futuristic themes.",
+          "taste": "Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 3327
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "checkpoint_hash": "c10cc23a864452f8bc2e0d377f6358b86088ece0c49ce18fdbc1626b91a1926d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1444,
+      125,
+      534,
+      114,
+      93,
+      10,
+      27,
+      128,
+      742,
+      1006
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7f09d0b9af3441e0a3273b5749bb5471"
+    ],
+    "sampled_item_ids": [
+      10,
+      23,
+      27,
+      41,
+      78,
+      93,
+      98,
+      125,
+      128,
+      210,
+      332,
+      534,
+      581,
+      592,
+      612,
+      619,
+      620,
+      672,
+      715,
+      742,
+      763,
+      1006,
+      1017,
+      1444,
+      1692
+    ],
+    "seed": 42,
+    "source_hash": "a56e808fdbb785b8d1a08463335d280899d9150abac1edb23284e386fbfd2583",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3573,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "Under 18",
+      "gender": "male",
+      "occupation": "K-12 student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kelsey Grammer",
+          "Lauren Holly",
+          "Rob Schneider",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David S. Ward",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Bumbling Navy lieutenant Tom Dodge has been given one last chance to clean up his record. But Admiral Graham, his nemesis, assigns Dodge to the Stingray, a submarine that can barely keep afloat. To add insult to injury, the Stingray is to be the enemy flagship in the upcoming war games … and to make matters even worse, Dodge's crew is a band of idiots even more incompetent that he is!",
+        "release_date": "1996-03-01",
+        "release_year": "1996",
+        "title": "Down Periscope"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Mark Wahlberg",
+          "Diane Lane",
+          "John C. Reilly"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In October 1991, a confluence of weather conditions combined to form a killer storm in the North Atlantic. Caught in the storm was the sword-fishing boat Andrea Gail. Magnificent foreshadowing and anticipation fill this true-life drama while minute details of the fishing boats, their gear and the weather are juxtaposed with the sea adventure.",
+        "release_date": "2000-03-15",
+        "release_year": "2000",
+        "title": "Perfect Storm, The"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Judy Garland",
+          "Frank Morgan",
+          "Ray Bolger",
+          "Bert Lahr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+        "release_date": "1939-08-15",
+        "release_year": "1939",
+        "title": "Wizard of Oz, The"
+      },
+      {
+        "cast": [
+          "Henry Thomas",
+          "Drew Barrymore",
+          "Robert MacNaughton",
+          "Dee Wallace"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Children's",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+        "release_date": "1982-04-03",
+        "release_year": "1982",
+        "title": "E.T. the Extra-Terrestrial"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Jack Albertson",
+          "Peter Ostrum",
+          "Roy Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Stuart",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Eccentric candy man Willy Wonka prompts a worldwide frenzy when he announces that golden tickets hidden inside five of his delicious candy bars will admit their lucky holders into his top-secret confectionary. But does Wonka have an agenda hidden amid a world of Oompa Loompas and chocolate rivers?",
+        "release_date": "1971-06-29",
+        "release_year": "1971",
+        "title": "Willy Wonka and the Chocolate Factory"
+      },
+      {
+        "cast": [
+          "Jeff Goldblum",
+          "Geena Davis",
+          "John Getz",
+          "Joy Boushel"
+        ],
+        "country": [
+          "Canada",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When Seth Brundle makes a huge scientific and technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.",
+        "release_date": "1986-08-15",
+        "release_year": "1986",
+        "title": "Fly, The"
+      }
+    ],
+    "raw_user_id": "3573",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 30
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.6432230643041803
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that do not align with the user's preferred genres.",
+        "Negative reception of films that lack engaging narratives or character development."
+      ],
+      "liked_patterns": [
+        "Enjoyment of action-packed narratives with strong adventure themes.",
+        "Appreciation for children's films that blend humor and fantasy elements.",
+        "Favoring movies that incorporate musical components alongside engaging stories."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys films that combine action with adventure elements, often featuring heroic journeys and conflicts.); Children's and Family-Friendly (The user appreciates movies that are suitable for children, often incorporating themes of friendship, imagination, and moral lessons.); Sci-Fi and Fantasy (The user is drawn to science fiction and fantasy genres, which often explore imaginative concepts and otherworldly settings.); Comedy (The user enjoys comedic films that provide humor and entertainment, often with light-hearted narratives.); Musicals (The user has a preference for films that include musical elements, enhancing storytelling through song and dance.). Liked patterns: Enjoyment of action-packed narratives with strong adventure themes., Appreciation for children's films that blend humor and fantasy elements., Favoring movies that incorporate musical components alongside engaging stories.. Disliked patterns: Dislike for horror films that do not align with the user's preferred genres., Negative reception of films that lack engaging narratives or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that combine action with adventure elements, often featuring heroic journeys and conflicts.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates movies that are suitable for children, often incorporating themes of friendship, imagination, and moral lessons.",
+          "taste": "Children's and Family-Friendly"
+        },
+        {
+          "reason": "The user is drawn to science fiction and fantasy genres, which often explore imaginative concepts and otherworldly settings.",
+          "taste": "Sci-Fi and Fantasy"
+        },
+        {
+          "reason": "The user enjoys comedic films that provide humor and entertainment, often with light-hearted narratives.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user has a preference for films that include musical elements, enhancing storytelling through song and dance.",
+          "taste": "Musicals"
+        }
+      ]
+    },
+    "user_id": 3573
+  }
+}

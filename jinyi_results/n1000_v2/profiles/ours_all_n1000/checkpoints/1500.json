@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "74ba903c57400aba9d0f9986a57c7ccff0a1d2b53a591b7dc05520b38728a55c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      344,
+      207,
+      6,
+      291,
+      1151,
+      626,
+      901,
+      1486,
+      306,
+      601
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "48665714248b47a4b60199c44e8ec036"
+    ],
+    "sampled_item_ids": [
+      6,
+      97,
+      105,
+      169,
+      176,
+      218,
+      245,
+      272,
+      343,
+      344,
+      433,
+      518,
+      532,
+      534,
+      540,
+      712,
+      757,
+      766,
+      794,
+      901,
+      1002,
+      1201,
+      1434,
+      1486,
+      1524
+    ],
+    "seed": 42,
+    "source_hash": "279ffd8ce0b6e7a9aab461f9dbdf636b4d482e927a8f859acc120760801fced6",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1500,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jeff Bridges",
+          "John Goodman",
+          "Julianne Moore",
+          "Steve Buscemi"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jeffrey \"The Dude\" Lebowski, a Los Angeles slacker who only wants to bowl and drink white Russians, is mistaken for another Jeffrey Lebowski, a wheelchair-bound millionaire, and finds himself dragged into a strange series of events involving nihilists, adult film producers, ferrets, errant toes, and large sums of money.",
+        "release_date": "1998-03-06",
+        "release_year": "1998",
+        "title": "Big Lebowski, The"
+      },
+      {
+        "cast": [
+          "Graham Chapman",
+          "John Cleese",
+          "Terry Gilliam",
+          "Eric Idle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "King Arthur, accompanied by his squire, recruits his Knights of the Round Table, including Sir Bedevere the Wise, Sir Lancelot the Brave, Sir Robin the Not-Quite-So-Brave-As-Sir-Lancelot and Sir Galahad the Pure. On the way, Arthur battles the Black Knight who, despite having had all his limbs chopped off, insists he can still fight. They reach Camelot, but Arthur decides not  to enter, as \"it is a silly place\".",
+        "release_date": "1975-03-13",
+        "release_year": "1974",
+        "title": "Monty Python and the Holy Grail"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Cameron Diaz",
+          "Ben Stiller",
+          "Matt Dillon",
+          "Lee Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Having never fully recovered from a prom date that became a total disaster, a man finally gets a chance to reunite with his old prom date, only to run up against other suitors including the sleazy detective he hired to find her.",
+        "release_date": "1998-07-15",
+        "release_year": "1998",
+        "title": "There's Something About Mary"
+      },
+      {
+        "cast": [
+          "Ron Livingston",
+          "Jennifer Aniston",
+          "David Herman",
+          "Ajay Naidu"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Judge",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Three office workers strike back at their evil employers by hatching a hapless attempt to embezzle money.",
+        "release_date": "1999-02-19",
+        "release_year": "1999",
+        "title": "Office Space"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Dan Aykroyd",
+          "Jamie Lee Curtis",
+          "Jim Belushi"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A snobbish investor and a wily street con-artist find their positions reversed as part of a bet by two callous millionaires.",
+        "release_date": "1983-06-07",
+        "release_year": "1983",
+        "title": "Trading Places"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Sally Field",
+          "Pierce Brosnan",
+          "Harvey Fierstein"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Columbus",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Loving but irresponsible dad Daniel Hillard, estranged from his exasperated spouse, is crushed by a court order allowing only weekly visits with his kids. When Daniel learns his ex needs a housekeeper, he gets the job -- disguised as an English nanny. Soon he becomes not only his children's best pal but the kind of parent he should have been from the start.",
+        "release_date": "1993-11-24",
+        "release_year": "1993",
+        "title": "Mrs. Doubtfire"
+      },
+      {
+        "cast": [
+          "Ellen Burstyn",
+          "Jared Leto",
+          "Jennifer Connelly",
+          "Marlon Wayans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Darren Aronofsky",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The hopes and dreams of four ambitious people are shattered when their drug addictions begin spiraling out of control. A look into addiction and how it overcomes the mind and body.",
+        "release_date": "2000-10-27",
+        "release_year": "2000",
+        "title": "Requiem for a Dream"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Peter Boyle",
+          "Marty Feldman",
+          "Madeline Kahn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A young neurosurgeon inherits the castle of his grandfather, the famous Dr. Victor von Frankenstein. In the castle he finds a funny hunchback, a pretty lab assistant and the elderly housekeeper. Young Frankenstein believes that the work of his grandfather was delusional, but when he discovers the book where the mad doctor described his reanimation experiment, he suddenly changes his mind.",
+        "release_date": "1974-12-15",
+        "release_year": "1974",
+        "title": "Young Frankenstein"
+      }
+    ],
+    "raw_user_id": "1500",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 93
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9486613450895977
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily drama without comedic elements.",
+        "Negative response to films that attempt to blend genres unsuccessfully."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies across various sub-genres.",
+        "High ratings for films that blend action with other genres.",
+        "Appreciation for films that feature strong dramatic elements."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Drama (The user appreciates dramatic narratives, particularly those that blend with other genres.); Action (The user favors action films, especially those that incorporate elements of thriller or sci-fi.); Animation (The user enjoys animated films, particularly those that are comedic or family-oriented.); Romance (The user shows an interest in romantic themes, especially when combined with drama.). Liked patterns: Strong preference for comedies across various sub-genres., High ratings for films that blend action with other genres., Appreciation for films that feature strong dramatic elements.. Disliked patterns: Dislike for films that are primarily drama without comedic elements., Negative response to films that attempt to blend genres unsuccessfully..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, particularly those that blend with other genres.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user favors action films, especially those that incorporate elements of thriller or sci-fi.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user enjoys animated films, particularly those that are comedic or family-oriented.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user shows an interest in romantic themes, especially when combined with drama.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 1500
+  }
+}

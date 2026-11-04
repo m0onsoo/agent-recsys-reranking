@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "2deb94476817c707291a7ac04c993d8d44a928d7a8d3a5412ebcd77397c60525",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2687,
+      1271,
+      1529,
+      2277,
+      340,
+      107,
+      854,
+      670,
+      767,
+      632
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ae269f9f567542fdbd5d6636dd498137"
+    ],
+    "sampled_item_ids": [
+      97,
+      107,
+      141,
+      171,
+      179,
+      207,
+      500,
+      542,
+      543,
+      546,
+      604,
+      612,
+      634,
+      729,
+      767,
+      910,
+      1294,
+      1319,
+      1460,
+      1467,
+      1529,
+      1626,
+      1731,
+      1790,
+      2374
+    ],
+    "seed": 42,
+    "source_hash": "19193759b1e045887dd677322221e81795e3c4e7f38f8098ec80efbb2a132ac2",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1843,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Famke Janssen",
+          "Jon Favreau",
+          "Noah Emmerich",
+          "Ann Magnuson"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Valerie Breiman",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When her rather explicit copy is rejected, magazine journalist Kate is asked by her editor to come up with an article on loving relationships instead, and to do so by the end of the day. This gets Kate thinking back over her own various experiences, and to wondering if she is in much of a position to write on the subject.",
+        "release_date": "2000-01-24",
+        "release_year": "2000",
+        "title": "Love & Sex"
+      },
+      {
+        "cast": [
+          "Harry Dean Stanton",
+          "Emilio Estevez",
+          "Tracey Walter",
+          "Olivia Barash"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alex Cox",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A down and out young punk gets a job working with a seasoned repo man, but what awaits him in his new career is a series of outlandish adventures revolving around aliens, the CIA, and a most wanted '64 Chevy.",
+        "release_date": "1984-02-20",
+        "release_year": "1984",
+        "title": "Repo Man"
+      },
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Juliette Binoche",
+          "Willem Dafoe",
+          "Kristin Scott Thomas"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Beginning in the 1930s, \"The English Patient\" tells the story of Count Almásy who is a Hungarian map maker employed by the Royal Geographical Society to chart the vast expanses of the Sahara Desert along with several other prominent explorers. As World War II unfolds, Almásy enters into a world of love, betrayal, and politics that is later revealed in a series of flashbacks while Almásy is on his death bed after being horribly burned in a plane crash.",
+        "release_date": "1996-11-14",
+        "release_year": "1996",
+        "title": "English Patient, The"
+      },
+      {
+        "cast": [
+          "Jodi Lyn O'Keefe",
+          "Shane West",
+          "Marla Sokoloff",
+          "James Franco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Raynr",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A nerdy teen, Ryan Woodman is smitten with the popular and gorgeous Ashley Grant, who apparently has no interest in him. Meanwhile, dim star athlete Chris Campbell has his eye on Ryan's brainy and beautiful friend, Maggie Carter. The two agree to help each other in their romantic quests, but, as they come closer to their goals, both Ryan and Chris suspect that they might be pursuing the wrong girls.",
+        "release_date": "2000-03-31",
+        "release_year": "2000",
+        "title": "Whatever It Takes"
+      },
+      {
+        "cast": [
+          "Tenzin Thuthob Tsarong",
+          "Tencho Gyalpo",
+          "Tsewang Migyur Khangsar",
+          "Gyurme Tethong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Tibetans refer to the Dalai Lama as 'Kundun', which means 'The Presence'. He was forced to escape from his native home, Tibet, when communist China invaded and enforced an oppressive regime upon the peaceful nation. The Dalai Lama escaped to India in 1959 and has been living in exile in Dharamsala ever since.",
+        "release_date": "1997-12-25",
+        "release_year": "1997",
+        "title": "Kundun"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "Emma Thompson",
+          "James Fox",
+          "Christopher Reeve"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Ivory",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A rule bound head butler's world of manners and decorum in the household he maintains is tested by the arrival of a housekeeper who falls in love with him in post-WWI Britain. The possibility of romance and his master's cultivation of ties with the Nazi cause challenge his carefully maintained veneer of servitude.",
+        "release_date": "1993-11-05",
+        "release_year": "1993",
+        "title": "Remains of the Day, The"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Bill Pullman",
+          "Drew Barrymore",
+          "John Leguizamo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Goldman",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A young man finds out that he holds the key to restoring hope and ensuring survival for the human race, while an alien species called the Dredge are bent on mankind's destruction.",
+        "release_date": "2000-06-16",
+        "release_year": "2000",
+        "title": "Titan A.E."
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Al Pacino",
+          "James Caan",
+          "Richard S. Castellano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+        "release_date": "1972-03-14",
+        "release_year": "1972",
+        "title": "Godfather, The"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Peter Sellers",
+          "Shirley MacLaine",
+          "Melvyn Douglas",
+          "Jack Warden"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hal Ashby",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A simple-minded gardener named Chance has spent all his life in the Washington D.C. house of an old man. When the man dies, Chance is put out on the street with no knowledge of the world except what he has learned from television.",
+        "release_date": "1979-12-19",
+        "release_year": "1979",
+        "title": "Being There"
+      }
+    ],
+    "raw_user_id": "1843",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 97
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7545383468999246
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for films that mix genres in a way that may not align with the user's tastes, such as horror-comedy.",
+        "Dislike for films that are overly dark or disturbing in nature."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine drama with other genres like romance and war.",
+        "Strong preference for comedies that incorporate elements of romance or drama.",
+        "Positive reception of films with unique storytelling or unconventional narratives."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for this genre.); Fondness for Comedy (The user enjoys a variety of comedies, often giving them high ratings.); Interest in Romance (Several films that blend drama and romance receive favorable ratings, suggesting an affinity for romantic themes.); Enjoyment of Sci-Fi (The user rates several sci-fi films positively, showing a liking for speculative narratives.); Preference for War Themes (The user appreciates films that explore war, as indicated by high ratings for such titles.). Liked patterns: High ratings for films that combine drama with other genres like romance and war., Strong preference for comedies that incorporate elements of romance or drama., Positive reception of films with unique storytelling or unconventional narratives.. Disliked patterns: Negative ratings for films that mix genres in a way that may not align with the user's tastes, such as horror-comedy., Dislike for films that are overly dark or disturbing in nature..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user enjoys a variety of comedies, often giving them high ratings.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "Several films that blend drama and romance receive favorable ratings, suggesting an affinity for romantic themes.",
+          "taste": "Interest in Romance"
+        },
+        {
+          "reason": "The user rates several sci-fi films positively, showing a liking for speculative narratives.",
+          "taste": "Enjoyment of Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates films that explore war, as indicated by high ratings for such titles.",
+          "taste": "Preference for War Themes"
+        }
+      ]
+    },
+    "user_id": 1843
+  }
+}

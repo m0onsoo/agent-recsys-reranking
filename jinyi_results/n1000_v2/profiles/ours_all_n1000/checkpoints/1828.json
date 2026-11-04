@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "6a5c2f8867e2dafaf0b8857d414e930df1a0e356f11c8481f924d320ae8bb89f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      912,
+      809,
+      813,
+      353,
+      86,
+      49,
+      1529,
+      1348,
+      219,
+      465
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "88f22c7c1a4146d0a891ce250ba603c4"
+    ],
+    "sampled_item_ids": [
+      49,
+      165,
+      180,
+      227,
+      292,
+      333,
+      351,
+      515,
+      569,
+      658,
+      761,
+      891,
+      909,
+      924,
+      1062,
+      1164,
+      1345,
+      1432,
+      1524,
+      1578,
+      1595,
+      1904,
+      2156,
+      2393,
+      3212
+    ],
+    "seed": 42,
+    "source_hash": "8222e2c00bcb20a0680d8e98cdac0aa471efbdc5e2e083e2c8c8fd8147c98320",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1828,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Al Pacino",
+          "Charlize Theron",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Taylor Hackford",
+        "genres": [
+          "Crime",
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A hotshot lawyer gets more than he bargained for when he learns his new boss is Lucifer himself.",
+        "release_date": "1997-10-17",
+        "release_year": "1997",
+        "title": "Devil's Advocate, The"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Jada Pinkett Smith",
+          "James Coburn",
+          "Larry Miller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom Shadyac",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eddie Murphy stars as shy Dr. Sherman Klump, a kind, brilliant, 'calorifically challenged' genetic professor. When beautiful Carla Purty joins the university faculty, Sherman grows desperate to whittle his 400-pound frame down to size and win her heart. So, with one swig of his experimental fat-reducing serum, Sherman becomes 'Buddy Love', a fast-talking, pumped-up , plumped down Don Juan.",
+        "release_date": "1996-06-26",
+        "release_year": "1996",
+        "title": "Nutty Professor, The"
+      },
+      {
+        "cast": [
+          "Rob Schneider",
+          "William Forsythe",
+          "Eddie Griffin",
+          "Arija Bareikis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Mitchell",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Deuce Bigalow is a less than attractive, down on his luck aquarium cleaner. One day he wrecks the house of a gigolo and needs quick money to repair it. The only way he can make it is to become a gigolo himself, taking on an unusual mix of female clients. He encounters a couple of problems, though. He falls in love with one of his unusual clients, and a sleazy police officer is hot on his trail.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Deuce Bigalow: Male Gigolo"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Heather Graham",
+          "Michael York",
+          "Robert Wagner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When diabolical genius, Dr. Evil travels back in time to steal superspy Austin Powers's ‘mojo’, Austin must return to the swingin' '60s himself – with the help of American agent, Felicity Shagwell – to stop the dastardly plan. Once there, Austin faces off against Dr. Evil's army of minions and saves the world in his own unbelievably groovy way.",
+        "release_date": "1999-06-08",
+        "release_year": "1999",
+        "title": "Austin Powers: The Spy Who Shagged Me"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Michael Clarke Duncan",
+          "David Morse",
+          "Bonnie Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cellblock's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Green Mile, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Juliette Binoche",
+          "Willem Dafoe",
+          "Kristin Scott Thomas"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Beginning in the 1930s, \"The English Patient\" tells the story of Count Almásy who is a Hungarian map maker employed by the Royal Geographical Society to chart the vast expanses of the Sahara Desert along with several other prominent explorers. As World War II unfolds, Almásy enters into a world of love, betrayal, and politics that is later revealed in a series of flashbacks while Almásy is on his death bed after being horribly burned in a plane crash.",
+        "release_date": "1996-11-14",
+        "release_year": "1996",
+        "title": "English Patient, The"
+      },
+      {
+        "cast": [
+          "Christine Hargreaves",
+          "James Laurenson",
+          "Eleanor David",
+          "Bob Geldof"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Drama",
+          "Musical",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A troubled rock star descends into madness in the midst of his physical and social isolation from everyone.",
+        "release_date": "1982-07-14",
+        "release_year": "1982",
+        "title": "Pink Floyd - The Wall"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Christopher Lloyd",
+          "Joanna Cassidy",
+          "Charles Fleischer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "'Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+        "release_date": "1988-06-21",
+        "release_year": "1988",
+        "title": "Who Framed Roger Rabbit?"
+      },
+      {
+        "cast": [
+          "Leonardo DiCaprio",
+          "Claire Danes",
+          "John Leguizamo",
+          "Harold Perrineau"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Baz Luhrmann",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In director Baz Luhrmann's contemporary take on William Shakespeare's classic tragedy, the Montagues and Capulets have moved their ongoing feud to the sweltering suburb of Verona Beach, where Romeo and Juliet fall in love and secretly wed. Though the film is visually modern, the bard's dialogue remains.",
+        "release_date": "1996-10-31",
+        "release_year": "1996",
+        "title": "William Shakespeare's Romeo and Juliet"
+      }
+    ],
+    "raw_user_id": "1828",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 115
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5204772505442395
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for comedies that do not resonate well with the user.",
+        "Dislike for children's films that fail to engage the user.",
+        "Low ratings for horror films that do not meet expectations."
+      ],
+      "liked_patterns": [
+        "Positive ratings for comedies that blend humor with drama.",
+        "High ratings for films that feature strong dramatic elements alongside crime themes.",
+        "Appreciation for animated films that incorporate musical aspects."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them positively.); Drama (The user appreciates dramatic narratives, frequently giving high ratings to drama films.); Crime (The user shows a preference for crime-related stories, with several ratings of 3 or above.); Animation (The user enjoys animated films, particularly those that blend musical elements.); Romance (The user has a liking for romantic comedies, as indicated by positive ratings in this genre.). Liked patterns: Positive ratings for comedies that blend humor with drama., High ratings for films that feature strong dramatic elements alongside crime themes., Appreciation for animated films that incorporate musical aspects.. Disliked patterns: Negative ratings for comedies that do not resonate well with the user., Dislike for children's films that fail to engage the user., Low ratings for horror films that do not meet expectations..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them positively.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, frequently giving high ratings to drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows a preference for crime-related stories, with several ratings of 3 or above.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "The user enjoys animated films, particularly those that blend musical elements.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user has a liking for romantic comedies, as indicated by positive ratings in this genre.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 1828
+  }
+}

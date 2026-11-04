@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "15cd2c2da7c6fdb464d8921bc74eb4d406f60ee1fa62d0bb7f8d5f5d9693a2f9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2196,
+      904,
+      336,
+      741,
+      811,
+      477,
+      1402,
+      1026,
+      920,
+      1316
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "379b3619638d4c3684307aaada86e9da"
+    ],
+    "sampled_item_ids": [
+      17,
+      21,
+      24,
+      40,
+      117,
+      128,
+      172,
+      180,
+      245,
+      469,
+      509,
+      557,
+      562,
+      594,
+      598,
+      620,
+      657,
+      917,
+      1593,
+      2133,
+      2171,
+      2196,
+      2631,
+      2782,
+      2960
+    ],
+    "seed": 42,
+    "source_hash": "d6bfa5b9745bc1ff650b993b6f4bb5187241d70ff1a855f28a0268239299e902",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2621,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Amy Jo Johnson",
+          "Jason David Frank",
+          "David Yost",
+          "Johnny Yong Bosch"
+        ],
+        "country": [
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Bryan Spicer",
+        "genres": [
+          "Action",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "Power up with six incredible teens who out-maneuver and defeat evil everywhere as the Mighty Morphin Power Ranger, But this time the Power Rangers may have met their match, when they face off with the most sinister monster the galaxy has ever seen.",
+        "release_date": "1995-06-30",
+        "release_year": "1995",
+        "title": "Mighty Morphin Power Rangers: The Movie"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Chris Tucker",
+          "Ken Leung",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brett Ratner",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When Hong Kong Inspector Lee is summoned to Los Angeles to investigate a kidnapping, the FBI doesn't want any outside help and assigns cocky LAPD Detective James Carter to distract Lee from the case. Not content to watch the action from the sidelines, Lee and Carter form an unlikely partnership and investigate the case themselves.",
+        "release_date": "1998-09-18",
+        "release_year": "1998",
+        "title": "Rush Hour"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Elizabeth Hurley",
+          "Michael York",
+          "Mimi Rogers"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "As a swingin' fashion photographer by day and a groovy British superagent by night, Austin Powers is the '60s' most shagadelic spy, baby! But can he stop megalomaniac Dr. Evil after the bald villain freezes himself and unthaws in the '90s? With the help of sexy sidekick Vanessa Kensington, he just might.",
+        "release_date": "1997-05-02",
+        "release_year": "1997",
+        "title": "Austin Powers: International Man of Mystery"
+      },
+      {
+        "cast": [
+          "Bruce Campbell",
+          "Embeth Davidtz",
+          "Marcus Gilbert",
+          "Ian Abercrombie"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A man is accidentally transported to 1300 A.D., where he must battle an army of the dead and retrieve the Necronomicon so he can return home.",
+        "release_date": "1992-10-09",
+        "release_year": "1993",
+        "title": "Army of Darkness"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Kathy Bates",
+          "Fairuza Balk",
+          "Henry Winkler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Coraci",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Bobby Boucher is a water boy for a struggling college football team. The coach discovers Boucher's hidden rage makes him a tackling machine whose bone-crushing power might vault his team into the playoffs.",
+        "release_date": "1998-11-06",
+        "release_year": "1998",
+        "title": "Waterboy, The"
+      },
+      {
+        "cast": [
+          "Jean-Claude Van Damme",
+          "Raúl Juliá",
+          "Ming-Na Wen",
+          "Дэмиан Чапа"
+        ],
+        "country": [
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Steven E. de Souza",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Col. Guile and various other martial arts heroes fight against the tyranny of Dictator M. Bison and his cohorts.",
+        "release_date": "1994-12-22",
+        "release_year": "1994",
+        "title": "Street Fighter"
+      },
+      {
+        "cast": [
+          "Jason James Richter",
+          "Lori Petty",
+          "August Schellenberg",
+          "Michael Madsen"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Simon Wincer",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When maladjusted orphan Jesse vandalizes a theme park, he is placed with foster parents and must work at the park to make amends. There he meets Willy, a young Orca whale who has been separated from his family. Sensing kinship, they form a bond and, with the help of kindly whale trainer Rae Lindley, develop a routine of tricks. However, greedy park owner Dial soon catches wind of the duo and makes plans to profit from them.",
+        "release_date": "1993-07-16",
+        "release_year": "1993",
+        "title": "Free Willy"
+      },
+      {
+        "cast": [
+          "Christina Ricci",
+          "Bill Pullman",
+          "Cathy Moriarty",
+          "Eric Idle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brad Silberling",
+        "genres": [
+          "Adventure",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "Furious that her late father only willed her his gloomy-looking mansion rather than his millions, Carrigan Crittenden is ready to burn the place to the ground when she discovers a map to a treasure hidden in the house. But when she enters the rickety mansion to seek her claim, she is frightened away by a wicked wave of ghosts. Determined to get her hands on this hidden fortune, she hires afterlife therapist Dr. James Harvey to exorcise the ghosts from the mansion. Harvey and his daughter Kat move in, and soon Kat meets Casper, the ghost of a young boy who's \"the friendliest ghost you know.\" But not so friendly are Casper's uncles--Stretch, Fatso and Stinkie--who are determined to drive all \"fleshies\" away.",
+        "release_date": "1995-05-26",
+        "release_year": "1995",
+        "title": "Casper"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Catherine Zeta-Jones",
+          "Will Patton",
+          "Maury Chaykin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two thieves, who travel in elegant circles, try to outsmart each other and, in the process, end up falling in love.",
+        "release_date": "1999-04-29",
+        "release_year": "1999",
+        "title": "Entrapment"
+      },
+      {
+        "cast": [
+          "John Candy",
+          "Alan Alda",
+          "Rhea Perlman",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Michael Moore",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Canadian Bacon is the only fictitious film from Director Michael Moore. This comedy is about an American president who decides to go to war to bring the public’s opinion of him up during election time. Canadian Bacon is actor John Candy’s last film.",
+        "release_date": "1995-06-08",
+        "release_year": "1994",
+        "title": "Canadian Bacon"
+      }
+    ],
+    "raw_user_id": "2621",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 253
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0945883797642282
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for children's films and light comedies.",
+        "Dislike for thrillers and horror films, as indicated by low ratings in these genres."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like comedy and romance.",
+        "Positive reception of films featuring strong narratives and character development.",
+        "Favoring films with a mix of humor and emotional depth."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for emotional and narrative depth.); Enjoyment of Comedy (Multiple comedies receive favorable ratings, suggesting a liking for humor and light-hearted storytelling.); Interest in Action and Adventure (High ratings for action and adventure films reflect a taste for excitement and dynamic storytelling.); Fondness for Romance (Romantic films are rated positively, indicating an appreciation for love stories and emotional connections.); Engagement with Sci-Fi and Fantasy (The user shows a liking for sci-fi and fantasy genres, as evidenced by positive ratings for films in these categories.). Liked patterns: High ratings for films that blend drama with other genres like comedy and romance., Positive reception of films featuring strong narratives and character development., Favoring films with a mix of humor and emotional depth.. Disliked patterns: Low ratings for children's films and light comedies., Dislike for thrillers and horror films, as indicated by low ratings in these genres..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for emotional and narrative depth.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Multiple comedies receive favorable ratings, suggesting a liking for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "High ratings for action and adventure films reflect a taste for excitement and dynamic storytelling.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "Romantic films are rated positively, indicating an appreciation for love stories and emotional connections.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "The user shows a liking for sci-fi and fantasy genres, as evidenced by positive ratings for films in these categories.",
+          "taste": "Engagement with Sci-Fi and Fantasy"
+        }
+      ]
+    },
+    "user_id": 2621
+  }
+}

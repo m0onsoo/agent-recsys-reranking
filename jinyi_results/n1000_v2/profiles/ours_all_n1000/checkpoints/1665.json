@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "b4b457160837bd71ed5c2f3bc124a411324c11f87624dd941209a68dfc95fc5d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      995,
+      612,
+      289,
+      190,
+      734,
+      1242,
+      587,
+      302,
+      763,
+      616
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "4b7b1926b01b4d5b9c6df7fcf5fea5dc"
+    ],
+    "sampled_item_ids": [
+      23,
+      45,
+      65,
+      98,
+      113,
+      125,
+      133,
+      210,
+      218,
+      289,
+      302,
+      433,
+      539,
+      644,
+      665,
+      744,
+      755,
+      763,
+      947,
+      949,
+      991,
+      999,
+      1019,
+      1242,
+      2101
+    ],
+    "seed": 42,
+    "source_hash": "eea86a8f250740dfaf3834c6f4cc29fe285bc1861497c12671680a5b5dc1664b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1665,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Malcolm McDowell",
+          "Patrick Magee",
+          "Adrienne Corri",
+          "Michael Bates"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.",
+        "release_date": "1971-12-18",
+        "release_year": "1971",
+        "title": "Clockwork Orange, A"
+      },
+      {
+        "cast": [
+          "Peter Sellers",
+          "George C. Scott",
+          "Sterling Hayden",
+          "Keenan Wynn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union. As soon as the actions of General \"Buck\" Turgidson are discovered, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike. Near the end is a scene that is probably the most uniquely unforgettable performance of Slim Pickens in his movie career. Peter Sellers plays multiple roles in this film.",
+        "release_date": "1964-01-29",
+        "release_year": "1963",
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      },
+      {
+        "cast": [
+          "Sean Gullette",
+          "Mark Margolis",
+          "Ben Shenkman",
+          "Samia Shoaib"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Darren Aronofsky",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The debut film from Darren Aronofsky in which a mathematical genius Maximilian Cohen discovers a link in the connection between numbers and reality and thus believes he can predict the future.",
+        "release_date": "1998-07-10",
+        "release_year": "1998",
+        "title": "Pi"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Tim Allen",
+          "Sigourney Weaver",
+          "Alan Rickman",
+          "Tony Shalhoub"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dean Parisot",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.",
+        "release_date": "1999-12-23",
+        "release_year": "1999",
+        "title": "Galaxy Quest"
+      },
+      {
+        "cast": [
+          "Jonathan Pryce",
+          "Robert De Niro",
+          "Katherine Helmond",
+          "Ian Holm"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
+        "release_date": "1985-02-20",
+        "release_year": "1985",
+        "title": "Brazil"
+      },
+      {
+        "cast": [
+          "Christopher Reeve",
+          "Marlon Brando",
+          "Margot Kidder",
+          "Gene Hackman"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Mild-mannered Clark Kent works as a reporter at the Daily Planet alongside his crush, Lois Lane − who's in love with Superman. Clark must summon his superhero alter ego when the nefarious Lex Luthor launches a plan to take over the world.",
+        "release_date": "1978-12-13",
+        "release_year": "1978",
+        "title": "Superman"
+      },
+      {
+        "cast": [
+          "Michael Rooker",
+          "Tracy Arnold",
+          "Tom Towles",
+          "David Katz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McNaughton",
+        "genres": [
+          "Crime",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Henry likes to kill people, in different ways each time. Henry shares an apartment with Otis. When Otis' sister comes to stay, we see both sides of Henry: \"the guy next door\" and the serial killer.",
+        "release_date": "1986-09-24",
+        "release_year": "1990",
+        "title": "Henry: Portrait of a Serial Killer"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Frakes",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When an alien race and factions within Starfleet attempt to take over a planet that has \"regenerative\" properties, it falls upon Captain Picard and the crew of the Enterprise to defend the planet's people as well as the very ideals upon which the Federation itself was founded.",
+        "release_date": "1998-12-10",
+        "release_year": "1998",
+        "title": "Star Trek: Insurrection"
+      },
+      {
+        "cast": [
+          "Gene Barry",
+          "Ann Robinson",
+          "Les Tremayne",
+          "Lewis Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Byron Haskin",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The residents of a small town are excited when a flaming meteor lands in the hills, but their joy is short-lived when they discover it has passengers who are not very friendly.",
+        "release_date": "1953-08-13",
+        "release_year": "1953",
+        "title": "War of the Worlds, The"
+      }
+    ],
+    "raw_user_id": "1665",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 51
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4155598188893344
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films with low suspense or poor execution in the thriller genre.",
+        "Negative ratings for films that do not effectively combine genres."
+      ],
+      "liked_patterns": [
+        "High ratings for action and sci-fi combinations.",
+        "Strong preference for films with suspenseful and thrilling narratives.",
+        "Enjoyment of films that blend science fiction with horror elements."
+      ],
+      "summary": "Unique tastes: Sci-Fi Enthusiast (A strong preference for science fiction is evident, with multiple high ratings for films in this genre.); Action Lover (A consistent enjoyment of action films is reflected in the high ratings for numerous titles featuring intense action sequences.); Thriller Appreciation (Several rated films fall within the thriller genre, indicating a liking for suspenseful and intense narratives.); Fantasy Elements (A notable interest in fantasy themes is present, particularly in conjunction with science fiction.); Horror Elements (An appreciation for horror elements is shown, especially when combined with science fiction and thriller genres.). Liked patterns: High ratings for action and sci-fi combinations., Strong preference for films with suspenseful and thrilling narratives., Enjoyment of films that blend science fiction with horror elements.. Disliked patterns: Dislike for films with low suspense or poor execution in the thriller genre., Negative ratings for films that do not effectively combine genres..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for science fiction is evident, with multiple high ratings for films in this genre.",
+          "taste": "Sci-Fi Enthusiast"
+        },
+        {
+          "reason": "A consistent enjoyment of action films is reflected in the high ratings for numerous titles featuring intense action sequences.",
+          "taste": "Action Lover"
+        },
+        {
+          "reason": "Several rated films fall within the thriller genre, indicating a liking for suspenseful and intense narratives.",
+          "taste": "Thriller Appreciation"
+        },
+        {
+          "reason": "A notable interest in fantasy themes is present, particularly in conjunction with science fiction.",
+          "taste": "Fantasy Elements"
+        },
+        {
+          "reason": "An appreciation for horror elements is shown, especially when combined with science fiction and thriller genres.",
+          "taste": "Horror Elements"
+        }
+      ]
+    },
+    "user_id": 1665
+  }
+}

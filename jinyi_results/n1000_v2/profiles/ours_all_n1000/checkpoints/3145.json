@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "ba0ad34728abfca7ef891393f6160b9784f818bee851567e784d48531e4736d7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1002,
+      662,
+      373,
+      7,
+      391,
+      82,
+      362,
+      6,
+      2248,
+      720
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7a72b267f5924331af2e293dedfd784f"
+    ],
+    "sampled_item_ids": [
+      1,
+      7,
+      8,
+      16,
+      42,
+      49,
+      63,
+      85,
+      114,
+      125,
+      142,
+      274,
+      362,
+      387,
+      391,
+      662,
+      673,
+      679,
+      756,
+      1229,
+      1448,
+      1580,
+      2248,
+      2440,
+      2496
+    ],
+    "seed": 42,
+    "source_hash": "7c4ae9e126d0769224996bccdcef0fa05069e4c457d5c920ef81d3d6140b4116",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3145,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "John Beck",
+          "Mary Gregory"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Miles Monroe, a clarinet-playing health food store proprietor, is revived out of cryostasis 200 years into a future world in order to help rebels fight an oppressive government regime.",
+        "release_date": "1973-12-17",
+        "release_year": "1973",
+        "title": "Sleeper"
+      },
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      },
+      {
+        "cast": [
+          "Hilary Swank",
+          "Chloë Sevigny",
+          "Peter Sarsgaard",
+          "Brendan Sexton III"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kimberly Peirce",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Female born, Teena Brandon adopts his male identity of Brandon Teena and attempts to find himself and love in Nebraska.",
+        "release_date": "1999-09-02",
+        "release_year": "1999",
+        "title": "Boys Don't Cry"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Jack Hawkins",
+          "Haya Harareet",
+          "Stephen Boyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ben-Hur is a 1959 epic film directed by William Wyler, the third film version of Civil War vet Lew Wallace's 1880 novel Ben-Hur: A Tale of the Christ. It premiered at Loew's State Theatre in New York City on November 18, 1959. The movie's reputation as a classic is primarily based on two spectacular action sequences:  the great chariot race and a Roman naval battle, along with lavish production values and strong performances.  The plot of Ben Hur revolves around a Jewish prince who is betrayed and sent into slavery by a Roman friend and how he regains his freedom and comes back for revenge. However, instead he finds redemption in Christ, the theme is ultimately about being saved in the Christian sense.  The film went on to win a record of eleven Academy Awards, including Best Picture and Best Actor (Charlton Heston as Ben Hur). This record-setting Oscars sweep has since been equaled by Titanic in 1998 and The Lord of the Rings: The Return of the King in 2004, but never broken.",
+        "release_date": "1959-12-26",
+        "release_year": "1959",
+        "title": "Ben-Hur"
+      },
+      {
+        "cast": [
+          "Jonathan Taylor Thomas",
+          "Matthew Broderick",
+          "James Earl Jones",
+          "Jeremy Irons"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Allers",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A young lion cub named Simba can't wait to be king. But his uncle craves the title for himself and will stop at nothing to get it.",
+        "release_date": "1994-06-23",
+        "release_year": "1994",
+        "title": "Lion King, The"
+      },
+      {
+        "cast": [
+          "Edward James Olmos",
+          "Lou Diamond Phillips",
+          "Rosanna DeSoto",
+          "Andy García"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ramón Menéndez",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jaime Escalante is a mathematics teacher in a school in a hispanic neighbourhood. Convinced that his students have potential, he adopts unconventional teaching methods to try and turn gang members and no-hopers into some of the country's top algebra and calculus students.",
+        "release_date": "1988-03-11",
+        "release_year": "1987",
+        "title": "Stand and Deliver"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Dianne Wiest",
+          "Jennifer Tilly",
+          "Chazz Palminteri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Set in 1920's New York City, this movie tells the story of idealistic young playwright David Shayne. Producer Julian Marx finally finds funding for the project from gangster Nick Valenti. The catch is that Nick's girl friend Olive Neal gets the part of a psychiatrist, and Olive is a bimbo who could never pass for a psychiatrist as well as being a dreadful actress. Agreeing to this first compromise is the first step to Broadway's complete seduction of David, who neglects longtime girl friend Ellen. Meanwhile David puts up with Warner Purcell, the leading man who is a compulsive eater, Helen Sinclair, the grand dame who wants her part jazzed up, and Cheech, Olive's interfering hitman / bodyguard. Eventually, the playwright must decide whether art or life is more important.",
+        "release_date": "1994-10-14",
+        "release_year": "1994",
+        "title": "Bullets Over Broadway"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Tura Satana",
+          "Haji",
+          "Lori Williams",
+          "Sue Bernard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Russ Meyer",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Three strippers seeking thrills encounter a young couple in the desert. After dispatching the boyfriend, they take the girl hostage and begin scheming on a crippled old man living with his two sons in the desert, reputedly hiding a tidy sum of cash. They become house guests of the old man and try and seduce the sons in an attempt to locate the money, not realizing that the old man has a few sinister intentions of his own.",
+        "release_date": "1965-08-06",
+        "release_year": "1965",
+        "title": "Faster Pussycat! Kill! Kill!"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      }
+    ],
+    "raw_user_id": "3145",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 89
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1174934656564497
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for action films that lack depth or strong narratives.",
+        "Dislike for films that are primarily action-oriented without character development."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like comedy and action.",
+        "Positive reception of films featuring strong character arcs and emotional depth.",
+        "Consistent enjoyment of comedies that incorporate elements of drama."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (The user rates several comedies positively, suggesting a fondness for humor and lighthearted storytelling.); Interest in Action and Adventure (The user shows a liking for action and adventure genres, as evidenced by multiple high ratings in these categories.); Favoring Documentaries (The user has rated documentaries positively, indicating an interest in real-life stories and informative content.); Preference for Strong Character Development (The user tends to favor films that feature complex characters and deep narratives, as seen in their high ratings for character-driven stories.). Liked patterns: High ratings for films that blend drama with other genres like comedy and action., Positive reception of films featuring strong character arcs and emotional depth., Consistent enjoyment of comedies that incorporate elements of drama.. Disliked patterns: Low ratings for action films that lack depth or strong narratives., Dislike for films that are primarily action-oriented without character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user rates several comedies positively, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for action and adventure genres, as evidenced by multiple high ratings in these categories.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user has rated documentaries positively, indicating an interest in real-life stories and informative content.",
+          "taste": "Favoring Documentaries"
+        },
+        {
+          "reason": "The user tends to favor films that feature complex characters and deep narratives, as seen in their high ratings for character-driven stories.",
+          "taste": "Preference for Strong Character Development"
+        }
+      ]
+    },
+    "user_id": 3145
+  }
+}

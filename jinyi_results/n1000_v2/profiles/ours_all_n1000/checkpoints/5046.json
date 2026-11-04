@@ -1,0 +1,327 @@
+{
+  "checkpoint_hash": "4f6547490c5c27920af0aa82fdcc029ad5ad87281e176eb9f2ef9796f4b55751",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1178,
+      1314,
+      351,
+      199,
+      542,
+      3000,
+      374,
+      1500,
+      1639,
+      1567
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      41,
+      118,
+      124,
+      126,
+      129,
+      135,
+      184,
+      206,
+      348,
+      413,
+      528,
+      676,
+      744,
+      757,
+      840,
+      972,
+      1112,
+      1191,
+      1192,
+      1257,
+      1347,
+      1559,
+      1675,
+      2028,
+      2218
+    ],
+    "seed": 42,
+    "source_hash": "79d9812072e880b6b0ae76df015746a733cf38b10254e66d826bafd53bbb28b1",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5046,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mike Judge",
+          "Bruce Willis",
+          "Demi Moore",
+          "Robert Stack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Judge",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Mike Judge's slacker duo, Beavis and Butt-Head, wake to discover their TV has been stolen. Their search for a new one takes them on a clueless adventure across America where they manage to accidentally become America's most wanted.",
+        "release_date": "1996-12-15",
+        "release_year": "1996",
+        "title": "Beavis and Butt-head Do America"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Harold Ramis",
+          "Warren Oates",
+          "P.J. Soles"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "John Winger, an indolent sad sack in his 30s, impulsively joins the U.S. Army after losing his job, his girlfriend and his apartment.",
+        "release_date": "1981-06-25",
+        "release_year": "1981",
+        "title": "Stripes"
+      },
+      {
+        "cast": [
+          "Jason Schwartzman",
+          "Olivia Williams",
+          "Bill Murray",
+          "Seymour Cassel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Anderson",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a beautiful first-grade teacher arrives at a prep school, she soon attracts the attention of an ambitious teenager named Max, who quickly falls in love with her. Max turns to the father of two of his schoolmates for advice on how to woo the teacher. However, the situation soon gets complicated when Max's new friend becomes involved with her, setting the two pals against one another in a war for her attention.",
+        "release_date": "1998-09-17",
+        "release_year": "1998",
+        "title": "Rushmore"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Rodney Dangerfield",
+          "Ted Knight",
+          "Michael O'Keefe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At an exclusive country club, an ambitious young caddy, Danny Noonan, eagerly pursues a caddy scholarship in hopes of attending college and, in turn, avoiding a job at the lumber yard. In order to succeed, he must first win the favour of the elitist Judge Smails, and then the caddy golf tournament which Smails sponsors.",
+        "release_date": "1980-07-25",
+        "release_year": "1980",
+        "title": "Caddyshack"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Dougray Scott",
+          "Thandie Newton",
+          "Ving Rhames"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt races across Australia and Spain to stop a former IMF agent from unleashing a genetically engineered biological weapon called Chimera. This mission, should Hunt choose to accept it, plunges him into the center of an international crisis of terrifying magnitude.",
+        "release_date": "2000-05-24",
+        "release_year": "2000",
+        "title": "Mission: Impossible 2"
+      },
+      {
+        "cast": [
+          "Jerry Lewis",
+          "Oliver Platt",
+          "Lee Evans",
+          "Leslie Caron"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Chelsom",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Tommy Fawkes wants to be a successful comedian but his Las Vegas debut is a failure. He goes back to Blackpool, UK, where his father, also a comedian started and where he spent the summers of his childhood. He starts to search for a partner, a comic relief, with whom he can be famous.",
+        "release_date": "1995-09-20",
+        "release_year": "1995",
+        "title": "Funny Bones"
+      },
+      {
+        "cast": [
+          "Edward Clements",
+          "Chris Eigeman",
+          "Taylor Nichols",
+          "Carolyn Farina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Whit Stillman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A sparkling comedic chronicle of a middle-class young man’s romantic misadventures among New York City’s debutante society. Stillman’s deft, literate dialogue and hilariously highbrow observations earned this debut film an Academy Award nomination for Best Original Screenplay. Alongside the wit and sophistication, though, lies a tender tale of adolescent anxiety.",
+        "release_date": "1990-08-03",
+        "release_year": "1990",
+        "title": "Metropolitan"
+      },
+      {
+        "cast": [
+          "Val Kilmer",
+          "Gabriel Jarret",
+          "Michelle Meyrink",
+          "William Atherton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martha Coolidge",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Chris is the top brain who just wants to party, Mitch is the 15-year-old college wiz kid. Supposedly hard at work on a lab project with a mysterious deadline, they still find time to use their genius to discover new ways to have fun.",
+        "release_date": "1985-08-07",
+        "release_year": "1985",
+        "title": "Real Genius"
+      },
+      {
+        "cast": [
+          "Tatsuya Nakadai",
+          "Tsutomu Yamazaki",
+          "Jinpachi Nezu",
+          "Takashi Shimura"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Akira Kurosawa",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "Japanese",
+        "overview": "When a warlord dies, a peasant thief is called upon to impersonate him, in order to protect his clan from appearing weak and vulnerable. But he finds himself haunted by the warlord’s spirit as well as his own ambitions.",
+        "release_date": "1980-04-26",
+        "release_year": "1980",
+        "title": "Kagemusha"
+      },
+      {
+        "cast": [
+          "Sonny Bono",
+          "Ruth Brown",
+          "Divine",
+          "Deborah Harry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Waters",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ample teen Tracy Turnblad wants nothing more than to be on the hip local TV dance program, \"The Corny Collins Show\" -- and when her dream comes true, her lively moves and bubbly personality meet with unexpected popularity. But after witnessing firsthand the terrible state of race relations in 1960s Baltimore, Turnblad becomes an outspoken advocate for desegregation.",
+        "release_date": "1988-02-16",
+        "release_year": "1988",
+        "title": "Hairspray"
+      }
+    ],
+    "raw_user_id": "5046",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 696
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0773786752687657
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films",
+        "Dislike for certain romantic comedies",
+        "Negative reception of specific action-comedy hybrids"
+      ],
+      "liked_patterns": [
+        "High ratings for comedies and dramas",
+        "Positive reception of action and adventure films",
+        "Appreciation for thrillers with dramatic elements"
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Action and Adventure (The user appreciates action and adventure films, frequently giving them favorable ratings.); Drama and Thriller (The user shows a strong preference for dramas and thrillers, often rating them positively.); Romantic Comedies (The user enjoys romantic comedies, indicating a liking for light-hearted narratives with romantic elements.); Animation (The user has a fondness for animated films, particularly those that appeal to both children and adults.). Liked patterns: High ratings for comedies and dramas, Positive reception of action and adventure films, Appreciation for thrillers with dramatic elements. Disliked patterns: Low ratings for horror films, Dislike for certain romantic comedies, Negative reception of specific action-comedy hybrids.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates action and adventure films, frequently giving them favorable ratings.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user shows a strong preference for dramas and thrillers, often rating them positively.",
+          "taste": "Drama and Thriller"
+        },
+        {
+          "reason": "The user enjoys romantic comedies, indicating a liking for light-hearted narratives with romantic elements.",
+          "taste": "Romantic Comedies"
+        },
+        {
+          "reason": "The user has a fondness for animated films, particularly those that appeal to both children and adults.",
+          "taste": "Animation"
+        }
+      ]
+    },
+    "user_id": 5046
+  }
+}

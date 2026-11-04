@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "a76c64f1ec3a707f22ca3affbb2456df096bf99af228b140efc88e5607391962",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1035,
+      849,
+      1911,
+      696,
+      1229,
+      1451,
+      716,
+      744,
+      1935,
+      2647
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      41,
+      161,
+      169,
+      206,
+      238,
+      245,
+      274,
+      417,
+      489,
+      547,
+      676,
+      732,
+      911,
+      912,
+      1107,
+      1229,
+      1341,
+      1404,
+      1578,
+      1581,
+      1697,
+      2338,
+      2503,
+      2663,
+      2708
+    ],
+    "seed": 42,
+    "source_hash": "9115c19dd9cb7301ded6a226c19dbbae591d13afdf2cd3746f0d3dcaba835a1e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4596,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Phillip Glasser",
+          "Dom DeLuise",
+          "Nehemiah Persoff",
+          "Erica Yohn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Don Bluth",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A young mouse named Fievel and his family decide to migrate to America, a \"land without cats,\" at the turn of the 20th century. But somehow, Fievel ends up in the New World alone and must fend off not only the felines he never thought he'd have to deal with again but also the loneliness of being away from home.",
+        "release_date": "1986-11-21",
+        "release_year": "1986",
+        "title": "American Tail, An"
+      },
+      {
+        "cast": [
+          "Nicholas Rowe",
+          "Alan Cox",
+          "Sophie Ward",
+          "Anthony Higgins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Sherlock Holmes and Dr. Watson meet as boys in an English Boarding school. Holmes is known for his deductive ability even as a youth, amazing his classmates with his abilities. When they discover a plot to murder a series of British business men by an Egyptian cult, they move to stop it.",
+        "release_date": "1985-12-04",
+        "release_year": "1985",
+        "title": "Young Sherlock Holmes"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Sean Penn",
+          "Demi Moore",
+          "Hoyt Axton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two escaped cons only prayer to escape is to pass themselves off as priests and pass by the police blockade at the border into the safety of Canada.",
+        "release_date": "1989-12-15",
+        "release_year": "1989",
+        "title": "We're No Angels"
+      },
+      {
+        "cast": [
+          "Michael Keaton",
+          "Teri Garr",
+          "Fred Koehler",
+          "Taliesin Jaffe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stan Dragoti",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jack and Caroline are a couple making a decent living When Jack suddenly loses his job. They agree that he should stay at home and look after the house while Caroline works. It's just that he's never done it before, and really doesn't have a clue...",
+        "release_date": "1983-07-22",
+        "release_year": "1983",
+        "title": "Mr. Mom"
+      },
+      {
+        "cast": [
+          "Matthew Modine",
+          "Adam Baldwin",
+          "Vincent D'Onofrio",
+          "R. Lee Ermey"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+        "release_date": "1987-06-26",
+        "release_year": "1987",
+        "title": "Full Metal Jacket"
+      },
+      {
+        "cast": [
+          "Farley Granger",
+          "Robert Walker",
+          "Ruth Roman",
+          "Patricia Hitchcock"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychotic socialite confronts a pro tennis star with a theory on how two complete strangers can get away with murder...a theory that he plans to implement.",
+        "release_date": "1951-06-18",
+        "release_year": "1951",
+        "title": "Strangers on a Train"
+      },
+      {
+        "cast": [
+          "Zach Galligan",
+          "Phoebe Cates",
+          "Hoyt Axton",
+          "Polly Holliday"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "When Billy Peltzer is given a strange but adorable pet named Gizmo for Christmas, he inadvertently breaks the three important rules of caring for a Mogwai, and unleashes a horde of mischievous gremlins on a small town.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Gremlins"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "Richard Gere",
+          "Bai Ling",
+          "Bradley Whitford",
+          "Byron Mann"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Avnet",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An American attorney on business in China, ends up wrongfully on trial for murder and his only key to innocence is a female defense lawyer from the country.",
+        "release_date": "1997-10-30",
+        "release_year": "1997",
+        "title": "Red Corner"
+      },
+      {
+        "cast": [
+          "Timothy Hutton",
+          "Amy Madigan",
+          "Michael Rooker",
+          "Julie Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George A. Romero",
+        "genres": [
+          "Horror",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Thad Beaumont is the author of a highly successful series of violent pulp thrillers written under the pseudonym of ‘George Stark’, but when he decides to ‘kill-off’ his alter-ego in a mock ceremony, it precipitates a string of sadistic murders matching those in his pulp novels, which are soon discovered to be the work of Stark himself. Looking like a maniacal version of his counterpart, Stark is not so willing to quit the writing game – even if it means coming after Thad's wife and their baby.",
+        "release_date": "1993-04-23",
+        "release_year": "1993",
+        "title": "Dark Half, The"
+      }
+    ],
+    "raw_user_id": "4596",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 166
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8514789694831689
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that lack depth or compelling storytelling.",
+        "Discontent with comedies that do not resonate or feel flat in execution."
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedies that blend humor with other genres like drama and romance.",
+        "Appreciation for films that combine action with strong narratives or character arcs.",
+        "Interest in crime dramas that explore complex themes and moral dilemmas."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys light-hearted narratives and humor, as seen in multiple high-rated comedies.); Drama (The user appreciates emotional depth and character development, reflected in their ratings for various dramatic films.); Action (The user is drawn to thrilling and adventurous plots, indicated by their ratings for action-oriented films.); Crime (The user shows interest in crime-related themes, as evidenced by their engagement with several crime dramas.); Horror (The user has a mixed response to horror, enjoying some films while disliking others, indicating a selective taste.). Liked patterns: Enjoyment of comedies that blend humor with other genres like drama and romance., Appreciation for films that combine action with strong narratives or character arcs., Interest in crime dramas that explore complex themes and moral dilemmas.. Disliked patterns: Dislike for horror films that lack depth or compelling storytelling., Discontent with comedies that do not resonate or feel flat in execution..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted narratives and humor, as seen in multiple high-rated comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates emotional depth and character development, reflected in their ratings for various dramatic films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user is drawn to thrilling and adventurous plots, indicated by their ratings for action-oriented films.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user shows interest in crime-related themes, as evidenced by their engagement with several crime dramas.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "The user has a mixed response to horror, enjoying some films while disliking others, indicating a selective taste.",
+          "taste": "Horror"
+        }
+      ]
+    },
+    "user_id": 4596
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "472878fb2f6bd7ec7a0759acf4b7bb6110e4e00a41901c238347c20cfdada37f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1373,
+      1039,
+      1113,
+      1575,
+      1286,
+      1386,
+      169,
+      922,
+      800,
+      534
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e2dd1c12af754a0cae67c244bfec9463"
+    ],
+    "sampled_item_ids": [
+      16,
+      23,
+      65,
+      68,
+      86,
+      329,
+      387,
+      393,
+      442,
+      920,
+      946,
+      1019,
+      1099,
+      1213,
+      1217,
+      1286,
+      1309,
+      1373,
+      1386,
+      1431,
+      1438,
+      1575,
+      1601,
+      1663,
+      2209
+    ],
+    "seed": 42,
+    "source_hash": "1b06fbf3fd49cf60cc41e60f37e49272af8fba8aa1750d4f82bd3e446fced8c6",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 732,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Rachel Ward",
+          "James Woods",
+          "Alex Karras"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Taylor Hackford",
+        "genres": [
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "She was a beautiful fugitive. Fleeing from corruption. From power. He was a professional athlete past his prime. Hired to find her, he grew to love her. Love turned to obsession. Obsession turned to murder. And now the price of freedom might be nothing less than their lives.",
+        "release_date": "1984-03-02",
+        "release_year": "1984",
+        "title": "Against All Odds"
+      },
+      {
+        "cast": [
+          "Molly Ringwald",
+          "Jon Cryer",
+          "Andrew McCarthy",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Deutch",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Andie is an outcast, hanging out either with her older boss, who owns the record store where she works, or her quirky high school classmate Duckie, who has a crush on her. When one of the rich and popular kids at school, Blane, asks Andie out, it seems too good to be true. As Andie starts falling for Blane, she begins to realize that dating someone from a different social sphere is not easy.",
+        "release_date": "1986-02-28",
+        "release_year": "1986",
+        "title": "Pretty in Pink"
+      },
+      {
+        "cast": [
+          "Timothy Dalton",
+          "Carey Lowell",
+          "Robert Davi",
+          "Talisa Soto"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Glen",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "James Bond and his American colleague Felix Leiter arrest the drug lord Sanchez who succeeds in escaping and takes revenge on Felix and his wife. Bond knows but just one thing: revenge.",
+        "release_date": "1989-07-07",
+        "release_year": "1989",
+        "title": "Licence to Kill"
+      },
+      {
+        "cast": [
+          "Timothy Hutton",
+          "Sean Penn",
+          "Pat Hingle",
+          "Joyce Van Patten"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Schlesinger",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of a disillusioned military contractor employee and his drug pusher childhood friend who became walk-in spies for the Soviet Union.",
+        "release_date": "1985-01-25",
+        "release_year": "1984",
+        "title": "Falcon and the Snowman, The"
+      },
+      {
+        "cast": [
+          "Bryan Brown",
+          "Brian Dennehy",
+          "Diane Venora",
+          "Cliff DeYoung"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mandel",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A movies special effects man is hired by a government agency to help stage the assassination of a well known gangster. When the agency double cross him, he uses his special effects to trap the gangster and the corrupt agents.",
+        "release_date": "1986-02-07",
+        "release_year": "1986",
+        "title": "F/X"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Sage Stallone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A lifetime of taking shots has ended Rocky's career, and a crooked accountant has left him broke. Inspired by the memory of his trainer, however, Rocky finds glory in training and takes on an up-and-coming boxer.",
+        "release_date": "1990-10-18",
+        "release_year": "1990",
+        "title": "Rocky V"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Anthony Michael Hall",
+          "Judd Nelson",
+          "Molly Ringwald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Five high school students, all different stereotypes, meet in detention, where they pour their hearts out to each other, and discover how they have a lot more in common than they thought.",
+        "release_date": "1985-02-15",
+        "release_year": "1985",
+        "title": "Breakfast Club, The"
+      },
+      {
+        "cast": [
+          "Matt Dillon",
+          "Kevin Bacon",
+          "Denise Richards",
+          "Neve Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McNaughton",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When teen-socialite Kelly Van Ryan (Richards) and troubled bad girl Suzie Toller (Campbell) accuse guidance counselor Sam Lombardo (Dillon) of rape, he's suspended by the school, rejected by the town, and fighting to get his life back. One cop (Bacon) suspects conspiracy, but nothing is what it seems...",
+        "release_date": "1998-03-20",
+        "release_year": "1998",
+        "title": "Wild Things"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Glenn Close",
+          "Anne Archer",
+          "Ellen Hamilton Latzen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A married man's one night stand comes back to haunt him when that lover begins to stalk him and his family.",
+        "release_date": "1987-09-11",
+        "release_year": "1987",
+        "title": "Fatal Attraction"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Mark Wahlberg",
+          "Diane Lane",
+          "John C. Reilly"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In October 1991, a confluence of weather conditions combined to form a killer storm in the North Atlantic. Caught in the storm was the sword-fishing boat Andrea Gail. Magnificent foreshadowing and anticipation fill this true-life drama while minute details of the fishing boats, their gear and the weather are juxtaposed with the sea adventure.",
+        "release_date": "2000-03-15",
+        "release_year": "2000",
+        "title": "Perfect Storm, The"
+      }
+    ],
+    "raw_user_id": "732",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 141
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.133360279159701
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies perceived as poor",
+        "Dislike for action films that do not meet expectations",
+        "Negative reception of films with weak plots or execution"
+      ],
+      "liked_patterns": [
+        "High ratings for crime and drama films",
+        "Positive reception of comedies with strong humor",
+        "Favoring action films that blend with other genres"
+      ],
+      "summary": "Unique tastes: Preference for Crime and Drama (The user consistently rates crime and drama films highly, indicating a strong interest in these genres.); Enjoyment of Comedy (The user rates several comedies positively, suggesting a fondness for humor in films.); Appreciation for Action and Thriller (The user shows a liking for action and thriller films, as evidenced by multiple high ratings in these genres.); Interest in Romance (The user rates romance films positively, indicating an appreciation for romantic themes.); Dislike for Poorly Received Comedies (The user rates certain comedies very low, suggesting a specific expectation for quality in this genre.). Liked patterns: High ratings for crime and drama films, Positive reception of comedies with strong humor, Favoring action films that blend with other genres. Disliked patterns: Low ratings for comedies perceived as poor, Dislike for action films that do not meet expectations, Negative reception of films with weak plots or execution.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates crime and drama films highly, indicating a strong interest in these genres.",
+          "taste": "Preference for Crime and Drama"
+        },
+        {
+          "reason": "The user rates several comedies positively, suggesting a fondness for humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for action and thriller films, as evidenced by multiple high ratings in these genres.",
+          "taste": "Appreciation for Action and Thriller"
+        },
+        {
+          "reason": "The user rates romance films positively, indicating an appreciation for romantic themes.",
+          "taste": "Interest in Romance"
+        },
+        {
+          "reason": "The user rates certain comedies very low, suggesting a specific expectation for quality in this genre.",
+          "taste": "Dislike for Poorly Received Comedies"
+        }
+      ]
+    },
+    "user_id": 732
+  }
+}

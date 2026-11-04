@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "567ed80ca785502941cf3dfd75250fa2f8815e676f8ac65347e485203fd0da27",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      640,
+      830,
+      2751,
+      2587,
+      117,
+      306,
+      340,
+      870,
+      2118,
+      249
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d09e42e38e124644ad4602b768bcbeee"
+    ],
+    "sampled_item_ids": [
+      20,
+      42,
+      49,
+      70,
+      116,
+      234,
+      249,
+      257,
+      313,
+      340,
+      382,
+      552,
+      675,
+      1039,
+      1245,
+      1339,
+      1388,
+      1401,
+      1421,
+      1493,
+      1593,
+      2522,
+      2523,
+      3197,
+      3255
+    ],
+    "seed": 42,
+    "source_hash": "e90f898114dad15455f87ee71e9ec2b7b923533bb233d15e91d14553dec53414",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1164,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "unemployed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Bill Pullman",
+          "Peter Gallagher",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A love story built on a misunderstanding. A transit worker pulls commuter Peter off the tracks after he's mugged. But while he's in a coma, his family mistakenly thinks she's Peter's fiancée, and she doesn't correct them. Things get more complicated when she falls for his brother, who's not quite sure that she's who she claims to be.",
+        "release_date": "1995-04-21",
+        "release_year": "1995",
+        "title": "While You Were Sleeping"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "John Cazale",
+          "Charles Durning",
+          "Chris Sarandon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A man robs a bank to pay for his lover's operation; it turns into a hostage situation and a media circus.",
+        "release_date": "1975-08-11",
+        "release_year": "1975",
+        "title": "Dog Day Afternoon"
+      },
+      {
+        "cast": [
+          "Illeana Douglas",
+          "John Turturro",
+          "Eric Stoltz",
+          "Matt Dillon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Allison Anders",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An aspiring singer, Denise Waverly/Edna Buxton, sacrifices her own singing career to write hit songs that launch the careers of other singers. The film follows her life from her first break, through the pain of rejection from the recording industry and a bad marriage, to her final triumph in realizing her dream to record her own hit album.",
+        "release_date": "1996-09-13",
+        "release_year": "1996",
+        "title": "Grace of My Heart"
+      },
+      {
+        "cast": [
+          "Jude Law",
+          "Jennifer Tilly",
+          "Gretchen Mol",
+          "Martha Plimpton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charlie Peters",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Music From Another Room is a romantic comedy that follows the exploits of Danny, a young man who grew up believing he was destined to marry the girl he helped deliver as a five year old boy when his neighbor went into emergency labor. Twenty-five years later, Danny returns to his hometown and finds the irresistible Anna Swann but she finds it easy to resist him since she is already engaged to dreamboat Eric, a very practical match. In pursuit of Anna, Danny finds himself entangled with each of the eccentric Swanns including blind, sheltered Nina, cynical sister Karen, big brother Bill and dramatic mother Grace as he fights to prove that fate should never be messed with and passion should never be practical.",
+        "release_date": "1998-04-24",
+        "release_year": "1998",
+        "title": "Music From Another Room"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Andie MacDowell",
+          "Chris Elliott",
+          "Stephen Tobolowsky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "release_date": "1993-02-11",
+        "release_year": "1993",
+        "title": "Groundhog Day"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Tenzin Thuthob Tsarong",
+          "Tencho Gyalpo",
+          "Tsewang Migyur Khangsar",
+          "Gyurme Tethong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Tibetans refer to the Dalai Lama as 'Kundun', which means 'The Presence'. He was forced to escape from his native home, Tibet, when communist China invaded and enforced an oppressive regime upon the peaceful nation. The Dalai Lama escaped to India in 1959 and has been living in exile in Dharamsala ever since.",
+        "release_date": "1997-12-25",
+        "release_year": "1997",
+        "title": "Kundun"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Patricia Arquette",
+          "John Goodman",
+          "Ving Rhames"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "48 hours in the life of a burnt-out paramedic. Once called Father Frank for his efforts to rescue lives, Frank sees the ghosts of those he failed to save around every turn. He has tried everything he can to get fired, calling in sick, delaying taking calls where he might have to face one more victim he couldn't help, yet cannot quit the job on his own.",
+        "release_date": "1999-10-22",
+        "release_year": "1999",
+        "title": "Bringing Out the Dead"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Dennis Quaid",
+          "James Caan",
+          "Gwyneth Paltrow"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve Kloves",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Some thirty years after Arlis witnesses his father murdering a family, he runs into Kay, who happens to be the family's baby who was spared. Kay and Arlis suspect nothing about each other, but when his father returns, old wounds are reopened.",
+        "release_date": "1993-11-05",
+        "release_year": "1993",
+        "title": "Flesh and Bone"
+      },
+      {
+        "cast": [
+          "Linus Roache",
+          "Tom Wilkinson",
+          "Robert Carlyle",
+          "Cathy Tyson"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Antonia Bird",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Father Greg Pilkington (Linus Roache) is torn between his call as a conservative Catholic priest and his secret life as a homosexual with a gay lover, frowned upon by the Church. Upon hearing the confession of a young girl of her incestuous father, Greg enters an intensely emotional spiritual struggle deciding between choosing morals over religion and one life over another.",
+        "release_date": "1994-01-01",
+        "release_year": "1994",
+        "title": "Priest"
+      }
+    ],
+    "raw_user_id": "1164",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 364
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7729963173525543
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for thrillers that lack engaging plots or character depth.",
+        "Dislike for comedies that do not resonate with the user's sense of humor."
+      ],
+      "liked_patterns": [
+        "High ratings for drama films that explore complex themes and character development.",
+        "Positive reception for comedies that incorporate elements of romance and drama."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for drama films, consistently rating them highly.); Comedy (The user enjoys comedies, particularly those that blend with other genres like drama and romance.); Romance (Romantic elements in films are well-received, especially when combined with drama.); Thriller (The user has a mixed response to thrillers, with some rated positively and others negatively.); Fantasy (The user appreciates fantasy elements, particularly when they are integrated into comedies.). Liked patterns: High ratings for drama films that explore complex themes and character development., Positive reception for comedies that incorporate elements of romance and drama.. Disliked patterns: Negative ratings for thrillers that lack engaging plots or character depth., Dislike for comedies that do not resonate with the user's sense of humor..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for drama films, consistently rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, particularly those that blend with other genres like drama and romance.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Romantic elements in films are well-received, especially when combined with drama.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user has a mixed response to thrillers, with some rated positively and others negatively.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user appreciates fantasy elements, particularly when they are integrated into comedies.",
+          "taste": "Fantasy"
+        }
+      ]
+    },
+    "user_id": 1164
+  }
+}

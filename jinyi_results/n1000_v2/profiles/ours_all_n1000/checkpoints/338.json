@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "4bf04a29f08674ac552aadea2de388f0ab9a96ff419a8e775b465d8fb9c80df9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      872,
+      200,
+      120,
+      150,
+      1334,
+      1868,
+      178,
+      1369,
+      678,
+      1332
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "23bf2681001542b9925f4390569c5506"
+    ],
+    "sampled_item_ids": [
+      16,
+      23,
+      34,
+      75,
+      91,
+      101,
+      133,
+      175,
+      195,
+      210,
+      215,
+      222,
+      401,
+      837,
+      848,
+      888,
+      909,
+      922,
+      1019,
+      1102,
+      1666,
+      1843,
+      1868,
+      2815,
+      2971
+    ],
+    "seed": 42,
+    "source_hash": "d89719687eaef097ce60271f7e6708f20a4b6895a6958ac53dd46cfdbb5ebc02",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 338,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Robin Williams",
+          "Gene Hackman",
+          "Nathan Lane",
+          "Dianne Wiest"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A gay cabaret owner and his drag queen companion agree to put up a false straight front so that their son can introduce them to his fiancé's right-wing moralistic parents.",
+        "release_date": "1996-03-08",
+        "release_year": "1996",
+        "title": "Birdcage, The"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Katharine Ross",
+          "Strother Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot 'Sundance Kid'. As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "release_year": "1969",
+        "title": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "On the eve of retirement, Kirk and McCoy are charged with assassinating the Klingon High Chancellor and imprisoned. The Enterprise crew must help them escape to thwart a conspiracy aimed at sabotaging the last best hope for peace.",
+        "release_date": "1991-12-05",
+        "release_year": "1991",
+        "title": "Star Trek VI: The Undiscovered Country"
+      },
+      {
+        "cast": [
+          "Jake Gyllenhaal",
+          "Chris Cooper",
+          "Laura Dern",
+          "Chris Owen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Johnston",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Based on the true story of Homer Hickam, a coal miner's son who was inspired by the first Sputnik launch to take up rocketry against his father's wishes, and eventually became a NASA scientist.",
+        "release_date": "1999-02-19",
+        "release_year": "1999",
+        "title": "October Sky"
+      },
+      {
+        "cast": [
+          "Walter Matthau",
+          "Jack Lemmon",
+          "Ann-Margret",
+          "Sophia Loren"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Deutch",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A family wedding reignites the ancient feud between next-door neighbors and fishing buddies John and Max. Meanwhile, a sultry Italian divorcée opens a restaurant at the local bait shop, alarming the locals who worry she'll scare the fish away. But she's less interested in seafood than she is in cooking up a hot time with Max.",
+        "release_date": "1995-12-22",
+        "release_year": "1995",
+        "title": "Grumpier Old Men"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Gabrielle Anwar",
+          "Anthony Higgins",
+          "Fyvush Finkel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "New York concierge Doug Ireland wants to go into business for himself and refurbish a hotel on Roosevelt Island, N.Y., but he needs an investor. With a few weeks left before his option on the site runs out, Doug agrees to help wealthy Christian Hanover conceal his affair with salesgirl Andy Hart from his wife. Despite his own attraction to Andy, Doug tries to stay focused on getting Christian to invest $3 million in his project.",
+        "release_date": "1993-10-01",
+        "release_year": "1993",
+        "title": "For Love or Money"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Holly Hunter",
+          "Trey Wilson",
+          "John Goodman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Coen Brothers tell the story of a absurd yet likable family with an unproductive couple as the focal point. The couple has gotten themselves into some trouble while kidnapping a baby and give Hollywood one of the most memorable chase scenes to date.",
+        "release_date": "1987-03-01",
+        "release_year": "1987",
+        "title": "Raising Arizona"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Tommy Lee Jones",
+          "Mary-Louise Parker",
+          "Anthony LaPaglia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A street-wise kid, Mark Sway, sees the suicide of Jerome Clifford, a prominent Louisiana lawyer, whose current client is Barry 'The Blade' Muldano, a Mafia hit-man. Before Jerome shoots himself, he tells Mark where the body of a Senator is buried. Clifford shoots himself and Mark is found at the scene, and both the FBI and the Mafia quickly realize that Mark probably knows more than he says.",
+        "release_date": "1994-07-20",
+        "release_year": "1994",
+        "title": "Client, The"
+      },
+      {
+        "cast": [
+          "Martin Balsam",
+          "Sô Yamamura",
+          "Joseph Cotten",
+          "Tatsuya Mihashi"
+        ],
+        "country": [
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Richard Fleischer",
+        "genres": [
+          "War"
+        ],
+        "language": "English",
+        "overview": "In the summer of 1941, the United States and Japan seem on the brink of war after constant embargos and failed diplomacy come to no end. \"Tora! Tora! Tora!\", named after the code words use by the lead Japanese pilot to indicate they had surprised the Americans, covers the days leading up to the attack on Pearl Harbor, which plunged America into the Second World War.",
+        "release_date": "1970-01-26",
+        "release_year": "1970",
+        "title": "Tora! Tora! Tora!"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Barbara Hershey",
+          "Dennis Hopper",
+          "C.W. Mundy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Anspaugh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "High school basketball is king in small-town Indiana, and the 1954 Hickory Huskers are all hope and no talent. But their new coach -- abrasive, unlikable Norman Dale -- whips the team into shape ... while also inciting controversy.",
+        "release_date": "1986-11-14",
+        "release_year": "1986",
+        "title": "Hoosiers"
+      }
+    ],
+    "raw_user_id": "338",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 290
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5372510622706732
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that are primarily children's content.",
+        "Negative ratings for dramas that do not resonate emotionally."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with other genres.",
+        "Strong preference for action films that also incorporate thriller or sci-fi elements.",
+        "Consistent appreciation for dramatic films with complex narratives."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys light-hearted and humorous films, as indicated by multiple high ratings for comedies.); Action (The user has a strong preference for action films, reflected in several high ratings across various action sub-genres.); Drama (The user appreciates dramatic narratives, as shown by consistent high ratings for drama films.); Sci-Fi (The user is drawn to science fiction elements, with several high ratings for films that incorporate sci-fi themes.); Romance (The user enjoys romantic elements in films, as evidenced by positive ratings for romantic comedies.). Liked patterns: High ratings for comedies that blend humor with other genres., Strong preference for action films that also incorporate thriller or sci-fi elements., Consistent appreciation for dramatic films with complex narratives.. Disliked patterns: Low ratings for films that are primarily children's content., Negative ratings for dramas that do not resonate emotionally..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted and humorous films, as indicated by multiple high ratings for comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user has a strong preference for action films, reflected in several high ratings across various action sub-genres.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, as shown by consistent high ratings for drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user is drawn to science fiction elements, with several high ratings for films that incorporate sci-fi themes.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user enjoys romantic elements in films, as evidenced by positive ratings for romantic comedies.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 338
+  }
+}

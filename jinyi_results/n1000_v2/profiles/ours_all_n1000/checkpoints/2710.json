@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "a13c4509dcdf882021b734f0b1e7c7f1ffae9a885092ac88c8a902eca3d33682",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1000,
+      2437,
+      61,
+      2324,
+      861,
+      1245,
+      832,
+      2016,
+      1106,
+      500
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9b3664ca0fec4b07b74c9ca18e0bdd8c"
+    ],
+    "sampled_item_ids": [
+      61,
+      174,
+      337,
+      445,
+      500,
+      518,
+      525,
+      533,
+      545,
+      832,
+      861,
+      953,
+      1000,
+      1106,
+      1245,
+      1315,
+      1341,
+      1675,
+      1713,
+      2016,
+      2049,
+      2061,
+      2324,
+      2437
+    ],
+    "seed": 42,
+    "source_hash": "2b778c12d32abb0a522dfe982c2f8744959fa180a7e790fada5b2576fdfaff90",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2710,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Tommy Lee Jones",
+          "Donald Sutherland",
+          "James Garner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Frank Corvin, ‘Hawk’ Hawkins, Jerry O'Neill and ‘Tank’ Sullivan were hotdog members of Project Daedalus, the Air Force's test program for space travel, but their hopes were dashed in 1958 with the formation of NASA and the use of trained chimps. They blackmail their way into orbit when Russia's mysterious ‘Ikon’ communications satellite's orbit begins to degrade and threatens to crash to Earth.",
+        "release_date": "2000-07-31",
+        "release_year": "2000",
+        "title": "Space Cowboys"
+      },
+      {
+        "cast": [
+          "Steve Harvey",
+          "D. L. Hughley",
+          "Cedric the Entertainer",
+          "Bernie Mac"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Lee",
+        "genres": [
+          "Comedy",
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "The Original Kings of Comedy achieves the seemingly impossible task of capturing the rollicking and sly comedy routines of stand-up and sitcom vets Steve Harvey, D.L. Hughley, Cedric the Entertainer, and Bernie Mac and the magic of experiencing a live concert show. Director Spike Lee and his crew plant a multitude of cameras in a packed stadium and onstage (as well as backstage, as they follow the comedians) to catch the vivid immediacy of the show, which is as much about the audience as it is about the jokes.",
+        "release_date": "2000-08-18",
+        "release_year": "2000",
+        "title": "Original Kings of Comedy, The"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Michelle Rodriguez",
+          "Jaime Tirelli",
+          "Paul Calderon",
+          "Santiago Douglas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Karyn Kusama",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Diana Guzman begins to train as a boxer and achieves impressive success, blazing new trails for female boxers, all while keeping it a secret from her father.",
+        "release_date": "2000-05-01",
+        "release_year": "2000",
+        "title": "Girlfight"
+      },
+      {
+        "cast": [
+          "Gary Sinise",
+          "Tim Robbins",
+          "Don Cheadle",
+          "Connie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When contact is lost with the crew of the first Mars expedition, a rescue mission is launched to discover their fate.",
+        "release_date": "2000-03-10",
+        "release_year": "2000",
+        "title": "Mission to Mars"
+      },
+      {
+        "cast": [
+          "Gary Oldman",
+          "Joan Allen",
+          "Jeff Bridges",
+          "Christian Slater"
+        ],
+        "country": [
+          "Germany",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Rod Lurie",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Political thriller about Laine Hanson's nomination and confirmation as Vice President. An allegation that she was involved in a sexual orgy at the age of 19 is leaked to the press. As pressure mounts on Laine, she's torn between fighting back or sticking to her principles and refusing to comment on the allegations.",
+        "release_date": "2000-10-13",
+        "release_year": "2000",
+        "title": "Contender, The"
+      },
+      {
+        "cast": [
+          "Kate Hudson",
+          "Billy Crudup",
+          "Frances McDormand",
+          "Jason Lee"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Almost Famous is an autobiographical inspired film about a 15-year-old who is hired by Rolling Stone magazine to follow and interview a rock band during their tour. A film about growing up, first love, disappointment, and the life of a rock star.",
+        "release_date": "2000-09-15",
+        "release_year": "2000",
+        "title": "Almost Famous"
+      },
+      {
+        "cast": [
+          "Forest Whitaker",
+          "Cliff Gorman",
+          "Tricia Vessey",
+          "Henry Silva"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Jarmusch",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An African-American Mafia hit man who models himself after the samurai of old finds himself targeted for death by the mob.",
+        "release_date": "1999-09-13",
+        "release_year": "1999",
+        "title": "Ghost Dog: The Way of the Samurai"
+      },
+      {
+        "cast": [
+          "Jay Brazeau",
+          "Parker Posey",
+          "Michael Hitchcock",
+          "Catherine O'Hara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Christopher Guest",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The tension is palpable, the excitement is mounting and the heady scent of competition is in the air as hundreds of eager contestants from across America prepare to take part in what is undoubtedly one of the greatest events of their lives -- the Mayflower Dog Show. The canine contestants and their owners are as wondrously diverse as the great country that has bred them.",
+        "release_date": "2000-09-19",
+        "release_year": "2000",
+        "title": "Best in Show"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Iben Hjejle",
+          "Todd Louiso",
+          "Jack Black"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When record store owner Rob Gordon gets dumped by his girlfriend, Laura, because he hasn't changed since they met, he revisits his top five breakups of all time in an attempt to figure out what went wrong. As Rob seeks out his former lovers to find out why they left, he keeps up his efforts to win Laura back.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "High Fidelity"
+      }
+    ],
+    "raw_user_id": "2710",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 24
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6420473592320515
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films",
+        "Negative ratings for action films with less engaging plots",
+        "Dislike for poorly received comedies and documentaries"
+      ],
+      "liked_patterns": [
+        "High ratings for comedy films",
+        "Positive ratings for drama and emotional narratives",
+        "Interest in thrillers with engaging plots"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys comedic elements, as seen in multiple ratings of 4 or above for comedy films.); Interest in Drama (The user rates several drama films highly, indicating a preference for emotional and character-driven narratives.); Enjoyment of Thrillers (The user has rated several thrillers positively, suggesting a liking for suspenseful and engaging plots.); Fascination with Sci-Fi (The user shows a tendency to rate sci-fi films positively, indicating an interest in speculative and imaginative storytelling.); Preference for Crime Elements (The user appreciates crime dramas, as evidenced by positive ratings for films in this genre.). Liked patterns: High ratings for comedy films, Positive ratings for drama and emotional narratives, Interest in thrillers with engaging plots. Disliked patterns: Low ratings for horror films, Negative ratings for action films with less engaging plots, Dislike for poorly received comedies and documentaries.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys comedic elements, as seen in multiple ratings of 4 or above for comedy films.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several drama films highly, indicating a preference for emotional and character-driven narratives.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated several thrillers positively, suggesting a liking for suspenseful and engaging plots.",
+          "taste": "Enjoyment of Thrillers"
+        },
+        {
+          "reason": "The user shows a tendency to rate sci-fi films positively, indicating an interest in speculative and imaginative storytelling.",
+          "taste": "Fascination with Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates crime dramas, as evidenced by positive ratings for films in this genre.",
+          "taste": "Preference for Crime Elements"
+        }
+      ]
+    },
+    "user_id": 2710
+  }
+}

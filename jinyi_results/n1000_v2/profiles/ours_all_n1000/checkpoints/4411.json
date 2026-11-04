@@ -1,0 +1,327 @@
+{
+  "checkpoint_hash": "60c9515e2c0fa283e888a758166e2854484533e330bfd60b31f10000c101c62b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1644,
+      338,
+      1083,
+      156,
+      2996,
+      378,
+      354,
+      21,
+      540,
+      649
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      20,
+      22,
+      79,
+      110,
+      147,
+      152,
+      218,
+      425,
+      553,
+      589,
+      797,
+      959,
+      1072,
+      1128,
+      1193,
+      1305,
+      1394,
+      1468,
+      1504,
+      1576,
+      1586,
+      1661,
+      1828,
+      2128,
+      2213
+    ],
+    "seed": 42,
+    "source_hash": "bc941fd1869342bab0546816fe16e3e1f500c44eff5e7d1835c1972fa0c39f3e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4411,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Brenda Blethyn",
+          "Craig Ferguson",
+          "Martin Clunes",
+          "Tchéky Karyo"
+        ],
+        "country": [
+          "France",
+          "United Kingdom"
+        ],
+        "director": "Nigel Cole",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Unexpectedly widowed, prim and proper housewife Grace Trevethyn finds herself in dire financial straits when she inherits massive debts her late husband had been accruing for years. Faced with losing her house, she decides to use her talent for horticulture and hatches a plan to grow potent marijuana which can be sold at an astronomical price, thus solving her financial crisis.",
+        "release_date": "2000-01-24",
+        "release_year": "2000",
+        "title": "Saving Grace"
+      },
+      {
+        "cast": [
+          "Vanessa Redgrave",
+          "Helena Bonham Carter",
+          "Emma Thompson",
+          "Prunella Scales"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "James Ivory",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Merchant Ivory’s adaptation of EM Forster’s classic 1910 novel, starring Emma Thompson, Helena Bonham Carter, Anthony Hopkins & Vanessa Redgrave returns to the big screen in a beautiful new 4K restoration. Stunning location photography, lavishly detailed sets & elegant period costumes, this compelling saga follows the interwoven fates and misfortunes of three families amid the changing times of Edwardian England. It tells the story of two free-spirited, cosmopolitan sisters, Margaret (Emma Thompson) and Helen Schlegel (Helena Bonham Carter), who collide with the world of the very wealthy ­­– one sister benefiting from the acquaintance with the Wilcoxes (owners of the beloved country home Howards End), the other all but destroyed by it. Anthony Hopkins is the conservative industrialist Henry Wilcox and Vanessa Redgrave is his ailing wife Ruth Wilcox.",
+        "release_date": "1992-03-13",
+        "release_year": "1992",
+        "title": "Howards End"
+      },
+      {
+        "cast": [
+          "Ralph Macchio",
+          "Pat Morita",
+          "Martin Kove",
+          "Thomas Ian Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Kreese, his life in tatters after his karate school was defeated by Daniel and Mr. Miyagi, visits Terry, a friend from Vietnam. Terry is a ruthless business man and a martial arts expert, and he vows to help Kreese take revenge on Daniel and Mr. Miyagi.",
+        "release_date": "1989-06-29",
+        "release_year": "1989",
+        "title": "Karate Kid III, The"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Gary Oldman",
+          "Ian Holm",
+          "Milla Jovovich"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In 2257, a taxi driver is unintentionally given the task of saving a young girl who is part of the key that will ensure the survival of humanity.",
+        "release_date": "1997-05-07",
+        "release_year": "1997",
+        "title": "Fifth Element, The"
+      },
+      {
+        "cast": [
+          "Corinne Marchand",
+          "Antoine Bourseiller",
+          "Dominique Davray",
+          "Dorothée Blanck"
+        ],
+        "country": [
+          "France",
+          "Italy"
+        ],
+        "director": "Agnès Varda",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "Agnès Varda eloquently captures Paris in the sixties with this real-time portrait of a singer set adrift in the city as she awaits test results of a biopsy. A chronicle of the minutes of one woman’s life, Cléo from 5 to 7 is a spirited mix of vivid vérité and melodrama, featuring a score by Michel Legrand and cameos by Jean-Luc Godard and Anna Karina.",
+        "release_date": "1962-04-11",
+        "release_year": "1962",
+        "title": "Cleo From 5 to 7 (Cléo de 5 à 7)"
+      },
+      {
+        "cast": [
+          "Gary Oldman",
+          "Tim Roth",
+          "Richard Dreyfuss",
+          "Iain Glen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tom Stoppard",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two minor characters from the play, \"Hamlet\" stumble around unaware of their scripted lives and unable to deviate from them.",
+        "release_date": "1991-02-08",
+        "release_year": "1990",
+        "title": "Rosencrantz and Guildenstern Are Dead"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Michelle Pfeiffer",
+          "Winona Ryder",
+          "Alexis Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Tale of 19th century New York high society in which a young lawyer falls in love with a woman separated from her husband, while he is engaged to the woman's cousin.",
+        "release_date": "1993-09-17",
+        "release_year": "1993",
+        "title": "Age of Innocence, The"
+      },
+      {
+        "cast": [
+          "Tobey Maguire",
+          "Reese Witherspoon",
+          "William H. Macy",
+          "Joan Allen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Ross",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Geeky teenager David and his popular twin sister, Jennifer, get sucked into the black-and-white world of a 1950s TV sitcom called \"Pleasantville,\" and find a world where everything is peachy keen all the time. But when Jennifer's modern attitude disrupts Pleasantville's peaceful but boring routine, she literally brings color into its life.",
+        "release_date": "1998-09-17",
+        "release_year": "1998",
+        "title": "Pleasantville"
+      },
+      {
+        "cast": [
+          "Peter Sallis"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Wallace and Gromit have run out of cheese and this provides an excellent excuse for the animated duo to take their holiday on the moon, where, as everyone knows, there is ample cheese. The moon is inhabited by a mechanical caretaker, who is not too happy about the two visitors from earth that nibble on the moon.",
+        "release_date": "1990-05-18",
+        "release_year": "1992",
+        "title": "Grand Day Out, A"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Audrey Hepburn",
+          "Eddie Albert",
+          "Hartley Power"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Overwhelmed by her suffocating schedule, touring European princess Ann takes off for a night while in Rome. When a sedative she took from her doctor kicks in, however, she falls asleep on a park bench and is found by an American reporter, Joe Bradley, who takes her back to his apartment for safety. At work the next morning, Joe finds out Ann's regal identity and bets his editor he can get exclusive interview with her, but romance soon gets in the way.",
+        "release_date": "1953-09-02",
+        "release_year": "1953",
+        "title": "Roman Holiday"
+      }
+    ],
+    "raw_user_id": "4411",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 488
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9190399374574159
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low rating for comedies that lack depth",
+        "Dislike for films that do not blend genres effectively"
+      ],
+      "liked_patterns": [
+        "High ratings for action and thriller films",
+        "Positive ratings for romantic dramas",
+        "Strong appreciation for animated films"
+      ],
+      "summary": "Unique tastes: Appreciation for Action and Thriller genres (The user consistently rates action and thriller films highly, indicating a strong preference for suspenseful and engaging narratives.); Enjoyment of Romantic and Drama elements (The user shows a liking for films that blend romance with drama, often rating them positively, suggesting a preference for emotional storytelling.); Fondness for Comedy and Fantasy (The user rates comedies and fantasy films favorably, indicating a taste for light-hearted and imaginative narratives.); Interest in Animation (The user has rated animated films highly, suggesting an appreciation for creativity and storytelling in this genre.); Value for Strong Character Development (The user tends to favor films that showcase deep character arcs and emotional journeys, as seen in their ratings for drama and romance.). Liked patterns: High ratings for action and thriller films, Positive ratings for romantic dramas, Strong appreciation for animated films. Disliked patterns: Low rating for comedies that lack depth, Dislike for films that do not blend genres effectively.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates action and thriller films highly, indicating a strong preference for suspenseful and engaging narratives.",
+          "taste": "Appreciation for Action and Thriller genres"
+        },
+        {
+          "reason": "The user shows a liking for films that blend romance with drama, often rating them positively, suggesting a preference for emotional storytelling.",
+          "taste": "Enjoyment of Romantic and Drama elements"
+        },
+        {
+          "reason": "The user rates comedies and fantasy films favorably, indicating a taste for light-hearted and imaginative narratives.",
+          "taste": "Fondness for Comedy and Fantasy"
+        },
+        {
+          "reason": "The user has rated animated films highly, suggesting an appreciation for creativity and storytelling in this genre.",
+          "taste": "Interest in Animation"
+        },
+        {
+          "reason": "The user tends to favor films that showcase deep character arcs and emotional journeys, as seen in their ratings for drama and romance.",
+          "taste": "Value for Strong Character Development"
+        }
+      ]
+    },
+    "user_id": 4411
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "48b23e0385b59750eff9aeb7aee1b094444160a8b46be301dfdfd62ac721c531",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1015,
+      995,
+      937,
+      1136,
+      93,
+      339,
+      1094,
+      5,
+      238,
+      3029
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "3a661a29f1f24a0eb3c5fb4f27b7cc19"
+    ],
+    "sampled_item_ids": [
+      30,
+      95,
+      147,
+      175,
+      221,
+      249,
+      278,
+      365,
+      373,
+      377,
+      407,
+      518,
+      520,
+      532,
+      744,
+      861,
+      864,
+      916,
+      949,
+      994,
+      1526,
+      1886,
+      2016,
+      2055,
+      2705
+    ],
+    "seed": 42,
+    "source_hash": "66d0149e0c67859d60083516dc4b23446aa9a208913fae0b1bdb42c5752b6b4b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 644,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Rufus Sewell",
+          "William Hurt",
+          "Kiefer Sutherland",
+          "Jennifer Connelly"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "release_date": "1998-02-27",
+        "release_year": "1998",
+        "title": "Dark City"
+      },
+      {
+        "cast": [
+          "Malcolm McDowell",
+          "Patrick Magee",
+          "Adrienne Corri",
+          "Michael Bates"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.",
+        "release_date": "1971-12-18",
+        "release_year": "1971",
+        "title": "Clockwork Orange, A"
+      },
+      {
+        "cast": [
+          "Thomas Jane",
+          "Saffron Burrows",
+          "LL Cool J",
+          "Michael Rapaport"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "On a remote former submarine refueling facility called Aquatica, a team of scientists are searching for a cure for Alzheimer's disease. Dr. Susan McAlester genetically engineers three Mako sharks, intending to increase their brain capacity so that they can harvest the tissue as a cure for Alzheimer's. Unfortunately, the increased brain capacity also makes the sharks smarter, faster, and more dangerous. Aquatica's financial backers are skeptical and nervous about the tests, and send a corporate executive to visit the facility.",
+        "release_date": "1999-07-28",
+        "release_year": "1999",
+        "title": "Deep Blue Sea"
+      },
+      {
+        "cast": [
+          "Woody Harrelson",
+          "Randy Quaid",
+          "Vanessa Angel",
+          "Bill Murray"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After bowler Roy Munson swindles the wrong crowd and is left with a hook for a hand, he settles into impoverished obscurity. That is, until he uncovers the next big thing: an Amish kid named Ishmael. So, the corrupt and the hopelessly naïve hit the circuit intent on settling an old score with Big Ern.",
+        "release_date": "1996-07-04",
+        "release_year": "1996",
+        "title": "Kingpin"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Mary Astor",
+          "Gladys George",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A private detective takes on a case that involves him with three eccentric criminals, a gorgeous liar, and their quest for a priceless statuette.",
+        "release_date": "1941-11-18",
+        "release_year": "1941",
+        "title": "Maltese Falcon, The"
+      },
+      {
+        "cast": [
+          "Phil Harris",
+          "Sterling Holloway",
+          "Scatman Crothers",
+          "Eva Gabor"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Reitherman",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "When Madame Adelaide Bonfamille leaves her fortune to Duchess and her children -- Bonfamille's prize family of domesticated house cats -- the butler plots to steal the money and kidnaps the heirs, leaving them out on a country road. All seems lost until the wily Thomas O'Malley Cat and his jazz-playing alley cats come to the Aristocats's rescue.",
+        "release_date": "1970-12-23",
+        "release_year": "1970",
+        "title": "Aristocats, The"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Julia Louis-Dreyfus",
+          "Hayden Panettiere",
+          "Phyllis Diller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+        "release_date": "1998-11-25",
+        "release_year": "1998",
+        "title": "Bug's Life, A"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Hugh Jackman",
+          "Ian McKellen",
+          "Halle Berry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers.",
+        "release_date": "2000-07-13",
+        "release_year": "2000",
+        "title": "X-Men"
+      },
+      {
+        "cast": [
+          "Romane Bohringer",
+          "Elsa Zylberstein"
+        ],
+        "country": [
+          "France",
+          "Belgium",
+          "Netherlands"
+        ],
+        "director": "Martine Dugowson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "The film tells the story of two girls who are of totally different character. They know each other since their childhood and were friends until they became teenagers. But growing up and becoming adults they go different ways.",
+        "release_date": "1994-03-02",
+        "release_year": "1994",
+        "title": "Mina Tannenbaum"
+      }
+    ],
+    "raw_user_id": "644",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 87
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.528671303128701
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for animated films",
+        "Dislike for comedies that lack depth",
+        "Negative ratings for horror and thriller films with simplistic plots"
+      ],
+      "liked_patterns": [
+        "High ratings for drama films",
+        "Positive ratings for sci-fi and action genres",
+        "Enjoyment of comedies with a mix of drama"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for this genre.); Interest in Sci-Fi (Multiple sci-fi films receive high ratings, suggesting a liking for imaginative and speculative narratives.); Enjoyment of Comedy (The user rates several comedies positively, showing a preference for humor in films.); Favoring Action Thrillers (The user enjoys action thrillers, as evidenced by high ratings for films in this genre.); Preference for Complex Narratives (The user seems to appreciate films with intricate plots and character development, as seen in their high ratings for dramas and sci-fi.). Liked patterns: High ratings for drama films, Positive ratings for sci-fi and action genres, Enjoyment of comedies with a mix of drama. Disliked patterns: Low ratings for animated films, Dislike for comedies that lack depth, Negative ratings for horror and thriller films with simplistic plots.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Multiple sci-fi films receive high ratings, suggesting a liking for imaginative and speculative narratives.",
+          "taste": "Interest in Sci-Fi"
+        },
+        {
+          "reason": "The user rates several comedies positively, showing a preference for humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user enjoys action thrillers, as evidenced by high ratings for films in this genre.",
+          "taste": "Favoring Action Thrillers"
+        },
+        {
+          "reason": "The user seems to appreciate films with intricate plots and character development, as seen in their high ratings for dramas and sci-fi.",
+          "taste": "Preference for Complex Narratives"
+        }
+      ]
+    },
+    "user_id": 644
+  }
+}

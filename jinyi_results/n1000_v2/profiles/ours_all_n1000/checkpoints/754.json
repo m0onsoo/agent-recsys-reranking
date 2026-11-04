@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "8092ce12e7aa4c2da65787af77e4e07a43e2c15ce841cd8088b1990cef2fcca4",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      211,
+      165,
+      4,
+      426,
+      920,
+      268,
+      167,
+      894,
+      52,
+      421
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "325ab168af0f462f923504864f4a966b"
+    ],
+    "sampled_item_ids": [
+      94,
+      107,
+      114,
+      165,
+      172,
+      219,
+      238,
+      241,
+      247,
+      281,
+      294,
+      318,
+      406,
+      515,
+      531,
+      552,
+      598,
+      881,
+      944,
+      1085,
+      1388,
+      1559,
+      1614,
+      1878,
+      2326
+    ],
+    "seed": 42,
+    "source_hash": "30a2ad66ced59af2c0ac8cf6138dd09c1fae59e83cdfcf2880c0d21c976e7193",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 754,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bruce Willis",
+          "Alan Rickman",
+          "Alexander Godunov",
+          "Bonnie Bedelia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "NYPD cop, John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Die Hard"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Helen Hunt",
+          "Greg Kinnear",
+          "Cuba Gooding Jr."
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "New York City. Melvin Udall, a cranky, bigoted, obsessive-compulsive writer, finds his life turned upside down when neighboring gay artist Simon is hospitalized and his dog is entrusted to Melvin. In addition, Carol, the only waitress who will tolerate him, must leave work to care for her sick son, making it impossible for Melvin to eat breakfast.",
+        "release_date": "1997-12-19",
+        "release_year": "1997",
+        "title": "As Good As It Gets"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Albert Finney",
+          "Aaron Eckhart",
+          "Marg Helgenberger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "Erin Brockovich"
+      },
+      {
+        "cast": [
+          "Meryl Streep",
+          "Robert Redford",
+          "Klaus Maria Brandauer",
+          "Michael Kitchen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Out of Africa tells the story of the life of Danish author Karen Blixen, who at the beginning of the 20th century moved to Africa to build a new life for herself. The film is based on the autobiographical novel by Karen Blixen from 1937.",
+        "release_date": "1985-12-20",
+        "release_year": "1985",
+        "title": "Out of Africa"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Catherine Zeta-Jones",
+          "Will Patton",
+          "Maury Chaykin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two thieves, who travel in elegant circles, try to outsmart each other and, in the process, end up falling in love.",
+        "release_date": "1999-04-29",
+        "release_year": "1999",
+        "title": "Entrapment"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Samuel L. Jackson",
+          "Guy Pearce",
+          "Ben Kingsley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Friedkin",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Part war movie, part courtroom thriller, this gripping drama finds a war hero put on trial for a rescue mission gone terribly wrong with only his doubtful friend and fellow marine to represent him.",
+        "release_date": "2000-04-07",
+        "release_year": "2000",
+        "title": "Rules of Engagement"
+      },
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Anthony Hopkins",
+          "Catherine Zeta-Jones",
+          "Stuart Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "It has been twenty years since Don Diego de la Vega fought Spanish oppression in Alta California as the legendary romantic hero, Zorro. Having escaped from prison he transforms troubled bandit Alejandro into his successor, in order to foil the plans of the tyrannical Don Rafael Montero who robbed him of his freedom, his wife and his precious daughter.",
+        "release_date": "1998-07-16",
+        "release_year": "1998",
+        "title": "Mask of Zorro, The"
+      },
+      {
+        "cast": [
+          "Steve McQueen",
+          "Faye Dunaway",
+          "Paul Burke",
+          "Jack Weston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Norman Jewison",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Young businessman, Thomas Crown is bored and decides to plan a robbery and assigns a professional agent with the right information to the job. However, Crown is soon betrayed yet cannot blow his cover because he’s in love.",
+        "release_date": "1968-06-19",
+        "release_year": "1968",
+        "title": "Thomas Crown Affair, The"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      }
+    ],
+    "raw_user_id": "754",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 127
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3184557204345808
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that fail to blend genres effectively",
+        "Negative response to poorly received comedies",
+        "Displeasure with films that lack engaging storylines"
+      ],
+      "liked_patterns": [
+        "Preference for action-packed films with strong narratives",
+        "Enjoyment of comedies that also explore deeper themes",
+        "Attraction to films with complex characters and moral dilemmas"
+      ],
+      "summary": "Unique tastes: Action and Thriller (The user enjoys high-stakes narratives with intense action sequences and suspenseful plots.); Comedy and Drama (The user appreciates films that blend humor with emotional depth, often exploring relationships and personal growth.); Crime and Mystery (The user is drawn to stories involving crime, investigation, and moral ambiguity.); Romantic Elements (The user favors films that incorporate romance, often intertwined with other genres like comedy and drama.); Strong Character Development (The user values films that focus on character arcs and personal journeys, often leading to impactful resolutions.). Liked patterns: Preference for action-packed films with strong narratives, Enjoyment of comedies that also explore deeper themes, Attraction to films with complex characters and moral dilemmas. Disliked patterns: Dislike for films that fail to blend genres effectively, Negative response to poorly received comedies, Displeasure with films that lack engaging storylines.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-stakes narratives with intense action sequences and suspenseful plots.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "The user appreciates films that blend humor with emotional depth, often exploring relationships and personal growth.",
+          "taste": "Comedy and Drama"
+        },
+        {
+          "reason": "The user is drawn to stories involving crime, investigation, and moral ambiguity.",
+          "taste": "Crime and Mystery"
+        },
+        {
+          "reason": "The user favors films that incorporate romance, often intertwined with other genres like comedy and drama.",
+          "taste": "Romantic Elements"
+        },
+        {
+          "reason": "The user values films that focus on character arcs and personal journeys, often leading to impactful resolutions.",
+          "taste": "Strong Character Development"
+        }
+      ]
+    },
+    "user_id": 754
+  }
+}

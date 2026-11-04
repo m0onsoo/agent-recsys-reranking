@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "2c4b8c7d2cc341b4f13560a1ff29a282e8e597d06cfbb00e491b1a79b6171341",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      421,
+      3,
+      2294,
+      697,
+      1762,
+      154,
+      597,
+      135,
+      107,
+      412
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      3,
+      24,
+      107,
+      129,
+      154,
+      218,
+      229,
+      318,
+      323,
+      354,
+      412,
+      422,
+      597,
+      650,
+      767,
+      1159,
+      1241,
+      1514,
+      1576,
+      1642,
+      1649,
+      1999,
+      2217,
+      2223,
+      3277
+    ],
+    "seed": 42,
+    "source_hash": "cd9ee62c3b3e5ef2ca88020f78dd11ae821c580f62d32e9b6bc5b8d517e30d85",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5902,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      },
+      {
+        "cast": [
+          "Audrey Hepburn",
+          "Rex Harrison",
+          "Stanley Holloway",
+          "Wilfrid Hyde-White"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Cukor",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A misogynistic and snobbish phonetics professor agrees to a wager that he can take a flower girl and make her presentable in high society.",
+        "release_date": "1964-10-21",
+        "release_year": "1964",
+        "title": "My Fair Lady"
+      },
+      {
+        "cast": [
+          "Pete Postlethwaite",
+          "Tara Fitzgerald",
+          "Ewan McGregor",
+          "Stephen Tompkinson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Mark Herman",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small Yorkshire mining town is threatened with being shut down and the only hope is for the men to enter their Grimley Colliery Brass Band into a national competition. They believe they have no hope until Gloria appears carrying her Flugelhorn. At first mocked for being a woman, she soon becomes the only chance for the band to win.",
+        "release_date": "1996-11-01",
+        "release_year": "1996",
+        "title": "Brassed Off"
+      },
+      {
+        "cast": [
+          "John Lennon",
+          "Paul McCartney",
+          "George Harrison",
+          "Ringo Starr"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Capturing John Lennon, Paul McCartney, George Harrison and Ringo Starr in their electrifying element, 'A Hard Day's Night' is a wildly irreverent journey through this pastiche of a day in the life of The Beatles during 1964. The band have to use all their guile and wit to avoid the pursuing fans and press to reach their scheduled television performance, in spite of Paul's troublemaking grandfather and Ringo's arrest.",
+        "release_date": "1964-07-06",
+        "release_year": "1964",
+        "title": "Hard Day's Night, A"
+      },
+      {
+        "cast": [
+          "Gene Kelly",
+          "Leslie Caron",
+          "Oscar Levant",
+          "Georges Guétary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Vincente Minnelli",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jerry Mulligan is an exuberant American expatriate in Paris trying to make a reputation as a painter. His friend Adam is a struggling concert pianist who's a long time associate of a famous French singer, Henri Baurel. A lonely society woman, Milo Roberts, takes Jerry under her wing and supports him, but is interested in more than his art.",
+        "release_date": "1951-08-08",
+        "release_year": "1951",
+        "title": "American in Paris, An"
+      },
+      {
+        "cast": [
+          "Vivien Leigh",
+          "Clark Gable",
+          "Olivia de Havilland",
+          "Thomas Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "An American classic in which a manipulative woman and a roguish man carry on a turbulent love affair in the American south during the Civil War and Reconstruction.",
+        "release_date": "1939-12-15",
+        "release_year": "1939",
+        "title": "Gone with the Wind"
+      },
+      {
+        "cast": [
+          "Bruce Reitherman",
+          "Phil Harris",
+          "Sebastian Cabot",
+          "Louis Prima"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Reitherman",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "The boy Mowgli makes his way to the man-village with Bagheera, the wise panther. Along the way he meets jazzy King Louie, the hypnotic snake Kaa and the lovable, happy-go-lucky bear Baloo, who teaches Mowgli \"The Bare Necessities\" of life and the true meaning of friendship.",
+        "release_date": "1967-10-17",
+        "release_year": "1967",
+        "title": "Jungle Book, The"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "Emma Thompson",
+          "James Fox",
+          "Christopher Reeve"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Ivory",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A rule bound head butler's world of manners and decorum in the household he maintains is tested by the arrival of a housekeeper who falls in love with him in post-WWI Britain. The possibility of romance and his master's cultivation of ties with the Nazi cause challenge his carefully maintained veneer of servitude.",
+        "release_date": "1993-11-05",
+        "release_year": "1993",
+        "title": "Remains of the Day, The"
+      },
+      {
+        "cast": [
+          "Maggie Smith",
+          "Helena Bonham Carter",
+          "Denholm Elliott",
+          "Julian Sands"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "James Ivory",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When Lucy Honeychurch and chaperon Charlotte Bartlett find themselves in Florence with rooms without views, fellow guests Mr Emerson and son George step in to remedy the situation. Meeting the Emersons could change Lucy's life forever but, once back in England, how will her experiences in Tuscany affect her marriage plans?",
+        "release_date": "1985-12-13",
+        "release_year": "1986",
+        "title": "Room with a View, A"
+      }
+    ],
+    "raw_user_id": "5902",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 71
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9666045284787285
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that do not resonate, as shown by low ratings for specific titles in this genre."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine drama with other genres such as romance and thriller.",
+        "Consistent enjoyment of musicals, particularly those that also incorporate elements of drama or romance."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Musical (Enjoyment of musicals is reflected in several high ratings, indicating a fondness for music-driven storytelling.); Romance (A consistent appreciation for romantic themes is shown through high ratings for films that blend romance with other genres.); Thriller (A liking for thrillers is apparent, as indicated by several high ratings for films that incorporate suspense and tension.); War (Interest in war-themed narratives is noted, with positive ratings for films that explore the complexities of conflict.). Liked patterns: High ratings for films that combine drama with other genres such as romance and thriller., Consistent enjoyment of musicals, particularly those that also incorporate elements of drama or romance.. Disliked patterns: Dislike for comedies that do not resonate, as shown by low ratings for specific titles in this genre..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Enjoyment of musicals is reflected in several high ratings, indicating a fondness for music-driven storytelling.",
+          "taste": "Musical"
+        },
+        {
+          "reason": "A consistent appreciation for romantic themes is shown through high ratings for films that blend romance with other genres.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "A liking for thrillers is apparent, as indicated by several high ratings for films that incorporate suspense and tension.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "Interest in war-themed narratives is noted, with positive ratings for films that explore the complexities of conflict.",
+          "taste": "War"
+        }
+      ]
+    },
+    "user_id": 5902
+  }
+}

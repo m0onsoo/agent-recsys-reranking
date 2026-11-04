@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "a9312185e7dceb1623ddeb8c72f6c7a8d08d651447c48692d3eda521e728ec22",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1518,
+      1450,
+      102,
+      598,
+      45,
+      991,
+      240,
+      318,
+      615,
+      1458
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "eec2e7e531c440fa93bf2a4d32764af7"
+    ],
+    "sampled_item_ids": [
+      8,
+      62,
+      85,
+      117,
+      122,
+      125,
+      193,
+      200,
+      207,
+      209,
+      214,
+      540,
+      611,
+      633,
+      665,
+      719,
+      958,
+      1040,
+      1132,
+      1298,
+      1467,
+      1674,
+      1897,
+      2028,
+      2031
+    ],
+    "seed": 42,
+    "source_hash": "06250b1ac63689468b8bc6e113af7a122b9ad1c5dea66b0e9e1a9c2476f847be",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1077,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ruth Gordon",
+          "Bud Cort",
+          "Cyril Cusack",
+          "Charles Tyner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hal Ashby",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The young Harold lives in his own world of suicide-attempts and funeral visits to avoid the misery of his current family and home environment. Harold meets an 80-year-old woman named Maude who also lives in her own world yet one in which she is having the time of her life. When the two opposites meet they realize that their differences don’t matter and they become best friends and love each other.",
+        "release_date": "1971-12-20",
+        "release_year": "1971",
+        "title": "Harold and Maude"
+      },
+      {
+        "cast": [
+          "William Holden",
+          "Gloria Swanson",
+          "Erich von Stroheim",
+          "Nancy Olson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "A hack screenwriter writes a screenplay for a former silent-film star who has faded into Hollywood obscurity.",
+        "release_date": "1950-08-10",
+        "release_year": "1950",
+        "title": "Sunset Blvd. (a.k.a. Sunset Boulevard)"
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Karl Malden",
+          "Lee J. Cobb",
+          "Rod Steiger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Elia Kazan",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Terry Malloy dreams about being a prize fighter, while tending his pigeons and running errands at the docks for Johnny Friendly, the corrupt boss of the dockers union. Terry witnesses a murder by two of Johnny's thugs, and later meets the dead man's sister and feels responsible for his death. She introduces him to Father Barry, who tries to force him to provide information for the courts that will smash the dock racketeers.",
+        "release_date": "1954-06-22",
+        "release_year": "1954",
+        "title": "On the Waterfront"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "George Kennedy",
+          "Luke Askew",
+          "Morgan Woodward"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stuart Rosenberg",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When petty criminal Luke Jackson is sentenced to two years in a Florida prison farm, he doesn't play by the rules of either the sadistic warden or the yard's resident heavy, Dragline, who ends up admiring the new guy's unbreakable will. Luke's bravado, even in the face of repeated stints in the prison's dreaded solitary confinement cell, \"the box,\" make him a rebel hero to his fellow convicts and a thorn in the side of the prison officers.",
+        "release_date": "1967-06-22",
+        "release_year": "1967",
+        "title": "Cool Hand Luke"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "Keith David",
+          "Wilford Brimley",
+          "Donald Moffat"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Scientists in the Antarctic are confronted by a shape-shifting alien that assumes the appearance of the people that it kills.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Thing, The"
+      },
+      {
+        "cast": [
+          "Ian McKellen",
+          "Annette Bening",
+          "Jim Broadbent",
+          "Kristin Scott Thomas"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Loncraine",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Shakespeare's Play transplanted into a 1930s setting.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Richard III"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Paul Reubens",
+          "E.G. Daily",
+          "Mark Holton",
+          "Diane Salinger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The eccentric and childish Pee-wee Herman embarks on a big adventure when his beloved bicycle is stolen. Armed with information from a fortune-teller and a relentless obsession with his prized possession, Pee-wee encounters a host of odd characters and bizarre situations as he treks across the country to recover his bike.",
+        "release_date": "1985-07-26",
+        "release_year": "1985",
+        "title": "Pee-wee's Big Adventure"
+      },
+      {
+        "cast": [
+          "Max von Sydow",
+          "Gunnar Björnstrand",
+          "Bengt Ekerot",
+          "Nils Poppe"
+        ],
+        "country": [
+          "Sweden"
+        ],
+        "director": "Ingmar Bergman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Swedish",
+        "overview": "When disillusioned Swedish knight Antonius Block returns home from the Crusades to find his country in the grips of the Black Death, he challenges Death to a chess match for his life. Tormented by the belief that God does not exist, Block sets off on a journey, meeting up with traveling players Jof and his wife, Mia, and becoming determined to evade Death long enough to commit one redemptive act while he still lives.",
+        "release_date": "1957-02-16",
+        "release_year": "1957",
+        "title": "Seventh Seal, The (Sjunde inseglet, Det)"
+      }
+    ],
+    "raw_user_id": "1077",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 249
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7890425217295259
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for films that lack humor or engaging plots, particularly in the comedy genre."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as action-comedy and drama-comedy.",
+        "Strong preference for films with critical acclaim or cult status, often reflected in high ratings.",
+        "Consistent enjoyment of films that feature strong storytelling and character development."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.); Enjoyment of Comedy (Several comedies receive favorable ratings, suggesting a liking for humor and light-hearted storytelling.); Interest in Action and Adventure (A number of action and adventure films are rated positively, showing a preference for excitement and dynamic plots.); Fondness for Thrillers and Horror (The user rates several thrillers and horror films highly, indicating an attraction to suspenseful and intense experiences.); Value for Animation and Family Films (The user rates animated and children's films positively, suggesting an appreciation for family-friendly content.). Liked patterns: High ratings for films that blend genres, such as action-comedy and drama-comedy., Strong preference for films with critical acclaim or cult status, often reflected in high ratings., Consistent enjoyment of films that feature strong storytelling and character development.. Disliked patterns: Negative rating for films that lack humor or engaging plots, particularly in the comedy genre..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies receive favorable ratings, suggesting a liking for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "A number of action and adventure films are rated positively, showing a preference for excitement and dynamic plots.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user rates several thrillers and horror films highly, indicating an attraction to suspenseful and intense experiences.",
+          "taste": "Fondness for Thrillers and Horror"
+        },
+        {
+          "reason": "The user rates animated and children's films positively, suggesting an appreciation for family-friendly content.",
+          "taste": "Value for Animation and Family Films"
+        }
+      ]
+    },
+    "user_id": 1077
+  }
+}

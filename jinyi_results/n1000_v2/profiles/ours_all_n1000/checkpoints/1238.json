@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "5655769c49f8269dbb7b7b393a29b0f8042944fb28bf7f6aaf45cb9d8606e46c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      501,
+      306,
+      135,
+      2151,
+      418,
+      39,
+      312,
+      316,
+      373,
+      154
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "74ad861352324807a6b9e112980bf293"
+    ],
+    "sampled_item_ids": [
+      1,
+      4,
+      39,
+      135,
+      154,
+      185,
+      220,
+      288,
+      295,
+      306,
+      312,
+      333,
+      339,
+      373,
+      418,
+      426,
+      501,
+      517,
+      542,
+      1306,
+      1349,
+      1388,
+      2151,
+      2797,
+      2822
+    ],
+    "seed": 42,
+    "source_hash": "f9600f5111086ff68b00581e2eb2b06ce89234dc071140399f76a0c993fb7e70",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1238,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Carlo Cecchi",
+          "Irene Grazioli",
+          "Anita Laurenzi",
+          "Tommaso Puntelli"
+        ],
+        "country": [
+          "Canada",
+          "Italy",
+          "United Kingdom"
+        ],
+        "director": "François Girard",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Spans 300 years in the life of one famed musical instrument that winds up in present-day Montreal on the auction block. Crafted by the Italian master Bussotti (Cecchi) in 1681, the red violin derives its unusual color from the human blood mixed into the finish. With this legacy, the violin travels to Austria, England, China, and Canada, leaving both beauty and tragedy in its wake.",
+        "release_date": "1998-09-10",
+        "release_year": "1998",
+        "title": "Red Violin, The (Le Violon rouge)"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Gwyneth Paltrow",
+          "Jude Law",
+          "Cate Blanchett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Tom Ripley is a calculating young man who believes it's better to be a fake somebody than a real nobody. Opportunity knocks in the form of a wealthy U.S. shipbuilder who hires Tom to travel to Italy to bring back his playboy son, Dickie. Ripley worms his way into the idyllic lives of Dickie and his girlfriend, plunging into a daring scheme of duplicity, lies and murder.",
+        "release_date": "1999-12-25",
+        "release_year": "1999",
+        "title": "Talented Mr. Ripley, The"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Cate Blanchett",
+          "Minnie Driver",
+          "Rupert Everett",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Oliver Parker",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Sir Robert Chiltern is a successful Government minister, well-off and with a loving wife. All this is threatened when Mrs Cheveley appears in London with damning evidence of a past misdeed. Sir Robert turns for help to his friend Lord Goring, an apparently idle philanderer and the despair of his father. Goring knows the lady of old, and, for him, takes the whole thing pretty seriously.",
+        "release_date": "1999-04-15",
+        "release_year": "1999",
+        "title": "Ideal Husband, An"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Emma Thompson",
+          "Hugh Grant",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ang Lee",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Rich Mr. Dashwood dies, leaving his second wife and her daughters poor by the rules of inheritance. Two daughters are the titular opposites.",
+        "release_date": "1995-12-13",
+        "release_year": "1995",
+        "title": "Sense and Sensibility"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Ernest Borgnine",
+          "Red Buttons",
+          "Carol Lynley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ronald Neame",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "The Poseidon Adventure was one of the first Catastrophe films and began the Disaster Film genre. Director Neame tells the story of a group of people that must fight for their lives aboard a sinking ship. Based on the novel by Paul Gallico.",
+        "release_date": "1972-12-01",
+        "release_year": "1972",
+        "title": "Poseidon Adventure, The"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Reese Witherspoon",
+          "Chris Klein",
+          "Jessica Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alexander Payne",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A high school teacher's personal life becomes complicated as he works with students during the school elections.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Election"
+      },
+      {
+        "cast": [
+          "Hilary Swank",
+          "Chloë Sevigny",
+          "Peter Sarsgaard",
+          "Brendan Sexton III"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kimberly Peirce",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Female born, Teena Brandon adopts his male identity of Brandon Teena and attempts to find himself and love in Nebraska.",
+        "release_date": "1999-09-02",
+        "release_year": "1999",
+        "title": "Boys Don't Cry"
+      },
+      {
+        "cast": [
+          "Vivien Leigh",
+          "Clark Gable",
+          "Olivia de Havilland",
+          "Thomas Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "An American classic in which a manipulative woman and a roguish man carry on a turbulent love affair in the American south during the Civil War and Reconstruction.",
+        "release_date": "1939-12-15",
+        "release_year": "1939",
+        "title": "Gone with the Wind"
+      }
+    ],
+    "raw_user_id": "1238",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 37
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9554155258368474
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films that do not resonate with the user.",
+        "Negative response to action-comedy hybrids that lack substance."
+      ],
+      "liked_patterns": [
+        "High ratings for drama films that explore complex characters and themes.",
+        "Positive ratings for comedies that blend humor with emotional depth.",
+        "Appreciation for films that combine romance with drama."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for drama films, consistently rating them highly.); Comedy (The user enjoys comedies, as indicated by multiple high ratings for films in this genre.); Romance (The user appreciates romantic elements in films, often rating them positively when combined with drama.); Thriller (The user has a favorable view of thrillers, with several ratings of 3 or above.); Mystery (The user enjoys mystery films, as evidenced by positive ratings for films that incorporate this genre.). Liked patterns: High ratings for drama films that explore complex characters and themes., Positive ratings for comedies that blend humor with emotional depth., Appreciation for films that combine romance with drama.. Disliked patterns: Low ratings for horror films that do not resonate with the user., Negative response to action-comedy hybrids that lack substance..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for drama films, consistently rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, as indicated by multiple high ratings for films in this genre.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates romantic elements in films, often rating them positively when combined with drama.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user has a favorable view of thrillers, with several ratings of 3 or above.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user enjoys mystery films, as evidenced by positive ratings for films that incorporate this genre.",
+          "taste": "Mystery"
+        }
+      ]
+    },
+    "user_id": 1238
+  }
+}

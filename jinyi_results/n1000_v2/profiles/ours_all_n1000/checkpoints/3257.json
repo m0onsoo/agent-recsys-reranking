@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "15b1b2be6dee228a9588269ae57bd6124ff27124bbde205785c0d92a57da71af",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      807,
+      133,
+      1928,
+      712,
+      2319,
+      16,
+      247,
+      105,
+      1173,
+      259
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "4e802f36c9b3427794a65c058d757071"
+    ],
+    "sampled_item_ids": [
+      4,
+      44,
+      45,
+      65,
+      69,
+      86,
+      105,
+      125,
+      157,
+      176,
+      187,
+      190,
+      211,
+      216,
+      247,
+      256,
+      259,
+      458,
+      496,
+      604,
+      630,
+      712,
+      807,
+      1110,
+      2319
+    ],
+    "seed": 42,
+    "source_hash": "84ff2fbbfe410889e09bb8a1916e1f12d4c4cd0d7db24eab3835cd2054a5a621",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3257,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Woody Allen",
+          "Ben Duncan (DJ)",
+          "Daniel Okrent",
+          "Dan Moran"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A comedic biopic focused on the life of fictional jazz guitarist Emmett Ray. Ray was an irresponsible, free-spending, arrogant, obnoxious, alcohol-abusing, miserable human being, who was also arguably the best guitarist in the world.",
+        "release_date": "1999-12-03",
+        "release_year": "1999",
+        "title": "Sweet and Lowdown"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Garry Shandling",
+          "Annette Bening",
+          "John Goodman",
+          "Greg Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A highly-evolved planet, whose denizens feel no emotion and reproduce by cloning, plans to take over Earth from the inside by sending an operative, fashioned with a humming, mechanical penis, to impregnate an earthling and stay until the birth. The alien, Harold Anderson, goes to Phoenix as a banker and sets to work finding a mate. His approaches to women are inept, and the humming phallus doesn't help, but on the advice of a banking colleague, he cruises an AA meeting, meets Susan, and somehow convinces her to marry. The clock starts to tick: will she conceive, have a baby, and lose Harold (and the child) to his planet before he discovers emotion and starts to care?",
+        "release_date": "2000-03-03",
+        "release_year": "2000",
+        "title": "What Planet Are You From?"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Gary Busey",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Veteran buttoned-down LAPD detective Roger Murtaugh is partnered with unhinged cop Martin Riggs, who -- distraught after his wife's death -- has a death wish and takes unnecessary risks with criminals at every turn. The odd couple embark on their first homicide investigation as partners, involving a young woman known to Murtaugh with ties to a drug and prostitution ring.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Lethal Weapon"
+      },
+      {
+        "cast": [
+          "Catherine Deneuve",
+          "Sandrine Bonnaire",
+          "Oleg Menshikov",
+          "Sergei Bodrov Jr."
+        ],
+        "country": [
+          "Bulgaria",
+          "Spain",
+          "France",
+          "Russia"
+        ],
+        "director": "Régis Wargnier",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "French",
+        "overview": "June 1946: Stalin invites Russian emigres to return to the motherland. It's a trap: when a ship-load from France arrives in Odessa, only a physician and his family are spared execution or prison. He and his French wife (her passport ripped up) are sent to Kiev. She wants to return to France immediately; he knows that they are captives and must watch every step.",
+        "release_date": "1999-09-01",
+        "release_year": "1999",
+        "title": "East-West (Est-ouest)"
+      },
+      {
+        "cast": [
+          "Robert Hays",
+          "Julie Hagerty",
+          "Kareem Abdul-Jabbar",
+          "Lloyd Bridges"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Abrahams",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Alcoholic pilot, Ted Striker has developed a fear of flying due to wartime trauma, but nevertheless boards a passenger jet in an attempt to woo back his stewardess girlfriend. Food poisoning decimates the passengers and crew, leaving it up to Striker to land the plane with the help of a glue-sniffing air traffic controller and Striker's vengeful former Air Force captain, who must both talk him down.",
+        "release_date": "1980-07-02",
+        "release_year": "1980",
+        "title": "Airplane!"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "John Goodman",
+          "Donald Sutherland",
+          "Embeth Davidtz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Hoblit",
+        "genres": [
+          "Action",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Homicide detective John Hobbes witnesses the execution of serial killer Edgar Reese. Soon after the execution the killings start again, and they are very similar to Reese's style.",
+        "release_date": "1998-01-16",
+        "release_year": "1998",
+        "title": "Fallen"
+      },
+      {
+        "cast": [
+          "Chris Cooper",
+          "Matthew McConaughey",
+          "Elizabeth Peña",
+          "Kris Kristofferson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Sayles",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When the skeleton of his murdered predecessor is found, Sheriff Sam Deeds unearths many other long-buried secrets in his Texas border town.",
+        "release_date": "1996-06-21",
+        "release_year": "1996",
+        "title": "Lone Star"
+      }
+    ],
+    "raw_user_id": "3257",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 65
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8786004764198405
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are purely thriller without deeper elements",
+        "Dislike for films that do not blend genres effectively"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure genres",
+        "Enjoyment of films that combine drama with other genres",
+        "Appreciation for films with complex narratives and character arcs"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Drama with Depth (The user appreciates dramas that explore complex themes and character development.); Comedy with a Twist (The user favors comedies that blend humor with other genres, often incorporating elements of drama or romance.); Thrilling Crime Stories (The user is drawn to films that involve crime and thriller elements, often with intricate plots.); Romantic Elements in Action (The user enjoys action films that also incorporate romantic storylines.). Liked patterns: Strong preference for action and adventure genres, Enjoyment of films that combine drama with other genres, Appreciation for films with complex narratives and character arcs. Disliked patterns: Dislike for films that are purely thriller without deeper elements, Dislike for films that do not blend genres effectively.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex themes and character development.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "The user favors comedies that blend humor with other genres, often incorporating elements of drama or romance.",
+          "taste": "Comedy with a Twist"
+        },
+        {
+          "reason": "The user is drawn to films that involve crime and thriller elements, often with intricate plots.",
+          "taste": "Thrilling Crime Stories"
+        },
+        {
+          "reason": "The user enjoys action films that also incorporate romantic storylines.",
+          "taste": "Romantic Elements in Action"
+        }
+      ]
+    },
+    "user_id": 3257
+  }
+}

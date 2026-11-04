@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "ead87c98ba9326cd278a059178fb498bba33205598571b4986260d2205289b8c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      127,
+      69,
+      535,
+      316,
+      340,
+      372,
+      770,
+      328,
+      528,
+      734
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      39,
+      44,
+      54,
+      129,
+      130,
+      152,
+      267,
+      278,
+      281,
+      372,
+      384,
+      418,
+      516,
+      528,
+      535,
+      734,
+      737,
+      906,
+      942,
+      1172,
+      1460,
+      1529,
+      1536,
+      1626,
+      1649
+    ],
+    "seed": 42,
+    "source_hash": "be572abf17e421bca24328a6d519fd3ebb6969bd21a15292b6c54b98374ed75d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4952,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Helen Hunt",
+          "Bill Paxton",
+          "Cary Elwes",
+          "Jami Gertz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "TV weatherman Bill Harding is trying to get his tornado-hunter wife, Jo, to sign divorce papers so he can marry his girlfriend Melissa. But Mother Nature, in the form of a series of intense storms sweeping across Oklahoma, has other plans. Soon the three have joined the team of stormchasers as they attempt to insert a revolutionary measuring device into the very heart of several extremely violent tornados.",
+        "release_date": "1996-05-10",
+        "release_year": "1996",
+        "title": "Twister"
+      },
+      {
+        "cast": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Connie Nielsen",
+          "Oliver Reed"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences. His battle skills serve him well, and he becomes one of the most famous and admired men to fight in the Colosseum. Determined to avenge himself against the man who took away his freedom and laid waste to his family, Maximus believes that he can use his fame and skill in the ring to avenge the loss of his family and former glory. As the gladiator begins to challenge his rule, Commodus decides to put his own fighting mettle to the test by squaring off with Maximus in a battle to the death.",
+        "release_date": "2000-05-01",
+        "release_year": "2000",
+        "title": "Gladiator"
+      },
+      {
+        "cast": [
+          "Joe Pesci",
+          "Ralph Macchio",
+          "Marisa Tomei",
+          "Mitchell Whitfield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Lynn",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two carefree pals traveling through Alabama are mistakenly arrested, and charged with murder. Fortunately, one of them has a cousin who's a lawyer - Vincent Gambini, a former auto mechanic from Brooklyn who just passed his bar exam after his sixth try. When he arrives with his leather-clad girlfriend , to try his first case, it's a real shock - for him and the Deep South!",
+        "release_date": "1992-03-13",
+        "release_year": "1992",
+        "title": "My Cousin Vinny"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Reese Witherspoon",
+          "Chris Klein",
+          "Jessica Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alexander Payne",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A high school teacher's personal life becomes complicated as he works with students during the school elections.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Election"
+      },
+      {
+        "cast": [
+          "Tenzin Thuthob Tsarong",
+          "Tencho Gyalpo",
+          "Tsewang Migyur Khangsar",
+          "Gyurme Tethong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Tibetans refer to the Dalai Lama as 'Kundun', which means 'The Presence'. He was forced to escape from his native home, Tibet, when communist China invaded and enforced an oppressive regime upon the peaceful nation. The Dalai Lama escaped to India in 1959 and has been living in exile in Dharamsala ever since.",
+        "release_date": "1997-12-25",
+        "release_year": "1997",
+        "title": "Kundun"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Robert De Niro",
+          "Anne Heche",
+          "Woody Harrelson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "During the final weeks of a presidential race, the President is accused of sexual misconduct. To distract the public until the election, the President's adviser hires a Hollywood producer to help him stage a fake war.",
+        "release_date": "1997-12-25",
+        "release_year": "1997",
+        "title": "Wag the Dog"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Sarah Jessica Parker",
+          "Victoria Tennant",
+          "Richard E. Grant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mick Jackson",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "With the help of a talking freeway billboard, a \"wacky weatherman\" tries to win the heart of an English newspaper reporter, who is struggling to make sense of the strange world of early-90s Los Angeles.",
+        "release_date": "1991-02-08",
+        "release_year": "1991",
+        "title": "L.A. Story"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Gabriel Byrne",
+          "Kevin Pollak",
+          "Robin Tunney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "On December 28th, 1999, the citizens of New York City are getting ready for the turn of the millennium. However, the Devil decides to crash the party by coming to the city, inhabiting a man's body, and searching for his chosen bride, a 20-year-old woman named Christine York. The world will end, and the only hope lies within an atheist called Jericho Cane.",
+        "release_date": "1999-11-24",
+        "release_year": "1999",
+        "title": "End of Days"
+      },
+      {
+        "cast": [
+          "Jon Favreau",
+          "Vince Vaughn",
+          "Ron Livingston",
+          "Patrick Van Horn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Doug Liman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "This is a story about Mike, a guy who left his girl in New York when he came to LA to be a star. It's been six months since his girlfriend left him and he's not doing so good. So, his pal and some other friends try and get him back in the social scene and forget about his 6 year relationship.",
+        "release_date": "1996-10-18",
+        "release_year": "1996",
+        "title": "Swingers"
+      },
+      {
+        "cast": [
+          "Tim Allen",
+          "Sigourney Weaver",
+          "Alan Rickman",
+          "Tony Shalhoub"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dean Parisot",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.",
+        "release_date": "1999-12-23",
+        "release_year": "1999",
+        "title": "Galaxy Quest"
+      }
+    ],
+    "raw_user_id": "4952",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 80
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5432198175138127
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that lack engaging plots or character development"
+      ],
+      "liked_patterns": [
+        "Preference for thrillers and suspenseful narratives",
+        "Enjoyment of character-driven dramas",
+        "Appreciation for comedies that blend humor with deeper themes"
+      ],
+      "summary": "Unique tastes: Thrillers (The user enjoys suspenseful narratives that keep them engaged and guessing.); Dramas with emotional depth (The user appreciates films that explore complex characters and emotional themes.); Comedies with a mix of drama (The user favors comedies that incorporate dramatic elements, providing both humor and depth.); Romantic elements in various genres (The user enjoys films that blend romance with other genres, enhancing the emotional experience.); Strong character-driven stories (The user is drawn to films that focus on character development and personal journeys.). Liked patterns: Preference for thrillers and suspenseful narratives, Enjoyment of character-driven dramas, Appreciation for comedies that blend humor with deeper themes. Disliked patterns: Dislike for films that lack engaging plots or character development.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys suspenseful narratives that keep them engaged and guessing.",
+          "taste": "Thrillers"
+        },
+        {
+          "reason": "The user appreciates films that explore complex characters and emotional themes.",
+          "taste": "Dramas with emotional depth"
+        },
+        {
+          "reason": "The user favors comedies that incorporate dramatic elements, providing both humor and depth.",
+          "taste": "Comedies with a mix of drama"
+        },
+        {
+          "reason": "The user enjoys films that blend romance with other genres, enhancing the emotional experience.",
+          "taste": "Romantic elements in various genres"
+        },
+        {
+          "reason": "The user is drawn to films that focus on character development and personal journeys.",
+          "taste": "Strong character-driven stories"
+        }
+      ]
+    },
+    "user_id": 4952
+  }
+}

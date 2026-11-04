@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "c1f019239dc22f2aa3af6a98d4d3facd459fa09807a83897bf7959d206e76047",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      10,
+      876,
+      52,
+      800,
+      1489,
+      518,
+      45,
+      2178,
+      28,
+      1311
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "1c54af30d2ed40738ab9c7f9603153d1"
+    ],
+    "sampled_item_ids": [
+      4,
+      10,
+      24,
+      27,
+      28,
+      40,
+      105,
+      125,
+      128,
+      129,
+      135,
+      175,
+      187,
+      190,
+      384,
+      421,
+      438,
+      566,
+      720,
+      800,
+      1245,
+      1311,
+      1489,
+      1534,
+      2178
+    ],
+    "seed": 42,
+    "source_hash": "f535300a984e0686e70f27c66ec06f013dd0663e1125912925533de9bf49baf5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 584,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Judy Garland",
+          "Frank Morgan",
+          "Ray Bolger",
+          "Bert Lahr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+        "release_date": "1939-08-15",
+        "release_year": "1939",
+        "title": "Wizard of Oz, The"
+      },
+      {
+        "cast": [
+          "Chris O'Donnell",
+          "Renée Zellweger",
+          "Artie Lange",
+          "Hal Holbrook"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Sinyor",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jimmie is seeing his single friends get married one by one. He isn't too worried until his girlfriend Anne catches the bouquet at his friend Marco's wedding. Suddenly, his wild mustang days are numbered. He finally decides to propose to her, but he sticks his foot in his mouth and botches the proposal. Being insulted by the defeatist proposal, Anne leaves town on an assignment. After she's gone, he finds out that his recently-deceased grandfather's will stipulates that he gets nothing of a multi-million dollar fortune unless he's married by 6:05pm on his 30th birthday: tomorrow! Not being able to find Anne, Jimmie begins backtracking through his past girlfriends to find a wife.",
+        "release_date": "1999-11-05",
+        "release_year": "1999",
+        "title": "Bachelor, The"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Glenn Close",
+          "Anne Archer",
+          "Ellen Hamilton Latzen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A married man's one night stand comes back to haunt him when that lover begins to stalk him and his family.",
+        "release_date": "1987-09-11",
+        "release_year": "1987",
+        "title": "Fatal Attraction"
+      },
+      {
+        "cast": [
+          "Timothy Spall",
+          "Brenda Blethyn",
+          "Marianne Jean-Baptiste",
+          "Phyllis Logan"
+        ],
+        "country": [
+          "United Kingdom",
+          "France"
+        ],
+        "director": "Mike Leigh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A middle-aged London factory worker is shocked when the mixed-race daughter she gave up at birth decides to track her down. At first she denies she is her mother. All family members become emotional, as everyone's secrets are exposed.",
+        "release_date": "1996-05-24",
+        "release_year": "1996",
+        "title": "Secrets & Lies"
+      },
+      {
+        "cast": [
+          "Ben Stiller",
+          "Robert De Niro",
+          "Teri Polo",
+          "Blythe Danner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Greg Focker is ready to marry his girlfriend, Pam, but before he pops the question, he must win over her formidable father, humorless former CIA agent Jack Byrnes, at the wedding of Pam's sister. As Greg bends over backward to make a good impression, his visit to the Byrnes home turns into a hilarious series of disasters, and everything that can go wrong does, all under Jack's critical, hawklike gaze.",
+        "release_date": "2000-10-06",
+        "release_year": "2000",
+        "title": "Meet the Parents"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Fernanda Montenegro",
+          "Marília Pêra",
+          "Vinícius de Oliveira",
+          "Othon Bastos"
+        ],
+        "country": [
+          "Brazil"
+        ],
+        "director": "Walter Salles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Portuguese",
+        "overview": "An emotive journey of a former school teacher, who writes letters for illiterate people, and a young boy, whose mother has just died, as they search for the father he never knew.",
+        "release_date": "1998-01-16",
+        "release_year": "1998",
+        "title": "Central Station (Central do Brasil)"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Leonardo DiCaprio",
+          "Frances Fisher",
+          "Billy Zane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "84 years later, a 101-year-old woman named Rose DeWitt Bukater tells the story to her granddaughter Lizzy Calvert, Brock Lovett, Lewis Bodine, Bobby Buell and Anatoly Mikailavich on the Keldysh about her life set in April 10th 1912, on a ship called Titanic when young Rose boards the departing ship with the upper-class passengers and her mother, Ruth DeWitt Bukater, and her fiancé, Caledon Hockley. Meanwhile, a drifter and artist named Jack Dawson and his best friend Fabrizio De Rossi win third-class tickets to the ship in a game. And she explains the whole story from departure until the death of Titanic on its first and last voyage April 15th, 1912 at 2:20 in the morning.",
+        "release_date": "1997-11-18",
+        "release_year": "1997",
+        "title": "Titanic"
+      },
+      {
+        "cast": [
+          "Tom Berenger",
+          "Glenn Close",
+          "Jeff Goldblum",
+          "William Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Kevin Kline and Glenn Close star as Harold and Sarah Cooper, a couple whose marital troubles are put on hold while they host an unhappy reunion of former college pals gathered for the funeral of one of their own, a suicide victim named Alex. As the weekend unfolds, the friends catch up with each other, play the music of their youth, reminisce, smoke marijuana, and pair off with each other.",
+        "release_date": "1983-09-09",
+        "release_year": "1983",
+        "title": "Big Chill, The"
+      }
+    ],
+    "raw_user_id": "584",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 32
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.3780000907797068
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [],
+      "liked_patterns": [
+        "High ratings for films that combine drama with other genres like romance and adventure.",
+        "Consistent enjoyment of films featuring strong character development and emotional depth.",
+        "Positive reception of films that include elements of suspense or thrill."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.); Romance (Romantic themes are frequently appreciated, as shown by multiple high ratings for romance-infused dramas.); Adventure (Adventure elements are well-received, particularly when combined with action and drama.); Thriller (Thrillers are positively rated, indicating an enjoyment of suspenseful and intense storytelling.); Comedy (There is an appreciation for comedic elements, especially when they are blended with drama.). Liked patterns: High ratings for films that combine drama with other genres like romance and adventure., Consistent enjoyment of films featuring strong character development and emotional depth., Positive reception of films that include elements of suspense or thrill.. Disliked patterns: no repeated disliked pattern identified.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Romantic themes are frequently appreciated, as shown by multiple high ratings for romance-infused dramas.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "Adventure elements are well-received, particularly when combined with action and drama.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "Thrillers are positively rated, indicating an enjoyment of suspenseful and intense storytelling.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "There is an appreciation for comedic elements, especially when they are blended with drama.",
+          "taste": "Comedy"
+        }
+      ]
+    },
+    "user_id": 584
+  }
+}

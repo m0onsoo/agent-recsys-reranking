@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "061702dda3851f9c5c7b52071eb22a8514aa49e2ab8d0ce062dcb274bb830cca",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      318,
+      844,
+      106,
+      211,
+      52,
+      196,
+      749,
+      1529,
+      154,
+      359
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      20,
+      53,
+      61,
+      94,
+      98,
+      105,
+      114,
+      148,
+      151,
+      157,
+      185,
+      196,
+      215,
+      314,
+      318,
+      420,
+      448,
+      503,
+      665,
+      749,
+      755,
+      1071,
+      1155,
+      1558,
+      1702
+    ],
+    "seed": 42,
+    "source_hash": "d03756239fab6d843876017f1fb0118ccd3feb60be3cef27238b6fbc8cbb4e3e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4532,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sean Bean",
+          "Izabella Scorupco",
+          "Famke Janssen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "James Bond must unmask the mysterious head of the Janus Syndicate and prevent the leader from utilizing the GoldenEye weapons system to inflict devastating revenge on Britain.",
+        "release_date": "1995-11-16",
+        "release_year": "1995",
+        "title": "GoldenEye"
+      },
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Alan Rickman",
+          "Alexander Godunov",
+          "Bonnie Bedelia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "NYPD cop, John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Die Hard"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Nicolas Cage",
+          "Ed Harris",
+          "John Spencer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A group of renegade marine commandos seizes a stockpile of chemical weapons and takes over Alcatraz, with 81 tourists as hostages. Their leader demands $100 million to be paid, as restitution to families of Marines who died in covert ops – or he will launch 15 rockets carrying deadly VX gas into the San Francisco Bay area.",
+        "release_date": "1996-06-06",
+        "release_year": "1996",
+        "title": "Rock, The"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Roddy McDowall",
+          "Kim Hunter",
+          "Maurice Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An  U.S. Spaceship lands on a desolate planet, stranding astronaut Taylor in a world dominated by apes, 2000 years into the future, who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
+        "release_date": "1968-02-07",
+        "release_year": "1968",
+        "title": "Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Juliette Binoche",
+          "Willem Dafoe",
+          "Kristin Scott Thomas"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Beginning in the 1930s, \"The English Patient\" tells the story of Count Almásy who is a Hungarian map maker employed by the Royal Geographical Society to chart the vast expanses of the Sahara Desert along with several other prominent explorers. As World War II unfolds, Almásy enters into a world of love, betrayal, and politics that is later revealed in a series of flashbacks while Almásy is on his death bed after being horribly burned in a plane crash.",
+        "release_date": "1996-11-14",
+        "release_year": "1996",
+        "title": "English Patient, The"
+      },
+      {
+        "cast": [
+          "Vivien Leigh",
+          "Clark Gable",
+          "Olivia de Havilland",
+          "Thomas Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "An American classic in which a manipulative woman and a roguish man carry on a turbulent love affair in the American south during the Civil War and Reconstruction.",
+        "release_date": "1939-12-15",
+        "release_year": "1939",
+        "title": "Gone with the Wind"
+      },
+      {
+        "cast": [
+          "Nigel Hawthorne",
+          "Helen Mirren",
+          "Ian Holm",
+          "Rupert Graves"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nicholas Hytner",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Nicholas Hytner’s much awarded 1994 drama, based on Alan Bennett's West End play. George III's erratic behaviour leads to a plot in Parliament to have him declared insane and removed from the throne.",
+        "release_date": "1994-12-28",
+        "release_year": "1994",
+        "title": "Madness of King George, The"
+      }
+    ],
+    "raw_user_id": "4532",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 105
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7302864876359211
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that lack depth",
+        "Dislike for films that do not resonate emotionally or thematically",
+        "Negative reception of musicals and romantic films"
+      ],
+      "liked_patterns": [
+        "High ratings for action and adventure films",
+        "Consistent appreciation for drama films with strong narratives",
+        "Positive reception of films that blend genres, such as comedy and drama"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated action films.); Drama with Depth (The user appreciates dramas that explore complex themes and character development, reflected in several highly rated drama films.); Fantasy Elements (The user is drawn to films that incorporate fantasy elements, which is evident in their ratings for fantasy genre films.); Thrilling Experiences (The user favors thrillers that provide suspense and excitement, as indicated by their ratings for various thriller films.); Comedy with Substance (The user enjoys comedies that blend humor with deeper themes, as shown by their ratings for select comedy films.). Liked patterns: High ratings for action and adventure films, Consistent appreciation for drama films with strong narratives, Positive reception of films that blend genres, such as comedy and drama. Disliked patterns: Low ratings for comedies that lack depth, Dislike for films that do not resonate emotionally or thematically, Negative reception of musicals and romantic films.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated action films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex themes and character development, reflected in several highly rated drama films.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "The user is drawn to films that incorporate fantasy elements, which is evident in their ratings for fantasy genre films.",
+          "taste": "Fantasy Elements"
+        },
+        {
+          "reason": "The user favors thrillers that provide suspense and excitement, as indicated by their ratings for various thriller films.",
+          "taste": "Thrilling Experiences"
+        },
+        {
+          "reason": "The user enjoys comedies that blend humor with deeper themes, as shown by their ratings for select comedy films.",
+          "taste": "Comedy with Substance"
+        }
+      ]
+    },
+    "user_id": 4532
+  }
+}

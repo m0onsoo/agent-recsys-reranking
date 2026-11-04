@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "62af705986c245d73d68cac9e59eef34d80a275e7c9a1ba223611ab7c76cff68",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      530,
+      1440,
+      128,
+      1844,
+      1298,
+      45,
+      836,
+      52,
+      1121,
+      923
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      11,
+      34,
+      58,
+      75,
+      91,
+      94,
+      111,
+      137,
+      157,
+      245,
+      322,
+      391,
+      393,
+      435,
+      744,
+      771,
+      897,
+      1121,
+      1183,
+      1235,
+      1236,
+      1654,
+      1844,
+      2078,
+      2577
+    ],
+    "seed": 42,
+    "source_hash": "32ee5a4b9cf4ded6143a29accffda72da38b82e1c9c750153ed79ad138dfe945",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5601,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Bridget Fonda",
+          "Jennifer Jason Leigh",
+          "Steven Weber",
+          "Peter Friedman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barbet Schroeder",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Attractive Manhattanite Allison Jones has it all: a handsome beau, a rent-controlled apartment, and a promising career as a fashion designer. When boyfriend Sam proves unfaithful, Allison strikes out on her own but must use the classifieds to seek out a roommate in order to keep her spacious digs.",
+        "release_date": "1992-08-14",
+        "release_year": "1992",
+        "title": "Single White Female"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ed Viesturs",
+          "David Breashears",
+          "Tracy Pfau"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Breashears",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "An international team of climbers ascends Mt. Everest in the spring of 1996. The film depicts their lengthy preparations for the climb, their trek to the summit, and their successful return to Base Camp. It also shows many of the challenges the group faced, including avalanches, lack of oxygen, treacherous ice walls, and a deadly blizzard.",
+        "release_date": "1998-03-06",
+        "release_year": "1998",
+        "title": "Everest"
+      },
+      {
+        "cast": [
+          "Danny Aiello",
+          "Ossie Davis",
+          "Ruby Dee",
+          "Richard Edson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Lee",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "On the hottest day of the year on a street in the Bedford-Stuyvesant section of Brooklyn, everyone's hate and bigotry smolders and builds until it explodes into violence.",
+        "release_date": "1989-06-30",
+        "release_year": "1989",
+        "title": "Do the Right Thing"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Danny Aiello",
+          "Greg Cruttwell",
+          "Jeff Daniels",
+          "Teri Hatcher"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Herzfeld",
+        "genres": [
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "In a sleepy bedroom community of LA's San Fernando Valley, the murder of a professional athlete by two hit men sets into motion a chain of events that puts the mundane lives of a dozen residents on a collision course. This clever tale tells the story of two hit men, a mistress, a nurse, a vindictive ex-wife, a wealthy art dealer and his lovelorn assistant, a suicidal writer and his dog, and a bitter cop and his partner.",
+        "release_date": "1996-09-11",
+        "release_year": "1996",
+        "title": "2 Days in the Valley"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Michael Moore",
+          "Roger B. Smith",
+          "Rhonda Britton",
+          "Fred Ross"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Moore",
+        "genres": [
+          "Comedy",
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A documentary about the closure of General Motors' plant at Flint, Michigan, which resulted in the loss of 30,000 jobs. Details the attempts of filmmaker Michael Moore to get an interview with GM CEO Roger Smith.",
+        "release_date": "1989-09-01",
+        "release_year": "1989",
+        "title": "Roger & Me"
+      },
+      {
+        "cast": [
+          "Bill Paxton",
+          "Bridget Fonda",
+          "Billy Bob Thornton",
+          "Brent Briscoe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Captivated by the lure of sudden wealth, the quiet rural lives of two brothers erupt into conflicts of greed, paranoia and distrust when over $4 million in cash is discovered at the remote site of a downed small airplane. Their simple plan to retain the money while avoiding detection opens a Pandora's box when the fear of getting caught triggers panicked behavior and leads to virulent consequences",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Simple Plan, A"
+      }
+    ],
+    "raw_user_id": "5601",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 79
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.052702535951595
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for animated children's films",
+        "Dislike for action dramas that lack strong narratives",
+        "Dislike for crime dramas that do not engage emotionally"
+      ],
+      "liked_patterns": [
+        "Enjoyment of action films with crime themes",
+        "Preference for documentaries that are both informative and entertaining",
+        "Interest in films that combine drama with thriller elements"
+      ],
+      "summary": "Unique tastes: Action and Crime (The user enjoys action-packed narratives that often involve crime elements, as seen in several liked films.); Drama and Thriller (There is a preference for intense storytelling that combines drama with thrilling elements, evident in multiple liked titles.); Documentary and Comedy (The user appreciates documentaries that incorporate humor, reflecting a taste for informative yet entertaining content.); Animation and Musical (The user shows a fondness for animated films that include musical components, although this is less favored overall.); Romantic Action (The user has a liking for action films that also explore romantic themes, indicating a blend of genres in their preferences.). Liked patterns: Enjoyment of action films with crime themes, Preference for documentaries that are both informative and entertaining, Interest in films that combine drama with thriller elements. Disliked patterns: Dislike for animated children's films, Dislike for action dramas that lack strong narratives, Dislike for crime dramas that do not engage emotionally.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives that often involve crime elements, as seen in several liked films.",
+          "taste": "Action and Crime"
+        },
+        {
+          "reason": "There is a preference for intense storytelling that combines drama with thrilling elements, evident in multiple liked titles.",
+          "taste": "Drama and Thriller"
+        },
+        {
+          "reason": "The user appreciates documentaries that incorporate humor, reflecting a taste for informative yet entertaining content.",
+          "taste": "Documentary and Comedy"
+        },
+        {
+          "reason": "The user shows a fondness for animated films that include musical components, although this is less favored overall.",
+          "taste": "Animation and Musical"
+        },
+        {
+          "reason": "The user has a liking for action films that also explore romantic themes, indicating a blend of genres in their preferences.",
+          "taste": "Romantic Action"
+        }
+      ]
+    },
+    "user_id": 5601
+  }
+}

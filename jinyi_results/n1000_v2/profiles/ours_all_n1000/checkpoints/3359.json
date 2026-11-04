@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "a78912895adac4fe2c757c4cd67d275b20bbe2254650648bab9794c68d737111",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      61,
+      1651,
+      712,
+      52,
+      891,
+      254,
+      126,
+      133,
+      1454,
+      771
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5262d84e401b4b0480bd1040a35402d0"
+    ],
+    "sampled_item_ids": [
+      61,
+      75,
+      89,
+      96,
+      105,
+      126,
+      166,
+      195,
+      204,
+      248,
+      260,
+      359,
+      454,
+      485,
+      506,
+      771,
+      789,
+      912,
+      1292,
+      1301,
+      1527,
+      1629,
+      2123,
+      2317,
+      2577
+    ],
+    "seed": 42,
+    "source_hash": "e1c62faeee17cc2c1eacbd9bd17b481d4cf85ba74c8ef35db7898e5e3f5c4942",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3359,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Donal Logue",
+          "Ayelet Kaznelson",
+          "John Hines",
+          "John Harrington Bland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jenniphr Goodman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Underachieving, overweight kindergarten teacher Dex finds a woman who forces him to reexamine his Zen-like system of seduction.",
+        "release_date": "2000-08-04",
+        "release_year": "2000",
+        "title": "Tao of Steve, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Gary Busey",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Veteran buttoned-down LAPD detective Roger Murtaugh is partnered with unhinged cop Martin Riggs, who -- distraught after his wife's death -- has a death wish and takes unnecessary risks with criminals at every turn. The odd couple embark on their first homicide investigation as partners, involving a young woman known to Murtaugh with ties to a drug and prostitution ring.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Lethal Weapon"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Warren Beatty",
+          "Halle Berry",
+          "Sean Astin",
+          "Christine Baranski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Warren Beatty",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A suicidally disillusioned liberal politician puts a contract out on himself and takes the opportunity to be bluntly honest with his voters by affecting the rhythms and speech of hip-hop music and culture.",
+        "release_date": "1998-05-15",
+        "release_year": "1998",
+        "title": "Bulworth"
+      },
+      {
+        "cast": [
+          "Bill Paxton",
+          "Billy Bob Thornton",
+          "Cynda Williams",
+          "Michael Beach"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Carl Franklin",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Following a series of drug deals and murders, three criminals -- Fantasia, Ray Malcolm and Pluto -- travel from Los Angeles to Houston, finally arriving in a small Arkansas town to go into hiding. Two detectives from the LAPD, who are already on the case, contact the town's sheriff, Dale Dixon, to alert him of the fugitives' presence in the area. Underestimating Dixon, the criminals have no idea what they are about to face.",
+        "release_date": "1992-05-08",
+        "release_year": "1991",
+        "title": "One False Move"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "John Cusack",
+          "John Malkovich",
+          "Ving Rhames"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Simon West",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When the government puts all its rotten criminal eggs in one airborne basket, it's asking for trouble. Before you can say, \"Pass the barf bag,\" the crooks control the plane, led by creepy Cyrus \"The Virus\" Grissom. Watching his every move is the just-released Cameron Poe, who'd rather reunite with his family.",
+        "release_date": "1997-06-01",
+        "release_year": "1997",
+        "title": "Con Air"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "John Cazale",
+          "Frederic Forrest",
+          "Cindy Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Surveillance expert Harry Caul (Gene Hackman) is hired by a mysterious client's brusque aide (Harrison Ford) to tail a young couple, Mark (Frederic Forrest) and Ann (Cindy Williams). Tracking the pair through San Francisco's Union Square, Caul and his associate Stan (John Cazale) manage to record a cryptic conversation between them. Tormented by memories of a previous case that ended badly, Caul becomes obsessed with the resulting tape, trying to determine if the couple are in danger.",
+        "release_date": "1974-04-07",
+        "release_year": "1974",
+        "title": "Conversation, The"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Robert Shaw",
+          "Charles Durning"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Set in the 1930's this intricate caper deals with an ambitious small-time crook and a veteran con man who seek revenge on a vicious crime lord who murdered one of their gang.",
+        "release_date": "1973-12-25",
+        "release_year": "1973",
+        "title": "Sting, The"
+      }
+    ],
+    "raw_user_id": "3359",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 70
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4928234492326662
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for action films",
+        "Negative response to horror elements",
+        "Dislike for films with weak storytelling or execution"
+      ],
+      "liked_patterns": [
+        "High ratings for drama and romance films",
+        "Positive reception of comedy films",
+        "Strong appreciation for thrillers and suspenseful narratives"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user has rated multiple drama films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (Several comedies received favorable ratings, suggesting a liking for humor and light-hearted storytelling.); Interest in Thrillers (The user has shown a positive response to thriller films, indicating a taste for suspenseful narratives.); Fondness for Romance (Romantic films have received positive ratings, reflecting an appreciation for romantic themes.); Preference for Westerns (The user has rated Western films positively, indicating an interest in this genre.). Liked patterns: High ratings for drama and romance films, Positive reception of comedy films, Strong appreciation for thrillers and suspenseful narratives. Disliked patterns: Low ratings for action films, Negative response to horror elements, Dislike for films with weak storytelling or execution.",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies received favorable ratings, suggesting a liking for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has shown a positive response to thriller films, indicating a taste for suspenseful narratives.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "Romantic films have received positive ratings, reflecting an appreciation for romantic themes.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "The user has rated Western films positively, indicating an interest in this genre.",
+          "taste": "Preference for Westerns"
+        }
+      ]
+    },
+    "user_id": 3359
+  }
+}

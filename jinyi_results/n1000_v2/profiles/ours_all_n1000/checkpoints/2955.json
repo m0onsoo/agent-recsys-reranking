@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "3161a6dc6b11c79ca42d9b3b3bf5683bb3ccd5023788f4631821533c979406a7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      585,
+      791,
+      909,
+      618,
+      2050,
+      51,
+      610,
+      244,
+      20,
+      647
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "797757edbc4b4f07a070eeccdab922c0"
+    ],
+    "sampled_item_ids": [
+      41,
+      63,
+      168,
+      172,
+      174,
+      185,
+      243,
+      251,
+      288,
+      304,
+      446,
+      468,
+      487,
+      501,
+      503,
+      548,
+      612,
+      767,
+      836,
+      1006,
+      1110,
+      1119,
+      1273,
+      1501,
+      2793
+    ],
+    "seed": 42,
+    "source_hash": "8679e5e2cfe00f16cb99daf7e7f6dfcde2672d7a899f1e7c30c11f95a67bc09e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2955,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gary Oldman",
+          "Winona Ryder",
+          "Anthony Hopkins",
+          "Keanu Reeves"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Horror",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When Dracula leaves the captive Jonathan Harker and Transylvania for London in search of Mina Harker -- the spitting image of Dracula's long-dead wife, Elisabeta -- obsessed vampire hunter Dr. Van Helsing sets out to end the madness.",
+        "release_date": "1992-11-13",
+        "release_year": "1992",
+        "title": "Bram Stoker's Dracula"
+      },
+      {
+        "cast": [
+          "Michael C. Williams",
+          "Heather Donahue",
+          "Joshua Leonard",
+          "Bob Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Myrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Blair Witch Project, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Robert Duvall",
+          "Tony Shalhoub",
+          "William H. Macy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Zaillian",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Portuguese",
+        "overview": "Jan Schlickmann is a cynical lawyer who goes out to \"get rid of\" a case, only to find out it is potentially worth millions. The case becomes his obsession, to the extent that he is willing to give up everything - including his career and his clients' goals, in order to continue the case against all odds.",
+        "release_date": "1998-03-05",
+        "release_year": "1998",
+        "title": "Civil Action, A"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Zero Mostel",
+          "Dick Shawn",
+          "Kenneth Mars"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Broadway producer, Max Bialystock and his accountant, Leo Bloom plan to make money by charming little old ladies to invest in a production many times over what it will actually cost, and then put on a sure-fire flop, so nobody will ask for their money back – and what can be a more certain flop than a tasteless musical celebrating Hitler.",
+        "release_date": "1967-11-22",
+        "release_year": "1968",
+        "title": "Producers, The"
+      },
+      {
+        "cast": [
+          "Tim Balme",
+          "Diana Peñalver",
+          "Elizabeth Moody",
+          "Ian Watkin"
+        ],
+        "country": [
+          "New Zealand"
+        ],
+        "director": "Peter Jackson",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "When a Sumatran rat-monkey bites Lionel Cosgrove's mother, she's transformed into a zombie and begins killing (and transforming) the entire town while Lionel races to keep things under control.",
+        "release_date": "1992-08-13",
+        "release_year": "1992",
+        "title": "Braindead"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Joan Cusack",
+          "Kelsey Grammer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
+        "release_date": "1999-10-30",
+        "release_year": "1999",
+        "title": "Toy Story 2"
+      },
+      {
+        "cast": [
+          "Deems Taylor",
+          "Walt Disney",
+          "Julietta Novis",
+          "Leopold Stokowski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Samuel Armstrong",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Walt Disney's timeless masterpiece is an extravaganza of sight and sound! See the music come to life, hear the pictures burst into song and experience the excitement that is Fantasia over and over again.",
+        "release_date": "1940-11-13",
+        "release_year": "1940",
+        "title": "Fantasia"
+      },
+      {
+        "cast": [
+          "Trey Parker",
+          "Matt Stone",
+          "Mary Kay Bergman",
+          "Isaac Hayes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Trey Parker",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the four boys see an R-rated movie featuring Canadians Terrance and Philip, they are pronounced \"corrupted\", and their parents pressure the United States to wage war against Canada.",
+        "release_date": "1999-06-30",
+        "release_year": "1999",
+        "title": "South Park: Bigger, Longer and Uncut"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Elizabeth Perkins",
+          "Robert Loggia",
+          "John Heard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young boy, Josh Baskin makes a wish at a carnival machine to be big. He wakes up the following morning to find that it has been granted and his body has grown older overnight. But he is still the same 13-year-old boy inside. Now he must learn how to cope with the unfamiliar world of grown-ups including getting a job and having his first romantic encounter with a woman. What will he find out about this strange world?",
+        "release_date": "1988-06-03",
+        "release_year": "1988",
+        "title": "Big"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Fugitives of the Federation for their daring rescue of Spock from the doomed Genesis Planet, Admiral Kirk (William Shatner) and his crew begin their journey home to face justice for their actions. But as they near Earth, they find it at the mercy of a mysterious alien presence whose signals are slowly destroying the planet. In a desperate attempt to answer the call of the probe, Kirk and his crew race back to the late twentieth century. However they soon find the world they once knew to be more alien than anything they've encountered in the far reaches of the galaxy!",
+        "release_date": "1986-11-25",
+        "release_year": "1986",
+        "title": "Star Trek IV: The Voyage Home"
+      }
+    ],
+    "raw_user_id": "2955",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 153
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.7676332798935914
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that lack depth or engaging narratives.",
+        "Dislike for films that combine horror with comedy when not executed well."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like comedy and romance.",
+        "Positive reception of films featuring strong character development and emotional depth.",
+        "Favoring films with a mix of humor and serious themes."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (Multiple comedies receive favorable ratings, suggesting a liking for humor and light-hearted storytelling.); Interest in Thrillers (The user shows a tendency to enjoy thrillers, as evidenced by several ratings of 3 or above in this genre.); Fondness for Romance (Romantic elements in films are well-received, indicating a preference for stories that explore relationships.); Attraction to Sci-Fi and Fantasy (The user rates several sci-fi films positively, suggesting an interest in imaginative and speculative narratives.). Liked patterns: High ratings for films that blend drama with other genres like comedy and romance., Positive reception of films featuring strong character development and emotional depth., Favoring films with a mix of humor and serious themes.. Disliked patterns: Low ratings for comedies that lack depth or engaging narratives., Dislike for films that combine horror with comedy when not executed well..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Multiple comedies receive favorable ratings, suggesting a liking for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a tendency to enjoy thrillers, as evidenced by several ratings of 3 or above in this genre.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "Romantic elements in films are well-received, indicating a preference for stories that explore relationships.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "The user rates several sci-fi films positively, suggesting an interest in imaginative and speculative narratives.",
+          "taste": "Attraction to Sci-Fi and Fantasy"
+        }
+      ]
+    },
+    "user_id": 2955
+  }
+}

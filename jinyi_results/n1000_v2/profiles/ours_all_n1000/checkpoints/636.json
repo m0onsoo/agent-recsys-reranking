@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "d7d3ba9cbb7ff7281c51bf5f6d53443615097ea28523051246d9b47ae2e5779a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1006,
+      1076,
+      274,
+      1008,
+      1059,
+      716,
+      1723,
+      2663,
+      1808,
+      1015
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "224e31b8d4304c0083f1d04786b849d7"
+    ],
+    "sampled_item_ids": [
+      125,
+      133,
+      161,
+      193,
+      274,
+      468,
+      513,
+      644,
+      679,
+      738,
+      739,
+      741,
+      841,
+      989,
+      1008,
+      1015,
+      1019,
+      1021,
+      1076,
+      1180,
+      1581,
+      1675,
+      1716,
+      1809,
+      1813
+    ],
+    "seed": 42,
+    "source_hash": "8871c8104818d39e5e72066f171adf7245b6a477a3aa51a36fe87a1e02d62d65",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 636,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jeff Goldblum",
+          "Geena Davis",
+          "John Getz",
+          "Joy Boushel"
+        ],
+        "country": [
+          "Canada",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When Seth Brundle makes a huge scientific and technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.",
+        "release_date": "1986-08-15",
+        "release_year": "1986",
+        "title": "Fly, The"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Glenn Close",
+          "Annette Bening",
+          "Pierce Brosnan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "'We come in peace' is not what those green men from Mars mean when they invade our planet, armed with irresistible weapons and a cruel sense of humor.  This star studded cast must play victim to the alien’s fun and games in this comedy homage to science fiction films of the '50s and '60s.",
+        "release_date": "1996-12-12",
+        "release_year": "1996",
+        "title": "Mars Attacks!"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Dan Aykroyd",
+          "Sigourney Weaver",
+          "Harold Ramis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Ghostbusters"
+      },
+      {
+        "cast": [
+          "Roddy McDowall",
+          "Kim Hunter",
+          "Bradford Dillman",
+          "Natalie Trundy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Don Taylor",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The world is shocked by the appearance of two talking chimpanzees, who arrived mysteriously in a U.S. spacecraft. They become the toast of society; but one man believes them to be a threat to the human race.",
+        "release_date": "1971-05-20",
+        "release_year": "1971",
+        "title": "Escape from the Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Robert Duvall",
+          "Téa Leoni",
+          "Elijah Wood",
+          "Vanessa Redgrave"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mimi Leder",
+        "genres": [
+          "Action",
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A seven-mile-wide space rock is hurtling toward Earth, threatening to obliterate the planet. Now, it's up to the president of the United States to save the world. He appoints a tough-as-nails veteran astronaut to lead a joint American-Russian crew into space to destroy the comet before impact. Meanwhile, an enterprising reporter uses her smarts to uncover the scoop of the century.",
+        "release_date": "1998-05-08",
+        "release_year": "1998",
+        "title": "Deep Impact"
+      },
+      {
+        "cast": [
+          "Zach Galligan",
+          "Phoebe Cates",
+          "Hoyt Axton",
+          "Polly Holliday"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "When Billy Peltzer is given a strange but adorable pet named Gizmo for Christmas, he inadvertently breaks the three important rules of caring for a Mogwai, and unleashes a horde of mischievous gremlins on a small town.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Gremlins"
+      },
+      {
+        "cast": [
+          "Eric Stoltz",
+          "Daphne Zuniga",
+          "Lee Richardson",
+          "John Getz"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Chris Walas",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Martin Brundle, born of the human/fly, is adopted by his father's place of employment (Bartok Inc.) while the employees simply wait for his mutant chromosomes to come out of their dormant state.",
+        "release_date": "1989-02-10",
+        "release_year": "1989",
+        "title": "Fly II, The"
+      },
+      {
+        "cast": [
+          "Dale Midkiff",
+          "Fred Gwynne",
+          "Denise Crosby",
+          "Brad Greenquist"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mary Lambert",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Dr. Louis Creed's family moves into the country house of their dreams and discover a pet cemetery at the back of their property. The cursed burial ground deep in the woods brings the dead back to life -- with \"minor\" problems. At first, only the family's cat makes the return trip, but an accident forces a heartbroken father to contemplate the unthinkable.",
+        "release_date": "1989-04-21",
+        "release_year": "1989",
+        "title": "Pet Sematary"
+      },
+      {
+        "cast": [
+          "Robert Englund",
+          "Mark Patton",
+          "Kim Myers",
+          "Robert Rusler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jack Sholder",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A new family moves into the house on Elm Street, and before long, the kids are again having nightmares about deceased child murderer Freddy Krueger. This time, Freddy attempts to possess a teenage boy to cause havoc in the real world, and can only be overcome if the boy's sweetheart can master her fear.",
+        "release_date": "1985-10-31",
+        "release_year": "1985",
+        "title": "Nightmare on Elm Street Part 2: Freddy's Revenge, A"
+      },
+      {
+        "cast": [
+          "Rufus Sewell",
+          "William Hurt",
+          "Kiefer Sutherland",
+          "Jennifer Connelly"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "release_date": "1998-02-27",
+        "release_year": "1998",
+        "title": "Dark City"
+      }
+    ],
+    "raw_user_id": "636",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 70
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.6753004115920163
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to animated sci-fi films"
+      ],
+      "liked_patterns": [
+        "High ratings for action-packed sci-fi films",
+        "Positive reception of horror-comedy hybrids",
+        "Appreciation for animated films with family themes"
+      ],
+      "summary": "Unique tastes: Action and Sci-Fi (The user consistently rates high for movies that blend action with science fiction elements.); Comedy with Horror (The user enjoys films that mix comedy with horror, as evidenced by several high ratings in this genre.); Adventure Themes (The user appreciates adventure narratives, often rating them positively when combined with other genres.); Thriller Elements (The user shows a preference for thrillers, particularly when they intersect with action and sci-fi.); Animated Family Films (The user rates animated films for children positively, indicating a liking for family-friendly content.). Liked patterns: High ratings for action-packed sci-fi films, Positive reception of horror-comedy hybrids, Appreciation for animated films with family themes. Disliked patterns: Negative response to animated sci-fi films.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates high for movies that blend action with science fiction elements.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "The user enjoys films that mix comedy with horror, as evidenced by several high ratings in this genre.",
+          "taste": "Comedy with Horror"
+        },
+        {
+          "reason": "The user appreciates adventure narratives, often rating them positively when combined with other genres.",
+          "taste": "Adventure Themes"
+        },
+        {
+          "reason": "The user shows a preference for thrillers, particularly when they intersect with action and sci-fi.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user rates animated films for children positively, indicating a liking for family-friendly content.",
+          "taste": "Animated Family Films"
+        }
+      ]
+    },
+    "user_id": 636
+  }
+}

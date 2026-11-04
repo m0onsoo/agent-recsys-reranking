@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "f4976cfcd3c20302e86f620f8994fd42f871f92f333e8f7c496812a5d12ebefa",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      500,
+      566,
+      165,
+      670,
+      764,
+      69,
+      350,
+      117,
+      436,
+      1713
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      24,
+      39,
+      44,
+      52,
+      98,
+      171,
+      200,
+      207,
+      214,
+      240,
+      281,
+      435,
+      436,
+      470,
+      500,
+      520,
+      543,
+      670,
+      771,
+      886,
+      1107,
+      1234,
+      1467,
+      1713,
+      2484
+    ],
+    "seed": 42,
+    "source_hash": "352f52aee9f2a0b76a441a455f30a168c73a7e1eaca5a43d74df8b523d9f84f8",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5057,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Cusack",
+          "Iben Hjejle",
+          "Todd Louiso",
+          "Jack Black"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When record store owner Rob Gordon gets dumped by his girlfriend, Laura, because he hasn't changed since they met, he revisits his top five breakups of all time in an attempt to figure out what went wrong. As Rob seeks out his former lovers to find out why they left, he keeps up his efforts to win Laura back.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "High Fidelity"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "Ron Howard",
+          "Paul Le Mat",
+          "Charles Martin Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A couple of high school graduates spend one final night cruising the strip with their buddies before they go off to college.",
+        "release_date": "1973-08-01",
+        "release_year": "1973",
+        "title": "American Graffiti"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Helen Hunt",
+          "Greg Kinnear",
+          "Cuba Gooding Jr."
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "New York City. Melvin Udall, a cranky, bigoted, obsessive-compulsive writer, finds his life turned upside down when neighboring gay artist Simon is hospitalized and his dog is entrusted to Melvin. In addition, Carol, the only waitress who will tolerate him, must leave work to care for her sick son, making it impossible for Melvin to eat breakfast.",
+        "release_date": "1997-12-19",
+        "release_year": "1997",
+        "title": "As Good As It Gets"
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Al Pacino",
+          "James Caan",
+          "Richard S. Castellano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+        "release_date": "1972-03-14",
+        "release_year": "1972",
+        "title": "Godfather, The"
+      },
+      {
+        "cast": [
+          "Steve McQueen",
+          "Dustin Hoffman",
+          "Victor Jory",
+          "Don Gordon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A man befriends a fellow criminal as the two of them begin serving their sentence on a dreadful prison island, which inspires the man to plot his escape.",
+        "release_date": "1973-12-13",
+        "release_year": "1973",
+        "title": "Papillon"
+      },
+      {
+        "cast": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Connie Nielsen",
+          "Oliver Reed"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences. His battle skills serve him well, and he becomes one of the most famous and admired men to fight in the Colosseum. Determined to avenge himself against the man who took away his freedom and laid waste to his family, Maximus believes that he can use his fame and skill in the ring to avenge the loss of his family and former glory. As the gladiator begins to challenge his rule, Commodus decides to put his own fighting mettle to the test by squaring off with Maximus in a battle to the death.",
+        "release_date": "2000-05-01",
+        "release_year": "2000",
+        "title": "Gladiator"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Owen Wilson",
+          "Lucy Liu",
+          "Xander Berkeley"
+        ],
+        "country": [
+          "Hong Kong",
+          "United States of America"
+        ],
+        "director": "Tom Dey",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Chon Wang, a clumsy imperial guard trails Princess Pei Pei when she is kidnapped from the Forbidden City and transported to America. Wang follows her captors to Nevada, where he teams up with an unlikely partner, outcast outlaw Roy O'Bannon, and tries to spring the princess from her imprisonment.",
+        "release_date": "2000-05-26",
+        "release_year": "2000",
+        "title": "Shanghai Noon"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Andie MacDowell",
+          "Chris Elliott",
+          "Stephen Tobolowsky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "release_date": "1993-02-11",
+        "release_year": "1993",
+        "title": "Groundhog Day"
+      },
+      {
+        "cast": [
+          "Cate Blanchett",
+          "Geoffrey Rush",
+          "Christopher Eccleston",
+          "Joseph Fiennes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Shekhar Kapur",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of the ascension to the throne and the early reign of Queen Elizabeth the First, the endless attempts by her council to marry her off, the Catholic hatred of her and her romance with Lord Robert Dudley.",
+        "release_date": "1998-09-13",
+        "release_year": "1998",
+        "title": "Elizabeth"
+      },
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Bill Paxton",
+          "Harvey Keitel",
+          "Jon Bon Jovi"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Jonathan Mostow",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the midst of World War II, the battle under the sea rages and the Nazis have the upper hand as the Allies are unable to crack their war codes. However, after a wrecked U-boat sends out an SOS signal, the Allies realise this is their chance to seize the 'enigma coding machine'.",
+        "release_date": "2000-04-20",
+        "release_year": "2000",
+        "title": "U-571"
+      }
+    ],
+    "raw_user_id": "5057",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 60
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5990959124222769
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily horror or overly dark in tone, as indicated by lower ratings in those genres."
+      ],
+      "liked_patterns": [
+        "Preference for films that blend drama with other genres like crime and romance.",
+        "Enjoyment of films that feature strong character development and complex narratives.",
+        "Tendency to rate comedies highly, especially those with unique or satirical elements."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Thriller (The user enjoys thrillers, as indicated by several ratings of 3 or above in this genre.); Comedy (There is a notable appreciation for comedies, with several films rated highly.); Action (The user shows a liking for action films, reflected in multiple positive ratings.); Crime (A consistent interest in crime-themed movies is apparent, with several films rated positively.). Liked patterns: Preference for films that blend drama with other genres like crime and romance., Enjoyment of films that feature strong character development and complex narratives., Tendency to rate comedies highly, especially those with unique or satirical elements.. Disliked patterns: Dislike for films that are primarily horror or overly dark in tone, as indicated by lower ratings in those genres..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys thrillers, as indicated by several ratings of 3 or above in this genre.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "There is a notable appreciation for comedies, with several films rated highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows a liking for action films, reflected in multiple positive ratings.",
+          "taste": "Action"
+        },
+        {
+          "reason": "A consistent interest in crime-themed movies is apparent, with several films rated positively.",
+          "taste": "Crime"
+        }
+      ]
+    },
+    "user_id": 5057
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "9f4e5a2bfb9c3bde2798fbaf5bc6b501c5d540525e0be0a2cea3fe40a2f3844e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      419,
+      800,
+      912,
+      906,
+      1405,
+      704,
+      639,
+      1749,
+      1055,
+      878
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      21,
+      90,
+      139,
+      483,
+      576,
+      704,
+      789,
+      791,
+      867,
+      878,
+      1143,
+      1154,
+      1166,
+      1184,
+      1209,
+      1329,
+      1334,
+      1338,
+      1360,
+      1365,
+      1369,
+      1405,
+      1432,
+      1749,
+      2461
+    ],
+    "seed": 42,
+    "source_hash": "e78db60fee991f8fff3e53b3bb13933b08b1aa8717b705b49c8e50c65d69f633",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4336,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Johnny Depp",
+          "Mary Stuart Masterson",
+          "Aidan Quinn",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeremiah S. Chechik",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A mentally ill young woman finds her love in an eccentric man who models himself after Buster Keaton.",
+        "release_date": "1993-04-16",
+        "release_year": "1993",
+        "title": "Benny & Joon"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Glenn Close",
+          "Anne Archer",
+          "Ellen Hamilton Latzen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A married man's one night stand comes back to haunt him when that lover begins to stalk him and his family.",
+        "release_date": "1987-09-11",
+        "release_year": "1987",
+        "title": "Fatal Attraction"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Al Pacino",
+          "Charlize Theron",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Taylor Hackford",
+        "genres": [
+          "Crime",
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A hotshot lawyer gets more than he bargained for when he learns his new boss is Lucifer himself.",
+        "release_date": "1997-10-17",
+        "release_year": "1997",
+        "title": "Devil's Advocate, The"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sean Penn",
+          "Deborah Kara Unger",
+          "James Rebhorn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In honor of his birthday, San Francisco banker Nicholas Van Orton, a financial genius and a coldhearted loner, receives an unusual present from his younger brother, Conrad -- a gift certificate to play a unique kind of game. In nearly a nanosecond, Nicholas finds himself consumed by a dangerous set of ever-changing rules, unable to distinguish where the charade ends and reality begins.",
+        "release_date": "1997-09-12",
+        "release_year": "1997",
+        "title": "Game, The"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Denis Leary",
+          "Yaphet Kotto",
+          "Stephen Dillane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bill Bennett",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Frank O'Brien, a petty thief, and his 7-year-long girlfriend Roz want to put an end to their unsteady lifestyle and just do that last job, which involves stealing a valuable painting. Frank takes Roz to an island on the coast of New England, where he wants to sell the painting and also hopes that their sagging relationship will get a positive push back up. Not everything goes as planned.",
+        "release_date": "1996-01-12",
+        "release_year": "1996",
+        "title": "Two if by Sea"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Philip Seymour Hoffman",
+          "Bob Gunton",
+          "Peter Coyote"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom Shadyac",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Meet Patch Adams, a doctor who doesn't look, act or think like any doctor you've met before. For Patch, humor is the best medicine, and he's willing to do just anything to make his patients laugh - even if it means risking his own career.",
+        "release_date": "1998-12-25",
+        "release_year": "1998",
+        "title": "Patch Adams"
+      },
+      {
+        "cast": [
+          "Chris Farley",
+          "David Spade",
+          "Brian Dennehy",
+          "Bo Derek"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Segal",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Party animal Tommy Callahan is a few cans short of a six-pack. But when the family business starts tanking, it's up to Tommy and number-cruncher Richard Hayden to save the day.",
+        "release_date": "1995-03-31",
+        "release_year": "1995",
+        "title": "Tommy Boy"
+      },
+      {
+        "cast": [
+          "Whoopi Goldberg",
+          "Mary-Louise Parker",
+          "Drew Barrymore",
+          "Matthew McConaughey"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Herbert Ross",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After breaking up with her girlfriend, a nightclub singer, Jane, answers a personal ad from Robin, a real estate agent with AIDS, seeking a cross-country travel partner. On their journey from New York City to Los Angeles, the two stop by Pittsburgh to pick up Robin's friend Holly, who is trying to escape an abusive relationship. With three distinct personalities, the women must overcome their differences to help one another.",
+        "release_date": "1995-02-03",
+        "release_year": "1995",
+        "title": "Boys on the Side"
+      },
+      {
+        "cast": [
+          "Glenn Close",
+          "Jeff Daniels",
+          "Joely Richardson",
+          "Joan Plowright"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stephen Herek",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Live action adaptation of a Disney Classic. When a litter of dalmatian puppies are abducted by the minions of Cruella De Vil, the parents must find them before she uses them for a diabolical fashion statement.",
+        "release_date": "1996-11-17",
+        "release_year": "1996",
+        "title": "101 Dalmatians"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Catherine Zeta-Jones",
+          "Owen Wilson",
+          "Lili Taylor"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dr. David Marrow invites Nell Vance, and Theo and Luke Sanderson to the eerie and isolated Hill House to be subjects for a sleep disorder study. The unfortunate guests discover that Marrow is far more interested in the sinister mansion itself – and they soon see the true nature of its horror.",
+        "release_date": "1999-07-23",
+        "release_year": "1999",
+        "title": "Haunting, The"
+      }
+    ],
+    "raw_user_id": "4336",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 98
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.503928895141881
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that lack comedic elements",
+        "Negative response to comedies that are overly simplistic or lack depth",
+        "Dislike for films that do not engage emotionally or narratively"
+      ],
+      "liked_patterns": [
+        "Preference for comedies that blend with drama or romance",
+        "Enjoyment of horror films that incorporate humor",
+        "High ratings for character-driven stories"
+      ],
+      "summary": "Unique tastes: Comedy with emotional depth (The user enjoys comedies that incorporate elements of drama and romance, indicating a preference for humor that also explores deeper themes.); Horror with comedic elements (The user appreciates horror films that blend with comedy, suggesting a taste for lighter takes on traditionally darker genres.); Strong character-driven narratives (The user favors films that focus on character development and relationships, particularly in comedies and dramas.); Diverse comedic styles (The user rates a variety of comedic styles highly, from romantic comedies to satirical and absurd humor.); Engaging storytelling in dramas (The user enjoys dramas that are compelling and well-crafted, often with a mix of suspense or mystery.). Liked patterns: Preference for comedies that blend with drama or romance, Enjoyment of horror films that incorporate humor, High ratings for character-driven stories. Disliked patterns: Dislike for horror films that lack comedic elements, Negative response to comedies that are overly simplistic or lack depth, Dislike for films that do not engage emotionally or narratively.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys comedies that incorporate elements of drama and romance, indicating a preference for humor that also explores deeper themes.",
+          "taste": "Comedy with emotional depth"
+        },
+        {
+          "reason": "The user appreciates horror films that blend with comedy, suggesting a taste for lighter takes on traditionally darker genres.",
+          "taste": "Horror with comedic elements"
+        },
+        {
+          "reason": "The user favors films that focus on character development and relationships, particularly in comedies and dramas.",
+          "taste": "Strong character-driven narratives"
+        },
+        {
+          "reason": "The user rates a variety of comedic styles highly, from romantic comedies to satirical and absurd humor.",
+          "taste": "Diverse comedic styles"
+        },
+        {
+          "reason": "The user enjoys dramas that are compelling and well-crafted, often with a mix of suspense or mystery.",
+          "taste": "Engaging storytelling in dramas"
+        }
+      ]
+    },
+    "user_id": 4336
+  }
+}

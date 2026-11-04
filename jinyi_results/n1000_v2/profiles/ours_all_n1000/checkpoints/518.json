@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "301d58816922da7bfe804d48e2b939502b0ef024472b3c58568a919851898e6e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      721,
+      69,
+      920,
+      568,
+      276,
+      1025,
+      2981,
+      24,
+      39,
+      632
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "f986e3178ccd4e0d9deec6cd10e71a5b"
+    ],
+    "sampled_item_ids": [
+      24,
+      92,
+      110,
+      117,
+      135,
+      159,
+      185,
+      200,
+      265,
+      284,
+      304,
+      316,
+      346,
+      383,
+      443,
+      572,
+      582,
+      681,
+      791,
+      859,
+      866,
+      977,
+      1063,
+      1934,
+      3150
+    ],
+    "seed": 42,
+    "source_hash": "74a6e330c87063b97b68944f0b42428b9bdd5967471334f0ddbdf823d5f80180",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 518,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Nigel Terry",
+          "Helen Mirren",
+          "Nicholas Clay",
+          "Cherie Lunghi"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Boorman",
+        "genres": [
+          "Action",
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The myth of King Arthur brought to the screen. Uthur Pendragon is given the mystical sword Excalibur by Merlyn. At his death Uthur buries the sword into a stone, and the next man that can pull it out will be King of England. Years later Arthur, Uthur's bastard son draws Excalibur and becomes king. Arthur's evil half-sister Morgana sires a son with him, who may prove his downfall.",
+        "release_date": "1981-04-10",
+        "release_year": "1981",
+        "title": "Excalibur"
+      },
+      {
+        "cast": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Connie Nielsen",
+          "Oliver Reed"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences. His battle skills serve him well, and he becomes one of the most famous and admired men to fight in the Colosseum. Determined to avenge himself against the man who took away his freedom and laid waste to his family, Maximus believes that he can use his fame and skill in the ring to avenge the loss of his family and former glory. As the gladiator begins to challenge his rule, Commodus decides to put his own fighting mettle to the test by squaring off with Maximus in a battle to the death.",
+        "release_date": "2000-05-01",
+        "release_year": "2000",
+        "title": "Gladiator"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Catherine Zeta-Jones",
+          "Will Patton",
+          "Maury Chaykin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two thieves, who travel in elegant circles, try to outsmart each other and, in the process, end up falling in love.",
+        "release_date": "1999-04-29",
+        "release_year": "1999",
+        "title": "Entrapment"
+      },
+      {
+        "cast": [
+          "Patrick Swayze",
+          "Demi Moore",
+          "Whoopi Goldberg",
+          "Tony Goldwyn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Zucker",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Wheat is a banker, Molly Jensen is an artist, and the two are madly in love. However, when Sam is murdered by his friend and corrupt business partner Carl Bruner over a shady business deal, he is left to roam the earth as a powerless spirit. When he learns of Carl's betrayal, Sam must seek the help of psychic Oda Mae Brown to set things right and protect Molly from Carl and his goons.",
+        "release_date": "1990-07-12",
+        "release_year": "1990",
+        "title": "Ghost"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Greta Scacchi",
+          "Fred Ward",
+          "Whoopi Goldberg"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Altman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Hollywood studio executive is being sent death threats by a writer whose script he rejected - but which one?",
+        "release_date": "1992-04-03",
+        "release_year": "1992",
+        "title": "Player, The"
+      },
+      {
+        "cast": [
+          "Chris O'Donnell",
+          "Minnie Driver",
+          "Geraldine O'Rawe",
+          "Saffron Burrows"
+        ],
+        "country": [
+          "Ireland",
+          "United Kingdom"
+        ],
+        "director": "Pat O'Connor",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "'Circle Of Friends' is set in 1950's Ireland. The movie focuses on Benny Hogan and her best friend, Eve Malone. The story centers around Benny and Eve as they enter student life at University College, Dublin. Here Benny and Eve reunite with their childhood friend, the ice-cool Nan Mahon, the 'college belle'. They also encounter the handsome and charming Jack Foley, whom Benny quickly falls for.",
+        "release_date": "1995-03-16",
+        "release_year": "1995",
+        "title": "Circle of Friends"
+      },
+      {
+        "cast": [
+          "Valentina Cervi",
+          "Michel Serrault",
+          "Predrag 'Miki' Manojlović",
+          "Luca Zingaretti"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Agnès Merlet",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "Artemisia Gentileschi (1593-1653) was one of the first well-known female painters. The movie tells the story of her youth, when she was guided and protected by her father, the painter Orazio Gentileschi. Her professional curiosity about the male anatomy, forbidden for her eyes, led her to the knowledge of sexual pleasure. But she was also well known because in 1612 she had to appear in a courtroom because her teacher, Agostino Tassi, was suspected of raping her. She tried to protect him, but was put in the thumb screws...",
+        "release_date": "1997-09-10",
+        "release_year": "1997",
+        "title": "Artemisia"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Peter Sellers",
+          "Shirley MacLaine",
+          "Melvyn Douglas",
+          "Jack Warden"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hal Ashby",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A simple-minded gardener named Chance has spent all his life in the Washington D.C. house of an old man. When the man dies, Chance is put out on the street with no knowledge of the world except what he has learned from television.",
+        "release_date": "1979-12-19",
+        "release_year": "1979",
+        "title": "Being There"
+      }
+    ],
+    "raw_user_id": "518",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 203
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7930168093987556
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that lack emotional or narrative depth."
+      ],
+      "liked_patterns": [
+        "Strong preference for films that combine drama with romance.",
+        "Enjoyment of comedies that feature romantic storylines.",
+        "Tendency to appreciate films with emotional depth, regardless of genre."
+      ],
+      "summary": "Unique tastes: Drama and Romance (A strong preference for films that blend emotional depth with romantic narratives.); Comedy with Romantic Elements (Enjoyment of comedies that incorporate romance, often leading to light-hearted yet meaningful storytelling.); Action with Emotional Undertones (Appreciation for action films that also explore deeper emotional themes or relationships.); Adventure and Family Themes (Interest in adventure films that appeal to family audiences, often featuring whimsical or heartwarming stories.); Historical and Social Commentary (Attraction to films that provide insights into historical events or social issues, often through a dramatic lens.). Liked patterns: Strong preference for films that combine drama with romance., Enjoyment of comedies that feature romantic storylines., Tendency to appreciate films with emotional depth, regardless of genre.. Disliked patterns: Dislike for horror films that lack emotional or narrative depth..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for films that blend emotional depth with romantic narratives.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "Enjoyment of comedies that incorporate romance, often leading to light-hearted yet meaningful storytelling.",
+          "taste": "Comedy with Romantic Elements"
+        },
+        {
+          "reason": "Appreciation for action films that also explore deeper emotional themes or relationships.",
+          "taste": "Action with Emotional Undertones"
+        },
+        {
+          "reason": "Interest in adventure films that appeal to family audiences, often featuring whimsical or heartwarming stories.",
+          "taste": "Adventure and Family Themes"
+        },
+        {
+          "reason": "Attraction to films that provide insights into historical events or social issues, often through a dramatic lens.",
+          "taste": "Historical and Social Commentary"
+        }
+      ]
+    },
+    "user_id": 518
+  }
+}

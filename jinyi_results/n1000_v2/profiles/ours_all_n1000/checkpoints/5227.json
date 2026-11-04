@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "c8bde265ed9c83bb5b6213c74e22da986d05c275b4c6170ba23e2b4d468ea403",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2256,
+      565,
+      218,
+      320,
+      206,
+      147,
+      897,
+      2644,
+      241,
+      99
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      87,
+      95,
+      128,
+      149,
+      156,
+      273,
+      328,
+      565,
+      575,
+      879,
+      983,
+      1064,
+      1076,
+      1092,
+      1156,
+      1174,
+      1333,
+      1678,
+      1938,
+      1976,
+      2173,
+      2288,
+      2883,
+      2926,
+      3209
+    ],
+    "seed": 42,
+    "source_hash": "01ec77599781e64933140c01b3b393e44be2461a274671dc7556bee97cc24a86",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5227,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "K-12 student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jackie Chan",
+          "Maggie Cheung",
+          "Nina Li Chi",
+          "Teddy Robin Kwan"
+        ],
+        "country": [
+          "Hong Kong"
+        ],
+        "director": "Tsui Hark",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "Twins, separated at birth, end up as a Hong Kong gangster and a New York concert pianist. When the pianist travels to Hong Kong for a concert, the two inevitably get mistaken for each other.",
+        "release_date": "1992-01-15",
+        "release_year": "1992",
+        "title": "Twin Dragons (Shuang long hui)"
+      },
+      {
+        "cast": [
+          "Gary Oldman",
+          "William Hurt",
+          "Matt LeBlanc",
+          "Mimi Rogers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Hopkins",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The prospects for continuing life on Earth in the year 2058 are grim. So the Robinsons are launched into space to colonize Alpha Prime, the only other inhabitable planet in the galaxy. But when a stowaway sabotages the mission, the Robinsons find themselves hurtling through uncharted space.",
+        "release_date": "1998-04-03",
+        "release_year": "1998",
+        "title": "Lost in Space"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Jonathan Pryce",
+          "Michelle Yeoh",
+          "Teri Hatcher"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Roger Spottiswoode",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A deranged media mogul is staging international incidents to pit the world's superpowers against each other. Now 007 must take on this evil mastermind in an adrenaline-charged battle to end his reign of terror and prevent global pandemonium.",
+        "release_date": "1997-12-11",
+        "release_year": "1997",
+        "title": "Tomorrow Never Dies"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kate Capshaw",
+          "Jonathan Ke Quan",
+          "Amrish Puri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees – and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace.",
+        "release_date": "1984-05-23",
+        "release_year": "1984",
+        "title": "Indiana Jones and the Temple of Doom"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Jeremy Irons",
+          "Samuel L. Jackson",
+          "Graham Greene"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"partner\" -- and his beloved city -- in a deadly game that demands their concentration.",
+        "release_date": "1995-05-19",
+        "release_year": "1995",
+        "title": "Die Hard: With a Vengeance"
+      },
+      {
+        "cast": [
+          "Robert Redford",
+          "Sidney Poitier",
+          "Dan Aykroyd",
+          "David Strathairn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phil Alden Robinson",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When shadowy U.S. intelligence agents blackmail a reformed computer hacker and his eccentric team of security experts into stealing a code-breaking 'black box' from a Soviet-funded genius, they uncover a bigger conspiracy. Now, he and his 'sneakers' must save themselves and the world economy by retrieving the box from their blackmailers.",
+        "release_date": "1992-09-09",
+        "release_year": "1992",
+        "title": "Sneakers"
+      },
+      {
+        "cast": [
+          "Cuba Gooding Jr.",
+          "Skeet Ulrich",
+          "Peter Firth",
+          "David Paymer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hugh Johnson",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A store clerk and an ice cream truck driver are thrown together when a dying scientist entrusts them with a deadly chemical kept in ice. This chemical will kill every living thing once it melts. They have to take the chemical codenamed 'Elvis' to the next nearest military base while being chased by terrorists who want it to hold the country for ransom.",
+        "release_date": "1999-09-01",
+        "release_year": "1999",
+        "title": "Chill Factor"
+      },
+      {
+        "cast": [
+          "Samuel L. Jackson",
+          "Kevin Spacey",
+          "David Morse",
+          "Ron Rifkin"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "F. Gary Gray",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The police try to arrest expert hostage negotiator Danny Roman, who insists he's being framed for his partner's murder in what he believes is an elaborate conspiracy. Thinking there's evidence in the Internal Affairs offices that might clear him, he takes everyone in the office hostage and demands that another well-known negotiator be brought in to handle the situation and secretly investigate the conspiracy.",
+        "release_date": "1998-07-29",
+        "release_year": "1998",
+        "title": "Negotiator, The"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Winona Ryder",
+          "Brad Dourif",
+          "Ron Perlman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two hundred years after Lt. Ripley died, a group of scientists clone her, hoping to breed the ultimate weapon. But the new Ripley is full of surprises … as are the new aliens. Ripley must team with a band of smugglers to keep the creatures from reaching Earth.",
+        "release_date": "1997-11-12",
+        "release_year": "1997",
+        "title": "Alien: Resurrection"
+      }
+    ],
+    "raw_user_id": "5227",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 126
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.9978321750063504
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films that lack engaging plots or characters",
+        "Negative response to films that are primarily thrillers without action elements",
+        "Discontent with films that attempt to mix genres unsuccessfully, particularly in the action category"
+      ],
+      "liked_patterns": [
+        "Strong preference for action films with high ratings",
+        "Enjoyment of films that blend action with other genres like comedy and romance",
+        "Positive reception of films featuring suspenseful or thrilling narratives"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventure elements.); Thriller Elements (The user appreciates films that incorporate suspense and tension, often found in thrillers.); Sci-Fi Themes (The user shows a preference for science fiction, particularly when it intersects with action.); Comedy in Action (The user enjoys action films that also include comedic elements, indicating a preference for lighter moments in intense scenarios.); Romantic Subplots (The user seems to appreciate action films that include romantic storylines, adding depth to the narrative.). Liked patterns: Strong preference for action films with high ratings, Enjoyment of films that blend action with other genres like comedy and romance, Positive reception of films featuring suspenseful or thrilling narratives. Disliked patterns: Dislike for action films that lack engaging plots or characters, Negative response to films that are primarily thrillers without action elements, Discontent with films that attempt to mix genres unsuccessfully, particularly in the action category.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventure elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that incorporate suspense and tension, often found in thrillers.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user shows a preference for science fiction, particularly when it intersects with action.",
+          "taste": "Sci-Fi Themes"
+        },
+        {
+          "reason": "The user enjoys action films that also include comedic elements, indicating a preference for lighter moments in intense scenarios.",
+          "taste": "Comedy in Action"
+        },
+        {
+          "reason": "The user seems to appreciate action films that include romantic storylines, adding depth to the narrative.",
+          "taste": "Romantic Subplots"
+        }
+      ]
+    },
+    "user_id": 5227
+  }
+}

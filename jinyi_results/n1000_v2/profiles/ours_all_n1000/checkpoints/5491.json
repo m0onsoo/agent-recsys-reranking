@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "5116e04b2db7008dc81ec0d276e265d2d69951d37fe68f4eff1248d4e6287251",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      117,
+      1303,
+      1436,
+      912,
+      538,
+      691,
+      125,
+      487,
+      1432,
+      391
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      19,
+      73,
+      91,
+      117,
+      177,
+      208,
+      281,
+      376,
+      473,
+      514,
+      524,
+      548,
+      730,
+      744,
+      754,
+      791,
+      809,
+      816,
+      892,
+      1012,
+      1107,
+      1150,
+      1339,
+      2231,
+      2610
+    ],
+    "seed": 42,
+    "source_hash": "7c0cae343d97ce357a12c2263885b831b53a18d8d76e6c6dac18982874672565",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5491,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bill Murray",
+          "Andie MacDowell",
+          "Chris Elliott",
+          "Stephen Tobolowsky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "release_date": "1993-02-11",
+        "release_year": "1993",
+        "title": "Groundhog Day"
+      },
+      {
+        "cast": [
+          "Leo Fitzpatrick",
+          "Rosario Dawson",
+          "Chloë Sevigny",
+          "Justin Pierce"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Larry Clark",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A controversial portrayal of teens in New York City which exposes a deeply disturbing world of sex and substance abuse. The film focuses on a sexually reckless, freckle-faced boy named Telly, whose goal is to have sex with as many different girls as he can. When Jenny, a girl who has had sex only once, tests positive for HIV, she knows she contracted the disease from Telly. When Jenny discovers that Telly's idea of \"safe sex\" is to only have sex with virgins, and is continuing to pass the disease onto other unsuspecting girls, Jenny makes it her business to try to stop him.",
+        "release_date": "1995-07-28",
+        "release_year": "1995",
+        "title": "Kids"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Robin Givens",
+          "Halle Berry",
+          "David Alan Grier"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Reginald Hudlin",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Marcus is a successful advertising executive who woos and beds women almost at will. After a company merger he finds that his new boss, the ravishing Jacqueline, is treating him in exactly the same way. Completely traumatised by this, his work goes badly downhill.",
+        "release_date": "1992-06-30",
+        "release_year": "1992",
+        "title": "Boomerang"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Al Pacino",
+          "Charlize Theron",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Taylor Hackford",
+        "genres": [
+          "Crime",
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A hotshot lawyer gets more than he bargained for when he learns his new boss is Lucifer himself.",
+        "release_date": "1997-10-17",
+        "release_year": "1997",
+        "title": "Devil's Advocate, The"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Dana Carvey",
+          "Rob Lowe",
+          "Tia Carrere"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penelope Spheeris",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a sleazy TV exec offers Wayne and Garth a fat contract to tape their late-night public access show at his network, they can't believe their good fortune. But they soon discover the road from basement to big-time is a gnarly one, fraught with danger, temptation and ragin' party opportunities.",
+        "release_date": "1992-02-14",
+        "release_year": "1992",
+        "title": "Wayne's World"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Meg Ryan",
+          "Katie Sagona",
+          "Greg Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nora Ephron",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Book superstore magnate, Joe Fox and independent book shop owner, Kathleen Kelly fall in love in the anonymity of the Internet – both blissfully unaware that he's putting her out of business.",
+        "release_date": "1998-12-17",
+        "release_year": "1998",
+        "title": "You've Got Mail"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Cybill Shepherd",
+          "Harvey Keitel",
+          "Jodie Foster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+        "release_date": "1976-02-07",
+        "release_year": "1976",
+        "title": "Taxi Driver"
+      },
+      {
+        "cast": [
+          "Wesley Snipes",
+          "Woody Harrelson",
+          "Rosie Perez",
+          "Tyra Ferrell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Billy Hoyle (Woody Harrelson) and Sidney Deane (Wesley Snipes) are an unlikely pair of basketball hustlers. They team up to con their way across the courts of Los Angeles, playing a game that's fast dangerous - and funny.",
+        "release_date": "1992-03-26",
+        "release_year": "1992",
+        "title": "White Men Can't Jump"
+      },
+      {
+        "cast": [
+          "Jonathan Taylor Thomas",
+          "Matthew Broderick",
+          "James Earl Jones",
+          "Jeremy Irons"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Allers",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A young lion cub named Simba can't wait to be king. But his uncle craves the title for himself and will stop at nothing to get it.",
+        "release_date": "1994-06-23",
+        "release_year": "1994",
+        "title": "Lion King, The"
+      }
+    ],
+    "raw_user_id": "5491",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 164
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8616591404369457
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that do not resonate emotionally or thematically.",
+        "Negative response to certain comedies that fail to connect with the user."
+      ],
+      "liked_patterns": [
+        "Strong preference for emotional and character-driven dramas.",
+        "Enjoyment of romantic comedies with a blend of humor and heart.",
+        "Positive reception of films that combine action with thriller elements."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates deep emotional narratives and character development, as seen in multiple highly rated dramas.); Comedy and Romance (The user enjoys light-hearted films that blend humor with romantic themes, reflected in several high ratings for comedies.); Action and Thriller (The user shows interest in action-packed and suspenseful films, although with mixed ratings indicating selective enjoyment.); Fantasy and Sci-Fi (The user is drawn to imaginative storytelling and speculative themes, as indicated by positive ratings in these genres.); Animation and Family (The user enjoys animated films that appeal to both children and adults, as shown by high ratings for family-friendly titles.). Liked patterns: Strong preference for emotional and character-driven dramas., Enjoyment of romantic comedies with a blend of humor and heart., Positive reception of films that combine action with thriller elements.. Disliked patterns: Dislike for horror films that do not resonate emotionally or thematically., Negative response to certain comedies that fail to connect with the user..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates deep emotional narratives and character development, as seen in multiple highly rated dramas.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys light-hearted films that blend humor with romantic themes, reflected in several high ratings for comedies.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "The user shows interest in action-packed and suspenseful films, although with mixed ratings indicating selective enjoyment.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "The user is drawn to imaginative storytelling and speculative themes, as indicated by positive ratings in these genres.",
+          "taste": "Fantasy and Sci-Fi"
+        },
+        {
+          "reason": "The user enjoys animated films that appeal to both children and adults, as shown by high ratings for family-friendly titles.",
+          "taste": "Animation and Family"
+        }
+      ]
+    },
+    "user_id": 5491
+  }
+}

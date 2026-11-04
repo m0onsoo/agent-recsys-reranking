@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "961f530bd370132898e67308f1c208a7671dd4ed25b1b51b76b89a6610b9ab99",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      522,
+      1051,
+      400,
+      1509,
+      1257,
+      1182,
+      1512,
+      213,
+      1121,
+      934
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8d3b0267423b4d34939a8eba6b051d9d"
+    ],
+    "sampled_item_ids": [
+      6,
+      23,
+      410,
+      566,
+      579,
+      602,
+      615,
+      618,
+      626,
+      689,
+      696,
+      699,
+      724,
+      799,
+      1449,
+      1453,
+      1455,
+      1492,
+      1494,
+      1495,
+      1503,
+      1508,
+      1514,
+      1517,
+      1519
+    ],
+    "seed": 42,
+    "source_hash": "b8ec7ce9fbeb5900bebff1a670c7f706efb70b68be92a3368ef8d99b2c3074ed",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 31,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Adam Sandler",
+          "Drew Barrymore",
+          "Christine Taylor",
+          "Allen Covert"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Coraci",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Robbie, a local rock star turned wedding singer, is dumped on the day of his wedding. Meanwhile, waitress Julia finally sets a wedding date with her fiancée Glenn. When Julia and Robbie meet and hit it off, they find that things are more complicated than anybody thought.",
+        "release_date": "1998-02-13",
+        "release_year": "1998",
+        "title": "Wedding Singer, The"
+      },
+      {
+        "cast": [
+          "Jim Henson",
+          "Frank Oz",
+          "Dave Goelz",
+          "Jerry Nelson"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Jim Henson",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Kermit and Fozzie are newspaper reporters sent to London to interview Lady Holiday, a wealthy fashion designer whose priceless diamond necklace is stolen. Kermit meets and falls in love with her secretary, Miss Piggy. The jewel thieves strike again, and this time frame Miss Piggy. It's up to Kermit and Muppets to bring the real culprits to justice.",
+        "release_date": "1981-06-26",
+        "release_year": "1981",
+        "title": "Great Muppet Caper, The"
+      },
+      {
+        "cast": [
+          "Dudley Moore",
+          "Liza Minnelli",
+          "John Gielgud",
+          "Geraldine Fitzgerald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve Gordon",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Arthur is the most quotable drunk millionaire that is likely to ever steal your heart. Dudley Moore portrays Arthur, a thirty year old child who will inherit 750 million dollars if he complies with his family's demands and marries the woman of their choosing.",
+        "release_date": "1981-07-17",
+        "release_year": "1981",
+        "title": "Arthur"
+      },
+      {
+        "cast": [
+          "Vincent Price",
+          "Peter Lorre",
+          "Boris Karloff",
+          "Hazel Court"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Corman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A magician who has been turned into a raven turns to a former sorcerer for help in this film loosely based on the Edgar Allen Poe poem.",
+        "release_date": "1963-01-25",
+        "release_year": "1963",
+        "title": "Raven, The"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Annette Bening",
+          "Michael J. Fox",
+          "Martin Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Widowed U.S. president Andrew Shepherd, one of the world's most powerful men, can have anything he wants -- and what he covets most is Sydney Ellen Wade, a Washington lobbyist. But Shepherd's attempts at courting her spark wild rumors and decimate his approval ratings.",
+        "release_date": "1995-11-17",
+        "release_year": "1995",
+        "title": "American President, The"
+      },
+      {
+        "cast": [
+          "Jack Lemmon",
+          "Walter Matthau",
+          "Ann-Margret",
+          "Burgess Meredith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Donald Petrie",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "For decades, next-door neighbors and former friends John and Max have feuded, trading insults and wicked pranks. When an attractive widow moves in nearby, their bad blood erupts into a high-stakes rivalry full of naughty jokes and adolescent hijinks. Will this love triangle destroy the two old grumps? Or will the geriatric odd couple overcome their differences and rediscover their friendship?",
+        "release_date": "1993-12-25",
+        "release_year": "1993",
+        "title": "Grumpy Old Men"
+      },
+      {
+        "cast": [
+          "Barbara Stanwyck",
+          "Henry Fonda",
+          "Charles Coburn",
+          "Eugene Pallette"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Preston Sturges",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Returning from a year up the Amazon studying snakes, the rich but unsophisticated Charles Pike meets con-artist Jean Harrington on a ship. They fall in love, but a misunderstanding causes them to split on bad terms. To get back at him, Jean disguises herself as an English lady, and comes back to tease and torment him.",
+        "release_date": "1941-02-25",
+        "release_year": "1941",
+        "title": "Lady Eve, The"
+      },
+      {
+        "cast": [
+          "Robert Armstrong",
+          "Fay Wray",
+          "Bruce Cabot",
+          "Frank Reicher"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Merian C. Cooper",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An adventure film about a film crew in search of a monster on a remote island. The crew finds King Kong and decides to take him back to New York as a money making spectacle. The film is a masterpiece of Stop-Motion in filmmaking history and inspired a line of King Kong films.",
+        "release_date": "1933-04-07",
+        "release_year": "1933",
+        "title": "King Kong"
+      },
+      {
+        "cast": [
+          "Michael Moore",
+          "Roger B. Smith",
+          "Rhonda Britton",
+          "Fred Ross"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Moore",
+        "genres": [
+          "Comedy",
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A documentary about the closure of General Motors' plant at Flint, Michigan, which resulted in the loss of 30,000 jobs. Details the attempts of filmmaker Michael Moore to get an interview with GM CEO Roger Smith.",
+        "release_date": "1989-09-01",
+        "release_year": "1989",
+        "title": "Roger & Me"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Kim Novak",
+          "Jack Lemmon",
+          "Ernie Kovacs"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Quine",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A modern-day witch likes her neighbor but despises his fiancee, so she enchants him to love her instead... only to fall in love with him for real.",
+        "release_date": "1958-12-25",
+        "release_year": "1958",
+        "title": "Bell, Book and Candle"
+      }
+    ],
+    "raw_user_id": "31",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 97
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8872152479163748
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for certain comedies that do not resonate, as indicated by lower ratings.",
+        "Negative reception of films that lack engaging comedic elements."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies with high ratings across various sub-genres.",
+        "Enjoyment of films that combine comedy with romance or adventure themes.",
+        "Positive reception of musicals that incorporate comedic elements."
+      ],
+      "summary": "Unique tastes: Comedy (The user has a strong preference for comedies, as evidenced by multiple high ratings across various comedic films.); Romantic Elements (Several liked films incorporate romantic themes, indicating an appreciation for romance within comedies.); Adventure and Fantasy (The user enjoys films that blend comedy with adventure or fantastical elements, as seen in their high ratings for such genres.); Musicals (The user has shown a liking for comedic musicals, suggesting an enjoyment of music and humor combined.); Dramatic Comedy (The user appreciates comedies that also incorporate dramatic elements, as reflected in their ratings for films that blend these genres.). Liked patterns: Strong preference for comedies with high ratings across various sub-genres., Enjoyment of films that combine comedy with romance or adventure themes., Positive reception of musicals that incorporate comedic elements.. Disliked patterns: Dislike for certain comedies that do not resonate, as indicated by lower ratings., Negative reception of films that lack engaging comedic elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user has a strong preference for comedies, as evidenced by multiple high ratings across various comedic films.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Several liked films incorporate romantic themes, indicating an appreciation for romance within comedies.",
+          "taste": "Romantic Elements"
+        },
+        {
+          "reason": "The user enjoys films that blend comedy with adventure or fantastical elements, as seen in their high ratings for such genres.",
+          "taste": "Adventure and Fantasy"
+        },
+        {
+          "reason": "The user has shown a liking for comedic musicals, suggesting an enjoyment of music and humor combined.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "The user appreciates comedies that also incorporate dramatic elements, as reflected in their ratings for films that blend these genres.",
+          "taste": "Dramatic Comedy"
+        }
+      ]
+    },
+    "user_id": 31
+  }
+}

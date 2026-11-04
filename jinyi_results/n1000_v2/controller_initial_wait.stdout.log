@@ -1,0 +1,7 @@
+2026-11-04T03:07:07.339443+00:00 validate_bundle: start {}
+2026-11-04T03:07:07.648600+00:00 validate_bundle: end {"exit_code": 0, "recorded_cost_usd": 0.0}
+2026-11-04T03:07:07.657561+00:00 baselines_check: start {}
+2026-11-04T03:07:07.921686+00:00 baselines_check: end {"exit_code": 0, "recorded_cost_usd": 0.0}
+2026-11-04T03:07:08.113754+00:00 preflight: verified {"line_counts": {"candidates.jsonl": 3000, "evaluation_labels.jsonl": 1000, "train_interactions.jsonl": 1000, "users.csv": 1001}, "other_jobs": [{"elapsed": "00:01", "pid": 68856, "ppid": 68840}]}
+2026-11-04T03:07:08.170612+00:00 wait_for_shared_proxy: start {"other_jobs": [{"elapsed": "00:01", "pid": 68856, "ppid": 68840}]}
+2026-11-04T03:07:08.171159+00:00 wait_for_shared_proxy: waiting {"other_jobs": [{"elapsed": "00:01", "pid": 68856, "ppid": 68840}]}

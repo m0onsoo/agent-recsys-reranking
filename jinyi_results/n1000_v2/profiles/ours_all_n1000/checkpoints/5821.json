@@ -1,0 +1,327 @@
+{
+  "checkpoint_hash": "8807cae547264293e0435b05bf51a588398ec4f07ea09c1cb11d6291771d1b35",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      117,
+      548,
+      110,
+      2708,
+      195,
+      1024,
+      63,
+      383,
+      48,
+      2742
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      24,
+      30,
+      35,
+      44,
+      51,
+      63,
+      106,
+      117,
+      195,
+      210,
+      244,
+      370,
+      395,
+      734,
+      960,
+      1024,
+      1030,
+      1324,
+      1489,
+      1529,
+      2016,
+      2708,
+      2742,
+      3213
+    ],
+    "seed": 42,
+    "source_hash": "87e5915ac3e5899a3cec256e4a2fa0f2120558f6ce151769da6b89b0e18fb058",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5821,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "scientist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bill Murray",
+          "Andie MacDowell",
+          "Chris Elliott",
+          "Stephen Tobolowsky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "release_date": "1993-02-11",
+        "release_year": "1993",
+        "title": "Groundhog Day"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Billy Crystal",
+          "Carrie Fisher",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "During their travels from Chicago to New York, Harry and Sally Will debate whether or not sex ruins a perfect relationship between a man and a woman. Eleven years and later, they're still no closer to finding the answer.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "When Harry Met Sally..."
+      },
+      {
+        "cast": [
+          "Marco Leonardi",
+          "Lumi Cavazos",
+          "Regina Torné",
+          "Ada Carrasco"
+        ],
+        "country": [
+          "Mexico"
+        ],
+        "director": "Alfonso Aráu",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "Spanish",
+        "overview": "Tita is passionately in love with Pedro, but her controlling mother forbids her from marrying him. When Pedro marries her sister, Tita throws herself into her cooking and discovers she can transfer her emotions through the food she prepares, infecting all who eat it with her intense heartbreak.",
+        "release_date": "1992-04-16",
+        "release_year": "1992",
+        "title": "Like Water for Chocolate (Como agua para chocolate)"
+      },
+      {
+        "cast": [
+          "Hossein Mahjoub",
+          "Mohsen Ramezani",
+          "Salameh Feyzi",
+          "Farahnaz Safari"
+        ],
+        "country": [
+          "Iran"
+        ],
+        "director": "Majid Majidi",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Persian",
+        "overview": "The story revolves around a blind boy named Mohammed who is released from his special school in Tehran for summer vacation. His father, shamed and burdened by Mohammed's blindness, arrives late to pick him up and then tries to convince the headmaster to keep Mohammed over the summer. The headmaster refuses, so Mohammed's father eventually takes him home.",
+        "release_date": "1999-02-08",
+        "release_year": "1999",
+        "title": "Color of Paradise, The (Rang-e Khoda)"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Gene Hackman",
+          "Morgan Freeman",
+          "Richard Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "William Munny is a retired, once-ruthless killer turned gentle widower and hog farmer. To help support his two motherless children, he accepts one last bounty-hunter mission to find the men who brutalized a prostitute. Joined by his former partner and a cocky greenhorn, he takes on a corrupt sheriff.",
+        "release_date": "1992-08-07",
+        "release_year": "1992",
+        "title": "Unforgiven"
+      },
+      {
+        "cast": [
+          "Andie MacDowell",
+          "Peter Gallagher",
+          "James Spader",
+          "Laura San Giacomo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A sexually repressed woman's husband is having an affair with her sister. The arrival of a visitor with a rather unusual fetish changes everything.",
+        "release_date": "1989-08-18",
+        "release_year": "1989",
+        "title": "Sex, Lies, and Videotape"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Hugh Grant",
+          "Andie MacDowell",
+          "James Fleet",
+          "Simon Callow"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Four Weddings And A Funeral is a British comedy about a British Man named Charles and an American Woman named Carrie who go through numerous weddings before they determine if they are right for one another.",
+        "release_date": "1994-03-09",
+        "release_year": "1994",
+        "title": "Four Weddings and a Funeral"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Brock Peters",
+          "James Anderson",
+          "Mary Badham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mulligan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In a small Alabama town in the 1930s, scrupulously honest and highly respected lawyer, Atticus Finch puts his career on the line when he agrees to represent Tom Robinson, a black man accused of rape. The trial and the events surrounding it are seen through the eyes of Finch's six-year-old daughter, Scout. While Robinson's trial gives the movie its momentum, there are plenty of anecdotal occurrences before and after the court date: Scout's ever-strengthening bond with older brother, Jem, her friendship with precocious young Dill Harris, her father's no-nonsense reactions to such life-and-death crises as a rampaging mad dog, and especially Scout's reactions to, and relationship with, Boo Radley, the reclusive 'village idiot' who turns out to be her salvation when she is attacked by a venomous bigot.",
+        "release_date": "1962-12-25",
+        "release_year": "1962",
+        "title": "To Kill a Mockingbird"
+      },
+      {
+        "cast": [
+          "Don McKellar",
+          "Sandra Oh",
+          "Roberta Maxwell",
+          "Robin Gammell"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Don McKellar",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Various citizens of Toronto anxiously await the end of the world, which is occurring at the stroke of midnight on New Year's Day. While widower Patrick Wheeler braces for his fate, he meets Sandra, the wife of a businessman who is intent on committing suicide. Meanwhile, Patrick's friend Craig decides to have as much sex as he can while there is still time.",
+        "release_date": "1998-10-23",
+        "release_year": "1998",
+        "title": "Last Night"
+      }
+    ],
+    "raw_user_id": "5821",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 51
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6128475004754812
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for a specific action film that did not meet expectations."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend comedy and romance.",
+        "Strong preference for animated films, especially those with humor.",
+        "Consistent enjoyment of action and adventure genres."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for this genre.); Enjoyment of Comedy and Romance (Several comedies and romantic films receive high ratings, suggesting a fondness for light-hearted and romantic narratives.); Interest in Animation (The user rates animated films positively, showing a preference for animated storytelling.); Affinity for Action and Adventure (Action and adventure films are frequently rated well, indicating a liking for thrilling and dynamic plots.); Preference for Thought-Provoking Themes (The user enjoys films that explore deeper themes, as seen in the high ratings for dramas with complex narratives.). Liked patterns: High ratings for films that blend comedy and romance., Strong preference for animated films, especially those with humor., Consistent enjoyment of action and adventure genres.. Disliked patterns: Negative rating for a specific action film that did not meet expectations..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies and romantic films receive high ratings, suggesting a fondness for light-hearted and romantic narratives.",
+          "taste": "Enjoyment of Comedy and Romance"
+        },
+        {
+          "reason": "The user rates animated films positively, showing a preference for animated storytelling.",
+          "taste": "Interest in Animation"
+        },
+        {
+          "reason": "Action and adventure films are frequently rated well, indicating a liking for thrilling and dynamic plots.",
+          "taste": "Affinity for Action and Adventure"
+        },
+        {
+          "reason": "The user enjoys films that explore deeper themes, as seen in the high ratings for dramas with complex narratives.",
+          "taste": "Preference for Thought-Provoking Themes"
+        }
+      ]
+    },
+    "user_id": 5821
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "c56d4b97793004b2fb552b451613238c032470e0fa8037e286cab27165f71c19",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      63,
+      3056,
+      252,
+      105,
+      279,
+      161,
+      1015,
+      45,
+      877,
+      1165
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9d27569b620342cbb5322e917d3d03f4"
+    ],
+    "sampled_item_ids": [
+      61,
+      85,
+      264,
+      269,
+      333,
+      360,
+      520,
+      631,
+      741,
+      789,
+      877,
+      910,
+      933,
+      1064,
+      1104,
+      1165,
+      1190,
+      1199,
+      1251,
+      1260,
+      1271,
+      1716,
+      2156,
+      2373,
+      2548
+    ],
+    "seed": 42,
+    "source_hash": "5b602640d109fd0afa736aeeebcfa952c1381e06d6420bbbea1284ca0e707d95",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 772,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Christopher Lambert",
+          "Natasha Henstridge",
+          "Norbert Weisser",
+          "Elizabeth Barondes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Albert Pyun",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a not-too-distant future, a lethal virus sweeps across Europe, prompting the creation of quarantine refugee camps in the United States. Police officers Delon (Natasha Henstridge) and Lemieux (Christopher Lambert) learn of a grisly murder in the Boston camp and team up to investigate. Suspecting the ruthless killer is infected with the virus, the pair have just hours to stop him before he becomes contagious and infects the entire population.",
+        "release_date": "1996-11-29",
+        "release_year": "1996",
+        "title": "Adrenalin: Fear the Rush"
+      },
+      {
+        "cast": [
+          "David Duchovny",
+          "Gillian Anderson",
+          "Mitch Pileggi",
+          "William B. Davis"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Rob Bowman",
+        "genres": [
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mulder and Scully, now taken off the FBI's X Files cases, must find a way to fight the shadowy elements of the government to find out the truth about a conspiracy that might mean the alien colonization of Earth.",
+        "release_date": "1998-06-19",
+        "release_year": "1998",
+        "title": "X-Files: Fight the Future, The"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Hal Holbrook",
+          "Adrienne Barbeau",
+          "Fritz Weaver",
+          "Leslie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George A. Romero",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Inspired by the E.C. comics of the 1950s, George A.Romero and Stephen King bring five tales of terror to the screen.",
+        "release_date": "1982-11-12",
+        "release_year": "1982",
+        "title": "Creepshow"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Bill Pullman",
+          "Jeff Goldblum",
+          "Mary McDonnell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "On July 2, a giant alien mothership enters orbit around Earth and deploys several dozen saucer-shaped 'destroyer' spacecraft that quickly lay waste to major cities around the planet. On July 3, the United States conducts a coordinated counterattack that fails. On July 4, a plan is devised to gain access to the interior of the alien mothership in space, in order to plant a nuclear missile.",
+        "release_date": "1996-06-25",
+        "release_year": "1996",
+        "title": "Independence Day (ID4)"
+      },
+      {
+        "cast": [
+          "Rufus Sewell",
+          "William Hurt",
+          "Kiefer Sutherland",
+          "Jennifer Connelly"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "release_date": "1998-02-27",
+        "release_year": "1998",
+        "title": "Dark City"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Angelina Jolie",
+          "Queen Latifah",
+          "Michael Rooker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Rookie cop, Amelia Donaghy reluctantly teams with Lincoln Rhyme – formerly the department's top homicide detective but now paralyzed as a result of a spinal injury – to catch a grisly serial killer dubbed 'The Bone Collector'. The murderer's special signature is to leave tantalizing clues based on the grim remains of his crimes.",
+        "release_date": "1999-11-04",
+        "release_year": "1999",
+        "title": "Bone Collector, The"
+      },
+      {
+        "cast": [
+          "Jamie Foxx",
+          "Tommy Davidson",
+          "Vivica A. Fox",
+          "Tamala Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeff Pollack",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Rushon is sexually pent-up and ready to take thing things to the next level with his girlfriend, Nikki. But when he calls for a date, she asks to make it a double -- bringing along her brash friend Lysterine, whom Rushon sets up with his lewd buddy, Bunz. Things go better than expected. As the evening transitions from the restaurant to the bedroom, the two men go on a madcap search for what will surely make the night complete: condoms.",
+        "release_date": "1997-02-26",
+        "release_year": "1997",
+        "title": "Booty Call"
+      }
+    ],
+    "raw_user_id": "772",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 80
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9756653890326014
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack engaging narratives or humor.",
+        "Dislike for horror films that do not blend with other genres effectively."
+      ],
+      "liked_patterns": [
+        "Enjoyment of action and adventure films with a mix of sci-fi elements.",
+        "Preference for comedies that also incorporate romance or drama.",
+        "Attraction to horror films that include comedic aspects."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with adventurous themes, as seen in multiple ratings.); Comedy (The user appreciates humor and comedic elements, reflected in several positive ratings for comedies.); Sci-Fi (The user shows a preference for science fiction, indicated by a number of liked films in this genre.); Horror with Humor (The user seems to enjoy horror films that incorporate comedic elements, as evidenced by their ratings.); Thriller Elements (The user is drawn to films that blend drama with thriller aspects, as shown in their higher ratings.). Liked patterns: Enjoyment of action and adventure films with a mix of sci-fi elements., Preference for comedies that also incorporate romance or drama., Attraction to horror films that include comedic aspects.. Disliked patterns: Dislike for comedies that lack engaging narratives or humor., Dislike for horror films that do not blend with other genres effectively..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with adventurous themes, as seen in multiple ratings.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates humor and comedic elements, reflected in several positive ratings for comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows a preference for science fiction, indicated by a number of liked films in this genre.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user seems to enjoy horror films that incorporate comedic elements, as evidenced by their ratings.",
+          "taste": "Horror with Humor"
+        },
+        {
+          "reason": "The user is drawn to films that blend drama with thriller aspects, as shown in their higher ratings.",
+          "taste": "Thriller Elements"
+        }
+      ]
+    },
+    "user_id": 772
+  }
+}

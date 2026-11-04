@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "7276ea4ae795d24bee1be67bc5a137aba3293f8cfd3c4745512e5a095f23d722",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1632,
+      3091,
+      286,
+      1507,
+      1304,
+      1182,
+      149,
+      622,
+      1618,
+      1550
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5099fe03aadc4b34b3fbf79d3ad394a4"
+    ],
+    "sampled_item_ids": [
+      128,
+      142,
+      154,
+      183,
+      222,
+      401,
+      421,
+      449,
+      646,
+      669,
+      711,
+      714,
+      771,
+      814,
+      829,
+      871,
+      1088,
+      1175,
+      1436,
+      1501,
+      1668,
+      2235,
+      2393,
+      2589,
+      3259
+    ],
+    "seed": 42,
+    "source_hash": "06c8f322a9783a553704f7f0a1d1cdc3fed1249b3fd19dabd90e1c497d097a3b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 731,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bing Crosby",
+          "Fred Astaire",
+          "Marjorie Reynolds",
+          "Virginia Dale"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Sandrich",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Lovely Linda Mason has crooner Jim Hardy head over heels, but suave stepper Ted Hanover wants her for his new dance partner after femme fatale Lila Dixon gives him the brush. Jim's supper club, Holiday Inn, is the setting for the chase by Hanover and manager Danny Reed. The music's the thing.",
+        "release_date": "1942-08-04",
+        "release_year": "1942",
+        "title": "Holiday Inn"
+      },
+      {
+        "cast": [
+          "Ben Mendelsohn",
+          "Barry Otto",
+          "Toni Collette",
+          "Rachel Griffiths"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "Mark Joffe",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Lewis a young director get his first job directing a play at a mental hospital with the patients as the cast.  The play that is decided on is Cosi fan tutte an opera by Mozart.",
+        "release_date": "1996-03-04",
+        "release_year": "1996",
+        "title": "Cosi"
+      },
+      {
+        "cast": [
+          "Winona Ryder",
+          "Gena Rowlands",
+          "Lisanne Falk",
+          "Alan Randolph Scott"
+        ],
+        "country": [
+          "Germany",
+          "Finland",
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Jarmusch",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An anthology of 5 different cab drivers in 5 American and European cities and their remarkable fares on the same eventful night.",
+        "release_date": "1991-10-03",
+        "release_year": "1991",
+        "title": "Night on Earth"
+      },
+      {
+        "cast": [
+          "Carole Lombard",
+          "Jack Benny",
+          "Robert Stack",
+          "Felix Bressart"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ernst Lubitsch",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "During the Nazi occupation of Poland, an acting troupe becomes embroiled in a Polish soldier's efforts to track down a German spy.",
+        "release_date": "1942-03-05",
+        "release_year": "1942",
+        "title": "To Be or Not to Be"
+      },
+      {
+        "cast": [
+          "Mel Brooks",
+          "Dom DeLuise",
+          "Madeline Kahn",
+          "Harvey Korman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "An uproarious version of history that proves nothing is sacred – not even the Roman Empire, the French Revolution and the Spanish Inquisition.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "History of the World: Part I"
+      },
+      {
+        "cast": [
+          "Jack Lemmon",
+          "Walter Matthau",
+          "Ann-Margret",
+          "Burgess Meredith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Donald Petrie",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "For decades, next-door neighbors and former friends John and Max have feuded, trading insults and wicked pranks. When an attractive widow moves in nearby, their bad blood erupts into a high-stakes rivalry full of naughty jokes and adolescent hijinks. Will this love triangle destroy the two old grumps? Or will the geriatric odd couple overcome their differences and rediscover their friendship?",
+        "release_date": "1993-12-25",
+        "release_year": "1993",
+        "title": "Grumpy Old Men"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Jamie Lee Curtis",
+          "Tom Arnold",
+          "Bill Paxton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Harry Tasker is a secret agent for the United States Government. For years, he has kept his job from his wife, but is forced to reveal his identity and try to stop nuclear terrorists when he and his wife are kidnapped by them.",
+        "release_date": "1994-07-14",
+        "release_year": "1994",
+        "title": "True Lies"
+      },
+      {
+        "cast": [
+          "Hugh Grant",
+          "Julianne Moore",
+          "Tom Arnold",
+          "Joan Cusack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Columbus",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When he finds out his longtime girlfriend is pregnant, a commitment-phobe realizes he might have to change his lifestyle for better or much, much worse.",
+        "release_date": "1995-07-12",
+        "release_year": "1995",
+        "title": "Nine Months"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Shelley Duvall",
+          "Ray Walston",
+          "Paul Dooley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Altman",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Popeye is a super-strong, spinach-scarfing sailor man who's searching for his father. During a storm that wrecks his ship, Popeye washes ashore and winds up rooming at the Oyl household, where he meets Olive. Before he can win her heart, he must first contend with Olive's fiancé, Bluto.",
+        "release_date": "1980-12-12",
+        "release_year": "1980",
+        "title": "Popeye"
+      },
+      {
+        "cast": [
+          "Ernest Borgnine",
+          "Betsy Blair",
+          "Esther Minciotti",
+          "Augusta Ciolli"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Delbert Mann",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Marty, a butcher who lives in the Bronx with his mother is unmarried at 34. Good-natured but socially awkward he faces constant badgering from family and friends to get married but has reluctantly resigned himself to bachelorhood. Marty meets Clara, an unattractive school teacher, realising their emotional connection, he promises to call but family and friends try to convince him not to.",
+        "release_date": "1955-04-11",
+        "release_year": "1955",
+        "title": "Marty"
+      }
+    ],
+    "raw_user_id": "731",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 513
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1304889892343837
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that fail to deliver humor or engaging plots.",
+        "Negative reception towards films that mix genres ineffectively, particularly in comedy."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies, especially those that include romance or crime elements.",
+        "Enjoyment of films that combine action with humor or adventure.",
+        "Appreciation for classic dramas that explore themes of love and war."
+      ],
+      "summary": "Unique tastes: Comedy and Romance (A strong preference for films that blend humor with romantic themes, as evidenced by multiple high ratings in this genre.); Action and Adventure (Enjoyment of action-packed narratives, particularly those that also incorporate adventure elements.); Drama with Romantic Elements (Appreciation for dramatic films that explore romantic relationships, indicated by several favorable ratings.); Crime and Comedy (A liking for comedies that incorporate crime elements, showcasing a taste for humor intertwined with darker themes.); Classic Comedies (A preference for comedies that are well-regarded and have stood the test of time, as shown by high ratings for several notable titles.). Liked patterns: Strong preference for comedies, especially those that include romance or crime elements., Enjoyment of films that combine action with humor or adventure., Appreciation for classic dramas that explore themes of love and war.. Disliked patterns: Dislike for comedies that fail to deliver humor or engaging plots., Negative reception towards films that mix genres ineffectively, particularly in comedy..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for films that blend humor with romantic themes, as evidenced by multiple high ratings in this genre.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "Enjoyment of action-packed narratives, particularly those that also incorporate adventure elements.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "Appreciation for dramatic films that explore romantic relationships, indicated by several favorable ratings.",
+          "taste": "Drama with Romantic Elements"
+        },
+        {
+          "reason": "A liking for comedies that incorporate crime elements, showcasing a taste for humor intertwined with darker themes.",
+          "taste": "Crime and Comedy"
+        },
+        {
+          "reason": "A preference for comedies that are well-regarded and have stood the test of time, as shown by high ratings for several notable titles.",
+          "taste": "Classic Comedies"
+        }
+      ]
+    },
+    "user_id": 731
+  }
+}

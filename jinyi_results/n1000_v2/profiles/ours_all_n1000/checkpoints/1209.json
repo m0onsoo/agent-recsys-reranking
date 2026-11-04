@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "3f849ec71841cc85a455a64acc7a5b569438eb4656efcf2f7fa095931921bb20",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      481,
+      1577,
+      169,
+      2092,
+      53,
+      128,
+      1299,
+      767,
+      1394,
+      1229
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "4003359fe16a48d99293468862b93db7"
+    ],
+    "sampled_item_ids": [
+      61,
+      125,
+      130,
+      205,
+      274,
+      293,
+      548,
+      696,
+      702,
+      712,
+      760,
+      766,
+      774,
+      926,
+      1116,
+      1150,
+      1152,
+      1275,
+      1276,
+      1309,
+      1345,
+      1583,
+      1650,
+      1836,
+      3220
+    ],
+    "seed": 42,
+    "source_hash": "c83ca709d69d2719aeabf788fbf75ae53f9eea7071d5e24e592e5d75ccb18b59",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1209,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Al Pacino",
+          "Cameron Diaz",
+          "Dennis Quaid",
+          "James Woods"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A star quarterback gets knocked out of the game and an unknown third stringer is called in to replace him. The unknown gives a stunning performance and forces the aging coach to reevaluate his game plans and life. A new co-owner/president adds to the pressure of winning. The new owner must prove her self in a male dominated world.",
+        "release_date": "1999-12-16",
+        "release_year": "1999",
+        "title": "Any Given Sunday"
+      },
+      {
+        "cast": [
+          "Patrick Macnee",
+          "Dennis Dugan",
+          "Christopher Stone",
+          "Belinda Balaski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After a bizarre and near fatal encounter with a serial killer, a newswoman is sent to a rehabilitation center whose inhabitants may not be what they seem.",
+        "release_date": "1981-04-03",
+        "release_year": "1980",
+        "title": "Howling, The"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Anthony Michael Hall",
+          "Judd Nelson",
+          "Molly Ringwald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Five high school students, all different stereotypes, meet in detention, where they pour their hearts out to each other, and discover how they have a lot more in common than they thought.",
+        "release_date": "1985-02-15",
+        "release_year": "1985",
+        "title": "Breakfast Club, The"
+      },
+      {
+        "cast": [
+          "Gregory Hines",
+          "Billy Crystal",
+          "Steven Bauer",
+          "Darlanne Fluegel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two street-wise Chicago cops have to shake off some rust after returning from a Key West vacation to pursue a drug dealer that nearly killed them in the past.",
+        "release_date": "1986-06-27",
+        "release_year": "1986",
+        "title": "Running Scared"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Ethan Hawke",
+          "Robert Sean Leonard",
+          "Gale Hansen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "At an elite, old-fashioned boarding school in New England, a passionate English teacher inspires his students to rebel against convention and seize the potential of every day, courting the disdain of the stern headmaster.",
+        "release_date": "1989-06-02",
+        "release_year": "1989",
+        "title": "Dead Poets Society"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Susan Sarandon",
+          "Tim Robbins",
+          "Trey Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Veteran catcher Crash Davis is brought to the minor league Durham Bulls to help their up and coming pitching prospect, \"Nuke\" Laloosh. Their relationship gets off to a rocky start and is further complicated when baseball groupie Annie Savoy sets her sights on the two men.",
+        "release_date": "1988-06-15",
+        "release_year": "1988",
+        "title": "Bull Durham"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Ralph Macchio",
+          "Pat Morita",
+          "William Zabka",
+          "Martin Kove"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Hassled by the school bullies, Daniel LaRusso has his share of adolescent woes. Luckily, his apartment building houses a resident martial arts master: Kesuke Miyagi, who agrees to train Daniel ... and ends up teaching him much more than self-defense. Armed with newfound confidence, skill and wisdom, Daniel ultimately faces off against his tormentors in this hugely popular classic underdog tale.",
+        "release_date": "1984-06-22",
+        "release_year": "1984",
+        "title": "Karate Kid, The"
+      },
+      {
+        "cast": [
+          "Matthew Modine",
+          "Adam Baldwin",
+          "Vincent D'Onofrio",
+          "R. Lee Ermey"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+        "release_date": "1987-06-26",
+        "release_year": "1987",
+        "title": "Full Metal Jacket"
+      }
+    ],
+    "raw_user_id": "1209",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 177
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8675471260580758
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that do not resonate with the user.",
+        "Dislike for comedies that fail to deliver humor effectively."
+      ],
+      "liked_patterns": [
+        "Enjoyment of action and adventure films with strong narratives.",
+        "Appreciation for comedies that blend humor with relatable themes.",
+        "Interest in dramas that focus on character-driven stories."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Comedy (The user appreciates humor and light-hearted storytelling, as seen in multiple comedies rated positively.); Drama (The user is drawn to films with strong emotional narratives and character development.); Mystery and Thriller (The user shows interest in suspenseful plots that engage with intrigue and tension.); Sci-Fi (The user enjoys imaginative and speculative storytelling that explores futuristic concepts.). Liked patterns: Enjoyment of action and adventure films with strong narratives., Appreciation for comedies that blend humor with relatable themes., Interest in dramas that focus on character-driven stories.. Disliked patterns: Dislike for horror films that do not resonate with the user., Dislike for comedies that fail to deliver humor effectively..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates humor and light-hearted storytelling, as seen in multiple comedies rated positively.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to films with strong emotional narratives and character development.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows interest in suspenseful plots that engage with intrigue and tension.",
+          "taste": "Mystery and Thriller"
+        },
+        {
+          "reason": "The user enjoys imaginative and speculative storytelling that explores futuristic concepts.",
+          "taste": "Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 1209
+  }
+}

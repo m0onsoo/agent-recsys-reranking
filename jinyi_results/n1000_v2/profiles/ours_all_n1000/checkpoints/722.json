@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "398175f471ebb3bff21cb3744820074a27dd7ab848dd0f0382ed3325614a1891",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      260,
+      1164,
+      135,
+      906,
+      76,
+      1521,
+      130,
+      230,
+      329,
+      114
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "27e95c0c781c44188cffd7159e9d3254"
+    ],
+    "sampled_item_ids": [
+      24,
+      30,
+      40,
+      41,
+      42,
+      59,
+      76,
+      114,
+      117,
+      124,
+      130,
+      135,
+      284,
+      329,
+      339,
+      438,
+      449,
+      508,
+      539,
+      744,
+      1324,
+      1521,
+      1529,
+      1630,
+      1797
+    ],
+    "seed": 42,
+    "source_hash": "e7cbe44302475da788643cb011fc0035ff0d60a9c3443d7f6c26e6a59733bf68",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 722,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Stephen Baldwin",
+          "Gabriel Byrne",
+          "Chazz Palminteri",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Usual Suspects, The"
+      },
+      {
+        "cast": [
+          "Robert Duvall",
+          "Billy Bob Thornton",
+          "June Carter Cash",
+          "Farrah Fawcett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Duvall",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After his happy life spins out of control, a preacher from Texas changes his name, goes to Louisiana and starts preaching on the radio.",
+        "release_date": "1997-10-09",
+        "release_year": "1997",
+        "title": "Apostle, The"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sean Penn",
+          "Deborah Kara Unger",
+          "James Rebhorn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In honor of his birthday, San Francisco banker Nicholas Van Orton, a financial genius and a coldhearted loner, receives an unusual present from his younger brother, Conrad -- a gift certificate to play a unique kind of game. In nearly a nanosecond, Nicholas finds himself consumed by a dangerous set of ever-changing rules, unable to distinguish where the charade ends and reality begins.",
+        "release_date": "1997-09-12",
+        "release_year": "1997",
+        "title": "Game, The"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Robin Williams",
+          "Mercedes Ruehl",
+          "Amanda Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Two troubled men face their terrible destinies and events of their past as they join together on a mission to find the Holy Grail and thus to save themselves.",
+        "release_date": "1991-09-09",
+        "release_year": "1991",
+        "title": "Fisher King, The"
+      },
+      {
+        "cast": [],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Interviews with the public are used to put words in animal mouths, in the Oscar-winning film from the creator of Wallace and Gromit.",
+        "release_date": "1989-07-15",
+        "release_year": "1990",
+        "title": "Creature Comforts"
+      },
+      {
+        "cast": [
+          "Ian Bannen",
+          "David Kelly",
+          "Fionnula Flanagan",
+          "Susan Lynch"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kirk Jones",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a lottery winner dies of shock, his fellow townsfolk attempt to claim the money.",
+        "release_date": "1998-09-15",
+        "release_year": "1998",
+        "title": "Waking Ned Devine"
+      },
+      {
+        "cast": [
+          "Jennifer Tilly",
+          "Gina Gershon",
+          "Joe Pantoliano",
+          "John P. Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Corky, a tough female ex con and her lover Violet concoct a scheme to steal millions of stashed mob money and pin the blame on Violet's crooked boyfriend Caeser.",
+        "release_date": "1996-09-13",
+        "release_year": "1996",
+        "title": "Bound"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Sharon Stone",
+          "Joe Pesci",
+          "James Woods"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The life of the gambling paradise – Las Vegas – and its dark mafia underbelly.",
+        "release_date": "1995-11-22",
+        "release_year": "1995",
+        "title": "Casino"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      }
+    ],
+    "raw_user_id": "722",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 45
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6784056124932372
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to films that are primarily focused on drama without engaging elements.",
+        "Dislike for films that do not resonate emotionally or lack character depth."
+      ],
+      "liked_patterns": [
+        "Strong preference for films that combine drama with other genres like romance and comedy.",
+        "High ratings for animated films that appeal to a broad audience.",
+        "Consistent enjoyment of films with strong character development and emotional depth."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, often rating them highly.); Comedy (The user enjoys comedic films, particularly those that blend humor with other genres.); Animation (The user appreciates animated films, especially those that appeal to both children and adults.); Romance (The user is drawn to romantic elements within various genres, often rating these films positively.); Thriller (The user has a liking for thrillers, particularly when they incorporate elements of drama.). Liked patterns: Strong preference for films that combine drama with other genres like romance and comedy., High ratings for animated films that appeal to a broad audience., Consistent enjoyment of films with strong character development and emotional depth.. Disliked patterns: Negative response to films that are primarily focused on drama without engaging elements., Dislike for films that do not resonate emotionally or lack character depth..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, often rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedic films, particularly those that blend humor with other genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates animated films, especially those that appeal to both children and adults.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user is drawn to romantic elements within various genres, often rating these films positively.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user has a liking for thrillers, particularly when they incorporate elements of drama.",
+          "taste": "Thriller"
+        }
+      ]
+    },
+    "user_id": 722
+  }
+}

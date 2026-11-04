@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "6558d5488b8f459fc6093baa240d07498d5912f4b674224557a6d4cf96f5fdbc",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      609,
+      61,
+      995,
+      592,
+      645,
+      2549,
+      757,
+      791,
+      632,
+      1185
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "f59d22e69e6f4944b9a7f025133339ce"
+    ],
+    "sampled_item_ids": [
+      61,
+      237,
+      317,
+      372,
+      565,
+      586,
+      612,
+      642,
+      725,
+      757,
+      770,
+      830,
+      879,
+      890,
+      955,
+      968,
+      992,
+      1002,
+      1016,
+      1059,
+      1216,
+      1727,
+      2259,
+      2494,
+      3007
+    ],
+    "seed": 42,
+    "source_hash": "20c2c3136aeec08194b9a6271f5c1756bacbb72f96e06eb5a3c577cb4c154e37",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3607,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Peggy Lee",
+          "Barbara Luddy",
+          "Larry Roberts",
+          "Bill Thompson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hamilton Luske",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Lady, a golden cocker spaniel, meets up with a mongrel dog who calls himself the Tramp. He is obviously from the wrong side of town, but happenings at Lady's home make her decide to travel with him for a while.",
+        "release_date": "1955-06-16",
+        "release_year": "1955",
+        "title": "Lady and the Tramp"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Malcolm McDowell",
+          "Patrick Magee",
+          "Adrienne Corri",
+          "Michael Bates"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.",
+        "release_date": "1971-12-18",
+        "release_year": "1971",
+        "title": "Clockwork Orange, A"
+      },
+      {
+        "cast": [
+          "Jim Henson",
+          "Kathryn Mullen",
+          "Frank Oz",
+          "Dave Goelz"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Henson",
+        "genres": [
+          "Children's",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "On another planet in the distant past, a Gelfling embarks on a quest to find the missing shard of a magical crystal and restore order to his world, before the grotesque race of Skeksis find and use the crystal for evil.",
+        "release_date": "1982-12-17",
+        "release_year": "1982",
+        "title": "Dark Crystal, The"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral Kirk and his bridge crew risk their careers stealing the decommissioned Enterprise to return to the restricted Genesis planet to recover Spock's body.",
+        "release_date": "1984-05-31",
+        "release_year": "1984",
+        "title": "Star Trek III: The Search for Spock"
+      },
+      {
+        "cast": [
+          "Gabrielle Anwar",
+          "Terry Kinney",
+          "Billy Wirth",
+          "Christine Elise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Abel Ferrara",
+        "genres": [
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When Environmental Protection Agency inspector Steve Malone travels to a remote military base in order to check for toxic materials, he brings his family along for the ride. After arriving at the base, his teenage daughter Marti befriends Jean Platt, daughter of the base's commander, General Platt. When people at the base begin acting strangely, Marti becomes convinced that they are slowly being replaced by plant-like aliens.",
+        "release_date": "1993-06-09",
+        "release_year": "1993",
+        "title": "Body Snatchers"
+      },
+      {
+        "cast": [
+          "Graham Chapman",
+          "John Cleese",
+          "Terry Gilliam",
+          "Eric Idle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Jones",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Brian Cohen is an average young Jewish man, but through a series of ridiculous events, he gains a reputation as the Messiah. When he's not dodging his followers or being scolded by his shrill mother, the hapless Brian has to contend with the pompous Pontius Pilate and acronym-obsessed members of a separatist movement. Rife with Monty Python's signature absurdity, the tale finds Brian's life paralleling Biblical lore, albeit with many more laughs.",
+        "release_date": "1979-08-17",
+        "release_year": "1979",
+        "title": "Monty Python's Life of Brian"
+      },
+      {
+        "cast": [
+          "Michael C. Williams",
+          "Heather Donahue",
+          "Joshua Leonard",
+          "Bob Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Myrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Blair Witch Project, The"
+      },
+      {
+        "cast": [
+          "Peter Sellers",
+          "Shirley MacLaine",
+          "Melvyn Douglas",
+          "Jack Warden"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hal Ashby",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A simple-minded gardener named Chance has spent all his life in the Washington D.C. house of an old man. When the man dies, Chance is put out on the street with no knowledge of the world except what he has learned from television.",
+        "release_date": "1979-12-19",
+        "release_year": "1979",
+        "title": "Being There"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Diane Lane",
+          "Armand Assante",
+          "Rob Schneider"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Danny Cannon",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future, Dredd, the most famous judge (a cop with instant field judiciary powers) is convicted for a crime he did not commit while his murderous counterpart escapes.",
+        "release_date": "1995-06-30",
+        "release_year": "1995",
+        "title": "Judge Dredd"
+      }
+    ],
+    "raw_user_id": "3607",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 208
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8839978477144049
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films, particularly those that are part of a series or franchise."
+      ],
+      "liked_patterns": [
+        "Enjoyment of films that blend comedy with other genres, such as drama and crime.",
+        "Preference for films that feature strong sci-fi elements, particularly those with adventure themes.",
+        "Positive ratings for films that incorporate suspense and thriller elements."
+      ],
+      "summary": "Unique tastes: Appreciation for Sci-Fi (The user enjoys a variety of sci-fi films, indicating a strong interest in speculative themes and futuristic concepts.); Fondness for Comedy (The user rates several comedies highly, suggesting a preference for humor and light-hearted storytelling.); Interest in Drama (The user has rated multiple drama films positively, showing an appreciation for character-driven narratives and emotional depth.); Enjoyment of Thrillers (The user has a notable interest in thrillers, indicating a preference for suspenseful and engaging plots.); Affinity for War Themes (The user has rated war-related films highly, suggesting an interest in historical and conflict-driven narratives.). Liked patterns: Enjoyment of films that blend comedy with other genres, such as drama and crime., Preference for films that feature strong sci-fi elements, particularly those with adventure themes., Positive ratings for films that incorporate suspense and thriller elements.. Disliked patterns: Dislike for horror films, particularly those that are part of a series or franchise..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of sci-fi films, indicating a strong interest in speculative themes and futuristic concepts.",
+          "taste": "Appreciation for Sci-Fi"
+        },
+        {
+          "reason": "The user rates several comedies highly, suggesting a preference for humor and light-hearted storytelling.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user has rated multiple drama films positively, showing an appreciation for character-driven narratives and emotional depth.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has a notable interest in thrillers, indicating a preference for suspenseful and engaging plots.",
+          "taste": "Enjoyment of Thrillers"
+        },
+        {
+          "reason": "The user has rated war-related films highly, suggesting an interest in historical and conflict-driven narratives.",
+          "taste": "Affinity for War Themes"
+        }
+      ]
+    },
+    "user_id": 3607
+  }
+}

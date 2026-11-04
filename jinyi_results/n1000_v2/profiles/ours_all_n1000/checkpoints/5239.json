@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "c5eebf1e0327f28bc1109810e2823ff14e804b163465cfa6112557d836e77d42",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      840,
+      239,
+      2507,
+      421,
+      208,
+      2604,
+      568,
+      2338,
+      2223,
+      1277
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      1,
+      2,
+      43,
+      55,
+      88,
+      117,
+      207,
+      208,
+      210,
+      211,
+      218,
+      361,
+      387,
+      433,
+      605,
+      702,
+      1286,
+      1349,
+      1373,
+      1634,
+      1663,
+      2147,
+      2213,
+      2287,
+      2338
+    ],
+    "seed": 42,
+    "source_hash": "bc9caee0a486d7079b4ae97e36e8f9c4ed64cdc6b71a21872f6f8b720cc9e054",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5239,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Steve McQueen",
+          "James Garner",
+          "Richard Attenborough",
+          "James Donald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Sturges",
+        "genres": [
+          "Adventure",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The Nazis, exasperated at the number of escapes from their prison camps by a relatively small number of Allied prisoners, relocates them to a high-security 'escape-proof' camp to sit out the remainder of the war. Undaunted, the prisoners plan one of the most ambitious escape attempts of World War II. Based on a true story.",
+        "release_date": "1963-06-20",
+        "release_year": "1963",
+        "title": "Great Escape, The"
+      },
+      {
+        "cast": [
+          "Holly Hunter",
+          "Harvey Keitel",
+          "Sam Neill",
+          "Anna Paquin"
+        ],
+        "country": [
+          "New Zealand",
+          "Australia",
+          "France"
+        ],
+        "director": "Jane Campion",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "After a long voyage from Scotland, pianist Ada McGrath and her young daughter, Flora, are left with all their belongings, including a piano, on a New Zealand beach. Ada, who has been mute since childhood, has been sold into marriage to a local man named Alisdair Stewart. Making little attempt to warm up to Alisdair, Ada soon becomes intrigued by his Maori-friendly acquaintance, George Baines, leading to tense, life-altering conflicts.",
+        "release_date": "1993-05-19",
+        "release_year": "1993",
+        "title": "Piano, The"
+      },
+      {
+        "cast": [
+          "Colm Feore",
+          "Derek Keurvorst",
+          "Derek Keurvorst",
+          "Katya Ladan"
+        ],
+        "country": [
+          "Finland",
+          "Canada",
+          "Netherlands",
+          "Portugal"
+        ],
+        "director": "François Girard",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A collection of vignettes highlighting different aspects of the life, work, and character of the acclaimed Canadian classical pianist.",
+        "release_date": "1993-11-26",
+        "release_year": "1993",
+        "title": "Thirty-Two Short Films About Glenn Gould"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      },
+      {
+        "cast": [
+          "Jodi Benson",
+          "Christopher Daniel Barnes",
+          "Jason Marin",
+          "Samuel E. Wright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Clements",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "This colorful adventure tells the story of an impetuous mermaid princess named Ariel who falls in love with the very human Prince Eric and puts everything on the line for the chance to be with him. Memorable songs and characters -- including the villainous sea witch Ursula.",
+        "release_date": "1989-11-17",
+        "release_year": "1989",
+        "title": "Little Mermaid, The"
+      },
+      {
+        "cast": [
+          "Michael McKean",
+          "Sean Young",
+          "Héctor Elizondo",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Garry Marshall",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "An \"Airplane!\"-style spoof of hospital soap operas: a brilliant young trainee can't stand the sight of blood; a doctor romances the head nurse in order to get the key to the drugs cabinet; there's a mafioso on the loose disguised as a woman - in other words all the usual ingredients present and correct, though in this case the laughs are intentional.",
+        "release_date": "1982-07-16",
+        "release_year": "1982",
+        "title": "Young Doctors in Love"
+      },
+      {
+        "cast": [
+          "Patrick Swayze",
+          "Demi Moore",
+          "Whoopi Goldberg",
+          "Tony Goldwyn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Zucker",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Wheat is a banker, Molly Jensen is an artist, and the two are madly in love. However, when Sam is murdered by his friend and corrupt business partner Carl Bruner over a shady business deal, he is left to roam the earth as a powerless spirit. When he learns of Carl's betrayal, Sam must seek the help of psychic Oda Mae Brown to set things right and protect Molly from Carl and his goons.",
+        "release_date": "1990-07-12",
+        "release_year": "1990",
+        "title": "Ghost"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "John Turturro",
+          "Gretchen Mol",
+          "Goran Visnjic"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Dahl",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A young man is a reformed gambler who must return to playing big stakes poker to help a friend pay off loan sharks.",
+        "release_date": "1998-09-11",
+        "release_year": "1998",
+        "title": "Rounders"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Jessica Lange",
+          "Leland Palmer",
+          "Ann Reinking"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bob Fosse",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Bob Fosse's semi-autobiographical film celebrates show business stripped of glitz or giddy illusions. Joe Gideon (Roy Scheider) is at the top of the heap, one of the most successful directors and choreographers in musical theatre. But he can feel his world slowly collapsing around him--his obsession with work has almost destroyed his personal life, and only his bottles of pills keep him going.",
+        "release_date": "1979-12-20",
+        "release_year": "1979",
+        "title": "All That Jazz"
+      },
+      {
+        "cast": [
+          "Nicole Kidman",
+          "Matt Dillon",
+          "Joaquin Phoenix",
+          "Casey Affleck"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Susan wants to work in television and will therefore do anything it takes, even if it means killing her husband. A very dark comedy from independent director Gus Van Sant with a brilliant Nicole Kidman in the leading role.",
+        "release_date": "1995-05-20",
+        "release_year": "1995",
+        "title": "To Die For"
+      }
+    ],
+    "raw_user_id": "5239",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 229
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5075611927722973
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that do not resonate",
+        "Dislike for films with weak narratives or execution"
+      ],
+      "liked_patterns": [
+        "High ratings for drama and action films",
+        "Positive ratings for comedies that blend with other genres",
+        "Appreciation for animated films with musical elements"
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for drama films, consistently rating them highly.); Comedy (The user enjoys comedy films, often rating them positively, especially those with a mix of other genres.); Action (The user appreciates action films, frequently giving them favorable ratings.); Animation (The user has a liking for animated films, particularly those that are family-friendly or musical.); Romance (The user enjoys romance elements in films, often rating them well when combined with other genres.). Liked patterns: High ratings for drama and action films, Positive ratings for comedies that blend with other genres, Appreciation for animated films with musical elements. Disliked patterns: Low ratings for comedies that do not resonate, Dislike for films with weak narratives or execution.",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for drama films, consistently rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedy films, often rating them positively, especially those with a mix of other genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates action films, frequently giving them favorable ratings.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user has a liking for animated films, particularly those that are family-friendly or musical.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user enjoys romance elements in films, often rating them well when combined with other genres.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 5239
+  }
+}

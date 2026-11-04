@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "4b3c87ab5fab5dc5e4d704451df49841a302e223dfc142cbb9ed09ca6fb8dd28",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      798,
+      200,
+      124,
+      846,
+      1579,
+      113,
+      676,
+      198,
+      395,
+      247
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      84,
+      113,
+      124,
+      198,
+      200,
+      247,
+      280,
+      394,
+      395,
+      408,
+      611,
+      624,
+      676,
+      737,
+      739,
+      798,
+      846,
+      1231,
+      1349,
+      1508,
+      1579,
+      1620,
+      1920
+    ],
+    "seed": 42,
+    "source_hash": "df2fb78ffd306e3e698c11aad93b1e97d984622a85bf76f426dc54ba28f48512",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5467,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Christopher Guest",
+          "Michael McKean",
+          "Harry Shearer",
+          "Rob Reiner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "\"This Is Spinal Tap\" shines a light on the self-contained universe of a metal band struggling to get back on the charts, including everything from its complicated history of ups and downs, gold albums, name changes and undersold concert dates, along with the full host of requisite groupies, promoters, hangers-on and historians, sessions, release events and those special behind-the-scenes moments that keep it all real.",
+        "release_date": "1984-05-04",
+        "release_year": "1984",
+        "title": "This Is Spinal Tap"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Katharine Ross",
+          "Strother Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot 'Sundance Kid'. As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "release_year": "1969",
+        "title": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Mary McDonnell",
+          "Graham Greene",
+          "Rodney A. Grant"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kevin Costner",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Wounded Civil War soldier, John Dunbar tries to commit suicide – and becomes a hero instead. As a reward, he's assigned to his dream post, a remote junction on the Western frontier, and soon makes unlikely friends with the local Sioux tribe.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Dances with Wolves"
+      },
+      {
+        "cast": [
+          "John Wayne",
+          "Kim Darby",
+          "Jeremy Slate",
+          "Dennis Hopper"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Henry Hathaway",
+        "genres": [
+          "Adventure",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "The murder of her father sends a teenage tomboy, Mattie Ross (Kim Darby), on a mission of \"justice\", which involves avenging her father's death. She recruits a tough old marshal, \"Rooster\" Cogburn (John Wayne), because he has \"grit\", and a reputation of getting the job done. The two are joined by a Texas Ranger, La Boeuf (Glen Campbell), who is looking for the same man (Jeff Corey) for a separate murder in Texas. Their odyssey takes them from Fort Smith, Arkansas, deep into the Indian Territory (present day Oklahoma) to find their man.",
+        "release_date": "1969-06-11",
+        "release_year": "1969",
+        "title": "True Grit"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Lee Van Cleef",
+          "Gian Maria Volonté",
+          "Mario Brega"
+        ],
+        "country": [
+          "Italy",
+          "Spain",
+          "Germany"
+        ],
+        "director": "Sergio Leone",
+        "genres": [
+          "Western"
+        ],
+        "language": "Italian",
+        "overview": "Two bounty hunters are in pursuit of \"El Indio,\" one of the most wanted fugitives in the western territories, and his gang.",
+        "release_date": "1965-12-18",
+        "release_year": "1965",
+        "title": "For a Few Dollars More"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Karen Allen",
+          "Charles Martin Smith",
+          "Richard Jaeckel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An alien takes the form of a young widow's husband and asks her to drive him from Wisconsin to Arizona. The government tries to stop them.",
+        "release_date": "1984-12-13",
+        "release_year": "1984",
+        "title": "Starman"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Kathleen Turner",
+          "Danny DeVito",
+          "Spiros Focás"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lewis Teague",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Joan Wilder is thrust back into a world of murder, chases, foreign intrigue... and love. This time out she's duped by a duplicitous Arab dignitary who brings her to the Middle East, ostensibly to write a book about his life. Of course he's up to no good, and Joan is just another pawn in his wicked game. But Jack Colton and his sidekick Ralph show up to help our intrepid heroine save the day.",
+        "release_date": "1985-12-04",
+        "release_year": "1985",
+        "title": "Jewel of the Nile, The"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Kiefer Sutherland",
+          "Lou Diamond Phillips",
+          "Christian Slater"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Geoff Murphy",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Only three of the original five \"young guns\" -- Billy the Kid (Emilio Estevez), Jose Chavez y Chavez (Lou Diamond Phillips), and Doc Scurlock (Kiefer Sutherland) -- return in Young Guns, Part 2, which is the story of Billy the Kid and his race to safety in Old Mexico while being trailed by a group of government agents led by Pat Garrett",
+        "release_date": "1990-08-01",
+        "release_year": "1990",
+        "title": "Young Guns II"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Chief Dan George",
+          "Sondra Locke",
+          "Bill McKinney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "After avenging his family's brutal murder, Wales is pursued by a pack of soldiers. He prefers to travel alone, but ragtag outcasts are drawn to him - and Wales can't bring himself to leave them unprotected.",
+        "release_date": "1976-06-30",
+        "release_year": "1976",
+        "title": "Outlaw Josey Wales, The"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      }
+    ],
+    "raw_user_id": "5467",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 23
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.139275489346057
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "The user tends to dislike comedies that do not resonate well, particularly those that are purely comedic without deeper themes.",
+        "The user shows a negative response to Western films that do not meet their expectations, as indicated by low ratings for certain titles."
+      ],
+      "liked_patterns": [
+        "The user enjoys Western films that combine elements of drama and adventure.",
+        "The user rates comedies highly, especially those that incorporate other genres like drama or adventure.",
+        "The user appreciates films with strong character-driven narratives, particularly in the drama and Western genres."
+      ],
+      "summary": "Unique tastes: Western (The user shows a strong preference for Western films, as indicated by multiple high ratings for movies in this genre.); Drama (The user appreciates dramatic narratives, reflected in several high ratings for drama films.); Comedy (The user enjoys comedies, with a number of films rated positively, particularly those that blend comedy with other genres.); Adventure (The user has a liking for adventure films, as seen in the positive ratings for movies that incorporate adventure elements.); Crime and Mystery (The user is drawn to crime and mystery genres, evidenced by favorable ratings for films that explore these themes.). Liked patterns: The user enjoys Western films that combine elements of drama and adventure., The user rates comedies highly, especially those that incorporate other genres like drama or adventure., The user appreciates films with strong character-driven narratives, particularly in the drama and Western genres.. Disliked patterns: The user tends to dislike comedies that do not resonate well, particularly those that are purely comedic without deeper themes., The user shows a negative response to Western films that do not meet their expectations, as indicated by low ratings for certain titles..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for Western films, as indicated by multiple high ratings for movies in this genre.",
+          "taste": "Western"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, reflected in several high ratings for drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, with a number of films rated positively, particularly those that blend comedy with other genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user has a liking for adventure films, as seen in the positive ratings for movies that incorporate adventure elements.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "The user is drawn to crime and mystery genres, evidenced by favorable ratings for films that explore these themes.",
+          "taste": "Crime and Mystery"
+        }
+      ]
+    },
+    "user_id": 5467
+  }
+}

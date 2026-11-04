@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "b0066077faa5eb48e5f04eb0d14922ba4b97056cdd0091ef16e1ba591055ce68",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1407,
+      539,
+      950,
+      1345,
+      366,
+      451,
+      694,
+      24,
+      299,
+      1248
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8d76ec155f0742f9a43fd912180608d4"
+    ],
+    "sampled_item_ids": [
+      2,
+      8,
+      10,
+      187,
+      266,
+      271,
+      351,
+      451,
+      577,
+      585,
+      615,
+      702,
+      748,
+      792,
+      1108,
+      1218,
+      1226,
+      1461,
+      1732,
+      1767,
+      2433,
+      2497,
+      2514,
+      3088,
+      3174
+    ],
+    "seed": 42,
+    "source_hash": "56b693a005e678a36580f4b555a376c8fa585fcb0a1ed15b42cc81797130fb89",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 855,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jennifer Beals",
+          "Michael Nouri",
+          "Lilia Skala",
+          "Kyle T. Heffner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The popular 1980’s dance movie that depicts the life of an exotic dancer with a side job as a welder who true desire is to get into ballet school. It’s her dream to be a professional dancer and now is her chance. The film has a great soundtrack with an Oscar winning song.",
+        "release_date": "1983-04-14",
+        "release_year": "1983",
+        "title": "Flashdance"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Matthew McConaughey",
+          "James Woods",
+          "John Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Contact is a science fiction film about an encounter with alien intelligence. Based on the novel by Carl Sagan the film starred Jodie Foster as the one chosen scientist who must make some difficult decisions between her beliefs, the truth, and reality.",
+        "release_date": "1997-07-11",
+        "release_year": "1997",
+        "title": "Contact"
+      },
+      {
+        "cast": [
+          "Jennifer Lopez",
+          "Vincent D'Onofrio",
+          "Vince Vaughn",
+          "Marianne Jean-Baptiste"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Tarsem Singh",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychotherapist journeys inside a comatose serial killer in the hopes of saving his latest victim.",
+        "release_date": "2000-08-17",
+        "release_year": "2000",
+        "title": "Cell, The"
+      },
+      {
+        "cast": [
+          "Winona Ryder",
+          "Christian Slater",
+          "Shannen Doherty",
+          "Lisanne Falk"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Lehmann",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A girl who halfheartedly tries to be part of the \"in crowd\" of her school meets a rebel who teaches her a more devious way to play social politics: by killing the popular kids.",
+        "release_date": "1988-10-01",
+        "release_year": "1989",
+        "title": "Heathers"
+      },
+      {
+        "cast": [
+          "Heather Matarazzo",
+          "Victoria Davis",
+          "Christina Brucato",
+          "Christina Vidal"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Todd Solondz",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An unattractive 7th grader struggles to cope with suburban life as the middle child with un-attentive parents and bullies at school.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Welcome to the Dollhouse"
+      },
+      {
+        "cast": [
+          "Whitney Houston",
+          "Angela Bassett",
+          "Loretta Devine",
+          "Lela Rochon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Forest Whitaker",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Cheated on, mistreated and stepped on, the women are holding their breath, waiting for the elusive \"good man\" to break a string of less-than-stellar lovers. Friends and confidants Vannah, Bernie, Glo and Robin talk it all out, determined to find a better way to breathe.",
+        "release_date": "1995-12-22",
+        "release_year": "1995",
+        "title": "Waiting to Exhale"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Donna Reed",
+          "Lionel Barrymore",
+          "Thomas Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Capra",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "George Bailey has spent his entire life giving of himself to the people of Bedford Falls. He has always longed to travel but never had the opportunity in order to prevent rich skinflint Mr. Potter from taking over the entire town. All that prevents him from doing so is George's modest building and loan company, which was founded by his generous father. But on Christmas Eve, George's Uncle Billy loses the business's $8,000 while intending to deposit it in the bank. Potter finds the misplaced money, hides it from Billy, and George's troubles begin.",
+        "release_date": "1946-12-20",
+        "release_year": "1946",
+        "title": "It's a Wonderful Life"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Steve Buscemi",
+          "Catherine Keener",
+          "Dermot Mulroney",
+          "James Le Gros"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom DiCillo",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Film about filmmaking. It takes place during one day on set of non-budget movie. Ultimate tribute to all independent filmmakers.",
+        "release_date": "1995-01-20",
+        "release_year": "1995",
+        "title": "Living in Oblivion"
+      },
+      {
+        "cast": [
+          "Masatoshi Nagase",
+          "Youki Kudoh",
+          "Joe Strummer",
+          "Nicoletta Braschi"
+        ],
+        "country": [
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Jim Jarmusch",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Three stories are connected by a Memphis hotel and the spirit of Elvis Presley.",
+        "release_date": "1989-09-06",
+        "release_year": "1989",
+        "title": "Mystery Train"
+      }
+    ],
+    "raw_user_id": "855",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 505
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.30868065003776896
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films",
+        "Negative ratings for comedies that lack depth",
+        "Dislike for films with weak storytelling"
+      ],
+      "liked_patterns": [
+        "High ratings for animated and children's films",
+        "Positive ratings for comedies that blend humor with drama",
+        "Strong appreciation for musicals"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Children's Films (The user enjoys animated and children's films, as indicated by high ratings for multiple titles in these genres.); Fondness for Comedy and Drama Blends (The user rates several comedies that incorporate dramatic elements positively, suggesting a preference for humor with depth.); Interest in Musicals (The user has rated musicals highly, indicating a strong appreciation for music and performance in film.); Enjoyment of Adventure and Action (The user shows a liking for adventure and action films, reflected in positive ratings for titles in these genres.); Tendency to Appreciate Unique Storytelling (The user rates films with unconventional narratives or themes favorably, suggesting a preference for originality.). Liked patterns: High ratings for animated and children's films, Positive ratings for comedies that blend humor with drama, Strong appreciation for musicals. Disliked patterns: Low ratings for horror films, Negative ratings for comedies that lack depth, Dislike for films with weak storytelling.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated and children's films, as indicated by high ratings for multiple titles in these genres.",
+          "taste": "Appreciation for Animation and Children's Films"
+        },
+        {
+          "reason": "The user rates several comedies that incorporate dramatic elements positively, suggesting a preference for humor with depth.",
+          "taste": "Fondness for Comedy and Drama Blends"
+        },
+        {
+          "reason": "The user has rated musicals highly, indicating a strong appreciation for music and performance in film.",
+          "taste": "Interest in Musicals"
+        },
+        {
+          "reason": "The user shows a liking for adventure and action films, reflected in positive ratings for titles in these genres.",
+          "taste": "Enjoyment of Adventure and Action"
+        },
+        {
+          "reason": "The user rates films with unconventional narratives or themes favorably, suggesting a preference for originality.",
+          "taste": "Tendency to Appreciate Unique Storytelling"
+        }
+      ]
+    },
+    "user_id": 855
+  }
+}

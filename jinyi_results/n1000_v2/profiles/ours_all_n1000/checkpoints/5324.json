@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "2778f898fa9a837627e1e15a26e454dcb3ee33ba0571566037900f3078c6c9bc",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      227,
+      65,
+      1460,
+      840,
+      530,
+      105,
+      551,
+      522,
+      652,
+      510
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      39,
+      40,
+      60,
+      135,
+      157,
+      185,
+      245,
+      252,
+      275,
+      305,
+      438,
+      510,
+      530,
+      535,
+      619,
+      816,
+      840,
+      859,
+      867,
+      918,
+      923,
+      1025,
+      1146,
+      1242,
+      1968
+    ],
+    "seed": 42,
+    "source_hash": "e6cdecd8c2a2a558db9477dcdf610fb74395e38332cc72dfddbed39ab081225d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5324,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Johnny Depp",
+          "Al Pacino",
+          "Michael Madsen",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An FBI undercover agent infilitrates the mob and finds himself identifying more with the mafia life at the expense of his regular one.",
+        "release_date": "1997-02-27",
+        "release_year": "1997",
+        "title": "Donnie Brasco"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Shari Albert",
+          "Maxine Bahns",
+          "Catharine Bolz",
+          "Connie Britton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Burns",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Deals with the lives of the three Irish Catholic McMullen brothers from Long Island, New York, over three months, as they grapple with basic ideas and values — love, sex, marriage, religion and family — in the 1990s. Directed, written, produced by and starring Edward Burns.",
+        "release_date": "1995-08-09",
+        "release_year": "1995",
+        "title": "Brothers McMullen, The"
+      },
+      {
+        "cast": [
+          "Steve McQueen",
+          "James Garner",
+          "Richard Attenborough",
+          "James Donald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Sturges",
+        "genres": [
+          "Adventure",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The Nazis, exasperated at the number of escapes from their prison camps by a relatively small number of Allied prisoners, relocates them to a high-security 'escape-proof' camp to sit out the remainder of the war. Undaunted, the prisoners plan one of the most ambitious escape attempts of World War II. Based on a true story.",
+        "release_date": "1963-06-20",
+        "release_year": "1963",
+        "title": "Great Escape, The"
+      },
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Chazz Palminteri",
+          "Lillo Brancato",
+          "Francis Capra"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert De Niro",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster's growing attraction - forbidden in his neighborhood - for a beautiful black girl.",
+        "release_date": "1993-09-14",
+        "release_year": "1993",
+        "title": "Bronx Tale, A"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Drew Barrymore",
+          "Christine Taylor",
+          "Allen Covert"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Coraci",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Robbie, a local rock star turned wedding singer, is dumped on the day of his wedding. Meanwhile, waitress Julia finally sets a wedding date with her fiancée Glenn. When Julia and Robbie meet and hit it off, they find that things are more complicated than anybody thought.",
+        "release_date": "1998-02-13",
+        "release_year": "1998",
+        "title": "Wedding Singer, The"
+      },
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Vladimir Kulich",
+          "Dennis Storhøi",
+          "Daniel Southern"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In AD 922, Arab courtier, Ahmad Ibn Fadlan accompanies a party of Vikings to the barbaric North to combat a terror that slaughters Vikings and devours their flesh.",
+        "release_date": "1999-08-27",
+        "release_year": "1999",
+        "title": "13th Warrior, The"
+      },
+      {
+        "cast": [
+          "Mark Wahlberg",
+          "Burt Reynolds",
+          "John C. Reilly",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Thomas Anderson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Set in 1977, back when sex was safe, pleasure was a business and business was booming, idealistic porn producer Jack Horner aspires to elevate his craft to an art form. Horner discovers Eddie Adams, a hot young talent working as a busboy in a nightclub, and welcomes him into the extended family of movie-makers, misfits and hangers-on that are always around. Adams' rise from nobody to a celebrity adult entertainer is meteoric, and soon the whole world seems to know his porn alter ego, \"Dirk Diggler\". Now, when disco and drugs are in vogue, fashion is in flux and the party never seems to stop, Adams' dreams of turning sex into stardom are about to collide with cold, hard reality.",
+        "release_date": "1997-09-11",
+        "release_year": "1997",
+        "title": "Boogie Nights"
+      }
+    ],
+    "raw_user_id": "5324",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 139
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7625237063708282
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "A clear aversion to action films, as indicated by a low rating for one title."
+      ],
+      "liked_patterns": [
+        "A strong preference for thrillers and dramas, often rated highly.",
+        "A consistent enjoyment of comedies, with multiple ratings of 4 or above.",
+        "An appreciation for crime-related narratives, frequently rated positively."
+      ],
+      "summary": "Unique tastes: Thrillers (The user enjoys suspenseful narratives that keep them on the edge of their seat.); Dramas (The user appreciates character-driven stories that explore complex emotions and relationships.); Comedies (The user favors light-hearted films that provide humor and entertainment.); Crime Stories (The user is drawn to narratives involving crime, justice, and moral dilemmas.); Romantic Elements (The user enjoys films that incorporate romance, often intertwined with other genres.). Liked patterns: A strong preference for thrillers and dramas, often rated highly., A consistent enjoyment of comedies, with multiple ratings of 4 or above., An appreciation for crime-related narratives, frequently rated positively.. Disliked patterns: A clear aversion to action films, as indicated by a low rating for one title..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys suspenseful narratives that keep them on the edge of their seat.",
+          "taste": "Thrillers"
+        },
+        {
+          "reason": "The user appreciates character-driven stories that explore complex emotions and relationships.",
+          "taste": "Dramas"
+        },
+        {
+          "reason": "The user favors light-hearted films that provide humor and entertainment.",
+          "taste": "Comedies"
+        },
+        {
+          "reason": "The user is drawn to narratives involving crime, justice, and moral dilemmas.",
+          "taste": "Crime Stories"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romance, often intertwined with other genres.",
+          "taste": "Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 5324
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "e929aea7c1ef5980cb217580fc94a660501e483420db555215f7d086fa31e6f1",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1704,
+      2182,
+      1143,
+      563,
+      491,
+      45,
+      1434,
+      2124,
+      1063,
+      1064
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      3,
+      43,
+      129,
+      176,
+      207,
+      626,
+      669,
+      674,
+      1024,
+      1096,
+      1100,
+      1119,
+      1128,
+      1138,
+      1258,
+      1327,
+      1329,
+      1382,
+      1397,
+      1570,
+      1850,
+      1861,
+      1982,
+      2342,
+      3146
+    ],
+    "seed": 42,
+    "source_hash": "6191baf5ddc82eee893b81af75d6b5d7f7c7d37027e57fee7eff2170c26e48c9",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5954,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Steve McQueen",
+          "Paul Newman",
+          "William Holden",
+          "Faye Dunaway"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Guillermin",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "At the opening party of a colossal - but poorly constructed - office building, a massive fire breaks out that threatens to destroy the tower and everyone in it.",
+        "release_date": "1974-12-14",
+        "release_year": "1974",
+        "title": "Towering Inferno, The"
+      },
+      {
+        "cast": [
+          "Rica Matsumoto",
+          "Mayumi Iizuka",
+          "Yūji Ueda",
+          "Ikue Ōtani"
+        ],
+        "country": [
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Michael Haigney",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "Japanese",
+        "overview": "The adventure explodes into action with the debut of Mewtwo, a bio-engineered Pokemon created from the DNA of Mew, the rarest of all Pokemon. Determined to prove its superiority, Mewtwo lures Ash, Pikachu and others into a Pokemon match like none before. Mewtwo vs. Mew. Super-clones vs. Pokemon. It's the ultimate showdown ... with the very future of the world at stake!",
+        "release_date": "1998-07-18",
+        "release_year": "1998",
+        "title": "Pokémon: The First Movie"
+      },
+      {
+        "cast": [
+          "Penelope Ann Miller",
+          "Tom Sizemore",
+          "Linda Hunt",
+          "James Whitmore"
+        ],
+        "country": [
+          "Germany",
+          "Japan",
+          "New Zealand",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A researcher at Chicago's Natural History Museum returns from South America with some crates containing his findings. When the crates arrive at the museum without the owner there appears to be very little inside. However, police discover gruesome murders on the cargo ship that brought the crates to the US and then another murder in the museum itself.",
+        "release_date": "1997-01-10",
+        "release_year": "1997",
+        "title": "Relic, The"
+      },
+      {
+        "cast": [
+          "Groucho Marx",
+          "Harpo Marx",
+          "Chico Marx",
+          "Zeppo Marx"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leo McCarey",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Rufus T. Firefly is named president/dictator of bankrupt Freedonia and declares war on neighboring Sylvania over the love of wealthy Mrs. Teasdale.",
+        "release_date": "1933-11-17",
+        "release_year": "1933",
+        "title": "Duck Soup"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "Joan Allen",
+          "Powers Boothe",
+          "Ed Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An all-star cast powers this epic look at American President Richard M. Nixon, a man carrying the fate of the world on his shoulders while battling the self-destructive demands within. Spanning his troubled boyhood in California to the shocking Watergate scandal that would end his presidency.",
+        "release_date": "1995-12-22",
+        "release_year": "1995",
+        "title": "Nixon"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Danny DeVito",
+          "Bette Midler",
+          "Judge Reinhold",
+          "Helen Slater"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Abrahams",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A couple, cheated by a vile businessman, kidnap his wife in retaliation, without knowing that their enemy is delighted they did.",
+        "release_date": "1986-06-26",
+        "release_year": "1986",
+        "title": "Ruthless People"
+      },
+      {
+        "cast": [
+          "Robert Redford",
+          "Peter Boyle",
+          "Melvyn Douglas",
+          "Don Porter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Ritchie",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Bill McKay is a candidate for the U.S. Senate from California. He has no hope of winning, so he is willing to tweak the establishment.",
+        "release_date": "1972-08-23",
+        "release_year": "1972",
+        "title": "Candidate, The"
+      },
+      {
+        "cast": [
+          "Hayley Mills",
+          "Maureen O'Hara",
+          "Brian Keith",
+          "Charles Ruggles"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Swift",
+        "genres": [
+          "Children's",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Hayley Mills plays twins who, unknown to their divorced parents, meet at a summer camp. Products of single parent households, they switch places (surprise!) so as to meet the parent they never knew, and then contrive to reunite them.",
+        "release_date": "1961-06-12",
+        "release_year": "1961",
+        "title": "Parent Trap, The"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Jean Reno",
+          "Maria Pitillo",
+          "Hank Azaria"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When a freighter is viciously attacked in the Pacific Ocean, a team of experts -- including biologist Niko Tatopoulos and scientists Elsie Chapman and Mendel Craven -- concludes that an oversized reptile is the culprit. Before long, the giant lizard is loose in Manhattan, destroying everything within its reach. The team chases the monster to Madison Square Garden, where a brutal battle ensues.",
+        "release_date": "1998-05-20",
+        "release_year": "1998",
+        "title": "Godzilla"
+      }
+    ],
+    "raw_user_id": "5954",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 800
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.5477340451323165
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films",
+        "Negative reception of children's comedies",
+        "Dislike for action-romance hybrids"
+      ],
+      "liked_patterns": [
+        "High ratings for drama films",
+        "Positive reception of comedy films",
+        "Favoring musicals and their themes"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (Multiple comedy films receive favorable ratings, suggesting a liking for humor and comedic storytelling.); Interest in Thrillers (The user shows a preference for thriller elements, as seen in the high ratings for drama-thriller hybrids.); Fondness for Musicals (The user rates musical films positively, indicating an enjoyment of music and performance in cinema.); Attraction to Fantasy and Adventure (The user appreciates fantasy and adventure genres, as evidenced by high ratings for films in these categories.). Liked patterns: High ratings for drama films, Positive reception of comedy films, Favoring musicals and their themes. Disliked patterns: Low ratings for horror films, Negative reception of children's comedies, Dislike for action-romance hybrids.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Multiple comedy films receive favorable ratings, suggesting a liking for humor and comedic storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a preference for thriller elements, as seen in the high ratings for drama-thriller hybrids.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user rates musical films positively, indicating an enjoyment of music and performance in cinema.",
+          "taste": "Fondness for Musicals"
+        },
+        {
+          "reason": "The user appreciates fantasy and adventure genres, as evidenced by high ratings for films in these categories.",
+          "taste": "Attraction to Fantasy and Adventure"
+        }
+      ]
+    },
+    "user_id": 5954
+  }
+}

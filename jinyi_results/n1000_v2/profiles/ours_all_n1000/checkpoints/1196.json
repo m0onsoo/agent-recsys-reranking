@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "be823cefd9b96262f0d4146ff9a0e1d318b71d5643d7f7b31626b34f3d976008",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      150,
+      367,
+      1107,
+      115,
+      1110,
+      40,
+      370,
+      1299,
+      505,
+      11
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a7429f42b0ae400f878532f752e06ca2"
+    ],
+    "sampled_item_ids": [
+      19,
+      41,
+      62,
+      133,
+      148,
+      150,
+      165,
+      168,
+      178,
+      187,
+      204,
+      233,
+      260,
+      353,
+      383,
+      454,
+      505,
+      506,
+      609,
+      670,
+      694,
+      715,
+      796,
+      1065,
+      1299
+    ],
+    "seed": 42,
+    "source_hash": "f254ba0cf0a587a4f6280a142ab1121beee364ceb332f3063dc58daf559adeb7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1196,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jake Gyllenhaal",
+          "Chris Cooper",
+          "Laura Dern",
+          "Chris Owen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Johnston",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Based on the true story of Homer Hickam, a coal miner's son who was inspired by the first Sputnik launch to take up rocketry against his father's wishes, and eventually became a NASA scientist.",
+        "release_date": "1999-02-19",
+        "release_year": "1999",
+        "title": "October Sky"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Jack Lemmon",
+          "Alec Baldwin",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Foley",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Glengarry Glen Ross, follows the lives of four unethical Chicago real estate agents who are prepared to go to any lengths (legal or illegal) to unload undesirable real estate on unwilling prospective buyers.",
+        "release_date": "1992-09-15",
+        "release_year": "1992",
+        "title": "Glengarry Glen Ross"
+      },
+      {
+        "cast": [
+          "Stephen Rea",
+          "Jaye Davidson",
+          "Miranda Richardson",
+          "Forest Whitaker"
+        ],
+        "country": [
+          "Japan",
+          "United Kingdom",
+          "Ireland"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Irish Republican Army member Fergus (Stephen Rea) forms an unexpected bond with Jody (Forest Whitaker), a kidnapped British soldier in his custody, despite the warnings of fellow IRA members Jude (Miranda Richardson) and Maguire (Adrian Dunbar). Jody makes Fergus promise he'll visit his girlfriend, Dil (Jaye Davidson), in London, and when Fergus flees to the city, he seeks her out. Hounded by his former IRA colleagues, he finds himself increasingly drawn to the enigmatic, and surprising, Dil.",
+        "release_date": "1992-09-02",
+        "release_year": "1992",
+        "title": "Crying Game, The"
+      },
+      {
+        "cast": [
+          "Jared Leto",
+          "R. Lee Ermey",
+          "Ed O'Neill",
+          "Breckin Meyer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve James",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "It's the true-life story of legendary track star Steve Prefontaine, the exciting and sometimes controversial \"James Dean of Track,\" whose spirit captured the heart of the nation! Cocky, charismatic, and tough, \"Pre\" was a running rebel who defied rules, pushed limits ... and smashed records ...",
+        "release_date": "1997-01-24",
+        "release_year": "1997",
+        "title": "Prefontaine"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Denzel Washington",
+          "Cary Elwes",
+          "Morgan Freeman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Robert Gould Shaw leads the US Civil War's first all-black volunteer company, fighting prejudices of both his own Union army and the Confederates.",
+        "release_date": "1989-12-15",
+        "release_year": "1989",
+        "title": "Glory"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Bill Paxton",
+          "Kevin Bacon",
+          "Gary Sinise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of technical troubles that scuttle the Apollo 13 lunar mission in 1971, risking the lives of astronaut Jim Lovell and his crew, with the failed journey turning into a thrilling saga of heroism. Drifting more than 200,000 miles from Earth, the astronauts work furiously with the ground crew to avert tragedy.",
+        "release_date": "1995-06-30",
+        "release_year": "1995",
+        "title": "Apollo 13"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Richard Briers",
+          "Michael Keaton",
+          "Robert Sean Leonard"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this Shakespearean farce, Hero and her groom-to-be, Claudio, team up with Claudio's commanding officer, Don Pedro, the week before their wedding to hatch a matchmaking scheme. Their targets are sharp-witted duo Benedick and Beatrice -- a tough task indeed, considering their corresponding distaste for love and each other. Meanwhile, meddling Don John plots to ruin the wedding.",
+        "release_date": "1993-05-07",
+        "release_year": "1993",
+        "title": "Much Ado About Nothing"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Susan Sarandon",
+          "Tim Robbins",
+          "Trey Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Veteran catcher Crash Davis is brought to the minor league Durham Bulls to help their up and coming pitching prospect, \"Nuke\" Laloosh. Their relationship gets off to a rocky start and is further complicated when baseball groupie Annie Savoy sets her sights on the two men.",
+        "release_date": "1988-06-15",
+        "release_year": "1988",
+        "title": "Bull Durham"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Elisabeth Shue",
+          "Julian Sands",
+          "Richard Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Figgis",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Ben Sanderson, an alcoholic Hollywood screenwriter who lost everything because of his drinking, arrives in Las Vegas to drink himself to death. There, he meets and forms an uneasy friendship and non-interference pact with prostitute Sera.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Leaving Las Vegas"
+      },
+      {
+        "cast": [
+          "Paige O'Hara",
+          "Robby Benson",
+          "Richard White",
+          "Jerry Orbach"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Trousdale",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Follow the adventures of Belle, a bright young woman who finds herself in the castle of a prince who's been turned into a mysterious beast. With the help of the castle's enchanted staff, Belle soon learns the most important lesson of all -- that true beauty comes from within.",
+        "release_date": "1991-11-13",
+        "release_year": "1991",
+        "title": "Beauty and the Beast"
+      }
+    ],
+    "raw_user_id": "1196",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 90
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4607873074058454
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed."
+      ],
+      "liked_patterns": [
+        "Strong preference for character-driven dramas and emotional narratives.",
+        "Enjoyment of comedies that blend humor with other genres like drama and romance.",
+        "Appreciation for action films that incorporate adventure and suspense."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates character-driven narratives and emotional depth, as seen in multiple highly rated dramas.); Comedy (The user enjoys humor and light-hearted storytelling, reflected in several well-rated comedies.); Action (The user is drawn to thrilling and adventurous plots, indicated by positive ratings for action films.); Romance (The user values romantic elements in storytelling, as shown by favorable ratings for romantic dramas and comedies.); Thriller (The user is intrigued by suspenseful and engaging plots, as evidenced by ratings for thrillers.). Liked patterns: Strong preference for character-driven dramas and emotional narratives., Enjoyment of comedies that blend humor with other genres like drama and romance., Appreciation for action films that incorporate adventure and suspense.. Disliked patterns: No significant patterns of dislike observed..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates character-driven narratives and emotional depth, as seen in multiple highly rated dramas.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys humor and light-hearted storytelling, reflected in several well-rated comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to thrilling and adventurous plots, indicated by positive ratings for action films.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user values romantic elements in storytelling, as shown by favorable ratings for romantic dramas and comedies.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user is intrigued by suspenseful and engaging plots, as evidenced by ratings for thrillers.",
+          "taste": "Thriller"
+        }
+      ]
+    },
+    "user_id": 1196
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "fb39a3a31235e3b5957b25b90555d4e5ee22f43416546f58e1597d3277102d07",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      158,
+      770,
+      185,
+      809,
+      767,
+      439,
+      1432,
+      63,
+      566,
+      1727
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "23ad4cb07e534c389fb0005be015d74f"
+    ],
+    "sampled_item_ids": [
+      6,
+      34,
+      53,
+      114,
+      125,
+      127,
+      133,
+      199,
+      297,
+      367,
+      445,
+      463,
+      506,
+      551,
+      656,
+      738,
+      837,
+      1207,
+      1334,
+      1524,
+      1718,
+      1838,
+      1952,
+      2056,
+      2285
+    ],
+    "seed": 42,
+    "source_hash": "f7a89c06a7cc5c73d302fe4bf486645910a9156e797f423932a8be8161e3ef7d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2900,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Steven Seagal",
+          "Tommy Lee Jones",
+          "Gary Busey",
+          "Эрика Элениак"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "This action-packed thriller takes place on the soon-to-be-decommissioned USS Missouri. Disgruntled ex-CIA operative Strannix, his assistant Krill and their group of terrorists seize the battleship with nuclear blackmail in mind. They've planned for every contingency but ignore the ship's cook, former Navy SEAL Casey Ryback -- an error that could be fatal.",
+        "release_date": "1992-10-08",
+        "release_year": "1992",
+        "title": "Under Siege"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Sarah Jessica Parker",
+          "Victoria Tennant",
+          "Richard E. Grant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mick Jackson",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "With the help of a talking freeway billboard, a \"wacky weatherman\" tries to win the heart of an English newspaper reporter, who is struggling to make sense of the strange world of early-90s Los Angeles.",
+        "release_date": "1991-02-08",
+        "release_year": "1991",
+        "title": "L.A. Story"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Jada Pinkett Smith",
+          "James Coburn",
+          "Larry Miller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom Shadyac",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eddie Murphy stars as shy Dr. Sherman Klump, a kind, brilliant, 'calorifically challenged' genetic professor. When beautiful Carla Purty joins the university faculty, Sherman grows desperate to whittle his 400-pound frame down to size and win her heart. So, with one swig of his experimental fat-reducing serum, Sherman becomes 'Buddy Love', a fast-talking, pumped-up , plumped down Don Juan.",
+        "release_date": "1996-06-26",
+        "release_year": "1996",
+        "title": "Nutty Professor, The"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Laura Linney",
+          "Noah Emmerich",
+          "Natascha McElhone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Truman Burbank is the star of \"The Truman Show\", a 24-hour-a-day \"reality\" TV show that broadcasts every aspect of his life -- live and in color -- without his knowledge. His entire life has been an unending soap opera for consumption by the rest of the world. And everyone he knows -- including his wife and his best friend -- is really an actor, paid to be part of his life.",
+        "release_date": "1998-06-04",
+        "release_year": "1998",
+        "title": "Truman Show, The"
+      },
+      {
+        "cast": [
+          "Wesley Snipes",
+          "Woody Harrelson",
+          "Rosie Perez",
+          "Tyra Ferrell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Billy Hoyle (Woody Harrelson) and Sidney Deane (Wesley Snipes) are an unlikely pair of basketball hustlers. They team up to con their way across the courts of Los Angeles, playing a game that's fast dangerous - and funny.",
+        "release_date": "1992-03-26",
+        "release_year": "1992",
+        "title": "White Men Can't Jump"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "Ron Howard",
+          "Paul Le Mat",
+          "Charles Martin Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A couple of high school graduates spend one final night cruising the strip with their buddies before they go off to college.",
+        "release_date": "1973-08-01",
+        "release_year": "1973",
+        "title": "American Graffiti"
+      },
+      {
+        "cast": [
+          "Peter Weller",
+          "Nancy Allen",
+          "Tom Noonan",
+          "Belinda Bauer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a successful deployment of the Robocop Law Enforcement unit, OCP sees its goal of urban pacification come closer and closer, but as this develops, a new narcotic known as \"Nuke\" invades the streets led by God-delirious leader Cane. As this menace grows, it may prove to be too much for Murphy to handle. OCP tries to replicate the success of the first unit, but ends up with failed prototypes with suicidal issues... until Dr. Faxx, a scientist straying away from OCP's path, uses Cane as the new subject for the Robocop 2 project, a living God.",
+        "release_date": "1990-06-22",
+        "release_year": "1990",
+        "title": "Robocop 2"
+      }
+    ],
+    "raw_user_id": "2900",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 240
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7812727048700234
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films",
+        "Negative ratings for certain action films",
+        "Dislike for specific children's films"
+      ],
+      "liked_patterns": [
+        "High ratings for drama films",
+        "Positive ratings for action and adventure films",
+        "Consistent enjoyment of comedies"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.); Enjoyment of Action and Adventure (The user consistently rates action and adventure films positively, suggesting a taste for excitement and thrill.); Fondness for Comedy (The user shows a liking for comedies, as evidenced by several high ratings in this genre.); Interest in Sci-Fi (The user rates several sci-fi films highly, indicating a preference for imaginative and speculative storytelling.); Value for Emotional Depth (The user appreciates films that evoke strong emotions, as seen in their high ratings for dramas and comedies with emotional themes.). Liked patterns: High ratings for drama films, Positive ratings for action and adventure films, Consistent enjoyment of comedies. Disliked patterns: Low ratings for horror films, Negative ratings for certain action films, Dislike for specific children's films.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user consistently rates action and adventure films positively, suggesting a taste for excitement and thrill.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user shows a liking for comedies, as evidenced by several high ratings in this genre.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user rates several sci-fi films highly, indicating a preference for imaginative and speculative storytelling.",
+          "taste": "Interest in Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates films that evoke strong emotions, as seen in their high ratings for dramas and comedies with emotional themes.",
+          "taste": "Value for Emotional Depth"
+        }
+      ]
+    },
+    "user_id": 2900
+  }
+}

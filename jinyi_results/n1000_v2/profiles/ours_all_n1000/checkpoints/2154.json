@@ -1,0 +1,318 @@
+{
+  "checkpoint_hash": "90882b555c0d50c6a1e5708bd071e25c73aa405b47fa654d2fdc1a4b304d64a8",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      612,
+      484,
+      22,
+      1241,
+      106,
+      41,
+      492,
+      2577,
+      185,
+      339
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9fc3d7f62b574eb2ac2c8534b8161dd8"
+    ],
+    "sampled_item_ids": [
+      22,
+      24,
+      41,
+      65,
+      105,
+      106,
+      129,
+      175,
+      213,
+      218,
+      245,
+      322,
+      339,
+      382,
+      391,
+      484,
+      492,
+      540,
+      601,
+      653,
+      757,
+      800,
+      1241,
+      1242,
+      1920
+    ],
+    "seed": 42,
+    "source_hash": "225688ecf90d269fde4b67c754cc58bc826529e8beeaeb6a80f3c977835965d4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2154,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Peter Sellers",
+          "George C. Scott",
+          "Sterling Hayden",
+          "Keenan Wynn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union. As soon as the actions of General \"Buck\" Turgidson are discovered, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike. Near the end is a scene that is probably the most uniquely unforgettable performance of Slim Pickens in his movie career. Peter Sellers plays multiple roles in this film.",
+        "release_date": "1964-01-29",
+        "release_year": "1963",
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      },
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Vincent Spano",
+          "Josh Hamilton",
+          "Bruce Ramsay"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Marshall",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The amazing, true story of a Uruguayan rugby team's plane that crashed in the middle of the Andes mountains, and their immense will to survive and pull through alive, forced to do anything and everything they could to stay alive on meager rations and through the freezing cold.",
+        "release_date": "1993-01-15",
+        "release_year": "1993",
+        "title": "Alive"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Animation"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1996",
+        "title": "Wallace & Gromit: The Best of Aardman Animation"
+      },
+      {
+        "cast": [
+          "Frank Sinatra",
+          "Laurence Harvey",
+          "Angela Lansbury",
+          "Janet Leigh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Frankenheimer",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The Manchurian Candidate is a political thriller from American director John Frankenheimer. An American soldier is brainwashed into being a killer for the communist Russians during the Korean War.",
+        "release_date": "1962-10-24",
+        "release_year": "1962",
+        "title": "Manchurian Candidate, The"
+      },
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Don Rickles",
+          "Jim Varney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+        "release_date": "1995-10-30",
+        "release_year": "1995",
+        "title": "Toy Story"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Leonardo DiCaprio",
+          "Juliette Lewis",
+          "Darlene Cates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lasse Hallström",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Gilbert has to care for his brother Arnie and his obese mother, which gets in the way when love walks into his life.",
+        "release_date": "1993-12-17",
+        "release_year": "1993",
+        "title": "What's Eating Gilbert Grape"
+      },
+      {
+        "cast": [],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Freida Lee Mock",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A film about the work of the artist most famous for her monuments such as the Vietnam Memorial Wall and the Civil Rights Fountain Memorial.",
+        "release_date": "1995-11-10",
+        "release_year": "1994",
+        "title": "Maya Lin: A Strong Clear Vision"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Mary Astor",
+          "Gladys George",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A private detective takes on a case that involves him with three eccentric criminals, a gorgeous liar, and their quest for a priceless statuette.",
+        "release_date": "1941-11-18",
+        "release_year": "1941",
+        "title": "Maltese Falcon, The"
+      }
+    ],
+    "raw_user_id": "2154",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 37
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.592420300680504
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for films with lower emotional engagement",
+        "Dislike for films that may lack narrative complexity"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films",
+        "Strong preference for drama and thriller genres",
+        "Consistent enjoyment of comedy films"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation (The user enjoys animated films, as evidenced by high ratings for multiple titles in this genre.); Interest in Drama (The user rates several drama films highly, indicating a strong preference for this genre.); Fondness for Comedy (The user has rated numerous comedies positively, suggesting a liking for humor in films.); Engagement with Thrillers (The user shows a consistent interest in thriller films, reflected in their ratings.); Enjoyment of Complex Narratives (The user appreciates films with intricate plots, as seen in their high ratings for dramas and thrillers.). Liked patterns: High ratings for animated films, Strong preference for drama and thriller genres, Consistent enjoyment of comedy films. Disliked patterns: Negative ratings for films with lower emotional engagement, Dislike for films that may lack narrative complexity.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films, as evidenced by high ratings for multiple titles in this genre.",
+          "taste": "Appreciation for Animation"
+        },
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for this genre.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated numerous comedies positively, suggesting a liking for humor in films.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user shows a consistent interest in thriller films, reflected in their ratings.",
+          "taste": "Engagement with Thrillers"
+        },
+        {
+          "reason": "The user appreciates films with intricate plots, as seen in their high ratings for dramas and thrillers.",
+          "taste": "Enjoyment of Complex Narratives"
+        }
+      ]
+    },
+    "user_id": 2154
+  }
+}

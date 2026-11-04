@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "0d8e76ab10fba7f4533f563c76d20cd7875090b78e179a317611c4310e6b6de4",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      649,
+      114,
+      1843,
+      650,
+      633,
+      644,
+      1196,
+      694,
+      20,
+      65
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      10,
+      23,
+      28,
+      46,
+      65,
+      122,
+      154,
+      160,
+      200,
+      391,
+      425,
+      427,
+      597,
+      613,
+      644,
+      646,
+      649,
+      650,
+      697,
+      719,
+      767,
+      799,
+      1046,
+      1279,
+      1861
+    ],
+    "seed": 42,
+    "source_hash": "fa3d778b69d33303f1bc4bc85baa71058bcb82ec314692f72aa37a7462296355",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4930,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gregory Peck",
+          "Audrey Hepburn",
+          "Eddie Albert",
+          "Hartley Power"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Overwhelmed by her suffocating schedule, touring European princess Ann takes off for a night while in Rome. When a sedative she took from her doctor kicks in, however, she falls asleep on a park bench and is found by an American reporter, Joe Bradley, who takes her back to his apartment for safety. At work the next morning, Joe finds out Ann's regal identity and bets his editor he can get exclusive interview with her, but romance soon gets in the way.",
+        "release_date": "1953-09-02",
+        "release_year": "1953",
+        "title": "Roman Holiday"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Charles Laughton",
+          "Clark Gable",
+          "Franchot Tone",
+          "Herbert Mundin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Lloyd",
+        "genres": [
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Fletcher Christian successfully leads a revolt against the ruthless Captain Bligh on the HMS Bounty. However, Bligh returns one year later, hell bent on avenging his captors.",
+        "release_date": "1935-11-08",
+        "release_year": "1935",
+        "title": "Mutiny on the Bounty"
+      },
+      {
+        "cast": [
+          "Judy Garland",
+          "Margaret O'Brien",
+          "Mary Astor",
+          "Lucille Bremer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Vincente Minnelli",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "In the year before the 1904 St Louis World's Fair, the four Smith daughters learn lessons of life and love, even as they prepare for a reluctant move to New York.",
+        "release_date": "1944-11-23",
+        "release_year": "1944",
+        "title": "Meet Me in St. Louis"
+      },
+      {
+        "cast": [
+          "Mary Costa",
+          "Bill Shirley",
+          "Eleanor Audley",
+          "Verna Felton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A beautiful princess born in a faraway kingdom is destined by a terrible curse to prick her finger on the spindle of a spinning wheel and fall into a deep sleep that can only be awakened by true love's first kiss. Determined to protect her, her parents ask three fairies to raise her in hiding. But the evil Maleficent is just as determined to seal the princess's fate.",
+        "release_date": "1959-01-28",
+        "release_year": "1959",
+        "title": "Sleeping Beauty"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      },
+      {
+        "cast": [
+          "Marilyn Monroe",
+          "Tony Curtis",
+          "Jack Lemmon",
+          "George Raft"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Two musicians witness a mob hit and struggle to find a way out of the city before they are found by the gangsters. Their only opportunity is to join an all-girl band as they leave on a tour. To make their getaway they must first disguise themselves as women, then keep their identities secret and deal with the problems this brings - such as an attractive bandmate and a very determined suitor.",
+        "release_date": "1959-03-18",
+        "release_year": "1959",
+        "title": "Some Like It Hot"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Donna Reed",
+          "Lionel Barrymore",
+          "Thomas Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Capra",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "George Bailey has spent his entire life giving of himself to the people of Bedford Falls. He has always longed to travel but never had the opportunity in order to prevent rich skinflint Mr. Potter from taking over the entire town. All that prevents him from doing so is George's modest building and loan company, which was founded by his generous father. But on Christmas Eve, George's Uncle Billy loses the business's $8,000 while intending to deposit it in the bank. Potter finds the misplaced money, hides it from Billy, and George's troubles begin.",
+        "release_date": "1946-12-20",
+        "release_year": "1946",
+        "title": "It's a Wonderful Life"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Elizabeth Perkins",
+          "Robert Loggia",
+          "John Heard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young boy, Josh Baskin makes a wish at a carnival machine to be big. He wakes up the following morning to find that it has been granted and his body has grown older overnight. But he is still the same 13-year-old boy inside. Now he must learn how to cope with the unfamiliar world of grown-ups including getting a job and having his first romantic encounter with a woman. What will he find out about this strange world?",
+        "release_date": "1988-06-03",
+        "release_year": "1988",
+        "title": "Big"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      }
+    ],
+    "raw_user_id": "4930",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 78
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5987603067726887
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Lower ratings for some romantic comedies",
+        "Dislike for certain children's musicals"
+      ],
+      "liked_patterns": [
+        "High ratings for musicals and comedies",
+        "Strong preference for children's films",
+        "Positive reception of drama and romance films"
+      ],
+      "summary": "Unique tastes: Musicals (The user enjoys films that incorporate musical elements, as seen in multiple high-rated titles.); Comedy (A strong preference for comedic films is evident, with several ratings of 4 or 5.); Children's Films (The user appreciates children's movies, reflected in their high ratings for various animated and family-friendly titles.); Drama and Romance (The user shows a liking for drama and romance genres, indicated by several positive ratings in these categories.); Adventure and Sci-Fi (There is a notable interest in adventure and sci-fi films, as demonstrated by high ratings for several titles in these genres.). Liked patterns: High ratings for musicals and comedies, Strong preference for children's films, Positive reception of drama and romance films. Disliked patterns: Lower ratings for some romantic comedies, Dislike for certain children's musicals.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that incorporate musical elements, as seen in multiple high-rated titles.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "A strong preference for comedic films is evident, with several ratings of 4 or 5.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates children's movies, reflected in their high ratings for various animated and family-friendly titles.",
+          "taste": "Children's Films"
+        },
+        {
+          "reason": "The user shows a liking for drama and romance genres, indicated by several positive ratings in these categories.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "There is a notable interest in adventure and sci-fi films, as demonstrated by high ratings for several titles in these genres.",
+          "taste": "Adventure and Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 4930
+  }
+}

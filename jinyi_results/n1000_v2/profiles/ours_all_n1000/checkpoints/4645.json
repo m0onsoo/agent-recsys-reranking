@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "e807b1822156a619ea327f89919ad546f2e45d14600842766c76ae818c847ab7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      800,
+      2322,
+      34,
+      1119,
+      117,
+      152,
+      466,
+      125,
+      815,
+      907
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      34,
+      52,
+      65,
+      117,
+      149,
+      253,
+      399,
+      473,
+      568,
+      598,
+      859,
+      866,
+      923,
+      1119,
+      1254,
+      1360,
+      1369,
+      1517,
+      1547,
+      1583,
+      1614,
+      2013,
+      2114,
+      2139,
+      2322
+    ],
+    "seed": 42,
+    "source_hash": "2b75038fd80d547aac906aedc1f5ace9e96dcc002937d85b20d92625c513b9cf",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4645,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "female",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael Douglas",
+          "Glenn Close",
+          "Anne Archer",
+          "Ellen Hamilton Latzen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A married man's one night stand comes back to haunt him when that lover begins to stalk him and his family.",
+        "release_date": "1987-09-11",
+        "release_year": "1987",
+        "title": "Fatal Attraction"
+      },
+      {
+        "cast": [
+          "Oliver Reed",
+          "Ann-Margret",
+          "Roger Daltrey",
+          "Elton John"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Ken Russell",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A psychosomatically deaf, dumb and blind boy becomes a master pinball player and the object of a religious cult.",
+        "release_date": "1975-03-19",
+        "release_year": "1975",
+        "title": "Tommy"
+      },
+      {
+        "cast": [
+          "Scott Weinger",
+          "Robin Williams",
+          "Linda Larkin",
+          "Jonathan Freeman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Clements",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Princess Jasmine grows tired of being forced to remain in the palace and she sneaks out into the marketplace  in disguise where she meets street-urchin Aladdin and the two fall in love, although she may only marry a prince. After being thrown in jail, Aladdin and becomes embroiled in a plot to find a mysterious lamp with which the evil Jafar hopes to rule the land.",
+        "release_date": "1992-11-25",
+        "release_year": "1992",
+        "title": "Aladdin"
+      },
+      {
+        "cast": [
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Matthew Lillard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A killer known as Ghostface begins killing off teenagers, and as the body count begins rising, one girl and her friends find themselves contemplating the 'rules' of horror films as they find themselves living in a real-life one.",
+        "release_date": "1996-12-20",
+        "release_year": "1996",
+        "title": "Scream"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Andie MacDowell",
+          "Chris Elliott",
+          "Stephen Tobolowsky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "release_date": "1993-02-11",
+        "release_year": "1993",
+        "title": "Groundhog Day"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jeanne Tripplehorn",
+          "Gene Hackman",
+          "Holly Hunter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Mitch McDeere is a young man with a promising future in Law. About to sit his Bar exam, he is approached by 'The Firm' and made an offer he doesn't refuse. Seduced by the money and gifts showered on him, he is totally oblivious to the more sinister side of his company. Then, two Associates are murdered. The FBI contact him, asking him for information and suddenly his life is ruined. He has a choice - work with the FBI, or stay with the Firm. Either way he will lose his life as he knows it. Mitch figures the only way out is to follow his own plan...",
+        "release_date": "1993-06-30",
+        "release_year": "1993",
+        "title": "Firm, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Kevin Kline",
+          "Sigourney Weaver",
+          "Frank Langella",
+          "Kevin Dunn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Bill Mitchell is the philandering and distant President of the United States. Dave Kovic is a sweet-natured and caring Temp Agency operator, who by a staggering coincidence looks exactly like the President. As such, when Mitchell wants to escape an official luncheon, the Secret Service hires Dave to stand in for him. Unfortunately, Mitchell suffers a severe stroke whilst having sex with one of his aides, and Dave finds himself stuck in the role indefinitely. The corrupt and manipulative Chief of Staff, Bob Alexander, plans to use Dave to elevate himself to the White House - but unfortunately, he doesn't count on Dave enjoying himself in office, using his luck to make the country a better place, and falling in love with the beautiful First Lady...",
+        "release_date": "1993-05-07",
+        "release_year": "1993",
+        "title": "Dave"
+      },
+      {
+        "cast": [
+          "Jennifer Lopez",
+          "Edward James Olmos",
+          "Constance Marie",
+          "Jon Seda"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Nava",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "In this biographical drama, Selena Quintanilla is born into a musical Mexican-American family in Texas. Her father, Abraham, realizes that his young daughter is talented and begins performing with her at small venues. She finds success and falls for her guitarist, Chris Perez, who draws the ire of her father. Seeking mainstream stardom, Selena begins recording an English-language album which, tragically, she would never complete.",
+        "release_date": "1997-03-21",
+        "release_year": "1997",
+        "title": "Selena"
+      }
+    ],
+    "raw_user_id": "4645",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 102
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.0121932771644553
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "A tendency to dislike horror films, as indicated by low ratings for titles in that genre.",
+        "Dislike for action films that lack depth or character development, as shown by low ratings for certain action titles."
+      ],
+      "liked_patterns": [
+        "A strong preference for romantic themes across various genres.",
+        "High ratings for films that combine comedy with drama.",
+        "Enjoyment of films that feature strong character arcs and emotional storytelling."
+      ],
+      "summary": "Unique tastes: Romantic Comedies (The user enjoys films that blend romance with humor, as seen in multiple high-rated titles.); Dramatic Thrillers (The user appreciates intense narratives that combine drama with suspenseful elements.); Musicals (The user has a preference for films that incorporate musical elements, reflected in their high ratings for such genres.); Character-Driven Stories (The user favors films that focus on character development and emotional depth, evident in their ratings for dramas.); Lighthearted Comedies (The user enjoys comedies that provide a light and entertaining experience, as shown by their ratings for various comedic films.). Liked patterns: A strong preference for romantic themes across various genres., High ratings for films that combine comedy with drama., Enjoyment of films that feature strong character arcs and emotional storytelling.. Disliked patterns: A tendency to dislike horror films, as indicated by low ratings for titles in that genre., Dislike for action films that lack depth or character development, as shown by low ratings for certain action titles..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend romance with humor, as seen in multiple high-rated titles.",
+          "taste": "Romantic Comedies"
+        },
+        {
+          "reason": "The user appreciates intense narratives that combine drama with suspenseful elements.",
+          "taste": "Dramatic Thrillers"
+        },
+        {
+          "reason": "The user has a preference for films that incorporate musical elements, reflected in their high ratings for such genres.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "The user favors films that focus on character development and emotional depth, evident in their ratings for dramas.",
+          "taste": "Character-Driven Stories"
+        },
+        {
+          "reason": "The user enjoys comedies that provide a light and entertaining experience, as shown by their ratings for various comedic films.",
+          "taste": "Lighthearted Comedies"
+        }
+      ]
+    },
+    "user_id": 4645
+  }
+}

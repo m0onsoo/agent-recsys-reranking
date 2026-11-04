@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "9ab610eec2338a299a476d416353ce4dab724a03170f40f6b4f319dd5965b9a1",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1798,
+      1006,
+      386,
+      1877,
+      97,
+      1082,
+      606,
+      120,
+      149,
+      667
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      45,
+      69,
+      70,
+      75,
+      99,
+      134,
+      149,
+      210,
+      215,
+      238,
+      288,
+      656,
+      714,
+      749,
+      760,
+      970,
+      1003,
+      1005,
+      1039,
+      1260,
+      1337,
+      1483,
+      1835,
+      1858
+    ],
+    "seed": 42,
+    "source_hash": "b2f92cac833ea8ed13abd1d5d0260aa6d3ffd532d097f467a626e71120c34645",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4291,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Whoopi Goldberg",
+          "Stephen Collins",
+          "Jonathan Pryce",
+          "John Wood"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Terry works for a bank, and uses computers to communicate with clients all over the world. One day she gets a strange message from an unknown source. The message is coded. After decoding the message, Terry becomes embroiled in an espionage ring. People are killed, and Terry is chased. Throughout she remains in contact with this unknown person, who needs Terry to help save his life.",
+        "release_date": "1986-10-09",
+        "release_year": "1986",
+        "title": "Jumpin' Jack Flash"
+      },
+      {
+        "cast": [
+          "Jeff Goldblum",
+          "Geena Davis",
+          "John Getz",
+          "Joy Boushel"
+        ],
+        "country": [
+          "Canada",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When Seth Brundle makes a huge scientific and technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.",
+        "release_date": "1986-08-15",
+        "release_year": "1986",
+        "title": "Fly, The"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Kathleen Turner",
+          "Danny DeVito",
+          "Alfonso Aráu"
+        ],
+        "country": [
+          "Mexico",
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Though she can spin wild tales of passionate romance, novelist Joan Wilder has no life of her own. Then one day adventure comes her way in the form of a mysterious package. It turns out that the parcel is the ransom she'll need to free her abducted sister, so Joan flies to South America to hand it over. But she gets on the wrong bus and winds up hopelessly stranded in the jungle...",
+        "release_date": "1984-03-30",
+        "release_year": "1984",
+        "title": "Romancing the Stone"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Courtney Chase",
+          "Charles S. Dutton",
+          "Christopher Walken"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Badham",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Gene Watson is a public accountant who arrives on a train at Union Station in Los Angeles, accompanied by his 6-year-old daughter Lynn. Because of his ordinary looks, he is approached by a pair of sinister people named Smith and Jones.",
+        "release_date": "1995-11-22",
+        "release_year": "1995",
+        "title": "Nick of Time"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "François Truffaut",
+          "Teri Garr",
+          "Melinda Dillon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After an encounter with UFOs, a line worker feels undeniably drawn to an isolated area in the wilderness where something spectacular is about to happen.",
+        "release_date": "1977-11-16",
+        "release_year": "1977",
+        "title": "Close Encounters of the Third Kind"
+      },
+      {
+        "cast": [
+          "Ralph Macchio",
+          "Pat Morita",
+          "Martin Kove",
+          "Charlie Tanimoto"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Mr. Miyagi and Daniel take a trip to Okinawa to visit Mr. Miyagi's dying father. After arriving Mr. Miyagi finds he still has feelings for an old love. This stirs up trouble with an old rival who he originally left Okinawa to avoid. In the mean time, Daniel encounters a new love and also makes some enemies.",
+        "release_date": "1986-06-18",
+        "release_year": "1986",
+        "title": "Karate Kid, Part II, The"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "James Spader",
+          "Jaye Davidson",
+          "Viveca Lindfors"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
+        "release_date": "1994-10-27",
+        "release_year": "1994",
+        "title": "Stargate"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "On the eve of retirement, Kirk and McCoy are charged with assassinating the Klingon High Chancellor and imprisoned. The Enterprise crew must help them escape to thwart a conspiracy aimed at sabotaging the last best hope for peace.",
+        "release_date": "1991-12-05",
+        "release_year": "1991",
+        "title": "Star Trek VI: The Undiscovered Country"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Jamie Lee Curtis",
+          "Tom Arnold",
+          "Bill Paxton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Harry Tasker is a secret agent for the United States Government. For years, he has kept his job from his wife, but is forced to reveal his identity and try to stop nuclear terrorists when he and his wife are kidnapped by them.",
+        "release_date": "1994-07-14",
+        "release_year": "1994",
+        "title": "True Lies"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Tina Turner",
+          "Bruce Spence",
+          "Helen Buday"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Mad Max becomes a pawn in a decadent oasis of a technological society, and when exiled, becomes the deliverer of a colony of children.",
+        "release_date": "1985-06-29",
+        "release_year": "1985",
+        "title": "Mad Max Beyond Thunderdome"
+      }
+    ],
+    "raw_user_id": "4291",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 169
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0405733466150517
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action thrillers that lack engaging plots or character development."
+      ],
+      "liked_patterns": [
+        "Strong preference for action films across various sub-genres.",
+        "Enjoyment of films that combine action with adventure and sci-fi elements.",
+        "Appreciation for light-hearted comedies that include romantic themes."
+      ],
+      "summary": "Unique tastes: Action-Adventure (The user enjoys films that combine action with adventure elements, often featuring heroic journeys and quests.); Sci-Fi (The user has a strong preference for science fiction, particularly those that incorporate action and thrilling narratives.); Comedy-Romance (The user appreciates films that blend comedy with romantic themes, indicating a liking for light-hearted storytelling.); Thriller (The user is drawn to thrillers, especially those that include action, suggesting a taste for suspenseful and intense experiences.); Fantasy (The user enjoys fantasy elements, often intertwined with adventure, indicating a preference for imaginative storytelling.). Liked patterns: Strong preference for action films across various sub-genres., Enjoyment of films that combine action with adventure and sci-fi elements., Appreciation for light-hearted comedies that include romantic themes.. Disliked patterns: Dislike for action thrillers that lack engaging plots or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that combine action with adventure elements, often featuring heroic journeys and quests.",
+          "taste": "Action-Adventure"
+        },
+        {
+          "reason": "The user has a strong preference for science fiction, particularly those that incorporate action and thrilling narratives.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates films that blend comedy with romantic themes, indicating a liking for light-hearted storytelling.",
+          "taste": "Comedy-Romance"
+        },
+        {
+          "reason": "The user is drawn to thrillers, especially those that include action, suggesting a taste for suspenseful and intense experiences.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user enjoys fantasy elements, often intertwined with adventure, indicating a preference for imaginative storytelling.",
+          "taste": "Fantasy"
+        }
+      ]
+    },
+    "user_id": 4291
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "8e6ab886bf47ce98bd80907692301db6fc93110443fc229e0ef47105c4552461",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      438,
+      1591,
+      1473,
+      77,
+      19,
+      106,
+      2301,
+      885,
+      1578,
+      594
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "c4357e6f6d6c4b7da5f08ab8c56f2ead"
+    ],
+    "sampled_item_ids": [
+      83,
+      88,
+      100,
+      101,
+      105,
+      144,
+      202,
+      237,
+      358,
+      412,
+      438,
+      503,
+      505,
+      571,
+      598,
+      651,
+      695,
+      1024,
+      1257,
+      1473,
+      1565,
+      1569,
+      2000,
+      2036,
+      2809
+    ],
+    "seed": 42,
+    "source_hash": "d80f8d1a550015564de45b8360e41730255d682dfab8e0a7cc6d8d74a094081a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2410,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Cruise",
+          "Cuba Gooding Jr.",
+          "Renée Zellweger",
+          "Kelly Preston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jerry Maguire used to be a typical sports agent: willing to do just about anything he could to get the biggest possible contracts for his clients, plus a nice commission for himself. Then, one day, he suddenly has second thoughts about what he's really doing. When he voices these doubts, he ends up losing his job and all of his clients, save Rod Tidwell, an egomaniacal football player.",
+        "release_date": "1996-12-06",
+        "release_year": "1996",
+        "title": "Jerry Maguire"
+      },
+      {
+        "cast": [
+          "John Malkovich",
+          "Gary Sinise",
+          "Ray Walston",
+          "Casey Siemaszko"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Sinise",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two drifters, one a gentle but slow giant, try to make money working the fields during the Depression so they can fulfill their dreams.",
+        "release_date": "1992-09-16",
+        "release_year": "1992",
+        "title": "Of Mice and Men"
+      },
+      {
+        "cast": [
+          "Eddie Albert",
+          "Paul Anka",
+          "Arletty",
+          "Jean-Louis Barrault"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bernhard Wicki",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The retelling of June 6, 1944, from the perspectives of the Germans, US, British, Canadians, and the Free French. Marshall Erwin Rommel, touring the defenses being established as part of the Reich's Atlantic Wall, notes to his officers that when the Allied invasion comes they must be stopped on the beach. \"For the Allies as well as the Germans, it will be the longest day\"",
+        "release_date": "1962-09-25",
+        "release_year": "1962",
+        "title": "Longest Day, The"
+      },
+      {
+        "cast": [
+          "Henry Fonda",
+          "James Cagney",
+          "William Powell",
+          "Jack Lemmon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Ford",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A hilarious and heartfelt military comedy-drama co-directed by John Ford and Mervyn LeRoy, Mister Roberts stars Henry Fonda as an officer who's yearning for battle but is stuck in the backwaters of World War II on a noncommissioned Navy ship run by the bullying Capt. Morton (James Cagney). Jack Lemmon enjoys a star-making turn as the freewheeling Ensign Pulver, and William Powell stars as the ship's doctor in his last screen role.  Based on the 1946 novel with the same name, by Thomas Heggen, and the 1948 Broadway play, written by Thomas Heggen and Joshua Logan. Henry Fonda also starred in the original Broadway production. Warner Bros. didn't want Fonda to star in the film, as they thought he was too old, and had been a stage player for so long (8 years), that he no longer was box office material. However, John Ford insisted on Fonda and the company eventually agreed.",
+        "release_date": "1955-07-13",
+        "release_year": "1955",
+        "title": "Mister Roberts"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Robin Williams",
+          "John Heard",
+          "Julie Kavner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Dr. Malcolm Sayer, a shy research physician, uses an experimental drug to \"awaken\" the catatonic victims of a rare disease. Leonard is the first patient to receive the controversial treatment. His awakening, filled with awe and enthusiasm, proves a rebirth for Sayer too, as the exuberant patient reveals life's simple but unutterably sweet pleasures to the introverted doctor.",
+        "release_date": "1990-12-19",
+        "release_year": "1990",
+        "title": "Awakenings"
+      },
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      },
+      {
+        "cast": [
+          "Ronald Colman",
+          "Jane Wyatt",
+          "Edward Everett Horton",
+          "John Howard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Capra",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "British diplomat Robert Conway and a small group of civilians crash land in the Himalayas, and are rescued by the people of the mysterious, Eden-like valley of Shangri-la. Protected by the mountains from the world outside, where the clouds of World War II are gathering, Shangri-la provides a seductive escape for the world-weary Conway.",
+        "release_date": "1937-09-01",
+        "release_year": "1937",
+        "title": "Lost Horizon"
+      },
+      {
+        "cast": [
+          "James Aubrey",
+          "Tom Chapin",
+          "Hugh Edwards",
+          "Roger Elwin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Peter Brook",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Amidst a nuclear war, a plane carrying a group of schoolboys crash lands on a deserted island. With no adult survivors, the boys are forced to fend for themselves. At first they cooperate, but when the they split into two separate camps -- one led by the pragmatic Ralph and the other by militaristic Jack -- their society falls into disarray, leading to a disturbing examination of human nature and a chilling conclusion.",
+        "release_date": "1963-08-13",
+        "release_year": "1963",
+        "title": "Lord of the Flies"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Brad Pitt",
+          "Kevin Bacon",
+          "Jason Patric"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two gangsters seek revenge on the state jail worker who during their stay at a youth prison sexually abused them. A sensational court hearing takes place to charge him for the crimes. A moving drama from director Barry Levinson.",
+        "release_date": "1996-10-18",
+        "release_year": "1996",
+        "title": "Sleepers"
+      },
+      {
+        "cast": [
+          "Kathy Bates",
+          "Mary-Louise Parker",
+          "Jessica Tandy",
+          "Cicely Tyson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Avnet",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Amidst her own personality crisis, southern housewife Evelyn Couch meets Ninny, an outgoing old woman who tells her the story of Idgie Threadgoode and Ruth Jamison, two young women who experienced hardships and love in Whistle Stop, Alabama in the 1920s.",
+        "release_date": "1991-12-27",
+        "release_year": "1991",
+        "title": "Fried Green Tomatoes"
+      }
+    ],
+    "raw_user_id": "2410",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 92
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5811050734476861
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that fail to engage emotionally, particularly in the drama genre.",
+        "Negative reception of comedies that lack depth or character development."
+      ],
+      "liked_patterns": [
+        "A strong preference for drama and romance, often rated highly together.",
+        "Positive reception of character-driven narratives that explore complex emotions.",
+        "Enjoyment of films that blend comedy with drama, enhancing the emotional experience."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for drama is evident, with many high ratings across various sub-genres.); Romance (Romantic themes are frequently appreciated, often appearing alongside drama in liked films.); War (War dramas are well-received, indicating an interest in historical and conflict-driven narratives.); Comedy (Comedy elements are positively rated when combined with drama, suggesting a preference for humor in serious contexts.); Character-driven stories (Films that focus on character development and emotional depth are favored, as seen in the high ratings for character-centric dramas.). Liked patterns: A strong preference for drama and romance, often rated highly together., Positive reception of character-driven narratives that explore complex emotions., Enjoyment of films that blend comedy with drama, enhancing the emotional experience.. Disliked patterns: Dislike for films that fail to engage emotionally, particularly in the drama genre., Negative reception of comedies that lack depth or character development..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for drama is evident, with many high ratings across various sub-genres.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Romantic themes are frequently appreciated, often appearing alongside drama in liked films.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "War dramas are well-received, indicating an interest in historical and conflict-driven narratives.",
+          "taste": "War"
+        },
+        {
+          "reason": "Comedy elements are positively rated when combined with drama, suggesting a preference for humor in serious contexts.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Films that focus on character development and emotional depth are favored, as seen in the high ratings for character-centric dramas.",
+          "taste": "Character-driven stories"
+        }
+      ]
+    },
+    "user_id": 2410
+  }
+}

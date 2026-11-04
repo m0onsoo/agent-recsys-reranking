@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "9f2a78d351c2053199ca560a6428bc64c1c0999868041f9ca961472d65f652a5",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1536,
+      1067,
+      2641,
+      1368,
+      1453,
+      639,
+      1394,
+      1109,
+      199,
+      882
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9092249e0b3a483f8eae3f6bcdee912c"
+    ],
+    "sampled_item_ids": [
+      216,
+      238,
+      336,
+      545,
+      557,
+      651,
+      657,
+      696,
+      714,
+      805,
+      815,
+      865,
+      924,
+      1022,
+      1031,
+      1175,
+      1304,
+      1356,
+      1360,
+      1366,
+      1453,
+      1598,
+      1604,
+      1773,
+      2315
+    ],
+    "seed": 42,
+    "source_hash": "04f79a33593307292848bebdd01bcf8e796d894a0b3d44f77a2ea5f366d62990",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1645,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "homemaker"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tippi Hedren",
+          "Rod Taylor",
+          "Suzanne Pleshette",
+          "Veronica Cartwright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Chic socialite Melanie Daniels enjoys a passing flirtation with an eligible attorney in a San Francisco pet shop and, on an impulse, follows him to his hometown bearing a gift of lovebirds. But upon her arrival, the bird population runs amok. Suddenly, the townsfolk face a massive avian onslaught, with the feathered fiends inexplicably attacking people all over Bodega Bay.",
+        "release_date": "1963-03-28",
+        "release_year": "1963",
+        "title": "Birds, The"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Michael Gambon",
+          "Joan Cusack",
+          "Robin Wright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Leslie Zevo is a fun-loving inventor who must save his late father's toy factory from his evil uncle, Leland, a war-mongering general who rules the operation with an iron fist and builds weapons disguised as toys.",
+        "release_date": "1992-12-18",
+        "release_year": "1992",
+        "title": "Toys"
+      },
+      {
+        "cast": [
+          "David Spade",
+          "Sophie Marceau",
+          "Ever Carradine",
+          "Stephanie Chang"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeff Pollack",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A comedy about finding your true love at any price. Dylan Ramsey resorts to snatching his beautiful neighbor's dog so he can spend time with her while they go on a phantom dog hunt. Succeeding in his plan, Dylan goes to return the pooch, only to discover that it has hidden Dylan's best friend's diamond ring. Written by WARNER BROS.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Lost & Found"
+      },
+      {
+        "cast": [
+          "Danny Glover",
+          "Brenda Fricker",
+          "Joseph Gordon-Levitt",
+          "Christopher Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Dear",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Roger is a foster child whose irresponsible father promises to get his act together when Roger's favourite baseball team, the California Angels, wins the pennant. The problem is that the Angels are in last place, so Roger prays for help to turn the team around. Sure enough, his prayers are answered in the form of angel Al.",
+        "release_date": "1994-07-15",
+        "release_year": "1994",
+        "title": "Angels in the Outfield"
+      },
+      {
+        "cast": [
+          "William Powell",
+          "Carole Lombard",
+          "Alice Brady",
+          "Gail Patrick"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory La Cava",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A zany heiress tries to help a tramp by making him the family butler.",
+        "release_date": "1936-09-17",
+        "release_year": "1936",
+        "title": "My Man Godfrey"
+      },
+      {
+        "cast": [
+          "Chris Farley",
+          "David Spade",
+          "Brian Dennehy",
+          "Bo Derek"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Segal",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Party animal Tommy Callahan is a few cans short of a six-pack. But when the family business starts tanking, it's up to Tommy and number-cruncher Richard Hayden to save the day.",
+        "release_date": "1995-03-31",
+        "release_year": "1995",
+        "title": "Tommy Boy"
+      },
+      {
+        "cast": [
+          "Ralph Macchio",
+          "Pat Morita",
+          "William Zabka",
+          "Martin Kove"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Hassled by the school bullies, Daniel LaRusso has his share of adolescent woes. Luckily, his apartment building houses a resident martial arts master: Kesuke Miyagi, who agrees to train Daniel ... and ends up teaching him much more than self-defense. Armed with newfound confidence, skill and wisdom, Daniel ultimately faces off against his tormentors in this hugely popular classic underdog tale.",
+        "release_date": "1984-06-22",
+        "release_year": "1984",
+        "title": "Karate Kid, The"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Kathryn Erbe",
+          "Michael Tucker",
+          "Jan Rubes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Weisman",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After Gordon Bombay's hockey comeback is cut short he is named coach of Team USA Hockey for the Junior Goodwill Games. Bombay reunites the Mighty Ducks and introduces a few new players, however, he finds himself distracted by his newfound fame and must regather if the Ducks are to defeat tournament favourites Iceland.",
+        "release_date": "1994-03-25",
+        "release_year": "1994",
+        "title": "D2: The Mighty Ducks"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Rodney Dangerfield",
+          "Ted Knight",
+          "Michael O'Keefe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At an exclusive country club, an ambitious young caddy, Danny Noonan, eagerly pursues a caddy scholarship in hopes of attending college and, in turn, avoiding a job at the lumber yard. In order to succeed, he must first win the favour of the elitist Judge Smails, and then the caddy golf tournament which Smails sponsors.",
+        "release_date": "1980-07-25",
+        "release_year": "1980",
+        "title": "Caddyshack"
+      },
+      {
+        "cast": [
+          "Drew Barrymore",
+          "David Arquette",
+          "Michael Vartan",
+          "Molly Shannon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Raja Gosnell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Josie Geller, a baby-faced junior copywriter at the Chicago Sun-Times, must pose as a student at her former high school to research contemporary teenage culture. With the help of her brother, Rob, Josie infiltrates the inner circle of the most popular clique on campus. But she hits a major snag in her investigation -- not to mention her own failed love life -- when she falls for her dreamy English teacher, Sam Coulson.",
+        "release_date": "1999-04-09",
+        "release_year": "1999",
+        "title": "Never Been Kissed"
+      }
+    ],
+    "raw_user_id": "1645",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 416
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.976810758364969
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to comedies that do not resonate",
+        "Dislike for specific comedic styles or themes"
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies with high ratings",
+        "Enjoyment of action films that incorporate humor",
+        "Positive reception of children's films"
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a wide range of comedies, often rating them highly.); Action (The user appreciates action films, particularly those that blend with other genres.); Children's and Family (The user has a fondness for children's films, often rating them positively.); Adventure (The user enjoys adventure films, especially those that incorporate humor.); Drama (The user rates dramas highly, particularly those that include comedic elements.). Liked patterns: Strong preference for comedies with high ratings, Enjoyment of action films that incorporate humor, Positive reception of children's films. Disliked patterns: Negative response to comedies that do not resonate, Dislike for specific comedic styles or themes.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a wide range of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates action films, particularly those that blend with other genres.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user has a fondness for children's films, often rating them positively.",
+          "taste": "Children's and Family"
+        },
+        {
+          "reason": "The user enjoys adventure films, especially those that incorporate humor.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "The user rates dramas highly, particularly those that include comedic elements.",
+          "taste": "Drama"
+        }
+      ]
+    },
+    "user_id": 1645
+  }
+}

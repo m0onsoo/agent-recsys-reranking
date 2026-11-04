@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "7991c81067d87461fd61efe8eae3298ae7049df8b02ee59e6fce3adbe9773732",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      922,
+      41,
+      696,
+      927,
+      106,
+      1529,
+      324,
+      313,
+      1276,
+      1353
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "47b4c27ec5024f359d05fe7fad821465"
+    ],
+    "sampled_item_ids": [
+      2,
+      5,
+      8,
+      49,
+      76,
+      105,
+      114,
+      284,
+      377,
+      391,
+      462,
+      519,
+      574,
+      696,
+      784,
+      793,
+      1062,
+      1082,
+      1276,
+      1307,
+      1529,
+      1650,
+      1953,
+      2431,
+      2910
+    ],
+    "seed": 42,
+    "source_hash": "83420546ef82e84529a10aed09816c0450647dd05cac5ba723fc42882ed87be1",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 413,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matt Dillon",
+          "Kevin Bacon",
+          "Denise Richards",
+          "Neve Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McNaughton",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When teen-socialite Kelly Van Ryan (Richards) and troubled bad girl Suzie Toller (Campbell) accuse guidance counselor Sam Lombardo (Dillon) of rape, he's suspended by the school, rejected by the town, and fighting to get his life back. One cop (Bacon) suspects conspiracy, but nothing is what it seems...",
+        "release_date": "1998-03-20",
+        "release_year": "1998",
+        "title": "Wild Things"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Don Rickles",
+          "Jim Varney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+        "release_date": "1995-10-30",
+        "release_year": "1995",
+        "title": "Toy Story"
+      },
+      {
+        "cast": [
+          "Michael Keaton",
+          "Teri Garr",
+          "Fred Koehler",
+          "Taliesin Jaffe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stan Dragoti",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jack and Caroline are a couple making a decent living When Jack suddenly loses his job. They agree that he should stay at home and look after the house while Caroline works. It's just that he's never done it before, and really doesn't have a clue...",
+        "release_date": "1983-07-22",
+        "release_year": "1983",
+        "title": "Mr. Mom"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Danny DeVito",
+          "Jon Voight",
+          "Claire Danes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When Rudy Baylor (Matt Damon), a young attorney with no clients, goes to work for a seedy ambulance chaser, he wants to help the parents of a terminally ill boy in their suit against an insurance company (represented by a ruthless Jon Voight). But to take on corporate America, Rudy and a scrappy paralegal (Danny DeVito) must open their own law firm.",
+        "release_date": "1997-11-18",
+        "release_year": "1997",
+        "title": "Rainmaker, The"
+      },
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      },
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Juliette Binoche",
+          "Willem Dafoe",
+          "Kristin Scott Thomas"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Beginning in the 1930s, \"The English Patient\" tells the story of Count Almásy who is a Hungarian map maker employed by the Royal Geographical Society to chart the vast expanses of the Sahara Desert along with several other prominent explorers. As World War II unfolds, Almásy enters into a world of love, betrayal, and politics that is later revealed in a series of flashbacks while Almásy is on his death bed after being horribly burned in a plane crash.",
+        "release_date": "1996-11-14",
+        "release_year": "1996",
+        "title": "English Patient, The"
+      },
+      {
+        "cast": [
+          "James Cromwell",
+          "Mary Stein",
+          "Mickey Rooney",
+          "Magda Szubanski"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Babe, fresh from his victory in the sheepherding contest, returns to Farmer Hoggett's farm, but after Farmer Hoggett is injured and unable to work, Babe has to go to the big city to save the farm.",
+        "release_date": "1998-11-25",
+        "release_year": "1998",
+        "title": "Babe: Pig in the City"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Craig Sheffer",
+          "Tom Skerritt",
+          "Brenda Blethyn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Redford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A River Runs Through is a cinematographically stunning true story of Norman Maclean. The story follows Norman and his brother Paul through the experiences of life and growing up, and how their love of fly fishing keeps them together despite varying life circumstances in the untamed west of Montana in the 1920's.",
+        "release_date": "1992-10-09",
+        "release_year": "1992",
+        "title": "River Runs Through It, A"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sylvester Stallone",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Rocky must come out of retirement to battle a gargantuan Soviet fighter named Drago, who brutally punished Rocky's friend and former rival, Apollo Creed. Seeking revenge in the name of his fallen comrade and his country, Rocky agrees to fight Drago in Moscow on Christmas, and the bout changes both fighters -- and the world.",
+        "release_date": "1985-11-21",
+        "release_year": "1985",
+        "title": "Rocky IV"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "John Hurt",
+          "Anne Bancroft",
+          "John Gielgud"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.",
+        "release_date": "1980-10-02",
+        "release_year": "1980",
+        "title": "Elephant Man, The"
+      }
+    ],
+    "raw_user_id": "413",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 81
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8572701169616554
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for films that focus solely on drama without engaging elements",
+        "Dislike for films that do not blend genres effectively",
+        "Low ratings for films that lack strong character development or storytelling"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films and children's stories",
+        "Strong preference for comedies that also explore dramatic themes",
+        "Positive reception of films that combine action with emotional narratives"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Children's Films (The user enjoys animated and children's films, as evidenced by multiple high ratings for movies in these genres.); Fondness for Comedy and Drama (The user rates several comedies and dramas highly, indicating a preference for films that blend humor with emotional depth.); Interest in War and Action Themes (The user has rated several action and war films positively, suggesting an appreciation for intense and dramatic narratives.); Enjoyment of Romantic Elements (The user shows a liking for films that incorporate romance, as reflected in high ratings for romantic dramas.); Tendency to Appreciate Sci-Fi and Fantasy (The user has rated several sci-fi and fantasy films positively, indicating an interest in imaginative storytelling.). Liked patterns: High ratings for animated films and children's stories, Strong preference for comedies that also explore dramatic themes, Positive reception of films that combine action with emotional narratives. Disliked patterns: Negative rating for films that focus solely on drama without engaging elements, Dislike for films that do not blend genres effectively, Low ratings for films that lack strong character development or storytelling.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated and children's films, as evidenced by multiple high ratings for movies in these genres.",
+          "taste": "Appreciation for Animation and Children's Films"
+        },
+        {
+          "reason": "The user rates several comedies and dramas highly, indicating a preference for films that blend humor with emotional depth.",
+          "taste": "Fondness for Comedy and Drama"
+        },
+        {
+          "reason": "The user has rated several action and war films positively, suggesting an appreciation for intense and dramatic narratives.",
+          "taste": "Interest in War and Action Themes"
+        },
+        {
+          "reason": "The user shows a liking for films that incorporate romance, as reflected in high ratings for romantic dramas.",
+          "taste": "Enjoyment of Romantic Elements"
+        },
+        {
+          "reason": "The user has rated several sci-fi and fantasy films positively, indicating an interest in imaginative storytelling.",
+          "taste": "Tendency to Appreciate Sci-Fi and Fantasy"
+        }
+      ]
+    },
+    "user_id": 413
+  }
+}

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/execute_experiment.py", line 596, in <module>
+    main()
+  File "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/execute_experiment.py", line 587, in main
+    execute_all(base_url, users)
+  File "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/execute_experiment.py", line 546, in execute_all
+    profiles = get_profiles(base_url, users)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/execute_experiment.py", line 420, in get_profiles
+    return_code = paid_step("profiles", arguments, attempt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/execute_experiment.py", line 315, in paid_step
+    raise RuntimeError("Safety stop: retained all logs and artifacts; ask the user before continuing")
+RuntimeError: Safety stop: retained all logs and artifacts; ask the user before continuing

@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "382778a404e9399d80c533cfc30c53060fbe8c3ae976b0bf2f6a5b568d5e82f7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      257,
+      715,
+      202,
+      588,
+      203,
+      596,
+      187,
+      365,
+      206,
+      126
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d4a20a43420442159a7c4522129c3480"
+    ],
+    "sampled_item_ids": [
+      6,
+      63,
+      65,
+      151,
+      186,
+      187,
+      203,
+      206,
+      257,
+      466,
+      529,
+      534,
+      588,
+      596,
+      606,
+      623,
+      679,
+      715,
+      718,
+      892,
+      1082,
+      1102,
+      1185,
+      1934,
+      2131
+    ],
+    "seed": 42,
+    "source_hash": "c6a874e29ac80e204027fdb4945b200c31a1037fb5d423d7b15c39926eb23e8d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2850,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Al Pacino",
+          "Russell Crowe",
+          "Christopher Plummer",
+          "Diane Venora"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Tells the true story of a 60 Minutes television series exposé of the tobacco industry, as seen through the eyes of a real tobacco executive, Jeffrey Wigand",
+        "release_date": "1999-10-28",
+        "release_year": "1999",
+        "title": "Insider, The"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Michael Biehn",
+          "James Remar",
+          "Paul Reiser"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
+        "release_date": "1986-07-18",
+        "release_year": "1986",
+        "title": "Aliens"
+      },
+      {
+        "cast": [
+          "Peter Fonda",
+          "Dennis Hopper",
+          "Antonio Mendoza",
+          "Phil Spector"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dennis Hopper",
+        "genres": [
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A cross-country trip to sell drugs puts two hippie bikers on a collision course with small-town prejudices.",
+        "release_date": "1969-05-07",
+        "release_year": "1969",
+        "title": "Easy Rider"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Michael Keaton",
+          "Kim Basinger",
+          "Michael Gough"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker, who has seized control of Gotham's underworld.",
+        "release_date": "1989-06-23",
+        "release_year": "1989",
+        "title": "Batman"
+      },
+      {
+        "cast": [
+          "Brendan Fraser",
+          "Rachel Weisz",
+          "John Hannah",
+          "Arnold Vosloo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Sommers",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dashing legionnaire Rick O'Connell and his companion, Beni stumble upon the hidden ruins of Hamunaptra while in the midst of a battle in 1923, 3,000 years after Imhotep has suffered a fate worse than death – his body will remain undead for all eternity as a punishment for a forbidden love.",
+        "release_date": "1999-04-16",
+        "release_year": "1999",
+        "title": "Mummy, The"
+      },
+      {
+        "cast": [
+          "Meredith Salenger",
+          "John Cusack",
+          "Ray Wise",
+          "Scatman Crothers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeremy Kagan",
+        "genres": [
+          "Adventure",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "America is in the depths of the Great Depression. Families drift apart when faraway jobs beckon. In this masterful, atmospheric adventure, a courageous young girl (Meredith Salenger) confronts overwhelming odds when she embarks on a cross-country search for her father. During her extraordinary odyssey, she forms a close bond with two diverse traveling companions: a magnificent, protective wolf, and a hardened drifter (John Cusack). A brilliant, moving tapestry, woven of courage and perseverance.",
+        "release_date": "1985-09-25",
+        "release_year": "1985",
+        "title": "Journey of Natty Gann, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Sean Connery",
+          "Denholm Elliott",
+          "Alison Doody"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Henry Jones Sr. suddenly goes missing while pursuing the Holy Grail, eminent archaeologist Indiana must team up with Marcus Brody, Sallah and Elsa Schneider to follow in his father's footsteps and stop the Nazis from recovering the power of eternal life.",
+        "release_date": "1989-05-24",
+        "release_year": "1989",
+        "title": "Indiana Jones and the Last Crusade"
+      },
+      {
+        "cast": [
+          "Ron Perlman",
+          "Dominique Pinon",
+          "Judith Vittet",
+          "Daniel Emilfork"
+        ],
+        "country": [
+          "France",
+          "Germany",
+          "Spain"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "A scientist in a surrealist society kidnaps children to steal their dreams, hoping that they slow his aging process.",
+        "release_date": "1995-05-16",
+        "release_year": "1995",
+        "title": "City of Lost Children, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kate Capshaw",
+          "Jonathan Ke Quan",
+          "Amrish Puri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees – and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace.",
+        "release_date": "1984-05-23",
+        "release_year": "1984",
+        "title": "Indiana Jones and the Temple of Doom"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "John Cusack",
+          "John Malkovich",
+          "Ving Rhames"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Simon West",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When the government puts all its rotten criminal eggs in one airborne basket, it's asking for trouble. Before you can say, \"Pass the barf bag,\" the crooks control the plane, led by creepy Cyrus \"The Virus\" Grissom. Watching his every move is the just-released Cameron Poe, who'd rather reunite with his family.",
+        "release_date": "1997-06-01",
+        "release_year": "1997",
+        "title": "Con Air"
+      }
+    ],
+    "raw_user_id": "2850",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 35
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4527699729004788
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for movies with low engagement in fantasy and children's genres",
+        "Negative ratings for sci-fi films that lack strong narratives",
+        "Displeasure with films that are primarily drama without action or adventure elements"
+      ],
+      "liked_patterns": [
+        "Enjoyment of action-adventure films with positive ratings",
+        "Appreciation for thrillers that blend with action",
+        "Positive reception of films featuring dramatic storylines"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys a strong presence of action and adventure elements in their movie selections, often rating them positively.); Thriller Elements (Movies with thriller components are appreciated, as indicated by several ratings of 3 or higher.); Fantasy and Sci-Fi (The user shows a preference for fantasy and sci-fi genres, although with mixed ratings.); Dramatic Storylines (Dramatic narratives are well-received, particularly when combined with other genres.); Comedy and Lightheartedness (The user enjoys comedic elements, especially when they are part of adventure films.). Liked patterns: Enjoyment of action-adventure films with positive ratings, Appreciation for thrillers that blend with action, Positive reception of films featuring dramatic storylines. Disliked patterns: Dislike for movies with low engagement in fantasy and children's genres, Negative ratings for sci-fi films that lack strong narratives, Displeasure with films that are primarily drama without action or adventure elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a strong presence of action and adventure elements in their movie selections, often rating them positively.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "Movies with thriller components are appreciated, as indicated by several ratings of 3 or higher.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user shows a preference for fantasy and sci-fi genres, although with mixed ratings.",
+          "taste": "Fantasy and Sci-Fi"
+        },
+        {
+          "reason": "Dramatic narratives are well-received, particularly when combined with other genres.",
+          "taste": "Dramatic Storylines"
+        },
+        {
+          "reason": "The user enjoys comedic elements, especially when they are part of adventure films.",
+          "taste": "Comedy and Lightheartedness"
+        }
+      ]
+    },
+    "user_id": 2850
+  }
+}

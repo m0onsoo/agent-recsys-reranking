@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "84699cc6a24ae8e2eacfe895762e1f90de0acd81feb26ad73b926f0e8ad16fa8",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      780,
+      85,
+      2368,
+      217,
+      1002,
+      265,
+      336,
+      667,
+      434,
+      63
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "3973f401ffb84636a878037fca34c23d"
+    ],
+    "sampled_item_ids": [
+      10,
+      61,
+      113,
+      128,
+      165,
+      172,
+      202,
+      215,
+      447,
+      531,
+      542,
+      592,
+      667,
+      703,
+      719,
+      734,
+      857,
+      879,
+      949,
+      1005,
+      1214,
+      1694,
+      1704,
+      2245,
+      2945
+    ],
+    "seed": 42,
+    "source_hash": "65371da92c9988b1f52d282aeeb96c977c891df7358ffbd1aeeb7927c8c08050",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 949,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael Crawford",
+          "Oliver Reed",
+          "Barbara Carrera",
+          "James Hampton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charles Jarrott",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Comic artist and writer Woody performs a simple courier operation for his friend Harry who works for the CIA. But when he successfully fends off hostile agents, he earns the respect of the beautiful Natalia, who requests his assistance for her defection. Woody uses this request as leverage to use the CIA's resources to bring his comic book creation, Condorman, to life to battle the evil Krokov.",
+        "release_date": "1981-07-02",
+        "release_year": "1981",
+        "title": "Condorman"
+      },
+      {
+        "cast": [
+          "Wil Wheaton",
+          "River Phoenix",
+          "Corey Feldman",
+          "Jerry O'Connell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After the death of a friend, a writer recounts a boyhood journey to find the body of a missing boy.",
+        "release_date": "1986-08-22",
+        "release_year": "1986",
+        "title": "Stand by Me"
+      },
+      {
+        "cast": [
+          "Hugh Marlowe",
+          "Joan Taylor",
+          "Donald Curtis",
+          "Thomas Browne Henry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Fred F. Sears",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After aliens fail to effectively manage their time-space communications devices and botch an attempt to contact rocket scientist Dr. Russell Marvin and his charming wife Carol, they start to destroy Earth targets, suck the knowledge out of military brains, and issue ultimatums. Fortunately, Dr. Marvin and his fellow scientists have a few tricks of their own.",
+        "release_date": "1956-07-04",
+        "release_year": "1956",
+        "title": "Earth Vs. the Flying Saucers"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Honor Blackman",
+          "Gert Fröbe",
+          "Shirley Eaton"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Guy Hamilton",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Special agent 007 (Sean Connery) comes face to face with one of the most notorious villains of all time, and now he must outwit and outgun the powerful tycoon to prevent him from cashing in on a devious scheme to raid Fort Knox -- and obliterate the world's economy.",
+        "release_date": "1964-09-17",
+        "release_year": "1964",
+        "title": "Goldfinger"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "John Beck",
+          "Mary Gregory"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Miles Monroe, a clarinet-playing health food store proprietor, is revived out of cryostasis 200 years into a future world in order to help rebels fight an oppressive government regime.",
+        "release_date": "1973-12-17",
+        "release_year": "1973",
+        "title": "Sleeper"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dennis Hopper",
+          "Sandra Bullock",
+          "Joe Morton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Los Angeles SWAT cop Jack Traven is up against bomb expert Howard Payne, who's after major ransom money. First it's a rigged elevator in a very tall building. Then it's a rigged bus--if it slows, it will blow, bad enough any day, but a nightmare in LA traffic. And that's still not the end.",
+        "release_date": "1994-06-09",
+        "release_year": "1994",
+        "title": "Speed"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Elizabeth Hurley",
+          "Michael York",
+          "Mimi Rogers"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "As a swingin' fashion photographer by day and a groovy British superagent by night, Austin Powers is the '60s' most shagadelic spy, baby! But can he stop megalomaniac Dr. Evil after the bald villain freezes himself and unthaws in the '90s? With the help of sexy sidekick Vanessa Kensington, he just might.",
+        "release_date": "1997-05-02",
+        "release_year": "1997",
+        "title": "Austin Powers: International Man of Mystery"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Tina Turner",
+          "Bruce Spence",
+          "Helen Buday"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Mad Max becomes a pawn in a decadent oasis of a technological society, and when exiled, becomes the deliverer of a colony of children.",
+        "release_date": "1985-06-29",
+        "release_year": "1985",
+        "title": "Mad Max Beyond Thunderdome"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Rene Russo",
+          "John Malkovich",
+          "Dylan McDermott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Veteran Secret Service agent Frank Horrigan is a man haunted by his failure to save President Kennedy while serving protection detail in Dallas. Thirty years later, a man calling himself \"Booth\" threatens the life of the current President, forcing Horrigan to come back to protection detail to confront the ghosts from his past.",
+        "release_date": "1993-07-08",
+        "release_year": "1993",
+        "title": "In the Line of Fire"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      }
+    ],
+    "raw_user_id": "949",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 297
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8368010197490046
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that do not resonate with the user.",
+        "Negative response to films that lack engaging narratives or character development."
+      ],
+      "liked_patterns": [
+        "Strong preference for action-adventure films with high ratings.",
+        "Enjoyment of films that blend comedy with drama and romance.",
+        "Appreciation for science fiction and fantasy elements in storytelling."
+      ],
+      "summary": "Unique tastes: Adventure (The user enjoys a variety of adventure films that blend action and fantasy elements.); Action (The user has a strong preference for action films, particularly those that incorporate thrilling and dramatic narratives.); Comedy (The user appreciates comedies that also explore deeper themes, often blending humor with drama.); Sci-Fi (The user is drawn to science fiction films that offer imaginative storytelling and unique concepts.); Drama (The user values dramatic narratives that evoke strong emotions and often intertwine with other genres.). Liked patterns: Strong preference for action-adventure films with high ratings., Enjoyment of films that blend comedy with drama and romance., Appreciation for science fiction and fantasy elements in storytelling.. Disliked patterns: Dislike for horror films that do not resonate with the user., Negative response to films that lack engaging narratives or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of adventure films that blend action and fantasy elements.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "The user has a strong preference for action films, particularly those that incorporate thrilling and dramatic narratives.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user appreciates comedies that also explore deeper themes, often blending humor with drama.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to science fiction films that offer imaginative storytelling and unique concepts.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user values dramatic narratives that evoke strong emotions and often intertwine with other genres.",
+          "taste": "Drama"
+        }
+      ]
+    },
+    "user_id": 949
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "e370dd84ad53daea6aa775d89da1411f900efe932167d1f7f4c856c8c49f585b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      942,
+      108,
+      606,
+      110,
+      493,
+      465,
+      1002,
+      80,
+      52,
+      1190
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      44,
+      131,
+      250,
+      344,
+      362,
+      427,
+      493,
+      522,
+      598,
+      610,
+      724,
+      738,
+      829,
+      958,
+      989,
+      1054,
+      1060,
+      1298,
+      1346,
+      1574,
+      1634,
+      1838,
+      1955,
+      2035,
+      2143
+    ],
+    "seed": 42,
+    "source_hash": "d37561e9909dd1202a886b4480279de9ed46ee97f373b89a1ac33060c56478f7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5759,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Madonna",
+          "Rosanna Arquette",
+          "Aidan Quinn",
+          "Mark Blum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Susan Seidelman",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Roberta is a bored suburban housewife who is fascinated with a woman, Susan, she only knows about by reading messages to and from her in the personals section of the newspaper. This fascination reaches a peak when an ad with the headline \"Desperately Seeking Susan\" proposes a rendezvous. Roberta goes too, and in a series of events involving amnesia and mistaken identity, steps into Susan's life.",
+        "release_date": "1985-03-29",
+        "release_year": "1985",
+        "title": "Desperately Seeking Susan"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Wesley Snipes",
+          "Sandra Bullock",
+          "Nigel Hawthorne"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Marco Brambilla",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Simon Phoenix, a violent criminal cryogenically frozen in 1996, has escaped during a parole hearing in 2032 in the utopia of San Angeles. Police are incapable of dealing with his violent ways and turn to his captor, John Spartan, who had also been cryogenically frozen when wrongfully accused of killing 30 innocent people while apprehending Phoenix.",
+        "release_date": "1993-10-08",
+        "release_year": "1993",
+        "title": "Demolition Man"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "James Spader",
+          "Jaye Davidson",
+          "Viveca Lindfors"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
+        "release_date": "1994-10-27",
+        "release_year": "1994",
+        "title": "Stargate"
+      },
+      {
+        "cast": [
+          "Marco Leonardi",
+          "Lumi Cavazos",
+          "Regina Torné",
+          "Ada Carrasco"
+        ],
+        "country": [
+          "Mexico"
+        ],
+        "director": "Alfonso Aráu",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "Spanish",
+        "overview": "Tita is passionately in love with Pedro, but her controlling mother forbids her from marrying him. When Pedro marries her sister, Tita throws herself into her cooking and discovers she can transfer her emotions through the food she prepares, infecting all who eat it with her intense heartbreak.",
+        "release_date": "1992-04-16",
+        "release_year": "1992",
+        "title": "Like Water for Chocolate (Como agua para chocolate)"
+      },
+      {
+        "cast": [
+          "Oprah Winfrey",
+          "Danny Glover",
+          "Thandie Newton",
+          "Lisa Gay Hamilton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After Paul D. finds his old slave friend Sethe in Ohio and moves in with her and her daughter Denver, a strange girl comes along by the name of \"Beloved\". Sethe and Denver take her in and then strange things start to happen...",
+        "release_date": "1998-10-16",
+        "release_year": "1998",
+        "title": "Beloved"
+      },
+      {
+        "cast": [
+          "Leonardo DiCaprio",
+          "Claire Danes",
+          "John Leguizamo",
+          "Harold Perrineau"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Baz Luhrmann",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In director Baz Luhrmann's contemporary take on William Shakespeare's classic tragedy, the Montagues and Capulets have moved their ongoing feud to the sweltering suburb of Verona Beach, where Romeo and Juliet fall in love and secretly wed. Though the film is visually modern, the bard's dialogue remains.",
+        "release_date": "1996-10-31",
+        "release_year": "1996",
+        "title": "William Shakespeare's Romeo and Juliet"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "John Beck",
+          "Mary Gregory"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Miles Monroe, a clarinet-playing health food store proprietor, is revived out of cryostasis 200 years into a future world in order to help rebels fight an oppressive government regime.",
+        "release_date": "1973-12-17",
+        "release_year": "1973",
+        "title": "Sleeper"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Rene Russo",
+          "Morgan Freeman",
+          "Kevin Spacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A deadly airborne virus finds its way into the USA and starts killing off people at an epidemic rate. Col Sam Daniels' job is to stop the virus spreading from a small town, which must be quarantined, and to prevent an over reaction by the White House.",
+        "release_date": "1995-03-10",
+        "release_year": "1995",
+        "title": "Outbreak"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Danny DeVito",
+          "Emma Thompson",
+          "Frank Langella"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "As part of a fertility research project, a male scientist agrees to carry a pregnancy in his own body.",
+        "release_date": "1994-11-22",
+        "release_year": "1994",
+        "title": "Junior"
+      }
+    ],
+    "raw_user_id": "5759",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 462
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8050593673024004
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily drama without engaging elements.",
+        "Dislike for films that do not resonate with the user's comedic or romantic preferences."
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedies that blend with romance and drama.",
+        "Appreciation for films that feature strong character-driven narratives.",
+        "Interest in action films that also incorporate comedic elements."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, including romantic and dramatic elements.); Drama (The user appreciates dramas that explore complex themes and character development.); Romance (The user is drawn to romantic narratives, often intertwined with comedy or drama.); Action (The user shows interest in action films, particularly those that blend with other genres.); Musical (The user enjoys musicals, especially when they incorporate comedy and romance.). Liked patterns: Enjoyment of comedies that blend with romance and drama., Appreciation for films that feature strong character-driven narratives., Interest in action films that also incorporate comedic elements.. Disliked patterns: Dislike for films that are primarily drama without engaging elements., Dislike for films that do not resonate with the user's comedic or romantic preferences..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, including romantic and dramatic elements.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramas that explore complex themes and character development.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user is drawn to romantic narratives, often intertwined with comedy or drama.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user shows interest in action films, particularly those that blend with other genres.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user enjoys musicals, especially when they incorporate comedy and romance.",
+          "taste": "Musical"
+        }
+      ]
+    },
+    "user_id": 5759
+  }
+}

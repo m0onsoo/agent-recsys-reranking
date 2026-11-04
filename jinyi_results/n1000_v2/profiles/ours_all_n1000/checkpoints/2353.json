@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "18efd2d851c6ae49b74aa9b37778df6700e5dc7fc7ed9c34b04ef77ba6b920b9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      548,
+      509,
+      383,
+      873,
+      90,
+      1451,
+      46,
+      309,
+      1406,
+      264
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "31a4727d93834c00b3aba9a280540a58"
+    ],
+    "sampled_item_ids": [
+      21,
+      85,
+      138,
+      153,
+      195,
+      223,
+      281,
+      291,
+      297,
+      306,
+      373,
+      383,
+      429,
+      482,
+      530,
+      687,
+      694,
+      762,
+      862,
+      1245,
+      1388,
+      1508,
+      1644,
+      2073,
+      2685
+    ],
+    "seed": 42,
+    "source_hash": "45e658eb90653d8ebd300586e6a963e11b5e6b251e6cd6024af3c133e0b1b8ea",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2353,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "homemaker"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Meg Ryan",
+          "Billy Crystal",
+          "Carrie Fisher",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "During their travels from Chicago to New York, Harry and Sally Will debate whether or not sex ruins a perfect relationship between a man and a woman. Eleven years and later, they're still no closer to finding the answer.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "When Harry Met Sally..."
+      },
+      {
+        "cast": [
+          "Sarah Michelle Gellar",
+          "Ryan Phillippe",
+          "Reese Witherspoon",
+          "Selma Blair"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Kumble",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Slaking a thirst for dangerous games, Kathryn challenges her stepbrother, Sebastian, to deflower their headmaster's daughter before the summer ends. If he succeeds, the prize is the chance to bed Kathryn. But if he loses, Kathryn will claim his most prized possession.",
+        "release_date": "1999-03-05",
+        "release_year": "1999",
+        "title": "Cruel Intentions"
+      },
+      {
+        "cast": [
+          "Hugh Grant",
+          "Andie MacDowell",
+          "James Fleet",
+          "Simon Callow"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Four Weddings And A Funeral is a British comedy about a British Man named Charles and an American Woman named Carrie who go through numerous weddings before they determine if they are right for one another.",
+        "release_date": "1994-03-09",
+        "release_year": "1994",
+        "title": "Four Weddings and a Funeral"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Michelle Pfeiffer",
+          "Diana Scarwid",
+          "James Remar"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When Claire Spencer starts hearing ghostly voices and seeing spooky images, she wonders if an otherworldly spirit is trying to contact her. All the while, her husband tries to reassure her by telling her it's all in her head. But as Claire investigates, she discovers that the man she loves might know more than he's letting on.",
+        "release_date": "2000-07-21",
+        "release_year": "2000",
+        "title": "What Lies Beneath"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Geena Davis",
+          "Madonna",
+          "Lori Petty"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Small-town sisters Dottie and Kit join an all-female baseball league formed after World War II brings pro baseball to a standstill. When their team hits the road with its drunken coach, the siblings find troubles and triumphs on and off the field.",
+        "release_date": "1992-07-01",
+        "release_year": "1992",
+        "title": "League of Their Own, A"
+      },
+      {
+        "cast": [
+          "Farley Granger",
+          "Robert Walker",
+          "Ruth Roman",
+          "Patricia Hitchcock"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychotic socialite confronts a pro tennis star with a theory on how two complete strangers can get away with murder...a theory that he plans to implement.",
+        "release_date": "1951-06-18",
+        "release_year": "1951",
+        "title": "Strangers on a Train"
+      },
+      {
+        "cast": [
+          "Julie Andrews",
+          "Dick Van Dyke",
+          "David Tomlinson",
+          "Glynis Johns"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Stevenson",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "The movie combines a diverting story, songs, color and sequences of live action blended with the movements of animated figures. Mary Poppins is a kind of Super-nanny who flies in with her umbrella in response to the request of the Banks children and proceeds to put things right with the aid of her rather extraordinary magical powers before flying off again.",
+        "release_date": "1964-08-27",
+        "release_year": "1964",
+        "title": "Mary Poppins"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Helen Mirren",
+          "River Phoenix",
+          "Conrad Roberts"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Allie Fox, an American inventor exhausted by the perceived danger and degradation of modern society, decides to escape with his wife and children to Belize. In the jungle, he tries with mad determination to create a utopian community with disastrous results.",
+        "release_date": "1986-11-26",
+        "release_year": "1986",
+        "title": "Mosquito Coast, The"
+      },
+      {
+        "cast": [
+          "Robert Redford",
+          "Glenn Close",
+          "Kim Basinger",
+          "Wilford Brimley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An unknown middle-aged batter named Roy Hobbs with a mysterious past appears out of nowhere to take a losing 1930s baseball team to the top of the league in this magical sports fantasy. With the aid of a bat cut from a lightning struck tree, Hobbs lives the fame he should have had earlier when, as a rising pitcher, he is inexplicably shot by a young woman.",
+        "release_date": "1984-05-11",
+        "release_year": "1984",
+        "title": "Natural, The"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Ian McDiarmid",
+          "Christina Ricci",
+          "Casper Van Dien"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Horror",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "New York detective Ichabod Crane is sent to Sleepy Hollow to investigate a series of mysterious deaths in which the victims are found beheaded. But the locals believe the culprit to be none other than the ghost of the legendary Headless Horseman.",
+        "release_date": "1999-11-18",
+        "release_year": "1999",
+        "title": "Sleepy Hollow"
+      }
+    ],
+    "raw_user_id": "2353",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 159
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0286878783285696
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or emotional engagement.",
+        "Negative response to action films that do not incorporate strong narratives."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and emotional storytelling.",
+        "Enjoyment of films that blend drama with thriller elements.",
+        "Positive reception of comedies with a mix of romance."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, often rating them highly.); Thriller (The user enjoys thrillers, as indicated by several high ratings in this genre.); Comedy (The user appreciates comedies, with multiple ratings of 3 or above.); Romance (Romantic elements in films are well-received, as seen in several high ratings.); Mystery (The user is drawn to mystery themes, reflected in positive ratings for films with this genre.). Liked patterns: Strong preference for drama and emotional storytelling., Enjoyment of films that blend drama with thriller elements., Positive reception of comedies with a mix of romance.. Disliked patterns: Dislike for comedies that lack depth or emotional engagement., Negative response to action films that do not incorporate strong narratives..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, often rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys thrillers, as indicated by several high ratings in this genre.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user appreciates comedies, with multiple ratings of 3 or above.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Romantic elements in films are well-received, as seen in several high ratings.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user is drawn to mystery themes, reflected in positive ratings for films with this genre.",
+          "taste": "Mystery"
+        }
+      ]
+    },
+    "user_id": 2353
+  }
+}

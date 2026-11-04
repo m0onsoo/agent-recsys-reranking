@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "9018a06f9f16789924a3ed3b86290173fe5560c380de0cde3a63546ca66823bd",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      21,
+      1667,
+      316,
+      1043,
+      1121,
+      56,
+      178,
+      1265,
+      183,
+      435
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "4ed3400d31e84eb6825d8d9a1d347a1f"
+    ],
+    "sampled_item_ids": [
+      6,
+      14,
+      21,
+      117,
+      170,
+      183,
+      316,
+      393,
+      421,
+      435,
+      626,
+      793,
+      1034,
+      1039,
+      1043,
+      1121,
+      1248,
+      1265,
+      1304,
+      1309,
+      1404,
+      1645,
+      1652,
+      1667,
+      2264
+    ],
+    "seed": 42,
+    "source_hash": "f7ed5f08ba84ce1bf7d37ee7810b32e1dda7e58d28c195d529ef82cec78dea5c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 794,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tobey Maguire",
+          "Reese Witherspoon",
+          "William H. Macy",
+          "Joan Allen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Ross",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Geeky teenager David and his popular twin sister, Jennifer, get sucked into the black-and-white world of a 1950s TV sitcom called \"Pleasantville,\" and find a world where everything is peachy keen all the time. But when Jennifer's modern attitude disrupts Pleasantville's peaceful but boring routine, she literally brings color into its life.",
+        "release_date": "1998-09-17",
+        "release_year": "1998",
+        "title": "Pleasantville"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "Danny DeVito",
+          "Barbara Hershey",
+          "John Mahoney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A minor car accident drives two rival aluminum-siding salesmen to the ridiculous extremes of man versus man in 1963 Baltimore.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Tin Men"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Reese Witherspoon",
+          "Chris Klein",
+          "Jessica Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alexander Payne",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A high school teacher's personal life becomes complicated as he works with students during the school elections.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Election"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Mary Steenburgen",
+          "Dianne Wiest",
+          "Jason Robards"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story of the Buckman family and friends, attempting to bring up their children. They suffer/enjoy all the events that occur: estranged relatives, the \"black sheep\" of the family, the eccentrics, the skeletons in the closet, and the rebellious teenagers.",
+        "release_date": "1989-07-31",
+        "release_year": "1989",
+        "title": "Parenthood"
+      },
+      {
+        "cast": [
+          "Michael Moore",
+          "Roger B. Smith",
+          "Rhonda Britton",
+          "Fred Ross"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Moore",
+        "genres": [
+          "Comedy",
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A documentary about the closure of General Motors' plant at Flint, Michigan, which resulted in the loss of 30,000 jobs. Details the attempts of filmmaker Michael Moore to get an interview with GM CEO Roger Smith.",
+        "release_date": "1989-09-01",
+        "release_year": "1989",
+        "title": "Roger & Me"
+      },
+      {
+        "cast": [
+          "Koji Yakusho",
+          "Tamiyo Kusakari",
+          "Naoto Takenaka",
+          "Yu Tokui"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Masayuki Suo",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "Japanese",
+        "overview": "A bored Japanese accountant sees a beautiful woman in the window of a ballroom dance studio. He secretly starts taking dancing lessons to be near her, and then over time discovers how much he loves ballroom dancing. His wife, meanwhile, has hired a private detective to find out why he has started coming home late smelling of perfume.",
+        "release_date": "1996-01-27",
+        "release_year": "1996",
+        "title": "Shall We Dance? (Shall We Dansu?)"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Holly Hunter",
+          "Trey Wilson",
+          "John Goodman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Coen Brothers tell the story of a absurd yet likable family with an unproductive couple as the focal point. The couple has gotten themselves into some trouble while kidnapping a baby and give Hollywood one of the most memorable chase scenes to date.",
+        "release_date": "1987-03-01",
+        "release_year": "1987",
+        "title": "Raising Arizona"
+      },
+      {
+        "cast": [
+          "Shirley MacLaine",
+          "Debra Winger",
+          "Jack Nicholson",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Aurora and Emma are mother and daughter who march to different drummers. Beginning with Emma's marriage, Aurora shows how difficult and loving she can be. The movie covers several years of their lives as each finds different reasons to go on living and find joy. Aurora's interludes with Garrett Breedlove, retired astronaut and next door neighbor are quite striking.",
+        "release_date": "1983-11-20",
+        "release_year": "1983",
+        "title": "Terms of Endearment"
+      },
+      {
+        "cast": [
+          "Leslie Nielsen",
+          "Priscilla Presley",
+          "Ricardo Montalban",
+          "George Kennedy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Zucker",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the incompetent Officer Frank Drebin seeks the ruthless killer of his partner, he stumbles upon an attempt to assassinate Queen Elizabeth.",
+        "release_date": "1988-12-02",
+        "release_year": "1988",
+        "title": "Naked Gun: From the Files of Police Squad!, The"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Robert Duvall",
+          "Diane Keaton",
+          "Robert De Niro"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+        "release_date": "1974-12-20",
+        "release_year": "1974",
+        "title": "Godfather: Part II, The"
+      }
+    ],
+    "raw_user_id": "794",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 35
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.13712818440887
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 9
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that lack engaging narratives or character development.",
+        "Negative ratings for comedies that do not resonate with the user's sense of humor."
+      ],
+      "liked_patterns": [
+        "Preference for comedies that blend humor with romance or drama.",
+        "High ratings for films featuring strong character arcs and emotional narratives.",
+        "Enjoyment of films that provide social commentary through humor."
+      ],
+      "summary": "Unique tastes: Comedy with Romantic Elements (The user enjoys comedies that incorporate romance, as seen in multiple high-rated films.); Dramatic Comedies (The user appreciates films that blend comedy with drama, indicating a preference for emotional depth alongside humor.); Strong Character-Driven Narratives (The user favors films with strong character development, often reflected in their high ratings for dramas and character-focused comedies.); Nostalgic Themes (The user seems to enjoy films that evoke nostalgia, particularly through humor and relatable life situations.); Social Commentary (The user is drawn to comedies that provide social commentary, as indicated by their ratings for films that tackle societal issues.). Liked patterns: Preference for comedies that blend humor with romance or drama., High ratings for films featuring strong character arcs and emotional narratives., Enjoyment of films that provide social commentary through humor.. Disliked patterns: Dislike for films that lack engaging narratives or character development., Negative ratings for comedies that do not resonate with the user's sense of humor..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys comedies that incorporate romance, as seen in multiple high-rated films.",
+          "taste": "Comedy with Romantic Elements"
+        },
+        {
+          "reason": "The user appreciates films that blend comedy with drama, indicating a preference for emotional depth alongside humor.",
+          "taste": "Dramatic Comedies"
+        },
+        {
+          "reason": "The user favors films with strong character development, often reflected in their high ratings for dramas and character-focused comedies.",
+          "taste": "Strong Character-Driven Narratives"
+        },
+        {
+          "reason": "The user seems to enjoy films that evoke nostalgia, particularly through humor and relatable life situations.",
+          "taste": "Nostalgic Themes"
+        },
+        {
+          "reason": "The user is drawn to comedies that provide social commentary, as indicated by their ratings for films that tackle societal issues.",
+          "taste": "Social Commentary"
+        }
+      ]
+    },
+    "user_id": 794
+  }
+}

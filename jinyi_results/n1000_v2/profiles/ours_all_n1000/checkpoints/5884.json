@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "843422c919d87f6d1e47f371a390259f7e9d651c92f5925023afac37d3f9c19c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      712,
+      123,
+      604,
+      1093,
+      125,
+      647,
+      749,
+      214,
+      278,
+      44
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      7,
+      44,
+      45,
+      97,
+      114,
+      123,
+      128,
+      152,
+      157,
+      193,
+      278,
+      289,
+      298,
+      320,
+      433,
+      469,
+      647,
+      715,
+      725,
+      744,
+      749,
+      995,
+      1001,
+      1711,
+      2487
+    ],
+    "seed": 42,
+    "source_hash": "cb7d9ca6f9fc634108c8479d208a1a7110e556de0271a822b2164304d1ddc503",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5884,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Gary Busey",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Veteran buttoned-down LAPD detective Roger Murtaugh is partnered with unhinged cop Martin Riggs, who -- distraught after his wife's death -- has a death wish and takes unnecessary risks with criminals at every turn. The odd couple embark on their first homicide investigation as partners, involving a young woman known to Murtaugh with ties to a drug and prostitution ring.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Lethal Weapon"
+      },
+      {
+        "cast": [
+          "Sean Penn",
+          "Adrien Brody",
+          "Jim Caviezel",
+          "Ben Chaplin"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Terrence Malick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Based on the graphic novel by James Jones, The Thin Red Line tells the story of a group of men, an Army Rifle company called C-for-Charlie, who change, suffer, and ultimately make essential discoveries about themselves during the fierce World War II battle of Guadalcanal. It follows their journey, from the surprise of an unopposed landing, through the bloody and exhausting battles that follow, to the ultimate departure of those who survived. A powerful frontline cast - including Sean Penn, Nick Nolte, Woody Harrelson and George Clooney - explodes into action in this hauntingly realistic view of military and moral chaos in the Pacific during World War II.",
+        "release_date": "1998-12-25",
+        "release_year": "1998",
+        "title": "Thin Red Line, The"
+      },
+      {
+        "cast": [
+          "Tim Curry",
+          "Susan Sarandon",
+          "Barry Bostwick",
+          "Richard O'Brien"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Sharman",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Sweethearts Brad and Janet, stuck with a flat tire during a storm, discover the eerie mansion of Dr. Frank-N-Furter, a transvestite scientist. As their innocence is lost, Brad and Janet meet a houseful of wild characters, including a rocking biker and a creepy butler. Through elaborate dances and rock songs, Frank-N-Furter unveils his latest creation: a muscular man named 'Rocky'.",
+        "release_date": "1975-08-14",
+        "release_year": "1975",
+        "title": "Rocky Horror Picture Show, The"
+      },
+      {
+        "cast": [
+          "Toshirō Mifune",
+          "Takashi Shimura",
+          "Yoshio Inaba",
+          "Seiji Miyaguchi"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Akira Kurosawa",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "Japanese",
+        "overview": "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food. A giant battle occurs when 40 bandits attack the village.",
+        "release_date": "1954-04-26",
+        "release_year": "1954",
+        "title": "Seven Samurai (The Magnificent Seven) (Shichinin no samurai)"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Fugitives of the Federation for their daring rescue of Spock from the doomed Genesis Planet, Admiral Kirk (William Shatner) and his crew begin their journey home to face justice for their actions. But as they near Earth, they find it at the mercy of a mysterious alien presence whose signals are slowly destroying the planet. In a desperate attempt to answer the call of the probe, Kirk and his crew race back to the late twentieth century. However they soon find the world they once knew to be more alien than anything they've encountered in the far reaches of the galaxy!",
+        "release_date": "1986-11-25",
+        "release_year": "1986",
+        "title": "Star Trek IV: The Voyage Home"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Roddy McDowall",
+          "Kim Hunter",
+          "Maurice Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An  U.S. Spaceship lands on a desolate planet, stranding astronaut Taylor in a world dominated by apes, 2000 years into the future, who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
+        "release_date": "1968-02-07",
+        "release_year": "1968",
+        "title": "Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Robert Shaw",
+          "Richard Dreyfuss",
+          "Lorraine Gary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
+        "release_date": "1975-06-18",
+        "release_year": "1975",
+        "title": "Jaws"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "Franka Potente",
+          "Moritz Bleibtreu",
+          "Herbert Knaup",
+          "Nina Petri"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Tom Tykwer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store to get the money. Three different alternatives may happen depending on some minor event along Lola's run.",
+        "release_date": "1998-08-20",
+        "release_year": "1998",
+        "title": "Run Lola Run (Lola rennt)"
+      }
+    ],
+    "raw_user_id": "5884",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 64
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9113479289107883
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that do not effectively blend genres or fail to engage the viewer",
+        "Negative response to poorly executed sci-fi narratives"
+      ],
+      "liked_patterns": [
+        "Preference for action-oriented films across various sub-genres",
+        "Enjoyment of science fiction films that include thrilling or suspenseful elements",
+        "Appreciation for films that combine drama with action"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Sci-Fi and Thrillers (The user is drawn to science fiction narratives that incorporate thrilling elements and suspense.); Drama with Action Elements (The user appreciates films that blend dramatic storytelling with action, highlighting character development.); Animation and Sci-Fi (The user has a preference for animated films that explore science fiction themes.); Strong Female Characters (The user favors films that feature strong female leads and narratives centered around their experiences.). Liked patterns: Preference for action-oriented films across various sub-genres, Enjoyment of science fiction films that include thrilling or suspenseful elements, Appreciation for films that combine drama with action. Disliked patterns: Dislike for films that do not effectively blend genres or fail to engage the viewer, Negative response to poorly executed sci-fi narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user is drawn to science fiction narratives that incorporate thrilling elements and suspense.",
+          "taste": "Sci-Fi and Thrillers"
+        },
+        {
+          "reason": "The user appreciates films that blend dramatic storytelling with action, highlighting character development.",
+          "taste": "Drama with Action Elements"
+        },
+        {
+          "reason": "The user has a preference for animated films that explore science fiction themes.",
+          "taste": "Animation and Sci-Fi"
+        },
+        {
+          "reason": "The user favors films that feature strong female leads and narratives centered around their experiences.",
+          "taste": "Strong Female Characters"
+        }
+      ]
+    },
+    "user_id": 5884
+  }
+}

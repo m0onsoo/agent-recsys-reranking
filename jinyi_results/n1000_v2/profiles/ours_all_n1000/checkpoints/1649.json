@@ -1,0 +1,346 @@
+{
+  "checkpoint_hash": "277f47738c62f0ec62649f37d3bae5655af8c5bcff22856f4be4ea846b76bcd5",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      61,
+      663,
+      665,
+      623,
+      768,
+      755,
+      718,
+      98,
+      999,
+      23
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "f18ea14f7cc148e3950254eea1b2912e"
+    ],
+    "sampled_item_ids": [
+      23,
+      24,
+      61,
+      64,
+      65,
+      68,
+      129,
+      175,
+      322,
+      377,
+      435,
+      559,
+      598,
+      612,
+      623,
+      663,
+      665,
+      718,
+      740,
+      809,
+      995,
+      999,
+      1242,
+      1467,
+      1620
+    ],
+    "seed": 42,
+    "source_hash": "9f02d3975c8c166375105f4b7752d4cf2a11795ab0f741e8c6b8f62bf47bb5c6",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1649,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "unemployed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Keir Dullea",
+          "Gary Lockwood",
+          "William Sylvester",
+          "Douglas Rain"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "release_date": "1968-04-10",
+        "release_year": "1968",
+        "title": "2001: A Space Odyssey"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Bruce Spence",
+          "Michael Preston",
+          "Max Phipps"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape.",
+        "release_date": "1981-12-24",
+        "release_year": "1981",
+        "title": "Mad Max 2 (a.k.a. The Road Warrior)"
+      },
+      {
+        "cast": [
+          "Barret Oliver",
+          "Gerald McRaney",
+          "Noah Hathaway",
+          "Drum Garrett"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "While hiding from bullies in his school's attic, a young boy discovers the extraordinary land of Fantasia, through a magical book called The Neverending Story. The book tells the tale of Atreyu, a young warrior who, with the help of a luck dragon named Falkor, must save Fantasia from the destruction of The Nothing.",
+        "release_date": "1984-04-05",
+        "release_year": "1984",
+        "title": "NeverEnding Story, The"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Bruce Boxleitner",
+          "David Warner",
+          "Cindy Morgan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Lisberger",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "As Kevin Flynn searches for proof that he invented a hit video game, he is \"digitalized\" by a laser and finds himself inside The Grid, where programs suffer under the tyrannical rule of the Master Control Program. With the help of TRON, a security program, Flynn seeks to free The Grid from the MCP.",
+        "release_date": "1982-07-09",
+        "release_year": "1982",
+        "title": "Tron"
+      },
+      {
+        "cast": [
+          "Kyle MacLachlan",
+          "Francesca Annis",
+          "Leonardo Cimino",
+          "Brad Dourif"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 10,191, the world is at war for control of the desert planet Dune – the only place where the time-travel substance 'Spice' can be found. But when one leader gives up control, it's only so he can stage a coup with some unsavory characters.",
+        "release_date": "1984-12-14",
+        "release_year": "1984",
+        "title": "Dune"
+      },
+      {
+        "cast": [
+          "Sean Astin",
+          "Josh Brolin",
+          "Jeff Cohen",
+          "Corey Feldman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young teenager named Mikey Walsh finds an old treasure map in his father's attic. Hoping to save their homes from demolition, Mikey and his friends Data Wang, Chunk Cohen, and Mouth Devereaux run off on a big quest to find the secret stash of Pirate One-Eyed Willie.",
+        "release_date": "1985-06-06",
+        "release_year": "1985",
+        "title": "Goonies, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Brigitte Helm",
+          "Alfred Abel",
+          "Gustav Fröhlich",
+          "Rudolf Klein-Rogge"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Fritz Lang",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "German",
+        "overview": "In a futuristic city sharply divided between the working class and the city planners, the son of the city's mastermind falls in love with a working class prophet who predicts the coming of a savior to mediate their differences.",
+        "release_date": "1927-01-10",
+        "release_year": "1926",
+        "title": "Metropolis"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      }
+    ],
+    "raw_user_id": "1649",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 47
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8062529577936826
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for children's films",
+        "Negative reception of certain comedies",
+        "Dislike for fantasy elements in some films"
+      ],
+      "liked_patterns": [
+        "High ratings for drama and war films",
+        "Consistent enjoyment of sci-fi narratives",
+        "Positive reception of thrillers"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates many drama films highly, indicating a strong preference for this genre.); Interest in Sci-Fi (Several sci-fi films receive high ratings, showing a consistent enjoyment of science fiction themes.); Enjoyment of War Themes (War-related films are rated highly, suggesting a fascination with narratives centered around conflict.); Fondness for Thrillers (Thriller films are well-rated, indicating a liking for suspenseful and intense storytelling.); Preference for Comedy (Comedy films receive a mix of ratings, but several are rated positively, showing an appreciation for humor.). Liked patterns: High ratings for drama and war films, Consistent enjoyment of sci-fi narratives, Positive reception of thrillers. Disliked patterns: Low ratings for children's films, Negative reception of certain comedies, Dislike for fantasy elements in some films.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates many drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several sci-fi films receive high ratings, showing a consistent enjoyment of science fiction themes.",
+          "taste": "Interest in Sci-Fi"
+        },
+        {
+          "reason": "War-related films are rated highly, suggesting a fascination with narratives centered around conflict.",
+          "taste": "Enjoyment of War Themes"
+        },
+        {
+          "reason": "Thriller films are well-rated, indicating a liking for suspenseful and intense storytelling.",
+          "taste": "Fondness for Thrillers"
+        },
+        {
+          "reason": "Comedy films receive a mix of ratings, but several are rated positively, showing an appreciation for humor.",
+          "taste": "Preference for Comedy"
+        }
+      ]
+    },
+    "user_id": 1649
+  }
+}

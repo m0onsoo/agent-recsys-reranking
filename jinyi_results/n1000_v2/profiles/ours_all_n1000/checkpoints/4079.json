@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "de9b2c4b9126e77a695f5a9a2bf72462940e8dbf71d2ebdc68f54adb1a3b4fa8",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      247,
+      772,
+      2806,
+      103,
+      777,
+      1674,
+      1407,
+      1040,
+      600,
+      1122
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "941d3de662ec47a0af3eb4dc581c62c3"
+    ],
+    "sampled_item_ids": [
+      46,
+      75,
+      125,
+      128,
+      160,
+      161,
+      165,
+      256,
+      284,
+      426,
+      472,
+      474,
+      615,
+      694,
+      727,
+      939,
+      1004,
+      1072,
+      1082,
+      1150,
+      1265,
+      1556,
+      1676,
+      1893,
+      2253
+    ],
+    "seed": 42,
+    "source_hash": "955d766e29e16a0d0d19b29b2e9ea23f62fc4024182e3eb43486e71e99e4ccb4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4079,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Bernadette Peters",
+          "Catlin Adams",
+          "Mabel King"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Carl Reiner",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After discovering he's not really black like the rest of his family, likable dimwit Navin Johnson runs off on a hilarious misadventure in this comedy classic that takes him from rags to riches and back to rags again. The slaphappy jerk strikes it rich, but life in the fast lane isn't all it's cracked up to be and, in the end, all that really matters to Johnson is his true love.",
+        "release_date": "1979-12-14",
+        "release_year": "1979",
+        "title": "Jerk, The"
+      },
+      {
+        "cast": [
+          "Danny Glover",
+          "Matt Dillon",
+          "Rick Aviles",
+          "Nina Siemaszko"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Hunter",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Matthew, a young schizophrenic, finds himself out on the street when a slumlord tears down his apartment building. Soon, he finds himself in even more dire straits, when he is threatened by Little Leroy, a thug who is one of the tough denizens of the Fort Washington Shelter for Men. He reaches out to Jerry, a streetwise combat veteran, who takes Matthew under his wing as a son. The relationship between these two men grows as they attempt to conquer the numbing isolation of homelessness.",
+        "release_date": "1993-11-03",
+        "release_year": "1993",
+        "title": "Saint of Fort Washington, The"
+      },
+      {
+        "cast": [
+          "William Holden",
+          "Kim Novak",
+          "Betty Field",
+          "Susan Strasberg"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joshua Logan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The morning of a small town Labor Day picnic, a drifter (Hal Carter) blows into town to visit an old fraternity buddy (Alan Benson) who also happens to be the son of the richest man in town. Hal is an egocentric braggart - all potential and no accomplishment. He meets up with Madge Owens, the town beauty queen and girlfriend of Alan Benson.",
+        "release_date": "1955-11-18",
+        "release_year": "1955",
+        "title": "Picnic"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Chaim Girafi",
+          "Rick Aviles",
+          "R. D. Call"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Reynolds",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "In a futuristic world where the polar ice caps have melted and made Earth a liquid planet, a beautiful barmaid rescues a mutant seafarer from a floating island prison. They escape, along with her young charge, Enola, and sail off aboard his ship. But the trio soon becomes the target of a menacing pirate who covets the map to 'Dryland' – which is tattooed on Enola's back.",
+        "release_date": "1995-07-28",
+        "release_year": "1995",
+        "title": "Waterworld"
+      },
+      {
+        "cast": [
+          "Muhammad Ali",
+          "George Foreman",
+          "Don King",
+          "James Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leon Gast",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "It's 1974. Muhammad Ali is 32 and thought by many to be past his prime. George Foreman is ten years younger and the heavyweight champion of the world. Promoter Don King wants to make a name for himself and offers both fighters five million dollars apiece to fight one another, and when they accept, King has only to come up with the money. He finds a willing backer in Mobutu Sese Suko, the dictator of Zaire, and the \"Rumble in the Jungle\" is set, including a musical festival featuring some of America's top black performers, like James Brown and B.B. King.",
+        "release_date": "1996-10-25",
+        "release_year": "1996",
+        "title": "When We Were Kings"
+      },
+      {
+        "cast": [
+          "Jennifer Beals",
+          "Michael Nouri",
+          "Lilia Skala",
+          "Kyle T. Heffner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The popular 1980’s dance movie that depicts the life of an exotic dancer with a side job as a welder who true desire is to get into ballet school. It’s her dream to be a professional dancer and now is her chance. The film has a great soundtrack with an Oscar winning song.",
+        "release_date": "1983-04-14",
+        "release_year": "1983",
+        "title": "Flashdance"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Robert Mitchum",
+          "Polly Bergen",
+          "Lori Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "J. Lee Thompson",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Bowden witnesses a rape committed by Max Cady and testifies against him. When released after 8 years in prison, Cady begins stalking Bowden and his family but is always clever enough not to violate the law.",
+        "release_date": "1962-04-12",
+        "release_year": "1962",
+        "title": "Cape Fear"
+      },
+      {
+        "cast": [
+          "Michael J. Nelson",
+          "Trace Beaulieu",
+          "Jim Mallon",
+          "Kevin Murphy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Mallon",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The mad and evil scientist, Dr. Clayton Forrester, has created an evil little scheme that is bound to give him world global domination but first things first. He plans to torment Mike Nelson and the robots by sending them a real stinker of a film to watch called, \"This Island Earth.\" He is convinced that this movie will drive them insane. Will this be the ultimate cheese that breaks the boys' spirits?",
+        "release_date": "1996-04-19",
+        "release_year": "1996",
+        "title": "Mystery Science Theater 3000: The Movie"
+      },
+      {
+        "cast": [
+          "Bela Lugosi",
+          "Helen Chandler",
+          "David Manners",
+          "Dwight Frye"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tod Browning",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "The legend of vampire Count Dracula begins here with this original 1931 Dracula film from Bela Lugosi.",
+        "release_date": "1931-02-12",
+        "release_year": "1931",
+        "title": "Dracula"
+      }
+    ],
+    "raw_user_id": "4079",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 347
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0867900780113775
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for action films that lack depth or strong narratives.",
+        "Dislike for children's comedies that do not resonate with adult themes."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine action with drama or adventure.",
+        "Positive reception of films that feature strong emotional narratives.",
+        "Favoring comedies that also incorporate dramatic elements."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Action (The user shows a consistent liking for action films, particularly those that blend with other genres like drama and adventure.); Interest in Comedy (The user rates several comedies positively, suggesting a preference for humor and light-hearted storytelling.); Fondness for Romance (The user enjoys films that incorporate romantic elements, often rating them favorably alongside drama.); Engagement with Musicals (The user has shown a liking for musical films, appreciating their blend of music and storytelling.). Liked patterns: High ratings for films that combine action with drama or adventure., Positive reception of films that feature strong emotional narratives., Favoring comedies that also incorporate dramatic elements.. Disliked patterns: Low ratings for action films that lack depth or strong narratives., Dislike for children's comedies that do not resonate with adult themes..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user shows a consistent liking for action films, particularly those that blend with other genres like drama and adventure.",
+          "taste": "Enjoyment of Action"
+        },
+        {
+          "reason": "The user rates several comedies positively, suggesting a preference for humor and light-hearted storytelling.",
+          "taste": "Interest in Comedy"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romantic elements, often rating them favorably alongside drama.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "The user has shown a liking for musical films, appreciating their blend of music and storytelling.",
+          "taste": "Engagement with Musicals"
+        }
+      ]
+    },
+    "user_id": 4079
+  }
+}

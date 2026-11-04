@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "23c20ad71186757699d2534fea2a4c9ef9d8f8b82a9179f2ed0d914327ec1275",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1846,
+      307,
+      1723,
+      2713,
+      716,
+      2116,
+      48,
+      463,
+      112,
+      1050
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8d7e3a2e5f9c4ce0a61196908706de60"
+    ],
+    "sampled_item_ids": [
+      134,
+      211,
+      313,
+      463,
+      568,
+      584,
+      587,
+      715,
+      722,
+      740,
+      791,
+      869,
+      906,
+      941,
+      984,
+      998,
+      1024,
+      1047,
+      1082,
+      1155,
+      1159,
+      1284,
+      1536,
+      1567,
+      1578
+    ],
+    "seed": 42,
+    "source_hash": "db63c8aed83f3e3264170ae3866fc9d258d5e940cf17aad4228ca816c091c4cb",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4016,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Burt Lancaster",
+          "Montgomery Clift",
+          "Deborah Kerr",
+          "Donna Reed"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Fred Zinnemann",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In 1941 Hawaii, a private is cruelly punished for not boxing on his unit's team, while his captain's wife and second in command are falling in love.",
+        "release_date": "1953-08-28",
+        "release_year": "1953",
+        "title": "From Here to Eternity"
+      },
+      {
+        "cast": [
+          "Ian Holm",
+          "Caerthan Banks",
+          "Sarah Polley",
+          "Tom McCamus"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Atom Egoyan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A small mountain community in Canada is devastated when a school bus accident leaves more than a dozen of its children dead. A big-city lawyer arrives to help the survivors' and victims' families prepare a class-action suit, but his efforts only seem to push the townspeople further apart. At the same time, one teenage survivor of the accident has to reckon with the loss of innocence brought about by a different kind of damage.",
+        "release_date": "1997-05-14",
+        "release_year": "1997",
+        "title": "Sweet Hereafter, The"
+      },
+      {
+        "cast": [
+          "Eric Stoltz",
+          "Daphne Zuniga",
+          "Lee Richardson",
+          "John Getz"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Chris Walas",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Martin Brundle, born of the human/fly, is adopted by his father's place of employment (Bartok Inc.) while the employees simply wait for his mutant chromosomes to come out of their dormant state.",
+        "release_date": "1989-02-10",
+        "release_year": "1989",
+        "title": "Fly II, The"
+      },
+      {
+        "cast": [
+          "Charlie Chaplin",
+          "Claire Bloom",
+          "Nigel Bruce",
+          "Buster Keaton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charlie Chaplin",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A fading music hall comedian tries to help a despondent ballet dancer learn to walk and to again feel confident about life.",
+        "release_date": "1952-10-31",
+        "release_year": "1952",
+        "title": "Limelight"
+      },
+      {
+        "cast": [
+          "Zach Galligan",
+          "Phoebe Cates",
+          "Hoyt Axton",
+          "Polly Holliday"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "When Billy Peltzer is given a strange but adorable pet named Gizmo for Christmas, he inadvertently breaks the three important rules of caring for a Mogwai, and unleashes a horde of mischievous gremlins on a small town.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Gremlins"
+      },
+      {
+        "cast": [
+          "Goldie Hawn",
+          "William Atherton",
+          "Ben Johnson",
+          "Louise Latham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Married small-time crooks Lou-Jean and Clovis Poplin lose their baby to the state of Texas and resolve to do whatever it takes to get him back. Lou-Jean gets Clovis out of jail, and the two steal their son from his foster home, in addition to taking a highway patrolman hostage. As a massive dragnet starts to pursue them across Texas, the couple become unlikely folk heroes and even start to bond with the captive policeman.",
+        "release_date": "1974-04-05",
+        "release_year": "1974",
+        "title": "Sugarland Express, The"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Brock Peters",
+          "James Anderson",
+          "Mary Badham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mulligan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In a small Alabama town in the 1930s, scrupulously honest and highly respected lawyer, Atticus Finch puts his career on the line when he agrees to represent Tom Robinson, a black man accused of rape. The trial and the events surrounding it are seen through the eyes of Finch's six-year-old daughter, Scout. While Robinson's trial gives the movie its momentum, there are plenty of anecdotal occurrences before and after the court date: Scout's ever-strengthening bond with older brother, Jem, her friendship with precocious young Dill Harris, her father's no-nonsense reactions to such life-and-death crises as a rampaging mad dog, and especially Scout's reactions to, and relationship with, Boo Radley, the reclusive 'village idiot' who turns out to be her salvation when she is attacked by a venomous bigot.",
+        "release_date": "1962-12-25",
+        "release_year": "1962",
+        "title": "To Kill a Mockingbird"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Derek Jacobi",
+          "Julie Christie",
+          "Richard Briers"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Hamlet, Prince of Denmark, returns home to find his father murdered and his mother remarrying the murderer, his uncle. Meanwhile, war is brewing.",
+        "release_date": "1996-12-25",
+        "release_year": "1996",
+        "title": "Hamlet"
+      },
+      {
+        "cast": [
+          "Warren Beatty",
+          "Faye Dunaway",
+          "Michael J. Pollard",
+          "Gene Wilder"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Arthur Penn",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Bonnie and Clyde is based on the true stories of the gangster pair Bonnie Parker and Clyde Barrow who in the 1930s began robbing banks in U.S. cities until they were eventually killed. The film is a major landmark in the aesthetic movement known as the New Hollywood.",
+        "release_date": "1967-07-18",
+        "release_year": "1967",
+        "title": "Bonnie and Clyde"
+      },
+      {
+        "cast": [
+          "Whoopi Goldberg",
+          "Margaret Avery",
+          "Danny Glover",
+          "Akosua Busia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An epic tale spanning forty years in the life of Celie (Whoopi Goldberg), an African-American woman living in the South who survives incredible abuse and bigotry.  After Celie's abusive father marries her off to the equally debasing \"Mister\" Albert Johnson (Danny Glover), things go from bad to worse, leaving Celie to find companionship anywhere she can.  She perseveres, holding on to her dream of one day being reunited with her sister in Africa.  Based on the novel by Alice Walker.",
+        "release_date": "1985-12-18",
+        "release_year": "1985",
+        "title": "Color Purple, The"
+      }
+    ],
+    "raw_user_id": "4016",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 544
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.436426981633473
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that lack depth or psychological intrigue.",
+        "Dislike for comedies that do not resonate emotionally."
+      ],
+      "liked_patterns": [
+        "Enjoyment of action and adventure films with strong narratives.",
+        "Preference for thrillers that provide suspense and mystery.",
+        "Appreciation for comedies that also explore romantic themes."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Thriller and Mystery (The user is drawn to suspenseful narratives that keep them guessing and engaged.); Comedy and Romance (The user appreciates light-hearted films that blend humor with romantic elements.); Drama with Emotional Depth (The user favors films that explore complex characters and emotional storylines.); Horror with Psychological Elements (The user is interested in horror films that incorporate psychological thrills and suspense.). Liked patterns: Enjoyment of action and adventure films with strong narratives., Preference for thrillers that provide suspense and mystery., Appreciation for comedies that also explore romantic themes.. Disliked patterns: Dislike for horror films that lack depth or psychological intrigue., Dislike for comedies that do not resonate emotionally..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user is drawn to suspenseful narratives that keep them guessing and engaged.",
+          "taste": "Thriller and Mystery"
+        },
+        {
+          "reason": "The user appreciates light-hearted films that blend humor with romantic elements.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "The user favors films that explore complex characters and emotional storylines.",
+          "taste": "Drama with Emotional Depth"
+        },
+        {
+          "reason": "The user is interested in horror films that incorporate psychological thrills and suspense.",
+          "taste": "Horror with Psychological Elements"
+        }
+      ]
+    },
+    "user_id": 4016
+  }
+}

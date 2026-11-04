@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "510b45a87e7c66eb11ad2ae32f4e27126e7b757f2dedf7a0b7c0261807d69ecf",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      51,
+      1663,
+      720,
+      52,
+      685,
+      421,
+      6,
+      2717,
+      1284,
+      1530
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      10,
+      52,
+      77,
+      78,
+      88,
+      106,
+      135,
+      152,
+      245,
+      487,
+      649,
+      719,
+      961,
+      1196,
+      1231,
+      1466,
+      1496,
+      1530,
+      1597,
+      1653,
+      1663,
+      1920,
+      2264,
+      2717
+    ],
+    "seed": 42,
+    "source_hash": "62a20cc037d6b159074a146acd933f990e955f580b6f5394b273415033f41daa",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4772,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Joan Cusack",
+          "Kelsey Grammer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
+        "release_date": "1999-10-30",
+        "release_year": "1999",
+        "title": "Toy Story 2"
+      },
+      {
+        "cast": [
+          "Mickey Rourke",
+          "Robert De Niro",
+          "Lisa Bonet",
+          "Charlotte Rampling"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The down-and-out private detective Harry Angel is ordered, by a mysterious man named Louis Cyphre, to go on a mission to find a missing person. His routine failure soon leads to a bloody spar with himself as Harry Angel goes on a supernatural journey into his soul.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Angel Heart"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Gene Tierney",
+          "Rex Harrison",
+          "George Sanders",
+          "Edna Best"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joseph L. Mankiewicz",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In 1900, strong-willed widow Lucy Muir goes to live in Gull Cottage by the British seaside, even though it appears to be haunted. Sure enough, that very night she meets the ghost of crusty former owner Captain Gregg...and refuses to be scared off. Indeed, they become friends and allies, after Lucy gets used to the idea of a man's ghost haunting her bedroom. But when a charming live man comes courting, Lucy and the captain must deal with their feelings for each other.",
+        "release_date": "1947-06-26",
+        "release_year": "1947",
+        "title": "Ghost and Mrs. Muir, The"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "John Heard",
+          "Lisa Eichhorn",
+          "Ann Dusenberry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Passer",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Richard spots a man dumping a body, and decides to expose the man he thinks is the culprit with his friend Alex Cutter.",
+        "release_date": "1981-03-19",
+        "release_year": "1981",
+        "title": "Cutter's Way"
+      },
+      {
+        "cast": [
+          "Joseph Cotten",
+          "Alida Valli",
+          "Orson Welles",
+          "Trevor Howard"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Carol Reed",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in postwar Vienna, Austria, \"The Third Man\" stars Joseph Cotten as Holly Martins, a writer of pulp Westerns, who arrives penniless as a guest of his childhood chum Harry Lime, only to find him dead. Martins develops a conspiracy theory after learning of a \"third man\" present at the time of Harry's death, running into interference from British officer Maj. Calloway and falling head-over-heels for Harry's grief-stricken lover, Anna.",
+        "release_date": "1949-08-31",
+        "release_year": "1949",
+        "title": "Third Man, The"
+      },
+      {
+        "cast": [
+          "Faye Dunaway",
+          "William Holden",
+          "Peter Finch",
+          "Robert Duvall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A TV network cynically exploits a deranged ex-TV anchor's ravings and revelations about the media for their own profit.",
+        "release_date": "1976-11-01",
+        "release_year": "1976",
+        "title": "Network"
+      }
+    ],
+    "raw_user_id": "4772",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 80
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.739089419850688
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for films that are overly complex or lack engaging storytelling.",
+        "Dislike for films that do not effectively balance humor with other elements, such as drama or romance."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as comedy with drama or romance with adventure.",
+        "Strong preference for films with rich character development and emotional storytelling.",
+        "Consistent enjoyment of films that feature strong narratives and engaging plots."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates many drama films highly, indicating a strong preference for character-driven narratives and emotional depth.); Enjoyment of Comedy (A significant number of comedies received high ratings, suggesting a fondness for humor and lighthearted storytelling.); Interest in Thrillers (Several thrillers are rated positively, showing an attraction to suspenseful and engaging plots.); Fondness for Romance (Romantic films are frequently rated highly, indicating a preference for love stories and emotional connections.); Value for Adventure (Adventure films are well-rated, reflecting an appreciation for exploration and excitement in storytelling.). Liked patterns: High ratings for films that blend genres, such as comedy with drama or romance with adventure., Strong preference for films with rich character development and emotional storytelling., Consistent enjoyment of films that feature strong narratives and engaging plots.. Disliked patterns: Negative ratings for films that are overly complex or lack engaging storytelling., Dislike for films that do not effectively balance humor with other elements, such as drama or romance..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates many drama films highly, indicating a strong preference for character-driven narratives and emotional depth.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "A significant number of comedies received high ratings, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "Several thrillers are rated positively, showing an attraction to suspenseful and engaging plots.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "Romantic films are frequently rated highly, indicating a preference for love stories and emotional connections.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "Adventure films are well-rated, reflecting an appreciation for exploration and excitement in storytelling.",
+          "taste": "Value for Adventure"
+        }
+      ]
+    },
+    "user_id": 4772
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "6765147c6b57ebeb475d47e8462705b5e90eee1470e95431195a28d51822a55f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      662,
+      76,
+      1468,
+      322,
+      959,
+      24,
+      1025,
+      48,
+      129,
+      496
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "3830fbacbe9444dbbb5bae0918c1e443"
+    ],
+    "sampled_item_ids": [
+      10,
+      24,
+      44,
+      48,
+      54,
+      76,
+      129,
+      247,
+      322,
+      370,
+      384,
+      496,
+      499,
+      558,
+      868,
+      959,
+      1025,
+      1100,
+      1468,
+      1489,
+      1529,
+      1870,
+      2039,
+      2069,
+      2591
+    ],
+    "seed": 42,
+    "source_hash": "eb2ff86f6ee82da99449e58aba12d10a0aa3da7d783c2225192317a617a43f1a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3127,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Robin Williams",
+          "Mercedes Ruehl",
+          "Amanda Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Two troubled men face their terrible destinies and events of their past as they join together on a mission to find the Holy Grail and thus to save themselves.",
+        "release_date": "1991-09-09",
+        "release_year": "1991",
+        "title": "Fisher King, The"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Derek Jacobi",
+          "Brian Blessed",
+          "James Larkin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Gritty adaption of William Shakespeare's play about the English King's bloody conquest of France.",
+        "release_date": "1989-10-05",
+        "release_year": "1989",
+        "title": "Henry V"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Melanie Lynskey",
+          "Kate Winslet",
+          "Sarah Peirse",
+          "Simon O'Connor"
+        ],
+        "country": [
+          "New Zealand"
+        ],
+        "director": "Peter Jackson",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Based on the true story of Juliet Hulme and Pauline Parker, two close friends who share a love of fantasy and literature, who conspire to kill Pauline's mother when she tries to end the girls' intense and obsessive relationship.",
+        "release_date": "1994-09-02",
+        "release_year": "1994",
+        "title": "Heavenly Creatures"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Chris O'Donnell",
+          "Minnie Driver",
+          "Geraldine O'Rawe",
+          "Saffron Burrows"
+        ],
+        "country": [
+          "Ireland",
+          "United Kingdom"
+        ],
+        "director": "Pat O'Connor",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "'Circle Of Friends' is set in 1950's Ireland. The movie focuses on Benny Hogan and her best friend, Eve Malone. The story centers around Benny and Eve as they enter student life at University College, Dublin. Here Benny and Eve reunite with their childhood friend, the ice-cool Nan Mahon, the 'college belle'. They also encounter the handsome and charming Jack Foley, whom Benny quickly falls for.",
+        "release_date": "1995-03-16",
+        "release_year": "1995",
+        "title": "Circle of Friends"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Brock Peters",
+          "James Anderson",
+          "Mary Badham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mulligan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In a small Alabama town in the 1930s, scrupulously honest and highly respected lawyer, Atticus Finch puts his career on the line when he agrees to represent Tom Robinson, a black man accused of rape. The trial and the events surrounding it are seen through the eyes of Finch's six-year-old daughter, Scout. While Robinson's trial gives the movie its momentum, there are plenty of anecdotal occurrences before and after the court date: Scout's ever-strengthening bond with older brother, Jem, her friendship with precocious young Dill Harris, her father's no-nonsense reactions to such life-and-death crises as a rampaging mad dog, and especially Scout's reactions to, and relationship with, Boo Radley, the reclusive 'village idiot' who turns out to be her salvation when she is attacked by a venomous bigot.",
+        "release_date": "1962-12-25",
+        "release_year": "1962",
+        "title": "To Kill a Mockingbird"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Christian Slater",
+          "Patricia Arquette",
+          "Michael Rapaport",
+          "Bronson Pinchot"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Scott",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Clarence marries hooker Alabama, steals cocaine from her pimp, and tries to sell it in Hollywood, while the owners of the coke try to reclaim it.",
+        "release_date": "1993-09-09",
+        "release_year": "1993",
+        "title": "True Romance"
+      }
+    ],
+    "raw_user_id": "3127",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 33
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4343252100784643
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that focus solely on romance without strong dramatic elements."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with romance.",
+        "Consistent appreciation for films that include elements of suspense or thriller.",
+        "Positive reception of films that explore complex human experiences, particularly in war settings."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.); Romance (Romantic elements are frequently appreciated, as shown by multiple high ratings for films that incorporate romance.); Thriller (There is a notable enjoyment of thrillers, indicated by high ratings for films that create suspense and tension.); War (Films with war themes receive high ratings, suggesting a connection to stories that explore conflict and its impact.); Musical (A liking for musicals is present, as indicated by positive ratings for films that feature musical elements.). Liked patterns: High ratings for films that blend drama with romance., Consistent appreciation for films that include elements of suspense or thriller., Positive reception of films that explore complex human experiences, particularly in war settings.. Disliked patterns: Low ratings for films that focus solely on romance without strong dramatic elements..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Romantic elements are frequently appreciated, as shown by multiple high ratings for films that incorporate romance.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "There is a notable enjoyment of thrillers, indicated by high ratings for films that create suspense and tension.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "Films with war themes receive high ratings, suggesting a connection to stories that explore conflict and its impact.",
+          "taste": "War"
+        },
+        {
+          "reason": "A liking for musicals is present, as indicated by positive ratings for films that feature musical elements.",
+          "taste": "Musical"
+        }
+      ]
+    },
+    "user_id": 3127
+  }
+}

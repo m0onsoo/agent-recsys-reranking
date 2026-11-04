@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "5e3721e77f27437683f85a59197c8bb8211cc74aea7a2a9c48f391c84c1de39b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      438,
+      712,
+      613,
+      1713,
+      63,
+      7,
+      1,
+      500,
+      34,
+      388
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "fe2ac8003d2f4eafb9b2fb76a492f2f9"
+    ],
+    "sampled_item_ids": [
+      8,
+      18,
+      34,
+      36,
+      65,
+      117,
+      133,
+      187,
+      210,
+      332,
+      438,
+      518,
+      527,
+      532,
+      588,
+      609,
+      616,
+      621,
+      672,
+      844,
+      1065,
+      1127,
+      1155,
+      2014,
+      3057
+    ],
+    "seed": 42,
+    "source_hash": "a095004e23e934e995656bcae4ecf7f300951fcf4c42872fa078963326a4114f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 980,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Cruise",
+          "Cuba Gooding Jr.",
+          "Renée Zellweger",
+          "Kelly Preston"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Cameron Crowe",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jerry Maguire used to be a typical sports agent: willing to do just about anything he could to get the biggest possible contracts for his clients, plus a nice commission for himself. Then, one day, he suddenly has second thoughts about what he's really doing. When he voices these doubts, he ends up losing his job and all of his clients, save Rod Tidwell, an egomaniacal football player.",
+        "release_date": "1996-12-06",
+        "release_year": "1996",
+        "title": "Jerry Maguire"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Gary Busey",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Veteran buttoned-down LAPD detective Roger Murtaugh is partnered with unhinged cop Martin Riggs, who -- distraught after his wife's death -- has a death wish and takes unnecessary risks with criminals at every turn. The odd couple embark on their first homicide investigation as partners, involving a young woman known to Murtaugh with ties to a drug and prostitution ring.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Lethal Weapon"
+      },
+      {
+        "cast": [
+          "Bobby Driscoll",
+          "Kathryn Beaumont",
+          "Hans Conried",
+          "Bill Thompson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Fantasy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Leaving the safety of their nursery behind, Wendy, Michael and John follow Peter Pan to a magical world where childhood lasts forever. But while in Neverland, the kids must face Captain Hook and foil his attempts to get rid of Peter for good.",
+        "release_date": "1953-02-05",
+        "release_year": "1953",
+        "title": "Peter Pan"
+      },
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Bill Paxton",
+          "Harvey Keitel",
+          "Jon Bon Jovi"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Jonathan Mostow",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the midst of World War II, the battle under the sea rages and the Nazis have the upper hand as the Allies are unable to crack their war codes. However, after a wrecked U-boat sends out an SOS signal, the Allies realise this is their chance to seize the 'enigma coding machine'.",
+        "release_date": "2000-04-20",
+        "release_year": "2000",
+        "title": "U-571"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Jack Hawkins",
+          "Haya Harareet",
+          "Stephen Boyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ben-Hur is a 1959 epic film directed by William Wyler, the third film version of Civil War vet Lew Wallace's 1880 novel Ben-Hur: A Tale of the Christ. It premiered at Loew's State Theatre in New York City on November 18, 1959. The movie's reputation as a classic is primarily based on two spectacular action sequences:  the great chariot race and a Roman naval battle, along with lavish production values and strong performances.  The plot of Ben Hur revolves around a Jewish prince who is betrayed and sent into slavery by a Roman friend and how he regains his freedom and comes back for revenge. However, instead he finds redemption in Christ, the theme is ultimately about being saved in the Christian sense.  The film went on to win a record of eleven Academy Awards, including Best Picture and Best Actor (Charlton Heston as Ben Hur). This record-setting Oscars sweep has since been equaled by Titanic in 1998 and The Lord of the Rings: The Return of the King in 2004, but never broken.",
+        "release_date": "1959-12-26",
+        "release_year": "1959",
+        "title": "Ben-Hur"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Louise Fletcher",
+          "Danny DeVito",
+          "William Redfield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
+        "release_date": "1975-11-18",
+        "release_year": "1975",
+        "title": "One Flew Over the Cuckoo's Nest"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Iben Hjejle",
+          "Todd Louiso",
+          "Jack Black"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When record store owner Rob Gordon gets dumped by his girlfriend, Laura, because he hasn't changed since they met, he revisits his top five breakups of all time in an attempt to figure out what went wrong. As Rob seeks out his former lovers to find out why they left, he keeps up his efforts to win Laura back.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "High Fidelity"
+      },
+      {
+        "cast": [
+          "Scott Weinger",
+          "Robin Williams",
+          "Linda Larkin",
+          "Jonathan Freeman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Clements",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Princess Jasmine grows tired of being forced to remain in the palace and she sneaks out into the marketplace  in disguise where she meets street-urchin Aladdin and the two fall in love, although she may only marry a prince. After being thrown in jail, Aladdin and becomes embroiled in a plot to find a mysterious lamp with which the evil Jafar hopes to rule the land.",
+        "release_date": "1992-11-25",
+        "release_year": "1992",
+        "title": "Aladdin"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Angelina Jolie",
+          "Giovanni Ribisi",
+          "Delroy Lindo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dominic Sena",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Upon learning that he has to come out of retirement to steal 50 cars in one night to save his brother Kip's life, former car thief Randall \"Memphis\" Raines enlists help from a few \"boost happy\" pals to accomplish a seemingly impossible feat. From countless car chases to relentless cops, the high-octane excitement builds as Randall swerves around more than a few roadblocks to keep Kip alive.",
+        "release_date": "2000-06-09",
+        "release_year": "2000",
+        "title": "Gone in 60 Seconds"
+      }
+    ],
+    "raw_user_id": "980",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 109
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3596619569346127
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for animated films that do not resonate with the user.",
+        "Dislike for certain action films that fail to engage the user."
+      ],
+      "liked_patterns": [
+        "Positive ratings for animated films, especially those with musical elements.",
+        "Frequent enjoyment of action and adventure genres.",
+        "Consistent appreciation for comedy and romance films."
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Children's Films (The user enjoys animated films, particularly those aimed at children, as indicated by several ratings of 3 or above.); Interest in Action and Adventure (The user rates action and adventure films positively, showing a preference for thrilling narratives.); Enjoyment of Comedy and Romance (The user has rated multiple comedies and romantic films favorably, indicating a liking for light-hearted and emotional storytelling.); Fondness for Musicals (The user has shown a preference for musicals, as evidenced by positive ratings for films that incorporate musical elements.); Tendency to Appreciate Horror and Thriller Elements (The user has rated horror and thriller films positively, suggesting an enjoyment of suspenseful and intense narratives.). Liked patterns: Positive ratings for animated films, especially those with musical elements., Frequent enjoyment of action and adventure genres., Consistent appreciation for comedy and romance films.. Disliked patterns: Negative ratings for animated films that do not resonate with the user., Dislike for certain action films that fail to engage the user..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films, particularly those aimed at children, as indicated by several ratings of 3 or above.",
+          "taste": "Appreciation for Animation and Children's Films"
+        },
+        {
+          "reason": "The user rates action and adventure films positively, showing a preference for thrilling narratives.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user has rated multiple comedies and romantic films favorably, indicating a liking for light-hearted and emotional storytelling.",
+          "taste": "Enjoyment of Comedy and Romance"
+        },
+        {
+          "reason": "The user has shown a preference for musicals, as evidenced by positive ratings for films that incorporate musical elements.",
+          "taste": "Fondness for Musicals"
+        },
+        {
+          "reason": "The user has rated horror and thriller films positively, suggesting an enjoyment of suspenseful and intense narratives.",
+          "taste": "Tendency to Appreciate Horror and Thriller Elements"
+        }
+      ]
+    },
+    "user_id": 980
+  }
+}

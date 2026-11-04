@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "7987f734dd539d7700e76c09a774aadf0467805ef26a2380f5d3a07cb805d467",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      224,
+      1119,
+      329,
+      2211,
+      218,
+      612,
+      1914,
+      128,
+      1660,
+      543
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "10678ffc29be4b18b0a8882473ea7bda"
+    ],
+    "sampled_item_ids": [
+      47,
+      85,
+      105,
+      148,
+      243,
+      281,
+      333,
+      358,
+      365,
+      407,
+      594,
+      609,
+      636,
+      795,
+      946,
+      1028,
+      1567,
+      1656,
+      1718,
+      1787,
+      2211,
+      2347,
+      2487,
+      2666,
+      3003
+    ],
+    "seed": 42,
+    "source_hash": "d7e3bb5390a51b6653a44a52fba2cfe039c9447fb859fba1f8e17706ac9d7c45",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 601,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ewan McGregor",
+          "Christian Bale",
+          "Jonathan Rhys Meyers",
+          "Janet McTeer"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Todd Haynes",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Almost a decade has elapsed since Bowiesque glam-rock superstar Brian Slade staged his own death and escaped the spotlight of the London scene.  Now, investigative journalist Arthur Stuart is on assignment to uncover the truth of the enigmatic Slade's rise and fall.  Stuart, himself forged by the music of the 1970s, explores the larger-than-life stars who were once his idols and what has become of them since the turn of the new decade.",
+        "release_date": "1998-10-23",
+        "release_year": "1998",
+        "title": "Velvet Goldmine"
+      },
+      {
+        "cast": [
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Matthew Lillard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A killer known as Ghostface begins killing off teenagers, and as the body count begins rising, one girl and her friends find themselves contemplating the 'rules' of horror films as they find themselves living in a real-life one.",
+        "release_date": "1996-12-20",
+        "release_year": "1996",
+        "title": "Scream"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Sharon Stone",
+          "Joe Pesci",
+          "James Woods"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The life of the gambling paradise – Las Vegas – and its dark mafia underbelly.",
+        "release_date": "1995-11-22",
+        "release_year": "1995",
+        "title": "Casino"
+      },
+      {
+        "cast": [
+          "Clive Owen",
+          "Kate Hardie",
+          "Alex Kingston",
+          "Gina McKee"
+        ],
+        "country": [
+          "Germany",
+          "France",
+          "Ireland",
+          "United Kingdom"
+        ],
+        "director": "Mike Hodges",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jack Manfred is an aspiring writer who to make ends meet, takes a job as a croupier. Jack remains an observer, knowing that everything in life is a gamble and that gamblers are born to lose. Inevitably, he gets sucked into the world of the casino which takes its toll on his relationships and the novel he is writing.",
+        "release_date": "1998-06-25",
+        "release_year": "1998",
+        "title": "Croupier"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Peter Sellers",
+          "George C. Scott",
+          "Sterling Hayden",
+          "Keenan Wynn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union. As soon as the actions of General \"Buck\" Turgidson are discovered, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike. Near the end is a scene that is probably the most uniquely unforgettable performance of Slim Pickens in his movie career. Peter Sellers plays multiple roles in this film.",
+        "release_date": "1964-01-29",
+        "release_year": "1963",
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      },
+      {
+        "cast": [
+          "River Phoenix",
+          "Keanu Reeves",
+          "James Russo",
+          "William Richert"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In this loose adaptation of Shakespeare's \"Henry IV,\" Mike Waters (River Phoenix) is a gay hustler afflicted with narcolepsy. Scott Favor (Keanu Reeves) is the rebellious son of a mayor. Together, the two travel from Portland, Oregon to Idaho and finally to the coast of Italy in a quest to find Mike's estranged mother. Along the way they turn tricks for money and drugs, eventually attracting the attention of a wealthy benefactor and sexual deviant.",
+        "release_date": "1991-10-17",
+        "release_year": "1991",
+        "title": "My Own Private Idaho"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Toni Collette",
+          "Parker Posey",
+          "Lisa Kudrow",
+          "Alanna Ubach"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Jill Sprecher",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Iris can best be described as a wallflower. She begins her first day as a temp for the nondescript Global Credit Association by waiting in a chair for two hours...",
+        "release_date": "1997-01-01",
+        "release_year": "1997",
+        "title": "Clockwatchers"
+      },
+      {
+        "cast": [
+          "Ewan McGregor",
+          "Ewen Bremner",
+          "Jonny Lee Miller",
+          "Robert Carlyle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Danny Boyle",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
+        "release_date": "1996-02-23",
+        "release_year": "1996",
+        "title": "Trainspotting"
+      }
+    ],
+    "raw_user_id": "601",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 299
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8853699285691204
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films",
+        "Negative reception of films with weak comedic elements"
+      ],
+      "liked_patterns": [
+        "High ratings for drama and comedy films",
+        "Positive reception of animated films with emotional themes",
+        "Frequent enjoyment of thrillers and crime dramas"
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for drama films, often rating them highly.); Comedy (The user enjoys comedies, frequently giving them favorable ratings.); Animation (The user appreciates animated films, particularly those with emotional or family themes.); Thriller (The user is drawn to thrillers, as evidenced by several high ratings in this genre.); Crime (The user has a notable interest in crime dramas, often rating them positively.). Liked patterns: High ratings for drama and comedy films, Positive reception of animated films with emotional themes, Frequent enjoyment of thrillers and crime dramas. Disliked patterns: Low ratings for horror films, Negative reception of films with weak comedic elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for drama films, often rating them highly.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, frequently giving them favorable ratings.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates animated films, particularly those with emotional or family themes.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user is drawn to thrillers, as evidenced by several high ratings in this genre.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user has a notable interest in crime dramas, often rating them positively.",
+          "taste": "Crime"
+        }
+      ]
+    },
+    "user_id": 601
+  }
+}

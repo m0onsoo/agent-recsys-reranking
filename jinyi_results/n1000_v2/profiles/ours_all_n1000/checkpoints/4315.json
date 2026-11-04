@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "e1a38b171fdb8b69b73a2bd8310598225a602a2d18ecc701f4bfbe0de63b655e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1773,
+      133,
+      1026,
+      90,
+      27,
+      799,
+      738,
+      623,
+      172,
+      483
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      9,
+      10,
+      15,
+      20,
+      90,
+      219,
+      222,
+      306,
+      336,
+      620,
+      645,
+      648,
+      766,
+      799,
+      1081,
+      1092,
+      1170,
+      1217,
+      1220,
+      1329,
+      1358,
+      1608,
+      1738,
+      1773,
+      2134
+    ],
+    "seed": 42,
+    "source_hash": "785f95189b5cc14953d7f8ffc9c794db7dc745c188dba7a6d77b2834e2af6a3d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4315,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Goodman",
+          "Elizabeth Perkins",
+          "Rick Moranis",
+          "Rosie O'Donnell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian Levant",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Modern Stone Age family the Flintstones hit the big screen in this live-action version of the classic cartoon. Fred helps Barney adopt a child. Barney sees an opportunity to repay him when Slate Mining tests its employees to find a new executive. But no good deed goes unpunished.",
+        "release_date": "1994-05-26",
+        "release_year": "1994",
+        "title": "Flintstones, The"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Christina Ricci",
+          "Bill Pullman",
+          "Cathy Moriarty",
+          "Eric Idle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brad Silberling",
+        "genres": [
+          "Adventure",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "Furious that her late father only willed her his gloomy-looking mansion rather than his millions, Carrigan Crittenden is ready to burn the place to the ground when she discovers a map to a treasure hidden in the house. But when she enters the rickety mansion to seek her claim, she is frightened away by a wicked wave of ghosts. Determined to get her hands on this hidden fortune, she hires afterlife therapist Dr. James Harvey to exorcise the ghosts from the mansion. Harvey and his daughter Kat move in, and soon Kat meets Casper, the ghost of a young boy who's \"the friendliest ghost you know.\" But not so friendly are Casper's uncles--Stretch, Fatso and Stinkie--who are determined to drive all \"fleshies\" away.",
+        "release_date": "1995-05-26",
+        "release_year": "1995",
+        "title": "Casper"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Geena Davis",
+          "Madonna",
+          "Lori Petty"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Small-town sisters Dottie and Kit join an all-female baseball league formed after World War II brings pro baseball to a standstill. When their team hits the road with its drunken coach, the siblings find troubles and triumphs on and off the field.",
+        "release_date": "1992-07-01",
+        "release_year": "1992",
+        "title": "League of Their Own, A"
+      },
+      {
+        "cast": [
+          "Henry Thomas",
+          "Drew Barrymore",
+          "Robert MacNaughton",
+          "Dee Wallace"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Children's",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+        "release_date": "1982-04-03",
+        "release_year": "1982",
+        "title": "E.T. the Extra-Terrestrial"
+      },
+      {
+        "cast": [
+          "Jim Henson",
+          "Frank Oz",
+          "Jerry Nelson",
+          "Richard Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Frawley",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Kermit the Frog is persuaded by agent Dom DeLuise to pursue a career in Hollywood. Along the way, Kermit picks up Fozzie Bear, Miss Piggy, Gonzo, and a motley crew of other Muppets with similar aspirations. Meanwhile, Kermit must elude the grasp of a frog-leg restaurant magnate.",
+        "release_date": "1979-05-31",
+        "release_year": "1979",
+        "title": "Muppet Movie, The"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Elisabeth Shue"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Marty and Doc are at it again in this wacky sequel to the 1985 blockbuster as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teenage parents -- again.",
+        "release_date": "1989-11-20",
+        "release_year": "1989",
+        "title": "Back to the Future Part II"
+      },
+      {
+        "cast": [
+          "Barret Oliver",
+          "Gerald McRaney",
+          "Noah Hathaway",
+          "Drum Garrett"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "While hiding from bullies in his school's attic, a young boy discovers the extraordinary land of Fantasia, through a magical book called The Neverending Story. The book tells the tale of Atreyu, a young warrior who, with the help of a luck dragon named Falkor, must save Fantasia from the destruction of The Nothing.",
+        "release_date": "1984-04-05",
+        "release_year": "1984",
+        "title": "NeverEnding Story, The"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Robin Wright",
+          "Gary Sinise",
+          "Mykelti Williamson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events - in each case, far exceeding what anyone imagined he could do. Yet, despite all the things he has attained, his one true love eludes him. 'Forrest Gump' is the story of a man who rose above his challenges, and who proved that determination, courage, and love are more important than ability.",
+        "release_date": "1994-07-06",
+        "release_year": "1994",
+        "title": "Forrest Gump"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Tom Cruise",
+          "Kirsten Dunst",
+          "Antonio Banderas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A vampire relates his epic life story of love, betrayal, loneliness, and dark hunger to an over-curious reporter.",
+        "release_date": "1994-11-11",
+        "release_year": "1994",
+        "title": "Interview with the Vampire"
+      }
+    ],
+    "raw_user_id": "4315",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 125
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.717877597114445
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for certain comedies that do not resonate",
+        "Negative ratings for children's comedies that fail to entertain",
+        "Dislike for films that mix genres poorly, particularly in comedy"
+      ],
+      "liked_patterns": [
+        "High ratings for musicals and children's films",
+        "Strong preference for comedies and adventure films",
+        "Positive ratings for films that blend comedy with other genres"
+      ],
+      "summary": "Unique tastes: Musicals (The user enjoys films that incorporate musical elements, as evidenced by high ratings for multiple musicals.); Children's Films (The user rates several children's films highly, indicating a preference for family-friendly content.); Comedy (The user shows a strong inclination towards comedies, with many rated positively.); Adventure (The user appreciates adventure films, reflected in high ratings for several titles in this genre.); Drama (The user has a notable appreciation for dramatic narratives, as seen in the ratings for various drama films.). Liked patterns: High ratings for musicals and children's films, Strong preference for comedies and adventure films, Positive ratings for films that blend comedy with other genres. Disliked patterns: Dislike for certain comedies that do not resonate, Negative ratings for children's comedies that fail to entertain, Dislike for films that mix genres poorly, particularly in comedy.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that incorporate musical elements, as evidenced by high ratings for multiple musicals.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "The user rates several children's films highly, indicating a preference for family-friendly content.",
+          "taste": "Children's Films"
+        },
+        {
+          "reason": "The user shows a strong inclination towards comedies, with many rated positively.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates adventure films, reflected in high ratings for several titles in this genre.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "The user has a notable appreciation for dramatic narratives, as seen in the ratings for various drama films.",
+          "taste": "Drama"
+        }
+      ]
+    },
+    "user_id": 4315
+  }
+}

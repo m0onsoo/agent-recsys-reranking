@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "d348b754f70d3eab6de817d380fe0c0eb3a87af65b8e231180912a600d752e90",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      14,
+      185,
+      5,
+      176,
+      184,
+      21,
+      566,
+      253,
+      128,
+      506
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9c738df27b764e3ba5cd53a815166d09"
+    ],
+    "sampled_item_ids": [
+      5,
+      6,
+      21,
+      128,
+      146,
+      178,
+      199,
+      370,
+      506,
+      516,
+      566,
+      598,
+      742,
+      798,
+      799,
+      1012,
+      1034,
+      1062,
+      1121,
+      1211,
+      1387,
+      1501,
+      1518,
+      1912,
+      2548
+    ],
+    "seed": 42,
+    "source_hash": "a9fd45c4dc688bd917258c95f0451374f31bc74d6ed27423291fab23483d0e13",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 847,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Alan Ruck",
+          "Mia Sara",
+          "Jeffrey Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Charismatic teen Ferris Bueller plays hooky in Chicago with his girlfriend and best friend.",
+        "release_date": "1986-06-11",
+        "release_year": "1986",
+        "title": "Ferris Bueller's Day Off"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Julia Louis-Dreyfus",
+          "Hayden Panettiere",
+          "Phyllis Diller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+        "release_date": "1998-11-25",
+        "release_year": "1998",
+        "title": "Bug's Life, A"
+      },
+      {
+        "cast": [
+          "John Belushi",
+          "Tim Matheson",
+          "John Vernon",
+          "Verna Bloom"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a 1962 College, Dean Vernon Wormer is determined to expel the entire Delta Tau Chi Fraternity, but those troublemakers have other plans for him.",
+        "release_date": "1978-07-27",
+        "release_year": "1978",
+        "title": "Animal House"
+      },
+      {
+        "cast": [
+          "John Cleese",
+          "Jamie Lee Curtis",
+          "Kevin Kline",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Charles Crichton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A diamond advocate is attempting to steal a collection of diamonds, yet troubles arise when he realizes that he is not the only one after the diamonds.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Fish Called Wanda, A"
+      },
+      {
+        "cast": [
+          "Tobey Maguire",
+          "Reese Witherspoon",
+          "William H. Macy",
+          "Joan Allen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Ross",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Geeky teenager David and his popular twin sister, Jennifer, get sucked into the black-and-white world of a 1950s TV sitcom called \"Pleasantville,\" and find a world where everything is peachy keen all the time. But when Jennifer's modern attitude disrupts Pleasantville's peaceful but boring routine, she literally brings color into its life.",
+        "release_date": "1998-09-17",
+        "release_year": "1998",
+        "title": "Pleasantville"
+      },
+      {
+        "cast": [
+          "Richard Dreyfuss",
+          "Ron Howard",
+          "Paul Le Mat",
+          "Charles Martin Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A couple of high school graduates spend one final night cruising the strip with their buddies before they go off to college.",
+        "release_date": "1973-08-01",
+        "release_year": "1973",
+        "title": "American Graffiti"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Marlon Brando",
+          "Faye Dunaway",
+          "Géraldine Pailhas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeremy Leven",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "John Arnold DeMarco is a man who believes he is Don Juan, the greatest lover in the world. Clad in a cape and mask, DeMarco undergoes psychiatric treatment with Dr. Jack Mickler to cure him of his apparent delusion. But the psychiatric sessions have an unexpected effect on the psychiatric staff and, most profoundly, Dr Mickler, who rekindles the romance in his complacent marriage.",
+        "release_date": "1994-10-01",
+        "release_year": "1995",
+        "title": "Don Juan DeMarco"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Nicoletta Braschi",
+          "Roberto Benigni",
+          "Giorgio Cantarini",
+          "Giustino Durano"
+        ],
+        "country": [
+          "Italy"
+        ],
+        "director": "Roberto Benigni",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Italian",
+        "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
+        "release_date": "1997-12-20",
+        "release_year": "1997",
+        "title": "Life Is Beautiful (La Vita è bella)"
+      }
+    ],
+    "raw_user_id": "847",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 50
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4808521669863015
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to films that are primarily comedic but lack depth or engaging storytelling."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with other genres like drama and romance.",
+        "Strong appreciation for films that feature whimsical or fantastical elements, especially in children's films."
+      ],
+      "summary": "Unique tastes: Comedy (A strong preference for comedies is evident, with many high ratings across various comedic styles.); Drama (Enjoyment of comedic dramas is noted, indicating a blend of humor with deeper themes.); Romance (Romantic elements in comedies are appreciated, suggesting a liking for light-hearted love stories.); Children's (A fondness for children's films is present, indicating enjoyment of family-friendly content.); Adventure (An interest in adventure themes is shown, particularly when combined with comedy.). Liked patterns: High ratings for comedies that blend humor with other genres like drama and romance., Strong appreciation for films that feature whimsical or fantastical elements, especially in children's films.. Disliked patterns: Negative response to films that are primarily comedic but lack depth or engaging storytelling..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for comedies is evident, with many high ratings across various comedic styles.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Enjoyment of comedic dramas is noted, indicating a blend of humor with deeper themes.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Romantic elements in comedies are appreciated, suggesting a liking for light-hearted love stories.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "A fondness for children's films is present, indicating enjoyment of family-friendly content.",
+          "taste": "Children's"
+        },
+        {
+          "reason": "An interest in adventure themes is shown, particularly when combined with comedy.",
+          "taste": "Adventure"
+        }
+      ]
+    },
+    "user_id": 847
+  }
+}

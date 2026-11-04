@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "eb5a6fd66a3bd2de8820b2bfa9c8b4d0402faee24c53f22ffc220bfba2cd3d13",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      789,
+      882,
+      1713,
+      179,
+      747,
+      70,
+      890,
+      247,
+      264,
+      536
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      5,
+      39,
+      70,
+      168,
+      179,
+      232,
+      244,
+      247,
+      264,
+      339,
+      430,
+      455,
+      502,
+      672,
+      700,
+      747,
+      789,
+      881,
+      882,
+      924,
+      944,
+      1125,
+      1315,
+      1713,
+      2209
+    ],
+    "seed": 42,
+    "source_hash": "13403684dd20602ed71a9c4e05e0e7fa65878e60f36458f8f4c44094110d4530",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4648,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jason Biggs",
+          "Chris Klein",
+          "Thomas Ian Nicholas",
+          "Alyson Hannigan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Weitz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a high-school party, four friends find that losing their collective virginity isn't as easy as they had thought. But they still believe that they need to do so before college. To motivate themselves, they enter a pact to all \"score.\" by their senior prom.",
+        "release_date": "1999-07-09",
+        "release_year": "1999",
+        "title": "American Pie"
+      },
+      {
+        "cast": [
+          "Drew Barrymore",
+          "David Arquette",
+          "Michael Vartan",
+          "Molly Shannon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Raja Gosnell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Josie Geller, a baby-faced junior copywriter at the Chicago Sun-Times, must pose as a student at her former high school to research contemporary teenage culture. With the help of her brother, Rob, Josie infiltrates the inner circle of the most popular clique on campus. But she hits a major snag in her investigation -- not to mention her own failed love life -- when she falls for her dreamy English teacher, Sam Coulson.",
+        "release_date": "1999-04-09",
+        "release_year": "1999",
+        "title": "Never Been Kissed"
+      },
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Bill Paxton",
+          "Harvey Keitel",
+          "Jon Bon Jovi"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Jonathan Mostow",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the midst of World War II, the battle under the sea rages and the Nazis have the upper hand as the Allies are unable to crack their war codes. However, after a wrecked U-boat sends out an SOS signal, the Allies realise this is their chance to seize the 'enigma coding machine'.",
+        "release_date": "2000-04-20",
+        "release_year": "2000",
+        "title": "U-571"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Viggo Mortensen",
+          "Dominic West",
+          "Elizabeth Perkins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After getting into a car accident while drunk on the day of her sister's wedding, Gwen Cummings is given a choice between prison or a rehab center. She chooses rehab, but is extremely resistant to taking part in any of the treatment programs they have to offer, refusing to admit that she has an alcohol addiction.",
+        "release_date": "2000-04-06",
+        "release_year": "2000",
+        "title": "28 Days"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Dana Carvey",
+          "Christopher Walken",
+          "Tia Carrere"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Surjik",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A message from Jim Morrison in a dream prompts cable access TV stars Wayne and Garth to put on a rock concert, \"Waynestock,\" with Aerosmith as headliners. But amid the preparations, Wayne frets that a record producer is putting the moves on his girlfriend, Cassandra, while Garth handles the advances of mega-babe Honey Hornee.",
+        "release_date": "1993-12-10",
+        "release_year": "1993",
+        "title": "Wayne's World 2"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Ashley Judd",
+          "Bruce Greenwood",
+          "Annabeth Gish"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Bruce Beresford",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A woman framed for her husband's murder suspects he is still alive; as she has already been tried for the crime, she can't be re-prosecuted if she finds and kills him.",
+        "release_date": "1999-09-24",
+        "release_year": "1999",
+        "title": "Double Jeopardy"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "Cuba Gooding Jr.",
+          "Donald Sutherland",
+          "Maura Tierney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dr. Ethan Powell, an anthropologist, is in Africa studying apes when he is lost for two years. When he is found, he kills 3 men and puts 2 in the hospital. Cuba Gooding's character is a psychiatrist who wants to take up the task of trying to get Dr. Powell to speak again and maybe even stand judgment at a trial for his release from prison of mental cases. Along the way, Cuba has to deal with also helping the mental patients that are being abused and neglected. In this process Cuba learns a few things about himself and life, and so does Anthony Hopkins character, Dr. Powell.",
+        "release_date": "1999-06-04",
+        "release_year": "1999",
+        "title": "Instinct"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Ian McDiarmid",
+          "Christina Ricci",
+          "Casper Van Dien"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Horror",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "New York detective Ichabod Crane is sent to Sleepy Hollow to investigate a series of mysterious deaths in which the victims are found beheaded. But the locals believe the culprit to be none other than the ghost of the legendary Headless Horseman.",
+        "release_date": "1999-11-18",
+        "release_year": "1999",
+        "title": "Sleepy Hollow"
+      },
+      {
+        "cast": [
+          "Peter Sallis"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Gromit finds himself being pushed out of his room and home by a new lodger who is actually a ruthless criminal (and a small penguin). The penguin is planning a robbery and needs to use Wallace and his mechanical remote controlled trousers to pull off the raid. However, Gromit is wise to the penguin and comes to the rescue.",
+        "release_date": "1993-12-17",
+        "release_year": "1993",
+        "title": "Wrong Trousers, The"
+      }
+    ],
+    "raw_user_id": "4648",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 31
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6883715724247909
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that do not resonate well",
+        "Negative response to certain dramatic films",
+        "Discontent with specific comedic narratives that fall flat"
+      ],
+      "liked_patterns": [
+        "Strong preference for thrillers and dramas with high ratings",
+        "Consistent enjoyment of comedies across various sub-genres",
+        "Positive reception of animated films, particularly those aimed at children"
+      ],
+      "summary": "Unique tastes: Appreciation for Thrillers (The user enjoys suspenseful narratives, as indicated by high ratings for multiple thriller films.); Enjoyment of Comedy (The user rates several comedies positively, suggesting a strong preference for humor in films.); Interest in Animation (The user has rated animated films favorably, indicating a liking for animated storytelling.); Favoring Drama (The user shows a preference for dramatic narratives, reflected in high ratings for drama films.); Affinity for Romantic Elements (The user appreciates romantic themes, as seen in positive ratings for romantic comedies.). Liked patterns: Strong preference for thrillers and dramas with high ratings, Consistent enjoyment of comedies across various sub-genres, Positive reception of animated films, particularly those aimed at children. Disliked patterns: Dislike for comedies that do not resonate well, Negative response to certain dramatic films, Discontent with specific comedic narratives that fall flat.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys suspenseful narratives, as indicated by high ratings for multiple thriller films.",
+          "taste": "Appreciation for Thrillers"
+        },
+        {
+          "reason": "The user rates several comedies positively, suggesting a strong preference for humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has rated animated films favorably, indicating a liking for animated storytelling.",
+          "taste": "Interest in Animation"
+        },
+        {
+          "reason": "The user shows a preference for dramatic narratives, reflected in high ratings for drama films.",
+          "taste": "Favoring Drama"
+        },
+        {
+          "reason": "The user appreciates romantic themes, as seen in positive ratings for romantic comedies.",
+          "taste": "Affinity for Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 4648
+  }
+}

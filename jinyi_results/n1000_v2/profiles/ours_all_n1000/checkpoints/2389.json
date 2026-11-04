@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "824fbd32a0410a010713a6eed6622ed453adcbc1d2bb8ffa9cf4ef7c85912c86",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      129,
+      2460,
+      238,
+      789,
+      885,
+      1856,
+      169,
+      152,
+      270,
+      1658
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e834931595b24b21a436ad68c3adc22a"
+    ],
+    "sampled_item_ids": [
+      88,
+      106,
+      142,
+      325,
+      375,
+      528,
+      554,
+      563,
+      566,
+      630,
+      670,
+      712,
+      741,
+      787,
+      796,
+      1155,
+      1186,
+      1279,
+      1537,
+      1560,
+      1567,
+      1580,
+      2283,
+      2375,
+      2460
+    ],
+    "seed": 42,
+    "source_hash": "411e9dd519cb4d04a1c5de450cbdfc0c03092eafc6df8a221ede974df85b1b0c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2389,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Lon Chaney Jr.",
+          "Claude Rains",
+          "Evelyn Ankers",
+          "Maria Ouspenskaya"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Waggner",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After his brother's death, Larry Talbot returns home to his father and the family estate. Events soon take a turn for the worse when Larry is bitten by a werewolf.",
+        "release_date": "1941-12-12",
+        "release_year": "1941",
+        "title": "Wolf Man, The"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Hugh Jackman",
+          "Ian McKellen",
+          "Halle Berry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers.",
+        "release_date": "2000-07-13",
+        "release_year": "2000",
+        "title": "X-Men"
+      },
+      {
+        "cast": [
+          "Jason Biggs",
+          "Chris Klein",
+          "Thomas Ian Nicholas",
+          "Alyson Hannigan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Weitz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a high-school party, four friends find that losing their collective virginity isn't as easy as they had thought. But they still believe that they need to do so before college. To motivate themselves, they enter a pact to all \"score.\" by their senior prom.",
+        "release_date": "1999-07-09",
+        "release_year": "1999",
+        "title": "American Pie"
+      },
+      {
+        "cast": [
+          "James Aubrey",
+          "Tom Chapin",
+          "Hugh Edwards",
+          "Roger Elwin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Peter Brook",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Amidst a nuclear war, a plane carrying a group of schoolboys crash lands on a deserted island. With no adult survivors, the boys are forced to fend for themselves. At first they cooperate, but when the they split into two separate camps -- one led by the pragmatic Ralph and the other by militaristic Jack -- their society falls into disarray, leading to a disturbing examination of human nature and a chilling conclusion.",
+        "release_date": "1963-08-13",
+        "release_year": "1963",
+        "title": "Lord of the Flies"
+      },
+      {
+        "cast": [
+          "Stephen Dorff",
+          "Ian Hart",
+          "Sheryl Lee",
+          "Gary Bakewell"
+        ],
+        "country": [
+          "Germany",
+          "United Kingdom"
+        ],
+        "director": "Iain Softley",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Chronicles the early days of The Beatles in Hamburg, Germany. The film focuses primarily on the relationship between Stuart Sutcliffe (played by Stephen Dorff) and John Lennon (played by Ian Hart), and also with Sutcliffe's German girlfriend Astrid Kirchherr (played by Sheryl Lee).",
+        "release_date": "1994-04-01",
+        "release_year": "1993",
+        "title": "Backbeat"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Anthony Michael Hall",
+          "Judd Nelson",
+          "Molly Ringwald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Five high school students, all different stereotypes, meet in detention, where they pour their hearts out to each other, and discover how they have a lot more in common than they thought.",
+        "release_date": "1985-02-15",
+        "release_year": "1985",
+        "title": "Breakfast Club, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "Edward Furlong",
+          "Christina Ricci",
+          "Bess Armstrong",
+          "Mark Joy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Waters",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Baltimore sandwich shop employee becomes an overnight sensation when photographs he's taken of his weird family become the latest rage in the art world. The young man is called \"Pecker\" because he pecks at his food like a bird.",
+        "release_date": "1998-09-16",
+        "release_year": "1998",
+        "title": "Pecker"
+      },
+      {
+        "cast": [
+          "Natasha Lyonne",
+          "Alan Arkin",
+          "Marisa Tomei",
+          "Eli Marienthal"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tamara Jenkins",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In 1976, a lower-middle-class teenager struggles to cope living with her neurotic family of nomads on the outskirts of Beverly Hills.",
+        "release_date": "1998-08-14",
+        "release_year": "1998",
+        "title": "Slums of Beverly Hills, The"
+      }
+    ],
+    "raw_user_id": "2389",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 241
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4396651065242578
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed",
+        "No specific genres or themes consistently rated below 3"
+      ],
+      "liked_patterns": [
+        "Strong preference for drama and character-driven stories",
+        "Enjoyment of comedies with a mix of other genres",
+        "Positive ratings for films that blend action with comedy or drama"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.); Fondness for Comedy (The user enjoys a variety of comedies, often rating them positively, suggesting a preference for humor in films.); Interest in Horror (The user rates several horror films favorably, indicating an enjoyment of suspense and thrill.); Enjoyment of Crime and Thriller (The user shows a liking for crime and thriller genres, as evidenced by positive ratings for films in these categories.); Value for Documentaries (The user rates a documentary highly, suggesting an appreciation for real-life stories and informative content.). Liked patterns: Strong preference for drama and character-driven stories, Enjoyment of comedies with a mix of other genres, Positive ratings for films that blend action with comedy or drama. Disliked patterns: No significant patterns of dislike observed, No specific genres or themes consistently rated below 3.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them positively, suggesting a preference for humor in films.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user rates several horror films favorably, indicating an enjoyment of suspense and thrill.",
+          "taste": "Interest in Horror"
+        },
+        {
+          "reason": "The user shows a liking for crime and thriller genres, as evidenced by positive ratings for films in these categories.",
+          "taste": "Enjoyment of Crime and Thriller"
+        },
+        {
+          "reason": "The user rates a documentary highly, suggesting an appreciation for real-life stories and informative content.",
+          "taste": "Value for Documentaries"
+        }
+      ]
+    },
+    "user_id": 2389
+  }
+}

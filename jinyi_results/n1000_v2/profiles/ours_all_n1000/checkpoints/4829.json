@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "ceb4628c45b26d7b29b3d8ae57468a8f66f9f95466c9c124eef90144476b324e",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      278,
+      697,
+      142,
+      618,
+      811,
+      107,
+      1311,
+      6,
+      1560,
+      1266
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      39,
+      52,
+      72,
+      123,
+      195,
+      241,
+      291,
+      445,
+      588,
+      606,
+      618,
+      669,
+      677,
+      749,
+      776,
+      804,
+      805,
+      835,
+      880,
+      891,
+      896,
+      983,
+      1009,
+      1164,
+      1560
+    ],
+    "seed": 42,
+    "source_hash": "7ac6c375e76550f09e3ba010519b80aa2136f9579c517b3d8204fcf847c19a4a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4829,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "John Lennon",
+          "Paul McCartney",
+          "George Harrison",
+          "Ringo Starr"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Capturing John Lennon, Paul McCartney, George Harrison and Ringo Starr in their electrifying element, 'A Hard Day's Night' is a wildly irreverent journey through this pastiche of a day in the life of The Beatles during 1964. The band have to use all their guile and wit to avoid the pursuing fans and press to reach their scheduled television performance, in spite of Paul's troublemaking grandfather and Ringo's arrest.",
+        "release_date": "1964-07-06",
+        "release_year": "1964",
+        "title": "Hard Day's Night, A"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Martin Landau",
+          "Sarah Jessica Parker",
+          "Patricia Arquette"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The mostly true story of the legendary \"worst director of all time\", who, with the help of his strange friends, filmed countless B-movies without ever becoming famous or successful.",
+        "release_date": "1994-09-27",
+        "release_year": "1994",
+        "title": "Ed Wood"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Zero Mostel",
+          "Dick Shawn",
+          "Kenneth Mars"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Broadway producer, Max Bialystock and his accountant, Leo Bloom plan to make money by charming little old ladies to invest in a production many times over what it will actually cost, and then put on a sure-fire flop, so nobody will ask for their money back – and what can be a more certain flop than a tasteless musical celebrating Hitler.",
+        "release_date": "1967-11-22",
+        "release_year": "1968",
+        "title": "Producers, The"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Kathy Bates",
+          "Fairuza Balk",
+          "Henry Winkler"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Coraci",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Bobby Boucher is a water boy for a struggling college football team. The coach discovers Boucher's hidden rage makes him a tackling machine whose bone-crushing power might vault his team into the playoffs.",
+        "release_date": "1998-11-06",
+        "release_year": "1998",
+        "title": "Waterboy, The"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "Emma Thompson",
+          "James Fox",
+          "Christopher Reeve"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Ivory",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A rule bound head butler's world of manners and decorum in the household he maintains is tested by the arrival of a housekeeper who falls in love with him in post-WWI Britain. The possibility of romance and his master's cultivation of ties with the Nazi cause challenge his carefully maintained veneer of servitude.",
+        "release_date": "1993-11-05",
+        "release_year": "1993",
+        "title": "Remains of the Day, The"
+      },
+      {
+        "cast": [
+          "Tom Berenger",
+          "Glenn Close",
+          "Jeff Goldblum",
+          "William Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Kevin Kline and Glenn Close star as Harold and Sarah Cooper, a couple whose marital troubles are put on hold while they host an unhappy reunion of former college pals gathered for the funeral of one of their own, a suicide victim named Alex. As the weekend unfolds, the friends catch up with each other, play the music of their youth, reminisce, smoke marijuana, and pair off with each other.",
+        "release_date": "1983-09-09",
+        "release_year": "1983",
+        "title": "Big Chill, The"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Laurence Olivier",
+          "James Mason",
+          "Lilli Palmer"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nazi hunter Ezra Lieberman discovers a sinister and bizarre plot to rekindle the Third Reich.",
+        "release_date": "1978-10-05",
+        "release_year": "1978",
+        "title": "Boys from Brazil, The"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "Jason Scott Lee",
+          "Jason Isaacs",
+          "Connie Nielsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul W.S. Anderson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Sergeant Todd is a veteran soldier for an elite group of the armed forces. After being defeated by a new breed of genetically engineered soldiers, he is dumped on a waste planet and left for dead. He soon interacts with a group of crash survivors who lead out a peaceful existence. The peace is broken as the new soldiers land on the planet to eliminate the colony, which Sergeant Todd must defend.",
+        "release_date": "1998-10-23",
+        "release_year": "1998",
+        "title": "Soldier"
+      }
+    ],
+    "raw_user_id": "4829",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 259
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.3773551203021087
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or engaging storylines."
+      ],
+      "liked_patterns": [
+        "Preference for thrillers and dramas that feature strong narratives and character development.",
+        "Enjoyment of action-adventure films that combine excitement with engaging plots.",
+        "Appreciation for comedies that offer both humor and deeper themes."
+      ],
+      "summary": "Unique tastes: Thrillers (The user enjoys suspenseful narratives that keep them engaged, as evidenced by high ratings for multiple thriller films.); Dramatic storytelling (The user appreciates films that explore deep emotional themes and character development, reflected in their ratings for various drama genres.); Action and Adventure (The user favors films that combine action with adventurous plots, indicated by their positive ratings for action-adventure titles.); Comedy with depth (The user enjoys comedies that incorporate meaningful themes or character arcs, as shown by their ratings for comedies that blend humor with other genres.); War and Conflict (The user is drawn to films that depict war and conflict, valuing the dramatic and emotional weight these stories carry.). Liked patterns: Preference for thrillers and dramas that feature strong narratives and character development., Enjoyment of action-adventure films that combine excitement with engaging plots., Appreciation for comedies that offer both humor and deeper themes.. Disliked patterns: Dislike for comedies that lack depth or engaging storylines..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys suspenseful narratives that keep them engaged, as evidenced by high ratings for multiple thriller films.",
+          "taste": "Thrillers"
+        },
+        {
+          "reason": "The user appreciates films that explore deep emotional themes and character development, reflected in their ratings for various drama genres.",
+          "taste": "Dramatic storytelling"
+        },
+        {
+          "reason": "The user favors films that combine action with adventurous plots, indicated by their positive ratings for action-adventure titles.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user enjoys comedies that incorporate meaningful themes or character arcs, as shown by their ratings for comedies that blend humor with other genres.",
+          "taste": "Comedy with depth"
+        },
+        {
+          "reason": "The user is drawn to films that depict war and conflict, valuing the dramatic and emotional weight these stories carry.",
+          "taste": "War and Conflict"
+        }
+      ]
+    },
+    "user_id": 4829
+  }
+}

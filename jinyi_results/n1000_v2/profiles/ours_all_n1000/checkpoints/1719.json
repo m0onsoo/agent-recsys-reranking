@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "b728950312f5d25c273b5e36c9e0f48253da588cc99eb8f4f89f609baace3b51",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      877,
+      1934,
+      652,
+      421,
+      353,
+      791,
+      369,
+      509,
+      278,
+      185
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "45a22572cc4d4a858dc86bd01e6c3c82"
+    ],
+    "sampled_item_ids": [
+      5,
+      70,
+      105,
+      185,
+      232,
+      278,
+      317,
+      353,
+      369,
+      390,
+      421,
+      509,
+      516,
+      517,
+      652,
+      791,
+      877,
+      909,
+      933,
+      1055,
+      1212,
+      1934
+    ],
+    "seed": 42,
+    "source_hash": "f4f242a5738b1ff524cc9f133c534abbf0dad8fd37c6c4c7ebeddafe6e1e5a51",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1719,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Denzel Washington",
+          "Angelina Jolie",
+          "Queen Latifah",
+          "Michael Rooker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Rookie cop, Amelia Donaghy reluctantly teams with Lincoln Rhyme – formerly the department's top homicide detective but now paralyzed as a result of a spinal injury – to catch a grisly serial killer dubbed 'The Bone Collector'. The murderer's special signature is to leave tantalizing clues based on the grim remains of his crimes.",
+        "release_date": "1999-11-04",
+        "release_year": "1999",
+        "title": "Bone Collector, The"
+      },
+      {
+        "cast": [
+          "Leonardo DiCaprio",
+          "Guillaume Canet",
+          "Tilda Swinton",
+          "Virginie Ledoyen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Danny Boyle",
+        "genres": [
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Twenty-something Richard travels to Thailand and finds himself in possession of a strange map. Rumours state that it leads to a solitary beach paradise, a tropical bliss - excited and intrigued, he sets out to find it.",
+        "release_date": "2000-02-11",
+        "release_year": "2000",
+        "title": "Beach, The"
+      },
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Vladimir Kulich",
+          "Dennis Storhøi",
+          "Daniel Southern"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In AD 922, Arab courtier, Ahmad Ibn Fadlan accompanies a party of Vikings to the barbaric North to combat a terror that slaughters Vikings and devours their flesh.",
+        "release_date": "1999-08-27",
+        "release_year": "1999",
+        "title": "13th Warrior, The"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Ingrid Bergman",
+          "Paul Henreid",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
+        "release_date": "1942-11-26",
+        "release_year": "1942",
+        "title": "Casablanca"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Heather Graham",
+          "Michael York",
+          "Robert Wagner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When diabolical genius, Dr. Evil travels back in time to steal superspy Austin Powers's ‘mojo’, Austin must return to the swingin' '60s himself – with the help of American agent, Felicity Shagwell – to stop the dastardly plan. Once there, Austin faces off against Dr. Evil's army of minions and saves the world in his own unbelievably groovy way.",
+        "release_date": "1999-06-08",
+        "release_year": "1999",
+        "title": "Austin Powers: The Spy Who Shagged Me"
+      },
+      {
+        "cast": [
+          "Michael C. Williams",
+          "Heather Donahue",
+          "Joshua Leonard",
+          "Bob Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Myrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Blair Witch Project, The"
+      },
+      {
+        "cast": [
+          "Ryan Phillippe",
+          "Salma Hayek",
+          "Breckin Meyer",
+          "Mike Myers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Christopher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Shane, a Jersey boy with big dreams, crosses the river in hopes of finding a more exciting life at Studio 54. When Steve Rubell, the mastermind behind the infamous disco, plucks Shane from the sea of faces clamoring to get inside his club, Shane not only gets his foot in the door, but lands a coveted job behind the bar – and a front-row seat at the most legendary party on the planet.",
+        "release_date": "1998-08-28",
+        "release_year": "1998",
+        "title": "54"
+      },
+      {
+        "cast": [
+          "Sarah Michelle Gellar",
+          "Ryan Phillippe",
+          "Reese Witherspoon",
+          "Selma Blair"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Kumble",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Slaking a thirst for dangerous games, Kathryn challenges her stepbrother, Sebastian, to deflower their headmaster's daughter before the summer ends. If he succeeds, the prize is the chance to bed Kathryn. But if he loses, Kathryn will claim his most prized possession.",
+        "release_date": "1999-03-05",
+        "release_year": "1999",
+        "title": "Cruel Intentions"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      }
+    ],
+    "raw_user_id": "1719",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 22
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.3483719875795717
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for poorly received comedies",
+        "Negative ratings for dramas perceived as lacking depth",
+        "Dislike for horror films that do not resonate"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films and comedies",
+        "Positive ratings for dramas and thrillers",
+        "Strong preference for films with engaging narratives"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Children's Films (The user rated multiple animated and children's films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (The user has rated several comedies positively, suggesting a fondness for humor in films.); Interest in Drama (The user has shown a liking for dramatic films, as evidenced by several ratings of 3 or above in this genre.); Preference for Thrillers and Action (The user has rated action and thriller films positively, indicating an enjoyment of suspenseful narratives.); Dislike for Low-Quality Comedies and Dramas (The user rated several comedies and dramas poorly, suggesting a specific aversion to films in these genres that do not meet their standards.). Liked patterns: High ratings for animated films and comedies, Positive ratings for dramas and thrillers, Strong preference for films with engaging narratives. Disliked patterns: Low ratings for poorly received comedies, Negative ratings for dramas perceived as lacking depth, Dislike for horror films that do not resonate.",
+      "unique_tastes": [
+        {
+          "reason": "The user rated multiple animated and children's films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Animation and Children's Films"
+        },
+        {
+          "reason": "The user has rated several comedies positively, suggesting a fondness for humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has shown a liking for dramatic films, as evidenced by several ratings of 3 or above in this genre.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated action and thriller films positively, indicating an enjoyment of suspenseful narratives.",
+          "taste": "Preference for Thrillers and Action"
+        },
+        {
+          "reason": "The user rated several comedies and dramas poorly, suggesting a specific aversion to films in these genres that do not meet their standards.",
+          "taste": "Dislike for Low-Quality Comedies and Dramas"
+        }
+      ]
+    },
+    "user_id": 1719
+  }
+}

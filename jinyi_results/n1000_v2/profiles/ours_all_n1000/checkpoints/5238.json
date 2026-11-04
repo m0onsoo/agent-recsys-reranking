@@ -1,0 +1,326 @@
+{
+  "checkpoint_hash": "a1617ef04de260ef6ebd3f0189b786b0013945f6f370e785110e4cc6210ba23f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      3270,
+      1532,
+      337,
+      633,
+      12,
+      613,
+      1762,
+      609,
+      722,
+      727
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      12,
+      27,
+      168,
+      337,
+      472,
+      609,
+      613,
+      633,
+      722,
+      727,
+      1461,
+      1532,
+      1624,
+      1690,
+      1762,
+      2519,
+      2606,
+      3270
+    ],
+    "seed": 42,
+    "source_hash": "c3a72d00d03c6687631085faa1996969239b6ffc78c056a15e96a34b3d8bcb19",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5238,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "female",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Leslie Nielsen",
+          "Christopher Lloyd",
+          "Matt McCoy",
+          "Sherry Miller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Fred Gerber",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Harry Habert, owner of a rent office has an original idea: To rent babies from a nearby orphanage to the local families. He rents the Ward brothers to his first customers...",
+        "release_date": "1995-01-01",
+        "release_year": "1995",
+        "title": "Rent-a-Kid"
+      },
+      {
+        "cast": [
+          "Deborah Kerr",
+          "Yul Brynner",
+          "Rita Moreno",
+          "Martin Benson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Walter Lang",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Mrs. Anna Leonowens and her son Louis arrive in Bangkok, where she has contracted to teach English to the children of the royal household. She threatens to leave when the house she had been promised is not available, but falls in love with the children.",
+        "release_date": "1956-06-29",
+        "release_year": "1956",
+        "title": "King and I, The"
+      },
+      {
+        "cast": [
+          "Harvey Keitel",
+          "Tim Roth",
+          "Michael Madsen",
+          "Chris Penn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+        "release_date": "1992-09-02",
+        "release_year": "1992",
+        "title": "Reservoir Dogs"
+      },
+      {
+        "cast": [
+          "Mary Costa",
+          "Bill Shirley",
+          "Eleanor Audley",
+          "Verna Felton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A beautiful princess born in a faraway kingdom is destined by a terrible curse to prick her finger on the spindle of a spinning wheel and fall into a deep sleep that can only be awakened by true love's first kiss. Determined to protect her, her parents ask three fairies to raise her in hiding. But the evil Maleficent is just as determined to seal the princess's fate.",
+        "release_date": "1959-01-28",
+        "release_year": "1959",
+        "title": "Sleeping Beauty"
+      },
+      {
+        "cast": [
+          "Leslie Caron",
+          "Maurice Chevalier",
+          "Louis Jourdan",
+          "Hermione Gingold"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Vincente Minnelli",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A home, a motorcar, servants, the latest fashions: the most eligible and most finicky bachelor (Louis Jourdan) in Paris offers them all to Gigi (Leslie Caron). But she, who's gone from girlish gawkishness to cultured glamour before our eyes, yearns for that wonderful something money can't buy.",
+        "release_date": "1958-04-15",
+        "release_year": "1958",
+        "title": "Gigi"
+      },
+      {
+        "cast": [
+          "Bobby Driscoll",
+          "Kathryn Beaumont",
+          "Hans Conried",
+          "Bill Thompson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Fantasy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Leaving the safety of their nursery behind, Wendy, Michael and John follow Peter Pan to a magical world where childhood lasts forever. But while in Neverland, the kids must face Captain Hook and foil his attempts to get rid of Peter for good.",
+        "release_date": "1953-02-05",
+        "release_year": "1953",
+        "title": "Peter Pan"
+      },
+      {
+        "cast": [
+          "Gene Kelly",
+          "Leslie Caron",
+          "Oscar Levant",
+          "Georges Guétary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Vincente Minnelli",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Jerry Mulligan is an exuberant American expatriate in Paris trying to make a reputation as a painter. His friend Adam is a struggling concert pianist who's a long time associate of a famous French singer, Henri Baurel. A lonely society woman, Milo Roberts, takes Jerry under her wing and supports him, but is interested in more than his art.",
+        "release_date": "1951-08-08",
+        "release_year": "1951",
+        "title": "American in Paris, An"
+      },
+      {
+        "cast": [
+          "Peggy Lee",
+          "Barbara Luddy",
+          "Larry Roberts",
+          "Bill Thompson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hamilton Luske",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Lady, a golden cocker spaniel, meets up with a mongrel dog who calls himself the Tramp. He is obviously from the wrong side of town, but happenings at Lady's home make her decide to travel with him for a while.",
+        "release_date": "1955-06-16",
+        "release_year": "1955",
+        "title": "Lady and the Tramp"
+      },
+      {
+        "cast": [
+          "Bing Crosby",
+          "Danny Kaye",
+          "Rosemary Clooney",
+          "Vera-Ellen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Two talented song-and-dance men team up after the war to become one of the hottest acts in show business.",
+        "release_date": "1954-10-13",
+        "release_year": "1954",
+        "title": "White Christmas"
+      },
+      {
+        "cast": [
+          "Gene Kelly",
+          "Donald O'Connor",
+          "Debbie Reynolds",
+          "Jean Hagen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Donen",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In 1927 Hollywood, Don Lockwood and Lina Lamont are a famous on-screen romantic pair in silent movies, but Lina mistakes the on-screen romance for real love. When their latest film is transformed into a musical, Don has the perfect voice for the songs, but strident voice faces the studio to dub her voice. Aspiring actress, Kathy Selden is brought in and, while she is working on the movie, Don falls in love with her.",
+        "release_date": "1952-04-10",
+        "release_year": "1952",
+        "title": "Singin' in the Rain"
+      }
+    ],
+    "raw_user_id": "5238",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 18
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.421456625784963
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 10
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for comedies that lack depth",
+        "Dislike for thrillers that do not engage emotionally"
+      ],
+      "liked_patterns": [
+        "High ratings for musicals and children's films",
+        "Strong preference for emotional and dramatic narratives",
+        "Enjoyment of romantic themes within musicals"
+      ],
+      "summary": "Unique tastes: Musicals (The user enjoys musicals, as indicated by multiple high ratings for films in this genre.); Children's and Family Films (The user rates children's films highly, showing a preference for family-friendly content.); Dramatic Storytelling (The user appreciates drama, reflected in high ratings for films that focus on emotional and serious narratives.); Romantic Elements (The user shows a liking for romance, particularly when combined with other genres like musicals.); Thrillers with Depth (The user has a mixed response to thrillers, indicating a preference for those that offer more than just suspense.). Liked patterns: High ratings for musicals and children's films, Strong preference for emotional and dramatic narratives, Enjoyment of romantic themes within musicals. Disliked patterns: Negative ratings for comedies that lack depth, Dislike for thrillers that do not engage emotionally.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys musicals, as indicated by multiple high ratings for films in this genre.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "The user rates children's films highly, showing a preference for family-friendly content.",
+          "taste": "Children's and Family Films"
+        },
+        {
+          "reason": "The user appreciates drama, reflected in high ratings for films that focus on emotional and serious narratives.",
+          "taste": "Dramatic Storytelling"
+        },
+        {
+          "reason": "The user shows a liking for romance, particularly when combined with other genres like musicals.",
+          "taste": "Romantic Elements"
+        },
+        {
+          "reason": "The user has a mixed response to thrillers, indicating a preference for those that offer more than just suspense.",
+          "taste": "Thrillers with Depth"
+        }
+      ]
+    },
+    "user_id": 5238
+  }
+}

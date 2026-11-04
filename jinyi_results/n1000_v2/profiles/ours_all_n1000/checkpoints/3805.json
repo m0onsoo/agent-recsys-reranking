@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "e3625536e5cba5b9b646f3c7737063b928d2396c8f4005c4c8f48376515194a8",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      129,
+      1040,
+      773,
+      1564,
+      520,
+      326,
+      218,
+      329,
+      663,
+      247
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "65607b881a7e45458e024b589378e82e"
+    ],
+    "sampled_item_ids": [
+      1,
+      39,
+      52,
+      63,
+      140,
+      152,
+      218,
+      247,
+      268,
+      326,
+      329,
+      429,
+      462,
+      520,
+      715,
+      800,
+      906,
+      923,
+      958,
+      1040,
+      1159,
+      1564,
+      1583,
+      1663,
+      1859
+    ],
+    "seed": 42,
+    "source_hash": "39f734771f53cf6f7b447b7d63fa4f262fafb83622186461df1e00b248044fa9",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3805,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Robert Mitchum",
+          "Polly Bergen",
+          "Lori Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "J. Lee Thompson",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Bowden witnesses a rape committed by Max Cady and testifies against him. When released after 8 years in prison, Cady begins stalking Bowden and his family but is always clever enough not to violate the law.",
+        "release_date": "1962-04-12",
+        "release_year": "1962",
+        "title": "Cape Fear"
+      },
+      {
+        "cast": [
+          "Andrew McCarthy",
+          "Jonathan Silverman",
+          "Catherine Mary Stewart",
+          "Terry Kiser"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ted Kotcheff",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two friends are invited for a weekend to a luxury island with their boss. The boss gets shot and nobody seems to notice, except for the two friends. In order not to become suspects of murder they treat the body as a puppet and make people believe he's still alive. The killer wants to do his job so when he is informed that the stiff is still alive he's got to shoot him again, and again, and again.",
+        "release_date": "1989-07-05",
+        "release_year": "1989",
+        "title": "Weekend at Bernie's"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Verna Bloom",
+          "Marianna Hill",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "A gunfighting stranger comes to the small settlement of Lago. After gunning down three gunmen who tried to kill him, the townsfolk decide to hire the Stranger to hold off three outlaws who are on their way.",
+        "release_date": "1973-04-19",
+        "release_year": "1972",
+        "title": "High Plains Drifter"
+      },
+      {
+        "cast": [
+          "Dennis Quaid",
+          "Jim Caviezel",
+          "Andre Braugher",
+          "Elizabeth Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Hoblit",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a rare phenomenon gives police officer John Sullivan the chance to speak to his father, 30 years in the past, he takes the opportunity to prevent his dad's tragic death.  After his actions inadvertently give rise to a series of brutal murders he and his father must find a way to fix the consequences of altering time.",
+        "release_date": "2000-04-28",
+        "release_year": "2000",
+        "title": "Frequency"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Elizabeth Peña",
+          "Danny Aiello",
+          "Matt Craven"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A traumatized Vietnam war veteran finds out that his post-war life isn't what he believes it to be when he's attacked by horned creatures in the subway and his dead son comes to visit him...",
+        "release_date": "1990-11-02",
+        "release_year": "1990",
+        "title": "Jacob's Ladder"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Sharon Stone",
+          "Joe Pesci",
+          "James Woods"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The life of the gambling paradise – Las Vegas – and its dark mafia underbelly.",
+        "release_date": "1995-11-22",
+        "release_year": "1995",
+        "title": "Casino"
+      },
+      {
+        "cast": [
+          "Keir Dullea",
+          "Gary Lockwood",
+          "William Sylvester",
+          "Douglas Rain"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "release_date": "1968-04-10",
+        "release_year": "1968",
+        "title": "2001: A Space Odyssey"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      }
+    ],
+    "raw_user_id": "3805",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 31
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0705555712197108
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films that do not effectively engage or thrill.",
+        "Dislike for films that lack depth in storytelling or character development."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine thriller and drama elements.",
+        "Strong preference for films that feature complex characters and moral dilemmas.",
+        "Enjoyment of films with suspenseful plots and unexpected twists."
+      ],
+      "summary": "Unique tastes: Thriller (A strong preference for suspenseful and intense narratives is evident, with multiple high ratings for films in this genre.); Drama (A consistent appreciation for dramatic storytelling is shown through several high ratings for drama films.); Action (Enjoyment of action-packed sequences is reflected in the ratings for various action films.); Crime (An interest in crime-related themes is indicated by favorable ratings for films that explore criminal activities.); Mystery (A liking for mystery elements is apparent, as several films with this genre received high ratings.). Liked patterns: High ratings for films that combine thriller and drama elements., Strong preference for films that feature complex characters and moral dilemmas., Enjoyment of films with suspenseful plots and unexpected twists.. Disliked patterns: Low ratings for horror films that do not effectively engage or thrill., Dislike for films that lack depth in storytelling or character development..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for suspenseful and intense narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "A consistent appreciation for dramatic storytelling is shown through several high ratings for drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Enjoyment of action-packed sequences is reflected in the ratings for various action films.",
+          "taste": "Action"
+        },
+        {
+          "reason": "An interest in crime-related themes is indicated by favorable ratings for films that explore criminal activities.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "A liking for mystery elements is apparent, as several films with this genre received high ratings.",
+          "taste": "Mystery"
+        }
+      ]
+    },
+    "user_id": 3805
+  }
+}

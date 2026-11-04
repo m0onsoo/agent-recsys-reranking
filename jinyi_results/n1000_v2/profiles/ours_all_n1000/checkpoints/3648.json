@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "dad474bf7bb09af4fb500d551d333a0ad3257354529e6fbeccd5c4134f0ecdff",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      935,
+      1352,
+      733,
+      1134,
+      1125,
+      768,
+      838,
+      2289,
+      213,
+      564
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "36a8c322a29d46b4a6ce2779d25aaa12"
+    ],
+    "sampled_item_ids": [
+      69,
+      80,
+      86,
+      98,
+      152,
+      187,
+      214,
+      327,
+      461,
+      513,
+      515,
+      558,
+      746,
+      1019,
+      1029,
+      1134,
+      1176,
+      1182,
+      1219,
+      1864,
+      1881,
+      2198,
+      2456,
+      3006,
+      3105
+    ],
+    "seed": 42,
+    "source_hash": "e65a43eae83fb00aca53c01b5c0c3fe8fc80dd292c43d2bb05783524b285372d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3648,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Christopher Reeve",
+          "Margot Kidder",
+          "Gene Hackman",
+          "Jackie Cooper"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Sidney J. Furie",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "With global superpowers engaged in an increasingly hostile arms race, Superman leads a crusade to rid the world of nuclear weapons. But Lex Luthor, recently sprung from jail, is declaring war on the Man of Steel and his quest to save the planet. Using a strand of Superman's hair, Luthor synthesizes a powerful ally known as Nuclear Man and ignites an epic battle spanning Earth and space.",
+        "release_date": "1987-07-23",
+        "release_year": "1987",
+        "title": "Superman IV: The Quest for Peace"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Harvey Atkin",
+          "Kate Lynch",
+          "Russ Banham"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Tripper is the head counselor at a budget summer camp called Camp Northstar. In truth, he's young at heart and only marginally more mature than the campers themselves. Tripper befriends Rudy, a loner camper who has trouble fitting in. As Tripper inspires his young charges to defeat rival Camp Mohawk in the annual Olympiad competition, Rudy plays matchmaker between Tripper and Roxanne, a female counselor at Northstar.",
+        "release_date": "1979-06-28",
+        "release_year": "1979",
+        "title": "Meatballs"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Courtney Love",
+          "Bob Zmuda",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A film about the life and career of the eccentric avant-garde comedian, Andy Kaufman.",
+        "release_date": "1999-12-22",
+        "release_year": "1999",
+        "title": "Man on the Moon"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Shatner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Capt. Kirk and his crew must deal with Mr. Spock's half brother who kidnaps three diplomats and hijacks the Enterprise in his obsessive search for God.",
+        "release_date": "1989-06-09",
+        "release_year": "1989",
+        "title": "Star Trek V: The Final Frontier"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Goldie Hawn",
+          "John Cleese",
+          "Mark McKinney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Weisman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The remake of the 1970 Neil Simon comedy follows the adventures of a couple, Henry and Nancy Clark, vexed by misfortune while in New York City for a job interview.",
+        "release_date": "1999-04-02",
+        "release_year": "1999",
+        "title": "Out-of-Towners, The"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Bruce Boxleitner",
+          "David Warner",
+          "Cindy Morgan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Lisberger",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "As Kevin Flynn searches for proof that he invented a hit video game, he is \"digitalized\" by a laser and finds himself inside The Grid, where programs suffer under the tyrannical rule of the Master Control Program. With the help of TRON, a security program, Flynn seeks to free The Grid from the MCP.",
+        "release_date": "1982-07-09",
+        "release_year": "1982",
+        "title": "Tron"
+      },
+      {
+        "cast": [
+          "Carmen Electra",
+          "Dave Sheridan",
+          "Anna Faris",
+          "Jon Abrahams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Keenen Ivory Wayans",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Following on the heels of popular teen-scream horror movies, with uproarious comedy and biting satire. Marlon and Shawn Wayans, Shannon Elizabeth and Carmen Electra pitch in to skewer some of Hollywood's biggest blockbusters, including Scream, I Know What You Did Last Summer, The Matrix, American Pie and The Blair Witch Project.",
+        "release_date": "2000-07-07",
+        "release_year": "2000",
+        "title": "Scary Movie"
+      },
+      {
+        "cast": [
+          "Robin Shou",
+          "Talisa Soto",
+          "James Remar",
+          "Sandra Hess"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John R. Leonetti",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "A group of heroic warriors has only six days to save the planet in \"Mortal Kombat Annihilation.\" To succeed they must survive the most spectacular series of challenges any human, or god, has ever encountered as they battle an evil warlord bent on taking control of Earth. Sequel to the film \"Mortal Kombat,\" and based on the popular video game.",
+        "release_date": "1997-11-21",
+        "release_year": "1997",
+        "title": "Mortal Kombat: Annihilation"
+      },
+      {
+        "cast": [
+          "Robert Armstrong",
+          "Fay Wray",
+          "Bruce Cabot",
+          "Frank Reicher"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Merian C. Cooper",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An adventure film about a film crew in search of a monster on a remote island. The crew finds King Kong and decides to take him back to New York as a money making spectacle. The film is a masterpiece of Stop-Motion in filmmaking history and inspired a line of King Kong films.",
+        "release_date": "1933-04-07",
+        "release_year": "1933",
+        "title": "King Kong"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "David Ogden Stiers",
+          "Kim Darby",
+          "Demian Slade"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Savage Steve Holland",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Lane Meyer is obsessed with his girlfriend Beth and is crushed when she falls for the new captain of the ski team, Roy. After several failed suicide attempts, narrow escapes from the relentless paper boy, and nearly unbearable dinners at home with his crazy family, Lane finds a new love in French exchange student Monique Junot. Meanwhile, he must beat Roy on the slopes to regain his honor.",
+        "release_date": "1985-10-11",
+        "release_year": "1985",
+        "title": "Better Off Dead..."
+      }
+    ],
+    "raw_user_id": "3648",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 503
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.2392955373130223
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or engaging storylines",
+        "Dislike for films that are overly simplistic or not well-received critically"
+      ],
+      "liked_patterns": [
+        "Preference for action-packed films with strong narratives",
+        "Enjoyment of dramas that tackle serious themes",
+        "Interest in thrillers that maintain suspense and excitement"
+      ],
+      "summary": "Unique tastes: Action and Drama (The user enjoys intense narratives that combine action with dramatic elements.); Thrillers with a strong plot (The user appreciates thrillers that offer engaging storylines and character development.); Comedies with a mix of romance (The user favors comedies that incorporate romantic themes, suggesting a preference for light-hearted yet emotional narratives.); Dramatic stories with social themes (The user is drawn to dramas that explore social issues and human experiences.); Adventure films (The user enjoys films that take the audience on adventurous journeys, often with action elements.). Liked patterns: Preference for action-packed films with strong narratives, Enjoyment of dramas that tackle serious themes, Interest in thrillers that maintain suspense and excitement. Disliked patterns: Dislike for comedies that lack depth or engaging storylines, Dislike for films that are overly simplistic or not well-received critically.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys intense narratives that combine action with dramatic elements.",
+          "taste": "Action and Drama"
+        },
+        {
+          "reason": "The user appreciates thrillers that offer engaging storylines and character development.",
+          "taste": "Thrillers with a strong plot"
+        },
+        {
+          "reason": "The user favors comedies that incorporate romantic themes, suggesting a preference for light-hearted yet emotional narratives.",
+          "taste": "Comedies with a mix of romance"
+        },
+        {
+          "reason": "The user is drawn to dramas that explore social issues and human experiences.",
+          "taste": "Dramatic stories with social themes"
+        },
+        {
+          "reason": "The user enjoys films that take the audience on adventurous journeys, often with action elements.",
+          "taste": "Adventure films"
+        }
+      ]
+    },
+    "user_id": 3648
+  }
+}

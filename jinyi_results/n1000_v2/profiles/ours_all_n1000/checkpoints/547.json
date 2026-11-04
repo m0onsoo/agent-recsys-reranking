@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "1c37cf571961a6ee362d405fddcf8311a23162a7dca30713512e92778090b81d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      309,
+      284,
+      433,
+      703,
+      185,
+      418,
+      529,
+      190,
+      604,
+      133
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a8f24187a7f140ac82d97488be4c9609"
+    ],
+    "sampled_item_ids": [
+      30,
+      45,
+      93,
+      113,
+      185,
+      210,
+      212,
+      218,
+      219,
+      284,
+      309,
+      383,
+      421,
+      529,
+      536,
+      642,
+      647,
+      665,
+      703,
+      715,
+      721,
+      738,
+      843,
+      1004,
+      1291
+    ],
+    "seed": 42,
+    "source_hash": "624f6bc60b5a8695174a0f2cc68cc2dd706f4b34258066a0b66497d776a8c248",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 547,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Harrison Ford",
+          "Helen Mirren",
+          "River Phoenix",
+          "Conrad Roberts"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Allie Fox, an American inventor exhausted by the perceived danger and degradation of modern society, decides to escape with his wife and children to Belize. In the jungle, he tries with mad determination to create a utopian community with disastrous results.",
+        "release_date": "1986-11-26",
+        "release_year": "1986",
+        "title": "Mosquito Coast, The"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Nicolas Cage",
+          "Joan Allen",
+          "Alessandro Nivola"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.",
+        "release_date": "1997-06-27",
+        "release_year": "1997",
+        "title": "Face/Off"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "Lee Van Cleef",
+          "Ernest Borgnine",
+          "Donald Pleasence"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In 1997, the island of Manhattan has been walled off and turned into a giant maximum security prison within which the country's worst criminals are left to form their own anarchic society. However, when the President of the United States crash lands on the island, the authorities turn to a former soldier and current convict, Snake Plissken, to rescue him.",
+        "release_date": "1981-05-22",
+        "release_year": "1981",
+        "title": "Escape from New York"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Emma Thompson",
+          "Hugh Grant",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ang Lee",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Rich Mr. Dashwood dies, leaving his second wife and her daughters poor by the rules of inheritance. Two daughters are the titular opposites.",
+        "release_date": "1995-12-13",
+        "release_year": "1995",
+        "title": "Sense and Sensibility"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Frakes",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The Borg, a relentless race of cyborgs, are on a direct course for Earth. Violating orders to stay away from the battle, Captain Picard and the crew of the newly-commissioned USS Enterprise E pursue the Borg back in time to prevent the invaders from changing Federation history and assimilating the galaxy.",
+        "release_date": "1996-11-21",
+        "release_year": "1996",
+        "title": "Star Trek: First Contact"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Tim Curry",
+          "Susan Sarandon",
+          "Barry Bostwick",
+          "Richard O'Brien"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Sharman",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Sweethearts Brad and Janet, stuck with a flat tire during a storm, discover the eerie mansion of Dr. Frank-N-Furter, a transvestite scientist. As their innocence is lost, Brad and Janet meet a houseful of wild characters, including a rocking biker and a creepy butler. Through elaborate dances and rock songs, Frank-N-Furter unveils his latest creation: a muscular man named 'Rocky'.",
+        "release_date": "1975-08-14",
+        "release_year": "1975",
+        "title": "Rocky Horror Picture Show, The"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      }
+    ],
+    "raw_user_id": "547",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 64
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5753449849863103
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to specific entries in the sci-fi genre that did not meet expectations."
+      ],
+      "liked_patterns": [
+        "Strong preference for action-packed films with sci-fi elements.",
+        "Enjoyment of animated comedies that are well-crafted and engaging.",
+        "Appreciation for dramas that intertwine romance."
+      ],
+      "summary": "Unique tastes: Action and Sci-Fi (The user enjoys a combination of action and science fiction elements, as seen in multiple highly rated films.); Animation and Comedy (The user appreciates animated films that incorporate humor, reflected in several top-rated titles.); Drama and Romance (The user has a preference for films that blend drama with romantic themes, indicated by several favorable ratings.); Adventure and Fantasy (The user is drawn to adventure films that include fantasy elements, as shown by their ratings.); Thriller Elements (The user enjoys films that incorporate thriller aspects, which is evident in their high ratings for such genres.). Liked patterns: Strong preference for action-packed films with sci-fi elements., Enjoyment of animated comedies that are well-crafted and engaging., Appreciation for dramas that intertwine romance.. Disliked patterns: Negative response to specific entries in the sci-fi genre that did not meet expectations..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a combination of action and science fiction elements, as seen in multiple highly rated films.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "The user appreciates animated films that incorporate humor, reflected in several top-rated titles.",
+          "taste": "Animation and Comedy"
+        },
+        {
+          "reason": "The user has a preference for films that blend drama with romantic themes, indicated by several favorable ratings.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "The user is drawn to adventure films that include fantasy elements, as shown by their ratings.",
+          "taste": "Adventure and Fantasy"
+        },
+        {
+          "reason": "The user enjoys films that incorporate thriller aspects, which is evident in their high ratings for such genres.",
+          "taste": "Thriller Elements"
+        }
+      ]
+    },
+    "user_id": 547
+  }
+}

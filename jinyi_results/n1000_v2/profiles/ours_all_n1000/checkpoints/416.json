@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "6712c98bbff66ec8e21aafa3214ced8a909c6eeaece7fd9276dc322157d56442",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      135,
+      360,
+      492,
+      426,
+      179,
+      932,
+      733,
+      791,
+      220,
+      882
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a71ec4363bea440a88cf7634ac96bb4d"
+    ],
+    "sampled_item_ids": [
+      105,
+      179,
+      210,
+      219,
+      264,
+      351,
+      364,
+      426,
+      432,
+      453,
+      492,
+      560,
+      791,
+      801,
+      830,
+      863,
+      874,
+      881,
+      899,
+      901,
+      932,
+      1116,
+      1367,
+      2034,
+      2294
+    ],
+    "seed": 42,
+    "source_hash": "9c4a54152412bf90ebbd332f3ba25180afcea17fe3c222150ddf192ae0a87a20",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 416,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Mary Steenburgen",
+          "Sean Patrick Flanery",
+          "Lance Henriksen",
+          "Jeff Goldblum"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Salva",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Harassed by classmates who won't accept his shocking appearance, a shy young man known as \"Powder\" struggles to fit in. But the cruel taunts stop when Powder displays a mysterious power that allows him to do incredible things. This phenomenon changes the lives of all those around him in ways they never could have imagined.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Powder"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Leonardo DiCaprio",
+          "Juliette Lewis",
+          "Darlene Cates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lasse Hallström",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Gilbert has to care for his brother Arnie and his obese mother, which gets in the way when love walks into his life.",
+        "release_date": "1993-12-17",
+        "release_year": "1993",
+        "title": "What's Eating Gilbert Grape"
+      },
+      {
+        "cast": [
+          "Meryl Streep",
+          "Robert Redford",
+          "Klaus Maria Brandauer",
+          "Michael Kitchen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Out of Africa tells the story of the life of Danish author Karen Blixen, who at the beginning of the 20th century moved to Africa to build a new life for herself. The film is based on the autobiographical novel by Karen Blixen from 1937.",
+        "release_date": "1985-12-20",
+        "release_year": "1985",
+        "title": "Out of Africa"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Viggo Mortensen",
+          "Dominic West",
+          "Elizabeth Perkins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After getting into a car accident while drunk on the day of her sister's wedding, Gwen Cummings is given a choice between prison or a rehab center. She chooses rehab, but is extremely resistant to taking part in any of the treatment programs they have to offer, refusing to admit that she has an alcohol addiction.",
+        "release_date": "2000-04-06",
+        "release_year": "2000",
+        "title": "28 Days"
+      },
+      {
+        "cast": [
+          "Bill Pullman",
+          "Bridget Fonda",
+          "Oliver Platt",
+          "Brendan Gleeson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve Miner",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a man is eaten alive by an unknown creature, the local Game Warden teams up with a paleontologist from New York to find the beast. Add to the mix an eccentric philanthropist with a penchant for \"Crocs\", and here we go! This quiet, remote lake is suddenly the focus of an intense search for a crocodile with a taste for live animals...and people!",
+        "release_date": "1999-07-15",
+        "release_year": "1999",
+        "title": "Lake Placid"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Courtney Love",
+          "Bob Zmuda",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A film about the life and career of the eccentric avant-garde comedian, Andy Kaufman.",
+        "release_date": "1999-12-22",
+        "release_year": "1999",
+        "title": "Man on the Moon"
+      },
+      {
+        "cast": [
+          "Michael C. Williams",
+          "Heather Donahue",
+          "Joshua Leonard",
+          "Bob Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Myrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Blair Witch Project, The"
+      },
+      {
+        "cast": [
+          "Ian McKellen",
+          "Brendan Fraser",
+          "Lynn Redgrave",
+          "Lolita Davidovich"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Bill Condon",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "It's 1957, and Whale's heyday as the director of \"Frankenstein,\" \"Bride of Frankenstein\" and \"The Invisible Man\" is long behind him. Retired and a semi-recluse, he lives his days accompanied only by images from his past. When his dour housekeeper, Hannah, hires a handsome young gardener, the flamboyant director and simple yard man develop an unlikely friendship, which will change them forever.",
+        "release_date": "1998-01-21",
+        "release_year": "1998",
+        "title": "Gods and Monsters"
+      },
+      {
+        "cast": [
+          "Drew Barrymore",
+          "David Arquette",
+          "Michael Vartan",
+          "Molly Shannon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Raja Gosnell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Josie Geller, a baby-faced junior copywriter at the Chicago Sun-Times, must pose as a student at her former high school to research contemporary teenage culture. With the help of her brother, Rob, Josie infiltrates the inner circle of the most popular clique on campus. But she hits a major snag in her investigation -- not to mention her own failed love life -- when she falls for her dreamy English teacher, Sam Coulson.",
+        "release_date": "1999-04-09",
+        "release_year": "1999",
+        "title": "Never Been Kissed"
+      }
+    ],
+    "raw_user_id": "416",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 50
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6114233789097314
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for certain comedies",
+        "Dislike for specific horror films",
+        "Negative ratings for drama films with less engaging narratives"
+      ],
+      "liked_patterns": [
+        "High ratings for horror films",
+        "Positive ratings for drama and romance films",
+        "Strong appreciation for comedies"
+      ],
+      "summary": "Unique tastes: Appreciation for Horror (The user rates multiple horror films highly, indicating a strong preference for the genre.); Fondness for Drama and Romance (Several drama and romance films receive high ratings, suggesting a liking for emotional and character-driven narratives.); Enjoyment of Comedy (The user rates various comedies positively, showing a preference for humor and light-hearted storytelling.); Interest in Thrillers (The user has rated several thrillers positively, indicating a taste for suspenseful and engaging plots.); Affinity for Animation and Adventure (The user enjoys animated and adventure films, as evidenced by positive ratings in these genres.). Liked patterns: High ratings for horror films, Positive ratings for drama and romance films, Strong appreciation for comedies. Disliked patterns: Low ratings for certain comedies, Dislike for specific horror films, Negative ratings for drama films with less engaging narratives.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple horror films highly, indicating a strong preference for the genre.",
+          "taste": "Appreciation for Horror"
+        },
+        {
+          "reason": "Several drama and romance films receive high ratings, suggesting a liking for emotional and character-driven narratives.",
+          "taste": "Fondness for Drama and Romance"
+        },
+        {
+          "reason": "The user rates various comedies positively, showing a preference for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has rated several thrillers positively, indicating a taste for suspenseful and engaging plots.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user enjoys animated and adventure films, as evidenced by positive ratings in these genres.",
+          "taste": "Affinity for Animation and Adventure"
+        }
+      ]
+    },
+    "user_id": 416
+  }
+}

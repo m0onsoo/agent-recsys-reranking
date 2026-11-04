@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "424a45da45e1ba3c6edce2dab98e1e174e5ad5787da0e0ac909415ff43f5f319",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2460,
+      601,
+      1459,
+      432,
+      169,
+      483,
+      1130,
+      214,
+      1004,
+      949
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "828c9a23eac6430f88a3372f7c7dc82c"
+    ],
+    "sampled_item_ids": [
+      169,
+      210,
+      214,
+      274,
+      432,
+      483,
+      595,
+      601,
+      604,
+      741,
+      838,
+      869,
+      991,
+      1004,
+      1005,
+      1116,
+      1130,
+      1144,
+      1159,
+      1459,
+      1566,
+      1577,
+      2053,
+      2200,
+      2460
+    ],
+    "seed": 42,
+    "source_hash": "3a0e180ec33c08c056dbc37d26fd49e2800c762bbc47481738d6a50c97528103",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2475,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "tradesman/craftsman"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Lon Chaney Jr.",
+          "Claude Rains",
+          "Evelyn Ankers",
+          "Maria Ouspenskaya"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Waggner",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After his brother's death, Larry Talbot returns home to his father and the family estate. Events soon take a turn for the worse when Larry is bitten by a werewolf.",
+        "release_date": "1941-12-12",
+        "release_year": "1941",
+        "title": "Wolf Man, The"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Peter Boyle",
+          "Marty Feldman",
+          "Madeline Kahn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A young neurosurgeon inherits the castle of his grandfather, the famous Dr. Victor von Frankenstein. In the castle he finds a funny hunchback, a pretty lab assistant and the elderly housekeeper. Young Frankenstein believes that the work of his grandfather was delusional, but when he discovers the book where the mad doctor described his reanimation experiment, he suddenly changes his mind.",
+        "release_date": "1974-12-15",
+        "release_year": "1974",
+        "title": "Young Frankenstein"
+      },
+      {
+        "cast": [
+          "Julie Harris",
+          "Claire Bloom",
+          "Richard Johnson",
+          "Russ Tamblyn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Robert Wise",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dr. Markway, doing research to prove the existence of ghosts, investigates Hill House, a large, eerie mansion with a lurid history of violent death and insanity.",
+        "release_date": "1963-09-18",
+        "release_year": "1963",
+        "title": "Haunting, The"
+      },
+      {
+        "cast": [
+          "Linda Blair",
+          "Max von Sydow",
+          "Ellen Burstyn",
+          "Jason Miller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Friedkin",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "12-year-old Regan MacNeil begins to adapt an explicit new personality as strange events befall the local area of Georgetown. Her mother becomes torn between science and superstition in a desperate bid to save her daughter, and ultimately turns to her last hope: Father Damien Karras, a troubled priest who is struggling with his own faith.",
+        "release_date": "1973-12-26",
+        "release_year": "1973",
+        "title": "Exorcist, The"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Anthony Michael Hall",
+          "Judd Nelson",
+          "Molly Ringwald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Five high school students, all different stereotypes, meet in detention, where they pour their hearts out to each other, and discover how they have a lot more in common than they thought.",
+        "release_date": "1985-02-15",
+        "release_year": "1985",
+        "title": "Breakfast Club, The"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Tom Cruise",
+          "Kirsten Dunst",
+          "Antonio Banderas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A vampire relates his epic life story of love, betrayal, loneliness, and dark hunger to an over-curious reporter.",
+        "release_date": "1994-11-11",
+        "release_year": "1994",
+        "title": "Interview with the Vampire"
+      },
+      {
+        "cast": [
+          "Lon Chaney Jr.",
+          "Louise Allbritton",
+          "Robert Paige",
+          "Frank Craven"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Siodmak",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Carpathian Count Alucard is invited to the U.S. by a young \"morbid\" heiress. Her boyfriend and local officials are suspicious of the newcomer, who is interested in the \"virile\" soil of the new world.",
+        "release_date": "1943-10-05",
+        "release_year": "1943",
+        "title": "Son of Dracula"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Robert Shaw",
+          "Richard Dreyfuss",
+          "Lorraine Gary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
+        "release_date": "1975-06-18",
+        "release_year": "1975",
+        "title": "Jaws"
+      },
+      {
+        "cast": [
+          "Yul Brynner",
+          "Richard Benjamin",
+          "James Brolin",
+          "Norman Bartold"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Crichton",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In a futuristic resort, wealthy patrons can visit recreations of different time periods and experience their wildest fantasies with life-like robots. But when Richard Benjamin opts for the wild west, he gets more than he bargained for when a gunslinger robot goes berserk.",
+        "release_date": "1973-10-22",
+        "release_year": "1973",
+        "title": "Westworld"
+      },
+      {
+        "cast": [
+          "Claude Rains",
+          "Gloria Stuart",
+          "William Harrigan",
+          "Henry Travers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Whale",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Working in Dr. Cranley's laboratory, scientist Jack Griffin was always given the latitude to conduct somhe of his own experiments. His sudden departure, however, has Cranley's daughter Flora worried about him. Griffin has taken a room at the nearby Lion's Head Inn, hoping to reverse an experiment he conducted on himself that made him invisible. Unfortunately, the drug he used has also warped his mind, making him aggressive and dangerous. He's prepared to do whatever it takes to restore his appearance, and several will die in the process.",
+        "release_date": "1933-11-13",
+        "release_year": "1933",
+        "title": "Invisible Man, The"
+      }
+    ],
+    "raw_user_id": "2475",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 31
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3889509277042742
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films that lack depth or originality.",
+        "Dislike for films that attempt to blend genres unsuccessfully, particularly in the horror-comedy space."
+      ],
+      "liked_patterns": [
+        "High ratings for horror films, especially those with strong narratives and character development.",
+        "Positive reception of horror-comedy films that balance humor with scares.",
+        "Favoring films that combine horror with other genres like thriller and sci-fi."
+      ],
+      "summary": "Unique tastes: Horror Enthusiast (The user consistently rates horror films highly, indicating a strong preference for the genre.); Comedy with Horror Elements (The user enjoys comedies that incorporate horror themes, as seen in several high ratings.); Thriller Appreciation (The user shows a liking for horror-thriller hybrids, reflected in multiple high ratings for such films.); Sci-Fi Horror Fusion (The user rates films that blend science fiction and horror favorably, suggesting an interest in this combination.); Classic Horror Films (The user has a preference for older horror films, as indicated by high ratings for several titles from earlier decades.). Liked patterns: High ratings for horror films, especially those with strong narratives and character development., Positive reception of horror-comedy films that balance humor with scares., Favoring films that combine horror with other genres like thriller and sci-fi.. Disliked patterns: Low ratings for horror films that lack depth or originality., Dislike for films that attempt to blend genres unsuccessfully, particularly in the horror-comedy space..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates horror films highly, indicating a strong preference for the genre.",
+          "taste": "Horror Enthusiast"
+        },
+        {
+          "reason": "The user enjoys comedies that incorporate horror themes, as seen in several high ratings.",
+          "taste": "Comedy with Horror Elements"
+        },
+        {
+          "reason": "The user shows a liking for horror-thriller hybrids, reflected in multiple high ratings for such films.",
+          "taste": "Thriller Appreciation"
+        },
+        {
+          "reason": "The user rates films that blend science fiction and horror favorably, suggesting an interest in this combination.",
+          "taste": "Sci-Fi Horror Fusion"
+        },
+        {
+          "reason": "The user has a preference for older horror films, as indicated by high ratings for several titles from earlier decades.",
+          "taste": "Classic Horror Films"
+        }
+      ]
+    },
+    "user_id": 2475
+  }
+}

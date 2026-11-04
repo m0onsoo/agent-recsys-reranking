@@ -1,0 +1,344 @@
+{
+  "checkpoint_hash": "27651efa7fc098a4f7fb266541d9a707e28b0e067cfd8eea07d26fbc69a16720",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      843,
+      2,
+      720,
+      38,
+      1317,
+      865,
+      61,
+      59,
+      36,
+      1836
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      2,
+      33,
+      45,
+      59,
+      61,
+      114,
+      159,
+      200,
+      391,
+      598,
+      606,
+      634,
+      793,
+      853,
+      865,
+      1026,
+      1059,
+      1071,
+      1317,
+      1402,
+      1427,
+      1477,
+      1579,
+      1796,
+      1851
+    ],
+    "seed": 42,
+    "source_hash": "43db6076ac84b19bb078b44db556d17025fc0d88e2e96ff5d538cea59ad192bb",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4902,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Rutger Hauer",
+          "Michelle Pfeiffer",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Captain Etienne Navarre is a man on whose shoulders lies a cruel curse. Punished for loving each other, Navarre must become a wolf by night whilst his lover, Lady Isabeau, takes the form of a hawk by day. Together, with the thief Philippe Gaston, they must try to overthrow the corrupt Bishop and in doing so break the spell.",
+        "release_date": "1985-03-27",
+        "release_year": "1985",
+        "title": "Ladyhawke"
+      },
+      {
+        "cast": [
+          "Miriam Margolyes",
+          "Joanna Lumley",
+          "Pete Postlethwaite",
+          "Susan Sarandon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Henry Selick",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "When the young orphan boy James spills a magic bag of crocodile tongues, he finds himself in possession of a giant peach that flies him away to strange lands.",
+        "release_date": "1996-04-12",
+        "release_year": "1996",
+        "title": "James and the Giant Peach"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      },
+      {
+        "cast": [
+          "Ilene Woods",
+          "Eleanor Audley",
+          "Lucille Bliss",
+          "Verna Felton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Cinderella has faith her dreams of a better life will come true. With help from her loyal mice friends and a wave of her Fairy Godmother's wand, Cinderella's rags are magically turned into a glorious gown and off she goes to the Royal Ball. But when the clock strikes midnight, the spell is broken, leaving a single glass slipper... the only key to the ultimate fairy-tale ending!",
+        "release_date": "1950-03-04",
+        "release_year": "1950",
+        "title": "Cinderella"
+      },
+      {
+        "cast": [
+          "Gregory Smith",
+          "Kirsten Dunst",
+          "Denis Leary",
+          "Phil Hartman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Fantasy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When missile technology is used to enhance toy action figures, the toys soon begin to take their battle programming too seriously.",
+        "release_date": "1998-07-10",
+        "release_year": "1998",
+        "title": "Small Soldiers"
+      },
+      {
+        "cast": [
+          "Mel Brooks",
+          "Rick Moranis",
+          "Bill Pullman",
+          "Daphne Zuniga"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When the nefarious Dark Helmet hatches a plan to snatch Princess Vespa and steal her planet's air, space-bum-for-hire Lone Starr and his clueless sidekick fly to the rescue. Along the way, they meet Yogurt, who puts Lone Starr wise to the power of \"The Schwartz.\" Can he master it in time to save the day?",
+        "release_date": "1987-06-24",
+        "release_year": "1987",
+        "title": "Spaceballs"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jon Voight",
+          "Emmanuelle Béart",
+          "Henry Czerny"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the No. 1 suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
+        "release_date": "1996-05-22",
+        "release_year": "1996",
+        "title": "Mission: Impossible"
+      },
+      {
+        "cast": [
+          "Tom Hulce",
+          "Demi Moore",
+          "Tony Jay",
+          "Kevin Kline"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Trousdale",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "When Quasi defies the evil Frollo and ventures out to the Festival of Fools, the cruel crowd jeers him. Rescued by fellow outcast the gypsy Esmeralda, Quasi soon finds himself battling to save the people and the city he loves.",
+        "release_date": "1996-06-21",
+        "release_year": "1996",
+        "title": "Hunchback of Notre Dame, The"
+      },
+      {
+        "cast": [
+          "Roddy McDowall",
+          "Don Murray",
+          "Ricardo Montalban",
+          "Hari Rhodes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "J. Lee Thompson",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a futuristic world that has embraced ape slavery, Caesar, the son of the late simians Cornelius and Zira, surfaces after almost twenty years of hiding out from the authorities, and prepares for a slave revolt against humanity.",
+        "release_date": "1972-06-29",
+        "release_year": "1972",
+        "title": "Conquest of the Planet of the Apes"
+      }
+    ],
+    "raw_user_id": "4902",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 109
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9649039830669557
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for children's comedies",
+        "Dislike for light-hearted war comedies",
+        "Dislike for animated films lacking depth"
+      ],
+      "liked_patterns": [
+        "Preference for action and adventure genres",
+        "Enjoyment of animated family films",
+        "Appreciation for comedies that offer social commentary"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.); Comedy with Depth (The user appreciates comedies that incorporate deeper themes or social commentary, reflected in their ratings for various comedic dramas.); Animation and Family (The user has a preference for animated films that cater to family audiences, indicated by their ratings for several children's movies.); War and Drama (The user is drawn to films that blend war themes with dramatic storytelling, as evidenced by their ratings for war-related dramas.); Fantasy Elements (The user enjoys films that incorporate fantasy elements, particularly in adventure settings, as shown in their ratings for fantasy-adventure films.). Liked patterns: Preference for action and adventure genres, Enjoyment of animated family films, Appreciation for comedies that offer social commentary. Disliked patterns: Dislike for children's comedies, Dislike for light-hearted war comedies, Dislike for animated films lacking depth.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate deeper themes or social commentary, reflected in their ratings for various comedic dramas.",
+          "taste": "Comedy with Depth"
+        },
+        {
+          "reason": "The user has a preference for animated films that cater to family audiences, indicated by their ratings for several children's movies.",
+          "taste": "Animation and Family"
+        },
+        {
+          "reason": "The user is drawn to films that blend war themes with dramatic storytelling, as evidenced by their ratings for war-related dramas.",
+          "taste": "War and Drama"
+        },
+        {
+          "reason": "The user enjoys films that incorporate fantasy elements, particularly in adventure settings, as shown in their ratings for fantasy-adventure films.",
+          "taste": "Fantasy Elements"
+        }
+      ]
+    },
+    "user_id": 4902
+  }
+}

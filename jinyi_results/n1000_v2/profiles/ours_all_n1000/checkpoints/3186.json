@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "a0b7efd66a880c2e04a0973f00e8bd25501718a06529121deb7f320e3a4c21d3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1452,
+      1242,
+      1938,
+      1241,
+      560,
+      612,
+      1238,
+      2325,
+      946,
+      961
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5c516ed57e0342ee8a847737e1da0d2f"
+    ],
+    "sampled_item_ids": [
+      23,
+      122,
+      185,
+      353,
+      471,
+      612,
+      653,
+      877,
+      946,
+      956,
+      961,
+      996,
+      1232,
+      1238,
+      1241,
+      1242,
+      1447,
+      1452,
+      1457,
+      1535,
+      1606,
+      1938,
+      2063,
+      2228,
+      2325
+    ],
+    "seed": 42,
+    "source_hash": "cec03e86a919a8f045391ba6fc7cc3423a413295bac1840ece075c3d255c39fc",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3186,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Cary Grant",
+          "Ingrid Bergman",
+          "Claude Rains",
+          "Louis Calhern"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Film-Noir",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Released shortly after the war, this classic Hitchcock film illustrates the battle between German Nazis and American spies in Rio de Janeiro where a German businessman keeps a wine cellar with uranium ore.",
+        "release_date": "1946-08-15",
+        "release_year": "1946",
+        "title": "Notorious"
+      },
+      {
+        "cast": [
+          "Jonathan Pryce",
+          "Robert De Niro",
+          "Katherine Helmond",
+          "Ian Holm"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
+        "release_date": "1985-02-20",
+        "release_year": "1985",
+        "title": "Brazil"
+      },
+      {
+        "cast": [
+          "Chow Yun-fat",
+          "Mira Sorvino",
+          "Michael Rooker",
+          "Kenneth Tsang"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Antoine Fuqua",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Hired assassin John Lee is asked by Chinatown crime boss Terence Wei to murder the young son of policeman Stan Zedkov. Lee has the boy in his sights, but his conscience gets the better of him, and he spares the child's life. Afraid that Wei will take revenge on his family in China, Lee seeks out expert forger Meg Coburn to obtain the passport he needs to get out of the country, but a band of replacement killers is soon on his trail.",
+        "release_date": "1998-02-06",
+        "release_year": "1998",
+        "title": "Replacement Killers, The"
+      },
+      {
+        "cast": [
+          "Frank Sinatra",
+          "Laurence Harvey",
+          "Angela Lansbury",
+          "Janet Leigh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Frankenheimer",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The Manchurian Candidate is a political thriller from American director John Frankenheimer. An American soldier is brainwashed into being a killer for the communist Russians during the Korean War.",
+        "release_date": "1962-10-24",
+        "release_year": "1962",
+        "title": "Manchurian Candidate, The"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Faye Dunaway",
+          "John Huston",
+          "Perry Lopez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Private eye Jake Gittes lives off the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband's extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and political scandals that come crashing together.",
+        "release_date": "1974-06-20",
+        "release_year": "1974",
+        "title": "Chinatown"
+      },
+      {
+        "cast": [
+          "Peter Sellers",
+          "George C. Scott",
+          "Sterling Hayden",
+          "Keenan Wynn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union. As soon as the actions of General \"Buck\" Turgidson are discovered, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike. Near the end is a scene that is probably the most uniquely unforgettable performance of Slim Pickens in his movie career. Peter Sellers plays multiple roles in this film.",
+        "release_date": "1964-01-29",
+        "release_year": "1963",
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      },
+      {
+        "cast": [
+          "Fred MacMurray",
+          "Barbara Stanwyck",
+          "Edward G. Robinson",
+          "Porter Hall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Crime",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "Unsuspecting Mr. Dietrichson becomes increasingly accident prone after his icily calculating wife encourages him to sign a double indemnity policy proposed by a smooth-talking insurance agent. Against a backdrop of distinctly California settings, the partners in crime plan the perfect murder to collect the insurance. Perfect until a claims manager gets a familiar feeling of foul play and pursues the matter relentlessly.",
+        "release_date": "1944-04-24",
+        "release_year": "1944",
+        "title": "Double Indemnity"
+      },
+      {
+        "cast": [
+          "Malcolm McDowell",
+          "Richard Warwick",
+          "David Wood",
+          "Christine Noonan"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Lindsay Anderson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The film is a caustic portrait of a traditional English boys’ boarding school, where social hierarchy reigns supreme and power remains in the hands of distanced and ineffectual teachers and callously vicious prefects in the Upper Sixth. But three Lower Sixth students, leader Mick Travis (Malcolm McDowell),  Wallace (Richard Warwick) and Johnny (David Wood) decide on a shocking course of action to redress the balance of privilege once and for all.",
+        "release_date": "1968-12-19",
+        "release_year": "1968",
+        "title": "If...."
+      },
+      {
+        "cast": [
+          "Anjelica Huston",
+          "John Cusack",
+          "Annette Bening",
+          "Jan Munroe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "A young short-con grifter suffers both injury and the displeasure of reuniting with his criminal mother, all the while dating an unpredictable young lady.",
+        "release_date": "1990-09-14",
+        "release_year": "1990",
+        "title": "Grifters, The"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Lauren Bacall",
+          "John Ridgely",
+          "Martha Vickers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Hawks",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Private Detective Philip Marlowe is hired by a rich family. Before the complex case is over, he's seen murder, blackmail, and what might be love.",
+        "release_date": "1946-08-23",
+        "release_year": "1946",
+        "title": "Big Sleep, The"
+      }
+    ],
+    "raw_user_id": "3186",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 31
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.256670069948318
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for a Comedy film",
+        "Low rating for a Thriller film"
+      ],
+      "liked_patterns": [
+        "High ratings for Film-Noir films",
+        "Positive ratings for Comedy films",
+        "Strong appreciation for Drama and Thriller genres"
+      ],
+      "summary": "Unique tastes: Appreciation for Film-Noir (The user has rated multiple Film-Noir titles highly, indicating a strong preference for this genre.); Enjoyment of Comedy (The user has rated several comedies positively, suggesting a liking for humor in films.); Interest in Thrillers (The user has shown a preference for thrillers, as evidenced by high ratings for multiple films in this genre.); Fondness for Drama (The user has rated various drama films positively, indicating a strong appreciation for dramatic storytelling.); Affinity for Sci-Fi (The user has rated several Sci-Fi films highly, showing a clear interest in speculative narratives.). Liked patterns: High ratings for Film-Noir films, Positive ratings for Comedy films, Strong appreciation for Drama and Thriller genres. Disliked patterns: Negative rating for a Comedy film, Low rating for a Thriller film.",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple Film-Noir titles highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Film-Noir"
+        },
+        {
+          "reason": "The user has rated several comedies positively, suggesting a liking for humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has shown a preference for thrillers, as evidenced by high ratings for multiple films in this genre.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user has rated various drama films positively, indicating a strong appreciation for dramatic storytelling.",
+          "taste": "Fondness for Drama"
+        },
+        {
+          "reason": "The user has rated several Sci-Fi films highly, showing a clear interest in speculative narratives.",
+          "taste": "Affinity for Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 3186
+  }
+}

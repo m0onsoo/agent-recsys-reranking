@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "3fb6945fa07eb43e681519c45b5cdc5e7f2e7db21421eb97f54e25ba73d77f97",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      647,
+      1566,
+      1296,
+      1546,
+      1285,
+      219,
+      2614,
+      5,
+      2284,
+      3113
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "bba964fdc4e94bfaad03e86b1f483a86"
+    ],
+    "sampled_item_ids": [
+      10,
+      34,
+      47,
+      58,
+      120,
+      156,
+      213,
+      238,
+      274,
+      540,
+      595,
+      610,
+      645,
+      647,
+      670,
+      679,
+      795,
+      798,
+      1042,
+      1119,
+      1129,
+      1150,
+      1474,
+      1571,
+      2245
+    ],
+    "seed": 42,
+    "source_hash": "b3ee19984d250ccbcf1309453e7f58c194f96927a516ffd385dad94f2f5b7e0e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 536,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Fugitives of the Federation for their daring rescue of Spock from the doomed Genesis Planet, Admiral Kirk (William Shatner) and his crew begin their journey home to face justice for their actions. But as they near Earth, they find it at the mercy of a mysterious alien presence whose signals are slowly destroying the planet. In a desperate attempt to answer the call of the probe, Kirk and his crew race back to the late twentieth century. However they soon find the world they once knew to be more alien than anything they've encountered in the far reaches of the galaxy!",
+        "release_date": "1986-11-25",
+        "release_year": "1986",
+        "title": "Star Trek IV: The Voyage Home"
+      },
+      {
+        "cast": [
+          "Adrian Pasdar",
+          "Jenny Wright",
+          "Lance Henriksen",
+          "Bill Paxton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kathryn Bigelow",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A mid-western farm boy reluctantly becomes a member of the undead when a girl he meets turns out to be part of a band of southern vampires who roam the highways in stolen cars.",
+        "release_date": "1987-10-02",
+        "release_year": "1987",
+        "title": "Near Dark"
+      },
+      {
+        "cast": [
+          "Christopher Walken",
+          "Brooke Adams",
+          "Tom Skerritt",
+          "Martin Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Johnny Smith is a schoolteacher with his whole life ahead of him but, after leaving his fiancee's home one night, is involved in a car crash which leaves him in a coma for 5 years. When he wakes, he discovers he has an ability to see into the past, present and future life of anyone with whom he comes into physical contact.",
+        "release_date": "1983-10-21",
+        "release_year": "1983",
+        "title": "Dead Zone, The"
+      },
+      {
+        "cast": [
+          "Sam Waterston",
+          "Haing S. Ngor",
+          "Craig T. Nelson",
+          "John Malkovich"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Roland Joffé",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The Killing Fields tells the real life story of a friendship between two journalists, an American and a Cambodian, during the bloody Khmer Rouge takeover of Cambodia in 1975, which lead to the death of 2-3 million Cambodians during the next four years, until Pol Pot's regime was toppled by the intervening Vietnamese in 1979.",
+        "release_date": "1984-11-02",
+        "release_year": "1984",
+        "title": "Killing Fields, The"
+      },
+      {
+        "cast": [
+          "Chow Yun-fat",
+          "Danny Lee Sau-Yin",
+          "Sally Yeh",
+          "Paul Chu Kong"
+        ],
+        "country": [
+          "Hong Kong"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "Mob assassin Jeffrey is no ordinary hired gun; the best in his business, he views his chosen profession as a calling rather than simply a job. So, when beautiful nightclub chanteuse Jennie is blinded in the crossfire of his most recent hit, Jeffrey chooses to retire after one last job to pay for his unintended victim's sight-restoring operation. But when Jeffrey is double-crossed, he reluctantly joins forces with a rogue policeman to make things right.",
+        "release_date": "1989-07-06",
+        "release_year": "1989",
+        "title": "Killer, The (Die xue shuang xiong)"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Christopher Lloyd",
+          "Joanna Cassidy",
+          "Charles Fleischer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "'Toon star Roger is worried that his wife Jessica is playing pattycake with someone else, so the studio hires detective Eddie Valiant to snoop on her. But the stakes are quickly raised when Marvin Acme is found dead and Roger is the prime suspect.",
+        "release_date": "1988-06-21",
+        "release_year": "1988",
+        "title": "Who Framed Roger Rabbit?"
+      },
+      {
+        "cast": [
+          "Denis Leary",
+          "Joseph Cross",
+          "Rosie O'Donnell",
+          "Dana Delany"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A feel-good comedy about the laughter, excitement and fun that come with being a kid! Joshua is a thoughtful 10-year-old looking for some simple answers to life's eternal questions. The problem is that no one - including his concerned parents and his 5th grade teacher - seems to be making any sense!",
+        "release_date": "1998-03-20",
+        "release_year": "1998",
+        "title": "Wide Awake"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Julia Louis-Dreyfus",
+          "Hayden Panettiere",
+          "Phyllis Diller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+        "release_date": "1998-11-25",
+        "release_year": "1998",
+        "title": "Bug's Life, A"
+      },
+      {
+        "cast": [
+          "Barrie Ingham",
+          "Val Bettin",
+          "Vincent Price",
+          "Susanne Pollatschek"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Clements",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "When the diabolical Professor Ratigan kidnaps London's master toymaker, the brilliant master of disguise Basil of Baker Street and his trusted sidekick Dawson try to elude the ultimate trap and foil the perfect crime.",
+        "release_date": "1986-07-02",
+        "release_year": "1986",
+        "title": "Great Mouse Detective, The"
+      },
+      {
+        "cast": [
+          "Charles Bronson",
+          "Jill Ireland",
+          "Stephen Elliott",
+          "Jan Gan Boyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter R. Hunt",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Jay Killon is the bodyguard of the recently elected US president, but he is assigned to the first lady (Lara Royce). Lara hates Killon so she does all she can to escape. The story complicates when someone tries to kill Lara.",
+        "release_date": "1987-01-09",
+        "release_year": "1987",
+        "title": "Assassination"
+      }
+    ],
+    "raw_user_id": "536",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 168
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0993308106910955
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for traditional horror films"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films and musicals",
+        "Strong preference for action and adventure films",
+        "Positive ratings for horror-comedy films"
+      ],
+      "summary": "Unique tastes: Musicals and Animation (The user enjoys animated films and musicals, often rated highly, indicating a preference for family-friendly and imaginative storytelling.); Action and Adventure (The user shows a strong preference for action and adventure genres, frequently rating these films highly, suggesting an appreciation for excitement and dynamic narratives.); Horror with Humor (The user enjoys horror films that incorporate comedic elements, as evidenced by high ratings for horror-comedy hybrids.); Drama with Crime Elements (The user appreciates dramas that involve crime, often rating them positively, indicating a taste for complex narratives and character development.); Sci-Fi and Fantasy (The user rates science fiction and fantasy films highly, suggesting a fondness for imaginative worlds and speculative storytelling.). Liked patterns: High ratings for animated films and musicals, Strong preference for action and adventure films, Positive ratings for horror-comedy films. Disliked patterns: Negative ratings for traditional horror films.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films and musicals, often rated highly, indicating a preference for family-friendly and imaginative storytelling.",
+          "taste": "Musicals and Animation"
+        },
+        {
+          "reason": "The user shows a strong preference for action and adventure genres, frequently rating these films highly, suggesting an appreciation for excitement and dynamic narratives.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user enjoys horror films that incorporate comedic elements, as evidenced by high ratings for horror-comedy hybrids.",
+          "taste": "Horror with Humor"
+        },
+        {
+          "reason": "The user appreciates dramas that involve crime, often rating them positively, indicating a taste for complex narratives and character development.",
+          "taste": "Drama with Crime Elements"
+        },
+        {
+          "reason": "The user rates science fiction and fantasy films highly, suggesting a fondness for imaginative worlds and speculative storytelling.",
+          "taste": "Sci-Fi and Fantasy"
+        }
+      ]
+    },
+    "user_id": 536
+  }
+}

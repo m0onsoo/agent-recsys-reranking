@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "b4b40d261a5fa8e114b4c0c09a81ed232107f632e3ae776596a086706434c404",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      560,
+      95,
+      720,
+      23,
+      245,
+      21,
+      829,
+      871,
+      439,
+      418
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7d5333716ee34cdea933b87d43d7b743"
+    ],
+    "sampled_item_ids": [
+      3,
+      90,
+      102,
+      106,
+      149,
+      178,
+      379,
+      382,
+      383,
+      391,
+      507,
+      573,
+      577,
+      626,
+      724,
+      730,
+      815,
+      876,
+      882,
+      946,
+      951,
+      1211,
+      1651,
+      1707,
+      2270
+    ],
+    "seed": 42,
+    "source_hash": "2a0b2061ee5f37683dad622a4a809176c2a9190a2116c6af4b87591240a75951",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 727,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Faye Dunaway",
+          "John Huston",
+          "Perry Lopez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Private eye Jake Gittes lives off the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband's extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and political scandals that come crashing together.",
+        "release_date": "1974-06-20",
+        "release_year": "1974",
+        "title": "Chinatown"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Kris Kristofferson",
+          "Gregg Henry",
+          "Maria Bello"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian Helgeland",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "With friends like these, who needs enemies? That's the question bad guy Porter is left asking after his wife and partner steal his heist money and leave him for dead -- or so they think. Five months and an endless reservoir of bitterness later, Porter's partners and the crooked cops on his tail learn how bad payback can be.",
+        "release_date": "1999-02-05",
+        "release_year": "1999",
+        "title": "Payback"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Katharine Hepburn",
+          "Robert Morley",
+          "Peter Bull"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the start of the first World War, in the middle of Africa’s nowhere, a gin soaked riverboat captain is persuaded by a strong-willed missionary to go down river and face-off a German warship.",
+        "release_date": "1951-12-03",
+        "release_year": "1951",
+        "title": "African Queen, The"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "Tobey Maguire",
+          "Reese Witherspoon",
+          "William H. Macy",
+          "Joan Allen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Ross",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Geeky teenager David and his popular twin sister, Jennifer, get sucked into the black-and-white world of a 1950s TV sitcom called \"Pleasantville,\" and find a world where everything is peachy keen all the time. But when Jennifer's modern attitude disrupts Pleasantville's peaceful but boring routine, she literally brings color into its life.",
+        "release_date": "1998-09-17",
+        "release_year": "1998",
+        "title": "Pleasantville"
+      },
+      {
+        "cast": [
+          "Uma Thurman",
+          "Janeane Garofalo",
+          "Ben Chaplin",
+          "James McCaffrey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Lehmann",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A successful veterinarian and radio show host with low self-esteem asks her model friend to impersonate her when a handsome man wants to see her.",
+        "release_date": "1996-04-26",
+        "release_year": "1996",
+        "title": "Truth About Cats & Dogs, The"
+      },
+      {
+        "cast": [
+          "Freddie Prinze Jr.",
+          "Rachael Leigh Cook",
+          "Matthew Lillard",
+          "Paul Walker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Iscove",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "High school hotshot Zach Siler is the envy of his peers. But his popularity declines sharply when his cheerleader girlfriend, Taylor, leaves him for sleazy reality-television star Brock Hudson. Desperate to revive his fading reputation, Siler agrees to a seemingly impossible challenge. He has six weeks to gain the trust of nerdy outcast Laney Boggs -- and help her to become the school's next prom queen.",
+        "release_date": "1999-01-29",
+        "release_year": "1999",
+        "title": "She's All That"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Laura Linney",
+          "Noah Emmerich",
+          "Natascha McElhone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Truman Burbank is the star of \"The Truman Show\", a 24-hour-a-day \"reality\" TV show that broadcasts every aspect of his life -- live and in color -- without his knowledge. His entire life has been an unending soap opera for consumption by the rest of the world. And everyone he knows -- including his wife and his best friend -- is really an actor, paid to be part of his life.",
+        "release_date": "1998-06-04",
+        "release_year": "1998",
+        "title": "Truman Show, The"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Emma Thompson",
+          "Hugh Grant",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ang Lee",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Rich Mr. Dashwood dies, leaving his second wife and her daughters poor by the rules of inheritance. Two daughters are the titular opposites.",
+        "release_date": "1995-12-13",
+        "release_year": "1995",
+        "title": "Sense and Sensibility"
+      }
+    ],
+    "raw_user_id": "727",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 201
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8886690464782706
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for certain drama films that lack humor or light-heartedness, as indicated by lower ratings.",
+        "Negative reception of romantic comedies that do not resonate, showing a selective taste within the genre."
+      ],
+      "liked_patterns": [
+        "Strong preference for romantic comedies and dramas with positive ratings across multiple titles.",
+        "High ratings for films that combine humor with romance, indicating a specific enjoyment of this genre blend.",
+        "Positive reception of musicals and family-friendly films, suggesting a taste for uplifting and entertaining narratives."
+      ],
+      "summary": "Unique tastes: Appreciation for Romantic Comedies (The user enjoys light-hearted narratives that blend romance with humor, as seen in multiple high-rated films.); Interest in Dramatic Storytelling (The user rates several drama films highly, indicating a preference for deep, emotional narratives.); Enjoyment of Musicals (The user has rated musical films positively, suggesting a fondness for music-driven storytelling.); Affinity for Family-Friendly Content (The user appreciates films that are suitable for all ages, as indicated by positive ratings for children's and family-oriented genres.); Tendency to Enjoy Comedic Elements (The user frequently rates comedies positively, indicating a strong preference for humor in films.). Liked patterns: Strong preference for romantic comedies and dramas with positive ratings across multiple titles., High ratings for films that combine humor with romance, indicating a specific enjoyment of this genre blend., Positive reception of musicals and family-friendly films, suggesting a taste for uplifting and entertaining narratives.. Disliked patterns: Dislike for certain drama films that lack humor or light-heartedness, as indicated by lower ratings., Negative reception of romantic comedies that do not resonate, showing a selective taste within the genre..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted narratives that blend romance with humor, as seen in multiple high-rated films.",
+          "taste": "Appreciation for Romantic Comedies"
+        },
+        {
+          "reason": "The user rates several drama films highly, indicating a preference for deep, emotional narratives.",
+          "taste": "Interest in Dramatic Storytelling"
+        },
+        {
+          "reason": "The user has rated musical films positively, suggesting a fondness for music-driven storytelling.",
+          "taste": "Enjoyment of Musicals"
+        },
+        {
+          "reason": "The user appreciates films that are suitable for all ages, as indicated by positive ratings for children's and family-oriented genres.",
+          "taste": "Affinity for Family-Friendly Content"
+        },
+        {
+          "reason": "The user frequently rates comedies positively, indicating a strong preference for humor in films.",
+          "taste": "Tendency to Enjoy Comedic Elements"
+        }
+      ]
+    },
+    "user_id": 727
+  }
+}

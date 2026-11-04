@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "0a31eadbe7f430bea9bc84f2d0ccc55be6d07f355eb28201fc3aaf2d38ce4fa0",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1211,
+      124,
+      275,
+      1402,
+      128,
+      1006,
+      1397,
+      38,
+      734,
+      930
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "6756e294999844408cdf363e4a73f016"
+    ],
+    "sampled_item_ids": [
+      120,
+      175,
+      176,
+      200,
+      275,
+      285,
+      401,
+      436,
+      565,
+      658,
+      662,
+      712,
+      725,
+      777,
+      841,
+      843,
+      904,
+      942,
+      1047,
+      1332,
+      1353,
+      1380,
+      1902,
+      2300,
+      2372
+    ],
+    "seed": 42,
+    "source_hash": "3e8140c02734aae8c5621762d6bf9e48efd8259d3335c0e171c2b88b97ac3b99",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 343,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sean Penn",
+          "Jennifer Jason Leigh",
+          "Judge Reinhold",
+          "Phoebe Cates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Amy Heckerling",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Follows a group of high school students growing up in southern California, based on the real-life adventures chronicled by Cameron Crowe. Stacy Hamilton and Mark Ratner are looking for a love interest, and are helped along by their older classmates, Linda Barrett and Mike Damone, respectively. The center of the film is held by Jeff Spicoli, a perpetually stoned surfer dude who faces off with the resolute Mr. Hand, who is convinced that everyone is on dope.",
+        "release_date": "1982-08-13",
+        "release_year": "1982",
+        "title": "Fast Times at Ridgemont High"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Mary McDonnell",
+          "Graham Greene",
+          "Rodney A. Grant"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kevin Costner",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Wounded Civil War soldier, John Dunbar tries to commit suicide – and becomes a hero instead. As a reward, he's assigned to his dream post, a remote junction on the Western frontier, and soon makes unlikely friends with the local Sioux tribe.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Dances with Wolves"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Maura Tierney",
+          "Cary Elwes",
+          "Jennifer Tilly"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom Shadyac",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Fletcher Reede is a fast-talking attorney and habitual liar. When his son Max blows out the candles on his fifth birthday he has just one wish - that his dad will stop lying for 24 hours. When Max's wish comes true, Fletcher discovers that his mouth has suddenly become his biggest liability.",
+        "release_date": "1997-03-21",
+        "release_year": "1997",
+        "title": "Liar Liar"
+      },
+      {
+        "cast": [
+          "Jason James Richter",
+          "Lori Petty",
+          "August Schellenberg",
+          "Michael Madsen"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Simon Wincer",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When maladjusted orphan Jesse vandalizes a theme park, he is placed with foster parents and must work at the park to make amends. There he meets Willy, a young Orca whale who has been separated from his family. Sensing kinship, they form a bond and, with the help of kindly whale trainer Rae Lindley, develop a routine of tricks. However, greedy park owner Dial soon catches wind of the duo and makes plans to profit from them.",
+        "release_date": "1993-07-16",
+        "release_year": "1993",
+        "title": "Free Willy"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Jeff Goldblum",
+          "Geena Davis",
+          "John Getz",
+          "Joy Boushel"
+        ],
+        "country": [
+          "Canada",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When Seth Brundle makes a huge scientific and technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.",
+        "release_date": "1986-08-15",
+        "release_year": "1986",
+        "title": "Fly, The"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Jason Patric",
+          "Willem Dafoe",
+          "Temuera Morrison"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sandra Bullock and Jason Patric star as a young couple whose dream cruise turns to terror when a lunatic computer genius (Willem Dafoe) sets a new course for destruction.",
+        "release_date": "1997-06-13",
+        "release_year": "1997",
+        "title": "Speed 2: Cruise Control"
+      },
+      {
+        "cast": [
+          "Ilene Woods",
+          "Eleanor Audley",
+          "Lucille Bliss",
+          "Verna Felton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Cinderella has faith her dreams of a better life will come true. With help from her loyal mice friends and a wave of her Fairy Godmother's wand, Cinderella's rags are magically turned into a glorious gown and off she goes to the Royal Ball. But when the clock strikes midnight, the spell is broken, leaving a single glass slipper... the only key to the ultimate fairy-tale ending!",
+        "release_date": "1950-03-04",
+        "release_year": "1950",
+        "title": "Cinderella"
+      },
+      {
+        "cast": [
+          "Tim Allen",
+          "Sigourney Weaver",
+          "Alan Rickman",
+          "Tony Shalhoub"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Dean Parisot",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.",
+        "release_date": "1999-12-23",
+        "release_year": "1999",
+        "title": "Galaxy Quest"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Kevin Kline",
+          "Kenneth Branagh",
+          "Salma Hayek"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Legless Southern inventor Dr. Arliss Loveless plans to rekindle the Civil War by assassinating President U.S. Grant. Only two men can stop him: gunfighter James West and master-of-disguise and inventor Artemus Gordon. The two must team up to thwart Loveless' plans.",
+        "release_date": "1999-06-29",
+        "release_year": "1999",
+        "title": "Wild Wild West"
+      }
+    ],
+    "raw_user_id": "343",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 239
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.2502030170571923
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for horror films",
+        "Dislike for certain comedies that did not resonate",
+        "Low ratings for films with weak narratives or execution"
+      ],
+      "liked_patterns": [
+        "High ratings for comedies and romantic comedies",
+        "Positive reception of action and adventure films",
+        "Strong appreciation for dramas with emotional depth"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys comedies, as evidenced by multiple high ratings for films in this genre.); Interest in Drama (The user rates several dramas highly, indicating a preference for emotional and character-driven narratives.); Fondness for Action and Adventure (The user shows a liking for action and adventure films, reflected in positive ratings for several titles in these genres.); Enjoyment of Sci-Fi Themes (The user has rated multiple sci-fi films positively, suggesting an interest in speculative and futuristic narratives.); Preference for Romantic Elements (The user appreciates films that incorporate romance, as seen in the ratings for romantic comedies and dramas.). Liked patterns: High ratings for comedies and romantic comedies, Positive reception of action and adventure films, Strong appreciation for dramas with emotional depth. Disliked patterns: Negative ratings for horror films, Dislike for certain comedies that did not resonate, Low ratings for films with weak narratives or execution.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys comedies, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several dramas highly, indicating a preference for emotional and character-driven narratives.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user shows a liking for action and adventure films, reflected in positive ratings for several titles in these genres.",
+          "taste": "Fondness for Action and Adventure"
+        },
+        {
+          "reason": "The user has rated multiple sci-fi films positively, suggesting an interest in speculative and futuristic narratives.",
+          "taste": "Enjoyment of Sci-Fi Themes"
+        },
+        {
+          "reason": "The user appreciates films that incorporate romance, as seen in the ratings for romantic comedies and dramas.",
+          "taste": "Preference for Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 343
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "076ea06990d9be6f86e0089e574bd001041d89579ecd398da06822161f0ff67a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      662,
+      52,
+      188,
+      683,
+      218,
+      2281,
+      1155,
+      1094,
+      1475,
+      965
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "23ac5947427d419db3cf92e1ba4ccbab"
+    ],
+    "sampled_item_ids": [
+      20,
+      94,
+      99,
+      121,
+      152,
+      168,
+      188,
+      238,
+      407,
+      556,
+      616,
+      657,
+      662,
+      712,
+      738,
+      749,
+      854,
+      910,
+      1000,
+      1023,
+      1027,
+      1120,
+      1178,
+      1479,
+      1991
+    ],
+    "seed": 42,
+    "source_hash": "144b3f032697925bbab59b78f793bf5b4d840e7b2ecf0a44a717d52a5f248a3e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2599,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Dennis Quaid",
+          "David Thewlis",
+          "Pete Postlethwaite",
+          "Dina Meyer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Cohen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "In an ancient time when majestic fire-breathers soared through the skies, a knight named Bowen comes face to face and heart to heart with the last dragon on Earth, Draco. Taking up arms to suppress a tyrant king, Bowen soon realizes his task will be harder than he'd imagined: If he kills the king, Draco will die as well.",
+        "release_date": "1996-05-31",
+        "release_year": "1996",
+        "title": "Dragonheart"
+      },
+      {
+        "cast": [
+          "Kathryn Beaumont",
+          "Verna Felton",
+          "Ed Wynn",
+          "Richard Haydn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hamilton Luske",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "On a golden afternoon, young Alice follows a White Rabbit, who disappears down a nearby rabbit hole. Quickly following him, she tumbles into the burrow - and enters the merry, topsy-turvy world of Wonderland! Memorable songs and whimsical escapades highlight Alice's journey, which culminates in a madcap encounter with the Queen of Hearts - and her army of playing cards!",
+        "release_date": "1951-07-03",
+        "release_year": "1951",
+        "title": "Alice in Wonderland"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Walt Disney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Walt Disney",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Mickey Mouse, piloting a steamboat, delights his passenger, Minnie, by making musical instruments out of the menagerie on deck.",
+        "release_date": "1928-11-18",
+        "release_year": "1940",
+        "title": "Steamboat Willie"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Ursula Andress",
+          "Joseph Wiseman",
+          "Jack Lord"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terence Young",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "In the film that launched the James Bond saga, Agent 007 battles mysterious Dr. No, a scientific genius bent on destroying the U.S. space program. As the countdown to disaster begins, Bond must go to Jamaica, where he encounters beautiful Honey Ryder, to confront a megalomaniacal villain in his massive island headquarters.",
+        "release_date": "1962-10-04",
+        "release_year": "1962",
+        "title": "Dr. No"
+      },
+      {
+        "cast": [
+          "Phil Harris",
+          "Sterling Holloway",
+          "Scatman Crothers",
+          "Eva Gabor"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Reitherman",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "When Madame Adelaide Bonfamille leaves her fortune to Duchess and her children -- Bonfamille's prize family of domesticated house cats -- the butler plots to steal the money and kidnaps the heirs, leaving them out on a country road. All seems lost until the wily Thomas O'Malley Cat and his jazz-playing alley cats come to the Aristocats's rescue.",
+        "release_date": "1970-12-23",
+        "release_year": "1970",
+        "title": "Aristocats, The"
+      },
+      {
+        "cast": [
+          "Akira Takarada",
+          "Momoko Kôchi",
+          "Akihiko Hirata",
+          "Takashi Shimura"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Ishirô Honda",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "Japanese",
+        "overview": "Japan is thrown into a panic after several ships explode and are sunk near Odo Island. An expedition to the island led by paleontologist Professor Kyohei Yemani soon discover something more devastating than imagined in the form of a 164 foot tall monster whom the natives call Gojira. Now the monster begins a rampage that threatens to destroy not only Japan, but the rest of the world as well.",
+        "release_date": "1954-11-03",
+        "release_year": "1954",
+        "title": "Godzilla (Gojira)"
+      },
+      {
+        "cast": [
+          "Kevin McCarthy",
+          "Dana Wynter",
+          "King Donovan",
+          "Carolyn Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Don Siegel",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.",
+        "release_date": "1956-02-05",
+        "release_year": "1956",
+        "title": "Invasion of the Body Snatchers"
+      }
+    ],
+    "raw_user_id": "2599",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 185
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6760128883298289
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that fail to deliver engaging plots or character development",
+        "Dislike for horror films that do not resonate with their taste",
+        "Dislike for animated films that do not align with their preferred themes"
+      ],
+      "liked_patterns": [
+        "Preference for action-packed films with strong narratives",
+        "Enjoyment of films that blend genres, such as action-comedy and action-drama",
+        "Appreciation for films that feature imaginative worlds and adventures"
+      ],
+      "summary": "Unique tastes: Action and Thriller (The user enjoys high-stakes narratives with suspenseful elements, as seen in multiple action and thriller films.); Fantasy and Adventure (The user appreciates imaginative storytelling and adventurous plots, evident in their ratings for fantasy and adventure genres.); Drama with Depth (The user favors dramas that explore complex themes and character development, reflected in their ratings for dramatic films.); Comedy with a Twist (The user enjoys comedies that incorporate unique or unexpected elements, as shown in their ratings for comedic films.); Sci-Fi Exploration (The user is drawn to science fiction that explores futuristic concepts and existential themes, indicated by their ratings in this genre.). Liked patterns: Preference for action-packed films with strong narratives, Enjoyment of films that blend genres, such as action-comedy and action-drama, Appreciation for films that feature imaginative worlds and adventures. Disliked patterns: Dislike for films that fail to deliver engaging plots or character development, Dislike for horror films that do not resonate with their taste, Dislike for animated films that do not align with their preferred themes.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-stakes narratives with suspenseful elements, as seen in multiple action and thriller films.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "The user appreciates imaginative storytelling and adventurous plots, evident in their ratings for fantasy and adventure genres.",
+          "taste": "Fantasy and Adventure"
+        },
+        {
+          "reason": "The user favors dramas that explore complex themes and character development, reflected in their ratings for dramatic films.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "The user enjoys comedies that incorporate unique or unexpected elements, as shown in their ratings for comedic films.",
+          "taste": "Comedy with a Twist"
+        },
+        {
+          "reason": "The user is drawn to science fiction that explores futuristic concepts and existential themes, indicated by their ratings in this genre.",
+          "taste": "Sci-Fi Exploration"
+        }
+      ]
+    },
+    "user_id": 2599
+  }
+}

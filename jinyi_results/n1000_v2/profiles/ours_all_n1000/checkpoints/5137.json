@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "1189ee104ab7947dcbe2897246a1e2905223983e2004c6b25a1f340d9a02915b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      351,
+      2643,
+      1982,
+      1156,
+      2114,
+      1410,
+      1119,
+      86,
+      2315,
+      1154
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      28,
+      113,
+      135,
+      146,
+      910,
+      915,
+      932,
+      975,
+      1028,
+      1068,
+      1102,
+      1171,
+      1270,
+      1309,
+      1317,
+      1630,
+      1784,
+      1893,
+      1944,
+      1980,
+      2156,
+      2174,
+      2254,
+      2429,
+      2732
+    ],
+    "seed": 42,
+    "source_hash": "77318d1141e74a1b68742863e7ce9a57e8dd8c835c66d86793e013019c0dd2f4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5137,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "tradesman/craftsman"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jason Schwartzman",
+          "Olivia Williams",
+          "Bill Murray",
+          "Seymour Cassel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Anderson",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a beautiful first-grade teacher arrives at a prep school, she soon attracts the attention of an ambitious teenager named Max, who quickly falls in love with her. Max turns to the father of two of his schoolmates for advice on how to woo the teacher. However, the situation soon gets complicated when Max's new friend becomes involved with her, setting the two pals against one another in a war for her attention.",
+        "release_date": "1998-09-17",
+        "release_year": "1998",
+        "title": "Rushmore"
+      },
+      {
+        "cast": [
+          "Brian Krause",
+          "Mädchen Amick",
+          "Alice Krige",
+          "Jim Haynie"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mick Garris",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A mother-and-son team of strange supernatural creatures come to town to seek out a virgin to feed on.",
+        "release_date": "1992-04-10",
+        "release_year": "1992",
+        "title": "Sleepwalkers"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Christopher Plummer",
+          "James Spader",
+          "Michelle Pfeiffer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Publisher Will Randall becomes a werewolf and has to fight to keep his job.",
+        "release_date": "1994-06-17",
+        "release_year": "1994",
+        "title": "Wolf"
+      },
+      {
+        "cast": [
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Sarah Michelle Gellar"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two years after the terrifying events that occurred in Woodsboro, Sidney is now attending Windsor College in Cincinnati, and Gale Weathers' best selling book on Sidney's life has now been made into a major motion picture. When two college students are killed in a theatre while watching the new film 'Stab', Sidney knows deep down that history is repeating itself.",
+        "release_date": "1997-12-09",
+        "release_year": "1997",
+        "title": "Scream 2"
+      },
+      {
+        "cast": [
+          "Richard Roundtree",
+          "Moses Gunn",
+          "Charles Cioffi",
+          "Christopher St. John"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gordon Parks",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Cool black private eye John Shaft is hired by a crime lord to find and retrieve his kidnapped daughter.",
+        "release_date": "1971-07-02",
+        "release_year": "1971",
+        "title": "Shaft"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Sally Field",
+          "Ralph Waite",
+          "Robert Hays"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "David R. Ellis",
+        "genres": [
+          "Adventure",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "Your favorite talking animals are back! The film focuses on the further adventures of Shadow (voiced by Ralph Waite), Sassy (voiced by Sally Field), and Chance (voiced by Michael J. Fox). Shadow is the old, wise one and presumably the leader of the three. Sassy is the smart-aleck of the bunch, but helpful in times as well. Chance is the young, anxious one who usually gets into trouble and relies o",
+        "release_date": "1996-03-08",
+        "release_year": "1996",
+        "title": "Homeward Bound II: Lost in San Francisco"
+      },
+      {
+        "cast": [
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Matthew Lillard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A killer known as Ghostface begins killing off teenagers, and as the body count begins rising, one girl and her friends find themselves contemplating the 'rules' of horror films as they find themselves living in a real-life one.",
+        "release_date": "1996-12-20",
+        "release_year": "1996",
+        "title": "Scream"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Michael Clarke Duncan",
+          "David Morse",
+          "Bonnie Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cellblock's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Green Mile, The"
+      },
+      {
+        "cast": [
+          "Kevin Bacon",
+          "John Lithgow",
+          "Dianne Wiest",
+          "Chris Penn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Herbert Ross",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When teenager Ren and his family move from big-city Chicago to a small town in the West, he's in for a real case of culture shock.",
+        "release_date": "1984-02-17",
+        "release_year": "1984",
+        "title": "Footloose"
+      },
+      {
+        "cast": [
+          "Zach Galligan",
+          "Phoebe Cates",
+          "John Glover",
+          "Robert Prosky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Dante",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Young sweethearts Billy and Kate move to the Big Apple, land jobs in a high-tech office park and soon reunite with the friendly and lovable Gizmo. But a series of accidents creates a whole new generation of Gremlins. The situation worsens when the devilish green creatures invade a top-secret laboratory and develop genetically altered powers, making them even harder to destroy!",
+        "release_date": "1990-06-15",
+        "release_year": "1990",
+        "title": "Gremlins 2: The New Batch"
+      }
+    ],
+    "raw_user_id": "5137",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 94
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.591413753554729
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for war-themed action films",
+        "Negative response to certain comedies",
+        "Dislike for films with low engagement or poor execution"
+      ],
+      "liked_patterns": [
+        "Strong preference for horror and thriller films",
+        "Enjoyment of comedies with a mix of other genres",
+        "Positive ratings for animated and children's films"
+      ],
+      "summary": "Unique tastes: Appreciation for Horror and Thriller (The user has rated multiple horror and thriller films positively, indicating a strong preference for suspenseful and chilling narratives.); Enjoyment of Comedy (Several comedies received high ratings, suggesting that the user enjoys humor and light-hearted storytelling.); Interest in Animation and Children's Films (The user has rated animated films highly, showing a fondness for family-friendly and imaginative content.); Affinity for Action and Adventure (The user has shown a liking for action and adventure genres, as evidenced by positive ratings for films in these categories.); Preference for Drama with Dark Themes (The user has rated dramas that incorporate darker themes or elements positively, indicating an appreciation for complex emotional narratives.). Liked patterns: Strong preference for horror and thriller films, Enjoyment of comedies with a mix of other genres, Positive ratings for animated and children's films. Disliked patterns: Dislike for war-themed action films, Negative response to certain comedies, Dislike for films with low engagement or poor execution.",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple horror and thriller films positively, indicating a strong preference for suspenseful and chilling narratives.",
+          "taste": "Appreciation for Horror and Thriller"
+        },
+        {
+          "reason": "Several comedies received high ratings, suggesting that the user enjoys humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user has rated animated films highly, showing a fondness for family-friendly and imaginative content.",
+          "taste": "Interest in Animation and Children's Films"
+        },
+        {
+          "reason": "The user has shown a liking for action and adventure genres, as evidenced by positive ratings for films in these categories.",
+          "taste": "Affinity for Action and Adventure"
+        },
+        {
+          "reason": "The user has rated dramas that incorporate darker themes or elements positively, indicating an appreciation for complex emotional narratives.",
+          "taste": "Preference for Drama with Dark Themes"
+        }
+      ]
+    },
+    "user_id": 5137
+  }
+}

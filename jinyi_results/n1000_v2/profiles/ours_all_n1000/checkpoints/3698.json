@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "38494f369662d4aa2e51cda5b2a508aaba6a2770f23a97e6396c183ccd85b930",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1254,
+      328,
+      1015,
+      1559,
+      1163,
+      936,
+      346,
+      920,
+      623,
+      932
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "1a27008fa0124408991f444c5809703a"
+    ],
+    "sampled_item_ids": [
+      5,
+      61,
+      114,
+      232,
+      264,
+      274,
+      279,
+      351,
+      364,
+      425,
+      513,
+      623,
+      643,
+      734,
+      759,
+      789,
+      801,
+      909,
+      930,
+      933,
+      1167,
+      1457,
+      1940,
+      2034,
+      2309
+    ],
+    "seed": 42,
+    "source_hash": "e58f2e5731a331a631ab257aaffb64aacb0e368316d43e51f2f69d5af68c0d37",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3698,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "James Stewart",
+          "Kim Novak",
+          "Barbara Bel Geddes",
+          "Tom Helmore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+        "release_date": "1958-05-09",
+        "release_year": "1958",
+        "title": "Vertigo"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Gabriel Byrne",
+          "Kevin Pollak",
+          "Robin Tunney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "On December 28th, 1999, the citizens of New York City are getting ready for the turn of the millennium. However, the Devil decides to crash the party by coming to the city, inhabiting a man's body, and searching for his chosen bride, a 20-year-old woman named Christine York. The world will end, and the only hope lies within an atheist called Jericho Cane.",
+        "release_date": "1999-11-24",
+        "release_year": "1999",
+        "title": "End of Days"
+      },
+      {
+        "cast": [
+          "Rufus Sewell",
+          "William Hurt",
+          "Kiefer Sutherland",
+          "Jennifer Connelly"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "release_date": "1998-02-27",
+        "release_year": "1998",
+        "title": "Dark City"
+      },
+      {
+        "cast": [
+          "Nicole Kidman",
+          "Sam Neill",
+          "Billy Zane",
+          "George Shevtsov"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An Australian couple take a sailing trip in the Pacific to forget about a terrible accident. While on the open sea, in dead calm, they come across a ship with one survivor who is not at all what he seems.",
+        "release_date": "1989-04-07",
+        "release_year": "1989",
+        "title": "Dead Calm"
+      },
+      {
+        "cast": [
+          "David Arquette",
+          "Neve Campbell",
+          "Courteney Cox",
+          "Patrick Dempsey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A murdering spree begins to happen again, this time its targeted toward the original Woodsboro survivors and those associated with the movie inside a movie, 'Stab 3'. Sydney must face the demons of her past to stop the killer.",
+        "release_date": "2000-02-03",
+        "release_year": "2000",
+        "title": "Scream 3"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Rupert Everett",
+          "Joely Fisher",
+          "Michelle Trachtenberg"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Kellogg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "John Brown is a bumbling but well-intentioned security guard who is badly injured in an explosion planned by an evil mastermind. He is taken to a laboratory, where Brenda, a leading robotics surgeon, replaces his damaged limbs with state-of-the-art gadgets and tools. Named \"Inspector Gadget\" by the press, John -- along with his niece, Penny, and her trusty dog, Brain -- uses his new powers to discover who was behind the explosion.",
+        "release_date": "1999-07-23",
+        "release_year": "1999",
+        "title": "Inspector Gadget"
+      },
+      {
+        "cast": [
+          "Brenda Blethyn",
+          "Michael Caine",
+          "Ewan McGregor",
+          "Jane Horrocks"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mark Herman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After the death of her father, Little Voice or LV becomes a virtual recluse, never going out and hardly ever saying a word. She just sits in her bedroom listening to her father's collection of old records of Shirley Bassey, Marilyn Monroe and various other famous female singers. But at night time, LV sings, imitating these great singers with surprising accuracy. One night she is overheard by one of her mother's boyfriends, who happens to be a talent agent. He manages to convince her that her talent is special and arranges for her to perform at the local night club, but several problems arise.",
+        "release_date": "1998-11-05",
+        "release_year": "1998",
+        "title": "Little Voice"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Catherine Zeta-Jones",
+          "Will Patton",
+          "Maury Chaykin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two thieves, who travel in elegant circles, try to outsmart each other and, in the process, end up falling in love.",
+        "release_date": "1999-04-29",
+        "release_year": "1999",
+        "title": "Entrapment"
+      },
+      {
+        "cast": [
+          "Barret Oliver",
+          "Gerald McRaney",
+          "Noah Hathaway",
+          "Drum Garrett"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "While hiding from bullies in his school's attic, a young boy discovers the extraordinary land of Fantasia, through a magical book called The Neverending Story. The book tells the tale of Atreyu, a young warrior who, with the help of a luck dragon named Falkor, must save Fantasia from the destruction of The Nothing.",
+        "release_date": "1984-04-05",
+        "release_year": "1984",
+        "title": "NeverEnding Story, The"
+      },
+      {
+        "cast": [
+          "Bill Pullman",
+          "Bridget Fonda",
+          "Oliver Platt",
+          "Brendan Gleeson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steve Miner",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a man is eaten alive by an unknown creature, the local Game Warden teams up with a paleontologist from New York to find the beast. Add to the mix an eccentric philanthropist with a penchant for \"Crocs\", and here we go! This quiet, remote lake is suddenly the focus of an intense search for a crocodile with a taste for live animals...and people!",
+        "release_date": "1999-07-15",
+        "release_year": "1999",
+        "title": "Lake Placid"
+      }
+    ],
+    "raw_user_id": "3698",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 93
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.7705220319691297
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly rated comedies",
+        "Negative response to horror films without comedic elements",
+        "Dislike for animated films that do not resonate"
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedy films with a mix of other genres",
+        "Positive reception of fantasy and adventure themes",
+        "Appreciation for character-driven dramas"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys comedic elements, as seen in multiple high-rated comedies.); Interest in Fantasy and Adventure (The user rates several fantasy and adventure films positively, indicating a preference for imaginative storytelling.); Enjoyment of Horror with Humor (The user shows a liking for horror-comedy films, suggesting a taste for blending genres.); Preference for Strong Characters in Drama (The user rates dramas highly, indicating an appreciation for character-driven narratives.); Affinity for Animation (The user has rated animated films positively, showing a preference for animated storytelling.). Liked patterns: Enjoyment of comedy films with a mix of other genres, Positive reception of fantasy and adventure themes, Appreciation for character-driven dramas. Disliked patterns: Dislike for poorly rated comedies, Negative response to horror films without comedic elements, Dislike for animated films that do not resonate.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys comedic elements, as seen in multiple high-rated comedies.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several fantasy and adventure films positively, indicating a preference for imaginative storytelling.",
+          "taste": "Interest in Fantasy and Adventure"
+        },
+        {
+          "reason": "The user shows a liking for horror-comedy films, suggesting a taste for blending genres.",
+          "taste": "Enjoyment of Horror with Humor"
+        },
+        {
+          "reason": "The user rates dramas highly, indicating an appreciation for character-driven narratives.",
+          "taste": "Preference for Strong Characters in Drama"
+        },
+        {
+          "reason": "The user has rated animated films positively, showing a preference for animated storytelling.",
+          "taste": "Affinity for Animation"
+        }
+      ]
+    },
+    "user_id": 3698
+  }
+}

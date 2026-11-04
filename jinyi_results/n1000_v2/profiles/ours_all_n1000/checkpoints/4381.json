@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "2db737f5ef3b285f68c8967d2fcb622dd53be7628efaf95d28b05361b5ee44a1",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      585,
+      256,
+      1369,
+      2136,
+      1952,
+      1314,
+      243,
+      100,
+      52,
+      190
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      79,
+      105,
+      184,
+      360,
+      387,
+      418,
+      425,
+      506,
+      538,
+      665,
+      909,
+      1001,
+      1062,
+      1081,
+      1158,
+      1314,
+      1663,
+      1708,
+      1842,
+      1987,
+      2137,
+      2151,
+      2156,
+      2233,
+      2429
+    ],
+    "seed": 42,
+    "source_hash": "e2e073fd7bb16b31a2154b5ab8372fec4fa01059867f7700d41a9cebeeccb836",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4381,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gary Oldman",
+          "Winona Ryder",
+          "Anthony Hopkins",
+          "Keanu Reeves"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Horror",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When Dracula leaves the captive Jonathan Harker and Transylvania for London in search of Mina Harker -- the spitting image of Dracula's long-dead wife, Elisabeta -- obsessed vampire hunter Dr. Van Helsing sets out to end the madness.",
+        "release_date": "1992-11-13",
+        "release_year": "1992",
+        "title": "Bram Stoker's Dracula"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Robert De Niro",
+          "Val Kilmer",
+          "Jon Voight"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Mann",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Obsessive master thief, Neil McCauley leads a top-notch crew on various insane heists throughout Los Angeles while a mentally unstable detective, Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
+        "release_date": "1995-12-15",
+        "release_year": "1995",
+        "title": "Heat"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Tommy Lee Jones",
+          "Mary-Louise Parker",
+          "Anthony LaPaglia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A street-wise kid, Mark Sway, sees the suicide of Jerome Clifford, a prominent Louisiana lawyer, whose current client is Barry 'The Blade' Muldano, a Mafia hit-man. Before Jerome shoots himself, he tells Mark where the body of a Senator is buried. Clifford shoots himself and Mark is found at the scene, and both the FBI and the Mafia quickly realize that Mark probably knows more than he says.",
+        "release_date": "1994-07-20",
+        "release_year": "1994",
+        "title": "Client, The"
+      },
+      {
+        "cast": [
+          "Matthew Lillard",
+          "Michael A. Goorjian",
+          "Annabeth Gish",
+          "Til Schweiger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Merendino",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two former geeks become 1980s punks, then party and go to concerts while deciding what to do with their lives.",
+        "release_date": "1998-09-24",
+        "release_year": "1998",
+        "title": "SLC Punk!"
+      },
+      {
+        "cast": [
+          "Christopher Walken",
+          "Elias Koteas",
+          "Virginia Madsen",
+          "Eric Stoltz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Widen",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "The angel Gabriel comes to Earth to collect a soul which will end the stalemated war in Heaven, and only a former priest and a little girl can stop him.",
+        "release_date": "1995-09-01",
+        "release_year": "1995",
+        "title": "Prophecy, The"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Harold Ramis",
+          "Warren Oates",
+          "P.J. Soles"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "John Winger, an indolent sad sack in his 30s, impulsively joins the U.S. Army after losing his job, his girlfriend and his apartment.",
+        "release_date": "1981-06-25",
+        "release_year": "1981",
+        "title": "Stripes"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Morgan Freeman",
+          "Gwyneth Paltrow",
+          "John C. McGinley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+        "release_date": "1995-09-22",
+        "release_year": "1995",
+        "title": "Seven (Se7en)"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "David Niven",
+          "Anthony Quinn",
+          "Stanley Baker"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "J. Lee Thompson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A team of allied saboteurs are assigned an impossible mission: infiltrate an impregnable Nazi-held island and destroy the two enormous long-range field guns that prevent the rescue of 2,000 trapped British soldiers.",
+        "release_date": "1961-04-27",
+        "release_year": "1961",
+        "title": "Guns of Navarone, The"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      }
+    ],
+    "raw_user_id": "4381",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 354
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9200275365465789
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films",
+        "Dislike for films with weak character development",
+        "Dislike for films that fail to engage emotionally"
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedies that blend humor with drama",
+        "Preference for action films that include thriller elements",
+        "Appreciation for romantic narratives across various genres"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy and Drama (The user enjoys films that blend humor with emotional depth, as seen in multiple high-rated comedies and dramas.); Interest in Action and Thriller (The user shows a preference for action-packed narratives, particularly those that incorporate thriller elements.); Fondness for Romantic Themes (The user rates several films highly that explore romantic relationships, indicating a liking for romance in various genres.); Enjoyment of Sci-Fi Elements (The user appreciates films that incorporate science fiction themes, as evidenced by several ratings in this genre.); Preference for Strong Character Development (The user tends to favor films that showcase character growth and complex narratives, particularly in dramas.). Liked patterns: Enjoyment of comedies that blend humor with drama, Preference for action films that include thriller elements, Appreciation for romantic narratives across various genres. Disliked patterns: Dislike for horror films, Dislike for films with weak character development, Dislike for films that fail to engage emotionally.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend humor with emotional depth, as seen in multiple high-rated comedies and dramas.",
+          "taste": "Appreciation for Comedy and Drama"
+        },
+        {
+          "reason": "The user shows a preference for action-packed narratives, particularly those that incorporate thriller elements.",
+          "taste": "Interest in Action and Thriller"
+        },
+        {
+          "reason": "The user rates several films highly that explore romantic relationships, indicating a liking for romance in various genres.",
+          "taste": "Fondness for Romantic Themes"
+        },
+        {
+          "reason": "The user appreciates films that incorporate science fiction themes, as evidenced by several ratings in this genre.",
+          "taste": "Enjoyment of Sci-Fi Elements"
+        },
+        {
+          "reason": "The user tends to favor films that showcase character growth and complex narratives, particularly in dramas.",
+          "taste": "Preference for Strong Character Development"
+        }
+      ]
+    },
+    "user_id": 4381
+  }
+}

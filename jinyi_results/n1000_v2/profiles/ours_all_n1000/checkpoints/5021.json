@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "a13317ed8ecc6d3eb85b96a714c27e40bee7b1db657198955be61646df8b564f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1629,
+      133,
+      1134,
+      559,
+      168,
+      2063,
+      2107,
+      172,
+      2040,
+      955
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      77,
+      148,
+      154,
+      161,
+      190,
+      241,
+      587,
+      612,
+      634,
+      662,
+      715,
+      776,
+      840,
+      862,
+      955,
+      962,
+      1018,
+      1142,
+      1342,
+      1540,
+      1727,
+      1836,
+      2045,
+      2107,
+      2549
+    ],
+    "seed": 42,
+    "source_hash": "56735b85369ff35a3ad6301790a8eeeda9478ce590bedf70aed57df773e76fd9",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5021,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jane Fonda",
+          "Donald Sutherland",
+          "Charles Cioffi",
+          "Roy Scheider"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alan J. Pakula",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "This acclaimed thriller stars Jane Fonda as Bree Daniel, a New York City call girl who becomes enmeshed in an investigation into the disappearance of a business executive. Detective John Klute is hired to follow Daniel, and eventually begins a romance with her, but it appears that he hasn't been the only person on her trail. When it becomes clear that Daniel is being targeted, it's up to her and Klute to figure out who is after her before it's too late.",
+        "release_date": "1971-06-21",
+        "release_year": "1971",
+        "title": "Klute"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Shatner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Capt. Kirk and his crew must deal with Mr. Spock's half brother who kidnaps three diplomats and hijacks the Enterprise in his obsessive search for God.",
+        "release_date": "1989-06-09",
+        "release_year": "1989",
+        "title": "Star Trek V: The Final Frontier"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Marcia Strassman",
+          "Matt Frewer",
+          "Kristine Sutherland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Johnston",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The scientist father of a teenage girl and boy accidentally shrinks his and two other neighborhood teens to the size of insects. Now the teens must fight diminutive dangers as the father searches for them.",
+        "release_date": "1989-06-22",
+        "release_year": "1989",
+        "title": "Honey, I Shrunk the Kids"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Morgan Freeman",
+          "Bob Gunton",
+          "Clancy Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Shawshank Redemption, The"
+      },
+      {
+        "cast": [
+          "Rod Steiger",
+          "Geraldine Fitzgerald",
+          "Brock Peters",
+          "Jaime Sánchez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Jewish pawnbroker, a victim of Nazi persecution, loses all faith in his fellow man until he realizes too late the tragedy of his actions.",
+        "release_date": "1965-04-20",
+        "release_year": "1965",
+        "title": "Pawnbroker, The"
+      },
+      {
+        "cast": [
+          "Robert Redford",
+          "Faye Dunaway",
+          "Cliff Robertson",
+          "Max von Sydow"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A bookish CIA researcher finds all his co-workers dead, and must outwit those responsible until he figures out who he can really trust.",
+        "release_date": "1975-09-24",
+        "release_year": "1975",
+        "title": "Three Days of the Condor"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Robin Wright",
+          "Gary Sinise",
+          "Mykelti Williamson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events - in each case, far exceeding what anyone imagined he could do. Yet, despite all the things he has attained, his one true love eludes him. 'Forrest Gump' is the story of a man who rose above his challenges, and who proved that determination, courage, and love are more important than ability.",
+        "release_date": "1994-07-06",
+        "release_year": "1994",
+        "title": "Forrest Gump"
+      },
+      {
+        "cast": [
+          "Clark Gable",
+          "Burt Lancaster",
+          "Jack Warden",
+          "Brad Dexter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Wise",
+        "genres": [
+          "War"
+        ],
+        "language": "English",
+        "overview": "The captain of a submarine sunk by the Japanese during WWII is finally given a chance to skipper another sub after a year of working a desk job. His singleminded determination for revenge against the destroyer that sunk his previous vessel puts his new crew in unneccessary danger.",
+        "release_date": "1958-03-27",
+        "release_year": "1958",
+        "title": "Run Silent, Run Deep"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Sharon Stone",
+          "Samuel L. Jackson",
+          "Peter Coyote"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The OSSA discovers a spacecraft thought to be at least 300 years old at the bottom of the ocean. Immediately following the discovery, they decide to send a team down to the depths of the ocean to study the space craft.They are the best of best, smart and logical, and the perfect choice to learn more about the spacecraft.",
+        "release_date": "1998-02-13",
+        "release_year": "1998",
+        "title": "Sphere"
+      }
+    ],
+    "raw_user_id": "5021",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 148
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.2575054708913191
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that lack depth or complexity.",
+        "Negative response to films that do not effectively blend genres."
+      ],
+      "liked_patterns": [
+        "Preference for films that combine action with war themes.",
+        "Enjoyment of films that blend comedy with serious undertones.",
+        "Strong appreciation for dramatic narratives that explore human experiences."
+      ],
+      "summary": "Unique tastes: War Themes (The user enjoys films that explore the complexities and consequences of war, as seen in multiple high-rated dramas and comedies.); Action and Sci-Fi (The user appreciates action-packed narratives with science fiction elements, reflected in several high-rated action films.); Dramatic Storytelling (The user favors films with strong dramatic narratives, as indicated by the high ratings for various dramas.); Comedy with Depth (The user enjoys comedies that incorporate deeper themes, as shown by the high ratings for comedies that also address serious subjects.); Thrillers with Intrigue (The user is drawn to thrillers that offer suspense and complexity, as evidenced by the high ratings for several thriller films.). Liked patterns: Preference for films that combine action with war themes., Enjoyment of films that blend comedy with serious undertones., Strong appreciation for dramatic narratives that explore human experiences.. Disliked patterns: Dislike for horror films that lack depth or complexity., Negative response to films that do not effectively blend genres..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that explore the complexities and consequences of war, as seen in multiple high-rated dramas and comedies.",
+          "taste": "War Themes"
+        },
+        {
+          "reason": "The user appreciates action-packed narratives with science fiction elements, reflected in several high-rated action films.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "The user favors films with strong dramatic narratives, as indicated by the high ratings for various dramas.",
+          "taste": "Dramatic Storytelling"
+        },
+        {
+          "reason": "The user enjoys comedies that incorporate deeper themes, as shown by the high ratings for comedies that also address serious subjects.",
+          "taste": "Comedy with Depth"
+        },
+        {
+          "reason": "The user is drawn to thrillers that offer suspense and complexity, as evidenced by the high ratings for several thriller films.",
+          "taste": "Thrillers with Intrigue"
+        }
+      ]
+    },
+    "user_id": 5021
+  }
+}

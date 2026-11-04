@@ -1,0 +1,322 @@
+{
+  "checkpoint_hash": "6143ddd4785fef6471079063a1be6d2550e4715780ffa25770fce1858701e080",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      167,
+      542,
+      634,
+      993,
+      1878,
+      27,
+      644,
+      1934,
+      4,
+      1845
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7676fc66633c43dcb8e52a23830886bc"
+    ],
+    "sampled_item_ids": [
+      4,
+      27,
+      167,
+      542,
+      634,
+      644,
+      854,
+      993,
+      1845,
+      1878,
+      1881,
+      1934,
+      2108,
+      2265,
+      2270,
+      2318
+    ],
+    "seed": 42,
+    "source_hash": "46c5bb5943c212af473af34c3c04e3493b0b2c83b7058bb9cf25d4ae3dc2e284",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 572,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Antonio Banderas",
+          "Anthony Hopkins",
+          "Catherine Zeta-Jones",
+          "Stuart Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "It has been twenty years since Don Diego de la Vega fought Spanish oppression in Alta California as the legendary romantic hero, Zorro. Having escaped from prison he transforms troubled bandit Alejandro into his successor, in order to foil the plans of the tyrannical Don Rafael Montero who robbed him of his freedom, his wife and his precious daughter.",
+        "release_date": "1998-07-16",
+        "release_year": "1998",
+        "title": "Mask of Zorro, The"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Dougray Scott",
+          "Thandie Newton",
+          "Ving Rhames"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt races across Australia and Spain to stop a former IMF agent from unleashing a genetically engineered biological weapon called Chimera. This mission, should Hunt choose to accept it, plunges him into the center of an international crisis of terrifying magnitude.",
+        "release_date": "2000-05-24",
+        "release_year": "2000",
+        "title": "Mission: Impossible 2"
+      },
+      {
+        "cast": [],
+        "country": [],
+        "director": "unknown",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "unknown",
+        "overview": "unknown",
+        "release_date": "unknown",
+        "release_year": "1970",
+        "title": "M*A*S*H"
+      },
+      {
+        "cast": [
+          "Amanda Schull",
+          "Zoe Saldana",
+          "Susan May Pratt",
+          "Peter Gallagher"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Hytner",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A group of 12 teenagers from various backgrounds enroll at the American Ballet Academy in New York to make it as ballet dancers and each one deals with the problems and stress of training and getting ahead in the world of dance.",
+        "release_date": "2000-05-12",
+        "release_year": "2000",
+        "title": "Center Stage"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Gene Hackman",
+          "Brooke Langton",
+          "Orlando Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Deutch",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Maverick old-guard coach Jimmy McGinty is hired in the wake of a players' strike to help the Washington Sentinels advance to the playoffs. But that impossible dream hinges on whether his replacements can hunker down and do the job. So, McGinty dusts off his secret dossier of ex-players who never got a chance (or screwed up the one they were given) and knits together a bad-dream team of guys who just may give the Sentinels their title shot.",
+        "release_date": "2000-08-07",
+        "release_year": "2000",
+        "title": "Replacements, The"
+      },
+      {
+        "cast": [
+          "Henry Thomas",
+          "Drew Barrymore",
+          "Robert MacNaughton",
+          "Dee Wallace"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Children's",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+        "release_date": "1982-04-03",
+        "release_year": "1982",
+        "title": "E.T. the Extra-Terrestrial"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      },
+      {
+        "cast": [
+          "Leonardo DiCaprio",
+          "Guillaume Canet",
+          "Tilda Swinton",
+          "Virginie Ledoyen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Danny Boyle",
+        "genres": [
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Twenty-something Richard travels to Thailand and finds himself in possession of a strange map. Rumours state that it leads to a solitary beach paradise, a tropical bliss - excited and intrigued, he sets out to find it.",
+        "release_date": "2000-02-11",
+        "release_year": "2000",
+        "title": "Beach, The"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Albert Finney",
+          "Aaron Eckhart",
+          "Marg Helgenberger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "Erin Brockovich"
+      },
+      {
+        "cast": [
+          "D. B. Sweeney",
+          "Alfre Woodard",
+          "Ossie Davis",
+          "Max Casella"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ralph Zondag",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "An orphaned dinosaur raised by lemurs joins an arduous trek to a sancturary after a meteorite shower destroys his family home.",
+        "release_date": "2000-05-19",
+        "release_year": "2000",
+        "title": "Dinosaur"
+      }
+    ],
+    "raw_user_id": "572",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 16
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.6199378980689636
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for children's films",
+        "Dislike for war comedies",
+        "Low ratings for films with poor humor"
+      ],
+      "liked_patterns": [
+        "Positive ratings for drama films",
+        "High ratings for action and adventure genres",
+        "Favorability towards comedies"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user enjoys dramatic narratives, as seen in multiple ratings of 3 or above for drama films.); Enjoyment of Action and Adventure (The user rates action and adventure films positively, indicating a preference for excitement and thrill.); Fondness for Comedy (The user has rated several comedies favorably, suggesting a taste for humor and light-hearted storytelling.); Interest in Animation and Family-friendly Content (The user shows a liking for animated and children's films, reflected in positive ratings for such genres.); Preference for Romantic Elements (The user appreciates films that incorporate romance, as indicated by favorable ratings for romantic comedies.). Liked patterns: Positive ratings for drama films, High ratings for action and adventure genres, Favorability towards comedies. Disliked patterns: Negative ratings for children's films, Dislike for war comedies, Low ratings for films with poor humor.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys dramatic narratives, as seen in multiple ratings of 3 or above for drama films.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user rates action and adventure films positively, indicating a preference for excitement and thrill.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user has rated several comedies favorably, suggesting a taste for humor and light-hearted storytelling.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user shows a liking for animated and children's films, reflected in positive ratings for such genres.",
+          "taste": "Interest in Animation and Family-friendly Content"
+        },
+        {
+          "reason": "The user appreciates films that incorporate romance, as indicated by favorable ratings for romantic comedies.",
+          "taste": "Preference for Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 572
+  }
+}

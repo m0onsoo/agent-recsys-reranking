@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "615b7f0073c91d66fbd942ce9905d8b06a2d7a487783a4e4df5410094465ae00",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      519,
+      434,
+      417,
+      439,
+      1420,
+      1591,
+      135,
+      1191,
+      384,
+      793
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ebee50389a8e43c7ad384c22edd61064"
+    ],
+    "sampled_item_ids": [
+      31,
+      44,
+      49,
+      52,
+      57,
+      65,
+      152,
+      165,
+      168,
+      172,
+      281,
+      291,
+      329,
+      397,
+      417,
+      466,
+      479,
+      670,
+      888,
+      895,
+      1015,
+      1191,
+      1340,
+      1420,
+      2326
+    ],
+    "seed": 42,
+    "source_hash": "ee9b4aee5b4e5031e4858dda691fc44836d5f7b52d1ca9a3c0f8a06cda9605e5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2937,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Sandra Bullock",
+          "Samuel L. Jackson",
+          "Kevin Spacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A young lawyer defends a black man accused of murdering two men who raped his 10-year-old daughter, sparking a rebirth of the KKK.",
+        "release_date": "1996-07-24",
+        "release_year": "1996",
+        "title": "Time to Kill, A"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Rene Russo",
+          "John Malkovich",
+          "Dylan McDermott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Veteran Secret Service agent Frank Horrigan is a man haunted by his failure to save President Kennedy while serving protection detail in Dallas. Thirty years later, a man calling himself \"Booth\" threatens the life of the current President, forcing Horrigan to come back to protection detail to confront the ghosts from his past.",
+        "release_date": "1993-07-08",
+        "release_year": "1993",
+        "title": "In the Line of Fire"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Anthony Hopkins",
+          "Aidan Quinn",
+          "Julia Ormond"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "An epic tale of three brothers and their father living in the remote wilderness of 1900s USA and how their lives are affected by nature, history, war, and love.",
+        "release_date": "1994-12-16",
+        "release_year": "1994",
+        "title": "Legends of the Fall"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Laura Linney",
+          "Noah Emmerich",
+          "Natascha McElhone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Truman Burbank is the star of \"The Truman Show\", a 24-hour-a-day \"reality\" TV show that broadcasts every aspect of his life -- live and in color -- without his knowledge. His entire life has been an unending soap opera for consumption by the rest of the world. And everyone he knows -- including his wife and his best friend -- is really an actor, paid to be part of his life.",
+        "release_date": "1998-06-04",
+        "release_year": "1998",
+        "title": "Truman Show, The"
+      },
+      {
+        "cast": [
+          "Kiefer Sutherland",
+          "Julia Roberts",
+          "Kevin Bacon",
+          "William Baldwin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Five medical students want to find out if there is life after death. They plan to stop one of their hearts for a few seconds, thus simulating death, and then bring the person back to life. A science fiction thriller from the early 1990's with a star studded cast.",
+        "release_date": "1990-08-09",
+        "release_year": "1990",
+        "title": "Flatliners"
+      },
+      {
+        "cast": [
+          "John Malkovich",
+          "Gary Sinise",
+          "Ray Walston",
+          "Casey Siemaszko"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Sinise",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two drifters, one a gentle but slow giant, try to make money working the fields during the Depression so they can fulfill their dreams.",
+        "release_date": "1992-09-16",
+        "release_year": "1992",
+        "title": "Of Mice and Men"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Jeremy Northam",
+          "Dennis Miller",
+          "Wendy Gazelle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irwin Winkler",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Angela Bennett is a freelance software engineer who lives in a world of computer technology. When a cyber friend asks Bennett to debug a new game, she inadvertently becomes involved in a conspiracy that will soon turn her life upside down. While on vacation in Mexico, her purse is stolen. She soon finds that people and events may not be what they seem as she becomes the target of an assassination. Her vacation is ruined.  She gets a new passport at the U.S. Embassy in Mexico but it has the wrong name, Ruth Marx. When she returns to the U.S. to sort things out, she discovers that Ruth Marx has an unsavory past and a lengthy  police record. To make matters worse, another person has assumed her real identity ...",
+        "release_date": "1995-07-28",
+        "release_year": "1995",
+        "title": "Net, The"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Sean Penn",
+          "Robert Prosky",
+          "Raymond J. Barry"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Tim Robbins",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A justice drama based on a true story about a man on death row who in his last days forms a strong relationship with a nun who teaches him forgiveness and gives him spirituality as she accompanies him to his execution. Susan Sarandon won an Oscar for best female actress for her convincing portrayal of Sister Helen Prejean.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Dead Man Walking"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Forest Whitaker",
+          "Tung Thanh Tran",
+          "Chintara Sukapatana"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Radio funny man Adrian Cronauer is sent to Vietnam to bring a little comedy back into the lives of the soldiers. After setting up shop, Cronauer delights the G.I.s but shocks his superior officer, Sergeant Major Dickerson, with his irreverent take on the war. While Dickerson attempts to censor Cronauer's broadcasts, Cronauer pursues a relationship with a Vietnamese girl named Trinh, who shows him the horrors of war first-hand.",
+        "release_date": "1987-12-23",
+        "release_year": "1987",
+        "title": "Good Morning, Vietnam"
+      }
+    ],
+    "raw_user_id": "2937",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 84
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7991050187743346
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are overly simplistic or lack depth in storytelling.",
+        "Negative reception towards films that fail to engage or entertain effectively."
+      ],
+      "liked_patterns": [
+        "Preference for films that blend drama with other genres like action and romance.",
+        "Enjoyment of character-driven stories that evoke strong emotional responses.",
+        "Attraction to films with strong narrative arcs and compelling performances."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates complex narratives and character development often found in drama films.); Action (The user enjoys high-stakes scenarios and thrilling sequences typical of action films.); Comedy (The user favors humor and light-hearted storytelling, as seen in their enjoyment of comedic films.); Romance (The user is drawn to emotional connections and romantic themes present in various films.); Thriller (The user likes suspenseful and gripping plots that keep them engaged.). Liked patterns: Preference for films that blend drama with other genres like action and romance., Enjoyment of character-driven stories that evoke strong emotional responses., Attraction to films with strong narrative arcs and compelling performances.. Disliked patterns: Dislike for films that are overly simplistic or lack depth in storytelling., Negative reception towards films that fail to engage or entertain effectively..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates complex narratives and character development often found in drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys high-stakes scenarios and thrilling sequences typical of action films.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user favors humor and light-hearted storytelling, as seen in their enjoyment of comedic films.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to emotional connections and romantic themes present in various films.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user likes suspenseful and gripping plots that keep them engaged.",
+          "taste": "Thriller"
+        }
+      ]
+    },
+    "user_id": 2937
+  }
+}

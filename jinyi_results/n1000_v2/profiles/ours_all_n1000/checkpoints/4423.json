@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "4ca21734cc9fdde48f1e1acc558427bb35889b4b6f6abbe255506cb3b190cbfb",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      274,
+      2001,
+      612,
+      52,
+      484,
+      218,
+      128,
+      64,
+      65,
+      129
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      16,
+      52,
+      59,
+      128,
+      175,
+      210,
+      218,
+      247,
+      260,
+      274,
+      322,
+      484,
+      530,
+      536,
+      601,
+      612,
+      618,
+      715,
+      744,
+      1300,
+      1468,
+      1586,
+      2001,
+      2149
+    ],
+    "seed": 42,
+    "source_hash": "492b5fbad7aa49cc899b557230ca909de5556c89735e80b239af183108cc233f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4423,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bill Murray",
+          "Dan Aykroyd",
+          "Sigourney Weaver",
+          "Harold Ramis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Ghostbusters"
+      },
+      {
+        "cast": [
+          "Graham Chapman",
+          "John Cleese",
+          "Terry Gilliam",
+          "Eric Idle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Ian MacNaughton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "And Now for Something Completely Different is a film spin-off from the television comedy series Monty Python's Flying Circus featuring favourite sketches from the first two seasons.",
+        "release_date": "1971-09-28",
+        "release_year": "1971",
+        "title": "And Now for Something Completely Different"
+      },
+      {
+        "cast": [
+          "Peter Sellers",
+          "George C. Scott",
+          "Sterling Hayden",
+          "Keenan Wynn"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union. As soon as the actions of General \"Buck\" Turgidson are discovered, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike. Near the end is a scene that is probably the most uniquely unforgettable performance of Slim Pickens in his movie career. Peter Sellers plays multiple roles in this film.",
+        "release_date": "1964-01-29",
+        "release_year": "1963",
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Vincent Spano",
+          "Josh Hamilton",
+          "Bruce Ramsay"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Marshall",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The amazing, true story of a Uruguayan rugby team's plane that crashed in the middle of the Andes mountains, and their immense will to survive and pull through alive, forced to do anything and everything they could to stay alive on meager rations and through the freezing cold.",
+        "release_date": "1993-01-15",
+        "release_year": "1993",
+        "title": "Alive"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Jackie Gleason",
+          "Piper Laurie",
+          "George C. Scott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Rossen",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Fast Eddie Felson is a small-time pool hustler with a lot of talent but a self-destructive attitude. His bravado causes him to challenge the legendary Minnesota Fats to a high-stakes match.",
+        "release_date": "1961-09-25",
+        "release_year": "1961",
+        "title": "Hustler, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      }
+    ],
+    "raw_user_id": "4423",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 34
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5928860632827213
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with other genres.",
+        "Strong preference for action films that incorporate adventure elements.",
+        "Consistent enjoyment of dramatic narratives with thriller components."
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, including parodies and dark humor.); Interest in Action and Adventure (The user rates several action and adventure films highly, indicating a preference for thrilling narratives.); Fondness for Drama and Thrillers (The user shows a strong liking for dramatic and thriller elements, often rating them positively.); Enjoyment of Sci-Fi Themes (The user appreciates science fiction films, particularly those that blend with action and thriller genres.); Affinity for Crime and Mystery (The user rates crime and mystery films favorably, suggesting a taste for complex narratives.). Liked patterns: High ratings for comedies that blend humor with other genres., Strong preference for action films that incorporate adventure elements., Consistent enjoyment of dramatic narratives with thriller components.. Disliked patterns: No significant patterns of dislike observed..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, including parodies and dark humor.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several action and adventure films highly, indicating a preference for thrilling narratives.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user shows a strong liking for dramatic and thriller elements, often rating them positively.",
+          "taste": "Fondness for Drama and Thrillers"
+        },
+        {
+          "reason": "The user appreciates science fiction films, particularly those that blend with action and thriller genres.",
+          "taste": "Enjoyment of Sci-Fi Themes"
+        },
+        {
+          "reason": "The user rates crime and mystery films favorably, suggesting a taste for complex narratives.",
+          "taste": "Affinity for Crime and Mystery"
+        }
+      ]
+    },
+    "user_id": 4423
+  }
+}

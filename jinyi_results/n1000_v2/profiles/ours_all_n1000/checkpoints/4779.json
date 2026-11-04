@@ -1,0 +1,323 @@
+{
+  "checkpoint_hash": "a6b0f00f3d8bad01f4cdda11b884ba4e946bb7743c3e37ca6bccd35e8ee7f434",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      139,
+      412,
+      2484,
+      1450,
+      23,
+      1498,
+      128,
+      2128,
+      2146,
+      1530
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      48,
+      106,
+      112,
+      195,
+      247,
+      429,
+      547,
+      566,
+      603,
+      624,
+      653,
+      662,
+      663,
+      771,
+      1480,
+      1530,
+      1550,
+      1586,
+      1629,
+      1834,
+      1921,
+      2146,
+      2217,
+      2555,
+      2568
+    ],
+    "seed": 42,
+    "source_hash": "65794f81028e9f352920771dc2bb4dfcf924cb12c3f37ebfc8d0ed825b0d9530",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4779,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bill Murray",
+          "Richard Dreyfuss",
+          "Julie Hagerty",
+          "Charlie Korsmo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Before going on vacation, self-involved psychiatrist Dr. Leo Marvin has the misfortune of taking on a new patient: Bob Wiley. An exemplar of neediness and a compendium of phobias, Bob follows Marvin to his family's country house. Dr. Marvin tries to get him to leave; the trouble is, everyone loves Bob. As his oblivious patient makes himself at home, Dr. Marvin loses his professional composure and, before long, may be ready for the loony bin himself.",
+        "release_date": "1991-05-17",
+        "release_year": "1991",
+        "title": "What About Bob?"
+      },
+      {
+        "cast": [
+          "Maggie Smith",
+          "Helena Bonham Carter",
+          "Denholm Elliott",
+          "Julian Sands"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "James Ivory",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When Lucy Honeychurch and chaperon Charlotte Bartlett find themselves in Florence with rooms without views, fellow guests Mr Emerson and son George step in to remedy the situation. Meeting the Emersons could change Lucy's life forever but, once back in England, how will her experiences in Tuscany affect her marriage plans?",
+        "release_date": "1985-12-13",
+        "release_year": "1986",
+        "title": "Room with a View, A"
+      },
+      {
+        "cast": [
+          "Julianne Moore",
+          "Andie MacDowell",
+          "Tim Robbins",
+          "Jack Lemmon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Altman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Multi-storied, fish-eyed look at American culture with some 22 characters intersecting--profoundly or fleetingly--through each other's lives. Running the emotional gamut from disturbing to humorous, Altman's portrait of the contemporary human condition is nevertheless fascinating. Based on nine stories and a prose poem by Raymond Carver.",
+        "release_date": "1993-09-05",
+        "release_year": "1993",
+        "title": "Short Cuts"
+      },
+      {
+        "cast": [
+          "William Holden",
+          "Gloria Swanson",
+          "Erich von Stroheim",
+          "Nancy Olson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "A hack screenwriter writes a screenplay for a former silent-film star who has faded into Hollywood obscurity.",
+        "release_date": "1950-08-10",
+        "release_year": "1950",
+        "title": "Sunset Blvd. (a.k.a. Sunset Boulevard)"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      },
+      {
+        "cast": [
+          "Charlie Chaplin",
+          "Paulette Goddard",
+          "Henry Bergman",
+          "Tiny Sandford"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charlie Chaplin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman.",
+        "release_date": "1936-02-05",
+        "release_year": "1936",
+        "title": "Modern Times"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Reginald Owen",
+          "Gene Lockhart",
+          "Kathleen Lockhart",
+          "Terry Kilburn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edwin L. Marin",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Reginald Owen portrays Charles Dickens' holiday humbug Ebenezer Scrooge, the miser's miser who has a huge change of heart after spirits whisk him into the past, present and future.",
+        "release_date": "1938-12-16",
+        "release_year": "1938",
+        "title": "Christmas Carol, A"
+      },
+      {
+        "cast": [
+          "Fredric March",
+          "Myrna Loy",
+          "Dana Andrews",
+          "Teresa Wright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "It's the hope that sustains the spirit of every GI: the dream of the day when he will finally return home. For three WWII veterans, the day has arrived. But for each man, the dream is about to become a nightmare. Captain Fred Derry is returning to a loveless marriage; Sergeant Al Stephenson is a stranger to a family that's grown up without him; and young sailor Homer Parrish is tormented by the loss of his hands. Can these three men find the courage to rebuild their world? Or are the best years of their lives a thing of the past?",
+        "release_date": "1946-12-25",
+        "release_year": "1946",
+        "title": "Best Years of Our Lives, The"
+      },
+      {
+        "cast": [
+          "Faye Dunaway",
+          "William Holden",
+          "Peter Finch",
+          "Robert Duvall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A TV network cynically exploits a deranged ex-TV anchor's ravings and revelations about the media for their own profit.",
+        "release_date": "1976-11-01",
+        "release_year": "1976",
+        "title": "Network"
+      }
+    ],
+    "raw_user_id": "4779",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 171
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.3989656651532025
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres such as crime and war.",
+        "Consistent enjoyment of films that feature strong character-driven narratives.",
+        "A tendency to rate comedies favorably, especially those with dramatic elements."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Crime (The user enjoys crime-related stories, as indicated by several high ratings for films that incorporate crime elements.); Comedy (There is a notable appreciation for comedic films, with several ratings of 4 or 5 for comedies.); War (The user shows a liking for war-themed films, reflected in high ratings for multiple titles in this genre.); Documentary (A preference for documentaries is indicated by consistent high ratings for films in this category.). Liked patterns: High ratings for films that blend drama with other genres such as crime and war., Consistent enjoyment of films that feature strong character-driven narratives., A tendency to rate comedies favorably, especially those with dramatic elements.. Disliked patterns: no repeated disliked pattern identified.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys crime-related stories, as indicated by several high ratings for films that incorporate crime elements.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "There is a notable appreciation for comedic films, with several ratings of 4 or 5 for comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows a liking for war-themed films, reflected in high ratings for multiple titles in this genre.",
+          "taste": "War"
+        },
+        {
+          "reason": "A preference for documentaries is indicated by consistent high ratings for films in this category.",
+          "taste": "Documentary"
+        }
+      ]
+    },
+    "user_id": 4779
+  }
+}

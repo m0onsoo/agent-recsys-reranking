@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "2f71a2062c7b6705c8369ebd4e811b673579c4723e6e74ec07ea94a7dc795591",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      51,
+      362,
+      317,
+      382,
+      172,
+      222,
+      1055,
+      65,
+      129,
+      732
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b39b2bdb9e76497fb18a6a5c6a82730a"
+    ],
+    "sampled_item_ids": [
+      5,
+      21,
+      51,
+      65,
+      117,
+      129,
+      165,
+      172,
+      222,
+      317,
+      362,
+      382,
+      506,
+      538,
+      732,
+      1055
+    ],
+    "seed": 42,
+    "source_hash": "7116483d67593dbeab88bc35b13cfe750fa5765c1ea761741a4e98b0443d6e8f",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1493,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Joan Cusack",
+          "Kelsey Grammer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
+        "release_date": "1999-10-30",
+        "release_year": "1999",
+        "title": "Toy Story 2"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Dianne Wiest",
+          "Jennifer Tilly",
+          "Chazz Palminteri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Set in 1920's New York City, this movie tells the story of idealistic young playwright David Shayne. Producer Julian Marx finally finds funding for the project from gangster Nick Valenti. The catch is that Nick's girl friend Olive Neal gets the part of a psychiatrist, and Olive is a bimbo who could never pass for a psychiatrist as well as being a dreadful actress. Agreeing to this first compromise is the first step to Broadway's complete seduction of David, who neglects longtime girl friend Ellen. Meanwhile David puts up with Warner Purcell, the leading man who is a compulsive eater, Helen Sinclair, the grand dame who wants her part jazzed up, and Cheech, Olive's interfering hitman / bodyguard. Eventually, the playwright must decide whether art or life is more important.",
+        "release_date": "1994-10-14",
+        "release_year": "1994",
+        "title": "Bullets Over Broadway"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Minnie Driver",
+          "Dan Aykroyd",
+          "Joan Cusack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Armitage",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Martin Blank is a freelance hitman who starts to develop a conscience, which causes him to muff a couple of routine assignments. On the advice of his secretary and his psychiatrist, he attends his 10th year High School reunion in Grosse Pointe, Michigan.",
+        "release_date": "1997-04-11",
+        "release_year": "1997",
+        "title": "Grosse Pointe Blank"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Robin Wright",
+          "Gary Sinise",
+          "Mykelti Williamson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events - in each case, far exceeding what anyone imagined he could do. Yet, despite all the things he has attained, his one true love eludes him. 'Forrest Gump' is the story of a man who rose above his challenges, and who proved that determination, courage, and love are more important than ability.",
+        "release_date": "1994-07-06",
+        "release_year": "1994",
+        "title": "Forrest Gump"
+      },
+      {
+        "cast": [
+          "Alicia Silverstone",
+          "Stacey Dash",
+          "Brittany Murphy",
+          "Paul Rudd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Amy Heckerling",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Shallow, rich and socially successful Cher is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other. Emboldened by her success, she decides to give hopelessly klutzy new student Tai a makeover. When Tai becomes more popular than she is, Cher realizes that her disapproving ex-stepbrother was right about how misguided she was -- and falls for him.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Clueless"
+      },
+      {
+        "cast": [
+          "Glenn Close",
+          "Jeff Daniels",
+          "Joely Richardson",
+          "Joan Plowright"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stephen Herek",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Live action adaptation of a Disney Classic. When a litter of dalmatian puppies are abducted by the minions of Cruella De Vil, the parents must find them before she uses them for a diabolical fashion statement.",
+        "release_date": "1996-11-17",
+        "release_year": "1996",
+        "title": "101 Dalmatians"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Whoopi Goldberg",
+          "Maggie Smith",
+          "Kathy Najimy",
+          "Wendy Makkena"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Emile Ardolino",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "A Reno singer witnesses a mob murder and the cops stash her in a nunnery to protect her from the hitmen. The mother superior does not trust her, and takes steps to limit her influence on the other nuns. Eventually the singer rescues the failing choir and begins helping with community projects, which gets her an interview on TV.",
+        "release_date": "1992-05-28",
+        "release_year": "1992",
+        "title": "Sister Act"
+      }
+    ],
+    "raw_user_id": "1493",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 16
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5346961836710856
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that fail to engage or entertain effectively.",
+        "Negative response to children's films that do not resonate with the user."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with romance or drama.",
+        "Strong preference for animated films, particularly those aimed at children.",
+        "Consistent enjoyment of films with a comedic approach to serious themes."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Animation and Children's films (The user appreciates animated and children's films, indicating a preference for light-hearted and family-friendly content.); Drama with comedic elements (The user favors films that blend drama with comedy, suggesting an appreciation for emotional depth alongside humor.); Romantic themes (The user shows a liking for romantic elements within comedies, indicating a preference for stories that explore relationships.); Thrillers with strong narratives (The user rates thrillers highly, suggesting an appreciation for intense and well-crafted storytelling.). Liked patterns: High ratings for comedies that blend humor with romance or drama., Strong preference for animated films, particularly those aimed at children., Consistent enjoyment of films with a comedic approach to serious themes.. Disliked patterns: Dislike for comedies that fail to engage or entertain effectively., Negative response to children's films that do not resonate with the user..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates animated and children's films, indicating a preference for light-hearted and family-friendly content.",
+          "taste": "Animation and Children's films"
+        },
+        {
+          "reason": "The user favors films that blend drama with comedy, suggesting an appreciation for emotional depth alongside humor.",
+          "taste": "Drama with comedic elements"
+        },
+        {
+          "reason": "The user shows a liking for romantic elements within comedies, indicating a preference for stories that explore relationships.",
+          "taste": "Romantic themes"
+        },
+        {
+          "reason": "The user rates thrillers highly, suggesting an appreciation for intense and well-crafted storytelling.",
+          "taste": "Thrillers with strong narratives"
+        }
+      ]
+    },
+    "user_id": 1493
+  }
+}

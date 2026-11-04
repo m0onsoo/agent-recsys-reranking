@@ -1,0 +1,339 @@
+{
+  "checkpoint_hash": "1972469e8f62153533bbf08c887207b3ae0ec521575d4538647f98e3813941b0",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      926,
+      221,
+      1252,
+      890,
+      142,
+      128,
+      80,
+      146,
+      1112,
+      946
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "1d4bf71dfe234c3bbca3fd925031a47c"
+    ],
+    "sampled_item_ids": [
+      135,
+      151,
+      179,
+      186,
+      211,
+      220,
+      226,
+      230,
+      264,
+      284,
+      358,
+      548,
+      606,
+      624,
+      853,
+      950,
+      1023,
+      1112,
+      1169,
+      1644,
+      1671,
+      2136,
+      2244,
+      2629,
+      2883
+    ],
+    "seed": 42,
+    "source_hash": "93a799167ded45abb81d853845bd67b15490b4539826b0fdb2a58d2b30477dc4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3483,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "female",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sharon Stone",
+          "George Dzundza",
+          "Jeanne Tripplehorn"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A police detective is in charge of the investigation of a brutal murder, in which a beautiful and seductive woman could be involved.",
+        "release_date": "1992-03-20",
+        "release_year": "1992",
+        "title": "Basic Instinct"
+      },
+      {
+        "cast": [
+          "Dominique Pinon",
+          "Marie-Laure Dougnac",
+          "Jean-Claude Dreyfus",
+          "Karin Viard"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "This bizarre surrealistic black comedy takes place in a small fictitious post-apocalyptic town where food is scarce and butcher Clapet has the macabre business of using human flesh to feed his customers. Yet when his daughter falls in love with his next slaughter victim things turn into chaos.",
+        "release_date": "1991-04-17",
+        "release_year": "1991",
+        "title": "Delicatessen"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Charles Grodin",
+          "Yaphet Kotto",
+          "John Ashton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Brest",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "An accountant embezzles $15 million of mob money, jumps bail and is chased by bounty hunters, the FBI, and the Mafia.",
+        "release_date": "1988-07-20",
+        "release_year": "1988",
+        "title": "Midnight Run"
+      },
+      {
+        "cast": [
+          "Anthony Hopkins",
+          "Cuba Gooding Jr.",
+          "Donald Sutherland",
+          "Maura Tierney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dr. Ethan Powell, an anthropologist, is in Africa studying apes when he is lost for two years. When he is found, he kills 3 men and puts 2 in the hospital. Cuba Gooding's character is a psychiatrist who wants to take up the task of trying to get Dr. Powell to speak again and maybe even stand judgment at a trial for his release from prison of mental cases. Along the way, Cuba has to deal with also helping the mental patients that are being abused and neglected. In this process Cuba learns a few things about himself and life, and so does Anthony Hopkins character, Dr. Powell.",
+        "release_date": "1999-06-04",
+        "release_year": "1999",
+        "title": "Instinct"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Martin Landau",
+          "Sarah Jessica Parker",
+          "Patricia Arquette"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The mostly true story of the legendary \"worst director of all time\", who, with the help of his strange friends, filmed countless B-movies without ever becoming famous or successful.",
+        "release_date": "1994-09-27",
+        "release_year": "1994",
+        "title": "Ed Wood"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Rene Russo",
+          "Morgan Freeman",
+          "Kevin Spacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A deadly airborne virus finds its way into the USA and starts killing off people at an epidemic rate. Col Sam Daniels' job is to stop the virus spreading from a small town, which must be quarantined, and to prevent an over reaction by the White House.",
+        "release_date": "1995-03-10",
+        "release_year": "1995",
+        "title": "Outbreak"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Gene Hackman",
+          "Rene Russo",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Chili Palmer is a Miami mobster who gets sent by his boss, the psychopathic \"Bones\" Barboni, to collect a bad debt from Harry Zimm, a Hollywood producer who specializes in cheesy horror films. When Chili meets Harry's leading lady, the romantic sparks fly. After pitching his own life story as a movie idea, Chili learns that being a mobster and being a Hollywood producer really aren't all that different.",
+        "release_date": "1995-10-20",
+        "release_year": "1995",
+        "title": "Get Shorty"
+      },
+      {
+        "cast": [
+          "David Naughton",
+          "Jenny Agutter",
+          "Griffin Dunne",
+          "John Woodvine"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Two American tourists in England are attacked by a werewolf that none of the locals will admit exists.",
+        "release_date": "1981-08-21",
+        "release_year": "1981",
+        "title": "American Werewolf in London, An"
+      },
+      {
+        "cast": [
+          "Anjelica Huston",
+          "John Cusack",
+          "Annette Bening",
+          "Jan Munroe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "A young short-con grifter suffers both injury and the displeasure of reuniting with his criminal mother, all the while dating an unpredictable young lady.",
+        "release_date": "1990-09-14",
+        "release_year": "1990",
+        "title": "Grifters, The"
+      }
+    ],
+    "raw_user_id": "3483",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 528
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6114077752440098
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for comedies that lack depth or engaging storylines."
+      ],
+      "liked_patterns": [
+        "Preference for comedies that also incorporate drama or romance.",
+        "Enjoyment of action films that feature adventure and suspense.",
+        "Appreciation for films that blend genres, such as comedy with drama."
+      ],
+      "summary": "Unique tastes: Comedy and Romance (The user enjoys light-hearted narratives that blend humor with romantic elements.); Action and Adventure (The user appreciates thrilling plots that involve action-packed sequences and adventurous journeys.); Drama with Depth (The user is drawn to dramatic stories that explore complex themes and character development.); Thriller Elements (The user favors films that incorporate suspense and tension, often found in thrillers.); Fantasy and Imagination (The user enjoys narratives that involve fantastical elements and imaginative storytelling.). Liked patterns: Preference for comedies that also incorporate drama or romance., Enjoyment of action films that feature adventure and suspense., Appreciation for films that blend genres, such as comedy with drama.. Disliked patterns: Dislike for comedies that lack depth or engaging storylines..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted narratives that blend humor with romantic elements.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "The user appreciates thrilling plots that involve action-packed sequences and adventurous journeys.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user is drawn to dramatic stories that explore complex themes and character development.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "The user favors films that incorporate suspense and tension, often found in thrillers.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user enjoys narratives that involve fantastical elements and imaginative storytelling.",
+          "taste": "Fantasy and Imagination"
+        }
+      ]
+    },
+    "user_id": 3483
+  }
+}

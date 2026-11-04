@@ -1,0 +1,346 @@
+{
+  "checkpoint_hash": "92147b3c7b65e4c160d2f4a7c21703f658b54b5d6bc45016dfb1e61e62d45630",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      169,
+      208,
+      1259,
+      154,
+      701,
+      429,
+      135,
+      976,
+      866,
+      76
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "0540b431f201448cb6507d3f818cfadc"
+    ],
+    "sampled_item_ids": [
+      3,
+      27,
+      76,
+      135,
+      208,
+      239,
+      415,
+      421,
+      425,
+      470,
+      548,
+      609,
+      614,
+      709,
+      721,
+      724,
+      767,
+      804,
+      843,
+      1099,
+      1107,
+      1341,
+      1517,
+      2040,
+      2733
+    ],
+    "seed": 42,
+    "source_hash": "4638d717f164b79deacc9fbb13be9b31b0987bf6039dc7cc463309a025e6eab2",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 991,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "homemaker"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Anthony Michael Hall",
+          "Judd Nelson",
+          "Molly Ringwald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Five high school students, all different stereotypes, meet in detention, where they pour their hearts out to each other, and discover how they have a lot more in common than they thought.",
+        "release_date": "1985-02-15",
+        "release_year": "1985",
+        "title": "Breakfast Club, The"
+      },
+      {
+        "cast": [
+          "Jodi Benson",
+          "Christopher Daniel Barnes",
+          "Jason Marin",
+          "Samuel E. Wright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Clements",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "This colorful adventure tells the story of an impetuous mermaid princess named Ariel who falls in love with the very human Prince Eric and puts everything on the line for the chance to be with him. Memorable songs and characters -- including the villainous sea witch Ursula.",
+        "release_date": "1989-11-17",
+        "release_year": "1989",
+        "title": "Little Mermaid, The"
+      },
+      {
+        "cast": [
+          "Kenneth Branagh",
+          "Derek Jacobi",
+          "Andy García",
+          "Robin Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kenneth Branagh",
+        "genres": [
+          "Mystery",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In 1949 composer Roman Strauss is executed for the vicious murder of his wife Margaret with a pair of scissors. In 1990s Los Angeles a mute amnesiac woman shows up at an orphanage and private eye Mike Church is called in to investigate. Under hypnosis both the woman and Church seem to have a strange link back to the Strauss murder.",
+        "release_date": "1991-08-23",
+        "release_year": "1991",
+        "title": "Dead Again"
+      },
+      {
+        "cast": [
+          "Vivien Leigh",
+          "Clark Gable",
+          "Olivia de Havilland",
+          "Thomas Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "An American classic in which a manipulative woman and a roguish man carry on a turbulent love affair in the American south during the Civil War and Reconstruction.",
+        "release_date": "1939-12-15",
+        "release_year": "1939",
+        "title": "Gone with the Wind"
+      },
+      {
+        "cast": [
+          "Leonard Whiting",
+          "Olivia Hussey",
+          "John McEnery",
+          "Michael York"
+        ],
+        "country": [
+          "Italy",
+          "United Kingdom"
+        ],
+        "director": "Franco Zeffirelli",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Director Franco Zeffirelli's beloved version of one of the most well-known love stories in the English language. Romeo Montague and Juliet Capulet fall in love against the wishes of their feuding families. Driven by their passion, the young lovers defy their destiny and elope, only to suffer the ultimate tragedy.",
+        "release_date": "1968-04-02",
+        "release_year": "1968",
+        "title": "Romeo and Juliet"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kelly McGillis",
+          "Josef Sommer",
+          "Lukas Haas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A sheltered Amish child is the sole witness of a brutal murder in a restroom at a Philadelphia train station, and he must be protected.  The assignment falls to a taciturn detective who goes undercover in a Pennsylvania Dutch community. On the farm, he slowly assimilates despite his urban grit and forges a romantic bond with the child's beautiful mother.",
+        "release_date": "1985-02-08",
+        "release_year": "1985",
+        "title": "Witness"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Lois Chiles",
+          "Michael Lonsdale",
+          "Corinne Cléry"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Lewis Gilbert",
+        "genres": [
+          "Action",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "During the transportation of a Space Shuttle a Boeing 747 crashes in the Atlantic Ocean yet when they go to look for the destroyed shuttle it is not there. James Bond investigates the missing mission space shuttle and soon learns that the shuttles owner Hugo Drax wants to kill all of mankind.",
+        "release_date": "1979-06-26",
+        "release_year": "1979",
+        "title": "Moonraker"
+      },
+      {
+        "cast": [
+          "William Hurt",
+          "Albert Brooks",
+          "Holly Hunter",
+          "Robert Prosky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Basket-case network news producer Jane Craig falls for new reporter Tom Grunnick, a pretty boy who represents the trend towards entertainment news she despises. Aaron Altman, a talented but plain correspondent, carries an unrequited torch for Jane. Sparks fly between the three as the network prepares for big changes, and both the news and Jane must decide between style and substance.",
+        "release_date": "1987-12-16",
+        "release_year": "1987",
+        "title": "Broadcast News"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Robin Williams",
+          "Mercedes Ruehl",
+          "Amanda Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Two troubled men face their terrible destinies and events of their past as they join together on a mission to find the Holy Grail and thus to save themselves.",
+        "release_date": "1991-09-09",
+        "release_year": "1991",
+        "title": "Fisher King, The"
+      }
+    ],
+    "raw_user_id": "991",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 48
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.743567651368696
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for children's films that do not resonate",
+        "Negative response to war-themed narratives without romantic elements"
+      ],
+      "liked_patterns": [
+        "Preference for romantic themes across various genres",
+        "Enjoyment of films with comedic elements alongside romance",
+        "Appreciation for musicals and their storytelling style"
+      ],
+      "summary": "Unique tastes: Romantic Comedies (The user enjoys light-hearted narratives that blend romance with humor.); Musicals (The user appreciates films that incorporate music and dance as a central element of storytelling.); Dramatic Romance (The user is drawn to films that explore deep emotional connections and relationships.); Fantasy Elements (The user enjoys stories that incorporate fantastical elements alongside romantic themes.); Classic Storytelling (The user favors films that are considered timeless and often feature strong romantic plots.). Liked patterns: Preference for romantic themes across various genres, Enjoyment of films with comedic elements alongside romance, Appreciation for musicals and their storytelling style. Disliked patterns: Dislike for children's films that do not resonate, Negative response to war-themed narratives without romantic elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys light-hearted narratives that blend romance with humor.",
+          "taste": "Romantic Comedies"
+        },
+        {
+          "reason": "The user appreciates films that incorporate music and dance as a central element of storytelling.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "The user is drawn to films that explore deep emotional connections and relationships.",
+          "taste": "Dramatic Romance"
+        },
+        {
+          "reason": "The user enjoys stories that incorporate fantastical elements alongside romantic themes.",
+          "taste": "Fantasy Elements"
+        },
+        {
+          "reason": "The user favors films that are considered timeless and often feature strong romantic plots.",
+          "taste": "Classic Storytelling"
+        }
+      ]
+    },
+    "user_id": 991
+  }
+}

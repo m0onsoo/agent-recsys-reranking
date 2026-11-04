@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "3b6606b071969e2b1f56d2ea9baad8b57da9b593fe3aeda057c58610140aed2a",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2496,
+      1345,
+      813,
+      1587,
+      1,
+      346,
+      636,
+      1248,
+      663,
+      798
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      51,
+      65,
+      171,
+      210,
+      260,
+      310,
+      316,
+      347,
+      382,
+      663,
+      798,
+      906,
+      959,
+      1062,
+      1116,
+      1121,
+      1236,
+      1248,
+      1341,
+      1345,
+      1472,
+      1518,
+      1660,
+      2496,
+      2507
+    ],
+    "seed": 42,
+    "source_hash": "deece49e11a726c2c925c4e032afced9df01999b6bc30d6434464415c4fdc5b9",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4990,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Lou Dobbs",
+          "Ted Koppel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Godfrey Reggio",
+        "genres": [
+          "Documentary",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Takes us to locations all around the US and shows us the heavy toll that modern technology is having on humans and the earth. The visual tone poem contains neither dialogue nor a vocalized narration: its tone is set by the juxtaposition of images and the exceptional music by Philip Glass.",
+        "release_date": "1982-06-06",
+        "release_year": "1983",
+        "title": "Koyaanisqatsi"
+      },
+      {
+        "cast": [
+          "Winona Ryder",
+          "Christian Slater",
+          "Shannen Doherty",
+          "Lisanne Falk"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Lehmann",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A girl who halfheartedly tries to be part of the \"in crowd\" of her school meets a rebel who teaches her a more devious way to play social politics: by killing the popular kids.",
+        "release_date": "1988-10-01",
+        "release_year": "1989",
+        "title": "Heathers"
+      },
+      {
+        "cast": [
+          "Rob Schneider",
+          "William Forsythe",
+          "Eddie Griffin",
+          "Arija Bareikis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Mitchell",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Deuce Bigalow is a less than attractive, down on his luck aquarium cleaner. One day he wrecks the house of a gigolo and needs quick money to repair it. The only way he can make it is to become a gigolo himself, taking on an unusual mix of female clients. He encounters a couple of problems, though. He falls in love with one of his unusual clients, and a sleazy police officer is hot on his trail.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Deuce Bigalow: Male Gigolo"
+      },
+      {
+        "cast": [
+          "Fred Ward",
+          "Dennis Quaid",
+          "Ed Harris",
+          "Scott Glenn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A chronicle of the original Mercury astronauts in the formation of America's space program: Alan Shepherd, the first American in space; Gus Grissom, the benighted astronaut for whom nothing works out as planned; John Glenn, the straight-arrow 'boy scout' of the bunch who was the first American to orbit the earth; and the remaining pilots: Deke Slayton, Scott Carpenter and Wally Schirra.",
+        "release_date": "1983-10-20",
+        "release_year": "1983",
+        "title": "Right Stuff, The"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Louise Fletcher",
+          "Danny DeVito",
+          "William Redfield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
+        "release_date": "1975-11-18",
+        "release_year": "1975",
+        "title": "One Flew Over the Cuckoo's Nest"
+      },
+      {
+        "cast": [
+          "Brenda Blethyn",
+          "Michael Caine",
+          "Ewan McGregor",
+          "Jane Horrocks"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mark Herman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After the death of her father, Little Voice or LV becomes a virtual recluse, never going out and hardly ever saying a word. She just sits in her bedroom listening to her father's collection of old records of Shirley Bassey, Marilyn Monroe and various other famous female singers. But at night time, LV sings, imitating these great singers with surprising accuracy. One night she is overheard by one of her mother's boyfriends, who happens to be a talent agent. He manages to convince her that her talent is special and arranges for her to perform at the local night club, but several problems arise.",
+        "release_date": "1998-11-05",
+        "release_year": "1998",
+        "title": "Little Voice"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Ellen Greene",
+          "Vincent Gardenia",
+          "Steve Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Seymour Krelborn is a nerdy orphan working at Mushnik's, a flower shop in urban Skid Row. He harbors a crush on fellow co-worker Audrey Fulquard, and is berated by Mr. Mushnik daily. One day as Seymour is seeking a new mysterious plant, he finds a very mysterious unidentified plant which he calls Audrey II. The plant seems to have a craving for blood and soon begins to sing for his supper.",
+        "release_date": "1986-12-19",
+        "release_year": "1986",
+        "title": "Little Shop of Horrors"
+      },
+      {
+        "cast": [
+          "Masatoshi Nagase",
+          "Youki Kudoh",
+          "Joe Strummer",
+          "Nicoletta Braschi"
+        ],
+        "country": [
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Jim Jarmusch",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Three stories are connected by a Memphis hotel and the spirit of Elvis Presley.",
+        "release_date": "1989-09-06",
+        "release_year": "1989",
+        "title": "Mystery Train"
+      },
+      {
+        "cast": [
+          "Keir Dullea",
+          "Gary Lockwood",
+          "William Sylvester",
+          "Douglas Rain"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "release_date": "1968-04-10",
+        "release_year": "1968",
+        "title": "2001: A Space Odyssey"
+      },
+      {
+        "cast": [
+          "Christopher Guest",
+          "Michael McKean",
+          "Harry Shearer",
+          "Rob Reiner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "\"This Is Spinal Tap\" shines a light on the self-contained universe of a metal band struggling to get back on the charts, including everything from its complicated history of ups and downs, gold albums, name changes and undersold concert dates, along with the full host of requisite groupies, promoters, hangers-on and historians, sessions, release events and those special behind-the-scenes moments that keep it all real.",
+        "release_date": "1984-05-04",
+        "release_year": "1984",
+        "title": "This Is Spinal Tap"
+      }
+    ],
+    "raw_user_id": "4990",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 49
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9444687263221982
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed"
+      ],
+      "liked_patterns": [
+        "High ratings for comedies and dramas",
+        "Strong preference for documentaries",
+        "Enjoyment of thrillers with complex narratives"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, often rating them highly, indicating a preference for humor in films.); Interest in Thrillers (The user rates several thrillers positively, suggesting a taste for suspenseful and engaging narratives.); Fondness for Documentaries (The user has rated multiple documentaries highly, showing an interest in real-life stories and informative content.); Enjoyment of Drama and Romance (The user frequently rates dramas and romantic films well, indicating a preference for emotional and character-driven stories.); Affinity for Sci-Fi and Fantasy (The user has shown a liking for science fiction and fantasy genres, appreciating imaginative and thought-provoking themes.). Liked patterns: High ratings for comedies and dramas, Strong preference for documentaries, Enjoyment of thrillers with complex narratives. Disliked patterns: No significant patterns of dislike observed.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly, indicating a preference for humor in films.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several thrillers positively, suggesting a taste for suspenseful and engaging narratives.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user has rated multiple documentaries highly, showing an interest in real-life stories and informative content.",
+          "taste": "Fondness for Documentaries"
+        },
+        {
+          "reason": "The user frequently rates dramas and romantic films well, indicating a preference for emotional and character-driven stories.",
+          "taste": "Enjoyment of Drama and Romance"
+        },
+        {
+          "reason": "The user has shown a liking for science fiction and fantasy genres, appreciating imaginative and thought-provoking themes.",
+          "taste": "Affinity for Sci-Fi and Fantasy"
+        }
+      ]
+    },
+    "user_id": 4990
+  }
+}

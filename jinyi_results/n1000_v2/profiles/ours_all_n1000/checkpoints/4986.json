@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "e9d4a70a03b991bc3e8bc42e989e56440f4a5de8965ac282aee9e68ffb98d43d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      377,
+      218,
+      1015,
+      542,
+      318,
+      221,
+      69,
+      365,
+      133,
+      45
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      39,
+      45,
+      69,
+      98,
+      114,
+      121,
+      133,
+      156,
+      210,
+      218,
+      221,
+      318,
+      365,
+      377,
+      542,
+      545,
+      612,
+      663,
+      744,
+      854,
+      1015,
+      1242,
+      1969
+    ],
+    "seed": 42,
+    "source_hash": "07b9236006b99de0ffae779dfa6fba7ff96f866fcecde30242cb307f35d539f4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4986,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bruce Willis",
+          "Madeleine Stowe",
+          "Brad Pitt",
+          "Christopher Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly, and patient Jeffrey Goines, the son of a famous virus expert, who may hold the key to the mysterious rogue group, the Army of the 12 Monkeys, thought to be responsible for unleashing the killer disease.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Twelve Monkeys"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Rufus Sewell",
+          "William Hurt",
+          "Kiefer Sutherland",
+          "Jennifer Connelly"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "release_date": "1998-02-27",
+        "release_year": "1998",
+        "title": "Dark City"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Dougray Scott",
+          "Thandie Newton",
+          "Ving Rhames"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt races across Australia and Spain to stop a former IMF agent from unleashing a genetically engineered biological weapon called Chimera. This mission, should Hunt choose to accept it, plunges him into the center of an international crisis of terrifying magnitude.",
+        "release_date": "2000-05-24",
+        "release_year": "2000",
+        "title": "Mission: Impossible 2"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Dominique Pinon",
+          "Marie-Laure Dougnac",
+          "Jean-Claude Dreyfus",
+          "Karin Viard"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "This bizarre surrealistic black comedy takes place in a small fictitious post-apocalyptic town where food is scarce and butcher Clapet has the macabre business of using human flesh to feed his customers. Yet when his daughter falls in love with his next slaughter victim things turn into chaos.",
+        "release_date": "1991-04-17",
+        "release_year": "1991",
+        "title": "Delicatessen"
+      },
+      {
+        "cast": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Connie Nielsen",
+          "Oliver Reed"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences. His battle skills serve him well, and he becomes one of the most famous and admired men to fight in the Colosseum. Determined to avenge himself against the man who took away his freedom and laid waste to his family, Maximus believes that he can use his fame and skill in the ring to avenge the loss of his family and former glory. As the gladiator begins to challenge his rule, Commodus decides to put his own fighting mettle to the test by squaring off with Maximus in a battle to the death.",
+        "release_date": "2000-05-01",
+        "release_year": "2000",
+        "title": "Gladiator"
+      },
+      {
+        "cast": [
+          "Ron Perlman",
+          "Dominique Pinon",
+          "Judith Vittet",
+          "Daniel Emilfork"
+        ],
+        "country": [
+          "France",
+          "Germany",
+          "Spain"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "A scientist in a surrealist society kidnaps children to steal their dreams, hoping that they slow his aging process.",
+        "release_date": "1995-05-16",
+        "release_year": "1995",
+        "title": "City of Lost Children, The"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      }
+    ],
+    "raw_user_id": "4986",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 23
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7136881550909525
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed"
+      ],
+      "liked_patterns": [
+        "Strong preference for action-packed films with sci-fi elements",
+        "Enjoyment of films that feature complex narratives and character-driven stories",
+        "Appreciation for movies that blend genres, particularly action, thriller, and drama"
+      ],
+      "summary": "Unique tastes: Action and Sci-Fi Fusion (The user enjoys movies that blend action with science fiction elements, often featuring thrilling plots and advanced technology.); Thriller Elements (The user appreciates films that incorporate suspense and tension, often found in the thriller genre.); Dramatic Storytelling (The user is drawn to films that offer deep emotional narratives and character development, particularly in the drama genre.); Fantasy and Adventure (The user enjoys films that transport them to imaginative worlds, combining elements of adventure with fantasy.); Unique and Thought-Provoking Concepts (The user favors films that present unconventional ideas and narratives, often found in sci-fi and surreal genres.). Liked patterns: Strong preference for action-packed films with sci-fi elements, Enjoyment of films that feature complex narratives and character-driven stories, Appreciation for movies that blend genres, particularly action, thriller, and drama. Disliked patterns: No significant patterns of dislike observed.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys movies that blend action with science fiction elements, often featuring thrilling plots and advanced technology.",
+          "taste": "Action and Sci-Fi Fusion"
+        },
+        {
+          "reason": "The user appreciates films that incorporate suspense and tension, often found in the thriller genre.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user is drawn to films that offer deep emotional narratives and character development, particularly in the drama genre.",
+          "taste": "Dramatic Storytelling"
+        },
+        {
+          "reason": "The user enjoys films that transport them to imaginative worlds, combining elements of adventure with fantasy.",
+          "taste": "Fantasy and Adventure"
+        },
+        {
+          "reason": "The user favors films that present unconventional ideas and narratives, often found in sci-fi and surreal genres.",
+          "taste": "Unique and Thought-Provoking Concepts"
+        }
+      ]
+    },
+    "user_id": 4986
+  }
+}

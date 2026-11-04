@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "48dc97744698dc4fbc12af6540d1fe5df213b73d886e03aadc1b2100ae811cd3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      39,
+      2305,
+      1713,
+      501,
+      117,
+      65,
+      382,
+      530,
+      918,
+      1682
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      34,
+      39,
+      40,
+      52,
+      61,
+      65,
+      79,
+      105,
+      117,
+      135,
+      245,
+      247,
+      268,
+      382,
+      436,
+      501,
+      530,
+      547,
+      705,
+      918,
+      1146,
+      1682,
+      1713,
+      1845,
+      2305
+    ],
+    "seed": 42,
+    "source_hash": "54da48939808a0a6721c23dcfa31dcbbf964d5f95ac0167619236764b2fa9062",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4844,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Dorothy McGuire",
+          "John Garfield",
+          "Celeste Holm"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Elia Kazan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A magazine writer poses as a Jew to expose anti-Semitism.",
+        "release_date": "1947-11-11",
+        "release_year": "1947",
+        "title": "Gentleman's Agreement"
+      },
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Bill Paxton",
+          "Harvey Keitel",
+          "Jon Bon Jovi"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Jonathan Mostow",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the midst of World War II, the battle under the sea rages and the Nazis have the upper hand as the Allies are unable to crack their war codes. However, after a wrecked U-boat sends out an SOS signal, the Allies realise this is their chance to seize the 'enigma coding machine'.",
+        "release_date": "2000-04-20",
+        "release_year": "2000",
+        "title": "U-571"
+      },
+      {
+        "cast": [
+          "Carlo Cecchi",
+          "Irene Grazioli",
+          "Anita Laurenzi",
+          "Tommaso Puntelli"
+        ],
+        "country": [
+          "Canada",
+          "Italy",
+          "United Kingdom"
+        ],
+        "director": "François Girard",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Spans 300 years in the life of one famed musical instrument that winds up in present-day Montreal on the auction block. Crafted by the Italian master Bussotti (Cecchi) in 1681, the red violin derives its unusual color from the human blood mixed into the finish. With this legacy, the violin travels to Austria, England, China, and Canada, leaving both beauty and tragedy in its wake.",
+        "release_date": "1998-09-10",
+        "release_year": "1998",
+        "title": "Red Violin, The (Le Violon rouge)"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Andie MacDowell",
+          "Chris Elliott",
+          "Stephen Tobolowsky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "release_date": "1993-02-11",
+        "release_year": "1993",
+        "title": "Groundhog Day"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      },
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Richard Gere",
+          "Edward Norton",
+          "Laura Linney",
+          "John Mahoney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Hoblit",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An arrogant, high-powered attorney takes on the case of a poor altar boy found running away from the scene of the grisly murder of the bishop who has taken him in. The case gets a lot more complex when the accused reveals that there may or may not have been a 3rd person in the room. The intensity builds when a surprise twist alters everyone's perception of the crime.",
+        "release_date": "1996-04-03",
+        "release_year": "1996",
+        "title": "Primal Fear"
+      },
+      {
+        "cast": [
+          "Shirley MacLaine",
+          "Ricki Lake",
+          "Brendan Fraser",
+          "Jane Krakowski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Benjamin",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Connie Doyle is eighteen and pregnant her boyfriend has kicked her out. She accidentaly ends up on a train where she meets Hugh Winterbourne and his wife Patricia who is pregnant. The train wrecks and she wakes up in the hosptial to find out that it's been assumed that she's Patricia. Hugh's mother takes her in and she falls in love with Hugh's brother Bill. Just when she thinks everything is going her way, her ex-boyfriend shows up.",
+        "release_date": "1996-04-19",
+        "release_year": "1996",
+        "title": "Mrs. Winterbourne"
+      }
+    ],
+    "raw_user_id": "4844",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 25
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9913632433199926
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for war-themed films",
+        "Negative reception of certain romantic comedies",
+        "Dislike for specific action thrillers"
+      ],
+      "liked_patterns": [
+        "High ratings for thrillers and dramas",
+        "Positive reception of animated and family films",
+        "Strong appreciation for comedies with romantic elements"
+      ],
+      "summary": "Unique tastes: Appreciation for Thrillers (The user rates multiple thrillers highly, indicating a strong preference for suspenseful and intense narratives.); Enjoyment of Drama (A significant number of dramas receive favorable ratings, suggesting a deep appreciation for character-driven stories.); Fondness for Comedies (Several comedies are rated positively, showing a liking for humor and light-hearted storytelling.); Interest in Action and Adventure (The user enjoys action and adventure films, as evidenced by high ratings for several titles in these genres.); Engagement with Animation and Family Films (The user rates animated and children's films positively, indicating a preference for family-friendly content.). Liked patterns: High ratings for thrillers and dramas, Positive reception of animated and family films, Strong appreciation for comedies with romantic elements. Disliked patterns: Low ratings for war-themed films, Negative reception of certain romantic comedies, Dislike for specific action thrillers.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple thrillers highly, indicating a strong preference for suspenseful and intense narratives.",
+          "taste": "Appreciation for Thrillers"
+        },
+        {
+          "reason": "A significant number of dramas receive favorable ratings, suggesting a deep appreciation for character-driven stories.",
+          "taste": "Enjoyment of Drama"
+        },
+        {
+          "reason": "Several comedies are rated positively, showing a liking for humor and light-hearted storytelling.",
+          "taste": "Fondness for Comedies"
+        },
+        {
+          "reason": "The user enjoys action and adventure films, as evidenced by high ratings for several titles in these genres.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user rates animated and children's films positively, indicating a preference for family-friendly content.",
+          "taste": "Engagement with Animation and Family Films"
+        }
+      ]
+    },
+    "user_id": 4844
+  }
+}

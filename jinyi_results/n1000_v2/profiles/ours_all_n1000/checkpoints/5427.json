@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "c930d4a2a0df1a4205de3aa7a5bd978cd92c7f2c9f41cb639d67139e988cdf9d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1121,
+      49,
+      563,
+      2569,
+      2039,
+      624,
+      2562,
+      561,
+      146,
+      582
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      16,
+      68,
+      72,
+      146,
+      171,
+      176,
+      260,
+      322,
+      336,
+      542,
+      561,
+      582,
+      601,
+      624,
+      630,
+      663,
+      724,
+      796,
+      798,
+      872,
+      1457,
+      1498,
+      1705,
+      2039,
+      2516
+    ],
+    "seed": 42,
+    "source_hash": "04812f3f8fafcbbb9e038fa9e8befbd0109c37a282564cd6c13fe270e47643ab",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5427,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "unemployed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael Moore",
+          "Roger B. Smith",
+          "Rhonda Britton",
+          "Fred Ross"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Moore",
+        "genres": [
+          "Comedy",
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "A documentary about the closure of General Motors' plant at Flint, Michigan, which resulted in the loss of 30,000 jobs. Details the attempts of filmmaker Michael Moore to get an interview with GM CEO Roger Smith.",
+        "release_date": "1989-09-01",
+        "release_year": "1989",
+        "title": "Roger & Me"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Groucho Marx",
+          "Harpo Marx",
+          "Chico Marx",
+          "Zeppo Marx"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leo McCarey",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Rufus T. Firefly is named president/dictator of bankrupt Freedonia and declares war on neighboring Sylvania over the love of wealthy Mrs. Teasdale.",
+        "release_date": "1933-11-17",
+        "release_year": "1933",
+        "title": "Duck Soup"
+      },
+      {
+        "cast": [
+          "David Byrne",
+          "Tina Weymouth",
+          "Chris Frantz",
+          "Jerry Harrison"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "David Byrne walks onto the stage and does a solo \"Psycho Killer\". Jerry Harrison, Tina Weymouth and Chris Frantz join him for two more songs. The crew is busy, still setting up. Then, three more musicians and two back-up singers join the band. Everybody sings, plays, harmonizes, dances, and runs. In this concert film, the Talking Heads hardly talk, don't stop, and always make sense.",
+        "release_date": "1984-11-16",
+        "release_year": "1984",
+        "title": "Stop Making Sense"
+      },
+      {
+        "cast": [
+          "Liza Minnelli",
+          "Michael York",
+          "Helmut Griem",
+          "Joel Grey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bob Fosse",
+        "genres": [
+          "Musical",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Inside the Kit Kat Club of 1931 Berlin, starry-eyed singer Sally Bowles and an impish emcee sound the clarion call to decadent fun, while outside a certain political party grows into a brutal force.",
+        "release_date": "1972-02-13",
+        "release_year": "1972",
+        "title": "Cabaret"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Faye Dunaway",
+          "Chief Dan George",
+          "Martin Balsam"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Arthur Penn",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Jack Crabb, looking back from extreme old age, tells of his life being raised by Indians and fighting with General Custer.",
+        "release_date": "1970-12-14",
+        "release_year": "1970",
+        "title": "Little Big Man"
+      },
+      {
+        "cast": [
+          "Ryan O'Neal",
+          "Marisa Berenson",
+          "Hardy Krüger",
+          "Diana Körner"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the Eighteenth Century, in a small village in Ireland, Redmond Barry is a young farm boy in love with his cousin Nora Brady. When Nora engages to the British Captain John Quin, Barry challenges him for a duel of pistols. He wins and escapes to Dublin, but is robbed on the road. Without any other alternative, Barry joins the British Army to fight in the Seven Years War.",
+        "release_date": "1975-12-18",
+        "release_year": "1975",
+        "title": "Barry Lyndon"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Walter Huston",
+          "Tim Holt",
+          "Bruce Bennett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Fred C. Dobbs and Bob Curtin, both down on their luck in Tampico, Mexico in 1925, meet up with a grizzled prospector named Howard and decide to join with him in search of gold in the wilds of central Mexico. Through enormous difficulties, they eventually succeed in finding gold, but bandits, the elements, and most especially greed threaten to turn their success into disaster.",
+        "release_date": "1948-01-24",
+        "release_year": "1948",
+        "title": "Treasure of the Sierra Madre, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Gene Hackman",
+          "Rene Russo",
+          "Danny DeVito"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Chili Palmer is a Miami mobster who gets sent by his boss, the psychopathic \"Bones\" Barboni, to collect a bad debt from Harry Zimm, a Hollywood producer who specializes in cheesy horror films. When Chili meets Harry's leading lady, the romantic sparks fly. After pitching his own life story as a movie idea, Chili learns that being a mobster and being a Hollywood producer really aren't all that different.",
+        "release_date": "1995-10-20",
+        "release_year": "1995",
+        "title": "Get Shorty"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Kyra Sedgwick",
+          "Forest Whitaker",
+          "Robert Duvall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "An ordinary man sees a bright light descend from the sky, and discovers he now has super-intelligence and telekinesis.",
+        "release_date": "1996-07-05",
+        "release_year": "1996",
+        "title": "Phenomenon"
+      }
+    ],
+    "raw_user_id": "5427",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 65
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6319323744744714
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [],
+      "liked_patterns": [
+        "Strong preference for comedies that blend humor with other genres like drama and romance.",
+        "Enjoyment of films that feature complex characters and emotional narratives.",
+        "Interest in films that combine action with adventure or war themes."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, indicating a preference for humor and light-hearted storytelling.); Drama (The user appreciates dramatic narratives, suggesting a taste for emotional depth and character development.); Crime and Thriller (The user is drawn to crime and thriller genres, indicating an interest in suspenseful and engaging plots.); Romance (The user enjoys romantic elements in films, suggesting a preference for stories that explore relationships.); Musical (The user has a liking for musicals, indicating an appreciation for music and performance in storytelling.). Liked patterns: Strong preference for comedies that blend humor with other genres like drama and romance., Enjoyment of films that feature complex characters and emotional narratives., Interest in films that combine action with adventure or war themes.. Disliked patterns: no repeated disliked pattern identified.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, indicating a preference for humor and light-hearted storytelling.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, suggesting a taste for emotional depth and character development.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user is drawn to crime and thriller genres, indicating an interest in suspenseful and engaging plots.",
+          "taste": "Crime and Thriller"
+        },
+        {
+          "reason": "The user enjoys romantic elements in films, suggesting a preference for stories that explore relationships.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user has a liking for musicals, indicating an appreciation for music and performance in storytelling.",
+          "taste": "Musical"
+        }
+      ]
+    },
+    "user_id": 5427
+  }
+}

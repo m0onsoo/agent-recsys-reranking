@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "a43704d898b4941ebac97f87cc37d174af5f6c148f0ecd5b9f3a55b1b1d349be",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1093,
+      487,
+      284,
+      144,
+      245,
+      695,
+      1629,
+      662,
+      1585,
+      136
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "886c4e51fcc3476aadcda730f1eacd04"
+    ],
+    "sampled_item_ids": [
+      24,
+      55,
+      62,
+      65,
+      72,
+      85,
+      93,
+      96,
+      105,
+      122,
+      237,
+      284,
+      382,
+      429,
+      487,
+      530,
+      695,
+      830,
+      1093,
+      1107,
+      1262,
+      1546,
+      1686,
+      1941,
+      1961
+    ],
+    "seed": 42,
+    "source_hash": "64a73d98de44a87e7ba9e9879e19e55c6062210a64fb3de218ce215963ae12a5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2324,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Toshirō Mifune",
+          "Takashi Shimura",
+          "Yoshio Inaba",
+          "Seiji Miyaguchi"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Akira Kurosawa",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "Japanese",
+        "overview": "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food. A giant battle occurs when 40 bandits attack the village.",
+        "release_date": "1954-04-26",
+        "release_year": "1954",
+        "title": "Seven Samurai (The Magnificent Seven) (Shichinin no samurai)"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Cybill Shepherd",
+          "Harvey Keitel",
+          "Jodie Foster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+        "release_date": "1976-02-07",
+        "release_year": "1976",
+        "title": "Taxi Driver"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Winona Ryder",
+          "Dianne Wiest",
+          "Alan Arkin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
+        "release_date": "1990-12-05",
+        "release_year": "1990",
+        "title": "Edward Scissorhands"
+      },
+      {
+        "cast": [
+          "Ben Cross",
+          "Ian Charleson",
+          "Cheryl Campbell",
+          "Alice Krige"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Hugh Hudson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of British athletes preparing for and competing in the 1924 Summer Olympics.",
+        "release_date": "1981-05-15",
+        "release_year": "1981",
+        "title": "Chariots of Fire"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Jean Arthur",
+          "Claude Rains",
+          "Edward Arnold"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Capra",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Naive and idealistic Jefferson Smith, leader of the Boy Rangers, is appointed on a lark by the spineless governor of his state. He is reunited with the state's senior senator--presidential hopeful and childhood hero, Senator Joseph Paine. In Washington, however, Smith discovers many of the shortcomings of the political process as his earnest goal of a national boys' camp leads to a conflict with the state political boss, Jim Taylor. Taylor first tries to corrupt Smith and then later attempts to destroy Smith through a scandal.",
+        "release_date": "1939-10-19",
+        "release_year": "1939",
+        "title": "Mr. Smith Goes to Washington"
+      },
+      {
+        "cast": [
+          "Jane Fonda",
+          "Donald Sutherland",
+          "Charles Cioffi",
+          "Roy Scheider"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alan J. Pakula",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "This acclaimed thriller stars Jane Fonda as Bree Daniel, a New York City call girl who becomes enmeshed in an investigation into the disappearance of a business executive. Detective John Klute is hired to follow Daniel, and eventually begins a romance with her, but it appears that he hasn't been the only person on her trail. When it becomes clear that Daniel is being targeted, it's up to her and Klute to figure out who is after her before it's too late.",
+        "release_date": "1971-06-21",
+        "release_year": "1971",
+        "title": "Klute"
+      },
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      },
+      {
+        "cast": [
+          "Anton Glanzelius",
+          "Tomas von Brömssen",
+          "Anki Lidén",
+          "Kicki Rundgren"
+        ],
+        "country": [
+          "Sweden"
+        ],
+        "director": "Lasse Hallström",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Swedish",
+        "overview": "A boy and his brother don't get along well. In order to let their ill mother rest, they are separated and sent to different relatives.",
+        "release_date": "1985-12-12",
+        "release_year": "1985",
+        "title": "My Life as a Dog (Mitt liv som hund)"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "John Randolph Jones",
+          "Jack Kehoe",
+          "Biff McGuire"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The real-life struggle of an honest New York City cop against a corrupt system.",
+        "release_date": "1973-12-05",
+        "release_year": "1973",
+        "title": "Serpico"
+      }
+    ],
+    "raw_user_id": "2324",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 73
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4785031166384198
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "A lack of interest in light-hearted comedies, as indicated by lower ratings for films in this category."
+      ],
+      "liked_patterns": [
+        "A consistent enjoyment of films that blend drama with war themes.",
+        "A preference for character-driven stories that evoke strong emotional responses.",
+        "An inclination towards thrillers that maintain suspense and tension."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.); War Themes (Several highly rated films explore war, indicating a particular interest in stories that address conflict and its consequences.); Thriller Elements (The user enjoys thrillers, as shown by multiple high ratings for films that incorporate suspense and tension.); Character-Driven Stories (A tendency to favor films that focus on character development and emotional depth is reflected in the ratings.); Romantic Subplots (The presence of romance in several liked films suggests an appreciation for narratives that intertwine love with other themes.). Liked patterns: A consistent enjoyment of films that blend drama with war themes., A preference for character-driven stories that evoke strong emotional responses., An inclination towards thrillers that maintain suspense and tension.. Disliked patterns: A lack of interest in light-hearted comedies, as indicated by lower ratings for films in this category..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Several highly rated films explore war, indicating a particular interest in stories that address conflict and its consequences.",
+          "taste": "War Themes"
+        },
+        {
+          "reason": "The user enjoys thrillers, as shown by multiple high ratings for films that incorporate suspense and tension.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "A tendency to favor films that focus on character development and emotional depth is reflected in the ratings.",
+          "taste": "Character-Driven Stories"
+        },
+        {
+          "reason": "The presence of romance in several liked films suggests an appreciation for narratives that intertwine love with other themes.",
+          "taste": "Romantic Subplots"
+        }
+      ]
+    },
+    "user_id": 2324
+  }
+}

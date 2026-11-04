@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "60366eb108c3f89f8c2f5da3f290129b923ce4faa9022b068104197fe9dcbb00",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      207,
+      435,
+      200,
+      1252,
+      221,
+      950,
+      2482,
+      1480,
+      142,
+      193
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "bf762a47beda45d2a7ec6df49a0187af"
+    ],
+    "sampled_item_ids": [
+      6,
+      10,
+      65,
+      123,
+      137,
+      142,
+      190,
+      214,
+      238,
+      435,
+      612,
+      665,
+      670,
+      712,
+      759,
+      840,
+      963,
+      1006,
+      1015,
+      1019,
+      1081,
+      1121,
+      1639,
+      2482,
+      2609
+    ],
+    "seed": 42,
+    "source_hash": "f67d247293f7c6f2873ff9db499d35b47a198746ee526934a99dcf0eb2b26f46",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2943,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Graham Chapman",
+          "John Cleese",
+          "Terry Gilliam",
+          "Eric Idle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "King Arthur, accompanied by his squire, recruits his Knights of the Round Table, including Sir Bedevere the Wise, Sir Lancelot the Brave, Sir Robin the Not-Quite-So-Brave-As-Sir-Lancelot and Sir Galahad the Pure. On the way, Arthur battles the Black Knight who, despite having had all his limbs chopped off, insists he can still fight. They reach Camelot, but Arthur decides not  to enter, as \"it is a silly place\".",
+        "release_date": "1975-03-13",
+        "release_year": "1974",
+        "title": "Monty Python and the Holy Grail"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Robert Duvall",
+          "Diane Keaton",
+          "Robert De Niro"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+        "release_date": "1974-12-20",
+        "release_year": "1974",
+        "title": "Godfather: Part II, The"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Katharine Ross",
+          "Strother Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In late 1890s Wyoming, Butch Cassidy is the affable, clever and talkative leader of the outlaw Hole in the Wall Gang. His closest companion is the laconic dead-shot 'Sundance Kid'. As the west rapidly becomes civilized, the law finally catches up to Butch, Sundance and their gang.  Chased doggedly by a special posse, the two decide to make their way to South America in hopes of evading their pursuers once and for all.",
+        "release_date": "1969-09-23",
+        "release_year": "1969",
+        "title": "Butch Cassidy and the Sundance Kid"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Charles Grodin",
+          "Yaphet Kotto",
+          "John Ashton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Brest",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "An accountant embezzles $15 million of mob money, jumps bail and is chased by bounty hunters, the FBI, and the Mafia.",
+        "release_date": "1988-07-20",
+        "release_year": "1988",
+        "title": "Midnight Run"
+      },
+      {
+        "cast": [
+          "Dominique Pinon",
+          "Marie-Laure Dougnac",
+          "Jean-Claude Dreyfus",
+          "Karin Viard"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "This bizarre surrealistic black comedy takes place in a small fictitious post-apocalyptic town where food is scarce and butcher Clapet has the macabre business of using human flesh to feed his customers. Yet when his daughter falls in love with his next slaughter victim things turn into chaos.",
+        "release_date": "1991-04-17",
+        "release_year": "1991",
+        "title": "Delicatessen"
+      },
+      {
+        "cast": [
+          "Jennifer Lopez",
+          "Vincent D'Onofrio",
+          "Vince Vaughn",
+          "Marianne Jean-Baptiste"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Tarsem Singh",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychotherapist journeys inside a comatose serial killer in the hopes of saving his latest victim.",
+        "release_date": "2000-08-17",
+        "release_year": "2000",
+        "title": "Cell, The"
+      },
+      {
+        "cast": [
+          "Tsutomu Yamazaki",
+          "Nobuko Miyamoto",
+          "Ken Watanabe",
+          "Koji Yakusho"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Juzo Itami",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "Japanese",
+        "overview": "A pair of truck drivers happen onto a decrepit roadside fast food stop selling ramen noodles. The widowed owner, Tampopo, pleads them to help her turn her establishment into a paragon of the \"art of noodle soup making\".",
+        "release_date": "1985-11-23",
+        "release_year": "1986",
+        "title": "Tampopo"
+      },
+      {
+        "cast": [
+          "Kenneth More",
+          "Ronald Allen",
+          "Robert Ayres",
+          "Honor Blackman"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Roy Ward Baker",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The sinking of the Titanic is presented in a highly realistic fashion in this tense British drama. The disaster is portrayed largely from the perspective of the ocean liner's second officer, Charles Lightoller. Despite numerous warnings about ice, the ship sails on, with Capt. Edward John Smith keeping it going at a steady clip. When the doomed vessel finally hits an iceberg, the crew and passengers discover that they lack enough lifeboats, and tragedy follows.",
+        "release_date": "1958-12-16",
+        "release_year": "1958",
+        "title": "Night to Remember, A"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Martin Landau",
+          "Sarah Jessica Parker",
+          "Patricia Arquette"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The mostly true story of the legendary \"worst director of all time\", who, with the help of his strange friends, filmed countless B-movies without ever becoming famous or successful.",
+        "release_date": "1994-09-27",
+        "release_year": "1994",
+        "title": "Ed Wood"
+      },
+      {
+        "cast": [
+          "Bruce Campbell",
+          "Sarah Berry",
+          "Dan Hicks",
+          "Kassie DePaiva"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Ash Williams and his girlfriend Linda find a log cabin in the woods with a voice recording from an archeologist who had recorded himself reciting ancient chants from “The Book of the Dead.” As they play the recording an evil power is unleashed taking over Linda’s body.",
+        "release_date": "1987-03-13",
+        "release_year": "1987",
+        "title": "Evil Dead II (Dead By Dawn)"
+      }
+    ],
+    "raw_user_id": "2943",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 100
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6794408289414408
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [],
+      "liked_patterns": [
+        "Preference for films with strong action sequences",
+        "Enjoyment of narratives that include elements of adventure",
+        "Attraction to films that combine humor with serious themes"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that combine action with adventurous themes.); Comedy and Drama (The user appreciates films that blend humor with deeper emotional narratives.); Sci-Fi and Fantasy (The user is drawn to imaginative stories that explore futuristic or fantastical concepts.); War and Historical Themes (The user favors films that depict war and its impact on humanity.); Crime and Thriller Elements (The user enjoys narratives that involve crime and suspenseful storytelling.). Liked patterns: Preference for films with strong action sequences, Enjoyment of narratives that include elements of adventure, Attraction to films that combine humor with serious themes. Disliked patterns: no repeated disliked pattern identified.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that combine action with adventurous themes.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that blend humor with deeper emotional narratives.",
+          "taste": "Comedy and Drama"
+        },
+        {
+          "reason": "The user is drawn to imaginative stories that explore futuristic or fantastical concepts.",
+          "taste": "Sci-Fi and Fantasy"
+        },
+        {
+          "reason": "The user favors films that depict war and its impact on humanity.",
+          "taste": "War and Historical Themes"
+        },
+        {
+          "reason": "The user enjoys narratives that involve crime and suspenseful storytelling.",
+          "taste": "Crime and Thriller Elements"
+        }
+      ]
+    },
+    "user_id": 2943
+  }
+}

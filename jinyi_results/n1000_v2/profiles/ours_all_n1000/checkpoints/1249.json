@@ -1,0 +1,346 @@
+{
+  "checkpoint_hash": "437b7f2f7db1d8bab90a31182ffc30c60162d6d9f4709eec13747f28e9d2c70d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      749,
+      218,
+      715,
+      65,
+      113,
+      665,
+      661,
+      744,
+      991,
+      125
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5ce77aed36c14a0c9813d1d487fcb3d0"
+    ],
+    "sampled_item_ids": [
+      1,
+      65,
+      98,
+      113,
+      125,
+      133,
+      218,
+      539,
+      661,
+      665,
+      715,
+      744,
+      749,
+      759,
+      962,
+      973,
+      990,
+      991,
+      995,
+      1344,
+      1476
+    ],
+    "seed": 42,
+    "source_hash": "3d365664e5c0351f4c75353f3fa2e4f35f4ca582ec6627e73341126a1944758b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1249,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Charlton Heston",
+          "Roddy McDowall",
+          "Kim Hunter",
+          "Maurice Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An  U.S. Spaceship lands on a desolate planet, stranding astronaut Taylor in a world dominated by apes, 2000 years into the future, who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
+        "release_date": "1968-02-07",
+        "release_year": "1968",
+        "title": "Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Michael Biehn",
+          "Linda Hamilton",
+          "Paul Winfield"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Terminator, The"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Michael Biehn",
+          "James Remar",
+          "Paul Reiser"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
+        "release_date": "1986-07-18",
+        "release_year": "1986",
+        "title": "Aliens"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Karen Allen",
+          "Charles Martin Smith",
+          "Richard Jaeckel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An alien takes the form of a young widow's husband and asks her to drive him from Wisconsin to Arizona. The government tries to stop them.",
+        "release_date": "1984-12-13",
+        "release_year": "1984",
+        "title": "Starman"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Bruce Spence",
+          "Michael Preston",
+          "Max Phipps"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Max Rockatansky returns as the heroic loner who drives the dusty roads of a postapocalyptic Australian Outback in an unending search for gasoline. Arrayed against him and the other scraggly defendants of a fuel-depot encampment are the bizarre warriors commanded by the charismatic Lord Humungus, a violent leader whose scruples are as barren as the surrounding landscape.",
+        "release_date": "1981-12-24",
+        "release_year": "1981",
+        "title": "Mad Max 2 (a.k.a. The Road Warrior)"
+      },
+      {
+        "cast": [
+          "Richard Attenborough",
+          "Elizabeth Perkins",
+          "Dylan McDermott",
+          "J.T. Walsh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Les Mayfield",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A little girl discovers dreams can come true if you really believe. Six-year-old Susan Walker has doubts about childhood's most enduring miracle - Santa Claus. Her mother told her the 'secret' about Santa a long time ago. But after meeting a special department store Santa who's convinced he's the real thing, Susan is given the most precious gift of all something to believe in.",
+        "release_date": "1994-11-18",
+        "release_year": "1994",
+        "title": "Miracle on 34th Street"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "Keith David",
+          "Wilford Brimley",
+          "Donald Moffat"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Scientists in the Antarctic are confronted by a shape-shifting alien that assumes the appearance of the people that it kills.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Thing, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      }
+    ],
+    "raw_user_id": "1249",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 21
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.46614268276901133
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 10
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for a specific action film",
+        "Dislike for a sci-fi film that did not meet expectations"
+      ],
+      "liked_patterns": [
+        "High ratings for sci-fi films",
+        "Positive ratings for action and adventure genres",
+        "Consistent appreciation for drama and thriller elements"
+      ],
+      "summary": "Unique tastes: Sci-Fi Enthusiast (The user enjoys a variety of sci-fi films, often rating them highly, indicating a strong preference for this genre.); Action Lover (The user rates many action films positively, suggesting a consistent enjoyment of action-packed narratives.); Drama Appreciation (The user shows a liking for drama films, as evidenced by several positive ratings in this genre.); Thriller Interest (The user has rated multiple thrillers favorably, indicating a taste for suspenseful and intense storytelling.); Adventure Seeker (The user enjoys adventure films, often rating them positively, reflecting a preference for exploration and excitement.). Liked patterns: High ratings for sci-fi films, Positive ratings for action and adventure genres, Consistent appreciation for drama and thriller elements. Disliked patterns: Negative rating for a specific action film, Dislike for a sci-fi film that did not meet expectations.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of sci-fi films, often rating them highly, indicating a strong preference for this genre.",
+          "taste": "Sci-Fi Enthusiast"
+        },
+        {
+          "reason": "The user rates many action films positively, suggesting a consistent enjoyment of action-packed narratives.",
+          "taste": "Action Lover"
+        },
+        {
+          "reason": "The user shows a liking for drama films, as evidenced by several positive ratings in this genre.",
+          "taste": "Drama Appreciation"
+        },
+        {
+          "reason": "The user has rated multiple thrillers favorably, indicating a taste for suspenseful and intense storytelling.",
+          "taste": "Thriller Interest"
+        },
+        {
+          "reason": "The user enjoys adventure films, often rating them positively, reflecting a preference for exploration and excitement.",
+          "taste": "Adventure Seeker"
+        }
+      ]
+    },
+    "user_id": 1249
+  }
+}

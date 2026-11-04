@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "f57c6aaf763524a11d785b13e8055c1c9aa1386466583c670f1558545211e262",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      351,
+      455,
+      185,
+      1158,
+      920,
+      93,
+      135,
+      355,
+      909,
+      924
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e5963a5dd06c40cf9827d6fa36f18f4f"
+    ],
+    "sampled_item_ids": [
+      5,
+      49,
+      83,
+      87,
+      93,
+      274,
+      280,
+      292,
+      306,
+      318,
+      351,
+      355,
+      516,
+      525,
+      552,
+      861,
+      882,
+      909,
+      924,
+      936,
+      942,
+      961,
+      1159,
+      1160,
+      2057
+    ],
+    "seed": 42,
+    "source_hash": "6f30861d695de89720837a8cecc0a427539e4e043e175578f60adea8a8909841",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1563,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "Under 18",
+      "gender": "female",
+      "occupation": "K-12 student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jason Schwartzman",
+          "Olivia Williams",
+          "Bill Murray",
+          "Seymour Cassel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Anderson",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a beautiful first-grade teacher arrives at a prep school, she soon attracts the attention of an ambitious teenager named Max, who quickly falls in love with her. Max turns to the father of two of his schoolmates for advice on how to woo the teacher. However, the situation soon gets complicated when Max's new friend becomes involved with her, setting the two pals against one another in a war for her attention.",
+        "release_date": "1998-09-17",
+        "release_year": "1998",
+        "title": "Rushmore"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Nicole Kidman",
+          "Madison Eginton",
+          "Jackie Sawiris"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After Dr. Bill Hartford's wife, Alice, admits to having sexual fantasies about a man she met, Bill becomes obsessed with having a sexual encounter. He discovers an underground sexual group and attends one of their meetings -- and quickly discovers that he is in over his head.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Eyes Wide Shut"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Renée Zellweger",
+          "Anthony Anderson",
+          "Robert Forster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Rhode Island State Trooper Charlie Baileygates has a multiple personality disorder. One personality is crazy and aggressive, while the other is more friendly and laid back. Both of these personalities fall in love with the same woman named Irene after Charlie loses his medication.",
+        "release_date": "2000-06-22",
+        "release_year": "2000",
+        "title": "Me, Myself and Irene"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Catherine Zeta-Jones",
+          "Will Patton",
+          "Maury Chaykin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two thieves, who travel in elegant circles, try to outsmart each other and, in the process, end up falling in love.",
+        "release_date": "1999-04-29",
+        "release_year": "1999",
+        "title": "Entrapment"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Kirsten Dunst",
+          "Michelle Williams",
+          "Will Ferrell",
+          "Dan Hedaya"
+        ],
+        "country": [
+          "Canada",
+          "France",
+          "United States of America"
+        ],
+        "director": "Andrew Fleming",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Comedy about two high school girls who wander off during a class trip to the White House and meet President Richard Nixon. They become the official dog walkers for Nixon's dog Checkers, and become his secret advisors during the Watergate scandal.",
+        "release_date": "1999-08-04",
+        "release_year": "1999",
+        "title": "Dick"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Robert Duvall",
+          "Tony Shalhoub",
+          "William H. Macy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Zaillian",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Portuguese",
+        "overview": "Jan Schlickmann is a cynical lawyer who goes out to \"get rid of\" a case, only to find out it is potentially worth millions. The case becomes his obsession, to the extent that he is willing to give up everything - including his career and his clients' goals, in order to continue the case against all odds.",
+        "release_date": "1998-03-05",
+        "release_year": "1998",
+        "title": "Civil Action, A"
+      },
+      {
+        "cast": [
+          "Val Kilmer",
+          "Ralph Fiennes",
+          "Patrick Stewart",
+          "Michelle Pfeiffer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brenda Chapman",
+        "genres": [
+          "Animation",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "This is the extraordinary tale of two brothers named Moses and Ramses, one born of royal blood, and one an orphan with a secret past. Growing up the best of friends, they share a strong bond of free-spirited youth and good-natured rivalry. But the truth will ultimately set them at odds, as one becomes the ruler of the most powerful empire on earth, and the other the chosen leader of his people! Their final confrontation will forever change their lives and the world.",
+        "release_date": "1998-12-15",
+        "release_year": "1998",
+        "title": "Prince of Egypt, The"
+      }
+    ],
+    "raw_user_id": "1563",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 68
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8908464706683064
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to sci-fi films that lack engaging storytelling or character development."
+      ],
+      "liked_patterns": [
+        "Strong preference for character-driven dramas and narratives with emotional depth.",
+        "High ratings for comedies that blend humor with other genres, such as romance and drama.",
+        "Positive reception of animated films that appeal to both children and adults."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates many drama films highly, indicating a strong preference for character-driven narratives.); Enjoyment of Comedy (A significant number of comedies received high ratings, suggesting a fondness for humor and lighthearted storytelling.); Interest in Action and Adventure (Several action and adventure films are rated positively, reflecting an attraction to thrilling and dynamic plots.); Affinity for Animation (The user enjoys animated films, as evidenced by high ratings for multiple titles in this genre.); Taste for Romance (Romantic films are frequently rated well, indicating a liking for love stories and emotional connections.). Liked patterns: Strong preference for character-driven dramas and narratives with emotional depth., High ratings for comedies that blend humor with other genres, such as romance and drama., Positive reception of animated films that appeal to both children and adults.. Disliked patterns: Negative response to sci-fi films that lack engaging storytelling or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates many drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "A significant number of comedies received high ratings, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "Several action and adventure films are rated positively, reflecting an attraction to thrilling and dynamic plots.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user enjoys animated films, as evidenced by high ratings for multiple titles in this genre.",
+          "taste": "Affinity for Animation"
+        },
+        {
+          "reason": "Romantic films are frequently rated well, indicating a liking for love stories and emotional connections.",
+          "taste": "Taste for Romance"
+        }
+      ]
+    },
+    "user_id": 1563
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "dcd7fe66580c153e4c8f83f37db2923c1c282a6360678b83e943d94b99bf799d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      650,
+      187,
+      221,
+      1155,
+      98,
+      2384,
+      125,
+      1081,
+      1476,
+      1040
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      7,
+      65,
+      93,
+      122,
+      125,
+      152,
+      211,
+      213,
+      214,
+      339,
+      644,
+      729,
+      767,
+      996,
+      1040,
+      1081,
+      1155,
+      1238,
+      1252,
+      1451,
+      1476,
+      1705,
+      2064,
+      2228,
+      2384
+    ],
+    "seed": 42,
+    "source_hash": "97480574a239e54dcb9e45e6f9322613045e7803c70ff7d437f41d7b7d1de8ea",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 6020,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Judy Garland",
+          "Margaret O'Brien",
+          "Mary Astor",
+          "Lucille Bremer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Vincente Minnelli",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "In the year before the 1904 St Louis World's Fair, the four Smith daughters learn lessons of life and love, even as they prepare for a reluctant move to New York.",
+        "release_date": "1944-11-23",
+        "release_year": "1944",
+        "title": "Meet Me in St. Louis"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Sean Connery",
+          "Denholm Elliott",
+          "Alison Doody"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Henry Jones Sr. suddenly goes missing while pursuing the Holy Grail, eminent archaeologist Indiana must team up with Marcus Brody, Sallah and Elsa Schneider to follow in his father's footsteps and stop the Nazis from recovering the power of eternal life.",
+        "release_date": "1989-05-24",
+        "release_year": "1989",
+        "title": "Indiana Jones and the Last Crusade"
+      },
+      {
+        "cast": [
+          "Dominique Pinon",
+          "Marie-Laure Dougnac",
+          "Jean-Claude Dreyfus",
+          "Karin Viard"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "This bizarre surrealistic black comedy takes place in a small fictitious post-apocalyptic town where food is scarce and butcher Clapet has the macabre business of using human flesh to feed his customers. Yet when his daughter falls in love with his next slaughter victim things turn into chaos.",
+        "release_date": "1991-04-17",
+        "release_year": "1991",
+        "title": "Delicatessen"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Ursula Andress",
+          "Joseph Wiseman",
+          "Jack Lord"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terence Young",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "In the film that launched the James Bond saga, Agent 007 battles mysterious Dr. No, a scientific genius bent on destroying the U.S. space program. As the countdown to disaster begins, Bond must go to Jamaica, where he encounters beautiful Honey Ryder, to confront a megalomaniacal villain in his massive island headquarters.",
+        "release_date": "1962-10-04",
+        "release_year": "1962",
+        "title": "Dr. No"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "George C. Scott",
+          "Ed Flanders",
+          "Brad Dourif",
+          "Jason Miller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Peter Blatty",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Set fifteen years after the original film, The Exorcist III centers around the philosophical Lieutenant William F. Kinderman who is investigating a baffling series of murders around Georgetown that all contain the hallmarks of The Gemini, a deceased serial killer. It eventually leads him to a catatonic patient in a psychiatric hospital who has recently started to speak, claiming he is the The Gemini and detailing the murders, but bears a striking resemblance to Father Damien Karras.",
+        "release_date": "1990-08-17",
+        "release_year": "1990",
+        "title": "Exorcist III, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Errol Flynn",
+          "Olivia de Havilland",
+          "Basil Rathbone",
+          "Claude Rains"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Curtiz",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Robin Hood (Errol Flynn) fights nobly for justice against the evil Sir Guy of Gisbourne (Basil Rathbone) while striving to win the hand of the beautiful Maid Marian (Olivia de Havilland).",
+        "release_date": "1938-05-13",
+        "release_year": "1938",
+        "title": "Adventures of Robin Hood, The"
+      },
+      {
+        "cast": [
+          "Lee Marvin",
+          "Ernest Borgnine",
+          "Charles Bronson",
+          "Jim Brown"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Robert Aldrich",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "12 American military prisoners in World War II are ordered to infiltrate a well-guarded enemy château and kill the Nazi officers vacationing there. The soldiers, most of whom are facing death sentences for a variety of violent crimes, agree to the mission and the possible commuting of their sentences.",
+        "release_date": "1967-06-15",
+        "release_year": "1967",
+        "title": "Dirty Dozen, The"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Robert Mitchum",
+          "Polly Bergen",
+          "Lori Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "J. Lee Thompson",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Bowden witnesses a rape committed by Max Cady and testifies against him. When released after 8 years in prison, Cady begins stalking Bowden and his family but is always clever enough not to violate the law.",
+        "release_date": "1962-04-12",
+        "release_year": "1962",
+        "title": "Cape Fear"
+      }
+    ],
+    "raw_user_id": "6020",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 35
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5701043133446037
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films with lower action intensity",
+        "Dislike for films that lack strong narrative engagement",
+        "Dislike for films that do not incorporate suspenseful elements"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure genres",
+        "High ratings for films with thriller elements",
+        "Enjoyment of films that blend drama with action"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Thriller and Suspense (The user appreciates films that create tension and suspense, often found in the thriller genre.); Drama with Strong Themes (The user is drawn to dramatic narratives that explore complex themes and character development.); Film-Noir Elements (The user has a preference for films that incorporate film-noir characteristics, such as moral ambiguity and stylistic visuals.); Romantic Elements in Action (The user enjoys action films that also incorporate romantic subplots.). Liked patterns: Strong preference for action and adventure genres, High ratings for films with thriller elements, Enjoyment of films that blend drama with action. Disliked patterns: Dislike for films with lower action intensity, Dislike for films that lack strong narrative engagement, Dislike for films that do not incorporate suspenseful elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that create tension and suspense, often found in the thriller genre.",
+          "taste": "Thriller and Suspense"
+        },
+        {
+          "reason": "The user is drawn to dramatic narratives that explore complex themes and character development.",
+          "taste": "Drama with Strong Themes"
+        },
+        {
+          "reason": "The user has a preference for films that incorporate film-noir characteristics, such as moral ambiguity and stylistic visuals.",
+          "taste": "Film-Noir Elements"
+        },
+        {
+          "reason": "The user enjoys action films that also incorporate romantic subplots.",
+          "taste": "Romantic Elements in Action"
+        }
+      ]
+    },
+    "user_id": 6020
+  }
+}

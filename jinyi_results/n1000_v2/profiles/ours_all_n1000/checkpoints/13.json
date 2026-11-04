@@ -1,0 +1,345 @@
+{
+  "checkpoint_hash": "9fb8cd9f642c497cb38b8951a150ce6e953c1358f2dc06fd0df0d8d787e79b59",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      84,
+      860,
+      114,
+      759,
+      205,
+      849,
+      547,
+      576,
+      841,
+      852
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "3d4561869d75406b908eca6f67799709"
+    ],
+    "sampled_item_ids": [
+      7,
+      49,
+      65,
+      79,
+      85,
+      91,
+      93,
+      113,
+      147,
+      151,
+      157,
+      278,
+      320,
+      547,
+      587,
+      588,
+      742,
+      768,
+      837,
+      839,
+      845,
+      849,
+      850,
+      859,
+      860
+    ],
+    "seed": 42,
+    "source_hash": "2f27d22dc88e9e92bd9a7d8a33e0c535f8b56aadb54cab09697355ca6db534c1",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 13,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mel Gibson",
+          "Jodie Foster",
+          "James Garner",
+          "Graham Greene"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Maverick is a gambler who would rather con someone than fight them. He needs an additional three thousand dollars in order to enter a Winner Take All poker game that begins in a few days. He tries to win some, tries to collect a few debts, and recover a little loot for the reward. He joins forces with a woman gambler with a marvelous southern accent as the two both try and enter the game.",
+        "release_date": "1994-05-20",
+        "release_year": "1994",
+        "title": "Maverick"
+      },
+      {
+        "cast": [
+          "Burt Lancaster",
+          "Nick Cravat",
+          "Eva Bartok",
+          "Torin Thatcher"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Siodmak",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Burt Lancaster plays a pirate with a taste for intrigue and acrobatics who involves himself in the goings on of a revolution in the Caribbean in the late 1700s. A light hearted adventure involving prison breaks, an oddball Scientist, sailing ships, naval fights, and tons of swordplay.",
+        "release_date": "1952-09-27",
+        "release_year": "1952",
+        "title": "Crimson Pirate, The"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "John Cleese",
+          "Shelley Duvall",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Young history buff Kevin can scarcely believe it when six dwarfs emerge from his closet one night. Former employees of the Supreme Being, they've purloined a map charting all of the holes in the fabric of time and are using it to steal treasures from different historical eras. Taking Kevin with them, they variously drop in on Napoleon, Robin Hood and King Agamemnon before the Supreme Being catches up with them.",
+        "release_date": "1981-07-13",
+        "release_year": "1981",
+        "title": "Time Bandits"
+      },
+      {
+        "cast": [
+          "Jon Voight",
+          "Burt Reynolds",
+          "Ned Beatty",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Boorman",
+        "genres": [
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Intent on seeing the Cahulawassee River before it's turned into one huge lake, outdoor fanatic Lewis Medlock takes his friends on a river-rafting trip they'll never forget into the dangerous American back-country.",
+        "release_date": "1972-07-30",
+        "release_year": "1972",
+        "title": "Deliverance"
+      },
+      {
+        "cast": [
+          "Nicholas Rowe",
+          "Alan Cox",
+          "Sophie Ward",
+          "Anthony Higgins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Sherlock Holmes and Dr. Watson meet as boys in an English Boarding school. Holmes is known for his deductive ability even as a youth, amazing his classmates with his abilities. When they discover a plot to murder a series of British business men by an Egyptian cult, they move to stop it.",
+        "release_date": "1985-12-04",
+        "release_year": "1985",
+        "title": "Young Sherlock Holmes"
+      },
+      {
+        "cast": [
+          "Jürgen Prochnow",
+          "Herbert Grönemeyer",
+          "Klaus Wennemann",
+          "Hubertus Bengsch"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "German",
+        "overview": "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.",
+        "release_date": "1981-09-16",
+        "release_year": "1981",
+        "title": "Boat, The (Das Boot)"
+      },
+      {
+        "cast": [
+          "Val Kilmer",
+          "Tommy Lee Jones",
+          "Jim Carrey",
+          "Nicole Kidman"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "The Dark Knight of Gotham City confronts a dastardly duo: Two-Face and the Riddler. Formerly District Attorney Harvey Dent, Two-Face believes Batman caused the courtroom accident which left him disfigured on one side. And Edward Nygma, computer-genius and former employee of millionaire Bruce Wayne, is out to get the philanthropist; as The Riddler. Former circus acrobat Dick Grayson, his family killed by Two-Face, becomes Wayne's ward and Batman's new partner Robin.",
+        "release_date": "1995-06-16",
+        "release_year": "1995",
+        "title": "Batman Forever"
+      },
+      {
+        "cast": [
+          "Gene Hackman",
+          "Christopher Reeve",
+          "Ned Beatty",
+          "Jackie Cooper"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Three escaped criminals from the planet Krypton test the Man of Steel's mettle. Led by Gen. Zod, the Kryptonians take control of the White House and partner with Lex Luthor to destroy Superman and rule the world. But Superman, who attempts to make himself human in order to get closer to Lois, realizes he has a responsibility to save the planet.",
+        "release_date": "1980-12-04",
+        "release_year": "1980",
+        "title": "Superman II"
+      },
+      {
+        "cast": [
+          "David Niven",
+          "Cantinflas",
+          "Finlay Currie",
+          "Robert Morley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Anderson",
+        "genres": [
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Based on the famous book by Jules Verne the movie follows Phileas Fogg on his journey around the world. Which has to be completed within 80 days, a very short period for those days.",
+        "release_date": "1956-10-17",
+        "release_year": "1956",
+        "title": "Around the World in 80 Days"
+      }
+    ],
+    "raw_user_id": "13",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 88
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.43750975462466274
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films with low engagement or poor execution in storytelling",
+        "Dislike for films that lack a strong narrative or character development"
+      ],
+      "liked_patterns": [
+        "Preference for action and adventure genres",
+        "Enjoyment of films with dramatic war themes",
+        "Interest in romantic subplots within action films"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Drama with War Themes (The user appreciates films that combine dramatic storytelling with war-related themes.); Romantic Elements in Action (The user is drawn to action films that incorporate romantic subplots.); Thriller Elements (The user enjoys films that create suspense and tension, often found in action and adventure genres.); Comedy in Adventure (The user likes films that blend humor with adventure, providing a light-hearted take on exciting narratives.). Liked patterns: Preference for action and adventure genres, Enjoyment of films with dramatic war themes, Interest in romantic subplots within action films. Disliked patterns: Dislike for films with low engagement or poor execution in storytelling, Dislike for films that lack a strong narrative or character development.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that combine dramatic storytelling with war-related themes.",
+          "taste": "Drama with War Themes"
+        },
+        {
+          "reason": "The user is drawn to action films that incorporate romantic subplots.",
+          "taste": "Romantic Elements in Action"
+        },
+        {
+          "reason": "The user enjoys films that create suspense and tension, often found in action and adventure genres.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user likes films that blend humor with adventure, providing a light-hearted take on exciting narratives.",
+          "taste": "Comedy in Adventure"
+        }
+      ]
+    },
+    "user_id": 13
+  }
+}

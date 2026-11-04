@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "9314905099f1fda38f1016a81d80efdd2a01810044d880fb2174dfba99029876",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      318,
+      407,
+      507,
+      809,
+      45,
+      1854,
+      168,
+      789,
+      2237,
+      940
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "dfde300bbca947ab958fb1ce1d9ad5d7"
+    ],
+    "sampled_item_ids": [
+      1,
+      14,
+      28,
+      44,
+      45,
+      93,
+      168,
+      247,
+      318,
+      369,
+      407,
+      446,
+      507,
+      516,
+      789,
+      791,
+      809,
+      920,
+      940,
+      1031,
+      1669,
+      1854,
+      2158,
+      2237
+    ],
+    "seed": 42,
+    "source_hash": "4fac16b19cff3515aab816f4e8bc15881c50e499ae9d6bf54d1790d5859d9a45",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 784,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Heath Ledger",
+          "Joely Richardson",
+          "Jason Isaacs"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "After proving himself on the field of battle in the French and Indian War, Benjamin Martin wants nothing more to do with such things, preferring the simple life of a farmer. But when his son Gabriel enlists in the army to defend their new nation, America, against the British, Benjamin reluctantly returns to his old life to protect his son.",
+        "release_date": "2000-06-28",
+        "release_year": "2000",
+        "title": "Patriot, The"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Edward Furlong",
+          "Beverly D'Angelo",
+          "Avery Brooks"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Kaye",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Derek Vineyard is paroled after serving 3 years in prison for killing two thugs who tried to break into/steal his truck. Through his brother, Danny Vineyard's narration, we learn that before going to prison, Derek was a skinhead and the leader of a violent white supremacist gang that committed acts of racial crime throughout L.A. and his actions greatly influenced Danny. Reformed and fresh out of prison, Derek severs contact with the gang and becomes determined to keep Danny from going down the same violent path as he did.",
+        "release_date": "1998-10-30",
+        "release_year": "1998",
+        "title": "American History X"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Jada Pinkett Smith",
+          "James Coburn",
+          "Larry Miller"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom Shadyac",
+        "genres": [
+          "Comedy",
+          "Fantasy",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eddie Murphy stars as shy Dr. Sherman Klump, a kind, brilliant, 'calorifically challenged' genetic professor. When beautiful Carla Purty joins the university faculty, Sherman grows desperate to whittle his 400-pound frame down to size and win her heart. So, with one swig of his experimental fat-reducing serum, Sherman becomes 'Buddy Love', a fast-talking, pumped-up , plumped down Don Juan.",
+        "release_date": "1996-06-26",
+        "release_year": "1996",
+        "title": "Nutty Professor, The"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Charlize Theron",
+          "Joe Morton",
+          "Clea DuVall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rand Ravich",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When astronaut Spencer Armacost returns to Earth after a mission that nearly cost him his life, he decides to take a desk job in order to see his beautiful wife, Jillian, more often. Gradually, Jillian notices that Spencer's personality seems to have changed, but her concerns fade when she discovers that she's pregnant. As Jillian grows closer to becoming a mother, her suspicions about Spencer return. Why does it seem as if he's a different person?",
+        "release_date": "1999-08-26",
+        "release_year": "1999",
+        "title": "Astronaut's Wife, The"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Morgan Freeman",
+          "Bob Gunton",
+          "Clancy Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Shawshank Redemption, The"
+      },
+      {
+        "cast": [
+          "Jason Biggs",
+          "Chris Klein",
+          "Thomas Ian Nicholas",
+          "Alyson Hannigan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Weitz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a high-school party, four friends find that losing their collective virginity isn't as easy as they had thought. But they still believe that they need to do so before college. To motivate themselves, they enter a pact to all \"score.\" by their senior prom.",
+        "release_date": "1999-07-09",
+        "release_year": "1999",
+        "title": "American Pie"
+      },
+      {
+        "cast": [
+          "Piper Perabo",
+          "Adam Garcia",
+          "John Goodman",
+          "Izabella Miko"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David McNally",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Graced with a velvet voice, 21-year-old Violet Sanford heads to New York to pursue her dream of becoming a songwriter only to find her aspirations sidelined by the accolades and notoriety she receives at her \"day\" job as a barmaid at Coyote Ugly. The \"Coyotes\" as they are affectionately called tantalize customers and the media alike with their outrageous antics, making Coyote Ugly the watering hole for guys on the prowl.",
+        "release_date": "2000-07-30",
+        "release_year": "2000",
+        "title": "Coyote Ugly"
+      },
+      {
+        "cast": [
+          "Eli Marienthal",
+          "Jennifer Aniston",
+          "Vin Diesel",
+          "Christopher McDonald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brad Bird",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "In the small town of Rockwell, Maine in October 1957, a giant metal machine befriends a nine-year-old boy and ultimately finds its humanity by unselfishly saving people from their own fears and prejudices.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Iron Giant, The"
+      }
+    ],
+    "raw_user_id": "784",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 24
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3187567752201959
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to comedies that lack depth or engaging storylines."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend Drama with other genres like Action and Romance.",
+        "Consistent enjoyment of films that feature strong character development and emotional depth.",
+        "Positive reception of films that incorporate elements of suspense and thrill."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (The majority of highly rated films fall within the Drama genre, indicating a deep appreciation for character-driven narratives.); Enjoyment of Action films (Several Action films received high ratings, suggesting a liking for intense and dynamic storytelling.); Appreciation for Comedy (Multiple comedies are rated highly, showing a preference for humor and light-hearted themes.); Interest in Crime and Thriller elements (Films with Crime and Thriller elements are well-rated, indicating a taste for suspenseful and engaging plots.); Fondness for Romance in narratives (Romantic elements appear in several highly rated films, suggesting a liking for stories that explore relationships.). Liked patterns: High ratings for films that blend Drama with other genres like Action and Romance., Consistent enjoyment of films that feature strong character development and emotional depth., Positive reception of films that incorporate elements of suspense and thrill.. Disliked patterns: Negative response to comedies that lack depth or engaging storylines..",
+      "unique_tastes": [
+        {
+          "reason": "The majority of highly rated films fall within the Drama genre, indicating a deep appreciation for character-driven narratives.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Several Action films received high ratings, suggesting a liking for intense and dynamic storytelling.",
+          "taste": "Enjoyment of Action films"
+        },
+        {
+          "reason": "Multiple comedies are rated highly, showing a preference for humor and light-hearted themes.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "Films with Crime and Thriller elements are well-rated, indicating a taste for suspenseful and engaging plots.",
+          "taste": "Interest in Crime and Thriller elements"
+        },
+        {
+          "reason": "Romantic elements appear in several highly rated films, suggesting a liking for stories that explore relationships.",
+          "taste": "Fondness for Romance in narratives"
+        }
+      ]
+    },
+    "user_id": 784
+  }
+}

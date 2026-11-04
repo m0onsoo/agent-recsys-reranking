@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "ae10c7e1591d6ae7f20e0588d053e7c441bdf764c0ef20c17e88fb894cd48561",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      897,
+      1696,
+      689,
+      434,
+      105,
+      2773,
+      1656,
+      243,
+      930,
+      2494
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "a4dc02c7a9184f6fa65e8558e85d9acb"
+    ],
+    "sampled_item_ids": [
+      51,
+      52,
+      63,
+      67,
+      70,
+      80,
+      147,
+      164,
+      172,
+      265,
+      297,
+      529,
+      539,
+      565,
+      648,
+      689,
+      784,
+      879,
+      906,
+      1174,
+      1199,
+      1724,
+      1854,
+      2428,
+      2773
+    ],
+    "seed": 42,
+    "source_hash": "5d90d8e5356d998936b2131a64290dbed1b96c2860fda1f077b886fa8a00ca2e",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3599,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Robert Redford",
+          "Sidney Poitier",
+          "Dan Aykroyd",
+          "David Strathairn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phil Alden Robinson",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When shadowy U.S. intelligence agents blackmail a reformed computer hacker and his eccentric team of security experts into stealing a code-breaking 'black box' from a Soviet-funded genius, they uncover a bigger conspiracy. Now, he and his 'sneakers' must save themselves and the world economy by retrieving the box from their blackmailers.",
+        "release_date": "1992-09-09",
+        "release_year": "1992",
+        "title": "Sneakers"
+      },
+      {
+        "cast": [
+          "Thomas Ian Nicholas",
+          "Joss Ackland",
+          "Art Malik",
+          "Daniel Craig"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Michael Gottlieb",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A Southern California kid named Calvin Fuller is magically transported to the medieval kingdom of Camelot through a crack in the ground caused by an earthquake. Once there, he learns he was summoned by the wizard Merlin, who needs Calvin to save Camelot. Using dazzling modern inventions, can Calvin help King Arthur retain his crown and thwart the evil Lord Belasco?",
+        "release_date": "1995-08-11",
+        "release_year": "1995",
+        "title": "Kid in King Arthur's Court, A"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Beverly D'Angelo",
+          "Randy Quaid",
+          "Juliette Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jeremiah S. Chechik",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "It's Christmas time and the Griswolds are preparing for a family seasonal celebration, but things never run smoothly for Clark, his wife Ellen and their two kids. Clark's continual bad luck is worsened by his obnoxious family guests, but he manages to keep going knowing that his Christmas bonus is due soon.",
+        "release_date": "1989-12-01",
+        "release_year": "1989",
+        "title": "Christmas Vacation"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Rene Russo",
+          "John Malkovich",
+          "Dylan McDermott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Veteran Secret Service agent Frank Horrigan is a man haunted by his failure to save President Kennedy while serving protection detail in Dallas. Thirty years later, a man calling himself \"Booth\" threatens the life of the current President, forcing Horrigan to come back to protection detail to confront the ghosts from his past.",
+        "release_date": "1993-07-08",
+        "release_year": "1993",
+        "title": "In the Line of Fire"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Ray Liotta",
+          "Lance Henriksen",
+          "Stuart Wilson",
+          "Kevin Dillon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the year 2022, a ruthless prison warden has created the ultimate solution for his most troublesome and violent inmates: Absolom, a secret jungle island where prisoners are abandoned and left to die. But Marine Captain John Robbins, convicted of murdering a commanding officer, is determined to escape the island in order to reveal the truth behind his murderous actions and clear his name.",
+        "release_date": "1994-04-29",
+        "release_year": "1994",
+        "title": "No Escape"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dina Meyer",
+          "Takeshi Kitano",
+          "Ice-T"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Robert Longo",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A data courier, literally carrying a data package inside his head, must deliver it before he dies from the burden or is killed by the Yakuza.  In a dystopian 2021, Johnny (Keanu Reeves) is a data trafficker who has an implant that allows him to securely store data too sensitive for regular computer networks. On one delivery run, he accepts a package that not only exceeds the implant's safety limits - and will kill him if the data is not removed in time - but also contains information far more important and valuable than he had ever imagined. On a race against time, he must avoid the assassins sent to kill him and remove the data before it, too, ends his life.",
+        "release_date": "1995-05-26",
+        "release_year": "1995",
+        "title": "Johnny Mnemonic"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Morgan Freeman",
+          "Gwyneth Paltrow",
+          "John C. McGinley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+        "release_date": "1995-09-22",
+        "release_year": "1995",
+        "title": "Seven (Se7en)"
+      },
+      {
+        "cast": [
+          "Will Smith",
+          "Kevin Kline",
+          "Kenneth Branagh",
+          "Salma Hayek"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Legless Southern inventor Dr. Arliss Loveless plans to rekindle the Civil War by assassinating President U.S. Grant. Only two men can stop him: gunfighter James West and master-of-disguise and inventor Artemus Gordon. The two must team up to thwart Loveless' plans.",
+        "release_date": "1999-06-29",
+        "release_year": "1999",
+        "title": "Wild Wild West"
+      },
+      {
+        "cast": [
+          "Donald Sutherland",
+          "Eric Thal",
+          "Julie Warner",
+          "Keith David"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stuart Orme",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The Earth is invaded by alien parasites aka \"slugs\" that ride on people's backs and control their minds. A trio of American government agents attempt to thwart this.",
+        "release_date": "1994-10-21",
+        "release_year": "1994",
+        "title": "Robert A. Heinlein's The Puppet Masters"
+      }
+    ],
+    "raw_user_id": "3599",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 142
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6304150876377871
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films with low engagement in the sci-fi genre",
+        "Negative reception of films that lack strong character development",
+        "Dislike for poorly executed adventure narratives"
+      ],
+      "liked_patterns": [
+        "High ratings for action and thriller genres",
+        "Strong preference for films that blend comedy with other genres",
+        "Consistent enjoyment of science fiction narratives"
+      ],
+      "summary": "Unique tastes: Action and Thriller (A strong preference for action-packed narratives that incorporate suspense and tension.); Comedy and Family (Enjoyment of light-hearted films that appeal to a broad audience, often with family-friendly themes.); Sci-Fi and Adventure (Interest in imaginative and speculative stories that explore futuristic concepts and adventures.); Drama with Depth (Appreciation for films that delve into complex emotional and social themes.); Crime and Mystery (Attraction to narratives that involve criminal elements and the unraveling of secrets.). Liked patterns: High ratings for action and thriller genres, Strong preference for films that blend comedy with other genres, Consistent enjoyment of science fiction narratives. Disliked patterns: Dislike for films with low engagement in the sci-fi genre, Negative reception of films that lack strong character development, Dislike for poorly executed adventure narratives.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for action-packed narratives that incorporate suspense and tension.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "Enjoyment of light-hearted films that appeal to a broad audience, often with family-friendly themes.",
+          "taste": "Comedy and Family"
+        },
+        {
+          "reason": "Interest in imaginative and speculative stories that explore futuristic concepts and adventures.",
+          "taste": "Sci-Fi and Adventure"
+        },
+        {
+          "reason": "Appreciation for films that delve into complex emotional and social themes.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "Attraction to narratives that involve criminal elements and the unraveling of secrets.",
+          "taste": "Crime and Mystery"
+        }
+      ]
+    },
+    "user_id": 3599
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "245aea38a12c33013e138c69562457afa26cdef23f34b39b95b5e0ca6ee1a3d3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      896,
+      462,
+      1195,
+      1778,
+      60,
+      479,
+      417,
+      1369,
+      196,
+      520
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d0bcea9513fb46efa75a28ebfdb55379"
+    ],
+    "sampled_item_ids": [
+      15,
+      24,
+      65,
+      117,
+      121,
+      124,
+      138,
+      151,
+      167,
+      172,
+      268,
+      327,
+      406,
+      407,
+      501,
+      661,
+      675,
+      770,
+      859,
+      888,
+      896,
+      1195,
+      1277,
+      1529,
+      2142
+    ],
+    "seed": 42,
+    "source_hash": "6ce535ee0cf633ad7d615f26e9a3437b124939784f4ac8c17fce47c028486299",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 959,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Harrison Ford",
+          "Gary Oldman",
+          "Glenn Close",
+          "Wendy Crewson"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Russian terrorists conspire to hijack the aircraft with the president and his family on board. The commander in chief finds himself facing an impossible predicament: give in to the terrorists and sacrifice his family, or risk everything to uphold his principles - and the integrity of the nation.",
+        "release_date": "1997-07-25",
+        "release_year": "1997",
+        "title": "Air Force One"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Gene Hackman",
+          "Matt Craven",
+          "George Dzundza"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Scott",
+        "genres": [
+          "Drama",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "On a US nuclear missile sub, a young first officer stages a mutiny to prevent his trigger happy captain from launching his missiles before confirming his orders to do so.",
+        "release_date": "1995-05-12",
+        "release_year": "1995",
+        "title": "Crimson Tide"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Hugh Grant",
+          "Gina McKee",
+          "Tim McInnerny"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Roger Michell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The British comedy from director Roger Michell tells the love story between a famous actress and a simple book seller from London. A look into the attempt for famous people to have a personal and private life and the ramifications that follow. Nominated for three Golden Globes in 2000.",
+        "release_date": "1999-05-13",
+        "release_year": "1999",
+        "title": "Notting Hill"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Chris O'Donnell",
+          "Mackenzie Astin",
+          "Margot Steinberg"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Attenborough",
+        "genres": [
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "After teenage ambulance driver Ernest Hemingway (Chris O'Donnell) takes shrapnel in the leg during World War I, he falls in love with Agnes von Kurowsky (Sandra Bullock), a beautiful older nurse at the hospital where he's sent to recover. Their affair slowly blossoms, until Hemingway boldly asks Agnes to be his wife and journey to America with him. Richard Attenborough directs this drama based on the real-life experiences of the famed novelist.",
+        "release_date": "1996-12-18",
+        "release_year": "1996",
+        "title": "In Love and War"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jack Nicholson",
+          "Demi Moore",
+          "Kevin Bacon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When cocky military lawyer Lt. Daniel Kaffee and his co-counsel, Lt. Cmdr. JoAnne Galloway, are assigned to a murder case, they uncover a hazing ritual that could implicate high-ranking officials such as shady Col. Nathan Jessep.",
+        "release_date": "1992-12-11",
+        "release_year": "1992",
+        "title": "Few Good Men, A"
+      },
+      {
+        "cast": [
+          "Jean-Paul Belmondo",
+          "Michel Boujenah",
+          "Alessandra Martines",
+          "Salomé Lelouch"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Claude Lelouch",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "French",
+        "overview": "In France during World War II, a poor and illiterate man, Henri Fortin (Jean-Paul Belmondo), is introduced to Victor Hugo's classic novel Les Misérables and begins to see parallels between the book and his own life.",
+        "release_date": "1995-03-22",
+        "release_year": "1995",
+        "title": "Misérables, Les"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Anthony Hopkins",
+          "Aidan Quinn",
+          "Julia Ormond"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Edward Zwick",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "An epic tale of three brothers and their father living in the remote wilderness of 1900s USA and how their lives are affected by nature, history, war, and love.",
+        "release_date": "1994-12-16",
+        "release_year": "1994",
+        "title": "Legends of the Fall"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Tommy Lee Jones",
+          "Mary-Louise Parker",
+          "Anthony LaPaglia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A street-wise kid, Mark Sway, sees the suicide of Jerome Clifford, a prominent Louisiana lawyer, whose current client is Barry 'The Blade' Muldano, a Mafia hit-man. Before Jerome shoots himself, he tells Mark where the body of a Senator is buried. Clifford shoots himself and Mark is found at the scene, and both the FBI and the Mafia quickly realize that Mark probably knows more than he says.",
+        "release_date": "1994-07-20",
+        "release_year": "1994",
+        "title": "Client, The"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Nicolas Cage",
+          "Ed Harris",
+          "John Spencer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A group of renegade marine commandos seizes a stockpile of chemical weapons and takes over Alcatraz, with 81 tourists as hostages. Their leader demands $100 million to be paid, as restitution to families of Marines who died in covert ops – or he will launch 15 rockets carrying deadly VX gas into the San Francisco Bay area.",
+        "release_date": "1996-06-06",
+        "release_year": "1996",
+        "title": "Rock, The"
+      },
+      {
+        "cast": [
+          "Dennis Quaid",
+          "Jim Caviezel",
+          "Andre Braugher",
+          "Elizabeth Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Hoblit",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a rare phenomenon gives police officer John Sullivan the chance to speak to his father, 30 years in the past, he takes the opportunity to prevent his dad's tragic death.  After his actions inadvertently give rise to a series of brutal murders he and his father must find a way to fix the consequences of altering time.",
+        "release_date": "2000-04-28",
+        "release_year": "2000",
+        "title": "Frequency"
+      }
+    ],
+    "raw_user_id": "959",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 78
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9286160002297419
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that are primarily comedic without strong dramatic elements.",
+        "Negative reception of films that lack engaging narratives or character depth."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like romance and war.",
+        "Positive reception of films featuring strong character development and emotional arcs.",
+        "Frequent enjoyment of films that incorporate elements of adventure and action."
+      ],
+      "summary": "Unique tastes: Strong preference for dramas (The user rated multiple drama films highly, indicating a strong appreciation for the emotional depth and storytelling often found in this genre.); Enjoyment of action and adventure (Several action and adventure films received high ratings, suggesting the user enjoys excitement and dynamic narratives.); Appreciation for romantic comedies (The user rated multiple romantic comedies positively, indicating a liking for light-hearted, relationship-focused stories.); Interest in historical and war themes (The user rated several films with historical and war themes highly, showing an interest in narratives that explore significant events and their impacts.); Fondness for musicals (The user rated a musical highly, suggesting an enjoyment of music-driven storytelling.). Liked patterns: High ratings for films that blend drama with other genres like romance and war., Positive reception of films featuring strong character development and emotional arcs., Frequent enjoyment of films that incorporate elements of adventure and action.. Disliked patterns: Low ratings for films that are primarily comedic without strong dramatic elements., Negative reception of films that lack engaging narratives or character depth..",
+      "unique_tastes": [
+        {
+          "reason": "The user rated multiple drama films highly, indicating a strong appreciation for the emotional depth and storytelling often found in this genre.",
+          "taste": "Strong preference for dramas"
+        },
+        {
+          "reason": "Several action and adventure films received high ratings, suggesting the user enjoys excitement and dynamic narratives.",
+          "taste": "Enjoyment of action and adventure"
+        },
+        {
+          "reason": "The user rated multiple romantic comedies positively, indicating a liking for light-hearted, relationship-focused stories.",
+          "taste": "Appreciation for romantic comedies"
+        },
+        {
+          "reason": "The user rated several films with historical and war themes highly, showing an interest in narratives that explore significant events and their impacts.",
+          "taste": "Interest in historical and war themes"
+        },
+        {
+          "reason": "The user rated a musical highly, suggesting an enjoyment of music-driven storytelling.",
+          "taste": "Fondness for musicals"
+        }
+      ]
+    },
+    "user_id": 959
+  }
+}

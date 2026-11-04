@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "43c2d608925cf4032356a9bcc68f0438130a91d2e3d0160fd7acc1d487294423",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      738,
+      105,
+      985,
+      113,
+      1273,
+      1004,
+      663,
+      61,
+      719,
+      395
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "7e170a7eb0564f1391e15a610bf0adee"
+    ],
+    "sampled_item_ids": [
+      6,
+      15,
+      16,
+      23,
+      39,
+      52,
+      63,
+      78,
+      107,
+      128,
+      133,
+      156,
+      157,
+      187,
+      205,
+      211,
+      510,
+      529,
+      715,
+      738,
+      809,
+      840,
+      965,
+      1273,
+      3198
+    ],
+    "seed": 42,
+    "source_hash": "a793cd0d3942a037da77ad749ffbb8c9d1c008e5affc3eeec79070d6a2534412",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2240,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Elisabeth Shue"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Marty and Doc are at it again in this wacky sequel to the 1985 blockbuster as the time-traveling duo head to 2015 to nip some McFly family woes in the bud. But things go awry thanks to bully Biff Tannen and a pesky sports almanac. In a last-ditch attempt to set things straight, Marty finds himself bound for 1955 and face to face with his teenage parents -- again.",
+        "release_date": "1989-11-20",
+        "release_year": "1989",
+        "title": "Back to the Future Part II"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "Katharine Ross",
+          "Paula Prentiss",
+          "Nanette Newman",
+          "Judith Baldwin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Forbes",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The urban aspirant photographer Joanna Eberhart moves from Manhattan to Stepford, Connecticut with her family. Her husband Walter Eberhart decided to live in a calm suburb, but Joanna did not like the neighborhood with beautiful and perfect housewives. She becomes friend of Bobbie Markowe and Charmaine Wimperis, and when they change Joanna tries to escape.",
+        "release_date": "1975-02-12",
+        "release_year": "1975",
+        "title": "Stepford Wives, The"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Karen Allen",
+          "Charles Martin Smith",
+          "Richard Jaeckel"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Romance",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An alien takes the form of a young widow's husband and asks her to drive him from Wisconsin to Arizona. The government tries to stop them.",
+        "release_date": "1984-12-13",
+        "release_year": "1984",
+        "title": "Starman"
+      },
+      {
+        "cast": [
+          "William Hurt",
+          "Kathleen Turner",
+          "Richard Crenna",
+          "Ted Danson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the midst of a searing Florida heat wave, a woman convinces her lover, a small-town lawyer, to murder her rich husband.",
+        "release_date": "1981-08-28",
+        "release_year": "1981",
+        "title": "Body Heat"
+      },
+      {
+        "cast": [
+          "Yul Brynner",
+          "Richard Benjamin",
+          "James Brolin",
+          "Norman Bartold"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Crichton",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "In a futuristic resort, wealthy patrons can visit recreations of different time periods and experience their wildest fantasies with life-like robots. But when Richard Benjamin opts for the wild west, he gets more than he bargained for when a gunslinger robot goes berserk.",
+        "release_date": "1973-10-22",
+        "release_year": "1973",
+        "title": "Westworld"
+      },
+      {
+        "cast": [
+          "Keir Dullea",
+          "Gary Lockwood",
+          "William Sylvester",
+          "Douglas Rain"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "release_date": "1968-04-10",
+        "release_year": "1968",
+        "title": "2001: A Space Odyssey"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Peter O'Toole",
+          "Alec Guinness",
+          "Anthony Quinn",
+          "Jack Hawkins"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "David Lean",
+        "genres": [
+          "Adventure",
+          "War"
+        ],
+        "language": "English",
+        "overview": "An epic about British officer T.E. Lawrence's mission to aid the Arab tribes in their revolt against the Ottoman Empire during the First World War. Lawrence becomes a flamboyant, messianic figure in the cause of Arab unity but his psychological instability threatens to undermine his achievements.",
+        "release_date": "1962-12-10",
+        "release_year": "1962",
+        "title": "Lawrence of Arabia"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Chief Dan George",
+          "Sondra Locke",
+          "Bill McKinney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "After avenging his family's brutal murder, Wales is pursued by a pack of soldiers. He prefers to travel alone, but ragtag outcasts are drawn to him - and Wales can't bring himself to leave them unprotected.",
+        "release_date": "1976-06-30",
+        "release_year": "1976",
+        "title": "Outlaw Josey Wales, The"
+      }
+    ],
+    "raw_user_id": "2240",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 81
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0520755010273526
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that blend drama with less engaging storytelling"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure genres",
+        "Enjoyment of comedies with clever humor",
+        "Appreciation for dramatic films with complex narratives"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Comedy (The user appreciates humor and light-hearted storytelling, often favoring comedies with clever writing.); Drama with Depth (The user is drawn to dramatic narratives that explore complex themes and character development.); Sci-Fi Elements (The user enjoys science fiction films that incorporate imaginative concepts and speculative technology.); Thriller Suspense (The user likes films that create tension and suspense, often with unexpected twists.). Liked patterns: Strong preference for action and adventure genres, Enjoyment of comedies with clever humor, Appreciation for dramatic films with complex narratives. Disliked patterns: Dislike for films that blend drama with less engaging storytelling.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates humor and light-hearted storytelling, often favoring comedies with clever writing.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to dramatic narratives that explore complex themes and character development.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "The user enjoys science fiction films that incorporate imaginative concepts and speculative technology.",
+          "taste": "Sci-Fi Elements"
+        },
+        {
+          "reason": "The user likes films that create tension and suspense, often with unexpected twists.",
+          "taste": "Thriller Suspense"
+        }
+      ]
+    },
+    "user_id": 2240
+  }
+}

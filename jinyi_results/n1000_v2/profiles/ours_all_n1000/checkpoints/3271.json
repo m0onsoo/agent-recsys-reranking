@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "e9774908783358a99b5cced372e8f16f0ba0343abae307ab0ecfbf2ccedb3865",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      384,
+      484,
+      205,
+      2877,
+      1732,
+      1418,
+      615,
+      206,
+      442,
+      577
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "2ae46c2ce45a4ee5a0183d1aac794de4"
+    ],
+    "sampled_item_ids": [
+      4,
+      119,
+      141,
+      172,
+      243,
+      253,
+      326,
+      383,
+      396,
+      418,
+      438,
+      464,
+      488,
+      531,
+      720,
+      768,
+      771,
+      1004,
+      1195,
+      1233,
+      1259,
+      1348,
+      1430,
+      1482,
+      2198
+    ],
+    "seed": 42,
+    "source_hash": "ce3912ce83324aa725e791c82ba74a167c6d01663a40079e143239fe3ca88f1d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3271,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Sean Penn",
+          "Robert Prosky",
+          "Raymond J. Barry"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Tim Robbins",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A justice drama based on a true story about a man on death row who in his last days forms a strong relationship with a nun who teaches him forgiveness and gives him spirituality as she accompanies him to his execution. Susan Sarandon won an Oscar for best female actress for her convincing portrayal of Sister Helen Prejean.",
+        "release_date": "1995-12-29",
+        "release_year": "1995",
+        "title": "Dead Man Walking"
+      },
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Vincent Spano",
+          "Josh Hamilton",
+          "Bruce Ramsay"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Marshall",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The amazing, true story of a Uruguayan rugby team's plane that crashed in the middle of the Andes mountains, and their immense will to survive and pull through alive, forced to do anything and everything they could to stay alive on meager rations and through the freezing cold.",
+        "release_date": "1993-01-15",
+        "release_year": "1993",
+        "title": "Alive"
+      },
+      {
+        "cast": [
+          "Jon Voight",
+          "Burt Reynolds",
+          "Ned Beatty",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Boorman",
+        "genres": [
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Intent on seeing the Cahulawassee River before it's turned into one huge lake, outdoor fanatic Lewis Medlock takes his friends on a river-rafting trip they'll never forget into the dangerous American back-country.",
+        "release_date": "1972-07-30",
+        "release_year": "1972",
+        "title": "Deliverance"
+      },
+      {
+        "cast": [
+          "Dean Jones",
+          "Sandy Duncan",
+          "Joe Flynn",
+          "Tony Roberts"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Vincent McEveety",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Professor Dooley takes home a duck from his research laboratory as a toy for his son, but soon finds out that it lays golden eggs.",
+        "release_date": "1971-06-30",
+        "release_year": "1971",
+        "title": "$1,000,000 Duck"
+      },
+      {
+        "cast": [
+          "Dudley Moore",
+          "Kyoko Koizumi",
+          "Milo",
+          "Otis"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Masanori Hata",
+        "genres": [
+          "Children's"
+        ],
+        "language": "Japanese",
+        "overview": "The story of two animals and their adventures. Milo, the cat, and Otis, the dog, are two animals who grew up together on the same farm. One day, the two are separated and begin a journey to find each other. The adventurous, and often perilous quest finds the two animals traveling across mountains, plains, and snow-covered lands searching for one another.",
+        "release_date": "1986-06-27",
+        "release_year": "1986",
+        "title": "Adventures of Milo and Otis, The"
+      },
+      {
+        "cast": [
+          "Brooke Shields",
+          "Christopher Atkins",
+          "Leo McKern",
+          "William Daniels"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Randal Kleiser",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical island. Soon, however, the cook dies and the young boy and girl are left on their own. Days become years and Emmeline (Brooke Shields) and Richard (Christopher Atkins) make a home for themselves surrounded by exotic creatures and nature's beauty. But will they ever see civilization again?",
+        "release_date": "1980-07-05",
+        "release_year": "1980",
+        "title": "Blue Lagoon, The"
+      },
+      {
+        "cast": [
+          "Paul Reubens",
+          "E.G. Daily",
+          "Mark Holton",
+          "Diane Salinger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The eccentric and childish Pee-wee Herman embarks on a big adventure when his beloved bicycle is stolen. Armed with information from a fortune-teller and a relentless obsession with his prized possession, Pee-wee encounters a host of odd characters and bizarre situations as he treks across the country to recover his bike.",
+        "release_date": "1985-07-26",
+        "release_year": "1985",
+        "title": "Pee-wee's Big Adventure"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kate Capshaw",
+          "Jonathan Ke Quan",
+          "Amrish Puri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees – and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace.",
+        "release_date": "1984-05-23",
+        "release_year": "1984",
+        "title": "Indiana Jones and the Temple of Doom"
+      },
+      {
+        "cast": [
+          "Larenz Tate",
+          "Keith David",
+          "Chris Tucker",
+          "Freddy Rodríguez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Albert Hughes",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Depicts a heist of old bills, retired from circulation and destined by the government to be \"money to burn\". However, more broadly, it addresses the issues of Black Americans' involvement in the Vietnam War and their subsequent disillusionment with progress in social issues and civil rights back home in the United States, during the 1960s.",
+        "release_date": "1995-10-06",
+        "release_year": "1995",
+        "title": "Dead Presidents"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Julia Ormond",
+          "Greg Kinnear",
+          "Angie Dickinson"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "An ugly duckling having undergone a remarkable change, still harbors feelings for her crush: a carefree playboy, but not before his business-focused brother has something to say about it.",
+        "release_date": "1995-12-15",
+        "release_year": "1995",
+        "title": "Sabrina"
+      }
+    ],
+    "raw_user_id": "3271",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 270
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6369065195791215
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [],
+      "liked_patterns": [
+        "Strong preference for drama and romance films.",
+        "Enjoyment of films that combine comedy with romance.",
+        "Appreciation for thrillers that also incorporate elements of mystery."
+      ],
+      "summary": "Unique tastes: Drama (The user has a strong preference for drama, as evidenced by multiple high ratings for films in this genre.); Romance (Romantic themes are frequently present in the user's liked films, indicating a fondness for this genre.); Comedy (The user enjoys comedies, as shown by several positive ratings for films that blend humor with other genres.); Thriller (The user appreciates thrillers, with several films rated highly that incorporate suspense and tension.); Action (There is a notable interest in action films, as indicated by positive ratings for movies that feature this genre.). Liked patterns: Strong preference for drama and romance films., Enjoyment of films that combine comedy with romance., Appreciation for thrillers that also incorporate elements of mystery.. Disliked patterns: no repeated disliked pattern identified.",
+      "unique_tastes": [
+        {
+          "reason": "The user has a strong preference for drama, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Romantic themes are frequently present in the user's liked films, indicating a fondness for this genre.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user enjoys comedies, as shown by several positive ratings for films that blend humor with other genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates thrillers, with several films rated highly that incorporate suspense and tension.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "There is a notable interest in action films, as indicated by positive ratings for movies that feature this genre.",
+          "taste": "Action"
+        }
+      ]
+    },
+    "user_id": 3271
+  }
+}

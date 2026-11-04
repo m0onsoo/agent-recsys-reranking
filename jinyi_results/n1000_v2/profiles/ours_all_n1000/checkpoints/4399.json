@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "536a4c0a382e4a09a181aa76f27fcff119f943a8daa18cc7d3cc849f187ca5a8",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      10,
+      34,
+      140,
+      382,
+      470,
+      51,
+      11,
+      2180,
+      633,
+      391
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      6,
+      9,
+      10,
+      11,
+      27,
+      34,
+      38,
+      51,
+      117,
+      135,
+      140,
+      172,
+      382,
+      391,
+      470,
+      566,
+      589,
+      613,
+      633,
+      672,
+      799,
+      1046,
+      1047,
+      1746,
+      2180
+    ],
+    "seed": 42,
+    "source_hash": "25dd1a1cf2148246648d8d4de365fdba910c9a85fe559caab4e8f64db5c67b8c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4399,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Judy Garland",
+          "Frank Morgan",
+          "Ray Bolger",
+          "Bert Lahr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+        "release_date": "1939-08-15",
+        "release_year": "1939",
+        "title": "Wizard of Oz, The"
+      },
+      {
+        "cast": [
+          "Scott Weinger",
+          "Robin Williams",
+          "Linda Larkin",
+          "Jonathan Freeman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Clements",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Princess Jasmine grows tired of being forced to remain in the palace and she sneaks out into the marketplace  in disguise where she meets street-urchin Aladdin and the two fall in love, although she may only marry a prince. After being thrown in jail, Aladdin and becomes embroiled in a plot to find a mysterious lamp with which the evil Jafar hopes to rule the land.",
+        "release_date": "1992-11-25",
+        "release_year": "1992",
+        "title": "Aladdin"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When world heavyweight boxing champion, Apollo Creed wants to give an unknown fighter a shot at the title as a publicity stunt, his handlers choose palooka Rocky Balboa, an uneducated collector for a Philadelphia loan shark. Rocky teams up with trainer  Mickey Goldmill to make the most of this once in a lifetime break.",
+        "release_date": "1976-11-21",
+        "release_year": "1976",
+        "title": "Rocky"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      },
+      {
+        "cast": [
+          "Gérard Depardieu",
+          "Anne Brochet",
+          "Vincent Pérez",
+          "Jacques Weber"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Jean-Paul Rappeneau",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance"
+        ],
+        "language": "French",
+        "overview": "Embarrassed by his large nose, a romantic poet/soldier romances his cousin by proxy.",
+        "release_date": "1990-03-28",
+        "release_year": "1990",
+        "title": "Cyrano de Bergerac"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Joan Cusack",
+          "Kelsey Grammer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
+        "release_date": "1999-10-30",
+        "release_year": "1999",
+        "title": "Toy Story 2"
+      },
+      {
+        "cast": [
+          "Paige O'Hara",
+          "Robby Benson",
+          "Richard White",
+          "Jerry Orbach"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Trousdale",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Follow the adventures of Belle, a bright young woman who finds herself in the castle of a prince who's been turned into a mysterious beast. With the help of the castle's enchanted staff, Belle soon learns the most important lesson of all -- that true beauty comes from within.",
+        "release_date": "1991-11-13",
+        "release_year": "1991",
+        "title": "Beauty and the Beast"
+      },
+      {
+        "cast": [
+          "Michelle Trachtenberg",
+          "Rosie O'Donnell",
+          "J. Smith-Cameron",
+          "Eartha Kitt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bronwen Hughes",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the secret notebook of a young girl who fancies herself a spy is found by her friends, her speculations make her very unpopular! Can she win her friends back?",
+        "release_date": "1996-07-10",
+        "release_year": "1996",
+        "title": "Harriet the Spy"
+      },
+      {
+        "cast": [
+          "Mary Costa",
+          "Bill Shirley",
+          "Eleanor Audley",
+          "Verna Felton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clyde Geronimi",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A beautiful princess born in a faraway kingdom is destined by a terrible curse to prick her finger on the spindle of a spinning wheel and fall into a deep sleep that can only be awakened by true love's first kiss. Determined to protect her, her parents ask three fairies to raise her in hiding. But the evil Maleficent is just as determined to seal the princess's fate.",
+        "release_date": "1959-01-28",
+        "release_year": "1959",
+        "title": "Sleeping Beauty"
+      },
+      {
+        "cast": [
+          "Jonathan Taylor Thomas",
+          "Matthew Broderick",
+          "James Earl Jones",
+          "Jeremy Irons"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Allers",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A young lion cub named Simba can't wait to be king. But his uncle craves the title for himself and will stop at nothing to get it.",
+        "release_date": "1994-06-23",
+        "release_year": "1994",
+        "title": "Lion King, The"
+      }
+    ],
+    "raw_user_id": "4399",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 28
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.3353687709698574
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for certain older animated films that do not resonate well with the user.",
+        "Negative reception of specific romantic comedies that lack appeal."
+      ],
+      "liked_patterns": [
+        "Strong preference for animated films, particularly those aimed at children.",
+        "Frequent enjoyment of comedies that incorporate romantic elements.",
+        "Positive ratings for musicals, especially those that are family-friendly."
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Children's Films (The user has rated multiple animated and children's films positively, indicating a strong preference for this genre.); Enjoyment of Comedy and Romance (Several comedies and romantic films received favorable ratings, suggesting a liking for light-hearted and romantic narratives.); Interest in Musicals (The user has shown a preference for musicals, as indicated by positive ratings for multiple films in this genre.); Fondness for Adventure Themes (Adventure films have been rated positively, reflecting an enjoyment of stories that involve exploration and excitement.); Positive Reception of Family-Friendly Content (The user has rated various family-oriented films highly, indicating a preference for content suitable for all ages.). Liked patterns: Strong preference for animated films, particularly those aimed at children., Frequent enjoyment of comedies that incorporate romantic elements., Positive ratings for musicals, especially those that are family-friendly.. Disliked patterns: Dislike for certain older animated films that do not resonate well with the user., Negative reception of specific romantic comedies that lack appeal..",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple animated and children's films positively, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Animation and Children's Films"
+        },
+        {
+          "reason": "Several comedies and romantic films received favorable ratings, suggesting a liking for light-hearted and romantic narratives.",
+          "taste": "Enjoyment of Comedy and Romance"
+        },
+        {
+          "reason": "The user has shown a preference for musicals, as indicated by positive ratings for multiple films in this genre.",
+          "taste": "Interest in Musicals"
+        },
+        {
+          "reason": "Adventure films have been rated positively, reflecting an enjoyment of stories that involve exploration and excitement.",
+          "taste": "Fondness for Adventure Themes"
+        },
+        {
+          "reason": "The user has rated various family-oriented films highly, indicating a preference for content suitable for all ages.",
+          "taste": "Positive Reception of Family-Friendly Content"
+        }
+      ]
+    },
+    "user_id": 4399
+  }
+}

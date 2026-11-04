@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "8ed870003d39edc72aaff47e239ddf50f652adc9da91caafbd4a9feac81434bc",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      483,
+      1600,
+      1369,
+      1072,
+      532,
+      730,
+      25,
+      40,
+      888,
+      640
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5df16e61d0f34ccf93292801c549c9f4"
+    ],
+    "sampled_item_ids": [
+      28,
+      60,
+      75,
+      90,
+      117,
+      135,
+      139,
+      164,
+      168,
+      291,
+      327,
+      383,
+      392,
+      418,
+      462,
+      532,
+      569,
+      594,
+      640,
+      829,
+      876,
+      908,
+      1107,
+      1313,
+      2091
+    ],
+    "seed": 42,
+    "source_hash": "12c5b3e34318e19050d14d673454ccd00036b5ccc1af58e656f99b5e88a1a6f0",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3958,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Brad Pitt",
+          "Tom Cruise",
+          "Kirsten Dunst",
+          "Antonio Banderas"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A vampire relates his epic life story of love, betrayal, loneliness, and dark hunger to an over-curious reporter.",
+        "release_date": "1994-11-11",
+        "release_year": "1994",
+        "title": "Interview with the Vampire"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Susan Sarandon",
+          "Ed Harris",
+          "Jena Malone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Columbus",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jackie is a divorced mother of two. Isabel is the career minded girlfriend of Jackie’s ex-husband Luke, forced into the role of unwelcome stepmother to their children. But when Jackie discovers she is ill, both women realise they must put aside their differences to find a common ground and celebrate life to the fullest, while they have the chance.",
+        "release_date": "1998-12-25",
+        "release_year": "1998",
+        "title": "Stepmom"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Tommy Lee Jones",
+          "Mary-Louise Parker",
+          "Anthony LaPaglia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A street-wise kid, Mark Sway, sees the suicide of Jerome Clifford, a prominent Louisiana lawyer, whose current client is Barry 'The Blade' Muldano, a Mafia hit-man. Before Jerome shoots himself, he tells Mark where the body of a Senator is buried. Clifford shoots himself and Mark is found at the scene, and both the FBI and the Mafia quickly realize that Mark probably knows more than he says.",
+        "release_date": "1994-07-20",
+        "release_year": "1994",
+        "title": "Client, The"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Christopher Lee",
+          "Britt Ekland",
+          "Maud Adams"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Guy Hamilton",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "A golden bullet has 007 engraved on it as it smashes into the secret service headquarters. The bullet came from the professional killer Scaramanga who has yet to miss a target and James Bond begins a mission to try and stop him.",
+        "release_date": "1974-12-01",
+        "release_year": "1974",
+        "title": "Man with the Golden Gun, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Miranda Richardson",
+          "Timothy Spall",
+          "Imelda Staunton"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Having been hopelessly repressed and facing eventual certain death at the British chicken farm where they are held, Rocky the american rooster and Ginger the chicken decide to rebel against the evil Mr. and Mrs. Tweedy, the farm's owners. Rocky and Ginger lead their fellow chickens in a great escape from the murderous farmers and their farm of doom.",
+        "release_date": "2000-06-21",
+        "release_year": "2000",
+        "title": "Chicken Run"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Meg Ryan",
+          "Bill Pullman",
+          "Ross Malinger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nora Ephron",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A young boy who tries to set his dad up on a date after the death of his mother. He calls into a radio station to talk about his dad’s loneliness which soon leads the dad into meeting a Journalist Annie who flies to Seattle to write a story about the boy and his dad. Yet Annie ends up with more than just a story in this popular romantic comedy.",
+        "release_date": "1993-06-24",
+        "release_year": "1993",
+        "title": "Sleepless in Seattle"
+      },
+      {
+        "cast": [
+          "Brad Pitt",
+          "Anthony Hopkins",
+          "Claire Forlani",
+          "Jeffrey Tambor"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Brest",
+        "genres": [
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "When the grim reaper comes to collect the soul of megamogul Bill Parrish, he arrives with a proposition: Host him for a \"vacation\" among the living in trade for a few more days of existence. Parrish agrees, and using the pseudonym Joe Black, Death begins taking part in Parrish's daily agenda and falls in love with the man's daughter. Yet when Black's holiday is over, so is Parrish's life.",
+        "release_date": "1998-11-12",
+        "release_year": "1998",
+        "title": "Meet Joe Black"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Bill Paxton",
+          "Kevin Bacon",
+          "Gary Sinise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of technical troubles that scuttle the Apollo 13 lunar mission in 1971, risking the lives of astronaut Jim Lovell and his crew, with the failed journey turning into a thrilling saga of heroism. Drifting more than 200,000 miles from Earth, the astronauts work furiously with the ground crew to avert tragedy.",
+        "release_date": "1995-06-30",
+        "release_year": "1995",
+        "title": "Apollo 13"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Gary Sinise",
+          "Delroy Lindo",
+          "Rene Russo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Howard",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a rich man's son is kidnapped, he cooperates with the police at first but then tries a unique tactic against the criminals.",
+        "release_date": "1996-11-08",
+        "release_year": "1996",
+        "title": "Ransom"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Bill Pullman",
+          "Peter Gallagher",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A love story built on a misunderstanding. A transit worker pulls commuter Peter off the tracks after he's mugged. But while he's in a coma, his family mistakenly thinks she's Peter's fiancée, and she doesn't correct them. Things get more complicated when she falls for his brother, who's not quite sure that she's who she claims to be.",
+        "release_date": "1995-04-21",
+        "release_year": "1995",
+        "title": "While You Were Sleeping"
+      }
+    ],
+    "raw_user_id": "3958",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 132
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.2407788808388525
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for romantic comedies",
+        "Dislike for certain family-oriented comedies",
+        "Negative reception of films with weak comedic elements"
+      ],
+      "liked_patterns": [
+        "High ratings for dramas and romantic films",
+        "Positive reception of comedies that include romance",
+        "Appreciation for action films with dramatic elements"
+      ],
+      "summary": "Unique tastes: Drama and Romance (The user consistently rates dramas and romantic films highly, indicating a strong preference for emotional storytelling.); Comedy with Romantic Elements (The user enjoys comedies that incorporate romance, as evidenced by high ratings for films blending these genres.); Action with Dramatic Themes (The user appreciates action films that also delve into dramatic narratives, reflecting a taste for intensity and depth.); Family-Friendly Comedies (The user rates animated and children's comedies positively, suggesting a preference for light-hearted, family-oriented entertainment.); War and Historical Dramas (The user shows a liking for films that explore war and historical themes, often rated highly for their dramatic impact.). Liked patterns: High ratings for dramas and romantic films, Positive reception of comedies that include romance, Appreciation for action films with dramatic elements. Disliked patterns: Low ratings for romantic comedies, Dislike for certain family-oriented comedies, Negative reception of films with weak comedic elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates dramas and romantic films highly, indicating a strong preference for emotional storytelling.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "The user enjoys comedies that incorporate romance, as evidenced by high ratings for films blending these genres.",
+          "taste": "Comedy with Romantic Elements"
+        },
+        {
+          "reason": "The user appreciates action films that also delve into dramatic narratives, reflecting a taste for intensity and depth.",
+          "taste": "Action with Dramatic Themes"
+        },
+        {
+          "reason": "The user rates animated and children's comedies positively, suggesting a preference for light-hearted, family-oriented entertainment.",
+          "taste": "Family-Friendly Comedies"
+        },
+        {
+          "reason": "The user shows a liking for films that explore war and historical themes, often rated highly for their dramatic impact.",
+          "taste": "War and Historical Dramas"
+        }
+      ]
+    },
+    "user_id": 3958
+  }
+}

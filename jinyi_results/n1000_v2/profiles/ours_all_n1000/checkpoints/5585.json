@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "d0d8de1e27dc655962dd44509a0543a110f592452cde09708b29d761a34a5533",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      265,
+      1965,
+      1529,
+      1296,
+      1652,
+      316,
+      45,
+      771,
+      767,
+      2227
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      23,
+      65,
+      95,
+      174,
+      227,
+      259,
+      274,
+      276,
+      314,
+      317,
+      375,
+      386,
+      434,
+      547,
+      548,
+      566,
+      663,
+      720,
+      923,
+      1457,
+      1527,
+      1529,
+      1536,
+      2028,
+      2338
+    ],
+    "seed": 42,
+    "source_hash": "1cb5272703732a17346ca6d1a1ac7cceddaeefcfb96bab770da487d15fdcdffb",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5585,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dennis Hopper",
+          "Sandra Bullock",
+          "Joe Morton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Los Angeles SWAT cop Jack Traven is up against bomb expert Howard Payne, who's after major ransom money. First it's a rigged elevator in a very tall building. Then it's a rigged bus--if it slows, it will blow, bad enough any day, but a nightmare in LA traffic. And that's still not the end.",
+        "release_date": "1994-06-09",
+        "release_year": "1994",
+        "title": "Speed"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Holly Hunter",
+          "Will Patton",
+          "William McNamara"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "An agoraphobic psychologist and a female detective must work together to take down a serial killer who copies serial killers from the past.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Copycat"
+      },
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Juliette Binoche",
+          "Willem Dafoe",
+          "Kristin Scott Thomas"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Anthony Minghella",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Beginning in the 1930s, \"The English Patient\" tells the story of Count Almásy who is a Hungarian map maker employed by the Royal Geographical Society to chart the vast expanses of the Sahara Desert along with several other prominent explorers. As World War II unfolds, Almásy enters into a world of love, betrayal, and politics that is later revealed in a series of flashbacks while Almásy is on his death bed after being horribly burned in a plane crash.",
+        "release_date": "1996-11-14",
+        "release_year": "1996",
+        "title": "English Patient, The"
+      },
+      {
+        "cast": [
+          "Christopher Walken",
+          "Brooke Adams",
+          "Tom Skerritt",
+          "Martin Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Cronenberg",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Johnny Smith is a schoolteacher with his whole life ahead of him but, after leaving his fiancee's home one night, is involved in a car crash which leaves him in a coma for 5 years. When he wakes, he discovers he has an ability to see into the past, present and future life of anyone with whom he comes into physical contact.",
+        "release_date": "1983-10-21",
+        "release_year": "1983",
+        "title": "Dead Zone, The"
+      },
+      {
+        "cast": [
+          "Philippe Noiret",
+          "Jacques Perrin",
+          "Marco Leonardi",
+          "Salvatore Cascio"
+        ],
+        "country": [
+          "Italy",
+          "France"
+        ],
+        "director": "Giuseppe Tornatore",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "Italian",
+        "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
+        "release_date": "1988-11-17",
+        "release_year": "1988",
+        "title": "Cinema Paradiso"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Reese Witherspoon",
+          "Chris Klein",
+          "Jessica Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alexander Payne",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A high school teacher's personal life becomes complicated as he works with students during the school elections.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Election"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Robert Redford",
+          "Robert Shaw",
+          "Charles Durning"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Roy Hill",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Set in the 1930's this intricate caper deals with an ambitious small-time crook and a veteran con man who seek revenge on a vicious crime lord who murdered one of their gang.",
+        "release_date": "1973-12-25",
+        "release_year": "1973",
+        "title": "Sting, The"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Kirk Douglas",
+          "Ralph Meeker",
+          "Adolphe Menjou",
+          "George Macready"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "During World War I, commanding officer General Broulard (Adolphe Menjou) orders his subordinate, General Mireau (George Macready), to attack a German trench position, offering a promotion as an incentive. Though the mission is foolhardy to the point of suicide, Mireau commands his own subordinate, Colonel Dax (Kirk Douglas), to plan the attack. When it ends in disaster, General Mireau demands the court-martial of three random soldiers in order to save face.",
+        "release_date": "1957-09-18",
+        "release_year": "1957",
+        "title": "Paths of Glory"
+      }
+    ],
+    "raw_user_id": "5585",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 197
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4064019989447418
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily Horror without additional genres.",
+        "Negative ratings for films that do not blend genres effectively."
+      ],
+      "liked_patterns": [
+        "Preference for films that blend genres, particularly Crime with Drama or Thriller.",
+        "Enjoyment of films that feature strong character development and emotional depth.",
+        "Tendency to rate comedies positively, especially those with a mix of other genres."
+      ],
+      "summary": "Unique tastes: Appreciation for Crime and Thriller genres (Multiple high ratings for films in these genres indicate a strong preference.); Enjoyment of Comedy (Several comedies received favorable ratings, suggesting a liking for humor.); Interest in Drama and Romance (A number of films combining these genres were rated positively, showing a preference for emotional narratives.); Favoring Sci-Fi and Action elements (High ratings for films that blend these genres suggest an affinity for adventurous and speculative storytelling.); Attraction to Horror with a dramatic twist (Positive ratings for horror films that incorporate dramatic elements indicate a unique taste.). Liked patterns: Preference for films that blend genres, particularly Crime with Drama or Thriller., Enjoyment of films that feature strong character development and emotional depth., Tendency to rate comedies positively, especially those with a mix of other genres.. Disliked patterns: Dislike for films that are primarily Horror without additional genres., Negative ratings for films that do not blend genres effectively..",
+      "unique_tastes": [
+        {
+          "reason": "Multiple high ratings for films in these genres indicate a strong preference.",
+          "taste": "Appreciation for Crime and Thriller genres"
+        },
+        {
+          "reason": "Several comedies received favorable ratings, suggesting a liking for humor.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "A number of films combining these genres were rated positively, showing a preference for emotional narratives.",
+          "taste": "Interest in Drama and Romance"
+        },
+        {
+          "reason": "High ratings for films that blend these genres suggest an affinity for adventurous and speculative storytelling.",
+          "taste": "Favoring Sci-Fi and Action elements"
+        },
+        {
+          "reason": "Positive ratings for horror films that incorporate dramatic elements indicate a unique taste.",
+          "taste": "Attraction to Horror with a dramatic twist"
+        }
+      ]
+    },
+    "user_id": 5585
+  }
+}

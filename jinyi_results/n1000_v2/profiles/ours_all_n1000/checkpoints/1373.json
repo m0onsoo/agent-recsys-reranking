@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "be6ac2f45e80991ef8beeb9cada720c752de28d43b09ff34453546d6d4075551",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      727,
+      1002,
+      683,
+      15,
+      322,
+      3,
+      539,
+      1451,
+      212,
+      1271
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b506ceaaf85c4d25b6fe55a94e6efd07"
+    ],
+    "sampled_item_ids": [
+      3,
+      10,
+      11,
+      23,
+      33,
+      113,
+      114,
+      125,
+      142,
+      190,
+      208,
+      475,
+      592,
+      610,
+      633,
+      644,
+      647,
+      650,
+      665,
+      715,
+      727,
+      744,
+      749,
+      1451,
+      2039
+    ],
+    "seed": 42,
+    "source_hash": "5fb861481f5160e2e0292c523efcb79302b1291cb8442c6c8ea8684755d85f92",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1373,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gene Kelly",
+          "Donald O'Connor",
+          "Debbie Reynolds",
+          "Jean Hagen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Donen",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In 1927 Hollywood, Don Lockwood and Lina Lamont are a famous on-screen romantic pair in silent movies, but Lina mistakes the on-screen romance for real love. When their latest film is transformed into a musical, Don has the perfect voice for the songs, but strident voice faces the studio to dub her voice. Aspiring actress, Kathy Selden is brought in and, while she is working on the movie, Don falls in love with her.",
+        "release_date": "1952-04-10",
+        "release_year": "1952",
+        "title": "Singin' in the Rain"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "John Beck",
+          "Mary Gregory"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Miles Monroe, a clarinet-playing health food store proprietor, is revived out of cryostasis 200 years into a future world in order to help rebels fight an oppressive government regime.",
+        "release_date": "1973-12-17",
+        "release_year": "1973",
+        "title": "Sleeper"
+      },
+      {
+        "cast": [
+          "Kathryn Beaumont",
+          "Verna Felton",
+          "Ed Wynn",
+          "Richard Haydn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hamilton Luske",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "On a golden afternoon, young Alice follows a White Rabbit, who disappears down a nearby rabbit hole. Quickly following him, she tumbles into the burrow - and enters the merry, topsy-turvy world of Wonderland! Memorable songs and whimsical escapades highlight Alice's journey, which culminates in a madcap encounter with the Queen of Hearts - and her army of playing cards!",
+        "release_date": "1951-07-03",
+        "release_year": "1951",
+        "title": "Alice in Wonderland"
+      },
+      {
+        "cast": [
+          "Julie Andrews",
+          "Christopher Plummer",
+          "Eleanor Parker",
+          "Richard Haydn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Wise",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Film adaptation of a classic Rodgers and Hammerstein musical based on a nun who becomes a governess for an Austrian family.",
+        "release_date": "1965-03-02",
+        "release_year": "1965",
+        "title": "Sound of Music, The"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Audrey Hepburn",
+          "Rex Harrison",
+          "Stanley Holloway",
+          "Wilfrid Hyde-White"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Cukor",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A misogynistic and snobbish phonetics professor agrees to a wager that he can take a flower girl and make her presentable in high society.",
+        "release_date": "1964-10-21",
+        "release_year": "1964",
+        "title": "My Fair Lady"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Matthew McConaughey",
+          "James Woods",
+          "John Hurt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Contact is a science fiction film about an encounter with alien intelligence. Based on the novel by Carl Sagan the film starred Jodie Foster as the one chosen scientist who must make some difficult decisions between her beliefs, the truth, and reality.",
+        "release_date": "1997-07-11",
+        "release_year": "1997",
+        "title": "Contact"
+      },
+      {
+        "cast": [
+          "Farley Granger",
+          "Robert Walker",
+          "Ruth Roman",
+          "Patricia Hitchcock"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychotic socialite confronts a pro tennis star with a theory on how two complete strangers can get away with murder...a theory that he plans to implement.",
+        "release_date": "1951-06-18",
+        "release_year": "1951",
+        "title": "Strangers on a Train"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Joanne Samuel",
+          "Hugh Keays-Byrne",
+          "Steve Bisley"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future Australia, a vicious biker gang murders a cop's family, and makes his fight with them personal.",
+        "release_date": "1979-04-12",
+        "release_year": "1979",
+        "title": "Mad Max"
+      },
+      {
+        "cast": [
+          "Harry Dean Stanton",
+          "Emilio Estevez",
+          "Tracey Walter",
+          "Olivia Barash"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alex Cox",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A down and out young punk gets a job working with a seasoned repo man, but what awaits him in his new career is a series of outlandish adventures revolving around aliens, the CIA, and a most wanted '64 Chevy.",
+        "release_date": "1984-02-20",
+        "release_year": "1984",
+        "title": "Repo Man"
+      }
+    ],
+    "raw_user_id": "1373",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 60
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8726318791846842
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that blend genres with drama",
+        "Dislike for films with a strong focus on crime or mystery elements"
+      ],
+      "liked_patterns": [
+        "High ratings for musicals and animated films",
+        "Positive ratings for action and sci-fi films",
+        "Frequent enjoyment of comedies and adventure films"
+      ],
+      "summary": "Unique tastes: Musicals (The user enjoys musicals, as indicated by multiple high ratings for films in this genre.); Animation and Children's Films (The user has a strong preference for animated and children's films, reflected in several high ratings.); Action and Sci-Fi (The user appreciates action and sci-fi genres, with many films rated positively.); Comedy (The user shows a liking for comedies, as evidenced by several favorable ratings.); Adventure (The user enjoys adventure films, which are frequently rated highly.). Liked patterns: High ratings for musicals and animated films, Positive ratings for action and sci-fi films, Frequent enjoyment of comedies and adventure films. Disliked patterns: Low ratings for films that blend genres with drama, Dislike for films with a strong focus on crime or mystery elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys musicals, as indicated by multiple high ratings for films in this genre.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "The user has a strong preference for animated and children's films, reflected in several high ratings.",
+          "taste": "Animation and Children's Films"
+        },
+        {
+          "reason": "The user appreciates action and sci-fi genres, with many films rated positively.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "The user shows a liking for comedies, as evidenced by several favorable ratings.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user enjoys adventure films, which are frequently rated highly.",
+          "taste": "Adventure"
+        }
+      ]
+    },
+    "user_id": 1373
+  }
+}

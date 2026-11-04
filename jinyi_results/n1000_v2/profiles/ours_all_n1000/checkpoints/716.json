@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "15d00c6ca020bcac3cb06d327f4afa919430be8496ebe61e16d2a0f8375e59f4",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      196,
+      274,
+      215,
+      1072,
+      2429,
+      830,
+      843,
+      1688,
+      647,
+      914
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "856ba12281ee4953a1a9e7a866d0c392"
+    ],
+    "sampled_item_ids": [
+      65,
+      110,
+      201,
+      203,
+      244,
+      293,
+      469,
+      538,
+      576,
+      776,
+      813,
+      816,
+      840,
+      889,
+      1056,
+      1102,
+      1251,
+      1314,
+      1717,
+      1867,
+      1877,
+      1938,
+      2288,
+      2338,
+      2548
+    ],
+    "seed": 42,
+    "source_hash": "b8988c9118003175b9892e0673dd8b3930eff5ddb9650f104a625bf4dcd4d01a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 716,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sean Connery",
+          "Nicolas Cage",
+          "Ed Harris",
+          "John Spencer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Bay",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A group of renegade marine commandos seizes a stockpile of chemical weapons and takes over Alcatraz, with 81 tourists as hostages. Their leader demands $100 million to be paid, as restitution to families of Marines who died in covert ops – or he will launch 15 rockets carrying deadly VX gas into the San Francisco Bay area.",
+        "release_date": "1996-06-06",
+        "release_year": "1996",
+        "title": "Rock, The"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Dan Aykroyd",
+          "Sigourney Weaver",
+          "Harold Ramis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Ghostbusters"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Carl Weathers",
+          "Elpidia Carrillo",
+          "Bill Duke"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Dutch and his group of commandos are hired by the CIA to rescue downed airmen from guerillas in a Central American jungle. The mission goes well but as they return they find that something is hunting them. Nearly invisible, it blends in with the forest, taking trophies from the bodies of its victims as it goes along. Occasionally seeing through its eyes, the audience sees it is an intelligent alien hunter, hunting them for sport, killing them off one at a time.",
+        "release_date": "1987-06-11",
+        "release_year": "1987",
+        "title": "Predator"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Christopher Lee",
+          "Britt Ekland",
+          "Maud Adams"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Guy Hamilton",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "A golden bullet has 007 engraved on it as it smashes into the secret service headquarters. The bullet came from the professional killer Scaramanga who has yet to miss a target and James Bond begins a mission to try and stop him.",
+        "release_date": "1974-12-01",
+        "release_year": "1974",
+        "title": "Man with the Golden Gun, The"
+      },
+      {
+        "cast": [
+          "Chuck Norris",
+          "M. Emmet Walsh",
+          "David Tress",
+          "Lenore Kasdorf"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joseph Zito",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "American servicemen are still being held captive in Vietnam and it's up to one man to bring them home in this blistering, fast-paced action/adventure starring martial arts superstar Chuck Norris.Following a daring escape from a Vietnamese POW camp, Special Forces Colonel James Braddock (Norris) is on a mission to locate and save remaining MIAs.",
+        "release_date": "1984-11-16",
+        "release_year": "1984",
+        "title": "Missing in Action"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "John Cazale",
+          "Charles Durning",
+          "Chris Sarandon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A man robs a bank to pay for his lover's operation; it turns into a hostage situation and a media circus.",
+        "release_date": "1975-08-11",
+        "release_year": "1975",
+        "title": "Dog Day Afternoon"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Rutger Hauer",
+          "Michelle Pfeiffer",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Captain Etienne Navarre is a man on whose shoulders lies a cruel curse. Punished for loving each other, Navarre must become a wolf by night whilst his lover, Lady Isabeau, takes the form of a hawk by day. Together, with the thief Philippe Gaston, they must try to overthrow the corrupt Bishop and in doing so break the spell.",
+        "release_date": "1985-03-27",
+        "release_year": "1985",
+        "title": "Ladyhawke"
+      },
+      {
+        "cast": [
+          "Morgan Freeman",
+          "Ashley Judd",
+          "Cary Elwes",
+          "Alex McArthur"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Fleder",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Forensic psychologist Alex Cross travels to North Carolina and teams with escaped kidnap victim Kate McTiernan to hunt down \"Casanova,\" a serial killer who abducts strong-willed women and forces them to submit to his demands. The trail leads to Los Angeles, where the duo discovers that the psychopath may not be working alone.",
+        "release_date": "1997-10-03",
+        "release_year": "1997",
+        "title": "Kiss the Girls"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leonard Nimoy",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Fugitives of the Federation for their daring rescue of Spock from the doomed Genesis Planet, Admiral Kirk (William Shatner) and his crew begin their journey home to face justice for their actions. But as they near Earth, they find it at the mercy of a mysterious alien presence whose signals are slowly destroying the planet. In a desperate attempt to answer the call of the probe, Kirk and his crew race back to the late twentieth century. However they soon find the world they once knew to be more alien than anything they've encountered in the far reaches of the galaxy!",
+        "release_date": "1986-11-25",
+        "release_year": "1986",
+        "title": "Star Trek IV: The Voyage Home"
+      },
+      {
+        "cast": [
+          "Jon Favreau",
+          "Leland Orser",
+          "Cameron Diaz",
+          "Christian Slater"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Berg",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Kyle Fisher has one last night to celebrate life as a single man before marrying Laura, so he sets out to Vegas with four of his best buddies. But a drug and alcohol filled night on the town with a stripper who goes all the way, turns into a cold night in the desert with shovels when the stripper goes all the way into a body bag after dying in their bathroom. And that's just the first of the bodies to pile up before Kyle can walk down the aisle...",
+        "release_date": "1998-09-11",
+        "release_year": "1998",
+        "title": "Very Bad Things"
+      }
+    ],
+    "raw_user_id": "716",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 314
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9969823774343685
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for certain action films that lack depth",
+        "Dislike for specific comedies that do not resonate",
+        "Dislike for sci-fi films that fail to engage"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure genres",
+        "Enjoyment of comedic films",
+        "Interest in science fiction narratives"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Comedy (The user appreciates humor and comedic elements, often rating comedies positively.); Sci-Fi (The user shows a preference for science fiction themes, indicating an interest in futuristic and speculative narratives.); Drama with Depth (The user is drawn to dramas that explore complex themes and character development.); Animation (The user enjoys animated films, particularly those that blend humor and storytelling.). Liked patterns: Strong preference for action and adventure genres, Enjoyment of comedic films, Interest in science fiction narratives. Disliked patterns: Dislike for certain action films that lack depth, Dislike for specific comedies that do not resonate, Dislike for sci-fi films that fail to engage.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates humor and comedic elements, often rating comedies positively.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows a preference for science fiction themes, indicating an interest in futuristic and speculative narratives.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user is drawn to dramas that explore complex themes and character development.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "The user enjoys animated films, particularly those that blend humor and storytelling.",
+          "taste": "Animation"
+        }
+      ]
+    },
+    "user_id": 716
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "ff376f4bd3dd0ebacfea5fef3ccc7edc6f88d7f961c3228166267e401ac06051",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1151,
+      525,
+      344,
+      1116,
+      68,
+      168,
+      106,
+      663,
+      183,
+      543
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ade3c2e3ac4749acbaa65cce8baf2f61"
+    ],
+    "sampled_item_ids": [
+      1,
+      44,
+      45,
+      65,
+      96,
+      106,
+      129,
+      142,
+      183,
+      204,
+      243,
+      245,
+      260,
+      311,
+      435,
+      445,
+      509,
+      516,
+      536,
+      832,
+      906,
+      995,
+      1299,
+      2561,
+      3024
+    ],
+    "seed": 42,
+    "source_hash": "e25ca2bdc2b6c68244168908751ad7d7d6120563ae65304951df88d54a3ef1a7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3733,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ron Livingston",
+          "Jennifer Aniston",
+          "David Herman",
+          "Ajay Naidu"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Judge",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Three office workers strike back at their evil employers by hatching a hapless attempt to embezzle money.",
+        "release_date": "1999-02-19",
+        "release_year": "1999",
+        "title": "Office Space"
+      },
+      {
+        "cast": [
+          "Julianne Moore",
+          "William H. Macy",
+          "John C. Reilly",
+          "Tom Cruise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Thomas Anderson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An epic mosaic of many interrelated characters in search of happiness, forgiveness, and meaning in the San Fernando Valley.",
+        "release_date": "1999-12-08",
+        "release_year": "1999",
+        "title": "Magnolia"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "John Goodman",
+          "Julianne Moore",
+          "Steve Buscemi"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jeffrey \"The Dude\" Lebowski, a Los Angeles slacker who only wants to bowl and drink white Russians, is mistaken for another Jeffrey Lebowski, a wheelchair-bound millionaire, and finds himself dragged into a strange series of events involving nihilists, adult film producers, ferrets, errant toes, and large sums of money.",
+        "release_date": "1998-03-06",
+        "release_year": "1998",
+        "title": "Big Lebowski, The"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Shelley Duvall",
+          "Danny Lloyd",
+          "Scatman Crothers"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
+        "release_date": "1980-05-22",
+        "release_year": "1980",
+        "title": "Shining, The"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Ray Liotta",
+          "Joe Pesci",
+          "Lorraine Bracco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+        "release_date": "1990-09-12",
+        "release_year": "1990",
+        "title": "GoodFellas"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Morgan Freeman",
+          "Bob Gunton",
+          "Clancy Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Shawshank Redemption, The"
+      },
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      },
+      {
+        "cast": [
+          "Keir Dullea",
+          "Gary Lockwood",
+          "William Sylvester",
+          "Douglas Rain"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "release_date": "1968-04-10",
+        "release_year": "1968",
+        "title": "2001: A Space Odyssey"
+      },
+      {
+        "cast": [
+          "Leslie Nielsen",
+          "Priscilla Presley",
+          "Ricardo Montalban",
+          "George Kennedy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Zucker",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When the incompetent Officer Frank Drebin seeks the ruthless killer of his partner, he stumbles upon an attempt to assassinate Queen Elizabeth.",
+        "release_date": "1988-12-02",
+        "release_year": "1988",
+        "title": "Naked Gun: From the Files of Police Squad!, The"
+      },
+      {
+        "cast": [
+          "Ewan McGregor",
+          "Ewen Bremner",
+          "Jonny Lee Miller",
+          "Robert Carlyle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Danny Boyle",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
+        "release_date": "1996-02-23",
+        "release_year": "1996",
+        "title": "Trainspotting"
+      }
+    ],
+    "raw_user_id": "3733",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 97
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5926078009617469
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that do not engage with complex narratives or character development."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with crime and thriller elements.",
+        "Strong appreciation for character-driven stories across various genres.",
+        "Consistent enjoyment of comedies that incorporate dramatic themes."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for films in this genre.); Crime and Thriller (The user enjoys crime and thriller elements, reflected in several highly rated films that combine these genres.); Comedy (The user appreciates humor, indicated by a number of well-rated comedies that blend with other genres.); Character-driven Stories (The user favors films with deep character exploration and development, as seen in their ratings for dramas and thrillers.); Complex Narratives (The user is drawn to films with intricate plots and twists, particularly in the crime and thriller genres.). Liked patterns: High ratings for films that blend drama with crime and thriller elements., Strong appreciation for character-driven stories across various genres., Consistent enjoyment of comedies that incorporate dramatic themes.. Disliked patterns: Dislike for films that do not engage with complex narratives or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys crime and thriller elements, reflected in several highly rated films that combine these genres.",
+          "taste": "Crime and Thriller"
+        },
+        {
+          "reason": "The user appreciates humor, indicated by a number of well-rated comedies that blend with other genres.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user favors films with deep character exploration and development, as seen in their ratings for dramas and thrillers.",
+          "taste": "Character-driven Stories"
+        },
+        {
+          "reason": "The user is drawn to films with intricate plots and twists, particularly in the crime and thriller genres.",
+          "taste": "Complex Narratives"
+        }
+      ]
+    },
+    "user_id": 3733
+  }
+}

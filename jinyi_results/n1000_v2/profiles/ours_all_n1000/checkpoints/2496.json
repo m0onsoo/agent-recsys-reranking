@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "82b1e524d182a61ff8afdd2039425406473cad9be6a50dc81f6a4c34991412f2",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      967,
+      1186,
+      991,
+      846,
+      690,
+      122,
+      1676,
+      2312,
+      2287,
+      2525
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "f22ea2d9ae224ae4a3d83ef16c99a583"
+    ],
+    "sampled_item_ids": [
+      48,
+      100,
+      112,
+      118,
+      161,
+      167,
+      204,
+      214,
+      219,
+      408,
+      482,
+      561,
+      571,
+      677,
+      756,
+      1023,
+      1047,
+      1157,
+      1249,
+      1529,
+      1675,
+      2367,
+      2562,
+      2666,
+      2945
+    ],
+    "seed": 42,
+    "source_hash": "70fd62ff59a2077260a506b402336ca1fc9561a768298e9f64c3b7f086a30797",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2496,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Louis Jourdan",
+          "Adrienne Barbeau",
+          "Ray Wise",
+          "David Hess"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wes Craven",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Dr. Alec Holland, hidden away in the depths of a murky swamp, is trying to create a new species - a combination of animal and plant capable of adapting and thriving in the harshest conditions. Unfortunately he becomes subject of his own creation and is transformed. Arcane, desperate for the formula, attempts to capture the Swamp Thing. An explosive chase ensues that ultimately ends with a confrontation between Holland and a changed Arcane...",
+        "release_date": "1982-02-19",
+        "release_year": "1982",
+        "title": "Swamp Thing"
+      },
+      {
+        "cast": [
+          "N!xau",
+          "Michael Thys",
+          "Marius Weyers",
+          "Sandra Prinsloo"
+        ],
+        "country": [
+          "South Africa",
+          "Botswana"
+        ],
+        "director": "Jamie Uys",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Misery is brought to a small group of Sho in the Kalahari desert in the form of a cola bottle. In his quest to throw the evil object over the edge of the earth, Xixo encounters Western \"civilization,\" a haphazard doctor and a tyranical despot.",
+        "release_date": "1980-09-10",
+        "release_year": "1980",
+        "title": "Gods Must Be Crazy, The"
+      },
+      {
+        "cast": [
+          "Kurt Russell",
+          "Keith David",
+          "Wilford Brimley",
+          "Donald Moffat"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Scientists in the Antarctic are confronted by a shape-shifting alien that assumes the appearance of the people that it kills.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Thing, The"
+      },
+      {
+        "cast": [
+          "John Wayne",
+          "Kim Darby",
+          "Jeremy Slate",
+          "Dennis Hopper"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Henry Hathaway",
+        "genres": [
+          "Adventure",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "The murder of her father sends a teenage tomboy, Mattie Ross (Kim Darby), on a mission of \"justice\", which involves avenging her father's death. She recruits a tough old marshal, \"Rooster\" Cogburn (John Wayne), because he has \"grit\", and a reputation of getting the job done. The two are joined by a Texas Ranger, La Boeuf (Glen Campbell), who is looking for the same man (Jeff Corey) for a separate murder in Texas. Their odyssey takes them from Fort Smith, Arkansas, deep into the Indian Territory (present day Oklahoma) to find their man.",
+        "release_date": "1969-06-11",
+        "release_year": "1969",
+        "title": "True Grit"
+      },
+      {
+        "cast": [
+          "Kerwin Mathews",
+          "Kathryn Grant",
+          "Torin Thatcher",
+          "Richard Eyer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nathan H. Juran",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "When a princess is shrunken by an evil wizard, Sinbad must undertake a quest to an island of monsters to cure her and prevent a war.",
+        "release_date": "1958-12-05",
+        "release_year": "1958",
+        "title": "7th Voyage of Sinbad, The"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Edward G. Robinson",
+          "Lauren Bacall",
+          "Lionel Barrymore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A hurricane swells outside, but it's nothing compared to the storm within the hotel at Key Largo. There, sadistic mobster Johnny Rocco holes up - and holds at gunpoint hotel owner James Temple, his widowed daughter-in-law Nora, and ex-GI Frank McCloud.",
+        "release_date": "1948-07-31",
+        "release_year": "1948",
+        "title": "Key Largo"
+      },
+      {
+        "cast": [
+          "William Holden",
+          "Don Taylor",
+          "Otto Preminger",
+          "Robert Strauss"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "It's a dreary Christmas 1944 for the American POWs in Stalag 17. For the men in Barracks 4, all sergeants, have to deal with a grave problem - there seems to be a security leak. The Germans always seem to be forewarned about escapes and in the most recent attempt the two men, Manfredi and Johnson, walked straight into a trap and were killed. For some in Barracks 4, especially the loud-mouthed Duke, the leaker is obvious: J.J. Sefton, a wheeler-dealer who doesn't hesitate to trade with the guards and who has acquired goods and privileges that no other prisoner seems to have. Sefton denies giving the Germans any information and makes it quite clear that he has no intention of ever trying to escape. He plans to ride out the war in what little comfort he can arrange, but it doesn't extend to spying for the Germans.",
+        "release_date": "1953-05-29",
+        "release_year": "1953",
+        "title": "Stalag 17"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Ava Gardner",
+          "George Kennedy",
+          "Lorne Greene"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Robson",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Earthquake is a 1974 American disaster film that achieved huge box-office success, continuing the disaster film genre of the 1970s where recognizable all-star casts attempt to survive life or death situations. The plot concerns the struggle for survival after a catastrophic earthquake destroys most of the city of Los Angeles, California.",
+        "release_date": "1974-11-15",
+        "release_year": "1974",
+        "title": "Earthquake"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Marsha Mason",
+          "Everett McGill",
+          "Moses Gunn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A hard-nosed, hard-living Marine gunnery sergeant clashes with his superiors and his ex-wife as he takes command of a spoiled recon platoon with a bad attitude.",
+        "release_date": "1986-12-15",
+        "release_year": "1986",
+        "title": "Heartbreak Ridge"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Sondra Locke",
+          "Geoffrey Lewis",
+          "Scatman Crothers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "An idealistic, modern-day cowboy struggles to keep his Wild West show afloat in the face of hard luck and waning interest.",
+        "release_date": "1980-06-11",
+        "release_year": "1980",
+        "title": "Bronco Billy"
+      }
+    ],
+    "raw_user_id": "2496",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 409
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0938916629234967
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly rated action films",
+        "Dislike for films with low emotional engagement",
+        "Dislike for films that fail to blend genres effectively"
+      ],
+      "liked_patterns": [
+        "Enjoyment of drama and character-driven stories",
+        "Appreciation for action-packed sequences",
+        "Interest in comedic elements alongside other genres"
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates character-driven narratives and emotional depth, as seen in multiple drama films.); Action (The user enjoys high-energy sequences and thrilling plots, indicated by a variety of action films rated positively.); Comedy (The user has a preference for humor and light-hearted storytelling, reflected in several comedies rated favorably.); Adventure (The user is drawn to explorative and escapist themes, as shown by their enjoyment of adventure films.); Romance (The user shows an interest in romantic elements within films, particularly when combined with drama.). Liked patterns: Enjoyment of drama and character-driven stories, Appreciation for action-packed sequences, Interest in comedic elements alongside other genres. Disliked patterns: Dislike for poorly rated action films, Dislike for films with low emotional engagement, Dislike for films that fail to blend genres effectively.",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates character-driven narratives and emotional depth, as seen in multiple drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys high-energy sequences and thrilling plots, indicated by a variety of action films rated positively.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user has a preference for humor and light-hearted storytelling, reflected in several comedies rated favorably.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to explorative and escapist themes, as shown by their enjoyment of adventure films.",
+          "taste": "Adventure"
+        },
+        {
+          "reason": "The user shows an interest in romantic elements within films, particularly when combined with drama.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 2496
+  }
+}

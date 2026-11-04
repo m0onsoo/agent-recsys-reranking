@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "cf90af4a3ebc59a4c1d0c6e9fcfb02c9d13bfe62262b09c12c5d1a468a6c9ca0",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1050,
+      1113,
+      255,
+      854,
+      518,
+      2549,
+      349,
+      1745,
+      686,
+      1253
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      76,
+      117,
+      126,
+      284,
+      538,
+      553,
+      636,
+      647,
+      670,
+      676,
+      776,
+      777,
+      842,
+      846,
+      855,
+      1062,
+      1112,
+      1139,
+      1222,
+      1223,
+      1773,
+      1959,
+      1985,
+      2377,
+      2835
+    ],
+    "seed": 42,
+    "source_hash": "b4a25db5b9932e8ed452194558cd58e404d1bf42cb706a6a2ad40c0932c9a7df",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4508,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Whoopi Goldberg",
+          "Margaret Avery",
+          "Danny Glover",
+          "Akosua Busia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An epic tale spanning forty years in the life of Celie (Whoopi Goldberg), an African-American woman living in the South who survives incredible abuse and bigotry.  After Celie's abusive father marries her off to the equally debasing \"Mister\" Albert Johnson (Danny Glover), things go from bad to worse, leaving Celie to find companionship anywhere she can.  She perseveres, holding on to her dream of one day being reunited with her sister in Africa.  Based on the novel by Alice Walker.",
+        "release_date": "1985-12-18",
+        "release_year": "1985",
+        "title": "Color Purple, The"
+      },
+      {
+        "cast": [
+          "Timothy Dalton",
+          "Carey Lowell",
+          "Robert Davi",
+          "Talisa Soto"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Glen",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "James Bond and his American colleague Felix Leiter arrest the drug lord Sanchez who succeeds in escaping and takes revenge on Felix and his wife. Bond knows but just one thing: revenge.",
+        "release_date": "1989-07-07",
+        "release_year": "1989",
+        "title": "Licence to Kill"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Ben Kingsley",
+          "Stuart Wilson",
+          "Krystia Mova"
+        ],
+        "country": [
+          "United States of America",
+          "France",
+          "United Kingdom"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A political activist is convinced that her guest is a man who once tortured her for the government.",
+        "release_date": "1994-05-04",
+        "release_year": "1994",
+        "title": "Death and the Maiden"
+      },
+      {
+        "cast": [
+          "Matt Damon",
+          "Bill Pullman",
+          "Drew Barrymore",
+          "John Leguizamo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Goldman",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A young man finds out that he holds the key to restoring hope and ensuring survival for the human race, while an alien species called the Dredge are bent on mankind's destruction.",
+        "release_date": "2000-06-16",
+        "release_year": "2000",
+        "title": "Titan A.E."
+      },
+      {
+        "cast": [
+          "Ben Stiller",
+          "Robert De Niro",
+          "Teri Polo",
+          "Blythe Danner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Greg Focker is ready to marry his girlfriend, Pam, but before he pops the question, he must win over her formidable father, humorless former CIA agent Jack Byrnes, at the wedding of Pam's sister. As Greg bends over backward to make a good impression, his visit to the Byrnes home turns into a hilarious series of disasters, and everything that can go wrong does, all under Jack's critical, hawklike gaze.",
+        "release_date": "2000-10-06",
+        "release_year": "2000",
+        "title": "Meet the Parents"
+      },
+      {
+        "cast": [
+          "Gabrielle Anwar",
+          "Terry Kinney",
+          "Billy Wirth",
+          "Christine Elise"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Abel Ferrara",
+        "genres": [
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When Environmental Protection Agency inspector Steve Malone travels to a remote military base in order to check for toxic materials, he brings his family along for the ride. After arriving at the base, his teenage daughter Marti befriends Jean Platt, daughter of the base's commander, General Platt. When people at the base begin acting strangely, Marti becomes convinced that they are slowly being replaced by plant-like aliens.",
+        "release_date": "1993-06-09",
+        "release_year": "1993",
+        "title": "Body Snatchers"
+      },
+      {
+        "cast": [
+          "Carlos Gallardo",
+          "Jaime de Hoyos",
+          "Peter Marquardt",
+          "Reinol Martinez"
+        ],
+        "country": [
+          "Mexico",
+          "United States of America"
+        ],
+        "director": "Robert Rodriguez",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "Spanish",
+        "overview": "El Mariachi just wants to play his guitar and carry on the family tradition. Unfortunately, the town he tries to find work in has another visitor...a killer who carries his guns in a guitar case. The drug lord and his henchmen mistake El Mariachi for the killer, Azul, and chase him around town trying to kill him and get his guitar case.",
+        "release_date": "1992-09-04",
+        "release_year": "1992",
+        "title": "Mariachi, El"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Rachel Ward",
+          "Alan Ladd",
+          "Carl Reiner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Carl Reiner",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Juliet Forrest is convinced that the reported death of her father in a mountain car crash was no accident. Her father was a prominent cheese scientist working on a secret recipe. To prove it was murder, she enlists the services of private eye Rigby Reardon. He finds a slip of paper containing a list of people who are \"The Friends and Enemies of Carlotta.\"",
+        "release_date": "1982-05-21",
+        "release_year": "1982",
+        "title": "Dead Men Don't Wear Plaid"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Glenn Close",
+          "Alan Bates",
+          "Paul Scofield"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Franco Zeffirelli",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Hamlet, Prince of Denmark, finds out that his uncle Claudius killed his father to obtain the throne, and plans revenge.",
+        "release_date": "1990-12-19",
+        "release_year": "1990",
+        "title": "Hamlet"
+      },
+      {
+        "cast": [
+          "Parker Posey",
+          "Liev Schreiber",
+          "Anthony DeSando",
+          "Guillermo Díaz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daisy von Scherler Mayer",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Although Mary has little income, she still finds ways to spend her nights at clubs. After being arrested for throwing an illegal rave, she asks her aunt Judy for bail money. Judy then finds Mary a job at her library so that Mary can repay her. Initially, Mary finds the job as a clerk boring and stifling, and prefers to get to know a street food vendor whom she likes. However, Mary must refocus her life once she loses her job and apartment.",
+        "release_date": "1995-06-09",
+        "release_year": "1995",
+        "title": "Party Girl"
+      }
+    ],
+    "raw_user_id": "4508",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 969
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9269998265203364
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislikes action films that lack depth or strong narratives.",
+        "Dislikes comedies that fail to deliver humor effectively."
+      ],
+      "liked_patterns": [
+        "Enjoys comedies that also explore romantic themes.",
+        "Appreciates dramas that include romantic elements.",
+        "Likes adventure films that are engaging and well-received."
+      ],
+      "summary": "Unique tastes: Comedy and Romance (The user enjoys films that blend humor with romantic themes, as seen in multiple ratings of 3 or above.); Drama with Romantic Elements (The user appreciates dramas that incorporate romance, reflected in several positive ratings.); Adventure Films (The user shows a preference for adventure films, with several rated positively.); Horror with Humor (The user seems to enjoy horror films that also incorporate comedic elements, as indicated by positive ratings.); Action with Strong Storylines (The user favors action films that are well-crafted and engaging, as shown by higher ratings.). Liked patterns: Enjoys comedies that also explore romantic themes., Appreciates dramas that include romantic elements., Likes adventure films that are engaging and well-received.. Disliked patterns: Dislikes action films that lack depth or strong narratives., Dislikes comedies that fail to deliver humor effectively..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that blend humor with romantic themes, as seen in multiple ratings of 3 or above.",
+          "taste": "Comedy and Romance"
+        },
+        {
+          "reason": "The user appreciates dramas that incorporate romance, reflected in several positive ratings.",
+          "taste": "Drama with Romantic Elements"
+        },
+        {
+          "reason": "The user shows a preference for adventure films, with several rated positively.",
+          "taste": "Adventure Films"
+        },
+        {
+          "reason": "The user seems to enjoy horror films that also incorporate comedic elements, as indicated by positive ratings.",
+          "taste": "Horror with Humor"
+        },
+        {
+          "reason": "The user favors action films that are well-crafted and engaging, as shown by higher ratings.",
+          "taste": "Action with Strong Storylines"
+        }
+      ]
+    },
+    "user_id": 4508
+  }
+}

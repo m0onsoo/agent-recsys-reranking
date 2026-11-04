@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "b8370f474d3339fa13d16d15514aaf484a66c4137c7d76cf9070bf0c12363d3d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      85,
+      858,
+      2361,
+      1230,
+      318,
+      1467,
+      1912,
+      333,
+      274,
+      1142
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      43,
+      88,
+      206,
+      288,
+      333,
+      355,
+      645,
+      762,
+      791,
+      888,
+      981,
+      1003,
+      1116,
+      1192,
+      1212,
+      1286,
+      1300,
+      1404,
+      1467,
+      1725,
+      1921,
+      1939,
+      1940,
+      2107,
+      3013
+    ],
+    "seed": 42,
+    "source_hash": "c2598a894fca13ca5eafe6b35ed90d2b7098a464447807e7314f41b315b46502",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4497,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Wil Wheaton",
+          "River Phoenix",
+          "Corey Feldman",
+          "Jerry O'Connell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After the death of a friend, a writer recounts a boyhood journey to find the body of a missing boy.",
+        "release_date": "1986-08-22",
+        "release_year": "1986",
+        "title": "Stand by Me"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "James Earl Jones",
+          "Max von Sydow",
+          "Sandahl Bergman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Milius",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "A film adaptation of the classic sword and sorcery hero, Conan the Barbarian. A horde of rampaging warriors massacre the parents of young Conan and enslave the young child for years on The Wheel of Pain. As the sole survivor of the childhood massacre, Conan is released from slavery and taught the ancient arts of fighting. Transforming himself into a killing machine, Conan travels into the wilderness to seek vengeance on Thulsa Doom, the man responsible for killing his family. In the wilderness, Conan takes up with the thieves Valeria and Subotai. The group comes upon King Osric, who wants the trio of warriors to help rescue his daughter who has joined Doom in the hills.",
+        "release_date": "1982-04-02",
+        "release_year": "1982",
+        "title": "Conan the Barbarian"
+      },
+      {
+        "cast": [
+          "Robert Forster",
+          "Robin Riker",
+          "Michael V. Gazzo",
+          "Dean Jagger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lewis Teague",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A baby alligator is flushed down a Chicago toilet and survives by eating discarded lab rats, injected with growth hormones. The now gigantic animal, escapes the city sewers, and goes on a rampage, pursued by a cop and a big-game hunter.",
+        "release_date": "1980-07-02",
+        "release_year": "1980",
+        "title": "Alligator"
+      },
+      {
+        "cast": [
+          "Andrew Robinson",
+          "Clare Higgins",
+          "Ashley Laurence",
+          "Sean Chapman"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Clive Barker",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Larry and his wife, Julia move into an old house and discover a hideous creature - the man's half-brother, who is also the woman's former lover - hiding upstairs. Having lost his earthly body to a trio of S&amp;M demons, the Cenobites, Frank, is brought back into existence by a drop of blood on the floor. He soon forces his former mistress to bring him his necessary human sacrifices to complete his body... but the Cenobites won't be happy about this.",
+        "release_date": "1987-09-11",
+        "release_year": "1987",
+        "title": "Hellraiser"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Brad Pitt",
+          "Meat Loaf",
+          "Jared Leto"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+        "release_date": "1999-10-15",
+        "release_year": "1999",
+        "title": "Fight Club"
+      },
+      {
+        "cast": [
+          "Martin Sheen",
+          "Marlon Brando",
+          "Robert Duvall",
+          "Frederic Forrest"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
+        "release_date": "1979-08-15",
+        "release_year": "1979",
+        "title": "Apocalypse Now"
+      },
+      {
+        "cast": [
+          "Carmen Maura",
+          "Antonio Banderas",
+          "Julieta Serrano",
+          "María Barranco"
+        ],
+        "country": [
+          "Spain"
+        ],
+        "director": "Pedro Almodóvar",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Spanish",
+        "overview": "Pepa resolves to kill herself with a batch of sleeping-pill-laced gazpacho after her lover leaves her. Fortunately, she is interrupted by a deliciously chaotic series of events.",
+        "release_date": "1988-03-14",
+        "release_year": "1988",
+        "title": "Women on the Verge of a Nervous Breakdown"
+      },
+      {
+        "cast": [
+          "Mira Sorvino",
+          "Lisa Kudrow",
+          "Janeane Garofalo",
+          "Alan Cumming"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Mirkin",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two not-too-bright party girls reinvent themselves for their high school reunion. Armed with a borrowed Jaguar, new clothes and the story of their success as the inventors of Post-It notes, Romy and Michele descend on their alma mater, but their façade crumbles quickly.",
+        "release_date": "1997-04-25",
+        "release_year": "1997",
+        "title": "Romy and Michele's High School Reunion"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Dan Aykroyd",
+          "Sigourney Weaver",
+          "Harold Ramis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Ghostbusters"
+      },
+      {
+        "cast": [
+          "Betsy Palmer",
+          "Adrienne King",
+          "Harry Crosby",
+          "Laurie Bartram"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sean S. Cunningham",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp that was the site of a child's drowning.",
+        "release_date": "1980-05-09",
+        "release_year": "1980",
+        "title": "Friday the 13th"
+      }
+    ],
+    "raw_user_id": "4497",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 400
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8877063659565695
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "A tendency to dislike straightforward comedies that lack depth or originality.",
+        "Disfavor towards horror films that do not provide a compelling narrative or character development."
+      ],
+      "liked_patterns": [
+        "A preference for drama films that explore complex themes and character relationships.",
+        "An inclination towards action and adventure films that deliver excitement and engaging storylines.",
+        "Enjoyment of comedies that blend humor with other genres, particularly drama or horror."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates character-driven narratives and emotional depth, as seen in multiple high-rated drama films.); Action and Adventure (The user enjoys thrilling and adventurous plots, reflected in their positive ratings for action and adventure films.); Comedy with a twist (The user favors comedies that incorporate unique or unconventional elements, as indicated by their ratings for comedies that blend genres.); Horror with depth (The user is drawn to horror films that offer more than just scares, often rating those with strong narratives or themes highly.); Thrillers with complexity (The user enjoys thrillers that provide intricate plots and character development, as shown by their high ratings in this genre.). Liked patterns: A preference for drama films that explore complex themes and character relationships., An inclination towards action and adventure films that deliver excitement and engaging storylines., Enjoyment of comedies that blend humor with other genres, particularly drama or horror.. Disliked patterns: A tendency to dislike straightforward comedies that lack depth or originality., Disfavor towards horror films that do not provide a compelling narrative or character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates character-driven narratives and emotional depth, as seen in multiple high-rated drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys thrilling and adventurous plots, reflected in their positive ratings for action and adventure films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user favors comedies that incorporate unique or unconventional elements, as indicated by their ratings for comedies that blend genres.",
+          "taste": "Comedy with a twist"
+        },
+        {
+          "reason": "The user is drawn to horror films that offer more than just scares, often rating those with strong narratives or themes highly.",
+          "taste": "Horror with depth"
+        },
+        {
+          "reason": "The user enjoys thrillers that provide intricate plots and character development, as shown by their high ratings in this genre.",
+          "taste": "Thrillers with complexity"
+        }
+      ]
+    },
+    "user_id": 4497
+  }
+}

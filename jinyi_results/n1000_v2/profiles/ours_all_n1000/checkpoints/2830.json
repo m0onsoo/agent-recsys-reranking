@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "41af7427bb903736ecc64bd30dadddc553b89d6a14384c26170a532fd60fe954",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1457,
+      1536,
+      178,
+      65,
+      756,
+      3080,
+      93,
+      986,
+      322,
+      49
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "b1998d89ff7f4336a4ab808f0f007341"
+    ],
+    "sampled_item_ids": [
+      24,
+      79,
+      128,
+      167,
+      187,
+      190,
+      192,
+      200,
+      211,
+      216,
+      218,
+      219,
+      322,
+      595,
+      670,
+      734,
+      895,
+      916,
+      956,
+      1119,
+      1388,
+      1426,
+      1457,
+      1459,
+      1473
+    ],
+    "seed": 42,
+    "source_hash": "a23cf6fd3f3348bdb1fba4fb6956ed0b0d43d302eb0ac935d118ad55d0d09241",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2830,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Getz",
+          "Frances McDormand",
+          "Dan Hedaya",
+          "M. Emmet Walsh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Drama",
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "The owner of a seedy small-town Texas bar discovers that one of his employees is having an affair with his wife. A chaotic chain of misunderstandings, lies and mischief ensues after he devises a plot to have them murdered.",
+        "release_date": "1984-09-07",
+        "release_year": "1984",
+        "title": "Blood Simple"
+      },
+      {
+        "cast": [
+          "Tippi Hedren",
+          "Rod Taylor",
+          "Suzanne Pleshette",
+          "Veronica Cartwright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Chic socialite Melanie Daniels enjoys a passing flirtation with an eligible attorney in a San Francisco pet shop and, on an impulse, follows him to his hometown bearing a gift of lovebirds. But upon her arrival, the bird population runs amok. Suddenly, the townsfolk face a massive avian onslaught, with the feathered fiends inexplicably attacking people all over Bodega Bay.",
+        "release_date": "1963-03-28",
+        "release_year": "1963",
+        "title": "Birds, The"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Holly Hunter",
+          "Trey Wilson",
+          "John Goodman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The Coen Brothers tell the story of a absurd yet likable family with an unproductive couple as the focal point. The couple has gotten themselves into some trouble while kidnapping a baby and give Hollywood one of the most memorable chase scenes to date.",
+        "release_date": "1987-03-01",
+        "release_year": "1987",
+        "title": "Raising Arizona"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Dan Aykroyd",
+          "John Belushi",
+          "James Brown",
+          "Cab Calloway"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Jake Blues is just out of jail, and teams up with his brother, Elwood on a 'mission from God' to raise funds for the orphanage in which they grew up. The only thing they can do is do what they do best – play music – so they get their old band together and they're on their way, while getting in a bit of trouble here and there.",
+        "release_date": "1980-06-17",
+        "release_year": "1980",
+        "title": "Blues Brothers, The"
+      },
+      {
+        "cast": [
+          "Karen Black",
+          "Oliver Reed",
+          "Burgess Meredith",
+          "Bette Davis"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Dan Curtis",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "A couple and their 12-year-old son move into a giant house for the summer. Things start acting strange almost immediately. It seems that every time some gets hurt on the grounds the beat-up house seems to repair itself.",
+        "release_date": "1976-10-18",
+        "release_year": "1976",
+        "title": "Burnt Offerings"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Gene Tierney",
+          "Dana Andrews",
+          "Clifton Webb",
+          "Vincent Price"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Otto Preminger",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A police detective falls in love with the woman whose murder he's investigating.",
+        "release_date": "1944-10-11",
+        "release_year": "1944",
+        "title": "Laura"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      }
+    ],
+    "raw_user_id": "2830",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 69
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7928713792019996
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for horror films that lack engaging plots",
+        "Negative response to comedies that do not resonate with the user",
+        "Displeasure with films that mix genres poorly, leading to a lack of coherence"
+      ],
+      "liked_patterns": [
+        "Preference for action and adventure films with high ratings",
+        "Enjoyment of thrillers that combine suspense with strong narratives",
+        "Appreciation for dramatic films that explore complex themes"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature action-packed sequences and adventurous plots.); Thrillers with a strong narrative (The user appreciates thrillers that offer engaging stories and suspenseful elements.); Dramatic storytelling (The user is drawn to films that explore deep emotional themes and character development.); Comedy mixed with other genres (The user likes comedies that incorporate elements from other genres, enhancing the humor with additional layers.); Historical and war themes (The user shows interest in films that depict historical events or war-related narratives.). Liked patterns: Preference for action and adventure films with high ratings, Enjoyment of thrillers that combine suspense with strong narratives, Appreciation for dramatic films that explore complex themes. Disliked patterns: Dislike for horror films that lack engaging plots, Negative response to comedies that do not resonate with the user, Displeasure with films that mix genres poorly, leading to a lack of coherence.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature action-packed sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates thrillers that offer engaging stories and suspenseful elements.",
+          "taste": "Thrillers with a strong narrative"
+        },
+        {
+          "reason": "The user is drawn to films that explore deep emotional themes and character development.",
+          "taste": "Dramatic storytelling"
+        },
+        {
+          "reason": "The user likes comedies that incorporate elements from other genres, enhancing the humor with additional layers.",
+          "taste": "Comedy mixed with other genres"
+        },
+        {
+          "reason": "The user shows interest in films that depict historical events or war-related narratives.",
+          "taste": "Historical and war themes"
+        }
+      ]
+    },
+    "user_id": 2830
+  }
+}

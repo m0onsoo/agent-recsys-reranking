@@ -1,0 +1,328 @@
+{
+  "checkpoint_hash": "9f6505da2eccc2956870654b4cce2582abd043fcd2e347e41c8470e52ee63c32",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2009,
+      662,
+      48,
+      505,
+      487,
+      148,
+      850,
+      24,
+      106,
+      337
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      10,
+      14,
+      23,
+      68,
+      85,
+      97,
+      105,
+      116,
+      117,
+      148,
+      154,
+      178,
+      216,
+      218,
+      505,
+      663,
+      694,
+      715,
+      995,
+      1078,
+      1110,
+      1241,
+      1242,
+      1298,
+      2114
+    ],
+    "seed": 42,
+    "source_hash": "fdee68987f2f4d61a9d3753f2ca96e1f7779d8973a098b6238ca03620ac6c6af",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4686,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Robert De Niro",
+          "Joe Pesci",
+          "Cathy Moriarty",
+          "Frank Vincent"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When Jake LaMotta steps into a boxing ring and obliterates his opponent, he's a prizefighter. But when he treats his family and friends the same way, he's a ticking time bomb, ready to go off at any moment. Though LaMotta wants his family's love, something always seems to come between them. Perhaps it's his violent bouts of paranoia and jealousy. This kind of rage helped make him a champ, but in real life, he winds up in the ring alone.",
+        "release_date": "1980-11-14",
+        "release_year": "1980",
+        "title": "Raging Bull"
+      },
+      {
+        "cast": [
+          "Orson Welles",
+          "Joseph Cotten",
+          "Dorothy Comingore",
+          "Ray Collins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
+        "release_date": "1941-04-30",
+        "release_year": "1941",
+        "title": "Citizen Kane"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Brock Peters",
+          "James Anderson",
+          "Mary Badham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mulligan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In a small Alabama town in the 1930s, scrupulously honest and highly respected lawyer, Atticus Finch puts his career on the line when he agrees to represent Tom Robinson, a black man accused of rape. The trial and the events surrounding it are seen through the eyes of Finch's six-year-old daughter, Scout. While Robinson's trial gives the movie its momentum, there are plenty of anecdotal occurrences before and after the court date: Scout's ever-strengthening bond with older brother, Jem, her friendship with precocious young Dill Harris, her father's no-nonsense reactions to such life-and-death crises as a rampaging mad dog, and especially Scout's reactions to, and relationship with, Boo Radley, the reclusive 'village idiot' who turns out to be her salvation when she is attacked by a venomous bigot.",
+        "release_date": "1962-12-25",
+        "release_year": "1962",
+        "title": "To Kill a Mockingbird"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Elisabeth Shue",
+          "Julian Sands",
+          "Richard Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Figgis",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Ben Sanderson, an alcoholic Hollywood screenwriter who lost everything because of his drinking, arrives in Las Vegas to drink himself to death. There, he meets and forms an uneasy friendship and non-interference pact with prostitute Sera.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Leaving Las Vegas"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Cybill Shepherd",
+          "Harvey Keitel",
+          "Jodie Foster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+        "release_date": "1976-02-07",
+        "release_year": "1976",
+        "title": "Taxi Driver"
+      },
+      {
+        "cast": [
+          "Tom Berenger",
+          "Charlie Sheen",
+          "Willem Dafoe",
+          "Forest Whitaker"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As a young and naive recruit in Vietnam, Chris Taylor faces a moral crisis when confronted with the horrors of war and the duality of man.",
+        "release_date": "1986-12-18",
+        "release_year": "1986",
+        "title": "Platoon"
+      },
+      {
+        "cast": [
+          "Val Kilmer",
+          "Elisabeth Shue",
+          "Rade Serbedzija",
+          "Henry Goodman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Ivan Tretiak, Russian Mafia boss who wants to create an oil crisis in Moscow and seize power as a result sends Simon Templar, great international criminal, to England to get a secret formula for cold fusion from U.S. scientist Emma Russell. Templar falls in love with Emma and they try to outwit Tretiak and his guerrillas, hiding from them in Moscow",
+        "release_date": "1997-04-03",
+        "release_year": "1997",
+        "title": "Saint, The"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      },
+      {
+        "cast": [
+          "Harvey Keitel",
+          "Tim Roth",
+          "Michael Madsen",
+          "Chris Penn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+        "release_date": "1992-09-02",
+        "release_year": "1992",
+        "title": "Reservoir Dogs"
+      }
+    ],
+    "raw_user_id": "4686",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 73
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.657162154085929
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for thrillers that lack depth or character engagement."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as comedy and drama or action and drama.",
+        "Strong preference for films with rich narratives and character development, particularly in drama and romance.",
+        "Consistent enjoyment of films that feature strong thematic elements, such as war and moral dilemmas."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates many drama films highly, indicating a strong preference for emotional and character-driven narratives.); Enjoyment of Comedy (Several comedies receive high ratings, suggesting a fondness for humor and lighthearted storytelling.); Interest in Sci-Fi (The user shows a consistent liking for science fiction films, indicating an attraction to imaginative and speculative themes.); Affinity for War Themes (Multiple films with war themes are rated highly, reflecting an interest in stories that explore conflict and its consequences.); Love for Adventure (Adventure films are frequently rated positively, suggesting a taste for exploration and excitement in storytelling.). Liked patterns: High ratings for films that blend genres, such as comedy and drama or action and drama., Strong preference for films with rich narratives and character development, particularly in drama and romance., Consistent enjoyment of films that feature strong thematic elements, such as war and moral dilemmas.. Disliked patterns: Negative rating for thrillers that lack depth or character engagement..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates many drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies receive high ratings, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a consistent liking for science fiction films, indicating an attraction to imaginative and speculative themes.",
+          "taste": "Interest in Sci-Fi"
+        },
+        {
+          "reason": "Multiple films with war themes are rated highly, reflecting an interest in stories that explore conflict and its consequences.",
+          "taste": "Affinity for War Themes"
+        },
+        {
+          "reason": "Adventure films are frequently rated positively, suggesting a taste for exploration and excitement in storytelling.",
+          "taste": "Love for Adventure"
+        }
+      ]
+    },
+    "user_id": 4686
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "d2e1c9549df332d219a117a2d04fa8d29f99d1b710e84728be7e89494c60d46b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      8,
+      1737,
+      1602,
+      1578,
+      135,
+      865,
+      2459,
+      1039,
+      795,
+      68
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      16,
+      65,
+      121,
+      142,
+      147,
+      199,
+      241,
+      256,
+      323,
+      500,
+      530,
+      538,
+      598,
+      619,
+      662,
+      697,
+      698,
+      958,
+      1298,
+      1458,
+      1530,
+      1997,
+      2411,
+      2883,
+      3244
+    ],
+    "seed": 42,
+    "source_hash": "6a3f39b74a5300fbba028ac56d5f25b873844203b3ec136518aa4ab8f5bd178b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5397,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Melinda Dillon",
+          "Darren McGavin",
+          "Peter Billingsley",
+          "Jean Shepherd"
+        ],
+        "country": [
+          "United States of America",
+          "Canada"
+        ],
+        "director": "Bob Clark",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The comic mishaps and adventures of a young boy named Ralph, trying to convince his parents, teachers, and Santa that a Red Ryder B.B. gun really is the perfect Christmas gift for the 1940s.",
+        "release_date": "1983-11-18",
+        "release_year": "1983",
+        "title": "Christmas Story, A"
+      },
+      {
+        "cast": [
+          "Donald Pleasence",
+          "Paul Rudd",
+          "Marianne Hagan",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Chappelle",
+        "genres": [
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Six years ago, Michael Myers terrorized the town of Haddonfield, Illinois. He and his niece, Jamie Lloyd, have disappeared. Jamie was kidnapped by a bunch of evil druids who protect Michael Myers. And now, six years later, Jamie has escaped after giving birth to Michael's child. She runs to Haddonfield to get Dr. Loomis to help her again.",
+        "release_date": "1995-09-29",
+        "release_year": "1995",
+        "title": "Halloween: The Curse of Michael Myers"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Bubba Smith",
+          "David Graf",
+          "Michael Winslow"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Paris",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When police funding is cut, the Governor announces he must close one of the academies. To make it fair, the two police academies must compete against each other to stay in operation. Mauser persuades two officers in Lassard's academy to better his odds, but things don't quite turn out as expected...",
+        "release_date": "1986-03-20",
+        "release_year": "1986",
+        "title": "Police Academy 3: Back in Training"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Brad Pitt",
+          "Kevin Bacon",
+          "Jason Patric"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two gangsters seek revenge on the state jail worker who during their stay at a youth prison sexually abused them. A sensational court hearing takes place to charge him for the crimes. A moving drama from director Barry Levinson.",
+        "release_date": "1996-10-18",
+        "release_year": "1996",
+        "title": "Sleepers"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Mel Brooks",
+          "Rick Moranis",
+          "Bill Pullman",
+          "Daphne Zuniga"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When the nefarious Dark Helmet hatches a plan to snatch Princess Vespa and steal her planet's air, space-bum-for-hire Lone Starr and his clueless sidekick fly to the rescue. Along the way, they meet Yogurt, who puts Lone Starr wise to the power of \"The Schwartz.\" Can he master it in time to save the day?",
+        "release_date": "1987-06-24",
+        "release_year": "1987",
+        "title": "Spaceballs"
+      },
+      {
+        "cast": [
+          "John Candy",
+          "Eugene Levy",
+          "Robert Loggia",
+          "Meg Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark L. Lester",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Dooley, a cop wrongly sacked for corruption, teams up with a useless defence lawyer in their new careers... as security guards. When the two are made fall guys for a robbery at a location they are guarding, the pair begin to investigate corruption within the company and their union. They soon make enemies of everyone, but can the unlikely duo save the day?",
+        "release_date": "1986-08-15",
+        "release_year": "1986",
+        "title": "Armed and Dangerous"
+      },
+      {
+        "cast": [
+          "Molly Ringwald",
+          "Jon Cryer",
+          "Andrew McCarthy",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Deutch",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Andie is an outcast, hanging out either with her older boss, who owns the record store where she works, or her quirky high school classmate Duckie, who has a crush on her. When one of the rich and popular kids at school, Blane, asks Andie out, it seems too good to be true. As Andie starts falling for Blane, she begins to realize that dating someone from a different social sphere is not easy.",
+        "release_date": "1986-02-28",
+        "release_year": "1986",
+        "title": "Pretty in Pink"
+      },
+      {
+        "cast": [
+          "Isabella Rossellini",
+          "Kyle MacLachlan",
+          "Dennis Hopper",
+          "Laura Dern"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Lynch",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "The discovery of a severed human ear found in a field leads a young man on an investigation related to a beautiful, mysterious nightclub singer and a group of criminals who have kidnapped her child.",
+        "release_date": "1986-08-01",
+        "release_year": "1986",
+        "title": "Blue Velvet"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Ray Liotta",
+          "Joe Pesci",
+          "Lorraine Bracco"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+        "release_date": "1990-09-12",
+        "release_year": "1990",
+        "title": "GoodFellas"
+      }
+    ],
+    "raw_user_id": "5397",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 312
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.062224317394517
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received action films, as indicated by low ratings.",
+        "Negative response to specific thrillers, reflected in low ratings."
+      ],
+      "liked_patterns": [
+        "Strong preference for comedies, often rated 4 or 5.",
+        "Positive ratings for action and thriller films.",
+        "Appreciation for dramatic storytelling, with several films rated 4 or above."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Action and Thriller (The user appreciates action and thriller films, with several rated positively.); Drama (The user shows a preference for dramatic narratives, reflected in multiple high ratings.); Sci-Fi (The user has a liking for science fiction, as indicated by positive ratings for films in this genre.); Musical Elements in Comedy (The user enjoys comedies that incorporate musical elements, as seen in high ratings.). Liked patterns: Strong preference for comedies, often rated 4 or 5., Positive ratings for action and thriller films., Appreciation for dramatic storytelling, with several films rated 4 or above.. Disliked patterns: Dislike for poorly received action films, as indicated by low ratings., Negative response to specific thrillers, reflected in low ratings..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates action and thriller films, with several rated positively.",
+          "taste": "Action and Thriller"
+        },
+        {
+          "reason": "The user shows a preference for dramatic narratives, reflected in multiple high ratings.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user has a liking for science fiction, as indicated by positive ratings for films in this genre.",
+          "taste": "Sci-Fi"
+        },
+        {
+          "reason": "The user enjoys comedies that incorporate musical elements, as seen in high ratings.",
+          "taste": "Musical Elements in Comedy"
+        }
+      ]
+    },
+    "user_id": 5397
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "checkpoint_hash": "ebf5c30850f9fc9c865c00feb4a968fb3fbabea832491a2564401ecbd5c03946",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      575,
+      51,
+      768,
+      1243,
+      190,
+      865,
+      559,
+      784,
+      657,
+      27
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "9f8a489d3ad54c8e9adb382ba6742740"
+    ],
+    "sampled_item_ids": [
+      23,
+      27,
+      45,
+      125,
+      161,
+      190,
+      232,
+      439,
+      513,
+      559,
+      575,
+      606,
+      644,
+      657,
+      811,
+      879,
+      969,
+      1006,
+      1019,
+      1095,
+      1134,
+      1243,
+      1501,
+      1696,
+      2182
+    ],
+    "seed": 42,
+    "source_hash": "91f10dbfb4bd39aac50d0f1c45e95e50576672ffa3da55bbcb97002b33b39a69",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1673,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "Under 18",
+      "gender": "male",
+      "occupation": "K-12 student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jeff Daniels",
+          "Elizabeth Hurley",
+          "Daryl Hannah",
+          "Christopher Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Donald Petrie",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "News producer, Tim O'Hara gets himself fired for unwillingly compromising his bosses' daughter during a live transmission. A little later, he witnesses the crashing of a small Martian spacecraft, realizing his one-time chance of delivering a story that will rock the earth. Since Tim took the original but scaled-down spaceship with him, the Martian follows him to retrieve it.",
+        "release_date": "1999-02-11",
+        "release_year": "1999",
+        "title": "My Favorite Martian"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Joan Cusack",
+          "Kelsey Grammer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
+        "release_date": "1999-10-30",
+        "release_year": "1999",
+        "title": "Toy Story 2"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Bruce Boxleitner",
+          "David Warner",
+          "Cindy Morgan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Lisberger",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "As Kevin Flynn searches for proof that he invented a hit video game, he is \"digitalized\" by a laser and finds himself inside The Grid, where programs suffer under the tyrannical rule of the Master Control Program. With the help of TRON, a security program, Flynn seeks to free The Grid from the MCP.",
+        "release_date": "1982-07-09",
+        "release_year": "1982",
+        "title": "Tron"
+      },
+      {
+        "cast": [
+          "Christopher Reeve",
+          "Richard Pryor",
+          "Jackie Cooper",
+          "Marc McClure"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Richard Lester",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Aiming to defeat the Man of Steel, wealthy executive Ross Webster hires bumbling but brilliant Gus Gorman to develop synthetic kryptonite, which yields some unexpected psychological effects in the third installment of the 1980s Superman franchise. Between rekindling romance with his high school sweetheart and saving himself, Superman must contend with a powerful supercomputer.",
+        "release_date": "1983-06-17",
+        "release_year": "1983",
+        "title": "Superman III"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Mel Brooks",
+          "Rick Moranis",
+          "Bill Pullman",
+          "Daphne Zuniga"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When the nefarious Dark Helmet hatches a plan to snatch Princess Vespa and steal her planet's air, space-bum-for-hire Lone Starr and his clueless sidekick fly to the rescue. Along the way, they meet Yogurt, who puts Lone Starr wise to the power of \"The Schwartz.\" Can he master it in time to save the day?",
+        "release_date": "1987-06-24",
+        "release_year": "1987",
+        "title": "Spaceballs"
+      },
+      {
+        "cast": [
+          "Rick Moranis",
+          "Marcia Strassman",
+          "Matt Frewer",
+          "Kristine Sutherland"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joe Johnston",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "The scientist father of a teenage girl and boy accidentally shrinks his and two other neighborhood teens to the size of insects. Now the teens must fight diminutive dangers as the father searches for them.",
+        "release_date": "1989-06-22",
+        "release_year": "1989",
+        "title": "Honey, I Shrunk the Kids"
+      },
+      {
+        "cast": [
+          "Joey Cramer",
+          "Paul Reubens",
+          "Cliff DeYoung",
+          "Veronica Cartwright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Randal Kleiser",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "This 1986 Disney adventure tells the story of 12-year-old David who lives with his family in Fort Lauderdale, Fla. When he awakens from being accidentally knocked out in the forest near his home, he finds that eight years have passed. His family is overjoyed to have him back, but just as perplexed as he is by the fact that he hasn't aged. When a NASA scientist discovers a UFO nearby, David gets the chance to unravel the mystery and recover the life he lost.",
+        "release_date": "1986-07-30",
+        "release_year": "1986",
+        "title": "Flight of the Navigator"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Dustin Hoffman",
+          "Julia Roberts",
+          "Bob Hoskins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Adventure",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "The boy who wasn't supposed to grow up—Peter Pan—did just that, becoming a soulless corporate lawyer whose workaholism could cost him his wife and kids. But a trip to see Granny Wendy in London, where the vengeful Capt. Hook kidnaps Peter's kids and forces Peter to return to Neverland, could lead to a chance at redemption, in this family-oriented fantasy from director Steven Spielberg.",
+        "release_date": "1991-12-11",
+        "release_year": "1991",
+        "title": "Hook"
+      },
+      {
+        "cast": [
+          "Henry Thomas",
+          "Drew Barrymore",
+          "Robert MacNaughton",
+          "Dee Wallace"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Children's",
+          "Drama",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+        "release_date": "1982-04-03",
+        "release_year": "1982",
+        "title": "E.T. the Extra-Terrestrial"
+      }
+    ],
+    "raw_user_id": "1673",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 65
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.8162117183790243
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed"
+      ],
+      "liked_patterns": [
+        "Strong preference for sci-fi and adventure genres",
+        "Enjoyment of comedies that blend with other genres",
+        "Appreciation for family-friendly films"
+      ],
+      "summary": "Unique tastes: Sci-Fi Adventure (The user enjoys films that combine science fiction with adventure elements, often featuring space travel or futuristic themes.); Comedy (The user has a strong preference for comedies, particularly those that blend humor with other genres like sci-fi or adventure.); Family-Friendly (The user appreciates movies that are suitable for family viewing, often including children's themes or light-hearted narratives.); Action (The user favors action-packed films, especially those that incorporate elements of adventure and sci-fi.); Fantasy (The user enjoys fantasy elements in films, often intertwined with adventure and comedy.). Liked patterns: Strong preference for sci-fi and adventure genres, Enjoyment of comedies that blend with other genres, Appreciation for family-friendly films. Disliked patterns: No significant patterns of dislike observed.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that combine science fiction with adventure elements, often featuring space travel or futuristic themes.",
+          "taste": "Sci-Fi Adventure"
+        },
+        {
+          "reason": "The user has a strong preference for comedies, particularly those that blend humor with other genres like sci-fi or adventure.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates movies that are suitable for family viewing, often including children's themes or light-hearted narratives.",
+          "taste": "Family-Friendly"
+        },
+        {
+          "reason": "The user favors action-packed films, especially those that incorporate elements of adventure and sci-fi.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user enjoys fantasy elements in films, often intertwined with adventure and comedy.",
+          "taste": "Fantasy"
+        }
+      ]
+    },
+    "user_id": 1673
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "76953fad4e18f2499b01e427ed203d55ae2527fca66596074881a7443e5ecbec",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      588,
+      190,
+      2234,
+      2233,
+      542,
+      2198,
+      151,
+      105,
+      885,
+      65
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      63,
+      124,
+      127,
+      187,
+      194,
+      206,
+      268,
+      318,
+      455,
+      542,
+      576,
+      588,
+      644,
+      657,
+      861,
+      885,
+      913,
+      1081,
+      1469,
+      1828,
+      1843,
+      2034,
+      2056,
+      2233,
+      2234
+    ],
+    "seed": 42,
+    "source_hash": "5cf1af4b37cfcf7b964ecf76b73a606998d8b3834d169789ac7156f46d8a1941",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5534,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "self-employed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Michael Keaton",
+          "Kim Basinger",
+          "Michael Gough"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker, who has seized control of Gotham's underworld.",
+        "release_date": "1989-06-23",
+        "release_year": "1989",
+        "title": "Batman"
+      },
+      {
+        "cast": [
+          "Tommy Lee Jones",
+          "Will Smith",
+          "Linda Fiorentino",
+          "Vincent D'Onofrio"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Men in Black follows the exploits of agents Kay and Jay, members of a top-secret organization established to monitor and police alien activity on Earth. The two Men in Black find themselves in the middle of the deadly plot by an intergalactic terrorist who has arrived on Earth to assassinate two ambassadors from opposing galaxies. In order to prevent worlds from colliding, the MiB must track down the terrorist and prevent the destruction of Earth. It's just another typical day for the Men in Black.",
+        "release_date": "1997-07-02",
+        "release_year": "1997",
+        "title": "Men in Black"
+      },
+      {
+        "cast": [
+          "Tyrone Power",
+          "Linda Darnell",
+          "Basil Rathbone",
+          "Gale Sondergaard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rouben Mamoulian",
+        "genres": [
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Around 1820 the son of a California nobleman comes home from Spain to find his native land under a villainous dictatorship. On the one hand he plays the useless fop, while on the other he is the masked avenger Zorro.",
+        "release_date": "1940-11-08",
+        "release_year": "1940",
+        "title": "Mark of Zorro, The"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Kelly Preston",
+          "John C. Reilly",
+          "Jena Malone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A baseball legend almost finished with his distinguished career at the age of forty has one last chance to prove who he is, what he is capable of, and win the heart of the woman he has loved for the past four years.",
+        "release_date": "1999-09-17",
+        "release_year": "1999",
+        "title": "For Love of the Game"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Dougray Scott",
+          "Thandie Newton",
+          "Ving Rhames"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "John Woo",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt races across Australia and Spain to stop a former IMF agent from unleashing a genetically engineered biological weapon called Chimera. This mission, should Hunt choose to accept it, plunges him into the center of an international crisis of terrifying magnitude.",
+        "release_date": "2000-05-24",
+        "release_year": "2000",
+        "title": "Mission: Impossible 2"
+      },
+      {
+        "cast": [
+          "Jason Scott Lee",
+          "Cary Elwes",
+          "Lena Headey",
+          "Sam Neill"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stephen Sommers",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Raised by wild animals since childhood, Mowgli is drawn away from the jungle by the beautiful Kitty. But Mowgli must eventually face corrupt Capt. Boone, who wants both Kitty's hand and the treasures of Monkey City – a place only Mowgli can find.",
+        "release_date": "1994-12-23",
+        "release_year": "1994",
+        "title": "Jungle Book, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Willem Dafoe",
+          "Anne Archer",
+          "Joaquim de Almeida"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "CIA Analyst Jack Ryan is drawn into an illegal war fought by the US government against a Colombian drug cartel.",
+        "release_date": "1994-08-03",
+        "release_year": "1994",
+        "title": "Clear and Present Danger"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Annette Bening",
+          "Thora Birch",
+          "Wes Bentley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Mendes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+        "release_date": "1999-09-15",
+        "release_year": "1999",
+        "title": "American Beauty"
+      },
+      {
+        "cast": [
+          "James Aubrey",
+          "Tom Chapin",
+          "Hugh Edwards",
+          "Roger Elwin"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Peter Brook",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Amidst a nuclear war, a plane carrying a group of schoolboys crash lands on a deserted island. With no adult survivors, the boys are forced to fend for themselves. At first they cooperate, but when the they split into two separate camps -- one led by the pragmatic Ralph and the other by militaristic Jack -- their society falls into disarray, leading to a disturbing examination of human nature and a chilling conclusion.",
+        "release_date": "1963-08-13",
+        "release_year": "1963",
+        "title": "Lord of the Flies"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      }
+    ],
+    "raw_user_id": "5534",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 53
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.2426527762279855
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative response to dramas lacking engaging elements",
+        "Dislike for films that do not meet the user's expectations in storytelling"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure genres",
+        "High ratings for films that combine drama with other genres",
+        "Enjoyment of films featuring complex characters and narratives"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user consistently rates action and adventure films highly, indicating a strong preference for thrilling and engaging narratives.); Drama with Depth (The user enjoys dramas that explore complex themes and character development, as evidenced by high ratings for several dramatic films.); Thrilling Experiences (The user appreciates films that provide suspense and excitement, as shown by high ratings for thrillers.); Fantasy Elements (The user enjoys adventure films that incorporate fantasy elements, suggesting a preference for imaginative storytelling.); Comedy in Drama (The user rates films that blend comedy with drama positively, indicating an appreciation for humor within serious narratives.). Liked patterns: Strong preference for action and adventure genres, High ratings for films that combine drama with other genres, Enjoyment of films featuring complex characters and narratives. Disliked patterns: Negative response to dramas lacking engaging elements, Dislike for films that do not meet the user's expectations in storytelling.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates action and adventure films highly, indicating a strong preference for thrilling and engaging narratives.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user enjoys dramas that explore complex themes and character development, as evidenced by high ratings for several dramatic films.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "The user appreciates films that provide suspense and excitement, as shown by high ratings for thrillers.",
+          "taste": "Thrilling Experiences"
+        },
+        {
+          "reason": "The user enjoys adventure films that incorporate fantasy elements, suggesting a preference for imaginative storytelling.",
+          "taste": "Fantasy Elements"
+        },
+        {
+          "reason": "The user rates films that blend comedy with drama positively, indicating an appreciation for humor within serious narratives.",
+          "taste": "Comedy in Drama"
+        }
+      ]
+    },
+    "user_id": 5534
+  }
+}

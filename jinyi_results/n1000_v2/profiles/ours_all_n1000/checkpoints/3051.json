@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "e3adf55a0099d638bcbb3769cc869936ad946ee0ff4c27c5851f8447211995e9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      548,
+      11,
+      152,
+      712,
+      125,
+      6,
+      877,
+      610,
+      369,
+      915
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "165b401cbf934790a7a03d93c5b020ae"
+    ],
+    "sampled_item_ids": [
+      17,
+      19,
+      40,
+      61,
+      284,
+      350,
+      440,
+      516,
+      539,
+      610,
+      712,
+      739,
+      826,
+      867,
+      876,
+      1056,
+      1085,
+      1086,
+      1151,
+      1191,
+      1219,
+      1752,
+      2167,
+      2212,
+      2275
+    ],
+    "seed": 42,
+    "source_hash": "80f7d4b33e4c834fec57935d825f20c54a872543109c5c787c57c910c7c52167",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3051,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Meg Ryan",
+          "Billy Crystal",
+          "Carrie Fisher",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "During their travels from Chicago to New York, Harry and Sally Will debate whether or not sex ruins a perfect relationship between a man and a woman. Eleven years and later, they're still no closer to finding the answer.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "When Harry Met Sally..."
+      },
+      {
+        "cast": [
+          "Paige O'Hara",
+          "Robby Benson",
+          "Richard White",
+          "Jerry Orbach"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Trousdale",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Follow the adventures of Belle, a bright young woman who finds herself in the castle of a prince who's been turned into a mysterious beast. With the help of the castle's enchanted staff, Belle soon learns the most important lesson of all -- that true beauty comes from within.",
+        "release_date": "1991-11-13",
+        "release_year": "1991",
+        "title": "Beauty and the Beast"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Tommy Lee Jones",
+          "Sela Ward",
+          "Julianne Moore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Davis",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Wrongfully accused of murdering his wife, Richard Kimble escapes from the law in an attempt to find her killer and clear his name. Pursuing him is a team of U.S. marshals led by Deputy Samuel Gerard, a determined detective who will not rest until Richard is captured. As Richard leads the team through a series of intricate chases, he discovers the secrets behind his wife's death and struggles to expose the killer before it is too late.",
+        "release_date": "1993-08-06",
+        "release_year": "1993",
+        "title": "Fugitive, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Gary Busey",
+          "Mitchell Ryan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Veteran buttoned-down LAPD detective Roger Murtaugh is partnered with unhinged cop Martin Riggs, who -- distraught after his wife's death -- has a death wish and takes unnecessary risks with criminals at every turn. The odd couple embark on their first homicide investigation as partners, involving a young woman known to Murtaugh with ties to a drug and prostitution ring.",
+        "release_date": "1987-03-06",
+        "release_year": "1987",
+        "title": "Lethal Weapon"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Angelina Jolie",
+          "Queen Latifah",
+          "Michael Rooker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Rookie cop, Amelia Donaghy reluctantly teams with Lincoln Rhyme – formerly the department's top homicide detective but now paralyzed as a result of a spinal injury – to catch a grisly serial killer dubbed 'The Bone Collector'. The murderer's special signature is to leave tantalizing clues based on the grim remains of his crimes.",
+        "release_date": "1999-11-04",
+        "release_year": "1999",
+        "title": "Bone Collector, The"
+      },
+      {
+        "cast": [
+          "Deems Taylor",
+          "Walt Disney",
+          "Julietta Novis",
+          "Leopold Stokowski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Samuel Armstrong",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Walt Disney's timeless masterpiece is an extravaganza of sight and sound! See the music come to life, hear the pictures burst into song and experience the excitement that is Fantasia over and over again.",
+        "release_date": "1940-11-13",
+        "release_year": "1940",
+        "title": "Fantasia"
+      },
+      {
+        "cast": [
+          "Ryan Phillippe",
+          "Salma Hayek",
+          "Breckin Meyer",
+          "Mike Myers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Christopher",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Shane, a Jersey boy with big dreams, crosses the river in hopes of finding a more exciting life at Studio 54. When Steve Rubell, the mastermind behind the infamous disco, plucks Shane from the sea of faces clamoring to get inside his club, Shane not only gets his foot in the door, but lands a coveted job behind the bar – and a front-row seat at the most legendary party on the planet.",
+        "release_date": "1998-08-28",
+        "release_year": "1998",
+        "title": "54"
+      },
+      {
+        "cast": [
+          "Vince Vaughn",
+          "Anne Heche",
+          "Julianne Moore",
+          "Viggo Mortensen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Crime",
+          "Horror",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Criminal on the run, Marion Crane takes refuge at the motel operated by Norman Bates - a troubled man whose victims encounter a grisly fate at the hands of his \"mother.\" Marion soon becomes the next victim and her disappearance prompts inquiries from her sister and a private investigator. They both soon discover the morbid bond linking Norman to his mysterious \"mother\" at the Bates Motel.",
+        "release_date": "1998-12-04",
+        "release_year": "1998",
+        "title": "Psycho"
+      }
+    ],
+    "raw_user_id": "3051",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 328
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8128507343041612
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for thrillers",
+        "Negative ratings for poorly received action films"
+      ],
+      "liked_patterns": [
+        "Positive ratings for comedies",
+        "Positive ratings for dramas",
+        "Positive ratings for action films"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys comedic films, as evidenced by multiple ratings of 4 or 5 for comedies.); Interest in Drama (The user rates several drama films positively, indicating a preference for emotional and narrative depth.); Enjoyment of Animation (The user has rated animated films positively, suggesting a fondness for family-friendly and imaginative storytelling.); Affinity for Action (The user has shown a liking for action films, with several rated positively, indicating enjoyment of excitement and adventure.); Preference for Sci-Fi Elements (The user has rated several films with sci-fi themes positively, suggesting an interest in speculative and futuristic narratives.). Liked patterns: Positive ratings for comedies, Positive ratings for dramas, Positive ratings for action films. Disliked patterns: Negative ratings for thrillers, Negative ratings for poorly received action films.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys comedic films, as evidenced by multiple ratings of 4 or 5 for comedies.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several drama films positively, indicating a preference for emotional and narrative depth.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated animated films positively, suggesting a fondness for family-friendly and imaginative storytelling.",
+          "taste": "Enjoyment of Animation"
+        },
+        {
+          "reason": "The user has shown a liking for action films, with several rated positively, indicating enjoyment of excitement and adventure.",
+          "taste": "Affinity for Action"
+        },
+        {
+          "reason": "The user has rated several films with sci-fi themes positively, suggesting an interest in speculative and futuristic narratives.",
+          "taste": "Preference for Sci-Fi Elements"
+        }
+      ]
+    },
+    "user_id": 3051
+  }
+}

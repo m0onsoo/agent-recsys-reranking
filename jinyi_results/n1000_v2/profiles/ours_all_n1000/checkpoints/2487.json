@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "1ccf9c0cb5a73997ff0a18e0c6e7fa693f7beb57eb36143f2393b0c8490df6bb",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      563,
+      1546,
+      435,
+      168,
+      24,
+      197,
+      187,
+      739,
+      670,
+      548
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "ce889c96e499499bb4877133a593e1e1"
+    ],
+    "sampled_item_ids": [
+      21,
+      24,
+      84,
+      106,
+      124,
+      168,
+      176,
+      187,
+      197,
+      201,
+      435,
+      538,
+      548,
+      560,
+      563,
+      566,
+      663,
+      670,
+      677,
+      689,
+      739,
+      778,
+      1004,
+      1473,
+      2040
+    ],
+    "seed": 42,
+    "source_hash": "3f136c09096761171462571baeb60e34e1aec212e8eee7044368fc3f43d1abee",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2487,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Groucho Marx",
+          "Harpo Marx",
+          "Chico Marx",
+          "Zeppo Marx"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Leo McCarey",
+        "genres": [
+          "Comedy",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Rufus T. Firefly is named president/dictator of bankrupt Freedonia and declares war on neighboring Sylvania over the love of wealthy Mrs. Teasdale.",
+        "release_date": "1933-11-17",
+        "release_year": "1933",
+        "title": "Duck Soup"
+      },
+      {
+        "cast": [
+          "Sam Waterston",
+          "Haing S. Ngor",
+          "Craig T. Nelson",
+          "John Malkovich"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Roland Joffé",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The Killing Fields tells the real life story of a friendship between two journalists, an American and a Cambodian, during the bloody Khmer Rouge takeover of Cambodia in 1975, which lead to the death of 2-3 million Cambodians during the next four years, until Pol Pot's regime was toppled by the intervening Vietnamese in 1979.",
+        "release_date": "1984-11-02",
+        "release_year": "1984",
+        "title": "Killing Fields, The"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "Robert Duvall",
+          "Diane Keaton",
+          "Robert De Niro"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+        "release_date": "1974-12-20",
+        "release_year": "1974",
+        "title": "Godfather: Part II, The"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Morgan Freeman",
+          "Bob Gunton",
+          "Clancy Brown"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Darabont",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "release_date": "1994-09-23",
+        "release_year": "1994",
+        "title": "Shawshank Redemption, The"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Kiefer Sutherland",
+          "Lou Diamond Phillips",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Christopher Cain",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "A group of young gunmen, led by Billy the Kid, become deputies to avenge the murder of the rancher who became their benefactor. But when Billy takes their authority too far, they become the hunted.",
+        "release_date": "1988-08-12",
+        "release_year": "1988",
+        "title": "Young Guns"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Sean Connery",
+          "Denholm Elliott",
+          "Alison Doody"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Henry Jones Sr. suddenly goes missing while pursuing the Holy Grail, eminent archaeologist Indiana must team up with Marcus Brody, Sallah and Elsa Schneider to follow in his father's footsteps and stop the Nazis from recovering the power of eternal life.",
+        "release_date": "1989-05-24",
+        "release_year": "1989",
+        "title": "Indiana Jones and the Last Crusade"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Mary Steenburgen",
+          "Thomas F. Wilson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "The final installment of the Back to the Future trilogy finds Marty digging the trusty DeLorean out of a mineshaft and looking up Doc in the Wild West of 1885. But when their time machine breaks down, the travelers are stranded in a land of spurs. More problems arise when Doc falls for pretty schoolteacher Clara Clayton, and Marty tangles with Buford Tannen.",
+        "release_date": "1990-05-25",
+        "release_year": "1990",
+        "title": "Back to the Future Part III"
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Al Pacino",
+          "James Caan",
+          "Richard S. Castellano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+        "release_date": "1972-03-14",
+        "release_year": "1972",
+        "title": "Godfather, The"
+      },
+      {
+        "cast": [
+          "Meg Ryan",
+          "Billy Crystal",
+          "Carrie Fisher",
+          "Bruno Kirby"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "During their travels from Chicago to New York, Harry and Sally Will debate whether or not sex ruins a perfect relationship between a man and a woman. Eleven years and later, they're still no closer to finding the answer.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "When Harry Met Sally..."
+      }
+    ],
+    "raw_user_id": "2487",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 31
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.815115038708376
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that attempt to blend comedy with genres that the user typically enjoys, such as sci-fi and war.",
+        "Negative reception of films that do not resonate with the user's preferred genres or themes."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like comedy and action.",
+        "Consistent appreciation for films that feature strong narratives and character development.",
+        "Positive reception of films that include elements of humor alongside serious themes."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates multiple drama films highly, indicating a strong preference for emotional and narrative depth.); Enjoyment of Comedy (The user consistently rates comedies positively, suggesting a fondness for humor and lighthearted storytelling.); Interest in Action and Adventure (The user shows a liking for action and adventure genres, as evidenced by high ratings for films in these categories.); Favoring War Themes (The user rates several war-themed films positively, indicating an interest in historical and dramatic portrayals of conflict.); Preference for Western Elements (The user enjoys films that incorporate Western themes, as reflected in the ratings for several titles within this genre.). Liked patterns: High ratings for films that blend drama with other genres like comedy and action., Consistent appreciation for films that feature strong narratives and character development., Positive reception of films that include elements of humor alongside serious themes.. Disliked patterns: Low ratings for films that attempt to blend comedy with genres that the user typically enjoys, such as sci-fi and war., Negative reception of films that do not resonate with the user's preferred genres or themes..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple drama films highly, indicating a strong preference for emotional and narrative depth.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user consistently rates comedies positively, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for action and adventure genres, as evidenced by high ratings for films in these categories.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user rates several war-themed films positively, indicating an interest in historical and dramatic portrayals of conflict.",
+          "taste": "Favoring War Themes"
+        },
+        {
+          "reason": "The user enjoys films that incorporate Western themes, as reflected in the ratings for several titles within this genre.",
+          "taste": "Preference for Western Elements"
+        }
+      ]
+    },
+    "user_id": 2487
+  }
+}

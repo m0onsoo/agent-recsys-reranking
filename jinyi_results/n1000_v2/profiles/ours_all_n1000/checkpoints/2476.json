@@ -1,0 +1,336 @@
+{
+  "checkpoint_hash": "b9a781e5363b6e58073f5304654563fd078dde73b21aa2d65d0cec10b9952d04",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1728,
+      663,
+      1099,
+      1649,
+      359,
+      175,
+      52,
+      338,
+      160,
+      258
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8d87e785c58648698cd14f33c746a452"
+    ],
+    "sampled_item_ids": [
+      1,
+      52,
+      97,
+      116,
+      125,
+      129,
+      141,
+      172,
+      175,
+      237,
+      258,
+      338,
+      359,
+      566,
+      682,
+      695,
+      862,
+      951,
+      1107,
+      1357,
+      1530,
+      1558,
+      1589,
+      1629,
+      1912
+    ],
+    "seed": 42,
+    "source_hash": "d97a59d5c2d59065624119e5f29747e2889164f445dc984b574f0b22418a9948",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2476,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "programmer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jane Fonda",
+          "Michael Sarrazin",
+          "Susannah York",
+          "Gig Young"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Desperate characters stake their fortune on a Depression-era dance marathon.",
+        "release_date": "1969-12-10",
+        "release_year": "1969",
+        "title": "They Shoot Horses, Don't They?"
+      },
+      {
+        "cast": [
+          "Keir Dullea",
+          "Gary Lockwood",
+          "William Sylvester",
+          "Douglas Rain"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+        "release_date": "1968-04-10",
+        "release_year": "1968",
+        "title": "2001: A Space Odyssey"
+      },
+      {
+        "cast": [
+          "Glenn Close",
+          "John Malkovich",
+          "Michelle Pfeiffer",
+          "Swoosie Kurtz"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Dangerous Liaisons is the film based on the novel of the same name by Choderlos de Laclos set in 18th century France. Marquise de Merteuil’s asks her ex-lover Vicomte de Valmont to seduce the future wife of another ex-lover of hers in return for one last night with her. Yet things don’t go as planned in this love triangle drama.",
+        "release_date": "1988-12-16",
+        "release_year": "1988",
+        "title": "Dangerous Liaisons"
+      },
+      {
+        "cast": [
+          "Rebecca Pidgeon",
+          "Gemma Jones",
+          "Nigel Hawthorne",
+          "Sarah Flind"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Mamet",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Early 20th century England: while toasting his daughter Catherine's engagement, Arthur Winslow learns the royal naval academy expelled his 14-year-old son, Ronnie, for stealing five shillings. Father asks son if it is true; when the lad denies it, Arthur risks fortune, health, domestic peace, and Catherine's prospects to pursue justice.",
+        "release_date": "1999-04-16",
+        "release_year": "1998",
+        "title": "Winslow Boy, The"
+      },
+      {
+        "cast": [
+          "Nigel Hawthorne",
+          "Helen Mirren",
+          "Ian Holm",
+          "Rupert Graves"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nicholas Hytner",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Nicholas Hytner’s much awarded 1994 drama, based on Alan Bennett's West End play. George III's erratic behaviour leads to a plot in Parliament to have him declared insane and removed from the throne.",
+        "release_date": "1994-12-28",
+        "release_year": "1994",
+        "title": "Madness of King George, The"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Anne Bancroft",
+          "Katharine Ross",
+          "Murray Hamilton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A recent college graduate finds himself in a love triangle with an older woman and her daughter.",
+        "release_date": "1967-12-21",
+        "release_year": "1967",
+        "title": "Graduate, The"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Vanessa Redgrave",
+          "Helena Bonham Carter",
+          "Emma Thompson",
+          "Prunella Scales"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "James Ivory",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Merchant Ivory’s adaptation of EM Forster’s classic 1910 novel, starring Emma Thompson, Helena Bonham Carter, Anthony Hopkins & Vanessa Redgrave returns to the big screen in a beautiful new 4K restoration. Stunning location photography, lavishly detailed sets & elegant period costumes, this compelling saga follows the interwoven fates and misfortunes of three families amid the changing times of Edwardian England. It tells the story of two free-spirited, cosmopolitan sisters, Margaret (Emma Thompson) and Helen Schlegel (Helena Bonham Carter), who collide with the world of the very wealthy ­­– one sister benefiting from the acquaintance with the Wilcoxes (owners of the beloved country home Howards End), the other all but destroyed by it. Anthony Hopkins is the conservative industrialist Henry Wilcox and Vanessa Redgrave is his ailing wife Ruth Wilcox.",
+        "release_date": "1992-03-13",
+        "release_year": "1992",
+        "title": "Howards End"
+      },
+      {
+        "cast": [
+          "Henry Fonda",
+          "Jane Darwell",
+          "John Carradine",
+          "Charley Grapewin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Ford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Tom Joad returns to his home after a jail sentence to find his family kicked out of their farm due to foreclosure. He catches up with them on his Uncles farm, and joins them the next day as they head for California and a new life... Hopefully.",
+        "release_date": "1940-03-15",
+        "release_year": "1940",
+        "title": "Grapes of Wrath, The"
+      },
+      {
+        "cast": [
+          "Linda Henry",
+          "Glen Berry",
+          "Scott Neal",
+          "Tameka Empson"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Hettie MacDonald",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A pair of teenage boys growing up in a working-class neighbourhood of Thamesmead, in south-east London, become aware of their homosexuality. While both were vaguely aware they might be gay, neither had ever acted on their impulses. Once they decide that they're attracted to each other, neither is sure just what to do.",
+        "release_date": "1996-06-21",
+        "release_year": "1996",
+        "title": "Beautiful Thing"
+      }
+    ],
+    "raw_user_id": "2476",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 49
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7759979650349741
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for movies with less engaging narratives",
+        "Negative response to films lacking depth in character development",
+        "Dislike for light-hearted comedies without substantial themes"
+      ],
+      "liked_patterns": [
+        "Strong preference for Drama films",
+        "High ratings for movies featuring complex character studies",
+        "Frequent enjoyment of films with war themes"
+      ],
+      "summary": "Unique tastes: Preference for Drama (A significant number of movies rated highly belong to the Drama genre, indicating a strong affinity for character-driven narratives.); Appreciation for Complex Characters (Many liked films feature intricate character studies and moral dilemmas, suggesting a taste for depth in storytelling.); Interest in War Themes (Several highly rated films explore war and its impacts, reflecting a fascination with historical and emotional narratives surrounding conflict.); Enjoyment of Romantic Elements (A number of liked films incorporate romance, indicating an appreciation for emotional connections within stories.); Favoring Thrillers and Suspense (The presence of highly rated thrillers suggests a liking for tension and psychological complexity in films.). Liked patterns: Strong preference for Drama films, High ratings for movies featuring complex character studies, Frequent enjoyment of films with war themes. Disliked patterns: Dislike for movies with less engaging narratives, Negative response to films lacking depth in character development, Dislike for light-hearted comedies without substantial themes.",
+      "unique_tastes": [
+        {
+          "reason": "A significant number of movies rated highly belong to the Drama genre, indicating a strong affinity for character-driven narratives.",
+          "taste": "Preference for Drama"
+        },
+        {
+          "reason": "Many liked films feature intricate character studies and moral dilemmas, suggesting a taste for depth in storytelling.",
+          "taste": "Appreciation for Complex Characters"
+        },
+        {
+          "reason": "Several highly rated films explore war and its impacts, reflecting a fascination with historical and emotional narratives surrounding conflict.",
+          "taste": "Interest in War Themes"
+        },
+        {
+          "reason": "A number of liked films incorporate romance, indicating an appreciation for emotional connections within stories.",
+          "taste": "Enjoyment of Romantic Elements"
+        },
+        {
+          "reason": "The presence of highly rated thrillers suggests a liking for tension and psychological complexity in films.",
+          "taste": "Favoring Thrillers and Suspense"
+        }
+      ]
+    },
+    "user_id": 2476
+  }
+}

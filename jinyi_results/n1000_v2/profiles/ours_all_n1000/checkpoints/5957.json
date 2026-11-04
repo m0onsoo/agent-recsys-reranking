@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "b0fb535cb927d0e25e6213f13d6a7c79b3e3f45c6da4ed099639034ea3c8ce90",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      516,
+      3117,
+      1015,
+      1348,
+      1178,
+      799,
+      683,
+      640,
+      135,
+      382
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      45,
+      59,
+      90,
+      93,
+      124,
+      149,
+      161,
+      215,
+      344,
+      378,
+      477,
+      529,
+      567,
+      581,
+      591,
+      693,
+      776,
+      793,
+      794,
+      859,
+      1052,
+      1053,
+      1116,
+      1841,
+      2230
+    ],
+    "seed": 42,
+    "source_hash": "6049ac1665b0422af0156ab6bfec24dffc59c3e3e2b2ad9636287c9628edbdd0",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5957,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "writer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Brian O'Halloran",
+          "Jeff Anderson",
+          "Jason Mewes",
+          "Kevin Smith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Convenience and video store clerks Dante and Randal are sharp-witted, potty-mouthed and bored out of their minds. So in between needling customers, the counter jockeys play hockey on the roof, visit a funeral home and deal with their love lives.",
+        "release_date": "1994-09-13",
+        "release_year": "1994",
+        "title": "Clerks"
+      },
+      {
+        "cast": [
+          "Jeffrey Falcon",
+          "Justin McGuire",
+          "Kim De Angelo",
+          "Stephane Gauger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lance Mungia",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a post-apocalyptic world where the Russians have taken over a nuked USA and Elvis is king of Lost Vegas, Buddy is a '50s rocker and wandering warrior rolled into one, too-cool package. Armed with his six-string in one hand and his sword in the other, Buddy is on his way to Vegas to succeed Elvis as King. Along the way, he saves an orphan who decides to tag along.",
+        "release_date": "1998-09-18",
+        "release_year": "1998",
+        "title": "Six-String Samurai"
+      },
+      {
+        "cast": [
+          "Rufus Sewell",
+          "William Hurt",
+          "Kiefer Sutherland",
+          "Jennifer Connelly"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Alex Proyas",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+        "release_date": "1998-02-27",
+        "release_year": "1998",
+        "title": "Dark City"
+      },
+      {
+        "cast": [
+          "Christine Hargreaves",
+          "James Laurenson",
+          "Eleanor David",
+          "Bob Geldof"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Drama",
+          "Musical",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A troubled rock star descends into madness in the midst of his physical and social isolation from everyone.",
+        "release_date": "1982-07-14",
+        "release_year": "1982",
+        "title": "Pink Floyd - The Wall"
+      },
+      {
+        "cast": [
+          "Mike Judge",
+          "Bruce Willis",
+          "Demi Moore",
+          "Robert Stack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Judge",
+        "genres": [
+          "Animation",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Mike Judge's slacker duo, Beavis and Butt-Head, wake to discover their TV has been stolen. Their search for a new one takes them on a clueless adventure across America where they manage to accidentally become America's most wanted.",
+        "release_date": "1996-12-15",
+        "release_year": "1996",
+        "title": "Beavis and Butt-head Do America"
+      },
+      {
+        "cast": [
+          "Jim Henson",
+          "Frank Oz",
+          "Jerry Nelson",
+          "Richard Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Frawley",
+        "genres": [
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Kermit the Frog is persuaded by agent Dom DeLuise to pursue a career in Hollywood. Along the way, Kermit picks up Fozzie Bear, Miss Piggy, Gonzo, and a motley crew of other Muppets with similar aspirations. Meanwhile, Kermit must elude the grasp of a frog-leg restaurant magnate.",
+        "release_date": "1979-05-31",
+        "release_year": "1979",
+        "title": "Muppet Movie, The"
+      },
+      {
+        "cast": [
+          "Kathryn Beaumont",
+          "Verna Felton",
+          "Ed Wynn",
+          "Richard Haydn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Hamilton Luske",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "On a golden afternoon, young Alice follows a White Rabbit, who disappears down a nearby rabbit hole. Quickly following him, she tumbles into the burrow - and enters the merry, topsy-turvy world of Wonderland! Memorable songs and whimsical escapades highlight Alice's journey, which culminates in a madcap encounter with the Queen of Hearts - and her army of playing cards!",
+        "release_date": "1951-07-03",
+        "release_year": "1951",
+        "title": "Alice in Wonderland"
+      },
+      {
+        "cast": [
+          "Sandra Bullock",
+          "Bill Pullman",
+          "Peter Gallagher",
+          "Peter Boyle"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A love story built on a misunderstanding. A transit worker pulls commuter Peter off the tracks after he's mugged. But while he's in a coma, his family mistakenly thinks she's Peter's fiancée, and she doesn't correct them. Things get more complicated when she falls for his brother, who's not quite sure that she's who she claims to be.",
+        "release_date": "1995-04-21",
+        "release_year": "1995",
+        "title": "While You Were Sleeping"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      }
+    ],
+    "raw_user_id": "5957",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 193
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6982059152096426
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly rated action films that lack engaging plots.",
+        "Dislike for comedies that do not resonate or provide humor."
+      ],
+      "liked_patterns": [
+        "Preference for action and adventure films with strong narratives.",
+        "Enjoyment of comedies that blend humor with dramatic elements.",
+        "Interest in films that feature science fiction and fantasy themes."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.); Comedy with Drama (The user appreciates comedies that incorporate dramatic elements, reflecting a preference for humor with depth.); Sci-Fi and Fantasy (The user shows a liking for science fiction and fantasy genres, particularly in films that blend these with action.); Children's and Family-Friendly (The user enjoys children's films that also appeal to a broader audience, indicating a taste for family-friendly content.); War Themes (The user is drawn to films that explore war themes, often combined with action or drama.). Liked patterns: Preference for action and adventure films with strong narratives., Enjoyment of comedies that blend humor with dramatic elements., Interest in films that feature science fiction and fantasy themes.. Disliked patterns: Dislike for poorly rated action films that lack engaging plots., Dislike for comedies that do not resonate or provide humor..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates comedies that incorporate dramatic elements, reflecting a preference for humor with depth.",
+          "taste": "Comedy with Drama"
+        },
+        {
+          "reason": "The user shows a liking for science fiction and fantasy genres, particularly in films that blend these with action.",
+          "taste": "Sci-Fi and Fantasy"
+        },
+        {
+          "reason": "The user enjoys children's films that also appeal to a broader audience, indicating a taste for family-friendly content.",
+          "taste": "Children's and Family-Friendly"
+        },
+        {
+          "reason": "The user is drawn to films that explore war themes, often combined with action or drama.",
+          "taste": "War Themes"
+        }
+      ]
+    },
+    "user_id": 5957
+  }
+}

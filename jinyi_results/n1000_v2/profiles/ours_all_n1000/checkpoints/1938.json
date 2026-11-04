@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "c797adda84ee39d7c4d131be9cf9e9b84c0dd4955cd580d50be2860551d395b1",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      99,
+      441,
+      1069,
+      1102,
+      164,
+      1719,
+      858,
+      583,
+      265,
+      46
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "841dcabc952b41de80c2663af8bff55f"
+    ],
+    "sampled_item_ids": [
+      11,
+      31,
+      36,
+      99,
+      128,
+      203,
+      278,
+      560,
+      588,
+      589,
+      609,
+      613,
+      620,
+      625,
+      767,
+      924,
+      1019,
+      1048,
+      1067,
+      1076,
+      1077,
+      1093,
+      1110,
+      1134,
+      1155
+    ],
+    "seed": 42,
+    "source_hash": "89bf8c85a1e1c32da06e8e118fe2459b0258a732258b0f886c583b1ded9485d7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1938,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Winona Ryder",
+          "Brad Dourif",
+          "Ron Perlman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Two hundred years after Lt. Ripley died, a group of scientists clone her, hoping to breed the ultimate weapon. But the new Ripley is full of surprises … as are the new aliens. Ripley must team with a band of smugglers to keep the creatures from reaching Earth.",
+        "release_date": "1997-11-12",
+        "release_year": "1997",
+        "title": "Alien: Resurrection"
+      },
+      {
+        "cast": [
+          "Kevin Conroy",
+          "Mark Hamill",
+          "Dana Delany",
+          "Hart Bochner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bruce Timm",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "An old flame of Bruce Wayne's strolls into town, re-heating up the romance between the two. At the same time, a mass murderer with an axe for one hand begins systematically eliminating Gotham's crime bosses. Due to the person's dark appearance, he is mistaken for Batman. Now on the run, Batman must solve the mystery and deal with the romance between him and Andrea Beaumont.",
+        "release_date": "1993-12-25",
+        "release_year": "1993",
+        "title": "Batman: Mask of the Phantasm"
+      },
+      {
+        "cast": [
+          "George Lazenby",
+          "Diana Rigg",
+          "Telly Savalas",
+          "Gabriele Ferzetti"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Peter R. Hunt",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "James Bond tracks archnemesis Ernst Blofeld to a mountaintop retreat where he's training an army of beautiful but lethal women. Along the way, Bond falls for Italian contessa Tracy Draco -- and marries her in order to get closer to Blofeld. Meanwhile, he locates Blofeld in the Alps and embarks on a classic ski chase.",
+        "release_date": "1969-12-12",
+        "release_year": "1969",
+        "title": "On Her Majesty's Secret Service"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Richard Dawson",
+          "María Conchita Alonso",
+          "Yaphet Kotto"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Michael Glaser",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "By 2017, the global economy has collapsed and American society has become a totalitarian police state, censoring all cultural activity. The government pacifies the populace by broadcasting a number of game shows in which convicted criminals fight for their lives, including the gladiator-style The Running Man, hosted by the ruthless Damon Killian, where “runners” attempt to evade “stalkers” and certain death for a chance to be pardoned and set free.",
+        "release_date": "1987-11-13",
+        "release_year": "1987",
+        "title": "Running Man, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Danny Glover",
+          "Joe Pesci",
+          "Rene Russo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Archetypal buddy cops Riggs and Murtaugh are back for another round of high-stakes action, this time setting their collective sights on bringing down a former Los Angeles police lieutenant turned black market weapons dealer. Lorna Cole joins as the beautiful yet hardnosed internal affairs sergeant who catches Riggs's eye.",
+        "release_date": "1992-05-15",
+        "release_year": "1992",
+        "title": "Lethal Weapon 3"
+      },
+      {
+        "cast": [
+          "Patrick Wayne",
+          "Taryn Power",
+          "Margaret Whiting",
+          "Jane Seymour"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Sam Wanamaker",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Princess Farah refuses to marry Sinbad until Prince Kassim, her brother, is able to give his consent. However, the Prince's wicked stepmother, Queen Zenobia, has changed Kassim into a baboon in order to have her own son crowned as caliph. Sinbad, his crew, the Princess and the transformed Prince travel to a distant land, fighting every obstacle Zenobia places in their path, to seek the advice of a legendary wise man who can possibly tell how to end the spell.",
+        "release_date": "1977-07-15",
+        "release_year": "1977",
+        "title": "Sinbad and the Eye of the Tiger"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "James Earl Jones",
+          "Max von Sydow",
+          "Sandahl Bergman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Milius",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "A film adaptation of the classic sword and sorcery hero, Conan the Barbarian. A horde of rampaging warriors massacre the parents of young Conan and enslave the young child for years on The Wheel of Pain. As the sole survivor of the childhood massacre, Conan is released from slavery and taught the ancient arts of fighting. Transforming himself into a killing machine, Conan travels into the wilderness to seek vengeance on Thulsa Doom, the man responsible for killing his family. In the wilderness, Conan takes up with the thieves Valeria and Subotai. The group comes upon King Osric, who wants the trio of warriors to help rescue his daughter who has joined Doom in the hills.",
+        "release_date": "1982-04-02",
+        "release_year": "1982",
+        "title": "Conan the Barbarian"
+      },
+      {
+        "cast": [
+          "John Hurt",
+          "Richard Briers",
+          "Michael Graham Cox",
+          "John Bennett"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Martin Rosen",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Drama",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "When the warren belonging to a community of rabbits is threatened, a brave group led by Fiver, Bigwig, Blackberry and Hazel leave their homeland in a search of a safe new haven.",
+        "release_date": "1978-10-14",
+        "release_year": "1978",
+        "title": "Watership Down"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Dennis Hopper",
+          "Sandra Bullock",
+          "Joe Morton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jan de Bont",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Los Angeles SWAT cop Jack Traven is up against bomb expert Howard Payne, who's after major ransom money. First it's a rigged elevator in a very tall building. Then it's a rigged bus--if it slows, it will blow, bad enough any day, but a nightmare in LA traffic. And that's still not the end.",
+        "release_date": "1994-06-09",
+        "release_year": "1994",
+        "title": "Speed"
+      },
+      {
+        "cast": [
+          "Julie Andrews",
+          "Dick Van Dyke",
+          "David Tomlinson",
+          "Glynis Johns"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Stevenson",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "The movie combines a diverting story, songs, color and sequences of live action blended with the movements of animated figures. Mary Poppins is a kind of Super-nanny who flies in with her umbrella in response to the request of the Banks children and proceeds to put things right with the aid of her rather extraordinary magical powers before flying off again.",
+        "release_date": "1964-08-27",
+        "release_year": "1964",
+        "title": "Mary Poppins"
+      }
+    ],
+    "raw_user_id": "1938",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 141
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7858708979302131
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films that blend with horror or comedy",
+        "Negative ratings for animated films that do not resonate",
+        "Dislike for films with low engagement in the action genre"
+      ],
+      "liked_patterns": [
+        "Preference for animated films with musical elements",
+        "Enjoyment of action and adventure films",
+        "Positive reception of drama and thriller genres"
+      ],
+      "summary": "Unique tastes: Animation and Children's Films (The user enjoys animated films aimed at children, as evidenced by multiple high ratings for such movies.); Action and Adventure (The user shows a preference for action and adventure genres, reflected in several high ratings for films in these categories.); Musicals (The user appreciates musicals, indicated by positive ratings for animated films that incorporate musical elements.); Drama and Thrillers (The user has rated several drama and thriller films positively, suggesting an affinity for these genres.); Comedy and Romance (The user has shown some enjoyment for comedy and romance films, as seen in their ratings.). Liked patterns: Preference for animated films with musical elements, Enjoyment of action and adventure films, Positive reception of drama and thriller genres. Disliked patterns: Dislike for action films that blend with horror or comedy, Negative ratings for animated films that do not resonate, Dislike for films with low engagement in the action genre.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films aimed at children, as evidenced by multiple high ratings for such movies.",
+          "taste": "Animation and Children's Films"
+        },
+        {
+          "reason": "The user shows a preference for action and adventure genres, reflected in several high ratings for films in these categories.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates musicals, indicated by positive ratings for animated films that incorporate musical elements.",
+          "taste": "Musicals"
+        },
+        {
+          "reason": "The user has rated several drama and thriller films positively, suggesting an affinity for these genres.",
+          "taste": "Drama and Thrillers"
+        },
+        {
+          "reason": "The user has shown some enjoyment for comedy and romance films, as seen in their ratings.",
+          "taste": "Comedy and Romance"
+        }
+      ]
+    },
+    "user_id": 1938
+  }
+}

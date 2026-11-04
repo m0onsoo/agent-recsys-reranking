@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "375356788269b9e623381cf61992d64d3e8e67eb01dfba1bc69812921191936b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      897,
+      291,
+      844,
+      1231,
+      61,
+      91,
+      28,
+      222,
+      1158,
+      3075
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "1b25a114027e40dcae0c99240deb44b7"
+    ],
+    "sampled_item_ids": [
+      41,
+      133,
+      148,
+      176,
+      206,
+      241,
+      256,
+      260,
+      264,
+      285,
+      324,
+      510,
+      676,
+      677,
+      798,
+      829,
+      984,
+      1059,
+      1107,
+      1121,
+      1276,
+      1299,
+      1406,
+      1661,
+      1675
+    ],
+    "seed": 42,
+    "source_hash": "8cd067e0101173d46e0f362484f7f04e84644bb8d2b062fcbbfa32ef42c0d0d5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2105,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Robert Redford",
+          "Sidney Poitier",
+          "Dan Aykroyd",
+          "David Strathairn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phil Alden Robinson",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When shadowy U.S. intelligence agents blackmail a reformed computer hacker and his eccentric team of security experts into stealing a code-breaking 'black box' from a Soviet-funded genius, they uncover a bigger conspiracy. Now, he and his 'sneakers' must save themselves and the world economy by retrieving the box from their blackmailers.",
+        "release_date": "1992-09-09",
+        "release_year": "1992",
+        "title": "Sneakers"
+      },
+      {
+        "cast": [
+          "Cameron Diaz",
+          "Ben Stiller",
+          "Matt Dillon",
+          "Lee Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Having never fully recovered from a prom date that became a total disaster, a man finally gets a chance to reunite with his old prom date, only to run up against other suitors including the sleazy detective he hired to find her.",
+        "release_date": "1998-07-15",
+        "release_year": "1998",
+        "title": "There's Something About Mary"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Sean Bean",
+          "Izabella Scorupco",
+          "Famke Janssen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Martin Campbell",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "James Bond must unmask the mysterious head of the Janus Syndicate and prevent the leader from utilizing the GoldenEye weapons system to inflict devastating revenge on Britain.",
+        "release_date": "1995-11-16",
+        "release_year": "1995",
+        "title": "GoldenEye"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Steve Martin",
+          "Martin Short",
+          "Patrice Martinez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Three unemployed actors accept an invitation to a Mexican village to replay their bandit fighter roles, unaware that it is the real thing.",
+        "release_date": "1986-12-12",
+        "release_year": "1986",
+        "title": "Three Amigos!"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Anne Archer",
+          "Patrick Bergin",
+          "Thora Birch"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When CIA Analyst Jack Ryan interferes with an IRA assassination, a renegade faction targets Jack and his family as revenge.",
+        "release_date": "1992-06-04",
+        "release_year": "1992",
+        "title": "Patriot Games"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Leonardo DiCaprio",
+          "Frances Fisher",
+          "Billy Zane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "84 years later, a 101-year-old woman named Rose DeWitt Bukater tells the story to her granddaughter Lizzy Calvert, Brock Lovett, Lewis Bodine, Bobby Buell and Anatoly Mikailavich on the Keldysh about her life set in April 10th 1912, on a ship called Titanic when young Rose boards the departing ship with the upper-class passengers and her mother, Ruth DeWitt Bukater, and her fiancé, Caledon Hockley. Meanwhile, a drifter and artist named Jack Dawson and his best friend Fabrizio De Rossi win third-class tickets to the ship in a game. And she explains the whole story from departure until the death of Titanic on its first and last voyage April 15th, 1912 at 2:20 in the morning.",
+        "release_date": "1997-11-18",
+        "release_year": "1997",
+        "title": "Titanic"
+      },
+      {
+        "cast": [
+          "Alicia Silverstone",
+          "Stacey Dash",
+          "Brittany Murphy",
+          "Paul Rudd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Amy Heckerling",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Shallow, rich and socially successful Cher is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other. Emboldened by her success, she decides to give hopelessly klutzy new student Tai a makeover. When Tai becomes more popular than she is, Cher realizes that her disapproving ex-stepbrother was right about how misguided she was -- and falls for him.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Clueless"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Renée Zellweger",
+          "Anthony Anderson",
+          "Robert Forster"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bobby Farrelly",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Rhode Island State Trooper Charlie Baileygates has a multiple personality disorder. One personality is crazy and aggressive, while the other is more friendly and laid back. Both of these personalities fall in love with the same woman named Irene after Charlie loses his medication.",
+        "release_date": "2000-06-22",
+        "release_year": "2000",
+        "title": "Me, Myself and Irene"
+      },
+      {
+        "cast": [
+          "Eric Stoltz",
+          "Annabella Sciorra",
+          "Chris Eigeman",
+          "Carlos Jacott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Noah Baumbach",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "After his first date at age 15 ended with the girl making out with another man at a party, aspiring writer Lester Grimm has treated all his girlfriends with jealousy and suspicion. While dating Ramona Ray, paranoia gets the best of him when he discovers that her most recent ex is successful novelist Dashiell Frank. Lester begins attending the same group therapy sessions as Dashiell to learn about Ramona's past with him.",
+        "release_date": "1997-09-11",
+        "release_year": "1997",
+        "title": "Mr. Jealousy"
+      }
+    ],
+    "raw_user_id": "2105",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 415
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5735162404215142
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for specific action films",
+        "Dislike for certain adventure comedies"
+      ],
+      "liked_patterns": [
+        "High ratings for comedies and dramas",
+        "Strong preference for action and thriller genres",
+        "Positive reception of animated and family-oriented films"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, as indicated by multiple high ratings for films in this genre.); Interest in Action and Thriller (The user rates several action and thriller films highly, showing a preference for intense and engaging narratives.); Enjoyment of Drama (The user has rated numerous drama films positively, indicating a strong appreciation for character-driven stories.); Fondness for Animation and Family Films (The user has shown a liking for animated and children's films, suggesting a preference for light-hearted and family-friendly content.); Engagement with Crime and Mystery (The user rates crime and mystery films well, indicating an interest in complex plots and suspenseful storytelling.). Liked patterns: High ratings for comedies and dramas, Strong preference for action and thriller genres, Positive reception of animated and family-oriented films. Disliked patterns: Negative ratings for specific action films, Dislike for certain adventure comedies.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, as indicated by multiple high ratings for films in this genre.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates several action and thriller films highly, showing a preference for intense and engaging narratives.",
+          "taste": "Interest in Action and Thriller"
+        },
+        {
+          "reason": "The user has rated numerous drama films positively, indicating a strong appreciation for character-driven stories.",
+          "taste": "Enjoyment of Drama"
+        },
+        {
+          "reason": "The user has shown a liking for animated and children's films, suggesting a preference for light-hearted and family-friendly content.",
+          "taste": "Fondness for Animation and Family Films"
+        },
+        {
+          "reason": "The user rates crime and mystery films well, indicating an interest in complex plots and suspenseful storytelling.",
+          "taste": "Engagement with Crime and Mystery"
+        }
+      ]
+    },
+    "user_id": 2105
+  }
+}

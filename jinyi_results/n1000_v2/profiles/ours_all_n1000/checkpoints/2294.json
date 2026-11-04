@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "73836067145ced9c8b695eb4800e53e7d873963094ec4656792ad077d1f2a859",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      3,
+      686,
+      649,
+      106,
+      339,
+      965,
+      214,
+      23,
+      415,
+      83
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "d21a9ca636e6438894c40ab5983b97b7"
+    ],
+    "sampled_item_ids": [
+      3,
+      9,
+      23,
+      27,
+      53,
+      58,
+      83,
+      88,
+      116,
+      144,
+      214,
+      218,
+      339,
+      611,
+      649,
+      717,
+      739,
+      815,
+      852,
+      965,
+      1196,
+      1269,
+      1518,
+      1540,
+      2038
+    ],
+    "seed": 42,
+    "source_hash": "31f5f528c90ff414de55f355526d630e571df96974ae23b75eccb4d4088ba4d9",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2294,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "56+",
+      "gender": "male",
+      "occupation": "retired"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Audrey Hepburn",
+          "Rex Harrison",
+          "Stanley Holloway",
+          "Wilfrid Hyde-White"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Cukor",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A misogynistic and snobbish phonetics professor agrees to a wager that he can take a flower girl and make her presentable in high society.",
+        "release_date": "1964-10-21",
+        "release_year": "1964",
+        "title": "My Fair Lady"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Glenn Close",
+          "Alan Bates",
+          "Paul Scofield"
+        ],
+        "country": [
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Franco Zeffirelli",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Hamlet, Prince of Denmark, finds out that his uncle Claudius killed his father to obtain the throne, and plans revenge.",
+        "release_date": "1990-12-19",
+        "release_year": "1990",
+        "title": "Hamlet"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Audrey Hepburn",
+          "Eddie Albert",
+          "Hartley Power"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Overwhelmed by her suffocating schedule, touring European princess Ann takes off for a night while in Rome. When a sedative she took from her doctor kicks in, however, she falls asleep on a park bench and is found by an American reporter, Joe Bradley, who takes her back to his apartment for safety. At work the next morning, Joe finds out Ann's regal identity and bets his editor he can get exclusive interview with her, but romance soon gets in the way.",
+        "release_date": "1953-09-02",
+        "release_year": "1953",
+        "title": "Roman Holiday"
+      },
+      {
+        "cast": [
+          "F. Murray Abraham",
+          "Tom Hulce",
+          "Elizabeth Berridge",
+          "Roy Dotrice"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The incredible story of genius musician Wolfgang Amadeus Mozart, told in flashback by his peer and secret rival Antonio Salieri – now confined to an insane asylum.",
+        "release_date": "1984-10-26",
+        "release_year": "1984",
+        "title": "Amadeus"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Mary Astor",
+          "Gladys George",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A private detective takes on a case that involves him with three eccentric criminals, a gorgeous liar, and their quest for a priceless statuette.",
+        "release_date": "1941-11-18",
+        "release_year": "1941",
+        "title": "Maltese Falcon, The"
+      },
+      {
+        "cast": [
+          "Kevin McCarthy",
+          "Dana Wynter",
+          "King Donovan",
+          "Carolyn Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Don Siegel",
+        "genres": [
+          "Horror",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.",
+        "release_date": "1956-02-05",
+        "release_year": "1956",
+        "title": "Invasion of the Body Snatchers"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Robert Shaw",
+          "Richard Dreyfuss",
+          "Lorraine Gary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
+        "release_date": "1975-06-18",
+        "release_year": "1975",
+        "title": "Jaws"
+      },
+      {
+        "cast": [
+          "Michael J. Fox",
+          "Christopher Lloyd",
+          "Lea Thompson",
+          "Crispin Glover"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+        "release_date": "1985-07-03",
+        "release_year": "1985",
+        "title": "Back to the Future"
+      },
+      {
+        "cast": [
+          "Natalie Wood",
+          "Richard Beymer",
+          "Russ Tamblyn",
+          "Rita Moreno"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerome Robbins",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the slums of the upper West Side of Manhattan, New York, a gang of Polish-American teenagers called the Jets compete with a rival gang of recently immigrated Puerto Ricans, the Sharks, to \"own\" the neighborhood streets. Tensions are high between the gangs but two kids, one from each rival gang, fall in love leading to tragedy.",
+        "release_date": "1961-10-18",
+        "release_year": "1961",
+        "title": "West Side Story"
+      },
+      {
+        "cast": [
+          "Audrey Hepburn",
+          "George Peppard",
+          "Patricia Neal",
+          "Buddy Ebsen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Blake Edwards",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Fortune hunter Holly Golightly finds herself captivated by aspiring writer Paul Varjak, who's moved into her building on a wealthy woman's dime. As romance blooms between Paul and Holly, Doc Golightly shows up on the scene, revealing Holly's past.",
+        "release_date": "1961-10-05",
+        "release_year": "1961",
+        "title": "Breakfast at Tiffany's"
+      }
+    ],
+    "raw_user_id": "2294",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 50
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4284799525959562
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "A lack of interest in horror elements, as indicated by lower ratings for films in this genre."
+      ],
+      "liked_patterns": [
+        "A strong inclination towards drama and its sub-genres, as seen in multiple high ratings.",
+        "A consistent appreciation for comedy, particularly when combined with other genres like romance and adventure.",
+        "A liking for films that blend genres, such as musicals with romance or action with drama."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.); Comedy (Enjoyment of comedic elements is reflected in several ratings, indicating a liking for humor in films.); Romance (A notable appreciation for romantic themes is shown through positive ratings of films that blend romance with other genres.); Musical (A fondness for musicals is indicated by high ratings for films that incorporate musical elements.); Action (A consistent enjoyment of action-packed films is apparent, with several ratings reflecting a preference for this genre.). Liked patterns: A strong inclination towards drama and its sub-genres, as seen in multiple high ratings., A consistent appreciation for comedy, particularly when combined with other genres like romance and adventure., A liking for films that blend genres, such as musicals with romance or action with drama.. Disliked patterns: A lack of interest in horror elements, as indicated by lower ratings for films in this genre..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with multiple high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Enjoyment of comedic elements is reflected in several ratings, indicating a liking for humor in films.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "A notable appreciation for romantic themes is shown through positive ratings of films that blend romance with other genres.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "A fondness for musicals is indicated by high ratings for films that incorporate musical elements.",
+          "taste": "Musical"
+        },
+        {
+          "reason": "A consistent enjoyment of action-packed films is apparent, with several ratings reflecting a preference for this genre.",
+          "taste": "Action"
+        }
+      ]
+    },
+    "user_id": 2294
+  }
+}

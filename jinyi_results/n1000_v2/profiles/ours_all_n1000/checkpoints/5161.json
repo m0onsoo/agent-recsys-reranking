@@ -1,0 +1,337 @@
+{
+  "checkpoint_hash": "b63fd4960e2b96d49aabf842e8f2fc52cbf27e56da516dbc28143b91c6ff2336",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      362,
+      1212,
+      468,
+      52,
+      926,
+      1134,
+      923,
+      2259,
+      897,
+      323
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      11,
+      24,
+      39,
+      61,
+      148,
+      175,
+      216,
+      223,
+      320,
+      421,
+      468,
+      507,
+      515,
+      570,
+      589,
+      679,
+      744,
+      791,
+      898,
+      1083,
+      1084,
+      1229,
+      1316,
+      2411,
+      2476
+    ],
+    "seed": 42,
+    "source_hash": "6722ff469fa25e0c0084717a008e8772e2d1380892a680f5585fff3fc39ab243",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5161,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Cusack",
+          "Dianne Wiest",
+          "Jennifer Tilly",
+          "Chazz Palminteri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Set in 1920's New York City, this movie tells the story of idealistic young playwright David Shayne. Producer Julian Marx finally finds funding for the project from gangster Nick Valenti. The catch is that Nick's girl friend Olive Neal gets the part of a psychiatrist, and Olive is a bimbo who could never pass for a psychiatrist as well as being a dreadful actress. Agreeing to this first compromise is the first step to Broadway's complete seduction of David, who neglects longtime girl friend Ellen. Meanwhile David puts up with Warner Purcell, the leading man who is a compulsive eater, Helen Sinclair, the grand dame who wants her part jazzed up, and Cheech, Olive's interfering hitman / bodyguard. Eventually, the playwright must decide whether art or life is more important.",
+        "release_date": "1994-10-14",
+        "release_year": "1994",
+        "title": "Bullets Over Broadway"
+      },
+      {
+        "cast": [
+          "Eileen Brennan",
+          "Tim Curry",
+          "Madeline Kahn",
+          "Christopher Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Lynn",
+        "genres": [
+          "Comedy",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Clue finds six colorful dinner guests gathered at the mansion of their host, Mr. Boddy -- who turns up dead after his secret is exposed: He was blackmailing all of them. With the killer among them, the guests and Boddy's chatty butler must suss out the culprit before the body count rises.",
+        "release_date": "1985-12-13",
+        "release_year": "1985",
+        "title": "Clue"
+      },
+      {
+        "cast": [
+          "Mitsuo Iwata",
+          "Nozomu Sasaki",
+          "Mami Koyama",
+          "Tesshou Genda"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Katsuhiro Ōtomo",
+        "genres": [
+          "Adventure",
+          "Animation",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "Japanese",
+        "overview": "Childhood friends Tetsuo and Kaneda are pulled into the post-apocalyptic underworld of Neo-Tokyo and forced to fight for their very survival. Kaneda is a bike gang leader, and Tetsuo is a member of a tough motorcycle crew who becomes involved in a covert government project called Akira. But a bloody battle ensues when Kaneda sets out to save his friend.",
+        "release_date": "1988-07-16",
+        "release_year": "1988",
+        "title": "Akira"
+      },
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sharon Stone",
+          "George Dzundza",
+          "Jeanne Tripplehorn"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A police detective is in charge of the investigation of a brutal murder, in which a beautiful and seductive woman could be involved.",
+        "release_date": "1992-03-20",
+        "release_year": "1992",
+        "title": "Basic Instinct"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Shatner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Capt. Kirk and his crew must deal with Mr. Spock's half brother who kidnaps three diplomats and hijacks the Enterprise in his obsessive search for God.",
+        "release_date": "1989-06-09",
+        "release_year": "1989",
+        "title": "Star Trek V: The Final Frontier"
+      },
+      {
+        "cast": [
+          "Bill Paxton",
+          "Bridget Fonda",
+          "Billy Bob Thornton",
+          "Brent Briscoe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Captivated by the lure of sudden wealth, the quiet rural lives of two brothers erupt into conflicts of greed, paranoia and distrust when over $4 million in cash is discovered at the remote site of a downed small airplane. Their simple plan to retain the money while avoiding detection opens a Pandora's box when the fear of getting caught triggers panicked behavior and leads to virulent consequences",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Simple Plan, A"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Dennis Hopper",
+          "Lara Flynn Boyle",
+          "J.T. Walsh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Dahl",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a promised job for Texan Michael fails to materialise in Wyoming, Mike is mistaken by Wayne to be the hitman he hired to kill his unfaithful wife, Suzanne. Mike takes full advantage of the situation, collects the money and runs. During his getaway, things go wrong, and soon get worse when he runs into the real hitman, Lyle.",
+        "release_date": "1993-07-08",
+        "release_year": "1992",
+        "title": "Red Rock West"
+      },
+      {
+        "cast": [
+          "Robert Redford",
+          "Sidney Poitier",
+          "Dan Aykroyd",
+          "David Strathairn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phil Alden Robinson",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When shadowy U.S. intelligence agents blackmail a reformed computer hacker and his eccentric team of security experts into stealing a code-breaking 'black box' from a Soviet-funded genius, they uncover a bigger conspiracy. Now, he and his 'sneakers' must save themselves and the world economy by retrieving the box from their blackmailers.",
+        "release_date": "1992-09-09",
+        "release_year": "1992",
+        "title": "Sneakers"
+      },
+      {
+        "cast": [
+          "Ethan Hawke",
+          "Jude Law",
+          "Gore Vidal",
+          "Uma Thurman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andrew Niccol",
+        "genres": [
+          "Drama",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Science fiction drama about a future society in the era of indefinite eugenics where humans are set on a life course depending on their DNA. The young Vincent Freeman is born with a condition that would prevent him from space travel, yet he is determined to infiltrate the GATTACA space program.",
+        "release_date": "1997-09-07",
+        "release_year": "1997",
+        "title": "Gattaca"
+      }
+    ],
+    "raw_user_id": "5161",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 252
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.5516377932904146
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for children's and animated films",
+        "Negative reception of comedies",
+        "Dislike for certain action films with less depth"
+      ],
+      "liked_patterns": [
+        "High ratings for drama and war films",
+        "Positive reception of thrillers and psychological narratives",
+        "Appreciation for action and adventure films"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama and War Themes (The user rates several drama and war films highly, indicating a strong preference for intense narratives and character-driven stories.); Interest in Thrillers and Psychological Elements (The user enjoys thrillers, as evidenced by high ratings for films in this genre, suggesting a taste for suspenseful and thought-provoking content.); Favoring Animation and Fantasy for Children (The user has rated some animated and children's films, but with lower ratings, indicating a selective appreciation for this genre.); Enjoyment of Action and Adventure (The user rates multiple action and adventure films positively, showing a preference for dynamic and engaging storytelling.); Preference for Complex Characters and Moral Dilemmas (The user rates films that explore complex characters and moral issues highly, reflecting a taste for depth in storytelling.). Liked patterns: High ratings for drama and war films, Positive reception of thrillers and psychological narratives, Appreciation for action and adventure films. Disliked patterns: Low ratings for children's and animated films, Negative reception of comedies, Dislike for certain action films with less depth.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama and war films highly, indicating a strong preference for intense narratives and character-driven stories.",
+          "taste": "Appreciation for Drama and War Themes"
+        },
+        {
+          "reason": "The user enjoys thrillers, as evidenced by high ratings for films in this genre, suggesting a taste for suspenseful and thought-provoking content.",
+          "taste": "Interest in Thrillers and Psychological Elements"
+        },
+        {
+          "reason": "The user has rated some animated and children's films, but with lower ratings, indicating a selective appreciation for this genre.",
+          "taste": "Favoring Animation and Fantasy for Children"
+        },
+        {
+          "reason": "The user rates multiple action and adventure films positively, showing a preference for dynamic and engaging storytelling.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user rates films that explore complex characters and moral issues highly, reflecting a taste for depth in storytelling.",
+          "taste": "Preference for Complex Characters and Moral Dilemmas"
+        }
+      ]
+    },
+    "user_id": 5161
+  }
+}

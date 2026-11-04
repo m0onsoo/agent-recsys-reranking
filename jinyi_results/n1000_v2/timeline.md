@@ -1,0 +1,59 @@
+# Execution Timeline (UTC)
+
+| Timestamp | Step | State | Details |
+|---|---|---|---|
+| 2026-11-04T02:52:51.719512+00:00 | unit_tests | blocked | pytest missing; no paid calls, recorded cost $0 |
+| 2026-11-04T03:06:09.152354+00:00 | validate_bundle | start | {} |
+| 2026-11-04T03:06:09.478534+00:00 | validate_bundle | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:06:09.487687+00:00 | baselines_check | start | {} |
+| 2026-11-04T03:06:09.750800+00:00 | baselines_check | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:06:09.962334+00:00 | preflight | verified | {"line_counts": {"candidates.jsonl": 3000, "evaluation_labels.jsonl": 1000, "train_interactions.jsonl": 1000, "users.csv": 1001}, "other_jobs": []} |
+| 2026-11-04T03:06:47.439715+00:00 | unit_tests_datasets | verified | {"log": "tests_datasets.log", "note": "User-approved conda datasets; project venv unchanged", "passed": 27} |
+| 2026-11-04T03:06:47.440525+00:00 | controller_selftest | verified | {"api_calls": 0} |
+| 2026-11-04T03:07:07.339443+00:00 | validate_bundle | start | {} |
+| 2026-11-04T03:07:07.648600+00:00 | validate_bundle | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:07:07.657561+00:00 | baselines_check | start | {} |
+| 2026-11-04T03:07:07.921686+00:00 | baselines_check | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:07:08.113754+00:00 | preflight | verified | {"line_counts": {"candidates.jsonl": 3000, "evaluation_labels.jsonl": 1000, "train_interactions.jsonl": 1000, "users.csv": 1001}, "other_jobs": [{"elapsed": "00:01", "pid": 68856, "ppid": 68840}]} |
+| 2026-11-04T03:07:08.170612+00:00 | wait_for_shared_proxy | start | {"other_jobs": [{"elapsed": "00:01", "pid": 68856, "ppid": 68840}]} |
+| 2026-11-04T03:07:08.171159+00:00 | wait_for_shared_proxy | waiting | {"other_jobs": [{"elapsed": "00:01", "pid": 68856, "ppid": 68840}]} |
+| 2026-11-04T03:08:14.816920+00:00 | controller_restart | verified | {"reason": "exclude own caffeinate process", "recorded_cost_usd": 0} |
+| 2026-11-04T03:08:23.731860+00:00 | validate_bundle | start | {} |
+| 2026-11-04T03:08:24.046772+00:00 | validate_bundle | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:08:24.055857+00:00 | baselines_check | start | {} |
+| 2026-11-04T03:08:24.316714+00:00 | baselines_check | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:08:24.511289+00:00 | preflight | verified | {"line_counts": {"candidates.jsonl": 3000, "evaluation_labels.jsonl": 1000, "train_interactions.jsonl": 1000, "users.csv": 1001}, "other_jobs": []} |
+| 2026-11-04T03:08:24.626724+00:00 | profiles | start | {"attempt": 1} |
+| 2026-11-04T03:08:24.630030+00:00 | profiles | progress | {"completed_cases": 0, "conditions": {"full": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_demographics": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_interaction_history": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_persona": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}}, "failure_rows": 0, "run_dir": "", "step_recorded_cost_usd": 0, "total_recorded_cost_usd": 0} |
+| 2026-11-04T03:09:44.336181+00:00 | profiles | end | {"attempt": 1, "exit_code": 86, "recorded_cost_usd": 0.22607895, "total_recorded_cost_usd": 0.22607895} |
+| 2026-11-04T03:21:59.373838+00:00 | offline_profile_recovery | verified | {"api_calls": 0, "completed_users": 689, "concurrency": 16, "recorded_cost_usd": 0.22607895, "remaining_users": 311, "stop_marker_retained": true, "transcript_unchanged": true} |
+| 2026-11-04T03:23:00.840520+00:00 | authorized_resume_changes | recorded | {"concurrency": 16, "note": "Checkpoint recovery and bounded retries; original snapshot retained", "snapshot": "code_version_resume_before.json"} |
+| 2026-11-04T03:23:00.961046+00:00 | validate_bundle | start | {} |
+| 2026-11-04T03:23:01.287301+00:00 | validate_bundle | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:23:01.296480+00:00 | baselines_check | start | {} |
+| 2026-11-04T03:23:01.566805+00:00 | baselines_check | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:23:01.814047+00:00 | preflight | verified | {"line_counts": {"candidates.jsonl": 3000, "evaluation_labels.jsonl": 1000, "train_interactions.jsonl": 1000, "users.csv": 1001}, "other_jobs": []} |
+| 2026-11-04T03:31:10.937162+00:00 | user_approved_resume | start | {"archived_stop": "STOP_REQUEST_http429_user_approved.json", "completed_profiles": 689, "concurrency": 16, "remaining_profiles": 311} |
+| 2026-11-04T03:31:11.106973+00:00 | validate_bundle | start | {} |
+| 2026-11-04T03:31:11.419063+00:00 | validate_bundle | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:31:11.427771+00:00 | baselines_check | start | {} |
+| 2026-11-04T03:31:11.686692+00:00 | baselines_check | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:31:11.888698+00:00 | preflight | verified | {"line_counts": {"candidates.jsonl": 3000, "evaluation_labels.jsonl": 1000, "train_interactions.jsonl": 1000, "users.csv": 1001}, "other_jobs": []} |
+| 2026-11-04T03:31:12.097228+00:00 | profiles | start | {"attempt": 2} |
+| 2026-11-04T03:31:12.107771+00:00 | profiles | progress | {"completed_cases": 0, "completed_profiles": 689, "conditions": {"full": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_demographics": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_interaction_history": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_persona": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}}, "failure_rows": 0, "remaining_profiles": 311, "run_dir": "", "step_recorded_cost_usd": 0.22607895, "total_recorded_cost_usd": 0.22607895} |
+| 2026-11-04T03:32:29.060388+00:00 | profiles | end | {"attempt": 2, "exit_code": 0, "recorded_cost_usd": 0.3283407, "total_recorded_cost_usd": 0.3283407} |
+| 2026-11-04T03:32:54.019297+00:00 | profiles | verified | {"directory": "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/profiles/ours_all_n1000", "num_profiles": 1000, "recorded_cost_usd": 0.3283407} |
+| 2026-11-04T03:32:54.250060+00:00 | validate_bundle | start | {} |
+| 2026-11-04T03:32:54.561399+00:00 | validate_bundle | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:32:54.570306+00:00 | baselines_check | start | {} |
+| 2026-11-04T03:32:54.823846+00:00 | baselines_check | end | {"exit_code": 0, "recorded_cost_usd": 0.0} |
+| 2026-11-04T03:32:55.055850+00:00 | preflight | verified | {"line_counts": {"candidates.jsonl": 3000, "evaluation_labels.jsonl": 1000, "train_interactions.jsonl": 1000, "users.csv": 1001}, "other_jobs": []} |
+| 2026-11-04T03:32:55.387361+00:00 | full | start | {"attempt": 1} |
+| 2026-11-04T03:32:55.400127+00:00 | full | progress | {"completed_cases": 0, "conditions": {"full": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_demographics": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_interaction_history": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_persona": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}}, "failure_rows": 0, "run_dir": "", "step_recorded_cost_usd": 0, "total_recorded_cost_usd": 0.3283407} |
+| 2026-11-04T03:47:55.865396+00:00 | full | progress | {"completed_cases": 811, "conditions": {"full": {"completed_cases": 811, "failure_rows": 6, "recorded_cost_usd": 1.62539895}, "no_demographics": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_interaction_history": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_persona": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}}, "failure_rows": 6, "run_dir": "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/n1000_align_rating/full/runs/20261103_193255_9637d5eded", "step_recorded_cost_usd": 1.62539895, "total_recorded_cost_usd": 1.95373965} |
+| 2026-11-04T04:02:56.141420+00:00 | full | progress | {"completed_cases": 1761, "conditions": {"full": {"completed_cases": 1761, "failure_rows": 16, "recorded_cost_usd": 3.4801919999999997}, "no_demographics": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_interaction_history": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_persona": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}}, "failure_rows": 16, "run_dir": "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/n1000_align_rating/full/runs/20261103_193255_9637d5eded", "step_recorded_cost_usd": 3.4801919999999997, "total_recorded_cost_usd": 3.8085326999999998} |
+| 2026-11-04T04:17:57.226072+00:00 | full | progress | {"completed_cases": 2620, "conditions": {"full": {"completed_cases": 2620, "failure_rows": 20, "recorded_cost_usd": 5.16611745}, "no_demographics": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_interaction_history": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_persona": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}}, "failure_rows": 20, "run_dir": "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/n1000_align_rating/full/runs/20261103_193255_9637d5eded", "step_recorded_cost_usd": 5.16611745, "total_recorded_cost_usd": 5.49445815} |
+| 2026-11-04T04:26:24.227123+00:00 | full | end | {"attempt": 1, "exit_code": 0, "recorded_cost_usd": 5.8582583999999995, "total_recorded_cost_usd": 6.1865991} |
+| 2026-11-04T04:26:24.411405+00:00 | full | start | {"attempt": 2} |
+| 2026-11-04T04:26:24.617660+00:00 | full | progress | {"completed_cases": 2979, "conditions": {"full": {"completed_cases": 2979, "failure_rows": 21, "recorded_cost_usd": 5.8582583999999995}, "no_demographics": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_interaction_history": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}, "no_persona": {"completed_cases": 0, "failure_rows": 0, "recorded_cost_usd": 0}}, "failure_rows": 21, "run_dir": "/Users/jinyiy/Desktop/RecsysSim/jinyi_results/n1000_v2/n1000_align_rating/full/runs/20261103_193255_9637d5eded", "step_recorded_cost_usd": 5.8582583999999995, "total_recorded_cost_usd": 6.1865991} |
+| 2026-11-04T04:26:26.883836+00:00 | full | end | {"attempt": 2, "exit_code": -15, "recorded_cost_usd": 5.8582583999999995, "total_recorded_cost_usd": 6.1865991} |

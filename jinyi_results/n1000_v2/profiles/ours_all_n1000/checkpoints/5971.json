@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "73be0dfb038ca0bc00cc738ec2a581a0ed85ea86c6de0ecadd623a5d89537a50",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1039,
+      15,
+      206,
+      60,
+      65,
+      124,
+      135,
+      1432,
+      169,
+      140
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      5,
+      41,
+      42,
+      59,
+      65,
+      75,
+      90,
+      150,
+      151,
+      168,
+      176,
+      382,
+      386,
+      626,
+      640,
+      676,
+      689,
+      730,
+      756,
+      909,
+      1299,
+      1377,
+      1432,
+      2078,
+      2151
+    ],
+    "seed": 42,
+    "source_hash": "88f2c37e979b115a163d3cee5e85cad045b464dfe488d501e748b2b331580b35",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5971,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Molly Ringwald",
+          "Jon Cryer",
+          "Andrew McCarthy",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Deutch",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Andie is an outcast, hanging out either with her older boss, who owns the record store where she works, or her quirky high school classmate Duckie, who has a crush on her. When one of the rich and popular kids at school, Blane, asks Andie out, it seems too good to be true. As Andie starts falling for Blane, she begins to realize that dating someone from a different social sphere is not easy.",
+        "release_date": "1986-02-28",
+        "release_year": "1986",
+        "title": "Pretty in Pink"
+      },
+      {
+        "cast": [
+          "Julie Andrews",
+          "Christopher Plummer",
+          "Eleanor Parker",
+          "Richard Haydn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Wise",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Film adaptation of a classic Rodgers and Hammerstein musical based on a nun who becomes a governess for an Austrian family.",
+        "release_date": "1965-03-02",
+        "release_year": "1965",
+        "title": "Sound of Music, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Kate Capshaw",
+          "Jonathan Ke Quan",
+          "Amrish Puri"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "After arriving in India, Indiana Jones is asked by a desperate village to find a mystical stone. He agrees – and stumbles upon a secret cult plotting a terrible plan in the catacombs of an ancient palace.",
+        "release_date": "1984-05-23",
+        "release_year": "1984",
+        "title": "Indiana Jones and the Temple of Doom"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jack Nicholson",
+          "Demi Moore",
+          "Kevin Bacon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When cocky military lawyer Lt. Daniel Kaffee and his co-counsel, Lt. Cmdr. JoAnne Galloway, are assigned to a murder case, they uncover a hazing ritual that could implicate high-ranking officials such as shady Col. Nathan Jessep.",
+        "release_date": "1992-12-11",
+        "release_year": "1992",
+        "title": "Few Good Men, A"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Marquand",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Romance",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As Rebel leaders map their strategy for an all-out attack on the Emperor's newer, bigger Death Star. Han Solo remains frozen in the cavernous desert fortress of Jabba the Hutt, the most loathsome outlaw in the universe, who is also keeping Princess Leia as a slave girl. Now a master of the Force, Luke Skywalker rescues his friends, but he cannot become a true Jedi Knight until he wages his own crucial battle against Darth Vader, who has sworn to win Luke over to the dark side of the Force.",
+        "release_date": "1983-05-23",
+        "release_year": "1983",
+        "title": "Star Wars: Episode VI - Return of the Jedi"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Mary McDonnell",
+          "Graham Greene",
+          "Rodney A. Grant"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Kevin Costner",
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Western"
+        ],
+        "language": "English",
+        "overview": "Wounded Civil War soldier, John Dunbar tries to commit suicide – and becomes a hero instead. As a reward, he's assigned to his dream post, a remote junction on the Western frontier, and soon makes unlikely friends with the local Sioux tribe.",
+        "release_date": "1990-11-09",
+        "release_year": "1990",
+        "title": "Dances with Wolves"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Wesley Snipes",
+          "Woody Harrelson",
+          "Rosie Perez",
+          "Tyra Ferrell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Shelton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Billy Hoyle (Woody Harrelson) and Sidney Deane (Wesley Snipes) are an unlikely pair of basketball hustlers. They team up to con their way across the courts of Los Angeles, playing a game that's fast dangerous - and funny.",
+        "release_date": "1992-03-26",
+        "release_year": "1992",
+        "title": "White Men Can't Jump"
+      },
+      {
+        "cast": [
+          "Emilio Estevez",
+          "Anthony Michael Hall",
+          "Judd Nelson",
+          "Molly Ringwald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Hughes",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Five high school students, all different stereotypes, meet in detention, where they pour their hearts out to each other, and discover how they have a lot more in common than they thought.",
+        "release_date": "1985-02-15",
+        "release_year": "1985",
+        "title": "Breakfast Club, The"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When world heavyweight boxing champion, Apollo Creed wants to give an unknown fighter a shot at the title as a publicity stunt, his handlers choose palooka Rocky Balboa, an uneducated collector for a Philadelphia loan shark. Rocky teams up with trainer  Mickey Goldmill to make the most of this once in a lifetime break.",
+        "release_date": "1976-11-21",
+        "release_year": "1976",
+        "title": "Rocky"
+      }
+    ],
+    "raw_user_id": "5971",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 131
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0517699201384976
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for certain comedies",
+        "Dislike for specific action-adventure films with comedic elements"
+      ],
+      "liked_patterns": [
+        "High ratings for animated films and comedies",
+        "Strong preference for character-driven dramas",
+        "Positive reception of action and adventure films"
+      ],
+      "summary": "Unique tastes: Appreciation for Animation and Comedy (The user enjoys animated films and comedies, as evidenced by multiple high ratings in these genres.); Interest in Drama (The user rates several drama films highly, indicating a strong preference for this genre.); Enjoyment of Action and Adventure (The user has rated several action and adventure films positively, showing a liking for thrilling narratives.); Fondness for Romantic Comedies (The user has given high ratings to romantic comedies, suggesting a preference for light-hearted romantic narratives.); Value for Character-Driven Stories (The user appreciates films that focus on character development and emotional depth, as seen in their ratings for dramas.). Liked patterns: High ratings for animated films and comedies, Strong preference for character-driven dramas, Positive reception of action and adventure films. Disliked patterns: Negative ratings for certain comedies, Dislike for specific action-adventure films with comedic elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films and comedies, as evidenced by multiple high ratings in these genres.",
+          "taste": "Appreciation for Animation and Comedy"
+        },
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for this genre.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user has rated several action and adventure films positively, showing a liking for thrilling narratives.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user has given high ratings to romantic comedies, suggesting a preference for light-hearted romantic narratives.",
+          "taste": "Fondness for Romantic Comedies"
+        },
+        {
+          "reason": "The user appreciates films that focus on character development and emotional depth, as seen in their ratings for dramas.",
+          "taste": "Value for Character-Driven Stories"
+        }
+      ]
+    },
+    "user_id": 5971
+  }
+}

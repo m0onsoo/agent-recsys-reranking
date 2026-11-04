@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "cb5a639db2bd3dc60b44c0aa74d721a5e648423d4e0a48b7734b66c8221d7d73",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      717,
+      10,
+      185,
+      900,
+      2276,
+      518,
+      176,
+      260,
+      658,
+      1012
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "cf33f14aecfc4bcb9426a30b1fabb2b0"
+    ],
+    "sampled_item_ids": [
+      20,
+      34,
+      49,
+      169,
+      176,
+      185,
+      243,
+      388,
+      471,
+      517,
+      518,
+      546,
+      609,
+      651,
+      717,
+      906,
+      1188,
+      1302,
+      1845,
+      1878,
+      1881,
+      2056,
+      2089,
+      2205,
+      2274
+    ],
+    "seed": 42,
+    "source_hash": "e280cebb00e8a0d0d88309de21e8f5cc9946c63ebf7c859d1552524cfcd3c2e5",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 99,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "Under 18",
+      "gender": "female",
+      "occupation": "K-12 student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Henry Fonda",
+          "Martin Balsam",
+          "John Fiedler",
+          "Lee J. Cobb"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+        "release_date": "1957-03-25",
+        "release_year": "1957",
+        "title": "12 Angry Men"
+      },
+      {
+        "cast": [
+          "Judy Garland",
+          "Frank Morgan",
+          "Ray Bolger",
+          "Bert Lahr"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Fleming",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+        "release_date": "1939-08-15",
+        "release_year": "1939",
+        "title": "Wizard of Oz, The"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Martin Lawrence",
+          "Nia Long",
+          "Paul Giamatti",
+          "Jascha Washington"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Raja Gosnell",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a street-smart FBI agent is sent to Georgia to protect a beautiful single mother and her son from an escaped convict, he is forced to impersonate a crass Southern granny known as Big Momma in order to remain incognito.",
+        "release_date": "2000-05-31",
+        "release_year": "2000",
+        "title": "Big Momma's House"
+      },
+      {
+        "cast": [
+          "Leelee Sobieski",
+          "Chris Klein",
+          "Josh Hartnett",
+          "Michael Rooker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mark Piznarski",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A rich college kid is taught a lesson after a joy ride ends up destroying a country restaurant.",
+        "release_date": "2000-03-23",
+        "release_year": "2000",
+        "title": "Here on Earth"
+      },
+      {
+        "cast": [
+          "Ben Stiller",
+          "Robert De Niro",
+          "Teri Polo",
+          "Blythe Danner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Greg Focker is ready to marry his girlfriend, Pam, but before he pops the question, he must win over her formidable father, humorless former CIA agent Jack Byrnes, at the wedding of Pam's sister. As Greg bends over backward to make a good impression, his visit to the Byrnes home turns into a hilarious series of disasters, and everything that can go wrong does, all under Jack's critical, hawklike gaze.",
+        "release_date": "2000-10-06",
+        "release_year": "2000",
+        "title": "Meet the Parents"
+      },
+      {
+        "cast": [
+          "John Belushi",
+          "Tim Matheson",
+          "John Vernon",
+          "Verna Bloom"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Landis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a 1962 College, Dean Vernon Wormer is determined to expel the entire Delta Tau Chi Fraternity, but those troublemakers have other plans for him.",
+        "release_date": "1978-07-27",
+        "release_year": "1978",
+        "title": "Animal House"
+      },
+      {
+        "cast": [
+          "Stephen Baldwin",
+          "Gabriel Byrne",
+          "Chazz Palminteri",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Usual Suspects, The"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Sean Young",
+          "Courteney Cox",
+          "Tone Loc"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tom Shadyac",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "He's Ace Ventura: Pet Detective. Jim Carrey is on the case to find the Miami Dolphins' missing mascot and quarterback Dan Marino. He goes eyeball to eyeball with a man-eating shark, stakes out the Miami Dolphins and woos and wows the ladies. Whether he's undercover, under fire or underwater, he always gets his man . . . or beast!",
+        "release_date": "1994-02-04",
+        "release_year": "1994",
+        "title": "Ace Ventura: Pet Detective"
+      },
+      {
+        "cast": [
+          "Jason Flemyng",
+          "Dexter Fletcher",
+          "Nick Moran",
+          "Jason Statham"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Guy Ritchie",
+        "genres": [
+          "Comedy",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A card sharp and his unwillingly-enlisted friends need to make a lot of cash quick after losing a sketchy poker match. To do this they decide to pull a heist on a small-time gang who happen to be operating out of the flat next door.",
+        "release_date": "1998-03-05",
+        "release_year": "1998",
+        "title": "Lock, Stock & Two Smoking Barrels"
+      }
+    ],
+    "raw_user_id": "99",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 87
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.6721032554566277
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films with serious themes or heavy drama.",
+        "Dislike for certain comedies that may not resonate well."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies and animated films.",
+        "Positive reception of dramas and thrillers.",
+        "Enjoyment of films with romantic themes."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Animation and Children's (The user appreciates animated films and children's movies, frequently giving them favorable ratings.); Drama (The user shows a strong interest in drama films, with several rated positively.); Thriller and Crime (The user is drawn to thrillers and crime genres, as indicated by high ratings for films in these categories.); Romance (The user enjoys romantic elements in films, as seen in their ratings for romantic dramas.). Liked patterns: High ratings for comedies and animated films., Positive reception of dramas and thrillers., Enjoyment of films with romantic themes.. Disliked patterns: Low ratings for films with serious themes or heavy drama., Dislike for certain comedies that may not resonate well..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates animated films and children's movies, frequently giving them favorable ratings.",
+          "taste": "Animation and Children's"
+        },
+        {
+          "reason": "The user shows a strong interest in drama films, with several rated positively.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user is drawn to thrillers and crime genres, as indicated by high ratings for films in these categories.",
+          "taste": "Thriller and Crime"
+        },
+        {
+          "reason": "The user enjoys romantic elements in films, as seen in their ratings for romantic dramas.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 99
+  }
+}

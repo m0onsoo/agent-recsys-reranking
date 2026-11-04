@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "4a0030cc5136f4080ea9c1b45ab59a69cb1b5edfe9ee3ef24e1f782577b623da",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      133,
+      382,
+      1591,
+      114,
+      63,
+      117,
+      517,
+      195,
+      104,
+      906
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      54,
+      105,
+      114,
+      133,
+      152,
+      156,
+      177,
+      185,
+      190,
+      260,
+      323,
+      375,
+      383,
+      384,
+      505,
+      517,
+      552,
+      559,
+      712,
+      734,
+      865,
+      897,
+      1213,
+      1233,
+      1259
+    ],
+    "seed": 42,
+    "source_hash": "1d8e8ed62cc52b86291de60c3b44619078ed872eaa47af406f3c77347611c2c3",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5236,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Christine Cavanaugh",
+          "Miriam Margolyes",
+          "Danny Mann",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Chris Noonan",
+        "genres": [
+          "Children's",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Babe is a little pig who doesn't quite know his place in the world. With a bunch of odd friends, like Ferdinand the duck who thinks he is a rooster and Fly the dog he calls mom, Babe realizes that he has the makings to become the greatest sheep pig of all time, and Farmer Hogget knows it. With the help of the sheep dogs Babe learns that a pig can be anything that he wants to be.",
+        "release_date": "1995-07-18",
+        "release_year": "1995",
+        "title": "Babe"
+      },
+      {
+        "cast": [
+          "John Malkovich",
+          "Gary Sinise",
+          "Ray Walston",
+          "Casey Siemaszko"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Sinise",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two drifters, one a gentle but slow giant, try to make money working the fields during the Depression so they can fulfill their dreams.",
+        "release_date": "1992-09-16",
+        "release_year": "1992",
+        "title": "Of Mice and Men"
+      },
+      {
+        "cast": [
+          "Sam Neill",
+          "Laura Dern",
+          "Jeff Goldblum",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+        "release_date": "1993-06-11",
+        "release_year": "1993",
+        "title": "Jurassic Park"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Andie MacDowell",
+          "Chris Elliott",
+          "Stephen Tobolowsky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "release_date": "1993-02-11",
+        "release_year": "1993",
+        "title": "Groundhog Day"
+      },
+      {
+        "cast": [
+          "Giovanni Ribisi",
+          "Vin Diesel",
+          "Nia Long",
+          "Tom Everett Scott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ben Younger",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A college dropout gets a job as a broker for a suburban investment firm, which puts him on the fast track to success, but the job might not be as legitimate as it sounds.",
+        "release_date": "2000-02-18",
+        "release_year": "2000",
+        "title": "Boiler Room"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Gene Hackman",
+          "Morgan Freeman",
+          "Richard Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "William Munny is a retired, once-ruthless killer turned gentle widower and hog farmer. To help support his two motherless children, he accepts one last bounty-hunter mission to find the men who brutalized a prostitute. Joined by his former partner and a cocky greenhorn, he takes on a corrupt sheriff.",
+        "release_date": "1992-08-07",
+        "release_year": "1992",
+        "title": "Unforgiven"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Geoffrey Rush",
+          "Uma Thurman",
+          "Claire Danes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bille August",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jean Valjean, a Frenchman imprisoned for stealing bread, must flee a police officer named Javert. The pursuit consumes both men's lives, and soon Valjean finds himself in the midst of the student revolutions in France.",
+        "release_date": "1998-05-01",
+        "release_year": "1998",
+        "title": "Misérables, Les"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Sean Penn",
+          "Deborah Kara Unger",
+          "James Rebhorn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Fincher",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In honor of his birthday, San Francisco banker Nicholas Van Orton, a financial genius and a coldhearted loner, receives an unusual present from his younger brother, Conrad -- a gift certificate to play a unique kind of game. In nearly a nanosecond, Nicholas finds himself consumed by a dangerous set of ever-changing rules, unable to distinguish where the charade ends and reality begins.",
+        "release_date": "1997-09-12",
+        "release_year": "1997",
+        "title": "Game, The"
+      }
+    ],
+    "raw_user_id": "5236",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 104
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6572495928972523
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for straightforward comedies",
+        "Dislike for films with weak romantic elements",
+        "Negative reception of children's and family-oriented comedies"
+      ],
+      "liked_patterns": [
+        "High ratings for action and sci-fi films",
+        "Positive reception of dramas and thrillers",
+        "Enjoyment of comedies that blend with other genres"
+      ],
+      "summary": "Unique tastes: Appreciation for Action and Sci-Fi (The user enjoys a variety of action and sci-fi films, often rating them highly.); Interest in Drama and Thrillers (The user shows a strong preference for drama and thriller genres, frequently giving favorable ratings.); Enjoyment of Comedy with a Mix of Other Genres (The user rates comedies positively, especially when they blend with other genres like romance or adventure.); Favoring Complex Narratives (The user seems to appreciate films with intricate plots, particularly in the thriller and drama categories.); Romantic Elements in Films (The user enjoys films that incorporate romance, often rating them positively when combined with other genres.). Liked patterns: High ratings for action and sci-fi films, Positive reception of dramas and thrillers, Enjoyment of comedies that blend with other genres. Disliked patterns: Low ratings for straightforward comedies, Dislike for films with weak romantic elements, Negative reception of children's and family-oriented comedies.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of action and sci-fi films, often rating them highly.",
+          "taste": "Appreciation for Action and Sci-Fi"
+        },
+        {
+          "reason": "The user shows a strong preference for drama and thriller genres, frequently giving favorable ratings.",
+          "taste": "Interest in Drama and Thrillers"
+        },
+        {
+          "reason": "The user rates comedies positively, especially when they blend with other genres like romance or adventure.",
+          "taste": "Enjoyment of Comedy with a Mix of Other Genres"
+        },
+        {
+          "reason": "The user seems to appreciate films with intricate plots, particularly in the thriller and drama categories.",
+          "taste": "Favoring Complex Narratives"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romance, often rating them positively when combined with other genres.",
+          "taste": "Romantic Elements in Films"
+        }
+      ]
+    },
+    "user_id": 5236
+  }
+}

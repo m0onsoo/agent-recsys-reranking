@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "2b143685e0ff82e9a0be77934156d2890d99039854326b35a9a514a8e5ddf609",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2231,
+      521,
+      1286,
+      44,
+      223,
+      117,
+      185,
+      337,
+      532,
+      995
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e57d3262f8f3417ca74574a673fbacfe"
+    ],
+    "sampled_item_ids": [
+      1,
+      30,
+      44,
+      52,
+      65,
+      68,
+      117,
+      168,
+      175,
+      180,
+      185,
+      223,
+      281,
+      337,
+      441,
+      507,
+      516,
+      521,
+      532,
+      744,
+      874,
+      1140,
+      1286,
+      1341,
+      2231
+    ],
+    "seed": 42,
+    "source_hash": "f49f07dd918e7cf45a9cc57b6daebee9e201e460b9aa56dfb0a13bb65282bb12",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 540,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Ice Cube",
+          "Chris Tucker",
+          "Nia Long",
+          "Tom Lister Jr."
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "F. Gary Gray",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Craig and Smokey are two guys in Los Angeles hanging out on their porch on a Friday afternoon, smoking and drinking, looking for something to do.",
+        "release_date": "1995-04-26",
+        "release_year": "1995",
+        "title": "Friday"
+      },
+      {
+        "cast": [
+          "John Turturro",
+          "Rob Morrow",
+          "Ralph Fiennes",
+          "Paul Scofield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Redford",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Quiz Show is a 1994 American historical drama film which tells the true story of the Twenty One quiz show scandal of the 1950s.",
+        "release_date": "1994-09-16",
+        "release_year": "1994",
+        "title": "Quiz Show"
+      },
+      {
+        "cast": [
+          "Bryan Brown",
+          "Brian Dennehy",
+          "Diane Venora",
+          "Cliff DeYoung"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mandel",
+        "genres": [
+          "Action",
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A movies special effects man is hired by a government agency to help stage the assassination of a well known gangster. When the agency double cross him, he uses his special effects to trap the gangster and the corrupt agents.",
+        "release_date": "1986-02-07",
+        "release_year": "1986",
+        "title": "F/X"
+      },
+      {
+        "cast": [
+          "Franka Potente",
+          "Moritz Bleibtreu",
+          "Herbert Knaup",
+          "Nina Petri"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Tom Tykwer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store to get the money. Three different alternatives may happen depending on some minor event along Lola's run.",
+        "release_date": "1998-08-20",
+        "release_year": "1998",
+        "title": "Run Lola Run (Lola rennt)"
+      },
+      {
+        "cast": [
+          "Woody Harrelson",
+          "Juliette Lewis",
+          "Robert Downey Jr.",
+          "Tommy Lee Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two victims of traumatized childhoods become lovers and psychopathic serial murderers irresponsibly glorified by the mass media.",
+        "release_date": "1994-08-25",
+        "release_year": "1994",
+        "title": "Natural Born Killers"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Andie MacDowell",
+          "Chris Elliott",
+          "Stephen Tobolowsky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A narcissistic TV weatherman, along with his attractive-but-distant producer and mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.",
+        "release_date": "1993-02-11",
+        "release_year": "1993",
+        "title": "Groundhog Day"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Harvey Keitel",
+          "Tim Roth",
+          "Michael Madsen",
+          "Chris Penn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+        "release_date": "1992-09-02",
+        "release_year": "1992",
+        "title": "Reservoir Dogs"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Miranda Richardson",
+          "Timothy Spall",
+          "Imelda Staunton"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Having been hopelessly repressed and facing eventual certain death at the British chicken farm where they are held, Rocky the american rooster and Ginger the chicken decide to rebel against the evil Mr. and Mrs. Tweedy, the farm's owners. Rocky and Ginger lead their fellow chickens in a great escape from the murderous farmers and their farm of doom.",
+        "release_date": "2000-06-21",
+        "release_year": "2000",
+        "title": "Chicken Run"
+      },
+      {
+        "cast": [
+          "Malcolm McDowell",
+          "Patrick Magee",
+          "Adrienne Corri",
+          "Michael Bates"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Demonic gang-leader Alex goes on the spree of rape, mugging and murder with his pack of \"droogs\". But he's a boy who also likes Beethoven's Ninth and a bit of \"the old in-out, in-out\". He later finds himself at the mercy of the state and its brainwashing experiment designed to take violence off the streets.",
+        "release_date": "1971-12-18",
+        "release_year": "1971",
+        "title": "Clockwork Orange, A"
+      }
+    ],
+    "raw_user_id": "540",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 33
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 3.030361543745872
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror and mystery films",
+        "Dislike for films with weak character development",
+        "Negative response to certain action films"
+      ],
+      "liked_patterns": [
+        "High ratings for crime and drama films",
+        "Strong preference for comedies",
+        "Enjoyment of animated films with humor"
+      ],
+      "summary": "Unique tastes: Appreciation for Crime and Drama (The user enjoys intense narratives and character-driven stories, as seen in multiple high-rated crime and drama films.); Fondness for Comedy (The user rates several comedies highly, indicating a preference for humor and light-hearted storytelling.); Interest in Thrillers (The user shows a liking for thrillers, as evidenced by several high ratings in this genre.); Enjoyment of Animation (The user appreciates animated films, particularly those that blend comedy and adventure.); Preference for Strong Character Arcs (The user favors films with deep character development and emotional journeys, reflected in their high ratings for dramas.). Liked patterns: High ratings for crime and drama films, Strong preference for comedies, Enjoyment of animated films with humor. Disliked patterns: Low ratings for horror and mystery films, Dislike for films with weak character development, Negative response to certain action films.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys intense narratives and character-driven stories, as seen in multiple high-rated crime and drama films.",
+          "taste": "Appreciation for Crime and Drama"
+        },
+        {
+          "reason": "The user rates several comedies highly, indicating a preference for humor and light-hearted storytelling.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user shows a liking for thrillers, as evidenced by several high ratings in this genre.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user appreciates animated films, particularly those that blend comedy and adventure.",
+          "taste": "Enjoyment of Animation"
+        },
+        {
+          "reason": "The user favors films with deep character development and emotional journeys, reflected in their high ratings for dramas.",
+          "taste": "Preference for Strong Character Arcs"
+        }
+      ]
+    },
+    "user_id": 540
+  }
+}

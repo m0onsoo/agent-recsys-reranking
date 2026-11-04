@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "17082f3bc4188401494ad8e011590c70c4be7e4c91a9e4c0dcc5bffe13215b66",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      165,
+      129,
+      4,
+      505,
+      133,
+      573,
+      3052,
+      135,
+      322,
+      140
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      1,
+      6,
+      8,
+      47,
+      52,
+      69,
+      110,
+      129,
+      133,
+      135,
+      140,
+      150,
+      165,
+      176,
+      245,
+      260,
+      322,
+      435,
+      500,
+      530,
+      573,
+      670,
+      1183,
+      1625,
+      3052
+    ],
+    "seed": 42,
+    "source_hash": "c65ebbad7b62e52572acb0395597952eacdf05713239d4c389ee214e5acc757b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4936,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Helen Hunt",
+          "Greg Kinnear",
+          "Cuba Gooding Jr."
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James L. Brooks",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "New York City. Melvin Udall, a cranky, bigoted, obsessive-compulsive writer, finds his life turned upside down when neighboring gay artist Simon is hospitalized and his dog is entrusted to Melvin. In addition, Carol, the only waitress who will tolerate him, must leave work to care for her sick son, making it impossible for Melvin to eat breakfast.",
+        "release_date": "1997-12-19",
+        "release_year": "1997",
+        "title": "As Good As It Gets"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Anthony Hopkins",
+          "Scott Glenn",
+          "Ted Levine"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Demme",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "FBI trainee, Clarice Starling ventures into a maximum-security asylum to pick the diseased brain of Hannibal Lecter, a psychiatrist turned homicidal cannibal. Starling needs clues to help her capture a serial killer. but her Faustian relationship with Lecter soon leads to his escape, and now two deranged killers are on the loose.",
+        "release_date": "1991-02-01",
+        "release_year": "1991",
+        "title": "Silence of the Lambs, The"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Albert Finney",
+          "Aaron Eckhart",
+          "Marg Helgenberger"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+        "release_date": "2000-03-17",
+        "release_year": "2000",
+        "title": "Erin Brockovich"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Elisabeth Shue",
+          "Julian Sands",
+          "Richard Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Figgis",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Ben Sanderson, an alcoholic Hollywood screenwriter who lost everything because of his drinking, arrives in Las Vegas to drink himself to death. There, he meets and forms an uneasy friendship and non-interference pact with prostitute Sera.",
+        "release_date": "1995-10-27",
+        "release_year": "1995",
+        "title": "Leaving Las Vegas"
+      },
+      {
+        "cast": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss",
+          "Hugo Weaving"
+        ],
+        "country": [
+          "Australia",
+          "United States of America"
+        ],
+        "director": "Lana Wachowski",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "release_date": "1999-03-30",
+        "release_year": "1999",
+        "title": "Matrix, The"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Robin Wright",
+          "Paul Newman",
+          "John Savage"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Luis Mandoki",
+        "genres": [
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A woman finds a romantic letter in a bottle washed ashore and tracks down the author, a widowed shipbuilder whose wife died tragically early. As a deep and mutual attraction blossoms, the man struggles to make peace with his past so that he can move on and find happiness.",
+        "release_date": "1999-02-22",
+        "release_year": "1999",
+        "title": "Message in a Bottle"
+      },
+      {
+        "cast": [
+          "Sam Elliott",
+          "Cloris Leachman",
+          "Rutanya Alda",
+          "Abe Vigoda"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "John D. Hancock",
+        "genres": [
+          "Children's",
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "Jessica, the daughter of an impoverished apple farmer, still believes in Santa Claus. So when she comes across a reindeer with an injured leg, it makes perfect sense to her to assume that it is Prancer, who had fallen from a Christmas display in town. She hides the reindeer in her barn and feeds it cookies, until she can return it to Santa. Her father finds the reindeer an decides to sell it to the butcher, not for venison chops, but as an advertising display.",
+        "release_date": "1989-11-17",
+        "release_year": "1989",
+        "title": "Prancer"
+      },
+      {
+        "cast": [
+          "Joseph Fiennes",
+          "Gwyneth Paltrow",
+          "Geoffrey Rush",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Madden",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Young Shakespeare is forced to stage his latest comedy, \"Romeo and Ethel, the Pirate's Daughter,\" before it's even written. When a lovely noblewoman auditions for a role, they fall into forbidden love -- and his play finds a new life (and title). As their relationship progresses, Shakespeare's comedy soon transforms into tragedy.",
+        "release_date": "1998-12-11",
+        "release_year": "1998",
+        "title": "Shakespeare in Love"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Talia Shire",
+          "Burt Young",
+          "Carl Weathers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John G. Avildsen",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When world heavyweight boxing champion, Apollo Creed wants to give an unknown fighter a shot at the title as a publicity stunt, his handlers choose palooka Rocky Balboa, an uneducated collector for a Philadelphia loan shark. Rocky teams up with trainer  Mickey Goldmill to make the most of this once in a lifetime break.",
+        "release_date": "1976-11-21",
+        "release_year": "1976",
+        "title": "Rocky"
+      }
+    ],
+    "raw_user_id": "4936",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 32
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.8727229548739093
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for films that lack depth or strong character development, particularly in the drama and romance genres."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine multiple genres, particularly drama with comedy or romance.",
+        "Strong preference for films with complex characters and intricate plots, especially in the drama and thriller genres."
+      ],
+      "summary": "Unique tastes: Drama (The user consistently rates drama films highly, indicating a strong appreciation for character-driven narratives and emotional depth.); Comedy (The user enjoys comedies, particularly those that blend humor with other genres, as evidenced by high ratings for comedic films.); Thriller (The user shows a preference for thrillers, often rating them highly, suggesting an enjoyment of suspenseful and intense storytelling.); Action (The user rates action films positively, indicating a liking for dynamic and engaging plots with physical conflict.); Romance (The user appreciates romantic elements in films, especially when combined with other genres, as shown by high ratings for romantic dramas and comedies.). Liked patterns: High ratings for films that combine multiple genres, particularly drama with comedy or romance., Strong preference for films with complex characters and intricate plots, especially in the drama and thriller genres.. Disliked patterns: Negative ratings for films that lack depth or strong character development, particularly in the drama and romance genres..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong appreciation for character-driven narratives and emotional depth.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedies, particularly those that blend humor with other genres, as evidenced by high ratings for comedic films.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows a preference for thrillers, often rating them highly, suggesting an enjoyment of suspenseful and intense storytelling.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user rates action films positively, indicating a liking for dynamic and engaging plots with physical conflict.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user appreciates romantic elements in films, especially when combined with other genres, as shown by high ratings for romantic dramas and comedies.",
+          "taste": "Romance"
+        }
+      ]
+    },
+    "user_id": 4936
+  }
+}

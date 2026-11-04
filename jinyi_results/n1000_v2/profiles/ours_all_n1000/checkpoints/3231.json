@@ -1,0 +1,342 @@
+{
+  "checkpoint_hash": "837f6178f5b23e28f775bebc5fb4baac90f54bf1fea379749ffe2b44c8069319",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      742,
+      211,
+      274,
+      45,
+      91,
+      63,
+      79,
+      616,
+      1042,
+      590
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e2eaa307784a47459ef9ffdeb9ac59e0"
+    ],
+    "sampled_item_ids": [
+      45,
+      128,
+      129,
+      140,
+      154,
+      160,
+      208,
+      211,
+      214,
+      218,
+      237,
+      245,
+      338,
+      420,
+      429,
+      485,
+      592,
+      651,
+      662,
+      694,
+      754,
+      768,
+      965,
+      1625,
+      2139
+    ],
+    "seed": 42,
+    "source_hash": "bbab4c89ef501a543614ab2b200bb1db0ec2d30927ca10cc41098c85e2e55df4",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3231,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Gene Wilder",
+          "Jack Albertson",
+          "Peter Ostrum",
+          "Roy Kinnear"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Stuart",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Eccentric candy man Willy Wonka prompts a worldwide frenzy when he announces that golden tickets hidden inside five of his delicious candy bars will admit their lucky holders into his top-secret confectionary. But does Wonka have an agenda hidden amid a world of Oompa Loompas and chocolate rivers?",
+        "release_date": "1971-06-29",
+        "release_year": "1971",
+        "title": "Willy Wonka and the Chocolate Factory"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Alan Rickman",
+          "Alexander Godunov",
+          "Bonnie Bedelia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "NYPD cop, John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Die Hard"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Dan Aykroyd",
+          "Sigourney Weaver",
+          "Harold Ramis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting \"ghostbusters\" who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
+        "release_date": "1984-06-07",
+        "release_year": "1984",
+        "title": "Ghostbusters"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Anne Archer",
+          "Patrick Bergin",
+          "Thora Birch"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Phillip Noyce",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When CIA Analyst Jack Ryan interferes with an IRA assassination, a renegade faction targets Jack and his family as revenge.",
+        "release_date": "1992-06-04",
+        "release_year": "1992",
+        "title": "Patriot Games"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Sharon Stone",
+          "Rachel Ticotin",
+          "Ronny Cox"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Verhoeven",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Construction worker Douglas Quaid discovers a memory chip in his brain during a virtual-reality trip. He also finds that his past has been invented to conceal a plot of planetary domination. Soon, he's off to Mars to find out who he is and who planted the chip.",
+        "release_date": "1990-06-01",
+        "release_year": "1990",
+        "title": "Total Recall"
+      },
+      {
+        "cast": [
+          "Alec Baldwin",
+          "Sean Connery",
+          "Scott Glenn",
+          "Sam Neill"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A new Soviet nuclear missile sub (a Boomer) heading out on her maiden voyage that is being tracked by a Los Angeles class American submarine suddenly goes silent and \"disappears\". This focuses the attention of both U.S. Intelligence and the U.S. Navy on the Russian Sub Commander .  When it is determined that the silent Soviet Boomer may be headed for American coastal waters panic ensues. A CIA analyst, Jack Ryan,  convinces the brass that the Boomer's commander may intend something other than a nuclear first strike in mind. A perilous and tense cat-and-mouse game ensues.",
+        "release_date": "1990-03-02",
+        "release_year": "1990",
+        "title": "Hunt for Red October, The"
+      },
+      {
+        "cast": [
+          "Gene Barry",
+          "Ann Robinson",
+          "Les Tremayne",
+          "Lewis Martin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Byron Haskin",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The residents of a small town are excited when a flaming meteor lands in the hills, but their joy is short-lived when they discover it has passengers who are not very friendly.",
+        "release_date": "1953-08-13",
+        "release_year": "1953",
+        "title": "War of the Worlds, The"
+      },
+      {
+        "cast": [
+          "Christopher Lambert",
+          "Roxanne Hart",
+          "Clancy Brown",
+          "Sean Connery"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Russell Mulcahy",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "He fought his first battle on the Scottish Highlands in 1536. He will fight his greatest battle on the streets of New York City in 1986. His name is Connor MacLeod. He is immortal.",
+        "release_date": "1986-03-07",
+        "release_year": "1986",
+        "title": "Highlander"
+      },
+      {
+        "cast": [
+          "Paul Muni",
+          "Luise Rainer",
+          "Walter Connolly",
+          "Tilly Losch"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sidney Franklin",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The story follows Wang Lung (Paul Muni), a humble farmer, who makes an arranged marriage to a slave, O-Lan (Luise Rainer). The couple's great struggle is to procure--and then, against withering odds, keep--a piece of land, ownership of which makes the difference between self-determination and near-slavery. The film's physical production is truly eye-filling, with location shooting in China providing exterior shots and backdrops (and blending seamlessly with the footage shot in the U.S.). No wonder the great cinematographer Karl Freund won an Oscar for the photography, which includes an awesomely staged locust plague.",
+        "release_date": "1937-08-06",
+        "release_year": "1937",
+        "title": "Good Earth, The"
+      }
+    ],
+    "raw_user_id": "3231",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 123
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0642665309199155
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for musicals that lack strong narratives",
+        "Negative response to films with weak character development",
+        "Displeasure with poorly executed thrillers"
+      ],
+      "liked_patterns": [
+        "Preference for high ratings in action and adventure films",
+        "Enjoyment of dramas that tackle significant themes",
+        "Attraction to films with fantasy or sci-fi elements"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-energy films that feature thrilling action sequences and adventurous plots.); Drama with Strong Themes (The user appreciates dramas that explore deep emotional and social themes, often with complex characters.); Fantasy and Sci-Fi Elements (The user is drawn to films that incorporate fantastical or science fiction elements, enhancing the storytelling experience.); Romantic Elements in Various Genres (The user enjoys films that include romantic storylines, whether in dramas, musicals, or children's films.); Thrillers with Psychological Depth (The user favors thrillers that delve into psychological aspects, creating tension and intrigue.). Liked patterns: Preference for high ratings in action and adventure films, Enjoyment of dramas that tackle significant themes, Attraction to films with fantasy or sci-fi elements. Disliked patterns: Dislike for musicals that lack strong narratives, Negative response to films with weak character development, Displeasure with poorly executed thrillers.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-energy films that feature thrilling action sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that explore deep emotional and social themes, often with complex characters.",
+          "taste": "Drama with Strong Themes"
+        },
+        {
+          "reason": "The user is drawn to films that incorporate fantastical or science fiction elements, enhancing the storytelling experience.",
+          "taste": "Fantasy and Sci-Fi Elements"
+        },
+        {
+          "reason": "The user enjoys films that include romantic storylines, whether in dramas, musicals, or children's films.",
+          "taste": "Romantic Elements in Various Genres"
+        },
+        {
+          "reason": "The user favors thrillers that delve into psychological aspects, creating tension and intrigue.",
+          "taste": "Thrillers with Psychological Depth"
+        }
+      ]
+    },
+    "user_id": 3231
+  }
+}

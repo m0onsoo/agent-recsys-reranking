@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "1ca6d4218b09b4d8224116d2380c5b372b6095c24e344cb84d81674453162e4c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1348,
+      426,
+      808,
+      1298,
+      707,
+      972,
+      582,
+      387,
+      522,
+      1435
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "72ab912715bc453c9df84fa877242567"
+    ],
+    "sampled_item_ids": [
+      43,
+      284,
+      387,
+      455,
+      514,
+      684,
+      702,
+      808,
+      882,
+      905,
+      1025,
+      1125,
+      1247,
+      1257,
+      1767,
+      1911,
+      1959,
+      2078,
+      2144,
+      2199,
+      2374,
+      2729,
+      2828,
+      2879,
+      3165
+    ],
+    "seed": 42,
+    "source_hash": "5e38a709ffd7d9473fc421843b4ac3a7ba3ec066e46ff36693fe9f19a45ee681",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4001,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "academic/educator"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Christine Hargreaves",
+          "James Laurenson",
+          "Eleanor David",
+          "Bob Geldof"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Drama",
+          "Musical",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A troubled rock star descends into madness in the midst of his physical and social isolation from everyone.",
+        "release_date": "1982-07-14",
+        "release_year": "1982",
+        "title": "Pink Floyd - The Wall"
+      },
+      {
+        "cast": [
+          "Meryl Streep",
+          "Robert Redford",
+          "Klaus Maria Brandauer",
+          "Michael Kitchen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Out of Africa tells the story of the life of Danish author Karen Blixen, who at the beginning of the 20th century moved to Africa to build a new life for herself. The film is based on the autobiographical novel by Karen Blixen from 1937.",
+        "release_date": "1985-12-20",
+        "release_year": "1985",
+        "title": "Out of Africa"
+      },
+      {
+        "cast": [
+          "Molly Shannon",
+          "Will Ferrell",
+          "Elaine Hendrix",
+          "Harland Williams"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Bruce McCulloch",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Orphan Mary Katherine Gallagher, an ugly duckling at St. Monica High School, has a dream: to be kissed soulfully. She decides she can realize this dream if she becomes a superstar, so her prayers, her fantasies, and her conversations with her only friend focus on achieving super-stardom.",
+        "release_date": "1999-10-08",
+        "release_year": "1999",
+        "title": "Superstar"
+      },
+      {
+        "cast": [
+          "Danny Aiello",
+          "Ossie Davis",
+          "Ruby Dee",
+          "Richard Edson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Lee",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "On the hottest day of the year on a street in the Bedford-Stuyvesant section of Brooklyn, everyone's hate and bigotry smolders and builds until it explodes into violence.",
+        "release_date": "1989-06-30",
+        "release_year": "1989",
+        "title": "Do the Right Thing"
+      },
+      {
+        "cast": [
+          "Peter Fonda",
+          "Patricia Richardson",
+          "Christine Dunford",
+          "Tom Wood"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Victor Nunez",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "An elderly beekeeper and Vietnam vet must rescue his daughter-in-law and protect his grandchildren from killers.",
+        "release_date": "1997-06-13",
+        "release_year": "1997",
+        "title": "Ulee's Gold"
+      },
+      {
+        "cast": [
+          "Shelley Long",
+          "Bette Midler",
+          "Peter Coyote",
+          "Robert Prosky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Arthur Hiller",
+        "genres": [
+          "Comedy",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Refined actress Lauren Ames finally has a chance to study with the great theatre professor Stanislav Korzenowski. Sandy Brozinsky, a brash, loud actress, decides through happenstance to also study with Korzenowski. The two women end up dating the same man (who turns out to be a double agent) and follow him across the country to force him to choose between them.",
+        "release_date": "1987-01-30",
+        "release_year": "1987",
+        "title": "Outrageous Fortune"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Kyra Sedgwick",
+          "Forest Whitaker",
+          "Robert Duvall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jon Turteltaub",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "An ordinary man sees a bright light descend from the sky, and discovers he now has super-intelligence and telekinesis.",
+        "release_date": "1996-07-05",
+        "release_year": "1996",
+        "title": "Phenomenon"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Kelly McGillis",
+          "Val Kilmer",
+          "Anthony Edwards"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Scott",
+        "genres": [
+          "Action",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "For Lieutenant Pete 'Maverick' Mitchell and his friend and Co-Pilot Nick 'Goose' Bradshaw being accepted into an elite training school for fighter pilots is a dream come true.  A tragedy, as well as personal demons, threaten Pete's dreams of becoming an Ace pilot.",
+        "release_date": "1986-05-16",
+        "release_year": "1986",
+        "title": "Top Gun"
+      },
+      {
+        "cast": [
+          "Adam Sandler",
+          "Drew Barrymore",
+          "Christine Taylor",
+          "Allen Covert"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Coraci",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Robbie, a local rock star turned wedding singer, is dumped on the day of his wedding. Meanwhile, waitress Julia finally sets a wedding date with her fiancée Glenn. When Julia and Robbie meet and hit it off, they find that things are more complicated than anybody thought.",
+        "release_date": "1998-02-13",
+        "release_year": "1998",
+        "title": "Wedding Singer, The"
+      },
+      {
+        "cast": [
+          "Matt Dillon",
+          "Noah Emmerich",
+          "Annabeth Gish",
+          "Lauren Holly"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ted Demme",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "During a snowy winter in the small fictional town of Knight\"s Ridge, Massachusetts, a group of lifelong buddies hang out, drink and struggle to connect with the women who affect their decisions, dreams and desires.",
+        "release_date": "1996-02-09",
+        "release_year": "1996",
+        "title": "Beautiful Girls"
+      }
+    ],
+    "raw_user_id": "4001",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 348
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.271886582287033
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Disliking horror films that lack depth or character development",
+        "Disfavoring comedies that do not resonate with personal experiences"
+      ],
+      "liked_patterns": [
+        "Favoring character-driven dramas with emotional depth",
+        "Enjoying comedies that blend humor with romance",
+        "Appreciating films that explore complex relationships"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user has rated multiple drama films highly, indicating a strong preference for this genre.); Enjoyment of Comedy (Several comedies received favorable ratings, suggesting the user enjoys humor in films.); Interest in Romance (Romantic elements appear in many liked films, showing a preference for stories that explore relationships.); Tolerance for Horror (The user has rated some horror films, indicating an openness to this genre despite mixed ratings.); Affinity for Character-Driven Stories (High ratings for films with strong character development suggest a preference for narratives that focus on personal journeys.). Liked patterns: Favoring character-driven dramas with emotional depth, Enjoying comedies that blend humor with romance, Appreciating films that explore complex relationships. Disliked patterns: Disliking horror films that lack depth or character development, Disfavoring comedies that do not resonate with personal experiences.",
+      "unique_tastes": [
+        {
+          "reason": "The user has rated multiple drama films highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "Several comedies received favorable ratings, suggesting the user enjoys humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "Romantic elements appear in many liked films, showing a preference for stories that explore relationships.",
+          "taste": "Interest in Romance"
+        },
+        {
+          "reason": "The user has rated some horror films, indicating an openness to this genre despite mixed ratings.",
+          "taste": "Tolerance for Horror"
+        },
+        {
+          "reason": "High ratings for films with strong character development suggest a preference for narratives that focus on personal journeys.",
+          "taste": "Affinity for Character-Driven Stories"
+        }
+      ]
+    },
+    "user_id": 4001
+  }
+}

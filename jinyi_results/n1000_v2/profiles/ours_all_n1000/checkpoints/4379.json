@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "802c0bde56fda9f1cee8a043c0e2e4200bce9fccfaaf564a119c0058988db677",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      185,
+      1201,
+      2485,
+      1107,
+      1277,
+      1229,
+      247,
+      1716,
+      92,
+      557
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      60,
+      172,
+      184,
+      190,
+      243,
+      372,
+      523,
+      548,
+      581,
+      763,
+      776,
+      789,
+      801,
+      875,
+      917,
+      987,
+      995,
+      1107,
+      1172,
+      1366,
+      1408,
+      1647,
+      1724,
+      1854,
+      1890
+    ],
+    "seed": 42,
+    "source_hash": "e82e47ba7c816f6eacd8349e4aee1160f579a65276cf2af8832d06ecdbbd4284",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4379,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Cusack",
+          "Cameron Diaz",
+          "Catherine Keener",
+          "Charlie Sheen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Spike Jonze",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Spike Jonze’s debut feature film is a love story mix of comedy and fantasy. The story is about an unsuccessful puppeteer named Craig, who one day at work finds a portal into the head of actor John Malkovich. The portal soon becomes a passion for anybody who enters it’s mad and controlling world of overtaking another human body.",
+        "release_date": "1999-09-30",
+        "release_year": "1999",
+        "title": "Being John Malkovich"
+      },
+      {
+        "cast": [
+          "Ben Affleck",
+          "Matt Damon",
+          "Linda Fiorentino",
+          "Jason Mewes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The latest battle in the eternal war between Good and Evil has come to New Jersey in the late, late 20th Century. Angels, demons, apostles and prophets (of a sort) walk among the cynics and innocents of America and duke it out for the fate of humankind.",
+        "release_date": "1999-11-12",
+        "release_year": "1999",
+        "title": "Dogma"
+      },
+      {
+        "cast": [
+          "Cameron Diaz",
+          "Ron Eldard",
+          "Courtney B. Vance",
+          "Bill Paxton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stacy Title",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A group of idealistic, but frustrated, liberals succumb to the temptation of murdering rightwing pundits for their political beliefs.",
+        "release_date": "1995-09-08",
+        "release_year": "1995",
+        "title": "Last Supper, The"
+      },
+      {
+        "cast": [
+          "Stephen Rea",
+          "Jaye Davidson",
+          "Miranda Richardson",
+          "Forest Whitaker"
+        ],
+        "country": [
+          "Japan",
+          "United Kingdom",
+          "Ireland"
+        ],
+        "director": "Neil Jordan",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Irish Republican Army member Fergus (Stephen Rea) forms an unexpected bond with Jody (Forest Whitaker), a kidnapped British soldier in his custody, despite the warnings of fellow IRA members Jude (Miranda Richardson) and Maguire (Adrian Dunbar). Jody makes Fergus promise he'll visit his girlfriend, Dil (Jaye Davidson), in London, and when Fergus flees to the city, he seeks her out. Hounded by his former IRA colleagues, he finds himself increasingly drawn to the enigmatic, and surprising, Dil.",
+        "release_date": "1992-09-02",
+        "release_year": "1992",
+        "title": "Crying Game, The"
+      },
+      {
+        "cast": [
+          "Nicole Kidman",
+          "Matt Dillon",
+          "Joaquin Phoenix",
+          "Casey Affleck"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gus Van Sant",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Susan wants to work in television and will therefore do anything it takes, even if it means killing her husband. A very dark comedy from independent director Gus Van Sant with a brilliant Nicole Kidman in the leading role.",
+        "release_date": "1995-05-20",
+        "release_year": "1995",
+        "title": "To Die For"
+      },
+      {
+        "cast": [
+          "Matthew Modine",
+          "Adam Baldwin",
+          "Vincent D'Onofrio",
+          "R. Lee Ermey"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
+        "release_date": "1987-06-26",
+        "release_year": "1987",
+        "title": "Full Metal Jacket"
+      },
+      {
+        "cast": [
+          "Kevin Spacey",
+          "Guy Pearce",
+          "Danny DeVito",
+          "James Cromwell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+        "release_date": "1997-09-19",
+        "release_year": "1997",
+        "title": "L.A. Confidential"
+      },
+      {
+        "cast": [
+          "Jean-Claude Van Damme",
+          "Mia Sara",
+          "Ron Silver",
+          "Bruce McGill"
+        ],
+        "country": [
+          "Japan",
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An officer for a security agency that regulates time travel, must fend for his life against a shady politician who has a tie to his past.",
+        "release_date": "1994-09-15",
+        "release_year": "1994",
+        "title": "Timecop"
+      },
+      {
+        "cast": [
+          "Whitney Houston",
+          "Kevin Costner",
+          "Michele Lamar Richards",
+          "Ralph Waite"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mick Jackson",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A former Secret Service agent grudgingly takes an assignment to protect a pop idol who's threatened by a crazed fan. At first, the safety-obsessed bodyguard and the self-indulgent diva totally clash. But before long, all that tension sparks fireworks of another sort, and the love-averse tough guy is torn between duty and romance.",
+        "release_date": "1992-11-25",
+        "release_year": "1992",
+        "title": "Bodyguard, The"
+      },
+      {
+        "cast": [
+          "Raúl Juliá",
+          "Anjelica Huston",
+          "Christopher Lloyd",
+          "Christina Ricci"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Sonnenfeld",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Uncle Fester has been missing for 25 years. An evil doctor finds out and introduces a fake Fester in an attempt to get the Adams Family's money. The youngest daughter has some doubts about the new uncle Fester, but the fake uncle adapts very well to the strange family. Can the doctor carry out her evil plans and take over the Adams Family's fortune?",
+        "release_date": "1991-11-22",
+        "release_year": "1991",
+        "title": "Addams Family, The"
+      }
+    ],
+    "raw_user_id": "4379",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 308
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.0740107862051835
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative reactions to films with weak comedic elements.",
+        "Dislike for films that are primarily thrillers without strong character development."
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedies that blend humor with other genres.",
+        "Positive reception of films featuring crime and thriller elements.",
+        "Appreciation for dramas that incorporate romance."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them positively.); Drama (The user appreciates dramatic narratives, particularly those that incorporate romance or mystery.); Action and Sci-Fi (The user shows a preference for action-packed films that also explore science fiction themes.); Crime Thrillers (The user is drawn to crime and thriller genres, often rating them favorably.); Romantic Elements (The user enjoys films that blend romance with other genres, such as drama and comedy.). Liked patterns: Enjoyment of comedies that blend humor with other genres., Positive reception of films featuring crime and thriller elements., Appreciation for dramas that incorporate romance.. Disliked patterns: Negative reactions to films with weak comedic elements., Dislike for films that are primarily thrillers without strong character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them positively.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, particularly those that incorporate romance or mystery.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows a preference for action-packed films that also explore science fiction themes.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "The user is drawn to crime and thriller genres, often rating them favorably.",
+          "taste": "Crime Thrillers"
+        },
+        {
+          "reason": "The user enjoys films that blend romance with other genres, such as drama and comedy.",
+          "taste": "Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 4379
+  }
+}

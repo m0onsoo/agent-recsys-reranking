@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "6755cdbd61e413ae5b4caefc186af564e20f7eb9e20f90efa564bc868d0aaeff",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2281,
+      676,
+      610,
+      642,
+      695,
+      1375,
+      693,
+      36,
+      578,
+      2411
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "343bd97cb7d44fa1849d121858339940"
+    ],
+    "sampled_item_ids": [
+      16,
+      35,
+      78,
+      84,
+      112,
+      120,
+      178,
+      184,
+      210,
+      219,
+      291,
+      506,
+      636,
+      685,
+      717,
+      784,
+      829,
+      838,
+      849,
+      1026,
+      1067,
+      1076,
+      1178,
+      1604,
+      2181
+    ],
+    "seed": 42,
+    "source_hash": "57dc3dd8f2cc8a117a2427a5d3d2518623453b59570e3a4a0d8999ffde2c28d1",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1120,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Walt Disney"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Walt Disney",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Mickey Mouse, piloting a steamboat, delights his passenger, Minnie, by making musical instruments out of the menagerie on deck.",
+        "release_date": "1928-11-18",
+        "release_year": "1940",
+        "title": "Steamboat Willie"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Kathleen Turner",
+          "Danny DeVito",
+          "Spiros Focás"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lewis Teague",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Joan Wilder is thrust back into a world of murder, chases, foreign intrigue... and love. This time out she's duped by a duplicitous Arab dignitary who brings her to the Middle East, ostensibly to write a book about his life. Of course he's up to no good, and Joan is just another pawn in his wicked game. But Jack Colton and his sidekick Ralph show up to help our intrepid heroine save the day.",
+        "release_date": "1985-12-04",
+        "release_year": "1985",
+        "title": "Jewel of the Nile, The"
+      },
+      {
+        "cast": [
+          "Deems Taylor",
+          "Walt Disney",
+          "Julietta Novis",
+          "Leopold Stokowski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Samuel Armstrong",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Walt Disney's timeless masterpiece is an extravaganza of sight and sound! See the music come to life, hear the pictures burst into song and experience the excitement that is Fantasia over and over again.",
+        "release_date": "1940-11-13",
+        "release_year": "1940",
+        "title": "Fantasia"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Wise",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When a destructive space entity is spotted approaching Earth, Admiral Kirk resumes command of the Starship Enterprise in order to intercept, examine, and hopefully stop it.",
+        "release_date": "1979-12-06",
+        "release_year": "1979",
+        "title": "Star Trek: The Motion Picture"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Jean Arthur",
+          "Claude Rains",
+          "Edward Arnold"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Capra",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Naive and idealistic Jefferson Smith, leader of the Boy Rangers, is appointed on a lark by the spineless governor of his state. He is reunited with the state's senior senator--presidential hopeful and childhood hero, Senator Joseph Paine. In Washington, however, Smith discovers many of the shortcomings of the political process as his earnest goal of a national boys' camp leads to a conflict with the state political boss, Jim Taylor. Taylor first tries to corrupt Smith and then later attempts to destroy Smith through a scandal.",
+        "release_date": "1939-10-19",
+        "release_year": "1939",
+        "title": "Mr. Smith Goes to Washington"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Demi Moore",
+          "Bobcat Goldthwait",
+          "Tom Villard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Savage Steve Holland",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "An aspiring teenage cartoonist and his friends come to the aid of a singer trying to save her family property from developers.",
+        "release_date": "1986-08-08",
+        "release_year": "1986",
+        "title": "One Crazy Summer"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Karen Allen",
+          "John Forsythe",
+          "Bobcat Goldthwait"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In this modern take on Charles Dickens' \"A Christmas Carol,\" Frank Cross (Bill Murray) is a wildly successful television executive whose cold ambition and curmudgeonly nature has driven away the love of his life, Claire Phillips (Karen Allen). But after firing a staff member, Eliot Loudermilk (Bobcat Goldthwait), on Christmas Eve, Frank is visited by a series of ghosts who give him a chance to re-evaluate his actions and right the wrongs of his past.",
+        "release_date": "1988-11-22",
+        "release_year": "1988",
+        "title": "Scrooged"
+      },
+      {
+        "cast": [
+          "Tom Hulce",
+          "Demi Moore",
+          "Tony Jay",
+          "Kevin Kline"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Trousdale",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "When Quasi defies the evil Frollo and ventures out to the Festival of Fools, the cruel crowd jeers him. Rescued by fellow outcast the gypsy Esmeralda, Quasi soon finds himself battling to save the people and the city he loves.",
+        "release_date": "1996-06-21",
+        "release_year": "1996",
+        "title": "Hunchback of Notre Dame, The"
+      },
+      {
+        "cast": [
+          "Elisabeth Shue",
+          "Maia Brewton",
+          "Keith Coogan",
+          "Anthony Rapp"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Columbus",
+        "genres": [
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When plans with her boyfriend fall through, high school senior Chris Parker ends up babysitting the Anderson kids, Brad and Sara. What should be a quiet night in, however, turns into a series of ridiculous exploits, starting when they leave the house to pick up Chris' friend Brenda. Soon, Brad's buddy Daryl is involved, and the group must contend with car thieves, blues musicians and much more.",
+        "release_date": "1987-07-01",
+        "release_year": "1987",
+        "title": "Adventures in Babysitting"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Bubba Smith",
+          "Michael Winslow",
+          "Sharon Stone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jim Drake",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A new batch of recruits arrives at Police Academy, this time a group of civilian volunteers who have joined Commandant Lassard's new Citizens on Patrol program. Although the community relations project has strong governmental support, a disgusted Captain Harris is determined to see it fail.",
+        "release_date": "1987-04-02",
+        "release_year": "1987",
+        "title": "Police Academy 4: Citizens on Patrol"
+      }
+    ],
+    "raw_user_id": "1120",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 589
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7021991058472232
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for animated films aimed primarily at children.",
+        "Dislike for comedies that do not resonate with the user's humor style."
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend with other genres like drama and romance.",
+        "Strong appreciation for animated films that appeal to a wide audience.",
+        "Consistent enjoyment of action films that also incorporate humor."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them highly.); Drama (The user appreciates dramatic narratives, as indicated by several high ratings.); Action (The user shows a preference for action films, particularly those that blend with other genres.); Animation (The user rates animated films positively, especially those that appeal to both children and adults.); Sci-Fi (The user enjoys science fiction films, particularly those that incorporate elements of drama or action.). Liked patterns: High ratings for comedies that blend with other genres like drama and romance., Strong appreciation for animated films that appeal to a wide audience., Consistent enjoyment of action films that also incorporate humor.. Disliked patterns: Negative ratings for animated films aimed primarily at children., Dislike for comedies that do not resonate with the user's humor style..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, as indicated by several high ratings.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows a preference for action films, particularly those that blend with other genres.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user rates animated films positively, especially those that appeal to both children and adults.",
+          "taste": "Animation"
+        },
+        {
+          "reason": "The user enjoys science fiction films, particularly those that incorporate elements of drama or action.",
+          "taste": "Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 1120
+  }
+}

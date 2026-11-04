@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "06e5d07f3b003e4a61837a85dc21dc4e67a256952964266801a54ae65715d96d",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2017,
+      221,
+      971,
+      791,
+      44,
+      763,
+      1655,
+      1475,
+      1031,
+      232
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      61,
+      65,
+      98,
+      120,
+      156,
+      185,
+      210,
+      221,
+      232,
+      295,
+      360,
+      494,
+      587,
+      604,
+      606,
+      612,
+      663,
+      920,
+      971,
+      975,
+      985,
+      1011,
+      1271,
+      1711,
+      2059
+    ],
+    "seed": 42,
+    "source_hash": "6fb241fecefd7b3220dd631778812e0244ab478c4194e70e53d1af7e1646eac0",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5797,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Stockwell",
+          "Dennis Hopper",
+          "Danielle von Zerneck",
+          "Fisher Stevens"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan R. Betuel",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Michael and Ellie break into a military junkyard to find a science project for Michael's class, and discover a strange glowing orb which absorbs electricity. When the orb begins to blend past, present, and future, its up to Michael and Ellie to stop the orb and save mankind.",
+        "release_date": "1985-08-09",
+        "release_year": "1985",
+        "title": "My Science Project"
+      },
+      {
+        "cast": [
+          "Dominique Pinon",
+          "Marie-Laure Dougnac",
+          "Jean-Claude Dreyfus",
+          "Karin Viard"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Jean-Pierre Jeunet",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "French",
+        "overview": "This bizarre surrealistic black comedy takes place in a small fictitious post-apocalyptic town where food is scarce and butcher Clapet has the macabre business of using human flesh to feed his customers. Yet when his daughter falls in love with his next slaughter victim things turn into chaos.",
+        "release_date": "1991-04-17",
+        "release_year": "1991",
+        "title": "Delicatessen"
+      },
+      {
+        "cast": [
+          "Ralph Fiennes",
+          "Angela Bassett",
+          "Tom Sizemore",
+          "Juliette Lewis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kathryn Bigelow",
+        "genres": [
+          "Action",
+          "Crime",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Set in the year 1999 during the last days of the old millennium, the movie tells the story of Lenny Nero, an ex-cop who now deals with data-discs containing recorded memories and emotions. One day he receives a disc which contains the memories of a murderer killing a prostitute. Lenny investigates and is pulled deeper and deeper in a whirl of blackmail, murder and rape. Will he survive and solve the case?",
+        "release_date": "1995-10-13",
+        "release_year": "1995",
+        "title": "Strange Days"
+      },
+      {
+        "cast": [
+          "Michael C. Williams",
+          "Heather Donahue",
+          "Joshua Leonard",
+          "Bob Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Myrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Blair Witch Project, The"
+      },
+      {
+        "cast": [
+          "Franka Potente",
+          "Moritz Bleibtreu",
+          "Herbert Knaup",
+          "Nina Petri"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Tom Tykwer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store to get the money. Three different alternatives may happen depending on some minor event along Lola's run.",
+        "release_date": "1998-08-20",
+        "release_year": "1998",
+        "title": "Run Lola Run (Lola rennt)"
+      },
+      {
+        "cast": [
+          "Patrick Stewart",
+          "Jonathan Frakes",
+          "Brent Spiner",
+          "LeVar Burton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jonathan Frakes",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "When an alien race and factions within Starfleet attempt to take over a planet that has \"regenerative\" properties, it falls upon Captain Picard and the crew of the Enterprise to defend the planet's people as well as the very ideals upon which the Federation itself was founded.",
+        "release_date": "1998-12-10",
+        "release_year": "1998",
+        "title": "Star Trek: Insurrection"
+      },
+      {
+        "cast": [
+          "Bruce Greenwood",
+          "Mia Kirshner",
+          "Elias Koteas",
+          "Don McKellar"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Atom Egoyan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In the upscale Toronto strip club Exotica, dancer Christina is visited nightly by the obsessive Francis, a depressed tax auditor. Her ex-boyfriend, the club's MC, Eric, still jealously pines for her even as he introduces her onstage, but Eric is having his own relationship problems with the club's owner, Zoe. Meanwhile Thomas, a mysterious pet-shop owner, is about to become unexpectedly involved in their lives. Gradually, connections between the traumatic pasts of these characters are revealed.",
+        "release_date": "1994-09-24",
+        "release_year": "1994",
+        "title": "Exotica"
+      },
+      {
+        "cast": [
+          "Akira Takarada",
+          "Momoko Kôchi",
+          "Akihiko Hirata",
+          "Takashi Shimura"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Ishirô Honda",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "Japanese",
+        "overview": "Japan is thrown into a panic after several ships explode and are sunk near Odo Island. An expedition to the island led by paleontologist Professor Kyohei Yemani soon discover something more devastating than imagined in the form of a 164 foot tall monster whom the natives call Gojira. Now the monster begins a rampage that threatens to destroy not only Japan, but the rest of the world as well.",
+        "release_date": "1954-11-03",
+        "release_year": "1954",
+        "title": "Godzilla (Gojira)"
+      },
+      {
+        "cast": [
+          "Kirsten Dunst",
+          "Ellen Barkin",
+          "Denise Richards",
+          "Amy Adams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Patrick Jann",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In a small Minnesota town, the annual beauty pageant is being covered by a TV crew. Former winner Gladys Leeman wants to make sure her daughter follows in her footsteps; explosions, falling lights, and trailer fires prove that. As the Leemans are the richest family in town, the police are pretty relaxed about it all. Despite everything, main rival (but sweet) Amber Atkins won't give up without a fight.",
+        "release_date": "1999-07-23",
+        "release_year": "1999",
+        "title": "Drop Dead Gorgeous"
+      },
+      {
+        "cast": [
+          "Steve Martin",
+          "Eddie Murphy",
+          "Heather Graham",
+          "Christine Baranski"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "On the verge of bankruptcy and desperate for his big break, aspiring filmmaker Bobby Bowfinger concocts a crazy plan to make his ultimate dream movie. Rallying a ragtag team that includes a starry-eyed ingenue, a has-been diva and a film studio gofer, he sets out to shoot a blockbuster featuring the biggest star in Hollywood, Kit Ramsey -- only without letting Ramsey know he's in the picture.",
+        "release_date": "1999-08-12",
+        "release_year": "1999",
+        "title": "Bowfinger"
+      }
+    ],
+    "raw_user_id": "5797",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 98
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9560152674126798
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that are primarily action-oriented without deeper themes.",
+        "Dislike for films that are poorly received or considered low quality in terms of production.",
+        "Negative ratings for films that lack engaging plots or character depth."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, particularly those combining sci-fi with comedy or horror.",
+        "Positive ratings for films featuring strong narratives and character development.",
+        "Favoring films with unique or unconventional storytelling."
+      ],
+      "summary": "Unique tastes: Appreciation for Sci-Fi (The user enjoys a variety of sci-fi films, often rating them highly, indicating a strong preference for this genre.); Fondness for Comedy (The user rates several comedies positively, suggesting a liking for humor and light-hearted storytelling.); Interest in Horror Elements (The user has rated multiple horror films favorably, indicating an appreciation for suspense and thrill.); Enjoyment of Action and Adventure (The user shows a tendency to rate action and adventure films positively, reflecting a preference for excitement and dynamic storytelling.); Preference for Thought-Provoking Themes (The user rates films with deeper, thought-provoking narratives highly, suggesting a taste for complex storytelling.). Liked patterns: High ratings for films that blend genres, particularly those combining sci-fi with comedy or horror., Positive ratings for films featuring strong narratives and character development., Favoring films with unique or unconventional storytelling.. Disliked patterns: Low ratings for films that are primarily action-oriented without deeper themes., Dislike for films that are poorly received or considered low quality in terms of production., Negative ratings for films that lack engaging plots or character depth..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of sci-fi films, often rating them highly, indicating a strong preference for this genre.",
+          "taste": "Appreciation for Sci-Fi"
+        },
+        {
+          "reason": "The user rates several comedies positively, suggesting a liking for humor and light-hearted storytelling.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user has rated multiple horror films favorably, indicating an appreciation for suspense and thrill.",
+          "taste": "Interest in Horror Elements"
+        },
+        {
+          "reason": "The user shows a tendency to rate action and adventure films positively, reflecting a preference for excitement and dynamic storytelling.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user rates films with deeper, thought-provoking narratives highly, suggesting a taste for complex storytelling.",
+          "taste": "Preference for Thought-Provoking Themes"
+        }
+      ]
+    },
+    "user_id": 5797
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "checkpoint_hash": "7af6535f8015a9320ad863f05ade7780553d5f0fd3a08589235b090235f2b8c3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      294,
+      1845,
+      391,
+      827,
+      568,
+      1522,
+      2274,
+      51,
+      520,
+      2152
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      23,
+      40,
+      51,
+      128,
+      260,
+      268,
+      294,
+      350,
+      388,
+      391,
+      406,
+      420,
+      485,
+      520,
+      527,
+      545,
+      568,
+      827,
+      926,
+      1522,
+      1845,
+      1908,
+      2055,
+      2152,
+      2274
+    ],
+    "seed": 42,
+    "source_hash": "ff70fe0db1341bebb5f3cd22bf076df6a8e864c8129b95158baf7d2a2de9ca42",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5144,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Samuel L. Jackson",
+          "Jeffrey Wright",
+          "Christian Bale",
+          "Busta Rhymes"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "John Singleton",
+        "genres": [
+          "Action",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "New York police detective John Shaft arrests Walter Wade Jr. for a racially motivated slaying. But the only eyewitness disappears, and Wade jumps bail for Switzerland. Two years later Wade returns to face trial, confident his money and influence will get him acquitted -- especially since he's paid a drug kingpin to kill the witness.",
+        "release_date": "2000-06-15",
+        "release_year": "2000",
+        "title": "Shaft"
+      },
+      {
+        "cast": [
+          "D. B. Sweeney",
+          "Alfre Woodard",
+          "Ossie Davis",
+          "Max Casella"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ralph Zondag",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "An orphaned dinosaur raised by lemurs joins an arduous trek to a sancturary after a meteorite shower destroys his family home.",
+        "release_date": "2000-05-19",
+        "release_year": "2000",
+        "title": "Dinosaur"
+      },
+      {
+        "cast": [
+          "Jonathan Taylor Thomas",
+          "Matthew Broderick",
+          "James Earl Jones",
+          "Jeremy Irons"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Allers",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A young lion cub named Simba can't wait to be king. But his uncle craves the title for himself and will stop at nothing to get it.",
+        "release_date": "1994-06-23",
+        "release_year": "1994",
+        "title": "Lion King, The"
+      },
+      {
+        "cast": [
+          "Rowan Atkinson",
+          "Peter MacNicol",
+          "John Mills",
+          "Pamela Reed"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Mel Smith",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Bean works as a caretaker at Britain's formidable Royal National Gallery, and his bosses want to fire him because he sleeps at work all the time, but can't because the chairman of the gallery's board defends him. They send him to USA, to the small Los Angeles art gallery instead, where he'll have to officiate at the opening of the greatest US picture ever (called \"Whistler's Mother\").",
+        "release_date": "1997-07-03",
+        "release_year": "1997",
+        "title": "Bean"
+      },
+      {
+        "cast": [
+          "Patrick Swayze",
+          "Demi Moore",
+          "Whoopi Goldberg",
+          "Tony Goldwyn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jerry Zucker",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Sam Wheat is a banker, Molly Jensen is an artist, and the two are madly in love. However, when Sam is murdered by his friend and corrupt business partner Carl Bruner over a shady business deal, he is left to roam the earth as a powerless spirit. When he learns of Carl's betrayal, Sam must seek the help of psychic Oda Mae Brown to set things right and protect Molly from Carl and his goons.",
+        "release_date": "1990-07-12",
+        "release_year": "1990",
+        "title": "Ghost"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Chris Elliott",
+          "Jean Smart",
+          "Iggy Pop"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Koch",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When a school in upstate New York is snowed in, a group of students hi-jack a plow to keep the school closed..",
+        "release_date": "2000-02-11",
+        "release_year": "2000",
+        "title": "Snow Day"
+      },
+      {
+        "cast": [
+          "Rachel Griffiths",
+          "David Roberts",
+          "Sandy Winton",
+          "Yael Stone"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Pip Karmel",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Pamela Drury is unhappy, and alone. On her birthday she stumbles across a photo of Robert Dickson, and wonders what would've happened had she said yes to his proposal. A freak accident causes Pamela to live out the life she could've had, but is the grass on the other side always greener?",
+        "release_date": "2000-04-20",
+        "release_year": "2000",
+        "title": "Me Myself I"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Tim Allen",
+          "Joan Cusack",
+          "Kelsey Grammer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Lasseter",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
+        "release_date": "1999-10-30",
+        "release_year": "1999",
+        "title": "Toy Story 2"
+      },
+      {
+        "cast": [
+          "Dennis Quaid",
+          "Jim Caviezel",
+          "Andre Braugher",
+          "Elizabeth Mitchell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Hoblit",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When a rare phenomenon gives police officer John Sullivan the chance to speak to his father, 30 years in the past, he takes the opportunity to prevent his dad's tragic death.  After his actions inadvertently give rise to a series of brutal murders he and his father must find a way to fix the consequences of altering time.",
+        "release_date": "2000-04-28",
+        "release_year": "2000",
+        "title": "Frequency"
+      },
+      {
+        "cast": [
+          "Alfre Woodard",
+          "Al Freeman, Jr.",
+          "Esther Rolle",
+          "Mary Alice"
+        ],
+        "country": [
+          "unkown"
+        ],
+        "director": "Maya Angelou",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Rosa Lynn sends her druggie daughter Loretta and her children Thomas and Tracy away from the big city to live with their uncle Earl in the ancestral home in rural Mississippi. Earl puts Loretta to work in his restaurant, Just Chicken, while also telling them about the generations of their family, the Sinclairs, dating back to their time in slavery before the the Civil War.",
+        "release_date": "1998-12-25",
+        "release_year": "1998",
+        "title": "Down in the Delta"
+      }
+    ],
+    "raw_user_id": "5144",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 26
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 1.4600253657080986
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for horror films",
+        "Negative reception of thrillers lacking engaging plots"
+      ],
+      "liked_patterns": [
+        "High ratings for action films with strong narratives",
+        "Positive reception of animated films suitable for family viewing",
+        "Strong preference for comedies that blend romance and humor"
+      ],
+      "summary": "Unique tastes: Enjoyment of Action and Adventure (The user rates multiple action and adventure films highly, indicating a strong preference for excitement and thrill.); Appreciation for Comedy (Several comedies receive high ratings, suggesting a fondness for humor and light-hearted storytelling.); Interest in Animation and Family Films (The user rates animated and children's films positively, reflecting a taste for family-friendly content.); Favoring Drama and Thrillers (The user shows a liking for dramatic and thriller genres, as evidenced by high ratings for films in these categories.); Romantic Elements in Films (The user enjoys films that incorporate romance, as indicated by high ratings for romantic comedies and dramas.). Liked patterns: High ratings for action films with strong narratives, Positive reception of animated films suitable for family viewing, Strong preference for comedies that blend romance and humor. Disliked patterns: Low ratings for horror films, Negative reception of thrillers lacking engaging plots.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple action and adventure films highly, indicating a strong preference for excitement and thrill.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "Several comedies receive high ratings, suggesting a fondness for humor and light-hearted storytelling.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates animated and children's films positively, reflecting a taste for family-friendly content.",
+          "taste": "Interest in Animation and Family Films"
+        },
+        {
+          "reason": "The user shows a liking for dramatic and thriller genres, as evidenced by high ratings for films in these categories.",
+          "taste": "Favoring Drama and Thrillers"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romance, as indicated by high ratings for romantic comedies and dramas.",
+          "taste": "Romantic Elements in Films"
+        }
+      ]
+    },
+    "user_id": 5144
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "5d387e3aa001c99ddffcbb5d47c88ebb8452156ee4f5b95b2e4e1ba2b22d4d60",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      530,
+      1056,
+      245,
+      132,
+      1450,
+      1467,
+      108,
+      241,
+      534,
+      696
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "177f2aa266d344ed95956085bbb3cd3c"
+    ],
+    "sampled_item_ids": [
+      16,
+      96,
+      108,
+      129,
+      130,
+      189,
+      205,
+      252,
+      274,
+      407,
+      500,
+      534,
+      563,
+      857,
+      896,
+      901,
+      1102,
+      1290,
+      1450,
+      1467,
+      1587,
+      1713,
+      1919,
+      1996,
+      2245
+    ],
+    "seed": 42,
+    "source_hash": "e09c533aae25509369b5c67f45b39693a160628fa68316c332d6947feee761e3",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2020,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Billy Bob Thornton",
+          "Dwight Yoakam",
+          "J.T. Walsh",
+          "John Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Bob Thornton",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Karl Childers is a mentally disabled man who has been in the custody of the state mental hospital since the age of 12 for killing his mother and her lover. Although thoroughly institutionalized, Karl is deemed fit to be released into the outside world.",
+        "release_date": "1996-08-30",
+        "release_year": "1996",
+        "title": "Sling Blade"
+      },
+      {
+        "cast": [
+          "Vincent Pérez",
+          "Mia Kirshner",
+          "Iggy Pop",
+          "Thomas Jane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Pope",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "After Ashe and his little son are murdered violently for no reason by Judah's men, he returns from the dead to take revenge. One after one, Judah's people face the power of the dark angel. The second film based on James O'Barr's cult comic.",
+        "release_date": "1996-08-29",
+        "release_year": "1996",
+        "title": "Crow: City of Angels, The"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Samuel L. Jackson",
+          "Uma Thurman",
+          "Bruce Willis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Quentin Tarantino",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "release_date": "1994-09-10",
+        "release_year": "1994",
+        "title": "Pulp Fiction"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Dan Aykroyd",
+          "Sigourney Weaver",
+          "Harold Ramis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ivan Reitman",
+        "genres": [
+          "Comedy",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "Five years after they defeated Gozer, the Ghostbusters are out of business. When Dana begins to have ghost problems again, the boys come out of retirement to aid her and hopefully save New York City from a new paranormal threat.",
+        "release_date": "1989-06-15",
+        "release_year": "1989",
+        "title": "Ghostbusters II"
+      },
+      {
+        "cast": [
+          "William Holden",
+          "Gloria Swanson",
+          "Erich von Stroheim",
+          "Nancy Olson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Billy Wilder",
+        "genres": [
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "A hack screenwriter writes a screenplay for a former silent-film star who has faded into Hollywood obscurity.",
+        "release_date": "1950-08-10",
+        "release_year": "1950",
+        "title": "Sunset Blvd. (a.k.a. Sunset Boulevard)"
+      },
+      {
+        "cast": [
+          "Martin Sheen",
+          "Marlon Brando",
+          "Robert Duvall",
+          "Frederic Forrest"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
+        "release_date": "1979-08-15",
+        "release_year": "1979",
+        "title": "Apocalypse Now"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Wesley Snipes",
+          "Sandra Bullock",
+          "Nigel Hawthorne"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Marco Brambilla",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Simon Phoenix, a violent criminal cryogenically frozen in 1996, has escaped during a parole hearing in 2032 in the utopia of San Angeles. Police are incapable of dealing with his violent ways and turn to his captor, John Spartan, who had also been cryogenically frozen when wrongfully accused of killing 30 innocent people while apprehending Phoenix.",
+        "release_date": "1993-10-08",
+        "release_year": "1993",
+        "title": "Demolition Man"
+      },
+      {
+        "cast": [
+          "Samuel L. Jackson",
+          "Kevin Spacey",
+          "David Morse",
+          "Ron Rifkin"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "F. Gary Gray",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The police try to arrest expert hostage negotiator Danny Roman, who insists he's being framed for his partner's murder in what he believes is an elaborate conspiracy. Thinking there's evidence in the Internal Affairs offices that might clear him, he takes everyone in the office hostage and demands that another well-known negotiator be brought in to handle the situation and secretly investigate the conspiracy.",
+        "release_date": "1998-07-29",
+        "release_year": "1998",
+        "title": "Negotiator, The"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Mark Wahlberg",
+          "Diane Lane",
+          "John C. Reilly"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In October 1991, a confluence of weather conditions combined to form a killer storm in the North Atlantic. Caught in the storm was the sword-fishing boat Andrea Gail. Magnificent foreshadowing and anticipation fill this true-life drama while minute details of the fishing boats, their gear and the weather are juxtaposed with the sea adventure.",
+        "release_date": "2000-03-15",
+        "release_year": "2000",
+        "title": "Perfect Storm, The"
+      },
+      {
+        "cast": [
+          "Michael Keaton",
+          "Teri Garr",
+          "Fred Koehler",
+          "Taliesin Jaffe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stan Dragoti",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jack and Caroline are a couple making a decent living When Jack suddenly loses his job. They agree that he should stay at home and look after the house while Caroline works. It's just that he's never done it before, and really doesn't have a clue...",
+        "release_date": "1983-07-22",
+        "release_year": "1983",
+        "title": "Mr. Mom"
+      }
+    ],
+    "raw_user_id": "2020",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 377
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8436263814940677
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for films with low engagement or poor execution",
+        "Dislike for certain drama and thriller films that may not resonate well"
+      ],
+      "liked_patterns": [
+        "High ratings for comedies",
+        "Positive reception of action and adventure films",
+        "Strong appreciation for drama and thriller genres"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user rates multiple comedies highly, indicating a strong preference for humor in films.); Interest in Action and Adventure (Several action and adventure films receive favorable ratings, suggesting enjoyment of thrilling and dynamic narratives.); Enjoyment of Drama and Thriller (The user shows a liking for drama and thriller genres, as evidenced by multiple high ratings in these categories.); Preference for Sci-Fi Elements (The user rates several sci-fi films positively, indicating an interest in speculative and imaginative storytelling.); Fondness for War Themes (The user appreciates films with war themes, as reflected in the ratings of several titles within this genre.). Liked patterns: High ratings for comedies, Positive reception of action and adventure films, Strong appreciation for drama and thriller genres. Disliked patterns: Negative ratings for films with low engagement or poor execution, Dislike for certain drama and thriller films that may not resonate well.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple comedies highly, indicating a strong preference for humor in films.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "Several action and adventure films receive favorable ratings, suggesting enjoyment of thrilling and dynamic narratives.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user shows a liking for drama and thriller genres, as evidenced by multiple high ratings in these categories.",
+          "taste": "Enjoyment of Drama and Thriller"
+        },
+        {
+          "reason": "The user rates several sci-fi films positively, indicating an interest in speculative and imaginative storytelling.",
+          "taste": "Preference for Sci-Fi Elements"
+        },
+        {
+          "reason": "The user appreciates films with war themes, as reflected in the ratings of several titles within this genre.",
+          "taste": "Fondness for War Themes"
+        }
+      ]
+    },
+    "user_id": 2020
+  }
+}

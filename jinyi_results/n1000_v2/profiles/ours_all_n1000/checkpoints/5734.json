@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "0b3e5d7db1754d247ff08e5c4b2b01d77c5aeaf8b0d0e81ba756ab6dd2dc1037",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      482,
+      1195,
+      1100,
+      418,
+      1463,
+      643,
+      383,
+      276,
+      546,
+      339
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      28,
+      41,
+      68,
+      92,
+      105,
+      168,
+      200,
+      207,
+      220,
+      316,
+      338,
+      387,
+      393,
+      401,
+      499,
+      548,
+      554,
+      670,
+      691,
+      1195,
+      1339,
+      1347,
+      1349,
+      1452,
+      2719
+    ],
+    "seed": 42,
+    "source_hash": "1c7886839c5279a1281ce12605beefdab2681b503107fffb6bec576e7f9a3670",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5734,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Meryl Streep",
+          "Clint Eastwood",
+          "Annie Corley",
+          "Victor Slezak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Photographer Robert Kincaid wanders into the life of housewife Francesca Johnson for four days in the 1960s.",
+        "release_date": "1995-05-28",
+        "release_year": "1995",
+        "title": "Bridges of Madison County, The"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Hugh Grant",
+          "Gina McKee",
+          "Tim McInnerny"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Roger Michell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "The British comedy from director Roger Michell tells the love story between a famous actress and a simple book seller from London. A look into the attempt for famous people to have a personal and private life and the ramifications that follow. Nominated for three Golden Globes in 2000.",
+        "release_date": "1999-05-13",
+        "release_year": "1999",
+        "title": "Notting Hill"
+      },
+      {
+        "cast": [
+          "Jeremy Irons",
+          "Dominique Swain",
+          "Melanie Griffith",
+          "Frank Langella"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Urbane professor Humbert Humbert marries a New England widow to be near her nymphet daughter.",
+        "release_date": "1997-09-27",
+        "release_year": "1997",
+        "title": "Lolita"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Emma Thompson",
+          "Hugh Grant",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Ang Lee",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Rich Mr. Dashwood dies, leaving his second wife and her daughters poor by the rules of inheritance. Two daughters are the titular opposites.",
+        "release_date": "1995-12-13",
+        "release_year": "1995",
+        "title": "Sense and Sensibility"
+      },
+      {
+        "cast": [
+          "Rosalind Russell",
+          "Forrest Tucker",
+          "Coral Browne",
+          "Fred Clark"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Morton DaCosta",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ten-year-old orphan Patrick Dennis has come to live with his nearest relative and in the high times ahead, he's not going to believe his luck. Nor will you, because Patrick's relation is played by one of Hollywood's grandest dames. Reprising her Broadway triumph, Rosalind Russell won her fourth Oscar nomination and third Golden Globe Award as the marvelous madcap who lives life to the hilt.  Auntie Mame brings to bubbly life the mayhem Mame and her cronies create while guiding Patrick's fortunes. \"Life is a banquet,\" Mame says, \"and most poor suckers are starving to death!\" With wit, style and a seasoned cast to dish humor and heart with gusto, Auntie Mame is a full-course meal of entertainment magic.",
+        "release_date": "1958-12-27",
+        "release_year": "1958",
+        "title": "Auntie Mame"
+      },
+      {
+        "cast": [
+          "Geena Davis",
+          "Alec Baldwin",
+          "Winona Ryder",
+          "Michael Keaton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Thanks to an untimely demise via drowning, a young couple end up as poltergeists in their New England farmhouse, where they fail to meet the challenge of scaring away the insufferable new owners, who want to make drastic changes. In desperation, the undead newlyweds turn to an expert frightmeister, but he's got a diabolical agenda of his own.",
+        "release_date": "1988-02-29",
+        "release_year": "1988",
+        "title": "Beetlejuice"
+      },
+      {
+        "cast": [
+          "Hugh Grant",
+          "Andie MacDowell",
+          "James Fleet",
+          "Simon Callow"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mike Newell",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Four Weddings And A Funeral is a British comedy about a British Man named Charles and an American Woman named Carrie who go through numerous weddings before they determine if they are right for one another.",
+        "release_date": "1994-03-09",
+        "release_year": "1994",
+        "title": "Four Weddings and a Funeral"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Greta Scacchi",
+          "Fred Ward",
+          "Whoopi Goldberg"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Altman",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A Hollywood studio executive is being sent death threats by a writer whose script he rejected - but which one?",
+        "release_date": "1992-04-03",
+        "release_year": "1992",
+        "title": "Player, The"
+      },
+      {
+        "cast": [
+          "Denzel Washington",
+          "Will Patton",
+          "Ryan Hurst",
+          "Wood Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Boaz Yakin",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After leading his football team to 15 winning seasons, coach Bill Yoast is demoted and replaced by Herman Boone – tough, opinionated and as different from the beloved Yoast as he could be. The two men learn to overcome their differences and turn a group of hostile young men into true champions.",
+        "release_date": "2000-09-29",
+        "release_year": "2000",
+        "title": "Remember the Titans"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Mary Astor",
+          "Gladys George",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A private detective takes on a case that involves him with three eccentric criminals, a gorgeous liar, and their quest for a priceless statuette.",
+        "release_date": "1941-11-18",
+        "release_year": "1941",
+        "title": "Maltese Falcon, The"
+      }
+    ],
+    "raw_user_id": "5734",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 168
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5755243341706868
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for action films that lack depth",
+        "Negative response to romantic dramas perceived as clichéd"
+      ],
+      "liked_patterns": [
+        "Enjoyment of films that blend drama and romance",
+        "Preference for comedies with romantic elements",
+        "High ratings for films featuring strong character arcs"
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates complex narratives and character development often found in dramatic films.); Comedy (The user enjoys humor and light-hearted storytelling, as evidenced by multiple high ratings for comedies.); Romance (The user shows a preference for romantic themes, frequently rating romantic films positively.); Action (The user has a moderate interest in action films, though this is less consistent compared to other genres.); Crime (The user is drawn to crime dramas, indicating an interest in stories involving moral ambiguity and tension.). Liked patterns: Enjoyment of films that blend drama and romance, Preference for comedies with romantic elements, High ratings for films featuring strong character arcs. Disliked patterns: Dislike for action films that lack depth, Negative response to romantic dramas perceived as clichéd.",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates complex narratives and character development often found in dramatic films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys humor and light-hearted storytelling, as evidenced by multiple high ratings for comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user shows a preference for romantic themes, frequently rating romantic films positively.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user has a moderate interest in action films, though this is less consistent compared to other genres.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user is drawn to crime dramas, indicating an interest in stories involving moral ambiguity and tension.",
+          "taste": "Crime"
+        }
+      ]
+    },
+    "user_id": 5734
+  }
+}

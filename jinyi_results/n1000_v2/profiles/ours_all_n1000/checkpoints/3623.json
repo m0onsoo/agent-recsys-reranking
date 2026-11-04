@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "f1541bf14bd33e3dae578427c465271c80852d4a87594e80197de5289276e470",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      122,
+      560,
+      339,
+      93,
+      181,
+      986,
+      744,
+      961,
+      1232,
+      2119
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "45f7a0870b504181a6b10157804409ce"
+    ],
+    "sampled_item_ids": [
+      93,
+      122,
+      181,
+      339,
+      560,
+      744,
+      946,
+      961,
+      986,
+      1040,
+      1180,
+      1232,
+      1238,
+      1241,
+      1698,
+      2119,
+      2857,
+      2982
+    ],
+    "seed": 42,
+    "source_hash": "3af7e6b155f82b6040aadecc4133194055f39314764bba1575c839bcab8cd7c3",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3623,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "lawyer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Edward G. Robinson",
+          "Lauren Bacall",
+          "Lionel Barrymore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A hurricane swells outside, but it's nothing compared to the storm within the hotel at Key Largo. There, sadistic mobster Johnny Rocco holes up - and holds at gunpoint hotel owner James Temple, his widowed daughter-in-law Nora, and ex-GI Frank McCloud.",
+        "release_date": "1948-07-31",
+        "release_year": "1948",
+        "title": "Key Largo"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Faye Dunaway",
+          "John Huston",
+          "Perry Lopez"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roman Polanski",
+        "genres": [
+          "Film-Noir",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Private eye Jake Gittes lives off the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband's extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and political scandals that come crashing together.",
+        "release_date": "1974-06-20",
+        "release_year": "1974",
+        "title": "Chinatown"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Mary Astor",
+          "Gladys George",
+          "Peter Lorre"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Huston",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A private detective takes on a case that involves him with three eccentric criminals, a gorgeous liar, and their quest for a priceless statuette.",
+        "release_date": "1941-11-18",
+        "release_year": "1941",
+        "title": "Maltese Falcon, The"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      },
+      {
+        "cast": [
+          "Eddie Murphy",
+          "Charles Dance",
+          "Charlotte Lewis",
+          "Victor Wong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Ritchie",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A detective specializing in missing children is on a madcap mission to save a youth with mystical powers who's been abducted by an evil cult. He battles a band of super-nasties, scrambles through a booby-trapped chamber of horrors and traverses Tibet to obtain a sacred dagger.",
+        "release_date": "1986-12-12",
+        "release_year": "1986",
+        "title": "Golden Child, The"
+      },
+      {
+        "cast": [
+          "Gene Tierney",
+          "Dana Andrews",
+          "Clifton Webb",
+          "Vincent Price"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Otto Preminger",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "A police detective falls in love with the woman whose murder he's investigating.",
+        "release_date": "1944-10-11",
+        "release_year": "1944",
+        "title": "Laura"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Rutger Hauer",
+          "Sean Young",
+          "Edward James Olmos"
+        ],
+        "country": [
+          "United States of America",
+          "Hong Kong",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Film-Noir",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+        "release_date": "1982-06-25",
+        "release_year": "1982",
+        "title": "Blade Runner"
+      },
+      {
+        "cast": [
+          "Humphrey Bogart",
+          "Lauren Bacall",
+          "John Ridgely",
+          "Martha Vickers"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Howard Hawks",
+        "genres": [
+          "Film-Noir",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Private Detective Philip Marlowe is hired by a rich family. Before the complex case is over, he's seen murder, blackmail, and what might be love.",
+        "release_date": "1946-08-23",
+        "release_year": "1946",
+        "title": "Big Sleep, The"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Janet Leigh",
+          "Orson Welles",
+          "Joseph Calleia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Stark, perverse story of murder, kidnapping, and police corruption in Mexican border town.",
+        "release_date": "1958-04-23",
+        "release_year": "1958",
+        "title": "Touch of Evil"
+      },
+      {
+        "cast": [
+          "Rita Hayworth",
+          "Glenn Ford",
+          "George Macready",
+          "Joseph Calleia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Charles Vidor",
+        "genres": [
+          "Film-Noir"
+        ],
+        "language": "English",
+        "overview": "Just arrived in Argentina, small-time crooked gambler Johnny Farrell is saved from a gunman by sinister Ballin Mundson, who later makes Johnny his right-hand man. But their friendship based on mutual lack of scruples is strained when Mundson returns from a trip with a wife: the supremely desirable Gilda, whom Johnny once knew and learned to hate. The relationship of Johnny and Gilda, a battlefield of warring emotions, becomes even more bizarre after Mundson disappears...",
+        "release_date": "1946-02-14",
+        "release_year": "1946",
+        "title": "Gilda"
+      }
+    ],
+    "raw_user_id": "3623",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 18
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5577139334609377
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 11
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for low-quality comedies",
+        "Negative response to horror films"
+      ],
+      "liked_patterns": [
+        "Strong preference for Film-Noir and Mystery genres",
+        "Enjoyment of Crime and Thriller narratives",
+        "Positive ratings for Action and Adventure films"
+      ],
+      "summary": "Unique tastes: Film-Noir (The user shows a strong preference for Film-Noir, as evidenced by multiple high ratings for films in this genre.); Crime Thrillers (The user enjoys Crime and Thriller genres, reflected in several ratings of 4 or 5 for movies that combine these elements.); Mystery (The user appreciates Mystery films, indicated by high ratings for several movies that feature this genre.); Action and Adventure (The user rates Action and Adventure films positively, suggesting a liking for engaging and dynamic storytelling.); Drama (The user has rated several Drama films favorably, indicating an appreciation for character-driven narratives.). Liked patterns: Strong preference for Film-Noir and Mystery genres, Enjoyment of Crime and Thriller narratives, Positive ratings for Action and Adventure films. Disliked patterns: Dislike for low-quality comedies, Negative response to horror films.",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for Film-Noir, as evidenced by multiple high ratings for films in this genre.",
+          "taste": "Film-Noir"
+        },
+        {
+          "reason": "The user enjoys Crime and Thriller genres, reflected in several ratings of 4 or 5 for movies that combine these elements.",
+          "taste": "Crime Thrillers"
+        },
+        {
+          "reason": "The user appreciates Mystery films, indicated by high ratings for several movies that feature this genre.",
+          "taste": "Mystery"
+        },
+        {
+          "reason": "The user rates Action and Adventure films positively, suggesting a liking for engaging and dynamic storytelling.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user has rated several Drama films favorably, indicating an appreciation for character-driven narratives.",
+          "taste": "Drama"
+        }
+      ]
+    },
+    "user_id": 3623
+  }
+}

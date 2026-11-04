@@ -1,0 +1,341 @@
+{
+  "checkpoint_hash": "3970d6ea19f170a607c97e4e2f9d8703e0a82f81fe27b6dce92e0d39ee7fe97f",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      98,
+      288,
+      920,
+      49,
+      353,
+      35,
+      871,
+      210,
+      1578,
+      6
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      35,
+      51,
+      60,
+      87,
+      177,
+      206,
+      218,
+      274,
+      288,
+      353,
+      386,
+      435,
+      436,
+      552,
+      746,
+      789,
+      793,
+      795,
+      837,
+      871,
+      936,
+      1001,
+      1019,
+      1325,
+      1367
+    ],
+    "seed": 42,
+    "source_hash": "bebd64244c09f81e30a30c0ef57b9ee6a5720c55c3c0f65ced488dd3438e6a9a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5648,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Ben Stiller",
+          "Geoffrey Rush",
+          "Claire Forlani",
+          "William H. Macy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kinka Usher",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When Captain Amazing (Kinnear) is kidnapped by Casanova Frankenstein (Rush) a group of superheroes combine together to create a plan. But these aren't normal superheroes. Now, the group who include such heroes as Mr. Furious (Stiller), The Shoveller (Macy) and The Blue Raja (Azaria) must put all the powers together to save everyone they know and love.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Mystery Men"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Catherine Zeta-Jones",
+          "Will Patton",
+          "Maury Chaykin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jon Amiel",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two thieves, who travel in elegant circles, try to outsmart each other and, in the process, end up falling in love.",
+        "release_date": "1999-04-29",
+        "release_year": "1999",
+        "title": "Entrapment"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Matt Damon",
+          "Vin Diesel",
+          "Tom Sizemore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "release_date": "1998-07-24",
+        "release_year": "1998",
+        "title": "Saving Private Ryan"
+      },
+      {
+        "cast": [
+          "Mike Myers",
+          "Heather Graham",
+          "Michael York",
+          "Robert Wagner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Jay Roach",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When diabolical genius, Dr. Evil travels back in time to steal superspy Austin Powers's ‘mojo’, Austin must return to the swingin' '60s himself – with the help of American agent, Felicity Shagwell – to stop the dastardly plan. Once there, Austin faces off against Dr. Evil's army of minions and saves the world in his own unbelievably groovy way.",
+        "release_date": "1999-06-08",
+        "release_year": "1999",
+        "title": "Austin Powers: The Spy Who Shagged Me"
+      },
+      {
+        "cast": [
+          "Ming-Na Wen",
+          "Lea Salonga",
+          "Eddie Murphy",
+          "BD Wong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Bancroft",
+        "genres": [
+          "Animation",
+          "Children's"
+        ],
+        "language": "English",
+        "overview": "A tomboyish girl disguises herself as a young man so she can fight with the Imperial Chinese Army against the invading Huns. With help from wise-cracking dragon Mushu, Mulan just might save her country -- and win the heart of handsome Captain Li Shang.",
+        "release_date": "1998-06-18",
+        "release_year": "1998",
+        "title": "Mulan"
+      },
+      {
+        "cast": [
+          "Freddie Prinze Jr.",
+          "Rachael Leigh Cook",
+          "Matthew Lillard",
+          "Paul Walker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Iscove",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "High school hotshot Zach Siler is the envy of his peers. But his popularity declines sharply when his cheerleader girlfriend, Taylor, leaves him for sleazy reality-television star Brock Hudson. Desperate to revive his fading reputation, Siler agrees to a seemingly impossible challenge. He has six weeks to gain the trust of nerdy outcast Laney Boggs -- and help her to become the school's next prom queen.",
+        "release_date": "1999-01-29",
+        "release_year": "1999",
+        "title": "She's All That"
+      },
+      {
+        "cast": [
+          "Tom Skerritt",
+          "Sigourney Weaver",
+          "Veronica Cartwright",
+          "Harry Dean Stanton"
+        ],
+        "country": [
+          "United States of America",
+          "United Kingdom"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Horror",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+        "release_date": "1979-05-25",
+        "release_year": "1979",
+        "title": "Alien"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Brad Pitt",
+          "Kevin Bacon",
+          "Jason Patric"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two gangsters seek revenge on the state jail worker who during their stay at a youth prison sexually abused them. A sensational court hearing takes place to charge him for the crimes. A moving drama from director Barry Levinson.",
+        "release_date": "1996-10-18",
+        "release_year": "1996",
+        "title": "Sleepers"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      }
+    ],
+    "raw_user_id": "5648",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 95
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8178704657749342
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that mix genres poorly",
+        "Dislike for certain comedies that do not resonate",
+        "Negative ratings for films with weak narratives or character development"
+      ],
+      "liked_patterns": [
+        "High ratings for animated and children's films",
+        "Strong preference for action and adventure genres",
+        "Consistent enjoyment of comedies across various sub-genres"
+      ],
+      "summary": "Unique tastes: Animation and Children's Films (The user enjoys animated films and children's content, as indicated by high ratings for multiple titles in these genres.); Action and Adventure (The user shows a strong preference for action and adventure films, consistently rating them highly.); Comedy (The user appreciates comedies, with several titles rated positively, indicating a fondness for humor.); Drama with Strong Themes (The user rates dramas highly, especially those with strong narratives and character development.); Romantic Comedies (The user enjoys romantic comedies, as evidenced by positive ratings for films that blend romance and humor.). Liked patterns: High ratings for animated and children's films, Strong preference for action and adventure genres, Consistent enjoyment of comedies across various sub-genres. Disliked patterns: Low ratings for films that mix genres poorly, Dislike for certain comedies that do not resonate, Negative ratings for films with weak narratives or character development.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys animated films and children's content, as indicated by high ratings for multiple titles in these genres.",
+          "taste": "Animation and Children's Films"
+        },
+        {
+          "reason": "The user shows a strong preference for action and adventure films, consistently rating them highly.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates comedies, with several titles rated positively, indicating a fondness for humor.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user rates dramas highly, especially those with strong narratives and character development.",
+          "taste": "Drama with Strong Themes"
+        },
+        {
+          "reason": "The user enjoys romantic comedies, as evidenced by positive ratings for films that blend romance and humor.",
+          "taste": "Romantic Comedies"
+        }
+      ]
+    },
+    "user_id": 5648
+  }
+}

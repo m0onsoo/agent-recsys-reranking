@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "d8fda3f6d755681b2c10c3cf473755ebba20a0300cd14a557c23167ef45579b7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      426,
+      853,
+      309,
+      558,
+      715,
+      60,
+      26,
+      1635,
+      843,
+      424
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "5b86406e26ac428795f0852914b2c510"
+    ],
+    "sampled_item_ids": [
+      7,
+      27,
+      28,
+      52,
+      58,
+      97,
+      188,
+      320,
+      322,
+      383,
+      409,
+      424,
+      426,
+      607,
+      609,
+      712,
+      718,
+      843,
+      933,
+      1065,
+      1339,
+      1341,
+      1463,
+      1576,
+      1663
+    ],
+    "seed": 42,
+    "source_hash": "06c8e546403d50b669bb644f69ec568840721e49b864971c5beddfd07c268e25",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3601,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "female",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Meryl Streep",
+          "Robert Redford",
+          "Klaus Maria Brandauer",
+          "Michael Kitchen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sydney Pollack",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Out of Africa tells the story of the life of Danish author Karen Blixen, who at the beginning of the 20th century moved to Africa to build a new life for herself. The film is based on the autobiographical novel by Karen Blixen from 1937.",
+        "release_date": "1985-12-20",
+        "release_year": "1985",
+        "title": "Out of Africa"
+      },
+      {
+        "cast": [
+          "Hal Scardino",
+          "Litefoot",
+          "Lindsay Crouse",
+          "Richard Jenkins"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Oz",
+        "genres": [
+          "Adventure",
+          "Children's",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A nine-year-old boy gets a plastic Indian and a cupboard for his birthday and finds himself involved in adventure when the Indian comes to life and befriends him.",
+        "release_date": "1995-07-14",
+        "release_year": "1995",
+        "title": "Indian in the Cupboard, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Helen Mirren",
+          "River Phoenix",
+          "Conrad Roberts"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Weir",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Allie Fox, an American inventor exhausted by the perceived danger and degradation of modern society, decides to escape with his wife and children to Belize. In the jungle, he tries with mad determination to create a utopian community with disastrous results.",
+        "release_date": "1986-11-26",
+        "release_year": "1986",
+        "title": "Mosquito Coast, The"
+      },
+      {
+        "cast": [
+          "Drew Barrymore",
+          "Dougray Scott",
+          "Anjelica Huston",
+          "Megan Dodds"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Andy Tennant",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A unique 16th century woman, Danielle possesses a love of books, and can easily quote from Sir Thomas More’s Utopia. An intriguing mix of tomboyish athleticism and physical beauty, she has more than enough charm to capture the heart of a prince ... after beaning him with an apple.",
+        "release_date": "1998-07-31",
+        "release_year": "1998",
+        "title": "Ever After: A Cinderella Story"
+      },
+      {
+        "cast": [
+          "Sigourney Weaver",
+          "Michael Biehn",
+          "James Remar",
+          "Paul Reiser"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller",
+          "War"
+        ],
+        "language": "English",
+        "overview": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story, all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
+        "release_date": "1986-07-18",
+        "release_year": "1986",
+        "title": "Aliens"
+      },
+      {
+        "cast": [
+          "Tom Cruise",
+          "Jack Nicholson",
+          "Demi Moore",
+          "Kevin Bacon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When cocky military lawyer Lt. Daniel Kaffee and his co-counsel, Lt. Cmdr. JoAnne Galloway, are assigned to a murder case, they uncover a hazing ritual that could implicate high-ranking officials such as shady Col. Nathan Jessep.",
+        "release_date": "1992-12-11",
+        "release_year": "1992",
+        "title": "Few Good Men, A"
+      },
+      {
+        "cast": [
+          "Irene Bedard",
+          "Mel Gibson",
+          "David Ogden Stiers",
+          "John Kassir"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Gabriel",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "History comes gloriously to life in Disney's epic animated tale about love and adventure in the New World. Pocahontas is a Native American woman whose father has arranged for her to marry her village's best warrior. But a vision tells her change is coming, and soon she comes face to face with it in the form of Capt. John Smith.",
+        "release_date": "1995-06-14",
+        "release_year": "1995",
+        "title": "Pocahontas"
+      },
+      {
+        "cast": [
+          "Richard Gere",
+          "Lauren Hutton",
+          "Judith Ransdell",
+          "Héctor Elizondo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Paul Schrader",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Julian makes a lucrative living as an escort to older women in the Los Angeles area. He begins a relationship with Michelle, a local politician's wife, without expecting any pay. One of his clients is murdered and Detective Sunday begins pumping him for details on his different clients, something he is reluctant to do considering the nature of his work. Julian begins to suspect he's being framed. Meanwhile Michelle begins to fall in love with him.",
+        "release_date": "1980-02-08",
+        "release_year": "1980",
+        "title": "American Gigolo"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Rutger Hauer",
+          "Michelle Pfeiffer",
+          "Alfred Molina"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Adventure",
+          "Fantasy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Captain Etienne Navarre is a man on whose shoulders lies a cruel curse. Punished for loving each other, Navarre must become a wolf by night whilst his lover, Lady Isabeau, takes the form of a hawk by day. Together, with the thief Philippe Gaston, they must try to overthrow the corrupt Bishop and in doing so break the spell.",
+        "release_date": "1985-03-27",
+        "release_year": "1985",
+        "title": "Ladyhawke"
+      },
+      {
+        "cast": [
+          "Nicolas Cage",
+          "Jim Carrey",
+          "Kathleen Turner",
+          "Helen Hunt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Peggy Sue faints at a Highschool reunion. When she wakes up she finds herself in her own past, just before she finished school.",
+        "release_date": "1986-10-05",
+        "release_year": "1986",
+        "title": "Peggy Sue Got Married"
+      }
+    ],
+    "raw_user_id": "3601",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 128
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.6415227583061553
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for crime thrillers that lack strong character development."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with romance and adventure.",
+        "Consistent appreciation for films that feature strong emotional narratives.",
+        "Positive reception of films that incorporate humor alongside drama."
+      ],
+      "summary": "Unique tastes: Drama (The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.); Romance (Romantic films receive favorable ratings, suggesting an appreciation for love stories and relationships.); Action (Action films are well-rated, showing a liking for excitement and adventure.); Comedy (The user enjoys comedies, as evidenced by multiple high ratings in this genre, indicating a preference for humor and lightheartedness.); Fantasy (Fantasy films are positively rated, reflecting an interest in imaginative and otherworldly themes.). Liked patterns: High ratings for films that blend drama with romance and adventure., Consistent appreciation for films that feature strong emotional narratives., Positive reception of films that incorporate humor alongside drama.. Disliked patterns: Negative rating for crime thrillers that lack strong character development..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Romantic films receive favorable ratings, suggesting an appreciation for love stories and relationships.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "Action films are well-rated, showing a liking for excitement and adventure.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user enjoys comedies, as evidenced by multiple high ratings in this genre, indicating a preference for humor and lightheartedness.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Fantasy films are positively rated, reflecting an interest in imaginative and otherworldly themes.",
+          "taste": "Fantasy"
+        }
+      ]
+    },
+    "user_id": 3601
+  }
+}

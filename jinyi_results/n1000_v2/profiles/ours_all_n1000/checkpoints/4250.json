@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "58d643a388daade8af97c9706c07fe860ee8b9d470273b827f347eee55027ad8",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      588,
+      1193,
+      514,
+      907,
+      2233,
+      1020,
+      909,
+      1713,
+      87,
+      329
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      28,
+      86,
+      90,
+      192,
+      200,
+      213,
+      256,
+      529,
+      539,
+      591,
+      776,
+      851,
+      881,
+      1019,
+      1103,
+      1146,
+      1193,
+      1252,
+      1382,
+      1483,
+      1596,
+      1858,
+      2312,
+      2327,
+      2629
+    ],
+    "seed": 42,
+    "source_hash": "ef6a3c00c71f1bd04cddcf498181e79f2e0753d6bf487501fc6f04877cca6aa8",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4250,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Michael Keaton",
+          "Kim Basinger",
+          "Michael Gough"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker, who has seized control of Gotham's underworld.",
+        "release_date": "1989-06-23",
+        "release_year": "1989",
+        "title": "Batman"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Linda Hamilton",
+          "Jamie Renée Smith",
+          "Jeremy Foley"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roger Donaldson",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Volcanologist Harry Dalton comes to the sleepy town of Dante's Peak to investigate the recent rumblings of the dormant volcano the burg is named for. Before long, his worst fears are realized when a massive eruption hits, and immediately, Harry, the mayor and the townspeople find themselves fighting for their lives amid a catastrophic nightmare.",
+        "release_date": "1997-02-07",
+        "release_year": "1997",
+        "title": "Dante's Peak"
+      },
+      {
+        "cast": [
+          "Jodie Foster",
+          "Liam Neeson",
+          "Natasha Richardson",
+          "Richard Libertini"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Apted",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In a remote woodland cabin, a small town doctor discovers Nell - a beautiful young hermit woman with many secrets.",
+        "release_date": "1994-12-23",
+        "release_year": "1994",
+        "title": "Nell"
+      },
+      {
+        "cast": [
+          "Jennifer Lopez",
+          "Edward James Olmos",
+          "Constance Marie",
+          "Jon Seda"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gregory Nava",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "In this biographical drama, Selena Quintanilla is born into a musical Mexican-American family in Texas. Her father, Abraham, realizes that his young daughter is talented and begins performing with her at small venues. She finds success and falls for her guitarist, Chris Perez, who draws the ire of her father. Seeking mainstream stardom, Selena begins recording an English-language album which, tragically, she would never complete.",
+        "release_date": "1997-03-21",
+        "release_year": "1997",
+        "title": "Selena"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Kelly Preston",
+          "John C. Reilly",
+          "Jena Malone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Sam Raimi",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A baseball legend almost finished with his distinguished career at the age of forty has one last chance to prove who he is, what he is capable of, and win the heart of the woman he has loved for the past four years.",
+        "release_date": "1999-09-17",
+        "release_year": "1999",
+        "title": "For Love of the Game"
+      },
+      {
+        "cast": [
+          "Roger Moore",
+          "Carole Bouquet",
+          "Chaim Topol",
+          "Lynn-Holly Johnson"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "John Glen",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "A British spy ship has sunk and on board was a hi-tech encryption device. James Bond is sent to find the device that holds British launching instructions before the enemy Soviets get to it first.",
+        "release_date": "1981-06-23",
+        "release_year": "1981",
+        "title": "For Your Eyes Only"
+      },
+      {
+        "cast": [
+          "John Travolta",
+          "Robert Duvall",
+          "Tony Shalhoub",
+          "William H. Macy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Zaillian",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Portuguese",
+        "overview": "Jan Schlickmann is a cynical lawyer who goes out to \"get rid of\" a case, only to find out it is potentially worth millions. The case becomes his obsession, to the extent that he is willing to give up everything - including his career and his clients' goals, in order to continue the case against all odds.",
+        "release_date": "1998-03-05",
+        "release_year": "1998",
+        "title": "Civil Action, A"
+      },
+      {
+        "cast": [
+          "Matthew McConaughey",
+          "Bill Paxton",
+          "Harvey Keitel",
+          "Jon Bon Jovi"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Jonathan Mostow",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the midst of World War II, the battle under the sea rages and the Nazis have the upper hand as the Allies are unable to crack their war codes. However, after a wrecked U-boat sends out an SOS signal, the Allies realise this is their chance to seize the 'enigma coding machine'.",
+        "release_date": "2000-04-20",
+        "release_year": "2000",
+        "title": "U-571"
+      },
+      {
+        "cast": [
+          "Jeff Goldblum",
+          "Julianne Moore",
+          "Pete Postlethwaite",
+          "Richard Attenborough"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Four years after Jurassic Park's genetically bred dinosaurs ran amok, multimillionaire John Hammond shocks chaos theorist Ian Malcolm by revealing that Hammond has been breeding more beasties at a secret location. Malcolm, his paleontologist ladylove and a wildlife videographer join an expedition to document the lethal lizards' natural behavior in this action-packed thriller.",
+        "release_date": "1997-05-23",
+        "release_year": "1997",
+        "title": "Lost World: Jurassic Park, The"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Sharon Stone",
+          "Joe Pesci",
+          "James Woods"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The life of the gambling paradise – Las Vegas – and its dark mafia underbelly.",
+        "release_date": "1995-11-22",
+        "release_year": "1995",
+        "title": "Casino"
+      }
+    ],
+    "raw_user_id": "4250",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 263
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.062874931805585
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed."
+      ],
+      "liked_patterns": [
+        "Strong preference for action-packed films with a mix of drama and comedy.",
+        "Enjoyment of films that feature strong emotional arcs alongside thrilling plots.",
+        "Appreciation for narratives that combine romance with other genres."
+      ],
+      "summary": "Unique tastes: Drama and Romance (The user enjoys emotional narratives that explore relationships and personal struggles.); Action and Adventure (The user appreciates high-energy films that feature thrilling sequences and adventurous plots.); Comedy and Drama (The user likes films that blend humor with serious themes, providing both entertainment and depth.); Thriller Elements (The user is drawn to suspenseful stories that keep them engaged and on the edge of their seat.); Sci-Fi Themes (The user enjoys speculative narratives that explore futuristic concepts and technology.). Liked patterns: Strong preference for action-packed films with a mix of drama and comedy., Enjoyment of films that feature strong emotional arcs alongside thrilling plots., Appreciation for narratives that combine romance with other genres.. Disliked patterns: No significant patterns of dislike observed..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys emotional narratives that explore relationships and personal struggles.",
+          "taste": "Drama and Romance"
+        },
+        {
+          "reason": "The user appreciates high-energy films that feature thrilling sequences and adventurous plots.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user likes films that blend humor with serious themes, providing both entertainment and depth.",
+          "taste": "Comedy and Drama"
+        },
+        {
+          "reason": "The user is drawn to suspenseful stories that keep them engaged and on the edge of their seat.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "The user enjoys speculative narratives that explore futuristic concepts and technology.",
+          "taste": "Sci-Fi Themes"
+        }
+      ]
+    },
+    "user_id": 4250
+  }
+}

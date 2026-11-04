@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "4c2cc034a7785950a345ed249e10c11834cbaa3cf2499323a9b3269e661cb70c",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2684,
+      2555,
+      960,
+      2618,
+      44,
+      864,
+      630,
+      1466,
+      1546,
+      1282
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "0e205b2afe0a44c5b2580afe1f630640"
+    ],
+    "sampled_item_ids": [
+      23,
+      44,
+      112,
+      276,
+      421,
+      487,
+      560,
+      682,
+      767,
+      796,
+      830,
+      959,
+      1238,
+      1250,
+      1284,
+      1454,
+      1521,
+      1558,
+      1646,
+      1656,
+      1674,
+      2004,
+      2031,
+      2515,
+      2912
+    ],
+    "seed": 42,
+    "source_hash": "9bfd8f20adb5d7d3c5119150d5b3bad4151147ba16bf47bfc8ccf33852fd0074",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2811,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "unemployed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Émilie Dequenne",
+          "Olivier Gourmet",
+          "Fabrizio Rongione",
+          "Anne Yernaux"
+        ],
+        "country": [
+          "France",
+          "Belgium"
+        ],
+        "director": "Jean-Pierre Dardenne",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "Young and impulsive Rosetta lives with her alcoholic mother and, moved by despair, she will do anything to maintain a job.",
+        "release_date": "1999-05-23",
+        "release_year": "1999",
+        "title": "Rosetta"
+      },
+      {
+        "cast": [
+          "Bruce Balden",
+          "Jacqueline Bassett",
+          "Symon Basterfield",
+          "Andrew Brackfield"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Michael Apted",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "Director Michael Apted revisits the same group of British-born adults after a 7 year wait. The subjects are interviewed as to the changes that have occurred in their lives during the last seven years.",
+        "release_date": "1998-07-28",
+        "release_year": "1998",
+        "title": "42 Up"
+      },
+      {
+        "cast": [
+          "John Lynch",
+          "Jacqueline McKenzie",
+          "Colin Friels",
+          "Deborra-Lee Furness"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "Michael Rymer",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Two schizophrenics meet during therapy and fall in love. Unfortunately they are on a road to nowhere...",
+        "release_date": "1995-09-09",
+        "release_year": "1995",
+        "title": "Angel Baby"
+      },
+      {
+        "cast": [
+          "Soumitra Chatterjee",
+          "Sharmila Tagore",
+          "Alok Chakravarty",
+          "Swapan Mukherjee"
+        ],
+        "country": [
+          "India"
+        ],
+        "director": "Satyajit Ray",
+        "genres": [
+          "Drama"
+        ],
+        "language": "other languages",
+        "overview": "Apu is a jobless ex-student dreaming vaguely of a future as a writer. An old college friend talks him into a visit up-country to a village wedding....",
+        "release_date": "1959-05-01",
+        "release_year": "1959",
+        "title": "World of Apu, The (Apur Sansar)"
+      },
+      {
+        "cast": [
+          "Franka Potente",
+          "Moritz Bleibtreu",
+          "Herbert Knaup",
+          "Nina Petri"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Tom Tykwer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store to get the money. Three different alternatives may happen depending on some minor event along Lola's run.",
+        "release_date": "1998-08-20",
+        "release_year": "1998",
+        "title": "Run Lola Run (Lola rennt)"
+      },
+      {
+        "cast": [
+          "Jean-Pierre Léaud",
+          "Claire Maurier",
+          "Albert Rémy",
+          "Georges Flamant"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "François Truffaut",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "For young Parisian boy Antoine Doinel, life is one difficult situation after another. Surrounded by inconsiderate adults, including his neglectful parents, Antoine spends his days with his best friend, Rene, trying to plan for a better life. When one of their schemes goes awry, Antoine ends up in trouble with the law, leading to even more conflicts with unsympathetic authority figures.",
+        "release_date": "1959-05-04",
+        "release_year": "1959",
+        "title": "400 Blows, The (Les Quatre cents coups)"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Grace Kelly",
+          "Wendell Corey",
+          "Thelma Ritter"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Professional photographer L.B. \"Jeff\" Jeffries breaks his leg while getting an action shot at an auto race. Confined to his New York apartment, he spends his time looking out of the rear window observing the neighbors. He begins to suspect that a man across the courtyard may have murdered his wife. Jeff enlists the help of his high society fashion-consultant girlfriend Lisa Freemont and his visiting nurse Stella to investigate.",
+        "release_date": "1954-08-01",
+        "release_year": "1954",
+        "title": "Rear Window"
+      },
+      {
+        "cast": [
+          "Laurence Olivier",
+          "Joan Fontaine",
+          "George Sanders",
+          "Judith Anderson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A self-conscious bride is tormented by the memory of her husband's dead first wife.",
+        "release_date": "1940-04-12",
+        "release_year": "1940",
+        "title": "Rebecca"
+      },
+      {
+        "cast": [
+          "Sam Waterston",
+          "Haing S. Ngor",
+          "Craig T. Nelson",
+          "John Malkovich"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Roland Joffé",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The Killing Fields tells the real life story of a friendship between two journalists, an American and a Cambodian, during the bloody Khmer Rouge takeover of Cambodia in 1975, which lead to the death of 2-3 million Cambodians during the next four years, until Pol Pot's regime was toppled by the intervening Vietnamese in 1979.",
+        "release_date": "1984-11-02",
+        "release_year": "1984",
+        "title": "Killing Fields, The"
+      },
+      {
+        "cast": [
+          "Martin Sheen",
+          "Sissy Spacek",
+          "Ramon Bieri",
+          "Warren Oates"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terrence Malick",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Dramatization of the Starkweather-Fugate killing spree of the 1950s, in which a teenage girl and her twenty-something boyfriend slaughtered her entire family and several others in the Dakota badlands.",
+        "release_date": "1973-10-15",
+        "release_year": "1973",
+        "title": "Badlands"
+      }
+    ],
+    "raw_user_id": "2811",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 65
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9168316772708899
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 13
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for sci-fi films that do not resonate with the user.",
+        "Negative response to comedies that fail to engage the user."
+      ],
+      "liked_patterns": [
+        "Strong preference for drama films with elements of crime and romance.",
+        "Positive ratings for documentaries that explore significant themes.",
+        "Enjoyment of comedies that blend with other genres like drama."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for drama films, as indicated by multiple high ratings in this genre.); Crime (The user enjoys crime-related narratives, reflected in several liked films that explore this theme.); Romance (Romantic elements are frequently appreciated, as seen in the ratings for films that blend romance with other genres.); Documentary (The user has rated several documentaries positively, indicating an interest in real-life stories and themes.); Comedy (The user has a notable appreciation for comedy, with several films rated highly in this genre.). Liked patterns: Strong preference for drama films with elements of crime and romance., Positive ratings for documentaries that explore significant themes., Enjoyment of comedies that blend with other genres like drama.. Disliked patterns: Dislike for sci-fi films that do not resonate with the user., Negative response to comedies that fail to engage the user..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for drama films, as indicated by multiple high ratings in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys crime-related narratives, reflected in several liked films that explore this theme.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "Romantic elements are frequently appreciated, as seen in the ratings for films that blend romance with other genres.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user has rated several documentaries positively, indicating an interest in real-life stories and themes.",
+          "taste": "Documentary"
+        },
+        {
+          "reason": "The user has a notable appreciation for comedy, with several films rated highly in this genre.",
+          "taste": "Comedy"
+        }
+      ]
+    },
+    "user_id": 2811
+  }
+}

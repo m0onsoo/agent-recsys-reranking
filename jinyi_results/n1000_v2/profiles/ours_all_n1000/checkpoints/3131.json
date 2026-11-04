@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "1df2648ebd58a420b3a12eeb92cc0aa2efb859b62c4e49dd5826a41fa074fc42",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1300,
+      340,
+      2711,
+      116,
+      951,
+      506,
+      141,
+      1395,
+      420,
+      1
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "e053810d62974b419b8a31d08dcf67c5"
+    ],
+    "sampled_item_ids": [
+      52,
+      85,
+      157,
+      340,
+      421,
+      435,
+      458,
+      487,
+      497,
+      598,
+      663,
+      682,
+      959,
+      1062,
+      1065,
+      1071,
+      1311,
+      1454,
+      1467,
+      1543,
+      1728,
+      1731,
+      2042,
+      2711,
+      3328
+    ],
+    "seed": 42,
+    "source_hash": "19638b615690d6965a6824290d254bdbafc1716c48317e12e5522880695c6951",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3131,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Elizabeth Taylor",
+          "Richard Burton",
+          "George Segal",
+          "Sandy Dennis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Nichols",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Mike Nichols’ film from Edward Albee's play brought new themes to the film industry. Elizabeth Taylor and Richard Burton have never been more brilliant together as they portray an experienced married couple who love each other yet verbally attack one another when they see how boring their naïve newlywed guests have made their night.",
+        "release_date": "1966-06-21",
+        "release_year": "1966",
+        "title": "Who's Afraid of Virginia Woolf?"
+      },
+      {
+        "cast": [
+          "Tenzin Thuthob Tsarong",
+          "Tencho Gyalpo",
+          "Tsewang Migyur Khangsar",
+          "Gyurme Tethong"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The Tibetans refer to the Dalai Lama as 'Kundun', which means 'The Presence'. He was forced to escape from his native home, Tibet, when communist China invaded and enforced an oppressive regime upon the peaceful nation. The Dalai Lama escaped to India in 1959 and has been living in exile in Dharamsala ever since.",
+        "release_date": "1997-12-25",
+        "release_year": "1997",
+        "title": "Kundun"
+      },
+      {
+        "cast": [
+          "Gary Oldman",
+          "Alfred Molina",
+          "Vanessa Redgrave",
+          "Frances Barber"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Stephen Frears",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Stephen Frears directs this biographical drama focusing on controversial British playwright Joe Orton (Gary Oldman), revealed in flashback after his murder by lover Kenneth Halliwell (Alfred Molina).  Born in 1933 in Leicester, in the English Midlands, John 'Joe' Orton moves to  London in 1951, to study at RADA, and enjoys an openly gay relationship with Halliwell in their famous Islington flat in the 1960s. However, when Orton achieves spectacular success with such plays as 'What the Butler Saw' and 'Loot', Halliwell begins to feel alienated and the pair's future looks increasingly uncertain.",
+        "release_date": "1987-04-17",
+        "release_year": "1987",
+        "title": "Prick Up Your Ears"
+      },
+      {
+        "cast": [
+          "Omar Sharif",
+          "Julie Christie",
+          "Geraldine Chaplin",
+          "Rod Steiger"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "David Lean",
+        "genres": [
+          "Drama",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Doctor Zhivago is the filmed adapation of the Russian novel by Boris Pasternak from director David Lean that was an international success and today deemed a classic. Omar Sharif and Julie Christie play two protagonists who in fact love each other yet because of their current situation cannot find a way be together.",
+        "release_date": "1965-12-22",
+        "release_year": "1965",
+        "title": "Doctor Zhivago"
+      },
+      {
+        "cast": [
+          "Daniel Day-Lewis",
+          "Brenda Fricker",
+          "Alison Whelan",
+          "Declan Croghan"
+        ],
+        "country": [
+          "Ireland",
+          "United Kingdom"
+        ],
+        "director": "Jim Sheridan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In this true story told through flashbacks, Christy Brown is born with crippling cerebral palsy into a poor, working-class Irish family. Able only to control movement in his left foot and to speak in guttural sounds, he is mistakenly believed to be retarded for the first ten years of his life.",
+        "release_date": "1989-07-21",
+        "release_year": "1989",
+        "title": "My Left Foot"
+      },
+      {
+        "cast": [
+          "Nicoletta Braschi",
+          "Roberto Benigni",
+          "Giorgio Cantarini",
+          "Giustino Durano"
+        ],
+        "country": [
+          "Italy"
+        ],
+        "director": "Roberto Benigni",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Italian",
+        "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
+        "release_date": "1997-12-20",
+        "release_year": "1997",
+        "title": "Life Is Beautiful (La Vita è bella)"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Meryl Streep",
+          "Jane Alexander",
+          "Justin Henry"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Benton",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Ted Kramer is a career man for whom his work comes before his family. His wife Joanna cannot take this anymore, so she decides to leave him. Ted is now faced with the tasks of housekeeping and taking care of himself and their young son Billy.",
+        "release_date": "1979-12-18",
+        "release_year": "1979",
+        "title": "Kramer Vs. Kramer"
+      },
+      {
+        "cast": [
+          "Timothy Bottoms",
+          "Jeff Bridges",
+          "Cybill Shepherd",
+          "Ben Johnson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Bogdanovich",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The coming of age of a youth named Sonny in a small Texas town in the 1950s.",
+        "release_date": "1971-10-03",
+        "release_year": "1971",
+        "title": "Last Picture Show, The"
+      },
+      {
+        "cast": [
+          "Jennifer Grey",
+          "Patrick Swayze",
+          "Jerry Orbach",
+          "Cynthia Rhodes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Emile Ardolino",
+        "genres": [
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Expecting the usual tedium that accompanies a summer in the Catskills with her family, 17-year-old Frances 'Baby' Houseman is surprised to find herself stepping into the shoes of a professional hoofer – and unexpectedly falling in love.",
+        "release_date": "1987-08-21",
+        "release_year": "1987",
+        "title": "Dirty Dancing"
+      },
+      {
+        "cast": [
+          "Jack Nicholson",
+          "Louise Fletcher",
+          "Danny DeVito",
+          "William Redfield"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Miloš Forman",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "While serving time for insanity at a state mental hospital, implacable rabble-rouser, Randle Patrick McMurphy inspires his fellow patients to rebel against the authoritarian rule of head nurse, Mildred Ratched.",
+        "release_date": "1975-11-18",
+        "release_year": "1975",
+        "title": "One Flew Over the Cuckoo's Nest"
+      }
+    ],
+    "raw_user_id": "3131",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 63
+      },
+      "conformity": {
+        "label": "independent critic",
+        "level": 3,
+        "value": 2.053473337029302
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that lack depth or complexity in storytelling.",
+        "Dislike for horror films that do not offer substantial narrative or character development."
+      ],
+      "liked_patterns": [
+        "High ratings for films that combine drama with other genres like thriller and war.",
+        "A consistent appreciation for character-driven stories that explore complex emotional themes.",
+        "Enjoyment of films that feature strong narrative structures and character arcs."
+      ],
+      "summary": "Unique tastes: Drama (A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.); Thriller (Enjoyment of suspenseful and intense storytelling is reflected in the ratings for several thriller films.); Character-driven stories (A tendency to appreciate films that focus on character development and emotional depth is shown through high ratings.); Complex narratives (An inclination towards films with intricate plots and themes is indicated by the ratings for various dramas and thrillers.); Dark humor (A liking for films that blend comedy with darker themes is suggested by the ratings for certain comedies.). Liked patterns: High ratings for films that combine drama with other genres like thriller and war., A consistent appreciation for character-driven stories that explore complex emotional themes., Enjoyment of films that feature strong narrative structures and character arcs.. Disliked patterns: Low ratings for films that lack depth or complexity in storytelling., Dislike for horror films that do not offer substantial narrative or character development..",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for dramatic narratives is evident, with many high ratings for films in this genre.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Enjoyment of suspenseful and intense storytelling is reflected in the ratings for several thriller films.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "A tendency to appreciate films that focus on character development and emotional depth is shown through high ratings.",
+          "taste": "Character-driven stories"
+        },
+        {
+          "reason": "An inclination towards films with intricate plots and themes is indicated by the ratings for various dramas and thrillers.",
+          "taste": "Complex narratives"
+        },
+        {
+          "reason": "A liking for films that blend comedy with darker themes is suggested by the ratings for certain comedies.",
+          "taste": "Dark humor"
+        }
+      ]
+    },
+    "user_id": 3131
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "checkpoint_hash": "65df2c7578076950def9644cba552a8ca796f5be4c9772206eb945c2abafeb65",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      703,
+      1683,
+      1967,
+      1609,
+      73,
+      955,
+      3293,
+      1343,
+      1597,
+      473
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "325e0c6f5ce64203b0ca34c1bcbe6300"
+    ],
+    "sampled_item_ids": [
+      20,
+      72,
+      108,
+      164,
+      237,
+      247,
+      328,
+      577,
+      610,
+      648,
+      693,
+      732,
+      767,
+      787,
+      811,
+      1012,
+      1024,
+      1030,
+      1193,
+      1223,
+      1332,
+      1422,
+      1436,
+      1538,
+      2603
+    ],
+    "seed": 42,
+    "source_hash": "2a607b935c44923755e5f8b3fb237295af380c8d8d3464cfebd9d7f4ac8ac46d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3336,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Kurt Russell",
+          "Lee Van Cleef",
+          "Ernest Borgnine",
+          "Donald Pleasence"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Carpenter",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In 1997, the island of Manhattan has been walled off and turned into a giant maximum security prison within which the country's worst criminals are left to form their own anarchic society. However, when the President of the United States crash lands on the island, the authorities turn to a former soldier and current convict, Snake Plissken, to rescue him.",
+        "release_date": "1981-05-22",
+        "release_year": "1981",
+        "title": "Escape from New York"
+      },
+      {
+        "cast": [
+          "Compay Segundo",
+          "Eliades Ochoa",
+          "Ry Cooder",
+          "Joachim Cooder"
+        ],
+        "country": [
+          "Cuba",
+          "Germany",
+          "France",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Wim Wenders",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "In this fascinating Oscar-nominated documentary, American guitarist Ry Cooder brings together a group of legendary Cuban folk musicians (some in their 90s) to record a Grammy-winning CD in their native city of Havana. The result is a spectacular compilation of concert footage from the group's gigs in Amsterdam and New York City's famed Carnegie Hall, with director Wim Wenders capturing not only the music -- but also the musicians' life stories.",
+        "release_date": "1999-02-17",
+        "release_year": "1999",
+        "title": "Buena Vista Social Club"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "Bruce Willis",
+          "Melanie Griffith",
+          "Jessica Tandy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Benton",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Sully is a rascally ne'er-do-well approaching retirement age. While he is pressing a worker's compensation suit for a bad knee, he secretly works for his nemesis, Carl, and flirts with Carl's young wife Toby. Sully's long- forgotten son and family have moved back to town, so Sully faces unfamiliar family responsibilities. Meanwhile, Sully's landlady's banker son plots to push through a new development and evict Sully from his mother's life.",
+        "release_date": "1994-12-23",
+        "release_year": "1994",
+        "title": "Nobody's Fool"
+      },
+      {
+        "cast": [
+          "John Wayne",
+          "Jeffrey Hunter",
+          "Vera Miles",
+          "Natalie Wood"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Ford",
+        "genres": [
+          "Western"
+        ],
+        "language": "English",
+        "overview": "As a Civil War veteran spends years searching for a young niece captured by Indians, his motivation becomes increasingly questionable.",
+        "release_date": "1956-03-13",
+        "release_year": "1956",
+        "title": "Searchers, The"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "John Lithgow",
+          "Michael Rooker",
+          "Janine Turner"
+        ],
+        "country": [
+          "France",
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Renny Harlin",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "A year after losing his friend in a tragic 4,000-foot fall, former ranger Gabe Walker and his partner, Hal, are called to return to the same peak to rescue a group of stranded climbers, only to learn the climbers are actually thieving hijackers who are looking for boxes full of money.",
+        "release_date": "1993-05-28",
+        "release_year": "1993",
+        "title": "Cliffhanger"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Sharon Stone",
+          "Samuel L. Jackson",
+          "Peter Coyote"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "The OSSA discovers a spacecraft thought to be at least 300 years old at the bottom of the ocean. Immediately following the discovery, they decide to send a team down to the depths of the ocean to study the space craft.They are the best of best, smart and logical, and the perfect choice to learn more about the spacecraft.",
+        "release_date": "1998-02-13",
+        "release_year": "1998",
+        "title": "Sphere"
+      },
+      {
+        "cast": [
+          "Bob Hoskins",
+          "Denzel Washington",
+          "Chloe Webb",
+          "Ray Baker"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James D. Parriott",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A bigoted policeman is given the heart of a slain black defense lawyer,who returns as a ghost to ask the cop to help take down the men who murdered him",
+        "release_date": "1990-02-02",
+        "release_year": "1990",
+        "title": "Heart Condition"
+      },
+      {
+        "cast": [
+          "Sylvester Stallone",
+          "Sharon Stone",
+          "James Woods",
+          "Rod Steiger"
+        ],
+        "country": [
+          "Peru",
+          "United States of America"
+        ],
+        "director": "Luis Llosa",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "May Munro is a woman obsessed with getting revenge on the people who murdered her parents when she was still a girl. She hires Ray Quick, a retired explosives expert to kill her parent's killers. When Ned Trent, embittered ex-partner of Quick's is assigned to protect one of Quick's potential victims, a deadly game of cat and mouse ensues.",
+        "release_date": "1994-10-07",
+        "release_year": "1994",
+        "title": "Specialist, The"
+      },
+      {
+        "cast": [
+          "Sally Field",
+          "Kevin Kline",
+          "Robert Downey Jr.",
+          "Cathy Moriarty"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Hoffman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Celeste Talbert is the star of the long-running soap opera \"The Sun Also Sets.\" With the show's ratings down, Celeste's ruthlessly ambitious co-star, Montana Moorehead, and the show's arrogant producer, David Seton Barnes, plot to aggravate her into leaving the show by bringing back her old flame, Jeffrey Anderson, and hiring her beautiful young niece, Lori Craven.",
+        "release_date": "1991-05-31",
+        "release_year": "1991",
+        "title": "Soapdish"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Cuba Gooding Jr.",
+          "Annabella Sciorra",
+          "Max von Sydow"
+        ],
+        "country": [
+          "New Zealand",
+          "United States of America"
+        ],
+        "director": "Vincent Ward",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Chris Neilson dies to find himself in a heaven more amazing than he could have ever dreamed of. There is one thing missing: his wife. After he dies, his wife, Annie killed herself and went to hell. Chris decides to risk eternity in hades for the small chance that he will be able to bring her back to heaven.",
+        "release_date": "1998-10-02",
+        "release_year": "1998",
+        "title": "What Dreams May Come"
+      }
+    ],
+    "raw_user_id": "3336",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 535
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9569515981829219
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly rated comedies that do not resonate with the user.",
+        "Negative reception of action films that fail to deliver engaging narratives."
+      ],
+      "liked_patterns": [
+        "Enjoyment of comedies that blend with other genres like crime and drama.",
+        "Positive reception of action films, particularly those with engaging plots.",
+        "Appreciation for films that combine drama with other elements, such as crime or romance."
+      ],
+      "summary": "Unique tastes: Comedy (The user enjoys a variety of comedies, often rating them positively.); Drama (The user appreciates dramatic narratives, as indicated by several favorable ratings.); Action (The user shows a preference for action films, with multiple ratings of 3 or higher.); Crime (The user is drawn to crime-related stories, reflected in their ratings for films in this genre.); Fantasy (The user enjoys fantasy elements, as seen in their positive ratings for films that incorporate these themes.). Liked patterns: Enjoyment of comedies that blend with other genres like crime and drama., Positive reception of action films, particularly those with engaging plots., Appreciation for films that combine drama with other elements, such as crime or romance.. Disliked patterns: Dislike for poorly rated comedies that do not resonate with the user., Negative reception of action films that fail to deliver engaging narratives..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them positively.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user appreciates dramatic narratives, as indicated by several favorable ratings.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user shows a preference for action films, with multiple ratings of 3 or higher.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user is drawn to crime-related stories, reflected in their ratings for films in this genre.",
+          "taste": "Crime"
+        },
+        {
+          "reason": "The user enjoys fantasy elements, as seen in their positive ratings for films that incorporate these themes.",
+          "taste": "Fantasy"
+        }
+      ]
+    },
+    "user_id": 3336
+  }
+}

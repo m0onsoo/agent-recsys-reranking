@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "949d137c3ea1626fec63d36d9298926546f708d7a151dd6a490711e53477a35b",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1526,
+      24,
+      48,
+      1284,
+      6,
+      1254,
+      322,
+      670,
+      2211,
+      2089
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "80319d59306a44839cef47ee3b5bb000"
+    ],
+    "sampled_item_ids": [
+      45,
+      48,
+      49,
+      129,
+      247,
+      322,
+      347,
+      415,
+      501,
+      518,
+      563,
+      662,
+      670,
+      709,
+      1106,
+      1236,
+      1284,
+      1452,
+      1493,
+      1502,
+      1523,
+      1627,
+      2211,
+      2239,
+      2517
+    ],
+    "seed": 42,
+    "source_hash": "dd4d35359fdb21fb7105c60b91a7d46c7ba231768aa8b4851a41f9aa842b1db7",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1315,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Zhu Xu",
+          "Quanxin Pu",
+          "Jiang Wu",
+          "He Zeng"
+        ],
+        "country": [
+          "China"
+        ],
+        "director": "Zhang Yang",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "Chinese",
+        "overview": "An aged father and his younger, mentally challenged son have been working hard every day to keep the bathhouse running for a motley group of regular customers. When his elder son, who left years ago to seek his fortune in the southern city of Shenzhen, abruptly returns one day, it once again puts under stress the long-broken father-son ties. Presented as a light-hearted comedy, Shower explores the value of family, friendship, and tradition.",
+        "release_date": "1999-09-13",
+        "release_year": "1999",
+        "title": "Shower (Xizhao)"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ben Kingsley",
+          "Ralph Fiennes",
+          "Caroline Goodall"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "release_date": "1993-11-29",
+        "release_year": "1993",
+        "title": "Schindler's List"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Brock Peters",
+          "James Anderson",
+          "Mary Badham"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mulligan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In a small Alabama town in the 1930s, scrupulously honest and highly respected lawyer, Atticus Finch puts his career on the line when he agrees to represent Tom Robinson, a black man accused of rape. The trial and the events surrounding it are seen through the eyes of Finch's six-year-old daughter, Scout. While Robinson's trial gives the movie its momentum, there are plenty of anecdotal occurrences before and after the court date: Scout's ever-strengthening bond with older brother, Jem, her friendship with precocious young Dill Harris, her father's no-nonsense reactions to such life-and-death crises as a rampaging mad dog, and especially Scout's reactions to, and relationship with, Boo Radley, the reclusive 'village idiot' who turns out to be her salvation when she is attacked by a venomous bigot.",
+        "release_date": "1962-12-25",
+        "release_year": "1962",
+        "title": "To Kill a Mockingbird"
+      },
+      {
+        "cast": [
+          "Joseph Cotten",
+          "Alida Valli",
+          "Orson Welles",
+          "Trevor Howard"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Carol Reed",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Set in postwar Vienna, Austria, \"The Third Man\" stars Joseph Cotten as Holly Martins, a writer of pulp Westerns, who arrives penniless as a guest of his childhood chum Harry Lime, only to find him dead. Martins develops a conspiracy theory after learning of a \"third man\" present at the time of Harry's death, running into interference from British officer Maj. Calloway and falling head-over-heels for Harry's grief-stricken lover, Anna.",
+        "release_date": "1949-08-31",
+        "release_year": "1949",
+        "title": "Third Man, The"
+      },
+      {
+        "cast": [
+          "Cary Elwes",
+          "Robin Wright",
+          "Mandy Patinkin",
+          "André the Giant"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
+        "release_date": "1987-09-18",
+        "release_year": "1987",
+        "title": "Princess Bride, The"
+      },
+      {
+        "cast": [
+          "James Stewart",
+          "Kim Novak",
+          "Barbara Bel Geddes",
+          "Tom Helmore"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+        "release_date": "1958-05-09",
+        "release_year": "1958",
+        "title": "Vertigo"
+      },
+      {
+        "cast": [
+          "Cary Grant",
+          "Eva Marie Saint",
+          "James Mason",
+          "Leo G. Carroll"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alfred Hitchcock",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
+        "release_date": "1959-07-07",
+        "release_year": "1959",
+        "title": "North by Northwest"
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Al Pacino",
+          "James Caan",
+          "Richard S. Castellano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+        "release_date": "1972-03-14",
+        "release_year": "1972",
+        "title": "Godfather, The"
+      },
+      {
+        "cast": [
+          "Clive Owen",
+          "Kate Hardie",
+          "Alex Kingston",
+          "Gina McKee"
+        ],
+        "country": [
+          "Germany",
+          "France",
+          "Ireland",
+          "United Kingdom"
+        ],
+        "director": "Mike Hodges",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jack Manfred is an aspiring writer who to make ends meet, takes a job as a croupier. Jack remains an observer, knowing that everything in life is a gamble and that gamblers are born to lose. Inevitably, he gets sucked into the world of the casino which takes its toll on his relationships and the novel he is writing.",
+        "release_date": "1998-06-25",
+        "release_year": "1998",
+        "title": "Croupier"
+      },
+      {
+        "cast": [
+          "Michael Douglas",
+          "Tobey Maguire",
+          "Frances McDormand",
+          "Katie Holmes"
+        ],
+        "country": [
+          "Germany",
+          "Japan",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Curtis Hanson",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Grady (Michael Douglas) is a 50-ish English professor who hasn't had a thing published in years -- not since he wrote his award winning \"Great American Novel\" 7 years ago. This weekend proves even worse than he could imagine as he finds himself reeling from one misadventure to another in the company of a new wonder boy author.",
+        "release_date": "2000-02-22",
+        "release_year": "2000",
+        "title": "Wonder Boys"
+      }
+    ],
+    "raw_user_id": "1315",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 75
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.49551105278240176
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like thriller and mystery.",
+        "Consistent enjoyment of films that feature strong character development and emotional narratives.",
+        "Positive reception of films that incorporate humor alongside serious themes."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user consistently rates drama films highly, indicating a strong preference for character-driven narratives and emotional depth.); Enjoyment of Comedy (The user rates several comedies positively, suggesting a taste for humor and lighthearted storytelling.); Interest in Thrillers and Mysteries (The user shows a liking for thriller and mystery genres, as evidenced by high ratings for films that create suspense and intrigue.); Fondness for Romance (The user rates romantic films well, indicating an appreciation for love stories and emotional connections.); Affinity for Action and Adventure (The user enjoys action and adventure films, as reflected in high ratings for movies that feature excitement and dynamic storytelling.). Liked patterns: High ratings for films that blend drama with other genres like thriller and mystery., Consistent enjoyment of films that feature strong character development and emotional narratives., Positive reception of films that incorporate humor alongside serious themes.. Disliked patterns: no repeated disliked pattern identified.",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for character-driven narratives and emotional depth.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user rates several comedies positively, suggesting a taste for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for thriller and mystery genres, as evidenced by high ratings for films that create suspense and intrigue.",
+          "taste": "Interest in Thrillers and Mysteries"
+        },
+        {
+          "reason": "The user rates romantic films well, indicating an appreciation for love stories and emotional connections.",
+          "taste": "Fondness for Romance"
+        },
+        {
+          "reason": "The user enjoys action and adventure films, as reflected in high ratings for movies that feature excitement and dynamic storytelling.",
+          "taste": "Affinity for Action and Adventure"
+        }
+      ]
+    },
+    "user_id": 1315
+  }
+}

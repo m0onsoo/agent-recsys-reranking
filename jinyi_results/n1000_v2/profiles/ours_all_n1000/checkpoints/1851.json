@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "ba56445a16130baa0daed8ccf5a101ef642af8bbace23f973c02f1d6655907be",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      659,
+      1018,
+      346,
+      3159,
+      2558,
+      896,
+      969,
+      1217,
+      2237,
+      407
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "05f0afa1cbc34026ad31d4200b60a7f8"
+    ],
+    "sampled_item_ids": [
+      85,
+      113,
+      193,
+      249,
+      318,
+      498,
+      518,
+      530,
+      652,
+      896,
+      1004,
+      1176,
+      1191,
+      1195,
+      1267,
+      1358,
+      1522,
+      1673,
+      1675,
+      1874,
+      1954,
+      2026,
+      2169,
+      2314,
+      2879
+    ],
+    "seed": 42,
+    "source_hash": "dc0acc3d81d482978c4eadf57660642ad14781e779e341ffaa174ff8fc59fb94",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1851,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "unemployed"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Steve Martin",
+          "Madeline Kahn",
+          "Robert Klein",
+          "Anthony LaPaglia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nora Ephron",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The events focus around a crisis hotline business on one crazy night during the Christmas holidays.",
+        "release_date": "1994-12-21",
+        "release_year": "1994",
+        "title": "Mixed Nuts"
+      },
+      {
+        "cast": [
+          "John Hurt",
+          "Richard Burton",
+          "Suzanna Hamilton",
+          "Cyril Cusack"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Michael Radford",
+        "genres": [
+          "Drama",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "George Orwell's novel of a totalitarian future society in which a man whose daily work is rewriting history tries to rebel by falling in love.",
+        "release_date": "1984-10-10",
+        "release_year": "1984",
+        "title": "Nineteen Eighty-Four"
+      },
+      {
+        "cast": [
+          "Brenda Blethyn",
+          "Michael Caine",
+          "Ewan McGregor",
+          "Jane Horrocks"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Mark Herman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "After the death of her father, Little Voice or LV becomes a virtual recluse, never going out and hardly ever saying a word. She just sits in her bedroom listening to her father's collection of old records of Shirley Bassey, Marilyn Monroe and various other famous female singers. But at night time, LV sings, imitating these great singers with surprising accuracy. One night she is overheard by one of her mother's boyfriends, who happens to be a talent agent. He manages to convince her that her talent is special and arranges for her to perform at the local night club, but several problems arise.",
+        "release_date": "1998-11-05",
+        "release_year": "1998",
+        "title": "Little Voice"
+      },
+      {
+        "cast": [
+          "Kate Winslet",
+          "Christopher Eccleston",
+          "Liam Cunningham",
+          "Rachel Griffiths"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Michael Winterbottom",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "In late 19th-century England, Jude aspires to be an academic, but is hobbled by his blue-collar background. Instead, he works as a stonemason and is trapped in an unloving marriage to a farmer's daughter named Arabella. But when his wife leaves him, Jude sees an opportunity to improve himself. He moves to the city and begins an affair with his married cousin, Sue, courting tragedy every step of the way.",
+        "release_date": "1996-02-06",
+        "release_year": "1996",
+        "title": "Jude"
+      },
+      {
+        "cast": [
+          "Willem Dafoe",
+          "Norman Reedus",
+          "Sean Patrick Flanery",
+          "David Della Rocco"
+        ],
+        "country": [
+          "Canada",
+          "United States of America"
+        ],
+        "director": "Troy Duffy",
+        "genres": [
+          "Action",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "With a God-inspired moral obligation to act against evil, twin brothers Conner and Murphy set out to rid Boston of criminals. However, rather than working within the system, these Irish Americans decide to take swift retribution into their own hands.",
+        "release_date": "1999-01-22",
+        "release_year": "1999",
+        "title": "Boondock Saints, The"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Gary Oldman",
+          "Glenn Close",
+          "Wendy Crewson"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Russian terrorists conspire to hijack the aircraft with the president and his family on board. The commander in chief finds himself facing an impossible predicament: give in to the terrorists and sacrifice his family, or risk everything to uphold his principles - and the integrity of the nation.",
+        "release_date": "1997-07-25",
+        "release_year": "1997",
+        "title": "Air Force One"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "John Lithgow",
+          "Helen Mirren",
+          "Bob Balaban"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Peter Hyams",
+        "genres": [
+          "Mystery",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "This is a sequel to 2001 A Space Odyssey. It is now 2010 and both the Americans and the Russians are racing to get to Jupiter to investigate the black monolith (similar to the one found in Lunar Crater Clavius) which was found by the U.S.S. Discovery in orbit around Jupiter's moons. The U.S.S. Discovery's orbit is rapidly decaying and it will crash into IO but the Americans cannot get there in time to save U.S.S. Discovery. The Russians can get to Jupiter in time but only the Americans have the knowledge to access and awaken the U.S.S. Discovery's H.A.L.9000 sentient computer. This forces a joint American-Soviet space expedition against a backdrop of growing global tensions. The combined expedition is seeking answers to several mysteries. What is the significance of the black monolith? Why did H.A.L.9000 act so bizarrely and terminate 4 of 5 of the U.S.S. Discovery's crew? What happened to David Bowman? Along the way, curious data is detected  ...",
+        "release_date": "1984-12-06",
+        "release_year": "1984",
+        "title": "2010"
+      },
+      {
+        "cast": [
+          "Robert Hays",
+          "Julie Hagerty",
+          "Lloyd Bridges",
+          "Chad Everett"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ken Finkleman",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A faulty computer causes a passenger space shuttle to head straight for the sun, and man-with-a-past, Ted Striker must save the day and get the shuttle back on track – again – all the while trying to patch up his relationship with Elaine.",
+        "release_date": "1982-12-10",
+        "release_year": "1982",
+        "title": "Airplane II: The Sequel"
+      },
+      {
+        "cast": [
+          "Piper Perabo",
+          "Adam Garcia",
+          "John Goodman",
+          "Izabella Miko"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David McNally",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Graced with a velvet voice, 21-year-old Violet Sanford heads to New York to pursue her dream of becoming a songwriter only to find her aspirations sidelined by the accolades and notoriety she receives at her \"day\" job as a barmaid at Coyote Ugly. The \"Coyotes\" as they are affectionately called tantalize customers and the media alike with their outrageous antics, making Coyote Ugly the watering hole for guys on the prowl.",
+        "release_date": "2000-07-30",
+        "release_year": "2000",
+        "title": "Coyote Ugly"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Heath Ledger",
+          "Joely Richardson",
+          "Jason Isaacs"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Roland Emmerich",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "After proving himself on the field of battle in the French and Indian War, Benjamin Martin wants nothing more to do with such things, preferring the simple life of a farmer. But when his son Gabriel enlists in the army to defend their new nation, America, against the British, Benjamin reluctantly returns to his old life to protect his son.",
+        "release_date": "2000-06-28",
+        "release_year": "2000",
+        "title": "Patriot, The"
+      }
+    ],
+    "raw_user_id": "1851",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 404
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8989247621511202
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative ratings for horror films",
+        "Dislike for straightforward thrillers",
+        "Low ratings for romantic comedies"
+      ],
+      "liked_patterns": [
+        "Positive ratings for drama films",
+        "Enjoyment of action and thriller combinations",
+        "Appreciation for comedic elements"
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for character-driven narratives.); Interest in Action and Thriller (The user enjoys action and thriller genres, as evidenced by multiple ratings of 3 or above in these categories.); Enjoyment of Comedy (The user has rated several comedies positively, suggesting a preference for humor in films.); Fascination with Sci-Fi Elements (The user shows a liking for sci-fi themes, particularly when combined with other genres.); Preference for Horror with a Twist (The user has rated some horror films positively, indicating an interest in unique or unconventional horror narratives.). Liked patterns: Positive ratings for drama films, Enjoyment of action and thriller combinations, Appreciation for comedic elements. Disliked patterns: Negative ratings for horror films, Dislike for straightforward thrillers, Low ratings for romantic comedies.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user enjoys action and thriller genres, as evidenced by multiple ratings of 3 or above in these categories.",
+          "taste": "Interest in Action and Thriller"
+        },
+        {
+          "reason": "The user has rated several comedies positively, suggesting a preference for humor in films.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for sci-fi themes, particularly when combined with other genres.",
+          "taste": "Fascination with Sci-Fi Elements"
+        },
+        {
+          "reason": "The user has rated some horror films positively, indicating an interest in unique or unconventional horror narratives.",
+          "taste": "Preference for Horror with a Twist"
+        }
+      ]
+    },
+    "user_id": 1851
+  }
+}

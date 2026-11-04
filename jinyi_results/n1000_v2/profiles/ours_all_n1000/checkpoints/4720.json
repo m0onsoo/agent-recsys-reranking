@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "16cc9ff733ed1826cb37e68a735649196959dd3cd482163bf84c8c068030e8c3",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      791,
+      808,
+      220,
+      1532,
+      902,
+      264,
+      1934,
+      501,
+      513,
+      214
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      5,
+      86,
+      105,
+      135,
+      185,
+      214,
+      220,
+      244,
+      274,
+      333,
+      353,
+      364,
+      369,
+      373,
+      513,
+      542,
+      791,
+      902,
+      930,
+      936,
+      1107,
+      1532,
+      1692,
+      1934,
+      2582
+    ],
+    "seed": 42,
+    "source_hash": "2873af7626077ddef350b8728b4f9bf51b9211b4578d3f4d1a6d8434ea4fc60d",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4720,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "artist"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Michael C. Williams",
+          "Heather Donahue",
+          "Joshua Leonard",
+          "Bob Griffith"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Daniel Myrick",
+        "genres": [
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
+        "release_date": "1999-07-14",
+        "release_year": "1999",
+        "title": "Blair Witch Project, The"
+      },
+      {
+        "cast": [
+          "Molly Shannon",
+          "Will Ferrell",
+          "Elaine Hendrix",
+          "Harland Williams"
+        ],
+        "country": [
+          "Canada"
+        ],
+        "director": "Bruce McCulloch",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Orphan Mary Katherine Gallagher, an ugly duckling at St. Monica High School, has a dream: to be kissed soulfully. She decides she can realize this dream if she becomes a superstar, so her prayers, her fantasies, and her conversations with her only friend focus on achieving super-stardom.",
+        "release_date": "1999-10-08",
+        "release_year": "1999",
+        "title": "Superstar"
+      },
+      {
+        "cast": [
+          "Ian McKellen",
+          "Brendan Fraser",
+          "Lynn Redgrave",
+          "Lolita Davidovich"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Bill Condon",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "It's 1957, and Whale's heyday as the director of \"Frankenstein,\" \"Bride of Frankenstein\" and \"The Invisible Man\" is long behind him. Retired and a semi-recluse, he lives his days accompanied only by images from his past. When his dour housekeeper, Hannah, hires a handsome young gardener, the flamboyant director and simple yard man develop an unlikely friendship, which will change them forever.",
+        "release_date": "1998-01-21",
+        "release_year": "1998",
+        "title": "Gods and Monsters"
+      },
+      {
+        "cast": [
+          "Deborah Kerr",
+          "Yul Brynner",
+          "Rita Moreno",
+          "Martin Benson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Walter Lang",
+        "genres": [
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Mrs. Anna Leonowens and her son Louis arrive in Bangkok, where she has contracted to teach English to the children of the royal household. She threatens to leave when the house she had been promised is not available, but falls in love with the children.",
+        "release_date": "1956-06-29",
+        "release_year": "1956",
+        "title": "King and I, The"
+      },
+      {
+        "cast": [
+          "Hank Azaria",
+          "Rubén Blades",
+          "Joan Cusack",
+          "John Cusack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tim Robbins",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A true story of politics and art in the 1930s USA, centered around a leftist musical drama and attempts to stop its production.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Cradle Will Rock, The"
+      },
+      {
+        "cast": [
+          "Johnny Depp",
+          "Ian McDiarmid",
+          "Christina Ricci",
+          "Casper Van Dien"
+        ],
+        "country": [
+          "Germany",
+          "United States of America"
+        ],
+        "director": "Tim Burton",
+        "genres": [
+          "Horror",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "New York detective Ichabod Crane is sent to Sleepy Hollow to investigate a series of mysterious deaths in which the victims are found beheaded. But the locals believe the culprit to be none other than the ghost of the legendary Headless Horseman.",
+        "release_date": "1999-11-18",
+        "release_year": "1999",
+        "title": "Sleepy Hollow"
+      },
+      {
+        "cast": [
+          "Leonardo DiCaprio",
+          "Guillaume Canet",
+          "Tilda Swinton",
+          "Virginie Ledoyen"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Danny Boyle",
+        "genres": [
+          "Adventure",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Twenty-something Richard travels to Thailand and finds himself in possession of a strange map. Rumours state that it leads to a solitary beach paradise, a tropical bliss - excited and intrigued, he sets out to find it.",
+        "release_date": "2000-02-11",
+        "release_year": "2000",
+        "title": "Beach, The"
+      },
+      {
+        "cast": [
+          "Carlo Cecchi",
+          "Irene Grazioli",
+          "Anita Laurenzi",
+          "Tommaso Puntelli"
+        ],
+        "country": [
+          "Canada",
+          "Italy",
+          "United Kingdom"
+        ],
+        "director": "François Girard",
+        "genres": [
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "Spans 300 years in the life of one famed musical instrument that winds up in present-day Montreal on the auction block. Crafted by the Italian master Bussotti (Cecchi) in 1681, the red violin derives its unusual color from the human blood mixed into the finish. With this legacy, the violin travels to Austria, England, China, and Canada, leaving both beauty and tragedy in its wake.",
+        "release_date": "1998-09-10",
+        "release_year": "1998",
+        "title": "Red Violin, The (Le Violon rouge)"
+      },
+      {
+        "cast": [
+          "Jeff Daniels",
+          "Harley Jane Kozak",
+          "Garette Ratliff Henson",
+          "Marlene Katz"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Frank Marshall",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A large spider from the jungles of South America is accidentally transported in a crate with a dead body to America where it mates with a local spider. Soon after, the residents of a small California town disappear as the result of spider bites from the deadly spider offspring. It's up to a couple of doctors with the help of an insect exterminator to annihilate these eight legged freaks.",
+        "release_date": "1990-08-09",
+        "release_year": "1990",
+        "title": "Arachnophobia"
+      },
+      {
+        "cast": [
+          "Roy Scheider",
+          "Robert Shaw",
+          "Richard Dreyfuss",
+          "Lorraine Gary"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Horror"
+        ],
+        "language": "English",
+        "overview": "An insatiable great white shark terrorizes the townspeople of Amity Island, The police chief, an oceanographer and a grizzled shark hunter seek to destroy the bloodthirsty beast.",
+        "release_date": "1975-06-18",
+        "release_year": "1975",
+        "title": "Jaws"
+      }
+    ],
+    "raw_user_id": "4720",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 39
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 1.1419809456041883
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that attempt to mix genres unsuccessfully",
+        "Dislike for certain action films that lack depth",
+        "Negative reception of films that do not resonate emotionally"
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with other genres",
+        "Strong appreciation for dramas that explore complex themes",
+        "Positive reception of animated films that appeal to both children and adults"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user rates multiple comedies highly, indicating a strong preference for humor in films.); Enjoyment of Drama (Several dramas receive high ratings, suggesting a deep appreciation for emotional and narrative depth.); Interest in Animation (The user enjoys animated films, particularly those that blend comedy and children's themes.); Fondness for Thrillers (The user rates thrillers highly, indicating a taste for suspenseful and engaging narratives.); Preference for Unique Storytelling (The user enjoys films with unconventional plots and themes, as seen in their ratings.). Liked patterns: High ratings for comedies that blend humor with other genres, Strong appreciation for dramas that explore complex themes, Positive reception of animated films that appeal to both children and adults. Disliked patterns: Low ratings for films that attempt to mix genres unsuccessfully, Dislike for certain action films that lack depth, Negative reception of films that do not resonate emotionally.",
+      "unique_tastes": [
+        {
+          "reason": "The user rates multiple comedies highly, indicating a strong preference for humor in films.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "Several dramas receive high ratings, suggesting a deep appreciation for emotional and narrative depth.",
+          "taste": "Enjoyment of Drama"
+        },
+        {
+          "reason": "The user enjoys animated films, particularly those that blend comedy and children's themes.",
+          "taste": "Interest in Animation"
+        },
+        {
+          "reason": "The user rates thrillers highly, indicating a taste for suspenseful and engaging narratives.",
+          "taste": "Fondness for Thrillers"
+        },
+        {
+          "reason": "The user enjoys films with unconventional plots and themes, as seen in their ratings.",
+          "taste": "Preference for Unique Storytelling"
+        }
+      ]
+    },
+    "user_id": 4720
+  }
+}

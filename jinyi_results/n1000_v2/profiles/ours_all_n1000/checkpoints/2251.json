@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "bc8475c0f3e92ab5173bf97c33b9924f0af3899c3930d038cab5a651bde820a0",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2476,
+      1665,
+      731,
+      20,
+      199,
+      1312,
+      1880,
+      1024,
+      62,
+      3277
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "26d5ce9a2c974bedaf0da6972242361b"
+    ],
+    "sampled_item_ids": [
+      175,
+      183,
+      276,
+      322,
+      336,
+      380,
+      397,
+      427,
+      440,
+      531,
+      606,
+      719,
+      740,
+      815,
+      888,
+      995,
+      1088,
+      1312,
+      1394,
+      1495,
+      1955,
+      2295,
+      2494,
+      2512,
+      2533
+    ],
+    "seed": 42,
+    "source_hash": "c7414d9533d18dc2ffb56ee2cc8a1d539f5f9f3cee787fa0212b494cdc44714b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2251,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "sales/marketing"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Irène Jacob",
+          "Jean-Louis Trintignant",
+          "Jean-Pierre Lorit",
+          "Frédérique Feder"
+        ],
+        "country": [
+          "France",
+          "Poland",
+          "Switzerland"
+        ],
+        "director": "Krzysztof Kieślowski",
+        "genres": [
+          "Drama"
+        ],
+        "language": "French",
+        "overview": "Red This is the third film from the trilogy by Kieślowski. “Red” meaning brotherliness. Here Kieślowski masterly tells strange coincidentally linked stories in the most packed work.",
+        "release_date": "1994-05-27",
+        "release_year": "1994",
+        "title": "Three Colors: Red"
+      },
+      {
+        "cast": [
+          "Mira Sorvino",
+          "Jeremy Northam",
+          "Giancarlo Giannini",
+          "Josh Brolin"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Guillermo del Toro",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A disease carried by common cockroaches is killing Manhattan children. In an effort to stop the epidemic an entomologist, Susan Tyler, creates a mutant breed of insect that secretes a fluid to kill the roaches. This mutant breed was engineered to die after one generation, but three years later Susan finds out that the species has survived and evolved into a large, gruesome monster that can mimic human form.",
+        "release_date": "1997-08-22",
+        "release_year": "1997",
+        "title": "Mimic"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Joe Don Baker",
+          "Dana Wheeler-Nicholson",
+          "Richard Libertini"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Ritchie",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A veritable chameleon, investigative reporter Irwin \"Fletch\" Fletcher might drive his editor up the wall, but he always produces great pieces for the newspaper. When his next story is about the drug trade taking place on the beach, Fletch goes undercover as a homeless man. Unaware of Fletch's true identity, businessman Alan Stanwyk offers Fletch $50,000 to kill him. Intrigued, Fletch decides to unearth the full story behind the offer.",
+        "release_date": "1985-05-31",
+        "release_year": "1985",
+        "title": "Fletch"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Elizabeth Perkins",
+          "Robert Loggia",
+          "John Heard"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Penny Marshall",
+        "genres": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "A young boy, Josh Baskin makes a wish at a carnival machine to be big. He wakes up the following morning to find that it has been granted and his body has grown older overnight. But he is still the same 13-year-old boy inside. Now he must learn how to cope with the unfamiliar world of grown-ups including getting a job and having his first romantic encounter with a woman. What will he find out about this strange world?",
+        "release_date": "1988-06-03",
+        "release_year": "1988",
+        "title": "Big"
+      },
+      {
+        "cast": [
+          "Chevy Chase",
+          "Rodney Dangerfield",
+          "Ted Knight",
+          "Michael O'Keefe"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Harold Ramis",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At an exclusive country club, an ambitious young caddy, Danny Noonan, eagerly pursues a caddy scholarship in hopes of attending college and, in turn, avoiding a job at the lumber yard. In order to succeed, he must first win the favour of the elitist Judge Smails, and then the caddy golf tournament which Smails sponsors.",
+        "release_date": "1980-07-25",
+        "release_year": "1980",
+        "title": "Caddyshack"
+      },
+      {
+        "cast": [
+          "Drew Barrymore",
+          "Diva Gray",
+          "Natasha Lyonne",
+          "Edward Norton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Musical",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "A New York girl sets her father up with a beautiful woman in a shaky marriage while her half sister gets engaged.",
+        "release_date": "1996-12-06",
+        "release_year": "1996",
+        "title": "Everyone Says I Love You"
+      },
+      {
+        "cast": [
+          "Madonna",
+          "Sean Penn",
+          "Paul Freeman",
+          "Richard Griffiths"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Jim Goddard",
+        "genres": [
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "Glendon Wasey is a fortune hunter looking for a fast track out of China. Gloria Tatlock is a missionary nurse seeking the curing powers of opium for her patients. Fate sets them on a hectic, exotic, and even romantic quest for stolen drugs. But they are up against every thug and smuggler in Shangai.",
+        "release_date": "1986-08-29",
+        "release_year": "1986",
+        "title": "Shanghai Surprise"
+      },
+      {
+        "cast": [
+          "Andie MacDowell",
+          "Peter Gallagher",
+          "James Spader",
+          "Laura San Giacomo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Soderbergh",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A sexually repressed woman's husband is having an affair with her sister. The arrival of a visitor with a rather unusual fetish changes everything.",
+        "release_date": "1989-08-18",
+        "release_year": "1989",
+        "title": "Sex, Lies, and Videotape"
+      },
+      {
+        "cast": [
+          "James Dean",
+          "Natalie Wood",
+          "Sal Mineo",
+          "Ann Doran"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Ray",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After moving to a new town, troublemaking teen Jim Stark is supposed to have a clean slate, although being the new kid in town brings its own problems. While searching for some stability, Stark forms a bond with a disturbed classmate, Plato, and falls for local girl Judy. However, Judy is the girlfriend of neighborhood tough, Buzz. When Buzz violently confronts Jim and challenges him to a drag race, the new kid's real troubles begin.",
+        "release_date": "1955-10-27",
+        "release_year": "1955",
+        "title": "Rebel Without a Cause"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "Jim Broadbent",
+          "Natasha Richardson",
+          "Adrian Dunbar"
+        ],
+        "country": [
+          "Ireland",
+          "United Kingdom"
+        ],
+        "director": "John Irvin",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Scandal and mystery reign following the arrival of Edwina in a small Irish town populated entirely by widows. Edwina quickly falls out with the locals while also falling in with the son of the community's leader",
+        "release_date": "1994-05-13",
+        "release_year": "1994",
+        "title": "Widows' Peak"
+      }
+    ],
+    "raw_user_id": "2251",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 331
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.465412300310827
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Negative rating for films that are primarily focused on horror without comedic elements."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend drama with other genres like comedy and romance.",
+        "Positive reception of films featuring strong narratives and character development.",
+        "Consistent enjoyment of films with comedic elements, regardless of sub-genre."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user consistently rates drama films highly, indicating a strong preference for emotional and narrative depth.); Enjoyment of Comedy (The user rates a variety of comedies positively, suggesting a fondness for humor and lighthearted storytelling.); Interest in Thrillers (The user shows a liking for thriller elements, as evidenced by high ratings for films that incorporate suspense and tension.); Affinity for Romance (The user enjoys romantic themes, as reflected in positive ratings for films that blend romance with other genres.); Engagement with Sci-Fi (The user rates several sci-fi films favorably, indicating an interest in imaginative and speculative storytelling.). Liked patterns: High ratings for films that blend drama with other genres like comedy and romance., Positive reception of films featuring strong narratives and character development., Consistent enjoyment of films with comedic elements, regardless of sub-genre.. Disliked patterns: Negative rating for films that are primarily focused on horror without comedic elements..",
+      "unique_tastes": [
+        {
+          "reason": "The user consistently rates drama films highly, indicating a strong preference for emotional and narrative depth.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user rates a variety of comedies positively, suggesting a fondness for humor and lighthearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for thriller elements, as evidenced by high ratings for films that incorporate suspense and tension.",
+          "taste": "Interest in Thrillers"
+        },
+        {
+          "reason": "The user enjoys romantic themes, as reflected in positive ratings for films that blend romance with other genres.",
+          "taste": "Affinity for Romance"
+        },
+        {
+          "reason": "The user rates several sci-fi films favorably, indicating an interest in imaginative and speculative storytelling.",
+          "taste": "Engagement with Sci-Fi"
+        }
+      ]
+    },
+    "user_id": 2251
+  }
+}

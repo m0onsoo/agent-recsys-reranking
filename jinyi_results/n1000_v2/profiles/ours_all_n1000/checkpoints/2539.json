@@ -1,0 +1,343 @@
+{
+  "checkpoint_hash": "5329ad53593ddb416b4a06a32ea796260957296ec490c35bb4e25ed4c276bfc9",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      2922,
+      45,
+      58,
+      98,
+      278,
+      644,
+      211,
+      1476,
+      749,
+      1042
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "8c2ab670e08544978b43db3d39c0d5c2"
+    ],
+    "sampled_item_ids": [
+      7,
+      45,
+      58,
+      63,
+      98,
+      125,
+      133,
+      157,
+      187,
+      210,
+      211,
+      213,
+      214,
+      215,
+      265,
+      278,
+      644,
+      665,
+      670,
+      715,
+      721,
+      749,
+      768,
+      1042,
+      1476
+    ],
+    "seed": 42,
+    "source_hash": "a9aaa2ca311b20b99983cebd4943ae69f446499fce21aae4f331e321d25efe0c",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 2539,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "35-44",
+      "gender": "male",
+      "occupation": "executive/managerial"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Whoopi Goldberg",
+          "Michael Ontkean",
+          "Kathleen Quinlan",
+          "Neil Patrick Harris"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Mulligan",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "David is a teenager whose parents are in a deteriorating marriage after their infant daughter dies. Clara is a chambermaid at a Jamaican resort who's hired to be a housekeeper. She and David develop a close bond, opening his eyes and heart to new experiences, and eventually leading to a disturbing secret in Clara's past.",
+        "release_date": "1988-10-07",
+        "release_year": "1988",
+        "title": "Clara's Heart"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Peter Cushing"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "release_date": "1977-05-25",
+        "release_year": "1977",
+        "title": "Star Wars: Episode IV - A New Hope"
+      },
+      {
+        "cast": [
+          "Kevin Costner",
+          "Sean Connery",
+          "Charles Martin Smith",
+          "Andy García"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brian De Palma",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Young Treasury Agent Elliot Ness arrives in Chicago and is determined to take down Al Capone, but it's not going to be easy because Capone has the police in his pocket. Ness meets Jimmy Malone, a veteran patrolman and probably the most honorable one on the force. He asks Malone to help him get Capone, but Malone warns him that if he goes after Capone, he is going to war.",
+        "release_date": "1987-06-02",
+        "release_year": "1987",
+        "title": "Untouchables, The"
+      },
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Ed Harris",
+          "Mary Elizabeth Mastrantonio",
+          "Michael Biehn",
+          "Leo Burmester"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
+        "release_date": "1989-08-09",
+        "release_year": "1989",
+        "title": "Abyss, The"
+      },
+      {
+        "cast": [
+          "William Shatner",
+          "Leonard Nimoy",
+          "DeForest Kelley",
+          "James Doohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Nicholas Meyer",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Admiral James T. Kirk is feeling old; the prospect of accompanying his old ship the Enterprise on a two week cadet cruise is not making him feel any younger. But the training cruise becomes a a life or death struggle when Khan escapes from years of exile and captures the power of creation itself.",
+        "release_date": "1982-06-03",
+        "release_year": "1982",
+        "title": "Star Trek: The Wrath of Khan"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Alan Rickman",
+          "Alexander Godunov",
+          "Bonnie Bedelia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "NYPD cop, John McClane's plan to reconcile with his estranged wife is thrown for a serious loop when minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Die Hard"
+      },
+      {
+        "cast": [
+          "Lee Marvin",
+          "Ernest Borgnine",
+          "Charles Bronson",
+          "Jim Brown"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Robert Aldrich",
+        "genres": [
+          "Action",
+          "War"
+        ],
+        "language": "English",
+        "overview": "12 American military prisoners in World War II are ordered to infiltrate a well-guarded enemy château and kill the Nazi officers vacationing there. The soldiers, most of whom are facing death sentences for a variety of violent crimes, agree to the mission and the possible commuting of their sentences.",
+        "release_date": "1967-06-15",
+        "release_year": "1967",
+        "title": "Dirty Dozen, The"
+      },
+      {
+        "cast": [
+          "Charlton Heston",
+          "Roddy McDowall",
+          "Kim Hunter",
+          "Maurice Evans"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Franklin J. Schaffner",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "An  U.S. Spaceship lands on a desolate planet, stranding astronaut Taylor in a world dominated by apes, 2000 years into the future, who use a primitive race of humans for experimentation and sport. Soon Taylor finds himself among the hunted, his life in the hands of a benevolent chimpanzee scientist.",
+        "release_date": "1968-02-07",
+        "release_year": "1968",
+        "title": "Planet of the Apes"
+      },
+      {
+        "cast": [
+          "Christopher Lambert",
+          "Roxanne Hart",
+          "Clancy Brown",
+          "Sean Connery"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Russell Mulcahy",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "He fought his first battle on the Scottish Highlands in 1536. He will fight his greatest battle on the streets of New York City in 1986. His name is Connor MacLeod. He is immortal.",
+        "release_date": "1986-03-07",
+        "release_year": "1986",
+        "title": "Highlander"
+      }
+    ],
+    "raw_user_id": "2539",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 33
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.6935960038731378
+      },
+      "diversity": {
+        "label": "selective viewer",
+        "level": 1,
+        "value": 12
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that lack engaging plots or character development",
+        "Negative response to films with weak narratives in the action genre"
+      ],
+      "liked_patterns": [
+        "Preference for high ratings in action and sci-fi genres",
+        "Enjoyment of films with strong character arcs and moral dilemmas",
+        "Attraction to films that blend adventure with thrilling elements"
+      ],
+      "summary": "Unique tastes: Action and Sci-Fi (A strong preference for action-packed narratives that incorporate science fiction elements.); Thriller Elements (Enjoyment of films that build suspense and tension, often through action and sci-fi themes.); Adventure Themes (A consistent attraction to adventurous plots that involve exploration and challenges.); Strong Female Characters (Appreciation for films featuring strong female leads, as seen in some liked titles.); Crime and Drama (Interest in narratives that explore crime and its consequences, often intertwined with dramatic storytelling.). Liked patterns: Preference for high ratings in action and sci-fi genres, Enjoyment of films with strong character arcs and moral dilemmas, Attraction to films that blend adventure with thrilling elements. Disliked patterns: Dislike for films that lack engaging plots or character development, Negative response to films with weak narratives in the action genre.",
+      "unique_tastes": [
+        {
+          "reason": "A strong preference for action-packed narratives that incorporate science fiction elements.",
+          "taste": "Action and Sci-Fi"
+        },
+        {
+          "reason": "Enjoyment of films that build suspense and tension, often through action and sci-fi themes.",
+          "taste": "Thriller Elements"
+        },
+        {
+          "reason": "A consistent attraction to adventurous plots that involve exploration and challenges.",
+          "taste": "Adventure Themes"
+        },
+        {
+          "reason": "Appreciation for films featuring strong female leads, as seen in some liked titles.",
+          "taste": "Strong Female Characters"
+        },
+        {
+          "reason": "Interest in narratives that explore crime and its consequences, often intertwined with dramatic storytelling.",
+          "taste": "Crime and Drama"
+        }
+      ]
+    },
+    "user_id": 2539
+  }
+}

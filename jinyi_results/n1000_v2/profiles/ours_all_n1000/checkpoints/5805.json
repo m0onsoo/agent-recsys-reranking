@@ -1,0 +1,330 @@
+{
+  "checkpoint_hash": "40954aa604163310ffca15d1dc1a0c0e7298667488f072c2613ff3254ac7d474",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1232,
+      2694,
+      128,
+      3066,
+      618,
+      1201,
+      1393,
+      39,
+      1645,
+      649
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      20,
+      24,
+      45,
+      79,
+      125,
+      133,
+      135,
+      157,
+      390,
+      415,
+      448,
+      498,
+      636,
+      670,
+      798,
+      959,
+      1040,
+      1081,
+      1127,
+      1285,
+      1523,
+      1624,
+      1645,
+      1676,
+      2410
+    ],
+    "seed": 42,
+    "source_hash": "48648d2afd89e81e2ea8e4e3170504022270015a98baa9294942fdf42991448a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5805,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "female",
+      "occupation": "other or not specified"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Charlton Heston",
+          "Janet Leigh",
+          "Orson Welles",
+          "Joseph Calleia"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Orson Welles",
+        "genres": [
+          "Crime",
+          "Film-Noir",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Stark, perverse story of murder, kidnapping, and police corruption in Mexican border town.",
+        "release_date": "1958-04-23",
+        "release_year": "1958",
+        "title": "Touch of Evil"
+      },
+      {
+        "cast": [
+          "Giulietta Masina",
+          "François Périer",
+          "Franca Marzi",
+          "Amedeo Nazzari"
+        ],
+        "country": [
+          "Italy",
+          "France"
+        ],
+        "director": "Federico Fellini",
+        "genres": [
+          "Drama"
+        ],
+        "language": "Italian",
+        "overview": "Rome, 1957. A woman, Cabiria, is robbed and left to drown by her boyfriend, Giorgio. Rescued, she resumes her life and tries her best to find happiness in a cynical world. Even when she thinks her struggles are over and she has found happiness and contentment, things may not be what they seem.",
+        "release_date": "1957-10-03",
+        "release_year": "1957",
+        "title": "Nights of Cabiria (Le Notti di Cabiria)"
+      },
+      {
+        "cast": [
+          "Harrison Ford",
+          "Karen Allen",
+          "Paul Freeman",
+          "Ronald Lacey"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Steven Spielberg",
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "language": "English",
+        "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+        "release_date": "1981-06-12",
+        "release_year": "1981",
+        "title": "Raiders of the Lost Ark"
+      },
+      {
+        "cast": [
+          "John Turturro",
+          "Christopher Walken",
+          "Susan Sarandon",
+          "Rufus Sewell"
+        ],
+        "country": [
+          "Spain",
+          "United States of America",
+          "Japan"
+        ],
+        "director": "John Turturro",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "It's the start of the 20th century, and Tuccio, resident playwright of a theatre repertory company offers the owners of the company his new play, \"Illuminata\". They reject it, saying it's not finished, and intrigue starts that involves influential critic Bevalaqua, theatre star Celimene, young lead actors and other theatre residents",
+        "release_date": "1998-05-21",
+        "release_year": "1998",
+        "title": "Illuminata"
+      },
+      {
+        "cast": [
+          "Gene Wilder",
+          "Zero Mostel",
+          "Dick Shawn",
+          "Kenneth Mars"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Brooks",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Broadway producer, Max Bialystock and his accountant, Leo Bloom plan to make money by charming little old ladies to invest in a production many times over what it will actually cost, and then put on a sure-fire flop, so nobody will ask for their money back – and what can be a more certain flop than a tasteless musical celebrating Hitler.",
+        "release_date": "1967-11-22",
+        "release_year": "1968",
+        "title": "Producers, The"
+      },
+      {
+        "cast": [
+          "Ben Affleck",
+          "Matt Damon",
+          "Linda Fiorentino",
+          "Jason Mewes"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The latest battle in the eternal war between Good and Evil has come to New Jersey in the late, late 20th Century. Angels, demons, apostles and prophets (of a sort) walk among the cynics and innocents of America and duke it out for the fate of humankind.",
+        "release_date": "1999-11-12",
+        "release_year": "1999",
+        "title": "Dogma"
+      },
+      {
+        "cast": [
+          "Armand Assante",
+          "Sherilyn Fenn",
+          "Kate Nelligan",
+          "Sean Young"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Carl Reiner",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A spoof of the late 80s and early 90s suspense thrillers and murder mysteries, including Basic Instinct, Sleeping With The Enemy, Cape Fear and others. A cop/attorney (yes he's both) is seduced by a woman while his wife is having an affair with a mechanic. Lots of other sublots and visual gags in the style of Naked Gun.",
+        "release_date": "1993-10-29",
+        "release_year": "1993",
+        "title": "Fatal Instinct"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Toni Collette",
+          "Olivia Williams",
+          "Haley Joel Osment"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "M. Night Shyamalan",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A psychological thriller about an eight year old boy named Cole Sear who believes he can see into the world of the dead. A child psychologist named Malcolm Crowe comes to Cole to help him deal with his problem, learning that he really can see ghosts of dead people.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Sixth Sense, The"
+      },
+      {
+        "cast": [
+          "Julie Andrews",
+          "James Garner",
+          "Robert Preston",
+          "Lesley Ann Warren"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Blake Edwards",
+        "genres": [
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "A struggling female soprano finds work playing a male female impersonator, but it complicates her personal life.",
+        "release_date": "1982-04-25",
+        "release_year": "1982",
+        "title": "Victor/Victoria"
+      },
+      {
+        "cast": [
+          "Gregory Peck",
+          "Audrey Hepburn",
+          "Eddie Albert",
+          "Hartley Power"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "William Wyler",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Overwhelmed by her suffocating schedule, touring European princess Ann takes off for a night while in Rome. When a sedative she took from her doctor kicks in, however, she falls asleep on a park bench and is found by an American reporter, Joe Bradley, who takes her back to his apartment for safety. At work the next morning, Joe finds out Ann's regal identity and bets his editor he can get exclusive interview with her, but romance soon gets in the way.",
+        "release_date": "1953-09-02",
+        "release_year": "1953",
+        "title": "Roman Holiday"
+      }
+    ],
+    "raw_user_id": "5805",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 121
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8421218290262683
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 17
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are purely horror or thriller without other engaging elements"
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure genres",
+        "Enjoyment of musicals and comedies",
+        "Appreciation for dramas with historical significance"
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.); Drama with Historical Context (The user appreciates dramas that explore significant historical events or themes, reflected in several highly rated films.); Musicals and Comedies (The user has a preference for musicals and comedies that blend humor with engaging storytelling, indicated by their ratings.); Fantasy Elements (The user is drawn to films that incorporate fantasy elements, as shown by their ratings for films that blend reality with imaginative concepts.); Romantic Themes (The user enjoys films that explore romantic relationships, as evidenced by their ratings for various romantic dramas and comedies.). Liked patterns: Strong preference for action and adventure genres, Enjoyment of musicals and comedies, Appreciation for dramas with historical significance. Disliked patterns: Dislike for films that are purely horror or thriller without other engaging elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys action-packed narratives with adventurous themes, as seen in multiple high-rated films.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates dramas that explore significant historical events or themes, reflected in several highly rated films.",
+          "taste": "Drama with Historical Context"
+        },
+        {
+          "reason": "The user has a preference for musicals and comedies that blend humor with engaging storytelling, indicated by their ratings.",
+          "taste": "Musicals and Comedies"
+        },
+        {
+          "reason": "The user is drawn to films that incorporate fantasy elements, as shown by their ratings for films that blend reality with imaginative concepts.",
+          "taste": "Fantasy Elements"
+        },
+        {
+          "reason": "The user enjoys films that explore romantic relationships, as evidenced by their ratings for various romantic dramas and comedies.",
+          "taste": "Romantic Themes"
+        }
+      ]
+    },
+    "user_id": 5805
+  }
+}

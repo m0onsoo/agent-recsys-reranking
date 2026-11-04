@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "0dece9fb8172e96b29be27105430112c82825bc70bd927570b13284238677026",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1579,
+      223,
+      147,
+      61,
+      217,
+      598,
+      904,
+      136,
+      434,
+      93
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "08956bedc7f4476689ad548477df8aec"
+    ],
+    "sampled_item_ids": [
+      7,
+      20,
+      42,
+      45,
+      129,
+      163,
+      169,
+      206,
+      211,
+      223,
+      252,
+      401,
+      434,
+      548,
+      712,
+      771,
+      846,
+      1023,
+      1069,
+      1110,
+      1146,
+      1181,
+      1353,
+      1372,
+      1483
+    ],
+    "seed": 42,
+    "source_hash": "cbeb79d10de701905cbfc2745661fee2d9abec42ff3c8b17fa35b9f05b264c01",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1018,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Lee Van Cleef",
+          "Gian Maria Volonté",
+          "Mario Brega"
+        ],
+        "country": [
+          "Italy",
+          "Spain",
+          "Germany"
+        ],
+        "director": "Sergio Leone",
+        "genres": [
+          "Western"
+        ],
+        "language": "Italian",
+        "overview": "Two bounty hunters are in pursuit of \"El Indio,\" one of the most wanted fugitives in the western territories, and his gang.",
+        "release_date": "1965-12-18",
+        "release_year": "1965",
+        "title": "For a Few Dollars More"
+      },
+      {
+        "cast": [
+          "Woody Harrelson",
+          "Juliette Lewis",
+          "Robert Downey Jr.",
+          "Tommy Lee Jones"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Oliver Stone",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Two victims of traumatized childhoods become lovers and psychopathic serial murderers irresponsibly glorified by the mass media.",
+        "release_date": "1994-08-25",
+        "release_year": "1994",
+        "title": "Natural Born Killers"
+      },
+      {
+        "cast": [
+          "Bruce Willis",
+          "Jeremy Irons",
+          "Samuel L. Jackson",
+          "Graham Greene"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John McTiernan",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"partner\" -- and his beloved city -- in a deadly game that demands their concentration.",
+        "release_date": "1995-05-19",
+        "release_year": "1995",
+        "title": "Die Hard: With a Vengeance"
+      },
+      {
+        "cast": [
+          "Liam Neeson",
+          "Ewan McGregor",
+          "Natalie Portman",
+          "Jake Lloyd"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Lucas",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Anakin Skywalker, a young slave strong with the Force, is discovered on Tatooine. Meanwhile, the evil Sith have returned, enacting their plot for revenge against the Jedi.",
+        "release_date": "1999-05-19",
+        "release_year": "1999",
+        "title": "Star Wars: Episode I - The Phantom Menace"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Honor Blackman",
+          "Gert Fröbe",
+          "Shirley Eaton"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Guy Hamilton",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Special agent 007 (Sean Connery) comes face to face with one of the most notorious villains of all time, and now he must outwit and outgun the powerful tycoon to prevent him from cashing in on a devious scheme to raid Fort Knox -- and obliterate the world's economy.",
+        "release_date": "1964-09-17",
+        "release_year": "1964",
+        "title": "Goldfinger"
+      },
+      {
+        "cast": [
+          "Paul Newman",
+          "George Kennedy",
+          "Luke Askew",
+          "Morgan Woodward"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stuart Rosenberg",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When petty criminal Luke Jackson is sentenced to two years in a Florida prison farm, he doesn't play by the rules of either the sadistic warden or the yard's resident heavy, Dragline, who ends up admiring the new guy's unbreakable will. Luke's bravado, even in the face of repeated stints in the prison's dreaded solitary confinement cell, \"the box,\" make him a rebel hero to his fellow convicts and a thorn in the side of the prison officers.",
+        "release_date": "1967-06-22",
+        "release_year": "1967",
+        "title": "Cool Hand Luke"
+      },
+      {
+        "cast": [
+          "Jackie Chan",
+          "Chris Tucker",
+          "Ken Leung",
+          "Tom Wilkinson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Brett Ratner",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "When Hong Kong Inspector Lee is summoned to Los Angeles to investigate a kidnapping, the FBI doesn't want any outside help and assigns cocky LAPD Detective James Carter to distract Lee from the case. Not content to watch the action from the sidelines, Lee and Carter form an unlikely partnership and investigate the case themselves.",
+        "release_date": "1998-09-18",
+        "release_year": "1998",
+        "title": "Rush Hour"
+      },
+      {
+        "cast": [
+          "Al Pacino",
+          "John Randolph Jones",
+          "Jack Kehoe",
+          "Biff McGuire"
+        ],
+        "country": [
+          "Italy",
+          "United States of America"
+        ],
+        "director": "Sidney Lumet",
+        "genres": [
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The real-life struggle of an honest New York City cop against a corrupt system.",
+        "release_date": "1973-12-05",
+        "release_year": "1973",
+        "title": "Serpico"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Rene Russo",
+          "John Malkovich",
+          "Dylan McDermott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Wolfgang Petersen",
+        "genres": [
+          "Action",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Veteran Secret Service agent Frank Horrigan is a man haunted by his failure to save President Kennedy while serving protection detail in Dallas. Thirty years later, a man calling himself \"Booth\" threatens the life of the current President, forcing Horrigan to come back to protection detail to confront the ghosts from his past.",
+        "release_date": "1993-07-08",
+        "release_year": "1993",
+        "title": "In the Line of Fire"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Catherine McCormack",
+          "Sophie Marceau",
+          "Patrick McGoohan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mel Gibson",
+        "genres": [
+          "Action",
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "release_date": "1995-05-24",
+        "release_year": "1995",
+        "title": "Braveheart"
+      }
+    ],
+    "raw_user_id": "1018",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 98
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7085526426389884
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 15
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that fail to engage or entertain, particularly in the action and comedy genres."
+      ],
+      "liked_patterns": [
+        "Strong preference for action and adventure films with high ratings.",
+        "Enjoyment of dramas that delve into character development and emotional storytelling.",
+        "Appreciation for comedies that balance humor with meaningful narratives."
+      ],
+      "summary": "Unique tastes: Action and Adventure (The user enjoys high-stakes narratives with thrilling sequences and heroic journeys.); Drama with Depth (The user appreciates films that explore complex characters and emotional themes.); Comedy with Heart (The user favors comedies that blend humor with relatable life experiences and relationships.); Thrillers with Intrigue (The user is drawn to suspenseful stories that keep them guessing and engaged.); Romantic Elements (The user enjoys films that incorporate romance, often intertwined with other genres.). Liked patterns: Strong preference for action and adventure films with high ratings., Enjoyment of dramas that delve into character development and emotional storytelling., Appreciation for comedies that balance humor with meaningful narratives.. Disliked patterns: Dislike for films that fail to engage or entertain, particularly in the action and comedy genres..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys high-stakes narratives with thrilling sequences and heroic journeys.",
+          "taste": "Action and Adventure"
+        },
+        {
+          "reason": "The user appreciates films that explore complex characters and emotional themes.",
+          "taste": "Drama with Depth"
+        },
+        {
+          "reason": "The user favors comedies that blend humor with relatable life experiences and relationships.",
+          "taste": "Comedy with Heart"
+        },
+        {
+          "reason": "The user is drawn to suspenseful stories that keep them guessing and engaged.",
+          "taste": "Thrillers with Intrigue"
+        },
+        {
+          "reason": "The user enjoys films that incorporate romance, often intertwined with other genres.",
+          "taste": "Romantic Elements"
+        }
+      ]
+    },
+    "user_id": 1018
+  }
+}

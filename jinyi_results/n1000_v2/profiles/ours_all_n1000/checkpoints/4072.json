@@ -1,0 +1,335 @@
+{
+  "checkpoint_hash": "6222e84dda13ac885301d2371bd2bc8376a706b8e51e3c2061cc02def9895435",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      212,
+      320,
+      42,
+      260,
+      1830,
+      157,
+      1273,
+      1790,
+      851,
+      317
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "2956d02483764ba2a2a544724d022540"
+    ],
+    "sampled_item_ids": [
+      40,
+      59,
+      124,
+      177,
+      212,
+      305,
+      436,
+      466,
+      496,
+      516,
+      535,
+      538,
+      717,
+      1235,
+      1259,
+      1273,
+      1314,
+      1439,
+      1504,
+      1518,
+      2064,
+      2175,
+      2401,
+      2511,
+      2841
+    ],
+    "seed": 42,
+    "source_hash": "bdd6ef51205709725246c20d121ee5cba9b061d8ea1a38106cf9b10209a2b9e8",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4072,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "50-55",
+      "gender": "male",
+      "occupation": "doctor/health care"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Mel Gibson",
+          "Joanne Samuel",
+          "Hugh Keays-Byrne",
+          "Steve Bisley"
+        ],
+        "country": [
+          "Australia"
+        ],
+        "director": "George Miller",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "In a dystopian future Australia, a vicious biker gang murders a cop's family, and makes his fight with them personal.",
+        "release_date": "1979-04-12",
+        "release_year": "1979",
+        "title": "Mad Max"
+      },
+      {
+        "cast": [
+          "Pierce Brosnan",
+          "Jonathan Pryce",
+          "Michelle Yeoh",
+          "Teri Hatcher"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Roger Spottiswoode",
+        "genres": [
+          "Action",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A deranged media mogul is staging international incidents to pit the world's superpowers against each other. Now 007 must take on this evil mastermind in an adrenaline-charged battle to end his reign of terror and prevent global pandemonium.",
+        "release_date": "1997-12-11",
+        "release_year": "1997",
+        "title": "Tomorrow Never Dies"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Tom Cruise",
+          "Valeria Golino",
+          "Gerald R. Molen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.",
+        "release_date": "1988-12-11",
+        "release_year": "1988",
+        "title": "Rain Man"
+      },
+      {
+        "cast": [
+          "Stephen Baldwin",
+          "Gabriel Byrne",
+          "Chazz Palminteri",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Usual Suspects, The"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Gene Hackman",
+          "Ed Harris",
+          "Scott Glenn"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A master thief coincidentally is robbing a house where a murder in which the President of The United States is involved occurs in front of his eyes. He is forced to run yet may hold evidence that could convict the President. A political thriller from and starring Clint Eastwood and based on a novel by David Baldacci.",
+        "release_date": "1997-02-14",
+        "release_year": "1997",
+        "title": "Absolute Power"
+      },
+      {
+        "cast": [
+          "Susan Sarandon",
+          "Geena Davis",
+          "Harvey Keitel",
+          "Brad Pitt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ridley Scott",
+        "genres": [
+          "Action",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Whilst on a short weekend getaway, Louise shoots a man who had tried to rape Thelma. Due to the incriminating circumstances, they make a run for it and thus a cross country chase ensues for the two fugitives. Along the way, both women rediscover the strength of their friendship and surprising aspects of their personalities and self-strengths in the trying times.",
+        "release_date": "1991-05-24",
+        "release_year": "1991",
+        "title": "Thelma & Louise"
+      },
+      {
+        "cast": [
+          "William Hurt",
+          "Kathleen Turner",
+          "Richard Crenna",
+          "Ted Danson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Lawrence Kasdan",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "In the midst of a searing Florida heat wave, a woman convinces her lover, a small-town lawyer, to murder her rich husband.",
+        "release_date": "1981-08-28",
+        "release_year": "1981",
+        "title": "Body Heat"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Georges Adet",
+          "Frank Adu"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Set in 19th-century Russia, Allen is a cowardly serf drafted into the Napoleonic war, who would rather write poetry and obsess over his beautiful but pretentious cousin. Allen's cowardice serves him well when he hides in a cannon and is shot into a tent of French soldiers, making him a national hero. A hilarious parody of Russian literature, Love and Death is a must-see for fans of Allen's films.",
+        "release_date": "1975-06-10",
+        "release_year": "1975",
+        "title": "Love and Death"
+      },
+      {
+        "cast": [
+          "Sean Connery",
+          "Wesley Snipes",
+          "Harvey Keitel",
+          "Cary-Hiroyuki Tagawa"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Philip Kaufman",
+        "genres": [
+          "Action",
+          "Drama",
+          "Mystery"
+        ],
+        "language": "English",
+        "overview": "When a prostitute is found dead in a Los Angeles skyscraper occupied by a large Japanese corporation, detectives John Conner and Web Smith are called in to investigate. Although Conner has previous experience working in Japan, cultural differences make their progress difficult until a security disc showing the murder turns up. Close scrutiny proves the disc has been doctored, and the detectives realize they're dealing with a cover-up as well.",
+        "release_date": "1993-07-30",
+        "release_year": "1993",
+        "title": "Rising Sun"
+      },
+      {
+        "cast": [
+          "John Cusack",
+          "Minnie Driver",
+          "Dan Aykroyd",
+          "Joan Cusack"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "George Armitage",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Martin Blank is a freelance hitman who starts to develop a conscience, which causes him to muff a couple of routine assignments. On the advice of his secretary and his psychiatrist, he attends his 10th year High School reunion in Grosse Pointe, Michigan.",
+        "release_date": "1997-04-11",
+        "release_year": "1997",
+        "title": "Grosse Pointe Blank"
+      }
+    ],
+    "raw_user_id": "4072",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 204
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.8616112459970167
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for poorly received action films that lack depth or engagement.",
+        "Negative response to horror-thriller combinations that fail to deliver suspense."
+      ],
+      "liked_patterns": [
+        "Strong preference for character-driven dramas and emotional narratives.",
+        "Enjoyment of comedies that blend humor with relatable situations.",
+        "Attraction to thrillers that maintain suspense and intrigue."
+      ],
+      "summary": "Unique tastes: Drama (The user appreciates character-driven narratives and emotional depth, as seen in multiple high-rated dramas.); Comedy (The user enjoys humor and light-hearted storytelling, reflected in several well-rated comedies.); Thriller (The user is drawn to suspenseful and engaging plots, indicated by positive ratings for thrillers.); Action (The user has a preference for action-packed sequences and adventurous themes, as shown by their ratings in this genre.); Documentary (The user values informative and thought-provoking content, as evidenced by their ratings for documentaries.). Liked patterns: Strong preference for character-driven dramas and emotional narratives., Enjoyment of comedies that blend humor with relatable situations., Attraction to thrillers that maintain suspense and intrigue.. Disliked patterns: Dislike for poorly received action films that lack depth or engagement., Negative response to horror-thriller combinations that fail to deliver suspense..",
+      "unique_tastes": [
+        {
+          "reason": "The user appreciates character-driven narratives and emotional depth, as seen in multiple high-rated dramas.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys humor and light-hearted storytelling, reflected in several well-rated comedies.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "The user is drawn to suspenseful and engaging plots, indicated by positive ratings for thrillers.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user has a preference for action-packed sequences and adventurous themes, as shown by their ratings in this genre.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The user values informative and thought-provoking content, as evidenced by their ratings for documentaries.",
+          "taste": "Documentary"
+        }
+      ]
+    },
+    "user_id": 4072
+  }
+}

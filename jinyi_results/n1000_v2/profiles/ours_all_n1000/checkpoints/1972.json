@@ -1,0 +1,334 @@
+{
+  "checkpoint_hash": "4d09d866c07a886cfc671d1ecdb63f6f0743a05df777dd1d61a69ca8733cc2cf",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      217,
+      767,
+      42,
+      693,
+      1467,
+      125,
+      840,
+      506,
+      670,
+      1000
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "0ac22338895d457481ea768f9c1e9ada"
+    ],
+    "sampled_item_ids": [
+      24,
+      52,
+      69,
+      88,
+      125,
+      135,
+      137,
+      178,
+      247,
+      322,
+      510,
+      530,
+      547,
+      630,
+      662,
+      717,
+      767,
+      840,
+      995,
+      1299,
+      1300,
+      1467,
+      1530,
+      1587,
+      2146
+    ],
+    "seed": 42,
+    "source_hash": "5c897f496c63dd918b47ccc6006f4bf1e68d49340ae68beb11877138cf8af41a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1972,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "45-49",
+      "gender": "male",
+      "occupation": "technician/engineer"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Sean Connery",
+          "Honor Blackman",
+          "Gert Fröbe",
+          "Shirley Eaton"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Guy Hamilton",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Special agent 007 (Sean Connery) comes face to face with one of the most notorious villains of all time, and now he must outwit and outgun the powerful tycoon to prevent him from cashing in on a devious scheme to raid Fort Knox -- and obliterate the world's economy.",
+        "release_date": "1964-09-17",
+        "release_year": "1964",
+        "title": "Goldfinger"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Diane Keaton",
+          "Tony Roberts",
+          "Carol Kane"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "In the city of New York, comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "release_date": "1977-04-19",
+        "release_year": "1977",
+        "title": "Annie Hall"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Tom Cruise",
+          "Valeria Golino",
+          "Gerald R. Molen"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Selfish yuppie Charlie Babbitt's father left a fortune to his savant brother Raymond and a pittance to Charlie; they travel cross-country.",
+        "release_date": "1988-12-11",
+        "release_year": "1988",
+        "title": "Rain Man"
+      },
+      {
+        "cast": [
+          "Bill Murray",
+          "Karen Allen",
+          "John Forsythe",
+          "Bobcat Goldthwait"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Donner",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "In this modern take on Charles Dickens' \"A Christmas Carol,\" Frank Cross (Bill Murray) is a wildly successful television executive whose cold ambition and curmudgeonly nature has driven away the love of his life, Claire Phillips (Karen Allen). But after firing a staff member, Eliot Loudermilk (Bobcat Goldthwait), on Christmas Eve, Frank is visited by a series of ghosts who give him a chance to re-evaluate his actions and right the wrongs of his past.",
+        "release_date": "1988-11-22",
+        "release_year": "1988",
+        "title": "Scrooged"
+      },
+      {
+        "cast": [
+          "Martin Sheen",
+          "Marlon Brando",
+          "Robert Duvall",
+          "Frederic Forrest"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
+        "release_date": "1979-08-15",
+        "release_year": "1979",
+        "title": "Apocalypse Now"
+      },
+      {
+        "cast": [
+          "Mark Hamill",
+          "Harrison Ford",
+          "Carrie Fisher",
+          "Billy Dee Williams"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Irvin Kershner",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Sci-Fi",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
+        "release_date": "1980-05-17",
+        "release_year": "1980",
+        "title": "Star Wars: Episode V - The Empire Strikes Back"
+      },
+      {
+        "cast": [
+          "Steve McQueen",
+          "James Garner",
+          "Richard Attenborough",
+          "James Donald"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "John Sturges",
+        "genres": [
+          "Adventure",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The Nazis, exasperated at the number of escapes from their prison camps by a relatively small number of Allied prisoners, relocates them to a high-security 'escape-proof' camp to sit out the remainder of the war. Undaunted, the prisoners plan one of the most ambitious escape attempts of World War II. Based on a true story.",
+        "release_date": "1963-06-20",
+        "release_year": "1963",
+        "title": "Great Escape, The"
+      },
+      {
+        "cast": [
+          "Nicoletta Braschi",
+          "Roberto Benigni",
+          "Giorgio Cantarini",
+          "Giustino Durano"
+        ],
+        "country": [
+          "Italy"
+        ],
+        "director": "Roberto Benigni",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "Italian",
+        "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
+        "release_date": "1997-12-20",
+        "release_year": "1997",
+        "title": "Life Is Beautiful (La Vita è bella)"
+      },
+      {
+        "cast": [
+          "Marlon Brando",
+          "Al Pacino",
+          "James Caan",
+          "Richard S. Castellano"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Francis Ford Coppola",
+        "genres": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+        "release_date": "1972-03-14",
+        "release_year": "1972",
+        "title": "Godfather, The"
+      },
+      {
+        "cast": [
+          "Clint Eastwood",
+          "Tommy Lee Jones",
+          "Donald Sutherland",
+          "James Garner"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Clint Eastwood",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Frank Corvin, ‘Hawk’ Hawkins, Jerry O'Neill and ‘Tank’ Sullivan were hotdog members of Project Daedalus, the Air Force's test program for space travel, but their hopes were dashed in 1958 with the formation of NASA and the use of trained chimps. They blackmail their way into orbit when Russia's mysterious ‘Ikon’ communications satellite's orbit begins to degrade and threatens to crash to Earth.",
+        "release_date": "2000-07-31",
+        "release_year": "2000",
+        "title": "Space Cowboys"
+      }
+    ],
+    "raw_user_id": "1972",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 67
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7673483178463635
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed in the sample."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend Drama with other genres like War and Crime.",
+        "Consistent appreciation for films that feature strong character development and moral complexity."
+      ],
+      "summary": "Unique tastes: Strong preference for Drama (The majority of highly rated films belong to the Drama genre, indicating a deep appreciation for character-driven narratives.); Appreciation for War themes (Several highly rated films explore war, suggesting a strong interest in the complexities and moral dilemmas associated with conflict.); Enjoyment of Crime and Thriller elements (A significant number of films rated highly incorporate Crime and Thriller elements, reflecting a taste for suspenseful and engaging storytelling.); Fondness for Comedy (Multiple comedies received high ratings, indicating a preference for humor and light-hearted narratives.); Interest in Historical and Biographical narratives (Films that depict historical events or figures are frequently rated highly, showing a preference for stories grounded in real-life contexts.). Liked patterns: High ratings for films that blend Drama with other genres like War and Crime., Consistent appreciation for films that feature strong character development and moral complexity.. Disliked patterns: No significant patterns of dislike observed in the sample..",
+      "unique_tastes": [
+        {
+          "reason": "The majority of highly rated films belong to the Drama genre, indicating a deep appreciation for character-driven narratives.",
+          "taste": "Strong preference for Drama"
+        },
+        {
+          "reason": "Several highly rated films explore war, suggesting a strong interest in the complexities and moral dilemmas associated with conflict.",
+          "taste": "Appreciation for War themes"
+        },
+        {
+          "reason": "A significant number of films rated highly incorporate Crime and Thriller elements, reflecting a taste for suspenseful and engaging storytelling.",
+          "taste": "Enjoyment of Crime and Thriller elements"
+        },
+        {
+          "reason": "Multiple comedies received high ratings, indicating a preference for humor and light-hearted narratives.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "Films that depict historical events or figures are frequently rated highly, showing a preference for stories grounded in real-life contexts.",
+          "taste": "Interest in Historical and Biographical narratives"
+        }
+      ]
+    },
+    "user_id": 1972
+  }
+}

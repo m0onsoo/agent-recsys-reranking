@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "6054838224bd1d4d92cdb4471741adeeaeaf48fc9784800de13ed791d9dab5c7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      52,
+      447,
+      34,
+      2131,
+      1085,
+      1886,
+      237,
+      1647,
+      1639,
+      2009
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "bb47b0bfad34413a95363329044ce6b1"
+    ],
+    "sampled_item_ids": [
+      23,
+      24,
+      61,
+      133,
+      173,
+      200,
+      222,
+      244,
+      327,
+      377,
+      500,
+      648,
+      759,
+      899,
+      912,
+      950,
+      1019,
+      1093,
+      1188,
+      1284,
+      1432,
+      1446,
+      1485,
+      1497,
+      2252
+    ],
+    "seed": 42,
+    "source_hash": "326c190a1370db199aab39f99a62533bfd4d07de974923d740933c637e34d813",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 1113,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "William H. Macy",
+          "Frances McDormand",
+          "Steve Buscemi",
+          "Peter Stormare"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Joel Coen",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+        "release_date": "1996-04-05",
+        "release_year": "1996",
+        "title": "Fargo"
+      },
+      {
+        "cast": [
+          "Howard Stern",
+          "Mary McCormack",
+          "Kelly Bishop",
+          "Paul Giamatti"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Betty Thomas",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "The auto-biographical story of Howard Stern, the radio-rebel who is now also a TV-personality, an author and a movie star.",
+        "release_date": "1997-03-07",
+        "release_year": "1997",
+        "title": "Private Parts"
+      },
+      {
+        "cast": [
+          "Scott Weinger",
+          "Robin Williams",
+          "Linda Larkin",
+          "Jonathan Freeman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ron Clements",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Princess Jasmine grows tired of being forced to remain in the palace and she sneaks out into the marketplace  in disguise where she meets street-urchin Aladdin and the two fall in love, although she may only marry a prince. After being thrown in jail, Aladdin and becomes embroiled in a plot to find a mysterious lamp with which the evil Jafar hopes to rule the land.",
+        "release_date": "1992-11-25",
+        "release_year": "1992",
+        "title": "Aladdin"
+      },
+      {
+        "cast": [
+          "Mark Borchardt",
+          "Mike Schank",
+          "Tom Schimmels",
+          "Monica Borchardt"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Smith",
+        "genres": [
+          "Documentary"
+        ],
+        "language": "English",
+        "overview": "AMERICAN MOVIE is the story of filmmaker Mark Borchardt, his mission, and his dream. Spanning over two years of intense struggle with his film, his family, financial decline, and spiritual crisis, AMERICAN MOVIE is a portrayal of ambition, obsession, excess, and one man's quest for the American Dream.",
+        "release_date": "1999-11-05",
+        "release_year": "1999",
+        "title": "American Movie"
+      },
+      {
+        "cast": [
+          "George Clooney",
+          "Chris O'Donnell",
+          "Arnold Schwarzenegger",
+          "Uma Thurman"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Joel Schumacher",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Crime"
+        ],
+        "language": "English",
+        "overview": "Along with crime-fighting partner Robin and new recruit Batgirl, Batman battles the dual threat of frosty genius Mr. Freeze and homicidal horticulturalist Poison Ivy. Freeze plans to put Gotham City on ice, while Ivy tries to drive a wedge between the dynamic duo.",
+        "release_date": "1997-06-20",
+        "release_year": "1997",
+        "title": "Batman & Robin"
+      },
+      {
+        "cast": [
+          "Breckin Meyer",
+          "Seann William Scott",
+          "Amy Smart",
+          "Paulo Costanzo"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Todd Phillips",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Four friends take off on an 1800 mile road trip to retrieve an illicit tape mistakenly mailed to a girl friend.",
+        "release_date": "2000-05-19",
+        "release_year": "2000",
+        "title": "Road Trip"
+      },
+      {
+        "cast": [
+          "William Holden",
+          "Alec Guinness",
+          "Jack Hawkins",
+          "Sessue Hayakawa"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "David Lean",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "English",
+        "overview": "The classic story of English POWs in Burma forced to build a bridge to aid the war effort of their Japanese captors. British and American intelligence officers conspire to blow up the structure, but Col. Nicholson , the commander who supervised the bridge's construction, has acquired a sense of pride in his creation and tries to foil their plans.",
+        "release_date": "1957-10-02",
+        "release_year": "1957",
+        "title": "Bridge on the River Kwai, The"
+      },
+      {
+        "cast": [
+          "Brigitte Lin",
+          "Tony Leung Chiu-Wai",
+          "Faye Wong",
+          "Takeshi Kaneshiro"
+        ],
+        "country": [
+          "Hong Kong"
+        ],
+        "director": "Wong Kar-wai",
+        "genres": [
+          "Drama",
+          "Mystery",
+          "Romance"
+        ],
+        "language": "Simplified Chinese",
+        "overview": "Every day, Cop 223 buys a can of pineapple with an expiration date of May 1, symbolizing the day he'll get over his lost love. He's also got his eye on a mysterious woman in a blond wig, oblivious of the fact she's a drug dealer. Cop 663 is distraught with heartbreak over a breakup. But when his ex drops a spare set of his keys at a local cafe, a waitress lets herself into his apartment and spruces up his life.",
+        "release_date": "1994-07-14",
+        "release_year": "1994",
+        "title": "Chungking Express"
+      },
+      {
+        "cast": [
+          "Tatsuya Nakadai",
+          "Tsutomu Yamazaki",
+          "Jinpachi Nezu",
+          "Takashi Shimura"
+        ],
+        "country": [
+          "Japan"
+        ],
+        "director": "Akira Kurosawa",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "Japanese",
+        "overview": "When a warlord dies, a peasant thief is called upon to impersonate him, in order to protect his clan from appearing weak and vulnerable. But he finds himself haunted by the warlord’s spirit as well as his own ambitions.",
+        "release_date": "1980-04-26",
+        "release_year": "1980",
+        "title": "Kagemusha"
+      },
+      {
+        "cast": [
+          "Robert De Niro",
+          "Joe Pesci",
+          "Cathy Moriarty",
+          "Frank Vincent"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Martin Scorsese",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "When Jake LaMotta steps into a boxing ring and obliterates his opponent, he's a prizefighter. But when he treats his family and friends the same way, he's a ticking time bomb, ready to go off at any moment. Though LaMotta wants his family's love, something always seems to come between them. Perhaps it's his violent bouts of paranoia and jealousy. This kind of rage helped make him a champ, but in real life, he winds up in the ring alone.",
+        "release_date": "1980-11-14",
+        "release_year": "1980",
+        "title": "Raging Bull"
+      }
+    ],
+    "raw_user_id": "1113",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 257
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.4689445934859405
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for films that are primarily focused on horror without significant narrative depth.",
+        "Dislike for films that do not effectively balance humor with other genres, particularly in comedies."
+      ],
+      "liked_patterns": [
+        "High ratings for films that blend genres, such as Action with Comedy or Drama with Sci-Fi.",
+        "Consistent appreciation for films that feature strong character development and complex narratives.",
+        "Positive ratings for films that include elements of social commentary or moral dilemmas."
+      ],
+      "summary": "Unique tastes: Appreciation for Sci-Fi and Fantasy (The user enjoys films that explore imaginative concepts and futuristic themes, as seen in multiple high-rated Sci-Fi and Fantasy titles.); Interest in Drama and War Themes (The user rates several dramas and war films highly, indicating a preference for narratives that delve into serious and impactful subjects.); Enjoyment of Comedy (The user has rated a variety of comedies positively, suggesting a strong appreciation for humor and light-hearted storytelling.); Affinity for Action and Adventure (The user shows a liking for action-packed films, often rating them highly, which indicates a preference for excitement and dynamic storytelling.); Tendency to Appreciate Thrillers (The user has rated several thrillers positively, indicating a taste for suspenseful and engaging narratives.). Liked patterns: High ratings for films that blend genres, such as Action with Comedy or Drama with Sci-Fi., Consistent appreciation for films that feature strong character development and complex narratives., Positive ratings for films that include elements of social commentary or moral dilemmas.. Disliked patterns: Low ratings for films that are primarily focused on horror without significant narrative depth., Dislike for films that do not effectively balance humor with other genres, particularly in comedies..",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys films that explore imaginative concepts and futuristic themes, as seen in multiple high-rated Sci-Fi and Fantasy titles.",
+          "taste": "Appreciation for Sci-Fi and Fantasy"
+        },
+        {
+          "reason": "The user rates several dramas and war films highly, indicating a preference for narratives that delve into serious and impactful subjects.",
+          "taste": "Interest in Drama and War Themes"
+        },
+        {
+          "reason": "The user has rated a variety of comedies positively, suggesting a strong appreciation for humor and light-hearted storytelling.",
+          "taste": "Enjoyment of Comedy"
+        },
+        {
+          "reason": "The user shows a liking for action-packed films, often rating them highly, which indicates a preference for excitement and dynamic storytelling.",
+          "taste": "Affinity for Action and Adventure"
+        },
+        {
+          "reason": "The user has rated several thrillers positively, indicating a taste for suspenseful and engaging narratives.",
+          "taste": "Tendency to Appreciate Thrillers"
+        }
+      ]
+    },
+    "user_id": 1113
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "checkpoint_hash": "b6bc055fb7e252c61617cfda3ec623cbe00d48191fd02e179af4c53335a808e1",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      98,
+      507,
+      532,
+      2662,
+      958,
+      44,
+      619,
+      1600,
+      1440,
+      326
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      1,
+      23,
+      24,
+      30,
+      54,
+      124,
+      265,
+      278,
+      332,
+      358,
+      373,
+      377,
+      445,
+      568,
+      918,
+      1443,
+      1593,
+      1600,
+      1668,
+      1903,
+      2049,
+      2237,
+      2315,
+      2479,
+      2509
+    ],
+    "seed": 42,
+    "source_hash": "c615ccd7450f85aa852de615ff6d6ecfaa69d8f385f298a9c7056b8565fc4cd9",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5956,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "female",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Arnold Schwarzenegger",
+          "Linda Hamilton",
+          "Robert Patrick",
+          "Edward Furlong"
+        ],
+        "country": [
+          "France",
+          "United States of America"
+        ],
+        "director": "James Cameron",
+        "genres": [
+          "Action",
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.",
+        "release_date": "1991-07-01",
+        "release_year": "1991",
+        "title": "Terminator 2: Judgment Day"
+      },
+      {
+        "cast": [
+          "Edward Norton",
+          "Edward Furlong",
+          "Beverly D'Angelo",
+          "Avery Brooks"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Tony Kaye",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Derek Vineyard is paroled after serving 3 years in prison for killing two thugs who tried to break into/steal his truck. Through his brother, Danny Vineyard's narration, we learn that before going to prison, Derek was a skinhead and the leader of a violent white supremacist gang that committed acts of racial crime throughout L.A. and his actions greatly influenced Danny. Reformed and fresh out of prison, Derek severs contact with the gang and becomes determined to keep Danny from going down the same violent path as he did.",
+        "release_date": "1998-10-30",
+        "release_year": "1998",
+        "title": "American History X"
+      },
+      {
+        "cast": [
+          "Mel Gibson",
+          "Miranda Richardson",
+          "Timothy Spall",
+          "Imelda Staunton"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Nick Park",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Having been hopelessly repressed and facing eventual certain death at the British chicken farm where they are held, Rocky the american rooster and Ginger the chicken decide to rebel against the evil Mr. and Mrs. Tweedy, the farm's owners. Rocky and Ginger lead their fellow chickens in a great escape from the murderous farmers and their farm of doom.",
+        "release_date": "2000-06-21",
+        "release_year": "2000",
+        "title": "Chicken Run"
+      },
+      {
+        "cast": [
+          "Ben Affleck",
+          "Casey Affleck",
+          "Dave Chappelle",
+          "Kate Hudson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Risa Bramon Garcia",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A collection of twentysomethings try to cope with relationships, loneliness, desire and their individual neuroses.",
+        "release_date": "1999-02-26",
+        "release_year": "1999",
+        "title": "200 Cigarettes"
+      },
+      {
+        "cast": [
+          "Kerry Fox",
+          "Christopher Eccleston",
+          "Ewan McGregor",
+          "Ken Stott"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Danny Boyle",
+        "genres": [
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Three friends discover their new flatmate dead but loaded with cash.",
+        "release_date": "1994-12-22",
+        "release_year": "1994",
+        "title": "Shallow Grave"
+      },
+      {
+        "cast": [
+          "Franka Potente",
+          "Moritz Bleibtreu",
+          "Herbert Knaup",
+          "Nina Petri"
+        ],
+        "country": [
+          "Germany"
+        ],
+        "director": "Tom Tykwer",
+        "genres": [
+          "Action",
+          "Crime",
+          "Romance"
+        ],
+        "language": "German",
+        "overview": "Lola receives a phone call from her boyfriend Manni. He lost 100,000 DM in a subway train that belongs to a very bad guy. She has 20 minutes to raise this amount and meet Manni. Otherwise, he will rob a store to get the money. Three different alternatives may happen depending on some minor event along Lola's run.",
+        "release_date": "1998-08-20",
+        "release_year": "1998",
+        "title": "Run Lola Run (Lola rennt)"
+      },
+      {
+        "cast": [
+          "Jason Lee",
+          "Jeremy London",
+          "Shannen Doherty",
+          "Claire Forlani"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kevin Smith",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Both dumped by their girlfriends, two best friends seek refuge in the local mall.",
+        "release_date": "1995-10-20",
+        "release_year": "1995",
+        "title": "Mallrats"
+      },
+      {
+        "cast": [
+          "Julia Roberts",
+          "Susan Sarandon",
+          "Ed Harris",
+          "Jena Malone"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Columbus",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jackie is a divorced mother of two. Isabel is the career minded girlfriend of Jackie’s ex-husband Luke, forced into the role of unwelcome stepmother to their children. But when Jackie discovers she is ill, both women realise they must put aside their differences to find a common ground and celebrate life to the fullest, while they have the chance.",
+        "release_date": "1998-12-25",
+        "release_year": "1998",
+        "title": "Stepmom"
+      },
+      {
+        "cast": [
+          "Bridget Fonda",
+          "Jennifer Jason Leigh",
+          "Steven Weber",
+          "Peter Friedman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barbet Schroeder",
+        "genres": [
+          "Action"
+        ],
+        "language": "English",
+        "overview": "Attractive Manhattanite Allison Jones has it all: a handsome beau, a rent-controlled apartment, and a promising career as a fashion designer. When boyfriend Sam proves unfaithful, Allison strikes out on her own but must use the classifieds to seek out a roommate in order to keep her spacious digs.",
+        "release_date": "1992-08-14",
+        "release_year": "1992",
+        "title": "Single White Female"
+      },
+      {
+        "cast": [
+          "Tim Robbins",
+          "Elizabeth Peña",
+          "Danny Aiello",
+          "Matt Craven"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Adrian Lyne",
+        "genres": [
+          "Horror",
+          "Mystery",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A traumatized Vietnam war veteran finds out that his post-war life isn't what he believes it to be when he's attacked by horned creatures in the subway and his dead son comes to visit him...",
+        "release_date": "1990-11-02",
+        "release_year": "1990",
+        "title": "Jacob's Ladder"
+      }
+    ],
+    "raw_user_id": "5956",
+    "social_traits": {
+      "activity": {
+        "label": "occasional viewer",
+        "level": 2,
+        "value": 235
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5980215482659863
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Dislike for films that are primarily children's or fantasy-oriented without deeper themes.",
+        "Negative reception of films that lack engaging narratives or character depth."
+      ],
+      "liked_patterns": [
+        "Enjoyment of drama films that explore complex themes and character development.",
+        "Appreciation for comedies that incorporate elements of romance or drama.",
+        "Interest in films that blend genres, such as drama with thriller or comedy."
+      ],
+      "summary": "Unique tastes: Drama (The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for drama films.); Comedy (The user enjoys comedic elements, reflected in several ratings of 3 or above for comedy films.); Romance (Romantic themes are appreciated, with several films rated positively that incorporate romance.); Thriller (The user is drawn to thrillers, as indicated by positive ratings for films that blend drama with thriller elements.); Animation (The user has a liking for animated films, particularly those that combine comedy and other genres.). Liked patterns: Enjoyment of drama films that explore complex themes and character development., Appreciation for comedies that incorporate elements of romance or drama., Interest in films that blend genres, such as drama with thriller or comedy.. Disliked patterns: Dislike for films that are primarily children's or fantasy-oriented without deeper themes., Negative reception of films that lack engaging narratives or character depth..",
+      "unique_tastes": [
+        {
+          "reason": "The user shows a strong preference for dramatic narratives, as evidenced by multiple high ratings for drama films.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "The user enjoys comedic elements, reflected in several ratings of 3 or above for comedy films.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Romantic themes are appreciated, with several films rated positively that incorporate romance.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "The user is drawn to thrillers, as indicated by positive ratings for films that blend drama with thriller elements.",
+          "taste": "Thriller"
+        },
+        {
+          "reason": "The user has a liking for animated films, particularly those that combine comedy and other genres.",
+          "taste": "Animation"
+        }
+      ]
+    },
+    "user_id": 5956
+  }
+}

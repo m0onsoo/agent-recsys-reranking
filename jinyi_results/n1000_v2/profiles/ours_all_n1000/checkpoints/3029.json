@@ -1,0 +1,338 @@
+{
+  "checkpoint_hash": "7281e649ff83864e721f109b3275d623a558c5f5d08533c45ffc6ead221b8f79",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      11,
+      163,
+      661,
+      2828,
+      604,
+      1067,
+      372,
+      288,
+      92,
+      2001
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "recovered_call_ids": [
+      "005196ea62d04b79a21afaab4d6dd8c5"
+    ],
+    "sampled_item_ids": [
+      28,
+      75,
+      90,
+      108,
+      128,
+      276,
+      355,
+      378,
+      391,
+      432,
+      623,
+      679,
+      761,
+      1046,
+      1051,
+      1052,
+      1407,
+      1501,
+      1525,
+      1603,
+      1731,
+      1943,
+      2062,
+      2065,
+      2283
+    ],
+    "seed": 42,
+    "source_hash": "72c2c57369e64664cec3e95e65bd6a6c57ac2f5bf31c5deeef584385ae84bcec",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 3029,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "18-24",
+      "gender": "male",
+      "occupation": "college/grad student"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Paige O'Hara",
+          "Robby Benson",
+          "Richard White",
+          "Jerry Orbach"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Gary Trousdale",
+        "genres": [
+          "Animation",
+          "Children's",
+          "Musical"
+        ],
+        "language": "English",
+        "overview": "Follow the adventures of Belle, a bright young woman who finds herself in the castle of a prince who's been turned into a mysterious beast. With the help of the castle's enchanted staff, Belle soon learns the most important lesson of all -- that true beauty comes from within.",
+        "release_date": "1991-11-13",
+        "release_year": "1991",
+        "title": "Beauty and the Beast"
+      },
+      {
+        "cast": [
+          "Kirk Douglas",
+          "Laurence Olivier",
+          "Jean Simmons",
+          "Charles Laughton"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Stanley Kubrick",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Spartacus is a 1960 American historical drama film directed by Stanley Kubrick and based on the novel of the same name by Howard Fast about the historical life of Spartacus and the Third Servile War. The film stars Kirk Douglas as the rebellious slave Spartacus who leads a violent revolt against the decadent Roman empire. The film was awarded four Oscars and stands today as one of the greatest classics of the Sword and Sandal genre.",
+        "release_date": "1960-10-06",
+        "release_year": "1960",
+        "title": "Spartacus"
+      },
+      {
+        "cast": [
+          "Richard Attenborough",
+          "Elizabeth Perkins",
+          "Dylan McDermott",
+          "J.T. Walsh"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Les Mayfield",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A little girl discovers dreams can come true if you really believe. Six-year-old Susan Walker has doubts about childhood's most enduring miracle - Santa Claus. Her mother told her the 'secret' about Santa a long time ago. But after meeting a special department store Santa who's convinced he's the real thing, Susan is given the most precious gift of all something to believe in.",
+        "release_date": "1994-11-18",
+        "release_year": "1994",
+        "title": "Miracle on 34th Street"
+      },
+      {
+        "cast": [
+          "Demi Moore",
+          "Gary Oldman",
+          "Robert Duvall",
+          "Robert Prosky"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Roland Joffé",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Set in puritanical Boston in the mid 1600s, the story of seamstress Hester Prynne, who is outcast after she becomes pregnant by a respected reverend. She refuses to divulge the name of the father, is \"convicted\" of adultery and forced to wear a scarlet \"A\" until an Indian attack unites the Puritans and leads to a reevaluation of their laws and morals.",
+        "release_date": "1995-10-13",
+        "release_year": "1995",
+        "title": "Scarlet Letter, The"
+      },
+      {
+        "cast": [
+          "Tim Curry",
+          "Susan Sarandon",
+          "Barry Bostwick",
+          "Richard O'Brien"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Jim Sharman",
+        "genres": [
+          "Comedy",
+          "Horror",
+          "Musical",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "Sweethearts Brad and Janet, stuck with a flat tire during a storm, discover the eerie mansion of Dr. Frank-N-Furter, a transvestite scientist. As their innocence is lost, Brad and Janet meet a houseful of wild characters, including a rocking biker and a creepy butler. Through elaborate dances and rock songs, Frank-N-Furter unveils his latest creation: a muscular man named 'Rocky'.",
+        "release_date": "1975-08-14",
+        "release_year": "1975",
+        "title": "Rocky Horror Picture Show, The"
+      },
+      {
+        "cast": [
+          "Robin Williams",
+          "Michael Gambon",
+          "Joan Cusack",
+          "Robin Wright"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Fantasy"
+        ],
+        "language": "English",
+        "overview": "Leslie Zevo is a fun-loving inventor who must save his late father's toy factory from his evil uncle, Leland, a war-mongering general who rules the operation with an iron fist and builds weapons disguised as toys.",
+        "release_date": "1992-12-18",
+        "release_year": "1992",
+        "title": "Toys"
+      },
+      {
+        "cast": [
+          "Dustin Hoffman",
+          "Robert De Niro",
+          "Anne Heche",
+          "Woody Harrelson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "During the final weeks of a presidential race, the President is accused of sexual misconduct. To distract the public until the election, the President's adviser hires a Hollywood producer to help him stage a fake war.",
+        "release_date": "1997-12-25",
+        "release_year": "1997",
+        "title": "Wag the Dog"
+      },
+      {
+        "cast": [
+          "Ben Stiller",
+          "Geoffrey Rush",
+          "Claire Forlani",
+          "William H. Macy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Kinka Usher",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When Captain Amazing (Kinnear) is kidnapped by Casanova Frankenstein (Rush) a group of superheroes combine together to create a plan. But these aren't normal superheroes. Now, the group who include such heroes as Mr. Furious (Stiller), The Shoveller (Macy) and The Blue Raja (Azaria) must put all the powers together to save everyone they know and love.",
+        "release_date": "1999-08-06",
+        "release_year": "1999",
+        "title": "Mystery Men"
+      },
+      {
+        "cast": [
+          "Whitney Houston",
+          "Kevin Costner",
+          "Michele Lamar Richards",
+          "Ralph Waite"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mick Jackson",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "A former Secret Service agent grudgingly takes an assignment to protect a pop idol who's threatened by a crazed fan. At first, the safety-obsessed bodyguard and the self-indulgent diva totally clash. But before long, all that tension sparks fireworks of another sort, and the love-averse tough guy is torn between duty and romance.",
+        "release_date": "1992-11-25",
+        "release_year": "1992",
+        "title": "Bodyguard, The"
+      },
+      {
+        "cast": [
+          "Graham Chapman",
+          "John Cleese",
+          "Terry Gilliam",
+          "Eric Idle"
+        ],
+        "country": [
+          "United Kingdom"
+        ],
+        "director": "Ian MacNaughton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "And Now for Something Completely Different is a film spin-off from the television comedy series Monty Python's Flying Circus featuring favourite sketches from the first two seasons.",
+        "release_date": "1971-09-28",
+        "release_year": "1971",
+        "title": "And Now for Something Completely Different"
+      }
+    ],
+    "raw_user_id": "3029",
+    "social_traits": {
+      "activity": {
+        "label": "movie enthusiast",
+        "level": 3,
+        "value": 609
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.7241625459280946
+      },
+      "diversity": {
+        "label": "broad explorer",
+        "level": 3,
+        "value": 18
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for comedies that do not resonate",
+        "Dislike for films that mix comedy with horror elements"
+      ],
+      "liked_patterns": [
+        "High ratings for comedies that blend humor with drama",
+        "Positive reception of animated and family films",
+        "Strong appreciation for films that combine action with adventure"
+      ],
+      "summary": "Unique tastes: Appreciation for Comedy (The user enjoys a variety of comedies, often rating them highly, indicating a preference for humor in their viewing.); Interest in Drama (The user rates many dramas positively, suggesting a strong appreciation for emotional and narrative depth.); Fondness for Family and Children's Films (The user rates several children's and family-oriented films highly, indicating a preference for light-hearted and wholesome content.); Enjoyment of Action and Adventure (The user has rated multiple action and adventure films positively, showing a liking for excitement and thrill.); Tendency towards Musical Elements (The user has shown a preference for films that incorporate musical elements, as seen in their ratings of musicals and films with significant musical components.). Liked patterns: High ratings for comedies that blend humor with drama, Positive reception of animated and family films, Strong appreciation for films that combine action with adventure. Disliked patterns: Low ratings for comedies that do not resonate, Dislike for films that mix comedy with horror elements.",
+      "unique_tastes": [
+        {
+          "reason": "The user enjoys a variety of comedies, often rating them highly, indicating a preference for humor in their viewing.",
+          "taste": "Appreciation for Comedy"
+        },
+        {
+          "reason": "The user rates many dramas positively, suggesting a strong appreciation for emotional and narrative depth.",
+          "taste": "Interest in Drama"
+        },
+        {
+          "reason": "The user rates several children's and family-oriented films highly, indicating a preference for light-hearted and wholesome content.",
+          "taste": "Fondness for Family and Children's Films"
+        },
+        {
+          "reason": "The user has rated multiple action and adventure films positively, showing a liking for excitement and thrill.",
+          "taste": "Enjoyment of Action and Adventure"
+        },
+        {
+          "reason": "The user has shown a preference for films that incorporate musical elements, as seen in their ratings of musicals and films with significant musical components.",
+          "taste": "Tendency towards Musical Elements"
+        }
+      ]
+    },
+    "user_id": 3029
+  }
+}

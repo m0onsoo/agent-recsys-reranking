@@ -1,0 +1,333 @@
+{
+  "checkpoint_hash": "95d5445e32d31fa41d0788a46b6ba8365e2a56f542543f74eec9675d1a2ae416",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      184,
+      1493,
+      1271,
+      1345,
+      316,
+      85,
+      1349,
+      1630,
+      807,
+      172
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      61,
+      85,
+      89,
+      90,
+      93,
+      114,
+      135,
+      152,
+      184,
+      185,
+      374,
+      382,
+      444,
+      467,
+      548,
+      600,
+      796,
+      807,
+      816,
+      829,
+      1186,
+      1424,
+      1630,
+      1652,
+      2393
+    ],
+    "seed": 42,
+    "source_hash": "47dcb5938f6d5db40e88a5221302b9bec2a11e4e6ecaef686aba561c8111672b",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 5076,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "clerical/admin"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "John Cleese",
+          "Jamie Lee Curtis",
+          "Kevin Kline",
+          "Michael Palin"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Charles Crichton",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A diamond advocate is attempting to steal a collection of diamonds, yet troubles arise when he realizes that he is not the only one after the diamonds.",
+        "release_date": "1988-07-15",
+        "release_year": "1988",
+        "title": "Fish Called Wanda, A"
+      },
+      {
+        "cast": [
+          "Mia Farrow",
+          "Jeff Daniels",
+          "Danny Aiello",
+          "Irving Metzman"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Cecilia is a waitress in New Jersey, living a dreary life during the Great Depression. Her only escape from her mudane reality is the movie theatre. After losing her job, Cecilia goes to see 'The Purple Rose of Cairo' in hopes of raising her spirits, where she watches dashing archaeologist Tom Baxter time and again.",
+        "release_date": "1985-03-01",
+        "release_year": "1985",
+        "title": "Purple Rose of Cairo, The"
+      },
+      {
+        "cast": [
+          "Harry Dean Stanton",
+          "Emilio Estevez",
+          "Tracey Walter",
+          "Olivia Barash"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alex Cox",
+        "genres": [
+          "Comedy",
+          "Sci-Fi"
+        ],
+        "language": "English",
+        "overview": "A down and out young punk gets a job working with a seasoned repo man, but what awaits him in his new career is a series of outlandish adventures revolving around aliens, the CIA, and a most wanted '64 Chevy.",
+        "release_date": "1984-02-20",
+        "release_year": "1984",
+        "title": "Repo Man"
+      },
+      {
+        "cast": [
+          "Winona Ryder",
+          "Christian Slater",
+          "Shannen Doherty",
+          "Lisanne Falk"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Michael Lehmann",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A girl who halfheartedly tries to be part of the \"in crowd\" of her school meets a rebel who teaches her a more devious way to play social politics: by killing the popular kids.",
+        "release_date": "1988-10-01",
+        "release_year": "1989",
+        "title": "Heathers"
+      },
+      {
+        "cast": [
+          "Matthew Broderick",
+          "Reese Witherspoon",
+          "Chris Klein",
+          "Jessica Campbell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Alexander Payne",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "A high school teacher's personal life becomes complicated as he works with students during the school elections.",
+        "release_date": "1999-04-23",
+        "release_year": "1999",
+        "title": "Election"
+      },
+      {
+        "cast": [
+          "Wil Wheaton",
+          "River Phoenix",
+          "Corey Feldman",
+          "Jerry O'Connell"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Rob Reiner",
+        "genres": [
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "After the death of a friend, a writer recounts a boyhood journey to find the body of a missing boy.",
+        "release_date": "1986-08-22",
+        "release_year": "1986",
+        "title": "Stand by Me"
+      },
+      {
+        "cast": [
+          "Steve Guttenberg",
+          "Daniel Stern",
+          "Mickey Rourke",
+          "Kevin Bacon"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Barry Levinson",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Set in 1959, Diner shows how five young men resist their adulthood and seek refuge in their beloved Diner. The mundane, childish, and titillating details of their lives are shared. But the golden moments pass, and the men shoulder their responsibilities, leaving the Diner behind.",
+        "release_date": "1982-04-02",
+        "release_year": "1982",
+        "title": "Diner"
+      },
+      {
+        "cast": [
+          "Robert Arkins",
+          "Michael Aherne",
+          "Angeline Ball",
+          "Maria Doyle Kennedy"
+        ],
+        "country": [
+          "Ireland",
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Alan Parker",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "Jimmy Rabbitte, just a tick out of school, gets a brilliant idea: to put a soul band together in Barrytown, his slum home in north Dublin. First he needs musicians and singers: things slowly start to click when he finds three fine-voiced females virtually in his back yard, a lead singer (Deco) at a wedding, and, responding to his ad, an aging trumpet player, Joey \"The Lips\" Fagan.",
+        "release_date": "1991-08-14",
+        "release_year": "1991",
+        "title": "Commitments, The"
+      },
+      {
+        "cast": [
+          "Woody Allen",
+          "Ben Duncan (DJ)",
+          "Daniel Okrent",
+          "Dan Moran"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Woody Allen",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A comedic biopic focused on the life of fictional jazz guitarist Emmett Ray. Ray was an irresponsible, free-spending, arrogant, obnoxious, alcohol-abusing, miserable human being, who was also arguably the best guitarist in the world.",
+        "release_date": "1999-12-03",
+        "release_year": "1999",
+        "title": "Sweet and Lowdown"
+      },
+      {
+        "cast": [
+          "Tom Hanks",
+          "Robin Wright",
+          "Gary Sinise",
+          "Mykelti Williamson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Robert Zemeckis",
+        "genres": [
+          "Comedy",
+          "Romance",
+          "War"
+        ],
+        "language": "English",
+        "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events - in each case, far exceeding what anyone imagined he could do. Yet, despite all the things he has attained, his one true love eludes him. 'Forrest Gump' is the story of a man who rose above his challenges, and who proved that determination, courage, and love are more important than ability.",
+        "release_date": "1994-07-06",
+        "release_year": "1994",
+        "title": "Forrest Gump"
+      }
+    ],
+    "raw_user_id": "5076",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 89
+      },
+      "conformity": {
+        "label": "dedicated follower",
+        "level": 1,
+        "value": 0.5588141392387136
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 16
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "No significant patterns of dislike observed in the sample."
+      ],
+      "liked_patterns": [
+        "Preference for comedies that also incorporate elements of drama and romance.",
+        "Enjoyment of action and adventure films with strong narratives.",
+        "Positive ratings for films that blend humor with emotional depth."
+      ],
+      "summary": "Unique tastes: Comedy (A significant number of movies rated 3 or above belong to the comedy genre, indicating a strong preference for humor.); Drama (Several movies rated 3 or above incorporate dramatic elements, suggesting an appreciation for emotional storytelling.); Romance (Movies that blend comedy with romance are frequently rated positively, showing a liking for romantic themes.); Action (Action films are well-represented among the higher-rated movies, indicating enjoyment of thrilling narratives.); Adventure (The presence of adventure elements in several liked films suggests a preference for stories that involve exploration and excitement.). Liked patterns: Preference for comedies that also incorporate elements of drama and romance., Enjoyment of action and adventure films with strong narratives., Positive ratings for films that blend humor with emotional depth.. Disliked patterns: No significant patterns of dislike observed in the sample..",
+      "unique_tastes": [
+        {
+          "reason": "A significant number of movies rated 3 or above belong to the comedy genre, indicating a strong preference for humor.",
+          "taste": "Comedy"
+        },
+        {
+          "reason": "Several movies rated 3 or above incorporate dramatic elements, suggesting an appreciation for emotional storytelling.",
+          "taste": "Drama"
+        },
+        {
+          "reason": "Movies that blend comedy with romance are frequently rated positively, showing a liking for romantic themes.",
+          "taste": "Romance"
+        },
+        {
+          "reason": "Action films are well-represented among the higher-rated movies, indicating enjoyment of thrilling narratives.",
+          "taste": "Action"
+        },
+        {
+          "reason": "The presence of adventure elements in several liked films suggests a preference for stories that involve exploration and excitement.",
+          "taste": "Adventure"
+        }
+      ]
+    },
+    "user_id": 5076
+  }
+}

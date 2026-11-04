@@ -1,0 +1,329 @@
+{
+  "checkpoint_hash": "ed590344747c0238ae248d6a653a47b39c468bb27b865996d5937ede0481eec7",
+  "configuration_hash": "ea3024a08bf527823d9510aac1ee39ef5075598c6318e8b3d00c94c634de7755",
+  "manifest": {
+    "calls": 1,
+    "enabled_components": [
+      "demographics",
+      "history",
+      "social_traits",
+      "unique_tastes"
+    ],
+    "history_item_ids": [
+      1169,
+      517,
+      816,
+      260,
+      2250,
+      76,
+      119,
+      813,
+      669,
+      789
+    ],
+    "method": "ours",
+    "method_version": "ours_profile_v1",
+    "sampled_item_ids": [
+      49,
+      75,
+      105,
+      114,
+      156,
+      164,
+      185,
+      318,
+      328,
+      360,
+      517,
+      565,
+      619,
+      648,
+      658,
+      733,
+      816,
+      827,
+      1089,
+      1136,
+      1154,
+      1201,
+      1420,
+      1675,
+      2250
+    ],
+    "seed": 42,
+    "source_hash": "4f2fbc0637411f790041de787bd275f31b0a66d93aac00e79394a7891e72d10a",
+    "system_prompt_sha256": "c58baa6cfc293aebee262c9a9540e0a1114fcf3afa917f90e8d0794ef6e98acc",
+    "user_id": 4382,
+    "user_prompt_sha256": "935fdf251cb637454a409937c6ce5bc090eb3dbce98456492deba87700b061fa"
+  },
+  "profile": {
+    "demographics": {
+      "age": "25-34",
+      "gender": "male",
+      "occupation": "tradesman/craftsman"
+    },
+    "interaction_history": [
+      {
+        "cast": [
+          "Milla Jovovich",
+          "Dustin Hoffman",
+          "Faye Dunaway",
+          "John Malkovich"
+        ],
+        "country": [
+          "France"
+        ],
+        "director": "Luc Besson",
+        "genres": [
+          "Drama",
+          "War"
+        ],
+        "language": "French",
+        "overview": "In 1429 a teenage girl from a remote French village stood before her King with a message she claimed came from God; that she would defeat the world's greatest army and liberate her country from its political and religious turmoil. Following her mission to reclaim god's dimished kingdom - through her amazing victories until her violent and untimely death.",
+        "release_date": "1999-10-18",
+        "release_year": "1999",
+        "title": "Messenger: The Story of Joan of Arc, The"
+      },
+      {
+        "cast": [
+          "Giovanni Ribisi",
+          "Vin Diesel",
+          "Nia Long",
+          "Tom Everett Scott"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ben Younger",
+        "genres": [
+          "Drama"
+        ],
+        "language": "English",
+        "overview": "A college dropout gets a job as a broker for a suburban investment firm, which puts him on the fast track to success, but the job might not be as legitimate as it sounds.",
+        "release_date": "2000-02-18",
+        "release_year": "2000",
+        "title": "Boiler Room"
+      },
+      {
+        "cast": [
+          "Jason London",
+          "Rory Cochrane",
+          "Wiley Wiggins",
+          "Sasha Jenson"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Richard Linklater",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "The adventures of a group of Texas teens on their last day of school in 1976, centering on student Randall Floyd, who moves easily among stoners, jocks and geeks. Floyd is a star athlete, but he also likes smoking weed, which presents a conundrum when his football coach demands he sign a \"no drugs\" pledge.",
+        "release_date": "1993-09-24",
+        "release_year": "1993",
+        "title": "Dazed and Confused"
+      },
+      {
+        "cast": [
+          "Stephen Baldwin",
+          "Gabriel Byrne",
+          "Chazz Palminteri",
+          "Kevin Pollak"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Bryan Singer",
+        "genres": [
+          "Crime",
+          "Thriller"
+        ],
+        "language": "English",
+        "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+        "release_date": "1995-07-19",
+        "release_year": "1995",
+        "title": "Usual Suspects, The"
+      },
+      {
+        "cast": [
+          "Trey Parker",
+          "Matt Stone",
+          "Yasmine Bleeth",
+          "Jenny McCarthy"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "David Zucker",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Two losers from Milwaukee, Coop &amp; Remer, invent a new game playing basketball, using baseball rules. When the game becomes a huge success, they, along with a billionaire's help, form the Professional Baseketball League where everyone gets the same pay and no team can change cities. Theirs is the only team standing in the way of major rule changes that the owner of a rival team wants to institute.",
+        "release_date": "1998-07-28",
+        "release_year": "1998",
+        "title": "BASEketball"
+      },
+      {
+        "cast": [
+          "Jeff Bridges",
+          "Robin Williams",
+          "Mercedes Ruehl",
+          "Amanda Plummer"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Terry Gilliam",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Two troubled men face their terrible destinies and events of their past as they join together on a mission to find the Holy Grail and thus to save themselves.",
+        "release_date": "1991-09-09",
+        "release_year": "1991",
+        "title": "Fisher King, The"
+      },
+      {
+        "cast": [
+          "Leonardo DiCaprio",
+          "Jeremy Irons",
+          "Gérard Depardieu",
+          "Gabriel Byrne"
+        ],
+        "country": [
+          "United Kingdom",
+          "United States of America"
+        ],
+        "director": "Randall Wallace",
+        "genres": [
+          "Action",
+          "Drama",
+          "Romance"
+        ],
+        "language": "English",
+        "overview": "Years have passed since the Three Musketeers, Aramis, Athos and Porthos, have fought together with their friend, D'Artagnan. But with the tyrannical King Louis using his power to wreak havoc in the kingdom while his twin brother, Philippe, remains imprisoned, the Musketeers reunite to abduct Louis and replace him with Philippe.",
+        "release_date": "1998-03-12",
+        "release_year": "1998",
+        "title": "Man in the Iron Mask, The"
+      },
+      {
+        "cast": [
+          "Rob Schneider",
+          "William Forsythe",
+          "Eddie Griffin",
+          "Arija Bareikis"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Mike Mitchell",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "Deuce Bigalow is a less than attractive, down on his luck aquarium cleaner. One day he wrecks the house of a gigolo and needs quick money to repair it. The only way he can make it is to become a gigolo himself, taking on an unusual mix of female clients. He encounters a couple of problems, though. He falls in love with one of his unusual clients, and a sleazy police officer is hot on his trail.",
+        "release_date": "1999-12-10",
+        "release_year": "1999",
+        "title": "Deuce Bigalow: Male Gigolo"
+      },
+      {
+        "cast": [
+          "Jim Carrey",
+          "Matthew Broderick",
+          "Leslie Mann",
+          "Jack Black"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Ben Stiller",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "When recently single Steven moves into his new apartment, cable guy Chip comes to hook him up -- and doesn't let go. Initially, Chip is just overzealous in his desire to be Steven's pal, but when Steven tries to end the \"friendship,\" Chip shows his dark side. He begins stalking Steven, who's left to fend for himself because no one else can believe Chip's capable of such behavior.",
+        "release_date": "1996-06-10",
+        "release_year": "1996",
+        "title": "Cable Guy, The"
+      },
+      {
+        "cast": [
+          "Jason Biggs",
+          "Chris Klein",
+          "Thomas Ian Nicholas",
+          "Alyson Hannigan"
+        ],
+        "country": [
+          "United States of America"
+        ],
+        "director": "Chris Weitz",
+        "genres": [
+          "Comedy"
+        ],
+        "language": "English",
+        "overview": "At a high-school party, four friends find that losing their collective virginity isn't as easy as they had thought. But they still believe that they need to do so before college. To motivate themselves, they enter a pact to all \"score.\" by their senior prom.",
+        "release_date": "1999-07-09",
+        "release_year": "1999",
+        "title": "American Pie"
+      }
+    ],
+    "raw_user_id": "4382",
+    "social_traits": {
+      "activity": {
+        "label": "infrequent viewer",
+        "level": 1,
+        "value": 84
+      },
+      "conformity": {
+        "label": "balanced evaluator",
+        "level": 2,
+        "value": 0.9638330023001649
+      },
+      "diversity": {
+        "label": "niche explorer",
+        "level": 2,
+        "value": 14
+      }
+    },
+    "unique_tastes": {
+      "disliked_patterns": [
+        "Low ratings for action films perceived as lacking depth or quality.",
+        "Negative responses to comedies that fail to deliver effective humor.",
+        "Disappointment with films that mix genres but do not execute well."
+      ],
+      "liked_patterns": [
+        "High ratings for drama films that explore complex themes and characters.",
+        "Positive reception of action films that combine adventure with engaging plots.",
+        "Enjoyment of comedies that balance humor with meaningful narratives."
+      ],
+      "summary": "Unique tastes: Appreciation for Drama (The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.); Interest in Action and Adventure (The user enjoys action and adventure genres, as evidenced by multiple high ratings for films in these categories.); Fondness for Comedy (The user has rated several comedies positively, suggesting a preference for humor and lighthearted storytelling.); Preference for Sci-Fi Elements (The user shows a liking for sci-fi themes, as indicated by positive ratings for films that incorporate science fiction elements.); Dislike for Poorly Executed Comedies (The user rates many comedies poorly, indicating a specific expectation for quality in humor.). Liked patterns: High ratings for drama films that explore complex themes and characters., Positive reception of action films that combine adventure with engaging plots., Enjoyment of comedies that balance humor with meaningful narratives.. Disliked patterns: Low ratings for action films perceived as lacking depth or quality., Negative responses to comedies that fail to deliver effective humor., Disappointment with films that mix genres but do not execute well..",
+      "unique_tastes": [
+        {
+          "reason": "The user rates several drama films highly, indicating a strong preference for emotional and character-driven narratives.",
+          "taste": "Appreciation for Drama"
+        },
+        {
+          "reason": "The user enjoys action and adventure genres, as evidenced by multiple high ratings for films in these categories.",
+          "taste": "Interest in Action and Adventure"
+        },
+        {
+          "reason": "The user has rated several comedies positively, suggesting a preference for humor and lighthearted storytelling.",
+          "taste": "Fondness for Comedy"
+        },
+        {
+          "reason": "The user shows a liking for sci-fi themes, as indicated by positive ratings for films that incorporate science fiction elements.",
+          "taste": "Preference for Sci-Fi Elements"
+        },
+        {
+          "reason": "The user rates many comedies poorly, indicating a specific expectation for quality in humor.",
+          "taste": "Dislike for Poorly Executed Comedies"
+        }
+      ]
+    },
+    "user_id": 4382
+  }
+}
