@@ -1,5 +1,28 @@
 # Jinyi's experiment results — agent reranking (MovieLens-1M)
 
+## Latest: Agent4Rec and SimUSER Bias Experiments
+
+**2026-11-24:** [Final simulator-bias results](llm_rec_simulator_bias/README.md)
+cover rating-cue ablation, activity-persona crossover, and randomized position
+bias. All ten new runs completed 1,000 users and passed their audits.
+
+| Experiment | Main finding |
+|---|---|
+| Rating hidden (Agent4Rec) | Showing ratings increases conditional rating uplift for Infrequent and Occasional users; hiding the cue reduces but does not eliminate the preference. |
+| Activity swap (Agent4Rec) | Swapping Infrequent/Frequent descriptions reverses watch rates; unchanged Occasional users are the negative control. |
+| Position random (Agent4Rec) | Pooled P1/P4 **1.255 [1.210, 1.304]**, user-bootstrap 95% CI. |
+| Position random (SimUSER) | Pooled P1/P4 **1.085 [1.068, 1.101]**, user-bootstrap 95% CI; non-monotonic position curve. |
+
+This is a separate simulator-behavior study, not a reranking-accuracy experiment.
+The linked folder contains English reports, aggregate statistics, and figures
+only. Raw runs, per-user records, transcripts, profiles, memories, and credentials
+are not included. The vanilla SimUSER baseline is archived summary evidence;
+its raw run was unavailable locally for a fresh audit.
+
+## Earlier Agent-Reranking Results
+
+The historical notes and results below are retained unchanged.
+
 Last updated: 2026-11-04 (PT). Code: `agent-recsys-reranking`, local branch
 `jinyi/transcripts-validator-fix` = handoff commit `ec7fac9` + `56ba845` + `f217db1` (see Notes).
 Not pushed.

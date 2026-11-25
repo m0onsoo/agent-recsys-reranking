@@ -1,0 +1,253 @@
+{
+  "Agent4Rec": {
+    "users": 1000,
+    "pages": 3271,
+    "exposures": 13084,
+    "selections": 5011,
+    "selection_rate_by_position": {
+      "1": 0.4301436869458881,
+      "2": 0.3879547538978906,
+      "3": 0.3641088352185876,
+      "4": 0.3497401406297768
+    },
+    "position_1_minus_4": 0.0804035463161113,
+    "position_1_over_4": 1.229895104895105,
+    "mean_selected_rank": 2.413490321293155,
+    "uniform_null_mean_rank": 2.5,
+    "pearson_chi_square": 51.356583409475746,
+    "pearson_chi_square_p": 4.106955394005368e-11,
+    "cochran_armitage_z": -6.972814126024324,
+    "cochran_armitage_p_two_sided": 3.1066297021662058e-12,
+    "user_cluster_bootstrap": {
+      "position_1_minus_4_ci": [
+        0.05916131317602107,
+        0.10176983580775441
+      ],
+      "position_1_over_4_ci": [
+        1.1635528675168523,
+        1.3031200296561243
+      ],
+      "mean_selected_rank_ci": [
+        2.391215073647956,
+        2.4354024508209138
+      ]
+    },
+    "adjusted_logistic": {
+      "converged": true,
+      "coefficient": -0.11250134629385301,
+      "cluster_robust_se": 0.015294407781450614,
+      "odds_ratio_per_rank_step": 0.89359614406471,
+      "odds_ratio_95_ci": [
+        0.8672062982807632,
+        0.9207890559263376
+      ],
+      "p_two_sided": 1.8990395373420798e-13,
+      "controls": [
+        "log1p(item train degree)",
+        "held-out ground-truth indicator",
+        "page fixed effects"
+      ]
+    },
+    "selection_rates_by_relevance_stratum": {
+      "non_ground_truth": {
+        "1": {
+          "selected": 659,
+          "exposed": 1847,
+          "rate": 0.3567948023822415
+        },
+        "2": {
+          "selected": 631,
+          "exposed": 1922,
+          "rate": 0.32830385015608743
+        },
+        "3": {
+          "selected": 591,
+          "exposed": 1959,
+          "rate": 0.3016845329249617
+        },
+        "4": {
+          "selected": 538,
+          "exposed": 1903,
+          "rate": 0.28271150814503415
+        }
+      },
+      "ground_truth": {
+        "1": {
+          "selected": 748,
+          "exposed": 1424,
+          "rate": 0.5252808988764045
+        },
+        "2": {
+          "selected": 638,
+          "exposed": 1349,
+          "rate": 0.4729429206819867
+        },
+        "3": {
+          "selected": 600,
+          "exposed": 1312,
+          "rate": 0.4573170731707317
+        },
+        "4": {
+          "selected": 606,
+          "exposed": 1368,
+          "rate": 0.44298245614035087
+        }
+      }
+    }
+  },
+  "SimUSER": {
+    "users": 1000,
+    "pages": 5000,
+    "exposures": 20000,
+    "selections": 12996,
+    "selection_rate_by_position": {
+      "1": 0.7002,
+      "2": 0.6324,
+      "3": 0.616,
+      "4": 0.6506
+    },
+    "position_1_minus_4": 0.04960000000000009,
+    "position_1_over_4": 1.0762373193974795,
+    "mean_selected_rank": 2.4682209910741766,
+    "uniform_null_mean_rank": 2.5,
+    "pearson_chi_square": 87.58131263514021,
+    "pearson_chi_square_p": 7.244057407238487e-19,
+    "cochran_armitage_z": -5.475468253777792,
+    "cochran_armitage_p_two_sided": 4.3635618944508194e-08,
+    "user_cluster_bootstrap": {
+      "position_1_minus_4_ci": [
+        0.032399999999999984,
+        0.06640000000000001
+      ],
+      "position_1_over_4_ci": [
+        1.0491056532790948,
+        1.1036665623718336
+      ],
+      "mean_selected_rank_ci": [
+        2.458029610042466,
+        2.4785238732305706
+      ]
+    },
+    "adjusted_logistic": {
+      "converged": true,
+      "coefficient": -0.07317528431068009,
+      "cluster_robust_se": 0.012443122064857428,
+      "odds_ratio_per_rank_step": 0.9294378998650616,
+      "odds_ratio_95_ci": [
+        0.9070444670454406,
+        0.9523841896301424
+      ],
+      "p_two_sided": 4.083334588738673e-09,
+      "controls": [
+        "log1p(item train degree)",
+        "held-out ground-truth indicator",
+        "page fixed effects"
+      ]
+    },
+    "selection_rates_by_relevance_stratum": {
+      "non_ground_truth": {
+        "1": {
+          "selected": 2166,
+          "exposed": 3202,
+          "rate": 0.6764522173641474
+        },
+        "2": {
+          "selected": 1984,
+          "exposed": 3275,
+          "rate": 0.6058015267175573
+        },
+        "3": {
+          "selected": 1989,
+          "exposed": 3324,
+          "rate": 0.5983754512635379
+        },
+        "4": {
+          "selected": 2025,
+          "exposed": 3254,
+          "rate": 0.6223110018438844
+        }
+      },
+      "ground_truth": {
+        "1": {
+          "selected": 1335,
+          "exposed": 1798,
+          "rate": 0.7424916573971079
+        },
+        "2": {
+          "selected": 1178,
+          "exposed": 1725,
+          "rate": 0.6828985507246377
+        },
+        "3": {
+          "selected": 1091,
+          "exposed": 1676,
+          "rate": 0.6509546539379475
+        },
+        "4": {
+          "selected": 1228,
+          "exposed": 1746,
+          "rate": 0.7033218785796106
+        }
+      }
+    }
+  },
+  "_experiment_design": {
+    "position_order": "random",
+    "permutation_seed": 20261122,
+    "position_permutation_version": 1,
+    "assignment_counts": {
+      "Agent4Rec": {
+        "1": {
+          "1": 804,
+          "2": 836,
+          "3": 802,
+          "4": 829
+        },
+        "2": {
+          "1": 832,
+          "2": 829,
+          "3": 798,
+          "4": 812
+        },
+        "3": {
+          "1": 780,
+          "2": 830,
+          "3": 802,
+          "4": 859
+        },
+        "4": {
+          "1": 855,
+          "2": 776,
+          "3": 869,
+          "4": 771
+        }
+      },
+      "SimUSER": {
+        "1": {
+          "1": 1208,
+          "2": 1303,
+          "3": 1226,
+          "4": 1263
+        },
+        "2": {
+          "1": 1281,
+          "2": 1226,
+          "3": 1228,
+          "4": 1265
+        },
+        "3": {
+          "1": 1192,
+          "2": 1285,
+          "3": 1239,
+          "4": 1284
+        },
+        "4": {
+          "1": 1319,
+          "2": 1186,
+          "3": 1307,
+          "4": 1188
+        }
+      }
+    }
+  }
+}

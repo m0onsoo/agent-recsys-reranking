@@ -1,0 +1,206 @@
+{
+  "Agent4Rec": {
+    "users": 1000,
+    "pages": 9689,
+    "exposures": 38756,
+    "selections": 14884,
+    "selection_rate_by_position": {
+      "1": 0.4283207761378883,
+      "2": 0.40231190009288886,
+      "3": 0.36433068428114357,
+      "4": 0.34121168335225516
+    },
+    "position_1_minus_4": 0.08710909278563317,
+    "position_1_over_4": 1.2552934059286145,
+    "mean_selected_rank": 2.402579951625907,
+    "uniform_null_mean_rank": 2.5,
+    "pearson_chi_square": 185.02659908655534,
+    "pearson_chi_square_p": 7.242193294657999e-40,
+    "cochran_armitage_z": -13.5448011248745,
+    "cochran_armitage_p_two_sided": 8.504391067402104e-42,
+    "user_cluster_bootstrap": {
+      "position_1_minus_4_ci": [
+        0.07369135149990946,
+        0.10023744388989528
+      ],
+      "position_1_over_4_ci": [
+        1.2103513440891107,
+        1.3042276054228605
+      ],
+      "mean_selected_rank_ci": [
+        2.3876776244104447,
+        2.416793758145243
+      ]
+    },
+    "adjusted_logistic": {
+      "converged": true,
+      "coefficient": -0.1290153206157729,
+      "cluster_robust_se": 0.009631360384022897,
+      "odds_ratio_per_rank_step": 0.8789604992263391,
+      "odds_ratio_95_ci": [
+        0.8625235837532169,
+        0.8957106492536921
+      ],
+      "p_two_sided": 6.438291258693103e-41,
+      "controls": [
+        "log1p(item train degree)",
+        "held-out ground-truth indicator",
+        "page fixed effects",
+        "permutation-seed fixed effects"
+      ]
+    },
+    "selection_rates_by_relevance_stratum": {
+      "non_ground_truth": {
+        "1": {
+          "selected": 1974,
+          "exposed": 5534,
+          "rate": 0.3567040115648717
+        },
+        "2": {
+          "selected": 1921,
+          "exposed": 5661,
+          "rate": 0.33933933933933935
+        },
+        "3": {
+          "selected": 1700,
+          "exposed": 5659,
+          "rate": 0.3004064322318431
+        },
+        "4": {
+          "selected": 1567,
+          "exposed": 5668,
+          "rate": 0.2764643613267466
+        }
+      },
+      "ground_truth": {
+        "1": {
+          "selected": 2176,
+          "exposed": 4155,
+          "rate": 0.5237063778580024
+        },
+        "2": {
+          "selected": 1977,
+          "exposed": 4028,
+          "rate": 0.49081429990069514
+        },
+        "3": {
+          "selected": 1830,
+          "exposed": 4030,
+          "rate": 0.45409429280397023
+        },
+        "4": {
+          "selected": 1739,
+          "exposed": 4021,
+          "rate": 0.4324794827157423
+        }
+      }
+    }
+  },
+  "SimUSER": {
+    "users": 1000,
+    "pages": 15000,
+    "exposures": 60000,
+    "selections": 39059,
+    "selection_rate_by_position": {
+      "1": 0.7004666666666667,
+      "2": 0.637,
+      "3": 0.6208666666666667,
+      "4": 0.6456
+    },
+    "position_1_minus_4": 0.05486666666666673,
+    "position_1_over_4": 1.0849855431639819,
+    "mean_selected_rank": 2.4652960905297117,
+    "uniform_null_mean_rank": 2.5,
+    "pearson_chi_square": 236.35987418205536,
+    "pearson_chi_square_p": 5.829862264142492e-51,
+    "cochran_armitage_z": -10.383822434068657,
+    "cochran_armitage_p_two_sided": 2.937721108444118e-25,
+    "user_cluster_bootstrap": {
+      "position_1_minus_4_ci": [
+        0.044466666666666765,
+        0.06499999999999995
+      ],
+      "position_1_over_4_ci": [
+        1.0683138797222143,
+        1.1014052304501016
+      ],
+      "mean_selected_rank_ci": [
+        2.4592104186961916,
+        2.471371523288377
+      ]
+    },
+    "adjusted_logistic": {
+      "converged": true,
+      "coefficient": -0.08158527274340419,
+      "cluster_robust_se": 0.007450715393796092,
+      "odds_ratio_per_rank_step": 0.9216541145280998,
+      "odds_ratio_95_ci": [
+        0.9082926278663074,
+        0.9352121560449421
+      ],
+      "p_two_sided": 6.645360466541315e-28,
+      "controls": [
+        "log1p(item train degree)",
+        "held-out ground-truth indicator",
+        "page fixed effects",
+        "permutation-seed fixed effects"
+      ]
+    },
+    "selection_rates_by_relevance_stratum": {
+      "non_ground_truth": {
+        "1": {
+          "selected": 6545,
+          "exposed": 9671,
+          "rate": 0.6767655878399338
+        },
+        "2": {
+          "selected": 5981,
+          "exposed": 9813,
+          "rate": 0.6094976052175686
+        },
+        "3": {
+          "selected": 5881,
+          "exposed": 9842,
+          "rate": 0.5975411501727291
+        },
+        "4": {
+          "selected": 6086,
+          "exposed": 9839,
+          "rate": 0.6185587966256734
+        }
+      },
+      "ground_truth": {
+        "1": {
+          "selected": 3962,
+          "exposed": 5329,
+          "rate": 0.7434790767498592
+        },
+        "2": {
+          "selected": 3574,
+          "exposed": 5187,
+          "rate": 0.6890302679776364
+        },
+        "3": {
+          "selected": 3432,
+          "exposed": 5158,
+          "rate": 0.6653741760372237
+        },
+        "4": {
+          "selected": 3598,
+          "exposed": 5161,
+          "rate": 0.6971517147839565
+        }
+      }
+    }
+  },
+  "_experiment_design": {
+    "position_order": "random",
+    "permutation_seeds": [
+      20261121,
+      20261122,
+      20261123
+    ],
+    "pooling": "Combined exposure counts; resample the same 1000 users jointly across seeds. Logistic errors cluster by user across all seeds and include seed fixed effects.",
+    "bootstrap_iterations": 5000
+  }
+}

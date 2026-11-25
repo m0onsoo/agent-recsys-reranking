@@ -1,0 +1,37 @@
+{
+  "completed_at": "2026-11-25T02:12:00.997897+00:00",
+  "api_calls": 0,
+  "simulation_reruns": 0,
+  "all_ten_runs_audited": true,
+  "raw_simulation_files_unchanged": true,
+  "raw_files_checked": 39089,
+  "raw_snapshot_sha256": "2f9257e9479647faec01721491a6e5be6f1868a48f085ee89e13f778b9d3d13b",
+  "rating_and_crossover": {
+    "rating_ablation": {
+      "candidate_mismatches": 0,
+      "paired_csv_matches_raw": true,
+      "paired_rows": 108,
+      "matched_impressions_per_condition": 10636
+    },
+    "activity_crossover": {
+      "candidate_mismatches": 0,
+      "paired_csv_matches_raw": true,
+      "paired_rows": 108,
+      "matched_impressions_per_condition": 9760
+    }
+  },
+  "baseline_sha256": "bb0143e30776755faded7349c38edc373c6ba4d174fdf57c31af54739e05b8bd",
+  "baseline_provenance": "Vanilla comparison uses the existing archived analysis/position_bias/summary.json (1,000 users per simulator). The vanilla SimUSER raw-run directory is absent locally, so its baseline cannot be independently re-audited here; no baseline was regenerated or substituted.",
+  "position_seeds": [
+    20261121,
+    20261122,
+    20261123
+  ],
+  "bootstrap_iterations": 5000,
+  "pooled_unique_users_per_simulator": 1000,
+  "pooled_clustering": "user across all seeds",
+  "interpretations": [
+    "Agent4Rec: Causal front-position effect detected (monotonic position curve).",
+    "SimUSER: Causal front-position effect detected (non-monotonic position curve)."
+  ]
+}

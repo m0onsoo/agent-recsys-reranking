@@ -1,0 +1,197 @@
+{
+  "Agent4Rec": {
+    "users": 1000,
+    "pages": 3117,
+    "exposures": 12468,
+    "selections": 4752,
+    "selection_rate_by_position": {
+      "1": 0.4408084696823869,
+      "2": 0.397497593840231,
+      "3": 0.35611164581328203,
+      "4": 0.33012512030798846
+    },
+    "position_1_minus_4": 0.11068334937439844,
+    "position_1_over_4": 1.3352769679300291,
+    "mean_selected_rank": 2.3775252525252526,
+    "uniform_null_mean_rank": 2.5,
+    "pearson_chi_square": 93.25488948583816,
+    "pearson_chi_square_p": 4.378428733624578e-20,
+    "cochran_armitage_z": -9.598748935020224,
+    "cochran_armitage_p_two_sided": 8.092062834699333e-22,
+    "user_cluster_bootstrap": {
+      "position_1_minus_4_ci": [
+        0.09018984471008352,
+        0.1317169037404982
+      ],
+      "position_1_over_4_ci": [
+        1.2641500406247181,
+        1.413586559071996
+      ],
+      "mean_selected_rank_ci": [
+        2.354577187699237,
+        2.3988776477781237
+      ]
+    },
+    "adjusted_logistic": {
+      "converged": true,
+      "coefficient": -0.14722954083302542,
+      "cluster_robust_se": 0.015166832476622354,
+      "odds_ratio_per_rank_step": 0.863095838938903,
+      "odds_ratio_95_ci": [
+        0.8378162015179692,
+        0.8891382451711537
+      ],
+      "p_two_sided": 2.805739687296028e-22,
+      "controls": [
+        "log1p(item train degree)",
+        "held-out ground-truth indicator",
+        "page fixed effects"
+      ]
+    },
+    "selection_rates_by_relevance_stratum": {
+      "non_ground_truth": {
+        "1": {
+          "selected": 612,
+          "exposed": 1646,
+          "rate": 0.3718104495747266
+        },
+        "2": {
+          "selected": 597,
+          "exposed": 1763,
+          "rate": 0.33862733976176973
+        },
+        "3": {
+          "selected": 541,
+          "exposed": 1829,
+          "rate": 0.2957900492072171
+        },
+        "4": {
+          "selected": 505,
+          "exposed": 1871,
+          "rate": 0.2699091394975949
+        }
+      },
+      "ground_truth": {
+        "1": {
+          "selected": 762,
+          "exposed": 1471,
+          "rate": 0.5180149558123726
+        },
+        "2": {
+          "selected": 642,
+          "exposed": 1354,
+          "rate": 0.4741506646971935
+        },
+        "3": {
+          "selected": 569,
+          "exposed": 1288,
+          "rate": 0.4417701863354037
+        },
+        "4": {
+          "selected": 524,
+          "exposed": 1246,
+          "rate": 0.420545746388443
+        }
+      }
+    }
+  },
+  "SimUSER": {
+    "users": 1000,
+    "pages": 5000,
+    "exposures": 20000,
+    "selections": 12932,
+    "selection_rate_by_position": {
+      "1": 0.7028,
+      "2": 0.6362,
+      "3": 0.6094,
+      "4": 0.638
+    },
+    "position_1_minus_4": 0.06479999999999997,
+    "position_1_over_4": 1.1015673981191223,
+    "mean_selected_rank": 2.457237859573152,
+    "uniform_null_mean_rank": 2.5,
+    "pearson_chi_square": 103.3747374932847,
+    "pearson_chi_square_p": 2.9224701207899227e-22,
+    "cochran_armitage_z": -7.316327653205837,
+    "cochran_armitage_p_two_sided": 2.5484896532443584e-13,
+    "user_cluster_bootstrap": {
+      "position_1_minus_4_ci": [
+        0.047395,
+        0.0826
+      ],
+      "position_1_over_4_ci": [
+        1.0727041731639422,
+        1.1315958907915942
+      ],
+      "mean_selected_rank_ci": [
+        2.446349442073774,
+        2.4679902151299697
+      ]
+    },
+    "adjusted_logistic": {
+      "converged": true,
+      "coefficient": -0.08512777590010752,
+      "cluster_robust_se": 0.012945571370075874,
+      "odds_ratio_per_rank_step": 0.9183949281653672,
+      "odds_ratio_95_ci": [
+        0.8953853490387053,
+        0.94199580659367
+      ],
+      "p_two_sided": 4.838503820787768e-11,
+      "controls": [
+        "log1p(item train degree)",
+        "held-out ground-truth indicator",
+        "page fixed effects"
+      ]
+    },
+    "selection_rates_by_relevance_stratum": {
+      "non_ground_truth": {
+        "1": {
+          "selected": 2133,
+          "exposed": 3124,
+          "rate": 0.6827784891165173
+        },
+        "2": {
+          "selected": 2006,
+          "exposed": 3261,
+          "rate": 0.615148727384238
+        },
+        "3": {
+          "selected": 1903,
+          "exposed": 3301,
+          "rate": 0.5764919721296576
+        },
+        "4": {
+          "selected": 2073,
+          "exposed": 3369,
+          "rate": 0.6153161175422974
+        }
+      },
+      "ground_truth": {
+        "1": {
+          "selected": 1381,
+          "exposed": 1876,
+          "rate": 0.7361407249466951
+        },
+        "2": {
+          "selected": 1175,
+          "exposed": 1739,
+          "rate": 0.6756756756756757
+        },
+        "3": {
+          "selected": 1144,
+          "exposed": 1699,
+          "rate": 0.6733372572101236
+        },
+        "4": {
+          "selected": 1117,
+          "exposed": 1631,
+          "rate": 0.6848559166155732
+        }
+      }
+    }
+  },
+  "_experiment_design": {
+    "position_order": "original"
+  }
+}
